@@ -134,6 +134,22 @@
    [
     16.653333333333336,
     18.33
+   ],
+   [
+    29.453333333333337,
+    31.396666666666665
+   ],
+   [
+    31.78666666666667,
+    33.53000000000001
+   ],
+   [
+    37.82,
+    39.730000000000004
+   ],
+   [
+    9.786666666666665,
+    11.63
    ]
   ]
  },
@@ -227,7 +243,7 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed reviews operations of dubai international airport and emirates": {
-  "fails": 1,
+  "fails": 2,
   "shot_ranges": [
    [
     3.9200000000000004,
@@ -261,7 +277,8 @@
     55.25333333333333,
     56.99666666666667
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed tours expand north star 2025 the world s largest gathering for startups and investors": {
   "long": "2026-10-05"

@@ -10,6 +10,7 @@
   "long": "2026-10-05"
  },
  "hamdan bin mohammed marks 20 years leading the executive council of dubai": {
+  "fails": 1,
   "shot_ranges": [
    [
     0.22,
@@ -27,7 +28,8 @@
     20.515,
     25.415
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed meets with elon musk affirms the uae and dubai s vision to foster technology partnerships for greater good": {
   "long": "2026-10-05"
@@ -37,6 +39,26 @@
  },
  "hamdan bin mohammed tours expand north star 2025 the world s largest gathering for startups and investors": {
   "long": "2026-10-05"
+ },
+ "hamdan bin mohammed visits abu dhabi international hunting and equestrian exhibition 2026": {
+  "shot_ranges": [
+   [
+    7.819999999999999,
+    9.73
+   ],
+   [
+    41.85333333333333,
+    43.93000000000001
+   ],
+   [
+    16.186666666666667,
+    19.296666666666663
+   ],
+   [
+    49.45333333333333,
+    51.230000000000004
+   ]
+  ]
  },
  "hamdan bin mohammed visits arabian travel market 2026": {
   "photo_short": true,

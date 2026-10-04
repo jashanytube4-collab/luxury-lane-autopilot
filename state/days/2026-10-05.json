@@ -2,12 +2,25 @@
  "date": "2026-10-05",
  "slots": [
   {
+   "at": "2026-10-05T07:04:19+04:00",
+   "event": "hamdan bin mohammed visits abu dhabi international hunting and equestrian exhibition 2026",
+   "status": "scheduled",
+   "title": "Heritage Alive | Crown Prince Visits Hunting Exhibition 2026 🏹",
+   "type": "short",
+   "video_id": "zed1l4AeEc0"
+  },
+  {
    "at": "2026-10-05T08:56:39+04:00",
    "event": "uae president takes etihad rail to dubai hamdan bin mohammed bin rashid theyab bin mohamed bin zayed open station",
    "status": "scheduled",
    "title": "Dubai Connects With Etihad Rail Network",
    "type": "short",
    "video_id": "HL9lx5l3fvc"
+  },
+  {
+   "at": "2026-10-05T09:43:06+04:00",
+   "status": "open",
+   "type": "short"
   },
   {
    "at": "2026-10-05T10:35:25+04:00",
@@ -24,6 +37,11 @@
    "title": "Sheikh Hamdan Visits Flydubai Pilot | Courage Pays Off",
    "type": "short",
    "video_id": "tMKTjluWPyI"
+  },
+  {
+   "at": "2026-10-05T12:57:23+04:00",
+   "status": "open",
+   "type": "short"
   },
   {
    "at": "2026-10-05T13:42:42+04:00",
@@ -74,6 +92,11 @@
    "video_id": "axXElVBOXEM"
   },
   {
+   "at": "2026-10-05T20:35:48+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
    "at": "2026-10-05T21:27:44+04:00",
    "event": "hamdan bin mohammed visits aster pharmacy s distribution centre in dubai",
    "status": "scheduled",
@@ -88,6 +111,36 @@
    "title": "The Executive Council: 20 Years of Vision & Execution | Sheikh Hamdan Leads Dubai 🏛️",
    "type": "short",
    "video_id": "3da15fDi0vw"
+  },
+  {
+   "at": "2026-10-05T23:59:43+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-06T00:49:02+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-06T01:34:49+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-06T02:22:07+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-06T03:12:48+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-06T04:38:34+04:00",
+   "status": "open",
+   "type": "short"
   }
  ],
  "timezone": "Asia/Dubai"

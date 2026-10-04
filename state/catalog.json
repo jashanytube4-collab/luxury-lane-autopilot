@@ -202,6 +202,30 @@
   ],
   "video_exhausted": true
  },
+ "hamdan bin mohammed reviews operations of dubai international airport and emirates": {
+  "shot_ranges": [
+   [
+    3.9200000000000004,
+    5.863333333333333
+   ],
+   [
+    19.253333333333337,
+    21.096666666666664
+   ],
+   [
+    21.486666666666668,
+    23.063333333333333
+   ],
+   [
+    37.82,
+    39.730000000000004
+   ],
+   [
+    40.12,
+    42.49666666666667
+   ]
+  ]
+ },
  "hamdan bin mohammed tours expand north star 2025 the world s largest gathering for startups and investors": {
   "long": "2026-10-05"
  },
@@ -363,7 +387,8 @@
     50.12,
     52.16333333333334
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed witnesses opening of the 27th general conference of the international council of museums": {
   "long": "2026-10-05"

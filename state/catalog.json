@@ -39,8 +39,12 @@
   "photo_short": true,
   "shot_ranges": []
  },
+ "hamdan bin mohammed attends graduation ceremony for ministry of defence personnel completing the future leaders and young leaders empowerment programmes": {
+  "long": "2026-10-06"
+ },
  "hamdan bin mohammed attends graduation ceremony of 13th cohort of national defence college": {
   "fails": 1,
+  "long": "2026-10-06",
   "shot_ranges": [
    [
     12.453333333333331,
@@ -101,8 +105,17 @@
   ],
   "video_exhausted": true
  },
+ "hamdan bin mohammed attends graduation ceremony of the 26th cohort of the rashid bin saeed al maktoum naval college": {
+  "long": "2026-10-06"
+ },
  "hamdan bin mohammed attends part of national multi sector exercise conducted by ncema uae cyber security council": {
   "long": "2026-10-05"
+ },
+ "hamdan bin mohammed attends the graduation ceremony of rashid bin saeed al maktoum naval college": {
+  "long": "2026-10-06"
+ },
+ "hamdan bin mohammed congratulates four emirati students on winning gold at the international greenwich olympiad": {
+  "long": "2026-10-06"
  },
  "hamdan bin mohammed directs launch of second edition of dubai mallathon": {
   "video_exhausted": true
@@ -320,6 +333,7 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed visits khda commends education community and high level of institutional readiness": {
+  "long": "2026-10-06",
   "shot_ranges": [
    [
     21.453333333333337,

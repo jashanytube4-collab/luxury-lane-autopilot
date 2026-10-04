@@ -1,4 +1,7 @@
 {
+ "hamdan bin mohammed affirms dubai s relentless focus on improving speed and responsiveness of government services": {
+  "video_exhausted": true
+ },
  "hamdan bin mohammed approves dubai longevity authority s strategy and budget following inaugural board meeting": {
   "photo_short": true,
   "shot_ranges": []
@@ -34,6 +37,30 @@
  "hamdan bin mohammed meets with elon musk affirms the uae and dubai s vision to foster technology partnerships for greater good": {
   "long": "2026-10-05"
  },
+ "hamdan bin mohammed meets with global gaming leaders at dubai gaming retreat": {
+  "shot_ranges": [
+   [
+    0.22,
+    2.79
+   ],
+   [
+    3.18,
+    6.33
+   ],
+   [
+    11.959999999999999,
+    14.15
+   ],
+   [
+    14.54,
+    17.209999999999997
+   ],
+   [
+    20.78,
+    22.81
+   ]
+  ]
+ },
  "hamdan bin mohammed meets with local dignitaries and senior officials at nad al sheba majlis": {
   "long": "2026-10-05"
  },
@@ -41,6 +68,7 @@
   "long": "2026-10-05"
  },
  "hamdan bin mohammed visits abu dhabi international hunting and equestrian exhibition 2026": {
+  "fails": 1,
   "shot_ranges": [
    [
     7.819999999999999,
@@ -90,7 +118,8 @@
     75.18666666666667,
     78.663333
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed visits arabian travel market 2026": {
   "photo_short": true,

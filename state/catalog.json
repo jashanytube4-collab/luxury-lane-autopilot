@@ -40,6 +40,7 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed attends graduation ceremony of 13th cohort of national defence college": {
+  "fails": 1,
   "shot_ranges": [
    [
     12.453333333333331,
@@ -97,7 +98,8 @@
     54.38666666666666,
     56.16333333333334
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed attends part of national multi sector exercise conducted by ncema uae cyber security council": {
   "long": "2026-10-05"
@@ -160,6 +162,30 @@
  },
  "hamdan bin mohammed meets with local dignitaries and senior officials at nad al sheba majlis": {
   "long": "2026-10-05"
+ },
+ "hamdan bin mohammed reviews operations and key developments at jebel ali port": {
+  "shot_ranges": [
+   [
+    11.653333333333332,
+    13.13
+   ],
+   [
+    20.78666666666667,
+    22.863333333333333
+   ],
+   [
+    23.253333333333337,
+    25.363333333333333
+   ],
+   [
+    29.78666666666667,
+    31.796666666666663
+   ],
+   [
+    66.82,
+    69.296667
+   ]
+  ]
  },
  "hamdan bin mohammed tours expand north star 2025 the world s largest gathering for startups and investors": {
   "long": "2026-10-05"

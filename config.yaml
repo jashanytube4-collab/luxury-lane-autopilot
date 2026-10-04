@@ -1,0 +1,54 @@
+# The Luxury Lane — autopilot settings.
+# Everything here is safe to edit; the next scheduled run picks it up.
+
+channel:
+  name: The Luxury Lane
+  watermark: THE LUXURY LANE        # small brand mark on every video ("" to disable)
+
+# Source: the official website of H.H. Sheikh Hamdan bin Mohammed (hamdan.ae) — videos, photos and articles.
+
+schedule:
+  timezone: Asia/Dubai
+  shorts_per_day: 10
+  first_post_between: ["08:00", "09:30"]   # first Short of the day lands randomly in this window (local time)
+  gap_minutes: [75, 105]                   # random gap between Shorts; every Short lands in a different hour
+  long_between: ["18:00", "20:00"]         # the daily long-form episode goes out in this evening window
+  days_ahead: 2                            # keep today + tomorrow scheduled, so a missed run never leaves a gap
+  min_lead_minutes: 25                     # never schedule anything sooner than this from "now"
+
+longform:
+  chapters: 6                        # events per episode (each becomes a chapter)
+  target_minutes: 9.5                # aims for 8-12 minutes
+  min_minutes: 7.5
+  max_minutes: 13
+  voice_rate: "-2%"                  # slightly calmer delivery for documentaries
+
+short:
+  min_seconds: 15
+  max_seconds: 20
+  fps: 30
+
+voice:
+  engine: edge                       # edge (Microsoft neural, free) — falls back to kokoro automatically
+  edge_voice: en-US-AndrewMultilingualNeural
+  edge_rate: "+6%"
+  kokoro_voice: am_michael
+  kokoro_speed: 1.05
+
+ai:
+  # Open-source vision model that runs on the GitHub machine itself — no account, no key, never billed.
+  model_repo: unsloth/Qwen3.5-4B-GGUF
+  model_file: Qwen3.5-4B-Q4_K_M.gguf
+  mmproj_file: mmproj-F16.gguf
+  llama_cpp_version: b11342
+  min_score: 6                       # 0-10 suitability for Shorts; weaker material is skipped
+
+music:
+  volume_db: -21                     # music bed level when the narrator is silent
+  duck_db: -9                        # extra reduction while the narrator speaks
+
+youtube:
+  category_id: "24"                  # Entertainment
+  privacy: scheduled                 # scheduled (publish at the slot time) | private (for testing)
+  base_tags: [Sheikh Hamdan, Fazza, Hamdan bin Mohammed, Crown Prince of Dubai, Dubai, فزاع, حمدان بن محمد]
+  base_hashtags: ["#Fazza", "#SheikhHamdan", "#Dubai"]

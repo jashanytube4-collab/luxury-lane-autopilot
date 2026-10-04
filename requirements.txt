@@ -1,0 +1,17 @@
+# Install torch (CPU build) first — see .github/workflows/shorts.yml — then: pip install -r requirements.txt
+edge-tts==7.2.8
+google-api-python-client==2.201.0
+google-auth==2.59.1
+google-auth-httplib2==0.4.3
+google-auth-oauthlib==1.5.0
+httplib2==0.32.0
+kokoro==0.9.4
+misaki[en]==0.9.4
+numpy==2.2.6
+opencv-python-headless==5.0.0.93
+PyYAML==6.0.3
+requests==2.34.2
+soundfile==0.14.0
+tzdata==2026.4
+pytest==9.1.1
+yt-dlp[default]

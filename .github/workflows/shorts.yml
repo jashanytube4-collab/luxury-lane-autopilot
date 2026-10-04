@@ -1,0 +1,91 @@
+name: Luxury Lane autopilot
+
+on:
+  schedule:
+    # Times are UTC (Dubai = UTC+4). Each run only fills empty slots, so extra runs are harmless safety nets.
+    - cron: "17 0 * * *"    # 04:17 Dubai — main run: finishes today, prepares tomorrow
+    - cron: "43 6 * * *"    # 10:43 Dubai — safety net in case the first run was delayed, failed or ran out of time
+    - cron: "9 13 * * *"    # 17:09 Dubai — tops up tomorrow
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Test mode: make videos but do NOT upload (download them from the run page)"
+        type: boolean
+        default: false
+      max_videos:
+        description: "Make at most this many videos (leave empty for no limit)"
+        required: false
+        default: ""
+
+concurrency:
+  group: luxury-lane-autopilot
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  run:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Keep the schedule switched on
+        # GitHub pauses scheduled workflows after 60 days without repo activity; re-enabling every run prevents it.
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X PUT "repos/${{ github.repository }}/actions/workflows/shorts.yml/enable" || true
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: System packages
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg espeak-ng
+
+      - name: Python packages
+        run: |
+          pip install torch==2.14.1 --index-url https://download.pytorch.org/whl/cpu
+          pip install -r requirements.txt
+          pip install -U "yt-dlp[default]"   # always the newest, YouTube changes often
+
+      - name: Cache AI model and voices
+        uses: actions/cache@v6
+        with:
+          path: |
+            models
+            ~/.cache/huggingface
+          key: ai-qwen35-4b-llama-b11342-kokoro-v1
+
+      - name: Self-test
+        run: python -m pytest -q tests
+
+      - name: Make and schedule videos
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          YT_DOWNLOAD_COOKIES: ${{ secrets.YT_DOWNLOAD_COOKIES }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          LANE_GIT_PUSH: ${{ inputs.dry_run && '0' || '1' }}
+          DRY_RUN: ${{ inputs.dry_run }}
+          MAX_VIDEOS: ${{ inputs.max_videos }}
+        run: |
+          git config user.name "luxury-lane-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          ARGS=""
+          if [ "$DRY_RUN" = "true" ]; then ARGS="--dry-run"; fi
+          if [ -n "$MAX_VIDEOS" ]; then ARGS="$ARGS -n $MAX_VIDEOS"; fi
+          python -m lane.pipeline $ARGS
+
+      - name: Attach test videos
+        if: ${{ always() && inputs.dry_run }}
+        uses: actions/upload-artifact@v7
+        with:
+          name: test-videos
+          path: work/out/
+          retention-days: 7

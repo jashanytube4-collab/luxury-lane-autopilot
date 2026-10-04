@@ -1,0 +1,9 @@
+.venv/
+work/
+scratch/
+__pycache__/
+*.pyc
+client_secret*.json
+*.session
+models/
+.claude/settings.local.json

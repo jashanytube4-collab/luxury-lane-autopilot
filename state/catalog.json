@@ -164,6 +164,7 @@
   "long": "2026-10-05"
  },
  "hamdan bin mohammed reviews operations and key developments at jebel ali port": {
+  "fails": 1,
   "shot_ranges": [
    [
     11.653333333333332,
@@ -185,7 +186,8 @@
     66.82,
     69.296667
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed tours expand north star 2025 the world s largest gathering for startups and investors": {
   "long": "2026-10-05"
@@ -316,6 +318,26 @@
   "fails": 1,
   "photo_short": true,
   "shot_ranges": []
+ },
+ "hamdan bin mohammed visits khda commends education community and high level of institutional readiness": {
+  "shot_ranges": [
+   [
+    21.453333333333337,
+    23.096666666666664
+   ],
+   [
+    30.486666666666668,
+    31.963333333333335
+   ],
+   [
+    36.88666666666666,
+    39.09666666666667
+   ],
+   [
+    42.15333333333333,
+    46.03000000000001
+   ]
+  ]
  },
  "hamdan bin mohammed witnesses opening of the 27th general conference of the international council of museums": {
   "long": "2026-10-05"

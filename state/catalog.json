@@ -117,6 +117,26 @@
  "hamdan bin mohammed congratulates four emirati students on winning gold at the international greenwich olympiad": {
   "long": "2026-10-06"
  },
+ "hamdan bin mohammed directs dubai government entities to integrate all individual and business services into a unified digital platform within one year": {
+  "shot_ranges": [
+   [
+    14.386666666666665,
+    16.263333333333332
+   ],
+   [
+    18.720000000000002,
+    20.96333333333333
+   ],
+   [
+    22.953333333333337,
+    24.563333333333333
+   ],
+   [
+    16.653333333333336,
+    18.33
+   ]
+  ]
+ },
  "hamdan bin mohammed directs launch of second edition of dubai mallathon": {
   "video_exhausted": true
  },
@@ -176,6 +196,10 @@
  "hamdan bin mohammed meets with local dignitaries and senior officials at nad al sheba majlis": {
   "long": "2026-10-05"
  },
+ "hamdan bin mohammed reviews newly completed air taxi station near dubai international airport the first facility of its kind in the world": {
+  "fails": 1,
+  "video_exhausted": true
+ },
  "hamdan bin mohammed reviews operations and key developments at jebel ali port": {
   "fails": 1,
   "shot_ranges": [
@@ -203,6 +227,7 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed reviews operations of dubai international airport and emirates": {
+  "fails": 1,
   "shot_ranges": [
    [
     3.9200000000000004,

@@ -19,6 +19,7 @@
   "long": "2026-10-05"
  },
  "hamdan bin mohammed visits arabian travel market 2026": {
+  "photo_short": true,
   "shot_ranges": [
    [
     4.453333333333333,
@@ -48,7 +49,8 @@
     46.12,
     49.13
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed visits flydubai pilot and praises his courage": {
   "fails": 1,

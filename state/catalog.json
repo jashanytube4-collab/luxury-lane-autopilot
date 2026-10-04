@@ -3,6 +3,10 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed approves aed18 billion in landmark projects to shape dubai s future": {
+  "rejected": {
+   "reason": "The source material is a formal meeting scene. The visuals are static and lack the dynamic movement or emotional connection required for a high-scoring vertical Short. While the topic is important, the visual presentation is too generic for a premium channel focused on cinematic storytelling.",
+   "score": 5
+  },
   "shot_ranges": [
    [
     0.22,
@@ -28,14 +32,38 @@
     25.186666666666667,
     27.16333333333333
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed approves dubai longevity authority s strategy and budget following inaugural board meeting": {
   "photo_short": true,
   "shot_ranges": []
  },
+ "hamdan bin mohammed attends graduation ceremony of 13th cohort of national defence college": {
+  "shot_ranges": [
+   [
+    12.453333333333331,
+    16.229999999999997
+   ],
+   [
+    9.553333333333333,
+    12.063333333333333
+   ],
+   [
+    31.58666666666667,
+    33.69666666666667
+   ],
+   [
+    22.520000000000003,
+    25.296666666666663
+   ]
+  ]
+ },
  "hamdan bin mohammed attends part of national multi sector exercise conducted by ncema uae cyber security council": {
   "long": "2026-10-05"
+ },
+ "hamdan bin mohammed directs launch of second edition of dubai mallathon": {
+  "video_exhausted": true
  },
  "hamdan bin mohammed launches dubai founders hq to consolidate and strengthen dubai s startup and sme ecosystem": {
   "long": "2026-10-05"

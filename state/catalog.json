@@ -1,4 +1,8 @@
 {
+ "hamdan bin mohammed approves dubai longevity authority s strategy and budget following inaugural board meeting": {
+  "photo_short": true,
+  "shot_ranges": []
+ },
  "hamdan bin mohammed attends part of national multi sector exercise conducted by ncema uae cyber security council": {
   "long": "2026-10-05"
  },
@@ -14,10 +18,17 @@
  "hamdan bin mohammed tours expand north star 2025 the world s largest gathering for startups and investors": {
   "long": "2026-10-05"
  },
+ "hamdan bin mohammed visits flydubai pilot and praises his courage": {
+  "fails": 1
+ },
  "hamdan bin mohammed witnesses opening of the 27th general conference of the international council of museums": {
   "long": "2026-10-05"
  },
+ "hamdan bin mohammed witnesses unveiling of uae developed probe for emirates mission to the asteroid belt": {
+  "fails": 1
+ },
  "uae president takes etihad rail to dubai hamdan bin mohammed bin rashid theyab bin mohamed bin zayed open station": {
+  "fails": 1,
   "shot_ranges": [
    [
     0.22,
@@ -39,6 +50,7 @@
     40.95333333333333,
     42.730000000000004
    ]
-  ]
+  ],
+  "video_exhausted": true
  }
 }

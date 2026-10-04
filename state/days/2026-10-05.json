@@ -1,0 +1,64 @@
+{
+ "date": "2026-10-05",
+ "slots": [
+  {
+   "at": "2026-10-05T08:56:39+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-05T10:35:25+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-05T11:57:52+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-05T13:42:42+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-05T15:16:05+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-05T16:37:20+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-05T18:04:38+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-05T18:47:46+04:00",
+   "minutes": 11.6,
+   "status": "scheduled",
+   "title": "Architects of Tomorrow: Sheikh Hamdan's Vision",
+   "type": "long",
+   "video_id": "L4UejEyCnEc"
+  },
+  {
+   "at": "2026-10-05T19:48:26+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-05T21:27:44+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-05T22:49:47+04:00",
+   "status": "open",
+   "type": "short"
+  }
+ ],
+ "timezone": "Asia/Dubai"
+}

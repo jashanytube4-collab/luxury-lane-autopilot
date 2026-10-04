@@ -19,7 +19,7 @@ from datetime import datetime, timedelta, timezone
 from .audio import credit_line
 from .brain import AIUnavailable, Brain
 from .config import WORK_DIR, load_config, load_secrets
-from .hamdan import Hamdan, SourceError, load_events, save_events
+from .hamdan import Hamdan, Library, SourceError, load_events, save_events
 from .longform import choose_episode
 from .report import RunReport, setup_logging
 from .schedule import day_slots, long_slot, target_days
@@ -61,7 +61,9 @@ class Runner:
         self.events: dict = load_events()
         self.started = time.monotonic()
         self.brain = Brain(self.cfg["ai"])
-        self.hamdan = Hamdan()
+        lib_repo = self.cfg.get("source", {}).get("library_repo")
+        library = Library(lib_repo, self.secrets.library_token) if lib_repo and self.secrets.library_token else None
+        self.hamdan = Hamdan(library)
         cookies = None
         if self.secrets.yt_download_cookies:
             cookies = WORK_DIR / "yt_cookies.txt"

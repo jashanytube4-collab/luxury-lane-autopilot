@@ -397,7 +397,7 @@ class Brain:
             narration = clean(d.get("narration"))
             if _words(narration) >= lo * 0.7:
                 break
-        if _words(narration) > hi + 20:
+        if _words(narration) > hi + 8:
             narration = self.shorten(narration, hi)
         if _words(narration) < 40:
             raise BrainError(f"chapter {num} narration too short")

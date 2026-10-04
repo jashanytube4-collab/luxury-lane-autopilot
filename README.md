@@ -53,7 +53,9 @@ Follow **[SETUP.md](SETUP.md)** once (about 45 minutes). After that it runs by i
 - **Copyright matching.** Most official footage is also on YouTube, so YouTube's automatic copyright matching
   may recognise it. Heavy editing, new narration and photos lower the risk but can't remove it. Watch
   YouTube Studio for claims in the first weeks.
-- **Download blocks.** If YouTube blocks downloads from GitHub's servers, that day's Shorts and chapters are
-  built from the official photos instead and posting continues. An optional cookies secret helps (SETUP.md).
+- **Footage library.** YouTube blocks downloads from GitHub's servers, so the official videos are copied once into
+  a private GitHub library (`luxury-lane-library`, built with `tools/build_library.py`) and the daily runs read from
+  there. Videos published later that aren't in the library yet are covered by the official photos. To add them, run
+  `tools/build_library.py` again from any home connection (optional).
 - **The 5 daily pictures** you asked for at the start aren't included, because YouTube has no way for software
   to create picture posts.

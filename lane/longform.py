@@ -427,6 +427,18 @@ def produce_episode(*, theme: str, chapters_in: list[dict], package: dict, cfg: 
     chap_voice = [synthesize(c["narration"], vcfg, work / f"v_ch{i}.wav") for i, c in enumerate(chapters_in)]
     outro = synthesize(package["outro"], vcfg, work / "v_outro.wav")
 
+    # length guard, decided before any rendering: drop chapters (keeping the story order) until the episode fits
+    lf0 = cfg.get("longform", {})
+    limit = float(lf0.get("max_minutes", 13)) * 60 - 40
+    fixed = hook.duration + 1.2 + 5.5 + outro.duration + 1.4 + 9.0
+    per_chapter = [3.6 - 0.6 + v.duration + 1.6 for v in chap_voice]
+    while fixed + sum(per_chapter) > limit and len(chapters_in) > 4:
+        drop = max(range(1, len(per_chapter)), key=lambda i: per_chapter[i])  # never the opening chapter
+        log.info("episode too long (%.1f min); dropping chapter %d", (fixed + sum(per_chapter)) / 60, drop + 1)
+        chapters_in = chapters_in[:drop] + chapters_in[drop + 1:]
+        chap_voice = chap_voice[:drop] + chap_voice[drop + 1:]
+        per_chapter = per_chapter[:drop] + per_chapter[drop + 1:]
+
     # 2) timeline (seconds)
     all_vis = [c["visuals"] for c in chapters_in]
     shots: list[Shot] = []

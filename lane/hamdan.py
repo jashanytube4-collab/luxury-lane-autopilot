@@ -55,11 +55,55 @@ def _youtube_id(url: str) -> str | None:
     return m.group(1) if m else None
 
 
+class Library:
+    """Private footage library: a GitHub release holding copies of the official YouTube videos (<id>.mp4).
+    GitHub's servers are blocked by YouTube, but can always read from GitHub."""
+
+    def __init__(self, repo: str, token: str) -> None:
+        self.repo, self.token = repo, token
+        self._assets: dict[str, int] | None = None
+
+    def _api(self, url: str, **kw) -> requests.Response:
+        h = {"Authorization": f"Bearer {self.token}", "X-GitHub-Api-Version": "2022-11-28", **kw.pop("headers", {})}
+        return requests.get(url, headers=h, timeout=60, **kw)
+
+    def assets(self) -> dict[str, int]:
+        if self._assets is None:
+            self._assets = {}
+            rel = self._api(f"https://api.github.com/repos/{self.repo}/releases/tags/footage")
+            if rel.status_code == 200:
+                rid = rel.json()["id"]
+                for page in range(1, 30):
+                    r = self._api(f"https://api.github.com/repos/{self.repo}/releases/{rid}/assets",
+                                  params={"per_page": 100, "page": page})
+                    batch = r.json() if r.status_code == 200 else []
+                    self._assets.update({a["name"]: a["id"] for a in batch})
+                    if len(batch) < 100:
+                        break
+            log.info("footage library: %d videos", len(self._assets))
+        return self._assets
+
+    def fetch(self, name: str, dest: Path) -> bool:
+        aid = self.assets().get(name)
+        if not aid:
+            return False
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        with self._api(f"https://api.github.com/repos/{self.repo}/releases/assets/{aid}",
+                       headers={"Accept": "application/octet-stream"}, stream=True) as r:
+            if r.status_code != 200:
+                return False
+            with open(dest, "wb") as f:
+                for chunk in r.iter_content(1 << 20):
+                    f.write(chunk)
+        return dest.stat().st_size > 200_000
+
+
 class Hamdan:
-    def __init__(self) -> None:
+    def __init__(self, library: Library | None = None) -> None:
         self.s = requests.Session()
         self.s.headers["User-Agent"] = UA
         self._warm = False
+        self.library = library
 
     def _post(self, path: str, body: dict, referer: str = "/en/media-gallery"):
         if not self._warm:
@@ -165,6 +209,8 @@ class Hamdan:
                 with open(dest, "wb") as f:
                     for chunk in r.iter_content(1 << 20):
                         f.write(chunk)
+            return dest
+        if self.library and self.library.fetch(f"{video['ref']}.mp4", dest):
             return dest
         cmd = ["yt-dlp", "--no-warnings", "--no-playlist", "-q", "--js-runtimes", "node", "--retries", "3",
                "-f", "bv*[height<=1080][vcodec^=avc1]/bv*[height<=1080]/b[height<=1080]/b",

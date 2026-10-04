@@ -6,6 +6,8 @@ channel:
   watermark: THE LUXURY LANE        # small brand mark on every video ("" to disable)
 
 # Source: the official website of H.H. Sheikh Hamdan bin Mohammed (hamdan.ae) — videos, photos and articles.
+source:
+  library_repo: jashanytube4-collab/luxury-lane-library   # private copy of the official videos (YouTube blocks GitHub)
 
 schedule:
   timezone: Asia/Dubai

@@ -21,6 +21,7 @@ class Secrets:
     yt_client_secret: str
     yt_refresh_token: str
     yt_download_cookies: str
+    library_token: str
     telegram_bot_token: str
     telegram_chat_id: str
 
@@ -37,6 +38,7 @@ def load_secrets() -> Secrets:
         yt_client_secret=env("YT_CLIENT_SECRET", ""),
         yt_refresh_token=env("YT_REFRESH_TOKEN", ""),
         yt_download_cookies=env("YT_DOWNLOAD_COOKIES", ""),
+        library_token=env("LIBRARY_TOKEN", ""),
         telegram_bot_token=env("TELEGRAM_BOT_TOKEN", ""),
         telegram_chat_id=env("TELEGRAM_CHAT_ID", ""),
     )

@@ -9,6 +9,26 @@
  "hamdan bin mohammed launches dubai founders hq to consolidate and strengthen dubai s startup and sme ecosystem": {
   "long": "2026-10-05"
  },
+ "hamdan bin mohammed marks 20 years leading the executive council of dubai": {
+  "shot_ranges": [
+   [
+    0.22,
+    5.12
+   ],
+   [
+    6.984999999999999,
+    11.885
+   ],
+   [
+    13.749999999999998,
+    18.65
+   ],
+   [
+    20.515,
+    25.415
+   ]
+  ]
+ },
  "hamdan bin mohammed meets with elon musk affirms the uae and dubai s vision to foster technology partnerships for greater good": {
   "long": "2026-10-05"
  },
@@ -53,6 +73,7 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits aster pharmacy s distribution centre in dubai": {
+  "fails": 1,
   "shot_ranges": [
    [
     3.086666666666667,
@@ -82,7 +103,8 @@
     13.053333333333333,
     15.096666666666668
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed visits flydubai pilot and praises his courage": {
   "fails": 1,

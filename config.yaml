@@ -11,9 +11,9 @@ source:
 
 schedule:
   timezone: Asia/Dubai
-  shorts_per_day: 10
-  first_post_between: ["08:00", "09:30"]   # first Short of the day lands randomly in this window (local time)
-  gap_minutes: [75, 105]                   # random gap between Shorts; every Short lands in a different hour
+  shorts_per_day: 20
+  first_post_between: ["07:00", "08:30"]   # first Short of the day lands randomly in this window (local time)
+  gap_minutes: [45, 70]                    # random gap between Shorts; every Short lands in a different hour
   long_between: ["18:00", "20:00"]         # the daily long-form episode goes out in this evening window
   days_ahead: 2                            # keep today + tomorrow scheduled, so a missed run never leaves a gap
   min_lead_minutes: 25                     # never schedule anything sooner than this from "now"
@@ -26,8 +26,8 @@ longform:
   voice_rate: "-2%"                  # slightly calmer delivery for documentaries
 
 short:
-  min_seconds: 15
-  max_seconds: 20
+  min_seconds: 25
+  max_seconds: 35
   fps: 30
 
 voice:

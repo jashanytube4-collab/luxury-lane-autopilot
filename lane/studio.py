@@ -78,6 +78,10 @@ class Studio:
             return "", ""
 
     # ---- Shorts -----------------------------------------------------------------------------------------
+    def _short_target(self, seed: int) -> float:
+        s = self.cfg["short"]
+        return random.Random(seed).uniform(s["min_seconds"] + 2, s["max_seconds"] - 3)
+
     def short_candidates(self, events: dict, usage: dict) -> list[str]:
         """Event keys that can still give a Short: newest first, footage before photo stories."""
         now = datetime.now(timezone.utc).date().isoformat()
@@ -113,7 +117,7 @@ class Studio:
             if sum(b - a for a, b in scenes) < MIN_FRESH_SECONDS:
                 u["video_exhausted"] = True
                 video, scenes = None, []
-            for a, b in scenes[:7]:
+            for a, b in scenes[:9]:
                 items.append({"kind": "video", "start": a, "end": b, "b64": image_b64(video, (a + b) / 2)})
             portrait = info["height"] > info["width"]
         else:
@@ -125,7 +129,7 @@ class Studio:
             items.append({"kind": "photo", "path": str(p), "b64": image_b64(p)})
         brief, text = self.article_text(ev)
         plan = self.brain.plan_short(items, title=ev["title"], date=ev.get("date", ""), brief=brief, article=text,
-                                     target=random.Random(seed).uniform(16.0, 18.5), recent=recent,
+                                     target=self._short_target(seed), recent=recent,
                                      height_gt_width=portrait)
         if not plan["suitable"]:
             if not items or items[0]["kind"] == "photo" or u.get("video_exhausted"):

@@ -54,7 +54,7 @@ SHORT_SCREEN = """Official event: "{title}" ({date}).
 Article summary (official, may be Arabic): \"\"\"{brief}\"\"\"
 The images are {n} moments from this event's footage and photos.
 
-Score (0-10) how strong a 15-20 second Short this material makes for Fazza's fans:
+Score (0-10) how strong a vertical Short (under a minute) this material makes for Fazza's fans:
 - 9-10: Sheikh Hamdan clearly visible in a striking, emotional or spectacular moment (sport, horses, falcons,
   travel, landmarks, warm moments with people, grand venues).
 - 7-8: Sheikh Hamdan visible at an impressive project, visit or ceremony with strong visuals.
@@ -73,7 +73,8 @@ Write a {target:.0f}-second Short. The script must be {lo}-{hi} words.
 - The first 6 words must stop the scroll: a bold, specific statement the pictures pay off. Never open with
   "Did you know", "In this video", "Meet", "This is", "Here's" or a question.
 - One idea. Build to a payoff; end on a line that lands or loops back to the opening.
-- shots: 3-6 items in story order; the first is the most arresting. Prefer video items; photos add variety.
+- shots: 5-9 items in story order (about one every 3-5 seconds); the first is the most arresting. Prefer video
+  items; photos add variety.
 - focus_x: where the main subject is horizontally (0 left, 0.5 centre, 1 right).
 - layout: "fill" when a vertical crop keeps the subject; "frame" for wide group scenes.
 - hook_text: 2-5 words on screen for the first 2 seconds (not the same words as the script opening).
@@ -121,7 +122,7 @@ def _short_screen_schema() -> dict:
 
 def _short_plan_schema(n: int) -> dict:
     return {"type": "object", "properties": {
-        "shots": {"type": "array", "minItems": 3, "maxItems": 6, "items": {"type": "object", "properties": {
+        "shots": {"type": "array", "minItems": min(4, n), "maxItems": min(9, n), "items": {"type": "object", "properties": {
             "item": {"type": "integer", "minimum": 1, "maximum": n},
             "focus_x": {"type": "number", "minimum": 0, "maximum": 1}}, "required": ["item", "focus_x"]}},
         "layout": {"type": "string", "enum": ["fill", "frame"]},

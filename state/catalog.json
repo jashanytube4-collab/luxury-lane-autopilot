@@ -19,13 +19,15 @@
   "long": "2026-10-05"
  },
  "hamdan bin mohammed visits flydubai pilot and praises his courage": {
-  "fails": 1
+  "fails": 1,
+  "photo_short": true,
+  "shot_ranges": []
  },
  "hamdan bin mohammed witnesses opening of the 27th general conference of the international council of museums": {
   "long": "2026-10-05"
  },
  "hamdan bin mohammed witnesses unveiling of uae developed probe for emirates mission to the asteroid belt": {
-  "fails": 1
+  "fails": 2
  },
  "uae president takes etihad rail to dubai hamdan bin mohammed bin rashid theyab bin mohamed bin zayed open station": {
   "fails": 1,

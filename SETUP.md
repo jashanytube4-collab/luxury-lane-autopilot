@@ -23,8 +23,15 @@ picker (top left) → **New project** → name `luxury-lane` → **Create**. Mak
 App name `Luxury Lane Uploader`, your email → **Next** → Audience **External** → **Next** → your email →
 **Next** → tick the agreement → **Create**.
 
-**1.4 Publish it — important.** Open <https://console.cloud.google.com/auth/audience> → **Publish app** →
-**Confirm**. It must say **In production** (in *Testing* Google logs the uploader out every 7 days).
+**1.4 Publish it — important.** (Do step 2 first if you haven't: you need your GitHub repository's address.)
+1. Open <https://console.cloud.google.com/auth/branding> and fill in:
+   - **Application home page:** `https://github.com/YOUR_GITHUB_NAME/luxury-lane-autopilot`
+   - **Application privacy policy link:** `https://github.com/YOUR_GITHUB_NAME/luxury-lane-autopilot/blob/main/PRIVACY.md`
+   - **Authorized domains → Add domain:** `github.com`
+   - Click **Save**.
+2. Open <https://console.cloud.google.com/auth/audience> → **Publish app** → **Confirm**. It must say
+   **In production** (in *Testing* Google logs the uploader out every 7 days). If Google mentions verification,
+   that is fine: you can stay unverified because only you use the app.
 
 **1.5 Key file.** Open <https://console.cloud.google.com/auth/clients> → **Create client** → type
 **Desktop app** → **Create** → **Download JSON** (lands in your Downloads folder).

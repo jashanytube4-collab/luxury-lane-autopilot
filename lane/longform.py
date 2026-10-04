@@ -457,7 +457,7 @@ def produce_episode(*, theme: str, chapters_in: list[dict], package: dict, cfg: 
         if v.video and v.scenes:
             a, b = v.scenes[min(1, len(v.scenes) - 1)]
             montage.append(("video", v.video, a))
-        for p in v.photos[:1]:
+        for p in v.photos[:3]:
             montage.append(("photo", p, 0.0))
     rng.shuffle(montage)
     per = 2.4
@@ -480,7 +480,7 @@ def produce_episode(*, theme: str, chapters_in: list[dict], package: dict, cfg: 
 
     # title sequence
     title_len = 5.5
-    hero = next((v.photos[0] for v in all_vis if v.photos), None) or montage[0][1]
+    hero = _hero_photo([p for v in all_vis for p in v.photos[:4]]) or montage[0][1]
     title_shot = Shot("photo" if hero.suffix.lower() in (".jpg", ".jpeg", ".png") else "video", hero,
                       int(title_len * FPS), style="blur", flash_in=6, dip_out=10)
     shots.append(title_shot)
@@ -650,6 +650,28 @@ def _mix_long(work: Path, duration: float, voice_events, sfx, music_plan, cfg: d
     audio.save(total / max(1.0, float(np.abs(total).max())), raw)
     audio.loudnorm(raw, work / "mix.wav")
     return used
+
+
+def _hero_photo(photos: list[Path]) -> Path | None:
+    """The photo with the largest clearly visible faces (people make the best thumbnails and title cards)."""
+    if not photos:
+        return None
+    try:
+        cascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
+    except Exception:  # noqa: BLE001 — no detector available: keep the first photo
+        return photos[0]
+    best, best_score = photos[0], 0.0
+    for p in photos:
+        img = cv2.imread(str(p), cv2.IMREAD_REDUCED_GRAYSCALE_4)
+        if img is None:
+            continue
+        faces = cascade.detectMultiScale(img, scaleFactor=1.1, minNeighbors=6, minSize=(24, 24))
+        h, w = img.shape[:2]
+        score = sum(fw * fh for (_, _, fw, fh) in faces) / float(w * h)
+        score += 0.02 * min(len(faces), 4)
+        if score > best_score:
+            best, best_score = p, score
+    return best
 
 
 def make_thumbnail(photo: Path, text: str, work: Path) -> Path:

@@ -42,6 +42,37 @@ def day_slots(day: date, cfg: dict, rng: random.Random) -> list[datetime]:
     return slots
 
 
+def top_up(day: date, cfg: dict, existing: list[datetime], rng: random.Random,
+           not_before: datetime) -> list[datetime]:
+    """Extra Short times for a day planned with fewer Shorts than `shorts_per_day` (e.g. after the setting was
+    raised). New times go into hours that have no Short yet, at least min_gap minutes from every other Short."""
+    tz = ZoneInfo(cfg["timezone"])
+    need = int(cfg["shorts_per_day"]) - len(existing)
+    if need <= 0:
+        return []
+    min_gap = timedelta(minutes=cfg["gap_minutes"][0])
+    first = _hm(cfg["first_post_between"][0])
+    start = datetime.combine(day, first, tz).replace(minute=0)
+    taken = list(existing)
+    used_hours = {(t.astimezone(tz).date(), t.astimezone(tz).hour) for t in existing}
+    hours = [start + timedelta(hours=h) for h in range(22)]
+    rng.shuffle(hours)
+    added = []
+    for h in hours:
+        if len(added) >= need:
+            break
+        if (h.date(), h.hour) in used_hours:
+            continue
+        for _ in range(12):
+            t = (h + timedelta(minutes=rng.randint(0, 59), seconds=rng.randint(0, 59))).replace(microsecond=0)
+            if t > not_before and all(abs(t - o) >= min_gap for o in taken):
+                taken.append(t)
+                added.append(t)
+                used_hours.add((t.date(), t.hour))
+                break
+    return sorted(added)
+
+
 def long_slot(day: date, cfg: dict, shorts: list[datetime], rng: random.Random) -> datetime:
     """Evening time for the episode, kept at least 25 minutes away from any Short."""
     tz = ZoneInfo(cfg["timezone"])

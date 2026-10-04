@@ -38,3 +38,18 @@ def test_minutes_stay_random():
     minutes = [s.minute for seed in range(200) for s in day_slots(date(2026, 10, 1), CFG20, random.Random(seed))]
     late = [m for m in minutes if m >= 30]
     assert len(late) > len(minutes) * 0.2
+
+
+def test_top_up_fills_free_hours_with_gaps():
+    from datetime import datetime, timedelta, timezone
+    from lane.schedule import top_up
+    cfg = dict(CFG10, shorts_per_day=20, gap_minutes=[45, 70], first_post_between=["07:00", "08:30"])
+    for seed in range(300):
+        rng = random.Random(seed)
+        existing = day_slots(date(2026, 10, 6), CFG10, rng)
+        past = datetime(2026, 10, 1, tzinfo=timezone.utc)
+        extra = top_up(date(2026, 10, 6), cfg, existing, rng, past)
+        allt = sorted(existing + extra)
+        assert len(extra) >= 4
+        assert len({(t.date(), t.hour) for t in allt}) == len(allt)
+        assert all((b - a) >= timedelta(minutes=45) for a, b in zip(allt, allt[1:]))

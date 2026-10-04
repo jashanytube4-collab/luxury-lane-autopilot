@@ -22,7 +22,7 @@ from .config import WORK_DIR, load_config, load_secrets
 from .hamdan import Hamdan, Library, SourceError, load_events, save_events
 from .longform import choose_episode
 from .report import RunReport, setup_logging
-from .schedule import day_slots, long_slot, target_days
+from .schedule import day_slots, long_slot, target_days, top_up
 from .state import State
 from .studio import Studio
 from .youtube import AuthError, QuotaError, YouTube, key_tag
@@ -241,6 +241,14 @@ class Runner:
             plan = {"date": date_s, "timezone": sc["timezone"], "slots": sorted(slots, key=lambda s: s["at"])}
             self.state.save_day(date_s, plan)
         lead = timedelta(minutes=sc.get("min_lead_minutes", 25))
+        shorts_now = [datetime.fromisoformat(s["at"]) for s in plan["slots"] if s["type"] == "short"]
+        if len(shorts_now) < int(sc["shorts_per_day"]):
+            extra = top_up(day, sc, shorts_now, random.Random(), datetime.now(timezone.utc) + lead)
+            if extra:
+                plan["slots"] = sorted(plan["slots"] + [{"at": t.isoformat(), "type": "short", "status": "open"}
+                                                        for t in extra], key=lambda s: s["at"])
+                self.state.save_day(date_s, plan)
+                self.report.note(f"{date_s}: added {len(extra)} Short slot(s) to match shorts_per_day")
         # the episode first: it is the day's most important upload
         order = sorted(plan["slots"], key=lambda s: (s["type"] != "long", s["at"]))
         for slot in order:

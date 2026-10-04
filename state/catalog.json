@@ -18,6 +18,26 @@
  "hamdan bin mohammed tours expand north star 2025 the world s largest gathering for startups and investors": {
   "long": "2026-10-05"
  },
+ "hamdan bin mohammed visits arabian travel market 2026": {
+  "shot_ranges": [
+   [
+    4.453333333333333,
+    6.863333333333333
+   ],
+   [
+    20.053333333333335,
+    22.096666666666664
+   ],
+   [
+    22.486666666666668,
+    24.363333333333333
+   ],
+   [
+    38.25333333333333,
+    39.96333333333334
+   ]
+  ]
+ },
  "hamdan bin mohammed visits flydubai pilot and praises his courage": {
   "fails": 1,
   "photo_short": true,
@@ -30,7 +50,7 @@
   "fails": 2
  },
  "uae president takes etihad rail to dubai hamdan bin mohammed bin rashid theyab bin mohamed bin zayed open station": {
-  "fails": 1,
+  "fails": 2,
   "shot_ranges": [
    [
     0.22,

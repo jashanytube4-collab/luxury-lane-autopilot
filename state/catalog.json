@@ -39,6 +39,26 @@
   "photo_short": true,
   "shot_ranges": []
  },
+ "hamdan bin mohammed attends dubai camp 2026": {
+  "shot_ranges": [
+   [
+    38.086666666666666,
+    39.763333333333335
+   ],
+   [
+    47.78666666666667,
+    49.59666666666667
+   ],
+   [
+    24.153333333333336,
+    25.729999999999997
+   ],
+   [
+    27.453333333333337,
+    29.93
+   ]
+  ]
+ },
  "hamdan bin mohammed attends graduation ceremony for ministry of defence personnel completing the future leaders and young leaders empowerment programmes": {
   "long": "2026-10-06"
  },
@@ -227,6 +247,7 @@
   "long": "2026-10-05"
  },
  "hamdan bin mohammed receives ramadan well wishers": {
+  "fails": 1,
   "shot_ranges": [
    [
     0.22,
@@ -308,7 +329,8 @@
     64.96,
     69.86
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed reviews newly completed air taxi station near dubai international airport the first facility of its kind in the world": {
   "fails": 1,

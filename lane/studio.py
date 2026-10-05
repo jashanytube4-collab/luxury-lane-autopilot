@@ -22,7 +22,8 @@ from .short import produce
 
 log = logging.getLogger("lane.studio")
 
-MIN_FRESH_SECONDS = 10.0     # a video needs this much unused footage for another Short
+MIN_FRESH_SECONDS = 20.0     # a video needs this much unused footage for another Short
+MAX_SHORTS_PER_EVENT = 3     # one story never gets told more than three times, each with new footage
 
 
 def _slug(key: str) -> str:
@@ -82,7 +83,7 @@ class Studio:
         s = self.cfg["short"]
         return random.Random(seed).uniform(s["min_seconds"] + 2, s["max_seconds"] - 3)
 
-    def short_candidates(self, events: dict, usage: dict, day: str | None = None, cooldown_days: int = 3
+    def short_candidates(self, events: dict, usage: dict, day: str | None = None, cooldown_days: int = 7
                          ) -> list[str]:
         """Event keys that can still give a Short: newest first, footage before photo stories. An event used for a
         Short rests `cooldown_days` before it can give another, so a day never shows the same story twice."""
@@ -95,6 +96,8 @@ class Studio:
             if u.get("rejected") or u.get("fails", 0) >= 2:
                 continue
             if u.get("last_short") and u["last_short"] >= rest_until:
+                continue
+            if u.get("shorts_made", 0) >= MAX_SHORTS_PER_EVENT:
                 continue
             if ev.get("video") and not u.get("video_exhausted"):
                 vids.append(k)

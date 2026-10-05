@@ -215,6 +215,7 @@ class Runner:
                     u["photo_short"] = True
                 u.setdefault("shot_ranges", []).extend(item["ranges"])
                 u["last_short"] = max(u.get("last_short", ""), day.isoformat())
+                u["shorts_made"] = u.get("shorts_made", 0) + 1
                 hooks = self.state.cursors.setdefault("recent_hooks", [])
                 hooks.append(f"{p.get('hook_text', '')} | {p['title']}")
                 del hooks[:-60]

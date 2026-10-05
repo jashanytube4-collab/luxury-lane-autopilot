@@ -3,10 +3,12 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed approves aed18 billion in landmark projects to shape dubai s future": {
+  "last_short": "2026-10-05",
   "rejected": {
    "reason": "The source material is a formal meeting scene. The visuals are static and lack the dynamic movement or emotional connection required for a high-scoring vertical Short. While the topic is important, the visual presentation is too generic for a premium channel focused on cinematic storytelling.",
    "score": 5
   },
+  "shorts_made": 1,
   "shot_ranges": [
    [
     0.22,
@@ -36,11 +38,15 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed approves dubai longevity authority s strategy and budget following inaugural board meeting": {
+  "last_short": "2026-10-05",
   "photo_short": true,
+  "shorts_made": 1,
   "shot_ranges": []
  },
  "hamdan bin mohammed attends dubai camp 2026": {
   "fails": 1,
+  "last_short": "2026-10-06",
+  "shorts_made": 2,
   "shot_ranges": [
    [
     38.086666666666666,
@@ -90,7 +96,9 @@
  },
  "hamdan bin mohammed attends graduation ceremony of 13th cohort of national defence college": {
   "fails": 1,
+  "last_short": "2026-10-05",
   "long": "2026-10-06",
+  "shorts_made": 4,
   "shot_ranges": [
    [
     12.453333333333331,
@@ -156,6 +164,8 @@
  },
  "hamdan bin mohammed attends open masters games abu dhabi 2026": {
   "fails": 1,
+  "last_short": "2026-10-06",
+  "shorts_made": 4,
   "shot_ranges": [
    [
     0.22,
@@ -227,6 +237,8 @@
  },
  "hamdan bin mohammed directs dubai government entities to integrate all individual and business services into a unified digital platform within one year": {
   "fails": 1,
+  "last_short": "2026-10-06",
+  "shorts_made": 3,
   "shot_ranges": [
    [
     14.386666666666665,
@@ -282,6 +294,8 @@
   "long": "2026-10-05"
  },
  "hamdan bin mohammed launches official operations of driverless taxi service in dubai": {
+  "last_short": "2026-10-06",
+  "shorts_made": 3,
   "shot_ranges": [
    [
     30.12,
@@ -331,6 +345,8 @@
  },
  "hamdan bin mohammed marks 20 years leading the executive council of dubai": {
   "fails": 1,
+  "last_short": "2026-10-05",
+  "shorts_made": 1,
   "shot_ranges": [
    [
     0.22,
@@ -355,6 +371,8 @@
   "long": "2026-10-05"
  },
  "hamdan bin mohammed meets with global gaming leaders at dubai gaming retreat": {
+  "last_short": "2026-10-05",
+  "shorts_made": 1,
   "shot_ranges": [
    [
     0.22,
@@ -384,6 +402,8 @@
  },
  "hamdan bin mohammed receives ramadan well wishers": {
   "fails": 1,
+  "last_short": "2026-10-06",
+  "shorts_made": 5,
   "shot_ranges": [
    [
     0.22,
@@ -474,6 +494,8 @@
  },
  "hamdan bin mohammed reviews operations and key developments at jebel ali port": {
   "fails": 1,
+  "last_short": "2026-10-05",
+  "shorts_made": 1,
   "shot_ranges": [
    [
     11.653333333333332,
@@ -500,6 +522,8 @@
  },
  "hamdan bin mohammed reviews operations of dubai international airport and emirates": {
   "fails": 2,
+  "last_short": "2026-10-06",
+  "shorts_made": 2,
   "shot_ranges": [
    [
     3.9200000000000004,
@@ -541,6 +565,8 @@
  },
  "hamdan bin mohammed visits abu dhabi international hunting and equestrian exhibition 2026": {
   "fails": 1,
+  "last_short": "2026-10-05",
+  "shorts_made": 2,
   "shot_ranges": [
    [
     7.819999999999999,
@@ -594,7 +620,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits arabian travel market 2026": {
+  "last_short": "2026-10-05",
   "photo_short": true,
+  "shorts_made": 3,
   "shot_ranges": [
    [
     4.453333333333333,
@@ -629,6 +657,8 @@
  },
  "hamdan bin mohammed visits aster pharmacy s distribution centre in dubai": {
   "fails": 1,
+  "last_short": "2026-10-05",
+  "shorts_made": 3,
   "shot_ranges": [
    [
     3.086666666666667,
@@ -663,11 +693,15 @@
  },
  "hamdan bin mohammed visits flydubai pilot and praises his courage": {
   "fails": 1,
+  "last_short": "2026-10-05",
   "photo_short": true,
+  "shorts_made": 1,
   "shot_ranges": []
  },
  "hamdan bin mohammed visits khda commends education community and high level of institutional readiness": {
+  "last_short": "2026-10-06",
   "long": "2026-10-06",
+  "shorts_made": 2,
   "shot_ranges": [
    [
     21.453333333333337,
@@ -708,6 +742,8 @@
  },
  "uae president takes etihad rail to dubai hamdan bin mohammed bin rashid theyab bin mohamed bin zayed open station": {
   "fails": 2,
+  "last_short": "2026-10-05",
+  "shorts_made": 1,
   "shot_ranges": [
    [
     0.22,

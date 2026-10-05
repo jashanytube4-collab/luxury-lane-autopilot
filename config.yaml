@@ -43,7 +43,7 @@ ai:
   model_file: Qwen3.5-4B-Q4_K_M.gguf
   mmproj_file: mmproj-F16.gguf
   llama_cpp_version: b11342
-  min_score: 6                       # 0-10 suitability for Shorts; weaker material is skipped
+  min_score: 7                       # 0-10 suitability for Shorts; weaker material is skipped
 
 music:
   volume_db: -21                     # music bed level when the narrator is silent

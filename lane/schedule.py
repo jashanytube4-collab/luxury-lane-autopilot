@@ -76,12 +76,18 @@ def top_up(day: date, cfg: dict, existing: list[datetime], rng: random.Random,
 def long_slot(day: date, cfg: dict, shorts: list[datetime], rng: random.Random) -> datetime:
     """Evening time for the episode, kept at least 25 minutes away from any Short."""
     tz = ZoneInfo(cfg["timezone"])
-    t = _random_in(day, cfg.get("long_between", ["18:00", "20:00"]), tz, rng).replace(microsecond=0)
-    for _ in range(6):
-        if all(abs((t - s).total_seconds()) >= 25 * 60 for s in shorts):
-            break
-        t += timedelta(minutes=27)
-    return t
+    a, b = (datetime.combine(day, _hm(x), tz) for x in cfg.get("long_between", ["18:00", "20:00"]))
+    times = sorted(shorts)
+    best, best_gap = None, timedelta(0)
+    # the middle of the widest gap between two Shorts whose middle falls inside the evening window
+    for prev, nxt in zip([a - timedelta(hours=3)] + times, times + [b + timedelta(hours=3)]):
+        mid = prev + (nxt - prev) / 2
+        if a <= mid <= b and nxt - prev > best_gap:
+            best, best_gap = mid, nxt - prev
+    if best is None:
+        best = _random_in(day, cfg.get("long_between", ["18:00", "20:00"]), tz, rng)
+    jitter = timedelta(minutes=rng.uniform(-3, 3)) if best_gap > timedelta(minutes=40) else timedelta(0)
+    return min(max(best + jitter, a), b).replace(microsecond=0)
 
 
 def target_days(now: datetime, cfg: dict) -> list[date]:

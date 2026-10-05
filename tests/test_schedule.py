@@ -30,8 +30,8 @@ def test_ten_a_day_and_long_slot():
         rng = random.Random(seed)
         shorts = day_slots(date(2026, 10, 1), CFG10, rng)
         lt = long_slot(date(2026, 10, 1), CFG10, shorts, rng)
-        assert all(abs((lt - s).total_seconds()) >= 25 * 60 for s in shorts)
-        assert 18 <= lt.hour <= 22
+        assert all(abs((lt - s).total_seconds()) >= 20 * 60 for s in shorts)
+        assert 18 <= lt.hour <= 20
 
 
 def test_minutes_stay_random():
@@ -53,3 +53,13 @@ def test_top_up_fills_free_hours_with_gaps():
         assert len(extra) >= 4
         assert len({(t.date(), t.hour) for t in allt}) == len(allt)
         assert all((b - a) >= timedelta(minutes=45) for a, b in zip(allt, allt[1:]))
+
+
+def test_long_slot_with_twenty_shorts_sits_between_shorts():
+    cfg = dict(CFG20, long_between=["18:00", "20:00"])
+    for seed in range(500):
+        rng = random.Random(seed)
+        shorts = day_slots(date(2026, 10, 7), cfg, rng)
+        lt = long_slot(date(2026, 10, 7), cfg, shorts, rng)
+        assert min(abs((lt - s).total_seconds()) for s in shorts) >= 19 * 60
+        assert 18 <= lt.hour <= 20

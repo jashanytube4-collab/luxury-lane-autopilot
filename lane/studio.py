@@ -82,13 +82,19 @@ class Studio:
         s = self.cfg["short"]
         return random.Random(seed).uniform(s["min_seconds"] + 2, s["max_seconds"] - 3)
 
-    def short_candidates(self, events: dict, usage: dict) -> list[str]:
-        """Event keys that can still give a Short: newest first, footage before photo stories."""
+    def short_candidates(self, events: dict, usage: dict, day: str | None = None, cooldown_days: int = 3
+                         ) -> list[str]:
+        """Event keys that can still give a Short: newest first, footage before photo stories. An event used for a
+        Short rests `cooldown_days` before it can give another, so a day never shows the same story twice."""
         now = datetime.now(timezone.utc).date().isoformat()
+        day = day or now
+        rest_until = _days_ago(day, cooldown_days - 1)
         vids, pics = [], []
         for k, ev in events.items():
             u = usage.get(k, {})
             if u.get("rejected") or u.get("fails", 0) >= 2:
+                continue
+            if u.get("last_short") and u["last_short"] >= rest_until:
                 continue
             if ev.get("video") and not u.get("video_exhausted"):
                 vids.append(k)

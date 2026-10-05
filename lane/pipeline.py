@@ -175,7 +175,7 @@ class Runner:
     # ---- Shorts -----------------------------------------------------------------------------------------
     def fill_short(self, day, slot: dict, plan: dict) -> bool:
         at = datetime.fromisoformat(slot["at"])
-        for key in self.studio.short_candidates(self.events, self.usage):
+        for key in self.studio.short_candidates(self.events, self.usage, day.isoformat()):
             if self.over_budget():
                 self.report.note("Run time budget reached; remaining slots are filled by the next run")
                 return False
@@ -214,6 +214,7 @@ class Runner:
                 if item["photo_only"]:
                     u["photo_short"] = True
                 u.setdefault("shot_ranges", []).extend(item["ranges"])
+                u["last_short"] = max(u.get("last_short", ""), day.isoformat())
                 hooks = self.state.cursors.setdefault("recent_hooks", [])
                 hooks.append(f"{p.get('hook_text', '')} | {p['title']}")
                 del hooks[:-60]

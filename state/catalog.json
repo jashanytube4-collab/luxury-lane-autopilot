@@ -118,6 +118,7 @@
   "long": "2026-10-06"
  },
  "hamdan bin mohammed directs dubai government entities to integrate all individual and business services into a unified digital platform within one year": {
+  "fails": 1,
   "shot_ranges": [
    [
     14.386666666666665,
@@ -163,7 +164,8 @@
     51.32,
     53.696667000000005
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed directs launch of second edition of dubai mallathon": {
   "video_exhausted": true
@@ -223,6 +225,26 @@
  },
  "hamdan bin mohammed meets with local dignitaries and senior officials at nad al sheba majlis": {
   "long": "2026-10-05"
+ },
+ "hamdan bin mohammed receives ramadan well wishers": {
+  "shot_ranges": [
+   [
+    0.22,
+    3.45
+   ],
+   [
+    7.08,
+    9.19
+   ],
+   [
+    12.139999999999999,
+    14.81
+   ],
+   [
+    18.200000000000003,
+    21.09
+   ]
+  ]
  },
  "hamdan bin mohammed reviews newly completed air taxi station near dubai international airport the first facility of its kind in the world": {
   "fails": 1,

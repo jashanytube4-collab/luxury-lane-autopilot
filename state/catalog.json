@@ -155,6 +155,7 @@
   "long": "2026-10-06"
  },
  "hamdan bin mohammed attends open masters games abu dhabi 2026": {
+  "fails": 1,
   "shot_ranges": [
    [
     0.22,
@@ -212,7 +213,8 @@
     45.42,
     47.46333333333334
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed attends part of national multi sector exercise conducted by ncema uae cyber security council": {
   "long": "2026-10-05"
@@ -278,6 +280,26 @@
  },
  "hamdan bin mohammed launches dubai founders hq to consolidate and strengthen dubai s startup and sme ecosystem": {
   "long": "2026-10-05"
+ },
+ "hamdan bin mohammed launches official operations of driverless taxi service in dubai": {
+  "shot_ranges": [
+   [
+    30.12,
+    35.019999999999996
+   ],
+   [
+    0.22,
+    3.75
+   ],
+   [
+    25.6,
+    27.729999999999997
+   ],
+   [
+    23.320000000000004,
+    25.209999999999997
+   ]
+  ]
  },
  "hamdan bin mohammed marks 20 years leading the executive council of dubai": {
   "fails": 1,

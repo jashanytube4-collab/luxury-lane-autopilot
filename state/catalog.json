@@ -52,6 +52,10 @@
   },
   "video_exhausted": true
  },
+ "hamdan bin mohammed attends ceremony marking 49th anniversary of uae armed forces unification": {
+  "fails": 1,
+  "video_exhausted": true
+ },
  "hamdan bin mohammed attends dubai camp 2026": {
   "fails": 1,
   "last_short": "2026-10-06",
@@ -365,6 +369,24 @@
    ]
   ]
  },
+ "hamdan bin mohammed inaugurates dp world s nhava sheva business park in india": {
+  "last_short": "2026-10-07",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    9.139999999999999,
+    11.290000000000001
+   ],
+   [
+    14.999999999999998,
+    18.83
+   ],
+   [
+    27.040000000000003,
+    29.27
+   ]
+  ]
+ },
  "hamdan bin mohammed launches aed 1billion international space cooperation programme to support space research and development": {
   "long": "2026-10-07"
  },
@@ -505,6 +527,9 @@
     30.896666666666665
    ]
   ]
+ },
+ "hamdan bin mohammed meets with uae diplomatic mission in india commends ministry of foreign affairs efforts": {
+  "video_exhausted": true
  },
  "hamdan bin mohammed receives ramadan well wishers": {
   "fails": 1,
@@ -841,6 +866,10 @@
     15.096666666666668
    ]
   ],
+  "video_exhausted": true
+ },
+ "hamdan bin mohammed visits emirates flight catering commends its role in advancing dubai s aviation ecosystem": {
+  "fails": 1,
   "video_exhausted": true
  },
  "hamdan bin mohammed visits flydubai pilot and praises his courage": {

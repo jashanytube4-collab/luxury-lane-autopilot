@@ -351,7 +351,19 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed highlights uae s focus on technology as a development enabler during visit to google s dubai offices": {
-  "long": "2026-10-07"
+  "last_short": "2026-10-07",
+  "long": "2026-10-07",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    4.54,
+    6.03
+   ],
+   [
+    18.46,
+    21.47
+   ]
+  ]
  },
  "hamdan bin mohammed launches aed 1billion international space cooperation programme to support space research and development": {
   "long": "2026-10-07"

@@ -4,6 +4,7 @@
  },
  "hamdan bin mohammed approves aed18 billion in landmark projects to shape dubai s future": {
   "last_short": "2026-10-05",
+  "long": "2026-10-07",
   "rejected": {
    "reason": "The source material is a formal meeting scene. The visuals are static and lack the dynamic movement or emotional connection required for a high-scoring vertical Short. While the topic is important, the visual presentation is too generic for a premium channel focused on cinematic storytelling.",
    "score": 5
@@ -42,6 +43,9 @@
   "photo_short": true,
   "shorts_made": 1,
   "shot_ranges": []
+ },
+ "hamdan bin mohammed approves series of strategies aimed at achieving mohammed bin rashid s vision to make dubai the world s best most beautiful and most advanced city": {
+  "long": "2026-10-07"
  },
  "hamdan bin mohammed attends dubai camp 2026": {
   "fails": 1,
@@ -232,6 +236,9 @@
  "hamdan bin mohammed attends the graduation ceremony of rashid bin saeed al maktoum naval college": {
   "long": "2026-10-06"
  },
+ "hamdan bin mohammed chairs meeting of the higher committee for future technology development and the digital economy": {
+  "long": "2026-10-07"
+ },
  "hamdan bin mohammed congratulates four emirati students on winning gold at the international greenwich olympiad": {
   "long": "2026-10-06"
  },
@@ -289,6 +296,12 @@
  },
  "hamdan bin mohammed directs launch of second edition of dubai mallathon": {
   "video_exhausted": true
+ },
+ "hamdan bin mohammed highlights uae s focus on technology as a development enabler during visit to google s dubai offices": {
+  "long": "2026-10-07"
+ },
+ "hamdan bin mohammed launches aed 1billion international space cooperation programme to support space research and development": {
+  "long": "2026-10-07"
  },
  "hamdan bin mohammed launches dubai founders hq to consolidate and strengthen dubai s startup and sme ecosystem": {
   "long": "2026-10-05"
@@ -739,6 +752,9 @@
  },
  "hamdan bin mohammed witnesses unveiling of uae developed probe for emirates mission to the asteroid belt": {
   "fails": 2
+ },
+ "uae and egyptian presidents discuss fraternal ties and regional developments": {
+  "long": "2026-10-07"
  },
  "uae president takes etihad rail to dubai hamdan bin mohammed bin rashid theyab bin mohamed bin zayed open station": {
   "fails": 2,

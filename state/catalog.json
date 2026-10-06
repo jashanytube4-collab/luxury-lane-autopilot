@@ -56,6 +56,32 @@
   },
   "video_exhausted": true
  },
+ "hamdan bin mohammed arrives in new delhi on official visit to india": {
+  "last_short": "2026-10-07",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    0.22,
+    3.0100000000000002
+   ],
+   [
+    3.4000000000000004,
+    6.13
+   ],
+   [
+    6.52,
+    9.09
+   ],
+   [
+    9.479999999999999,
+    14.379999999999999
+   ],
+   [
+    16.6,
+    21.5
+   ]
+  ]
+ },
  "hamdan bin mohammed attends ceremony marking 49th anniversary of uae armed forces unification": {
   "fails": 1,
   "video_exhausted": true

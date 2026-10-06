@@ -179,6 +179,24 @@
  "hamdan bin mohammed attends graduation ceremony of the 26th cohort of the rashid bin saeed al maktoum naval college": {
   "long": "2026-10-06"
  },
+ "hamdan bin mohammed attends launch of dubai international chamber s new office in bengaluru": {
+  "last_short": "2026-10-07",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    0.22,
+    1.89
+   ],
+   [
+    18.26,
+    19.83
+   ],
+   [
+    16.240000000000002,
+    17.869999999999997
+   ]
+  ]
+ },
  "hamdan bin mohammed attends launch of first community space under hewi dubai initiative": {
   "last_short": "2026-10-07",
   "shorts_made": 1,
@@ -501,6 +519,10 @@
   ],
   "video_exhausted": true
  },
+ "hamdan bin mohammed meets with chairman of international cricket council indian cricket stars": {
+  "fails": 1,
+  "video_exhausted": true
+ },
  "hamdan bin mohammed meets with elon musk affirms the uae and dubai s vision to foster technology partnerships for greater good": {
   "long": "2026-10-05"
  },
@@ -529,6 +551,10 @@
     22.81
    ]
   ],
+  "video_exhausted": true
+ },
+ "hamdan bin mohammed meets with india s minister of commerce and industry": {
+  "fails": 1,
   "video_exhausted": true
  },
  "hamdan bin mohammed meets with local dignitaries and senior officials at nad al sheba majlis": {

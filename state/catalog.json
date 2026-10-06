@@ -286,6 +286,9 @@
   },
   "video_exhausted": true
  },
+ "hamdan bin mohammed chairs defence council meeting": {
+  "video_exhausted": true
+ },
  "hamdan bin mohammed chairs meeting of the higher committee for future technology development and the digital economy": {
   "long": "2026-10-07"
  },
@@ -355,6 +358,10 @@
  },
  "hamdan bin mohammed launches dubai founders hq to consolidate and strengthen dubai s startup and sme ecosystem": {
   "long": "2026-10-05"
+ },
+ "hamdan bin mohammed launches dubai mallathon to transform shopping malls into fitness hubs": {
+  "fails": 1,
+  "video_exhausted": true
  },
  "hamdan bin mohammed launches official operations of driverless taxi service in dubai": {
   "last_short": "2026-10-06",
@@ -461,7 +468,31 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed meets with local dignitaries and senior officials at nad al sheba majlis": {
-  "long": "2026-10-05"
+  "last_short": "2026-10-07",
+  "long": "2026-10-05",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    18.12,
+    19.763333333333332
+   ],
+   [
+    43.25333333333333,
+    44.86333333333334
+   ],
+   [
+    3.6533333333333333,
+    5.296666666666667
+   ],
+   [
+    11.953333333333331,
+    15.63
+   ],
+   [
+    28.686666666666667,
+    30.896666666666665
+   ]
+  ]
  },
  "hamdan bin mohammed receives ramadan well wishers": {
   "fails": 1,
@@ -817,6 +848,10 @@
   ],
   "video_exhausted": true
  },
+ "hamdan bin mohammed visits make it in the emirates 2025 in abu dhabi": {
+  "fails": 1,
+  "video_exhausted": true
+ },
  "hamdan bin mohammed visits the national guard headquarters in abu dhabi": {
   "last_short": "2026-10-07",
   "shorts_made": 1,
@@ -864,6 +899,10 @@
   "video_exhausted": true
  },
  "khaled bin mohamed bin zayed meets hamdan bin mohammed bin rashid on sidelines of uae government annual meetings": {
+  "video_exhausted": true
+ },
+ "sultan haitham bin tariq receives hamdan bin mohammed in muscat": {
+  "fails": 1,
   "video_exhausted": true
  },
  "uae and egyptian presidents discuss fraternal ties and regional developments": {

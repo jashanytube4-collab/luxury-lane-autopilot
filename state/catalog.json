@@ -1156,6 +1156,28 @@
  "khaled bin mohamed bin zayed meets hamdan bin mohammed bin rashid on sidelines of uae government annual meetings": {
   "video_exhausted": true
  },
+ "mohammed bin rashid attends 29th dubai world cup": {
+  "last_short": "2026-10-07",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    0.22,
+    1.8966666666666667
+   ],
+   [
+    2.286666666666667,
+    4.163333333333333
+   ],
+   [
+    14.553333333333333,
+    16.363333333333333
+   ],
+   [
+    30.753333333333337,
+    32.230000000000004
+   ]
+  ]
+ },
  "sultan haitham bin tariq receives hamdan bin mohammed in muscat": {
   "fails": 1,
   "video_exhausted": true

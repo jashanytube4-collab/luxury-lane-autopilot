@@ -45,7 +45,12 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed approves series of strategies aimed at achieving mohammed bin rashid s vision to make dubai the world s best most beautiful and most advanced city": {
-  "long": "2026-10-07"
+  "long": "2026-10-07",
+  "rejected": {
+   "reason": "This material is a formal meeting scene with minimal visual variety. While it shows Sheikh Hamdan in an official capacity, the setting lacks the emotional or spectacular elements that define high-scoring vertical Shorts for Fazza’s fans. There are no dynamic visuals like horses, landmarks, or warm interactions — just a standard conference room setup.",
+   "score": 5
+  },
+  "video_exhausted": true
  },
  "hamdan bin mohammed attends dubai camp 2026": {
   "fails": 1,
@@ -619,7 +624,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed tours expand north star 2025 the world s largest gathering for startups and investors": {
-  "long": "2026-10-05"
+  "fails": 1,
+  "long": "2026-10-05",
+  "video_exhausted": true
  },
  "hamdan bin mohammed visits abu dhabi international hunting and equestrian exhibition 2026": {
   "fails": 1,
@@ -791,6 +798,24 @@
    ]
   ],
   "video_exhausted": true
+ },
+ "hamdan bin mohammed visits the national guard headquarters in abu dhabi": {
+  "last_short": "2026-10-07",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    4.586666666666666,
+    6.13
+   ],
+   [
+    14.62,
+    16.896666666666665
+   ],
+   [
+    17.28666666666667,
+    19.13
+   ]
+  ]
  },
  "hamdan bin mohammed witnesses opening of the 27th general conference of the international council of museums": {
   "long": "2026-10-05"

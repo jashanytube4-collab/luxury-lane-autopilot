@@ -898,6 +898,24 @@
   ],
   "video_exhausted": true
  },
+ "hamdan bin mohammed visits bombay stock exchange and rings opening bell": {
+  "last_short": "2026-10-07",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    6.06,
+    9.83
+   ],
+   [
+    0.22,
+    2.79
+   ],
+   [
+    3.18,
+    5.67
+   ]
+  ]
+ },
  "hamdan bin mohammed visits emirates flight catering commends its role in advancing dubai s aviation ecosystem": {
   "fails": 1,
   "video_exhausted": true

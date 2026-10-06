@@ -557,6 +557,28 @@
   "fails": 1,
   "video_exhausted": true
  },
+ "hamdan bin mohammed meets with indian prime minister to discuss future of bilateral partnership": {
+  "last_short": "2026-10-07",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    0.22,
+    5.12
+   ],
+   [
+    6.58,
+    9.17
+   ],
+   [
+    9.559999999999999,
+    11.61
+   ],
+   [
+    11.999999999999998,
+    13.89
+   ]
+  ]
+ },
  "hamdan bin mohammed meets with local dignitaries and senior officials at nad al sheba majlis": {
   "last_short": "2026-10-07",
   "long": "2026-10-05",

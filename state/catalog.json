@@ -166,6 +166,28 @@
  "hamdan bin mohammed attends graduation ceremony of the 26th cohort of the rashid bin saeed al maktoum naval college": {
   "long": "2026-10-06"
  },
+ "hamdan bin mohammed attends launch of first community space under hewi dubai initiative": {
+  "last_short": "2026-10-07",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    18.28666666666667,
+    19.93
+   ],
+   [
+    26.62,
+    28.13
+   ],
+   [
+    41.019999999999996,
+    42.830000000000005
+   ],
+   [
+    44.75333333333333,
+    46.43000000000001
+   ]
+  ]
+ },
  "hamdan bin mohammed attends open masters games abu dhabi 2026": {
   "fails": 1,
   "last_short": "2026-10-06",

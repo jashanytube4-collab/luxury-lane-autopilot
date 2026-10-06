@@ -2,6 +2,10 @@
  "hamdan bin mohammed affirms dubai s relentless focus on improving speed and responsiveness of government services": {
   "video_exhausted": true
  },
+ "hamdan bin mohammed and india s minister of commerce and industry witness signing of 8 mous": {
+  "fails": 1,
+  "video_exhausted": true
+ },
  "hamdan bin mohammed approves aed18 billion in landmark projects to shape dubai s future": {
   "last_short": "2026-10-05",
   "long": "2026-10-07",
@@ -986,6 +990,28 @@
  },
  "hamdan bin mohammed witnesses unveiling of uae developed probe for emirates mission to the asteroid belt": {
   "fails": 2
+ },
+ "in the presence of hamdan bin mohammed dubai chambers holds high level meeting in mumbai": {
+  "last_short": "2026-10-07",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    10.453333333333331,
+    12.796666666666667
+   ],
+   [
+    16.28666666666667,
+    20.896666666666665
+   ],
+   [
+    21.28666666666667,
+    24.296666666666663
+   ],
+   [
+    34.22,
+    35.69666666666667
+   ]
+  ]
  },
  "khaled bin mohamed bin zayed hamdan bin mohammed bin rashid tour natural history museum abu dhabi in saadiyat cultural district": {
   "fails": 1,

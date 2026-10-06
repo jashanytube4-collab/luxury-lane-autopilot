@@ -745,6 +745,32 @@
   ],
   "video_exhausted": true
  },
+ "hamdan bin mohammed visits al dhafra air base in abu dhabi": {
+  "last_short": "2026-10-07",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    3.4533333333333336,
+    5.596666666666667
+   ],
+   [
+    16.253333333333337,
+    17.729999999999997
+   ],
+   [
+    18.12,
+    20.33
+   ],
+   [
+    20.720000000000002,
+    24.33
+   ],
+   [
+    31.253333333333337,
+    32.96333333333334
+   ]
+  ]
+ },
  "hamdan bin mohammed visits arabian travel market 2026": {
   "last_short": "2026-10-05",
   "photo_short": true,

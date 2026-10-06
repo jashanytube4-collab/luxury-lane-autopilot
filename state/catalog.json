@@ -857,6 +857,28 @@
    ]
   ]
  },
+ "hamdan bin mohammed shares iftar with national service recruits in abu dhabi": {
+  "last_short": "2026-10-07",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    0.22,
+    5.12
+   ],
+   [
+    32.1,
+    33.790000000000006
+   ],
+   [
+    37.1,
+    39.43000000000001
+   ],
+   [
+    41.58,
+    43.59
+   ]
+  ]
+ },
  "hamdan bin mohammed tours expand north star 2025 the world s largest gathering for startups and investors": {
   "fails": 1,
   "long": "2026-10-05",
@@ -1082,6 +1104,10 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits make it in the emirates 2025 in abu dhabi": {
+  "fails": 1,
+  "video_exhausted": true
+ },
+ "hamdan bin mohammed visits reserve forces command in abu dhabi": {
   "fails": 1,
   "video_exhausted": true
  },

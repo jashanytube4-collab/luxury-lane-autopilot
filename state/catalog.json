@@ -1493,6 +1493,32 @@
    ]
   ]
  },
+ "president of uzbekistan meets with hamdan bin mohammed in tashkent": {
+  "last_short": "2026-10-08",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    0.22,
+    5.12
+   ],
+   [
+    5.68,
+    7.55
+   ],
+   [
+    7.9399999999999995,
+    9.790000000000001
+   ],
+   [
+    10.18,
+    12.03
+   ],
+   [
+    19.160000000000004,
+    21.069999999999997
+   ]
+  ]
+ },
  "sultan haitham bin tariq receives hamdan bin mohammed in muscat": {
   "fails": 1,
   "video_exhausted": true

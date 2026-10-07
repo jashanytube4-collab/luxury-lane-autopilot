@@ -1442,6 +1442,44 @@
   "fails": 1,
   "video_exhausted": true
  },
+ "hamdan bin mohammed visits the ministry of foreign affairs in abu dhabi": {
+  "last_short": "2026-10-08",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    0.22,
+    1.7299999999999998
+   ],
+   [
+    2.12,
+    3.63
+   ],
+   [
+    5.8533333333333335,
+    7.33
+   ],
+   [
+    7.72,
+    9.23
+   ],
+   [
+    9.62,
+    11.463333333333333
+   ],
+   [
+    12.753333333333332,
+    14.263333333333334
+   ],
+   [
+    14.653333333333332,
+    18.729999999999997
+   ],
+   [
+    19.12,
+    20.66333333333333
+   ]
+  ]
+ },
  "hamdan bin mohammed visits the national guard headquarters in abu dhabi": {
   "last_short": "2026-10-07",
   "shorts_made": 1,

@@ -328,6 +328,10 @@
    ]
   ]
  },
+ "hamdan bin mohammed attends second day of dubai games 2025": {
+  "fails": 1,
+  "video_exhausted": true
+ },
  "hamdan bin mohammed attends signing of agreement between rta and cruise to operate self driving taxis and ride hailing services in dubai": {
   "long": "2026-10-08"
  },
@@ -966,6 +970,28 @@
   "fails": 1,
   "long": "2026-10-05",
   "video_exhausted": true
+ },
+ "hamdan bin mohammed tours the 31st edition of dubai international boat show": {
+  "last_short": "2026-10-08",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    0.22,
+    1.7966666666666666
+   ],
+   [
+    16.78666666666667,
+    19.029999999999998
+   ],
+   [
+    19.42,
+    20.93
+   ],
+   [
+    28.486666666666668,
+    30.363333333333333
+   ]
+  ]
  },
  "hamdan bin mohammed visits abu dhabi international hunting and equestrian exhibition 2026": {
   "fails": 1,

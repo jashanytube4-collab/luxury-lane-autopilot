@@ -82,6 +82,36 @@
    ]
   ]
  },
+ "hamdan bin mohammed arrives in tashkent commencing official visit to uzbekistan": {
+  "last_short": "2026-10-08",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    0.22,
+    2.27
+   ],
+   [
+    7.88,
+    9.790000000000001
+   ],
+   [
+    10.18,
+    15.08
+   ],
+   [
+    21.340000000000003,
+    26.240000000000002
+   ],
+   [
+    28.640000000000004,
+    31.47
+   ],
+   [
+    31.860000000000003,
+    34.57000000000001
+   ]
+  ]
+ },
  "hamdan bin mohammed attends ceremony marking 49th anniversary of uae armed forces unification": {
   "fails": 1,
   "video_exhausted": true

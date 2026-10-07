@@ -1338,6 +1338,36 @@
   "shorts_made": 1,
   "shot_ranges": []
  },
+ "hamdan bin mohammed visits hazrat imam mosque in uzbekistan": {
+  "last_short": "2026-10-08",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    0.22,
+    2.29
+   ],
+   [
+    5.739999999999999,
+    7.55
+   ],
+   [
+    7.9399999999999995,
+    9.81
+   ],
+   [
+    11.999999999999998,
+    14.31
+   ],
+   [
+    19.060000000000002,
+    21.069999999999997
+   ],
+   [
+    23.720000000000002,
+    25.569999999999997
+   ]
+  ]
+ },
  "hamdan bin mohammed visits khda commends education community and high level of institutional readiness": {
   "last_short": "2026-10-06",
   "long": "2026-10-06",

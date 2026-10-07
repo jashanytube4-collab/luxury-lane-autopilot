@@ -720,6 +720,48 @@
  "hamdan bin mohammed meets with uae diplomatic mission in india commends ministry of foreign affairs efforts": {
   "video_exhausted": true
  },
+ "hamdan bin mohammed receives hazza bin zayed in dubai": {
+  "last_short": "2026-10-08",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    0.22,
+    2.5966666666666667
+   ],
+   [
+    2.986666666666667,
+    4.663333333333333
+   ],
+   [
+    5.053333333333333,
+    6.73
+   ],
+   [
+    7.12,
+    8.896666666666667
+   ],
+   [
+    9.286666666666665,
+    10.83
+   ],
+   [
+    16.453333333333337,
+    18.13
+   ],
+   [
+    18.520000000000003,
+    20.16333333333333
+   ],
+   [
+    24.320000000000004,
+    26.196666666666665
+   ],
+   [
+    39.88666666666666,
+    41.53000000000001
+   ]
+  ]
+ },
  "hamdan bin mohammed receives ramadan well wishers": {
   "fails": 1,
   "last_short": "2026-10-06",

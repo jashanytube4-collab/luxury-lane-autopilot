@@ -422,6 +422,28 @@
    ]
   ]
  },
+ "hamdan bin mohammed concludes official visit to uzbekistan": {
+  "last_short": "2026-10-08",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    9.786666666666665,
+    11.596666666666668
+   ],
+   [
+    32.62,
+    34.730000000000004
+   ],
+   [
+    22.28666666666667,
+    24.996666666666666
+   ],
+   [
+    28.08666666666667,
+    31.029999999999998
+   ]
+  ]
+ },
  "hamdan bin mohammed congratulates four emirati students on winning gold at the international greenwich olympiad": {
   "long": "2026-10-06"
  },
@@ -857,6 +879,9 @@
     45.49666666666667
    ]
   ]
+ },
+ "hamdan bin mohammed meets with minister of defence of uzbekistan": {
+  "video_exhausted": true
  },
  "hamdan bin mohammed meets with uae diplomatic mission in india commends ministry of foreign affairs efforts": {
   "video_exhausted": true

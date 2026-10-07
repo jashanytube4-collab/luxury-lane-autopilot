@@ -74,6 +74,24 @@
   "shorts_made": 1,
   "shot_ranges": []
  },
+ "hamdan bin mohammed approves mbz sat for launch": {
+  "last_short": "2026-10-08",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    16.42,
+    18.263333333333332
+   ],
+   [
+    34.586666666666666,
+    36.53000000000001
+   ],
+   [
+    29.020000000000003,
+    30.63
+   ]
+  ]
+ },
  "hamdan bin mohammed approves next phase of dubai future solutions initiative": {
   "fails": 1,
   "video_exhausted": true

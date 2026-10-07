@@ -74,6 +74,10 @@
   "shorts_made": 1,
   "shot_ranges": []
  },
+ "hamdan bin mohammed approves next phase of dubai future solutions initiative": {
+  "fails": 1,
+  "video_exhausted": true
+ },
  "hamdan bin mohammed approves series of strategies aimed at achieving mohammed bin rashid s vision to make dubai the world s best most beautiful and most advanced city": {
   "long": "2026-10-07",
   "rejected": {
@@ -188,6 +192,10 @@
     59.830000000000005
    ]
   ],
+  "video_exhausted": true
+ },
+ "hamdan bin mohammed attends graduation ceremony at zayed ii military college in al ain": {
+  "fails": 1,
   "video_exhausted": true
  },
  "hamdan bin mohammed attends graduation ceremony for ministry of defence personnel completing the future leaders and young leaders empowerment programmes": {
@@ -617,6 +625,24 @@
    [
     27.040000000000003,
     29.27
+   ]
+  ]
+ },
+ "hamdan bin mohammed inaugurates dubai ai campus cluster at the difc innovation hub": {
+  "last_short": "2026-10-08",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    6.6866666666666665,
+    9.463333333333333
+   ],
+   [
+    31.253333333333337,
+    33.36333333333334
+   ],
+   [
+    24.953333333333337,
+    26.93
    ]
   ]
  },

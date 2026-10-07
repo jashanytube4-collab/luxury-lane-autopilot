@@ -555,6 +555,9 @@
   "fails": 1,
   "video_exhausted": true
  },
+ "hamdan bin mohammed launches erth dubai initiative": {
+  "video_exhausted": true
+ },
  "hamdan bin mohammed launches official operations of driverless taxi service in dubai": {
   "last_short": "2026-10-06",
   "shorts_made": 3,
@@ -666,6 +669,10 @@
   ],
   "video_exhausted": true
  },
+ "hamdan bin mohammed meets with hazza bin zayed in al ain": {
+  "fails": 1,
+  "video_exhausted": true
+ },
  "hamdan bin mohammed meets with india s defence minister": {
   "last_short": "2026-10-07",
   "shorts_made": 1,
@@ -760,6 +767,28 @@
    [
     28.686666666666667,
     30.896666666666665
+   ]
+  ]
+ },
+ "hamdan bin mohammed meets with members of the business and trading community": {
+  "last_short": "2026-10-08",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    45.88666666666666,
+    47.99666666666667
+   ],
+   [
+    12.953333333333331,
+    14.596666666666668
+   ],
+   [
+    19.28666666666667,
+    21.896666666666665
+   ],
+   [
+    43.586666666666666,
+    45.49666666666667
    ]
   ]
  },
@@ -1325,6 +1354,10 @@
     35.69666666666667
    ]
   ]
+ },
+ "khaled bin mohamed bin zayed and hamdan bin mohammed bin rashid witness announcement of high speed train project linking abu dhabi dubai": {
+  "fails": 1,
+  "video_exhausted": true
  },
  "khaled bin mohamed bin zayed hamdan bin mohammed bin rashid attend world governments summit 2025": {
   "last_short": "2026-10-08",

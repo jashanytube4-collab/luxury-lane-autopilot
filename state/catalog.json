@@ -1,4 +1,30 @@
 {
+ "dubai crown prince commends students selected for the hamdan bin mohammed scholarship programme": {
+  "last_short": "2026-10-08",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    0.22,
+    3.0300000000000002
+   ],
+   [
+    3.4200000000000004,
+    5.3966666666666665
+   ],
+   [
+    8.953333333333331,
+    10.563333333333333
+   ],
+   [
+    18.220000000000002,
+    19.729999999999997
+   ],
+   [
+    25.686666666666667,
+    27.729999999999997
+   ]
+  ]
+ },
  "hamdan bin mohammed affirms dubai s relentless focus on improving speed and responsiveness of government services": {
   "video_exhausted": true
  },
@@ -390,6 +416,10 @@
  },
  "hamdan bin mohammed attends the mohammed bin rashid al maktoum international sports award on opening day of world sports summit": {
   "long": "2026-10-08"
+ },
+ "hamdan bin mohammed attends the opening of the inaugural edition of the dubai ai web3 festival": {
+  "fails": 1,
+  "video_exhausted": true
  },
  "hamdan bin mohammed bin rashid and theyab bin mohamed bin zayed attend ega s 50th anniversary": {
   "rejected": {

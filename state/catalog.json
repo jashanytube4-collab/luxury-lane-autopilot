@@ -336,7 +336,27 @@
   "long": "2026-10-08"
  },
  "hamdan bin mohammed attends the graduation ceremony of rashid bin saeed al maktoum naval college": {
-  "long": "2026-10-06"
+  "last_short": "2026-10-08",
+  "long": "2026-10-06",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    0.22,
+    2.0300000000000002
+   ],
+   [
+    18.853333333333335,
+    21.863333333333333
+   ],
+   [
+    42.25333333333333,
+    47.15333333333333
+   ],
+   [
+    6.3533333333333335,
+    9.696666666666667
+   ]
+  ]
  },
  "hamdan bin mohammed attends the mohammed bin rashid al maktoum international sports award on opening day of world sports summit": {
   "long": "2026-10-08"

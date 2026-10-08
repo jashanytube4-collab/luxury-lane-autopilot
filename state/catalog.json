@@ -666,6 +666,9 @@
    ]
   ]
  },
+ "hamdan bin mohammed attends the graduation ceremony of the 23rd cohort of rashid bin saeed al maktoum naval college": {
+  "fails": 1
+ },
  "hamdan bin mohammed attends the graduation of 18th cohort of the national military service": {
   "last_short": "2026-10-09",
   "shorts_made": 1,
@@ -688,6 +691,10 @@
   "long": "2026-10-08"
  },
  "hamdan bin mohammed attends the opening of the inaugural edition of the dubai ai web3 festival": {
+  "fails": 1,
+  "video_exhausted": true
+ },
+ "hamdan bin mohammed attends uae swat challenge 2023": {
   "fails": 1,
   "video_exhausted": true
  },
@@ -1112,6 +1119,10 @@
     25.415
    ]
   ],
+  "video_exhausted": true
+ },
+ "hamdan bin mohammed meets prominent business leaders at dubai majlis to chart a course for city s accelerated growth": {
+  "fails": 1,
   "video_exhausted": true
  },
  "hamdan bin mohammed meets with astronaut sultan al neyadi and zayed ambition 2 team": {
@@ -1686,6 +1697,24 @@
   "fails": 1,
   "long": "2026-10-05",
   "video_exhausted": true
+ },
+ "hamdan bin mohammed tours gulfood 2023": {
+  "last_short": "2026-10-09",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    7.986666666666666,
+    10.096666666666668
+   ],
+   [
+    36.82,
+    38.93000000000001
+   ],
+   [
+    27.186666666666667,
+    29.096666666666664
+   ]
+  ]
  },
  "hamdan bin mohammed tours the 31st edition of dubai international boat show": {
   "last_short": "2026-10-08",

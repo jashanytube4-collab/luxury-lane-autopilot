@@ -62,6 +62,32 @@
   "fails": 1,
   "video_exhausted": true
  },
+ "hamdan bin mohammed and maktoum bin mohammed visit emirates group headquarters": {
+  "last_short": "2026-10-09",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    5.486666666666666,
+    7.796666666666667
+   ],
+   [
+    25.486666666666668,
+    27.83
+   ],
+   [
+    21.486666666666668,
+    23.13
+   ],
+   [
+    28.220000000000002,
+    30.496666666666666
+   ],
+   [
+    30.88666666666667,
+    33.09666666666667
+   ]
+  ]
+ },
  "hamdan bin mohammed approves aed18 billion in landmark projects to shape dubai s future": {
   "last_short": "2026-10-05",
   "long": "2026-10-07",

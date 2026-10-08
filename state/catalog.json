@@ -667,7 +667,43 @@
   ]
  },
  "hamdan bin mohammed attends the graduation ceremony of the 23rd cohort of rashid bin saeed al maktoum naval college": {
-  "fails": 1
+  "fails": 1,
+  "last_short": "2026-10-09",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    0.22,
+    2.9633333333333334
+   ],
+   [
+    3.3533333333333335,
+    5.696666666666666
+   ],
+   [
+    8.853333333333332,
+    11.196666666666667
+   ],
+   [
+    11.586666666666666,
+    14.03
+   ],
+   [
+    19.38666666666667,
+    24.28666666666667
+   ],
+   [
+    30.953333333333337,
+    33.330000000000005
+   ],
+   [
+    36.45333333333333,
+    38.86333333333334
+   ],
+   [
+    39.25333333333333,
+    41.63
+   ]
+  ]
  },
  "hamdan bin mohammed attends the graduation of 18th cohort of the national military service": {
   "last_short": "2026-10-09",

@@ -484,6 +484,32 @@
  "hamdan bin mohammed attends signing of agreement between rta and cruise to operate self driving taxis and ride hailing services in dubai": {
   "long": "2026-10-08"
  },
+ "hamdan bin mohammed attends talk on middle eastern cities contributions to advancing human progress": {
+  "last_short": "2026-10-09",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    0.22,
+    2.3633333333333333
+   ],
+   [
+    4.6866666666666665,
+    6.363333333333333
+   ],
+   [
+    8.12,
+    10.23
+   ],
+   [
+    19.986666666666668,
+    22.229999999999997
+   ],
+   [
+    36.12,
+    37.86333333333334
+   ]
+  ]
+ },
  "hamdan bin mohammed attends the graduation ceremony of rashid bin saeed al maktoum naval college": {
   "last_short": "2026-10-08",
   "long": "2026-10-06",
@@ -765,6 +791,9 @@
  },
  "hamdan bin mohammed launches aed 1billion international space cooperation programme to support space research and development": {
   "long": "2026-10-07"
+ },
+ "hamdan bin mohammed launches create ai agents championship to inspire transformative ideas for global good": {
+  "fails": 1
  },
  "hamdan bin mohammed launches dubai founders hq to consolidate and strengthen dubai s startup and sme ecosystem": {
   "long": "2026-10-05"
@@ -1058,6 +1087,10 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed meets with uae diplomatic mission in india commends ministry of foreign affairs efforts": {
+  "video_exhausted": true
+ },
+ "hamdan bin mohammed opens fifth edition of gov games in dubai festival city": {
+  "fails": 1,
   "video_exhausted": true
  },
  "hamdan bin mohammed receives hazza bin zayed in dubai": {

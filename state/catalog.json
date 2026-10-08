@@ -98,6 +98,9 @@
   ],
   "video_exhausted": true
  },
+ "hamdan bin mohammed approves architectural identity for dubai s road projects": {
+  "long": "2026-10-09"
+ },
  "hamdan bin mohammed approves dubai longevity authority s strategy and budget following inaugural board meeting": {
   "last_short": "2026-10-05",
   "photo_short": true,
@@ -649,6 +652,9 @@
   ],
   "video_exhausted": true
  },
+ "hamdan bin mohammed directs government entities to intensify efforts to support private sector growth": {
+  "long": "2026-10-09"
+ },
  "hamdan bin mohammed directs launch of second edition of dubai mallathon": {
   "video_exhausted": true
  },
@@ -1186,11 +1192,13 @@
  },
  "hamdan bin mohammed reviews newly completed air taxi station near dubai international airport the first facility of its kind in the world": {
   "fails": 1,
+  "long": "2026-10-09",
   "video_exhausted": true
  },
  "hamdan bin mohammed reviews operations and key developments at jebel ali port": {
   "fails": 1,
   "last_short": "2026-10-05",
+  "long": "2026-10-09",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -1523,6 +1531,7 @@
  },
  "hamdan bin mohammed visits emirates flight catering commends its role in advancing dubai s aviation ecosystem": {
   "fails": 1,
+  "long": "2026-10-09",
   "video_exhausted": true
  },
  "hamdan bin mohammed visits flydubai pilot and praises his courage": {
@@ -1684,7 +1693,8 @@
   "long": "2026-10-05"
  },
  "hamdan bin mohammed witnesses unveiling of uae developed probe for emirates mission to the asteroid belt": {
-  "fails": 2
+  "fails": 2,
+  "long": "2026-10-09"
  },
  "in the presence of hamdan bin mohammed dubai chambers holds high level meeting in mumbai": {
   "last_short": "2026-10-07",

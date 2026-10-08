@@ -280,7 +280,7 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends dubai police academy graduation ceremony": {
-  "fails": 1
+  "fails": 2
  },
  "hamdan bin mohammed attends graduation ceremony at zayed ii military college in al ain": {
   "fails": 1,
@@ -1724,6 +1724,28 @@
    [
     17.28666666666667,
     19.13
+   ]
+  ]
+ },
+ "hamdan bin mohammed welcomes king of jordan as he arrives in the uae to participate in cop28": {
+  "last_short": "2026-10-09",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    0.22,
+    2.71
+   ],
+   [
+    3.1,
+    7.19
+   ],
+   [
+    7.58,
+    11.19
+   ],
+   [
+    23.860000000000003,
+    26.95
    ]
   ]
  },

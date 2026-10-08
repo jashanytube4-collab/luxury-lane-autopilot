@@ -279,6 +279,9 @@
   ],
   "video_exhausted": true
  },
+ "hamdan bin mohammed attends dubai police academy graduation ceremony": {
+  "fails": 1
+ },
  "hamdan bin mohammed attends graduation ceremony at zayed ii military college in al ain": {
   "fails": 1,
   "video_exhausted": true
@@ -685,7 +688,27 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed goes on first test ride of cruise autonomous electric vehicle in jumeirah 1": {
-  "long": "2026-10-08"
+  "last_short": "2026-10-09",
+  "long": "2026-10-08",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    28.486666666666668,
+    30.796666666666663
+   ],
+   [
+    38.42,
+    40.69666666666667
+   ],
+   [
+    42.25333333333333,
+    44.730000000000004
+   ],
+   [
+    45.12,
+    47.296666666666674
+   ]
+  ]
  },
  "hamdan bin mohammed highlights uae s focus on technology as a development enabler during visit to google s dubai offices": {
   "last_short": "2026-10-07",
@@ -793,7 +816,7 @@
   "long": "2026-10-07"
  },
  "hamdan bin mohammed launches create ai agents championship to inspire transformative ideas for global good": {
-  "fails": 1
+  "fails": 2
  },
  "hamdan bin mohammed launches dubai founders hq to consolidate and strengthen dubai s startup and sme ecosystem": {
   "long": "2026-10-05"

@@ -1,0 +1,114 @@
+{
+ "date": "2026-10-10",
+ "slots": [
+  {
+   "at": "2026-10-10T07:22:53+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-10T08:20:50+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-10T09:13:57+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-10T10:15:40+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-10T11:07:59+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-10T12:13:43+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-10T13:08:54+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-10T14:14:23+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-10T15:14:56+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-10T16:11:08+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-10T17:00:15+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-10T18:08:31+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-10T19:04:13+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-10T19:35:40+04:00",
+   "minutes": 10.1,
+   "status": "scheduled",
+   "title": "Sheikh Hamdan & Dubai's Future Vision",
+   "type": "long",
+   "video_id": "kdGPAdNnMRk"
+  },
+  {
+   "at": "2026-10-10T20:05:01+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-10T21:13:57+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-10T22:04:42+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-10T23:08:17+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-11T00:13:36+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-11T01:18:54+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-11T02:24:10+04:00",
+   "status": "open",
+   "type": "short"
+  }
+ ],
+ "timezone": "Asia/Dubai"
+}

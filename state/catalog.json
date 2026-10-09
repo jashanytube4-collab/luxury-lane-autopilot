@@ -1041,6 +1041,28 @@
  "hamdan bin mohammed inaugurates dubai world self driving transport exhibition": {
   "long": "2026-10-08"
  },
+ "hamdan bin mohammed inaugurates new outpatient building at dubai hospital": {
+  "last_short": "2026-10-10",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    0.22,
+    3.9299999999999997
+   ],
+   [
+    4.319999999999999,
+    5.963333333333334
+   ],
+   [
+    6.3533333333333335,
+    7.863333333333333
+   ],
+   [
+    24.28666666666667,
+    27.96333333333333
+   ]
+  ]
+ },
  "hamdan bin mohammed inaugurates the world s largest solar powered data centre": {
   "last_short": "2026-10-09",
   "shorts_made": 1,

@@ -394,6 +394,40 @@
  "hamdan bin mohammed attends dubai future forum 2025": {
   "long": "2026-10-10"
  },
+ "hamdan bin mohammed attends dubai metaverse assembly at the museum of the future": {
+  "last_short": "2026-10-10",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    0.22,
+    4.63
+   ],
+   [
+    5.1866666666666665,
+    7.863333333333333
+   ],
+   [
+    8.253333333333332,
+    13.13
+   ],
+   [
+    13.52,
+    15.496666666666666
+   ],
+   [
+    15.886666666666665,
+    18.529999999999998
+   ],
+   [
+    36.32,
+    38.56333333333334
+   ],
+   [
+    52.18666666666667,
+    54.16333333333334
+   ]
+  ]
+ },
  "hamdan bin mohammed attends dubai police academy graduation ceremony": {
   "fails": 2
  },

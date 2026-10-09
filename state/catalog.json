@@ -1611,6 +1611,28 @@
  "hamdan bin mohammed meets with uae diplomatic mission in india commends ministry of foreign affairs efforts": {
   "video_exhausted": true
  },
+ "hamdan bin mohammed opens dubai al ain road improvement project": {
+  "last_short": "2026-10-10",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    0.22,
+    4.03
+   ],
+   [
+    4.42,
+    8.51
+   ],
+   [
+    8.899999999999999,
+    11.59
+   ],
+   [
+    17.020000000000003,
+    21.92
+   ]
+  ]
+ },
  "hamdan bin mohammed opens fifth edition of gov games in dubai festival city": {
   "fails": 1,
   "video_exhausted": true

@@ -966,6 +966,36 @@
  "hamdan bin mohammed chairs supervisory committee of the mohammed bin rashid leadership medal approves first recipient": {
   "long": "2026-10-11"
  },
+ "hamdan bin mohammed chairs virtual meeting of executive council": {
+  "last_short": "2026-10-10",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    18.700000000000003,
+    21.909999999999997
+   ],
+   [
+    26.380000000000003,
+    29.63
+   ],
+   [
+    45.46,
+    48.35000000000001
+   ],
+   [
+    96.02,
+    99.78999999999999
+   ],
+   [
+    118.38,
+    122.63
+   ],
+   [
+    195.06,
+    199.46
+   ]
+  ]
+ },
  "hamdan bin mohammed concludes first official visit to india commends strong bilateral partnership": {
   "last_short": "2026-10-07",
   "shorts_made": 1,
@@ -2981,6 +3011,9 @@
  "hamdan bin mohammed visits emirates flight catering commends its role in advancing dubai s aviation ecosystem": {
   "fails": 1,
   "long": "2026-10-09",
+  "video_exhausted": true
+ },
+ "hamdan bin mohammed visits field hospital in dwtc": {
   "video_exhausted": true
  },
  "hamdan bin mohammed visits flydubai pilot and praises his courage": {

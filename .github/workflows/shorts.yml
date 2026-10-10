@@ -16,6 +16,10 @@ on:
         description: "Make at most this many videos (leave empty for no limit)"
         required: false
         default: ""
+      test_episode:
+        description: "Test mode only: build one test episode"
+        type: boolean
+        default: false
 
 concurrency:
   group: luxury-lane-autopilot
@@ -75,12 +79,14 @@ jobs:
           LANE_GIT_PUSH: ${{ inputs.dry_run && '0' || '1' }}
           DRY_RUN: ${{ inputs.dry_run }}
           MAX_VIDEOS: ${{ inputs.max_videos }}
+          TEST_EPISODE: ${{ inputs.test_episode }}
         run: |
           git config user.name "luxury-lane-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           ARGS=""
           if [ "$DRY_RUN" = "true" ]; then ARGS="--dry-run"; fi
           if [ -n "$MAX_VIDEOS" ]; then ARGS="$ARGS -n $MAX_VIDEOS"; fi
+          if [ "$TEST_EPISODE" = "true" ] && [ "$DRY_RUN" = "true" ]; then ARGS="$ARGS --force-episode"; fi
           python -m lane.pipeline $ARGS
 
       - name: Attach test videos

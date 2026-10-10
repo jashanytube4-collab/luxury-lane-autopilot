@@ -277,6 +277,17 @@ class Runner:
             return 1
         self.sync()
         self.reconcile()
+        if getattr(self.args, "force_episode", False):
+            # test mode: build one episode for tomorrow's evening slot without touching the real plan
+            day = target_days(datetime.now(timezone.utc), self.cfg["schedule"])[-1]
+            slot = {"at": datetime.now(timezone.utc).replace(microsecond=0).isoformat(), "type": "long",
+                    "status": "open"}
+            try:
+                self.fill_long(day, slot, {"date": day.isoformat(), "slots": [slot]})
+            finally:
+                self.brain.close()
+            self.report.publish(self.secrets.telegram_bot_token, self.secrets.telegram_chat_id)
+            return 0
         try:
             for day in target_days(datetime.now(timezone.utc), self.cfg["schedule"]):
                 if not self.fill_day(day):
@@ -313,6 +324,7 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true", help="render into work/out without uploading")
     ap.add_argument("-n", "--max", type=int, default=None, help="make at most N videos this run")
+    ap.add_argument("--force-episode", action="store_true", help="with --dry-run: build one test episode")
     args = ap.parse_args()
     setup_logging()
     sys.exit(Runner(args).run())

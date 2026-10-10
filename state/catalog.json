@@ -1238,6 +1238,44 @@
  "hamdan bin mohammed inaugurates dubai world self driving transport exhibition": {
   "long": "2026-10-08"
  },
+ "hamdan bin mohammed inaugurates new generation bus stations at al ghubaiba": {
+  "last_short": "2026-10-11",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    0.22,
+    5.12
+   ],
+   [
+    5.7,
+    8.51
+   ],
+   [
+    10.219999999999999,
+    12.23
+   ],
+   [
+    12.62,
+    17.52
+   ],
+   [
+    18.42,
+    20.63
+   ],
+   [
+    21.020000000000003,
+    24.509999999999998
+   ],
+   [
+    24.900000000000002,
+    28.27
+   ],
+   [
+    28.660000000000004,
+    30.79
+   ]
+  ]
+ },
  "hamdan bin mohammed inaugurates new outpatient building at dubai hospital": {
   "last_short": "2026-10-10",
   "shorts_made": 1,

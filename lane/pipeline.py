@@ -20,7 +20,6 @@ from .audio import credit_line
 from .brain import AIUnavailable, Brain
 from .config import WORK_DIR, load_config, load_secrets
 from .hamdan import Hamdan, Library, SourceError, load_events, save_events
-from .longform import choose_episode
 from .report import RunReport, setup_logging
 from .schedule import day_slots, long_slot, target_days, top_up
 from .state import State
@@ -129,22 +128,24 @@ class Runner:
 
     # ---- long-form ------------------------------------------------------------------------------------
     def fill_long(self, day, slot: dict, plan: dict) -> bool:
-        used_long = {k for k, u in self.usage.items() if u.get("long")}
-        day_index = (day - datetime(2026, 1, 1).date()).days
+        topics_used = self.state.cursors.setdefault("topics_used", {})
         try:
-            theme, keys = choose_episode(self.events, used_long, day_index,
-                                         chapters=int(self.cfg.get("longform", {}).get("chapters", 6)))
+            topic, candidates = self.studio.choose_topic(self.events, self.usage, topics_used, day)
         except Exception as e:  # noqa: BLE001
             self.report.problem(f"No episode possible today: {e}")
             return True
         seed = random.randint(1, 10**9)
         try:
-            ep = self.studio.make_episode(theme, keys, self.events, seed)
+            ep, keys = self.studio.make_episode(topic, candidates, self.events, self.usage, seed,
+                                                int(self.cfg.get("longform", {}).get("chapters", 6)))
         except AIUnavailable:
             raise
         except Exception as e:  # noqa: BLE001 — try again next run with other events
-            self.report.problem(f"Episode failed ({theme}): {str(e)[:300]}")
+            self.report.problem(f"Episode failed ({topic['id']}): {str(e)[:300]}")
+            self.state.save()
             return True
+        if not self.args.dry_run:
+            topics_used[topic["id"]] = day.isoformat()
         at = datetime.fromisoformat(slot["at"])
         chapters = "\n".join(f"{_fmt_ts(t)} {name}" for t, name in [(0, "Intro"), *ep.chapters])
         credits = "\n".join(c for c in {credit_line(m) for m in ep.music} if c)

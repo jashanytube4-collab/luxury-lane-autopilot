@@ -1,0 +1,93 @@
+# Verified, public facts about H.H. Sheikh Hamdan bin Mohammed (sources: Wikipedia, official hamdan.ae / WAM).
+# The AI may ONLY use facts from this file, the official article of the event, or what is visible on screen.
+# Keep it respectful: no gossip, no rumours, no wealth estimates.
+
+facts:
+  family:
+    - He was born on 14 November 1982 in Dubai.
+    - His father is Sheikh Mohammed bin Rashid Al Maktoum, Ruler of Dubai and Vice President and Prime Minister of the UAE.
+    - His mother is Sheikha Hind bint Maktoum bin Juma Al Maktoum.
+    - He married Sheikha Shaikha bint Saeed bin Thani Al Maktoum on 15 May 2019.
+    - His royal wedding was celebrated on 6 June 2019 together with his brothers Maktoum and Ahmed, at Dubai World Trade Centre.
+    - His twins, Rashid and Shaikha, were born in May 2021.
+    - His son Mohammed, named after his father, was born on 25 February 2023.
+    - His daughter Hind, named after his mother, was born in March 2025.
+  education:
+    - He studied at Rashid School for Boys in Dubai.
+    - He graduated from the Royal Military Academy Sandhurst in the United Kingdom in 2001.
+    - He studied at the London School of Economics and at the Dubai School of Government.
+  leadership:
+    - He became Chairman of the Dubai Executive Council in September 2006.
+    - He has been Crown Prince of Dubai since 1 February 2008.
+    - On 14 July 2024 he became Deputy Prime Minister and Minister of Defence of the UAE, succeeding his father as Defence Minister.
+    - In June 2022 he launched "Dubai Global", a plan for 50 Dubai trade offices across five continents.
+    - He was part of the delegation that won Expo 2020 for Dubai, and days later waved the UAE flag from the top of Burj Khalifa.
+  horses:
+    - He is an endurance rider and won individual gold at the 2014 FEI World Equestrian Games in Normandy, France.
+    - He won individual bronze in endurance at the 2010 World Equestrian Games in Kentucky.
+    - He led a team of five UAE riders at the 2016 endurance championships in Samorin, Slovakia.
+    - He is regularly seen at Royal Ascot and is closely linked with Godolphin racing.
+  poetry:
+    - He writes romantic and patriotic Arabic poetry under the pen name "Fazza".
+    - The name Fazza (فزاع) means "the one who comes to help".
+  passions:
+    - He is a skydiver and a scuba diver, and dives off the coast of Fujairah.
+    - His Instagram account has more than 17 million followers.
+    - On Instagram he shares animals, poetry, sports, photography and adventures.
+    - In 2011 he founded the Hamdan International Photography Award (HIPA).
+    - He launched the Dubai Fitness Challenge (the "30x30": 30 minutes of activity for 30 days), first held in 2017.
+    - The Dubai Fitness Challenge turns Sheikh Zayed Road into a running and cycling track for the Dubai Run and Dubai Ride.
+
+# Long-form episode topics. Each episode = one topic, ~6 chapters, footage where he is on screen.
+# `keywords` pick matching official events for the chapters; `facts` = which fact groups the script may draw on.
+topics:
+  - id: father
+    angle: Fazza as a son and a father - the family behind the Crown Prince
+    keywords: [ramadan, eid, family, father, children, wedding, mohammed bin rashid, well-wishers, majlis]
+    facts: [family]
+    title_hint: "Inside Prince Hamdan's Life as a Father & Son"
+  - id: horseman
+    angle: Fazza the horseman - from world endurance gold to the stables of Dubai
+    keywords: [endurance, horse, equestrian, race, cup, ascot, camel, heritage]
+    facts: [horses, passions]
+    title_hint: "Prince Hamdan's Secret World of Horses"
+  - id: poet
+    angle: Fazza the poet - the man behind the pen name millions follow
+    keywords: [poetry, culture, heritage, arabic, festival, art, museum, majlis]
+    facts: [poetry, passions]
+    title_hint: "Why Millions Know Prince Hamdan as 'Fazza'"
+  - id: humble
+    angle: The Crown Prince's most humble moments with ordinary people
+    keywords: [iftar, citizens, elders, students, graduates, volunteers, workers, recruits, people, families, visit]
+    facts: [leadership, passions]
+    title_hint: "Prince Hamdan's Most Humble Moments Caught on Camera"
+  - id: defence
+    angle: From Sandhurst cadet to Minister of Defence - Fazza in uniform
+    keywords: [defence, military, armed forces, graduation, officers, police, navy, guard, idex, academy, cadets]
+    facts: [education, leadership]
+    title_hint: "From Cadet to Defence Minister: Prince Hamdan's Untold Journey"
+  - id: world
+    angle: Fazza on the world stage - kings, presidents and historic visits
+    keywords: [receives, meets, visit, president, king, prime minister, delegation, arrives, official visit]
+    facts: [leadership]
+    title_hint: "When Prince Hamdan Meets the World's Most Powerful Leaders"
+  - id: fitness
+    angle: The fittest royal - how Fazza made a whole city move
+    keywords: [fitness, run, ride, cycling, sport, marathon, games, athletes, challenge, football, padel]
+    facts: [passions]
+    title_hint: "How Prince Hamdan Got an Entire City Running"
+  - id: future
+    angle: Fazza's Dubai of tomorrow - the projects he personally pushes
+    keywords: [future, ai, artificial intelligence, space, technology, smart, digital, innovation, autonomous, air taxi]
+    facts: [leadership]
+    title_hint: "Prince Hamdan's Billion-Dollar Plan for Dubai's Future"
+  - id: builder
+    angle: The Crown Prince who builds - landmarks, ports and mega projects
+    keywords: [project, approves, billion, port, airport, district, tower, metro, rail, infrastructure, development]
+    facts: [leadership]
+    title_hint: "Inside Prince Hamdan's Biggest Mega Projects"
+  - id: week
+    angle: A week in the life of the Crown Prince of Dubai
+    keywords: []
+    facts: [leadership, passions]
+    title_hint: "A Week in the Life of Prince Hamdan (Fazza)"

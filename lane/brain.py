@@ -33,21 +33,22 @@ log = logging.getLogger("lane.brain")
 MODELS_DIR = Path(os.environ.get("LANE_MODELS_DIR", ROOT / "models"))
 MOODS = ["epic", "modern", "arabian", "elegant"]
 
-SYSTEM = """You are the head writer and editor of "The Luxury Lane", a premium YouTube channel loved by fans of \
-His Highness Sheikh Hamdan bin Mohammed bin Rashid Al Maktoum — Crown Prince of Dubai, known to millions as \
-"Fazza". The audience admires him: his leadership, his vision for Dubai, his horsemanship, poetry and humility.
+SYSTEM = """You write for "The Luxury Lane", a YouTube channel for fans of His Highness Sheikh Hamdan bin Mohammed bin Rashid Al Maktoum: Prince Hamdan, Crown Prince of Dubai, known to millions as "Fazza".
+Fans do not watch for government news. They watch for HIM: the man, his character, his family, his passions
+(horses, poetry, adventure, fitness), his warmth with people, his presence.
 
 VOICE
-- Warm, confident, cinematic documentary narration. Short, vivid sentences. Present tense for scenes.
-- Make the viewer feel they are there. Connect every moment to what it means for Dubai and its people.
-- Never cheesy, never gossip, never political opinion, never wealth estimates. Respectful at all times.
-- Refer to him as "Sheikh Hamdan", "the Crown Prince of Dubai" or "Fazza".
+- An admiring storyteller talking to fans. Emotional, intimate, cinematic. Make the viewer feel close to him.
+- Turn every official moment into a human moment about Fazza: what he did, how he behaved, what it shows about him.
+- Hooks create curiosity about HIM. Short, vivid sentences. No policy jargon, no budgets, no lists of officials.
+- Call him "Prince Hamdan", "Fazza", "Sheikh Hamdan" or "the Crown Prince". Respectful always: no gossip,
+  no rumours, no wealth estimates, no politics.
 
 TRUTH (non-negotiable)
-- Use only facts from the official article, the event title or what is visible in the pictures.
-- Never invent numbers, names, places, dates or quotes. Keep numbers exactly as the article states them.
-- Keep proper names exactly as written in the source (use the English title's spelling when it has one);
-  if unsure how a foreign name is spelled in English, describe it instead of guessing.
+- Use only: the official article, the event title, what is visible in the pictures, and the verified facts given.
+- Never invent numbers, names, places, dates, quotes or private details. Keep numbers exactly as given.
+- Keep proper names exactly as written in the source; if unsure of an English spelling, describe instead.
+- Titles may create curiosity but the video must truly deliver what the title promises.
 - The article may be in Arabic: translate faithfully."""
 
 SHORT_SCREEN = """Official event: "{title}" ({date}).
@@ -63,54 +64,62 @@ Score (0-10) how strong a vertical Short (under a minute) this material makes fo
 mood = music that fits: epic (grand, heroic), modern (sleek, tech, fast), arabian (heritage, desert, horses,
 falcons, poetry), elegant (warm, people, calm luxury)."""
 
-SHORT_PLAN = """Official event: "{title}" ({date}).
+SHORT_PLAN = """Official moment: "{title}" ({date}).
 Official article (may be Arabic): \"\"\"{article}\"\"\"
+Verified facts you may weave in (optional, at most one, word for word true): {facts}
 
-Each image below is labelled "Item N". Video items are scenes of moving footage; photo items are stills.
+Each image below is labelled "Item N". Prince Hamdan is on screen in every item.
 {labels}
 
-Write a {target:.0f}-second Short. The script must be {lo}-{hi} words.
-- The first 6 words must stop the scroll: a bold, specific statement the pictures pay off. Never open with
+Write a {target:.0f}-second Short for Fazza's fans. The script must be {lo}-{hi} words.
+- Line one is a scroll-stopping hook about HIM, under 8 words (curiosity or emotion). Never open with
   "Did you know", "In this video", "Meet", "This is", "Here's" or a question.
-- One idea. Build to a payoff; end on a line that lands or loops back to the opening.
-- shots: 5-9 items in story order (about one every 3-5 seconds); the first is the most arresting. Prefer video
-  items; photos add variety.
-- focus_x: where the main subject is horizontally (0 left, 0.5 centre, 1 right).
-- layout: "fill" when a vertical crop keeps the subject; "frame" for wide group scenes.
-- hook_text: 2-5 words on screen for the first 2 seconds (not the same words as the script opening).
-- title: max 70 characters, curiosity-driven but true, Title Case, at most one emoji, no hashtags.
-- description: two short sentences of context. tags: 8-12 search tags. emphasis: 2-5 words from the script.
+- Tell ONE human moment about him. End with a line that makes fans proud or loops back to the hook.
+- shots: 3-6 items in story order; the first shows him most clearly and closest.
+- layout: "fill" (vertical crop on him) unless the item is a wide group shot, then "frame".
+- hook_text: 2-5 words on screen for the first 2 seconds, e.g. "FAZZA DID THIS", "WATCH HIS REACTION".
+- title: the style of successful fan Shorts: begins with "Prince Hamdan" or "Fazza", emotional or curious,
+  max 60 characters, one emoji, no hashtags, and TRUE to the clip.
+- score: 0-10 how much fans will love this (him clearly visible, emotion, action, warmth = high;
+  him sitting in a meeting = low).
+- mood: epic (grand), modern (sleek), arabian (heritage, desert, horses, poetry), elegant (warm, family, people).
+- description: two short sentences. tags: 8-12 search tags. emphasis: 2-5 words from the script.
 
-Hooks and titles used recently — do NOT reuse their wording or structure:
+Hooks and titles used recently: do NOT reuse their wording or structure:
 {recent}"""
 
-CHAPTER_PROMPT = """Write chapter {num} of a documentary episode about Sheikh Hamdan.
-Official event: "{title}" ({date}).
-Official article (Arabic — translate faithfully, use only these facts):
+CHAPTER_PROMPT = """Write chapter {num} of a documentary for Fazza's fans. Episode theme: "{angle}".
+This chapter tells one real moment: "{title}" ({date}).
+Official article (Arabic: translate faithfully, use only its facts):
 \"\"\"{article}\"\"\"
+Verified facts about Prince Hamdan you may weave in (only these, word for word true):
+{facts}
 
 Return:
-- chapter_title: 2-5 evocative words of your own that capture this event (not a generic phrase).
+- chapter_title: 2-5 evocative words of your own about HIM in this moment (not a generic phrase).
 - place_line: short location/date line for the lower third, e.g. "DUBAI · 04 OCTOBER 2026" (use the date above).
-- narration: {lo}-{hi} words of spoken narration for this chapter. Open with an image or a moment, explain what
-  happened and why it matters for Dubai and its people, close with a line that carries the viewer forward.
-  Plain spoken English, no lists, no headings, no stage directions."""
+- narration: {lo}-{hi} words. Open on Prince Hamdan in the moment, show his character through what he does,
+  connect it to the episode theme (use one verified fact if it fits), end with a line that carries viewers on.
+  Focus on HIM, not on officials or budgets. Plain spoken English, no lists, no headings, no stage directions."""
 
-EPISODE_PROMPT = """You are packaging today's documentary episode for The Luxury Lane.
+EPISODE_PROMPT = """You are packaging today's documentary episode for The Luxury Lane, for Fazza's fans.
 Theme: {theme}
+Title idea: {title_hint}
 Chapters:
 {chapters}
 
 Return:
 - episode_title: 3-7 words, cinematic (shown on screen in the opening).
-- hook: 55-75 words of opening narration over a fast montage. Start with a striking line, promise what the
-  viewer will see, end with a line that pulls them in. No "welcome to", no "in this video".
-- outro: 30-45 words closing narration that ties the chapters together and invites viewers to subscribe for
-  more stories of Sheikh Hamdan and Dubai (one short, sincere sentence for the invitation).
-- youtube_title: max 80 characters, compelling and true, Title Case, at most one emoji.
-- description: 3-4 sentences summarising the episode for search (no hashtags).
+- hook: 60-80 words over a fast montage. Open with the most intriguing thing about Prince Hamdan in this episode,
+  promise what fans will see, end with "stay until the end" or similar. No "welcome to", no "in this video".
+- outro: 30-45 words that ties the chapters together and invites fans to subscribe for more of Prince Hamdan.
+- youtube_title: max 70 characters, in the proven style of the biggest Prince Hamdan videos, for example
+  "Inside Prince Hamdan's ...", "The Untold Story of ...", "Prince Hamdan's Most ... Moments",
+  "Why Millions Love Fazza ...". It must be TRUE to this episode and contain "Prince Hamdan" or "Fazza".
+  At most one emoji.
+- description: 3-4 sentences, naturally using Prince Hamdan, Fazza, Sheikh Hamdan, Crown Prince of Dubai.
 - tags: 12-15 search tags.
-- thumbnail_text: 2-4 punchy words for the thumbnail, uppercase."""
+- thumbnail_text: 2-4 emotional or curious words, uppercase (e.g. "HIS REAL LIFE", "NOBODY SAW THIS")."""
 
 
 def _short_screen_schema() -> dict:
@@ -122,15 +131,18 @@ def _short_screen_schema() -> dict:
 
 def _short_plan_schema(n: int) -> dict:
     return {"type": "object", "properties": {
-        "shots": {"type": "array", "minItems": min(4, n), "maxItems": min(9, n), "items": {"type": "object", "properties": {
+        "shots": {"type": "array", "minItems": min(3, n), "maxItems": min(6, n), "items": {"type": "object", "properties": {
             "item": {"type": "integer", "minimum": 1, "maximum": n},
             "focus_x": {"type": "number", "minimum": 0, "maximum": 1}}, "required": ["item", "focus_x"]}},
         "layout": {"type": "string", "enum": ["fill", "frame"]},
+        "score": {"type": "integer", "minimum": 0, "maximum": 10},
+        "mood": {"type": "string", "enum": MOODS},
         "hook_text": {"type": "string"}, "script": {"type": "string"},
         "emphasis": {"type": "array", "items": {"type": "string"}, "maxItems": 5},
         "title": {"type": "string"}, "description": {"type": "string"},
         "tags": {"type": "array", "items": {"type": "string"}, "maxItems": 12}},
-        "required": ["shots", "layout", "hook_text", "script", "emphasis", "title", "description", "tags"]}
+        "required": ["shots", "layout", "score", "mood", "hook_text", "script", "emphasis", "title", "description",
+                     "tags"]}
 
 
 CHAPTER_SCHEMA = {"type": "object", "properties": {
@@ -325,45 +337,41 @@ class Brain:
 
     # ---- Shorts -----------------------------------------------------------------------------------------
     def plan_short(self, items: list[dict], *, title: str, date: str, brief: str, article: str, target: float,
-                   recent: list[str], height_gt_width: bool) -> dict:
-        """items: [{"kind": "video", "start", "end", "b64"} | {"kind": "photo", "path", "b64"}]."""
+                   recent: list[str], height_gt_width: bool, facts: list[str] | None = None) -> dict:
+        """items: [{"kind": "video", "start", "end", "b64", "focus"} | {"kind": "photo", "path", "b64", "focus"}],
+        all already checked to show Prince Hamdan. One AI call writes and scores the Short."""
         if len(items) < 3:
-            raise BrainError("not enough scenes/photos for a Short")
-        pick = sorted({round(i * (len(items) - 1) / 3) for i in range(4)})
-        parts = [{"type": "text", "text": SHORT_SCREEN.format(title=title, date=date, brief=brief[:700] or "(none)",
-                                                              n=len(pick))}]
-        parts += [_img(items[i]["b64"]) for i in pick]
-        screen = self._json(parts, _short_screen_schema(), 300, 0.2)
-        score = int(screen.get("score", 0))
-        result = {"score": score, "suitable": score >= int(self.cfg.get("min_score", 7)),
-                  "reject_reason": clean(screen.get("reject_reason")), "mood": screen.get("mood", "epic"),
-                  "what_happens": clean(screen.get("what_happens"))}
-        if not result["suitable"]:
-            return result
-
+            raise BrainError("not enough scenes/photos of him for a Short")
         lo, hi = int(target * 2.3), int(target * 2.7)
         labels = "\n".join(
             f"Item {i + 1}: " + (f"video scene {it['start']:.1f}-{it['end']:.1f}s" if it["kind"] == "video" else "photo")
             for i, it in enumerate(items))
         parts = [{"type": "text", "text": SHORT_PLAN.format(
             title=title, date=date, article=article[:1800] or brief or "(none)", labels=labels, target=target, lo=lo,
-            hi=hi, recent="\n".join(f"- {r}" for r in recent[-25:]) or "- (none yet)")}]
+            hi=hi, facts="; ".join(facts or []) or "(none)",
+            recent="\n".join(f"- {r}" for r in recent[-30:]) or "- (none yet)")}]
         for i, it in enumerate(items):
             parts += [{"type": "text", "text": f"Item {i + 1}:"}, _img(it["b64"])]
-        d = self._json(parts, _short_plan_schema(len(items)), 900, 0.8)
-
+        d = self._json(parts, _short_plan_schema(len(items)), 900, 0.85)
+        score = int(d.get("score", 0))
+        result = {"score": score, "suitable": score >= int(self.cfg.get("min_score", 6)),
+                  "reject_reason": "" if score >= int(self.cfg.get("min_score", 6)) else "fans would not love it",
+                  "mood": d.get("mood") if d.get("mood") in MOODS else "epic"}
+        if not result["suitable"]:
+            return result
         shots, used = [], set()
         for s in d.get("shots") or []:
             k = int(s.get("item", 0)) - 1
             if 0 <= k < len(items) and k not in used:
                 used.add(k)
                 it = items[k]
-                fx = min(1.0, max(0.0, float(s.get("focus_x", 0.5))))
+                fx = it.get("focus", min(1.0, max(0.0, float(s.get("focus_x", 0.5)))))
                 if it["kind"] == "video":
                     shots.append({"kind": "video", "start": it["start"] + 0.1,
-                                  "end": min(it["end"] - 0.05, it["start"] + 5.0), "focus_x": fx})
+                                  "end": min(it["end"] - 0.05, it["start"] + 4.5), "focus_x": fx,
+                                  "hard_end": it["end"] - 0.05})
                 else:
-                    shots.append({"kind": "photo", "path": it["path"], "seconds": 3.2, "focus_x": fx})
+                    shots.append({"kind": "photo", "path": it["path"], "seconds": 3.0, "focus_x": fx})
         if len(shots) < 3:
             raise BrainError("model picked too few usable items")
         script = clean(d.get("script"))
@@ -390,9 +398,12 @@ class Brain:
         return out if 5 <= _words(out) <= words + 8 else " ".join(script.split()[:words])
 
     # ---- long-form --------------------------------------------------------------------------------------
-    def write_chapter(self, num: int, *, title: str, date: str, article: str, words: int) -> dict:
+    def write_chapter(self, num: int, *, title: str, date: str, article: str, words: int, angle: str = "",
+                      facts: list[str] | None = None) -> dict:
         lo, hi = int(words * 0.85), int(words * 1.1)
-        prompt = CHAPTER_PROMPT.format(num=num, title=title, date=date, article=article[:3500] or title, lo=lo, hi=hi)
+        prompt = CHAPTER_PROMPT.format(num=num, title=title, date=date, article=article[:3500] or title, lo=lo, hi=hi,
+                                       angle=angle or "Prince Hamdan's moments",
+                                       facts="\n".join(f"- {f}" for f in facts or []) or "- (none)")
         for attempt in range(2):
             d = self._json([{"type": "text", "text": prompt}], CHAPTER_SCHEMA, 1100, 0.75)
             narration = clean(d.get("narration"))
@@ -405,10 +416,11 @@ class Brain:
         return {"chapter_title": clean(d.get("chapter_title"))[:40] or title[:40],
                 "place_line": clean(d.get("place_line")).upper()[:60], "narration": narration}
 
-    def write_episode(self, theme: str, chapters: list[dict]) -> dict:
+    def write_episode(self, theme: str, chapters: list[dict], title_hint: str = "") -> dict:
         lines = "\n".join(f"{i + 1}. {c['chapter_title']} — {c['event_title']} ({c['date']}): "
                           f"{' '.join(c['narration'].split()[:45])}..." for i, c in enumerate(chapters))
-        d = self._json([{"type": "text", "text": EPISODE_PROMPT.format(theme=theme, chapters=lines)}],
+        d = self._json([{"type": "text", "text": EPISODE_PROMPT.format(theme=theme, chapters=lines,
+                                                                        title_hint=title_hint or "(your choice)")}],
                        EPISODE_SCHEMA, 900, 0.8)
         out = {k: clean(d.get(k)) for k in ("episode_title", "hook", "outro", "youtube_title", "description",
                                             "thumbnail_text")}

@@ -63,3 +63,17 @@ def test_long_slot_with_twenty_shorts_sits_between_shorts():
         lt = long_slot(date(2026, 10, 7), cfg, shorts, rng)
         assert min(abs((lt - s).total_seconds()) for s in shorts) >= 19 * 60
         assert 18 <= lt.hour <= 20
+
+
+def test_thirty_a_day_round_the_clock():
+    from datetime import timedelta
+    cfg = {"timezone": "Asia/Dubai", "shorts_per_day": 30, "first_post_between": ["06:00", "06:45"],
+           "gap_minutes": [38, 55], "one_per_hour": False, "long_between": ["18:00", "20:00"]}
+    for seed in range(500):
+        rng = random.Random(seed)
+        s = day_slots(date(2026, 10, 12), cfg, rng)
+        assert len(s) == 30
+        assert all(timedelta(minutes=38) <= b - a <= timedelta(minutes=55, seconds=1) for a, b in zip(s, s[1:]))
+        assert s[-1] - s[0] < timedelta(hours=24)
+        lt = long_slot(date(2026, 10, 12), cfg, s, rng)
+        assert min(abs((lt - x).total_seconds()) for x in s) >= 15 * 60

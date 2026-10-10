@@ -30,8 +30,19 @@ def day_slots(day: date, cfg: dict, rng: random.Random) -> list[datetime]:
     lo, hi = cfg["gap_minutes"]
     t = _random_in(day, cfg["first_post_between"], tz, rng)
     slots = [t]
+    if not cfg.get("one_per_hour", True) and lo < 60:
+        # many Shorts a day: random gaps, squeezed (never below min_gap) so the day fits inside 23.5 hours
+        gaps = [rng.uniform(lo, hi) for _ in range(n - 1)]
+        limit = 23.5 * 60
+        if sum(gaps) > limit:
+            k = (limit - lo * len(gaps)) / max(1e-9, sum(g - lo for g in gaps))
+            gaps = [lo + (g - lo) * k for g in gaps]
+        for g in gaps:
+            t = t + timedelta(minutes=g)
+            slots.append(t.replace(microsecond=0))
+        return slots
     for _ in range(n - 1):
-        if lo >= 60:
+        if lo >= 60 or not cfg.get("one_per_hour", True):
             gap = rng.uniform(lo, hi)
         else:
             m = t.minute
@@ -55,13 +66,14 @@ def top_up(day: date, cfg: dict, existing: list[datetime], rng: random.Random,
     start = datetime.combine(day, first, tz).replace(minute=0)
     taken = list(existing)
     used_hours = {(t.astimezone(tz).date(), t.astimezone(tz).hour) for t in existing}
-    hours = [start + timedelta(hours=h) for h in range(22)]
+    hours = [start + timedelta(hours=h) for h in range(23)]
     rng.shuffle(hours)
+    one_per_hour = cfg.get("one_per_hour", True)
     added = []
-    for h in hours:
+    for h in hours * (1 if one_per_hour else 2):
         if len(added) >= need:
             break
-        if (h.date(), h.hour) in used_hours:
+        if one_per_hour and (h.date(), h.hour) in used_hours:
             continue
         for _ in range(12):
             t = (h + timedelta(minutes=rng.randint(0, 59), seconds=rng.randint(0, 59))).replace(microsecond=0)

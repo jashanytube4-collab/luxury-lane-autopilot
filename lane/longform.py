@@ -414,8 +414,8 @@ class EpisodeResult:
     music: list[str]
 
 
-def produce_episode(*, theme: str, chapters_in: list[dict], package: dict, cfg: dict, work: Path, seed: int
-                    ) -> EpisodeResult:
+def produce_episode(*, theme: str, chapters_in: list[dict], package: dict, cfg: dict, work: Path, seed: int,
+                    hero: Path | None = None) -> EpisodeResult:
     """chapters_in: [{"event_title", "date", "chapter_title", "place_line", "narration", "visuals": Visuals}]."""
     rng = random.Random(seed)
     work.mkdir(parents=True, exist_ok=True)
@@ -480,7 +480,7 @@ def produce_episode(*, theme: str, chapters_in: list[dict], package: dict, cfg: 
 
     # title sequence
     title_len = 5.5
-    hero = _hero_photo([p for v in all_vis for p in v.photos[:4]]) or montage[0][1]
+    hero = hero or _hero_photo([p for v in all_vis for p in v.photos[:4]]) or montage[0][1]
     title_shot = Shot("photo" if hero.suffix.lower() in (".jpg", ".jpeg", ".png") else "video", hero,
                       int(title_len * FPS), style="blur", flash_in=6, dip_out=10)
     shots.append(title_shot)
@@ -679,11 +679,22 @@ def make_thumbnail(photo: Path, text: str, work: Path) -> Path:
     img = cv2.imread(str(photo), cv2.IMREAD_COLOR)
     if img is None:
         raise RenderError("thumbnail photo unreadable")
+    try:
+        from .faceid import FaceID
+        seen = FaceID().find(img)
+    except Exception:  # noqa: BLE001 — no face model: plain centre crop
+        seen = None
     h, w = img.shape[:2]
-    scale = max(1280 / w, 720 / h)
+    zoom = 1.0
+    if seen and seen.present and seen.size < 0.22:
+        zoom = min(2.2, 0.30 / max(seen.size, 0.05))        # punch in so his face is big on the thumbnail
+    scale = max(1280 / w, 720 / h) * zoom
     img = cv2.resize(img, (int(w * scale) + 1, int(h * scale) + 1), interpolation=cv2.INTER_AREA)
+    if seen and seen.present:
+        x0 = int(min(max(0, seen.cx * img.shape[1] - 0.68 * 1280), img.shape[1] - 1280))
+    else:
+        x0 = max(0, (img.shape[1] - 1280) // 2)
     y0 = max(0, (img.shape[0] - 720) // 3)
-    x0 = max(0, (img.shape[1] - 1280) // 2)
     img = img[y0:y0 + 720, x0:x0 + 1280]
     from .render import grade_lut
     img = cv2.LUT(img, grade_lut())

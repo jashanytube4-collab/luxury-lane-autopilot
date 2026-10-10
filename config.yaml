@@ -11,9 +11,10 @@ source:
 
 schedule:
   timezone: Asia/Dubai
-  shorts_per_day: 20
-  first_post_between: ["07:00", "08:30"]   # first Short of the day lands randomly in this window (local time)
-  gap_minutes: [45, 70]                    # random gap between Shorts; every Short lands in a different hour
+  shorts_per_day: 30
+  first_post_between: ["06:00", "06:45"]   # first Short of the day lands randomly in this window (local time)
+  gap_minutes: [38, 55]                    # random gap between Shorts (30 a day fill the whole 24 hours)
+  one_per_hour: false                      # with 30 a day some hours get two; never closer than 38 minutes
   long_between: ["18:00", "20:00"]         # the daily long-form episode goes out in this evening window
   days_ahead: 2                            # keep today + tomorrow scheduled, so a missed run never leaves a gap
   min_lead_minutes: 25                     # never schedule anything sooner than this from "now"
@@ -21,13 +22,13 @@ schedule:
 longform:
   chapters: 6                        # events per episode (each becomes a chapter)
   target_minutes: 9.5                # aims for 8-12 minutes
-  min_minutes: 7.5
+  min_minutes: 8.2
   max_minutes: 13
   voice_rate: "-2%"                  # slightly calmer delivery for documentaries
 
 short:
-  min_seconds: 25
-  max_seconds: 35
+  min_seconds: 15
+  max_seconds: 22
   fps: 30
 
 voice:
@@ -43,7 +44,7 @@ ai:
   model_file: Qwen3.5-4B-Q4_K_M.gguf
   mmproj_file: mmproj-F16.gguf
   llama_cpp_version: b11342
-  min_score: 7                       # 0-10 suitability for Shorts; weaker material is skipped
+  min_score: 6                       # 0-10 fan appeal for Shorts; weaker moments are skipped
 
 music:
   volume_db: -21                     # music bed level when the narrator is silent
@@ -52,5 +53,6 @@ music:
 youtube:
   category_id: "24"                  # Entertainment
   privacy: scheduled                 # scheduled (publish at the slot time) | private (for testing)
-  base_tags: [Sheikh Hamdan, Fazza, Hamdan bin Mohammed, Crown Prince of Dubai, Dubai, فزاع, حمدان بن محمد]
-  base_hashtags: ["#Fazza", "#SheikhHamdan", "#Dubai"]
+  base_tags: [Prince Hamdan, Fazza, Sheikh Hamdan, Crown Prince of Dubai, Hamdan bin Mohammed, faz3, Dubai prince,
+              Dubai, فزاع, حمدان بن محمد]
+  base_hashtags: ["#PrinceHamdan", "#Fazza", "#SheikhHamdan", "#Dubai", "#faz3", "#فزاع"]

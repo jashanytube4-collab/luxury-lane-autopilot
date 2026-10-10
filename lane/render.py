@@ -80,13 +80,15 @@ def make_plan(shots: list[dict], *, layout: str, duration: float, video: Path | 
                 continue
             a, b = _snap(s["start"], min(s["end"], src_duration - 0.05), cuts, fps)
             if b - a >= 0.8:
-                spans.append(["video", a, b, s.get("focus_x", 0.5), video, vinfo["width"], vinfo["height"]])
+                hard = min(s.get("hard_end", src_duration - 0.05), src_duration - 0.05)
+                spans.append(["video", a, b, s.get("focus_x", 0.5), video, vinfo["width"], vinfo["height"], hard])
         else:
             img = cv2.imread(str(s["path"]), cv2.IMREAD_REDUCED_COLOR_2)
             if img is None:
                 continue
             h, w = img.shape[:2]
-            spans.append(["photo", 0.0, float(s.get("seconds", 3.2)), s.get("focus_x", 0.5), Path(s["path"]), w, h])
+            spans.append(["photo", 0.0, float(s.get("seconds", 3.2)), s.get("focus_x", 0.5), Path(s["path"]), w, h,
+                          None])
     if not spans:
         raise RenderError("no usable shots")
 
@@ -105,7 +107,7 @@ def make_plan(shots: list[dict], *, layout: str, duration: float, video: Path | 
             if extra <= 0 or sp[0] != "video":
                 continue
             later = [x for x in starts if x > sp[1]]
-            room = (min(later) if later else src_duration - 0.05) - sp[2]
+            room = min((min(later) if later else src_duration - 0.05), sp[7]) - sp[2]
             grow = max(0.0, min(room, extra))
             sp[2] += grow
             extra -= grow
@@ -138,7 +140,7 @@ def make_plan(shots: list[dict], *, layout: str, duration: float, video: Path | 
 
     moves = ["push", "pull", "drift_l", "drift_r"]
     segs, last_move = [], None
-    for (kind, a, _, f, src, w, h), sp, n in zip(spans, speeds, frames):
+    for (kind, a, _, f, src, w, h, _hard), sp, n in zip(spans, speeds, frames):
         move = rng.choice([m for m in moves if m != last_move])
         last_move = move
         segs.append(Segment(kind=kind, src=src, src_w=w, src_h=h, src_start=a, out_frames=max(1, n), speed=sp,

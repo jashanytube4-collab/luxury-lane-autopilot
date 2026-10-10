@@ -56,6 +56,9 @@ def _events():
 class FakeHamdan:
     media = None
 
+    def __init__(self, library=None):
+        self.library = library
+
     def sync(self, events, full=False):
         return 0
 
@@ -105,7 +108,7 @@ class FakeBrain:
         return {"chapter_title": f"Into The Dunes {num}", "place_line": "DUBAI · 10 SEPTEMBER 2026",
                 "narration": NARRATION}
 
-    def write_episode(self, theme, chapters):
+    def write_episode(self, theme, chapters, title_hint=""):
         return {"episode_title": "Riders of the Dawn", "hook": NARRATION[:220], "outro": NARRATION[:160],
                 "youtube_title": "Riders Of The Dawn: Fazza's Endurance World", "description": "Test episode.",
                 "tags": ["endurance", "Fazza"], "thumbnail_text": "RIDERS OF THE DAWN"}
@@ -115,6 +118,24 @@ class FakeBrain:
 
     def close(self):
         pass
+
+
+class FakeFace:
+    """Synthetic test footage has no faces: pretend Prince Hamdan is on screen everywhere."""
+    def __init__(self):
+        from lane.faceid import Sighting
+        self.s = Sighting(True, 0.3, 0.5, 0.9)
+
+    def scan(self, video, every=0.5):
+        from lane.media import probe
+        d = probe(video)["duration"]
+        return [(i * every, self.s) for i in range(int(d / every))]
+
+    def photo(self, path):
+        return self.s
+
+    def find(self, img):
+        return self.s
 
 
 class FakeYT:
@@ -146,10 +167,12 @@ def test_full_day(tmp_path, monkeypatch, media):
     monkeypatch.setattr(pl, "save_events", lambda ev: None)
     monkeypatch.setattr(pl, "Brain", FakeBrain)
     monkeypatch.setattr(pl, "Hamdan", FakeHamdan)
+    import lane.studio as st
+    monkeypatch.setattr(st, "FaceID", FakeFace)
 
     runner = pl.Runner(SimpleNamespace(dry_run=False, max=None))
     cfg = runner.cfg
-    cfg["schedule"].update(shorts_per_day=2, days_ahead=1)
+    cfg["schedule"].update(shorts_per_day=2, days_ahead=1, one_per_hour=True, gap_minutes=[45, 70])
     cfg["longform"].update(chapters=4, target_minutes=2.5, min_minutes=1.0, max_minutes=8)
     runner.yt = FakeYT()
     tomorrow = (datetime.now(timezone.utc) + timedelta(days=1)).date()

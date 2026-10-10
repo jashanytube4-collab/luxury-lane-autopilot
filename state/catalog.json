@@ -1345,6 +1345,9 @@
   "fails": 1,
   "video_exhausted": true
  },
+ "hamdan bin mohammed launches dubai schools project": {
+  "video_exhausted": true
+ },
  "hamdan bin mohammed launches erth dubai initiative": {
   "video_exhausted": true
  },
@@ -2688,6 +2691,24 @@
    [
     23.720000000000002,
     25.569999999999997
+   ]
+  ]
+ },
+ "hamdan bin mohammed visits idex 2021": {
+  "last_short": "2026-10-11",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    14.339999999999998,
+    15.790000000000001
+   ],
+   [
+    16.180000000000003,
+    18.79
+   ],
+   [
+    25.94,
+    27.549999999999997
    ]
   ]
  },

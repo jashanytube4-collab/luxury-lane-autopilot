@@ -477,6 +477,44 @@
  "hamdan bin mohammed attends dubai police academy graduation ceremony": {
   "fails": 2
  },
+ "hamdan bin mohammed attends graduation ceremony at rashid bin saeed al maktoum naval college": {
+  "last_short": "2026-10-11",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    0.22,
+    5.12
+   ],
+   [
+    5.9399999999999995,
+    8.95
+   ],
+   [
+    9.339999999999998,
+    12.71
+   ],
+   [
+    13.1,
+    17.59
+   ],
+   [
+    19.220000000000002,
+    22.549999999999997
+   ],
+   [
+    24.46,
+    27.029999999999998
+   ],
+   [
+    28.700000000000003,
+    30.79
+   ],
+   [
+    31.180000000000003,
+    34.59
+   ]
+  ]
+ },
  "hamdan bin mohammed attends graduation ceremony at zayed ii military college in al ain": {
   "fails": 1,
   "video_exhausted": true

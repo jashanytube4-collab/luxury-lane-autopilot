@@ -2,6 +2,24 @@
  "date": "2026-10-11",
  "slots": [
   {
+   "at": "2026-10-11T06:00:09+04:00",
+   "event": "hamdan bin mohammed receives speaker of kyrgyz parliament",
+   "status": "scheduled",
+   "title": "The Unstoppable Heart 🤍",
+   "type": "short",
+   "video_id": "fTUYwggWfeY"
+  },
+  {
+   "at": "2026-10-11T07:02:24+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-11T07:46:01+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
    "at": "2026-10-11T08:30:03+04:00",
    "event": "hamdan bin mohammed meets with the chief minister of kerala at the uae pavilion at expo 2020 dubai",
    "status": "scheduled",
@@ -168,6 +186,16 @@
    "title": "Dubai Police Academy Opens to Women | Historic Milestone 🤝",
    "type": "short",
    "video_id": "La6X6aKqngI"
+  },
+  {
+   "at": "2026-10-12T03:42:48+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-12T04:44:04+04:00",
+   "status": "open",
+   "type": "short"
   }
  ],
  "timezone": "Asia/Dubai"

@@ -1,0 +1,114 @@
+{
+ "date": "2026-10-11",
+ "slots": [
+  {
+   "at": "2026-10-11T08:30:03+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-11T09:28:47+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-11T10:35:07+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-11T11:43:45+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-11T12:41:57+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-11T13:38:10+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-11T14:27:07+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-11T15:31:14+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-11T16:30:29+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-11T17:36:31+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-11T18:07:52+04:00",
+   "minutes": 10.6,
+   "status": "scheduled",
+   "title": "Dubai's Future: From Space to Stars 🚀",
+   "type": "long",
+   "video_id": "-_9ogAgMo7M"
+  },
+  {
+   "at": "2026-10-11T18:39:40+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-11T19:28:17+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-11T20:15:48+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-11T21:21:40+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-11T22:20:57+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-11T23:08:03+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-12T00:14:56+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-12T01:24:03+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-12T02:12:15+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-12T03:00:27+04:00",
+   "status": "open",
+   "type": "short"
+  }
+ ],
+ "timezone": "Asia/Dubai"
+}

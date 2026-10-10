@@ -55,6 +55,24 @@
    ]
   ]
  },
+ "dubai crown prince visits expo 2020 site": {
+  "last_short": "2026-10-11",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    0.22,
+    5.12
+   ],
+   [
+    6.340000000000001,
+    11.240000000000002
+   ],
+   [
+    12.7,
+    14.39
+   ]
+  ]
+ },
  "hamadan bin mohammed opens gastech 2021": {
   "last_short": "2026-10-11",
   "shorts_made": 1,
@@ -688,7 +706,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends signing of agreement between rta and cruise to operate self driving taxis and ride hailing services in dubai": {
-  "long": "2026-10-08"
+  "long": "2026-10-08",
+  "video_exhausted": true
  },
  "hamdan bin mohammed attends talk on middle eastern cities contributions to advancing human progress": {
   "last_short": "2026-10-09",

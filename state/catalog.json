@@ -1459,6 +1459,9 @@
   "fails": 1,
   "video_exhausted": true
  },
+ "hamdan bin mohammed meets with dubai s supreme committee of crisis and disaster management reviews preparations for expo 2020 dubai": {
+  "video_exhausted": true
+ },
  "hamdan bin mohammed meets with elon musk affirms the uae and dubai s vision to foster technology partnerships for greater good": {
   "long": "2026-10-05"
  },
@@ -2895,7 +2898,31 @@
   "video_exhausted": true
  },
  "the executive council of dubai approves formation of emirati human resources development council and bicycle friendly city strategy 2025": {
-  "long": "2026-10-08"
+  "last_short": "2026-10-11",
+  "long": "2026-10-08",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    0.22,
+    3.5100000000000002
+   ],
+   [
+    7.42,
+    9.43
+   ],
+   [
+    9.819999999999999,
+    12.91
+   ],
+   [
+    16.26,
+    19.83
+   ],
+   [
+    22.740000000000002,
+    26.95
+   ]
+  ]
  },
  "the executive council of dubai approves the integrated waste management strategy 2021 2041 with a budget of aed74 5 billion": {
   "video_exhausted": true

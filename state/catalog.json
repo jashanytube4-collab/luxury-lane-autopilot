@@ -858,7 +858,31 @@
   "long": "2026-10-06"
  },
  "hamdan bin mohammed attends health chain forum": {
-  "fails": 1
+  "fails": 1,
+  "last_short": "2026-10-12",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    40.06,
+    42.510000000000005
+   ],
+   [
+    54.9,
+    57.35000000000001
+   ],
+   [
+    77.26,
+    79.71
+   ],
+   [
+    201.42,
+    203.67
+   ],
+   [
+    217.98,
+    220.42999999999998
+   ]
+  ]
  },
  "hamdan bin mohammed attends iftar banquet with autistic children and their families": {
   "last_short": "2026-10-09",

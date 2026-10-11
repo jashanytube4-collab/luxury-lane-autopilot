@@ -186,7 +186,7 @@ def test_full_day(tmp_path, monkeypatch, media):
     plan = runner.state.load_day(tomorrow.isoformat())
     assert sorted(s["status"] for s in plan["slots"]) == ["scheduled"] * 3
     used_long = [k for k, u in runner.usage.items() if u.get("long")]
-    assert len(used_long) == 4
+    assert len(used_long) == 6        # 4 chapters + 2 spare events whose footage filled gaps (never reused later)
     shorts = [u for u in ups if u["title"].startswith("The Start Line")]
     assert all(any(t.startswith("ll") and len(t) == 12 for t in u["tags"]) for u in shorts)
 

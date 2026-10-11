@@ -131,30 +131,118 @@ def _scene_list(video: Path) -> list[tuple[float, float]]:
     return scenes
 
 
-def _chapter_shots(vis: Visuals, seconds: float, rng: random.Random) -> list[Shot]:
-    """Fill `seconds` with footage scenes intercut with photos (documentary rhythm, no immediate repeats)."""
-    shots: list[Shot] = []
+# ---- material: every picture is shown once per episode ----------------------------------------------------------
+SIMILAR = 66          # dHash bits (of 256) at or below which two pictures are the same moment (calibrated on hamdan.ae)
+PHOTO_MAX = 7.5       # a still holds at most this long (slow camera move)
+CLIP_MAX = 9.0        # one continuous clip plays at most this long
+
+
+@dataclass
+class Item:
+    kind: str                  # video | photo
+    src: Path
+    a: float = 0.0
+    b: float = 0.0
+
+    @property
+    def most(self) -> float:   # longest it can stay on screen
+        return min(CLIP_MAX, self.b - self.a) if self.kind == "video" else PHOTO_MAX
+
+
+def _dhash(img: np.ndarray) -> np.ndarray:
+    h, w = img.shape[:2]
+    g = cv2.cvtColor(img[int(h * .1):int(h * .9), int(w * .1):int(w * .9)], cv2.COLOR_BGR2GRAY)
+    s = cv2.resize(g, (17, 16), interpolation=cv2.INTER_AREA).astype(np.int16)
+    return (s[:, 1:] > s[:, :-1]).flatten()
+
+
+class Material:
+    """Distinct clips and photos for one episode. Contiguous pieces of one continuous shot become a single clip, and
+    anything that looks like a picture already taken (same moment, burst photo, re-used frame) is left out."""
+
+    def __init__(self) -> None:
+        self.seen: list[np.ndarray] = []
+
+    def _new(self, img: np.ndarray | None) -> np.ndarray | None:
+        if img is None:
+            return None
+        hsh = _dhash(img)
+        if any(np.count_nonzero(hsh != s) <= SIMILAR for s in self.seen):
+            return None
+        self.seen.append(hsh)
+        return hsh
+
+    def items(self, vis: Visuals) -> list[Item]:
+        out: list[Item] = []
+        if vis.video and vis.scenes:
+            cap = cv2.VideoCapture(str(vis.video))
+            last, last_hash = None, None
+            for a, b in sorted(vis.scenes):
+                cap.set(cv2.CAP_PROP_POS_MSEC, (a + b) / 2 * 1000)
+                ok, frame = cap.read()
+                if not ok:
+                    continue
+                hsh = _dhash(frame)
+                if (last is not None and a - last.b < 0.5 and last_hash is not None
+                        and np.count_nonzero(hsh != last_hash) <= SIMILAR):
+                    if last.b - last.a < CLIP_MAX:      # the same shot continues: one longer clip
+                        last.b = min(b, last.a + CLIP_MAX)
+                    continue
+                if self._new(frame) is None:
+                    continue
+                last, last_hash = Item("video", vis.video, a, b), hsh
+                out.append(last)
+            cap.release()
+        for p in vis.photos:
+            if self._new(cv2.imread(str(p), cv2.IMREAD_REDUCED_COLOR_4)) is not None:
+                out.append(Item("photo", p))
+        return out
+
+
+def _supply(items: list[Item]) -> float:
+    return sum(min(it.most, 5.4) for it in items)
+
+
+def _take(pool: list[Item], kind: str | None = None) -> Item | None:
+    for i, it in enumerate(pool):
+        if kind is None or it.kind == kind:
+            return pool.pop(i)
+    return None
+
+
+def _shot(it: Item, dur: float, rng: random.Random) -> Shot:
     moves = ["push", "pull", "drift_l", "drift_r"]
-    scenes = list(vis.scenes)
-    photos = list(vis.photos)
-    si = pi = 0
+    if it.kind == "video":
+        return Shot("video", it.src, int(dur * FPS), start=it.a, move=rng.choice(moves), strength=0.55)
+    return Shot("photo", it.src, int(dur * FPS), move=rng.choice(moves), strength=0.9)
+
+
+def _chapter_shots(pool: list[Item], seconds: float, rng: random.Random, reserve: list[Item],
+                   used: list[Item]) -> list[Shot]:
+    """Fill `seconds` with this chapter's footage intercut with photos, each shown once. When the chapter runs short,
+    shots stay on screen longer and extra footage of him from the reserve is used; repeating is the very last resort."""
+    shots: list[Shot] = []
     total = 0.0
-    pattern = (["v", "v", "v", "p"] if scenes and photos else ["v"] if scenes else ["p"])   # mostly motion
     k = 0
     while total < seconds - 0.2:
-        kind = pattern[k % len(pattern)]
+        left = seconds - total
+        if _supply(pool) < left and reserve:
+            pool.append(reserve.pop(0))
+        stretch = max(1.0, left / max(1.0, _supply(pool)))
+        want = "photo" if k % 4 == 3 else "video"      # mostly motion
         k += 1
-        if kind == "v":
-            a, b = scenes[si % len(scenes)]
-            si += 1
-            dur = min(b - a, rng.uniform(3.6, 5.8))
-            shot = Shot("video", vis.video, int(dur * FPS), start=a, move=rng.choice(moves), strength=0.55)
+        it = _take(pool, want) or _take(pool)
+        if it is None:
+            it = used.pop(0)                            # nothing new left anywhere: the oldest picture comes back
+            used.append(it)
+            log.warning("episode ran out of new footage; re-using %s", Path(it.src).name)
         else:
-            dur = rng.uniform(4.4, 5.6)
-            shot = Shot("photo", photos[pi % len(photos)], int(dur * FPS), move=rng.choice(moves), strength=0.9)
-            pi += 1
+            used.append(it)
+        base = rng.uniform(3.6, 5.8) if it.kind == "video" else rng.uniform(4.4, 5.6)
+        dur = max(2.0, min(it.most, base * stretch))
+        shot = _shot(it, dur, rng)
         if shots:
-            shot.xfade_in = 12 if (kind == "p" or shots[-1].kind == "photo" or rng.random() < 0.35) else 0
+            shot.xfade_in = 12 if (it.kind == "photo" or shots[-1].kind == "photo" or rng.random() < 0.35) else 0
         shots.append(shot)
         total += shot.frames / FPS
     overshoot = int((total - seconds) * FPS)
@@ -415,8 +503,9 @@ class EpisodeResult:
 
 
 def produce_episode(*, theme: str, chapters_in: list[dict], package: dict, cfg: dict, work: Path, seed: int,
-                    hero: Path | None = None) -> EpisodeResult:
-    """chapters_in: [{"event_title", "date", "chapter_title", "place_line", "narration", "visuals": Visuals}]."""
+                    hero: Path | None = None, reserve: list[Visuals] | None = None) -> EpisodeResult:
+    """chapters_in: [{"event_title", "date", "chapter_title", "place_line", "narration", "visuals": Visuals}].
+    reserve: extra footage/photos of him (events not narrated), used when a chapter runs out of new pictures."""
     rng = random.Random(seed)
     work.mkdir(parents=True, exist_ok=True)
     vcfg = dict(cfg["voice"])
@@ -439,7 +528,15 @@ def produce_episode(*, theme: str, chapters_in: list[dict], package: dict, cfg: 
         chap_voice = chap_voice[:drop] + chap_voice[drop + 1:]
         per_chapter = per_chapter[:drop] + per_chapter[drop + 1:]
 
-    # 2) timeline (seconds)
+    # 2) material: each chapter's own distinct clips and photos, plus spare footage of him from extra events
+    material = Material()
+    pools = [material.items(c["visuals"]) for c in chapters_in]
+    spare = [it for v in (reserve or []) for it in material.items(v)]
+    spare.sort(key=lambda it: it.kind != "video")
+    used: list[Item] = []
+    log.info("episode material: %s distinct items per chapter, %d spare", [len(p) for p in pools], len(spare))
+
+    # 3) timeline (seconds)
     all_vis = [c["visuals"] for c in chapters_in]
     shots: list[Shot] = []
     voice_events: list[tuple[float, Path]] = []
@@ -448,27 +545,46 @@ def produce_episode(*, theme: str, chapters_in: list[dict], package: dict, cfg: 
     ov = Overlay()
     chapter_marks: list[tuple[float, str]] = []
     music_plan: list[tuple[float, str]] = []
-    t = 0.0
 
-    # cold open: fast montage of the strongest moments across chapters
+    # how much picture each chapter needs, worked out before the opening borrows anything
     cold = hook.duration + 1.2
-    montage = []
-    for v in all_vis:   # moving footage of him first: the opening decides whether people stay
-        if v.video and v.scenes:
-            for a, b in v.scenes[:3]:
-                montage.append(("video", v.video, a + 0.15))
-    if len(montage) < 4:   # an episode with very little footage: add photos so the montage never repeats
-        for v in all_vis:
-            for p in v.photos[:2]:
-                montage.append(("photo", p, 0.0))
-    rng.shuffle(montage)
-    montage.sort(key=lambda m: m[0] != "video")   # all clips before any photo
+    title_len = 5.5
+    card = 3.6
+    card_len = card + 0.9
+    lf = cfg.get("longform", {})
+    planned = (cold + title_len + sum(card - 0.6 + v.duration + 1.6 for v in chap_voice) + outro.duration + 1.4
+               + 9.0)
+    want = max(float(lf.get("min_minutes", 7.5)) * 60 + 20, float(lf.get("target_minutes", 9.5)) * 60 - 30)
+    pad = min(24.0, max(0.0, (want - planned) / max(1, len(chap_voice))))
+    if pad:   # narration came out short: footage "breathers" keep the episode 8+ minutes
+        log.info("narration is short; adding %.1fs of footage per chapter", pad)
+    bodies = [card - 0.6 + v.duration + 1.6 + pad for v in chap_voice]
+    surplus = [_supply(p) - b for p, b in zip(pools, bodies)]
+
+    # cold open: fast montage of moving footage of him, every clip different and never shown again later
     per = 2.3
+    montage: list[Item] = []
+    for _ in range(int(math.ceil(cold / per))):
+        rich = [i for i in range(len(pools)) if surplus[i] > per and any(x.kind == "video" for x in pools[i])]
+        if rich:
+            i = max(rich, key=lambda j: surplus[j])
+            it = _take(pools[i], "video")
+            surplus[i] -= min(it.most, 5.4)
+        else:
+            it = _take(spare, "video") or _take(spare) or next(
+                (_take(pools[j]) for j in sorted(range(len(pools)), key=lambda j: -surplus[j]) if pools[j]), None)
+        if it is None:
+            break
+        montage.append(it)
+    if not montage:
+        montage = [Item("photo", p) for v in all_vis for p in v.photos[:1]]
+    montage.sort(key=lambda m: m.kind != "video")   # all clips before any photo
+    used += montage
     k = 0
     while sum(s.frames for s in shots) / FPS < cold - 0.1:
-        kind, src, a = montage[k % len(montage)]
+        it = montage[k % len(montage)]
         k += 1
-        s = Shot(kind, src, int(per * FPS), start=a, move=rng.choice(["push", "pull"]), strength=1.0)
+        s = Shot(it.kind, it.src, int(per * FPS), start=it.a + 0.15, move=rng.choice(["push", "pull"]), strength=1.0)
         s.flash_in = 4 if k > 1 and k % 2 == 0 else 0
         shots.append(s)
     cold_frames = int(cold * FPS)
@@ -481,12 +597,11 @@ def produce_episode(*, theme: str, chapters_in: list[dict], package: dict, cfg: 
     music_plan.append((0.0, "epic"))
     t = sum(s.frames for s in shots) / FPS
 
-    # title sequence
-    title_len = 5.5
-    hero = hero or _hero_photo([p for v in all_vis for p in v.photos[:4]]) or montage[0][1]
-    moving = next(((v.video, max(v.scenes, key=lambda s: s[1] - s[0])) for v in all_vis if v.video and v.scenes), None)
-    if moving:   # title over softly blurred moving footage of him
-        title_shot = Shot("video", moving[0], int(title_len * FPS), start=moving[1][0] + 0.1, style="blur",
+    # title sequence over heavily blurred moving footage (unrecognisable, so it never reads as a repeat)
+    hero = hero or _hero_photo([p for v in all_vis for p in v.photos[:4]]) or montage[0].src
+    moving = next((m for m in montage if m.kind == "video"), None)
+    if moving:
+        title_shot = Shot("video", moving.src, int(title_len * FPS), start=moving.a + 2.5, style="blur",
                           flash_in=6, dip_out=10)
     else:
         title_shot = Shot("photo", hero, int(title_len * FPS), style="blur", flash_in=6, dip_out=10)
@@ -495,30 +610,24 @@ def produce_episode(*, theme: str, chapters_in: list[dict], package: dict, cfg: 
     sfx.append((t - 0.05, audio.impact(seed + 1), -8.0))
     t += title_len
 
-    # chapters — if the narration came out short, add footage "breathers" so the episode still runs 8+ minutes
-    card = 3.6
-    lf = cfg.get("longform", {})
-    planned = (t + title_len + sum(card - 0.6 + v.duration + 1.6 for v in chap_voice) + outro.duration + 1.4
-               + 9.0)
-    want = max(float(lf.get("min_minutes", 7.5)) * 60 + 20, float(lf.get("target_minutes", 9.5)) * 60 - 30)
-    pad = min(24.0, max(0.0, (want - planned) / max(1, len(chap_voice))))
-    if pad:
-        log.info("narration is short; adding %.1fs of footage per chapter", pad)
+    # chapters
     for i, (c, voice) in enumerate(zip(chapters_in, chap_voice)):
         start = t
-        body = card - 0.6 + voice.duration + 1.6 + pad
-        vis = c["visuals"]
-        card_len = card + 0.9
-        if vis.video and vis.scenes:   # chapter card over moving footage of him
-            a, b = max(vis.scenes, key=lambda s: s[1] - s[0])
-            card_shot = Shot("video", vis.video, int(card_len * FPS), start=a + 0.1, move="push", strength=0.6,
-                             dip_in=12, dims=[(0, int(card * FPS), 0.6)], leak_at=2)
-            rest = Visuals(vis.video, [s for s in vis.scenes if s != (a, b)] or vis.scenes, vis.photos)
+        body = bodies[i]
+        pool = pools[i]
+        clips = [x for x in pool if x.kind == "video"]
+        first = max(clips, key=lambda x: x.b - x.a) if clips else (pool[0] if pool else None)
+        if first is not None:
+            pool.remove(first)
         else:
-            card_shot = Shot("photo", vis.photos[0], int(card_len * FPS), move="push", strength=0.8, dip_in=12,
-                             dims=[(0, int(card * FPS), 0.6)], leak_at=2)
-            rest = Visuals(vis.video, vis.scenes, vis.photos[1:] + vis.photos[:1])
-        cshots = [card_shot] + _chapter_shots(rest, body - card_len, rng)
+            first = _take(spare) or used[0]
+        used.append(first)
+        card_shot = _shot(first, card_len, rng)   # chapter card over footage of him
+        if first.kind == "video":
+            card_shot.start += 0.1
+        card_shot.move, card_shot.strength, card_shot.dip_in = "push", (0.6 if first.kind == "video" else 0.8), 12
+        card_shot.dims, card_shot.leak_at = [(0, int(card * FPS), 0.6)], 2
+        cshots = [card_shot] + _chapter_shots(pool, body - card_len, rng, spare, used)
         cshots[1].xfade_in = 14
         cshots[-1].dip_out = 12
         shots += cshots
@@ -532,15 +641,22 @@ def produce_episode(*, theme: str, chapters_in: list[dict], package: dict, cfg: 
             music_plan.append((start, c.get("mood") or "epic"))
         t = start + sum(s.frames for s in cshots) / FPS
 
-    # outro + end card
+    # outro: pictures not shown yet, then the end card
     end_card = 9.0
+    leftovers = [x for p in pools for x in p] + spare
+    leftovers.sort(key=lambda x: x.kind != "photo")    # calm stills under the goodbye
     oshots = []
-    photos = [p for v in all_vis for p in v.photos] or [hero]
     o_len = outro.duration + 1.4
     k = 0
     while sum(s.frames for s in oshots) / FPS < o_len - 0.1:
-        s = Shot("photo", photos[(k * 3) % len(photos)], int(4.6 * FPS), move=rng.choice(["push", "drift_l", "drift_r"]),
-                 strength=0.9, xfade_in=14 if k else 0)
+        if leftovers:
+            it = leftovers.pop(0)
+        else:
+            it = used.pop(0)
+            used.append(it)
+            log.warning("outro ran out of new pictures; re-using %s", Path(it.src).name)
+        s = _shot(it, min(4.6, max(2.5, it.most)), rng)
+        s.move, s.xfade_in = rng.choice(["push", "drift_l", "drift_r"]), (14 if k else 0)
         oshots.append(s)
         k += 1
     oshots[0].dip_in = 12
@@ -556,7 +672,7 @@ def produce_episode(*, theme: str, chapters_in: list[dict], package: dict, cfg: 
     t += end_card
     duration = sum(s.frames for s in shots) / FPS
 
-    # 3) overlays: subtitles + brand mark
+    # 4) overlays: subtitles + brand mark
     for off, words in sub_events:
         for a, b, text in _subtitle_lines(words, off):
             ov.add(a, b, "Sub", rf"{{\fad(80,80)}}{_esc(text)}", 2)
@@ -566,10 +682,10 @@ def produce_episode(*, theme: str, chapters_in: list[dict], package: dict, cfg: 
     ass = work / "captions.ass"
     ass.write_text(ASS_HEADER + "\n".join(ov.ass_events) + "\n", encoding="utf-8")
 
-    # 4) sound: voice track, music beds (crossfaded by section), effects, ducking, loudness
+    # 5) sound: voice track, music beds (crossfaded by section), effects, ducking, loudness
     music_used = _mix_long(work, duration, voice_events, sfx, music_plan, cfg, seed)
 
-    # 5) picture
+    # 6) picture
     out = work / "episode.mp4"
     render_timeline(shots, ass, work / "mix.wav", out, work, seed)
     problems = qa.check_long(out, min(6.0, float(lf.get("min_minutes", 7.5))) * 60,
@@ -578,10 +694,17 @@ def produce_episode(*, theme: str, chapters_in: list[dict], package: dict, cfg: 
         raise LongformError("quality check failed: " + "; ".join(problems))
 
     thumb = None
+    text = package.get("thumbnail_text") or package["episode_title"]
+    candidates = [p for v in all_vis + list(reserve or []) for p in v.photos]
     try:
-        thumb = make_thumbnail(hero, package.get("thumbnail_text") or package["episode_title"], work)
-    except Exception as e:  # noqa: BLE001 — a missing thumbnail must not lose the episode
-        log.warning("thumbnail failed: %s", e)
+        from .thumbnail import make_thumbnail as designed
+        thumb = designed(candidates, text, package.get("thumbnail_tag", ""), work / "thumbnail.jpg", seed)
+    except Exception as e:  # noqa: BLE001 — fall back to the simple design; a thumbnail must never lose the episode
+        log.warning("designed thumbnail failed (%s); using the simple one", e)
+        try:
+            thumb = make_thumbnail(hero, text, work)
+        except Exception as e2:  # noqa: BLE001
+            log.warning("thumbnail failed: %s", e2)
     return EpisodeResult(out, thumb, duration, package["youtube_title"], package["description"], package["tags"],
                          chapter_marks, music_used)
 

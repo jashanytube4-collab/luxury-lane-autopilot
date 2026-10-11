@@ -244,6 +244,24 @@
    ]
   ]
  },
+ "hamdan bin mohammed and mohammed bin salman visit headquarters of expo 2020 dubai": {
+  "last_short": "2026-10-12",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    101.17999999999999,
+    103.99
+   ],
+   [
+    190.22,
+    192.54999999999998
+   ],
+   [
+    288.66,
+    293.06
+   ]
+  ]
+ },
  "hamdan bin mohammed announces conclusion of phase one of dubai 10x": {
   "fails": 1,
   "video_exhausted": true

@@ -516,7 +516,35 @@
   ]
  },
  "hamdan bin mohammed attends 19th graduation ceremony of rashid bin saeed al maktoum naval college": {
-  "fails": 1
+  "fails": 1,
+  "last_short": "2026-10-12",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    54.22,
+    58.150000000000006
+   ],
+   [
+    69.17999999999999,
+    72.42999999999999
+   ],
+   [
+    119.66,
+    121.78999999999999
+   ],
+   [
+    185.26,
+    187.86999999999998
+   ],
+   [
+    431.90000000000003,
+    434.31
+   ],
+   [
+    480.90000000000003,
+    485.3
+   ]
+  ]
  },
  "hamdan bin mohammed attends ai everything conference": {
   "video_exhausted": true

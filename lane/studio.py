@@ -35,6 +35,7 @@ log = logging.getLogger("lane.studio")
 MAX_SHORTS_PER_EVENT = 3     # one story is never told more than three times, each with different footage
 COOLDOWN_DAYS = 7
 TOPIC_REST_DAYS = 9
+EPISODE_EVENTS_MAX = 36   # events an episode may draw footage from (narrated chapters + spare footage)
 
 
 def _slug(key: str) -> str:
@@ -239,7 +240,7 @@ class Studio:
                      if not kws or any(re.search(r"\b" + re.escape(w) + r"\b", e["title"].lower()) for w in kws)]
             cands.sort(key=lambda k: (bool(pool[k].get("video")), pool[k].get("date", "")), reverse=True)
             if len(cands) >= 6:
-                return topic, cands[:16]
+                return topic, cands[:EPISODE_EVENTS_MAX]
         raise BrainError("not enough unused events for an episode")
 
     def make_episode(self, topic: dict, candidates: list[str], events: dict, usage: dict, seed: int,
@@ -261,7 +262,10 @@ class Studio:
                 usage.setdefault(k, {})["no_hamdan"] = True
                 continue
             scored.append((seconds + 4 * len(photos), k, video, sorted(scenes), photos))
-            if len(scored) >= chapters_wanted + 3:
+            # keep gathering until there is enough DIFFERENT footage of him for the whole episode (after
+            # near-duplicates are removed roughly half the footage seconds remain) — nothing should repeat
+            supply = sum(0.5 * sum(b - a for a, b in x[3]) + 4.5 * len(x[4]) for x in scored)
+            if len(scored) >= chapters_wanted + 3 and supply >= target_s * 1.15:
                 break
         scored.sort(key=lambda x: -x[0])
         # chapters with the most footage of him open the episode; photo-heavy ones come later

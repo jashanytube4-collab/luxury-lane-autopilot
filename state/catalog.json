@@ -94,6 +94,10 @@
    ]
   ]
  },
+ "dubai crown prince in riyadh to attend king abdulaziz camel festival": {
+  "no_hamdan": true,
+  "video_exhausted": true
+ },
  "dubai crown prince reviews preparations for emirates mars mission": {
   "last_short": "2026-10-10",
   "shorts_made": 1,
@@ -510,6 +514,9 @@
     34.57000000000001
    ]
   ]
+ },
+ "hamdan bin mohammed attends 19th graduation ceremony of rashid bin saeed al maktoum naval college": {
+  "fails": 1
  },
  "hamdan bin mohammed attends ai everything conference": {
   "video_exhausted": true
@@ -2499,6 +2506,9 @@
    ]
   ]
  },
+ "hamdan bin mohammed offers condolences to alsuwaidi family": {
+  "video_exhausted": true
+ },
  "hamdan bin mohammed opens 40th edition of gitex": {
   "last_short": "2026-10-11",
   "shorts_made": 1,
@@ -3381,6 +3391,20 @@
    ]
   ],
   "video_exhausted": true
+ },
+ "hamdan bin mohammed visits art dubai": {
+  "last_short": "2026-10-12",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    6.38,
+    8.63
+   ],
+   [
+    49.78,
+    51.510000000000005
+   ]
+  ]
  },
  "hamdan bin mohammed visits aster pharmacy s distribution centre in dubai": {
   "fails": 1,

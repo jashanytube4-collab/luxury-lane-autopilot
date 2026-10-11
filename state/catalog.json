@@ -1089,6 +1089,32 @@
   "fails": 1,
   "video_exhausted": true
  },
+ "hamdan bin mohammed attends wedding reception": {
+  "last_short": "2026-10-12",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    29.500000000000004,
+    33.900000000000006
+   ],
+   [
+    41.14,
+    45.07000000000001
+   ],
+   [
+    52.18,
+    54.790000000000006
+   ],
+   [
+    58.18,
+    62.58
+   ],
+   [
+    69.02,
+    71.59
+   ]
+  ]
+ },
  "hamdan bin mohammed attends wedding receptions in al ain dubai": {
   "last_short": "2026-10-11",
   "shorts_made": 1,

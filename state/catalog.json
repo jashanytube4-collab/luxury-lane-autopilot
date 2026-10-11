@@ -3550,7 +3550,23 @@
   "video_exhausted": true
  },
  "mohamed bin zayed hamdan bin mohammed attend adsw 2020": {
-  "fails": 1
+  "fails": 1,
+  "last_short": "2026-10-12",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    34.5,
+    36.71000000000001
+   ],
+   [
+    77.94,
+    80.91
+   ],
+   [
+    239.18,
+    241.67
+   ]
+  ]
  },
  "mohammed bin rashid attends 29th dubai world cup": {
   "last_short": "2026-10-07",

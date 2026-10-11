@@ -1187,6 +1187,36 @@
  "hamdan bin mohammed chairs executive council meeting approves plans and policies": {
   "video_exhausted": true
  },
+ "hamdan bin mohammed chairs executive council meeting approves updated school fees framework": {
+  "last_short": "2026-10-12",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    0.22,
+    2.95
+   ],
+   [
+    33.5,
+    36.470000000000006
+   ],
+   [
+    39.9,
+    42.230000000000004
+   ],
+   [
+    76.86,
+    79.19
+   ],
+   [
+    85.5,
+    87.78999999999999
+   ],
+   [
+    100.62,
+    103.14999999999999
+   ]
+  ]
+ },
  "hamdan bin mohammed chairs meeting of the higher committee for future technology development and the digital economy": {
   "long": "2026-10-07"
  },
@@ -1432,6 +1462,10 @@
     60.27
    ]
   ]
+ },
+ "hamdan bin mohammed honours entities supporting hosting town program": {
+  "no_hamdan": true,
+  "video_exhausted": true
  },
  "hamdan bin mohammed honours the winner of the best minister in the world award": {
   "fails": 1,

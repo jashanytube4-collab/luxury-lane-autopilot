@@ -1415,6 +1415,24 @@
    ]
   ]
  },
+ "hamdan bin mohammed honors winners of dubai appreciation award for community service": {
+  "last_short": "2026-10-12",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    16.660000000000004,
+    21.060000000000002
+   ],
+   [
+    30.380000000000003,
+    32.71000000000001
+   ],
+   [
+    56.98,
+    60.27
+   ]
+  ]
+ },
  "hamdan bin mohammed honours the winner of the best minister in the world award": {
   "fails": 1,
   "video_exhausted": true
@@ -3771,6 +3789,9 @@
  "khaled bin mohamed bin zayed meets hamdan bin mohammed bin rashid on sidelines of uae government annual meetings": {
   "video_exhausted": true
  },
+ "king salman bin abdulaziz of saudi arabia receives dubai crown prince": {
+  "fails": 1
+ },
  "mohamed bin zayed hamdan bin mohammed attend adsw 2020": {
   "fails": 1,
   "last_short": "2026-10-12",
@@ -3803,6 +3824,9 @@
     134.98999999999998
    ]
   ]
+ },
+ "mohammad bin salman receives hamdan bin mohammed": {
+  "video_exhausted": true
  },
  "mohammed bin rashid attends 29th dubai world cup": {
   "last_short": "2026-10-07",

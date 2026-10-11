@@ -3790,7 +3790,27 @@
   "video_exhausted": true
  },
  "king salman bin abdulaziz of saudi arabia receives dubai crown prince": {
-  "fails": 1
+  "fails": 1,
+  "last_short": "2026-10-12",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    54.1,
+    57.190000000000005
+   ],
+   [
+    60.18,
+    63.27
+   ],
+   [
+    89.17999999999999,
+    92.67
+   ],
+   [
+    148.42,
+    149.91
+   ]
+  ]
  },
  "mohamed bin zayed hamdan bin mohammed attend adsw 2020": {
   "fails": 1,

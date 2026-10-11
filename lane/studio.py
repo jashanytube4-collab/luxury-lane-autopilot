@@ -16,6 +16,7 @@ from __future__ import annotations
 import hashlib
 import logging
 import random
+import re
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
@@ -234,7 +235,8 @@ class Studio:
                 and (e.get("video") or len(e.get("photos", [])) >= 3)}
         for topic in order:
             kws = [k.lower() for k in topic.get("keywords", [])]
-            cands = [k for k, e in pool.items() if not kws or any(w in f" {e['title'].lower()} " for w in kws)]
+            cands = [k for k, e in pool.items()
+                     if not kws or any(re.search(r"\b" + re.escape(w) + r"\b", e["title"].lower()) for w in kws)]
             cands.sort(key=lambda k: (bool(pool[k].get("video")), pool[k].get("date", "")), reverse=True)
             if len(cands) >= 6:
                 return topic, cands[:16]

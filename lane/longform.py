@@ -703,7 +703,7 @@ def make_thumbnail(photo: Path, text: str, work: Path) -> Path:
     img = (img.astype(np.float32) * grad).astype(np.uint8)
     base = work / "thumb_base.png"
     cv2.imwrite(str(base), img)
-    words = re.sub(r"\s+", " ", text.upper()).strip().split()[:5]
+    words = re.sub(r"\s+", " ", re.sub(r"[\"'“”‘’]", "", text.upper())).strip().split()[:5]
     first, last = " ".join(words[:-1]), words[-1] if words else ""
     lines = _wrap(first, 12) if first else ""
     body = (lines + (r"\N" if lines else "") + rf"{{\c{GOLD}}}{_esc(last)}") if last else lines

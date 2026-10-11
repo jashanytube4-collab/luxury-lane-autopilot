@@ -43,7 +43,7 @@ facts:
 topics:
   - id: father
     angle: Fazza as a son and a father - the family behind the Crown Prince
-    keywords: [ramadan, eid, family, father, children, wedding, mohammed bin rashid, well-wishers, majlis]
+    keywords: [ramadan, eid, family, families, children, wedding, well-wishers, majlis, mother, condolences]
     facts: [family]
     title_hint: "Inside Prince Hamdan's Life as a Father & Son"
   - id: horseman
@@ -53,12 +53,12 @@ topics:
     title_hint: "Prince Hamdan's Secret World of Horses"
   - id: poet
     angle: Fazza the poet - the man behind the pen name millions follow
-    keywords: [poetry, culture, heritage, arabic, festival, art, museum, majlis]
+    keywords: [poetry, poem, poet, culture, heritage, arabic language, festival, art, museum, photography]
     facts: [poetry, passions]
     title_hint: "Why Millions Know Prince Hamdan as 'Fazza'"
   - id: humble
     angle: The Crown Prince's most humble moments with ordinary people
-    keywords: [iftar, citizens, elders, students, graduates, volunteers, workers, recruits, people, families, visit]
+    keywords: [iftar, citizens, elders, senior citizens, students, volunteers, workers, recruits, children, patients, people of determination]
     facts: [leadership, passions]
     title_hint: "Prince Hamdan's Most Humble Moments Caught on Camera"
   - id: defence

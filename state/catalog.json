@@ -1326,6 +1326,28 @@
  "hamdan bin mohammed congratulates four emirati students on winning gold at the international greenwich olympiad": {
   "long": "2026-10-06"
  },
+ "hamdan bin mohammed crowns winner of global teacher prize": {
+  "last_short": "2026-10-12",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    15.86,
+    17.509999999999998
+   ],
+   [
+    58.86,
+    60.95
+   ],
+   [
+    145.22,
+    149.62
+   ],
+   [
+    244.98,
+    247.35
+   ]
+  ]
+ },
  "hamdan bin mohammed directs dubai government entities to integrate all individual and business services into a unified digital platform within one year": {
   "fails": 1,
   "last_short": "2026-10-06",

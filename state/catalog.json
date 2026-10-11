@@ -1133,6 +1133,9 @@
  "hamdan bin mohammed chairs defence council meeting": {
   "video_exhausted": true
  },
+ "hamdan bin mohammed chairs executive council meeting approves e commerce strategy": {
+  "fails": 1
+ },
  "hamdan bin mohammed chairs executive council meeting approves plans and policies": {
   "video_exhausted": true
  },
@@ -3651,6 +3654,24 @@
    [
     34.22,
     35.69666666666667
+   ]
+  ]
+ },
+ "international space station mission carrying first emirati astronaut launched successfully": {
+  "last_short": "2026-10-12",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    0.22,
+    4.62
+   ],
+   [
+    140.64000000000001,
+    145.04000000000002
+   ],
+   [
+    213.74,
+    216.35
    ]
   ]
  },

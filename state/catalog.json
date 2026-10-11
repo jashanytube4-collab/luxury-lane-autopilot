@@ -2078,6 +2078,24 @@
   "fails": 1,
   "video_exhausted": true
  },
+ "hamdan bin mohammed meets with dubai gov t second line of leadership": {
+  "last_short": "2026-10-12",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    19.860000000000003,
+    24.26
+   ],
+   [
+    101.94,
+    105.71
+   ],
+   [
+    128.3,
+    131.70999999999998
+   ]
+  ]
+ },
  "hamdan bin mohammed meets with dubai s supreme committee of crisis and disaster management reviews preparations for expo 2020 dubai": {
   "video_exhausted": true
  },

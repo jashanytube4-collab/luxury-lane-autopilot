@@ -50,6 +50,20 @@
  "dubai crown prince arrives in manama for endurance race": {
   "no_hamdan": true
  },
+ "dubai crown prince attends wedding reception": {
+  "last_short": "2026-10-12",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    49.86,
+    51.39000000000001
+   ],
+   [
+    76.82,
+    79.59
+   ]
+  ]
+ },
  "dubai crown prince commends students selected for the hamdan bin mohammed scholarship programme": {
   "last_short": "2026-10-08",
   "shorts_made": 1,

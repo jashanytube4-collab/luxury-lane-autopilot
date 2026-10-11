@@ -78,8 +78,11 @@ Write a {target:.0f}-second Short for Fazza's fans. The script must be {lo}-{hi}
 - shots: 3-6 items in story order; the first shows him most clearly and closest.
 - layout: "fill" (vertical crop on him) unless the item is a wide group shot, then "frame".
 - hook_text: 2-5 words on screen for the first 2 seconds, e.g. "FAZZA DID THIS", "WATCH HIS REACTION".
-- title: the style of successful fan Shorts: begins with "Prince Hamdan" or "Fazza", emotional or curious,
-  max 60 characters, one emoji, no hashtags, and TRUE to the clip.
+- title: the style of the most-viewed fan Shorts. Begins with "Prince Hamdan" or "Fazza", then a CONCRETE thing
+  from this clip (an action, a place, a person, a number) plus emotion or curiosity. Max 60 characters, one emoji,
+  no hashtags, TRUE to the clip. Good: "Prince Hamdan Stopped Everything For These Students 🤍",
+  "Fazza Inside Dubai's New Air Taxi Station 🚁", "Prince Hamdan Meets The Boring Company Boss 🔥".
+  Bad (too vague): "Fazza Builds Trust", "Prince Hamdan Brings Warmth".
 - score: 0-10 how much fans will love this (him clearly visible, emotion, action, warmth = high;
   him sitting in a meeting = low).
 - mood: epic (grand), modern (sleek), arabian (heritage, desert, horses, poetry), elegant (warm, family, people).

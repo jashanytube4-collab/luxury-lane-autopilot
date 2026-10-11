@@ -114,7 +114,7 @@ class Studio:
 
     def facts(self, groups: list[str] | None, n: int, rng: random.Random) -> list[str]:
         bank = self.bank["facts"]
-        pool = [f for g in (groups or list(bank)) for f in bank.get(g, [])]
+        pool = [str(f) for g in (groups or list(bank)) for f in bank.get(g, []) if isinstance(f, str)]
         rng.shuffle(pool)
         return pool[:n]
 

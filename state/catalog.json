@@ -435,7 +435,27 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends closing of 4th king abdulaziz camel festival": {
-  "long": "2026-10-12"
+  "last_short": "2026-10-12",
+  "long": "2026-10-12",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    90.26,
+    94.66000000000001
+   ],
+   [
+    152.1,
+    154.35
+   ],
+   [
+    156.78,
+    158.51
+   ],
+   [
+    158.9,
+    163.3
+   ]
+  ]
  },
  "hamdan bin mohammed attends dubai camp 2026": {
   "fails": 1,

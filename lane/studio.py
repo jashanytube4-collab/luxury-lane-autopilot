@@ -264,7 +264,8 @@ class Studio:
             if len(scored) >= chapters_wanted + 3:
                 break
         scored.sort(key=lambda x: -x[0])
-        chosen = sorted(scored[:chapters_wanted], key=lambda x: events[x[1]].get("date", ""))
+        # chapters with the most footage of him open the episode; photo-heavy ones come later
+        chosen = sorted(scored[:chapters_wanted], key=lambda x: (-len(x[3]), events[x[1]].get("date", "")))
         if len(chosen) < 4:
             raise BrainError(f"too few events with Prince Hamdan on screen for '{topic['id']}'")
         # 2) words: one chapter per event, written from the official article + verified facts

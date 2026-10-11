@@ -139,7 +139,7 @@ def _chapter_shots(vis: Visuals, seconds: float, rng: random.Random) -> list[Sho
     photos = list(vis.photos)
     si = pi = 0
     total = 0.0
-    pattern = (["v", "v", "p"] if scenes and photos else ["v"] if scenes else ["p"])
+    pattern = (["v", "v", "v", "p"] if scenes and photos else ["v"] if scenes else ["p"])   # mostly motion
     k = 0
     while total < seconds - 0.2:
         kind = pattern[k % len(pattern)]
@@ -453,14 +453,17 @@ def produce_episode(*, theme: str, chapters_in: list[dict], package: dict, cfg: 
     # cold open: fast montage of the strongest moments across chapters
     cold = hook.duration + 1.2
     montage = []
-    for v in all_vis:
+    for v in all_vis:   # moving footage of him first: the opening decides whether people stay
         if v.video and v.scenes:
-            a, b = v.scenes[min(1, len(v.scenes) - 1)]
-            montage.append(("video", v.video, a))
-        for p in v.photos[:3]:
-            montage.append(("photo", p, 0.0))
+            for a, b in v.scenes[:3]:
+                montage.append(("video", v.video, a + 0.15))
+    if len(montage) < 4:   # an episode with very little footage: add photos so the montage never repeats
+        for v in all_vis:
+            for p in v.photos[:2]:
+                montage.append(("photo", p, 0.0))
     rng.shuffle(montage)
-    per = 2.4
+    montage.sort(key=lambda m: m[0] != "video")   # all clips before any photo
+    per = 2.3
     k = 0
     while sum(s.frames for s in shots) / FPS < cold - 0.1:
         kind, src, a = montage[k % len(montage)]
@@ -481,8 +484,12 @@ def produce_episode(*, theme: str, chapters_in: list[dict], package: dict, cfg: 
     # title sequence
     title_len = 5.5
     hero = hero or _hero_photo([p for v in all_vis for p in v.photos[:4]]) or montage[0][1]
-    title_shot = Shot("photo" if hero.suffix.lower() in (".jpg", ".jpeg", ".png") else "video", hero,
-                      int(title_len * FPS), style="blur", flash_in=6, dip_out=10)
+    moving = next(((v.video, max(v.scenes, key=lambda s: s[1] - s[0])) for v in all_vis if v.video and v.scenes), None)
+    if moving:   # title over softly blurred moving footage of him
+        title_shot = Shot("video", moving[0], int(title_len * FPS), start=moving[1][0] + 0.1, style="blur",
+                          flash_in=6, dip_out=10)
+    else:
+        title_shot = Shot("photo", hero, int(title_len * FPS), style="blur", flash_in=6, dip_out=10)
     shots.append(title_shot)
     _title_block(ov, t + 0.3, t + title_len - 0.3, "The Luxury Lane presents", package["episode_title"], 430, 540)
     sfx.append((t - 0.05, audio.impact(seed + 1), -8.0))
@@ -502,9 +509,15 @@ def produce_episode(*, theme: str, chapters_in: list[dict], package: dict, cfg: 
         body = card - 0.6 + voice.duration + 1.6 + pad
         vis = c["visuals"]
         card_len = card + 0.9
-        card_shot = Shot("photo", vis.photos[0], int(card_len * FPS), move="push", strength=0.8, dip_in=12,
-                         dims=[(0, int(card * FPS), 0.6)], leak_at=2)
-        rest = Visuals(vis.video, vis.scenes, vis.photos[1:] + vis.photos[:1])
+        if vis.video and vis.scenes:   # chapter card over moving footage of him
+            a, b = max(vis.scenes, key=lambda s: s[1] - s[0])
+            card_shot = Shot("video", vis.video, int(card_len * FPS), start=a + 0.1, move="push", strength=0.6,
+                             dip_in=12, dims=[(0, int(card * FPS), 0.6)], leak_at=2)
+            rest = Visuals(vis.video, [s for s in vis.scenes if s != (a, b)] or vis.scenes, vis.photos)
+        else:
+            card_shot = Shot("photo", vis.photos[0], int(card_len * FPS), move="push", strength=0.8, dip_in=12,
+                             dims=[(0, int(card * FPS), 0.6)], leak_at=2)
+            rest = Visuals(vis.video, vis.scenes, vis.photos[1:] + vis.photos[:1])
         cshots = [card_shot] + _chapter_shots(rest, body - card_len, rng)
         cshots[1].xfade_in = 14
         cshots[-1].dip_out = 12

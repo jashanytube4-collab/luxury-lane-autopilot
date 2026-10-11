@@ -1697,6 +1697,16 @@
    ]
   ]
  },
+ "hamdan bin mohammed launches new phase of dubai s happiness agenda": {
+  "last_short": "2026-10-12",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    21.380000000000003,
+    25.549999999999997
+   ]
+  ]
+ },
  "hamdan bin mohammed launches official operations of driverless taxi service in dubai": {
   "last_short": "2026-10-06",
   "shorts_made": 3,
@@ -3538,6 +3548,9 @@
  },
  "khaled bin mohamed bin zayed meets hamdan bin mohammed bin rashid on sidelines of uae government annual meetings": {
   "video_exhausted": true
+ },
+ "mohamed bin zayed hamdan bin mohammed attend adsw 2020": {
+  "fails": 1
  },
  "mohammed bin rashid attends 29th dubai world cup": {
   "last_short": "2026-10-07",

@@ -255,7 +255,7 @@ class Studio:
             ev = events[k]
             video = self.video(k, ev)
             scenes = [(a, b) for a, b, _ in self.his_scenes(video)] if video else []
-            photos = self.his_photos(self.photos(k, ev, limit=6))
+            photos = self.his_photos(self.photos(k, ev, limit=12))
             seconds = sum(b - a for a, b in scenes)
             if not photos and seconds < 8:
                 usage.setdefault(k, {})["no_hamdan"] = True
@@ -293,9 +293,12 @@ class Studio:
         if len(chapters) < 4:
             raise BrainError("too few chapters with visuals")
         package = self.brain.write_episode(topic["angle"], chapters, topic.get("title_hint", ""))
+        # events that did not become chapters still give footage of him, so no chapter has to repeat a picture
+        reserve = [Visuals(video if scenes else None, scenes, [p for p, _ in photos])
+                   for _, k, video, scenes, photos in scored[chapters_wanted:]]
         result = produce_episode(theme=topic["angle"], chapters_in=chapters, package=package, cfg=self.cfg, work=work,
-                                 seed=seed, hero=hero)
-        return result, [k for _, k, *_ in chosen]
+                                 seed=seed, hero=hero, reserve=reserve)
+        return result, [k for _, k, *_ in chosen] + [k for _, k, *_ in scored[chapters_wanted:]]
 
 
 def _mood(topic_id: str) -> str:

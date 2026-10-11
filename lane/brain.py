@@ -122,7 +122,12 @@ Return:
   At most one emoji.
 - description: 3-4 sentences, naturally using Prince Hamdan, Fazza, Sheikh Hamdan, Crown Prince of Dubai.
 - tags: 12-15 search tags.
-- thumbnail_text: 2-4 emotional or curious words, uppercase (e.g. "HIS REAL LIFE", "NOBODY SAW THIS")."""
+- thumbnail_text: 2-4 huge words for the thumbnail, uppercase, that make a fan NEED to click, in the style of the
+  most-clicked Fazza thumbnails: a curiosity gap or a strong emotion, never a summary. Examples: "HIS REAL LIFE",
+  "NOBODY SAW THIS", "THE SIDE HE HIDES", "WHY HE DID THIS", "HIS BIGGEST PASSION", "WHO TAUGHT HIM?".
+  It must stay TRUE to this episode (no invented drama, no wives, no rumours) and must not repeat the title.
+- thumbnail_tag: 1-2 words for a small red badge, uppercase, true to the episode, e.g. "RARE FOOTAGE",
+  "UNSEEN", "EXCLUSIVE", "HIS STORY"."""
 
 
 def _short_screen_schema() -> dict:
@@ -155,8 +160,10 @@ CHAPTER_SCHEMA = {"type": "object", "properties": {
 EPISODE_SCHEMA = {"type": "object", "properties": {
     "episode_title": {"type": "string"}, "hook": {"type": "string"}, "outro": {"type": "string"},
     "youtube_title": {"type": "string"}, "description": {"type": "string"},
-    "tags": {"type": "array", "items": {"type": "string"}, "maxItems": 15}, "thumbnail_text": {"type": "string"}},
-    "required": ["episode_title", "hook", "outro", "youtube_title", "description", "tags", "thumbnail_text"]}
+    "tags": {"type": "array", "items": {"type": "string"}, "maxItems": 15}, "thumbnail_text": {"type": "string"},
+    "thumbnail_tag": {"type": "string"}},
+    "required": ["episode_title", "hook", "outro", "youtube_title", "description", "tags", "thumbnail_text",
+                 "thumbnail_tag"]}
 
 
 class BrainError(Exception):
@@ -426,7 +433,8 @@ class Brain:
                                                                         title_hint=title_hint or "(your choice)")}],
                        EPISODE_SCHEMA, 900, 0.8)
         out = {k: clean(d.get(k)) for k in ("episode_title", "hook", "outro", "youtube_title", "description",
-                                            "thumbnail_text")}
+                                            "thumbnail_text", "thumbnail_tag")}
+        out["thumbnail_tag"] = " ".join(out["thumbnail_tag"].upper().split()[:2])[:16]
         out["tags"] = [clean(t)[:60] for t in d.get("tags") or [] if clean(t)][:15]
         if _words(out["hook"]) < 20 or not out["youtube_title"]:
             raise BrainError("episode package incomplete")

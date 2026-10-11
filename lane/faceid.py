@@ -60,7 +60,7 @@ class FaceID:
             feat = self.rec.feature(self.rec.alignCrop(small, f)).flatten()
             feat = feat / (np.linalg.norm(feat) + 1e-9)
             row = f.copy()
-            row[:4] /= scale
+            row[:14] /= scale          # box + 5 landmarks back to full-image pixels
             out.append((row, feat))
         return out
 
@@ -74,6 +74,17 @@ class FaceID:
             if sim >= MATCH and sim > best.sim:
                 x, y, fw, fh = row[:4]
                 best = Sighting(True, float(fh / h), float((x + fw / 2) / w), sim)
+        return best
+
+    def locate(self, img: np.ndarray) -> np.ndarray | None:
+        """His detector row (x, y, w, h, 5 landmarks, score) in full-image pixels, or None."""
+        if self.ref is None:
+            return None
+        best, best_sim = None, MATCH
+        for row, feat in self.faces(img):
+            sim = float(np.dot(feat, self.ref))
+            if sim >= best_sim:
+                best, best_sim = row, sim
         return best
 
     def photo(self, path: Path) -> Sighting:

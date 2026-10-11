@@ -50,6 +50,24 @@
  "dubai crown prince arrives in manama for endurance race": {
   "no_hamdan": true
  },
+ "dubai crown prince attends al ketbi family wedding reception": {
+  "last_short": "2026-10-12",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    31.26,
+    35.66
+   ],
+   [
+    36.14,
+    38.59
+   ],
+   [
+    49.46,
+    52.07000000000001
+   ]
+  ]
+ },
  "dubai crown prince attends wedding reception": {
   "last_short": "2026-10-12",
   "shorts_made": 1,

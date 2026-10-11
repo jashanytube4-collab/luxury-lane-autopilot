@@ -514,6 +514,24 @@
  "hamdan bin mohammed attends ai everything conference": {
   "video_exhausted": true
  },
+ "hamdan bin mohammed attends al muhairi al rumaithi family wedding": {
+  "last_short": "2026-10-12",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    70.34,
+    71.95
+   ],
+   [
+    86.42,
+    89.07
+   ],
+   [
+    89.46,
+    91.59
+   ]
+  ]
+ },
  "hamdan bin mohammed attends ceremony marking 49th anniversary of uae armed forces unification": {
   "fails": 1,
   "video_exhausted": true

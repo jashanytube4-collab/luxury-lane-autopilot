@@ -47,6 +47,9 @@
    ]
   ]
  },
+ "dubai crown prince arrives in manama for endurance race": {
+  "no_hamdan": true
+ },
  "dubai crown prince commends students selected for the hamdan bin mohammed scholarship programme": {
   "last_short": "2026-10-08",
   "shorts_made": 1,
@@ -430,6 +433,9 @@
  "hamdan bin mohammed attends ceremony marking 49th anniversary of uae armed forces unification": {
   "fails": 1,
   "video_exhausted": true
+ },
+ "hamdan bin mohammed attends closing of 4th king abdulaziz camel festival": {
+  "long": "2026-10-12"
  },
  "hamdan bin mohammed attends dubai camp 2026": {
   "fails": 1,
@@ -2289,6 +2295,12 @@
    ]
   ]
  },
+ "hamdan bin mohammed opens the race to excellence": {
+  "long": "2026-10-12"
+ },
+ "hamdan bin mohammed participates in king abdulaziz camel festival finale": {
+  "no_hamdan": true
+ },
  "hamdan bin mohammed receives hazza bin zayed in dubai": {
   "last_short": "2026-10-08",
   "shorts_made": 1,
@@ -2872,6 +2884,7 @@
  "hamdan bin mohammed visits abu dhabi international hunting and equestrian exhibition 2026": {
   "fails": 1,
   "last_short": "2026-10-05",
+  "long": "2026-10-12",
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -3346,6 +3359,9 @@
    ]
   ]
  },
+ "hamdan bin mohammed welcomes guests participating in the dubai world cup": {
+  "long": "2026-10-12"
+ },
  "hamdan bin mohammed welcomes king of jordan as he arrives in the uae to participate in cop28": {
   "last_short": "2026-10-09",
   "shorts_made": 1,
@@ -3395,6 +3411,9 @@
  "hamdan bin mohammed witnesses unveiling of uae developed probe for emirates mission to the asteroid belt": {
   "fails": 2,
   "long": "2026-10-09"
+ },
+ "hamdan officially opens 19th edition of dubai world cup": {
+  "long": "2026-10-12"
  },
  "in the presence of hamdan bin mohammed dubai chambers holds high level meeting in mumbai": {
   "last_short": "2026-10-07",
@@ -3465,6 +3484,9 @@
     32.230000000000004
    ]
   ]
+ },
+ "mohammed bin rashid attends al marmoum heritage festival closing races": {
+  "long": "2026-10-12"
  },
  "president of uzbekistan meets with hamdan bin mohammed in tashkent": {
   "last_short": "2026-10-08",

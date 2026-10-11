@@ -1133,6 +1133,9 @@
  "hamdan bin mohammed chairs defence council meeting": {
   "video_exhausted": true
  },
+ "hamdan bin mohammed chairs executive council meeting approves plans and policies": {
+  "video_exhausted": true
+ },
  "hamdan bin mohammed chairs meeting of the higher committee for future technology development and the digital economy": {
   "long": "2026-10-07"
  },
@@ -2842,6 +2845,36 @@
    [
     32.12,
     33.86333333333334
+   ]
+  ]
+ },
+ "hamdan bin mohammed reviews the latest technologies and energy solutions at wetex 2019": {
+  "last_short": "2026-10-12",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    20.860000000000003,
+    25.26
+   ],
+   [
+    41.54,
+    45.870000000000005
+   ],
+   [
+    158.98,
+    163.38
+   ],
+   [
+    186.78,
+    191.18
+   ],
+   [
+    256.14,
+    258.55
+   ],
+   [
+    314.66,
+    319.06
    ]
   ]
  },

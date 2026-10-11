@@ -1133,8 +1133,30 @@
  "hamdan bin mohammed chairs defence council meeting": {
   "video_exhausted": true
  },
+ "hamdan bin mohammed chairs executive council meeting": {
+  "last_short": "2026-10-12",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    6.26,
+    8.790000000000001
+   ],
+   [
+    21.860000000000003,
+    23.869999999999997
+   ],
+   [
+    43.3,
+    47.699999999999996
+   ],
+   [
+    70.02,
+    72.27
+   ]
+  ]
+ },
  "hamdan bin mohammed chairs executive council meeting approves e commerce strategy": {
-  "fails": 1
+  "fails": 2
  },
  "hamdan bin mohammed chairs executive council meeting approves plans and policies": {
   "video_exhausted": true

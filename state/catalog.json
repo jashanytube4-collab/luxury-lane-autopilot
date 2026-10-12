@@ -831,7 +831,11 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends dubai future forum 2025": {
-  "long": "2026-10-10"
+  "long": "2026-10-10",
+  "post_photos": [
+   3,
+   5
+  ]
  },
  "hamdan bin mohammed attends dubai metaverse assembly at the museum of the future": {
   "last_short": "2026-10-10",
@@ -1247,6 +1251,11 @@
     60.32,
     63.896667
    ]
+  ]
+ },
+ "hamdan bin mohammed attends peace shield 2026 joint military exercise between uae and azerbaijan": {
+  "post_photos": [
+   5
   ]
  },
  "hamdan bin mohammed attends safeguarding endangered cultural heritage conference": {
@@ -2705,6 +2714,11 @@
  "hamdan bin mohammed meets with chairman of international cricket council indian cricket stars": {
   "fails": 1,
   "video_exhausted": true
+ },
+ "hamdan bin mohammed meets with chief ai officers of government entitie": {
+  "post_photos": [
+   1
+  ]
  },
  "hamdan bin mohammed meets with cisco ceo": {
   "video_exhausted": true

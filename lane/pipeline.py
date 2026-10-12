@@ -190,21 +190,11 @@ class Runner:
             self.state.save()
             return True
         at = datetime.fromisoformat(slot["at"])
-        credits = "
-".join(c for c in {credit_line(m) for m in ep.music} if c)
-        photo_credits = "
-".join(dict.fromkeys(got.credits))
-        desc = (f"{ep.description}
-
-{SOURCE_CREDIT}
-"
-                + (f"Additional photos (Wikimedia Commons):
-{photo_credits}
-" if photo_credits else "")
-                + f"Narration and edit: {self.cfg['channel']['name']}.
-{credits}
-
-"
+        credits = "\n".join(c for c in {credit_line(m) for m in ep.music} if c)
+        photo_credits = "\n".join(dict.fromkeys(got.credits))
+        desc = (f"{ep.description}\n\n{SOURCE_CREDIT}\n"
+                + (f"Additional photos (Wikimedia Commons):\n{photo_credits}\n" if photo_credits else "")
+                + f"Narration and edit: {self.cfg['channel']['name']}.\n{credits}\n\n"
                 + " ".join(self.cfg['youtube'].get('base_hashtags', [])))[:4900]
         unit = f"story:{story.id}"
         try:

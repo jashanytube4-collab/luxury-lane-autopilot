@@ -15,6 +15,7 @@ import json
 import logging
 import os
 import platform
+import random
 import re
 import socket
 import subprocess
@@ -492,6 +493,8 @@ ROLES = {
     "outro": ("This is the ENDING. Reflect, with emotion, on what this story shows about who Fazza is as a person. "
               "Do not list the facts again."),
 }
+THUMB_WORDS = ["WHAT HE DID NEXT", "NOBODY EXPECTED THIS", "THE REAL STORY", "WATCH WHAT HAPPENED", "HE DID THIS",
+               "THE SIDE YOU NEVER SEE", "WHY HE DID IT"]
 HOOK_END = " If you love true stories about Prince Hamdan, like this video and subscribe. Let's begin."
 OUTRO_END = (" What do you think about this side of Fazza? Write it in the comments, we read every one. And if you "
              "enjoyed this story, like the video and subscribe to The Luxury Lane for more true stories about "
@@ -530,7 +533,8 @@ def _novel(sentence: str, earlier: list[set]) -> bool:
     return not w or all(len(w & e) / len(w) < 0.6 for e in earlier)
 
 
-def _guard(text: str, truth: str, earlier: list[set]) -> str:
+def _guard(text: str, truth: str, earlier: list[set], used_names: set | None = None,
+           allowed: str = "") -> str:
     """Keep only sentences whose numbers and names appear in the sources, that do not talk about 'sources', and that
     do not repeat an earlier sentence (a cheap but effective guard against a small model's habits)."""
     low_truth = truth.lower().replace(",", "")
@@ -544,7 +548,12 @@ def _guard(text: str, truth: str, earlier: list[set]) -> str:
             continue
         if not _novel(s, earlier):
             continue
+        names = {n for n in _NAME.findall(s) if n not in _COMMON}
+        if used_names is not None and any(n in used_names and n.lower() not in allowed.lower() for n in names):
+            continue          # e.g. "Fujairah" again in every part: a small model's favourite filler
         keep.append(s)
+        if used_names is not None:
+            used_names |= names
         earlier.append(set(re.findall(r"[a-z]{4,}", s.lower())))
     return " ".join(keep)
 
@@ -564,14 +573,15 @@ def write_story(brain: "Brain", label: str, sources: list[dict], background: lis
     if not title or len(beats) < 7 or not re.search(r"fazza|hamdan", title, re.I):
         raise BrainError("story outline incomplete")
     truth = src + "\n" + "\n".join(facts) + "\n" + "\n".join(background)
-    bg = "\n".join(f"- {b}" for b in background[:6])
+    bg_pool = list(background[:4])
     roles = [(ROLES["hook"].format(questions=" ".join(clean(q) for q in plan.get("questions", []))), facts[:3])]
     for b in beats:
         picked = [facts[i - 1] for i in b.get("facts", []) if 1 <= i <= len(facts)] or facts[:2]
         roles.append((ROLES["beat"].format(beat=clean(b.get("beat"))), picked))
     roles.append((ROLES["outro"], facts[-2:]))
-    parts, earlier = [], []
+    parts, earlier, used_names = [], [], set()
     for i, (role, part_facts) in enumerate(roles):
+        bg = f"- {bg_pool.pop(0)}" if i in (2, 5) and bg_pool else "(none needed)"
         words = 120 if i in (0, len(roles) - 1) else 175
         text = ""
         for temp in (0.75, 0.55):
@@ -579,13 +589,11 @@ def write_story(brain: "Brain", label: str, sources: list[dict], background: lis
                 num=i + 1, title=title, role=role, facts="\n".join(f"- {f}" for f in part_facts), background=bg,
                 last=(parts[-1].split(". ")[-1] if parts else "(this is the start)")[:300], words=words)}],
                 STORY_PART_SCHEMA, 700, temp)
-            trial = list(earlier)
-            text = _guard(d.get("narration", ""), truth, trial)
+            trial, trial_names = list(earlier), set(used_names)
+            text = _guard(d.get("narration", ""), truth, trial, trial_names, " ".join(part_facts) + " " + bg)
             if _words(text) >= words * 0.65:
-                earlier = trial
                 break
-        else:
-            earlier = trial
+        earlier, used_names = trial, trial_names
         if _words(text) < 50:
             raise BrainError(f"story part {i + 1} came out too short")
         if i == 0:
@@ -596,7 +604,7 @@ def write_story(brain: "Brain", label: str, sources: list[dict], background: lis
     if sum(_words(p) for p in parts) < 1250:
         raise BrainError("story too short for an 8-minute episode")
     return {"title": title, "description": clean(plan.get("description")),
-            "thumbnail": {"text": clean(plan.get("thumbnail_text")).upper()[:40],
+            "thumbnail": {"text": random.choice(THUMB_WORDS),
                           "tag": " ".join(clean(plan.get("thumbnail_tag")).upper().split()[:2])[:16]},
             "tags": [clean(t)[:60] for t in plan.get("tags") or [] if clean(t)][:15],
             "keywords": [clean(k) for k in plan.get("keywords") or [] if clean(k)][:6], "parts": parts}

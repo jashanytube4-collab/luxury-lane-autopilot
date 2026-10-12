@@ -699,6 +699,11 @@
  "hamdan bin mohammed attends 6th day of al marmoom heritage festival": {
   "long": "2026-10-13"
  },
+ "hamdan bin mohammed attends advanced technology research council meeting in abu dhabi": {
+  "post_photos": [
+   1
+  ]
+ },
  "hamdan bin mohammed attends ai everything conference": {
   "video_exhausted": true
  },
@@ -1052,6 +1057,11 @@
    ]
   ],
   "video_exhausted": true
+ },
+ "hamdan bin mohammed attends graduation ceremony of 34th joint command and staff course": {
+  "post_photos": [
+   1
+  ]
  },
  "hamdan bin mohammed attends graduation ceremony of the 26th cohort of the rashid bin saeed al maktoum naval college": {
   "long": "2026-10-06"
@@ -4352,6 +4362,10 @@
  "hamdan bin mohammed visits emirates flight catering commends its role in advancing dubai s aviation ecosystem": {
   "fails": 1,
   "long": "2026-10-09",
+  "post_photos": [
+   0,
+   3
+  ],
   "video_exhausted": true
  },
  "hamdan bin mohammed visits exhibition that tells story of uae s participation in world expos": {

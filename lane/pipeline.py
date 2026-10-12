@@ -11,6 +11,7 @@ import argparse
 import base64
 import logging
 import random
+import re
 import shutil
 import sys
 import time
@@ -36,6 +37,18 @@ SOURCE_CREDIT = "Footage and photos: official media of H.H. Sheikh Hamdan bin Mo
 def _fmt_ts(sec: float) -> str:
     sec = int(sec)
     return f"{sec // 3600}:{sec % 3600 // 60:02d}:{sec % 60:02d}" if sec >= 3600 else f"{sec // 60}:{sec % 60:02d}"
+
+
+_FILLER = {"the", "a", "an", "of", "and", "in", "at", "to", "his", "prince", "hamdan", "sheikh", "fazza", "s", "with"}
+
+
+def _similar(a: str, b: str) -> bool:
+    """Two titles say the same thing (e.g. 'Prince Hamdan Brings Warmth' vs 'THE HUMAN SIDE | Fazza Brings Warmth')."""
+    wa = set(re.findall(r"[a-z]+", a.lower())) - _FILLER
+    wb = set(re.findall(r"[a-z]+", b.lower())) - _FILLER
+    if not wa or not wb:
+        return a.strip().lower() == b.strip().lower()
+    return len(wa & wb) / min(len(wa), len(wb)) >= 0.6
 
 
 def _tags(base: list[str], extra: list[str], key: str) -> list[str]:
@@ -251,7 +264,7 @@ class Runner:
             if item is None:
                 continue
             p = item["plan"]
-            if not moment and p["title"].lower() in {t.lower() for t in self._recent_titles()}:
+            if not moment and any(_similar(p["title"], t) for t in self._recent_titles()[-120:]):
                 self.report.note(f"Skipped a Short whose title repeats a recent one: {p['title']}")
                 shutil.rmtree(item["work"], ignore_errors=True)
                 continue

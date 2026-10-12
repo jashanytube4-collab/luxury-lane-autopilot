@@ -20,6 +20,8 @@ schedule:
   long_between: ["18:00", "20:00"]         # the daily long-form episode goes out in this evening window
   days_ahead: 2                            # keep today + tomorrow scheduled, so a missed run never leaves a gap
   min_lead_minutes: 25                     # never schedule anything sooner than this from "now"
+  posts_per_day: [10, 15]                  # picture posts (photo + quote Shorts), random count each day
+  posts_between: ["07:00", "23:30"]
 
 longform:
   chapters: 6                        # events per episode (each becomes a chapter)
@@ -29,11 +31,11 @@ longform:
   voice_rate: "-2%"                  # slightly calmer delivery for documentaries
 
 short:
-  min_seconds: 15
-  max_seconds: 22
+  min_seconds: 12                   # every Short is a random length between these (12-17 s)
+  max_seconds: 17
   fps: 30
-  moment_share: 0.8                  # share of Shorts that are 7-13 s music-only "moments" of him (what the
-                                     # most-viewed Fazza Shorts are); the rest are narrated 15-22 s stories
+  moment_share: 0.8                  # share of Shorts that are 12-17 s music-only "moments" of him (what the
+                                     # most-viewed Fazza Shorts are); the rest are narrated stories
 
 story:                               # long-form story episodes (assets/stories), told like the top royal channels
   voice: en-US-AvaMultilingualNeural # warm female storyteller voice

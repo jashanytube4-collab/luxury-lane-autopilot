@@ -48,11 +48,11 @@ CONTEXT = [   # (pattern on the official event title, titles that fit that momen
 
 
 def moment_runs(scenes: list) -> list[dict]:
-    """Merge back-to-back scenes of him (sorted [(a, b, Sighting)]) into continuous moments 4-13 s long."""
+    """Merge back-to-back scenes of him (sorted [(a, b, Sighting)]) into continuous moments 4-17 s long."""
     runs: list[dict] = []
     for a, b, s in scenes:
         last = runs[-1] if runs else None
-        if last and a - last["b"] < 0.5 and b - last["a"] <= 13.0:
+        if last and a - last["b"] < 0.5 and b - last["a"] <= 17.0:
             n = last["n"] + 1
             last.update(b=b, size=(last["size"] * last["n"] + s.size) / n, cx=(last["cx"] * last["n"] + s.cx) / n, n=n)
         else:

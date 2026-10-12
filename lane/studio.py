@@ -35,6 +35,7 @@ log = logging.getLogger("lane.studio")
 
 MAX_SHORTS_PER_EVENT = 3     # one story is never told more than three times, each with different footage
 COOLDOWN_DAYS = 7
+MOMENT_SECONDS = (12.0, 17.0)
 TOPIC_REST_DAYS = 9
 EPISODE_EVENTS_MAX = 36   # events an episode may draw footage from (narrated chapters + spare footage)
 
@@ -124,7 +125,7 @@ class Studio:
     # ---- Shorts -----------------------------------------------------------------------------------------
     def _short_target(self, seed: int) -> float:
         s = self.cfg["short"]
-        return random.Random(seed).uniform(s["min_seconds"] + 1, s["max_seconds"] - 2)
+        return random.Random(seed).uniform(s["min_seconds"] + 0.3, s["max_seconds"] - 1.2)
 
     def short_candidates(self, events: dict, usage: dict, day: str | None = None,
                          cooldown_days: int = COOLDOWN_DAYS) -> list[str]:
@@ -201,7 +202,7 @@ class Studio:
                 "photo_only": not ranges}
 
     def make_moment(self, key: str, ev: dict, usage: dict, recent_titles: list[str], seed: int) -> dict | None:
-        """A 'moment' Short in the style of the most-viewed Fazza Shorts (5-27M views): one real clip of him, 7-13 s,
+        """A 'moment' Short in the style of the most-viewed Fazza Shorts (5-27M views): real clips of him, 12-17 s,
         vertical and centred on his face, music only, made to loop. Returns the same dict as make_short."""
         u = usage.setdefault(key, {})
         video = self.video(key, ev)
@@ -213,21 +214,24 @@ class Studio:
             u["video_exhausted"] = True
             return None
         rng = random.Random(seed)
-        best = max(runs, key=lambda r: r["size"] * min(r["b"] - r["a"], 11.0))
-        want = rng.uniform(7.0, 12.5)
-        shots = [{"kind": "video", "start": best["a"], "end": best["b"], "hard_end": best["b"], "focus_x": best["cx"]}]
-        have = best["b"] - best["a"]
-        if have < want:   # a second moment of him from the same event, never touching the first
-            others = [r for r in runs if r is not best and (r["a"] >= best["b"] + 1 or r["b"] <= best["a"] - 1)]
-            if others:
-                nxt = max(others, key=lambda r: r["size"])
-                shots.append({"kind": "video", "start": nxt["a"], "end": nxt["b"], "hard_end": nxt["b"],
-                              "focus_x": nxt["cx"]})
-                have += nxt["b"] - nxt["a"]
-        duration = round(max(6.0, min(want, have)), 2)
-        if duration < 6.0:
+        lo, hi = MOMENT_SECONDS
+        if sum(r["b"] - r["a"] for r in runs) < lo:      # not enough of him left in this video for a full moment
             u["video_exhausted"] = True
             return None
+        want = round(rng.uniform(lo, hi), 2)              # a different length every time (never a robotic 16.0 s)
+        picked: list[dict] = []
+        for r in sorted(runs, key=lambda r: -r["size"] * min(r["b"] - r["a"], 12.0)):
+            if sum(x["b"] - x["a"] for x in picked) >= want or len(picked) == 3:
+                break
+            if all(r["a"] >= x["b"] + 1 or r["b"] <= x["a"] - 1 for x in picked):
+                picked.append(r)
+        picked.sort(key=lambda r: r["a"])                  # moments in the order they happened
+        have = sum(r["b"] - r["a"] for r in picked)
+        if have < lo:
+            return None
+        shots = [{"kind": "video", "start": r["a"], "end": r["b"], "hard_end": r["b"], "focus_x": r["cx"]}
+                 for r in picked]
+        duration = round(min(want, have), 2)
         work = self.work / f"moment_{_slug(key)}_{seed % 10000}"
         out = work / "short.mp4"
         caption = moment_caption(ev.get("title", ""), rng)

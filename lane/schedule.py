@@ -106,3 +106,25 @@ def target_days(now: datetime, cfg: dict) -> list[date]:
     tz = ZoneInfo(cfg["timezone"])
     today = now.astimezone(tz).date()
     return [today + timedelta(days=i) for i in range(int(cfg.get("days_ahead", 2)))]
+
+
+def post_slots(day: date, cfg: dict, existing: list[datetime], rng: random.Random,
+               not_before: datetime) -> list[datetime]:
+    """10-15 picture-post times (random count each day) between 07:00 and 23:30, at least 12 minutes from any Short
+    or episode and 35 minutes from each other."""
+    tz = ZoneInfo(cfg["timezone"])
+    lo_n, hi_n = cfg.get("posts_per_day", [10, 15])
+    n = rng.randint(int(lo_n), int(hi_n))
+    a, b = (datetime.combine(day, _hm(x), tz) for x in cfg.get("posts_between", ["07:00", "23:30"]))
+    span = int((b - a).total_seconds())
+    taken, out = list(existing), []
+    for _ in range(n * 40):
+        if len(out) >= n:
+            break
+        t = (a + timedelta(seconds=rng.randint(0, span))).replace(microsecond=0)
+        if t <= not_before:
+            continue
+        if all(abs(t - o) >= timedelta(minutes=12) for o in taken) and \
+                all(abs(t - o) >= timedelta(minutes=35) for o in out):
+            out.append(t)
+    return sorted(out)

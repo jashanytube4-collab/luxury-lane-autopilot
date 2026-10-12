@@ -125,7 +125,7 @@ def produce_moment(video: Path, shots: list[dict], cfg: dict, work: Path, out: P
         render.render_video(timeline, ass, mix_path, out, work, seed)
     except render.RenderError as e:
         raise ShortError(str(e)) from e
-    problems = qa.check(out, 5.5, 16.0)
+    problems = qa.check(out, 11.5, 17.5)
     if problems:
         raise ShortError("quality check failed: " + "; ".join(problems))
     return Result(out, duration, "none", music_name, "fill")

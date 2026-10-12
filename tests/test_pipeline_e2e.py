@@ -202,7 +202,7 @@ def test_full_day(tmp_path, monkeypatch, media):
 
 @pytest.mark.slow
 def test_moment_short(tmp_path, monkeypatch, media):
-    """A music-only 'moment' Short: 6-13 s of footage of him, vertical, never reusing its footage, unique title."""
+    """A music-only moment Short: 12-17 s of footage of him, vertical, never reusing its footage, unique title."""
     import lane.studio as st
     from lane.config import load_config
     from lane.media import probe
@@ -215,7 +215,7 @@ def test_moment_short(tmp_path, monkeypatch, media):
         item = studio.make_moment("event 0", ev, usage, titles, seed)
         assert item is not None
         info = probe(item["path"])
-        assert (info["width"], info["height"]) == (1080, 1920) and 5.5 <= info["duration"] <= 13.5
+        assert (info["width"], info["height"]) == (1080, 1920) and 11.5 <= info["duration"] <= 17.5
         assert item["plan"]["title"] not in titles
         titles.append(item["plan"]["title"])
         for a, b in item["ranges"]:

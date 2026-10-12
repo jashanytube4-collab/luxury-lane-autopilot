@@ -23,7 +23,9 @@ from .config import WORK_DIR, load_config, load_secrets
 from .hamdan import Hamdan, Library, SourceError, load_events, save_events
 from .instagram import Instagram, sync as sync_instagram
 from .report import RunReport, setup_logging
-from .schedule import day_slots, long_slot, target_days, top_up
+from .posts import make_post
+from .quotes import harvest as harvest_quotes
+from .schedule import day_slots, long_slot, post_slots, target_days, top_up
 from .state import State
 from .story import StoryMaker, auto_story, next_story, produce_story
 from .trends import mark_used
@@ -108,6 +110,12 @@ class Runner:
             self.report.note(f"hamdan.ae: {added} new official events ({len(self.events)} in the library)")
         except SourceError as e:
             self.report.problem(f"Could not reach hamdan.ae ({e}); using the saved library")
+        try:
+            n = harvest_quotes(self.state.cursors)
+            self.report.note(f"Quotes: {n} new real quotes of Prince Hamdan "
+                             f"({len(self.state.cursors.get('quotes', []))} collected)")
+        except Exception as e:  # noqa: BLE001 — quotes are optional; fan lines are always available
+            self.report.problem(f"Quote collection failed: {str(e)[:150]}")
         accounts = self.cfg.get("source", {}).get("instagram") or []
         if accounts and self.secrets.ig_token and self.secrets.ig_user_id and self.hamdan.library:
             try:
@@ -259,6 +267,46 @@ class Runner:
         shutil.rmtree(work, ignore_errors=True)
         return True
 
+    # ---- picture posts ------------------------------------------------------------------------------------
+    def fill_post(self, day, slot: dict, plan: dict) -> bool:
+        seed = random.randint(1, 10**9)
+        work = WORK_DIR / f"post_{seed % 100000}"
+        try:
+            item = make_post(self.studio, self.events, self.usage, self.state.cursors, day, self.cfg, work, seed)
+        except Exception as e:  # noqa: BLE001 — a missing picture post never stops the day
+            self.report.note(f"Picture post skipped: {str(e)[:150]}")
+            slot["status"] = "skipped"
+            self.state.save_day(day.isoformat(), plan)
+            return True
+        if item is None:
+            slot["status"] = "skipped"
+            self.state.save_day(day.isoformat(), plan)
+            return True
+        at = datetime.fromisoformat(slot["at"])
+        credit = credit_line(item["music"])
+        desc = (f"{item['description']}\n\nPhotos: official media of H.H. Sheikh Hamdan bin Mohammed (hamdan.ae).\n"
+                + (f"{credit}\n" if credit else "") + "\n" + " ".join(self.cfg["youtube"].get("base_hashtags", [])))
+        try:
+            vid = self._upload(item["path"], title=item["title"], description=desc,
+                               tags=_tags(self.cfg["youtube"].get("base_tags", []), item["tags"], item["unit"]),
+                               publish_at=at)
+        except QuotaError as e:
+            self.report.problem(f"YouTube upload quota reached ({e}); remaining picture posts skipped")
+            return False
+        except Exception as e:  # noqa: BLE001
+            self.report.problem(f"Picture post upload failed: {e}")
+            return True
+        if not self.args.dry_run:
+            for k, i in item["photos"]:
+                self.usage.setdefault(k, {}).setdefault("post_photos", []).append(i)
+        slot.update(status="scheduled", video_id=vid, title=item["title"])
+        self.state.save_day(day.isoformat(), plan)
+        self.state.checkpoint(f"post {vid} for {slot['at']}")
+        self.made += 1
+        self.report.note(f"Post {at.strftime('%b %d %H:%M')} — {item['title']}")
+        shutil.rmtree(work, ignore_errors=True)
+        return True
+
     # ---- Shorts -----------------------------------------------------------------------------------------
     def _recent_titles(self) -> list[str]:
         return self.state.cursors.get("recent_titles", [])[-300:]
@@ -347,6 +395,13 @@ class Runner:
             plan = {"date": date_s, "timezone": sc["timezone"], "slots": sorted(slots, key=lambda s: s["at"])}
             self.state.save_day(date_s, plan)
         lead = timedelta(minutes=sc.get("min_lead_minutes", 25))
+        if sc.get("posts_per_day") and not any(s["type"] == "post" for s in plan["slots"]):
+            taken = [datetime.fromisoformat(s["at"]) for s in plan["slots"]]
+            extra = post_slots(day, sc, taken, random.Random(), datetime.now(timezone.utc) + lead)
+            plan["slots"] = sorted(plan["slots"] + [{"at": t.isoformat(), "type": "post", "status": "open"}
+                                                    for t in extra], key=lambda s: s["at"])
+            self.state.save_day(date_s, plan)
+            self.report.note(f"{date_s}: {len(extra)} picture posts planned")
         shorts_now = [datetime.fromisoformat(s["at"]) for s in plan["slots"] if s["type"] == "short"]
         if len(shorts_now) < int(sc["shorts_per_day"]):
             extra = top_up(day, sc, shorts_now, random.Random(), datetime.now(timezone.utc) + lead)
@@ -356,7 +411,8 @@ class Runner:
                 self.state.save_day(date_s, plan)
                 self.report.note(f"{date_s}: added {len(extra)} Short slot(s) to match shorts_per_day")
         # the episode first: it is the day's most important upload
-        order = sorted(plan["slots"], key=lambda s: (s["type"] != "long", s["at"]))
+        rank = {"long": 0, "short": 1, "post": 2}       # picture posts last: they never take a Short's place
+        order = sorted(plan["slots"], key=lambda s: (rank.get(s["type"], 3), s["at"]))
         for slot in order:
             if slot["status"] != "open":
                 continue
@@ -366,7 +422,12 @@ class Runner:
                 continue
             if self.over_budget() or (self.args.max is not None and self.made >= self.args.max):
                 return False
-            ok = self.fill_long(day, slot, plan) if slot["type"] == "long" else self.fill_short(day, slot, plan)
+            if slot["type"] == "long":
+                ok = self.fill_long(day, slot, plan)
+            elif slot["type"] == "post":
+                ok = self.fill_post(day, slot, plan)
+            else:
+                ok = self.fill_short(day, slot, plan)
             if not ok:
                 return False
         return True

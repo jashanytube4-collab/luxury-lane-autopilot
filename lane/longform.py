@@ -218,7 +218,8 @@ def _shot(it: Item, dur: float, rng: random.Random) -> Shot:
 
 
 def _chapter_shots(pool: list[Item], seconds: float, rng: random.Random, reserve: list[Item],
-                   used: list[Item]) -> list[Shot]:
+                   used: list[Item], pace: tuple[float, float] = (3.6, 5.8),
+                   still: tuple[float, float] = (4.4, 5.6)) -> list[Shot]:
     """Fill `seconds` with this chapter's footage intercut with photos, each shown once. When the chapter runs short,
     shots stay on screen longer and extra footage of him from the reserve is used; repeating is the very last resort."""
     shots: list[Shot] = []
@@ -238,7 +239,7 @@ def _chapter_shots(pool: list[Item], seconds: float, rng: random.Random, reserve
             log.warning("episode ran out of new footage; re-using %s", Path(it.src).name)
         else:
             used.append(it)
-        base = rng.uniform(3.6, 5.8) if it.kind == "video" else rng.uniform(4.4, 5.6)
+        base = rng.uniform(*pace) if it.kind == "video" else rng.uniform(*still)
         dur = max(2.0, min(it.most, base * stretch))
         shot = _shot(it, dur, rng)
         if shots:

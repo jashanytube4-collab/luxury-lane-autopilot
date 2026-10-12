@@ -95,3 +95,37 @@ def produce(video: Path | None, plan: dict, cfg: dict, work: Path, out: Path, se
     if problems:
         raise ShortError("quality check failed: " + "; ".join(problems))
     return Result(out, duration, narr.engine, music_name, plan["layout"])
+
+
+def produce_moment(video: Path, shots: list[dict], cfg: dict, work: Path, out: Path, seed: int,
+                   duration: float) -> Result:
+    """A music-only 'moment' Short: real footage of him, vertical, no narration, no captions (see lane/moments.py)."""
+    import random
+
+    import numpy as np
+    work.mkdir(parents=True, exist_ok=True)
+    fps = int(cfg["short"].get("fps", 30))
+    try:
+        timeline = render.make_plan(shots, layout="fill", duration=duration, video=video,
+                                    cuts=scene_cuts(video, probe(video)["fps"]), fps=fps, seed=seed)
+    except render.RenderError as e:
+        raise ShortError(str(e)) from e
+    for i in range(len(timeline.transitions)):
+        timeline.transitions[i] = "punch"
+    silent = work / "silence.wav"
+    audio.save(np.zeros(int(audio.SR * duration), np.float32), silent)
+    mood = random.Random(seed).choice(["epic", "arabian", "elegant", "modern"])
+    music, music_name = audio.music_bed(duration, seed, mood)
+    mix_path = work / "mix.wav"
+    audio.mix(silent, duration, [], music, {**cfg.get("music", {}), "duck_db": 0}, mix_path, work)
+    ass = work / "captions.ass"
+    build_ass(ass, words=[], script="", emphasis=[], hook="", watermark=cfg["channel"].get("watermark", ""),
+              duration=duration, caption_y=1240, hook_y=400)
+    try:
+        render.render_video(timeline, ass, mix_path, out, work, seed)
+    except render.RenderError as e:
+        raise ShortError(str(e)) from e
+    problems = qa.check(out, 5.5, 16.0)
+    if problems:
+        raise ShortError("quality check failed: " + "; ".join(problems))
+    return Result(out, duration, "none", music_name, "fill")

@@ -28,7 +28,8 @@ from .faceid import FaceID, Sighting, scene_presence
 from .hamdan import Hamdan, SourceError
 from .longform import EpisodeResult, Visuals, _scene_list, produce_episode
 from .media import FFMPEG, probe, run, scene_cuts
-from .short import produce
+from .short import produce, produce_moment
+from .moments import moment_description, moment_runs as _moment_runs, moment_tags, moment_title
 
 log = logging.getLogger("lane.studio")
 
@@ -198,6 +199,45 @@ class Studio:
         unit = f"{key}|{'v' if ranges else 'p'}{len(u.get('shot_ranges', []))}"
         return {"path": res.path, "plan": plan, "unit": unit, "ranges": ranges, "music": res.music, "work": work,
                 "photo_only": not ranges}
+
+    def make_moment(self, key: str, ev: dict, usage: dict, recent_titles: list[str], seed: int) -> dict | None:
+        """A 'moment' Short in the style of the most-viewed Fazza Shorts (5-27M views): one real clip of him, 7-13 s,
+        vertical and centred on his face, music only, made to loop. Returns the same dict as make_short."""
+        u = usage.setdefault(key, {})
+        video = self.video(key, ev)
+        if not video:
+            return None
+        scenes = self.his_scenes(video, exclude=u.get("shot_ranges", []))
+        runs = _moment_runs(sorted(scenes, key=lambda x: x[0]))
+        if not runs:
+            u["video_exhausted"] = True
+            return None
+        rng = random.Random(seed)
+        best = max(runs, key=lambda r: r["size"] * min(r["b"] - r["a"], 11.0))
+        want = rng.uniform(7.0, 12.5)
+        shots = [{"kind": "video", "start": best["a"], "end": best["b"], "hard_end": best["b"], "focus_x": best["cx"]}]
+        have = best["b"] - best["a"]
+        if have < want:   # a second moment of him from the same event, never touching the first
+            others = [r for r in runs if r is not best and (r["a"] >= best["b"] + 1 or r["b"] <= best["a"] - 1)]
+            if others:
+                nxt = max(others, key=lambda r: r["size"])
+                shots.append({"kind": "video", "start": nxt["a"], "end": nxt["b"], "hard_end": nxt["b"],
+                              "focus_x": nxt["cx"]})
+                have += nxt["b"] - nxt["a"]
+        duration = round(max(6.0, min(want, have)), 2)
+        if duration < 6.0:
+            u["video_exhausted"] = True
+            return None
+        work = self.work / f"moment_{_slug(key)}_{seed % 10000}"
+        out = work / "short.mp4"
+        res = produce_moment(video, shots, self.cfg, work, out, seed, duration)
+        title = moment_title(ev.get("title", ""), recent_titles, rng)
+        plan = {"title": title, "description": moment_description(ev, rng), "tags": moment_tags(ev),
+                "hook_text": "", "shots": shots}
+        ranges = [[s["start"], min(s["end"], s["start"] + duration)] for s in shots]
+        unit = f"{key}|m{len(u.get('shot_ranges', []))}"
+        return {"path": res.path, "plan": plan, "unit": unit, "ranges": ranges, "music": res.music, "work": work,
+                "photo_only": False}
 
     def _fill_with_him(self, plan: dict, items: list[dict], video: Path | None, work: Path, need: float) -> None:
         """Make sure there is enough footage OF HIM for the whole Short: shots never run past the end of his scene,

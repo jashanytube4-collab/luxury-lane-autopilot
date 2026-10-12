@@ -267,8 +267,21 @@ def _draw_words(canvas: np.ndarray, text: str, tag: str, area: tuple[int, int, i
 
 
 # ---- entry point --------------------------------------------------------------------------------------------
-def make_thumbnail(photos: list[Path], text: str, tag: str, out: Path, seed: int, face=None) -> Path:
-    """photos: candidate photos of him (best is picked automatically; a second one may become an inset)."""
+class AnyFace:
+    """Largest face in a photo (for a second person on the thumbnail: his father, mother, a family member)."""
+
+    def __init__(self, face) -> None:
+        self.face = face
+
+    def locate(self, img: np.ndarray) -> np.ndarray | None:
+        rows = [r for r, _ in self.face.faces(img)]
+        return max(rows, key=lambda r: r[2] * r[3]) if rows else None
+
+
+def make_thumbnail(photos: list[Path], text: str, tag: str, out: Path, seed: int, face=None,
+                   inset: list[Path] | None = None) -> Path:
+    """photos: candidate photos of him (best is picked automatically). inset: photos of a second person the story is
+    about (the clearest face becomes a framed picture beside him); without it a second photo of him may be used."""
     if face is None:
         from .faceid import FaceID
         face = FaceID()
@@ -278,22 +291,29 @@ def make_thumbnail(photos: list[Path], text: str, tag: str, out: Path, seed: int
     rng = random.Random(seed)
     hero, row, _ = ranked[0]
     img = cv2.imread(str(hero), cv2.IMREAD_COLOR)
-    layout = "inset" if len(ranked) > 2 and seed % 3 == 1 else "words"
     face_cx = 0.70
     crop, row = _place(img, row, face_cx, 0.15)
     canvas = _compose(crop, row, rng, face_cx)
     text_left = 52
     text_w = int(row[0] - row[2] * 0.25) - text_left - 10
     text_w = max(460, min(text_w, 660))
-    if layout == "inset":
+    other, other_face = None, face
+    if inset:
+        any_face = AnyFace(face)
+        ranked_other = pick_photos(inset, any_face)
+        if ranked_other:
+            other, other_face = ranked_other[0][0], any_face
+    elif len(ranked) > 2 and seed % 3 == 1:
         other = next((p for p, r, q in ranked[1:] if p != hero and q > 0.8), None)
-        if other is not None:
-            canvas = _inset(canvas, other, face, (36, 30, 330, 220), rng.choice([-4.0, 3.5]))
-            canvas = _draw_words(canvas, text, "", (text_left, 300, text_w, 390), seed)
-        else:
-            layout = "words"
-    if layout == "words":
+    if other is not None:
+        box = (40, 36, 440, 290) if inset else (36, 30, 330, 220)
+        canvas = _inset(canvas, other, other_face, box, rng.choice([-4.0, 3.5]))
+        canvas = _draw_words(canvas, text, tag if inset else "", (text_left, 390 if inset else 300, text_w,
+                                                                  310 if inset else 390), seed)
+        layout = "inset"
+    else:
         canvas = _draw_words(canvas, text, tag, (text_left, 120, text_w, 520), seed)
+        layout = "words"
     out.parent.mkdir(parents=True, exist_ok=True)
     cv2.imwrite(str(out), canvas, [cv2.IMWRITE_JPEG_QUALITY, 92])
     log.info("thumbnail %s (%s, from %s)", out.name, layout, Path(hero).name)

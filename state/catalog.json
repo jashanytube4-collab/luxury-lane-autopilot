@@ -1145,6 +1145,10 @@
   ],
   "video_exhausted": true
  },
+ "hamdan bin mohammed attends opening of 49th world economic forum": {
+  "no_hamdan": true,
+  "video_exhausted": true
+ },
  "hamdan bin mohammed attends part of national multi sector exercise conducted by ncema uae cyber security council": {
   "last_short": "2026-10-07",
   "long": "2026-10-05",
@@ -1173,6 +1177,10 @@
  },
  "hamdan bin mohammed attends signing of agreement between rta and cruise to operate self driving taxis and ride hailing services in dubai": {
   "long": "2026-10-08",
+  "video_exhausted": true
+ },
+ "hamdan bin mohammed attends signing of an agreement to establish the centre for the fourth industrial revolution in the uae": {
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "hamdan bin mohammed attends talk on middle eastern cities contributions to advancing human progress": {
@@ -1679,6 +1687,20 @@
    ]
   ]
  },
+ "hamdan bin mohammed follows up the work mechanisms of dubai future councils": {
+  "last_short": "2026-10-13",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    8.739999999999998,
+    12.91
+   ],
+   [
+    33.1,
+    35.230000000000004
+   ]
+  ]
+ },
  "hamdan bin mohammed goes on first test ride of cruise autonomous electric vehicle in jumeirah 1": {
   "last_short": "2026-10-09",
   "long": "2026-10-08",
@@ -2057,6 +2079,10 @@
    ]
   ]
  },
+ "hamdan bin mohammed klaus schwab discuss enhancing strategic partnerships": {
+  "no_hamdan": true,
+  "video_exhausted": true
+ },
  "hamdan bin mohammed launches 3d printing strategic alliance": {
   "no_hamdan": true,
   "video_exhausted": true
@@ -2387,6 +2413,9 @@
  "hamdan bin mohammed meets teams at the forefront of implementing preventive measures against covid 19": {
   "video_exhausted": true
  },
+ "hamdan bin mohammed meets with apple ceo": {
+  "video_exhausted": true
+ },
  "hamdan bin mohammed meets with astronaut sultan al neyadi and zayed ambition 2 team": {
   "last_short": "2026-10-09",
   "shorts_made": 1,
@@ -2429,6 +2458,9 @@
  },
  "hamdan bin mohammed meets with chairman of international cricket council indian cricket stars": {
   "fails": 1,
+  "video_exhausted": true
+ },
+ "hamdan bin mohammed meets with cisco ceo": {
   "video_exhausted": true
  },
  "hamdan bin mohammed meets with dubai gov t second line of leadership": {

@@ -24,7 +24,8 @@ from .hamdan import Hamdan, Library, SourceError, load_events, save_events
 from .report import RunReport, setup_logging
 from .schedule import day_slots, long_slot, target_days, top_up
 from .state import State
-from .story import StoryMaker, next_story, produce_story
+from .story import StoryMaker, auto_story, next_story, produce_story
+from .trends import mark_used
 from .studio import Studio
 from .youtube import AuthError, QuotaError, YouTube, key_tag
 
@@ -145,6 +146,22 @@ class Runner:
         story = next_story(self.state.cursors.get("stories_done", []))
         if story is not None:
             return self.fill_story(day, slot, plan, story)
+        if self.cfg.get("story", {}).get("auto", True):   # bank used up: a fresh topic found and written automatically
+            try:
+                found = auto_story(self.brain, self.studio, self.events, self.usage, self.state.cursors, day, self.cfg)
+            except AIUnavailable:
+                raise
+            except Exception as e:  # noqa: BLE001 — fall back to the fan-topic episode below
+                self.report.problem(f"Automatic story failed: {str(e)[:300]}")
+                found = None
+            if found is not None:
+                story, topic = found
+                self.report.note(f"Automatic story topic — {topic.why}")
+                if self.fill_story(day, slot, plan, story) and slot.get("status") == "scheduled":
+                    if not self.args.dry_run:
+                        mark_used(self.state.cursors, topic, day)
+                        self.state.save()
+                    return True
         topics_used = self.state.cursors.setdefault("topics_used", {})
         try:
             topic, candidates = self.studio.choose_topic(self.events, self.usage, topics_used, day)

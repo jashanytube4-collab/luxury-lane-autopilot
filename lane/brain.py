@@ -440,3 +440,111 @@ class Brain:
             raise BrainError("episode package incomplete")
         out["youtube_title"] = out["youtube_title"].replace("#", "")[:95]
         return out
+
+
+# ---- automatic story episodes (when the hand-written story bank is empty) -----------------------------------
+STORY_OUTLINE = """Plan a YouTube story episode for Fazza's fans, in the style of the most-watched royal story channels.
+Topic: {label}
+
+OFFICIAL SOURCES (the only facts you may use; may be in Arabic — translate faithfully):
+{sources}
+
+VERIFIED BACKGROUND FACTS:
+{facts}
+
+Return:
+- title: max 90 characters, a curiosity-driven question or reveal that the story truly answers, containing
+  "Fazza" or "Prince Hamdan". Proven styles: "What Prince Hamdan Did Next Made...", "Why Fazza...", "The Day Fazza...",
+  "The Truth About...". No rumours, no invented drama.
+- thumbnail_text: 2-4 huge words, uppercase, curiosity gap (e.g. "HE DID THIS", "NOBODY EXPECTED IT").
+- thumbnail_tag: 1-2 words for a red badge (e.g. "TRUE STORY", "NEW").
+- questions: 3 short burning questions the episode answers (used in the opening hook).
+- beats: exactly 7 story beats in order. Each: one sentence saying what that part tells, using specific facts from
+  the sources or background (who, where, when, what he did, why it matters, how people reacted). Build tension,
+  then an emotional payoff. Beat 4 should end with a question for the audience.
+- description: 3 sentences for YouTube, naturally using Prince Hamdan, Fazza, Sheikh Hamdan, Crown Prince of Dubai.
+- tags: 12 search tags.
+- keywords: 3-6 English words naming places, people or things in this story (for finding pictures)."""
+
+STORY_PART = """Write part {num} of 9 of a narrated YouTube story about Prince Hamdan (Fazza) for his fans.
+Episode title: "{title}"
+{role}
+
+OFFICIAL SOURCES (the only facts you may use; may be in Arabic — translate faithfully):
+{sources}
+
+VERIFIED BACKGROUND FACTS:
+{facts}
+
+Story so far (do not repeat it): {so_far}
+
+Write {words} words of spoken narration: warm, emotional, vivid, short sentences, like a storyteller talking to a
+friend. Concrete details only from the sources. Never invent numbers, dates, names, quotes or events. No headings,
+no lists, no stage directions, no emojis. Write every number and year in digits (for example 2019, 17)."""
+
+ROLES = {
+    "hook": ("This is the OPENING HOOK. Start with the most intriguing moment, then ask these questions: {questions}. "
+             "Say 'stay until the end' with a reason, ask viewers to like and subscribe, then 'Let's begin.'"),
+    "beat": "This part tells: {beat}",
+    "outro": ("This is the ENDING. Wrap up the story with an emotional reflection on what it shows about Fazza, ask "
+              "viewers one question to answer in the comments, then ask them to like the video and subscribe to The "
+              "Luxury Lane for more true stories about Prince Hamdan."),
+}
+
+STORY_OUTLINE_SCHEMA = {"type": "object", "properties": {
+    "title": {"type": "string"}, "thumbnail_text": {"type": "string"}, "thumbnail_tag": {"type": "string"},
+    "questions": {"type": "array", "items": {"type": "string"}, "minItems": 3, "maxItems": 3},
+    "beats": {"type": "array", "items": {"type": "string"}, "minItems": 7, "maxItems": 7},
+    "description": {"type": "string"}, "tags": {"type": "array", "items": {"type": "string"}, "maxItems": 15},
+    "keywords": {"type": "array", "items": {"type": "string"}, "maxItems": 6}},
+    "required": ["title", "thumbnail_text", "thumbnail_tag", "questions", "beats", "description", "tags", "keywords"]}
+STORY_PART_SCHEMA = {"type": "object", "properties": {"narration": {"type": "string"}}, "required": ["narration"]}
+
+_NUM_WORDS = re.compile(r"\b\d[\d,.]*\b")
+
+
+def _supported(sentence: str, source: str) -> bool:
+    """Every number in the sentence must appear in the sources (a cheap guard against invented facts)."""
+    return all(n.strip(".,").replace(",", "") in source.replace(",", "") for n in _NUM_WORDS.findall(sentence))
+
+
+def _guard(text: str, source: str) -> str:
+    sentences = re.split(r"(?<=[.!?])\s+", clean(text))
+    return " ".join(s for s in sentences if _supported(s, source))
+
+
+def write_story(brain: "Brain", label: str, sources: list[dict], facts: list[str]) -> dict:
+    """An automatic story episode: {"title", "thumbnail", "description", "tags", "keywords", "parts": [9 texts]}."""
+    src = "\n\n".join(f"[{s['date']}] {s['title']}\n{s['text'][:2500]}" for s in sources)[:9000]
+    fact_txt = "\n".join(f"- {f}" for f in facts)
+    plan = brain._json([{"type": "text", "text": STORY_OUTLINE.format(label=label, sources=src, facts=fact_txt)}],
+                       STORY_OUTLINE_SCHEMA, 1400, 0.7)
+    title = clean(plan.get("title")).replace("#", "")[:95]
+    beats = [clean(b) for b in plan.get("beats") or []][:7]
+    if not title or len(beats) < 7 or not re.search(r"fazza|hamdan", title, re.I):
+        raise BrainError("story outline incomplete")
+    truth = src + "\n" + fact_txt
+    roles = ([ROLES["hook"].format(questions=" ".join(clean(q) for q in plan.get("questions", [])))]
+             + [ROLES["beat"].format(beat=b) for b in beats] + [ROLES["outro"]])
+    parts, so_far = [], ""
+    for i, role in enumerate(roles):
+        words = 130 if i == 0 else 120 if i == len(roles) - 1 else 175
+        text = ""
+        for temp in (0.75, 0.5):
+            d = brain._json([{"type": "text", "text": STORY_PART.format(
+                num=i + 1, title=title, role=role, sources=src, facts=fact_txt, so_far=so_far[-1200:] or "(start)",
+                words=words)}], STORY_PART_SCHEMA, 700, temp)
+            text = _guard(d.get("narration", ""), truth)
+            if _words(text) >= words * 0.7:
+                break
+        if _words(text) < 60:
+            raise BrainError(f"story part {i + 1} came out too short")
+        parts.append(text)
+        so_far += " " + text
+    if sum(_words(p) for p in parts) < 1250:
+        raise BrainError("story too short for an 8-minute episode")
+    return {"title": title, "description": clean(plan.get("description")),
+            "thumbnail": {"text": clean(plan.get("thumbnail_text")).upper()[:40],
+                          "tag": " ".join(clean(plan.get("thumbnail_tag")).upper().split()[:2])[:16]},
+            "tags": [clean(t)[:60] for t in plan.get("tags") or [] if clean(t)][:15],
+            "keywords": [clean(k) for k in plan.get("keywords") or [] if clean(k)][:6], "parts": parts}

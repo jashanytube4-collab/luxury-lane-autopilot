@@ -7,6 +7,7 @@ from __future__ import annotations
 import asyncio
 import logging
 import re
+import time
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -47,7 +48,8 @@ async def _edge_stream(text: str, voice: str, rate: str, mp3: Path) -> list[dict
 def _edge(text: str, cfg: dict, out: Path, rate: str) -> Narration:
     mp3 = out.with_suffix(".mp3")
     last: Exception | None = None
-    for _ in range(3):
+    for wait in (0, 4, 12, 30):          # Microsoft sometimes refuses GitHub's machines for a few seconds (403)
+        time.sleep(wait)
         try:
             words = asyncio.run(_edge_stream(text, cfg["edge_voice"], rate, mp3))
             if words and mp3.stat().st_size > 5000:

@@ -148,6 +148,9 @@ class StoryMaker:
                     if pics:
                         vis.append(Visuals(None, [], [p.path for p in pics]))
                         out.credits += [p.credit for p in pics]
+                elif tok.startswith("key:"):
+                    if tok[4:] in self.events:
+                        vis += take_events([tok[4:]], 1, True) or take_events([tok[4:]], 1, False)
                 elif tok.startswith("him:"):
                     vis += take_events(self._events_matching(tok[4:]), 2, True)
                 elif tok.startswith("event:"):
@@ -171,6 +174,13 @@ def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int)
     vcfg["edge_rate"] = scfg.get("voice_rate", "+8%")
 
     voices = [synthesize(sec["say"].strip(), vcfg, work / f"v_{i:02d}.wav") for i, sec in enumerate(story.sections)]
+    if len({v.engine for v in voices}) > 1 or voices[0].engine != "edge":
+        # the online voice failed for part of the story: one narrator for the whole episode, never two
+        log.warning("storyteller voice unavailable for part of the story; narrating all of it with the backup voice")
+        kcfg = {**vcfg, "engine": "kokoro", "kokoro_voice": scfg.get("kokoro_voice", "af_heart"),
+                "kokoro_speed": scfg.get("kokoro_speed", 0.95)}
+        voices = [synthesize(sec["say"].strip(), kcfg, work / f"k_{i:02d}.wav")
+                  for i, sec in enumerate(story.sections)]
     material = Material()
     pools = [[it for v in vis for it in material.items(v)] for vis in got.visuals]
     for p in pools:
@@ -259,3 +269,46 @@ def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int)
 
 def _second_mood(mood: str) -> str:
     return {"elegant": "epic", "epic": "elegant", "arabian": "elegant", "modern": "epic"}.get(mood, "elegant")
+
+
+def auto_story(brain, studio, events: dict, usage: dict, cursors: dict, today, cfg: dict) -> tuple[Story, object] | None:
+    """A story written automatically about today's freshest topic (see lane/trends.py), or None."""
+    from . import trends
+    from .brain import write_story
+    topic = trends.pick(events, usage, cursors, today)
+    if topic is None:
+        return None
+    sources = []
+    for k in topic.events[:5]:
+        ev = events[k]
+        brief, text = studio.article_text(ev)
+        sources.append({"title": ev.get("title", ""), "date": ev.get("date", "")[:10], "text": text or brief})
+    if not any(s["text"] for s in sources):
+        trends.mark_used(cursors, topic, today)   # nothing to write from; try another topic next time
+        return None
+    facts = studio.facts(None, 8, random.Random(today.toordinal()))
+    d = write_story(brain, topic.label, sources, facts)
+    keys = [f"key:{k}" for k in topic.events]
+    words = "|".join(re.escape(w) for w in d["keywords"][:4] if len(w) > 3)
+    sections = []
+    for i, text in enumerate(d["parts"]):
+        show = [keys[i % len(keys)], "him"]
+        if words and i % 2 == 1:
+            show.append(f"him:{words}")
+        if d["keywords"] and i in (2, 5):
+            show.append(f"search:{d['keywords'][i % len(d['keywords'])]}")
+        sections.append({"say": text, "show": show})
+    story = Story(f"auto-{today.isoformat()}", d["title"], d["thumbnail"], _mood_for(topic.label),
+                  d["description"], d["tags"], sections, Path("auto"))
+    return story, topic
+
+
+def _mood_for(label: str) -> str:
+    low = label.lower()
+    if re.search(r"horse|endurance|heritage|camel|falcon|poem|poetry", low):
+        return "arabian"
+    if re.search(r"\bai\b|technolog|future|space|digital|\bapps?\b", low):
+        return "modern"
+    if re.search(r"hospital|condolen|hero|child|famil|thank|visit", low):
+        return "elegant"
+    return "epic"

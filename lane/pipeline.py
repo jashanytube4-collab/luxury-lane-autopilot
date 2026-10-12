@@ -11,6 +11,7 @@ import argparse
 import base64
 import logging
 import random
+import re
 import shutil
 import sys
 import time
@@ -23,6 +24,8 @@ from .hamdan import Hamdan, Library, SourceError, load_events, save_events
 from .report import RunReport, setup_logging
 from .schedule import day_slots, long_slot, target_days, top_up
 from .state import State
+from .story import StoryMaker, auto_story, next_story, produce_story
+from .trends import mark_used
 from .studio import Studio
 from .youtube import AuthError, QuotaError, YouTube, key_tag
 
@@ -35,6 +38,18 @@ SOURCE_CREDIT = "Footage and photos: official media of H.H. Sheikh Hamdan bin Mo
 def _fmt_ts(sec: float) -> str:
     sec = int(sec)
     return f"{sec // 3600}:{sec % 3600 // 60:02d}:{sec % 60:02d}" if sec >= 3600 else f"{sec // 60}:{sec % 60:02d}"
+
+
+_FILLER = {"the", "a", "an", "of", "and", "in", "at", "to", "his", "prince", "hamdan", "sheikh", "fazza", "s", "with"}
+
+
+def _similar(a: str, b: str) -> bool:
+    """Two titles say the same thing (e.g. 'Prince Hamdan Brings Warmth' vs 'THE HUMAN SIDE | Fazza Brings Warmth')."""
+    wa = set(re.findall(r"[a-z]+", a.lower())) - _FILLER
+    wb = set(re.findall(r"[a-z]+", b.lower())) - _FILLER
+    if not wa or not wb:
+        return a.strip().lower() == b.strip().lower()
+    return len(wa & wb) / min(len(wa), len(wb)) >= 0.6
 
 
 def _tags(base: list[str], extra: list[str], key: str) -> list[str]:
@@ -128,6 +143,25 @@ class Runner:
 
     # ---- long-form ------------------------------------------------------------------------------------
     def fill_long(self, day, slot: dict, plan: dict) -> bool:
+        story = next_story(self.state.cursors.get("stories_done", []))
+        if story is not None:
+            return self.fill_story(day, slot, plan, story)
+        if self.cfg.get("story", {}).get("auto", True):   # bank used up: a fresh topic found and written automatically
+            try:
+                found = auto_story(self.brain, self.studio, self.events, self.usage, self.state.cursors, day, self.cfg)
+            except AIUnavailable:
+                raise
+            except Exception as e:  # noqa: BLE001 — fall back to the fan-topic episode below
+                self.report.problem(f"Automatic story failed: {str(e)[:300]}")
+                found = None
+            if found is not None:
+                story, topic = found
+                self.report.note(f"Automatic story topic — {topic.why}")
+                if self.fill_story(day, slot, plan, story) and slot.get("status") == "scheduled":
+                    if not self.args.dry_run:
+                        mark_used(self.state.cursors, topic, day)
+                        self.state.save()
+                    return True
         topics_used = self.state.cursors.setdefault("topics_used", {})
         try:
             topic, candidates = self.studio.choose_topic(self.events, self.usage, topics_used, day)
@@ -173,17 +207,68 @@ class Runner:
         shutil.rmtree(ep.path.parent, ignore_errors=True)
         return True
 
+    def fill_story(self, day, slot: dict, plan: dict, story) -> bool:
+        """A story episode (assets/stories) in the style of the most-watched royal-family channels."""
+        seed = random.randint(1, 10**9)
+        work = WORK_DIR / f"story_{story.id}_{seed % 10000}"
+        try:
+            maker = StoryMaker(self.studio, self.events, self.usage, self.cfg)
+            got = maker.gather(story, random.Random(seed), work)
+            ep = produce_story(story, got, self.cfg, work, seed)
+        except Exception as e:  # noqa: BLE001 — the next run tries again
+            self.report.problem(f"Story episode '{story.id}' failed: {str(e)[:300]}")
+            self.state.save()
+            return True
+        at = datetime.fromisoformat(slot["at"])
+        credits = "\n".join(c for c in {credit_line(m) for m in ep.music} if c)
+        photo_credits = "\n".join(dict.fromkeys(got.credits))
+        desc = (f"{ep.description}\n\n{SOURCE_CREDIT}\n"
+                + (f"Additional photos (Wikimedia Commons):\n{photo_credits}\n" if photo_credits else "")
+                + f"Narration and edit: {self.cfg['channel']['name']}.\n{credits}\n\n"
+                + " ".join(self.cfg['youtube'].get('base_hashtags', [])))[:4900]
+        unit = f"story:{story.id}"
+        try:
+            vid = self._upload(ep.path, title=ep.title[:100], description=desc,
+                               tags=_tags(self.cfg["youtube"].get("base_tags", []), ep.tags, unit),
+                               publish_at=at, thumbnail=ep.thumbnail)
+        except QuotaError as e:
+            self.report.problem(f"YouTube upload quota reached ({e})")
+            return False
+        except Exception as e:  # noqa: BLE001
+            self.report.problem(f"Story upload failed: {e}")
+            return True
+        if not self.args.dry_run:
+            self.state.cursors.setdefault("stories_done", []).append(story.id)
+            for k in got.event_keys:
+                self.usage.setdefault(k, {})["long"] = day.isoformat()
+        slot.update(status="scheduled", video_id=vid, title=ep.title, minutes=round(ep.duration / 60, 1))
+        self.state.save_day(day.isoformat(), plan)
+        self.state.checkpoint(f"story {vid} for {slot['at']}")
+        self.made += 1
+        self.report.note(f"Story {at.strftime('%b %d %H:%M')} — {ep.title} ({ep.duration / 60:.1f} min)")
+        shutil.rmtree(work, ignore_errors=True)
+        return True
+
     # ---- Shorts -----------------------------------------------------------------------------------------
+    def _recent_titles(self) -> list[str]:
+        return self.state.cursors.get("recent_titles", [])[-300:]
+
     def fill_short(self, day, slot: dict, plan: dict) -> bool:
         at = datetime.fromisoformat(slot["at"])
+        moment = random.random() < float(self.cfg["short"].get("moment_share", 0.8))
         for key in self.studio.short_candidates(self.events, self.usage, day.isoformat()):
             if self.over_budget():
                 self.report.note("Run time budget reached; remaining slots are filled by the next run")
                 return False
             ev = self.events[key]
+            if moment and not ev.get("video"):
+                continue
             seed = random.randint(1, 10**9)
             try:
-                item = self.studio.make_short(key, ev, self.usage, self._recent_lines(), seed)
+                if moment:
+                    item = self.studio.make_moment(key, ev, self.usage, self._recent_titles(), seed)
+                else:
+                    item = self.studio.make_short(key, ev, self.usage, self._recent_lines(), seed)
             except AIUnavailable:
                 raise
             except Exception as e:  # noqa: BLE001 — one bad event never stops the day
@@ -196,9 +281,14 @@ class Runner:
             if item is None:
                 continue
             p = item["plan"]
+            if not moment and any(_similar(p["title"], t) for t in self._recent_titles()[-120:]):
+                self.report.note(f"Skipped a Short whose title repeats a recent one: {p['title']}")
+                shutil.rmtree(item["work"], ignore_errors=True)
+                continue
             hashtags = " ".join(self.cfg["youtube"].get("base_hashtags", []))
             credit = credit_line(item["music"])
-            desc = (f"{p['description']}\n\n{SOURCE_CREDIT}\nNarration and edit: {self.cfg['channel']['name']}.\n"
+            made_by = "Edit" if moment else "Narration and edit"
+            desc = (f"{p['description']}\n\n{SOURCE_CREDIT}\n{made_by}: {self.cfg['channel']['name']}.\n"
                     + (f"{credit}\n" if credit else "") + f"\n{hashtags}")
             try:
                 vid = self._upload(item["path"], title=p["title"], description=desc,
@@ -220,6 +310,9 @@ class Runner:
                 hooks = self.state.cursors.setdefault("recent_hooks", [])
                 hooks.append(f"{p.get('hook_text', '')} | {p['title']}")
                 del hooks[:-60]
+                titles = self.state.cursors.setdefault("recent_titles", [])
+                titles.append(p["title"])
+                del titles[:-300]
             slot.update(status="scheduled", video_id=vid, title=p["title"], event=key)
             self.state.save_day(day.isoformat(), plan)
             self.state.checkpoint(f"short {vid} for {slot['at']}")

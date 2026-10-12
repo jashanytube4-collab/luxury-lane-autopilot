@@ -1,0 +1,101 @@
+id: lottery-scam
+title: "\"You Won the Sheikh Hamdan Lottery\" — The Scam Fooling Millions (Watch Before You Pay)"
+thumbnail: {text: "DON'T PAY THEM", tag: "SCAM ALERT"}
+mood: modern
+description: >-
+  A WhatsApp message says you have won millions from the "Sheikh Hamdan Foundation". There is a certificate, a photo
+  of the Crown Prince of Dubai and a small fee to release your prize. It is a scam. How the fake Sheikh Hamdan
+  lottery and giveaway works, why so many people fall for it, the two different Sheikh Hamdans the scammers mix up,
+  and how to protect your family. Please share this with someone who needs it.
+tags: [Sheikh Hamdan lottery, Sheikh Hamdan foundation lottery, Sheikh Hamdan giveaway, Dubai lottery scam,
+       Sheikh Hamdan scam, fake Sheikh Hamdan, Fazza lottery, Dubai royal foundation lottery, WhatsApp lottery scam,
+       Sheikh Hamdan lottery check online, Dubai prize scam, Fazza scam]
+sections:
+  - say: >-
+      Ding. A message arrives on your phone. Congratulations. You have been selected as a winner of the Sheikh Hamdan
+      Foundation lottery. Your prize: thousands of dollars, sometimes millions. There is an official looking
+      certificate, a gold logo and a photo of Prince Hamdan, the Crown Prince of Dubai, smiling. All you need to do is
+      pay a small fee to release your money. Thousands of people, from India to Pakistan, from Africa to Europe, have
+      received messages like this. Many have paid. Not one of them has ever received a prize. Today we will show you
+      exactly how this scam works, why it uses Fazza's name, and how to protect yourself and your family. Please stay
+      until the end, because the last tip could save someone you love a lot of money. And if you find this useful,
+      like the video and subscribe. Let's begin.
+    show: [him, "search:smartphone message", "cat:Hamdan bin Mohammed Al Maktoum"]
+  - say: >-
+      Let us start with the most important fact. There is no Sheikh Hamdan lottery. Prince Hamdan does not run a
+      lottery, a lucky draw or a giveaway that you can win by receiving a message. The Dubai government does not pick
+      random phone numbers and send them prize money. Fact checkers and UAE authorities have warned again and again
+      about fake prizes using the names and photos of the royal family. The UAE's telecommunications regulator once
+      even warned the public about a WhatsApp link pretending to be from the website of Sheikh Mohammed, the ruler of
+      Dubai, offering prizes to anyone who clicked. It was a trap. So if a message tells you that you have won
+      money from Sheikh Hamdan, you already know the answer. You have not won anything. Someone is trying to take your
+      money.
+    show: [him, "search:WhatsApp", "cat:Mohammed bin Rashid Al Maktoum"]
+  - say: >-
+      Why does the scam work so well? Because it uses a real name, and in fact, two real names. Prince Hamdan bin
+      Mohammed is the Crown Prince of Dubai, famous around the world and loved by millions of fans. But there was
+      also another Sheikh Hamdan, his uncle, Sheikh Hamdan bin Rashid Al Maktoum, who served for decades as the UAE's
+      Minister of Finance and who passed away in March two thousand and twenty-one. A real foundation carries his
+      name and supports medicine and education. It gives awards for research and for excellent students. It does not
+      run a lottery for strangers on WhatsApp. The scammers mix the two men, borrow the foundation's name, add the
+      Crown Prince's photo, and create something that looks real to anyone who searches quickly. That is why people
+      type Sheikh Hamdan lottery check online, and that is exactly where the scammers are waiting for them.
+    show: ["cat:Sheikh Hamdan bin Rashid Al Maktoum", him, "search:Dubai government building"]
+  - say: >-
+      Here is how it usually works, step by step. First, the message. It comes on WhatsApp, Facebook, Instagram or by
+      email, often from a foreign number or a free email address. Second, the proof. They send a winning certificate,
+      a bank document or a photo of a cheque, sometimes with the Crown Prince's picture and fake stamps. Third, the
+      pressure. You must reply quickly, or the prize goes to someone else. Fourth, the fee. Before you receive your
+      money, you must pay for processing, tax, customs, a bank transfer charge or a delivery company. It always
+      starts small. Then a new problem appears, and another fee, and another. Some victims pay again and again for
+      months. Fifth, your data. Many of these messages also ask for a copy of your passport, your bank details or a
+      one-time code. With those, scammers can do even more damage. Has anyone ever sent you a message like this? Tell
+      us in the comments, it may help others recognise it.
+    show: ["search:smartphone scam", "search:bank card", "search:laptop email", him]
+  - say: >-
+      The scam has many cousins. Fake accounts pretending to be Prince Hamdan himself, sending private messages to fans
+      and promising gifts, jobs or even marriage. Fake profiles with his photos, a few letters different from the real
+      name, and only a few hundred followers. Fake job offers in Dubai that ask for a visa fee. Fake investment schemes
+      that claim the royal family is backing them. All of them share the same ingredients: a famous name, a dream, and
+      a request for money. And here is something every fan should know. The real Prince Hamdan will never send you a
+      private message asking for money. A crown prince does not need your processing fee. A real prize never asks you
+      to pay to receive it. Remember those three sentences, and you are already safer than most people online.
+    show: [him, "search:fake profile social media", "cat:Hamdan bin Mohammed Al Maktoum"]
+  - say: >-
+      So how can you check? Prince Hamdan's real Instagram account is called faz3, and it is verified, with more than
+      seventeen million followers. His official website is hamdan dot a e. Real news about him appears on the Dubai
+      Media Office and on major newspapers in the UAE. If something is not there, be very suspicious. If you have
+      already been contacted, do not pay anything, do not send documents and do not share codes. Block the number and
+      report the account. If you have already paid, report it straight away. In the UAE, Dubai Police have an online
+      platform for reporting cybercrime. In India, you can call the national cybercrime helpline, one nine three zero,
+      or report at cybercrime dot gov dot i n. In other countries, contact your local police or cybercrime unit.
+      Reporting quickly gives the best chance of stopping the money.
+    show: [him, "search:Dubai Police", "search:police station"]
+  - say: >-
+      Why do these scammers love Fazza's name so much? Because he represents a dream. Dubai, success, generosity, a
+      prince who helps people. And Prince Hamdan really does help people. He has thanked a delivery rider who cleared
+      a road, he has invited a little boy from Kenya to visit Dubai, and he has visited a wounded pilot in hospital.
+      Scammers take that real kindness and turn it into a lie. They know that people who admire him will want to
+      believe the message. That is what makes this scam so cruel. It does not only steal money. It steals hope, and it
+      uses the image of a man who has nothing to do with it. The best way to fight it is simple. Talk about it. Share
+      the truth with your parents, your grandparents and your friends, especially those who are new to smartphones.
+    show: [him, "him:people|citizens|children", "cat:Hamdan bin Mohammed Al Maktoum"]
+  - say: >-
+      Real prize draws do exist in the UAE, and that is part of why the scam is confusing.
+      Dubai Duty Free has run its famous Millennium Millionaire draw since nineteen ninety-nine, and many people around
+      the world, including many Indians, have won large prizes. But look at the difference. In a real draw, you first
+      buy a ticket yourself, from the official website or at the airport. Winners are announced publicly and contacted
+      by the organisers through official channels. Nobody asks you to pay a fee to receive your prize. In the scam, you
+      never bought anything. A stranger contacts you out of nowhere, tells you that you have won, and then asks for
+      money. That is the clearest sign of all. Imagine you get this message: Dear winner, your number was selected in
+      the Sheikh Hamdan Foundation international lucky draw, please send a registration fee to receive your cheque.
+      Now you know. There was no draw, your number was never selected, and the only cheque in this story is the one
+      they want from you. If a prize asks for payment, it is not a prize. It is a trap.
+    show: ["search:Dubai International Airport", "search:lottery ticket", him]
+  - say: >-
+      So, the next time a message tells you that you have won the Sheikh Hamdan lottery, smile, delete it and warn
+      someone else. There is no lottery, there is no prize, and there is no fee that will ever bring you money. Please
+      share this video with one person who might need it. It could be the most useful thing you do today. Have you or
+      someone you know received one of these messages? Tell us what happened in the comments. And for true stories
+      about the real Prince Hamdan, like this video and subscribe to The Luxury Lane. Stay safe, and see you next time.
+    show: [him, "him:poetry|Dubai"]

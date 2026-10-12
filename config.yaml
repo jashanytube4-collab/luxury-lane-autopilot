@@ -30,6 +30,14 @@ short:
   min_seconds: 15
   max_seconds: 22
   fps: 30
+  moment_share: 0.8                  # share of Shorts that are 7-13 s music-only "moments" of him (what the
+                                     # most-viewed Fazza Shorts are); the rest are narrated 15-22 s stories
+
+story:                               # long-form story episodes (assets/stories), told like the top royal channels
+  voice: en-US-AvaMultilingualNeural # warm female storyteller voice
+  voice_rate: "-5%"                  # ~161 words a minute (top royal channels: 140-168)
+  kokoro_voice: af_heart             # backup female voice if the online voice is unavailable
+  kokoro_speed: 0.95
 
 voice:
   engine: edge                       # edge (Microsoft neural, free) — falls back to kokoro automatically

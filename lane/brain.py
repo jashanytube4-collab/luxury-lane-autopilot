@@ -443,104 +443,156 @@ class Brain:
 
 
 # ---- automatic story episodes (when the hand-written story bank is empty) -----------------------------------
+STORY_FACTS = """Read these official sources about Prince Hamdan (Fazza) and list the facts a storyteller could use.
+Topic: {label}
+
+OFFICIAL SOURCES (may be in Arabic — translate faithfully):
+{sources}
+
+Return "facts": 14-22 short, separate, concrete facts (one idea each): who, what, where, when, what he said or did,
+how people reacted. Copy names of people and places exactly as the sources spell them. Prefer human details
+(what he did, said, saw, who he met) over policy. No opinions, nothing that is not in the sources."""
+
 STORY_OUTLINE = """Plan a YouTube story episode for Fazza's fans, in the style of the most-watched royal story channels.
 Topic: {label}
 
-OFFICIAL SOURCES (the only facts you may use; may be in Arabic — translate faithfully):
-{sources}
-
-VERIFIED BACKGROUND FACTS:
+NUMBERED FACTS (the only facts you may use):
 {facts}
 
 Return:
-- title: max 90 characters, a curiosity-driven question or reveal that the story truly answers, containing
-  "Fazza" or "Prince Hamdan". Proven styles: "What Prince Hamdan Did Next Made...", "Why Fazza...", "The Day Fazza...",
-  "The Truth About...". No rumours, no invented drama.
-- thumbnail_text: 2-4 huge words, uppercase, curiosity gap (e.g. "HE DID THIS", "NOBODY EXPECTED IT").
-- thumbnail_tag: 1-2 words for a red badge (e.g. "TRUE STORY", "NEW").
-- questions: 3 short burning questions the episode answers (used in the opening hook).
-- beats: exactly 7 story beats in order. Each: one sentence saying what that part tells, using specific facts from
-  the sources or background (who, where, when, what he did, why it matters, how people reacted). Build tension,
-  then an emotional payoff. Beat 4 should end with a question for the audience.
+- title: max 90 characters, a curiosity-driven question or reveal the story truly answers, containing "Fazza" or
+  "Prince Hamdan" (styles that work: "What Prince Hamdan Did Next...", "Why Fazza...", "The Day Fazza...").
+- thumbnail_text: 2-4 huge words, uppercase, curiosity gap. thumbnail_tag: 1-2 words for a red badge.
+- questions: 3 short burning questions the episode answers (for the opening hook).
+- beats: exactly 7 parts in story order. Each: "beat" = one sentence on what that part tells, and "facts" = the
+  numbers of 2-3 facts it uses. EVERY fact is used by exactly one beat, so no part repeats another.
 - description: 3 sentences for YouTube, naturally using Prince Hamdan, Fazza, Sheikh Hamdan, Crown Prince of Dubai.
-- tags: 12 search tags.
-- keywords: 3-6 English words naming places, people or things in this story (for finding pictures)."""
+- tags: 12 search tags. keywords: 3-5 English words naming places, people or things in this story."""
 
 STORY_PART = """Write part {num} of 9 of a narrated YouTube story about Prince Hamdan (Fazza) for his fans.
 Episode title: "{title}"
 {role}
 
-OFFICIAL SOURCES (the only facts you may use; may be in Arabic — translate faithfully):
-{sources}
-
-VERIFIED BACKGROUND FACTS:
+FACTS FOR THIS PART (use only these; copy names exactly):
 {facts}
 
-Story so far (do not repeat it): {so_far}
+GENERAL BACKGROUND YOU MAY MENTION BRIEFLY:
+{background}
 
-Write {words} words of spoken narration: warm, emotional, vivid, short sentences, like a storyteller talking to a
-friend. Concrete details only from the sources. Never invent numbers, dates, names, quotes or events. No headings,
-no lists, no stage directions, no emojis. Write every number and year in digits (for example 2019, 17)."""
+The previous part ended with: "{last}"
+
+Write about {words} words of spoken narration: warm, emotional, vivid, short sentences, like a storyteller talking
+to a friend. Do not repeat anything from earlier parts. Never mention "sources", "articles" or "reports". Never invent
+names, numbers, dates or quotes. Write numbers and years in digits. No headings, lists, stage directions or emojis."""
 
 ROLES = {
     "hook": ("This is the OPENING HOOK. Start with the most intriguing moment, then ask these questions: {questions}. "
-             "Say 'stay until the end' with a reason, ask viewers to like and subscribe, then 'Let's begin.'"),
+             "Say viewers should stay until the end to find out."),
     "beat": "This part tells: {beat}",
-    "outro": ("This is the ENDING. Wrap up the story with an emotional reflection on what it shows about Fazza, ask "
-              "viewers one question to answer in the comments, then ask them to like the video and subscribe to The "
-              "Luxury Lane for more true stories about Prince Hamdan."),
+    "outro": ("This is the ENDING. Reflect, with emotion, on what this story shows about who Fazza is as a person. "
+              "Do not list the facts again."),
 }
+HOOK_END = " If you love true stories about Prince Hamdan, like this video and subscribe. Let's begin."
+OUTRO_END = (" What do you think about this side of Fazza? Write it in the comments, we read every one. And if you "
+             "enjoyed this story, like the video and subscribe to The Luxury Lane for more true stories about "
+             "Prince Hamdan. See you next time.")
 
+STORY_FACTS_SCHEMA = {"type": "object", "properties": {
+    "facts": {"type": "array", "items": {"type": "string"}, "minItems": 8, "maxItems": 24}}, "required": ["facts"]}
 STORY_OUTLINE_SCHEMA = {"type": "object", "properties": {
     "title": {"type": "string"}, "thumbnail_text": {"type": "string"}, "thumbnail_tag": {"type": "string"},
     "questions": {"type": "array", "items": {"type": "string"}, "minItems": 3, "maxItems": 3},
-    "beats": {"type": "array", "items": {"type": "string"}, "minItems": 7, "maxItems": 7},
+    "beats": {"type": "array", "minItems": 7, "maxItems": 7, "items": {"type": "object", "properties": {
+        "beat": {"type": "string"}, "facts": {"type": "array", "items": {"type": "integer"}, "maxItems": 4}},
+        "required": ["beat", "facts"]}},
     "description": {"type": "string"}, "tags": {"type": "array", "items": {"type": "string"}, "maxItems": 15},
     "keywords": {"type": "array", "items": {"type": "string"}, "maxItems": 6}},
     "required": ["title", "thumbnail_text", "thumbnail_tag", "questions", "beats", "description", "tags", "keywords"]}
 STORY_PART_SCHEMA = {"type": "object", "properties": {"narration": {"type": "string"}}, "required": ["narration"]}
 
-_NUM_WORDS = re.compile(r"\b\d[\d,.]*\b")
+_NUMBER = re.compile(r"\b\d[\d,.]*\b")
+_NAME = re.compile(r"(?<![.!?]\s)(?<!^)\b[A-Z][a-z]{2,}\b")
+_META = re.compile(r"\b(source|sources|article|articles|report says|according to the official)\b", re.I)
+_COMMON = set("""The This That These Those His Her Its Our Their He She It We They You What Why How When Where Who
+Fazza Prince Hamdan Sheikh Highness Crown Dubai Emirates Emirati Arab United UAE Mohammed Rashid Maktoum Al Bin
+Today Then But And Yet Now Here There Every Each One Two Three Even Still Just Only Remember Imagine Look Stay
+Minister Deputy Defence President King Queen Sheikha God Allah Ramadan Eid Friday Saturday Sunday Monday Tuesday
+Wednesday Thursday January February March April May June July August September October November December Instagram
+Burj Khalifa Expo Luxury Lane Islam Muslim Gulf Middle East""".split())
 
 
-def _supported(sentence: str, source: str) -> bool:
-    """Every number in the sentence must appear in the sources (a cheap guard against invented facts)."""
-    return all(n.strip(".,").replace(",", "") in source.replace(",", "") for n in _NUM_WORDS.findall(sentence))
+def _sentences(text: str) -> list[str]:
+    return [s for s in re.split(r"(?<=[.!?])\s+", clean(text)) if s]
 
 
-def _guard(text: str, source: str) -> str:
-    sentences = re.split(r"(?<=[.!?])\s+", clean(text))
-    return " ".join(s for s in sentences if _supported(s, source))
+def _novel(sentence: str, earlier: list[set]) -> bool:
+    w = set(re.findall(r"[a-z]{4,}", sentence.lower()))
+    return not w or all(len(w & e) / len(w) < 0.6 for e in earlier)
 
 
-def write_story(brain: "Brain", label: str, sources: list[dict], facts: list[str]) -> dict:
+def _guard(text: str, truth: str, earlier: list[set]) -> str:
+    """Keep only sentences whose numbers and names appear in the sources, that do not talk about 'sources', and that
+    do not repeat an earlier sentence (a cheap but effective guard against a small model's habits)."""
+    low_truth = truth.lower().replace(",", "")
+    keep = []
+    for s in _sentences(text):
+        if _META.search(s):
+            continue
+        if any(n.strip(".,").replace(",", "") not in low_truth for n in _NUMBER.findall(s)):
+            continue
+        if any(n not in _COMMON and n.lower() not in low_truth for n in _NAME.findall(s)):
+            continue
+        if not _novel(s, earlier):
+            continue
+        keep.append(s)
+        earlier.append(set(re.findall(r"[a-z]{4,}", s.lower())))
+    return " ".join(keep)
+
+
+def write_story(brain: "Brain", label: str, sources: list[dict], background: list[str]) -> dict:
     """An automatic story episode: {"title", "thumbnail", "description", "tags", "keywords", "parts": [9 texts]}."""
     src = "\n\n".join(f"[{s['date']}] {s['title']}\n{s['text'][:2500]}" for s in sources)[:9000]
-    fact_txt = "\n".join(f"- {f}" for f in facts)
-    plan = brain._json([{"type": "text", "text": STORY_OUTLINE.format(label=label, sources=src, facts=fact_txt)}],
+    facts = [clean(f) for f in brain._json([{"type": "text", "text": STORY_FACTS.format(label=label, sources=src)}],
+                                           STORY_FACTS_SCHEMA, 1400, 0.3).get("facts", []) if clean(f)]
+    if len(facts) < 8:
+        raise BrainError("too few facts for a story")
+    numbered = "\n".join(f"{i + 1}. {f}" for i, f in enumerate(facts))
+    plan = brain._json([{"type": "text", "text": STORY_OUTLINE.format(label=label, facts=numbered)}],
                        STORY_OUTLINE_SCHEMA, 1400, 0.7)
     title = clean(plan.get("title")).replace("#", "")[:95]
-    beats = [clean(b) for b in plan.get("beats") or []][:7]
+    beats = (plan.get("beats") or [])[:7]
     if not title or len(beats) < 7 or not re.search(r"fazza|hamdan", title, re.I):
         raise BrainError("story outline incomplete")
-    truth = src + "\n" + fact_txt
-    roles = ([ROLES["hook"].format(questions=" ".join(clean(q) for q in plan.get("questions", [])))]
-             + [ROLES["beat"].format(beat=b) for b in beats] + [ROLES["outro"]])
-    parts, so_far = [], ""
-    for i, role in enumerate(roles):
-        words = 130 if i == 0 else 120 if i == len(roles) - 1 else 175
+    truth = src + "\n" + "\n".join(facts) + "\n" + "\n".join(background)
+    bg = "\n".join(f"- {b}" for b in background[:6])
+    roles = [(ROLES["hook"].format(questions=" ".join(clean(q) for q in plan.get("questions", []))), facts[:3])]
+    for b in beats:
+        picked = [facts[i - 1] for i in b.get("facts", []) if 1 <= i <= len(facts)] or facts[:2]
+        roles.append((ROLES["beat"].format(beat=clean(b.get("beat"))), picked))
+    roles.append((ROLES["outro"], facts[-2:]))
+    parts, earlier = [], []
+    for i, (role, part_facts) in enumerate(roles):
+        words = 120 if i in (0, len(roles) - 1) else 175
         text = ""
-        for temp in (0.75, 0.5):
+        for temp in (0.75, 0.55):
             d = brain._json([{"type": "text", "text": STORY_PART.format(
-                num=i + 1, title=title, role=role, sources=src, facts=fact_txt, so_far=so_far[-1200:] or "(start)",
-                words=words)}], STORY_PART_SCHEMA, 700, temp)
-            text = _guard(d.get("narration", ""), truth)
-            if _words(text) >= words * 0.7:
+                num=i + 1, title=title, role=role, facts="\n".join(f"- {f}" for f in part_facts), background=bg,
+                last=(parts[-1].split(". ")[-1] if parts else "(this is the start)")[:300], words=words)}],
+                STORY_PART_SCHEMA, 700, temp)
+            trial = list(earlier)
+            text = _guard(d.get("narration", ""), truth, trial)
+            if _words(text) >= words * 0.65:
+                earlier = trial
                 break
-        if _words(text) < 60:
+        else:
+            earlier = trial
+        if _words(text) < 50:
             raise BrainError(f"story part {i + 1} came out too short")
+        if i == 0:
+            text += HOOK_END
+        if i == len(roles) - 1:
+            text += OUTRO_END
         parts.append(text)
-        so_far += " " + text
     if sum(_words(p) for p in parts) < 1250:
         raise BrainError("story too short for an 8-minute episode")
     return {"title": title, "description": clean(plan.get("description")),

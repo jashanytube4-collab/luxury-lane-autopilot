@@ -167,6 +167,7 @@ def test_full_day(tmp_path, monkeypatch, media):
     monkeypatch.setattr(pl, "save_events", lambda ev: None)
     monkeypatch.setattr(pl, "Brain", FakeBrain)
     monkeypatch.setattr(pl, "Hamdan", FakeHamdan)
+    monkeypatch.setattr(pl, "next_story", lambda done: None)   # stories need the internet; test the automatic episode path
     import lane.studio as st
     monkeypatch.setattr(st, "FaceID", FakeFace)
 
@@ -174,6 +175,7 @@ def test_full_day(tmp_path, monkeypatch, media):
     cfg = runner.cfg
     cfg["schedule"].update(shorts_per_day=2, days_ahead=1, one_per_hour=True, gap_minutes=[45, 70])
     cfg["longform"].update(chapters=4, target_minutes=2.5, min_minutes=1.0, max_minutes=8)
+    cfg["short"]["moment_share"] = 0.0      # narrated Shorts here; moments are covered by test_moment_short
     runner.yt = FakeYT()
     tomorrow = (datetime.now(timezone.utc) + timedelta(days=1)).date()
     assert runner.fill_day(tomorrow) is True
@@ -196,3 +198,26 @@ def test_full_day(tmp_path, monkeypatch, media):
     runner2.yt = FakeYT()
     runner2.fill_day(tomorrow)
     assert not runner2.yt.uploads
+
+
+@pytest.mark.slow
+def test_moment_short(tmp_path, monkeypatch, media):
+    """A music-only 'moment' Short: 6-13 s of footage of him, vertical, never reusing its footage, unique title."""
+    import lane.studio as st
+    from lane.config import load_config
+    from lane.media import probe
+    monkeypatch.setattr(st, "FaceID", FakeFace)
+    FakeHamdan.media = media
+    studio = st.Studio(load_config(), FakeBrain(), FakeHamdan(), tmp_path)
+    ev = {"title": "Hamdan bin Mohammed with Mohammed bin Rashid", "video": {"kind": "mp4", "ref": "v0"}}
+    usage, titles = {}, []
+    for seed in (1, 2):
+        item = studio.make_moment("event 0", ev, usage, titles, seed)
+        assert item is not None
+        info = probe(item["path"])
+        assert (info["width"], info["height"]) == (1080, 1920) and 5.5 <= info["duration"] <= 13.5
+        assert item["plan"]["title"] not in titles
+        titles.append(item["plan"]["title"])
+        for a, b in item["ranges"]:
+            assert not any(a < y and x < b for x, y in usage.get("event 0", {}).get("shot_ranges", []))
+        usage.setdefault("event 0", {}).setdefault("shot_ranges", []).extend(item["ranges"])

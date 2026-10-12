@@ -35,7 +35,7 @@ short:
 
 story:                               # long-form story episodes (assets/stories), told like the top royal channels
   voice: en-US-AvaMultilingualNeural # warm female storyteller voice
-  voice_rate: "-2%"                  # ~166 words a minute
+  voice_rate: "-5%"                  # ~161 words a minute (top royal channels: 140-168)
 
 voice:
   engine: edge                       # edge (Microsoft neural, free) — falls back to kokoro automatically

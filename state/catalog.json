@@ -1573,6 +1573,10 @@
    ]
   ]
  },
+ "hamdan bin mohammed challenges the city to join dubai fitness challenge 2018": {
+  "no_hamdan": true,
+  "video_exhausted": true
+ },
  "hamdan bin mohammed concludes first official visit to india commends strong bilateral partnership": {
   "last_short": "2026-10-07",
   "shorts_made": 1,
@@ -4222,6 +4226,24 @@
   "fails": 1,
   "long": "2026-10-09",
   "video_exhausted": true
+ },
+ "hamdan bin mohammed visits exhibition that tells story of uae s participation in world expos": {
+  "last_short": "2026-10-13",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    35.3,
+    37.07000000000001
+   ],
+   [
+    61.699999999999996,
+    66.1
+   ],
+   [
+    106.82,
+    110.11
+   ]
+  ]
  },
  "hamdan bin mohammed visits field hospital in dwtc": {
   "video_exhausted": true

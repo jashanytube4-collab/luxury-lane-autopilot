@@ -416,6 +416,10 @@ class Runner:
         for slot in order:
             if slot["status"] != "open":
                 continue
+            if slot["type"] == "post" and not sc.get("posts_per_day"):   # picture Shorts switched off
+                slot["status"] = "skipped"
+                self.state.save_day(date_s, plan)
+                continue
             if datetime.fromisoformat(slot["at"]) < datetime.now(timezone.utc) + lead:
                 slot["status"] = "missed"
                 self.state.save_day(date_s, plan)

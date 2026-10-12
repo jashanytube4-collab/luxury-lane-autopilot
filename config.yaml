@@ -20,7 +20,7 @@ schedule:
   long_between: ["18:00", "20:00"]         # the daily long-form episode goes out in this evening window
   days_ahead: 2                            # keep today + tomorrow scheduled, so a missed run never leaves a gap
   min_lead_minutes: 25                     # never schedule anything sooner than this from "now"
-  posts_per_day: [10, 15]                  # picture posts (photo + quote Shorts), random count each day
+  posts_per_day: 0                         # picture Shorts off: picture posts go to the Posts tab from the yearly pack
   posts_between: ["07:00", "23:30"]
 
 longform:

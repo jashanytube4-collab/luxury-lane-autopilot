@@ -21,6 +21,7 @@ from .audio import credit_line
 from .brain import AIUnavailable, Brain
 from .config import WORK_DIR, load_config, load_secrets
 from .hamdan import Hamdan, Library, SourceError, load_events, save_events
+from .instagram import Instagram, sync as sync_instagram
 from .report import RunReport, setup_logging
 from .schedule import day_slots, long_slot, target_days, top_up
 from .state import State
@@ -107,6 +108,15 @@ class Runner:
             self.report.note(f"hamdan.ae: {added} new official events ({len(self.events)} in the library)")
         except SourceError as e:
             self.report.problem(f"Could not reach hamdan.ae ({e}); using the saved library")
+        accounts = self.cfg.get("source", {}).get("instagram") or []
+        if accounts and self.secrets.ig_token and self.secrets.ig_user_id and self.hamdan.library:
+            try:
+                ig = Instagram(self.secrets.ig_token, self.secrets.ig_user_id)
+                added = sync_instagram(self.events, ig, self.hamdan.library, accounts, WORK_DIR / "ig")
+                save_events(self.events)
+                self.report.note(f"Instagram: {added} new videos from {', '.join('@' + a for a in accounts)}")
+            except Exception as e:  # noqa: BLE001 — Instagram is a bonus source, never a reason to stop
+                self.report.problem(f"Instagram sync failed: {str(e)[:200]}")
 
     def reconcile(self) -> None:
         """Anything already on the channel counts as used, even if a crashed run never saved it."""

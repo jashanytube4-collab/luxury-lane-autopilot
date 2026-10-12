@@ -29,7 +29,7 @@ from .hamdan import Hamdan, SourceError
 from .longform import EpisodeResult, Visuals, _scene_list, produce_episode
 from .media import FFMPEG, probe, run, scene_cuts
 from .short import produce, produce_moment
-from .moments import moment_description, moment_runs as _moment_runs, moment_tags, moment_title
+from .moments import moment_caption, moment_description, moment_runs as _moment_runs, moment_tags, moment_title
 
 log = logging.getLogger("lane.studio")
 
@@ -230,10 +230,11 @@ class Studio:
             return None
         work = self.work / f"moment_{_slug(key)}_{seed % 10000}"
         out = work / "short.mp4"
-        res = produce_moment(video, shots, self.cfg, work, out, seed, duration)
+        caption = moment_caption(ev.get("title", ""), rng)
+        res = produce_moment(video, shots, self.cfg, work, out, seed, duration, caption)
         title = moment_title(ev.get("title", ""), recent_titles, rng)
         plan = {"title": title, "description": moment_description(ev, rng), "tags": moment_tags(ev),
-                "hook_text": "", "shots": shots}
+                "hook_text": caption, "shots": shots}
         ranges = [[s["start"], min(s["end"], s["start"] + duration)] for s in shots]
         unit = f"{key}|m{len(u.get('shot_ranges', []))}"
         return {"path": res.path, "plan": plan, "unit": unit, "ranges": ranges, "music": res.music, "work": work,

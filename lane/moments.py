@@ -80,9 +80,24 @@ def moment_description(ev: dict, rng: random.Random) -> str:
         "Sheikh Hamdan bin Mohammed — Fazza — in a real moment from an official event.",
     ]
     when = f" ({ev['date'][:10]})" if ev.get("date") else ""
-    return f"{rng.choice(lines)}\nFrom: {ev.get('title', '')[:120]}{when}\n\nSubscribe for a new Fazza moment every hour."
+    origin = (f"Original video: Fazza (@faz3) on Instagram {ev.get('permalink', '')}".strip()
+              if ev.get("source") == "instagram" else f"From: {ev.get('title', '')[:120]}{when}")
+    return f"{rng.choice(lines)}\n{origin}\n\nSubscribe for a new Fazza moment every hour."
 
 
 def moment_tags(ev: dict) -> list[str]:
     return ["Fazza", "Sheikh Hamdan", "Prince Hamdan", "faz3", "Fazza shorts", "Sheikh Hamdan status",
             "Dubai crown prince", "Fazza edit", "Hamdan bin Mohammed", "Dubai prince"]
+
+
+GENERAL_CAPTIONS = [   # one story line on screen: makes the clip our own edit. Always true of a clip of him,
+    "CALM. HUMBLE. FAZZA.", "THIS IS WHY MILLIONS LOVE HIM", "THE CROWN PRINCE, UP CLOSE",   # whoever else is in it
+    "REAL MOMENTS. REAL FAZZA.", "PURE CLASS", "THE MOST LOVED PRINCE", "WATCH HOW HE CARRIES HIMSELF",
+    "THE FUTURE RULER OF DUBAI", "NO ONE CARRIES IT LIKE HIM", "QUIET POWER", "THE PRINCE OF DUBAI",
+    "SIMPLE. STRONG. FAZZA.", "LEADING WITHOUT SAYING A WORD", "CROWN PRINCE ENERGY", "ALWAYS RESPECTFUL",
+    "THE MAN BEHIND THE TITLE", "FAZZA, AS HIS FANS SEE HIM", "THE PRESENCE OF A LEADER", "STILL SO HUMBLE",
+    "DUBAI'S FAVOURITE PRINCE"]
+
+
+def moment_caption(event_title: str, rng: random.Random) -> str:
+    return rng.choice(GENERAL_CAPTIONS)

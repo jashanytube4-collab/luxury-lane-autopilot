@@ -74,6 +74,8 @@ jobs:
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
           YT_DOWNLOAD_COOKIES: ${{ secrets.YT_DOWNLOAD_COOKIES }}
           LIBRARY_TOKEN: ${{ secrets.LIBRARY_TOKEN }}
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           LANE_GIT_PUSH: ${{ inputs.dry_run && '0' || '1' }}

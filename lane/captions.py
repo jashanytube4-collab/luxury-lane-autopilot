@@ -96,7 +96,7 @@ def _wrap_hook(text: str, max_line: int = 14) -> str:
 
 
 def build_ass(path: Path, *, words: list[dict], script: str, emphasis: list[str], hook: str,
-              watermark: str, duration: float, caption_y: int, hook_y: int) -> None:
+              watermark: str, duration: float, caption_y: int, hook_y: int, hook_seconds: float = 2.4) -> None:
     emph = {_norm(e) for e in emphasis}
     ev: list[str] = []
 
@@ -109,7 +109,7 @@ def build_ass(path: Path, *, words: list[dict], script: str, emphasis: list[str]
 
     hook_end = 0.0
     if hook:
-        hook_end = min(2.4, duration)
+        hook_end = min(hook_seconds, duration)
         hook_txt = _wrap_hook(_esc(hook))
         n_lines = hook_txt.count(r"\N") + 1
         # soft dark halo underneath, so gold stays readable over bright skies and white walls

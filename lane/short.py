@@ -98,7 +98,7 @@ def produce(video: Path | None, plan: dict, cfg: dict, work: Path, out: Path, se
 
 
 def produce_moment(video: Path, shots: list[dict], cfg: dict, work: Path, out: Path, seed: int,
-                   duration: float) -> Result:
+                   duration: float, caption: str = "") -> Result:
     """A music-only 'moment' Short: real footage of him, vertical, no narration, no captions (see lane/moments.py)."""
     import random
 
@@ -119,8 +119,8 @@ def produce_moment(video: Path, shots: list[dict], cfg: dict, work: Path, out: P
     mix_path = work / "mix.wav"
     audio.mix(silent, duration, [], music, {**cfg.get("music", {}), "duck_db": 0}, mix_path, work)
     ass = work / "captions.ass"
-    build_ass(ass, words=[], script="", emphasis=[], hook="", watermark=cfg["channel"].get("watermark", ""),
-              duration=duration, caption_y=1240, hook_y=400)
+    build_ass(ass, words=[], script="", emphasis=[], hook=caption, watermark=cfg["channel"].get("watermark", ""),
+              duration=duration, caption_y=1240, hook_y=250, hook_seconds=duration)
     try:
         render.render_video(timeline, ass, mix_path, out, work, seed)
     except render.RenderError as e:

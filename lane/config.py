@@ -24,6 +24,8 @@ class Secrets:
     library_token: str
     telegram_bot_token: str
     telegram_chat_id: str
+    ig_token: str = ""
+    ig_user_id: str = ""
 
 
 def load_config(path: Path | None = None) -> dict:
@@ -41,4 +43,6 @@ def load_secrets() -> Secrets:
         library_token=env("LIBRARY_TOKEN", ""),
         telegram_bot_token=env("TELEGRAM_BOT_TOKEN", ""),
         telegram_chat_id=env("TELEGRAM_CHAT_ID", ""),
+        ig_token=env("IG_TOKEN", ""),
+        ig_user_id=env("IG_USER_ID", ""),
     )

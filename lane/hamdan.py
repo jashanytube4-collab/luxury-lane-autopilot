@@ -83,6 +83,24 @@ class Library:
             log.info("footage library: %d videos", len(self._assets))
         return self._assets
 
+    def upload(self, name: str, path: Path) -> bool:
+        """Add a video to the library (used for Instagram clips, whose links expire after a few days)."""
+        if name in self.assets():
+            return True
+        rel = self._api(f"https://api.github.com/repos/{self.repo}/releases/tags/footage")
+        if rel.status_code != 200:
+            return False
+        h = {"Authorization": f"Bearer {self.token}", "X-GitHub-Api-Version": "2022-11-28",
+             "Content-Type": "video/mp4"}
+        with open(path, "rb") as f:
+            r = requests.post(f"https://uploads.github.com/repos/{self.repo}/releases/{rel.json()['id']}/assets",
+                              params={"name": name}, headers=h, data=f, timeout=600)
+        if r.status_code == 201:
+            self._assets[name] = r.json()["id"]
+            return True
+        log.warning("library upload of %s failed: %s %s", name, r.status_code, r.text[:200])
+        return False
+
     def fetch(self, name: str, dest: Path) -> bool:
         aid = self.assets().get(name)
         if not aid:

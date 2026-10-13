@@ -209,6 +209,9 @@
  "dubai crown prince offers condolences to alkaabi family": {
   "video_exhausted": true
  },
+ "dubai crown prince receives australia s governor general": {
+  "video_exhausted": true
+ },
  "dubai crown prince receives president of malta": {
   "last_short": "2026-10-13",
   "shorts_made": 1,
@@ -1902,6 +1905,9 @@
    ]
   ]
  },
+ "hamdan bin mohammed extends condolences to al muhairi family": {
+  "video_exhausted": true
+ },
  "hamdan bin mohammed extends condolences to families of pilots": {
   "last_short": "2026-10-14",
   "long": "2026-10-14",
@@ -3395,6 +3401,24 @@
    [
     32.96,
     45.75
+   ]
+  ]
+ },
+ "hamdan bin mohammed offers condolences to family of martyr khalid al shehi": {
+  "last_short": "2026-10-14",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    43.12,
+    54.2
+   ],
+   [
+    58.279999999999994,
+    62.68
+   ],
+   [
+    106.72,
+    112.44
    ]
   ]
  },
@@ -5143,6 +5167,9 @@
  },
  "hamdan bin mohammed visits wipro s apmea headquarters in dubai": {
   "long": "2026-10-14",
+  "video_exhausted": true
+ },
+ "hamdan bin mohammed visits youth hub in emirates towers": {
   "video_exhausted": true
  },
  "hamdan bin mohammed volunteers in dubai marine clean up dive": {

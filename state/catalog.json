@@ -3511,6 +3511,24 @@
    ]
   ]
  },
+ "hamdan bin mohammed opens cityscape global 2017": {
+  "last_short": "2026-10-14",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    33.559999999999995,
+    38.400000000000006
+   ],
+   [
+    120.24000000000001,
+    125.24
+   ],
+   [
+    178.8,
+    183.28
+   ]
+  ]
+ },
  "hamdan bin mohammed opens cityscape global 2018": {
   "last_short": "2026-10-13",
   "shorts_made": 1,
@@ -5246,6 +5264,9 @@
  },
  "hamdan bin mohammed witnesses opening of the 27th general conference of the international council of museums": {
   "long": "2026-10-05"
+ },
+ "hamdan bin mohammed witnesses the first test flight": {
+  "video_exhausted": true
  },
  "hamdan bin mohammed witnesses unveiling of uae developed probe for emirates mission to the asteroid belt": {
   "fails": 2,

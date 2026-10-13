@@ -2274,7 +2274,8 @@
     43.85333333333333,
     46.63
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed klaus schwab discuss enhancing strategic partnerships": {
   "no_hamdan": true,
@@ -3163,6 +3164,9 @@
    ]
   ]
  },
+ "hamdan bin mohammed offers condolences on death of hamad al qasimi": {
+  "video_exhausted": true
+ },
  "hamdan bin mohammed offers condolences on death of moza bint ali al weri": {
   "last_short": "2026-10-13",
   "long": "2026-10-14",
@@ -3409,6 +3413,24 @@
  },
  "hamdan bin mohammed receives afc president": {
   "long": "2026-10-14"
+ },
+ "hamdan bin mohammed receives canadian ambassador": {
+  "last_short": "2026-10-14",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    7.96,
+    14.08
+   ],
+   [
+    42.68,
+    46.720000000000006
+   ],
+   [
+    65.80000000000001,
+    71.75999999999999
+   ]
+  ]
  },
  "hamdan bin mohammed receives hazza bin zayed in dubai": {
   "last_short": "2026-10-08",

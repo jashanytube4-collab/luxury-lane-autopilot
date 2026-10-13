@@ -842,6 +842,9 @@
    5
   ]
  },
+ "hamdan bin mohammed attends dubai international health tourism forum": {
+  "video_exhausted": true
+ },
  "hamdan bin mohammed attends dubai metaverse assembly at the museum of the future": {
   "last_short": "2026-10-10",
   "long": "2026-10-13",
@@ -2294,6 +2297,9 @@
  },
  "hamdan bin mohammed klaus schwab discuss enhancing strategic partnerships": {
   "no_hamdan": true,
+  "video_exhausted": true
+ },
+ "hamdan bin mohammed launches 26 dubai 10x projects issues directive to implement them within 24 months": {
   "video_exhausted": true
  },
  "hamdan bin mohammed launches 3d printing strategic alliance": {
@@ -4562,6 +4568,9 @@
    ]
   ]
  },
+ "hamdan bin mohammed visits dubai sports council": {
+  "video_exhausted": true
+ },
  "hamdan bin mohammed visits dubai statistics center": {
   "no_hamdan": true,
   "video_exhausted": true
@@ -4602,6 +4611,9 @@
   "photo_short": true,
   "shorts_made": 1,
   "shot_ranges": []
+ },
+ "hamdan bin mohammed visits gulfood 2018": {
+  "video_exhausted": true
  },
  "hamdan bin mohammed visits hazrat imam mosque in uzbekistan": {
   "last_short": "2026-10-08",
@@ -4732,6 +4744,24 @@
  "hamdan bin mohammed visits reserve forces command in abu dhabi": {
   "fails": 1,
   "video_exhausted": true
+ },
+ "hamdan bin mohammed visits smart dubai office launches dubai paperless strategy": {
+  "last_short": "2026-10-14",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    29.040000000000003,
+    33.2
+   ],
+   [
+    73.96000000000001,
+    82.67999999999999
+   ],
+   [
+    97.0,
+    102.36
+   ]
+  ]
  },
  "hamdan bin mohammed visits stands of government entities at gitex2019": {
   "last_short": "2026-10-12",

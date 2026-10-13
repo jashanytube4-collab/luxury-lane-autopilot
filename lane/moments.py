@@ -91,8 +91,25 @@ SHORT_TAGS = ["#youtubeshorts #youtube", "#youtubeshorts #youtube #fazza", "#you
               "#youtubeshorts #ytshorts", "#fazza #youtubeshorts #youtube", "#princehamdan #youtubeshorts #youtube"]
 
 
-def moment_title(event_title: str, recent: list[str], rng: random.Random) -> str:
-    """A poetic one-line title in the style of this channel's own best Shorts; not used in the last 4 days."""
+NEWS_HOOK = re.compile(r"visit|hospital|surpris|honou?r|hero|pilot|child|kids|student|condolen|thank|praise|brave|"
+                       r"rescue|elder|wedding|birthday|record|first|meets? (?:a |an )?(?:boy|girl|fan|family)", re.I)
+
+
+def news_title(event_title: str) -> str:
+    """The official headline, made human: 'Hamdan bin Mohammed visits flydubai pilot...' -> 'Sheikh Hamdan visits...'."""
+    t = re.sub(r"^(H\.?H\.? )?Hamdan bin Mohammed( bin Rashid)?( Al Maktoum)?", "Sheikh Hamdan", event_title.strip())
+    t = t.replace("Dubai Crown Prince", "Sheikh Hamdan")
+    return t if len(t) <= 72 else t[:70].rsplit(" ", 1)[0] + "…"
+
+
+def moment_title(event_title: str, recent: list[str], rng: random.Random, fresh_news: bool = False) -> str:
+    """A poetic one-line title in the style of this channel's own best Shorts; not used in the last 4 days.
+    For a fresh human moment from the news (last 3 days), the news headline itself: breaking-news Shorts of
+    this channel (e.g. the flydubai pilot visit, 52K) outperform."""
+    if fresh_news and NEWS_HOOK.search(event_title):
+        line = news_title(event_title)
+        if line.lower() not in " ".join(r.lower() for r in recent[-60:]):
+            return f"{line} {rng.choice(['🤍', '👑', '🇦🇪', '❤️'])} {rng.choice(SHORT_TAGS)}"[:100]
     from .quotes import fan_lines
     pool = POETIC + [x for x in fan_lines() if len(x) <= 70]
     seen = " ".join(r.lower() for r in recent[-120:])

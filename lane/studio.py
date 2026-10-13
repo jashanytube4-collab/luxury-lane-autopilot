@@ -151,6 +151,10 @@ class Studio:
         vids.sort(key=key, reverse=True)
         pics.sort(key=key, reverse=True)
         fresh = [k for k in vids + pics if (events[k].get("date") or "") >= _days_ago(now, 14)]
+        # the newest human moments (visits, heroes, children...) go first: breaking-news Shorts get the most views
+        from .moments import NEWS_HOOK
+        fresh.sort(key=lambda k: (not ((events[k].get("date") or "") >= _days_ago(now, 3)
+                                       and NEWS_HOOK.search(events[k].get("title", ""))),))
         rest = [k for k in vids + pics if k not in fresh]
         return fresh + rest
 
@@ -236,7 +240,8 @@ class Studio:
         out = work / "short.mp4"
         caption = moment_caption(ev.get("title", ""), rng)
         res = produce_moment(video, shots, self.cfg, work, out, seed, duration, caption)
-        title = moment_title(ev.get("title", ""), recent_titles, rng)
+        fresh = (ev.get("date") or "")[:10] >= (datetime.now(timezone.utc).date() - timedelta(days=3)).isoformat()
+        title = moment_title(ev.get("title", ""), recent_titles, rng, fresh_news=fresh)
         plan = {"title": title, "description": moment_description(ev, rng), "tags": moment_tags(ev),
                 "hook_text": caption, "shots": shots}
         ranges = [[s["start"], min(s["end"], s["start"] + duration)] for s in shots]

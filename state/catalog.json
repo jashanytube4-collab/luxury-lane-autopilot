@@ -775,6 +775,9 @@
    ]
   ]
  },
+ "hamdan bin mohammed attends day 1 of gov games": {
+  "video_exhausted": true
+ },
  "hamdan bin mohammed attends day 10 of al marmoom heritage festival": {
   "long": "2026-10-13"
  },
@@ -4470,6 +4473,23 @@
     16.669999999999998
    ]
   ]
+ },
+ "hamdan bin mohammed visits dubai chamber of commerce and industry": {
+  "last_short": "2026-10-14",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    40.239999999999995,
+    45.52
+   ],
+   [
+    69.24000000000001,
+    79.44
+   ]
+  ]
+ },
+ "hamdan bin mohammed visits dubai government hr department": {
+  "video_exhausted": true
  },
  "hamdan bin mohammed visits dubai hospital": {
   "last_short": "2026-10-13",

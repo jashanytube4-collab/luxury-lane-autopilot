@@ -56,6 +56,50 @@ QUESTIONS = [
     "Which quality of Fazza would you like to have?", "Write a short message for Prince Hamdan below!",
     "Best Fazza look: traditional kandura or sports gear?", "Have you ever visited Dubai?",
     "What would you name your horse if you were Fazza?", "Which language do you speak? Say Fazza's name in it!",
+    "What is the first thing you notice in this photo?", "Caption this photo of Fazza in the comments!",
+    "Which year did you first hear about Fazza?", "What is your favourite Fazza quote?",
+    "If Fazza visited your city, where would you take him?", "Which is better: sunrise in the desert or sunset by the sea?",
+    "Which sport do you think Fazza enjoys most?", "What does leadership mean to you?",
+    "Who is your role model and why?", "Describe this moment in three words!",
+    "What is your dream holiday destination?", "Which Fazza trait do you see in yourself?",
+    "Which is your favourite day of the week to watch Fazza videos?", "How long have you followed The Luxury Lane?",
+    "Kandura or suit: which look suits Fazza best?", "What is the kindest thing someone has done for you?",
+    "Which Dubai experience is on your wish list?", "What is your favourite memory from this year?",
+    "Coffee or tea: what would you share with Fazza?", "Which animal reminds you of Fazza: falcon, horse or lion?",
+    "What should every young leader learn first?", "Which Arabic word do you love the most?",
+    "What gives you motivation on tough days?", "If you could spend one day with Fazza, what would you do?",
+    "Which Emirates do you most want to visit?", "Write one compliment for Fazza below!",
+    "What is your favourite season of the year?", "Which is more impressive: Burj Khalifa or the Museum of the Future?",
+    "Who would you bring with you to meet Fazza?", "Which Fazza video made you smile the most?",
+    "Do you prefer his poetry or his adventures?", "What is the best advice you have ever received?",
+    "Which country are you from? Drop your flag!", "What hobby would you like to start this year?",
+    "Night drive in Dubai or morning walk by the sea?", "Which word best describes Dubai?",
+    "What do you think Fazza does on a quiet weekend?", "Which royal moment would you love to see on video?",
+    "What would make you proud of your country?", "Which Fazza photo should be our next wallpaper?",
+    "What is one goal you want to achieve this month?", "What is the most beautiful place you have visited?",
+    "Who taught you the most important lesson in life?", "Would you rather ride a horse or fly a falcon?",
+    "What is your favourite thing about Arab culture?", "Which Fazza moment deserves a full video?",
+    "What would you write in a poem for your country?", "Which landmark should Fazza visit in your country?",
+    "Give this photo a title!", "Which Fazza look is the most classic?",
+    "What makes someone truly humble?", "Fazza or Dubai: which do you love more? 😄",
+    "What is your favourite way to relax?", "Which song would you play for a Fazza edit?",
+    "What would you build if you were Crown Prince for a day?", "Which value matters most to you: honesty, kindness or courage?",
+    "What would you say if Fazza replied to your comment?", "Which of his adventures is the bravest?",
+    "Morning motivation: what are you working on today?", "Send Fazza a good wish for this week!",
+]
+PHOTO_CAPTIONS = [
+    "Photo of the day: Prince Hamdan.", "Fazza, as his fans love him.", "The Crown Prince of Dubai.",
+    "Calm, focused and always humble.", "Another day, another reason to admire Fazza.", "Simply Fazza.",
+    "Grace and strength in one frame.", "The face of a leader.", "Prince Hamdan, up close.",
+    "A moment worth sharing.", "Quiet confidence.", "The Prince of Dubai.", "Pure class.",
+    "Leading by example.", "Dubai's pride.", "One picture, a thousand stories.", "Fazza in focus.",
+    "Royal, humble, real.", "Timeless elegance.", "The man millions follow.", "Steady and strong.",
+    "Presence speaks louder than words.", "A true gentleman.", "Leadership in every look.",
+    "The future of Dubai.", "Always respectful, always kind.", "Dignity in every moment.",
+    "Elegance never goes out of style.", "Strength with a gentle heart.", "Our favourite Crown Prince.",
+    "Captured at the right moment.", "The calm before greatness.", "Proud to be a Fazza fan.",
+    "Humility looks good on him.", "Focus mode: on.", "Every frame tells a story.",
+    "Today's dose of Fazza.", "Pure royal energy.", "A leader the world respects.", "This is Fazza.",
 ]
 
 
@@ -161,7 +205,7 @@ def main() -> None:
 
     keys = [k for k, e in events.items() if e.get("photos") and e.get("title")]
     rng.shuffle(keys)
-    need_events = days * 3
+    need_events = days * 3      # stops early only if there is more than enough
     photos: list[tuple[str, np.ndarray]] = []        # (event key, square photo) for every post
     used_events: list[str] = []
     spare: list[tuple[str, np.ndarray]] = []          # second photos of events, for quote/engagement posts
@@ -169,7 +213,7 @@ def main() -> None:
         if len(used_events) >= need_events and len(spare) >= days * 2:
             break
         try:
-            paths = studio.photos(k, events[k], limit=3)
+            paths = studio.photos(k, events[k], limit=6)
         except Exception:  # noqa: BLE001
             continue
         good = []
@@ -200,16 +244,28 @@ def main() -> None:
     month_pages: dict[str, list[dict]] = {}
     q_cycle = real + fans
     rng.shuffle(q_cycle)
-    qi = ei = 0
+    qi = ei = pi = 0
+    # the year's mix: one quote and one engagement post a day; every event with a good photo of him gets one
+    # official-moment post; any other photos become "photo of the day" posts. Spread at random over the year.
+    total = days * 5
+    n_moment = min(len(photos), total - 2 * days)
+    plan = ["quote"] * days + ["engage"] * days + ["moment"] * n_moment + ["photo"] * (total - 2 * days - n_moment)
+    rng.shuffle(plan)
     for day_i in range(days):
         day = start + timedelta(days=day_i)
         times = sorted(rng.sample(range(8 * 60, 23 * 60, 15), 5))
         while any(b - a < 100 for a, b in zip(times, times[1:])):
             times = sorted(rng.sample(range(8 * 60, 23 * 60, 15), 5))
-        kinds = ["moment", "moment", "moment", "quote", "engage"]
-        rng.shuffle(kinds)
+        kinds = plan[day_i * 5: day_i * 5 + 5]
         for slot, (kind, minute) in enumerate(zip(kinds, times)):
-            if kind == "moment" and photos:
+            if kind == "photo" or (kind == "moment" and not photos):
+                if not spare:
+                    continue
+                src = spare.pop()
+                caption = f"{PHOTO_CAPTIONS[pi % len(PHOTO_CAPTIONS)]}\n\n{rng.choice(CTAS)}\n\n{TAGS}"
+                pi += 1
+                pic = Image.fromarray(cv2.cvtColor(src[1], cv2.COLOR_BGR2RGB))
+            elif kind == "moment":
                 k, ph = photos.pop()
                 ev = events[k]
                 when = datetime.fromisoformat(ev["date"][:10]).strftime("%B %Y") if ev.get("date") else ""
@@ -218,8 +274,10 @@ def main() -> None:
                            + f"\n{rng.choice(CTAS)}\n\n{TAGS}")
                 pic = Image.fromarray(cv2.cvtColor(ph, cv2.COLOR_BGR2RGB))
             else:
+                if not spare and not photos:
+                    continue
                 src = spare.pop() if spare else photos.pop()
-                if kind == "quote" or not spare:
+                if kind == "quote":
                     item = q_cycle[qi % len(q_cycle)]
                     qi += 1
                     if isinstance(item, dict):

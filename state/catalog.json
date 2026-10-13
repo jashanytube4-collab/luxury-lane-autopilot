@@ -298,6 +298,7 @@
  },
  "hamdan bin mohammed and india s minister of commerce and industry witness signing of 8 mous": {
   "fails": 1,
+  "long": "2026-10-14",
   "video_exhausted": true
  },
  "hamdan bin mohammed and maktoum bin mohammed meet dubai s top performing high school students": {
@@ -928,6 +929,7 @@
  },
  "hamdan bin mohammed attends graduation ceremony at hbmsu": {
   "last_short": "2026-10-13",
+  "long": "2026-10-14",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -1073,6 +1075,7 @@
  "hamdan bin mohammed attends health chain forum": {
   "fails": 1,
   "last_short": "2026-10-12",
+  "long": "2026-10-14",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -1169,6 +1172,7 @@
  "hamdan bin mohammed attends open masters games abu dhabi 2026": {
   "fails": 1,
   "last_short": "2026-10-06",
+  "long": "2026-10-14",
   "shorts_made": 4,
   "shot_ranges": [
    [
@@ -1520,6 +1524,7 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed chairs defence council meeting": {
+  "long": "2026-10-14",
   "video_exhausted": true
  },
  "hamdan bin mohammed chairs executive council meeting": {
@@ -1581,6 +1586,7 @@
   ]
  },
  "hamdan bin mohammed chairs higher committee for development and citizens affairs meeting": {
+  "long": "2026-10-14",
   "post_photos": [
    0,
    3
@@ -1594,6 +1600,7 @@
  },
  "hamdan bin mohammed chairs virtual meeting of executive council": {
   "last_short": "2026-10-10",
+  "long": "2026-10-14",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -1811,6 +1818,9 @@
    ]
   ]
  },
+ "hamdan bin mohammed extends condolences to families of pilots": {
+  "long": "2026-10-14"
+ },
  "hamdan bin mohammed follows up the work mechanisms of dubai future councils": {
   "last_short": "2026-10-13",
   "shorts_made": 1,
@@ -1925,6 +1935,7 @@
  },
  "hamdan bin mohammed inaugurates 8th edition of cybertech global in dubai": {
   "last_short": "2026-10-11",
+  "long": "2026-10-14",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -2295,6 +2306,7 @@
  },
  "hamdan bin mohammed launches dubai mallathon to transform shopping malls into fitness hubs": {
   "fails": 1,
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "hamdan bin mohammed launches dubai schools project": {
@@ -2810,6 +2822,7 @@
  },
  "hamdan bin mohammed meets with india s external affairs minister": {
   "last_short": "2026-10-07",
+  "long": "2026-10-14",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3092,6 +3105,7 @@
  },
  "hamdan bin mohammed mohammed bin rashid places the highest priority on supporting youth and developing their skills": {
   "last_short": "2026-10-10",
+  "long": "2026-10-14",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3140,6 +3154,7 @@
  },
  "hamdan bin mohammed offers condolences on death of moza bint ali al weri": {
   "last_short": "2026-10-13",
+  "long": "2026-10-14",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3314,6 +3329,9 @@
   "long": "2026-10-13",
   "video_exhausted": true
  },
+ "hamdan bin mohammed opens gitex tech week 2017": {
+  "long": "2026-10-14"
+ },
  "hamdan bin mohammed opens meta s new regional headquarters in dubai internet city": {
   "last_short": "2026-10-10",
   "shorts_made": 1,
@@ -3377,6 +3395,9 @@
  },
  "hamdan bin mohammed participates in king abdulaziz camel festival finale": {
   "no_hamdan": true
+ },
+ "hamdan bin mohammed receives afc president": {
+  "long": "2026-10-14"
  },
  "hamdan bin mohammed receives hazza bin zayed in dubai": {
   "last_short": "2026-10-08",
@@ -3825,6 +3846,7 @@
  },
  "hamdan bin mohammed shares iftar with national service recruits in abu dhabi": {
   "last_short": "2026-10-07",
+  "long": "2026-10-14",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3847,6 +3869,7 @@
  },
  "hamdan bin mohammed the uae has taken strides in energy sustainability": {
   "last_short": "2026-10-11",
+  "long": "2026-10-14",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3938,6 +3961,9 @@
   "long": "2026-10-05",
   "video_exhausted": true
  },
+ "hamdan bin mohammed tours gitex 2013": {
+  "long": "2026-10-14"
+ },
  "hamdan bin mohammed tours gitex global 2022 on its concluding day": {
   "last_short": "2026-10-10",
   "shorts_made": 1,
@@ -4021,6 +4047,9 @@
     30.363333333333333
    ]
   ]
+ },
+ "hamdan bin mohammed unveils 5 star plaque at hatta gdrfa centre": {
+  "long": "2026-10-14"
  },
  "hamdan bin mohammed unveils 5 star plaque at sheikh zayed housing programme in dubai": {
   "last_short": "2026-10-13",
@@ -4131,6 +4160,7 @@
  },
  "hamdan bin mohammed visits arabian travel market 2026": {
   "last_short": "2026-10-05",
+  "long": "2026-10-14",
   "photo_short": true,
   "shorts_made": 3,
   "shot_ranges": [
@@ -4193,6 +4223,7 @@
  "hamdan bin mohammed visits aster pharmacy s distribution centre in dubai": {
   "fails": 1,
   "last_short": "2026-10-05",
+  "long": "2026-10-14",
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -4357,6 +4388,7 @@
  },
  "hamdan bin mohammed visits dubai hospital": {
   "last_short": "2026-10-13",
+  "long": "2026-10-14",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -4375,6 +4407,7 @@
  },
  "hamdan bin mohammed visits dubai international boat show": {
   "last_short": "2026-10-13",
+  "long": "2026-10-14",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -4585,6 +4618,7 @@
  },
  "hamdan bin mohammed visits the national guard headquarters in abu dhabi": {
   "last_short": "2026-10-07",
+  "long": "2026-10-14",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -4603,6 +4637,7 @@
  },
  "hamdan bin mohammed visits thukhor social club for senior citizens": {
   "last_short": "2026-10-09",
+  "long": "2026-10-14",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -4650,6 +4685,7 @@
   ]
  },
  "hamdan bin mohammed visits wipro s apmea headquarters in dubai": {
+  "long": "2026-10-14",
   "video_exhausted": true
  },
  "hamdan bin mohammed watches the historic launch of zayed ambition 2": {
@@ -4808,6 +4844,7 @@
  },
  "khalifasat launches successfully into orbit emphasising uae s leadership in developing satellites": {
   "last_short": "2026-10-13",
+  "long": "2026-10-14",
   "shorts_made": 1,
   "shot_ranges": [
    [

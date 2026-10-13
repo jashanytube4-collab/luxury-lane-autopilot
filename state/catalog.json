@@ -4240,7 +4240,19 @@
   ]
  },
  "hamdan bin mohammed unveils 5 star plaque at hatta gdrfa centre": {
-  "long": "2026-10-14"
+  "last_short": "2026-10-14",
+  "long": "2026-10-14",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    98.4,
+    105.28
+   ],
+   [
+    108.76,
+    117.75999999999999
+   ]
+  ]
  },
  "hamdan bin mohammed unveils 5 star plaque at sheikh zayed housing programme in dubai": {
   "last_short": "2026-10-13",

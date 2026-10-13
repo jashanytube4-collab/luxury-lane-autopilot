@@ -60,17 +60,46 @@ def moment_runs(scenes: list) -> list[dict]:
     return [r for r in runs if r["b"] - r["a"] >= 4.0]
 
 
+POETIC = [   # the style of this channel's own best Shorts (25K-90K views): one poetic line about him and Dubai
+    "A prince by title, a leader by action.", "From the sands of Dubai rises Hamdan's inspiration.",
+    "Dubai's dreams, Hamdan's dedication.", "The mark of a great leader is the lives he inspires.",
+    "Dubai's vision comes alive through Hamdan.", "Dubai's skyline reflects Hamdan's ambition.",
+    "From the skies to the seas, Fazza does it all.", "The calmest kings rule the strongest.",
+    "One city, one prince, endless possibilities.", "Hamdan's vision keeps Dubai moving forward.",
+    "His energy speaks before he does.", "Every moment reflects a purpose.", "Dubai's pride, Hamdan's legacy.",
+    "A leader who inspires without saying a word.", "Where innovation meets tradition: Dubai and Hamdan.",
+    "Writing history through action.", "Some men carry respect without asking for it.",
+    "Dubai's future shines through Hamdan's vision.", "Dubai grows, Hamdan inspires.",
+    "Where royalty meets humanity.", "The world sees royalty; we see Fazza's heart.",
+    "Strength, humility and elegance in one man.", "A prince's true legacy is written in smiles.",
+    "Royal in name, humble in heart.", "Born to lead, raised to serve.", "Grace is his strongest weapon.",
+    "Silence, focus, greatness.", "A crown worn with kindness.", "When Fazza walks in, everything changes.",
+    "His calm is louder than any crowd.", "The heart of Dubai beats in him.", "Respect follows him everywhere.",
+    "Not every prince is a legend. This one is.", "Every step, a lesson in leadership.",
+    "A smile that carries a nation.", "Loyalty, faith and vision.", "The desert made him strong.",
+    "The future of Dubai has a face.", "He leads, the city follows.", "Royalty that touches hearts.",
+    "Elegance in every move.", "A man of honour, a prince of the people.", "Quiet power, endless respect.",
+    "Dubai's heartbeat has a name.", "The poet who became a leader.", "Fazza: a name the world remembers.",
+    "Leading from the front, always.", "The prince the whole Gulf admires.", "Dignity never goes out of style.",
+    "He doesn't seek attention; he earns respect.", "One look, a thousand stories.",
+    "The kind of presence money can't buy.", "Wisdom beyond his years.", "Built by the desert, loved by the world.",
+    "Calm mind, strong heart, clear vision.", "A gentle soul with an iron will.",
+    "Hamdan: tradition and tomorrow in one man.", "Where he goes, respect follows.",
+    "A leader is measured by his kindness.", "Fazza's heart is bigger than his crown.",
+]
+SHORT_TAGS = ["#youtubeshorts #youtube", "#youtubeshorts #youtube #fazza", "#youtube #youtubeshorts",
+              "#youtubeshorts #ytshorts", "#fazza #youtubeshorts #youtube", "#princehamdan #youtubeshorts #youtube"]
+
+
 def moment_title(event_title: str, recent: list[str], rng: random.Random) -> str:
-    """A short, warm title in the style of the top Fazza Shorts; never one used recently."""
-    low = event_title.lower()
-    pool = [t for pat, ts in CONTEXT if re.search(pat, low) for t in ts]
-    seen = {r.lower() for r in recent}
-    for _ in range(200):
-        base = rng.choice(pool) if pool and rng.random() < 0.6 else rng.choice(GENERAL)
-        title = f"{base} {rng.choice(EMOJI)} {rng.choice(HASHTAGS)}"
-        if title.lower() not in seen and f"{base} " not in " ".join(r for r in recent[-12:]):
-            return title[:100]
-    return f"{rng.choice(GENERAL)} {rng.choice(EMOJI)}{rng.choice(EMOJI)} {rng.choice(HASHTAGS)}"[:100]
+    """A poetic one-line title in the style of this channel's own best Shorts; not used in the last 4 days."""
+    from .quotes import fan_lines
+    pool = POETIC + [x for x in fan_lines() if len(x) <= 70]
+    seen = " ".join(r.lower() for r in recent[-120:])
+    fresh = [x for x in pool if x.lower().rstrip(".") not in seen] or pool
+    line = rng.choice(fresh)
+    emoji = rng.choice(["", "", " 👑", " ✨", " 🤍", " ❤️"])
+    return f"{line}{emoji} {rng.choice(SHORT_TAGS)}"[:100]
 
 
 def moment_description(ev: dict, rng: random.Random) -> str:

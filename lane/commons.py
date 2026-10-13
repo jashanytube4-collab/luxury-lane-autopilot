@@ -50,7 +50,12 @@ def search(query: str, limit: int = 12, min_width: int = 700) -> list[dict]:
         log.warning("Commons search %r failed: %s", query, e)
         return []
     out = []
+    words = [w for w in re.findall(r"[a-z0-9]+", query.lower()) if len(w) > 3] if not query.startswith("cat:") else []
     for p in pages:
+        if words:   # a search hit must actually be about what was searched for (its title names it)
+            title = p.get("title", "").lower()
+            if sum(w in title for w in words) < max(1, (len(words) + 1) // 2):
+                continue
         info = (p.get("imageinfo") or [{}])[0]
         if info.get("mime") not in ("image/jpeg", "image/png") or info.get("width", 0) < min_width:
             continue

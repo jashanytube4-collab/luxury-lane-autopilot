@@ -312,8 +312,17 @@ class Runner:
         return self.state.cursors.get("recent_titles", [])[-300:]
 
     def fill_short(self, day, slot: dict, plan: dict) -> bool:
+        first = random.random() < float(self.cfg["short"].get("moment_share", 0.8))
+        # a moment Short when possible; a narrated one only if no footage of him is left for a moment today
+        for moment in ([True, False] if first else [False]):
+            done = self._fill_short(day, slot, plan, moment)
+            if done is not None:
+                return done
+        self.report.problem("No usable material left for Shorts today")
+        return False
+
+    def _fill_short(self, day, slot: dict, plan: dict, moment: bool) -> bool | None:
         at = datetime.fromisoformat(slot["at"])
-        moment = random.random() < float(self.cfg["short"].get("moment_share", 0.8))
         for key in self.studio.short_candidates(self.events, self.usage, day.isoformat()):
             if self.over_budget():
                 self.report.note("Run time budget reached; remaining slots are filled by the next run")
@@ -378,8 +387,7 @@ class Runner:
             self.report.note(f"Short {at.strftime('%b %d %H:%M')} — {p['title']}")
             shutil.rmtree(item["work"], ignore_errors=True)
             return True
-        self.report.problem("No usable material left for Shorts today")
-        return False
+        return None
 
     # ---- days ------------------------------------------------------------------------------------------
     def fill_day(self, day) -> bool:

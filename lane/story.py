@@ -52,6 +52,7 @@ class Story:
     tags: list[str]
     sections: list[dict]
     path: Path
+    footage: str = ""          # regex on official event titles: where "him" footage for this story comes from
 
 
 def bank() -> list[Story]:
@@ -59,7 +60,7 @@ def bank() -> list[Story]:
     for p in sorted(STORY_DIR.glob("*.yaml")):
         d = yaml.safe_load(p.read_text(encoding="utf-8"))
         out.append(Story(d["id"], d["title"], d.get("thumbnail", {}), d.get("mood", "elegant"),
-                         d.get("description", ""), d.get("tags", []), d["sections"], p))
+                         d.get("description", ""), d.get("tags", []), d["sections"], p, d.get("footage", "")))
     return out
 
 
@@ -114,7 +115,9 @@ class StoryMaker:
 
     def gather(self, story: Story, rng: random.Random, work: Path) -> Gathered:
         cache = work / "commons"
-        his_pool = self._events_matching(None)
+        his_pool = self._events_matching(story.footage or None)
+        if len(his_pool) < 6:                 # too few matching events: any footage of him
+            his_pool += [k for k in self._events_matching(None) if k not in his_pool]
         rng.shuffle(his_pool)
         his_pool.sort(key=lambda k: (bool(self.usage.get(k, {}).get("long")), not self.events[k].get("video")))
         out = Gathered([], [], [])
@@ -160,7 +163,7 @@ class StoryMaker:
             if not vis:
                 vis = take_events(his_pool, 2, True)
             out.visuals.append(vis)
-        out.spare = take_events(his_pool, 8, True)       # footage of him for any section that runs short
+        out.spare = []       # no random filler: short sections borrow from the rest of this story (see produce_story)
         return out
 
 
@@ -187,6 +190,11 @@ def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int)
         rng.shuffle(p)
         p.sort(key=lambda it: it.kind != "video")       # footage first, then photos interleave
     spare = [it for v in got.spare for it in material.items(v)]
+
+    def borrow(i: int) -> list[Item]:
+        """Pictures from the other parts of this story (nearest parts first), for a part that runs short."""
+        order = sorted((j for j in range(len(pools)) if j != i), key=lambda j: abs(j - i))
+        return [it for j in order for it in pools[j][len(pools[j]) // 2:]]
     used: list[Item] = []
     log.info("story material: %s items per section, %d spare", [len(p) for p in pools], len(spare))
 
@@ -218,11 +226,14 @@ def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int)
                 over = sum(s.frames for s in sec_shots) - int(length * FPS)
                 sec_shots[-1].frames = max(FPS, sec_shots[-1].frames - over)
             else:
-                sec_shots = _chapter_shots(pool, length, rng, spare, used)
+                sec_shots = _chapter_shots(pool, length, rng, spare or borrow(i), used)
             sec_shots[0].dip_in = 8
             sfx.append((0.0, audio.impact(seed), -12.0))
         else:
-            sec_shots = _chapter_shots(pool, length, rng, spare, used, pace=(3.0, 4.4), still=(3.4, 4.6))
+            extra = spare or borrow(i)
+            sec_shots = _chapter_shots(pool, length, rng, extra, used, pace=(3.0, 4.4), still=(3.4, 4.6))
+            for p in pools:                      # pictures borrowed by this part are not shown again later
+                p[:] = [it for it in p if it not in used]
             sec_shots[0].xfade_in = 10
             sfx.append((start - 0.2, audio.whoosh(seed + i, 0.5), -16.0))
         shots += sec_shots

@@ -34,12 +34,12 @@ short:
   min_seconds: 12                   # every Short is a random length between these (12-17 s)
   max_seconds: 17
   fps: 30
-  moment_share: 0.8                  # share of Shorts that are 12-17 s music-only "moments" of him (what the
+  moment_share: 1.0                  # share of Shorts that are 12-17 s music-only "moments" of him (what the
                                      # most-viewed Fazza Shorts are); the rest are narrated stories
 
 story:                               # long-form story episodes (assets/stories), told like the top royal channels
   voice: en-US-AvaMultilingualNeural # warm female storyteller voice
-  voice_rate: "-5%"                  # ~161 words a minute (top royal channels: 140-168)
+  voice_rate: "-7%"                  # ~158 words a minute (top royal channels: 140-168)
   kokoro_voice: af_heart             # backup female voice if the online voice is unavailable
   kokoro_speed: 0.95
 

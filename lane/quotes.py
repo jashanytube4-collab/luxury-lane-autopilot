@@ -43,9 +43,10 @@ def _plain(s: str) -> str:
 def _best_sentence(q: str) -> str:
     """The most quotable sentence of a quote (short enough for a picture)."""
     parts = [p.strip() for p in re.split(r"(?<=[.!?])\s+", q)
-             if 30 <= len(p.strip()) <= 150 and p.strip()[0].isupper() and "-it " not in p]
+             if 30 <= len(p.strip()) <= 150 and p.strip()[0].isupper() and "-it " not in p
+             and p.strip()[-1] in ".!?"]          # only complete sentences (quotes are often split by "he said")
     if not parts:
-        return q if len(q) <= 150 else ""
+        return q if len(q) <= 150 and q.rstrip()[-1:] in (".", "!", "?") else ""
     keywords = re.compile(r"\b(we|our|us|people|nation|future|dubai|proud|together|dream|world|life)\b", re.I)
     return max(parts, key=lambda p: (len(keywords.findall(p)), -abs(len(p) - 90)))
 

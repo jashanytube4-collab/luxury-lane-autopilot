@@ -758,6 +758,20 @@
   "fails": 1,
   "video_exhausted": true
  },
+ "hamdan bin mohammed attends closing ceremony of 3rd dubai future accelerators program": {
+  "last_short": "2026-10-14",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    248.44,
+    258.0
+   ],
+   [
+    286.88,
+    298.76
+   ]
+  ]
+ },
  "hamdan bin mohammed attends closing ceremony of king abdulaziz camel festival": {
   "long": "2026-10-13"
  },

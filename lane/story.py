@@ -176,14 +176,36 @@ def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int)
     vcfg["edge_voice"] = scfg.get("voice", "en-US-AvaMultilingualNeural")
     vcfg["edge_rate"] = scfg.get("voice_rate", "+8%")
 
-    voices = [synthesize(sec["say"].strip(), vcfg, work / f"v_{i:02d}.wav") for i, sec in enumerate(story.sections)]
-    if len({v.engine for v in voices}) > 1 or voices[0].engine != "edge":
-        # the online voice failed for part of the story: one narrator for the whole episode, never two
-        log.warning("storyteller voice unavailable for part of the story; narrating all of it with the backup voice")
-        kcfg = {**vcfg, "engine": "kokoro", "kokoro_voice": scfg.get("kokoro_voice", "af_heart"),
-                "kokoro_speed": scfg.get("kokoro_speed", 0.95)}
-        voices = [synthesize(sec["say"].strip(), kcfg, work / f"k_{i:02d}.wav")
+    kcfg = {**vcfg, "engine": "kokoro", "kokoro_voice": scfg.get("kokoro_voice", "af_heart"),
+            "kokoro_speed": float(scfg.get("kokoro_speed", 0.95))}
+
+    def narrate(edge_rate: int | None, kokoro_speed: float, tag: str):
+        if edge_rate is not None:
+            ecfg = {**vcfg, "edge_rate": f"{edge_rate:+d}%"}
+            vs = [synthesize(sec["say"].strip(), ecfg, work / f"v{tag}_{i:02d}.wav")
                   for i, sec in enumerate(story.sections)]
+            if all(v.engine == "edge" for v in vs):
+                return vs, "edge"
+            # the online voice failed for part of the story: one narrator for the whole episode, never two
+            log.warning("storyteller voice unavailable for part of the story; narrating all of it with the backup voice")
+        vs = [synthesize(sec["say"].strip(), {**kcfg, "kokoro_speed": kokoro_speed}, work / f"k{tag}_{i:02d}.wav")
+              for i, sec in enumerate(story.sections)]
+        return vs, "kokoro"
+
+    edge_rate = int(str(vcfg["edge_rate"]).replace("%", "") or 0)
+    voices, engine = narrate(edge_rate, kcfg["kokoro_speed"], "")
+    # the episode must reach the minimum length (8 minutes): if the narration came out short (a faster backup
+    # voice, a quick read), narrate it again just slow enough to get there
+    lf = cfg.get("longform", {})
+    need = float(lf.get("min_minutes", 8.0)) * 60 + 6
+    total = sum(v.duration for v in voices) + 0.45 * len(voices) + 0.6 + 8.0
+    if total < need:
+        ratio = total / need
+        log.info("narration %.0fs is short of %.0fs; slowing it down to %.0f%%", total, need, ratio * 100)
+        if engine == "edge":
+            voices, engine = narrate(int((1 + edge_rate / 100) * ratio * 100 - 100) - 1, kcfg["kokoro_speed"] * ratio, "s")
+        else:
+            voices, engine = narrate(None, kcfg["kokoro_speed"] * ratio * 0.99, "s")
     material = Material()
     pools = [[it for v in vis for it in material.items(v)] for vis in got.visuals]
     for p in pools:

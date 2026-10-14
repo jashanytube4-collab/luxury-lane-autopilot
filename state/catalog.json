@@ -4149,10 +4149,14 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed reviews ministry of human resources and emiratisation s projects and initiatives": {
+  "last_short": "2026-10-15",
+  "photo_short": true,
   "post_photos": [
    1,
    0
-  ]
+  ],
+  "shorts_made": 1,
+  "shot_ranges": []
  },
  "hamdan bin mohammed reviews newly completed air taxi station near dubai international airport the first facility of its kind in the world": {
   "fails": 1,
@@ -5896,6 +5900,9 @@
     228.07
    ]
   ]
+ },
+ "second village under rashid villages initiative to be launched in zanzibar marking 11th anniversary of sheikh rashid bin mohammed s passing": {
+  "no_hamdan": true
  },
  "sheikh hamdan attends camel race festival": {
   "long": "2026-10-13"

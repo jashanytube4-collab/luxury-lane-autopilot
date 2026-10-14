@@ -47,6 +47,9 @@
    ]
   ]
  },
+ "crown prince offers condolences to al adab family": {
+  "long": "2026-10-15"
+ },
  "dubai crown prince arrives in manama for endurance race": {
   "no_hamdan": true
  },
@@ -55,6 +58,7 @@
  },
  "dubai crown prince attends al ketbi family wedding reception": {
   "last_short": "2026-10-12",
+  "long": "2026-10-15",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -194,6 +198,7 @@
  },
  "dubai crown prince offers condolences al muhairi family": {
   "last_short": "2026-10-13",
+  "long": "2026-10-15",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -311,6 +316,9 @@
    ]
   ]
  },
+ "hamdan attends al kharbash wedding": {
+  "long": "2026-10-15"
+ },
  "hamdan attends al wathba camel races festival 2016": {
   "long": "2026-10-13"
  },
@@ -322,6 +330,9 @@
  },
  "hamdan attends the second day of al marmoom camel racing festival": {
   "long": "2026-10-13"
+ },
+ "hamdan attends wedding reception": {
+  "long": "2026-10-15"
  },
  "hamdan bin mohammed affirms dubai s relentless focus on improving speed and responsiveness of government services": {
   "video_exhausted": true
@@ -753,6 +764,7 @@
  },
  "hamdan bin mohammed attends al muhairi al rumaithi family wedding": {
   "last_short": "2026-10-12",
+  "long": "2026-10-15",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -961,6 +973,7 @@
   ]
  },
  "hamdan bin mohammed attends gems our own english high school s golden jubilee celebrations": {
+  "long": "2026-10-15",
   "video_exhausted": true
  },
  "hamdan bin mohammed attends global cardiology congress": {
@@ -1179,6 +1192,7 @@
  },
  "hamdan bin mohammed attends iftar banquet with autistic children and their families": {
   "last_short": "2026-10-09",
+  "long": "2026-10-15",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -1539,8 +1553,12 @@
   "fails": 1,
   "video_exhausted": true
  },
+ "hamdan bin mohammed attends wedding": {
+  "long": "2026-10-15"
+ },
  "hamdan bin mohammed attends wedding reception": {
   "last_short": "2026-10-12",
+  "long": "2026-10-15",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -1567,6 +1585,7 @@
  },
  "hamdan bin mohammed attends wedding receptions in al ain dubai": {
   "last_short": "2026-10-11",
+  "long": "2026-10-15",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -1596,6 +1615,7 @@
   ]
  },
  "hamdan bin mohammed bin rashid and theyab bin mohamed bin zayed attend ega s 50th anniversary": {
+  "long": "2026-10-15",
   "rejected": {
    "reason": "This is a formal corporate ceremony. The visuals are static (seated rows, handshake) and lack the dynamic energy of sport, horsemanship, or travel. While respectful, it doesn't have the 'spectacular' visual punch required for a top-tier Short.",
    "score": 6
@@ -1907,6 +1927,7 @@
  },
  "hamdan bin mohammed extends condolences to a lghurair family": {
   "last_short": "2026-10-14",
+  "long": "2026-10-15",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3005,6 +3026,7 @@
  },
  "hamdan bin mohammed meets with india s defence minister": {
   "last_short": "2026-10-07",
+  "long": "2026-10-15",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3052,6 +3074,7 @@
  },
  "hamdan bin mohammed meets with india s minister of commerce and industry": {
   "fails": 1,
+  "long": "2026-10-15",
   "video_exhausted": true
  },
  "hamdan bin mohammed meets with indian prime minister to discuss future of bilateral partnership": {
@@ -3424,10 +3447,12 @@
   ]
  },
  "hamdan bin mohammed offers condolences to alsuwaidi family": {
+  "long": "2026-10-15",
   "video_exhausted": true
  },
  "hamdan bin mohammed offers condolences to family of martyr al mesmari": {
   "last_short": "2026-10-14",
+  "long": "2026-10-15",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3438,6 +3463,7 @@
  },
  "hamdan bin mohammed offers condolences to family of martyr khalid al shehi": {
   "last_short": "2026-10-14",
+  "long": "2026-10-15",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3456,6 +3482,7 @@
  },
  "hamdan bin mohammed offers condolences to family of martyr saeed alhajri": {
   "last_short": "2026-10-14",
+  "long": "2026-10-15",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -4091,6 +4118,7 @@
  },
  "hamdan bin mohammed reviews outcomes of sheikha hind bint maktoum family program and praises its profound social impact": {
   "last_short": "2026-10-07",
+  "long": "2026-10-15",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -4489,6 +4517,7 @@
   "long": "2026-10-13"
  },
  "hamdan bin mohammed visit family who lost seven children in house fire": {
+  "long": "2026-10-15",
   "video_exhausted": true
  },
  "hamdan bin mohammed visits abu dhabi international hunting and equestrian exhibition 2026": {
@@ -5304,6 +5333,9 @@
   "fails": 2,
   "long": "2026-10-09"
  },
+ "hamdan celebrates al ahli s arabian gulf league winning": {
+  "long": "2026-10-15"
+ },
  "hamdan dubai crown prince visits art dubai": {
   "long": "2026-10-13"
  },
@@ -5363,6 +5395,7 @@
  },
  "khaled bin mohamed bin zayed and hamdan bin mohammed bin rashid witness announcement of high speed train project linking abu dhabi dubai": {
   "fails": 1,
+  "long": "2026-10-15",
   "video_exhausted": true
  },
  "khaled bin mohamed bin zayed hamdan bin mohammed bin rashid attend world governments summit 2025": {
@@ -5386,6 +5419,7 @@
   "video_exhausted": true
  },
  "khaled bin mohamed bin zayed meets hamdan bin mohammed bin rashid on sidelines of uae government annual meetings": {
+  "long": "2026-10-15",
   "video_exhausted": true
  },
  "khalifasat launches successfully into orbit emphasising uae s leadership in developing satellites": {

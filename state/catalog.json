@@ -49,7 +49,8 @@
   ]
  },
  "crown prince offers condolences to al adab family": {
-  "long": "2026-10-15"
+  "long": "2026-10-15",
+  "video_exhausted": true
  },
  "crown prince offers condolences to al mansouri family": {
   "video_exhausted": true
@@ -1387,7 +1388,8 @@
   ]
  },
  "hamdan bin mohammed attends safeguarding endangered cultural heritage conference": {
-  "long": "2026-10-13"
+  "long": "2026-10-13",
+  "video_exhausted": true
  },
  "hamdan bin mohammed attends second day of dubai games 2025": {
   "fails": 1,
@@ -1585,7 +1587,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends wedding": {
-  "long": "2026-10-15"
+  "long": "2026-10-15",
+  "video_exhausted": true
  },
  "hamdan bin mohammed attends wedding reception": {
   "last_short": "2026-10-12",
@@ -3793,7 +3796,15 @@
   ]
  },
  "hamdan bin mohammed opens the race to excellence": {
-  "long": "2026-10-12"
+  "last_short": "2026-10-15",
+  "long": "2026-10-12",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    0.12,
+    12.83
+   ]
+  ]
  },
  "hamdan bin mohammed participates in king abdulaziz camel festival finale": {
   "no_hamdan": true
@@ -5408,6 +5419,9 @@
  },
  "hamdan honors winners of mbr arabic language award": {
   "long": "2026-10-13",
+  "video_exhausted": true
+ },
+ "hamdan inaugurates makani smart app": {
   "video_exhausted": true
  },
  "hamdan officially opens 19th edition of dubai world cup": {

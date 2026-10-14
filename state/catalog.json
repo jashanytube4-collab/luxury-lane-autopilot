@@ -1805,7 +1805,11 @@
   "long": "2026-10-07"
  },
  "hamdan bin mohammed chairs supervisory committee of the mohammed bin rashid leadership medal approves first recipient": {
-  "long": "2026-10-11"
+  "last_short": "2026-10-15",
+  "long": "2026-10-11",
+  "photo_short": true,
+  "shorts_made": 1,
+  "shot_ranges": []
  },
  "hamdan bin mohammed chairs virtual meeting of executive council": {
   "last_short": "2026-10-10",
@@ -3119,6 +3123,9 @@
  },
  "hamdan bin mohammed meets with fifa president on the sidelines of the world sports summit in dubai": {
   "long": "2026-10-08"
+ },
+ "hamdan bin mohammed meets with first cohort of graduates from the hamdan bin mohammed scholarship programme": {
+  "video_exhausted": true
  },
  "hamdan bin mohammed meets with global gaming leaders at dubai gaming retreat": {
   "last_short": "2026-10-05",

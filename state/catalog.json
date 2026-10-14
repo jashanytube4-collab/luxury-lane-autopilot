@@ -5466,7 +5466,19 @@
   "video_exhausted": true
  },
  "hamdan officially opens 19th edition of dubai world cup": {
-  "long": "2026-10-12"
+  "last_short": "2026-10-15",
+  "long": "2026-10-12",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    43.592,
+    50.263999999999996
+   ],
+   [
+    56.936,
+    63.608000000000004
+   ]
+  ]
  },
  "hamdan visits government think tank": {
   "video_exhausted": true

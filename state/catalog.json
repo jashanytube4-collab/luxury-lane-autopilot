@@ -3148,9 +3148,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed meets with global gaming leaders at dubai gaming retreat": {
-  "last_short": "2026-10-05",
+  "last_short": "2026-10-15",
   "long": "2026-10-10",
-  "shorts_made": 1,
+  "shorts_made": 2,
   "shot_ranges": [
    [
     0.22,
@@ -3171,6 +3171,14 @@
    [
     20.78,
     22.81
+   ],
+   [
+    35.4,
+    37.95
+   ],
+   [
+    38.339999999999996,
+    40.510000000000005
    ]
   ],
   "video_exhausted": true

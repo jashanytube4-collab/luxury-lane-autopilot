@@ -525,6 +525,9 @@
   "fails": 1,
   "video_exhausted": true
  },
+ "hamdan bin mohammed approves aed1 billion in economic incentives during dubai executive council meeting": {
+  "video_exhausted": true
+ },
  "hamdan bin mohammed approves aed18 billion in landmark projects to shape dubai s future": {
   "last_short": "2026-10-05",
   "long": "2026-10-07",
@@ -712,6 +715,9 @@
  "hamdan bin mohammed approves next phase of dubai future solutions initiative": {
   "fails": 1,
   "long": "2026-10-11",
+  "video_exhausted": true
+ },
+ "hamdan bin mohammed approves package of strategic initiatives aimed at strengthening the family s role as the foundation of society": {
   "video_exhausted": true
  },
  "hamdan bin mohammed approves series of strategies aimed at achieving mohammed bin rashid s vision to make dubai the world s best most beautiful and most advanced city": {
@@ -1725,6 +1731,9 @@
  "hamdan bin mohammed bin rashid receives samsung electronics ceo": {
   "video_exhausted": true
  },
+ "hamdan bin mohammed celebrates the flame tree as a symbol of dubai a city full of life and beauty": {
+  "no_hamdan": true
+ },
  "hamdan bin mohammed chairs a meeting of the executive council held at jebel ali port": {
   "no_hamdan": true,
   "video_exhausted": true
@@ -2125,6 +2134,7 @@
    ]
   ]
  },
+ "hamdan bin mohammed highlights dubai s focus on enhancing economic resilience to stay on high growth path": {},
  "hamdan bin mohammed highlights uae s focus on technology as a development enabler during visit to google s dubai offices": {
   "last_short": "2026-10-07",
   "long": "2026-10-07",
@@ -2619,7 +2629,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed launches aed 1billion international space cooperation programme to support space research and development": {
-  "long": "2026-10-07"
+  "long": "2026-10-07",
+  "video_exhausted": true
  },
  "hamdan bin mohammed launches create ai agents championship to inspire transformative ideas for global good": {
   "fails": 2
@@ -3106,6 +3117,9 @@
    ]
   ]
  },
+ "hamdan bin mohammed meets with chairman of accor group": {
+  "video_exhausted": true
+ },
  "hamdan bin mohammed meets with chairman of international cricket council indian cricket stars": {
   "fails": 1,
   "video_exhausted": true
@@ -3117,6 +3131,12 @@
  },
  "hamdan bin mohammed meets with cisco ceo": {
   "video_exhausted": true
+ },
+ "hamdan bin mohammed meets with donors and contributors of edge of life campaign": {
+  "last_short": "2026-10-15",
+  "photo_short": true,
+  "shorts_made": 1,
+  "shot_ranges": []
  },
  "hamdan bin mohammed meets with dubai gov t second line of leadership": {
   "last_short": "2026-10-12",
@@ -4200,7 +4220,7 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed reviews operations and key developments at jebel ali port": {
-  "fails": 1,
+  "fails": 2,
   "last_short": "2026-10-05",
   "long": "2026-10-09",
   "shorts_made": 1,
@@ -4356,6 +4376,9 @@
  },
  "hamdan bin mohammed reviews progress of work on aed2 billion dubai al ain road improvement project": {
   "no_hamdan": true,
+  "video_exhausted": true
+ },
+ "hamdan bin mohammed reviews specialised initiatives and projects undertaken by rta": {
   "video_exhausted": true
  },
  "hamdan bin mohammed reviews strategic plans of dubai civil defense": {
@@ -6022,7 +6045,8 @@
   "long": "2026-10-07",
   "post_photos": [
    0
-  ]
+  ],
+  "video_exhausted": true
  },
  "uae president offers condolences to emir of qatar on passing of sheikh hamad bin khalifa al thani": {
   "video_exhausted": true

@@ -1818,7 +1818,8 @@
   ]
  },
  "hamdan bin mohammed chairs meeting of the higher committee for future technology development and the digital economy": {
-  "long": "2026-10-07"
+  "long": "2026-10-07",
+  "no_hamdan": true
  },
  "hamdan bin mohammed chairs supervisory committee of the mohammed bin rashid leadership medal approves first recipient": {
   "last_short": "2026-10-15",
@@ -4350,6 +4351,9 @@
    ]
   ]
  },
+ "hamdan bin mohammed reviews progress of key initiatives under dubai s education 33 strategy": {
+  "video_exhausted": true
+ },
  "hamdan bin mohammed reviews progress of work on aed2 billion dubai al ain road improvement project": {
   "no_hamdan": true,
   "video_exhausted": true
@@ -4967,7 +4971,11 @@
   ]
  },
  "hamdan bin mohammed visits difc reviews strategic priorities and innovation ambitions": {
-  "long": "2026-10-10"
+  "last_short": "2026-10-15",
+  "long": "2026-10-10",
+  "photo_short": true,
+  "shorts_made": 1,
+  "shot_ranges": []
  },
  "hamdan bin mohammed visits display of origin autonomous vehicle on the sidelines of the world government summit 2022": {
   "last_short": "2026-10-10",
@@ -5522,7 +5530,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed witnesses launch of dubai digital twin platform marking a new milestone in dubai s futuristic journey": {
-  "long": "2026-10-10"
+  "long": "2026-10-10",
+  "video_exhausted": true
  },
  "hamdan bin mohammed witnesses opening of the 27th general conference of the international council of museums": {
   "long": "2026-10-05"

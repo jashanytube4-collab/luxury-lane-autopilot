@@ -1170,7 +1170,11 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends graduation ceremony for ministry of defence personnel completing the future leaders and young leaders empowerment programmes": {
-  "long": "2026-10-06"
+  "last_short": "2026-10-15",
+  "long": "2026-10-06",
+  "photo_short": true,
+  "shorts_made": 1,
+  "shot_ranges": []
  },
  "hamdan bin mohammed attends graduation ceremony of 13th cohort of national defence college": {
   "fails": 1,

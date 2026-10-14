@@ -51,6 +51,27 @@
  "crown prince offers condolences to al adab family": {
   "long": "2026-10-15"
  },
+ "crown prince offers condolences to al mansouri family": {
+  "video_exhausted": true
+ },
+ "crown prince offers condolences to families of martyrs almazroui and dhahoori": {
+  "last_short": "2026-10-15",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    11.639999999999999,
+    18.64
+   ],
+   [
+    29.12,
+    34.720000000000006
+   ],
+   [
+    104.4,
+    109.11999999999999
+   ]
+  ]
+ },
  "dubai crown prince arrives in manama for endurance race": {
   "no_hamdan": true
  },

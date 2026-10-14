@@ -73,6 +73,9 @@
    ]
   ]
  },
+ "dubai cp receives uae flag from sharjah crown prince": {
+  "video_exhausted": true
+ },
  "dubai crown prince arrives in manama for endurance race": {
   "no_hamdan": true
  },
@@ -220,6 +223,9 @@
   "no_hamdan": true,
   "video_exhausted": true
  },
+ "dubai crown prince launches hbmpsg": {
+  "video_exhausted": true
+ },
  "dubai crown prince offers condolences al muhairi family": {
   "last_short": "2026-10-13",
   "long": "2026-10-15",
@@ -239,6 +245,12 @@
   "video_exhausted": true
  },
  "dubai crown prince receives australia s governor general": {
+  "video_exhausted": true
+ },
+ "dubai crown prince receives crown princes and deputy rulers": {
+  "video_exhausted": true
+ },
+ "dubai crown prince receives luxemburg counterpart": {
   "video_exhausted": true
  },
  "dubai crown prince receives president of malta": {
@@ -1715,6 +1727,22 @@
   "fails": 2
  },
  "hamdan bin mohammed chairs executive council meeting approves plans and policies": {
+  "last_short": "2026-10-15",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    3.6,
+    7.879999999999999
+   ],
+   [
+    37.96,
+    42.400000000000006
+   ],
+   [
+    66.60000000000001,
+    74.32
+   ]
+  ],
   "video_exhausted": true
  },
  "hamdan bin mohammed chairs executive council meeting approves series of economic stimulus policies": {
@@ -2280,6 +2308,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed inaugurates dubai fitness challenge": {
+  "video_exhausted": true
+ },
+ "hamdan bin mohammed inaugurates dubai international boat show 2008": {
   "video_exhausted": true
  },
  "hamdan bin mohammed inaugurates dubai world self driving transport exhibition": {
@@ -3838,7 +3869,8 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed receives afc president": {
-  "long": "2026-10-14"
+  "long": "2026-10-14",
+  "video_exhausted": true
  },
  "hamdan bin mohammed receives canadian ambassador": {
   "last_short": "2026-10-14",
@@ -3859,6 +3891,9 @@
   ]
  },
  "hamdan bin mohammed receives chairman of wccd": {
+  "video_exhausted": true
+ },
+ "hamdan bin mohammed receives gold coast mayor": {
   "video_exhausted": true
  },
  "hamdan bin mohammed receives hazza bin zayed in dubai": {
@@ -4455,7 +4490,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed tours gitex 2013": {
-  "long": "2026-10-14"
+  "long": "2026-10-14",
+  "video_exhausted": true
  },
  "hamdan bin mohammed tours gitex global 2022 on its concluding day": {
   "last_short": "2026-10-10",
@@ -5461,6 +5497,15 @@
    ]
   ]
  },
+ "hamdan chairs 1st meeting for higher committee to implement smart city project": {
+  "video_exhausted": true
+ },
+ "hamdan chairs dubai executive council meeting": {
+  "video_exhausted": true
+ },
+ "hamdan chairs expo 2020 higher committee s first session": {
+  "video_exhausted": true
+ },
  "hamdan dubai crown prince visits art dubai": {
   "long": "2026-10-13"
  },
@@ -5478,6 +5523,9 @@
   "video_exhausted": true
  },
  "hamdan inspects al bayt studio": {
+  "video_exhausted": true
+ },
+ "hamdan leads march of loyalty to sheikha hind on mother s day": {
   "video_exhausted": true
  },
  "hamdan offers condolences on death of martyr tareq al shehi": {
@@ -5498,6 +5546,18 @@
    ]
   ]
  },
+ "hamdan provision of housing to emiratis paramount importance to leadership": {
+  "video_exhausted": true
+ },
+ "hamdan receives outgoing saudi s consul general": {
+  "video_exhausted": true
+ },
+ "hamdan receives qatar ambassador": {
+  "video_exhausted": true
+ },
+ "hamdan receives unesco expert": {
+  "video_exhausted": true
+ },
  "hamdan rename hbmeu to become hamdan bin mohammed smart university": {
   "video_exhausted": true
  },
@@ -5515,7 +5575,13 @@
    ]
   ]
  },
+ "hamdan visits dubai world hospitality championship": {
+  "video_exhausted": true
+ },
  "hamdan visits government think tank": {
+  "video_exhausted": true
+ },
+ "hamdan witnesses launch of strategic plan to develop islamic economy sector": {
   "video_exhausted": true
  },
  "in presence of dubai crown prince meraas signs agreement with dubai municipality to manage dubai safari": {
@@ -5688,6 +5754,9 @@
  "mohammad bin salman receives hamdan bin mohammed": {
   "video_exhausted": true
  },
+ "mohammed bin rashid and hamdan bin mohammed visits dubai motor show": {
+  "video_exhausted": true
+ },
  "mohammed bin rashid attends 29th dubai world cup": {
   "last_short": "2026-10-07",
   "shorts_made": 1,
@@ -5729,6 +5798,9 @@
  "mohammed bin rashid commends the dubai executive council s efforts over the past 15 years": {
   "video_exhausted": true
  },
+ "mohammed bin zayed receives uae flag from hamdan bin mohammed": {
+  "video_exhausted": true
+ },
  "partnership between community government the foundation of enhancing government services hamdan bin mohammed": {
   "video_exhausted": true
  },
@@ -5757,6 +5829,9 @@
     21.069999999999997
    ]
   ],
+  "video_exhausted": true
+ },
+ "president receives hamdan and maktoum bin mohammed": {
   "video_exhausted": true
  },
  "queen elizabeth honors hamdan on winning windsor royal endurance race": {

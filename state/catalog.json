@@ -355,6 +355,9 @@
  "hamdan approves dubai innovation strategy": {
   "video_exhausted": true
  },
+ "hamdan approves medical tourism strategy": {
+  "video_exhausted": true
+ },
  "hamdan attends al kharbash wedding": {
   "long": "2026-10-15",
   "video_exhausted": true
@@ -364,6 +367,9 @@
  },
  "hamdan attends camel races festival": {
   "long": "2026-10-13"
+ },
+ "hamdan attends dubai smart city first meeting": {
+  "video_exhausted": true
  },
  "hamdan attends last day of the final annual camel races festival": {
   "long": "2026-10-13"
@@ -792,6 +798,9 @@
   ]
  },
  "hamdan bin mohammed attends ai everything conference": {
+  "video_exhausted": true
+ },
+ "hamdan bin mohammed attends al amri wedding": {
   "video_exhausted": true
  },
  "hamdan bin mohammed attends al marmoom heritage festival": {
@@ -5455,6 +5464,9 @@
  "hamdan dubai crown prince visits art dubai": {
   "long": "2026-10-13"
  },
+ "hamdan dubai s a global center for sukuk listing": {
+  "video_exhausted": true
+ },
  "hamdan honors final day winners of al marmoum festival": {
   "long": "2026-10-13"
  },
@@ -5463,6 +5475,12 @@
   "video_exhausted": true
  },
  "hamdan inaugurates makani smart app": {
+  "video_exhausted": true
+ },
+ "hamdan inspects al bayt studio": {
+  "video_exhausted": true
+ },
+ "hamdan offers condolences on death of martyr tareq al shehi": {
   "video_exhausted": true
  },
  "hamdan officially opens 19th edition of dubai world cup": {
@@ -5477,6 +5495,23 @@
    [
     56.936,
     63.608000000000004
+   ]
+  ]
+ },
+ "hamdan rename hbmeu to become hamdan bin mohammed smart university": {
+  "video_exhausted": true
+ },
+ "hamdan reveals dubai government towards 2021 initiative": {
+  "last_short": "2026-10-15",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    32.68666666666667,
+    45.28
+   ],
+   [
+    49.32,
+    59.74666666666667
    ]
   ]
  },

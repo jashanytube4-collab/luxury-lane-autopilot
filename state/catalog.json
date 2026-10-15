@@ -607,8 +607,8 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed approves dubai marine transport master plan 2030": {
-  "last_short": "2026-10-09",
-  "shorts_made": 1,
+  "last_short": "2026-10-16",
+  "shorts_made": 2,
   "shot_ranges": [
    [
     0.22,
@@ -629,6 +629,14 @@
    [
     32.75333333333333,
     34.69666666666667
+   ],
+   [
+    28.086666666666666,
+    32.413333333333334
+   ],
+   [
+    41.85333333333333,
+    51.513333
    ]
   ]
  },

@@ -2691,7 +2691,11 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed launches dubai founders hq to consolidate and strengthen dubai s startup and sme ecosystem": {
-  "long": "2026-10-05"
+  "last_short": "2026-10-15",
+  "long": "2026-10-05",
+  "photo_short": true,
+  "shorts_made": 1,
+  "shot_ranges": []
  },
  "hamdan bin mohammed launches dubai future readiness index": {
   "last_short": "2026-10-10",
@@ -3184,6 +3188,12 @@
  },
  "hamdan bin mohammed meets with cisco ceo": {
   "video_exhausted": true
+ },
+ "hamdan bin mohammed meets with co founder and ceo of colossal biosciences": {
+  "rejected": {
+   "reason": "fans would not love it",
+   "score": 5
+  }
  },
  "hamdan bin mohammed meets with donors and contributors of edge of life campaign": {
   "last_short": "2026-10-15",

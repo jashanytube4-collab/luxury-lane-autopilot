@@ -718,7 +718,8 @@
   "post_photos": [
    0,
    2
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed approves new urban planning model for residential areas in dubai": {
   "video_exhausted": true
@@ -1277,6 +1278,7 @@
  "hamdan bin mohammed attends graduation of government policies experts": {
   "video_exhausted": true
  },
+ "hamdan bin mohammed attends graduation of the second cohort of dubai future foundation s lead design program": {},
  "hamdan bin mohammed attends graduation of the second cohort of zayed military university": {
   "video_exhausted": true
  },
@@ -1677,6 +1679,7 @@
   "long": "2026-10-08",
   "video_exhausted": true
  },
+ "hamdan bin mohammed attends the opening of asia pacific cities summit and mayors forum at expo city dubai": {},
  "hamdan bin mohammed attends the opening of the inaugural edition of the dubai ai web3 festival": {
   "fails": 1,
   "long": "2026-10-13",
@@ -2059,6 +2062,9 @@
     53.696667000000005
    ]
   ],
+  "video_exhausted": true
+ },
+ "hamdan bin mohammed directs dubai police to further enhance efforts to become the world s leading police force in harnessing technology and ai": {
   "video_exhausted": true
  },
  "hamdan bin mohammed directs government entities to intensify efforts to support private sector growth": {
@@ -3173,7 +3179,8 @@
  "hamdan bin mohammed meets with chief ai officers of government entitie": {
   "post_photos": [
    1
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed meets with cisco ceo": {
   "video_exhausted": true
@@ -3256,6 +3263,9 @@
     40.510000000000005
    ]
   ],
+  "video_exhausted": true
+ },
+ "hamdan bin mohammed meets with golf superstar rory mcilroy": {
   "video_exhausted": true
  },
  "hamdan bin mohammed meets with graduates of the executive program in government communication": {
@@ -4032,6 +4042,9 @@
  "hamdan bin mohammed receives chairman of wccd": {
   "video_exhausted": true
  },
+ "hamdan bin mohammed receives founders and ceos of indian unicorn companies": {
+  "no_hamdan": true
+ },
  "hamdan bin mohammed receives gold coast mayor": {
   "video_exhausted": true
  },
@@ -4079,6 +4092,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed receives head of chechen republic": {
+  "video_exhausted": true
+ },
+ "hamdan bin mohammed receives his highness the president s hot air balloon team": {
   "video_exhausted": true
  },
  "hamdan bin mohammed receives mourners on death of mansour bin ahmed": {
@@ -4527,7 +4543,8 @@
   "post_photos": [
    2,
    0
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed says dubai is taking off again": {
   "video_exhausted": true
@@ -4657,7 +4674,11 @@
  },
  "hamdan bin mohammed tours expand north star 2025 the world s largest gathering for startups and investors": {
   "fails": 1,
+  "last_short": "2026-10-15",
   "long": "2026-10-05",
+  "photo_short": true,
+  "shorts_made": 1,
+  "shot_ranges": [],
   "video_exhausted": true
  },
  "hamdan bin mohammed tours gitex 2013": {
@@ -5649,7 +5670,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed witnesses opening of the 27th general conference of the international council of museums": {
-  "long": "2026-10-05"
+  "long": "2026-10-05",
+  "video_exhausted": true
  },
  "hamdan bin mohammed witnesses the bahrain shield joint military exercise": {
   "last_short": "2026-10-15",
@@ -5997,6 +6019,9 @@
   "video_exhausted": true
  },
  "mohammed bin zayed receives uae flag from hamdan bin mohammed": {
+  "video_exhausted": true
+ },
+ "on behalf of the uae president hamdan bin mohammed attends azerbaijan s victory day celebrations": {
   "video_exhausted": true
  },
  "partnership between community government the foundation of enhancing government services hamdan bin mohammed": {

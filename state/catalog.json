@@ -1898,6 +1898,9 @@
   "shorts_made": 1,
   "shot_ranges": []
  },
+ "hamdan bin mohammed chairs third defence council meeting of 2025": {
+  "video_exhausted": true
+ },
  "hamdan bin mohammed chairs virtual meeting of executive council": {
   "last_short": "2026-10-10",
   "long": "2026-10-14",
@@ -2449,7 +2452,8 @@
   "long": "2026-10-08",
   "post_photos": [
    2
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed inaugurates new generation bus stations at al ghubaiba": {
   "last_short": "2026-10-11",
@@ -3978,6 +3982,12 @@
   "long": "2026-10-13",
   "video_exhausted": true
  },
+ "hamdan bin mohammed opens first international campus of indian institute of management ahmedabad at dubai international academic city": {
+  "last_short": "2026-10-16",
+  "photo_short": true,
+  "shorts_made": 1,
+  "shot_ranges": []
+ },
  "hamdan bin mohammed opens gitex tech week 2017": {
   "last_short": "2026-10-14",
   "long": "2026-10-14",
@@ -5253,6 +5263,9 @@
     79.44
    ]
   ]
+ },
+ "hamdan bin mohammed visits dubai civil defense directs it to achieve the highest global benchmarks in community protection": {
+  "video_exhausted": true
  },
  "hamdan bin mohammed visits dubai customs emphasises sustained efforts to reinforce dubai s status as a global trade hub": {
   "no_hamdan": true

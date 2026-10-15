@@ -868,6 +868,9 @@
    ]
   ]
  },
+ "hamdan bin mohammed attends annual meeting of global future leaders 2026 in dubai": {
+  "video_exhausted": true
+ },
  "hamdan bin mohammed attends camel race festival": {
   "long": "2026-10-13"
  },
@@ -3433,6 +3436,9 @@
    ]
   ]
  },
+ "hamdan bin mohammed meets with president and ceo of the world economic forum": {
+  "video_exhausted": true
+ },
  "hamdan bin mohammed meets with the armenian defence minister on the sidelines of the dubai airshow": {
   "post_photos": [
    0,
@@ -4225,7 +4231,11 @@
  },
  "hamdan bin mohammed reviews newly completed air taxi station near dubai international airport the first facility of its kind in the world": {
   "fails": 1,
+  "last_short": "2026-10-15",
   "long": "2026-10-09",
+  "photo_short": true,
+  "shorts_made": 1,
+  "shot_ranges": [],
   "video_exhausted": true
  },
  "hamdan bin mohammed reviews operations and key developments at jebel ali port": {

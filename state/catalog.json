@@ -417,6 +417,9 @@
   "long": "2026-10-14",
   "video_exhausted": true
  },
+ "hamdan bin mohammed and kuwait s defence minister attend uae kuwait media forum": {
+  "video_exhausted": true
+ },
  "hamdan bin mohammed and maktoum bin mohammed meet dubai s top performing high school students": {
   "last_short": "2026-10-10",
   "shorts_made": 1,
@@ -683,8 +686,12 @@
    ]
   ]
  },
+ "hamdan bin mohammed approves launch of three new projects under dubai 10x initiative": {
+  "video_exhausted": true
+ },
  "hamdan bin mohammed approves master plan to develop umm suqeim beach as one of a kind global attraction": {
-  "long": "2026-10-11"
+  "long": "2026-10-11",
+  "video_exhausted": true
  },
  "hamdan bin mohammed approves mbz sat for launch": {
   "last_short": "2026-10-08",
@@ -1168,6 +1175,9 @@
    ]
   ]
  },
+ "hamdan bin mohammed attends graduation ceremony at the dubai police academy": {
+  "video_exhausted": true
+ },
  "hamdan bin mohammed attends graduation ceremony at zayed ii military college in al ain": {
   "fails": 1,
   "video_exhausted": true
@@ -1253,7 +1263,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends graduation ceremony of the 26th cohort of the rashid bin saeed al maktoum naval college": {
-  "long": "2026-10-06"
+  "long": "2026-10-06",
+  "no_hamdan": true
  },
  "hamdan bin mohammed attends graduation of government policies experts": {
   "video_exhausted": true
@@ -1464,7 +1475,8 @@
  "hamdan bin mohammed attends peace shield 2026 joint military exercise between uae and azerbaijan": {
   "post_photos": [
    5
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed attends safeguarding endangered cultural heritage conference": {
   "long": "2026-10-13",
@@ -1651,7 +1663,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends the mohammed bin rashid al maktoum international sports award on opening day of world sports summit": {
-  "long": "2026-10-08"
+  "long": "2026-10-08",
+  "video_exhausted": true
  },
  "hamdan bin mohammed attends the opening of the inaugural edition of the dubai ai web3 festival": {
   "fails": 1,
@@ -2264,6 +2277,9 @@
     247.48
    ]
   ]
+ },
+ "hamdan bin mohammed honours winners of the 6th arab hope makers initiative in dubai": {
+  "no_hamdan": true
  },
  "hamdan bin mohammed inaugurates 8th edition of cybertech global in dubai": {
   "last_short": "2026-10-11",
@@ -3178,10 +3194,12 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed meets with elon musk affirms the uae and dubai s vision to foster technology partnerships for greater good": {
-  "long": "2026-10-05"
+  "long": "2026-10-05",
+  "video_exhausted": true
  },
  "hamdan bin mohammed meets with fifa president on the sidelines of the world sports summit in dubai": {
-  "long": "2026-10-08"
+  "long": "2026-10-08",
+  "video_exhausted": true
  },
  "hamdan bin mohammed meets with first cohort of graduates from the hamdan bin mohammed scholarship programme": {
   "video_exhausted": true
@@ -3307,6 +3325,9 @@
   ],
   "video_exhausted": true
  },
+ "hamdan bin mohammed meets with kuwait s minister of defence": {
+  "video_exhausted": true
+ },
  "hamdan bin mohammed meets with local dignitaries and senior officials at nad al sheba majlis": {
   "last_short": "2026-10-07",
   "long": "2026-10-05",
@@ -3381,10 +3402,14 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed meets with more than 200 local dignitaries and families from deira": {
+  "last_short": "2026-10-15",
+  "photo_short": true,
   "post_photos": [
    4,
    0
-  ]
+  ],
+  "shorts_made": 1,
+  "shot_ranges": []
  },
  "hamdan bin mohammed meets with participants of dubai leadership camp": {
   "last_short": "2026-10-10",
@@ -3961,6 +3986,9 @@
  "hamdan bin mohammed participates in king abdulaziz camel festival finale": {
   "no_hamdan": true
  },
+ "hamdan bin mohammed presents indian teacher rouble nagi with global teacher prize 2026 at the world governments summit": {
+  "video_exhausted": true
+ },
  "hamdan bin mohammed receives afc president": {
   "long": "2026-10-14",
   "video_exhausted": true
@@ -4191,6 +4219,7 @@
  "hamdan bin mohammed reviews dubai future foundation s 2018 plan and projects": {
   "video_exhausted": true
  },
+ "hamdan bin mohammed reviews dubai health s major achievements and ongoing initiatives": {},
  "hamdan bin mohammed reviews final preparations as hope probe enters the most critical phase of its journey": {
   "last_short": "2026-10-11",
   "shorts_made": 1,
@@ -4220,6 +4249,9 @@
     36.830000000000005
    ]
   ]
+ },
+ "hamdan bin mohammed reviews jumeirah beach 1 development project underscores role of public beaches in enhancing quality of life": {
+  "video_exhausted": true
  },
  "hamdan bin mohammed reviews khda s preparations for the new school year": {
   "no_hamdan": true,
@@ -6003,6 +6035,9 @@
  "second village under rashid villages initiative to be launched in zanzibar marking 11th anniversary of sheikh rashid bin mohammed s passing": {
   "no_hamdan": true
  },
+ "seventh edition of dubai games to begin on 12 february": {
+  "no_hamdan": true
+ },
  "sheikh hamdan attends camel race festival": {
   "long": "2026-10-13"
  },
@@ -6073,6 +6108,9 @@
   ],
   "video_exhausted": true
  },
+ "uae president attends graduation ceremony at zayed ii military college in al ain": {
+  "video_exhausted": true
+ },
  "uae president offers condolences to emir of qatar on passing of sheikh hamad bin khalifa al thani": {
   "video_exhausted": true
  },
@@ -6108,6 +6146,9 @@
     42.730000000000004
    ]
   ],
+  "video_exhausted": true
+ },
+ "uae president visits ministry of defence": {
   "video_exhausted": true
  },
  "umm al qaiwain ruler performs funeral prayer on late sheikh mansour bin ahmad bin ali al thani": {

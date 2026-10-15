@@ -996,11 +996,15 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends dubai future forum 2025": {
+  "last_short": "2026-10-15",
   "long": "2026-10-10",
+  "photo_short": true,
   "post_photos": [
    3,
    5
-  ]
+  ],
+  "shorts_made": 1,
+  "shot_ranges": []
  },
  "hamdan bin mohammed attends dubai international health tourism forum": {
   "video_exhausted": true
@@ -4647,6 +4651,9 @@
     64.36333333333333
    ]
   ]
+ },
+ "hamdan bin mohammed tours dubai airshow 2025": {
+  "video_exhausted": true
  },
  "hamdan bin mohammed tours expand north star 2025 the world s largest gathering for startups and investors": {
   "fails": 1,

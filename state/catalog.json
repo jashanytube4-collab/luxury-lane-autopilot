@@ -2122,6 +2122,9 @@
  "hamdan bin mohammed directs launch of second edition of dubai mallathon": {
   "video_exhausted": true
  },
+ "hamdan bin mohammed directs the launch of dubai proptech hub": {
+  "video_exhausted": true
+ },
  "hamdan bin mohammed dubai delivers government service excellence through a unified model that makes a tangible impact on people s lives": {
   "post_photos": [
    2,
@@ -3431,9 +3434,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed meets with local dignitaries and senior officials at nad al sheba majlis": {
-  "last_short": "2026-10-07",
+  "last_short": "2026-10-16",
   "long": "2026-10-05",
-  "shorts_made": 1,
+  "shorts_made": 2,
   "shot_ranges": [
    [
     18.12,
@@ -3454,6 +3457,18 @@
    [
     28.686666666666667,
     30.896666666666665
+   ],
+   [
+    20.153333333333336,
+    23.13
+   ],
+   [
+    49.019999999999996,
+    50.49666666666667
+   ],
+   [
+    54.88666666666666,
+    56.36333333333334
    ]
   ],
   "video_exhausted": true
@@ -6322,6 +6337,9 @@
    1
   ],
   "video_exhausted": true
+ },
+ "uae president receives us president trump in official ceremony at qasr al watan": {
+  "no_hamdan": true
  },
  "uae president takes etihad rail to dubai hamdan bin mohammed bin rashid theyab bin mohamed bin zayed open station": {
   "fails": 2,

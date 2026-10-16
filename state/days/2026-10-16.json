@@ -101,23 +101,26 @@
   },
   {
    "at": "2026-10-16T16:30:18+04:00",
-   "status": "open",
+   "status": "missed",
    "type": "short"
   },
   {
    "at": "2026-10-16T17:11:28+04:00",
-   "status": "open",
+   "status": "missed",
    "type": "short"
   },
   {
    "at": "2026-10-16T17:53:31+04:00",
-   "status": "open",
+   "status": "missed",
    "type": "short"
   },
   {
    "at": "2026-10-16T18:42:54+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "hamdan bin mohammed inspects wadi al amardi housing project approves aed2 billion housing package",
+   "status": "scheduled",
+   "title": "Fazza Approves 2B Housing Package 🏡",
+   "type": "short",
+   "video_id": "N2dZC0BCeQs"
   },
   {
    "at": "2026-10-16T19:09:08+04:00",

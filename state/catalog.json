@@ -1903,7 +1903,8 @@
   "post_photos": [
    0,
    3
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed chairs meeting of the higher committee for future technology development and the digital economy": {
   "long": "2026-10-07",
@@ -5041,8 +5042,8 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed visits al dhafra air base in abu dhabi": {
-  "last_short": "2026-10-07",
-  "shorts_made": 1,
+  "last_short": "2026-10-16",
+  "shorts_made": 2,
   "shot_ranges": [
    [
     3.4533333333333336,
@@ -5063,6 +5064,14 @@
    [
     31.253333333333337,
     32.96333333333334
+   ],
+   [
+    24.720000000000002,
+    26.46333333333333
+   ],
+   [
+    26.853333333333335,
+    28.93
    ]
   ],
   "video_exhausted": true

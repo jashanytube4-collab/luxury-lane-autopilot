@@ -1806,7 +1806,19 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed chairs defence council meeting": {
+  "last_short": "2026-10-16",
   "long": "2026-10-14",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    45.05645833333333,
+    46.96041666666667
+   ],
+   [
+    47.35041666666666,
+    50.46391666666667
+   ]
+  ],
   "video_exhausted": true
  },
  "hamdan bin mohammed chairs executive council meeting": {

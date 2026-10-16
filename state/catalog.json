@@ -733,6 +733,9 @@
   ],
   "video_exhausted": true
  },
+ "hamdan bin mohammed approves new policies to boost education and environmental standards in dubai": {
+  "video_exhausted": true
+ },
  "hamdan bin mohammed approves new urban planning model for residential areas in dubai": {
   "video_exhausted": true
  },
@@ -2131,6 +2134,12 @@
     24.096666666666664
    ]
   ]
+ },
+ "hamdan bin mohammed explores future of space sector with leading uae based startups": {
+  "last_short": "2026-10-16",
+  "photo_short": true,
+  "shorts_made": 1,
+  "shot_ranges": []
  },
  "hamdan bin mohammed extends condolences to a lghurair family": {
   "last_short": "2026-10-14",
@@ -6280,7 +6289,8 @@
   "post_photos": [
    3,
    1
-  ]
+  ],
+  "video_exhausted": true
  },
  "uae president takes etihad rail to dubai hamdan bin mohammed bin rashid theyab bin mohamed bin zayed open station": {
   "fails": 2,
@@ -6312,6 +6322,7 @@
   "video_exhausted": true
  },
  "uae president visits ministry of defence": {
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "umm al qaiwain ruler performs funeral prayer on late sheikh mansour bin ahmad bin ali al thani": {

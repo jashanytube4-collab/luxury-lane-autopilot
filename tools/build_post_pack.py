@@ -188,12 +188,13 @@ def nice_title(t: str) -> str:
 
 
 def natural_times(rng: random.Random, n: int = 5) -> list[int]:
-    """n posting minutes for one day, like a person posts: any minute (not :00/:15/:30), uneven gaps of 70+ minutes,
-    a different first and last post every day."""
+    """n posting minutes for one day, spread like a person posts: YouTube's scheduler only offers quarter-hours, so
+    varied quarter-hours with uneven gaps (75+ minutes, never the same pattern), different first and last post."""
     while True:
-        start, end = rng.randint(7 * 60 + 5, 9 * 60 + 40), rng.randint(21 * 60 + 10, 23 * 60 + 25)
-        times = sorted(rng.sample(range(start, end), n))
-        if all(b - a >= 70 for a, b in zip(times, times[1:])) and all(t % 15 for t in times):
+        start, end = rng.randrange(7 * 60, 10 * 60, 15), rng.randrange(21 * 60, 23 * 60 + 31, 15)
+        times = sorted(rng.sample(range(start, end + 1, 15), n))
+        gaps = [b - a for a, b in zip(times, times[1:])]
+        if min(gaps) >= 75 and len(set(gaps)) >= n - 2:
             return times
 
 

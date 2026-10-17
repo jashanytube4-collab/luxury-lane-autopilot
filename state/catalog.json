@@ -2454,6 +2454,12 @@
  "hamdan bin mohammed honours winners of the 6th arab hope makers initiative in dubai": {
   "no_hamdan": true
  },
+ "hamdan bin mohammed honours winners of the global prompt engineering championship 2025 during dubai ai week": {
+  "last_short": "2026-10-17",
+  "photo_short": true,
+  "shorts_made": 1,
+  "shot_ranges": []
+ },
  "hamdan bin mohammed inaugurates 8th edition of cybertech global in dubai": {
   "last_short": "2026-10-11",
   "long": "2026-10-14",
@@ -5772,7 +5778,8 @@
   ]
  },
  "hamdan bin mohammed visits the dubai ai festival": {
-  "long": "2026-10-13"
+  "long": "2026-10-13",
+  "video_exhausted": true
  },
  "hamdan bin mohammed visits the dubai future foundation headquarters and reviews 10x projects": {
   "last_short": "2026-10-14",

@@ -103,17 +103,17 @@
   },
   {
    "at": "2026-10-17T16:57:43+04:00",
-   "status": "open",
+   "status": "missed",
    "type": "short"
   },
   {
    "at": "2026-10-17T17:43:17+04:00",
-   "status": "open",
+   "status": "missed",
    "type": "short"
   },
   {
    "at": "2026-10-17T18:31:46+04:00",
-   "status": "open",
+   "status": "missed",
    "type": "short"
   },
   {
@@ -126,43 +126,86 @@
   },
   {
    "at": "2026-10-17T19:25:20+04:00",
-   "status": "open",
+   "status": "missed",
    "type": "short"
   },
   {
    "at": "2026-10-17T20:08:41+04:00",
-   "status": "open",
+   "status": "missed",
    "type": "short"
   },
   {
    "at": "2026-10-17T20:49:12+04:00",
-   "status": "open",
+   "status": "missed",
    "type": "short"
   },
   {
-   "at": "2026-10-17T21:37:19+04:00",
+   "at": "2026-10-17T21:00:00+04:00",
    "status": "open",
+   "type": "members"
+  },
+  {
+   "at": "2026-10-17T21:01:00+04:00",
+   "status": "open",
+   "type": "members"
+  },
+  {
+   "at": "2026-10-17T21:02:00+04:00",
+   "status": "open",
+   "type": "members"
+  },
+  {
+   "at": "2026-10-17T21:03:00+04:00",
+   "status": "open",
+   "type": "members"
+  },
+  {
+   "at": "2026-10-17T21:04:00+04:00",
+   "status": "open",
+   "type": "members"
+  },
+  {
+   "at": "2026-10-17T21:05:00+04:00",
+   "status": "open",
+   "type": "members"
+  },
+  {
+   "at": "2026-10-17T21:06:00+04:00",
+   "status": "open",
+   "type": "members"
+  },
+  {
+   "at": "2026-10-17T21:07:00+04:00",
+   "status": "open",
+   "type": "members"
+  },
+  {
+   "at": "2026-10-17T21:37:19+04:00",
+   "status": "missed",
    "type": "short"
   },
   {
    "at": "2026-10-17T22:31:38+04:00",
-   "status": "open",
+   "status": "missed",
    "type": "short"
   },
   {
    "at": "2026-10-17T23:18:59+04:00",
-   "status": "open",
+   "status": "missed",
    "type": "short"
   },
   {
    "at": "2026-10-18T00:08:17+04:00",
-   "status": "open",
+   "status": "missed",
    "type": "short"
   },
   {
    "at": "2026-10-18T00:47:17+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "ig:faz3:18062756032958079",
+   "status": "scheduled",
+   "title": "A gentleman in every moment. #fazza #youtubeshorts #youtube",
+   "type": "short",
+   "video_id": "zF6OgcqENew"
   },
   {
    "at": "2026-10-18T01:31:17+04:00",

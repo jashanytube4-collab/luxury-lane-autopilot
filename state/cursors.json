@@ -320,7 +320,12 @@
   "ll0ef7fb083d",
   "lldc79f0e817",
   "lld0523b41b0",
-  "story:real-days"
+  "story:real-days",
+  "lled128d96ce",
+  "ll8b12454717",
+  "llaaf5002dc9",
+  "ll156b970fcc",
+  "ll316eecc14f"
  ],
  "quotes": [
   {
@@ -420,10 +425,16 @@
    "text": "Dubai is a global hub for turning future opportunities into tangible outcomes that benefit communities and improve people's lives.",
    "title": "Hamdan bin Mohammed witnesses launch of the ...",
    "used": ""
+  },
+  {
+   "id": "d9026364c226",
+   "link": "https://www.mediaoffice.ae/en/news/2026/october/17-10/hamdan-bin-mohammed-offers-sws-dubai-it-award",
+   "text": "Who would have imagined that one of the world’s largest snowboard manufacturing operations would emerge from a city that was once desert?",
+   "title": "Hamdan bin Mohammed announces SWS Board ...",
+   "used": ""
   }
  ],
  "recent_hooks": [
-  "PURE VISION | Prince Hamdan Chose 25 Projects To Change The World 💙",
   "NO ONE CARRIES IT LIKE HIM | Dubai's Crown Prince 👑 #princehamdan #faz3 #royalfamily #dubai #shorts",
   "QUIET POWER | The Most Loved Prince 💫 #sheikhhamdan #fazza #royals #dubaicrownprince #shorts",
   "NO ONE CARRIES IT LIKE HIM | Fazza With His People 👑 #fazza #sheikhhamdan #crownprince #uae #shorts",
@@ -482,7 +493,8 @@
   "FAZZA INSPECTS | Prince Hamdan Watches Defense Briefing With Pride 🛡️",
   "Fazza Builds Bridges | Prince Hamdan Walks Through Arab Travel Market 🤍",
   "FAZZA HONORS TALENT | Prince Hamdan Honors Future Tech Masters 🤍",
-  "HE INSPECTED THIS | Fazza Inspects 250k Meals For The Sky 🍽️"
+  "HE INSPECTED THIS | Fazza Inspects 250k Meals For The Sky 🍽️",
+  "THE MAN BEHIND THE TITLE | A gentleman in every moment. #fazza #youtubeshorts #youtube"
  ],
  "recent_titles": [
   "Prince Hamdan's Humble Side 🥀 #faz3 #fazza #dubai #princehamdan #ytshorts",
@@ -569,7 +581,8 @@
   "Prince Hamdan Watches Defense Briefing With Pride 🛡️",
   "Prince Hamdan Walks Through Arab Travel Market 🤍",
   "Prince Hamdan Honors Future Tech Masters 🤍",
-  "Fazza Inspects 250k Meals For The Sky 🍽️"
+  "Fazza Inspects 250k Meals For The Sky 🍽️",
+  "A gentleman in every moment. #fazza #youtubeshorts #youtube"
  ],
  "stories_done": [
   "flydubai-hero",

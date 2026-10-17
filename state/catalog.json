@@ -295,8 +295,8 @@
   "video_exhausted": true
  },
  "dubai crown prince reviews preparations for emirates mars mission": {
-  "last_short": "2026-10-10",
-  "shorts_made": 1,
+  "last_short": "2026-10-17",
+  "shorts_made": 2,
   "shot_ranges": [
    [
     4.22,
@@ -305,6 +305,14 @@
    [
     10.139999999999999,
     12.91
+   ],
+   [
+    20.560000000000002,
+    27.88
+   ],
+   [
+    60.199999999999996,
+    68.97999999999999
    ]
   ]
  },
@@ -4177,7 +4185,8 @@
     8.84,
     13.74
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed opens salem medical fitness smart centre": {
   "last_short": "2026-10-11",
@@ -5868,7 +5877,8 @@
     18.140000000000004,
     19.79
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed visits wipro s apmea headquarters in dubai": {
   "long": "2026-10-14",

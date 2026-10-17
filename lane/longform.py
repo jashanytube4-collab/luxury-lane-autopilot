@@ -219,7 +219,8 @@ def _shot(it: Item, dur: float, rng: random.Random) -> Shot:
 
 def _chapter_shots(pool: list[Item], seconds: float, rng: random.Random, reserve: list[Item],
                    used: list[Item], pace: tuple[float, float] = (3.6, 5.8),
-                   still: tuple[float, float] = (4.4, 5.6), photo_every: int = 4) -> list[Shot]:
+                   still: tuple[float, float] = (4.4, 5.6), photo_every: int = 4,
+                   again: list[Item] | None = None) -> list[Shot]:
     """Fill `seconds` with this chapter's footage intercut with photos, each shown once. When the chapter runs short,
     shots stay on screen longer and extra footage of him from the reserve is used; repeating is the very last resort."""
     shots: list[Shot] = []
@@ -240,7 +241,10 @@ def _chapter_shots(pool: list[Item], seconds: float, rng: random.Random, reserve
                     reserve.remove(vid)
                     pool.append(vid)
         it = _take(pool, want) or _take(pool)
-        if it is None:
+        if it is None and again:                        # out of new pictures: this sentence's own clip again,
+            it = again[k % len(again)]                  # never something off-topic
+            log.info("sentence shows its own clip again: %s", Path(it.src).name)
+        elif it is None:
             it = used.pop(0)                            # nothing new left anywhere: the oldest picture comes back
             used.append(it)
             log.warning("episode ran out of new footage; re-using %s", Path(it.src).name)

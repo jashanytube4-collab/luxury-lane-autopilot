@@ -410,10 +410,13 @@ def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int)
                     later = {id(it) for (i2, per) in beat_pools.items() for j2, bp in enumerate(per)
                              if (i2, j2) > (i, j) for it in bp}
                     same = [it for it in pool if it not in used and it not in own and id(it) not in later]
-                    reserve = same + [it for it in borrow(i) if id(it) not in later and it not in same]
+                    # a sentence with its own clip never borrows another topic: it shows more of its own clip;
+                    # only a sentence with nothing of its own may use the nearest parts of the story
+                    reserve = same if (own or same) else [it for it in borrow(i) if id(it) not in later]
+                    mine = list(beat_pools.get(i, [[]] * len(spans))[j])
                     fast = (2.0, 2.8) if i == 0 else (2.6, 4.0)
                     bshots += _chapter_shots(own, rest, rng, reserve, used, pace=fast, still=(3.0, 4.2),
-                                             photo_every=0)
+                                             photo_every=0, again=mine)
                 for p in pools:
                     p[:] = [it for it in p if it not in used]
                 for per in beat_pools.values():

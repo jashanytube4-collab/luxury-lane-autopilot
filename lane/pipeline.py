@@ -163,10 +163,15 @@ class Runner:
     # ---- long-form ------------------------------------------------------------------------------------
     def fill_long(self, day, slot: dict, plan: dict) -> bool:
         forced = os.environ.get("TEST_STORY", "").strip() if self.args.dry_run else ""
+        ready_only = bool(self.cfg.get("story", {}).get("ready_only", False))
         story = (next((x for x in story_bank() if x.id == forced), None) if forced
-                 else next_story(self.state.cursors.get("stories_done", [])))
+                 else next_story(self.state.cursors.get("stories_done", []), ready_only))
         if story is not None:
             return self.fill_story(day, slot, plan, story)
+        if ready_only:      # quality first: no long video rather than one below the standard
+            self.report.note("No approved story is ready, so no long video for this slot "
+                             "(stories need exact clips for every sentence and ready: true)")
+            return True
         if self.cfg.get("story", {}).get("auto", True):   # bank used up: a fresh topic found and written automatically
             try:
                 found = auto_story(self.brain, self.studio, self.events, self.usage, self.state.cursors, day, self.cfg)

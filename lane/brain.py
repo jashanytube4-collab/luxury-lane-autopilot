@@ -495,7 +495,7 @@ ROLES = {
 }
 THUMB_WORDS = ["WHAT HE DID NEXT", "NOBODY EXPECTED THIS", "THE REAL STORY", "WATCH WHAT HAPPENED", "HE DID THIS",
                "THE SIDE YOU NEVER SEE", "WHY HE DID IT"]
-HOOK_END = " If you love true stories about Prince Hamdan, like this video and subscribe. Let's begin."
+HOOK_END = " Let's begin."      # the one request to comment and subscribe comes at the very end, never twice
 OUTRO_END = (" What do you think about this side of Fazza? Write it in the comments, we read every one. And if you "
              "enjoyed this story, like the video and subscribe to The Luxury Lane for more true stories about "
              "Prince Hamdan. See you next time.")
@@ -579,7 +579,7 @@ def write_story(brain: "Brain", label: str, sources: list[dict], background: lis
         picked = [facts[i - 1] for i in b.get("facts", []) if 1 <= i <= len(facts)] or facts[:2]
         roles.append((ROLES["beat"].format(beat=clean(b.get("beat"))), picked))
     roles.append((ROLES["outro"], facts[-2:]))
-    parts, earlier, used_names = [], [], set()
+    parts, part_facts_out, earlier, used_names = [], [], [], set()
     for i, (role, part_facts) in enumerate(roles):
         bg = f"- {bg_pool.pop(0)}" if i in (2, 5) and bg_pool else "(none needed)"
         words = 120 if i in (0, len(roles) - 1) else 175
@@ -601,10 +601,12 @@ def write_story(brain: "Brain", label: str, sources: list[dict], background: lis
         if i == len(roles) - 1:
             text += OUTRO_END
         parts.append(text)
+        part_facts_out.append(list(part_facts))
     if sum(_words(p) for p in parts) < 1250:
         raise BrainError("story too short for an 8-minute episode")
     return {"title": title, "description": clean(plan.get("description")),
             "thumbnail": {"text": random.choice(THUMB_WORDS),
                           "tag": " ".join(clean(plan.get("thumbnail_tag")).upper().split()[:2])[:16]},
             "tags": [clean(t)[:60] for t in plan.get("tags") or [] if clean(t)][:15],
-            "keywords": [clean(k) for k in plan.get("keywords") or [] if clean(k)][:6], "parts": parts}
+            "keywords": [clean(k) for k in plan.get("keywords") or [] if clean(k)][:6], "parts": parts,
+            "part_facts": part_facts_out}

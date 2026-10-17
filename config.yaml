@@ -46,6 +46,7 @@ story:                               # long-form story episodes (assets/stories)
   cards: false                       # no full-screen text cards over a dark background
   pops: false                        # no pop-up words on screen
   end_card: 0                        # the video ends with the last words (no extra closing screen)
+  ready_only: false                  # every day a long video; every story gets sentence-level clips automatically
 
 voice:
   engine: edge                       # edge (Microsoft neural, free) — falls back to kokoro automatically

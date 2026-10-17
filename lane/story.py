@@ -58,22 +58,54 @@ class Story:
     sections: list[dict]
     path: Path
     footage: str = ""          # regex on official event titles: where "him" footage for this story comes from
+    ready: bool = False        # checked and approved (exact clips for every sentence): only these are published
+
+
+_CTA = re.compile(r"\b(comments?|subscribe|tell us (below|in)|let us know|like this video|hit the like)\b", re.I)
+
+
+def clip_matches(sentence: str, limit: int = 2) -> list[str]:
+    """The hand-picked clips that show what this sentence talks about (assets/clips.yaml `match`)."""
+    out = []
+    for cid, spec in CLIPS.items():
+        rx = spec.get("match")
+        if rx and re.search(rx, sentence, re.I):
+            out.append(f"clip:{cid}")
+            if len(out) >= limit:
+                break
+    return out
+
+
+def sentence_beats(sections: list[dict]) -> None:
+    """Every story gets sentence-level pictures automatically: a section without hand-made beats is split into its
+    sentences, each showing the clip of exactly what it says (when there is one) and otherwise the section's own
+    footage. The request to comment/subscribe is kept only in the last section (asked once, at the end)."""
+    last = len(sections) - 1
+    for i, sec in enumerate(sections):
+        if sec.get("beats"):
+            beats = sec["beats"]
+        else:
+            sents = [x for x in re.split(r"(?<=[.!?])\s+", str(sec.get("say", "")).strip()) if x]
+            beats = [{"say": x, "show": clip_matches(x)} for x in sents]
+        if i != last:
+            beats = [b for b in beats if not _CTA.search(str(b["say"]))] or beats[:1]
+        sec["beats"] = beats
+        sec["say"] = " ".join(str(b["say"]).strip() for b in beats)
 
 
 def bank() -> list[Story]:
     out = []
     for p in sorted(STORY_DIR.glob("*.yaml")):
         d = yaml.safe_load(p.read_text(encoding="utf-8"))
-        for sec in d["sections"]:
-            if sec.get("beats"):
-                sec["say"] = " ".join(str(b["say"]).strip() for b in sec["beats"])
+        sentence_beats(d["sections"])
         out.append(Story(d["id"], d["title"], d.get("thumbnail", {}), d.get("mood", "elegant"),
-                         d.get("description", ""), d.get("tags", []), d["sections"], p, d.get("footage", "")))
+                         d.get("description", ""), d.get("tags", []), d["sections"], p, d.get("footage", ""),
+                         bool(d.get("ready", False))))
     return out
 
 
-def next_story(done: list[str]) -> Story | None:
-    return next((s for s in bank() if s.id not in done), None)
+def next_story(done: list[str], ready_only: bool = False) -> Story | None:
+    return next((s for s in bank() if s.id not in done and (s.ready or not ready_only)), None)
 
 
 @dataclass
@@ -221,7 +253,9 @@ class StoryMaker:
             if sec.get("beats"):
                 per = [resolve(b.get("show") or []) for b in sec["beats"]]
                 out.beat_visuals[i] = per
-                vis = list({id(v): v for b in per for v in b}.values()) or take_events(his_pool, 2, True)
+                own = resolve(sec.get("show") or []) if sec.get("show") else []
+                vis = (list({id(v): v for v in own + [v for b in per for v in b]}.values())
+                       or take_events(his_pool, 2, True))
             else:
                 vis = resolve(sec.get("show") or ["him"]) or take_events(his_pool, 2, True)
             out.visuals.append(vis)
@@ -443,9 +477,10 @@ def auto_story(brain, studio, events: dict, usage: dict, cursors: dict, today, c
     topic = trends.pick(events, usage, cursors, today)
     if topic is None:
         return None
-    sources = []
-    for k in topic.events[:5]:
+    sources, src_keys = [], []
+    for k in sorted(topic.events, key=lambda k: not events[k].get("video"))[:5]:   # footage first
         ev = events[k]
+        src_keys.append(k)
         brief, text = studio.article_text(ev)
         sources.append({"title": ev.get("title", ""), "date": ev.get("date", "")[:10], "text": text or brief})
     if not any(s["text"] for s in sources):
@@ -453,16 +488,19 @@ def auto_story(brain, studio, events: dict, usage: dict, cursors: dict, today, c
         return None
     facts = studio.facts(None, 8, random.Random(today.toordinal()))
     d = write_story(brain, topic.label, sources, facts)
-    keys = [f"key:{k}" for k in topic.events]
-    words = "|".join(re.escape(w) for w in d["keywords"][:4] if len(w) > 3)
+    # footage first: each part shows the official event its facts come from (the one being told), then the
+    # rest of the story's own events; never generic footage or outside photos
+    def source_of(fact: str) -> str:
+        w = set(re.findall(r"[a-z]{4,}", fact.lower()))
+        best = max(range(len(sources)), key=lambda j: len(w & set(re.findall(r"[a-z]{4,}", (
+            sources[j]["title"] + " " + sources[j]["text"]).lower()))))
+        return src_keys[best]
     sections = []
     for i, text in enumerate(d["parts"]):
-        show = [keys[i % len(keys)], "him"]
-        if words and i % 2 == 1:
-            show.append(f"him:{words}")
-        if d["keywords"] and i in (2, 5):
-            show.append(f"search:{d['keywords'][i % len(d['keywords'])]}")
-        sections.append({"say": text, "show": show})
+        mine = list(dict.fromkeys(source_of(f) for f in d.get("part_facts", [[]] * len(d["parts"]))[i] if f))
+        mine = mine or [src_keys[i % len(src_keys)]]   # a short part borrows from the story's other events
+        sections.append({"say": text, "show": [f"key:{k}" for k in mine]})
+    sentence_beats(sections)
     story = Story(f"auto-{today.isoformat()}", d["title"], d["thumbnail"], _mood_for(topic.label),
                   d["description"], d["tags"], sections, Path("auto"))
     return story, topic

@@ -5,107 +5,147 @@
 #   yt:    YouTube video id of the source        parts: [[from, to], ...] seconds
 #   crop:  [x0, y0, x1, y1] as fractions of the frame (optional)
 #   credit: shown in the video description
+#   match:  regex: any spoken sentence it matches shows this clip (every story, also the automatic ones)
 clips:
   burj-flag:
+    match: 'Burj Khalifa|spire|tallest building'
     yt: 47RlnicuI4s
     parts: [[0, 15]]
     credit: Sheikh Hamdan's video from the top of the Burj Khalifa (2013), as shared online
   rescue-a:
+    match: 'lorry|truck|G-Class|out of the sand|stuck in the sand'
     yt: _phAShIYK4c
     parts: [[6, 23.5]]
     credit: Phone video of the desert truck rescue (2017), as shared online
   rescue-b:
+    match: 'lorry|truck|out of the sand|rope'
     yt: _phAShIYK4c
     parts: [[34, 61]]
     credit: Phone video of the desert truck rescue (2017), as shared online
   queen:
+    match: 'Queen Elizabeth|the Queen\b'
     yt: GE0myFtCN4I
     parts: [[64, 91]]
     credit: Dubai Media Office, Royal Windsor Endurance 2014
   windsor-stand:
+    match: 'Windsor|world champion|World Equestrian'
     yt: GE0myFtCN4I
     parts: [[2, 6.5], [11, 15.5]]
     credit: Dubai Media Office, Royal Windsor Endurance 2014
   dubairun:
+    match: 'Dubai Run|runners|Sheikh Zayed Road'
     yt: LZxSDl8DsGM
     parts: [[1.5, 3.2], [8.5, 13.5], [19, 23.5], [30, 34.5], [44, 49]]
     credit: Dubai Media Office, Dubai Run
   smit:
+    match: 'Smit|Machchhar|flydubai|pilot'
     yt: xEnbfqlHN3g
     parts: [[21, 32]]
     crop: [0.0, 0.02, 0.94, 0.79]
     credit: DD India, Sheikh Hamdan visits Captain Smit Machchhar (2026)
   rider:
+    match: 'delivery rider|concrete blocks|point me to this man'
     yt: I39um_hlFM8
     parts: [[16, 34]]
     crop: [0.28, 0.04, 0.72, 0.68]
     credit: Sheikh Hamdan's post about the delivery rider (2022), via Daily Jang
   rider-meet:
+    match: 'delivery rider|Abdul Ghafoor'
     yt: aWIybRj2qo4
     parts: [[0, 5]]
     credit: Sheikh Hamdan meets Abdul Ghafoor (2022), as shared online
   camels:
+    match: 'camels?\b'
     yt: uNZw6R65O90
     parts: [[22, 48]]
     crop: [0.47, 0.0, 0.96, 1.0]
     credit: Sheikh Hamdan's video with his camels Emaar and Fares, as shared online
   car-falcon-camel:
+    match: 'falcons?\b|camels?\b'
     yt: kAnZwy3waYY
     parts: [[103, 112]]
     crop: [0.22, 0.05, 0.78, 1.0]
     credit: Sheikh Hamdan's video with his falcon and camel, as shared online
   falcon-hunt:
+    match: 'falcon|falconry|hunting'
     yt: BYvwVrbxVCU
     parts: [[30, 58], [62, 66]]
     credit: Sheikh Hamdan's falconry trip, as shared online
   skydive:
+    match: 'skydiv|parachute|jump(ed|s)? from (a|the) (plane|helicopter|sky)'
     yt: 93sk6EY2LgI
     parts: [[10, 36], [40, 50], [58, 86]]
     credit: Sheikh Hamdan skydiving, as shared online
   sharks:
+    match: 'sharks?|diver\b|diving|scuba'
     yt: clb9ONuVN7Q
     parts: [[0, 40]]
     crop: [0.33, 0.0, 0.67, 1.0]
     credit: Sheikh Hamdan diving with sharks, as shared online
   deepdive:
+    match: 'Deep Dive|deepest pool|diver\b|diving'
     yt: _5RY_UvYN3Q
     parts: [[0, 21], [36, 43.5]]
     credit: Sheikh Hamdan at Deep Dive Dubai (2021), as shared online
   horse-car:
+    match: 'horses?\b|stables?'
     yt: aWIybRj2qo4
     parts: [[76, 78.9]]
     crop: [0.0, 0.0, 0.49, 1.0]
     credit: Sheikh Hamdan's own post, as shared online
   white-horse:
+    match: 'horses?\b|stables?'
     yt: aWIybRj2qo4
     parts: [[76, 78.9]]
     crop: [0.51, 0.0, 1.0, 1.0]
     credit: Sheikh Hamdan's own post, as shared online
   twins-stroller:
+    match: 'twins|Rashid and Shaikha|his children|four children'
     yt: aWIybRj2qo4
     parts: [[80, 83.3]]
     crop: [0.0, 0.0, 0.49, 1.0]
     credit: Sheikh Hamdan's own post (children's faces hidden by him), as shared online
   child-horse:
+    match: 'his (son|children|kids|daughter)|tiny hand|from behind|fatherhood|a father\b'
     yt: aWIybRj2qo4
     parts: [[80, 83.4]]
     crop: [0.51, 0.0, 1.0, 1.0]
     credit: Sheikh Hamdan's own post, as shared online
   son-walk:
+    match: 'his (son|children|kids)|Rashid\b|fatherhood|a father\b|from behind'
     yt: wVmO5LbwaO0
     parts: [[11, 15.5]]
     crop: [0.19, 0.0, 0.83, 1.0]
     credit: Sheikh Hamdan's own post with his son Rashid, as shared online
   horse-stable:
+    match: 'horses?\b|stables?|endurance'
     yt: wVmO5LbwaO0
     parts: [[58, 63]]
     crop: [0.17, 0.03, 0.9, 0.95]
     credit: Sheikh Hamdan's own post, as shared online
   horses:
+    match: 'horses?\b|horseman|horsemen|stables?'
     yt: wVmO5LbwaO0
     parts: [[66, 71]]
     credit: Sheikh Hamdan's own post, as shared online
   bike-twins:
+    match: 'twins|bike ride|cycling with'
     yt: dfX6B6H5P1o
     parts: [[9, 30]]
     credit: Sheikh Hamdan's bike ride with his twins, as shared online
+  oryx:
+    match: 'oryx|animal lover|rescued an animal'
+    yt: NVc78TEHYjg
+    parts: [[19, 41]]
+    credit: Sheikh Hamdan frees an oryx caught in a net, as shared online
+  jetpack-rescue:
+    match: 'jet.?pack|rescued (his|a) friend|jumped into the (sea|water)'
+    yt: IUSQdlVusbM
+    parts: [[16, 54]]
+    crop: [0.0, 0.0, 1.0, 0.84]
+    credit: Sheikh Hamdan rescues his friend after a jet-pack accident, as shared online
+  skydive-pov:
+    match: 'skydiv|parachute|the sky\b'
+    yt: OsWFzojD6NY
+    parts: [[6, 37]]
+    credit: Sheikh Hamdan's own skydive camera, as shared online

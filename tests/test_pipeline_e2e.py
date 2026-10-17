@@ -167,7 +167,7 @@ def test_full_day(tmp_path, monkeypatch, media):
     monkeypatch.setattr(pl, "save_events", lambda ev: None)
     monkeypatch.setattr(pl, "Brain", FakeBrain)
     monkeypatch.setattr(pl, "Hamdan", FakeHamdan)
-    monkeypatch.setattr(pl, "next_story", lambda done: None)   # stories need the internet; test the automatic episode path
+    monkeypatch.setattr(pl, "next_story", lambda done, ready_only=False: None)   # stories need the internet; test the automatic episode path
     import lane.studio as st
     monkeypatch.setattr(st, "FaceID", FakeFace)
 
@@ -176,6 +176,7 @@ def test_full_day(tmp_path, monkeypatch, media):
     cfg["schedule"].update(shorts_per_day=2, days_ahead=1, one_per_hour=True, gap_minutes=[45, 70])
     cfg["longform"].update(chapters=4, target_minutes=2.5, min_minutes=1.0, max_minutes=8)
     cfg["short"]["moment_share"] = 0.0      # narrated Shorts here; moments are covered by test_moment_short
+    cfg["story"]["ready_only"] = False      # exercise the automatic episode path
     runner.yt = FakeYT()
     tomorrow = (datetime.now(timezone.utc) + timedelta(days=1)).date()
     assert runner.fill_day(tomorrow) is True

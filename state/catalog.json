@@ -52,9 +52,18 @@
   "long": "2026-10-15",
   "video_exhausted": true
  },
+ "crown prince offers condolences to al ketbi family": {
+  "long": "2026-10-17"
+ },
  "crown prince offers condolences to al mansouri family": {
   "long": "2026-10-16",
   "video_exhausted": true
+ },
+ "crown prince offers condolences to al tayaer family": {
+  "long": "2026-10-17"
+ },
+ "crown prince offers condolences to bin adi family": {
+  "long": "2026-10-17"
  },
  "crown prince offers condolences to families of martyrs almazroui and dhahoori": {
   "last_short": "2026-10-15",
@@ -103,6 +112,9 @@
    ]
   ]
  },
+ "dubai crown prince attends al marri al falasi family wedding": {
+  "long": "2026-10-17"
+ },
  "dubai crown prince attends graduation of dubai police academy": {
   "last_short": "2026-10-13",
   "shorts_made": 1,
@@ -131,6 +143,7 @@
  },
  "dubai crown prince attends wedding reception": {
   "last_short": "2026-10-12",
+  "long": "2026-10-17",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -145,6 +158,7 @@
  },
  "dubai crown prince commends students selected for the hamdan bin mohammed scholarship programme": {
   "last_short": "2026-10-08",
+  "long": "2026-10-17",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -244,6 +258,7 @@
   ]
  },
  "dubai crown prince offers condolences to alkaabi family": {
+  "long": "2026-10-17",
   "video_exhausted": true
  },
  "dubai crown prince receives australia s governor general": {
@@ -424,6 +439,7 @@
  },
  "hamdan bin mohammed and maktoum bin mohammed meet dubai s top performing high school students": {
   "last_short": "2026-10-10",
+  "long": "2026-10-17",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -733,6 +749,9 @@
   ],
   "video_exhausted": true
  },
+ "hamdan bin mohammed approves new policies and initiatives promoting healthcare family welfare education and smart buildings": {
+  "no_hamdan": true
+ },
  "hamdan bin mohammed approves new policies to boost education and environmental standards in dubai": {
   "video_exhausted": true
  },
@@ -745,6 +764,7 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed approves package of strategic initiatives aimed at strengthening the family s role as the foundation of society": {
+  "long": "2026-10-17",
   "video_exhausted": true
  },
  "hamdan bin mohammed approves series of strategies aimed at achieving mohammed bin rashid s vision to make dubai the world s best most beautiful and most advanced city": {
@@ -862,7 +882,20 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends al amri wedding": {
+  "long": "2026-10-17",
   "video_exhausted": true
+ },
+ "hamdan bin mohammed attends al falasi al muhairi family wedding": {
+  "long": "2026-10-17"
+ },
+ "hamdan bin mohammed attends al falasi family wedding": {
+  "long": "2026-10-17"
+ },
+ "hamdan bin mohammed attends al hajeri al harbi family wedding": {
+  "long": "2026-10-17"
+ },
+ "hamdan bin mohammed attends al khili family wedding": {
+  "long": "2026-10-17"
  },
  "hamdan bin mohammed attends al marmoom heritage festival": {
   "no_hamdan": true
@@ -876,9 +909,12 @@
  "hamdan bin mohammed attends al marmoum heritage festival races": {
   "long": "2026-10-13"
  },
+ "hamdan bin mohammed attends al mazrouei al muhairi family wedding": {
+  "long": "2026-10-17"
+ },
  "hamdan bin mohammed attends al muhairi al rumaithi family wedding": {
   "last_short": "2026-10-12",
-  "long": "2026-10-15",
+  "long": "2026-10-17",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -1349,7 +1385,7 @@
  },
  "hamdan bin mohammed attends iftar banquet with autistic children and their families": {
   "last_short": "2026-10-09",
-  "long": "2026-10-15",
+  "long": "2026-10-17",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -1796,6 +1832,7 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed bin rashid receives samsung electronics ceo": {
+  "long": "2026-10-17",
   "video_exhausted": true
  },
  "hamdan bin mohammed celebrates the flame tree as a symbol of dubai a city full of life and beauty": {
@@ -2179,6 +2216,9 @@
    ]
   ]
  },
+ "hamdan bin mohammed extends condolences to al baloushi family": {
+  "long": "2026-10-17"
+ },
  "hamdan bin mohammed extends condolences to al muhairi family": {
   "long": "2026-10-16",
   "video_exhausted": true
@@ -2197,6 +2237,9 @@
     77.28
    ]
   ]
+ },
+ "hamdan bin mohammed extends condolences to family of the martyr al bishir": {
+  "long": "2026-10-17"
  },
  "hamdan bin mohammed follows up the work mechanisms of dubai future councils": {
   "last_short": "2026-10-13",
@@ -2730,6 +2773,9 @@
   "shorts_made": 1,
   "shot_ranges": []
  },
+ "hamdan bin mohammed issues directives to increase students enrollment in dubai schools by 50 in the first academic year": {
+  "no_hamdan": true
+ },
  "hamdan bin mohammed joins national guard personnel in hatta for iftar": {
   "last_short": "2026-10-07",
   "shorts_made": 1,
@@ -2809,6 +2855,7 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed launches dubai schools project": {
+  "long": "2026-10-17",
   "video_exhausted": true
  },
  "hamdan bin mohammed launches erth dubai initiative": {
@@ -3049,6 +3096,12 @@
    ]
   ]
  },
+ "hamdan bin mohammed maktoum bin mohammed attend al ghurair family wedding": {
+  "long": "2026-10-17"
+ },
+ "hamdan bin mohammed maktoum bin mohammed perform eid al fitr prayer": {
+  "long": "2026-10-17"
+ },
  "hamdan bin mohammed marks 20 years leading the executive council of dubai": {
   "fails": 1,
   "last_short": "2026-10-05",
@@ -3205,6 +3258,7 @@
  },
  "hamdan bin mohammed meets students of dubai schools": {
   "last_short": "2026-10-13",
+  "long": "2026-10-17",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3325,6 +3379,9 @@
  "hamdan bin mohammed meets with elon musk affirms the uae and dubai s vision to foster technology partnerships for greater good": {
   "long": "2026-10-05",
   "video_exhausted": true
+ },
+ "hamdan bin mohammed meets with emirati children who volunteered to clean up their neighbourhoods following heavy rains": {
+  "long": "2026-10-17"
  },
  "hamdan bin mohammed meets with fifa president on the sidelines of the world sports summit in dubai": {
   "long": "2026-10-08",
@@ -3677,6 +3734,7 @@
  },
  "hamdan bin mohammed meets with top performing school and university graduates": {
   "last_short": "2026-10-09",
+  "long": "2026-10-17",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3836,8 +3894,17 @@
    ]
   ]
  },
+ "hamdan bin mohammed offers condolences to al gergawi s family": {
+  "long": "2026-10-17"
+ },
+ "hamdan bin mohammed offers condolences to al humairi family": {
+  "long": "2026-10-17"
+ },
+ "hamdan bin mohammed offers condolences to al muhairi s family": {
+  "long": "2026-10-17"
+ },
  "hamdan bin mohammed offers condolences to alsuwaidi family": {
-  "long": "2026-10-15",
+  "long": "2026-10-17",
   "video_exhausted": true
  },
  "hamdan bin mohammed offers condolences to family of martyr al mesmari": {
@@ -3869,6 +3936,9 @@
     112.44
    ]
   ]
+ },
+ "hamdan bin mohammed offers condolences to family of martyr rashid al habsi": {
+  "long": "2026-10-17"
  },
  "hamdan bin mohammed offers condolences to family of martyr saeed alhajri": {
   "last_short": "2026-10-14",
@@ -4146,6 +4216,12 @@
  },
  "hamdan bin mohammed participates in king abdulaziz camel festival finale": {
   "no_hamdan": true
+ },
+ "hamdan bin mohammed performs eid al adha prayer at sheikh rashid mosque": {
+  "no_hamdan": true
+ },
+ "hamdan bin mohammed performs eid al adha prayer at zabeel grand mosque": {
+  "long": "2026-10-17"
  },
  "hamdan bin mohammed presents indian teacher rouble nagi with global teacher prize 2026 at the world governments summit": {
   "video_exhausted": true
@@ -4563,7 +4639,7 @@
  },
  "hamdan bin mohammed reviews outcomes of sheikha hind bint maktoum family program and praises its profound social impact": {
   "last_short": "2026-10-16",
-  "long": "2026-10-15",
+  "long": "2026-10-17",
   "photo_short": true,
   "shorts_made": 2,
   "shot_ranges": [
@@ -4990,7 +5066,7 @@
   "long": "2026-10-13"
  },
  "hamdan bin mohammed visit family who lost seven children in house fire": {
-  "long": "2026-10-15",
+  "long": "2026-10-17",
   "video_exhausted": true
  },
  "hamdan bin mohammed visits abu dhabi international hunting and equestrian exhibition 2026": {
@@ -5585,6 +5661,9 @@
   "fails": 1,
   "video_exhausted": true
  },
+ "hamdan bin mohammed visits security and service departments and meets with personnel on duty during eid": {
+  "no_hamdan": true
+ },
  "hamdan bin mohammed visits smart dubai office launches dubai paperless strategy": {
   "last_short": "2026-10-14",
   "shorts_made": 1,
@@ -5911,8 +5990,14 @@
  "hamdan leads march of loyalty to sheikha hind on mother s day": {
   "video_exhausted": true
  },
+ "hamdan maktoum offer condolence to saeed ali al ketbi family": {
+  "long": "2026-10-17"
+ },
  "hamdan offers condolences on death of martyr tareq al shehi": {
   "video_exhausted": true
+ },
+ "hamdan offers condolences to al zaabi family": {
+  "long": "2026-10-17"
  },
  "hamdan officially opens 19th edition of dubai world cup": {
   "last_short": "2026-10-15",
@@ -5928,6 +6013,9 @@
     63.608000000000004
    ]
   ]
+ },
+ "hamdan our legacy lies in our innovative children and youth": {
+  "long": "2026-10-17"
  },
  "hamdan provision of housing to emiratis paramount importance to leadership": {
   "video_exhausted": true
@@ -6151,6 +6239,7 @@
   "video_exhausted": true
  },
  "mohammed bin rashid and hamdan bin mohammed visits dubai motor show": {
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "mohammed bin rashid attends 29th dubai world cup": {
@@ -6365,6 +6454,9 @@
  },
  "uae president offers condolences to emir of qatar on passing of sheikh hamad bin khalifa al thani": {
   "video_exhausted": true
+ },
+ "uae president receives mohammed bin rashid bin mohammed bin rashid al maktoum": {
+  "long": "2026-10-17"
  },
  "uae president receives sheikh hamdan bin mohammed": {
   "post_photos": [

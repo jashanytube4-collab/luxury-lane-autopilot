@@ -2460,6 +2460,9 @@
  "hamdan bin mohammed honours winners of the 6th arab hope makers initiative in dubai": {
   "no_hamdan": true
  },
+ "hamdan bin mohammed honours winners of the create apps championship": {
+  "video_exhausted": true
+ },
  "hamdan bin mohammed honours winners of the global prompt engineering championship 2025 during dubai ai week": {
   "last_short": "2026-10-17",
   "photo_short": true,
@@ -3804,6 +3807,22 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed meets with uae diplomatic mission in india commends ministry of foreign affairs efforts": {
+  "last_short": "2026-10-17",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    0.22,
+    4.62
+   ],
+   [
+    28.76,
+    30.529999999999998
+   ],
+   [
+    23.78,
+    25.45
+   ]
+  ],
   "video_exhausted": true
  },
  "hamdan bin mohammed meets with wakamiya kenji japan s minister for the world expo 2025": {

@@ -22,7 +22,7 @@ from pathlib import Path
 from playwright.sync_api import TimeoutError as PWTimeout, sync_playwright
 
 ROOT = Path(__file__).resolve().parent.parent
-PACK = Path.home() / "Desktop" / "Fazza Posts (YouTube)"
+PACK = Path(r"D:\Jashan\Desktop") / "Fazza Posts (YouTube)"   # the owner's Desktop (on drive D)
 PROFILE = ROOT / "work" / "studio_profile"
 DONE_FILE = ROOT / "work" / "posts_scheduled.json"
 CHROME = next((p for p in (Path(r"C:\Program Files\Google\Chrome\Application\chrome.exe"),

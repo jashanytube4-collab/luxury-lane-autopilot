@@ -32,7 +32,7 @@ from lane.faceid import FaceID  # noqa: E402
 from lane.hamdan import Hamdan, load_events  # noqa: E402
 from lane.studio import Studio, fact_bank  # noqa: E402
 
-OUT = Path(__import__("os").environ.get("PACK_OUT", str(Path.home() / "Desktop" / "Fazza Posts (YouTube)")))
+OUT = Path(__import__("os").environ.get("PACK_OUT", str(Path(r"D:\Jashan\Desktop") / "Fazza Posts (YouTube)")))
 SIZE = 1080
 YELLOW, WHITE, GOLD = (255, 214, 0), (255, 255, 255), (247, 201, 72)
 TAGS = "#Fazza #SheikhHamdan #PrinceHamdan #Dubai #faz3"
@@ -189,12 +189,12 @@ def nice_title(t: str) -> str:
 
 def natural_times(rng: random.Random, n: int = 5) -> list[int]:
     """n posting minutes for one day, spread like a person posts: YouTube's scheduler only offers quarter-hours, so
-    varied quarter-hours with uneven gaps (75+ minutes, never the same pattern), different first and last post."""
+    varied quarter-hours with uneven gaps (at least 2 hours, never the same pattern), different first and last post."""
     while True:
-        start, end = rng.randrange(7 * 60, 10 * 60, 15), rng.randrange(21 * 60, 23 * 60 + 31, 15)
+        start, end = rng.randrange(6 * 60 + 30, 9 * 60 + 1, 15), rng.randrange(21 * 60 + 30, 23 * 60 + 46, 15)
         times = sorted(rng.sample(range(start, end + 1, 15), n))
         gaps = [b - a for a, b in zip(times, times[1:])]
-        if min(gaps) >= 75 and len(set(gaps)) >= n - 2:
+        if min(gaps) >= 120 and len(set(gaps)) >= n - 2:
             return times
 
 

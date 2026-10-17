@@ -20,6 +20,10 @@ on:
         description: "Test mode only: build one test episode"
         type: boolean
         default: false
+      test_story:
+        description: "Test mode only: id of the story to build (from assets/stories), e.g. real-days"
+        required: false
+        default: ""
 
 concurrency:
   group: luxury-lane-autopilot
@@ -82,6 +86,7 @@ jobs:
           DRY_RUN: ${{ inputs.dry_run }}
           MAX_VIDEOS: ${{ inputs.max_videos }}
           TEST_EPISODE: ${{ inputs.test_episode }}
+          TEST_STORY: ${{ inputs.test_story }}
         run: |
           git config user.name "luxury-lane-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

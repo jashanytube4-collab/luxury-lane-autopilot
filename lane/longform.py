@@ -219,7 +219,7 @@ def _shot(it: Item, dur: float, rng: random.Random) -> Shot:
 
 def _chapter_shots(pool: list[Item], seconds: float, rng: random.Random, reserve: list[Item],
                    used: list[Item], pace: tuple[float, float] = (3.6, 5.8),
-                   still: tuple[float, float] = (4.4, 5.6)) -> list[Shot]:
+                   still: tuple[float, float] = (4.4, 5.6), photo_every: int = 4) -> list[Shot]:
     """Fill `seconds` with this chapter's footage intercut with photos, each shown once. When the chapter runs short,
     shots stay on screen longer and extra footage of him from the reserve is used; repeating is the very last resort."""
     shots: list[Shot] = []
@@ -230,7 +230,7 @@ def _chapter_shots(pool: list[Item], seconds: float, rng: random.Random, reserve
         if _supply(pool) < left and reserve:
             pool.append(reserve.pop(0))
         stretch = max(1.0, left / max(1.0, _supply(pool)))
-        want = "photo" if k % 4 == 3 else "video"      # mostly motion
+        want = "photo" if photo_every and k % photo_every == photo_every - 1 else "video"   # mostly motion
         k += 1
         it = _take(pool, want) or _take(pool)
         if it is None:

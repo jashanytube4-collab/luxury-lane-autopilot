@@ -10,6 +10,7 @@ from __future__ import annotations
 import argparse
 import base64
 import logging
+import os
 import random
 import re
 import shutil
@@ -27,7 +28,7 @@ from .posts import make_post
 from .quotes import harvest as harvest_quotes
 from .schedule import day_slots, long_slot, post_slots, target_days, top_up
 from .state import State
-from .story import StoryMaker, auto_story, next_story, produce_story
+from .story import StoryMaker, auto_story, bank as story_bank, next_story, produce_story
 from .trends import mark_used
 from .studio import Studio
 from .youtube import AuthError, QuotaError, YouTube, key_tag
@@ -161,7 +162,9 @@ class Runner:
 
     # ---- long-form ------------------------------------------------------------------------------------
     def fill_long(self, day, slot: dict, plan: dict) -> bool:
-        story = next_story(self.state.cursors.get("stories_done", []))
+        forced = os.environ.get("TEST_STORY", "").strip() if self.args.dry_run else ""
+        story = (next((x for x in story_bank() if x.id == forced), None) if forced
+                 else next_story(self.state.cursors.get("stories_done", [])))
         if story is not None:
             return self.fill_story(day, slot, plan, story)
         if self.cfg.get("story", {}).get("auto", True):   # bank used up: a fresh topic found and written automatically

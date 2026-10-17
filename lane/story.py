@@ -33,8 +33,9 @@ import yaml
 
 from . import audio, commons, qa
 from .config import ASSETS_DIR
+from .beats import POP_STYLE, align, make_card, pop_event
 from .longform import (ASS_HEADER, FPS, LW, EpisodeResult, Item, Material, Overlay, Shot, Visuals, _chapter_shots,
-                       _esc, _mix_long, _shot, _take, render_timeline)
+                       _esc, _mix_long, _punctuate, _shot, _subtitle_lines, _take, render_timeline)
 from .voice import synthesize
 
 log = logging.getLogger("lane.story")
@@ -59,6 +60,9 @@ def bank() -> list[Story]:
     out = []
     for p in sorted(STORY_DIR.glob("*.yaml")):
         d = yaml.safe_load(p.read_text(encoding="utf-8"))
+        for sec in d["sections"]:
+            if sec.get("beats"):
+                sec["say"] = " ".join(str(b["say"]).strip() for b in sec["beats"])
         out.append(Story(d["id"], d["title"], d.get("thumbnail", {}), d.get("mood", "elegant"),
                          d.get("description", ""), d.get("tags", []), d["sections"], p, d.get("footage", "")))
     return out
@@ -73,6 +77,7 @@ class Gathered:
     visuals: list[list[Visuals]]                 # per section
     spare: list[Visuals]
     his_photos: list[Path]                        # for the thumbnail
+    beat_visuals: dict = field(default_factory=dict)   # section index -> [visuals of each beat]
     credits: list[str] = field(default_factory=list)
     event_keys: list[str] = field(default_factory=list)
 
@@ -142,11 +147,16 @@ class StoryMaker:
                 got.append(vis)
             return got
 
-        for sec in story.sections:
+        def resolve(tokens: list) -> list[Visuals]:
             vis: list[Visuals] = []
-            for tok in sec.get("show") or ["him"]:
+            for tok in tokens:
                 tok = str(tok)
-                if tok.startswith(("cat:", "search:")):
+                if tok.startswith("card:"):
+                    continue                     # designed cards are drawn at render time
+                if tok.startswith("video:"):     # official VIDEO of matching events (moving footage, not photos)
+                    keys = [k for k in self._events_matching(tok[6:]) if self.events[k].get("video")]
+                    vis += [v for v in take_events(keys, 2, True) if v.video]
+                elif tok.startswith(("cat:", "search:")):
                     pics = commons.fetch(tok if tok.startswith("cat:") else tok[7:], cache, limit=10)
                     if pics:
                         vis.append(Visuals(None, [], [p.path for p in pics]))
@@ -160,8 +170,15 @@ class StoryMaker:
                     vis += take_events(self._events_matching(tok[6:]), 2, False)
                 else:
                     vis += take_events(his_pool, 2, True)
-            if not vis:
-                vis = take_events(his_pool, 2, True)
+            return vis
+
+        for i, sec in enumerate(story.sections):
+            if sec.get("beats"):
+                per = [resolve(b.get("show") or []) for b in sec["beats"]]
+                out.beat_visuals[i] = per
+                vis = [v for b in per for v in b] or take_events(his_pool, 2, True)
+            else:
+                vis = resolve(sec.get("show") or ["him"]) or take_events(his_pool, 2, True)
             out.visuals.append(vis)
         out.spare = []       # no random filler: short sections borrow from the rest of this story (see produce_story)
         return out
@@ -207,7 +224,18 @@ def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int)
         else:
             voices, engine = narrate(None, kcfg["kokoro_speed"] * ratio * 0.99, "s")
     material = Material()
-    pools = [[it for v in vis for it in material.items(v)] for vis in got.visuals]
+    item_cache: dict[int, list[Item]] = {}
+
+    def items_of(v: Visuals) -> list[Item]:
+        if id(v) not in item_cache:
+            item_cache[id(v)] = material.items(v)
+        return item_cache[id(v)]
+    pools = [[it for v in vis for it in items_of(v)] for vis in got.visuals]
+    beat_pools = {i: [[it for v in vis for it in items_of(v)] for vis in per] for i, per in got.beat_visuals.items()}
+    for per in beat_pools.values():
+        for bp in per:
+            bp.sort(key=lambda it: it.kind != "video")    # moving footage first: photo-only stories perform badly
+    card_bg = (got.his_photos or [None])[0]
     for p in pools:
         rng.shuffle(p)
         p.sort(key=lambda it: it.kind != "video")       # footage first, then photos interleave
@@ -225,13 +253,55 @@ def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int)
     sfx: list[tuple[float, np.ndarray, float]] = []
     music_plan: list[tuple[float, str]] = [(0.0, story.mood)]
     ov = Overlay()
+    pops: list[tuple[float, float, str]] = []
     t = 0.0
     gap = 0.45                                           # breath between sections
     for i, (sec, voice) in enumerate(zip(story.sections, voices)):
         start = t
         length = voice.duration + gap + (0.6 if i == 0 else 0)
         pool = pools[i]
-        if i == 0:   # the hook: fast montage of moving footage of him
+        if sec.get("beats"):   # sentence-level visuals: each beat shows its own pictures while it is spoken
+            offset = 0.6 if i == 0 else 0.15
+            spans = align(sec["beats"], voice.words, voice.duration)
+            sec_shots = []
+            for j, (beat, (a, b)) in enumerate(zip(sec["beats"], spans)):
+                a = 0.0 if j == 0 else a + offset
+                b = length if j == len(spans) - 1 else b + offset
+                d = max(0.8, b - a)
+                bshots = []
+                cards = [str(t) for t in beat.get("show") or [] if str(t).startswith("card:")]
+                rest = d
+                if cards:
+                    title, _, sub = cards[0][5:].partition("|")
+                    path = make_card(title.strip(), sub.strip(), card_bg, work / f"card_{i:02d}_{j:02d}.jpg")
+                    cd = d if d <= 6.0 else 4.5
+                    card_shot = Shot("photo", path, int(cd * FPS), move="push", strength=0.35)
+                    card_shot.xfade_in = 8
+                    bshots.append(card_shot)
+                    rest = d - cd
+                if rest > 0.4:
+                    own = [it for it in beat_pools.get(i, [[]] * len(spans))[j] if it not in used]
+                    reserve = [it for it in pool if it not in used and it not in own] + borrow(i)
+                    fast = (2.0, 2.8) if i == 0 else (2.6, 4.0)
+                    bshots += _chapter_shots(own, rest, rng, reserve, used, pace=fast, still=(3.0, 4.2),
+                                             photo_every=0)
+                for p in pools:
+                    p[:] = [it for it in p if it not in used]
+                for per in beat_pools.values():
+                    for bp in per:
+                        bp[:] = [it for it in bp if it not in used]
+                if beat.get("pop"):
+                    pops.append((start + a + 0.25, start + a + min(2.8, d), str(beat["pop"])))
+                if i == 0 and j > 0:
+                    bshots[0].flash_in = 4
+                sec_shots += bshots
+            if i == 0:
+                sec_shots[0].dip_in = 8
+                sfx.append((0.0, audio.impact(seed), -12.0))
+            else:
+                sec_shots[0].xfade_in = 10
+                sfx.append((start - 0.2, audio.whoosh(seed + i, 0.5), -16.0))
+        elif i == 0:   # the hook: fast montage of moving footage of him
             sec_shots, k = [], 0
             while sum(s.frames for s in sec_shots) / FPS < length - 0.1:
                 it = _take(pool, "video") or _take(spare, "video") or _take(pool) or _take(spare)
@@ -260,6 +330,9 @@ def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int)
             sfx.append((start - 0.2, audio.whoosh(seed + i, 0.5), -16.0))
         shots += sec_shots
         voice_events.append((start + (0.6 if i == 0 else 0.15), voice.wav))
+        if scfg.get("subtitles", True):      # subtitles: many viewers watch on mute, and non-native listeners stay
+            for a2, b2, text in _subtitle_lines(_punctuate(voice.words, sec["say"]), start + (0.6 if i == 0 else 0.15)):
+                ov.add(a2, b2, "Sub", rf"{{\fad(80,80)}}{_esc(text)}", 2)
         if i in (1, len(story.sections) // 2):
             music_plan.append((start, story.mood if i == 1 else _second_mood(story.mood)))
         t = start + sum(s.frames for s in sec_shots) / FPS
@@ -275,8 +348,11 @@ def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int)
     mark = cfg["channel"].get("watermark", "")
     if mark:
         ov.add(0, duration, "Mark", rf"{{\an9\pos({LW - 60},{44})}}{_esc(mark.upper())}", 1)
+    for a2, b2, text in pops:
+        ov.ass_events.append(pop_event(a2, b2, text, _esc))
     ass = work / "captions.ass"
-    ass.write_text(ASS_HEADER + "\n".join(ov.ass_events) + "\n", encoding="utf-8")
+    header = ASS_HEADER.replace("\n[Events]", "\n" + POP_STYLE + "\n\n[Events]", 1)
+    ass.write_text(header + "\n".join(ov.ass_events) + "\n", encoding="utf-8")
     music_used = _mix_long(work, duration, voice_events, sfx, music_plan, cfg, seed)
     out = work / "episode.mp4"
     render_timeline(shots, ass, work / "mix.wav", out, work, seed)

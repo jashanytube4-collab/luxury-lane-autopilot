@@ -951,6 +951,10 @@
  },
  "hamdan bin mohammed attends ceremony marking 49th anniversary of uae armed forces unification": {
   "fails": 1,
+  "last_short": "2026-10-17",
+  "photo_short": true,
+  "shorts_made": 1,
+  "shot_ranges": [],
   "video_exhausted": true
  },
  "hamdan bin mohammed attends closing ceremony of 3rd dubai future accelerators program": {
@@ -1419,6 +1423,9 @@
     25.63
    ]
   ],
+  "video_exhausted": true
+ },
+ "hamdan bin mohammed attends joint military exercise desert flag 10": {
   "video_exhausted": true
  },
  "hamdan bin mohammed attends launch of dubai international chamber s new office in bengaluru": {
@@ -1996,7 +2003,8 @@
     195.06,
     199.46
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed challenges the city to join dubai fitness challenge 2018": {
   "no_hamdan": true,
@@ -2181,7 +2189,8 @@
   "post_photos": [
    2,
    0
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed economic diversity and supportive legislative environment cornerstones for investor confidence in dubai": {
   "last_short": "2026-10-10",

@@ -187,6 +187,16 @@ def nice_title(t: str) -> str:
     return t.rstrip(".…") + "."
 
 
+def natural_times(rng: random.Random, n: int = 5) -> list[int]:
+    """n posting minutes for one day, like a person posts: any minute (not :00/:15/:30), uneven gaps of 70+ minutes,
+    a different first and last post every day."""
+    while True:
+        start, end = rng.randint(7 * 60 + 5, 9 * 60 + 40), rng.randint(21 * 60 + 10, 23 * 60 + 25)
+        times = sorted(rng.sample(range(start, end), n))
+        if all(b - a >= 70 for a, b in zip(times, times[1:])) and all(t % 15 for t in times):
+            return times
+
+
 def main() -> None:
     start = date.fromisoformat(sys.argv[1]) if len(sys.argv) > 1 else date(2026, 10, 14)
     days = int(sys.argv[2]) if len(sys.argv) > 2 else 365
@@ -253,9 +263,7 @@ def main() -> None:
     rng.shuffle(plan)
     for day_i in range(days):
         day = start + timedelta(days=day_i)
-        times = sorted(rng.sample(range(8 * 60, 23 * 60, 15), 5))
-        while any(b - a < 100 for a, b in zip(times, times[1:])):
-            times = sorted(rng.sample(range(8 * 60, 23 * 60, 15), 5))
+        times = natural_times(rng)
         kinds = plan[day_i * 5: day_i * 5 + 5]
         for slot, (kind, minute) in enumerate(zip(kinds, times)):
             if kind == "photo" or (kind == "moment" and not photos):

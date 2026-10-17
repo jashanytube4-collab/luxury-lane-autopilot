@@ -26,7 +26,8 @@ on:
         default: ""
 
 concurrency:
-  group: luxury-lane-autopilot
+  # Test runs never upload or save anything, so they get their own lane and don't wait for the daily runs.
+  group: ${{ inputs.dry_run && format('luxury-lane-test-{0}', github.run_id) || 'luxury-lane-autopilot' }}
   cancel-in-progress: false
 
 permissions:

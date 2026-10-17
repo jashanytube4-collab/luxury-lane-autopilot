@@ -159,7 +159,17 @@ class Runner:
         """Anything already on the channel counts as used, even if a crashed run never saved it."""
         if not self.yt:
             return
-        tags = self.yt.recent_tags()
+        tags = None
+        for wait in (0, 10, 30):             # a network blip here must never stop the day's uploads
+            time.sleep(wait)
+            try:
+                tags = self.yt.recent_tags()
+                break
+            except Exception as e:  # noqa: BLE001
+                log.warning("could not read recent uploads (%s); retrying", str(e)[:120])
+        if tags is None:
+            self.report.problem("Could not check the channel's recent uploads; continuing without it")
+            return
         posted = self.state.cursors.setdefault("posted_units", [])
         new = [t for t in tags if t not in posted]
         if new:

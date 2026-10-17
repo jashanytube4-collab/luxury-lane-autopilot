@@ -232,6 +232,13 @@ def _chapter_shots(pool: list[Item], seconds: float, rng: random.Random, reserve
         stretch = max(1.0, left / max(1.0, _supply(pool)))
         want = "photo" if photo_every and k % photo_every == photo_every - 1 else "video"   # mostly motion
         k += 1
+        if shots and shots[-1].kind == "photo":      # never two photos in a row
+            want = "video"
+            if not any(i.kind == "video" for i in pool):
+                vid = next((i for i in reserve if i.kind == "video"), None)
+                if vid is not None:
+                    reserve.remove(vid)
+                    pool.append(vid)
         it = _take(pool, want) or _take(pool)
         if it is None:
             it = used.pop(0)                            # nothing new left anywhere: the oldest picture comes back

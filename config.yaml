@@ -42,6 +42,10 @@ story:                               # long-form story episodes (assets/stories)
   voice_rate: "-7%"                  # ~158 words a minute (top royal channels: 140-168)
   kokoro_voice: af_heart             # backup female voice if the online voice is unavailable
   kokoro_speed: 0.95
+  commons: false                     # no outside photos (other riders, streets, buildings): only Fazza himself
+  cards: false                       # no full-screen text cards over a dark background
+  pops: false                        # no pop-up words on screen
+  end_card: 0                        # the video ends with the last words (no extra closing screen)
 
 voice:
   engine: edge                       # edge (Microsoft neural, free) — falls back to kokoro automatically

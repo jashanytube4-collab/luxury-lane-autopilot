@@ -113,7 +113,7 @@ class Library:
             with open(dest, "wb") as f:
                 for chunk in r.iter_content(1 << 20):
                     f.write(chunk)
-        return dest.stat().st_size > 200_000
+        return dest.stat().st_size > 50_000
 
 
 class Hamdan:

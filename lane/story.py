@@ -25,6 +25,7 @@ from __future__ import annotations
 import logging
 import random
 import re
+import shutil
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -39,6 +40,9 @@ from .longform import (ASS_HEADER, FPS, LW, EpisodeResult, Item, Material, Overl
 from .voice import synthesize
 
 log = logging.getLogger("lane.story")
+ROOT = ASSETS_DIR.parent
+_clips_file = ASSETS_DIR / "clips.yaml"
+CLIPS: dict = (yaml.safe_load(_clips_file.read_text(encoding="utf-8")) or {}).get("clips", {}) if _clips_file.exists() else {}
 
 STORY_DIR = ASSETS_DIR / "stories"
 
@@ -79,6 +83,7 @@ class Gathered:
     his_photos: list[Path]                        # for the thumbnail
     beat_visuals: dict = field(default_factory=dict)   # section index -> [visuals of each beat]
     credits: list[str] = field(default_factory=list)
+    clip_credits: list[str] = field(default_factory=list)
     event_keys: list[str] = field(default_factory=list)
 
 
@@ -91,8 +96,8 @@ class StoryMaker:
 
     # ---- pictures ---------------------------------------------------------------------------------------
     def _event_visuals(self, key: str, only_him: bool) -> Visuals | None:
-        if key in self._his:
-            return self._his[key]
+        if (key, only_him) in self._his:
+            return self._his[(key, only_him)]
         ev = self.events[key]
         video = self.studio.video(key, ev)
         scenes = []
@@ -106,8 +111,29 @@ class StoryMaker:
         if only_him:
             photos = [p for p, _ in self.studio.his_photos(photos)]
         vis = Visuals(video if scenes else None, scenes, photos) if (scenes or photos) else None
-        self._his[key] = vis
+        self._his[(key, only_him)] = vis
         return vis
+
+    def _clip(self, cid: str, work: Path) -> Visuals | None:
+        """A hand-picked clip of an exact moment (assets/clips.yaml), from the private library."""
+        spec = CLIPS.get(cid)
+        if not spec:
+            log.warning("unknown clip %r", cid)
+            return None
+        dest = work / "clips" / f"{cid}.mp4"
+        local = ROOT / "work" / "clips" / f"{cid}.mp4"
+        if not dest.exists():
+            if local.exists():
+                dest.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy(local, dest)
+            else:
+                lib = getattr(self.studio.hamdan, "library", None)
+                if not (lib and lib.fetch(f"clip-{cid}.mp4", dest)):
+                    log.warning("clip %r is not in the footage library (run tools/fetch_clips.py)", cid)
+                    return None
+        from .longform import _scene_list
+        scenes = _scene_list(dest)
+        return Visuals(dest, scenes, []) if scenes else None
 
     def _events_matching(self, pattern: str | None) -> list[str]:
         rx = re.compile(pattern, re.I) if pattern else None
@@ -168,14 +194,21 @@ class StoryMaker:
             if tok.startswith("video:"):     # official VIDEO of matching events (moving footage, not photos)
                 keys = [k for k in self._events_matching(tok[6:]) if self.events[k].get("video")]
                 vis += [v for v in take_events(keys, 2, True) if v.video]
+            elif tok.startswith("clip:"):
+                v = self._clip(tok[5:], work)
+                if v:
+                    vis.append(v)
+                    out.clip_credits.append(CLIPS[tok[5:]].get("credit", ""))
             elif tok.startswith(("cat:", "search:")):
+                if not self.cfg.get("story", {}).get("commons", False):
+                    return vis               # outside photos of other people and places are switched off
                 pics = commons.fetch(tok if tok.startswith("cat:") else tok[7:], cache, limit=10)
                 if pics:
                     vis.append(Visuals(None, [], [p.path for p in pics]))
                     out.credits += [p.credit for p in pics]
             elif tok.startswith("key:"):
-                if tok[4:] in self.events:
-                    vis += take_events([tok[4:]], 1, True) or take_events([tok[4:]], 1, False)
+                if tok[4:] in self.events:          # a hand-pinned event: all of its footage is on topic
+                    vis += take_events([tok[4:]], 1, False)
             elif tok.startswith("him:"):
                 vis += take_events(self._events_matching(tok[4:]), 2, True)
             elif tok.startswith("event:"):
@@ -227,7 +260,8 @@ def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int)
     # voice, a quick read), narrate it again just slow enough to get there
     lf = cfg.get("longform", {})
     need = float(lf.get("min_minutes", 8.0)) * 60 + 6
-    total = sum(v.duration for v in voices) + 0.45 * len(voices) + 0.6 + 8.0
+    end_card = float(scfg.get("end_card", 0.0))
+    total = sum(v.duration for v in voices) + 0.45 * len(voices) + 0.6 + end_card
     if total < need:
         ratio = total / need
         log.info("narration %.0fs is short of %.0fs; slowing it down to %.0f%%", total, need, ratio * 100)
@@ -284,7 +318,8 @@ def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int)
                 b = length if j == len(spans) - 1 else b + offset
                 d = max(0.8, b - a)
                 bshots = []
-                cards = [str(t) for t in beat.get("show") or [] if str(t).startswith("card:")]
+                cards = [str(t) for t in beat.get("show") or [] if str(t).startswith("card:")
+                         and scfg.get("cards", False)]
                 own = [it for it in beat_pools.get(i, [[]] * len(spans))[j] if it not in used]
                 rest = d
                 if cards:
@@ -308,7 +343,7 @@ def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int)
                 for per in beat_pools.values():
                     for bp in per:
                         bp[:] = [it for it in bp if it not in used]
-                if beat.get("pop"):
+                if beat.get("pop") and scfg.get("pops", False):
                     pops.append((start + a + 0.25, start + a + min(2.8, d), str(beat["pop"])))
                 if i == 0 and j > 0:
                     bshots[0].flash_in = 4
@@ -355,12 +390,15 @@ def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int)
             music_plan.append((start, story.mood if i == 1 else _second_mood(story.mood)))
         t = start + sum(s.frames for s in sec_shots) / FPS
     # leftovers of the story's own pictures go to the closing card background
-    end_card = 8.0
-    hero = (got.his_photos or [Path(shots[0].src)])[0]
-    shots.append(Shot("photo", hero, int(end_card * FPS), style="blur", xfade_in=18, dip_out=20))
-    ov.add(t + 0.5, t + end_card - 0.5, "Small", rf"{{\an5\pos({LW // 2},{470})\fad(600,600)}}SUBSCRIBE FOR MORE ROYAL STORIES", 3)
-    ov.add(t + 0.8, t + end_card - 0.5, "Big", rf"{{\an5\pos({LW // 2},{560})\fad(600,600)}}THE LUXURY LANE", 3)
-    music_plan.append((t, "elegant"))
+    if end_card > 0:
+        hero = (got.his_photos or [Path(shots[0].src)])[0]
+        shots.append(Shot("photo", hero, int(end_card * FPS), style="blur", xfade_in=18, dip_out=20))
+        ov.add(t + 0.5, t + end_card - 0.5, "Small", rf"{{\an5\pos({LW // 2},{470})\fad(600,600)}}SUBSCRIBE FOR MORE ROYAL STORIES", 3)
+        ov.add(t + 0.8, t + end_card - 0.5, "Big", rf"{{\an5\pos({LW // 2},{560})\fad(600,600)}}THE LUXURY LANE", 3)
+        music_plan.append((t, "elegant"))
+    else:                                    # the story simply ends: a short fade after the last words
+        shots[-1].frames += int(1.2 * FPS)
+        shots[-1].dip_out = 24
     duration = sum(s.frames for s in shots) / FPS
 
     mark = cfg["channel"].get("watermark", "")

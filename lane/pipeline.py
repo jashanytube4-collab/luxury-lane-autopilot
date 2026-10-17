@@ -243,7 +243,9 @@ class Runner:
         at = datetime.fromisoformat(slot["at"])
         credits = "\n".join(c for c in {credit_line(m) for m in ep.music} if c)
         photo_credits = "\n".join(dict.fromkeys(got.credits))
+        clip_credits = "\n".join(c for c in dict.fromkeys(got.clip_credits) if c)
         desc = (f"{ep.description}\n\n{SOURCE_CREDIT}\n"
+                + (f"Clips:\n{clip_credits}\n" if clip_credits else "")
                 + (f"Additional photos (Wikimedia Commons):\n{photo_credits}\n" if photo_credits else "")
                 + f"Narration and edit: {self.cfg['channel']['name']}.\n{credits}\n\n"
                 + " ".join(self.cfg['youtube'].get('base_hashtags', [])))[:4900]

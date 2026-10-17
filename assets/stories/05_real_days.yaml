@@ -4,7 +4,7 @@ thumbnail:
   text: HIS REAL LIFE
   tag: BEHIND THE SCENES
 mood: elegant
-footage: endurance|Fitness|Ride|Executive Council|condolence|Iftar|Ramadan|graduation|students|Mohammed bin Rashid
+footage: endurance|Fitness|Dubai Ride|Executive Council|condolence|Iftar|graduation|students
 description: 'Not the official portraits — the real hours. From endurance races that start in the dark, to running with
   307,000 people on Sheikh Zayed Road, to quiet condolence visits at night: how Prince Hamdan (Fazza), Crown Prince of Dubai,
   really spends his days, told with real footage of every moment.'
@@ -44,36 +44,39 @@ sections:
 - beats:
   - say: In the desert, the most important races of his life begin in the dark.
     show:
-    - video:endurance|Windsor|Manama
+    - key:dubai crown prince arrives in manama for endurance race
     pop: BEFORE SUNRISE
   - say: Endurance riding is one of the toughest sports on Earth. Horse and rider cover up to one hundred and sixty kilometres
       in a single day, and in the Gulf, races often start before dawn to escape the heat.
     show:
-    - video:endurance|Windsor|Manama
-    - cat:Endurance riding
+    - him:endurance race|Endurance Cup|endurance test
   - say: For Fazza, this is not a hobby. In two thousand and fourteen, he became world champion, winning individual gold
       at the World Equestrian Games in Normandy, France.
     show:
     - card:2014 WORLD CHAMPION|INDIVIDUAL GOLD · WORLD EQUESTRIAN GAMES · NORMANDY
+    - key:fazza leads uae riders in alltech fei world equestrian games
   - say: That same year, in England, Queen Elizabeth the Second honoured him after he won the Royal Windsor endurance race.
     show:
-    - video:Windsor
+    - key:queen elizabeth honors hamdan on winning windsor royal endurance race
   - say: Champions are made in those quiet hours before the sun comes up, when nobody is watching.
     show:
-    - video:endurance|horse|Manama
+    - key:queen elizabeth honors hamdan on winning windsor royal endurance race
+    - key:dubai crown prince arrives in manama for endurance race
+    - him:endurance race|Endurance Cup|endurance test
 - beats:
   - say: Then there is the city itself. In October two thousand and seventeen, Fazza launched something unusual for a royal.
       He asked an entire city to move.
     show:
-    - video:Fitness Challenge
+    - key:hamdan bin mohammed inaugurates dubai fitness challenge
     pop: 30 MINUTES. 30 DAYS.
   - say: The Dubai Fitness Challenge asks every resident to exercise for thirty minutes a day, for thirty days.
     show:
     - card:30 X 30|THIRTY MINUTES A DAY · THIRTY DAYS
+    - key:hamdan bin mohammed challenges the city to join dubai fitness challenge 2018
   - say: And every year, Sheikh Zayed Road, the biggest highway in Dubai, is closed to cars so that thousands of cyclists
       can ride it at dawn.
     show:
-    - video:Dubai Ride
+    - key:third edition of dubai ride takes thousands of cycling enthusiasts on an exhilarating bike ride experience around city s iconic landmarks
   - say: In November two thousand and twenty-five, a record three hundred and seven thousand runners filled that same highway
       for the Dubai Run.
     show:
@@ -81,7 +84,9 @@ sections:
   - say: Afterwards, Fazza thanked them in a video, saying it showed a city that never stops inspiring. Have you ever joined
       the Dubai Run? Tell us in the comments.
     show:
-    - video:Fitness Challenge|Dubai Ride|Games
+    - key:hamdan bin mohammed challenges the city to join dubai fitness challenge 2018
+    - key:third edition of dubai ride takes thousands of cycling enthusiasts on an exhilarating bike ride experience around city s iconic landmarks
+    - key:hamdan bin mohammed inaugurates dubai fitness challenge
 - beats:
   - say: But the Crown Prince is not just an athlete. Most of his days are full of work that the cameras rarely show in
       detail.
@@ -154,7 +159,7 @@ sections:
 - beats:
   - say: Between all the duties, there is another Fazza, the adventurer.
     show:
-    - video:Heritage|Marmoum|desert
+    - card:THE ADVENTURER|SKY · SEA · DESERT
     pop: THE ADVENTURER
   - say: He is a trained skydiver and a scuba diver who has explored the waters off Fujairah, on the east coast of the Emirates.
     show:
@@ -167,34 +172,36 @@ sections:
   - say: 'And he has never lost his love for the old traditions of the desert: camel races, heritage festivals and falcons,
       the sport of his grandfathers.'
     show:
-    - video:Heritage|Marmoum|camel
+    - cat:Camel racing in the United Arab Emirates
     - cat:Falconry in the United Arab Emirates
   - say: Modern prince, ancient roots. That mix is exactly why young Emiratis see themselves in him.
     show:
-    - video:Heritage|Marmoum|youth
+    - video:youth|Youth
 - beats:
   - say: And then there is the man who taught him everything. His father, Sheikh Mohammed bin Rashid, ruler of Dubai.
     show:
-    - video:Mohammed bin Rashid
+    - cat:Mohammed bin Rashid Al Maktoum
     pop: HIS FATHER
   - say: Father and son are filmed together at ceremonies, visits and celebrations, and Fazza has spent his whole adult
       life at his father's side.
     show:
-    - video:Mohammed bin Rashid
+    - key:mohammed bin rashid and hamdan bin mohammed visits dubai motor show
+    - key:mohammed bin rashid attends 29th dubai world cup
   - say: They share more than work. Both are horsemen, and both are poets. Sheikh Mohammed has written Nabati poetry for
       decades, and his son learned the art from him, writing under the name Fazza, which is often explained as the one who
       comes to help.
     show:
-    - video:Mohammed bin Rashid
     - card:FAZZA|THE ONE WHO COMES TO HELP
+    - key:mohammed bin rashid attends al marmoum heritage festival closing races
   - say: In public, Fazza always shows his father the deepest respect. In his culture, that is not protocol. It is love.
     show:
-    - video:Mohammed bin Rashid
-    - cat:Mohammed bin Rashid Al Maktoum
+    - key:mohammed bin rashid attends al marmoum heritage festival closing races
+    - key:mohammed bin rashid attends 29th dubai world cup
+    - key:mohammed bin rashid and hamdan bin mohammed visits dubai motor show
 - beats:
   - say: Some of the most famous moments of his days were never planned at all. They were filmed by strangers on their phones.
     show:
-    - video:citizens|people|visits
+    - card:CAUGHT ON CAMERA|FILMED BY STRANGERS · SEEN BY MILLIONS
     pop: NEVER PLANNED
   - say: In March two thousand and seventeen, people filmed him in the desert using his own Mercedes G-Class to pull a stranger's
       lorry out of the sand. The rope broke the first time. He tried again, and the truck rolled free.
@@ -208,7 +215,7 @@ sections:
       an axe attack in the cockpit, and called him part of our team.
     show:
     - card:"PART OF OUR TEAM"|OCTOBER 2026 · CAPTAIN SMIT MACHCHHAR
-    - video:hospital|pilot|visits
+    - key:hamdan bin mohammed visits flydubai pilot and praises his courage
 - beats:
   - say: And when the official day ends, the cameras stop. Because the last part of his day belongs to his family.
     show:
@@ -229,11 +236,16 @@ sections:
   - say: Before sunrise on horseback. In the morning, running with his city. By day, running its government. At night, sitting
       with families in mourning. And then, quietly, home.
     show:
-    - video:endurance|Fitness|Executive Council|condolence
+    - key:dubai crown prince arrives in manama for endurance race
+    - key:hamdan bin mohammed inaugurates dubai fitness challenge
+    - video:Executive Council
+    - video:condolence
   - say: That is the real day of the Crown Prince of Dubai. Not a palace of gold, but a life of duty, sport and people.
     show:
     - video:Mohammed bin Rashid|students|well-wishers
   - say: Which part of Fazza's day would you most like to join? Write it in the comments, we read every single one. And
       if you want more of the real Fazza, like this video and subscribe to The Luxury Lane. See you next time.
     show:
-    - video:Fitness|endurance|Ride
+    - key:third edition of dubai ride takes thousands of cycling enthusiasts on an exhilarating bike ride experience around city s iconic landmarks
+    - key:hamdan bin mohammed challenges the city to join dubai fitness challenge 2018
+    - key:queen elizabeth honors hamdan on winning windsor royal endurance race

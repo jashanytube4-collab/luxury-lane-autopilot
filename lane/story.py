@@ -147,36 +147,48 @@ class StoryMaker:
                 got.append(vis)
             return got
 
+        seen_tok: dict[str, list[Visuals]] = {}
+
         def resolve(tokens: list) -> list[Visuals]:
             vis: list[Visuals] = []
             for tok in tokens:
                 tok = str(tok)
                 if tok.startswith("card:"):
                     continue                     # designed cards are drawn at render time
-                if tok.startswith("video:"):     # official VIDEO of matching events (moving footage, not photos)
-                    keys = [k for k in self._events_matching(tok[6:]) if self.events[k].get("video")]
-                    vis += [v for v in take_events(keys, 2, True) if v.video]
-                elif tok.startswith(("cat:", "search:")):
-                    pics = commons.fetch(tok if tok.startswith("cat:") else tok[7:], cache, limit=10)
-                    if pics:
-                        vis.append(Visuals(None, [], [p.path for p in pics]))
-                        out.credits += [p.credit for p in pics]
-                elif tok.startswith("key:"):
-                    if tok[4:] in self.events:
-                        vis += take_events([tok[4:]], 1, True) or take_events([tok[4:]], 1, False)
-                elif tok.startswith("him:"):
-                    vis += take_events(self._events_matching(tok[4:]), 2, True)
-                elif tok.startswith("event:"):
-                    vis += take_events(self._events_matching(tok[6:]), 2, False)
-                else:
-                    vis += take_events(his_pool, 2, True)
+                if tok in seen_tok and tok != "him":   # same subject again: the unused rest of the same pictures
+                    vis += seen_tok[tok]
+                    continue
+                before = len(vis)
+                vis += resolve_one(tok)
+                seen_tok[tok] = vis[before:]
+            return vis
+
+        def resolve_one(tok: str) -> list[Visuals]:
+            vis: list[Visuals] = []
+            if tok.startswith("video:"):     # official VIDEO of matching events (moving footage, not photos)
+                keys = [k for k in self._events_matching(tok[6:]) if self.events[k].get("video")]
+                vis += [v for v in take_events(keys, 2, True) if v.video]
+            elif tok.startswith(("cat:", "search:")):
+                pics = commons.fetch(tok if tok.startswith("cat:") else tok[7:], cache, limit=10)
+                if pics:
+                    vis.append(Visuals(None, [], [p.path for p in pics]))
+                    out.credits += [p.credit for p in pics]
+            elif tok.startswith("key:"):
+                if tok[4:] in self.events:
+                    vis += take_events([tok[4:]], 1, True) or take_events([tok[4:]], 1, False)
+            elif tok.startswith("him:"):
+                vis += take_events(self._events_matching(tok[4:]), 2, True)
+            elif tok.startswith("event:"):
+                vis += take_events(self._events_matching(tok[6:]), 2, False)
+            else:
+                vis += take_events(his_pool, 2, True)
             return vis
 
         for i, sec in enumerate(story.sections):
             if sec.get("beats"):
                 per = [resolve(b.get("show") or []) for b in sec["beats"]]
                 out.beat_visuals[i] = per
-                vis = [v for b in per for v in b] or take_events(his_pool, 2, True)
+                vis = list({id(v): v for b in per for v in b}.values()) or take_events(his_pool, 2, True)
             else:
                 vis = resolve(sec.get("show") or ["him"]) or take_events(his_pool, 2, True)
             out.visuals.append(vis)
@@ -236,6 +248,9 @@ def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int)
         for bp in per:
             bp.sort(key=lambda it: it.kind != "video")    # moving footage first: photo-only stories perform badly
     card_bg = (got.his_photos or [None])[0]
+    his_bg = list(dict.fromkeys(got.his_photos))[:40]
+    rng.shuffle(his_bg)
+    n_cards = 0
     for p in pools:
         rng.shuffle(p)
         p.sort(key=lambda it: it.kind != "video")       # footage first, then photos interleave
@@ -270,18 +285,21 @@ def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int)
                 d = max(0.8, b - a)
                 bshots = []
                 cards = [str(t) for t in beat.get("show") or [] if str(t).startswith("card:")]
+                own = [it for it in beat_pools.get(i, [[]] * len(spans))[j] if it not in used]
                 rest = d
                 if cards:
                     title, _, sub = cards[0][5:].partition("|")
-                    path = make_card(title.strip(), sub.strip(), card_bg, work / f"card_{i:02d}_{j:02d}.jpg")
-                    cd = d if d <= 6.0 else 4.5
+                    bg = his_bg[n_cards % len(his_bg)] if his_bg else card_bg
+                    n_cards += 1
+                    path = make_card(title.strip(), sub.strip(), bg, work / f"card_{i:02d}_{j:02d}.jpg")
+                    cd = d if (d <= 6.0 or not own) else 4.5     # nothing exact to show: the card stays up
                     card_shot = Shot("photo", path, int(cd * FPS), move="push", strength=0.35)
                     card_shot.xfade_in = 8
                     bshots.append(card_shot)
                     rest = d - cd
                 if rest > 0.4:
-                    own = [it for it in beat_pools.get(i, [[]] * len(spans))[j] if it not in used]
-                    reserve = [it for it in pool if it not in used and it not in own] + borrow(i)
+                    same = [it for it in pool if it not in used and it not in own]   # same subject only
+                    reserve = same if (own or same) else borrow(i)
                     fast = (2.0, 2.8) if i == 0 else (2.6, 4.0)
                     bshots += _chapter_shots(own, rest, rng, reserve, used, pace=fast, still=(3.0, 4.2),
                                              photo_every=0)

@@ -121,11 +121,38 @@ class Runner:
         if accounts and self.secrets.ig_token and self.secrets.ig_user_id and self.hamdan.library:
             try:
                 ig = Instagram(self.secrets.ig_token, self.secrets.ig_user_id)
-                added = sync_instagram(self.events, ig, self.hamdan.library, accounts, WORK_DIR / "ig")
+                added = sync_instagram(self.events, ig, self.hamdan.library, accounts, WORK_DIR / "ig",
+                                       limit=int(self.cfg.get("source", {}).get("instagram_per_run", 25)),
+                                       check=self._check_clip)
                 save_events(self.events)
-                self.report.note(f"Instagram: {added} new videos from {', '.join('@' + a for a in accounts)}")
+                self.report.note(f"Instagram: {added} new videos from {', '.join('@' + (a['name'] if isinstance(a, dict) else a) for a in accounts)}")
             except Exception as e:  # noqa: BLE001 — Instagram is a bonus source, never a reason to stop
                 self.report.problem(f"Instagram sync failed: {str(e)[:200]}")
+
+    def _check_clip(self, path, caption: str, need_face: bool = False):
+        """A new Instagram video. From news accounts it is kept only if face recognition finds him; on his own account
+        he is often the one filming (his falcons, his children), so there only text graphics and greetings are
+        dropped. The AI describes what it shows; without the AI, words of the caption serve as tags."""
+        from .brain import image_b64
+        from .longform import _scene_list
+        scenes = [(a, b) for a, b, _ in self.studio.his_scenes(path)]
+        if need_face and not scenes:
+            return None
+        scenes = scenes or _scene_list(path)
+        fallback = {"about": "", "tags": sorted({w.lower() for w in re.findall(r"#?([A-Za-z]{4,})", caption)})[:10]}
+        if not scenes:
+            return fallback
+        try:
+            step = max(1, len(scenes) // 4)
+            frames = [image_b64(path, (a + b) / 2) for a, b in scenes[::step][:4]]
+            d = self.brain.describe_clip(frames, caption)
+        except Exception as e:  # noqa: BLE001 — a clip without a description is still good footage
+            log.warning("could not describe clip: %s", e)
+            return fallback
+        if not d.get("real", True):
+            return None
+        d["tags"] = d.get("tags") or fallback["tags"]
+        return d
 
     def reconcile(self) -> None:
         """Anything already on the channel counts as used, even if a crashed run never saved it."""

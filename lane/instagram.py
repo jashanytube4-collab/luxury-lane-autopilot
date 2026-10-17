@@ -81,12 +81,24 @@ def _title(caption: str) -> str:
     return (first or "Moment from Fazza's Instagram")[:140]
 
 
-def sync(events: dict, ig: Instagram, library, usernames: list[str], work: Path, limit: int = 40) -> int:
-    """Copy new videos of `usernames` into the footage library and add them as events. Returns how many were added."""
+SKIPPED: set = set()        # videos checked this run that do not show him (not re-downloaded within a run)
+HAMDAN = re.compile(r"hamdan|fazza|حمدان|فزاع|crown prince of dubai|ولي عهد دبي", re.I)
+
+
+def sync(events: dict, ig: Instagram, library, usernames: list, work: Path, limit: int = 40,
+         check=None) -> int:
+    """Copy new videos of `usernames` into the footage library and add them as events. Returns how many were added.
+    An account given as {"name": ..., "only_hamdan": true} keeps only posts whose caption names him.
+    `check(path, caption)` -> dict | None looks at each downloaded video: None drops it (he is not in it),
+    a dict ({"about", "tags"}) is stored with the event so story sentences can be matched to it."""
     added = 0
-    for username in usernames:
+    skipped = SKIPPED
+    for acc in usernames:
+        username = acc["name"] if isinstance(acc, dict) else acc
+        only_hamdan = bool(acc.get("only_hamdan")) if isinstance(acc, dict) else False
+        pages = int(acc.get("pages", 4)) if isinstance(acc, dict) else 4
         try:
-            media = ig.discover(username)
+            media = ig.discover(username, pages=pages)
         except InstagramError as e:
             log.warning("Instagram @%s unavailable: %s", username, e)
             continue
@@ -94,7 +106,9 @@ def sync(events: dict, ig: Instagram, library, usernames: list[str], work: Path,
             if added >= limit:
                 return added
             key = f"ig:{username}:{m['id']}"
-            if key in events or m.get("media_type") != "VIDEO" or not m.get("media_url"):
+            if key in events or key in skipped or m.get("media_type") != "VIDEO" or not m.get("media_url"):
+                continue
+            if only_hamdan and not HAMDAN.search(m.get("caption") or ""):
                 continue
             name = f"ig_{m['id']}"
             path = work / f"{name}.mp4"
@@ -105,6 +119,12 @@ def sync(events: dict, ig: Instagram, library, usernames: list[str], work: Path,
                     with open(path, "wb") as f:
                         for chunk in r.iter_content(1 << 20):
                             f.write(chunk)
+                seen = check(path, m.get("caption") or "", only_hamdan) if check else {}
+                if seen is None:                     # not a real moment of him: remembered, never fetched again
+                    skipped.add(key)
+                    events[key] = {"title": "", "date": (m.get("timestamp") or "")[:10], "photos": [],
+                                   "source": "instagram", "skip": True}
+                    continue
                 if not library.upload(f"{name}.mp4", path):
                     continue
             except (requests.RequestException, OSError) as e:
@@ -115,6 +135,7 @@ def sync(events: dict, ig: Instagram, library, usernames: list[str], work: Path,
             events[key] = {"title": _title(m.get("caption", "")), "date": (m.get("timestamp") or "")[:10],
                            "video": {"kind": "ig", "ref": name}, "photos": [], "news_id": None,
                            "source": "instagram", "permalink": m.get("permalink", ""),
-                           "caption": (m.get("caption") or "")[:1500], "likes": m.get("like_count", 0)}
+                           "caption": (m.get("caption") or "")[:1500], "likes": m.get("like_count", 0),
+                           "about": seen.get("about", ""), "tags": seen.get("tags", [])}
             added += 1
     return added

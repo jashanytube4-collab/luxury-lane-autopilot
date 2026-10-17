@@ -8,7 +8,10 @@ channel:
 # Source: the official website of H.H. Sheikh Hamdan bin Mohammed (hamdan.ae) — videos, photos and articles.
 source:
   library_repo: jashanytube4-collab/luxury-lane-library   # private copy of the official videos (YouTube blocks GitHub)
-  instagram: [faz3]                  # official Instagram accounts read through Meta's API (needs IG_TOKEN);
+  instagram:                         # Instagram accounts read through Meta's official API (IG_TOKEN secret)
+    - {name: faz3, pages: 12}        # his own posts: the personal moments (last ~600 posts, collected over time)
+    - {name: dubaimediaoffice, only_hamdan: true, pages: 4}   # official videos, only posts about him
+  instagram_per_run: 15              # new videos copied, checked (face) and described (AI) per run;
                                      # new videos are copied into the private library automatically
 
 schedule:

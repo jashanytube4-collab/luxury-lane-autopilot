@@ -76,6 +76,42 @@ def clip_matches(sentence: str, limit: int = 2) -> list[str]:
     return out
 
 
+_STOP = set("""this that with from they them their there then than when what which while where have has had been were
+will would could should about after before into over under again also just only even very much more most some such
+said says told every each other another being because people world years year day days time first last never
+always little great quiet quietly really still those these here""".split())
+
+
+def _stem(w: str) -> str:
+    w = w.lower()
+    for suf in ("ing", "es", "s"):
+        if len(w) > 5 and w.endswith(suf):
+            return w[: -len(suf)]
+    return w
+
+
+def _words_of(text: str) -> set[str]:
+    return {_stem(w) for w in re.findall(r"[A-Za-z]{3,}", text) if w.lower() not in _STOP}
+
+
+def moment_matches(sentence: str, events: dict, limit: int = 2) -> list[str]:
+    """Described videos (Instagram posts of him, with AI tags) that show what this sentence talks about: at least
+    two of the clip's tags appear in the sentence, best matches first."""
+    words = _words_of(sentence)
+    if len(words) < 2:
+        return []
+    scored = []
+    for k, e in events.items():
+        tags = e.get("tags")
+        if not tags or not e.get("video"):
+            continue
+        hit = len(words & {_stem(t) for t in tags for t in t.split()})
+        if hit >= 2:
+            scored.append((hit, e.get("likes", 0), k))
+    scored.sort(reverse=True)
+    return [f"key:{k}" for _, _, k in scored[:limit]]
+
+
 def sentence_beats(sections: list[dict]) -> None:
     """Every story gets sentence-level pictures automatically: a section without hand-made beats is split into its
     sentences, each showing the clip of exactly what it says (when there is one) and otherwise the section's own
@@ -251,6 +287,9 @@ class StoryMaker:
 
         for i, sec in enumerate(story.sections):
             if sec.get("beats"):
+                for b in sec["beats"]:
+                    if not b.get("show"):
+                        b["show"] = moment_matches(str(b["say"]), self.events)
                 per = [resolve(b.get("show") or []) for b in sec["beats"]]
                 out.beat_visuals[i] = per
                 own = resolve(sec.get("show") or []) if sec.get("show") else []
@@ -484,7 +523,10 @@ def auto_story(brain, studio, events: dict, usage: dict, cursors: dict, today, c
     for k in sorted(topic.events, key=lambda k: not events[k].get("video"))[:5]:   # footage first
         ev = events[k]
         src_keys.append(k)
-        brief, text = studio.article_text(ev)
+        if ev.get("news_id"):
+            brief, text = studio.article_text(ev)
+        else:                                    # his own Instagram video: what it shows and his caption
+            brief, text = "", f"The video shows: {ev.get('about', '')}. His caption: {ev.get('caption', '')}"
         sources.append({"title": ev.get("title", ""), "date": ev.get("date", "")[:10], "text": text or brief})
     if not any(s["text"] for s in sources):
         trends.mark_used(cursors, topic, today)   # nothing to write from; try another topic next time

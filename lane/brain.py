@@ -427,6 +427,20 @@ class Brain:
         return {"chapter_title": clean(d.get("chapter_title"))[:40] or title[:40],
                 "place_line": clean(d.get("place_line")).upper()[:60], "narration": narration}
 
+    def describe_clip(self, frames: list[str], caption: str) -> dict:
+        """What a video shows, from a few frames (base64 JPEG) and its caption (often Arabic):
+        {"about": one English sentence, "tags": [lowercase words]} — used to match story sentences to clips."""
+        parts = [{"type": "text", "text": CLIP_DESCRIBE.format(caption=clean(caption)[:900] or "(no caption)")}]
+        for i, b64 in enumerate(frames[:4]):
+            parts += [{"type": "text", "text": f"Frame {i + 1}:"}, _img(b64)]
+        d = self._json(parts, CLIP_DESCRIBE_SCHEMA, 300, 0.2)
+        tags = []
+        for t in d.get("tags") or []:
+            t = re.sub(r"[^a-z ]", "", clean(t).lower()).strip()
+            if 2 < len(t) < 30 and t not in tags:
+                tags.append(t)
+        return {"about": clean(d.get("about"))[:200], "tags": tags[:12], "real": bool(d.get("real_moment", True))}
+
     def write_episode(self, theme: str, chapters: list[dict], title_hint: str = "") -> dict:
         lines = "\n".join(f"{i + 1}. {c['chapter_title']} — {c['event_title']} ({c['date']}): "
                           f"{' '.join(c['narration'].split()[:45])}..." for i, c in enumerate(chapters))
@@ -500,6 +514,21 @@ OUTRO_END = (" What do you think about this side of Fazza? Write it in the comme
              "enjoyed this story, like the video and subscribe to The Luxury Lane for more true stories about "
              "Prince Hamdan. See you next time.")
 
+CLIP_DESCRIBE = """These frames come from one short video posted on Instagram about Prince Hamdan (Fazza), Crown Prince
+of Dubai. Its caption: "{caption}"
+
+Describe what the video shows, for an editor who must match it to a narrated sentence.
+Return "about": one plain English sentence (what happens, where, with whom or with which animals or things), and
+"tags": 6-12 single lowercase English words a narrator would use for this moment (people like son, daughter, twins,
+father, soldiers, children; animals like falcon, camel, horse, lion; places and things like desert, sea, snow,
+mountain, car, plane, helicopter, majlis, hospital; actions like riding, diving, skydiving, hiking, cycling, running,
+hunting, praying, visiting). Only what is really visible or stated in the caption; no guesses about names.
+"real_moment": true if this is real filmed footage of a moment; false if it is mainly text, a graphic, a poem or
+greeting card, a slideshow of still photos, or an advertisement."""
+CLIP_DESCRIBE_SCHEMA = {"type": "object", "properties": {
+    "about": {"type": "string"}, "tags": {"type": "array", "items": {"type": "string"}, "maxItems": 12},
+    "real_moment": {"type": "boolean"}},
+    "required": ["about", "tags", "real_moment"]}
 STORY_FACTS_SCHEMA = {"type": "object", "properties": {
     "facts": {"type": "array", "items": {"type": "string"}, "minItems": 8, "maxItems": 24}}, "required": ["facts"]}
 STORY_OUTLINE_SCHEMA = {"type": "object", "properties": {

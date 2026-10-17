@@ -133,6 +133,23 @@ def pick(events: dict, usage: dict, cursors: dict, today: date, phrases: list[st
         score = (5.0 if human else 1.0) + (12 - age) * 0.3 + (0.5 if e.get("video") else 0)
         cands.append((score, Topic(f"event:{k}", f'this official moment: "{title}"', [k], f"fresh news: {title}")))
 
+    # 3) his own newest Instagram videos (personal moments fans love most), told around the video itself
+    for k, e in events.items():
+        if e.get("source") != "instagram" or not e.get("about") or f"event:{k}" in resting:
+            continue
+        if usage.get(k, {}).get("long") or not k.startswith("ig:faz3:"):
+            continue
+        age = _days(e.get("date", ""), today)
+        if age > 6:
+            continue
+        tags = set(e.get("tags") or [])
+        related = sorted((k2 for k2, e2 in usable.items()
+                          if len(tags & set(re.findall(r"[a-z]+", e2.get("title", "").lower()))) >= 2),
+                         key=lambda k2: usable[k2].get("date", ""), reverse=True)[:4]
+        score = 9.0 + (6 - age) * 0.4 + min(e.get("likes", 0) / 200000, 3.0)
+        cands.append((score, Topic(f"event:{k}", f'his own new Instagram video: {e["about"]}', [k] + related,
+                                   f"new on @faz3: {e['about'][:80]}")))
+
     if not cands:
         return None
     cands.sort(key=lambda c: -c[0])

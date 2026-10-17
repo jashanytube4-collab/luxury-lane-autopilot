@@ -51,6 +51,10 @@ story:                               # long-form story episodes (assets/stories)
   end_card: 0                        # the video ends with the last words (no extra closing screen)
   ready_only: false                  # every day a long video; every story gets sentence-level clips automatically
 
+members:                             # members-only content (Fazza Fam)
+  shorts_per_week: 8                 # extra moment Shorts uploaded private; the Saturday helper makes them members-only
+  weekday: 5                         # 5 = Saturday (Dubai time)
+
 voice:
   engine: edge                       # edge (Microsoft neural, free) — falls back to kokoro automatically
   edge_voice: en-US-AndrewMultilingualNeural

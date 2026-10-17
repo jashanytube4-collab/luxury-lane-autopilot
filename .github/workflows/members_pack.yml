@@ -1,0 +1,40 @@
+name: Build the members-only posts pack
+
+on:
+  workflow_dispatch:
+    inputs:
+      start:
+        description: "First day (YYYY-MM-DD)"
+        required: true
+      days:
+        description: "Number of days (2 posts a day)"
+        required: false
+        default: "365"
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - run: |
+          pip install torch==2.14.1 --index-url https://download.pytorch.org/whl/cpu
+          pip install -r requirements.txt
+      - name: Build
+        env:
+          LIBRARY_TOKEN: ${{ secrets.LIBRARY_TOKEN }}
+          PACK_OUT: work/members_pack
+        run: python tools/build_members_pack.py "${{ inputs.start }}" "${{ inputs.days }}"
+      - uses: actions/upload-artifact@v7
+        with:
+          name: members-pack
+          path: work/members_pack/
+          retention-days: 7

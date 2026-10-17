@@ -17,6 +17,7 @@ import shutil
 import sys
 import time
 from datetime import datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 
 from .audio import credit_line
 from .brain import AIUnavailable, Brain
@@ -169,7 +170,7 @@ class Runner:
         return self.state.cursors.get("recent_hooks", [])[-40:]
 
     # ---- one upload ------------------------------------------------------------------------------------
-    def _upload(self, path, *, title, description, tags, publish_at, thumbnail=None) -> str | None:
+    def _upload(self, path, *, title, description, tags, publish_at, thumbnail=None, private=False) -> str | None:
         if self.args.dry_run:
             dest = WORK_DIR / "out" / f"{publish_at.strftime('%Y%m%d_%H%M')}_{path.name}"
             dest.parent.mkdir(parents=True, exist_ok=True)
@@ -180,7 +181,7 @@ class Runner:
                                                 encoding="utf-8")
             self.report.note(f"[dry run] {dest.name} — {title}")
             return "dry-run"
-        when = publish_at if self.cfg["youtube"].get("privacy", "scheduled") == "scheduled" else None
+        when = publish_at if self.cfg["youtube"].get("privacy", "scheduled") == "scheduled" and not private else None
         vid = self.yt.upload(path, title=title, description=description, tags=tags,
                              category_id=self.cfg["youtube"]["category_id"], publish_at=when)
         if thumbnail:
@@ -358,7 +359,7 @@ class Runner:
         self.report.problem("No usable material left for Shorts today")
         return False
 
-    def _fill_short(self, day, slot: dict, plan: dict, moment: bool) -> bool | None:
+    def _fill_short(self, day, slot: dict, plan: dict, moment: bool, members: bool = False) -> bool | None:
         at = datetime.fromisoformat(slot["at"])
         for key in self.studio.short_candidates(self.events, self.usage, day.isoformat()):
             if self.over_budget():
@@ -392,18 +393,23 @@ class Runner:
             hashtags = " ".join(self.cfg["youtube"].get("base_hashtags", []))
             credit = credit_line(item["music"])
             made_by = "Edit" if moment else "Narration and edit"
+            if members:
+                p["description"] = f"🔒 Fazza Fam exclusive — for members of The Luxury Lane 💛\n\n{p['description']}"
             desc = (f"{p['description']}\n\n{SOURCE_CREDIT}\n{made_by}: {self.cfg['channel']['name']}.\n"
                     + (f"{credit}\n" if credit else "") + f"\n{hashtags}")
             try:
                 vid = self._upload(item["path"], title=p["title"], description=desc,
                                    tags=_tags(self.cfg["youtube"].get("base_tags", []), p.get("tags", []), item["unit"]),
-                                   publish_at=at)
+                                   publish_at=at, private=members)
             except QuotaError as e:
                 self.report.problem(f"YouTube upload quota reached ({e})")
                 return False
             except Exception as e:  # noqa: BLE001
                 self.report.problem(f"Upload failed: {e}")
                 return True
+            if members and not self.args.dry_run:
+                self.state.cursors.setdefault("members_shorts", []).append(
+                    {"id": vid, "day": day.isoformat(), "title": p["title"]})
             u = self.usage.setdefault(key, {})
             if not self.args.dry_run:
                 if item["photo_only"]:
@@ -447,6 +453,15 @@ class Runner:
                                                     for t in extra], key=lambda s: s["at"])
             self.state.save_day(date_s, plan)
             self.report.note(f"{date_s}: {len(extra)} picture posts planned")
+        mcfg = self.cfg.get("members", {})
+        n_members = int(mcfg.get("shorts_per_week", 0))
+        if n_members and day.weekday() == int(mcfg.get("weekday", 5)) and not any(s["type"] == "members" for s in plan["slots"]):
+            # members-only Shorts: uploaded private; the Saturday helper on the laptop makes them members-only
+            # (YouTube's upload API cannot set members-only, and Studio cannot schedule it)
+            base = datetime.fromisoformat(f"{date_s}T21:00:00").replace(tzinfo=ZoneInfo(sc["timezone"]))
+            plan["slots"] = sorted(plan["slots"] + [{"at": (base + timedelta(minutes=i)).isoformat(), "type": "members",
+                                                     "status": "open"} for i in range(n_members)], key=lambda s: s["at"])
+            self.state.save_day(date_s, plan)
         shorts_now = [datetime.fromisoformat(s["at"]) for s in plan["slots"] if s["type"] == "short"]
         if len(shorts_now) < int(sc["shorts_per_day"]):
             extra = top_up(day, sc, shorts_now, random.Random(), datetime.now(timezone.utc) + lead)
@@ -456,7 +471,7 @@ class Runner:
                 self.state.save_day(date_s, plan)
                 self.report.note(f"{date_s}: added {len(extra)} Short slot(s) to match shorts_per_day")
         # the episode first: it is the day's most important upload
-        rank = {"long": 0, "short": 1, "post": 2}       # picture posts last: they never take a Short's place
+        rank = {"long": 0, "short": 1, "members": 2, "post": 3}   # picture posts last: never take a Short's place
         order = sorted(plan["slots"], key=lambda s: (rank.get(s["type"], 3), s["at"]))
         for slot in order:
             if slot["status"] != "open":
@@ -475,6 +490,9 @@ class Runner:
                 ok = self.fill_long(day, slot, plan)
             elif slot["type"] == "post":
                 ok = self.fill_post(day, slot, plan)
+            elif slot["type"] == "members":
+                ok = self._fill_short(day, slot, plan, True, members=True)
+                ok = True if ok is None else ok
             else:
                 ok = self.fill_short(day, slot, plan)
             if not ok:

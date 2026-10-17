@@ -23,6 +23,10 @@ from playwright.sync_api import TimeoutError as PWTimeout, sync_playwright
 
 ROOT = Path(__file__).resolve().parent.parent
 PACK = Path(r"D:\Jashan\Desktop") / "Fazza Posts (YouTube)"   # the owner's Desktop (on drive D)
+MEMBERS_PACK = Path(r"D:\Jashan\Desktop") / "Fazza Posts (Members)"
+MEMBERS_SHORTS_URL = ("https://raw.githubusercontent.com/jashanytube4-collab/luxury-lane-autopilot/main/"
+                      "state/cursors.json")
+RELEASED_FILE = ROOT / "work" / "members_shorts_released.json"
 PROFILE = ROOT / "work" / "studio_profile"
 DONE_FILE = ROOT / "work" / "posts_scheduled.json"
 CHROME = next((p for p in (Path(r"C:\Program Files\Google\Chrome\Application\chrome.exe"),
@@ -31,11 +35,11 @@ POSTS_URL = "https://www.youtube.com/channel/UCkpQ81nmE2JAjW3qcpn-zkQ/posts"
 INDIA_MINUS_DUBAI = timedelta(minutes=90)        # the pack lists Dubai times; YouTube shows this laptop's time (India)
 
 
-def pack_posts() -> list[tuple[datetime, Path]]:
-    """(local India time, picture) of every post in the pack, in order."""
+def pack_posts(pack: Path = PACK) -> list[tuple[datetime, Path]]:
+    """(local India time, picture) of every post in a pack, in order."""
     out = []
-    for img in PACK.glob("*/*.jpg"):
-        m = re.match(r"(\d{4}-\d{2}-\d{2})_(\d{2})(\d{2})_\d\.jpg$", img.name)
+    for img in pack.glob("*/*.jpg"):
+        m = re.match(r"(\d{4}-\d{2}-\d{2})_(\d{2})(\d{2})_m?\d\.jpg$", img.name)
         if m:
             dubai = datetime.fromisoformat(f"{m.group(1)}T{m.group(2)}:{m.group(3)}")
             out.append((dubai + INDIA_MINUS_DUBAI, img))
@@ -59,11 +63,25 @@ def _time_label(t: datetime) -> re.Pattern:
     return re.compile(rf"(?<![0-9]){h}:{t.minute:02d}\s*{'AM' if t.hour < 12 else 'PM'}")
 
 
-def schedule_one(page, when: datetime, img: Path, caption: str, dry: bool = False) -> None:
+def set_audience(page, box, members: bool) -> None:
+    """The post box's Visibility: "Public" or "All channel members"."""
+    want = "All channel members" if members else "Public"
+    current = box.locator("tp-yt-paper-button:visible").filter(has_text=re.compile("Public|members", re.I)).first
+    if want.lower() in current.inner_text().strip().lower():
+        return
+    current.click()
+    page.locator("tp-yt-paper-item:visible, ytd-menu-service-item-renderer:visible, [role=option]:visible")         .filter(has_text=re.compile(rf"^\s*{want}", re.I)).first.click()
+    page.wait_for_timeout(1200)
+    if want.lower() not in current.inner_text().strip().lower():
+        raise RuntimeError(f"visibility did not change to {want}")
+
+
+def schedule_one(page, when: datetime, img: Path, caption: str, dry: bool = False, members: bool = False) -> None:
     page.goto(POSTS_URL, wait_until="domcontentloaded")
     box = page.locator("ytd-backstage-post-dialog-renderer").first
-    box.locator("#image-button button").first.wait_for(timeout=30000)
-    box.locator("#image-button button").first.click()
+    box.locator("#image-button button:visible").first.wait_for(timeout=30000)
+    set_audience(page, box, members)
+    box.locator("#image-button button:visible").first.click()
     page.locator("input[type=file]").last.set_input_files(str(img))
     box.get_by_role("button", name="Edit preview").first.wait_for(timeout=60000)   # the picture has uploaded
 
@@ -103,6 +121,43 @@ def schedule_one(page, when: datetime, img: Path, caption: str, dry: bool = Fals
     box.get_by_role("button", name="Edit preview").first.wait_for(state="detached", timeout=60000)
 
 
+def release_members_shorts(page) -> None:
+    """The week's members-only Shorts (made by the autopilot as private videos) become members-only now."""
+    import requests
+    try:
+        listed = requests.get(MEMBERS_SHORTS_URL, timeout=60).json().get("members_shorts", [])
+    except Exception as e:  # noqa: BLE001
+        print(f"could not read the members Shorts list: {e}")
+        return
+    try:
+        released = set(json.loads(RELEASED_FILE.read_text(encoding="utf-8")))
+    except (OSError, ValueError):
+        released = set()
+    todo = [m for m in listed if m["id"] not in released and m["day"] <= (datetime.now() + timedelta(days=1)).date().isoformat()]
+    print(f"{len(todo)} members-only Shorts to release")
+    for k, m in enumerate(todo, 1):
+        try:
+            page.goto(f"https://studio.youtube.com/video/{m['id']}/edit", wait_until="domcontentloaded")
+            vis = page.get_by_text("Visibility", exact=True).locator("xpath=..")
+            vis.wait_for(timeout=40000)
+            vis.click()
+            page.get_by_text("Members only", exact=True).first.click()
+            page.get_by_role("button", name="Done").locator("visible=true").first.click()
+            page.wait_for_timeout(1500)
+            save = page.locator("#save:visible, ytcp-button#save:visible").first
+            save.click()
+            page.wait_for_timeout(5000)
+            if "members" not in vis.inner_text().lower():
+                raise RuntimeError(f"visibility shows {vis.inner_text()!r}")
+        except (PWTimeout, RuntimeError) as e:
+            print(f"[members {k}/{len(todo)}] FAILED, stopping: {str(e)[:200]}")
+            page.screenshot(path=str(ROOT / "work" / "members_error.png"))
+            return
+        released.add(m["id"])
+        RELEASED_FILE.write_text(json.dumps(sorted(released)), encoding="utf-8")
+        print(f"[members {k}/{len(todo)}] now members-only: {m['title']}")
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--days", type=int, default=7)
@@ -113,8 +168,10 @@ def main() -> None:
         sys.exit("Google Chrome is not installed")
     done = load_done()
     now = datetime.now()
-    todo = [(t, img) for t, img in pack_posts()
-            if img.name not in done and now + timedelta(minutes=30) < t < now + timedelta(days=args.days)]
+    window = lambda t: now + timedelta(minutes=30) < t < now + timedelta(days=args.days)  # noqa: E731
+    todo = [(t, img, False) for t, img in pack_posts() if img.name not in done and window(t)]
+    todo += [(t, img, True) for t, img in pack_posts(MEMBERS_PACK) if img.name not in done and window(t)]
+    todo.sort()
     if args.test or args.dry:
         todo = todo[:1]
     print(f"{len(todo)} posts to schedule")
@@ -123,10 +180,12 @@ def main() -> None:
                                                    viewport={"width": 1400, "height": 900})
         page = ctx.pages[0] if ctx.pages else ctx.new_page()
         page.set_default_timeout(30000)
-        for k, (when, img) in enumerate(todo, 1):
+        if not (args.test or args.dry):
+            release_members_shorts(page)
+        for k, (when, img, members) in enumerate(todo, 1):
             caption = img.with_suffix(".txt").read_text(encoding="utf-8")
             try:
-                schedule_one(page, when, img, caption, dry=args.dry)
+                schedule_one(page, when, img, caption, dry=args.dry, members=members)
                 if args.dry:
                     print(f"rehearsal filled in for {when:%a %d %b %H:%M} (India time) — not scheduled")
                     break
@@ -136,7 +195,7 @@ def main() -> None:
                 break
             done.add(img.name)
             save_done(done)
-            print(f"[{k}/{len(todo)}] scheduled for {when:%a %d %b %H:%M} (India time) — {img.name}")
+            print(f"[{k}/{len(todo)}] {'MEMBERS ' if members else ''}scheduled for {when:%a %d %b %H:%M} (India time) — {img.name}")
             time.sleep(3)
         ctx.close()
 

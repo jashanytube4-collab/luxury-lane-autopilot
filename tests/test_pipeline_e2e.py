@@ -101,7 +101,9 @@ class FakeBrain:
                 "hook_text": "Built for endurance", "shots": shots,
                 "script": "Forty riders, one desert, and a Crown Prince who walks the line himself. "
                           "This is what endurance looks like in Dubai. Watch the start.",
-                "emphasis": ["endurance"], "title": f"The Start Line {self.calls}", "description": "A test.",
+                "emphasis": ["endurance"], "title": "The Start Line " + ["of the Desert Race", "Before Dawn in Dubai", "Where Champions Begin",
+                                                        "With Falcons Overhead", "Under the Morning Sun",
+                                                        "Beside the Royal Stables"][self.calls % 6], "description": "A test.",
                 "tags": ["test"]}
 
     def write_chapter(self, num, **kw):

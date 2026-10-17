@@ -4880,6 +4880,7 @@
   ],
   "video_exhausted": true
  },
+ "hamdan bin mohammed tours arabian travel market 2025": {},
  "hamdan bin mohammed tours bustanica the world s largest vertical farm in dubai": {
   "last_short": "2026-10-17",
   "shorts_made": 2,
@@ -6522,6 +6523,9 @@
  "uae president offers condolences to emir of qatar on passing of sheikh hamad bin khalifa al thani": {
   "video_exhausted": true
  },
+ "uae president receives crown prince of dubai and first deputy ruler of dubai": {
+  "no_hamdan": true
+ },
  "uae president receives mohammed bin rashid bin mohammed bin rashid al maktoum": {
   "long": "2026-10-17"
  },
@@ -6563,6 +6567,12 @@
    ]
   ],
   "video_exhausted": true
+ },
+ "uae president visits khalifa bin zayed ii airborne brigade command": {
+  "last_short": "2026-10-17",
+  "photo_short": true,
+  "shorts_made": 1,
+  "shot_ranges": []
  },
  "uae president visits ministry of defence": {
   "no_hamdan": true,

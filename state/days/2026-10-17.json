@@ -56,13 +56,16 @@
   },
   {
    "at": "2026-10-17T11:40:38+04:00",
-   "status": "open",
+   "status": "missed",
    "type": "short"
   },
   {
    "at": "2026-10-17T12:24:24+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "uae president visits khalifa bin zayed ii airborne brigade command",
+   "status": "scheduled",
+   "title": "Prince Hamdan Watches Defense Briefing With Pride 🛡️",
+   "type": "short",
+   "video_id": "wR8WmV7743A"
   },
   {
    "at": "2026-10-17T13:14:32+04:00",

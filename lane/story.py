@@ -239,8 +239,8 @@ class StoryMaker:
                     vis.append(Visuals(None, [], [p.path for p in pics]))
                     out.credits += [p.credit for p in pics]
             elif tok.startswith("key:"):
-                if tok[4:] in self.events:          # a hand-pinned event: all of its footage is on topic
-                    vis += take_events([tok[4:]], 1, False)
+                if tok[4:] in self.events:          # a hand-pinned event: the scenes with him (no title graphics)
+                    vis += take_events([tok[4:]], 1, True) or take_events([tok[4:]], 1, False)
             elif tok.startswith("him:"):
                 vis += take_events(self._events_matching(tok[4:]), 2, True)
             elif tok.startswith("event:"):
@@ -367,8 +367,11 @@ def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int)
                     bshots.append(card_shot)
                     rest = d - cd
                 if rest > 0.4:
-                    same = [it for it in pool if it not in used and it not in own]   # same subject only
-                    reserve = same if (own or same) else borrow(i)
+                    # pictures set aside for a later sentence (its exact clip) are never used up here as filler
+                    later = {id(it) for (i2, per) in beat_pools.items() for j2, bp in enumerate(per)
+                             if (i2, j2) > (i, j) for it in bp}
+                    same = [it for it in pool if it not in used and it not in own and id(it) not in later]
+                    reserve = same + [it for it in borrow(i) if id(it) not in later and it not in same]
                     fast = (2.0, 2.8) if i == 0 else (2.6, 4.0)
                     bshots += _chapter_shots(own, rest, rng, reserve, used, pace=fast, still=(3.0, 4.2),
                                              photo_every=0)

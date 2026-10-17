@@ -5,9 +5,9 @@ thumbnail:
   tag: BEHIND THE SCENES
 mood: elegant
 footage: endurance|Fitness|Dubai Ride|Executive Council|condolence|Iftar|graduation|students
-description: 'Not the official portraits — the real hours. From endurance races that start in the dark, to the top
-  of the Burj Khalifa, to his camels, his falcons and the quiet moments with his children: how Prince Hamdan (Fazza),
-  Crown Prince of Dubai, really spends his days, told with real footage of every moment.'
+description: 'Not the official portraits — the real hours. From endurance races that start in the dark, to the top of the
+  Burj Khalifa, to his camels, his falcons and the quiet moments with his children: how Prince Hamdan (Fazza), Crown Prince
+  of Dubai, really spends his days, told with real footage of every moment.'
 tags:
 - Fazza daily life
 - Sheikh Hamdan routine
@@ -25,22 +25,21 @@ sections:
 - beats:
   - say: He is the Crown Prince of Dubai, the Deputy Prime Minister and the Minister of Defence of the United Arab Emirates.
     show:
-    - video:Executive Council
+    - video:chairs.*Executive Council|marks 20 years leading the Executive Council
   - say: Millions of people follow his life online. But what does a day in his life really look like?
     show:
-    - clip:horses
-    - clip:horse-car
+    - clip:skydive-pov
   - say: Not the official portraits. The real hours.
     show:
     - clip:skydive
-  - say: Where does he go before sunrise? Who does he visit late at night? And what does he do that most leaders in the
-      world never would?
+  - say: Where does he go before sunrise? Who does he visit late at night? And what does he do that most leaders in the world
+      never would?
     show:
     - video:condolence
-    - clip:rescue-b
+    - clip:jetpack-rescue
   - say: Stay until the end, because the last part of his day is the one he never shows. Let's begin.
     show:
-    - clip:son-walk
+    - clip:horse-stable
 - beats:
   - say: In the desert, the most important races of his life begin in the dark.
     show:
@@ -50,8 +49,8 @@ sections:
     show:
     - key:dubai crown prince arrives in manama for endurance race
     - him:endurance race|Endurance Cup|endurance test
-  - say: For Fazza, this is not a hobby. In two thousand and fourteen, he became world champion, winning individual gold
-      at the World Equestrian Games in Normandy, France.
+  - say: For Fazza, this is not a hobby. In two thousand and fourteen, he became world champion, winning individual gold at
+      the World Equestrian Games in Normandy, France.
     show:
     - key:fazza leads uae riders in alltech fei world equestrian games
     - clip:windsor-stand
@@ -60,7 +59,6 @@ sections:
     - clip:queen
   - say: Champions are made in those quiet hours before the sun comes up, when nobody is watching.
     show:
-    - clip:horse-stable
     - key:queen elizabeth honors hamdan on winning windsor royal endurance race
 - beats:
   - say: Then there is the city itself. In October two thousand and seventeen, Fazza launched something unusual for a royal.
@@ -73,7 +71,8 @@ sections:
   - say: And every year, Sheikh Zayed Road, the biggest highway in Dubai, is closed to cars so that thousands of cyclists
       can ride it at dawn.
     show:
-    - key:third edition of dubai ride takes thousands of cycling enthusiasts on an exhilarating bike ride experience around city s iconic landmarks
+    - key:third edition of dubai ride takes thousands of cycling enthusiasts on an exhilarating bike ride experience around
+      city s iconic landmarks
   - say: In November two thousand and twenty-five, a record three hundred and seven thousand runners filled that same highway
       for the Dubai Run.
     show:
@@ -83,23 +82,23 @@ sections:
     - key:hamdan bin mohammed challenges the city to join dubai fitness challenge 2018
     - key:hamdan bin mohammed inaugurates dubai fitness challenge
 - beats:
-  - say: But the Crown Prince is not just an athlete. Most of his days are full of work that the cameras rarely show in
-      detail.
+  - say: But the Crown Prince is not just an athlete. Most of his days are full of work that the cameras rarely show in detail.
     show:
-    - video:Executive Council
+    - video:chairs.*Executive Council|marks 20 years leading the Executive Council
   - say: For twenty years, he has led the Executive Council of Dubai, the body that runs the city's government, from roads
       and schools to health and housing.
     show:
-    - video:Executive Council
+    - video:chairs.*Executive Council|marks 20 years leading the Executive Council
   - say: In those meetings, officials present their plans, and the Council decides which ones move forward.
     show:
-    - video:Executive Council
-  - say: Many of the city's plans for new districts, transport and public services pass through that council before they become real.
+    - video:chairs.*Executive Council|marks 20 years leading the Executive Council
+  - say: Many of the city's plans for new districts, transport and public services pass through that council before they become
+      real.
     show:
-    - video:Executive Council
+    - video:chairs.*Executive Council|marks 20 years leading the Executive Council
   - say: According to recent reports, Dubai's economy roughly doubled during his two decades in charge.
     show:
-    - video:Executive Council
+    - video:chairs.*Executive Council|marks 20 years leading the Executive Council
 - beats:
   - say: And since two thousand and twenty-four, his days also belong to the armed forces.
     show:
@@ -107,8 +106,8 @@ sections:
   - say: As Minister of Defence, he attends the graduation of young officers and recruits as they march past.
     show:
     - video:graduation|cadets|National Service
-  - say: During Ramadan, he has broken his fast with national service recruits and with soldiers of the National Guard,
-      sharing the same meal.
+  - say: During Ramadan, he has broken his fast with national service recruits and with soldiers of the National Guard, sharing
+      the same meal.
     show:
     - video:Iftar|recruits|National Guard
   - say: For many young Emiratis in uniform, sharing an iftar with the Crown Prince is a memory for life.
@@ -155,8 +154,8 @@ sections:
     show:
     - clip:sharks
     - clip:deepdive
-  - say: In two thousand and thirteen, after Dubai won the right to host Expo twenty-twenty, he climbed to the very top
-      of the Burj Khalifa, the tallest building in the world, and waved the UAE flag from the tip of the spire.
+  - say: In two thousand and thirteen, after Dubai won the right to host Expo twenty-twenty, he climbed to the very top of
+      the Burj Khalifa, the tallest building in the world, and waved the UAE flag from the tip of the spire.
     show:
     - clip:burj-flag
   - say: 'And he has never lost his love for the old traditions of the desert: his camels, which he calls by name, and his
@@ -173,14 +172,14 @@ sections:
   - say: And then there is the man who taught him everything. His father, Sheikh Mohammed bin Rashid, ruler of Dubai.
     show:
     - key:mohammed bin rashid and hamdan bin mohammed visits dubai motor show
-  - say: Father and son are filmed together at ceremonies, visits and celebrations, and Fazza has spent his whole adult
-      life at his father's side.
+  - say: Father and son are filmed together at ceremonies, visits and celebrations, and Fazza has spent his whole adult life
+      at his father's side.
     show:
     - key:mohammed bin rashid attends 29th dubai world cup
     - key:mohammed bin rashid and hamdan bin mohammed visits dubai motor show
-  - say: They share more than work. Both are horsemen, and both are poets. Sheikh Mohammed has written Nabati poetry for
-      decades, and his son learned the art from him, writing under the name Fazza, which is often explained as the one who
-      comes to help.
+  - say: They share more than work. Both are horsemen, and both are poets. Sheikh Mohammed has written Nabati poetry for decades,
+      and his son learned the art from him, writing under the name Fazza, which is often explained as the one who comes to
+      help.
     show:
     - key:mohammed bin rashid attends al marmoum heritage festival closing races
     - key:mohammed bin rashid attends 29th dubai world cup
@@ -202,8 +201,8 @@ sections:
     show:
     - clip:rider
     - clip:rider-meet
-  - say: And in October two thousand and twenty-six, he went to the hospital bedside of an Indian pilot who had survived
-      an axe attack in the cockpit, and called him part of our team.
+  - say: And in October two thousand and twenty-six, he went to the hospital bedside of an Indian pilot who had survived an
+      axe attack in the cockpit, and called him part of our team.
     show:
     - clip:smit
     - key:hamdan bin mohammed visits flydubai pilot and praises his courage
@@ -211,36 +210,32 @@ sections:
   - say: And when the official day ends, the cameras stop. Because the last part of his day belongs to his family.
     show:
     - clip:horse-car
-    - clip:white-horse
   - say: Fazza is the father of four children, twins Rashid and Shaikha, a son named Mohammed and a daughter named Hind.
     show:
     - clip:twins-stroller
-    - clip:bike-twins
   - say: He almost never shows their faces. When he shares them at all, it is a tiny hand, a child seen from behind, a small
       moment at home.
     show:
     - clip:child-horse
     - clip:son-walk
-  - say: And his wife, Sheikha Shaikha, has never been shown in public. For a man followed by seventeen million people,
-      home is the one place no one is invited.
+  - say: And his wife, Sheikha Shaikha, has never been shown in public. For a man followed by seventeen million people, home
+      is the one place no one is invited.
     show:
-    - clip:bike-twins
+    - clip:white-horse
     - clip:horses
 - beats:
   - say: Before sunrise on horseback. In the morning, running with his city. By day, running its government. At night, sitting
       with families in mourning. And then, quietly, home.
     show:
-    - key:dubai crown prince arrives in manama for endurance race
-    - clip:dubairun
-    - video:Executive Council
     - video:condolence
-    - clip:son-walk
+    - video:chairs.*Executive Council|marks 20 years leading the Executive Council
+    - video:Iftar|recruits|National Guard
   - say: That is the real day of the Crown Prince of Dubai. Not a palace of gold, but a life of duty, sport and people.
     show:
-    - clip:horse-stable
-    - clip:skydive
+    - video:students|graduates|school
+    - key:queen elizabeth honors hamdan on winning windsor royal endurance race
   - say: Which part of Fazza's day would you most like to join? Tell us in the comments, and subscribe to The Luxury Lane
       for more of the real Fazza.
     show:
-    - clip:falcon-hunt
-    - clip:horses
+    - clip:oryx
+    - clip:deepdive

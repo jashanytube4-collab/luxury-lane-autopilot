@@ -42,11 +42,36 @@ def _face_quality(img: np.ndarray, row: np.ndarray) -> float:
     frontal = min(1.0, eyes / 0.38)
     size = min(1.0, fh / 330.0)                                   # enough pixels to stay crisp at FACE_H
     room = 1.0 if y > 0.6 * fh else 0.6                           # head not cut off at the top
+    below = (h - (y + fh)) / max(fh, 1)                           # body below the face fills the frame; a photo
+    room *= 1.0 if below >= 1.6 else 0.85                         # (the missing part fades to dark)
     return (1.2 * size + 0.8 * sharp + 0.7 * frontal) * room
 
 
+SMILE_MODEL = ASSETS_DIR / "seg" / "emotion-ferplus-8.onnx"     # FER+ facial expression model (ONNX model zoo, MIT)
+_smile_net = None
+
+
+def smile(img: np.ndarray, row: np.ndarray) -> float:
+    """0..1: how much he smiles in this photo. A warm smile gets far more clicks than a serious face."""
+    global _smile_net
+    if not SMILE_MODEL.exists():
+        return 0.0
+    if _smile_net is None:
+        _smile_net = cv2.dnn.readNetFromONNX(str(SMILE_MODEL))
+    x, y, fw, fh = [int(v) for v in row[:4]]
+    m = int(0.1 * fh)
+    f = img[max(0, y - m):y + fh + m, max(0, x - m):x + fw + m]
+    if f.size == 0:
+        return 0.0
+    g = cv2.resize(cv2.cvtColor(f, cv2.COLOR_BGR2GRAY), (64, 64)).astype(np.float32)
+    _smile_net.setInput(g.reshape(1, 1, 64, 64))
+    o = _smile_net.forward()[0]
+    e = np.exp(o - o.max())
+    return float(e[1] / e.sum())              # FER+ classes: neutral, happiness, surprise, ...
+
+
 def pick_photos(paths: list[Path], face) -> list[tuple[Path, np.ndarray, float]]:
-    """[(path, his face row, quality)] best first, for photos where he is found."""
+    """[(path, his face row, quality)] best first, for photos where he is found. Smiling photos come first."""
     out = []
     for p in paths:
         img = cv2.imread(str(p), cv2.IMREAD_COLOR)
@@ -54,7 +79,9 @@ def pick_photos(paths: list[Path], face) -> list[tuple[Path, np.ndarray, float]]
             continue
         row = face.locate(img)
         if row is not None:
-            out.append((p, row, _face_quality(img, row)))
+            q = _face_quality(img, row)
+            sm = smile(img, row) * min(1.0, row[3] / 220.0) if q >= 1.0 else 0.0   # (big, clear faces only)
+            out.append((p, row, q + 3.0 * sm + (1.0 if sm >= 0.8 else 0.0)))      # a real broad smile wins
     out.sort(key=lambda r: -r[2])
     return out
 
@@ -128,9 +155,12 @@ def _place(img: np.ndarray, row: np.ndarray, face_cx: float, face_top: float) ->
     ox = int(face_cx * W - (row[0] + row[2] / 2))
     oy = int(face_top * H - row[1])
     pad = int(max(0, ox, oy, W - ox - img.shape[1], H - oy - img.shape[0])) + 2
-    big = cv2.copyMakeBorder(img, pad, pad, pad, pad, cv2.BORDER_REPLICATE)
+    big = cv2.copyMakeBorder(img, pad, pad, pad, pad, cv2.BORDER_REFLECT_101)
+    inside = cv2.copyMakeBorder(np.ones(img.shape[:2], np.float32), pad, pad, pad, pad, cv2.BORDER_CONSTANT, value=0)
     sx, sy = pad - ox, pad - oy
     crop = big[sy:sy + H, sx:sx + W]
+    global _VALID
+    _VALID = cv2.GaussianBlur(inside[sy:sy + H, sx:sx + W], (0, 0), 25)   # where the real photo is (soft edge)
     row[0] += ox
     row[1] += oy
     row[4:14:2] += ox
@@ -148,11 +178,16 @@ def _grade(img: np.ndarray, sat: float, contrast: float, warm: float) -> np.ndar
     return np.clip(img, 0, 255).astype(np.uint8)
 
 
+_VALID = None
+
+
 def _compose(img: np.ndarray, row: np.ndarray, rng: random.Random, face_cx: float) -> np.ndarray:
-    alpha = subject_alpha(img, row)[..., None]
+    valid = _VALID[..., None] if _VALID is not None and _VALID.shape == img.shape[:2] else 1.0
+    alpha = subject_alpha(img, row)[..., None] * valid      # beyond the photo's edge he simply fades out
     # background: same photo, out of focus, darker, darkest behind the text
     bg = cv2.GaussianBlur(img, (0, 0), 10)
     bg = _grade(bg, 1.15, 1.05, rng.uniform(6, 14)).astype(np.float32) * 0.62
+    bg = bg * valid + cv2.GaussianBlur(bg, (0, 0), 30) * 0.35 * (1 - valid)   # past the photo's edge: dark fade
     xx = np.linspace(0, 1, W, dtype=np.float32)[None, :, None]
     side = xx if face_cx > 0.5 else 1 - xx
     bg *= np.clip(0.30 + 1.1 * side, 0.30, 1.0)
@@ -303,8 +338,6 @@ def make_thumbnail(photos: list[Path], text: str, tag: str, out: Path, seed: int
         ranked_other = pick_photos(inset, any_face)
         if ranked_other:
             other, other_face = ranked_other[0][0], any_face
-    elif len(ranked) > 2 and seed % 3 == 1:
-        other = next((p for p, r, q in ranked[1:] if p != hero and q > 0.8), None)
     if other is not None:
         box = (40, 36, 440, 290) if inset else (36, 30, 330, 220)
         canvas = _inset(canvas, other, other_face, box, rng.choice([-4.0, 3.5]))

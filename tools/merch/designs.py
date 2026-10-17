@@ -243,3 +243,36 @@ def main() -> None:
 
 if __name__ == "__main__":
     sys.exit(main())
+
+
+# ---- posters (portrait 3:4 art prints on black, thin gold frame) ---------------------------------------------
+POSTER = """<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="{fonts}">
+<style>html,body{{margin:0;background:#0d0d0d}} svg{{display:block}} :root{{--cut:#0d0d0d}}</style></head>
+<body><svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200">
+<rect width="900" height="1200" fill="#0d0d0d"/>
+<rect x="36" y="36" width="828" height="1128" fill="none" stroke="{gold}" stroke-width="2"/>
+<rect x="48" y="48" width="804" height="1104" fill="none" stroke="{gold}" stroke-width="0.8"/>
+<g transform="translate(110,230) scale(0.68)">{body}</g>
+<text x="450" y="1105" text-anchor="middle" font-family="Montserrat" font-weight="700" font-size="16" letter-spacing="9"
+ fill="{gold}">THE LUXURY LANE · {caption}</text>
+</svg></body></html>"""
+
+POSTER_CAPTIONS = {
+    "01 Hamdanians Crest": "HAMDANIANS", "02 Fazza Calligraphy": "FAZZA · فزاع", "03 Fazza Fam": "FAZZA FAM",
+    "04 Dubai Skyline": "DUBAI", "05 Desert Royalty": "DESERT ROYALTY", "06 The Sky Belongs": "THE SKY BELONGS",
+}
+
+
+def posters() -> None:
+    OUT.mkdir(parents=True, exist_ok=True)
+    with sync_playwright() as p:
+        browser = p.chromium.launch(executable_path=str(CHROME) if CHROME else None)
+        page = browser.new_page(viewport={"width": 900, "height": 1200}, device_scale_factor=4)
+        for name, fn in DESIGNS.items():
+            page.set_content(POSTER.format(fonts=FONTS, body=fn(GOLD), gold=GOLD, caption=POSTER_CAPTIONS[name]),
+                             wait_until="networkidle")
+            page.evaluate("document.fonts.ready")
+            page.wait_for_timeout(600)
+            page.locator("svg").screenshot(path=str(OUT / f"{name} - POSTER.png"))
+            print("poster", name)
+        browser.close()

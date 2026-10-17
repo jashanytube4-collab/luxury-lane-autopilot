@@ -1009,6 +1009,9 @@
  "hamdan bin mohammed attends dhaw camel race festival": {
   "no_hamdan": true
  },
+ "hamdan bin mohammed attends dubai assembly for ai during dubai ai week 2025": {
+  "video_exhausted": true
+ },
  "hamdan bin mohammed attends dubai camp 2026": {
   "fails": 1,
   "last_short": "2026-10-06",
@@ -1426,6 +1429,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends joint military exercise desert flag 10": {
+  "video_exhausted": true
+ },
+ "hamdan bin mohammed attends launch of dubai ai week 2025": {
   "video_exhausted": true
  },
  "hamdan bin mohammed attends launch of dubai international chamber s new office in bengaluru": {
@@ -3464,6 +3470,9 @@
  },
  "hamdan bin mohammed meets with golf superstar rory mcilroy": {
   "video_exhausted": true
+ },
+ "hamdan bin mohammed meets with government employees participating in the 1 million ai talents in the uae initiative": {
+  "no_hamdan": true
  },
  "hamdan bin mohammed meets with graduates of the executive program in government communication": {
   "no_hamdan": true,
@@ -5556,11 +5565,15 @@
  },
  "hamdan bin mohammed visits emirates flight catering commends its role in advancing dubai s aviation ecosystem": {
   "fails": 1,
+  "last_short": "2026-10-17",
   "long": "2026-10-09",
+  "photo_short": true,
   "post_photos": [
    0,
    3
   ],
+  "shorts_made": 1,
+  "shot_ranges": [],
   "video_exhausted": true
  },
  "hamdan bin mohammed visits exhibition that tells story of uae s participation in world expos": {
@@ -5976,6 +5989,7 @@
   ],
   "video_exhausted": true
  },
+ "hamdan bin mohammed witnesses announcement of aed2 billion hyperscale data centre at dubai ai week 2025": {},
  "hamdan bin mohammed witnesses display of skills of national service programme recruits": {
   "last_short": "2026-10-07",
   "shorts_made": 1,

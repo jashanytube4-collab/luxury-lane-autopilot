@@ -47,9 +47,13 @@ def story_text(story) -> list[str]:
 
 
 def entities(story, top: int = 14) -> list[str]:
-    """The story's main names and places: capitalised phrases that are not at the start of a sentence."""
+    return entities_of(story_text(story), top)
+
+
+def entities_of(texts: list[str], top: int = 14) -> list[str]:
+    """The main names and places in some text: capitalised phrases that are not at the start of a sentence."""
     count: Counter = Counter()
-    for text in story_text(story):
+    for text in texts:
         for sent in re.split(r"(?<=[.!?])\s+", text):
             for m in re.finditer(r"(?<=[a-z,;] )((?:[A-Z][a-zA-Z'-]+)(?: (?:of |al-|bin )?[A-Z][a-zA-Z'-]+){0,2})", sent):
                 ent = re.sub(r"'s$", "", m.group(1).strip())
@@ -105,23 +109,8 @@ def pick_scenes(scenes: list[tuple[float, float]], n: int) -> list[tuple[float, 
     return [good[int(i * step)] for i in range(n)]
 
 
-def main() -> None:
-    ap = argparse.ArgumentParser()
-    ap.add_argument("story", nargs="?")
-    ap.add_argument("--next", action="store_true")
-    ap.add_argument("--target", type=int, default=120)
-    ap.add_argument("--per-video", type=int, default=4)
-    ap.add_argument("--dry", action="store_true", help="only show what would be searched")
-    a = ap.parse_args()
-    cursors = json.loads((ROOT / "state" / "cursors.json").read_text(encoding="utf-8"))
-    done = set(cursors.get("stories_done", [])) | set(cursors.get("stories_blocked", []))
-    story = next((s for s in bank() if (s.id == a.story if a.story else (a.next and s.id not in done))), None)
-    if story is None:
-        sys.exit("story not found")
-    ents = entities(story)
-    print(f"story {story.id}: searching for {ents}")
-    if a.dry:
-        return
+def fetch_for(ents: list[str], target: int = 120, per_video: int = 4) -> int:
+    """Cut and store official clips for these names; returns how many were added to assets/clips.yaml."""
     doc = yaml.safe_load(CLIPS_FILE.read_text(encoding="utf-8"))
     clips = doc["clips"]
     before = set(clips)
@@ -144,14 +133,14 @@ def main() -> None:
     pool.sort(key=lambda t: -t[0])
     print(f"  {len(pool)} official videos to choose from")
     for _, channel, hit, match in pool:
-        if new >= a.target:
+        if new >= target:
             break
         vid = hit["id"]
         src = download(vid)
         if not src:
             continue
         try:
-            scenes = pick_scenes(_scene_list(src), a.per_video)
+            scenes = pick_scenes(_scene_list(src), per_video)
         except Exception as e:  # noqa: BLE001
             print(f"  {vid}: scenes failed ({e})")
             continue
@@ -171,7 +160,28 @@ def main() -> None:
         text = yaml.safe_dump(added, sort_keys=False, allow_unicode=True, width=200)
         with CLIPS_FILE.open("a", encoding="utf-8") as f:
             f.write("".join(f"  {line}\n" for line in text.splitlines()))
-    print(f"DONE: {new} new clips added to assets/clips.yaml (target {a.target})")
+    print(f"DONE: {new} new clips added to assets/clips.yaml (target {target})")
+    return new
+
+
+def main() -> None:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("story", nargs="?")
+    ap.add_argument("--next", action="store_true")
+    ap.add_argument("--target", type=int, default=120)
+    ap.add_argument("--per-video", type=int, default=4)
+    ap.add_argument("--dry", action="store_true", help="only show what would be searched")
+    a = ap.parse_args()
+    cursors = json.loads((ROOT / "state" / "cursors.json").read_text(encoding="utf-8"))
+    done = set(cursors.get("stories_done", [])) | set(cursors.get("stories_blocked", []))
+    story = next((s for s in bank() if (s.id == a.story if a.story else (a.next and s.id not in done))), None)
+    if story is None:
+        sys.exit("story not found")
+    ents = entities(story)
+    print(f"story {story.id}: searching for {ents}")
+    if a.dry:
+        return
+    fetch_for(ents, a.target, a.per_video)
 
 
 if __name__ == "__main__":

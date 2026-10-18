@@ -187,8 +187,7 @@ def audit(story: Story, got: Gathered, cfg: dict) -> None:
     top = max(count.items(), key=lambda kv: kv[1], default=("", 0))
     if total and top[1] / total > max_share:
         problems.append(f"one source ('{top[0][:50]}') is {top[1] * 100 // total}% of the footage (max {int(max_share * 100)}%)")
-    strict = g.get("block", False) or story.id.endswith("-news")      # the extra news video is optional: never below the bar
-    if problems and not strict:     # the video still goes out; the report says it was thin
+    if problems and not g.get("block", False):     # the video still goes out; the report says it was thin
         got.gate_warning = f"'{story.id}' footage below the premium bar: " + "; ".join(problems)
         log.warning(got.gate_warning)
         return

@@ -176,6 +176,55 @@ class Runner:
             posted.extend(new)
             self.report.note(f"Reconciled {len(new)} upload(s) already on the channel")
 
+    def ensure_short_supply(self) -> None:
+        """Shorts must never run dry. Counts the events that can give a Short today; when there are fewer than two
+        days' worth: (1) stories rest fewer days (down to 1), then (2) footage whose Shorts went out at least
+        `short.recycle_after_days` ago comes back for a fresh cut (new moments order, music and title)."""
+        sc = self.cfg.setdefault("short", {})
+        per_day = int(self.cfg["schedule"]["shorts_per_day"])
+        need = 2 * per_day
+        today = datetime.now(timezone.utc).date()
+
+        def supply(rest: int) -> int:
+            # footage that already gave a Short counts fully; untried footage about half (≈54% turn out to show him)
+            n = 0.0
+            for k in self.studio.short_candidates(self.events, self.usage, today.isoformat(), rest):
+                if self.events[k].get("video"):
+                    n += 1.0 if self.usage.get(k, {}).get("shorts_made", 0) >= 1 else 0.5
+            return int(n)
+
+        base = int(sc.get("cooldown_days", 3))
+        rest, have = base, supply(base)
+        while have < need and rest > 1:
+            rest -= 1
+            have = supply(rest)
+        if rest != base:
+            sc["cooldown_days"] = rest           # this run only; config.yaml keeps the normal value
+            self.report.note(f"Footage for Shorts was low: stories rest {rest} day(s) instead of {base} this run")
+        if have < need:
+            cutoff = (today - timedelta(days=int(sc.get("recycle_after_days", 60)))).isoformat()
+            back = 0
+            for k, ev in self.events.items():
+                u = self.usage.get(k)
+                if not u or not ev.get("video") or u.get("rejected") or u.get("no_hamdan") or u.get("fails", 0) >= 2:
+                    continue
+                used_up = u.get("video_exhausted") or u.get("shorts_made", 0) >= 3
+                if used_up and u.get("shorts_made", 0) >= 1 and u.get("last_short", "9999") <= cutoff:
+                    u.pop("video_exhausted", None)
+                    u["shot_ranges"], u["shorts_made"], u["recycled"] = [], 0, today.isoformat()
+                    back += 1
+            if back:
+                self.state.save()
+                have = supply(rest)
+                self.report.note(f"{back} older footage event(s) came back for fresh Shorts "
+                                 f"(their Shorts went out {sc.get('recycle_after_days', 60)}+ days ago)")
+        days = have / max(1, per_day)
+        self.state.cursors["shorts_supply"] = {"date": today.isoformat(), "events": have, "days": round(days, 1)}
+        log.info("Shorts footage supply: %d events (about %.1f days at %d a day)", have, days, per_day)
+        if have < need:
+            self.report.problem(f"Footage for Shorts is running low: {have} events left (about {days:.1f} days). "
+                                "More Instagram videos are collected every run; fewer Shorts per day would help.")
+
     def _recent_lines(self) -> list[str]:
         return self.state.cursors.get("recent_hooks", [])[-40:]
 
@@ -546,6 +595,10 @@ class Runner:
                 self.brain.close()
             self.report.publish(self.secrets.telegram_bot_token, self.secrets.telegram_chat_id)
             return 0
+        try:
+            self.ensure_short_supply()
+        except Exception as e:  # noqa: BLE001 — a supply check must never stop the day's uploads
+            log.warning("Shorts supply check failed: %s", e)
         try:
             for day in target_days(datetime.now(timezone.utc), self.cfg["schedule"]):
                 if not self.fill_day(day):

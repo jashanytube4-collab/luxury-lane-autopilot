@@ -41,7 +41,10 @@ class YouTube:
             raise AuthError("YouTube credentials are not set (YT_CLIENT_ID / YT_CLIENT_SECRET / YT_REFRESH_TOKEN)")
         creds = Credentials(None, refresh_token=refresh_token, client_id=client_id, client_secret=client_secret,
                             token_uri="https://oauth2.googleapis.com/token", scopes=SCOPES)
-        self.api = build("youtube", "v3", credentials=creds, cache_discovery=False)
+        # a stalled connection must fail fast (then the upload resumes from its last chunk), not hang for an hour
+        from google_auth_httplib2 import AuthorizedHttp
+        self.api = build("youtube", "v3", http=AuthorizedHttp(creds, http=httplib2.Http(timeout=120)),
+                         cache_discovery=False)
         try:
             self.channel = self.api.channels().list(part="snippet,contentDetails", mine=True).execute()["items"][0]
         except RefreshError as e:

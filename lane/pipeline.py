@@ -248,7 +248,46 @@ class Runner:
         return vid
 
     # ---- long-form ------------------------------------------------------------------------------------
+    def plan_news_long(self, day, plan: dict, sc: dict, ncfg: dict) -> None:
+        """A big fresh news story (reporter score above news.min_score) gets an EXTRA long video today."""
+        from . import news as news_mod
+        item = news_mod.best(self.state.cursors, float(ncfg.get("min_score", 6)), day)
+        if item is None:
+            return
+        at = datetime.now(timezone.utc) + timedelta(minutes=int(ncfg.get("lead_minutes", 150)))
+        at = at.astimezone(ZoneInfo(sc["timezone"])).replace(second=0, microsecond=0)
+        if at.date() != day or at.hour < 7:
+            self.report.note(f"Big news story '{item.label[:70]}' ({item.score}/10) found too late for an extra long video today")
+            return
+        slot = {"at": at.isoformat(), "type": "long", "status": "open",
+                "news": {"key": item.key, "label": item.label, "score": item.score, "items": item.items}}
+        plan["slots"] = sorted(plan["slots"] + [slot], key=lambda s: s["at"])
+        news_mod.mark_done(self.state.cursors, item, day)
+        self.state.save_day(day.isoformat(), plan)
+        self.state.save()
+        self.report.note(f"EXTRA long video planned for big news ({item.score}/10): {item.label[:90]}")
+
+    def fill_news_long(self, day, slot: dict, plan: dict) -> bool:
+        from . import news as news_mod
+        try:
+            item = news_mod.rebuild(slot["news"])
+            found = auto_story(self.brain, self.studio, self.events, self.usage, self.state.cursors, day, self.cfg,
+                               news=item) if item else None
+        except AIUnavailable:
+            raise
+        except Exception as e:  # noqa: BLE001 — the regular long video of the day is not affected
+            self.report.problem(f"News story failed: {str(e)[:300]}")
+            found = None
+        if found is None:
+            slot["status"] = "skipped"
+            self.state.save_day(day.isoformat(), plan)
+            return True
+        story, _ = found
+        return self.fill_story(day, slot, plan, story)
+
     def fill_long(self, day, slot: dict, plan: dict) -> bool:
+        if slot.get("news"):
+            return self.fill_news_long(day, slot, plan)
         held = (self.cfg.get("longform", {}).get("held") or {}).get(day.isoformat())
         if held and not self.args.dry_run:   # a long video the owner moved to this day: it is this day's long video
             slot.update(status="scheduled", video_id=held["video_id"], at=held["at"], title=held.get("title", ""))
@@ -554,6 +593,10 @@ class Runner:
                                                         for t in extra], key=lambda s: s["at"])
                 self.state.save_day(date_s, plan)
                 self.report.note(f"{date_s}: added {len(extra)} Short slot(s) to match shorts_per_day")
+        ncfg = self.cfg.get("news", {})
+        if (ncfg.get("extra_long") and not self.args.dry_run and not any(s.get("news") for s in plan["slots"])
+                and day == datetime.now(ZoneInfo(sc["timezone"])).date()):
+            self.plan_news_long(day, plan, sc, ncfg)
         # the episode first: it is the day's most important upload
         rank = {"long": 0, "short": 1, "members": 2, "post": 3}   # picture posts last: never take a Short's place
         order = sorted(plan["slots"], key=lambda s: (rank.get(s["type"], 3), s["at"]))

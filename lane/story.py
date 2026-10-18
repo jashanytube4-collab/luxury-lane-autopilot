@@ -606,15 +606,27 @@ def _second_mood(mood: str) -> str:
     return {"elegant": "epic", "epic": "elegant", "arabian": "elegant", "modern": "epic"}.get(mood, "elegant")
 
 
-def auto_story(brain, studio, events: dict, usage: dict, cursors: dict, today, cfg: dict) -> tuple[Story, object] | None:
-    """A story written automatically about today's freshest topic (see lane/trends.py), or None."""
+def auto_story(brain, studio, events: dict, usage: dict, cursors: dict, today, cfg: dict,
+               news=None) -> tuple[Story, object] | None:
+    """A story written automatically about today's freshest topic (see lane/trends.py), or about a scored news story
+    (lane/news.py) when `news` is given; None when nothing can be written."""
     from . import trends
     from .brain import write_story
-    topic = trends.pick(events, usage, cursors, today)
+    if news is not None:
+        keys = [k.split(":", 1)[1] for k in moment_matches(news.label, events, limit=5)]
+        keys += [k for k in sorted(events, key=lambda k: events[k].get("date", ""), reverse=True)
+                 if events[k].get("video") and k not in keys][: 5 - len(keys)]
+        topic = trends.Topic(key=f"news:{news.key}", label=news.label, events=keys[:5],
+                             why=f"news {news.score}/10 from {', '.join(news.publishers[:4])}")
+    else:
+        topic = trends.pick(events, usage, cursors, today)
     if topic is None:
         return None
     sources, src_keys = [], []
-    for k in sorted(topic.events, key=lambda k: not events[k].get("video"))[:5]:   # footage first
+    if news is not None:
+        sources = [dict(s) for s in news.sources]
+        src_keys = list(topic.events)
+    for k in ([] if news is not None else sorted(topic.events, key=lambda k: not events[k].get("video"))[:5]):   # footage first
         ev = events[k]
         src_keys.append(k)
         if ev.get("news_id"):
@@ -627,20 +639,22 @@ def auto_story(brain, studio, events: dict, usage: dict, cursors: dict, today, c
         return None
     facts = studio.facts(None, 8, random.Random(today.toordinal()))
     d = write_story(brain, topic.label, sources, facts)
+    if news is not None:
+        d["description"] = (d["description"] + "\n\nNews reports used: " + ", ".join(news.publishers[:6]))[:4000]
     # footage first: each part shows the official event its facts come from (the one being told), then the
     # rest of the story's own events; never generic footage or outside photos
     def source_of(fact: str) -> str:
         w = set(re.findall(r"[a-z]{4,}", fact.lower()))
         best = max(range(len(sources)), key=lambda j: len(w & set(re.findall(r"[a-z]{4,}", (
             sources[j]["title"] + " " + sources[j]["text"]).lower()))))
-        return src_keys[best]
+        return src_keys[best % len(src_keys)]
     sections = []
     for i, text in enumerate(d["parts"]):
         mine = list(dict.fromkeys(source_of(f) for f in d.get("part_facts", [[]] * len(d["parts"]))[i] if f))
         mine = mine or [src_keys[i % len(src_keys)]]   # a short part borrows from the story's other events
         sections.append({"say": text, "show": [f"key:{k}" for k in mine]})
     sentence_beats(sections)
-    story = Story(f"auto-{today.isoformat()}", d["title"], d["thumbnail"], _mood_for(topic.label),
+    story = Story(f"auto-{today.isoformat()}{'-news' if news is not None else ''}", d["title"], d["thumbnail"], _mood_for(topic.label),
                   d["description"], d["tags"], sections, Path("auto"))
     return story, topic
 

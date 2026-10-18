@@ -61,6 +61,11 @@ story:                               # long-form story episodes (assets/stories)
     max_source_share: 0.25           # no single source may be more than this share of the video
   ready_only: false                  # every day a long video; every story gets sentence-level clips automatically
 
+news:                                # fresh news about him, scored 0-10 by the reporter (tools/reporter.py)
+  extra_long: true                   # a story scoring above min_score gets an EXTRA long video the same day
+  min_score: 6
+  lead_minutes: 150                  # time for the script + render (about 45-80 minutes) before it goes public
+
 members:                             # members-only content (Fazza Fam)
   shorts_per_week: 8                 # extra moment Shorts uploaded private; the Saturday helper makes them members-only
   weekday: 5                         # 5 = Saturday (Dubai time)

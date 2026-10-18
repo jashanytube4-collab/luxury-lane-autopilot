@@ -22,6 +22,7 @@ from urllib.parse import quote
 import requests
 
 ROOT = Path(__file__).resolve().parent.parent
+NL = chr(10)
 QUERIES = ["Sheikh Hamdan", "Fazza Dubai Crown Prince", "Prince Hamdan", "Hamdan bin Mohammed", "Sheikh Mohammed bin Rashid family",
            "فزاع حمدان بن محمد"]
 HUMAN = re.compile(r"visit|hospital|bedside|rescue|saves?|helps?|met |meets|surprise|condolence|mourn|dies|death|passed away|"
@@ -74,6 +75,30 @@ def score(group: list[dict], pubs: set, text: str, official: bool) -> float:
     return round(max(0.0, min(10.0, s)), 1)
 
 
+def fetch_bing(query: str) -> list[dict]:
+    """Bing News RSS: unlike Google's, its items carry the real article address (kept only for the trusted-site reader)."""
+    from urllib.parse import parse_qs, urlparse
+    try:
+        r = requests.get(f"https://www.bing.com/news/search?q={quote(query)}&format=rss", timeout=30,
+                         headers={"User-Agent": "Mozilla/5.0"})
+        root = ET.fromstring(r.content)
+    except Exception as e:  # noqa: BLE001
+        print(f"bing feed failed for {query!r}: {e}", file=sys.stderr)
+        return []
+    out = []
+    for it in root.iter("item"):
+        link = it.findtext("link") or ""
+        url = parse_qs(urlparse(link).query).get("url", [link])[0]
+        try:
+            when = parsedate_to_datetime(it.findtext("pubDate"))
+        except Exception:  # noqa: BLE001
+            continue
+        host = urlparse(url).netloc.removeprefix("www.")
+        out.append({"title": html.unescape(it.findtext("title") or "").strip(), "publisher": host, "when": when,
+                    "url": url})
+    return out
+
+
 def words(t: str) -> set[str]:
     return {w.lower() for w in re.findall(r"[A-Za-z]{4,}", t)} - {"sheikh", "hamdan", "prince", "dubai", "crown", "fazza",
                                                                   "with", "that", "from", "after", "this", "says", "news"}
@@ -93,11 +118,13 @@ def cluster(items: list[dict]) -> list[list[dict]]:
     return groups
 
 
-def main() -> None:
+def collect() -> tuple[list, list, int, int]:
+    """(good stories, skipped, headlines checked, headlines about him). Each story row: (group, publishers, human,
+    official, score), best first."""
     now = datetime.now(timezone.utc)
     seen, items = set(), []
     for q in QUERIES:
-        for it in fetch(q):
+        for it in fetch(q) + (fetch_bing(q) if re.match(r"[A-Za-z]", q) else []):
             key = (it["title"].lower(), it["publisher"])
             if key in seen or now - it["when"] > timedelta(hours=60):
                 continue
@@ -112,14 +139,20 @@ def main() -> None:
         human, official = bool(HUMAN.search(text)), bool(OFFICIAL.search(text))
         row = (g, pubs, human, official, score(g, pubs, text, official))
         (good if human and not official and len(pubs) >= 2 else skipped).append(row)
+    good.sort(key=lambda r: -r[4])
+    return good, skipped, len(items), len(mine)
+
+
+def main() -> None:
+    good, skipped, n_items, n_mine = collect()
     day = datetime.now().strftime("%Y-%m-%d")
-    lines = [f"# Reporter — {day}", "", f"Checked {len(items)} fresh headlines ({len(mine)} about Hamdan / the family).", ""]
+    lines = [f"# Reporter — {day}", "", f"Checked {n_items} fresh headlines ({n_mine} about Hamdan / the family).", ""]
     if not good:
         lines.append("No strong video story today (needs: recent, Hamdan in it, a human moment, 2+ publishers).")
-    good.sort(key=lambda r: -r[4])
     for g, pubs, _, _, sc in good:
         rumour = " — RUMOUR: label it as one" if RUMOUR.search(" ".join(x["title"] for x in g)) else ""
-        lines += [f"## [{sc}/10{' — EXTRA LONG VIDEO' if sc > 6 else ''}] {g[0]['title']}", f"- {len(pubs)} publishers: {', '.join(sorted(pubs))}{rumour}",
+        lines += [f"## [{sc}/10{' — EXTRA LONG VIDEO' if sc > 6 else ''}] {g[0]['title']}",
+                  f"- {len(pubs)} publishers: {', '.join(sorted(pubs))}{rumour}",
                   f"- first seen {min(x['when'] for x in g).astimezone().strftime('%d %b %H:%M')}"]
         lines += [f"- “{x['title']}” ({x['publisher']})" for x in g[:5]]
         lines.append("")
@@ -129,7 +162,7 @@ def main() -> None:
         lines += [f"- {s[0][0]['title']} ({s[0][0]['publisher']})" for s in near[:6]]
         lines.append("")
     lines += ["## Skipped as official/launch news", ""] + [f"- {s[0][0]['title']}" for s in skipped if s[3]][:6]
-    text = "\n".join(lines) + "\n"
+    text = NL.join(lines) + NL
     out = ROOT / "rocky" / "reports"
     out.mkdir(parents=True, exist_ok=True)
     (out / f"{day}.md").write_text(text, encoding="utf-8")

@@ -1207,7 +1207,8 @@
     137.1,
     139.95
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed attends gems our own english high school s golden jubilee celebrations": {
   "long": "2026-10-15",
@@ -3064,12 +3065,24 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed launches new phase of dubai s happiness agenda": {
-  "last_short": "2026-10-12",
-  "shorts_made": 1,
+  "last_short": "2026-10-18",
+  "shorts_made": 2,
   "shot_ranges": [
    [
     21.380000000000003,
     25.549999999999997
+   ],
+   [
+    33.04,
+    43.64
+   ],
+   [
+    47.519999999999996,
+    56.160000000000004
+   ],
+   [
+    65.24000000000001,
+    69.47999999999999
    ]
   ]
  },
@@ -6319,6 +6332,9 @@
  "ig:faz3:17863681005256810": {
   "video_exhausted": true
  },
+ "ig:faz3:17867172451593275": {
+  "video_exhausted": true
+ },
  "ig:faz3:17868871735807501": {
   "video_exhausted": true
  },
@@ -6326,6 +6342,9 @@
   "video_exhausted": true
  },
  "ig:faz3:17874520124405449": {
+  "video_exhausted": true
+ },
+ "ig:faz3:17877439837506083": {
   "video_exhausted": true
  },
  "ig:faz3:17877510389252099": {
@@ -6374,6 +6393,9 @@
   "video_exhausted": true
  },
  "ig:faz3:17912056117574256": {
+  "video_exhausted": true
+ },
+ "ig:faz3:17917872754369605": {
   "video_exhausted": true
  },
  "ig:faz3:17924353259135353": {
@@ -6717,7 +6739,8 @@
     239.18,
     241.67
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "mohamed bin zayed hamdan bin mohammed take part in walk unified event": {
   "video_exhausted": true

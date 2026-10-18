@@ -2591,7 +2591,8 @@
     329.0,
     338.52
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed honours challenge 71 program winners": {
   "last_short": "2026-10-15",
@@ -5415,7 +5416,8 @@
     171.20000000000002,
     179.96
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed unveils 5 star plaque at dubai chamber of commerce and industry": {
   "last_short": "2026-10-14",
@@ -5429,12 +5431,13 @@
     61.68,
     72.64
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed unveils 5 star plaque at hatta gdrfa centre": {
-  "last_short": "2026-10-14",
+  "last_short": "2026-10-19",
   "long": "2026-10-14",
-  "shorts_made": 1,
+  "shorts_made": 2,
   "shot_ranges": [
    [
     98.4,
@@ -5443,6 +5446,18 @@
    [
     108.76,
     117.75999999999999
+   ],
+   [
+    72.60000000000001,
+    78.16
+   ],
+   [
+    87.04,
+    91.44
+   ],
+   [
+    132.44,
+    137.28
    ]
   ]
  },

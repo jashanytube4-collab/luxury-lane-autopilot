@@ -225,8 +225,8 @@
   "video_exhausted": true
  },
  "dubai crown prince honours winners of hamdan bin mohammed award for innovation in projects management": {
-  "last_short": "2026-10-12",
-  "shorts_made": 1,
+  "last_short": "2026-10-18",
+  "shorts_made": 2,
   "shot_ranges": [
    [
     5.38,
@@ -239,6 +239,14 @@
    [
     168.34,
     172.74
+   ],
+   [
+    157.88,
+    163.4
+   ],
+   [
+    202.92000000000002,
+    214.35999999999999
    ]
   ]
  },
@@ -775,7 +783,8 @@
     68.9,
     71.83
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed approves launch of three new projects under dubai 10x initiative": {
   "video_exhausted": true

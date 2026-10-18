@@ -57,6 +57,23 @@ def fetch(query: str) -> list[dict]:
     return out
 
 
+BIG = re.compile(r"dies|death|passed away|funeral|mourn|condolence|accident|crash|hospital|bedside|rescue|born|birth|wedding|"
+                 r"married|divorce|عزاء|وفاة", re.I)
+
+
+def score(group: list[dict], pubs: set, text: str, official: bool) -> float:
+    """0-10: how big a video story this is. Above 6 is big enough for an extra long video the same day."""
+    now = datetime.now(timezone.utc)
+    age_h = (now - max(x["when"] for x in group)).total_seconds() / 3600
+    s = min(4, len(pubs)) * 1.0
+    s += 2.0 if re.search(r"hamdan|fazza|فزاع|حمدان", text, re.I) else 0.5
+    s += 2.0 if BIG.search(text) else (1.0 if HUMAN.search(text) else 0)
+    s += 1.5 if age_h < 12 else (1.0 if age_h < 24 else 0.3)
+    s -= 1.5 if RUMOUR.search(text) else 0
+    s -= 3.0 if official else 0
+    return round(max(0.0, min(10.0, s)), 1)
+
+
 def words(t: str) -> set[str]:
     return {w.lower() for w in re.findall(r"[A-Za-z]{4,}", t)} - {"sheikh", "hamdan", "prince", "dubai", "crown", "fazza",
                                                                   "with", "that", "from", "after", "this", "says", "news"}
@@ -93,15 +110,16 @@ def main() -> None:
         pubs = {x["publisher"] for x in g}
         text = " ".join(x["title"] for x in g)
         human, official = bool(HUMAN.search(text)), bool(OFFICIAL.search(text))
-        row = (g, pubs, human, official)
+        row = (g, pubs, human, official, score(g, pubs, text, official))
         (good if human and not official and len(pubs) >= 2 else skipped).append(row)
     day = datetime.now().strftime("%Y-%m-%d")
     lines = [f"# Reporter — {day}", "", f"Checked {len(items)} fresh headlines ({len(mine)} about Hamdan / the family).", ""]
     if not good:
         lines.append("No strong video story today (needs: recent, Hamdan in it, a human moment, 2+ publishers).")
-    for g, pubs, _, _ in good:
+    good.sort(key=lambda r: -r[4])
+    for g, pubs, _, _, sc in good:
         rumour = " — RUMOUR: label it as one" if RUMOUR.search(" ".join(x["title"] for x in g)) else ""
-        lines += [f"## {g[0]['title']}", f"- {len(pubs)} publishers: {', '.join(sorted(pubs))}{rumour}",
+        lines += [f"## [{sc}/10{' — EXTRA LONG VIDEO' if sc > 6 else ''}] {g[0]['title']}", f"- {len(pubs)} publishers: {', '.join(sorted(pubs))}{rumour}",
                   f"- first seen {min(x['when'] for x in g).astimezone().strftime('%d %b %H:%M')}"]
         lines += [f"- “{x['title']}” ({x['publisher']})" for x in g[:5]]
         lines.append("")

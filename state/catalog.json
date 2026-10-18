@@ -117,7 +117,8 @@
     49.46,
     52.07000000000001
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "dubai crown prince attends al marri al falasi family wedding": {
   "long": "2026-10-17"
@@ -161,7 +162,8 @@
     76.82,
     79.59
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "dubai crown prince commends students selected for the hamdan bin mohammed scholarship programme": {
   "last_short": "2026-10-08",
@@ -941,7 +943,8 @@
     480.90000000000003,
     485.3
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed attends 3rd day of al marmoom heritage festival": {
   "long": "2026-10-13"
@@ -1014,7 +1017,8 @@
     89.46,
     91.59
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed attends annual meeting of global future leaders 2026 in dubai": {
   "video_exhausted": true
@@ -1480,7 +1484,8 @@
     217.98,
     220.42999999999998
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed attends iftar banquet with autistic children and their families": {
   "last_short": "2026-10-09",
@@ -2059,7 +2064,8 @@
     100.62,
     103.14999999999999
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed chairs higher committee for development and citizens affairs meeting": {
   "long": "2026-10-14",
@@ -2219,7 +2225,8 @@
     244.98,
     247.35
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed crowns winners of maktoum bin rashid cup at al marmoum s camel racing festival": {
   "long": "2026-10-13"
@@ -4056,7 +4063,8 @@
     45.06,
     47.11000000000001
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed offers condolences on death of hamad al qasimi": {
   "video_exhausted": true
@@ -5529,7 +5537,8 @@
     49.78,
     51.510000000000005
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed visits aster pharmacy s distribution centre in dubai": {
   "fails": 1,
@@ -5747,9 +5756,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits dubai hospital": {
-  "last_short": "2026-10-13",
+  "last_short": "2026-10-18",
   "long": "2026-10-14",
-  "shorts_made": 1,
+  "shorts_made": 2,
   "shot_ranges": [
    [
     31.3,
@@ -5762,6 +5771,14 @@
    [
     204.58,
     206.51
+   ],
+   [
+    77.60000000000001,
+    87.67999999999999
+   ],
+   [
+    133.48000000000002,
+    139.4
    ]
   ]
  },
@@ -5778,7 +5795,8 @@
     47.82,
     49.550000000000004
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed visits dubai sports council": {
   "long": "2026-10-18",

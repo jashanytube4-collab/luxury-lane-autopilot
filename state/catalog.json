@@ -588,8 +588,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed and mohammed bin salman visit headquarters of expo 2020 dubai": {
-  "last_short": "2026-10-12",
-  "shorts_made": 1,
+  "last_short": "2026-10-18",
+  "shorts_made": 2,
   "shot_ranges": [
    [
     101.17999999999999,
@@ -602,6 +602,14 @@
    [
     288.66,
     293.06
+   ],
+   [
+    293.8,
+    302.8
+   ],
+   [
+    321.84000000000003,
+    329.4
    ]
   ]
  },

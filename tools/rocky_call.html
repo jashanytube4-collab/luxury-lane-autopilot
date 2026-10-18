@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0f1115">
+<title>Rocky Call</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23d4a017'/%3E%3Ctext x='32' y='43' font-size='32' text-anchor='middle' font-family='Arial' font-weight='bold' fill='%23111'%3ER%3C/text%3E%3C/svg%3E">
+<style>
+  :root { --bg:#0f1115; --card:#1a1d24; --text:#f2f2f2; --muted:#9aa0a6; --gold:#d4a017; --red:#e5484d; --green:#30a46c; }
+  * { box-sizing: border-box; }
+  html, body { margin:0; height:100%; background:var(--bg); color:var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans Devanagari", sans-serif; }
+  main { max-width:560px; margin:0 auto; padding:16px; height:100%; display:flex; flex-direction:column; gap:12px; }
+  header { display:flex; align-items:center; justify-content:space-between; }
+  h1 { font-size:20px; margin:0; letter-spacing:.3px; }
+  h1 span { color:var(--gold); }
+  select { background:var(--card); color:var(--text); border:1px solid #2b2f38; border-radius:10px; padding:8px; font-size:14px; max-width:55%; }
+  #status { text-align:center; color:var(--muted); font-size:15px; min-height:22px; }
+  #log { flex:1; overflow-y:auto; display:flex; flex-direction:column; gap:8px; padding:4px 2px; }
+  .me, .rocky { padding:10px 12px; border-radius:14px; max-width:88%; line-height:1.4; font-size:16px; white-space:pre-wrap; }
+  .me { align-self:flex-end; background:#24324a; }
+  .rocky { align-self:flex-start; background:var(--card); border:1px solid #2b2f38; }
+  .live { opacity:.6; font-style:italic; }
+  #orb { width:120px; height:120px; border-radius:50%; margin:6px auto 0; border:none; font-size:17px; font-weight:700;
+    color:#111; background:var(--gold); box-shadow:0 0 0 0 rgba(212,160,23,.5); }
+  #orb.listening { background:var(--green); animation:pulse 1.4s infinite; color:#fff; }
+  #orb.speaking { background:var(--gold); animation:pulse 2.2s infinite; }
+  #orb.thinking { background:#5b6270; color:#fff; }
+  @keyframes pulse { 0%{box-shadow:0 0 0 0 rgba(255,255,255,.35)} 70%{box-shadow:0 0 0 22px rgba(255,255,255,0)} 100%{box-shadow:0 0 0 0 rgba(255,255,255,0)} }
+  .row { display:flex; gap:8px; justify-content:center; }
+  .row button { background:var(--card); color:var(--text); border:1px solid #2b2f38; border-radius:10px; padding:10px 14px; font-size:15px; }
+  #end { color:#fff; background:var(--red); border-color:var(--red); }
+  .hide { display:none; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Rocky <span>Call</span></h1>
+    <select id="voice" aria-label="Rocky's voice"></select>
+  </header>
+  <div id="log"></div>
+  <div id="status">Tap the button to start talking to Rocky</div>
+  <button id="orb">Start</button>
+  <div class="row">
+    <button id="lang">हिंदी / Hinglish</button>
+    <button id="end" class="hide">End call</button>
+    <button id="fresh">New chat</button>
+  </div>
+</main>
+<script>
+const $ = (id) => document.getElementById(id);
+const log = $("log"), statusEl = $("status"), orb = $("orb");
+const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+let inCall = false, busy = false, rec = null, lang = localStorage.getItem("rockyLang") || "hi-IN";
+let audioQueue = [], playing = null, serverDone = true, wakeLock = null, liveBubble = null;
+
+function setLangLabel() { $("lang").textContent = lang === "hi-IN" ? "हिंदी / Hinglish" : "English"; }
+setLangLabel();
+$("lang").onclick = () => { lang = lang === "hi-IN" ? "en-IN" : "hi-IN"; localStorage.setItem("rockyLang", lang); setLangLabel(); if (rec) rec.abort(); };
+
+function bubble(cls, text) { const d = document.createElement("div"); d.className = cls; d.textContent = text; log.appendChild(d); log.scrollTop = log.scrollHeight; return d; }
+function state(s, text) { orb.className = s; orb.textContent = {listening:"Listening", speaking:"Speaking", thinking:"Thinking", "":"Start"}[s] ?? "Start"; statusEl.textContent = text || ""; }
+
+fetch("settings").then(r => r.json()).then(s => {
+  for (const v of s.voices) { const o = document.createElement("option"); o.textContent = v; o.value = v; if (v === s.voice) o.selected = true; $("voice").appendChild(o); }
+});
+$("voice").onchange = () => fetch("settings", {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify({voice:$("voice").value})});
+$("fresh").onclick = async () => { await fetch("reset", {method:"POST", body:"{}"}); log.innerHTML = ""; bubble("rocky", "New conversation started. I still remember my notebook."); };
+
+async function keepAwake() { try { wakeLock = await navigator.wakeLock.request("screen"); } catch (e) {} }
+document.addEventListener("visibilitychange", () => { if (inCall && document.visibilityState === "visible") keepAwake(); });
+
+function listen() {
+  if (!inCall || busy) return;
+  if (!SR) { state("", "This browser can't listen. Please open this page in Google Chrome."); return; }
+  rec = new SR(); rec.lang = lang; rec.interimResults = true; rec.continuous = false; rec.maxAlternatives = 1;
+  let finalText = "";
+  rec.onstart = () => state("listening", "Listening… speak now");
+  rec.onresult = (e) => {
+    let interim = ""; finalText = "";
+    for (const r of e.results) { if (r.isFinal) finalText += r[0].transcript; else interim += r[0].transcript; }
+    const show = (finalText || interim).trim();
+    if (show) { if (!liveBubble) liveBubble = bubble("me live", show); else liveBubble.textContent = show; }
+  };
+  rec.onerror = (e) => { if (e.error === "not-allowed") { inCall = false; state("", "Microphone blocked: allow the microphone for this page in Chrome settings."); } };
+  rec.onend = () => {
+    const text = finalText.trim();
+    if (liveBubble) { liveBubble.classList.remove("live"); if (!text) liveBubble.remove(); liveBubble = null; }
+    rec = null;
+    if (!inCall) return;
+    if (text) ask(text); else setTimeout(listen, 250);     // silence: just keep listening
+  };
+  try { rec.start(); } catch (e) { setTimeout(listen, 500); }
+}
+
+function playNext() {
+  if (playing) return;
+  const next = audioQueue.shift();
+  if (!next) { if (serverDone && inCall) { busy = false; listen(); } else if (!serverDone) state("thinking", "Rocky is working on it…"); return; }
+  state("speaking", "Rocky is speaking — tap to interrupt");
+  if (next.audio) {
+    playing = new Audio("data:audio/mpeg;base64," + next.audio);
+    playing.onended = playing.onerror = () => { playing = null; playNext(); };
+    playing.play().catch(() => { playing = null; speakFallback(next.text); });
+  } else speakFallback(next.text);
+}
+function speakFallback(text) {                       // if the laptop voice failed: the phone's own voice
+  const u = new SpeechSynthesisUtterance(text); u.lang = /[ऀ-ॿ]/.test(text) ? "hi-IN" : "en-IN";
+  playing = u; u.onend = u.onerror = () => { playing = null; playNext(); }; speechSynthesis.speak(u);
+}
+
+async function ask(text) {
+  busy = true; serverDone = false; state("thinking", "Rocky is thinking…");
+  let rockyBubble = null;
+  try {
+    const res = await fetch("turn", {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify({text})});
+    const reader = res.body.getReader(); const dec = new TextDecoder(); let buf = "";
+    while (true) {
+      const {value, done} = await reader.read(); if (done) break;
+      buf += dec.decode(value, {stream:true});
+      let i;
+      while ((i = buf.indexOf("\n\n")) >= 0) {
+        const line = buf.slice(0, i).replace(/^data: /, ""); buf = buf.slice(i + 2);
+        if (!line.trim()) continue;
+        const ev = JSON.parse(line);
+        if (ev.status === "working" && !playing && !audioQueue.length) state("thinking", "Rocky is checking…");
+        if (ev.say) {
+          if (!rockyBubble) rockyBubble = bubble("rocky", ev.say); else rockyBubble.textContent += " " + ev.say;
+          log.scrollTop = log.scrollHeight;
+          audioQueue.push({text: ev.say, audio: ev.audio}); playNext();
+        }
+        if (ev.done) serverDone = true;
+      }
+    }
+  } catch (e) { bubble("rocky", "I lost the connection to the laptop. Is it on and online?"); }
+  serverDone = true; playNext();
+}
+
+orb.onclick = () => {
+  if (!inCall) { inCall = true; $("end").classList.remove("hide"); keepAwake(); bubble("rocky", "Haan boliye, main sun raha hoon."); listen(); return; }
+  if (playing) {                                   // interrupt Rocky
+    audioQueue = []; if (playing.pause) playing.pause(); else speechSynthesis.cancel(); playing = null;
+    if (serverDone) { busy = false; listen(); }
+  }
+};
+$("end").onclick = () => {
+  inCall = false; busy = false; audioQueue = []; if (rec) rec.abort();
+  if (playing) { if (playing.pause) playing.pause(); else speechSynthesis.cancel(); playing = null; }
+  if (wakeLock) wakeLock.release().catch(() => {});
+  $("end").classList.add("hide"); state("", "Call ended. Tap Start to talk again.");
+};
+</script>
+</body>
+</html>

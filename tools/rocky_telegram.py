@@ -108,6 +108,13 @@ def hear(path: Path) -> str:
     segs, info = _whisper.transcribe(str(path), beam_size=3, vad_filter=True, initial_prompt=WHISPER_HINT,
                                      language=None)
     text = " ".join(s.text.strip() for s in segs).strip()
+    if info.language not in ("hi", "en") or info.language_probability < 0.6:
+        # the owner speaks Hindi, English or a mix: choose between those two only and listen again
+        probs = dict(info.all_language_probs or [])
+        lang = "hi" if probs.get("hi", 0) + probs.get("ur", 0) >= probs.get("en", 0) else "en"
+        segs, info = _whisper.transcribe(str(path), beam_size=5, vad_filter=True, initial_prompt=WHISPER_HINT,
+                                         language=lang)
+        text = " ".join(s.text.strip() for s in segs).strip()
     log.info("heard (%s): %s", info.language, text)
     return text
 

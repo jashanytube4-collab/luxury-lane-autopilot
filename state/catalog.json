@@ -1,4 +1,7 @@
 {
+ "a city in action crown prince of dubai launches dubai fitness challenge": {
+  "no_hamdan": true
+ },
  "azizi developments announces aed600 million donation to establish endowment education complex": {
   "last_short": "2026-10-08",
   "shorts_made": 1,
@@ -398,6 +401,12 @@
  "hamdan approves medical tourism strategy": {
   "video_exhausted": true
  },
+ "hamdan attends 1st dubai desert triathlon": {
+  "long": "2026-10-18"
+ },
+ "hamdan attends 3rd day of annual camel race festival": {
+  "long": "2026-10-18"
+ },
  "hamdan attends al kharbash wedding": {
   "long": "2026-10-15",
   "video_exhausted": true
@@ -411,6 +420,12 @@
  "hamdan attends dubai smart city first meeting": {
   "video_exhausted": true
  },
+ "hamdan attends endurance race at seih al salam": {
+  "long": "2026-10-18"
+ },
+ "hamdan attends jamilati endurance cup": {
+  "no_hamdan": true
+ },
  "hamdan attends last day of the final annual camel races festival": {
   "long": "2026-10-13"
  },
@@ -420,6 +435,9 @@
  "hamdan attends wedding reception": {
   "long": "2026-10-15",
   "video_exhausted": true
+ },
+ "hamdan attends yas endurance ride": {
+  "long": "2026-10-18"
  },
  "hamdan bin mohammed affirms dubai s relentless focus on improving speed and responsiveness of government services": {
   "last_short": "2026-10-15",
@@ -658,6 +676,7 @@
  },
  "hamdan bin mohammed approves dubai marine transport master plan 2030": {
   "last_short": "2026-10-16",
+  "long": "2026-10-18",
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -926,6 +945,9 @@
  "hamdan bin mohammed attends al hajeri al harbi family wedding": {
   "long": "2026-10-17"
  },
+ "hamdan bin mohammed attends al hosn endurance cup": {
+  "long": "2026-10-18"
+ },
  "hamdan bin mohammed attends al khili family wedding": {
   "long": "2026-10-17"
  },
@@ -937,6 +959,9 @@
  },
  "hamdan bin mohammed attends al marmoom heritage festival s ethaa a camel races": {
   "long": "2026-10-13"
+ },
+ "hamdan bin mohammed attends al marmoum camel race": {
+  "long": "2026-10-18"
  },
  "hamdan bin mohammed attends al marmoum heritage festival races": {
   "long": "2026-10-13"
@@ -965,6 +990,9 @@
  },
  "hamdan bin mohammed attends annual meeting of global future leaders 2026 in dubai": {
   "video_exhausted": true
+ },
+ "hamdan bin mohammed attends camel race at al marmoom": {
+  "long": "2026-10-18"
  },
  "hamdan bin mohammed attends camel race festival": {
   "long": "2026-10-13"
@@ -1452,6 +1480,7 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends joint military exercise desert flag 10": {
+  "long": "2026-10-18",
   "video_exhausted": true
  },
  "hamdan bin mohammed attends launch of dubai ai week 2025": {
@@ -1570,6 +1599,9 @@
  "hamdan bin mohammed attends opening of 49th world economic forum": {
   "no_hamdan": true,
   "video_exhausted": true
+ },
+ "hamdan bin mohammed attends opening of nad al sheba sports tournament": {
+  "long": "2026-10-18"
  },
  "hamdan bin mohammed attends part of national multi sector exercise conducted by ncema uae cyber security council": {
   "last_short": "2026-10-07",
@@ -1805,6 +1837,7 @@
  },
  "hamdan bin mohammed attends uae swat challenge 2023": {
   "fails": 1,
+  "long": "2026-10-18",
   "video_exhausted": true
  },
  "hamdan bin mohammed attends wedding": {
@@ -1837,6 +1870,9 @@
     71.59
    ]
   ]
+ },
+ "hamdan bin mohammed attends wedding receptions": {
+  "long": "2026-10-18"
  },
  "hamdan bin mohammed attends wedding receptions in al ain dubai": {
   "last_short": "2026-10-11",
@@ -1886,6 +1922,9 @@
  "hamdan bin mohammed bin rashid receives samsung electronics ceo": {
   "long": "2026-10-17",
   "video_exhausted": true
+ },
+ "hamdan bin mohammed calls on the city to take on dubai fitness challenge 2019": {
+  "no_hamdan": true
  },
  "hamdan bin mohammed celebrates the flame tree as a symbol of dubai a city full of life and beauty": {
   "no_hamdan": true
@@ -2378,6 +2417,7 @@
  },
  "hamdan bin mohammed honors mbr creative sports award winners": {
   "last_short": "2026-10-13",
+  "long": "2026-10-18",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -2440,6 +2480,7 @@
  },
  "hamdan bin mohammed honours challenge 71 program winners": {
   "last_short": "2026-10-15",
+  "long": "2026-10-18",
   "photo_short": true,
   "shorts_made": 1,
   "shot_ranges": []
@@ -2450,6 +2491,7 @@
  },
  "hamdan bin mohammed honours mbr creative sports award winners": {
   "last_short": "2026-10-14",
+  "long": "2026-10-18",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -2598,6 +2640,7 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed inaugurates dubai fitness challenge": {
+  "long": "2026-10-18",
   "video_exhausted": true
  },
  "hamdan bin mohammed inaugurates dubai international boat show 2008": {
@@ -2838,6 +2881,9 @@
   "shorts_made": 1,
   "shot_ranges": []
  },
+ "hamdan bin mohammed issues a directive to establish international federation for falconry sports and racing": {
+  "long": "2026-10-18"
+ },
  "hamdan bin mohammed issues directives to increase students enrollment in dubai schools by 50 in the first academic year": {
   "no_hamdan": true
  },
@@ -3059,6 +3105,7 @@
  },
  "hamdan bin mohammed launches sports initiatives": {
   "last_short": "2026-10-13",
+  "long": "2026-10-18",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3165,6 +3212,9 @@
  },
  "hamdan bin mohammed maktoum bin mohammed attend al ghurair family wedding": {
   "long": "2026-10-17"
+ },
+ "hamdan bin mohammed maktoum bin mohammed attend weddings": {
+  "long": "2026-10-18"
  },
  "hamdan bin mohammed maktoum bin mohammed perform eid al fitr prayer": {
   "long": "2026-10-17"
@@ -4262,6 +4312,7 @@
  },
  "hamdan bin mohammed opens salem medical fitness smart centre": {
   "last_short": "2026-10-11",
+  "long": "2026-10-18",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -5599,6 +5650,7 @@
   ]
  },
  "hamdan bin mohammed visits dubai sports council": {
+  "long": "2026-10-18",
   "video_exhausted": true
  },
  "hamdan bin mohammed visits dubai statistics center": {
@@ -5703,6 +5755,7 @@
  },
  "hamdan bin mohammed visits katara international hunting and falcons exhibition in qatar": {
   "last_short": "2026-10-16",
+  "no_hamdan": true,
   "photo_short": true,
   "shorts_made": 1,
   "shot_ranges": []
@@ -6108,6 +6161,9 @@
  "hamdan chairs expo 2020 higher committee s first session": {
   "video_exhausted": true
  },
+ "hamdan clinches italian endurance race title": {
+  "long": "2026-10-18"
+ },
  "hamdan dubai crown prince visits art dubai": {
   "long": "2026-10-13"
  },
@@ -6201,11 +6257,19 @@
  "ig:faz3:17906606151142313": {
   "video_exhausted": true
  },
+ "ig:faz3:17968229216578746": {
+  "long": "2026-10-18",
+  "no_hamdan": true
+ },
  "ig:faz3:17985638052101427": {
   "video_exhausted": true
  },
  "ig:faz3:18032498090707303": {
   "video_exhausted": true
+ },
+ "ig:faz3:18040565135241026": {
+  "long": "2026-10-18",
+  "no_hamdan": true
  },
  "ig:faz3:18061251632321964": {
   "video_exhausted": true
@@ -6221,12 +6285,20 @@
   ]
  },
  "ig:faz3:18064891595415941": {
+  "long": "2026-10-18",
+  "no_hamdan": true,
   "video_exhausted": true
+ },
+ "ig:faz3:18098909275484024": {
+  "long": "2026-10-18",
+  "no_hamdan": true
  },
  "ig:faz3:18101191255523061": {
   "video_exhausted": true
  },
  "ig:faz3:18106640728979406": {
+  "long": "2026-10-18",
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "ig:faz3:18163124008405401": {
@@ -6236,9 +6308,11 @@
   "video_exhausted": true
  },
  "ig:faz3:18223115233336672": {
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "ig:faz3:18426448819098880": {
+  "long": "2026-10-18",
   "video_exhausted": true
  },
  "ig:faz3:18429849919109636": {
@@ -6442,6 +6516,12 @@
  "mohammad bin salman receives hamdan bin mohammed": {
   "video_exhausted": true
  },
+ "mohammed attends as hamdan snatches endurance cup": {
+  "long": "2026-10-18"
+ },
+ "mohammed attends hm king hamad endurance cup": {
+  "no_hamdan": true
+ },
  "mohammed bin rashid and hamdan bin mohammed visits dubai motor show": {
   "no_hamdan": true,
   "video_exhausted": true
@@ -6529,6 +6609,7 @@
   "video_exhausted": true
  },
  "queen elizabeth honors hamdan on winning windsor royal endurance race": {
+  "long": "2026-10-18",
   "video_exhausted": true
  },
  "ruler of umm al quwain accepts condolences from hamdan bin mohammed": {
@@ -6622,6 +6703,7 @@
  },
  "third edition of dubai ride takes thousands of cycling enthusiasts on an exhilarating bike ride experience around city s iconic landmarks": {
   "last_short": "2026-10-10",
+  "no_hamdan": true,
   "shorts_made": 1,
   "shot_ranges": [
    [

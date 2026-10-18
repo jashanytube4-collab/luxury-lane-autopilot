@@ -6939,9 +6939,9 @@
   "video_exhausted": true
  },
  "rulers of ajman fujairah and ras al khaimah offer condolences to sheikh hamdan on mansour bin ahmed": {
-  "last_short": "2026-10-12",
+  "last_short": "2026-10-18",
   "long": "2026-10-16",
-  "shorts_made": 1,
+  "shorts_made": 2,
   "shot_ranges": [
    [
     89.82,
@@ -6954,6 +6954,18 @@
    [
     226.14,
     228.07
+   ],
+   [
+    96.0,
+    100.83999999999999
+   ],
+   [
+    105.48,
+    110.24
+   ],
+   [
+    115.80000000000001,
+    121.32
    ]
   ]
  },

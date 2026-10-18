@@ -1068,8 +1068,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends closing ceremony of 3rd dubai future accelerators program": {
-  "last_short": "2026-10-14",
-  "shorts_made": 1,
+  "last_short": "2026-10-19",
+  "shorts_made": 2,
   "shot_ranges": [
    [
     248.44,
@@ -1078,6 +1078,14 @@
    [
     286.88,
     298.76
+   ],
+   [
+    122.44,
+    126.67999999999999
+   ],
+   [
+    299.0,
+    309.52
    ]
   ]
  },

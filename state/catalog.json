@@ -1908,7 +1908,8 @@
     68.26,
     71.39
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed attends workshop by rta titled connecting bridges": {
   "last_short": "2026-10-17",
@@ -5478,8 +5479,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits bombay stock exchange and rings opening bell": {
-  "last_short": "2026-10-07",
-  "shorts_made": 1,
+  "last_short": "2026-10-18",
+  "photo_short": true,
+  "shorts_made": 2,
   "shot_ranges": [
    [
     6.06,
@@ -6713,7 +6715,8 @@
     84.34,
     87.14999999999999
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "rulers of ajman fujairah and ras al khaimah offer condolences to sheikh hamdan on mansour bin ahmed": {
   "last_short": "2026-10-12",

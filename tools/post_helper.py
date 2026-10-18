@@ -69,6 +69,14 @@ def set_audience(page, box, members: bool) -> None:
     current = box.locator("tp-yt-paper-button:visible").filter(has_text=re.compile("Public|members", re.I)).first
     if want.lower() in current.inner_text().strip().lower():
         return
+    if members:                                  # the menu item is "All channel members" (sometimes a tier name)
+        current.click()
+        page.wait_for_timeout(1500)
+        page.get_by_text("All channel members", exact=True).locator("visible=true").first.click()
+        page.wait_for_timeout(1500)
+        if "member" not in current.inner_text().strip().lower():
+            raise RuntimeError("visibility did not change to members")
+        return
     current.click()
     page.locator("tp-yt-paper-item:visible, ytd-menu-service-item-renderer:visible, [role=option]:visible")         .filter(has_text=re.compile(rf"^\s*{want}", re.I)).first.click()
     page.wait_for_timeout(1200)
@@ -115,6 +123,8 @@ def schedule_one(page, when: datetime, img: Path, caption: str, dry: bool = Fals
         raise RuntimeError(f"caption did not go in (editor shows: {typed[:60]!r})")
     if dry:                                       # rehearsal: everything filled in, nothing scheduled
         print("caption in editor:", " / ".join(typed.splitlines())[:120])
+        print("audience:", box.locator("tp-yt-paper-button:visible").filter(
+            has_text=re.compile("Public|members", re.I)).first.inner_text().strip())
         page.screenshot(path=str(ROOT / "work" / "post_helper_dry.png"))
         return
     box.locator("#submit-button button").first.click()
@@ -176,7 +186,9 @@ def main() -> None:
         todo = todo[:1]
     print(f"{len(todo)} posts to schedule")
     with sync_playwright() as p:
-        ctx = p.chromium.launch_persistent_context(str(PROFILE), executable_path=str(CHROME), headless=False,
+        ctx = p.chromium.launch_persistent_context(str(PROFILE), executable_path=str(CHROME), headless=True,      # works in the background: no window on the owner's screen
+                                                   user_agent=("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                                                               "(KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"),
                                                    viewport={"width": 1400, "height": 900})
         page = ctx.pages[0] if ctx.pages else ctx.new_page()
         page.set_default_timeout(30000)

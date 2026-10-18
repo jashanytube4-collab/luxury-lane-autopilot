@@ -12,13 +12,21 @@ from playwright.sync_api import sync_playwright
 ADMIN = "https://admin.fourthwall.com/store/fazza"
 
 
+CTX = None          # set by run_batch: a browser context the tool launched itself (no remote attach)
+
+
+class _B:
+    def __init__(self, ctx):
+        self.contexts = [ctx]
+
+
 def latest(b):
     return b.contexts[0].pages[-1]
 
 
 def create(slug: str, design: str, name: str, price: str, description: str, color: str = "") -> str:
-    with sync_playwright() as p:
-        b = p.chromium.connect_over_cdp("http://127.0.0.1:9333")
+    if True:
+        b = _B(CTX)
         pg = latest(b)
         pg.set_default_timeout(120000)
         pg.goto(f"{ADMIN}/catalog/products/{slug}", wait_until="commit")
@@ -54,6 +62,12 @@ def create(slug: str, design: str, name: str, price: str, description: str, colo
             pg = latest(b)
             if pg.url.endswith("/details"):
                 break
+            lowres = pg.get_by_text("continue with low resolution art")
+            if lowres.count() and lowres.first.is_visible():   # only after the art was re-rendered at high resolution
+                print("note: Fourthwall still flags low resolution for some sizes", flush=True)
+                pg.evaluate("""() => { const b = [...document.querySelectorAll('button')]
+                    .find(x => /continue with current quality/i.test(x.textContent || '')); if (b) b.click(); }""")
+                time.sleep(3)
             review = pg.get_by_text("Review your design on different sizes")
             if review.count() and review.first.is_visible():     # mugs/posters: check every size, then confirm
                 pg.mouse.move(950, 500)
@@ -97,6 +111,16 @@ def create(slug: str, design: str, name: str, price: str, description: str, colo
                 box.fill(f"{int(base + extra) + 0.99:.2f}")
                 box.press("Tab")
         time.sleep(2)
+        import re as _re
+        for _ in range(3):                       # below Fourthwall's minimum: use the minimum + $5 profit
+            msg = pg.get_by_text(_re.compile(r"must be \$[0-9.]+ or higher"))
+            if not msg.count():
+                break
+            low = float(_re.search(r"\$([0-9.]+)", msg.first.inner_text()).group(1))
+            box = pg.locator("input[name=price]").first
+            box.fill(f"{int(low + 5) + 0.99:.2f}")
+            box.press("Tab")
+            time.sleep(2)
         pg.screenshot(path=r"D:\Jashan\Desktop\The_luxury_lane_tool\work\fw\last_details.png", timeout=60000,
                       animations="disabled")
         pg.get_by_role("button", name="Publish now").first.click()

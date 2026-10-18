@@ -8,3 +8,6 @@ client_secret*.json
 models/
 .claude/settings.local.json
 *.bat
+
+# James (brand emails) - private, never uploaded
+james/

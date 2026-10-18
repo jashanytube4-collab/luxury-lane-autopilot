@@ -1,4 +1,4 @@
-"""Store designs for The Luxury Lane (Spreadshop). Original vector artwork + Google Fonts (OFL, free for commercial use),
+﻿"""Store designs for The Luxury Lane (Spreadshop). Original vector artwork + Google Fonts (OFL, free for commercial use),
 rendered by Chrome to transparent 4000x4000 PNG print files, in a gold version (dark garments) and a black version
 (light garments, mugs, stickers).
 
@@ -31,7 +31,7 @@ def falcon(cx: float, cy: float, s: float, fill: str) -> str:
     # wings: 7 primary feathers fanning upward on each side, each a tapered blade
     for side in (-1, 1):
         for i in range(7):
-            a = math.radians(-8 - i * 11.5)                 # 8° .. 77° above the horizon
+            a = math.radians(-8 - i * 11.5)                 # 8Â° .. 77Â° above the horizon
             root = (side * (45 + i * 6), -30 - i * 9)
             length = 470 - i * 38
             tip = (root[0] + side * length * math.cos(a), root[1] + length * math.sin(a))
@@ -157,14 +157,14 @@ def d_crest(c: str) -> str:
 <circle cx="500" cy="500" r="455" fill="none" stroke="{c}" stroke-width="10"/>
 <circle cx="500" cy="500" r="432" fill="none" stroke="{c}" stroke-width="3"/>
 {arc_text("HAMDANIANS", 500, 500, 362, 92, "Cinzel", c, True, 22, "t1").replace('font-size', 'font-weight="900" font-size')}
-{arc_text("✦  DUBAI  ·  EST. 2025  ✦", 500, 500, 392, 38, "Montserrat", c, False, 12, "t2").replace('font-size', 'font-weight="700" font-size')}
+{arc_text("âœ¦  DUBAI  Â·  EST. 2025  âœ¦", 500, 500, 392, 38, "Montserrat", c, False, 12, "t2").replace('font-size', 'font-weight="700" font-size')}
 {falcon_head(500, 535, 560, c)}
 """
 
 
 def d_calligraphy(c: str) -> str:
     return f"""
-<text x="500" y="500" text-anchor="middle" font-family="Aref Ruqaa" font-weight="700" font-size="400" fill="{c}">فزاع</text>
+<text x="500" y="500" text-anchor="middle" font-family="Aref Ruqaa" font-weight="700" font-size="400" fill="{c}">ÙØ²Ø§Ø¹</text>
 <rect x="270" y="690" width="460" height="6" fill="{c}"/>
 <text x="520" y="800" text-anchor="middle" font-family="Cinzel" font-weight="700" font-size="92" letter-spacing="40" fill="{c}">FAZZA</text>
 <text x="500" y="862" text-anchor="middle" font-family="Montserrat" font-weight="600" font-size="28" letter-spacing="9" fill="{c}">THE ONE WHO COMES TO HELP</text>
@@ -177,7 +177,7 @@ def d_fam(c: str) -> str:
 <text x="512" y="590" text-anchor="middle" font-family="Cinzel" font-weight="900" font-size="170" letter-spacing="22" fill="{c}">FAZZA</text>
 <text x="514" y="725" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="150" letter-spacing="40" fill="{c}">FAM</text>
 <rect x="240" y="740" width="520" height="4" fill="{c}"/>
-<text x="500" y="805" text-anchor="middle" font-family="Montserrat" font-weight="700" font-size="40" letter-spacing="16" fill="{c}">MEMBERS CLUB · DUBAI</text>
+<text x="500" y="805" text-anchor="middle" font-family="Montserrat" font-weight="700" font-size="40" letter-spacing="16" fill="{c}">MEMBERS CLUB Â· DUBAI</text>
 """
 
 
@@ -185,7 +185,7 @@ def d_skyline(c: str) -> str:
     return f"""
 {skyline(80, 640, 840, c)}
 <text x="500" y="800" text-anchor="middle" font-family="Cinzel" font-weight="900" font-size="150" letter-spacing="60" fill="{c}">DUBAI</text>
-<text x="500" y="880" text-anchor="middle" font-family="Reem Kufi" font-weight="700" font-size="70" fill="{c}">دبي</text>
+<text x="500" y="880" text-anchor="middle" font-family="Reem Kufi" font-weight="700" font-size="70" fill="{c}">Ø¯Ø¨ÙŠ</text>
 """
 
 
@@ -194,7 +194,7 @@ def d_royalty(c: str) -> str:
 {sun_dunes(500, 360, 150, c)}
 <text x="500" y="640" text-anchor="middle" font-family="Cinzel" font-weight="900" font-size="128" letter-spacing="18" fill="{c}">DESERT</text>
 <text x="500" y="770" text-anchor="middle" font-family="Cinzel" font-weight="900" font-size="128" letter-spacing="18" fill="{c}">ROYALTY</text>
-<text x="500" y="840" text-anchor="middle" font-family="Montserrat" font-weight="700" font-size="27" letter-spacing="7" fill="{c}">BORN IN THE DUNES · RAISED BY FALCONS</text>
+<text x="500" y="840" text-anchor="middle" font-family="Montserrat" font-weight="700" font-size="27" letter-spacing="7" fill="{c}">BORN IN THE DUNES Â· RAISED BY FALCONS</text>
 """
 
 
@@ -254,11 +254,11 @@ POSTER = """<!doctype html><html><head><meta charset="utf-8"><link rel="styleshe
 <rect x="48" y="48" width="804" height="1104" fill="none" stroke="{gold}" stroke-width="0.8"/>
 <g transform="translate(110,230) scale(0.68)">{body}</g>
 <text x="450" y="1105" text-anchor="middle" font-family="Montserrat" font-weight="700" font-size="16" letter-spacing="9"
- fill="{gold}">THE LUXURY LANE · {caption}</text>
+ fill="{gold}">THE LUXURY LANE Â· {caption}</text>
 </svg></body></html>"""
 
 POSTER_CAPTIONS = {
-    "01 Hamdanians Crest": "HAMDANIANS", "02 Fazza Calligraphy": "FAZZA · فزاع", "03 Fazza Fam": "FAZZA FAM",
+    "01 Hamdanians Crest": "HAMDANIANS", "02 Fazza Calligraphy": "FAZZA Â· ÙØ²Ø§Ø¹", "03 Fazza Fam": "FAZZA FAM",
     "04 Dubai Skyline": "DUBAI", "05 Desert Royalty": "DESERT ROYALTY", "06 The Sky Belongs": "THE SKY BELONGS",
 }
 
@@ -267,7 +267,7 @@ def posters() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     with sync_playwright() as p:
         browser = p.chromium.launch(executable_path=str(CHROME) if CHROME else None)
-        page = browser.new_page(viewport={"width": 900, "height": 1200}, device_scale_factor=4)
+        page = browser.new_page(viewport={"width": 900, "height": 1200}, device_scale_factor=8)   # 7200x9600: about 270 dpi even at 24x36"
         for name, fn in DESIGNS.items():
             page.set_content(POSTER.format(fonts=FONTS, body=fn(GOLD), gold=GOLD, caption=POSTER_CAPTIONS[name]),
                              wait_until="networkidle")

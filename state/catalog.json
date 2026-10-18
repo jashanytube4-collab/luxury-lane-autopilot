@@ -1270,8 +1270,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends global islamic economy summit": {
-  "last_short": "2026-10-13",
-  "shorts_made": 1,
+  "last_short": "2026-10-19",
+  "shorts_made": 2,
   "shot_ranges": [
    [
     11.1,
@@ -1284,6 +1284,18 @@
    [
     33.5,
     35.550000000000004
+   ],
+   [
+    174.76,
+    181.28
+   ],
+   [
+    183.12,
+    188.16
+   ],
+   [
+    201.84,
+    206.2
    ]
   ]
  },
@@ -3441,7 +3453,8 @@
     131.74,
     134.35
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed meets graduates of one million arab coders": {
   "last_short": "2026-10-13",
@@ -3459,7 +3472,8 @@
     38.42,
     39.99
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed meets medical team that conducted the arab world s first ever intrauterine fetal surgery": {
   "last_short": "2026-10-11",

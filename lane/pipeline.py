@@ -380,7 +380,10 @@ class Runner:
                 self.report.problem(got.gate_warning)
         except QualityGateError as e:      # not premium: never padded with repeats; skipped until more footage is added
             self.report.problem(f"Story held back by the quality gate: {str(e)[:400]}")
-            if not self.args.dry_run:
+            if slot.get("news"):               # the extra news video is optional: skipped, never made below the bar
+                slot["status"] = "skipped"
+                self.state.save_day(day.isoformat(), plan)
+            elif not self.args.dry_run:
                 self.state.cursors.setdefault("stories_blocked", []).append(story.id)
             self.state.save()
             return True

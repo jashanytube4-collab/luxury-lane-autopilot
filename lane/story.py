@@ -341,8 +341,28 @@ class StoryMaker:
             out.visuals.append(vis)
         out.spare = []       # no random filler: short sections borrow from the rest of this story (see produce_story)
         out.thumb_scene = self.thumb_scene(story, work)
+        self._top_up(story, out, his_pool, take_events)
         audit(story, out, self.cfg)
         return out
+
+    def _top_up(self, story: Story, out: Gathered, his_pool: list[str], take_events) -> None:
+        """Automatic: when the story is short of distinct footage, bring in more unused events from the library
+        (the story's own topic first), spread over its sections, until the quality gate is met or nothing is left."""
+        g = self.cfg.get("story", {}).get("gate", {})
+        need = int(g.get("min_clips", 100))
+        def pieces() -> int:
+            u = {id(v): v for per in out.beat_visuals.values() for b in per for v in b}
+            u.update({id(v): v for sec in out.visuals for v in sec})
+            return sum(len(v.scenes) + len(v.photos) for v in u.values())
+        i = 0
+        while pieces() < need and out.visuals and i < 60:
+            extra = take_events(his_pool, 1, True)
+            if not extra:
+                break
+            out.visuals[i % len(out.visuals)] += extra
+            i += 1
+        if i:
+            log.info("quality gate top-up for '%s': %d more events added", story.id, i)
 
     def thumb_scene(self, story: Story, work: Path) -> Path | None:
         """story.thumbnail.scene = "clip:<id>@<seconds>": that frame of the clip becomes the thumbnail picture."""

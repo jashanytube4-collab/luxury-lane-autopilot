@@ -2410,7 +2410,8 @@
     59.339999999999996,
     62.11000000000001
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed extends condolences to al baloushi family": {
   "long": "2026-10-17"
@@ -4834,8 +4835,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed receives winners of hackathon competition": {
-  "last_short": "2026-10-14",
-  "shorts_made": 1,
+  "last_short": "2026-10-19",
+  "shorts_made": 2,
   "shot_ranges": [
    [
     96.48,
@@ -4844,6 +4845,14 @@
    [
     122.48,
     131.12
+   ],
+   [
+    76.76,
+    87.47999999999999
+   ],
+   [
+    89.80000000000001,
+    94.32
    ]
   ]
  },

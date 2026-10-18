@@ -351,3 +351,36 @@ def make_thumbnail(photos: list[Path], text: str, tag: str, out: Path, seed: int
     cv2.imwrite(str(out), canvas, [cv2.IMWRITE_JPEG_QUALITY, 92])
     log.info("thumbnail %s (%s, from %s)", out.name, layout, Path(hero).name)
     return out
+
+
+def make_scene_thumbnail(photo: Path, text: str, tag: str, out: Path, seed: int,
+                         crop: list[float] | None = None) -> Path:
+    """A whole real moment as the picture (him with the person the story is about, e.g. at a hospital bedside):
+    nothing is cut out, the words sit in the darkened top-left corner. crop: [x0, y0, x1, y1] as fractions."""
+    img = cv2.imread(str(photo), cv2.IMREAD_COLOR)
+    if img is None:
+        raise ValueError(f"thumbnail scene unreadable: {photo}")
+    h, w = img.shape[:2]
+    if crop:
+        x0, y0, x1, y1 = crop
+        img = img[int(h * y0):int(h * y1), int(w * x0):int(w * x1)]
+        h, w = img.shape[:2]
+    s = max(W / w, H / h)                                   # cover 1280x720, centred
+    img = cv2.resize(img, (max(W, round(w * s)), max(H, round(h * s))), interpolation=cv2.INTER_LANCZOS4)
+    oy, ox = (img.shape[0] - H) // 2, (img.shape[1] - W) // 2
+    img = img[oy:oy + H, ox:ox + W]
+    sharp = cv2.addWeighted(img, 1.6, cv2.GaussianBlur(img, (0, 0), 2.0), -0.6, 0)
+    lab = cv2.cvtColor(sharp, cv2.COLOR_BGR2LAB)
+    lab[..., 0] = cv2.createCLAHE(1.8, (8, 8)).apply(lab[..., 0])
+    canvas = _grade(cv2.cvtColor(lab, cv2.COLOR_LAB2BGR), 1.15, 1.08, 8).astype(np.float32)
+    xx = np.linspace(0, 1, W, dtype=np.float32)[None, :]
+    yy = np.linspace(0, 1, H, dtype=np.float32)[:, None]
+    shade = np.clip(1.25 - 1.6 * xx, 0, 1) * np.clip(1.15 - 1.5 * yy, 0, 1)     # darkest behind the words
+    canvas *= (1 - 0.72 * shade)[..., None]
+    vig = 1 - 0.30 * np.clip(((xx - 0.5) * 2) ** 2 + ((yy - 0.5) * 2) ** 2 - 0.5, 0, 1)
+    canvas = np.clip(canvas * vig[..., None], 0, 255).astype(np.uint8)
+    canvas = _draw_words(canvas, text, tag, (44, 120, 560, 300), seed)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    cv2.imwrite(str(out), canvas, [cv2.IMWRITE_JPEG_QUALITY, 92])
+    log.info("thumbnail %s (scene, from %s)", out.name, Path(photo).name)
+    return out

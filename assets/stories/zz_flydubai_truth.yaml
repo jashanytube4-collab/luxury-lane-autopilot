@@ -3,6 +3,8 @@ title: 'The Shocking Truth Behind the flydubai Cockpit Attack — and What Princ
 thumbnail:
   text: SHOCKING TRUTH
   tag: FLYDUBAI PILOT
+  scene: clip:smit-bedside@0.4      # Prince Hamdan at Captain Smit's hospital bed
+  scene_crop: [0.07, 0.13, 0.93, 1.0]
 mood: epic
 commons: true
 footage: flydubai|pilot|hospital|condolence

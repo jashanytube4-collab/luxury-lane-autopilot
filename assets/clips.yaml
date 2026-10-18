@@ -172,3 +172,8 @@ clips:
     parts: [[116, 123], [124, 131]]
     crop: [0.0, 0.0, 1.0, 0.84]
     credit: DD India, prayers for Captain Smit (2026)
+  smit-bedside:
+    yt: xEnbfqlHN3g
+    parts: [[20.6, 22.6]]
+    crop: [0.1146, 0.0, 0.8854, 0.787]
+    credit: DD India, Sheikh Hamdan at Captain Smit Machchhar's bedside (2026)

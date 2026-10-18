@@ -26,6 +26,7 @@ import logging
 import random
 import re
 import shutil
+import subprocess
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -154,6 +155,7 @@ class Gathered:
     credits: list[str] = field(default_factory=list)
     clip_credits: list[str] = field(default_factory=list)
     event_keys: list[str] = field(default_factory=list)
+    thumb_scene: Path | None = None               # a chosen frame for the thumbnail (story.thumbnail.scene)
 
 
 class StoryMaker:
@@ -300,6 +302,16 @@ class StoryMaker:
                 vis = resolve(sec.get("show") or ["him"]) or take_events(his_pool, 2, True)
             out.visuals.append(vis)
         out.spare = []       # no random filler: short sections borrow from the rest of this story (see produce_story)
+        tok = str(story.thumbnail.get("scene", ""))
+        if tok.startswith("clip:"):
+            cid, _, at = tok[5:].partition("@")
+            v = self._clip(cid, work)
+            if v:
+                frame = work / "thumb_scene.jpg"
+                from .media import FFMPEG
+                subprocess.run([FFMPEG, "-v", "error", "-y", "-ss", at or "0.5", "-i", str(v.path), "-frames:v", "1",
+                                "-q:v", "2", str(frame)], check=False, timeout=60)
+                out.thumb_scene = frame if frame.exists() else None
         return out
 
 
@@ -505,8 +517,14 @@ def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int)
         if tok.startswith(("cat:", "search:")):
             pics = commons.fetch(tok if tok.startswith("cat:") else tok[7:], work / "commons", limit=6)
             inset = [p.path for p in pics]
-        thumb = make_thumbnail(got.his_photos, story.thumbnail.get("text", story.title), story.thumbnail.get("tag", ""),
-                               work / "thumbnail.jpg", seed, inset=inset)
+        if got.thumb_scene:
+            from .thumbnail import make_scene_thumbnail
+            thumb = make_scene_thumbnail(got.thumb_scene, story.thumbnail.get("text", story.title),
+                                         story.thumbnail.get("tag", ""), work / "thumbnail.jpg", seed,
+                                         story.thumbnail.get("scene_crop"))
+        else:
+            thumb = make_thumbnail(got.his_photos, story.thumbnail.get("text", story.title),
+                                   story.thumbnail.get("tag", ""), work / "thumbnail.jpg", seed, inset=inset)
     except Exception as e:  # noqa: BLE001 — never lose the episode over a thumbnail
         log.warning("story thumbnail failed: %s", e)
     return EpisodeResult(out, thumb, duration, story.title, story.description, story.tags, [], music_used)

@@ -371,10 +371,10 @@ class Runner:
 
     def _fill_short(self, day, slot: dict, plan: dict, moment: bool, members: bool = False) -> bool | None:
         at = datetime.fromisoformat(slot["at"])
-        tries = 0
+        tries, started = 0, time.time()
         for key in self.studio.short_candidates(self.events, self.usage, day.isoformat()):
-            if tries >= 8:
-                log.info("no Short after 8 tries for this slot; moving on")
+            if time.time() - started > 20 * 60:     # rejected events are remembered, so the next slot goes on from here
+                log.info("no Short after %d tries in 20 min for this slot; moving on", tries)
                 return None
             if self.over_budget():
                 self.report.note("Run time budget reached; remaining slots are filled by the next run")

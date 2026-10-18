@@ -4295,7 +4295,8 @@
     196.5,
     198.51
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed opens 40th edition of gitex": {
   "last_short": "2026-10-11",
@@ -5786,7 +5787,8 @@
     23.340000000000003,
     25.349999999999998
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed visits dubai airshow 2017": {
   "video_exhausted": true
@@ -5928,8 +5930,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits exhibition that tells story of uae s participation in world expos": {
-  "last_short": "2026-10-13",
-  "shorts_made": 1,
+  "last_short": "2026-10-19",
+  "shorts_made": 2,
   "shot_ranges": [
    [
     35.3,
@@ -5942,6 +5944,18 @@
    [
     106.82,
     110.11
+   ],
+   [
+    116.84,
+    122.56
+   ],
+   [
+    160.68,
+    167.76
+   ],
+   [
+    220.24,
+    224.44
    ]
   ]
  },

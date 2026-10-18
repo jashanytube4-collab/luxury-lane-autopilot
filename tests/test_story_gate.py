@@ -21,9 +21,15 @@ def _got(n_sources, per_source):
     return g
 
 
-def test_gate_stops_thin_story():
+def test_gate_can_stop_thin_story():
     with pytest.raises(QualityGateError):
-        audit(_story(), _got(5, 20), {})        # 100 pieces but only 5 sources
+        audit(_story(), _got(5, 20), {"story": {"gate": {"block": True}}})   # 100 pieces but only 5 sources
+
+
+def test_gate_flags_but_still_makes_thin_story():
+    got = _got(5, 20)
+    audit(_story(), got, {})
+    assert "5 different sources" in got.gate_warning
 
 
 def test_gate_passes_varied_story():

@@ -1,0 +1,215 @@
+id: flydubai-truth
+title: 'The Shocking Truth Behind the flydubai Cockpit Attack — and What Prince Hamdan Did Next'
+thumbnail:
+  text: SHOCKING TRUTH
+  tag: FLYDUBAI PILOT
+mood: epic
+commons: true
+footage: flydubai|pilot|hospital|condolence
+description: 'An axe in the cockpit, a plane falling thousands of feet, and a wounded Indian captain who found the
+  strength to open one door. The shocking truth about flydubai flight FZ1073, Captain Smit Machchhar — and the moment
+  Prince Hamdan, Crown Prince of Dubai, came to his bedside and called him "part of our team". Based on official
+  statements and major news reports; the investigation is ongoing.'
+tags:
+- flydubai pilot
+- Smit Machchhar
+- Captain Smit
+- flydubai FZ1073
+- flydubai cockpit attack
+- Prince Hamdan pilot
+- Sheikh Hamdan flydubai
+- Fazza hospital visit
+- Indian pilot hero
+- Crown Prince of Dubai
+- Fazza news
+- Fazza 2026
+sections:
+- beats:
+  - say: More than one hundred and seventy people were sitting in their seats, thinking it was a normal morning flight
+      out of Dubai.
+    show:
+    - clip:flydubai-jet2
+  - say: Behind a locked cockpit door, one of the two pilots was about to try something no one on board could imagine.
+    show:
+    - search:flydubai Boeing 737
+  - say: A wounded captain. An axe. A plane falling thousands of feet.
+    show:
+    - clip:smit-portrait
+  - say: Days later, the Crown Prince of Dubai walked into that captain's hospital room.
+    show:
+    - clip:smit
+  - say: So what really happened on flydubai flight FZ one zero seven three? Who was the man who attacked him? And what
+      did Prince Hamdan say that moved millions? Stay until the end. Let's begin.
+    show:
+    - key:hamdan bin mohammed visits flydubai pilot and praises his courage
+- beats:
+  - say: On Wednesday, the thirtieth of September, two thousand and twenty-six, flydubai flight FZ one zero seven three
+      left Dubai for Tel Aviv on a Boeing seven three seven MAX.
+    show:
+    - search:flydubai Boeing 737 MAX
+  - say: The captain was Smit Machchhar, an Indian pilot who grew up in Mumbai.
+    show:
+    - clip:smit-portrait
+  - say: At nineteen he was studying management for his family's textile business, until he caught what he called the
+      aviation bug. His father paid for his training. His mother, he later admitted, was scared.
+    show:
+    - search:Mumbai skyline
+  - say: He trained in New Zealand, flew for about ten years with the Indian airline SpiceJet, and joined flydubai in two
+      thousand and twenty-two. By that morning he had almost ten thousand flying hours.
+    show:
+    - search:SpiceJet Boeing 737
+  - say: Beside him sat his first officer. Nobody on that plane had any idea what that man was about to do.
+    show:
+    - search:Boeing 737 cockpit
+- beats:
+  - say: Somewhere over the region, the co-pilot reached for the crash axe, a tool kept in every cockpit for emergencies,
+      and turned it on the captain.
+    show:
+    - search:aircraft cockpit
+  - say: According to the UAE's attorney general, he attacked the captain on the flight deck and tried to take control
+      of the aircraft.
+    show:
+    - search:flydubai aircraft
+  - say: The captain was struck again and again, with wounds to his head, his hands and his neck. And the plane began to
+      fall.
+    show:
+    - search:airplane in flight clouds
+  - say: Passengers later described a steep, terrifying descent. In the cabin, people screamed, prayed and held on to
+      each other.
+    show:
+    - search:airplane cabin passengers
+  - say: In the cockpit, a wounded man had to choose. He could not fight the attacker and fly the plane at the same time.
+      So he did the one thing that could save everyone. Bleeding, he reached the cockpit door, and he opened it.
+    show:
+    - search:aircraft cockpit door
+- beats:
+  - say: That single movement changed everything. Crew members and passengers rushed in.
+    show:
+    - search:airplane aisle
+  - say: A relief pilot travelling on board entered the cockpit, and together a small group overpowered the co-pilot and
+      pulled him away from the controls.
+    show:
+    - search:Boeing 737 MAX flight deck
+  - say: The relief pilot steadied the aircraft and turned toward the nearest suitable airport, Tabuk, in northwestern
+      Saudi Arabia. The Boeing landed safely, and every single passenger survived.
+    show:
+    - search:Tabuk Regional Airport
+  - say: The captain was rushed to doctors. His injuries were serious but, thank God, not fatal. From his hospital bed
+      he said he had been fighting for his life.
+    show:
+    - clip:smit-portrait
+  - say: If you had been on that plane, would you have found the courage to go into that cockpit?
+    show:
+    - clip:flydubai-jet2
+- beats:
+  - say: Now comes the shocking part. The UAE's attorney general, Hamad Al Shamsi, said the investigation found that the
+      co-pilot had attempted to carry out a terrorist act.
+    show:
+    - search:Abu Dhabi skyline
+  - say: International news agencies, citing sources, reported that he was an Omani national who had earlier been barred
+      from flying by Oman Air over concerns about radical views, before he was hired by flydubai.
+    show:
+    - search:Muscat Oman
+  - say: Officials have not publicly confirmed his name, and the investigation into how this could happen is still
+      going on.
+    show:
+    - search:Dubai International Airport
+  - say: The UAE suspended its flights to Israel, and leaders across the region condemned the attack.
+    show:
+    - search:Dubai International Airport Terminal 3
+  - say: And in India, one name was suddenly everywhere. Prime Minister Narendra Modi said the captain had shown the
+      highest form of courage, and his home state of Gujarat announced an award in his honour.
+    show:
+    - clip:prayers-india
+- beats:
+  - say: Across India, families gathered in temples and homes to pray for a pilot most of them had never met.
+    show:
+    - clip:prayers-india
+  - say: After treatment in Saudi Arabia, Captain Smit was flown back to the UAE to recover in Abu Dhabi.
+    show:
+    - search:Abu Dhabi
+  - say: And on Saturday, the third of October, he had a visitor. Prince Hamdan bin Mohammed, Crown Prince of Dubai and
+      Minister of Defence of the UAE, came to his bedside.
+    show:
+    - clip:smit
+  - say: Remember, flydubai is Dubai's own airline. This was Hamdan's city, Hamdan's airline and, in his eyes, one of
+      Hamdan's people.
+    show:
+    - key:hamdan bin mohammed visits flydubai pilot and praises his courage
+  - say: He held the captain's hand, spoke with him quietly, and thanked him for what he had done.
+    show:
+    - clip:smit
+- beats:
+  - say: Then Prince Hamdan wrote the words that travelled around the world.
+    show:
+    - clip:hamdan-post
+  - say: The flydubai pilot embodied the highest degrees of courage, responsibility, and care for human life.
+    show:
+    - clip:hamdan-post
+  - say: We are proud that he is part of our team, part of the story of our nation, and part of what the UAE stands for.
+      A nation of compassion, a nation of peace, and a nation of life.
+    show:
+    - key:hamdan bin mohammed visits flydubai pilot and praises his courage
+  - say: An Indian pilot, honoured by the Crown Prince of Dubai as one of their own.
+    show:
+    - clip:smit-portrait
+- beats:
+  - say: Why did this touch so many hearts? Because the UAE is home to people from every corner of the world, and nearly
+      one in three residents comes from India.
+    show:
+    - search:Dubai Marina
+  - say: Pilots, nurses, engineers, drivers, families who build their lives in Dubai. When Prince Hamdan called an Indian
+      captain part of our team, millions of them felt seen.
+    show:
+    - video:condolence|well-wishers
+  - say: It is not the first time Fazza has done this. Over the years he has sat with grieving families, visited wounded
+      soldiers, and stepped out of protocol to thank ordinary people.
+    show:
+    - video:condolence
+  - say: But this time, the whole world was watching.
+    show:
+    - clip:smit
+- beats:
+  - say: Here is the part most people never think about. After the attacks of September the eleventh, cockpit doors
+      around the world were made bulletproof and impossible to force open.
+    show:
+    - search:aircraft cockpit door
+  - say: They can only be unlocked from inside, or by crew with special codes and a delay. No one outside should ever be
+      able to get in.
+    show:
+    - search:Boeing 737 cockpit
+  - say: But that same protection becomes a trap when the danger is already inside. If one pilot turns on the other, the
+      people who could help are locked out.
+    show:
+    - search:airplane cabin passengers
+  - say: That is exactly what happened on flight FZ one zero seven three. And the crash axe, the tool meant to save
+      pilots from a fire, had become a weapon.
+    show:
+    - search:flydubai Boeing 737
+  - say: Aviation experts say the captain's decision to unlock that door, wounded and losing strength, is very likely
+      what saved the aircraft.
+    show:
+    - clip:smit-portrait
+- beats:
+  - say: Within days, the Indian embassy said Captain Smit was making steady progress and regaining his health.
+    show:
+    - search:Embassy of India Abu Dhabi
+  - say: Messages poured in from passengers, pilots and strangers, many of them simply saying thank you.
+    show:
+    - clip:prayers-india
+  - say: One door, opened by a wounded man, and more than one hundred and seventy families still have their loved ones.
+    show:
+    - clip:flydubai-jet2
+- beats:
+  - say: Captain Smit Machchhar did not choose to become a hero. He went to work like any other day, and when the worst
+      moment came, he thought of his passengers before himself.
+    show:
+    - clip:smit-portrait
+  - say: And Prince Hamdan reminded the world that real leadership means showing up for the people who show up for
+      everyone else.
+    show:
+    - clip:smit
+  - say: What would you say to Captain Smit if you could meet him? Write it in the comments, and subscribe to The Luxury
+      Lane for more true stories of Fazza.
+    show:
+    - key:hamdan bin mohammed visits flydubai pilot and praises his courage

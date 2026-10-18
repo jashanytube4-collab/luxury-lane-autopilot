@@ -59,6 +59,7 @@ class Story:
     path: Path
     footage: str = ""          # regex on official event titles: where "him" footage for this story comes from
     ready: bool = False        # checked and approved (exact clips for every sentence): only these are published
+    commons: bool = False      # this story may use outside photos (planes, places) that match its sentences
 
 
 _CTA = re.compile(r"\b(comments?|subscribe|tell us (below|in)|let us know|like this video|hit the like)\b", re.I)
@@ -136,7 +137,7 @@ def bank() -> list[Story]:
         sentence_beats(d["sections"])
         out.append(Story(d["id"], d["title"], d.get("thumbnail", {}), d.get("mood", "elegant"),
                          d.get("description", ""), d.get("tags", []), d["sections"], p, d.get("footage", ""),
-                         bool(d.get("ready", False))))
+                         bool(d.get("ready", False)), bool(d.get("commons", False))))
     return out
 
 
@@ -268,7 +269,7 @@ class StoryMaker:
                     vis.append(v)
                     out.clip_credits.append(CLIPS[tok[5:]].get("credit", ""))
             elif tok.startswith(("cat:", "search:")):
-                if not self.cfg.get("story", {}).get("commons", False):
+                if not (self.cfg.get("story", {}).get("commons", False) or story.commons):
                     return vis               # outside photos of other people and places are switched off
                 pics = commons.fetch(tok if tok.startswith("cat:") else tok[7:], cache, limit=10)
                 if pics:

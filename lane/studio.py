@@ -143,6 +143,8 @@ class Studio:
                 continue
             if u.get("shorts_made", 0) >= MAX_SHORTS_PER_EVENT:
                 continue
+            if u.get("no_video_until", "") > now:
+                continue
             if ev.get("video") and not u.get("video_exhausted"):
                 vids.append(k)
             elif len(ev.get("photos", [])) >= 3 and not u.get("photo_short"):
@@ -211,6 +213,7 @@ class Studio:
         u = usage.setdefault(key, {})
         video = self.video(key, ev)
         if not video:
+            u["no_video_until"] = (datetime.now(timezone.utc) + timedelta(days=3)).date().isoformat()
             return None
         scenes = self.his_scenes(video, exclude=u.get("shot_ranges", []))
         runs = _moment_runs(sorted(scenes, key=lambda x: x[0]))

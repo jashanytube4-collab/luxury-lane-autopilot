@@ -371,7 +371,11 @@ class Runner:
 
     def _fill_short(self, day, slot: dict, plan: dict, moment: bool, members: bool = False) -> bool | None:
         at = datetime.fromisoformat(slot["at"])
+        tries = 0
         for key in self.studio.short_candidates(self.events, self.usage, day.isoformat()):
+            if tries >= 8:
+                log.info("no Short after 8 tries for this slot; moving on")
+                return None
             if self.over_budget():
                 self.report.note("Run time budget reached; remaining slots are filled by the next run")
                 return False
@@ -379,6 +383,8 @@ class Runner:
             if moment and not ev.get("video"):
                 continue
             seed = random.randint(1, 10**9)
+            tries += 1
+            t0 = time.time()
             try:
                 if moment:
                     item = self.studio.make_moment(key, ev, self.usage, self._recent_titles(), seed)
@@ -393,6 +399,8 @@ class Runner:
                 self.state.save()
                 continue
             self.state.save()
+            log.info("short try %d (%s): %s in %.0fs — %s", tries, "moment" if moment else "narrated",
+                     "made" if item else "nothing", time.time() - t0, ev.get("title", "")[:60])
             if item is None:
                 continue
             p = item["plan"]

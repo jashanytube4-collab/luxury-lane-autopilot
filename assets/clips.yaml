@@ -148,3 +148,27 @@ clips:
     yt: OsWFzojD6NY
     parts: [[6, 37]]
     credit: Sheikh Hamdan's own skydive camera, as shared online
+  smit-portrait:
+    match: 'Smit Machchhar|the captain|Captain Smit|Indian pilot'
+    yt: xEnbfqlHN3g
+    parts: [[3, 5.5], [12.3, 17.3]]
+    crop: [0.0, 0.0, 1.0, 0.84]
+    credit: DD India, Captain Smit Machchhar (2026)
+  flydubai-jet2:
+    match: 'flydubai|Boeing|aircraft|the plane|FZ one zero seven three'
+    yt: xEnbfqlHN3g
+    parts: [[0.3, 2.6], [18.2, 19.1]]
+    crop: [0.0, 0.0, 1.0, 0.84]
+    credit: DD India (2026)
+  hamdan-post:
+    match: 'part of our team|highest degrees? of courage|he wrote|his post'
+    yt: xEnbfqlHN3g
+    parts: [[35.2, 42.3]]
+    crop: [0.0, 0.0, 1.0, 0.84]
+    credit: Sheikh Hamdan's post about Captain Smit Machchhar, via DD India (2026)
+  prayers-india:
+    match: 'prayed|prayers|across India|in India'
+    yt: xEnbfqlHN3g
+    parts: [[116, 123], [124, 131]]
+    crop: [0.0, 0.0, 1.0, 0.84]
+    credit: DD India, prayers for Captain Smit (2026)

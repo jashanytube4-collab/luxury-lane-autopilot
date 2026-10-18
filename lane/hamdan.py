@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import html
 import json
+import os
 import logging
 import re
 import subprocess
@@ -230,6 +231,9 @@ class Hamdan:
             return dest
         if self.library and self.library.fetch(f"{video['ref']}.mp4", dest):
             return dest
+        if os.environ.get("GITHUB_ACTIONS") == "true":
+            # YouTube blocks GitHub's machines: a download here only fails slowly (up to 15 min each)
+            raise SourceError("not in the footage library (YouTube downloads are blocked on GitHub)")
         cmd = ["yt-dlp", "--no-warnings", "--no-playlist", "-q", "--js-runtimes", "node", "--retries", "3",
                "-f", "bv*[height<=1080][vcodec^=avc1]/bv*[height<=1080]/b[height<=1080]/b",
                "--merge-output-format", "mp4", "--remux-video", "mp4", "-o", str(dest),

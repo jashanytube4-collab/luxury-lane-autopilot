@@ -98,8 +98,21 @@ def _kokoro(text: str, cfg: dict, out: Path, speed: float) -> Narration:
     return Narration(out, words, words[-1]["end"], "kokoro")
 
 
+ACRONYMS = {"NASA", "FIFA", "UNESCO", "UNICEF", "NATO", "OPEC", "ADNOC", "DEWA", "EXPO"}
+
+
+def speakable(text: str) -> str:
+    """Words in capitals are read letter by letter by both voices ("FAZZA" -> "F A Z Z A"): write them as normal
+    words. Short acronyms (UAE, AI, CEO) and known ones stay as they are."""
+    def fix(m: re.Match) -> str:
+        w = m.group(0)
+        return w if w in ACRONYMS else w.capitalize()
+    return re.sub(r"\b[A-Z]{4,}\b", fix, text)
+
+
 def synthesize(text: str, cfg: dict, out: Path, *, faster: int = 0) -> Narration:
     """faster = 0, 1, 2 steps of extra speed, used when a script runs long."""
+    text = speakable(text)
     out.parent.mkdir(parents=True, exist_ok=True)
     base = int(str(cfg.get("edge_rate", "+0%")).replace("%", "") or 0)
     rate = f"{base + 7 * faster:+d}%"

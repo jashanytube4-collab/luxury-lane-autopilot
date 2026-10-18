@@ -57,9 +57,9 @@ members:                             # members-only content (Fazza Fam)
 
 voice:
   engine: edge                       # edge (Microsoft neural, free) — falls back to kokoro automatically
-  edge_voice: en-US-AndrewMultilingualNeural
+  edge_voice: en-US-AvaMultilingualNeural   # the same warm female storyteller as the long videos
   edge_rate: "+6%"
-  kokoro_voice: am_michael
+  kokoro_voice: af_heart             # backup voice: the same female voice as the long videos
   kokoro_speed: 1.05
 
 ai:

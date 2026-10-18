@@ -194,8 +194,8 @@
   "video_exhausted": true
  },
  "dubai crown prince hands over hamdan bin mohammed program for smart government flag to dubai police": {
-  "last_short": "2026-10-13",
-  "shorts_made": 1,
+  "last_short": "2026-10-18",
+  "shorts_made": 2,
   "shot_ranges": [
    [
     23.860000000000003,
@@ -220,6 +220,18 @@
    [
     75.38,
     77.91
+   ],
+   [
+    132.84,
+    137.96
+   ],
+   [
+    182.752,
+    189.216
+   ],
+   [
+    208.32,
+    215.78
    ]
   ]
  },

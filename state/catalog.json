@@ -3487,8 +3487,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed meets with astronaut sultan al neyadi and zayed ambition 2 team": {
-  "last_short": "2026-10-16",
-  "shorts_made": 2,
+  "last_short": "2026-10-19",
+  "shorts_made": 3,
   "shot_ranges": [
    [
     27.853333333333335,
@@ -3505,6 +3505,14 @@
    [
     95.78666666666668,
     109.72666666666667
+   ],
+   [
+    45.38666666666666,
+    49.980000000000004
+   ],
+   [
+    61.28666666666666,
+    72.69999999999999
    ]
   ]
  },

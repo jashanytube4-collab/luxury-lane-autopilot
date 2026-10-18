@@ -2002,7 +2002,8 @@
     70.02,
     72.27
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed chairs executive council meeting approves e commerce strategy": {
   "fails": 2
@@ -4526,8 +4527,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed receives mourners on death of mansour bin ahmed": {
-  "last_short": "2026-10-12",
-  "shorts_made": 1,
+  "last_short": "2026-10-18",
+  "shorts_made": 2,
   "shot_ranges": [
    [
     191.42,
@@ -4544,6 +4545,14 @@
    [
     423.1,
     425.31
+   ],
+   [
+    345.76,
+    352.52
+   ],
+   [
+    459.52,
+    471.32
    ]
   ]
  },

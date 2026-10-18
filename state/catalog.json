@@ -2977,7 +2977,8 @@
     99.66,
     102.03
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed inspects wadi al amardi housing project approves aed2 billion housing package": {
   "last_short": "2026-10-16",
@@ -3495,9 +3496,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed meets students of dubai schools": {
-  "last_short": "2026-10-13",
+  "last_short": "2026-10-19",
   "long": "2026-10-17",
-  "shorts_made": 1,
+  "shorts_made": 2,
   "shot_ranges": [
    [
     132.38,
@@ -3506,6 +3507,14 @@
    [
     213.74,
     218.14000000000001
+   ],
+   [
+    278.64,
+    291.32
+   ],
+   [
+    325.88,
+    336.32
    ]
   ]
  },

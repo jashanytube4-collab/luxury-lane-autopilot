@@ -128,11 +128,13 @@ class Studio:
         return random.Random(seed).uniform(s["min_seconds"] + 0.3, s["max_seconds"] - 1.2)
 
     def short_candidates(self, events: dict, usage: dict, day: str | None = None,
-                         cooldown_days: int = COOLDOWN_DAYS) -> list[str]:
+                         cooldown_days: int | None = None) -> list[str]:
         """Events that can still give a Short: newest first, footage before photo stories, each event resting a week
         between Shorts so a day never shows the same story twice."""
         now = datetime.now(timezone.utc).date().isoformat()
         day = day or now
+        if cooldown_days is None:            # config short.cooldown_days (days a story rests between its Shorts)
+            cooldown_days = int(self.cfg.get("short", {}).get("cooldown_days", COOLDOWN_DAYS))
         rest_until = _days_ago(day, cooldown_days - 1)
         vids, pics = [], []
         for k, ev in events.items():

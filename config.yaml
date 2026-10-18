@@ -40,6 +40,7 @@ short:
   min_seconds: 12                   # every Short is a random length between these (12-17 s)
   max_seconds: 17
   fps: 30
+  cooldown_days: 3                   # a story rests this many days between its Shorts (7 ran out of footage at 30/day)
   moment_share: 1.0                  # share of Shorts that are 12-17 s music-only "moments" of him (what the
                                      # most-viewed Fazza Shorts are); the rest are narrated stories
 

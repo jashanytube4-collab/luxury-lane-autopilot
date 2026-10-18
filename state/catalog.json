@@ -375,7 +375,8 @@
     82.80000000000001,
     86.92
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "dubai crown prince visits emirates nbd head office": {
   "video_exhausted": true
@@ -2433,7 +2434,8 @@
     64.56,
     77.28
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed extends condolences to family of the martyr al bishir": {
   "long": "2026-10-17"
@@ -4499,9 +4501,9 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed opens gitex tech week 2017": {
-  "last_short": "2026-10-14",
+  "last_short": "2026-10-19",
   "long": "2026-10-14",
-  "shorts_made": 1,
+  "shorts_made": 2,
   "shot_ranges": [
    [
     235.44,
@@ -4510,6 +4512,18 @@
    [
     502.56,
     511.36
+   ],
+   [
+    284.8,
+    289.6
+   ],
+   [
+    332.6,
+    336.76
+   ],
+   [
+    481.28000000000003,
+    487.2
    ]
   ]
  },

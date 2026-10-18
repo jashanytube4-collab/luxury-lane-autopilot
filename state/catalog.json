@@ -86,7 +86,8 @@
     104.4,
     109.11999999999999
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "dp world commences construction of bharat mart strategic trading hub in dubai offering new horizons for indian businesses": {
   "no_hamdan": true
@@ -1505,7 +1506,8 @@
     287.92,
     298.71999999999997
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed attends health chain forum": {
   "fails": 1,
@@ -2950,7 +2952,8 @@
     405.92,
     411.12
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
   "last_short": "2026-10-18",
@@ -4248,7 +4251,8 @@
     83.60000000000001,
     90.36
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed offers condolences to al gergawi s family": {
   "long": "2026-10-17"
@@ -4292,7 +4296,8 @@
     106.72,
     112.44
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed offers condolences to family of martyr rashid al habsi": {
   "long": "2026-10-17"
@@ -4407,7 +4412,8 @@
     178.8,
     183.28
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed opens cityscape global 2018": {
   "last_short": "2026-10-13",
@@ -4597,13 +4603,17 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed opens the race to excellence": {
-  "last_short": "2026-10-15",
+  "last_short": "2026-10-19",
   "long": "2026-10-12",
-  "shorts_made": 1,
+  "shorts_made": 2,
   "shot_ranges": [
    [
     0.12,
     12.83
+   ],
+   [
+    12.832533199999999,
+    25.5425332
    ]
   ]
  },
@@ -6274,7 +6284,8 @@
     68.34,
     71.19
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed visits the ministry of foreign affairs in abu dhabi": {
   "last_short": "2026-10-08",

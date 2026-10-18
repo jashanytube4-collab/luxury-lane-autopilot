@@ -5989,7 +5989,8 @@
     42.699999999999996,
     45.470000000000006
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed visits the dubai ai festival": {
   "long": "2026-10-13",
@@ -6643,8 +6644,8 @@
   "video_exhausted": true
  },
  "international space station mission carrying first emirati astronaut launched successfully": {
-  "last_short": "2026-10-12",
-  "shorts_made": 1,
+  "last_short": "2026-10-18",
+  "shorts_made": 2,
   "shot_ranges": [
    [
     0.22,
@@ -6657,6 +6658,10 @@
    [
     213.74,
     216.35
+   ],
+   [
+    68.76,
+    82.56
    ]
   ]
  },

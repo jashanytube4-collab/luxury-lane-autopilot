@@ -54,6 +54,10 @@ story:                               # long-form story episodes (assets/stories)
   cards: false                       # no full-screen text cards over a dark background
   pops: false                        # no pop-up words on screen
   end_card: 0                        # the video ends with the last words (no extra closing screen)
+  gate:                              # quality gate: a story below this is NOT made (no repeats, no padding)
+    min_clips: 100                   # distinct clips/photos in an 8-minute video (a new picture every ~4 s)
+    min_sources: 10                  # different places the footage comes from
+    max_source_share: 0.25           # no single source may be more than this share of the video
   ready_only: false                  # every day a long video; every story gets sentence-level clips automatically
 
 members:                             # members-only content (Fazza Fam)

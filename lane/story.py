@@ -156,6 +156,39 @@ class Gathered:
     clip_credits: list[str] = field(default_factory=list)
     event_keys: list[str] = field(default_factory=list)
     thumb_scene: Path | None = None               # a chosen frame for the thumbnail (story.thumbnail.scene)
+    sources: dict = field(default_factory=dict)   # id(Visuals) -> where the footage came from (quality gate)
+
+
+class QualityGateError(Exception):
+    """The story does not have enough distinct, varied real footage to be a premium video."""
+
+
+def audit(story: Story, got: Gathered, cfg: dict) -> None:
+    """Quality gate, before anything is rendered: an 8-minute story needs a new picture every few seconds, from many
+    different sources, with no single source carrying the video. Otherwise it is stopped (never padded with repeats)."""
+    g = cfg.get("story", {}).get("gate", {})
+    min_pieces, min_sources = int(g.get("min_clips", 100)), int(g.get("min_sources", 10))
+    max_share = float(g.get("max_source_share", 0.25))
+    uniq = {id(v): v for per in got.beat_visuals.values() for b in per for v in b}
+    uniq.update({id(v): v for sec in got.visuals for v in sec})
+    count: dict[str, int] = {}
+    for key, v in uniq.items():
+        n = len(v.scenes) + len(v.photos)
+        label = got.sources.get(key, "library")
+        count[label] = count.get(label, 0) + n
+    total = sum(count.values())
+    log.info("quality gate '%s': %d distinct pieces from %d sources", story.id, total, len(count))
+    problems = []
+    if total < min_pieces:
+        problems.append(f"only {total} distinct clips/photos (need {min_pieces}+)")
+    if len(count) < min_sources:
+        problems.append(f"only {len(count)} different sources (need {min_sources}+)")
+    top = max(count.items(), key=lambda kv: kv[1], default=("", 0))
+    if total and top[1] / total > max_share:
+        problems.append(f"one source ('{top[0][:50]}') is {top[1] * 100 // total}% of the footage (max {int(max_share * 100)}%)")
+    if problems:
+        raise QualityGateError(f"'{story.id}' is not premium yet: " + "; ".join(problems)
+                               + ". Add more real clips from more sources, then it will be made.")
 
 
 class StoryMaker:
@@ -242,6 +275,7 @@ class StoryMaker:
                     continue
                 taken.add(k)
                 out.event_keys.append(k)
+                out.sources[id(vis)] = f"event:{k}"
                 if only_him:
                     out.his_photos += vis.photos
                 got.append(vis)
@@ -273,6 +307,7 @@ class StoryMaker:
                 if v:
                     vis.append(v)
                     out.clip_credits.append(CLIPS[tok[5:]].get("credit", ""))
+                    out.sources[id(v)] = CLIPS[tok[5:]].get("credit") or f"clip:{tok[5:]}"
             elif tok.startswith(("cat:", "search:")):
                 if not (self.cfg.get("story", {}).get("commons", False) or story.commons):
                     return vis               # outside photos of other people and places are switched off
@@ -306,6 +341,7 @@ class StoryMaker:
             out.visuals.append(vis)
         out.spare = []       # no random filler: short sections borrow from the rest of this story (see produce_story)
         out.thumb_scene = self.thumb_scene(story, work)
+        audit(story, out, self.cfg)
         return out
 
     def thumb_scene(self, story: Story, work: Path) -> Path | None:

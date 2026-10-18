@@ -29,7 +29,7 @@ from .posts import make_post
 from .quotes import harvest as harvest_quotes
 from .schedule import day_slots, long_slot, post_slots, target_days, top_up
 from .state import State
-from .story import StoryMaker, auto_story, bank as story_bank, next_story, produce_story
+from .story import QualityGateError, StoryMaker, auto_story, bank as story_bank, next_story, produce_story
 from .trends import mark_used
 from .studio import Studio
 from .youtube import AuthError, QuotaError, YouTube, key_tag
@@ -258,7 +258,7 @@ class Runner:
         forced = os.environ.get("TEST_STORY", "").strip() if self.args.dry_run else ""
         ready_only = bool(self.cfg.get("story", {}).get("ready_only", False))
         posted = set(self.state.cursors.get("posted_units", []))      # stories already on the channel count as done
-        done = self.state.cursors.get("stories_done", []) + [s.id for s in story_bank()
+        done = self.state.cursors.get("stories_done", []) + self.state.cursors.get("stories_blocked", []) + [s.id for s in story_bank()
                                                               if key_tag(f"story:{s.id}") in posted]
         story = (next((x for x in story_bank() if x.id == forced), None) if forced
                  else next_story(done, ready_only))
@@ -337,6 +337,12 @@ class Runner:
             maker = StoryMaker(self.studio, self.events, self.usage, self.cfg)
             got = maker.gather(story, random.Random(seed), work)
             ep = produce_story(story, got, self.cfg, work, seed)
+        except QualityGateError as e:      # not premium: never padded with repeats; skipped until more footage is added
+            self.report.problem(f"Story held back by the quality gate: {str(e)[:400]}")
+            if not self.args.dry_run:
+                self.state.cursors.setdefault("stories_blocked", []).append(story.id)
+            self.state.save()
+            return True
         except Exception as e:  # noqa: BLE001 — the next run tries again
             self.report.problem(f"Story episode '{story.id}' failed: {str(e)[:300]}")
             self.state.save()

@@ -104,6 +104,36 @@ sections:
     show:
     - clip:flydubai-jet2
 - beats:
+  - say: Back in India, his family was living through the longest night of their lives.
+    show:
+    - clip:prayers-india
+  - say: His wife, Sonal, told Indian media that at first she was devastated, and did not even know how to react. The
+      relief only came when officials told her that he was stable.
+    show:
+    - clip:smit-portrait
+  - say: His father-in-law, Jaysukh Jogi, said nobody in the family could sleep that night, and they were not even
+      allowed to speak to him.
+    show:
+    - clip:smit-portrait
+  - say: When he heard how the plane had come down safely, he called it a miracle. Five people, he said, helped him.
+    show:
+    - clip:flydubai-jet2
+  - say: His brother-in-law, Ankit, said the family is incredibly proud, and that Smit is the kind of pilot who puts his
+      work first and follows every protocol closely.
+    show:
+    - clip:smit-portrait
+  - say: He had been struck on the head and on the hand, which was fractured, and he needed stitches in several places.
+    show:
+    - clip:smit
+  - say: The UAE's General Civil Aviation Authority praised not only the captain, but also the crew and the passengers
+      who helped bring the situation under control.
+    show:
+    - search:flydubai aircraft
+  - say: Ordinary people who, in the most frightening moment of their lives, ran toward the danger instead of away from
+      it.
+    show:
+    - search:airplane aisle
+- beats:
   - say: Now comes the shocking part. The UAE's attorney general, Hamad Al Shamsi, said the investigation found that the
       co-pilot had attempted to carry out a terrorist act.
     show:

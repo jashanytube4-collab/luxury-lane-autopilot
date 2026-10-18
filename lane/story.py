@@ -202,8 +202,11 @@ class StoryMaker:
                 if not (lib and lib.fetch(f"clip-{cid}.mp4", dest)):
                     log.warning("clip %r is not in the footage library (run tools/fetch_clips.py)", cid)
                     return None
-        from .longform import _scene_list
+        from .longform import _scene_list, probe
         scenes = _scene_list(dest)
+        if not scenes:          # a short hand-picked clip whose shots are all brief: it was chosen, so use all of it
+            dur = probe(dest)["duration"]
+            scenes = [(0.05, dur - 0.05)] if dur > 0.8 else []
         return Visuals(dest, scenes, []) if scenes else None
 
     def _events_matching(self, pattern: str | None) -> list[str]:
@@ -427,6 +430,8 @@ def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int)
                     # only a sentence with nothing of its own may use the nearest parts of the story
                     reserve = same if (own or same) else [it for it in borrow(i) if id(it) not in later]
                     mine = list(beat_pools.get(i, [[]] * len(spans))[j])
+                    if not (own or reserve or mine or used):   # nothing at all yet: the nearest part's pictures
+                        reserve = borrow(i) or [it for p in pools for it in p]
                     fast = (2.0, 2.8) if i == 0 else (2.6, 4.0)
                     bshots += _chapter_shots(own, rest, rng, reserve, used, pace=fast, still=(3.0, 4.2),
                                              photo_every=0, again=mine)

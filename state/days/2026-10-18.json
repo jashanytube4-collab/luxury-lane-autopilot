@@ -3,13 +3,16 @@
  "slots": [
   {
    "at": "2026-10-18T06:35:17+04:00",
-   "status": "open",
+   "status": "missed",
    "type": "short"
   },
   {
    "at": "2026-10-18T07:23:47+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "hamdan bin mohammed opens salem medical fitness smart centre",
+   "status": "scheduled",
+   "title": "Dubai's pride, Hamdan's legacy. #youtube #youtubeshorts",
+   "type": "short",
+   "video_id": "CsKH0PNCNrU"
   },
   {
    "at": "2026-10-18T08:16:50+04:00",

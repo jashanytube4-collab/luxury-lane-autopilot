@@ -49,7 +49,8 @@
     38.699999999999996,
     41.07000000000001
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "crown prince offers condolences to al adab family": {
   "long": "2026-10-15",
@@ -359,7 +360,8 @@
     12.7,
     14.39
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "dubai executive council approves annual agenda for 2018": {
   "video_exhausted": true
@@ -390,7 +392,8 @@
     27.020000000000003,
     28.79
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan addressing future circles looking forward for innovation based future": {
   "video_exhausted": true
@@ -1301,7 +1304,8 @@
     31.180000000000003,
     34.59
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed attends graduation ceremony at the dubai police academy": {
   "video_exhausted": true
@@ -1794,7 +1798,8 @@
     1.94,
     6.84
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed attends the knowledge summit 2018": {
   "last_short": "2026-10-13",
@@ -2551,7 +2556,8 @@
     30.62,
     32.510000000000005
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed inaugurates aeedc dubai 2022": {
   "last_short": "2026-10-11",
@@ -2573,7 +2579,8 @@
     22.700000000000003,
     24.229999999999997
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed inaugurates al safa art design library": {
   "long": "2026-10-13"
@@ -2689,7 +2696,8 @@
     28.660000000000004,
     30.79
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed inaugurates new outpatient building at dubai hospital": {
   "last_short": "2026-10-10",
@@ -2754,7 +2762,8 @@
     28.62,
     33.519999999999996
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed inaugurates the world s largest solar powered data centre": {
   "last_short": "2026-10-09",
@@ -2855,7 +2864,8 @@
     44.22,
     47.03000000000001
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed inspects rta s autonomous mobility and ai projects": {
   "last_short": "2026-10-13",
@@ -3264,7 +3274,8 @@
     34.58,
     36.790000000000006
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed meets first batch of female cadets graduating from dubai police academy": {
   "last_short": "2026-10-11",
@@ -3294,7 +3305,8 @@
     30.180000000000003,
     33.43000000000001
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed meets government team behind uae s progress in world bank s ease of doing business ranking": {
   "last_short": "2026-10-13",
@@ -3364,7 +3376,8 @@
     21.3,
     22.909999999999997
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed meets prominent business leaders at dubai majlis to chart a course for city s accelerated growth": {
   "fails": 1,
@@ -3826,7 +3839,8 @@
     26.46,
     29.95
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed meets with the ferjan dubai team": {
   "fails": 1,
@@ -4170,7 +4184,8 @@
     27.340000000000003,
     32.24
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed opens cityscape global 2017": {
   "last_short": "2026-10-14",
@@ -4311,9 +4326,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed opens salem medical fitness smart centre": {
-  "last_short": "2026-10-11",
+  "last_short": "2026-10-18",
   "long": "2026-10-18",
-  "shorts_made": 1,
+  "shorts_made": 2,
   "shot_ranges": [
    [
     7.38,
@@ -4326,6 +4341,14 @@
    [
     122.34,
     126.07
+   ],
+   [
+    52.8,
+    56.96
+   ],
+   [
+    138.64000000000001,
+    149.35999999999999
    ]
   ]
  },
@@ -4584,7 +4607,8 @@
     81.42,
     85.82000000000001
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed receives victory team xcat": {
   "video_exhausted": true
@@ -4640,7 +4664,8 @@
     34.42,
     36.830000000000005
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed reviews jumeirah beach 1 development project underscores role of public beaches in enhancing quality of life": {
   "video_exhausted": true
@@ -5125,7 +5150,8 @@
     3.3400000000000003,
     5.59
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed tours the 31st edition of dubai international boat show": {
   "last_short": "2026-10-08",
@@ -5564,7 +5590,8 @@
     18.320000000000004,
     20.729999999999997
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed visits dubai autism center": {
   "last_short": "2026-10-17",
@@ -5748,7 +5775,8 @@
     25.94,
     27.549999999999997
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed visits innovation labs 2018": {
   "video_exhausted": true
@@ -6251,10 +6279,25 @@
  "hamdan witnesses launch of strategic plan to develop islamic economy sector": {
   "video_exhausted": true
  },
+ "ig:faz3:17858325696345386": {
+  "video_exhausted": true
+ },
+ "ig:faz3:17863681005256810": {
+  "video_exhausted": true
+ },
+ "ig:faz3:17877990645022141": {
+  "video_exhausted": true
+ },
  "ig:faz3:17885369565508612": {
   "video_exhausted": true
  },
  "ig:faz3:17906606151142313": {
+  "video_exhausted": true
+ },
+ "ig:faz3:17946374078734156": {
+  "video_exhausted": true
+ },
+ "ig:faz3:17960898638637719": {
   "video_exhausted": true
  },
  "ig:faz3:17968229216578746": {
@@ -6262,6 +6305,12 @@
   "no_hamdan": true
  },
  "ig:faz3:17985638052101427": {
+  "video_exhausted": true
+ },
+ "ig:faz3:18006598649398953": {
+  "video_exhausted": true
+ },
+ "ig:faz3:18023608172646501": {
   "video_exhausted": true
  },
  "ig:faz3:18032498090707303": {
@@ -6289,9 +6338,15 @@
   "no_hamdan": true,
   "video_exhausted": true
  },
+ "ig:faz3:18072177007650529": {
+  "video_exhausted": true
+ },
  "ig:faz3:18098909275484024": {
   "long": "2026-10-18",
   "no_hamdan": true
+ },
+ "ig:faz3:18099034300454696": {
+  "video_exhausted": true
  },
  "ig:faz3:18101191255523061": {
   "video_exhausted": true
@@ -6299,6 +6354,12 @@
  "ig:faz3:18106640728979406": {
   "long": "2026-10-18",
   "no_hamdan": true,
+  "video_exhausted": true
+ },
+ "ig:faz3:18110662096449458": {
+  "video_exhausted": true
+ },
+ "ig:faz3:18125065510344933": {
   "video_exhausted": true
  },
  "ig:faz3:18163124008405401": {
@@ -6309,6 +6370,9 @@
  },
  "ig:faz3:18223115233336672": {
   "no_hamdan": true,
+  "video_exhausted": true
+ },
+ "ig:faz3:18351852052193537": {
   "video_exhausted": true
  },
  "ig:faz3:18426448819098880": {
@@ -6696,7 +6760,8 @@
     22.740000000000002,
     26.95
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "the executive council of dubai approves the integrated waste management strategy 2021 2041 with a budget of aed74 5 billion": {
   "video_exhausted": true

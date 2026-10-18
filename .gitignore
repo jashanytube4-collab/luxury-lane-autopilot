@@ -11,3 +11,6 @@ models/
 
 # James (brand emails) - private, never uploaded
 james/
+
+# Rocky (the owner's phone manager) - private notes, never uploaded
+rocky/

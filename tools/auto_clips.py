@@ -62,7 +62,8 @@ def entities_of(texts: list[str], top: int = 14) -> list[str]:
     return [e for e, _ in count.most_common(top)]
 
 
-OFFICIAL = {"Dubai Media Office": "UCJ-AxG2x-5kgN_MMfBYa2Cg"}
+OFFICIAL = {"Dubai Media Office": "UCJ-AxG2x-5kgN_MMfBYa2Cg",
+            "Sheikh Mohammed": "UCVfsCXH49iiSF8o1ctgH7xA"}   # verified, official (618K), checked 2026-10-19
 
 
 def channel_videos(channel_id: str, n: int = 400) -> list[dict]:

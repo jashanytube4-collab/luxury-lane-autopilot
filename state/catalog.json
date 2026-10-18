@@ -6306,10 +6306,17 @@
  "ig:faz3:17877990645022141": {
   "video_exhausted": true
  },
+ "ig:faz3:17878608887918059": {
+  "video_exhausted": true
+ },
  "ig:faz3:17885369565508612": {
   "video_exhausted": true
  },
  "ig:faz3:17906606151142313": {
+  "video_exhausted": true
+ },
+ "ig:faz3:17924353259135353": {
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "ig:faz3:17946374078734156": {
@@ -6318,14 +6325,46 @@
  "ig:faz3:17960898638637719": {
   "video_exhausted": true
  },
+ "ig:faz3:17966389169552590": {
+  "no_hamdan": true,
+  "video_exhausted": true
+ },
  "ig:faz3:17968229216578746": {
   "long": "2026-10-18",
   "no_hamdan": true
+ },
+ "ig:faz3:17974610546214471": {
+  "no_hamdan": true,
+  "video_exhausted": true
+ },
+ "ig:faz3:17977596494617750": {
+  "video_exhausted": true
+ },
+ "ig:faz3:17980436306441695": {
+  "video_exhausted": true
+ },
+ "ig:faz3:17981438738093414": {
+  "no_hamdan": true,
+  "video_exhausted": true
+ },
+ "ig:faz3:17984061542229866": {
+  "no_hamdan": true,
+  "video_exhausted": true
  },
  "ig:faz3:17985638052101427": {
   "video_exhausted": true
  },
  "ig:faz3:18006598649398953": {
+  "video_exhausted": true
+ },
+ "ig:faz3:18007999939942961": {
+  "video_exhausted": true
+ },
+ "ig:faz3:18010801556136239": {
+  "video_exhausted": true
+ },
+ "ig:faz3:18016593319715593": {
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "ig:faz3:18023608172646501": {
@@ -6359,6 +6398,9 @@
  "ig:faz3:18072177007650529": {
   "video_exhausted": true
  },
+ "ig:faz3:18078859945409245": {
+  "video_exhausted": true
+ },
  "ig:faz3:18098909275484024": {
   "long": "2026-10-18",
   "no_hamdan": true
@@ -6380,6 +6422,9 @@
  "ig:faz3:18125065510344933": {
   "video_exhausted": true
  },
+ "ig:faz3:18132105517320032": {
+  "video_exhausted": true
+ },
  "ig:faz3:18163124008405401": {
   "video_exhausted": true
  },
@@ -6391,6 +6436,9 @@
   "video_exhausted": true
  },
  "ig:faz3:18351852052193537": {
+  "video_exhausted": true
+ },
+ "ig:faz3:18409037059011776": {
   "video_exhausted": true
  },
  "ig:faz3:18426448819098880": {

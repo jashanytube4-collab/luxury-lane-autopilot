@@ -302,8 +302,8 @@
   "video_exhausted": true
  },
  "dubai crown prince receives president of malta": {
-  "last_short": "2026-10-13",
-  "shorts_made": 1,
+  "last_short": "2026-10-19",
+  "shorts_made": 2,
   "shot_ranges": [
    [
     27.340000000000003,
@@ -316,6 +316,18 @@
    [
     111.78,
     116.18
+   ],
+   [
+    46.16,
+    51.120000000000005
+   ],
+   [
+    66.72,
+    71.96
+   ],
+   [
+    78.16000000000001,
+    82.19999999999999
    ]
   ]
  },
@@ -4387,7 +4399,8 @@
     300.46000000000004,
     302.43
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed opens crime prevention international conference": {
   "last_short": "2026-10-18",
@@ -4530,7 +4543,8 @@
     105.82,
     107.78999999999999
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed opens the race to excellence": {
   "last_short": "2026-10-15",

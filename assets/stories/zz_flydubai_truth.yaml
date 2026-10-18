@@ -6,7 +6,7 @@ thumbnail:
   scene: clip:smit-bedside@0.4      # Prince Hamdan at Captain Smit's hospital bed
   scene_crop: [0.07, 0.13, 0.93, 1.0]
 mood: epic
-commons: true
+commons: false                      # real footage only: news video of the flight, the passengers and the visit
 footage: flydubai|pilot|hospital|condolence
 description: 'Five shocking truths about flydubai flight FZ1073: the danger that came from the seat beside the captain,
   the emergency tool that became a weapon, the door that turned into a trap, what investigators now say, and the
@@ -25,264 +25,148 @@ tags:
 - Indian pilot hero
 - Crown Prince of Dubai
 - Fazza 2026
+# Every sentence shows its own real footage (assets/clips.yaml fz-*, official videos of him), each one once.
 sections:
 - beats:
   - say: On the thirtieth of September, a flydubai jet took off from Dubai with more than one hundred and seventy people
       on board.
-    show:
-    - clip:flydubai-jet2
+    show: [clip:flydubai-jet2, clip:fz-plane-stairs]
   - say: Within hours, the whole world was asking how close it had come to disaster.
-    show:
-    - search:flydubai Boeing 737
-  - say: The danger did not come from the weather, from the engines, or from a passenger. It came from the seat right
-      next to the captain.
-    show:
-    - search:Boeing 737 cockpit
+    show: [clip:fz-cabin-aisle]
+  - say: The danger came from the seat right next to the captain.
+    show: [clip:fz-bs-cockpit]
   - say: What happened behind that locked door has shocked pilots all over the world.
-    show:
-    - search:aircraft cockpit
+    show: [clip:fz-i24-passenger]
   - say: And the man who stopped it was bleeding when he made the choice that kept everyone alive.
-    show:
-    - clip:smit-portrait
+    show: [clip:fz-smit-selfie]
   - say: Days later, Prince Hamdan was standing beside his hospital bed.
-    show:
-    - clip:smit-bedside
+    show: [clip:smit-bedside, clip:fz-visit-shoulder]
   - say: Today, five shocking truths about the flydubai cockpit attack, and the words from Fazza that made millions of
       people proud. Let's begin.
-    show:
-    - key:hamdan bin mohammed visits flydubai pilot and praises his courage
+    show: [clip:fz-visit-lean]
 - beats:
-  - say: Shocking truth number one. This was an ordinary flight, with one of the most experienced men you could wish
-      for at the controls.
-    show:
-    - clip:flydubai-jet2
-  - say: Flight FZ one zero seven three was a Boeing seven three seven MAX eight, scheduled from Dubai to Tel Aviv.
-    show:
-    - search:flydubai Boeing 737 MAX
-  - say: flydubai is Dubai's own low-cost airline, flying to more than a hundred destinations.
-    show:
-    - search:flydubai aircraft
+  - say: Shocking truth number one. This was an ordinary flight, with a very experienced captain.
+    show: [clip:fz-plane-gate, clip:fz-couple-suit]
+  - say: Flight FZ one zero seven three was flying from Dubai to Tel Aviv.
+    show: [clip:fz-kt-map, clip:fz-telaviv-window]
+  - say: flydubai is Dubai's own airline, flying to more than a hundred destinations, and Prince Hamdan has reviewed
+      the operations of Dubai's airport himself.
+    show: ["key:hamdan bin mohammed reviews operations of dubai international airport and emirates"]
   - say: In the left seat sat Captain Smit Machchhar, from India.
-    show:
-    - clip:smit-portrait
-  - say: As a young man in Mumbai, he was expected to join the family's textile trade. Instead, he fell in love with
-      flying, and his father paid for his lessons.
-    show:
-    - search:Mumbai skyline
-  - say: He earned his wings in New Zealand, spent roughly a decade with SpiceJet, and moved to flydubai in two thousand
-      and twenty-two.
-    show:
-    - search:SpiceJet Boeing 737
-  - say: When he walked onto that plane, close to ten thousand hours of flying were already behind him.
-    show:
-    - search:aircraft cockpit
+    show: [clip:fz-smit-selfie2]
+  - say: He grew up in Mumbai, and his father paid for his first flying lessons.
+    show: [clip:fz-uncle]
+  - say: He trained in New Zealand, flew for SpiceJet for about ten years, and joined flydubai in twenty twenty-two.
+    show: [clip:fz-aunt]
 - beats:
   - say: Shocking truth number two. The attack came from inside the flight deck, from his own first officer.
-    show:
-    - search:Boeing 737 cockpit
+    show: [clip:fz-almog]
   - say: UAE prosecutors say the co-pilot assaulted the captain and tried to seize control of the plane.
-    show:
-    - search:flydubai aircraft
-  - say: His weapon was the crash axe, an emergency tool that every airliner carries for cutting through panels in a
-      fire.
-    show:
-    - search:aircraft cockpit
-  - say: The captain was hit again and again. Reports describe wounds to his head, and to his hand, which was broken.
-    show:
-    - clip:smit-portrait
-  - say: From his hospital bed, he later said that he had been fighting for his life.
-    show:
-    - clip:smit-portrait
-  - say: Out in the cabin, people felt the jet drop sharply, and many were sure they were about to die.
-    show:
-    - search:airplane cabin passengers
+    show: [clip:fz-reuters-arrive]
+  - say: His weapon was the crash axe, an emergency tool that every airliner carries.
+    show: [clip:fz-cabin-seats, clip:fz-cabin-call]
+  - say: The captain was hit again and again, on his head, and on his hand, which was broken.
+    show: [clip:fz-smit-call]
+  - say: Later, from his hospital bed, he said that he had been fighting for his life.
+    show: [clip:fz-smit-call2]
 - beats:
   - say: Shocking truth number three. The door that was built to keep everyone safe had turned into a trap.
-    show:
-    - search:aircraft cockpit door
-  - say: Since two thousand and one, cockpit doors have been reinforced, so that nobody in the cabin can break in.
-    show:
-    - search:aircraft cockpit door
-  - say: Crew in the cabin can ask to come in, using a keypad and a code. But the pilot inside can refuse, and keep
-      that door shut.
-    show:
-    - search:aircraft cockpit door
-  - say: That protects pilots from hijackers. But when the threat is already sitting inside, every bit of help is
-      locked on the wrong side.
-    show:
-    - search:airplane aisle
-  - say: Captain Smit saw it in seconds. Injured and weakening, he could not hold off his attacker and fly the jet at the
-      same time.
-    show:
-    - clip:smit-portrait
-  - say: So he dragged himself to that door, and he unlocked it.
-    show:
-    - search:aircraft cockpit door
-  - say: Crew and passengers poured in. A relief pilot who was travelling on the flight joined them, and together they
-      held the co-pilot down.
-    show:
-    - search:airplane aisle
-  - say: The relief pilot took the controls and diverted to Tabuk, in the north-west of Saudi Arabia.
-    show:
-    - search:Tabuk Regional Airport
-  - say: The jet touched down safely. Not one passenger lost their life.
-    show:
-    - clip:flydubai-jet2
-  - say: Like every airliner, the jet carried a cockpit voice recorder and a flight data recorder, and investigators
-      will study every second of them.
-    show:
-    - search:Boeing 737 cockpit
+    show: [clip:fz-passenger-arrivals]
+  - say: Since two thousand and one, cockpit doors have been reinforced, and the pilot inside can keep them shut.
+    show: [clip:fz-arrive-night, clip:fz-arrive-gate]
+  - say: That stops hijackers. But when the threat is already inside, every bit of help is locked on the wrong side.
+    show: [clip:fz-bg-crowd, clip:fz-arrive-walk]
+  - say: Captain Smit saw it in seconds. Injured and weakening, he could not fight and fly the jet at the same time.
+      So he unlocked that door.
+    show: [clip:fz-arrivals-hall]
+  - say: One passenger, Yaniv Hayoun, told reporters that he and a crew member got the door open, and found the wounded
+      captain on the other side.
+    show: [clip:fz-yaniv, clip:fz-reunion-medics]
+  - say: A relief pilot who was travelling on the flight took the controls and diverted to Tabuk, in the north-west of
+      Saudi Arabia.
+    show: [clip:fz-track-map, clip:fz-kt-city]
+  - say: The jet touched down safely. Not one passenger lost their life, and the co-pilot was arrested.
+    show: [clip:fz-tabuk-wide, clip:fz-tabuk-stairs, clip:fz-tabuk-landed]
+  - say: 'From the ground, one passenger sent a message: We are in the Tabuk area of Saudi Arabia. All the passengers
+      are okay, but not the pilot.'
+    show: [clip:fz-tabuk-window, clip:fz-tabuk-walk, clip:fz-lounge]
   - say: Be honest. Would you have run toward that cockpit, or stayed frozen in your seat?
-    show:
-    - search:airplane cabin passengers
+    show: [clip:fz-disembark, clip:fz-reunion-kiss]
 - beats:
-  - say: While the plane was coming down in Tabuk, a family in India had no idea whether he was alive.
-    show:
-    - clip:prayers-india
+  - say: While the plane was on the ground in Tabuk, his family in India had no idea whether he was alive.
+    show: [clip:prayers-india]
   - say: His wife, Sonal, later told Indian reporters she was shattered, and simply did not know how to react, until
       officials finally confirmed that he was stable.
-    show:
-    - clip:smit-portrait
-  - say: Her father, Jaysukh Jogi, said they spent the whole night awake, and were not allowed to talk to Smit.
-    show:
-    - clip:prayers-india
-  - say: He called the landing a miracle, and said that five people had helped his son-in-law.
-    show:
-    - clip:flydubai-jet2
-  - say: Ankit Jogi, Smit's brother-in-law, said the family is incredibly proud of a man who always puts his work and
-      his procedures first.
-    show:
-    - clip:smit-portrait
+    show: [clip:fz-couple-selfie, clip:fz-sonal]
   - say: Surgeons in Saudi Arabia treated him first. Then he was flown back to the UAE, to recover in Abu Dhabi.
-    show:
-    - search:Abu Dhabi
+    show: [clip:fz-ambulance, clip:fz-visit-seated]
+  - say: The passengers were flown on to Tel Aviv, where their families were waiting with flags, balloons and tears.
+    show: [clip:fz-flags, clip:fz-arrive-family, clip:fz-tears]
 - beats:
   - say: Shocking truth number four. This was not a breakdown, and it was not a fight between two colleagues.
-    show:
-    - search:Abu Dhabi skyline
+    show: ["key:hamdan bin mohammed chairs defence council meeting"]
   - say: The UAE's Attorney General, Hamad Al Shamsi, said investigators found that the co-pilot had attempted a
       terrorist act.
-    show:
-    - search:Abu Dhabi skyline
+    show: [clip:fz-plane-night, clip:fz-reunion-hug]
   - say: News agencies, quoting their sources, reported that he was from Oman, and that Oman Air had earlier stopped him
-      from flying over concerns about extremist views.
-    show:
-    - search:Muscat Oman
-  - say: Al Arabiya named him as Hamam al-Hammami. UAE officials have not confirmed that name, and the investigation is
-      continuing.
-    show:
-    - search:Dubai International Airport
-  - say: Now people are asking how a man with that history ended up in a cockpit at all.
-    show:
-    - search:Dubai International Airport Terminal 3
-  - say: The UAE suspended its flights to Israel, and governments across the region condemned the attack.
-    show:
-    - search:Dubai International Airport
+      from flying over concerns about extremist views. UAE officials have not confirmed those reports, and the
+      investigation is continuing. Now people are asking how a man with that history ended up in a cockpit at all.
+    show: ["key:hamdan bin mohammed reviews preparations and protocols at dubai airport"]
 - beats:
   - say: Meanwhile, in India, Captain Smit became a national hero almost overnight.
-    show:
-    - clip:prayers-india
-  - say: Prime Minister Narendra Modi praised his bravery, and Gujarat announced an award in his honour.
-    show:
-    - clip:smit-portrait
-  - say: People who had never met him lit lamps and prayed for him, in temples and in their homes.
-    show:
-    - clip:prayers-india
+    show: [clip:fz-modi-post]
+  - say: Prime Minister Narendra Modi called him on a video call.
+    show: [clip:fz-modi-call]
+  - say: Smit told him that one hundred and seventy-four lives were in his hands, and that he knew he could have died.
+    show: [clip:fz-smit-call3]
+  - say: He said he had chanted the Hanuman Chalisa in the cockpit, and he called Modi his biggest idol.
+    show: [clip:fz-smit-call4]
+  - say: Modi told him that the nation is proud of him, and Gujarat announced a state award in his honour.
+    show: ["key:hamdan bin mohammed meets with indian prime minister to discuss future of bilateral partnership"]
   - say: Indian media reported that even Bollywood stars, including Shah Rukh Khan, Salman Khan and Ranveer Singh,
       praised him.
-    show:
-    - clip:smit-portrait
-  - say: The UAE's General Civil Aviation Authority also thanked the crew, and every passenger who stepped in to help.
-    show:
-    - search:flydubai aircraft
+    show: ["key:hamdan bin mohammed arrives in new delhi on official visit to india"]
 - beats:
   - say: Shocking truth number five. The most powerful reply came from the Crown Prince of Dubai himself.
-    show:
-    - key:hamdan bin mohammed visits flydubai pilot and praises his courage
+    show: [clip:fz-visit-portrait, clip:fz-visit-monitor]
   - say: Prince Hamdan is not only Dubai's Crown Prince. He is also Deputy Prime Minister and Minister of Defence of
       the UAE.
-    show:
-    - clip:smit
+    show: ["key:hamdan bin mohammed attends ceremony marking 49th anniversary of uae armed forces unification"]
   - say: On Saturday, the third of October, Prince Hamdan bin Mohammed went to see the captain in hospital.
-    show:
-    - clip:smit-bedside
+    show: [clip:fz-visit-doctor]
   - say: With him was Sheikh Ahmed bin Saeed, the head of Dubai's civil aviation authority and the chairman of Emirates.
-    show:
-    - key:hamdan bin mohammed visits flydubai pilot and praises his courage
-  - say: Fazza stood at the bedside, rested a hand on the captain's shoulder, and spoke with him warmly.
-    show:
-    - clip:smit
-  - say: Remember, flydubai belongs to Dubai. For Hamdan, this was his city's airline, and his city's pilot.
-    show:
-    - key:hamdan bin mohammed visits flydubai pilot and praises his courage
-  - say: Afterwards, he shared his feelings with the world.
-    show:
-    - clip:hamdan-post
-  - say: He wrote that the flydubai pilot embodied the highest degrees of courage, responsibility, and care for human
-      life.
-    show:
-    - clip:hamdan-post
+    show: ["key:hamdan bin mohammed and maktoum bin mohammed visit emirates group headquarters"]
+  - say: Fazza took the captain's hand, rested a hand on his shoulder, and spoke with him warmly.
+    show: [clip:fz-visit-hand]
+  - say: Afterwards, he wrote that the flydubai pilot embodied the highest degrees of courage, responsibility, and care
+      for human life.
+    show: [clip:hamdan-post]
   - say: And he added that the UAE is proud he is part of our team, and part of our nation's story. A nation of
       compassion, of peace, and of life.
-    show:
-    - clip:smit
-  - say: Within hours, his words were being quoted on news channels across India.
-    show:
-    - clip:hamdan-post
+    show: ["key:hamdan bin mohammed concludes first official visit to india commends strong bilateral partnership"]
 - beats:
   - say: Why did that one message spread so fast? The UAE is home to people of more than two hundred nationalities, and
       Indians are the biggest community of all.
-    show:
-    - search:Dubai Marina
+    show: ["key:hamdan bin mohammed meets with uae diplomatic mission in india commends ministry of foreign affairs efforts"]
   - say: For millions of Indian workers and families living there, hearing the Crown Prince call an Indian captain part
       of the team meant everything.
-    show:
-    - search:Dubai skyline
+    show: ["key:hamdan bin mohammed meets with chairman of international cricket council indian cricket stars"]
   - say: Fazza has a long habit of this. He has visited grieving families, and sat with wounded soldiers.
-    show:
-    - video:condolence
+    show: [video:condolence]
   - say: He once tracked down a delivery rider, just to thank him for clearing concrete blocks out of the road.
-    show:
-    - clip:rider
-  - say: But this time, the eyes of the whole world were on him.
-    show:
-    - clip:smit-bedside
-  - say: He did not need to go. He chose to.
-    show:
-    - clip:smit
+    show: [clip:rider]
+  - say: He did not need to go to that hospital. He chose to.
+    show: ["key:hamdan bin mohammed visits dubai airshow 2017"]
 - beats:
-  - say: So let's look back at those five truths.
-    show:
-    - clip:flydubai-jet2
-  - say: The danger came from inside the cockpit. A tool made for emergencies became a weapon.
-    show:
-    - search:aircraft cockpit
-  - say: A door built to stop hijackers locked the helpers out. And investigators now call it an attempted terrorist
-      act.
-    show:
-    - search:aircraft cockpit door
-  - say: When it was over, the Crown Prince of Dubai went in person to thank the man who opened that door.
-    show:
-    - clip:smit-bedside
-  - say: One wounded pilot, one decision, and more than one hundred and seventy lives.
-    show:
-    - clip:smit-portrait
-- beats:
-  - say: Today, the Indian embassy says Captain Smit is recovering well.
-    show:
-    - search:Embassy of India Abu Dhabi
-  - say: Strangers keep sending him the same two words. Thank you.
-    show:
-    - clip:prayers-india
+  - say: Today, the Indian embassy says Captain Smit is recovering well. Strangers keep sending him the same two words.
+      Thank you.
+    show: [clip:fz-ambassador, "key:hamdan bin mohammed reviews newly completed air taxi station near dubai international airport the first facility of its kind in the world"]
   - say: He never asked to be a hero. On the worst day of his working life, his first thought was for the people on the
       other side of that door.
-    show:
-    - clip:smit-portrait
+    show: ["key:hamdan bin mohammed tours dubai airshow 2023"]
   - say: And Prince Hamdan showed what a real leader does when someone risks everything for others. He shows up, in
       person.
-    show:
-    - clip:smit
+    show: ["key:hamdan bin mohammed visits dubai airshow exhibition"]
   - say: If you could send Captain Smit one message, what would it be? Tell us in the comments, and subscribe to The
       Luxury Lane for more real stories of Fazza.
-    show:
-    - key:hamdan bin mohammed visits flydubai pilot and praises his courage
+    show: ["key:hamdan bin mohammed visits emirates flight catering commends its role in advancing dubai s aviation ecosystem"]

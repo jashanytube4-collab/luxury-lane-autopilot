@@ -177,3 +177,284 @@ clips:
     parts: [[20.6, 22.6]]
     crop: [0.1146, 0.0, 0.8854, 0.787]
     credit: DD India, Sheikh Hamdan at Captain Smit Machchhar's bedside (2026)
+  # ---- flydubai FZ1073 / Captain Smit (story flydubai-truth): real footage only, each clip used once ----
+  fz-visit-hand:
+    yt: EoswAtT6xc0
+    parts: [[0.3, 13.2]]
+    crop: [0.02, 0.09, 0.70, 0.77]
+    credit: Sheikh Hamdan at Captain Smit Machchhar's bedside, official photos via DNA India (2026)
+  fz-visit-lean:
+    yt: EoswAtT6xc0
+    parts: [[13.8, 26.0]]
+    crop: [0.24, 0.1, 0.92, 0.77]
+    credit: Sheikh Hamdan at Captain Smit Machchhar's bedside, official photos via DNA India (2026)
+  fz-visit-doctor:
+    yt: EoswAtT6xc0
+    parts: [[26.6, 38.6]]
+    crop: [0.12, 0.09, 0.80, 0.77]
+    credit: Sheikh Hamdan at Captain Smit Machchhar's bedside, official photos via DNA India (2026)
+  fz-visit-shoulder:
+    yt: EoswAtT6xc0
+    parts: [[39.2, 51.8]]
+    crop: [0.24, 0.09, 0.92, 0.77]
+    credit: Sheikh Hamdan at Captain Smit Machchhar's bedside, official photos via DNA India (2026)
+  fz-visit-portrait:
+    yt: kBWsaf6o0j8
+    parts: [[0.3, 4.0]]
+    crop: [0.0, 0.07, 1.0, 0.5]
+    credit: Sheikh Hamdan visits Captain Smit Machchhar, official photos via Moneycontrol (2026)
+  fz-visit-monitor:
+    yt: kBWsaf6o0j8
+    parts: [[10.4, 14.5]]
+    crop: [0.0, 0.07, 1.0, 0.5]
+    credit: Sheikh Hamdan visits Captain Smit Machchhar, official photos via Moneycontrol (2026)
+  fz-visit-seated:
+    yt: 5fI4mIRmpWY
+    parts: [[1.0, 12.0]]
+    crop: [0.0, 0.55, 1.0, 0.99]
+    credit: Sheikh Hamdan visits Captain Smit Machchhar, via India Today (2026)
+  fz-telaviv-window:
+    yt: uL5rZv77ptc
+    parts: [[12.4, 16.0]]
+    crop: [0.0, 0.1, 1.0, 1.0]
+    credit: flydubai at Tel Aviv airport, via The Hindu (2026)
+  fz-arrive-night:
+    yt: 7Tqv7qJkXTo
+    parts: [[26.0, 33.2]]
+    crop: [0.0, 0.06, 0.87, 0.885]
+    credit: Passengers of flight FZ1073 arrive in Tel Aviv, via CNA (2026)
+  fz-arrive-gate:
+    yt: 7Tqv7qJkXTo
+    parts: [[33.6, 36.0]]
+    crop: [0.0, 0.06, 0.87, 0.885]
+    credit: Passengers of flight FZ1073 arrive in Tel Aviv, via CNA (2026)
+  fz-reunion-hug:
+    yt: 7Tqv7qJkXTo
+    parts: [[36.4, 40.1]]
+    crop: [0.0, 0.06, 0.87, 0.885]
+    credit: Passengers of flight FZ1073 reunited with their families, via CNA (2026)
+  fz-reunion-medics:
+    yt: 7Tqv7qJkXTo
+    parts: [[40.5, 44.7]]
+    crop: [0.0, 0.06, 0.87, 0.885]
+    credit: Passengers of flight FZ1073 reunited with their families, via CNA (2026)
+  fz-reunion-kiss:
+    yt: 7Tqv7qJkXTo
+    parts: [[45.1, 48.7]]
+    crop: [0.0, 0.06, 0.87, 0.885]
+    credit: Passengers of flight FZ1073 reunited with their families, via CNA (2026)
+  fz-arrive-walk:
+    yt: 7Tqv7qJkXTo
+    parts: [[49.1, 53.7]]
+    crop: [0.0, 0.06, 0.87, 0.885]
+    credit: Passengers of flight FZ1073 arrive in Tel Aviv, via CNA (2026)
+  fz-passenger-arrivals:
+    yt: 7Tqv7qJkXTo
+    parts: [[54.2, 62.0]]
+    crop: [0.0, 0.06, 0.87, 0.885]
+    credit: A passenger of flight FZ1073 speaks on arrival, via CNA (2026)
+  fz-smit-selfie:
+    yt: 7Tqv7qJkXTo
+    parts: [[68.0, 75.0]]
+    crop: [0.0, 0.06, 0.86, 0.885]
+    credit: Captain Smit Machchhar's own photo, via CNA (2026)
+  fz-tabuk-landed:
+    yt: 7Tqv7qJkXTo
+    parts: [[89.8, 92.5]]
+    crop: [0.0, 0.06, 0.87, 0.885]
+    credit: Flight FZ1073 on the ground in Tabuk, passenger video via CNA (2026)
+  fz-tabuk-stairs:
+    yt: 7Tqv7qJkXTo
+    parts: [[93.0, 95.7]]
+    crop: [0.225, 0.06, 0.775, 0.885]
+    credit: Flight FZ1073 on the ground in Tabuk, passenger video via CNA (2026)
+  fz-tabuk-walk:
+    yt: 7Tqv7qJkXTo
+    parts: [[96.1, 98.9]]
+    crop: [0.0, 0.06, 0.87, 0.885]
+    credit: Flight FZ1073 on the ground in Tabuk, passenger video via CNA (2026)
+  fz-tabuk-wide:
+    yt: 7Tqv7qJkXTo
+    parts: [[99.3, 102.8]]
+    crop: [0.085, 0.06, 0.915, 0.885]
+    credit: Flight FZ1073 on the ground in Tabuk, passenger video via CNA (2026)
+  fz-tabuk-window:
+    yt: 7Tqv7qJkXTo
+    parts: [[103.3, 110.2]]
+    crop: [0.34, 0.06, 0.66, 0.885]
+    credit: Flight FZ1073 on the ground in Tabuk, passenger video via CNA (2026)
+  fz-cabin-call:
+    yt: 7Tqv7qJkXTo
+    parts: [[110.8, 113.6]]
+    crop: [0.36, 0.06, 0.635, 0.8]
+    credit: Passenger video from inside flight FZ1073, via CNA (2026)
+  fz-yaniv:
+    yt: 7Tqv7qJkXTo
+    parts: [[165.0, 172.0]]
+    crop: [0.0, 0.06, 0.87, 0.8]
+    credit: Yaniv Hayoun, a passenger who helped subdue the suspect, via CNA (2026)
+  fz-plane-stairs:
+    yt: hW-TQGVxres
+    parts: [[14.0, 20.6]]
+    crop: [0.1, 0.1, 0.775, 0.9]
+    credit: flydubai flight FZ1073, via The Business Standard (2026)
+  fz-bg-crowd:
+    yt: hW-TQGVxres
+    parts: [[21.0, 25.6]]
+    crop: [0.15, 0.15, 0.85, 0.85]
+    credit: Families wait at Tel Aviv airport, via The Business Standard (2026)
+  fz-track-map:
+    yt: hW-TQGVxres
+    parts: [[26.0, 35.4]]
+    crop: [0.31, 0.0, 0.69, 1.0]
+    credit: Flight path of FZ1073, via The Business Standard (2026)
+  fz-bs-cockpit:
+    yt: hW-TQGVxres
+    parts: [[42.5, 49.1]]
+    crop: [0.2, 0.1, 0.8, 0.9]
+    credit: flydubai pilots, via The Business Standard (2026)
+  fz-cabin-aisle:
+    yt: hW-TQGVxres
+    parts: [[56.0, 65.6]]
+    crop: [0.0, 0.1, 1.0, 1.0]
+    credit: Passenger video from inside flight FZ1073, via The Business Standard (2026)
+  fz-cabin-seats:
+    yt: hW-TQGVxres
+    parts: [[76.0, 78.5]]
+    crop: [0.0, 0.1, 1.0, 1.0]
+    credit: Passenger video from inside flight FZ1073, via The Business Standard (2026)
+  fz-arrivals-hall:
+    yt: hW-TQGVxres
+    parts: [[97.5, 108.6]]
+    crop: [0.0, 0.1, 1.0, 1.0]
+    credit: Passengers of flight FZ1073 arrive in Tel Aviv, via The Business Standard (2026)
+  fz-lounge:
+    yt: hW-TQGVxres
+    parts: [[123.9, 129.2]]
+    crop: [0.2, 0.1, 0.8, 0.9]
+    credit: Passengers of flight FZ1073, via The Business Standard (2026)
+  fz-tears:
+    yt: hW-TQGVxres
+    parts: [[129.6, 134.7]]
+    crop: [0.3, 0.1, 0.98, 0.97]
+    credit: Families of flight FZ1073 passengers, via The Business Standard (2026)
+  fz-plane-night:
+    yt: uL5rZv77ptc
+    parts: [[20.4, 25.6]]
+    crop: [0.0, 0.1, 1.0, 1.0]
+    credit: flydubai flight FZ1073 in Tel Aviv, via The Hindu (2026)
+  fz-disembark:
+    yt: uL5rZv77ptc
+    parts: [[73.8, 79.5]]
+    crop: [0.0, 0.1, 1.0, 1.0]
+    credit: Passengers leave flight FZ1073, via The Hindu (2026)
+  fz-ambulance:
+    yt: uL5rZv77ptc
+    parts: [[105.3, 110.8]]
+    crop: [0.0, 0.1, 1.0, 1.0]
+    credit: Emergency services after flight FZ1073, via The Hindu (2026)
+  fz-almog:
+    yt: uL5rZv77ptc
+    parts: [[152.0, 160.0]]
+    crop: [0.33, 0.1, 0.67, 1.0]
+    credit: Almog Italie, a passenger of flight FZ1073, via The Hindu (2026)
+  fz-flags:
+    yt: uL5rZv77ptc
+    parts: [[245.2, 248.4]]
+    crop: [0.0, 0.1, 1.0, 1.0]
+    credit: Passengers of flight FZ1073 welcomed in Tel Aviv, via The Hindu (2026)
+  fz-arrive-family:
+    yt: uL5rZv77ptc
+    parts: [[248.8, 252.3]]
+    crop: [0.0, 0.1, 1.0, 1.0]
+    credit: Passengers of flight FZ1073 welcomed in Tel Aviv, via The Hindu (2026)
+  fz-plane-gate:
+    yt: uL5rZv77ptc
+    parts: [[258.0, 262.6]]
+    crop: [0.0, 0.1, 1.0, 1.0]
+    credit: flydubai flight FZ1073 in Tel Aviv, via The Hindu (2026)
+  fz-reuters-arrive:
+    yt: iOXY4_1SCos
+    parts: [[39.9, 48.8]]
+    crop: [0.0, 0.08, 0.94, 0.8]
+    credit: Passengers of flight FZ1073 arrive in Tel Aviv, Reuters via ANI (2026)
+  fz-modi-post:
+    yt: iOXY4_1SCos
+    parts: [[76.8, 82.4]]
+    crop: [0.0, 0.08, 1.0, 0.8]
+    credit: Prime Minister Narendra Modi's post about Captain Smit Machchhar, via ANI (2026)
+  fz-i24-passenger:
+    yt: l4bzl4gKFfg
+    parts: [[73.0, 80.0]]
+    crop: [0.32, 0.1, 0.68, 0.86]
+    credit: A passenger of flight FZ1073, via i24NEWS (2026)
+  fz-smit-call:
+    yt: o-8lfWUz9DA
+    parts: [[46.6, 54.0]]
+    crop: [0.0, 0.0, 0.49, 1.0]
+    credit: Captain Smit Machchhar's video call with Prime Minister Modi, via Times Now (2026)
+  fz-smit-call2:
+    yt: o-8lfWUz9DA
+    parts: [[75.0, 83.0]]
+    crop: [0.0, 0.0, 0.49, 1.0]
+    credit: Captain Smit Machchhar's video call with Prime Minister Modi, via Times Now (2026)
+  fz-smit-selfie2:
+    yt: xt5G1OW70F8
+    parts: [[6.2, 10.4]]
+    crop: [0.0, 0.64, 1.0, 1.0]
+    credit: Captain Smit Machchhar's own photo, via Khaleej Times (2026)
+  fz-kt-map:
+    yt: xt5G1OW70F8
+    parts: [[10.8, 13.9]]
+    crop: [0.0, 0.64, 1.0, 1.0]
+    credit: Map of flight FZ1073, via Khaleej Times (2026)
+  fz-kt-city:
+    yt: xt5G1OW70F8
+    parts: [[14.3, 18.4]]
+    crop: [0.0, 0.64, 1.0, 1.0]
+    credit: Tabuk, via Khaleej Times (2026)
+  fz-ambassador:
+    yt: xt5G1OW70F8
+    parts: [[24.4, 30.1]]
+    crop: [0.0, 0.64, 1.0, 1.0]
+    credit: India's ambassador to the UAE, via Khaleej Times (2026)
+  fz-couple-suit:
+    yt: Y742XQ6Imi8
+    parts: [[3.2, 5.8]]
+    crop: [0.495, 0.12, 1.0, 0.78]
+    credit: Captain Smit Machchhar and his wife Sonal, via CNN-News18 (2026)
+  fz-couple-selfie:
+    yt: Y742XQ6Imi8
+    parts: [[99.0, 101.4]]
+    crop: [0.495, 0.12, 1.0, 0.46]
+    credit: Captain Smit Machchhar and his wife Sonal, via CNN-News18 (2026)
+  fz-uncle:
+    yt: 2m4Im6TZd-A
+    parts: [[49.0, 56.0]]
+    crop: [0.07, 0.08, 0.93, 1.0]
+    credit: Kishore Machchhar, Captain Smit's uncle, ANI via ET (2026)
+  fz-aunt:
+    yt: 2m4Im6TZd-A
+    parts: [[265.0, 272.0]]
+    crop: [0.07, 0.08, 0.93, 1.0]
+    credit: Captain Smit's family in Mumbai, ANI via ET (2026)
+  fz-sonal:
+    yt: Y742XQ6Imi8
+    parts: [[150.0, 160.0]]
+    crop: [0.245, 0.17, 0.485, 0.66]
+    credit: Sonal Machchhar, Captain Smit's wife, via CNN-News18 (2026)
+  fz-modi-call:
+    yt: o-8lfWUz9DA
+    parts: [[60.0, 68.0]]
+    crop: [0.51, 0.21, 0.93, 1.0]
+    credit: Prime Minister Modi on a video call with Captain Smit Machchhar, via Times Now (2026)
+  fz-smit-call3:
+    yt: o-8lfWUz9DA
+    parts: [[110.0, 118.0]]
+    crop: [0.0, 0.0, 0.49, 1.0]
+    credit: Captain Smit Machchhar's video call with Prime Minister Modi, via Times Now (2026)
+  fz-smit-call4:
+    yt: o-8lfWUz9DA
+    parts: [[160.0, 168.0]]
+    crop: [0.0, 0.0, 0.49, 1.0]
+    credit: Captain Smit Machchhar's video call with Prime Minister Modi, via Times Now (2026)

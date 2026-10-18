@@ -305,17 +305,23 @@ class StoryMaker:
                 vis = resolve(sec.get("show") or ["him"]) or take_events(his_pool, 2, True)
             out.visuals.append(vis)
         out.spare = []       # no random filler: short sections borrow from the rest of this story (see produce_story)
-        tok = str(story.thumbnail.get("scene", ""))
-        if tok.startswith("clip:"):
-            cid, _, at = tok[5:].partition("@")
-            v = self._clip(cid, work)
-            if v:
-                frame = work / "thumb_scene.jpg"
-                from .media import FFMPEG
-                subprocess.run([FFMPEG, "-v", "error", "-y", "-ss", at or "0.5", "-i", str(v.path), "-frames:v", "1",
-                                "-q:v", "2", str(frame)], check=False, timeout=60)
-                out.thumb_scene = frame if frame.exists() else None
+        out.thumb_scene = self.thumb_scene(story, work)
         return out
+
+    def thumb_scene(self, story: Story, work: Path) -> Path | None:
+        """story.thumbnail.scene = "clip:<id>@<seconds>": that frame of the clip becomes the thumbnail picture."""
+        tok = str(story.thumbnail.get("scene", ""))
+        if not tok.startswith("clip:"):
+            return None
+        cid, _, at = tok[5:].partition("@")
+        v = self._clip(cid, work)
+        if not v:
+            return None
+        frame = work / "thumb_scene.jpg"
+        from .media import FFMPEG
+        subprocess.run([FFMPEG, "-v", "error", "-y", "-ss", at or "0.5", "-i", str(v.video), "-frames:v", "1",
+                        "-q:v", "2", str(frame)], check=False, timeout=60)
+        return frame if frame.exists() else None
 
 
 # ---- render -----------------------------------------------------------------------------------------------

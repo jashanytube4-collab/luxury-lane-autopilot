@@ -4,7 +4,7 @@
     python -m tools.auto_clips --next [--target 60]      # the next story waiting in the queue
 
 Run on the home computer (YouTube blocks GitHub's machines). It reads ONLY the official YouTube channels
-(config source.official_youtube: Dubai Media Office, Sheikh Hamdan, Sheikh Mohammed), picks the videos whose titles match
+(Dubai Media Office; add a channel here only after checking that it is verified/official), picks the videos whose titles match
 the story's main names and places, downloads the picture only (never the sound), splits each video into its shots,
 keeps short 3-6 second pieces,
 and registers each piece in assets/clips.yaml with a `match` on the name, so the story picks it for the sentences that
@@ -58,9 +58,7 @@ def entities(story, top: int = 14) -> list[str]:
     return [e for e, _ in count.most_common(top)]
 
 
-OFFICIAL = {"Dubai Media Office": "UCJ-AxG2x-5kgN_MMfBYa2Cg",
-            "Sheikh Hamdan": "UCuwxptOLQd-hd0Ujt33-W1Q",
-            "Sheikh Mohammed": "UCVfsCXH49iiSF8o1ctgH7xA"}
+OFFICIAL = {"Dubai Media Office": "UCJ-AxG2x-5kgN_MMfBYa2Cg"}
 
 
 def channel_videos(channel_id: str, n: int = 400) -> list[dict]:

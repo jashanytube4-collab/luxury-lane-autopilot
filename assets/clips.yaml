@@ -458,3 +458,367 @@ clips:
     parts: [[160.0, 168.0]]
     crop: [0.0, 0.0, 0.49, 1.0]
     credit: Captain Smit Machchhar's video call with Prime Minister Modi, via Times Now (2026)
+  auto-btbhdtvcfqe-0:
+    match: Rashid
+    yt: bTBHDtvcFQE
+    parts:
+    - - 45.75
+      - 48.78
+    credit: Dubai Media Office (official YouTube channel)
+  auto-btbhdtvcfqe-1:
+    match: Rashid
+    yt: bTBHDtvcFQE
+    parts:
+    - - 65.32
+      - 68.41
+    credit: Dubai Media Office (official YouTube channel)
+  auto-btbhdtvcfqe-2:
+    match: Rashid
+    yt: bTBHDtvcFQE
+    parts:
+    - - 73.19
+      - 76.68
+    credit: Dubai Media Office (official YouTube channel)
+  auto-xoaav3r3txm-0:
+    match: Rashid
+    yt: xOaAv3r3txM
+    parts:
+    - - 0.12
+      - 6.12
+    credit: Dubai Media Office (official YouTube channel)
+  auto-xoaav3r3txm-1:
+    match: Rashid
+    yt: xOaAv3r3txM
+    parts:
+    - - 51.88
+      - 57.88
+    credit: Dubai Media Office (official YouTube channel)
+  auto-xoaav3r3txm-2:
+    match: Rashid
+    yt: xOaAv3r3txM
+    parts:
+    - - 97.36
+      - 103.36
+    credit: Dubai Media Office (official YouTube channel)
+  auto-xoaav3r3txm-3:
+    match: Rashid
+    yt: xOaAv3r3txM
+    parts:
+    - - 138.39
+      - 144.39
+    credit: Dubai Media Office (official YouTube channel)
+  auto-nfmunjitimm-0:
+    match: Rashid
+    yt: nFMUNjItImM
+    parts:
+    - - 0.12
+      - 6.12
+    credit: Dubai Media Office (official YouTube channel)
+  auto-nfmunjitimm-1:
+    match: Rashid
+    yt: nFMUNjItImM
+    parts:
+    - - 58.87
+      - 64.87
+    credit: Dubai Media Office (official YouTube channel)
+  auto-nfmunjitimm-2:
+    match: Rashid
+    yt: nFMUNjItImM
+    parts:
+    - - 131.52
+      - 137.52
+    credit: Dubai Media Office (official YouTube channel)
+  auto-nfmunjitimm-3:
+    match: Rashid
+    yt: nFMUNjItImM
+    parts:
+    - - 194.64
+      - 200.64
+    credit: Dubai Media Office (official YouTube channel)
+  auto-md6zo5arhd4-0:
+    match: Rashid
+    yt: Md6zO5aRHD4
+    parts:
+    - - 58.75
+      - 62.18
+    credit: Dubai Media Office (official YouTube channel)
+  auto-md6zo5arhd4-1:
+    match: Rashid
+    yt: Md6zO5aRHD4
+    parts:
+    - - 62.42
+      - 66.48
+    credit: Dubai Media Office (official YouTube channel)
+  auto-ljy-ppvg-bm-0:
+    match: Rashid
+    yt: Ljy-Ppvg-bM
+    parts:
+    - - 1.72
+      - 4.92
+    credit: Dubai Media Office (official YouTube channel)
+  auto-ljy-ppvg-bm-1:
+    match: Rashid
+    yt: Ljy-Ppvg-bM
+    parts:
+    - - 5.68
+      - 11.68
+    credit: Dubai Media Office (official YouTube channel)
+  auto-ljy-ppvg-bm-2:
+    match: Rashid
+    yt: Ljy-Ppvg-bM
+    parts:
+    - - 90.84
+      - 95.16
+    credit: Dubai Media Office (official YouTube channel)
+  auto-ljy-ppvg-bm-3:
+    match: Rashid
+    yt: Ljy-Ppvg-bM
+    parts:
+    - - 98.72
+      - 102.36
+    credit: Dubai Media Office (official YouTube channel)
+  auto-ttidomuiljm-0:
+    match: Rashid
+    yt: TTidoMuILjM
+    parts:
+    - - 33.92
+      - 39.92
+    credit: Dubai Media Office (official YouTube channel)
+  auto-ttidomuiljm-1:
+    match: Rashid
+    yt: TTidoMuILjM
+    parts:
+    - - 76.09
+      - 82.09
+    credit: Dubai Media Office (official YouTube channel)
+  auto-cmtlcaca5cs-0:
+    match: Rashid
+    yt: CMTlCaca5Cs
+    parts:
+    - - 0.12
+      - 6.12
+    credit: Dubai Media Office (official YouTube channel)
+  auto-cmtlcaca5cs-1:
+    match: Rashid
+    yt: CMTlCaca5Cs
+    parts:
+    - - 6.88
+      - 12.88
+    credit: Dubai Media Office (official YouTube channel)
+  auto-cmtlcaca5cs-2:
+    match: Rashid
+    yt: CMTlCaca5Cs
+    parts:
+    - - 13.65
+      - 19.65
+    credit: Dubai Media Office (official YouTube channel)
+  auto-cmtlcaca5cs-3:
+    match: Rashid
+    yt: CMTlCaca5Cs
+    parts:
+    - - 20.41
+      - 26.41
+    credit: Dubai Media Office (official YouTube channel)
+  auto-h6yoeuotqyw-0:
+    match: Emirati
+    yt: H6YoEuoTQYw
+    parts:
+    - - 60.79
+      - 64.28
+    credit: Dubai Media Office (official YouTube channel)
+  auto-wm7bl1jnn4s-0:
+    match: Rashid
+    yt: wm7BL1jNn4s
+    parts:
+    - - 60.65
+      - 63.75
+    credit: Dubai Media Office (official YouTube channel)
+  auto-dkiioqexvhs-0:
+    match: Rashid
+    yt: dkIioqe_vHs
+    parts:
+    - - 13.79
+      - 17.55
+    credit: Dubai Media Office (official YouTube channel)
+  auto-dkiioqexvhs-1:
+    match: Rashid
+    yt: dkIioqe_vHs
+    parts:
+    - - 21.69
+      - 25.51
+    credit: Dubai Media Office (official YouTube channel)
+  auto-dkiioqexvhs-2:
+    match: Rashid
+    yt: dkIioqe_vHs
+    parts:
+    - - 55.22
+      - 61.08
+    credit: Dubai Media Office (official YouTube channel)
+  auto-dkiioqexvhs-3:
+    match: Rashid
+    yt: dkIioqe_vHs
+    parts:
+    - - 68.39
+      - 71.55
+    credit: Dubai Media Office (official YouTube channel)
+  auto-pwtz9bem16a-0:
+    match: Rashid
+    yt: PWtZ9bEM16A
+    parts:
+    - - 39.12
+      - 42.88
+    credit: Dubai Media Office (official YouTube channel)
+  auto-olsmzj2q5qo-0:
+    match: Rashid
+    yt: Olsmzj2q5qo
+    parts:
+    - - 28.56
+      - 31.96
+    credit: Dubai Media Office (official YouTube channel)
+  auto-olsmzj2q5qo-1:
+    match: Rashid
+    yt: Olsmzj2q5qo
+    parts:
+    - - 40.68
+      - 43.7
+    credit: Dubai Media Office (official YouTube channel)
+  auto-olsmzj2q5qo-2:
+    match: Rashid
+    yt: Olsmzj2q5qo
+    parts:
+    - - 43.94
+      - 47.02
+    credit: Dubai Media Office (official YouTube channel)
+  auto-ct6kmgsk-w0-0:
+    match: Rashid
+    yt: ct6kmgsK-W0
+    parts:
+    - - 3.88
+      - 7.36
+    credit: Dubai Media Office (official YouTube channel)
+  auto-ct6kmgsk-w0-1:
+    match: Rashid
+    yt: ct6kmgsK-W0
+    parts:
+    - - 17.04
+      - 23.04
+    credit: Dubai Media Office (official YouTube channel)
+  auto-ct6kmgsk-w0-2:
+    match: Rashid
+    yt: ct6kmgsK-W0
+    parts:
+    - - 28.24
+      - 31.36
+    credit: Dubai Media Office (official YouTube channel)
+  auto-ct6kmgsk-w0-3:
+    match: Rashid
+    yt: ct6kmgsK-W0
+    parts:
+    - - 92.6
+      - 96.32
+    credit: Dubai Media Office (official YouTube channel)
+  auto-58e7e9nokrg-0:
+    match: Rashid
+    yt: 58e7E9NokRg
+    parts:
+    - - 17.04
+      - 23.04
+    credit: Dubai Media Office (official YouTube channel)
+  auto-58e7e9nokrg-1:
+    match: Rashid
+    yt: 58e7E9NokRg
+    parts:
+    - - 28.24
+      - 31.36
+    credit: Dubai Media Office (official YouTube channel)
+  auto-58e7e9nokrg-2:
+    match: Rashid
+    yt: 58e7E9NokRg
+    parts:
+    - - 92.6
+      - 96.36
+    credit: Dubai Media Office (official YouTube channel)
+  auto-o1nxlkx9yr0-0:
+    match: Rashid
+    yt: O1nXLKx9Yr0
+    parts:
+    - - 0.12
+      - 6.12
+    credit: Dubai Media Office (official YouTube channel)
+  auto-o1nxlkx9yr0-1:
+    match: Rashid
+    yt: O1nXLKx9Yr0
+    parts:
+    - - 48.4
+      - 54.4
+    credit: Dubai Media Office (official YouTube channel)
+  auto-o1nxlkx9yr0-2:
+    match: Rashid
+    yt: O1nXLKx9Yr0
+    parts:
+    - - 102.72
+      - 108.72
+    credit: Dubai Media Office (official YouTube channel)
+  auto-o1nxlkx9yr0-3:
+    match: Rashid
+    yt: O1nXLKx9Yr0
+    parts:
+    - - 157.04
+      - 163.04
+    credit: Dubai Media Office (official YouTube channel)
+  auto-26labls02ae-0:
+    match: Rashid
+    yt: 26laBLS02aE
+    parts:
+    - - 4.85
+      - 8.08
+    credit: Dubai Media Office (official YouTube channel)
+  auto-26labls02ae-1:
+    match: Rashid
+    yt: 26laBLS02aE
+    parts:
+    - - 33.59
+      - 37.58
+    credit: Dubai Media Office (official YouTube channel)
+  auto-26labls02ae-2:
+    match: Rashid
+    yt: 26laBLS02aE
+    parts:
+    - - 47.85
+      - 53.85
+    credit: Dubai Media Office (official YouTube channel)
+  auto-26labls02ae-3:
+    match: Rashid
+    yt: 26laBLS02aE
+    parts:
+    - - 83.75
+      - 89.51
+    credit: Dubai Media Office (official YouTube channel)
+  auto-cxnlqg-p1p8-0:
+    match: Rashid
+    yt: cxnLQg-p1p8
+    parts:
+    - - 37.49
+      - 42.11
+    credit: Dubai Media Office (official YouTube channel)
+  auto-s0f-zizbhm4-0:
+    match: Rashid
+    yt: S0F-ZizBHm4
+    parts:
+    - - 6.44
+      - 10.52
+    credit: Dubai Media Office (official YouTube channel)
+  auto-s0f-zizbhm4-1:
+    match: Rashid
+    yt: S0F-ZizBHm4
+    parts:
+    - - 27.84
+      - 32.72
+    credit: Dubai Media Office (official YouTube channel)
+  auto-s0f-zizbhm4-2:
+    match: Rashid
+    yt: S0F-ZizBHm4
+    parts:
+    - - 76.4
+      - 82.4
+    credit: Dubai Media Office (official YouTube channel)

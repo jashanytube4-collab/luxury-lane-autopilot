@@ -284,7 +284,8 @@
     55.42,
     57.39000000000001
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "dubai crown prince offers condolences to alkaabi family": {
   "long": "2026-10-17",
@@ -2868,8 +2869,8 @@
   ]
  },
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
-  "last_short": "2026-10-13",
-  "shorts_made": 1,
+  "last_short": "2026-10-18",
+  "shorts_made": 2,
   "shot_ranges": [
    [
     69.74,
@@ -2894,6 +2895,14 @@
    [
     142.02,
     144.19
+   ],
+   [
+    24.36,
+    38.480000000000004
+   ],
+   [
+    106.04,
+    110.92
    ]
   ]
  },
@@ -3195,7 +3204,8 @@
     225.94,
     228.19
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed launches the government games initiative": {
   "last_short": "2026-10-14",
@@ -3889,7 +3899,8 @@
     161.26,
     163.79
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed meets with president and ceo of the world economic forum": {
   "video_exhausted": true

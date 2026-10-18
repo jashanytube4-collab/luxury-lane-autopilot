@@ -147,7 +147,8 @@
     526.4200000000001,
     528.1500000000001
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "dubai crown prince attends wedding reception": {
   "last_short": "2026-10-12",
@@ -1849,8 +1850,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends the knowledge summit 2018": {
-  "last_short": "2026-10-13",
-  "shorts_made": 1,
+  "last_short": "2026-10-19",
+  "shorts_made": 2,
   "shot_ranges": [
    [
     21.500000000000004,
@@ -1863,6 +1864,18 @@
    [
     167.66,
     172.06
+   ],
+   [
+    247.76,
+    252.16
+   ],
+   [
+    310.6,
+    315.56
+   ],
+   [
+    448.72,
+    458.24
    ]
   ]
  },
@@ -3298,7 +3311,8 @@
     111.9,
     114.99
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed leads f3 team to gov games finals": {
   "last_short": "2026-10-14",

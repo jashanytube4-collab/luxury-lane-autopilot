@@ -157,6 +157,7 @@ class Gathered:
     event_keys: list[str] = field(default_factory=list)
     thumb_scene: Path | None = None               # a chosen frame for the thumbnail (story.thumbnail.scene)
     sources: dict = field(default_factory=dict)   # id(Visuals) -> where the footage came from (quality gate)
+    gate_warning: str = ""                        # set when the footage was thinner than the gate (video still made)
 
 
 class QualityGateError(Exception):
@@ -186,6 +187,10 @@ def audit(story: Story, got: Gathered, cfg: dict) -> None:
     top = max(count.items(), key=lambda kv: kv[1], default=("", 0))
     if total and top[1] / total > max_share:
         problems.append(f"one source ('{top[0][:50]}') is {top[1] * 100 // total}% of the footage (max {int(max_share * 100)}%)")
+    if problems and not g.get("block", False):     # the video still goes out; the report says it was thin
+        got.gate_warning = f"'{story.id}' footage below the premium bar: " + "; ".join(problems)
+        log.warning(got.gate_warning)
+        return
     if problems:
         raise QualityGateError(f"'{story.id}' is not premium yet: " + "; ".join(problems)
                                + ". Add more real clips from more sources, then it will be made.")

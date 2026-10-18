@@ -11,7 +11,7 @@ source:
   instagram:                         # Instagram accounts read through Meta's official API (IG_TOKEN secret)
     - {name: faz3, pages: 30}        # his own posts: the personal moments (older posts too, collected over time)
     - {name: dubaimediaoffice, only_hamdan: true, pages: 4}   # official videos, only posts about him
-  instagram_per_run: 40              # new videos copied, checked (face) and described (AI) per run;
+  instagram_per_run: 100             # new videos copied, checked (face) and described (AI) per run;
                                      # new videos are copied into the private library automatically
 
 schedule:
@@ -55,6 +55,7 @@ story:                               # long-form story episodes (assets/stories)
   pops: false                        # no pop-up words on screen
   end_card: 0                        # the video ends with the last words (no extra closing screen)
   gate:                              # quality gate: a story below this is NOT made (no repeats, no padding)
+    block: false                     # false = the video is still made and the report flags thin footage
     min_clips: 100                   # distinct clips/photos in an 8-minute video (a new picture every ~4 s)
     min_sources: 10                  # different places the footage comes from
     max_source_share: 0.25           # no single source may be more than this share of the video

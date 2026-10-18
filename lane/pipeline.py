@@ -337,6 +337,8 @@ class Runner:
             maker = StoryMaker(self.studio, self.events, self.usage, self.cfg)
             got = maker.gather(story, random.Random(seed), work)
             ep = produce_story(story, got, self.cfg, work, seed)
+            if got.gate_warning:
+                self.report.problem(got.gate_warning)
         except QualityGateError as e:      # not premium: never padded with repeats; skipped until more footage is added
             self.report.problem(f"Story held back by the quality gate: {str(e)[:400]}")
             if not self.args.dry_run:

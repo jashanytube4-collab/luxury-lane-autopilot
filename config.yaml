@@ -32,6 +32,9 @@ longform:
   min_minutes: 8.2
   max_minutes: 13
   voice_rate: "-2%"                  # slightly calmer delivery for documentaries
+  held:                              # long videos moved to another day by the owner (no new one is made that day)
+    "2026-10-19": {video_id: apj28JczdLs, at: "2026-10-19T18:40:00+04:00",
+                   title: "Inside Prince Hamdan's Secret Palace Life — Lions, Supercars and a Fortune Nobody Agrees On"}
 
 short:
   min_seconds: 12                   # every Short is a random length between these (12-17 s)

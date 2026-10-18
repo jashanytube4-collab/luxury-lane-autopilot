@@ -200,10 +200,19 @@ class Runner:
 
     # ---- long-form ------------------------------------------------------------------------------------
     def fill_long(self, day, slot: dict, plan: dict) -> bool:
+        held = (self.cfg.get("longform", {}).get("held") or {}).get(day.isoformat())
+        if held and not self.args.dry_run:   # a long video the owner moved to this day: it is this day's long video
+            slot.update(status="scheduled", video_id=held["video_id"], at=held["at"], title=held.get("title", ""))
+            self.state.save_day(day.isoformat(), plan)
+            self.state.checkpoint(f"long video {held['video_id']} held for {day.isoformat()}")
+            return True
         forced = os.environ.get("TEST_STORY", "").strip() if self.args.dry_run else ""
         ready_only = bool(self.cfg.get("story", {}).get("ready_only", False))
+        posted = set(self.state.cursors.get("posted_units", []))      # stories already on the channel count as done
+        done = self.state.cursors.get("stories_done", []) + [s.id for s in story_bank()
+                                                              if key_tag(f"story:{s.id}") in posted]
         story = (next((x for x in story_bank() if x.id == forced), None) if forced
-                 else next_story(self.state.cursors.get("stories_done", []), ready_only))
+                 else next_story(done, ready_only))
         if story is not None:
             return self.fill_story(day, slot, plan, story)
         if ready_only:      # quality first: no long video rather than one below the standard

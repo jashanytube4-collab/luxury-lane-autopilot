@@ -442,7 +442,27 @@
  },
  "hamdan bin mohammed and india s minister of commerce and industry witness signing of 8 mous": {
   "fails": 1,
+  "last_short": "2026-10-17",
   "long": "2026-10-14",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    2.3600000000000003,
+    3.99
+   ],
+   [
+    16.220000000000002,
+    17.93
+   ],
+   [
+    20.360000000000003,
+    22.25
+   ],
+   [
+    25.160000000000004,
+    27.029999999999998
+   ]
+  ],
   "video_exhausted": true
  },
  "hamdan bin mohammed and kuwait s defence minister attend uae kuwait media forum": {

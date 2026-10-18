@@ -4950,8 +4950,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed reviews the latest technologies and energy solutions at wetex 2019": {
-  "last_short": "2026-10-12",
-  "shorts_made": 1,
+  "last_short": "2026-10-18",
+  "shorts_made": 2,
   "shot_ranges": [
    [
     20.860000000000003,
@@ -4976,6 +4976,18 @@
    [
     314.66,
     319.06
+   ],
+   [
+    0.12,
+    5.68
+   ],
+   [
+    214.48000000000002,
+    218.79999999999998
+   ],
+   [
+    299.96,
+    304.84
    ]
   ]
  },

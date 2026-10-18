@@ -484,6 +484,16 @@ Return:
 - description: 3 sentences for YouTube, naturally using Prince Hamdan, Fazza, Sheikh Hamdan, Crown Prince of Dubai.
 - tags: 12 search tags. keywords: 3-5 English words naming places, people or things in this story."""
 
+STORY_STYLE = """STYLE (match it exactly):
+- Short spoken sentences, 8 to 16 words, one idea each. Plain words a 12-year-old understands.
+- Open the part with a concrete moment, a name or a number. Never open with a general statement.
+- Show, do not tell: say what he did, said, held or where he stood. Do not call him "humble", "a true leader" or "inspiring".
+- End the part with a small open question or a turn that pulls the viewer into the next part.
+- Never use these words: testament, legacy, journey, tapestry, beacon, remarkable, "it is worth noting", "in conclusion".
+EXAMPLE OF THE VOICE (a different story):
+"On the thirtieth of September, a flydubai jet took off with more than one hundred and seventy people on board. Within hours, the whole world was asking how close it had come to disaster. The danger came from the seat right next to the captain. What happened behind that locked door has shocked pilots all over the world."
+"""
+
 STORY_PART = """Write part {num} of 9 of a narrated YouTube story about Prince Hamdan (Fazza) for his fans.
 Episode title: "{title}"
 {role}
@@ -496,8 +506,8 @@ GENERAL BACKGROUND YOU MAY MENTION BRIEFLY:
 
 The previous part ended with: "{last}"
 
-Write about {words} words of spoken narration: warm, emotional, vivid, short sentences, like a storyteller talking
-to a friend. Do not repeat anything from earlier parts. Never mention "sources", "articles" or "reports". Never invent
+{style}
+Write about {words} words of spoken narration: warm, emotional, vivid, like a storyteller talking to a friend. Do not repeat anything from earlier parts. Never mention "sources", "articles" or "reports". Never invent
 names, numbers, dates or quotes. Write numbers and years in digits. No headings, lists, stage directions or emojis."""
 
 ROLES = {
@@ -562,6 +572,26 @@ def _novel(sentence: str, earlier: list[set]) -> bool:
     return not w or all(len(w & e) / len(w) < 0.6 for e in earlier)
 
 
+_FILLER = re.compile(r"testament|legacy|journey|tapestry|beacon|remarkable|worth noting|in conclusion|little did|"
+                     r"not just .{1,40} but|true leader|truly inspiring", re.I)
+_GENERIC_OPEN = re.compile(r"^(in|as|throughout|over the years|when it comes|it is|there is|today)\b", re.I)
+
+
+def _quality(text: str) -> list[str]:
+    """Rule-based check of one narrated part against the house style; returns what is wrong (empty = good)."""
+    sents = _sentences(text)
+    if not sents:
+        return ["empty"]
+    problems = []
+    if sum(len(s.split()) for s in sents) / len(sents) > 19:
+        problems.append("sentences too long")
+    if _FILLER.search(text):
+        problems.append("filler words")
+    if _GENERIC_OPEN.search(sents[0]):
+        problems.append("generic opening")
+    return problems
+
+
 def _guard(text: str, truth: str, earlier: list[set], used_names: set | None = None,
            allowed: str = "") -> str:
     """Keep only sentences whose numbers and names appear in the sources, that do not talk about 'sources', and that
@@ -612,16 +642,23 @@ def write_story(brain: "Brain", label: str, sources: list[dict], background: lis
     for i, (role, part_facts) in enumerate(roles):
         bg = f"- {bg_pool.pop(0)}" if i in (2, 5) and bg_pool else "(none needed)"
         words = 120 if i in (0, len(roles) - 1) else 175
-        text = ""
-        for temp in (0.75, 0.55):
+        text, best, feedback = "", None, ""
+        for temp in (0.75, 0.6, 0.45):       # up to three tries: the best part that follows the house style wins
             d = brain._json([{"type": "text", "text": STORY_PART.format(
-                num=i + 1, title=title, role=role, facts="\n".join(f"- {f}" for f in part_facts), background=bg,
+                num=i + 1, title=title, role=role + feedback, facts="\n".join(f"- {f}" for f in part_facts),
+                background=bg, style=STORY_STYLE,
                 last=(parts[-1].split(". ")[-1] if parts else "(this is the start)")[:300], words=words)}],
                 STORY_PART_SCHEMA, 700, temp)
             trial, trial_names = list(earlier), set(used_names)
             text = _guard(d.get("narration", ""), truth, trial, trial_names, " ".join(part_facts) + " " + bg)
-            if _words(text) >= words * 0.65:
+            problems = _quality(text) if _words(text) >= words * 0.65 else ["too short"]
+            rank = (len(problems), -_words(text))
+            if best is None or rank < best[0]:
+                best = (rank, text, trial, trial_names)
+            if not problems:
                 break
+            feedback = f"\nFix these problems from your last try: {', '.join(problems)}."
+        _, text, trial, trial_names = best
         earlier, used_names = trial, trial_names
         if _words(text) < 50:
             raise BrainError(f"story part {i + 1} came out too short")

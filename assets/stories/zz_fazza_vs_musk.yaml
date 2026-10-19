@@ -6,7 +6,7 @@ thumbnail:
   inset: "search:Elon Musk"
 mood: modern
 commons: true                       # Musk, SpaceX, Tesla and Dubai photos from Wikimedia Commons next to the official Hamdan footage
-footage: Burj|economy|future|AI|council|London|horse|race|airport|housing|meals|graduates
+footage: Burj|economy|AI Week|AI Academy|artificial|future|council|graduates|innovation|technology|strategy|investment
 description: 'Prince Hamdan or Elon Musk: who is richer in 2026? We put the published numbers side by side: Musk''s
   fortune as estimated by Forbes and Bloomberg, the guesses about the Al Maktoum family, Dubai''s own economy in
   dirhams and dollars, and the one number nobody has ever published: Prince Hamdan''s personal wealth. All
@@ -16,9 +16,9 @@ tags: [Prince Hamdan net worth, Fazza net worth, Elon Musk net worth 2026, Hamda
        Dubai AI Week]
 sections:
   - say: >-
-      Elon Musk. The richest man on the planet. Prince Hamdan. The Crown Prince of Dubai, the man the internet calls
+      Elon Musk. The richest man in the world. Prince Hamdan. The Crown Prince of Dubai, the man the internet calls
       Fazza. Two names that millions of people search every single day, and one question that nobody has answered
-      properly. Who is really richer in twenty twenty six? Today we are going to put every published number side by
+      fully. Who is really richer in twenty twenty six? Today we are going to put every published number side by
       side. Musk's fortune. The guesses about the Al Maktoum family. Dubai's economy in dirhams and in dollars. And
       one number that nobody in the world has ever seen. Stay until the end, because the answer is not what you
       think. And if you like real numbers, not rumours, like the video and subscribe. Let's begin.
@@ -36,28 +36,28 @@ sections:
       fortune falls with them, sometimes by tens of billions in a single day. That is why the lists disagree and
       why his number goes up and down like a heartbeat. His wealth is huge, but it is paper wealth, tied to the
       price of a few companies.
-    show: ["search:SpaceX", "search:Tesla Model S", "search:stock exchange trading floor", "search:Elon Musk SpaceX"]
+    show: ["search:SpaceX", "search:Elon Musk Tesla", "search:stock exchange trading floor", "search:Elon Musk SpaceX"]
   - say: >-
       Now the other side. Here is where people go wrong, and here is where I want you to listen carefully. Prince
       Hamdan is not on the Forbes list. Not on the Bloomberg list. No magazine has ever published a verified figure
       for his personal wealth. If you see a video or a website that says he has exactly this many millions or this
       many billions, it is a guess, and most of those guesses come from pages that copy each other. We checked, and
       we will not repeat a number that nobody can prove.
-    show: [him, "him:council|meeting", "him:Burj|airport", "event:housing|meals"]
+    show: [him, "him:council|meeting", "him:council|economy", "event:council|economy"]
   - say: >-
       So what do we actually know? We know his role. Hamdan bin Mohammed is the Crown Prince of Dubai. He is also
       the Deputy Prime Minister and the Minister of Defence of the United Arab Emirates, and he chairs the Executive
       Council of Dubai, the body that runs the daily work of the emirate. Those are public jobs, with public
       budgets, and they are not the same thing as a private bank account. This is the first big lesson of the
       story. Running a city and owning a fortune are two different things.
-    show: ["him:council|meeting", "event:council|executive", "him:graduates|ceremony", "event:defence|armed forces"]
+    show: ["him:council|meeting", "event:council|executive", "him:graduates|ceremony", "him:future|innovation"]
   - say: >-
       What about his family? Websites love to talk about the wealth of the Al Maktoum family, the ruling family of
       Dubai. You will find guesses from a few billion dollars to about eighteen billion dollars for the whole
       family. Here is the honest truth. None of those figures are official, none are audited, and they do not agree
       with each other. The reason is simple. In Dubai, a large part of what a visitor sees as royal wealth is held
       by the state, by government companies and by the emirate itself, not by one person.
-    show: ["search:Mohammed bin Rashid Al Maktoum", "search:Dubai Creek", "search:Emirates Palace", "him"]
+    show: ["search:Mohammed bin Rashid Al Maktoum", "search:Dubai Creek", "him:council|meeting", "him"]
   - say: >-
       So let's do the part you asked for, the actual calculation. We are going to use only official Dubai numbers.
       In the first quarter of twenty twenty six, the Dubai Media Office reported that the economy of Dubai produced
@@ -107,13 +107,13 @@ sections:
       repeated, and after a week everybody treats it as a fact. We would rather give you a smaller truth than a
       bigger rumour. So when you see a video promising the secret fortune of any prince, any billionaire, any
       famous family, ask one simple question. Who published this number, and how did they get it?
-    show: [him, "search:Dubai Mall", "event:Burj|housing", "him:ceremony|graduates"]
+    show: [him, "him:council", "event:economy|future", "him:ceremony|graduates"]
   - say: >-
       Now let me ask you something, because this is the part where you can help. Do you think Prince Hamdan's real
       number would ever be published, or do you think it will always stay a secret? Tell us in the comments, I read
       them, and your answer might be the next video. And if you want more stories where we check the numbers before
       we say them, make sure you are subscribed.
-    show: [him, "him:horse|race|endurance", "him:Burj", "event:housing|meals"]
+    show: [him, "him:graduates|ceremony", "him:Burj", "event:council|economy"]
   - say: >-
       Here is what I want you to remember. On a list, Elon Musk is richer, by a very long way, and the published
       numbers say so. But the richest list was never the whole story. Behind Prince Hamdan there is a city that

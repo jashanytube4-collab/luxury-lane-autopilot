@@ -5,6 +5,7 @@ Used by Rocky (the owner's phone assistant) and handy by hand:
     python -m tools.studio_tool videos [long|short|post|live] [pages]   content list: id, date, visibility, views...
     python -m tools.studio_tool video <id>                              one video's analytics (overview, reach, engagement)
     python -m tools.studio_tool channel [28|7|90|365]                   channel analytics for the last N days
+    python -m tools.studio_tool comments [scrolls]                      recent comments: author | text (read-only)
     python -m tools.studio_tool reschedule <id> "Oct 19, 2026" ["8:10 PM"]   move a scheduled video (times are IST)
 
 Read-only except `reschedule`, which changes only the publish date/time and checks the result after reloading.
@@ -156,6 +157,31 @@ def reschedule(vid: str, date: str, at: str | None = None) -> None:
             ctx.close()
 
 
+def comments(scrolls: int = 8) -> None:
+    """Read-only: list recent comments (author, text) from the Studio comments page, never opens any link."""
+    from playwright.sync_api import sync_playwright
+    with sync_playwright() as p:
+        ctx, page = _open(p)
+        try:
+            _go(page, "https://studio.youtube.com/channel/UC/comments/inbox")
+            for _ in range(max(1, scrolls)):
+                page.evaluate("() => { const t = document.querySelectorAll('ytcp-comment-thread'); if (t.length) t[t.length - 1].scrollIntoView(); }")
+                page.wait_for_timeout(2500)
+            rows = page.eval_on_selector_all("ytcp-comment-thread", """rows => rows.map(r => {
+                const au = r.querySelector('.author-text');
+                const tx = r.querySelector('#content-text');
+                const on = r.querySelector('.video-title, #video-title, [class*=entity]');
+                return [au ? au.innerText.trim() : '', tx ? tx.innerText.replace(/\s+/g, ' ').trim() : '',
+                        on ? on.innerText.replace(/\s+/g, ' ').trim().slice(0, 50) : ''];
+            })""")
+            page.screenshot(path=str(SHOTS / "comments.png"))
+            for au, tx, on in rows:
+                print(f"{au} | {tx[:160]} | {on}")
+            print(len(rows), "comments")
+        finally:
+            ctx.close()
+
+
 def main() -> None:
     a = sys.argv[1:]
     sys.stdout.reconfigure(encoding="utf-8")
@@ -167,6 +193,8 @@ def main() -> None:
         video(a[1])
     elif a[0] == "channel":
         channel(a[1] if len(a) > 1 else "28")
+    elif a[0] == "comments":
+        comments(int(a[1]) if len(a) > 1 else 8)
     elif a[0] == "reschedule" and len(a) > 2:
         reschedule(a[1], a[2], a[3] if len(a) > 3 else None)
     else:

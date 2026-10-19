@@ -307,6 +307,12 @@ class StoryMaker:
             if tok.startswith("video:"):     # official VIDEO of matching events (moving footage, not photos)
                 keys = [k for k in self._events_matching(tok[6:]) if self.events[k].get("video")]
                 vis += [v for v in take_events(keys, 2, True) if v.video]
+            elif tok.startswith("chart:"):      # an animated chart / counter drawn by us (lane/charts.py)
+                from . import charts
+                made = charts.render(tok[6:], work / "charts")
+                if made:
+                    vis.append(Visuals(made[0], [(0.05, made[1] - 0.05)], []))
+                    out.sources[id(vis[-1])] = "chart"
             elif tok.startswith("clip:"):
                 v = self._clip(tok[5:], work)
                 if v:

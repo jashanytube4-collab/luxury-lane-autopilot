@@ -8,6 +8,7 @@
   "q:97987abac20a": "2026-10-13",
   "q:9b37131fa92e": "2026-10-13"
  },
+ "news_done": {},
  "posted_units": [
   "ll0fe32cf60a",
   "ll1d999c4e01",
@@ -337,7 +338,42 @@
   "llfe9a571dbc",
   "llc21a7236d1",
   "lla304756497",
-  "llbb40772fe2"
+  "llbb40772fe2",
+  "ll99be69f57c",
+  "ll1a782729dd",
+  "ll117a058f90",
+  "llcd33ba57c5",
+  "ll7b6866a9c9",
+  "ll3c19bc857c",
+  "lle910430d98",
+  "lle71286f3d0",
+  "ll2087115e3c",
+  "llb008e188ae",
+  "ll28b40cba1d",
+  "llaea1df41e1",
+  "llfe00bb6b7d",
+  "lledf8fabc16",
+  "ll6285aa0b2c",
+  "ll7415917eb7",
+  "ll064dffdd81",
+  "llf1ad3ccaec",
+  "llc7dd68a985",
+  "llf35bfe5cff",
+  "ll09008bc62c",
+  "lla56420c624",
+  "llf4fcd2f0b9",
+  "ll6393f30b60",
+  "ll8a20419362",
+  "lla2bc69955d",
+  "ll5c6fa5dd60",
+  "ll8e1fc4a4e6",
+  "ll7c95683a1d",
+  "ll6ef67d772c",
+  "lla945ee0e70",
+  "ll29b8d72205",
+  "llc25887dacb",
+  "ll3ad2cd103e",
+  "lld4426d4393"
  ],
  "quotes": [
   {
@@ -636,6 +672,11 @@
   "A leader is measured by his kindness. #youtubeshorts #youtube #fazza",
   "Not every prince is a legend. This one is. 👑 #princehamdan #youtubeshorts #youtube"
  ],
+ "shorts_supply": {
+  "date": "2026-10-19",
+  "days": 6.7,
+  "events": 201
+ },
  "stories_done": [
   "flydubai-hero",
   "second-wife",

@@ -2608,8 +2608,8 @@
   ]
  },
  "hamdan bin mohammed honors winners of dubai appreciation award for community service": {
-  "last_short": "2026-10-18",
-  "shorts_made": 2,
+  "last_short": "2026-10-21",
+  "shorts_made": 3,
   "shot_ranges": [
    [
     16.660000000000004,
@@ -2630,8 +2630,21 @@
    [
     203.12,
     217.92
+   ],
+   [
+    106.92,
+    113.88
+   ],
+   [
+    167.92000000000002,
+    175.12
+   ],
+   [
+    177.0,
+    182.35999999999999
    ]
-  ]
+  ],
+  "video_len": 239
  },
  "hamdan bin mohammed honors winners of mohammed bin rashid creative sports award": {
   "long": "2026-10-21"
@@ -4846,7 +4859,9 @@
     459.52,
     471.32
    ]
-  ]
+  ],
+  "video_exhausted": true,
+  "video_len": 480
  },
  "hamdan bin mohammed receives ramadan well wishers": {
   "fails": 1,
@@ -6915,6 +6930,14 @@
  "ig:faz3:17960898638637719": {
   "video_exhausted": true
  },
+ "ig:faz3:17961170542264986": {
+  "video_exhausted": true,
+  "video_len": 58
+ },
+ "ig:faz3:17961928462304103": {
+  "video_exhausted": true,
+  "video_len": 39
+ },
  "ig:faz3:17965870492468052": {
   "video_exhausted": true
  },
@@ -6954,6 +6977,10 @@
   "no_hamdan": true,
   "video_exhausted": true
  },
+ "ig:faz3:17988697726262611": {
+  "video_exhausted": true,
+  "video_len": 105
+ },
  "ig:faz3:18006598649398953": {
   "video_exhausted": true
  },
@@ -6967,8 +6994,16 @@
   "no_hamdan": true,
   "video_exhausted": true
  },
+ "ig:faz3:18022870117208864": {
+  "video_exhausted": true,
+  "video_len": 19
+ },
  "ig:faz3:18023608172646501": {
   "video_exhausted": true
+ },
+ "ig:faz3:18026528293178207": {
+  "video_exhausted": true,
+  "video_len": 137
  },
  "ig:faz3:18032498090707303": {
   "long": "2026-10-20",
@@ -7472,7 +7507,9 @@
     115.80000000000001,
     121.32
    ]
-  ]
+  ],
+  "video_exhausted": true,
+  "video_len": 299
  },
  "second village under rashid villages initiative to be launched in zanzibar marking 11th anniversary of sheikh rashid bin mohammed s passing": {
   "no_hamdan": true

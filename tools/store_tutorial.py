@@ -24,7 +24,8 @@ from tools.post_helper import CHROME  # noqa: E402
 from tools.studio_tool import UA  # noqa: E402
 
 STORE = "https://fazza-shop.fourthwall.com"
-HOODIE = STORE + "/products/the-sky-belongs-to-those-who-dare-hoodie"
+PRODUCT = STORE + "/products/the-sky-belongs-to-those-who-dare-sweatshirt"
+CHANNEL = "https://www.youtube.com/@theluxurylane"
 OUT = ROOT / "work" / "store_video"
 FONT_DIR = ROOT / "assets" / "fonts"
 
@@ -43,31 +44,31 @@ CURSOR_JS = """
 
 LONG = [
     ("Winter is coming. And if you want something warm with the falcon on it, here is exactly how to order from our "
-     "official store, step by step, in under two minutes.", "home"),
-    ("First, find the store. Open our channel, tap the Store tab, and it opens this page. Everything is designed by us, "
-     "made to order, and shipped worldwide, including India.", "home_scroll"),
-    ("Tap Browse all. Here is everything: tees, sweatshirts, mugs, posters, and for the cold months, our hoodies. "
-     "Let's pick one together.", "browse"),
-    ("This is The Sky Belongs to Those Who Dare hoodie. A heavyweight fleece hoodie, printed for you after you order. "
-     "The price is shown in your own currency.", "hoodie"),
+     "official store, step by step.", "yt_home"),
+    ("Start on our YouTube channel, and tap the Store tab.", "yt_store"),
+    ("Here are our products. Tap the sweatshirt you like, and it takes you straight to our official store.",
+     "yt_pick"),
+    ("This is The Sky Belongs to Those Who Dare sweatshirt. Soft, warm, with the falcon emblem. The price is shown in "
+     "your own currency, and it ships worldwide, including India.", "product"),
+    ("Swipe through the photos to see the print and the fit from every side.", "photos"),
+    ("Open More details to see the fabric and everything about how it is made.", "details"),
     ("Now choose your size. The sizing is unisex and it can run a little tight, so open the size guide, and if you are "
      "between two sizes, go one size up.", "size"),
     ("Pick the quantity, and tap Add to Cart.", "add"),
     ("A small window confirms it is in your cart. Tap Checkout.", "checkout"),
-    ("On the next page you add your delivery address, choose shipping, and pay securely. One important thing: every "
-     "item is made to order, so sizing returns are not accepted. Double check your size before you pay. If there is "
-     "a printing mistake, they replace it or refund you.", "checkout_hold"),
-    ("Not a hoodie person? Sweatshirts, the mug and the tumbler are perfect for cold mornings too. They are all "
-     "in the same store.", "winter_picks"),
+    ("On the next page, add your delivery address, choose shipping, and pay securely. That is all. Your order is "
+     "printed for you and sent to your door.", "checkout_hold"),
+    ("Want more? The store has hoodies, tees, mugs, posters and the tumbler, all with the Hamdan falcon designs.",
+     "winter_picks"),
     ("If this helped, subscribe, and tell us in the comments which design you want next. See you in the next video.",
      "end"),
 ]
 
 SHORT = [
-    ("Winter is coming. Here is how to get your Fazza hoodie in thirty seconds.", "home"),
-    ("Open our Store tab, tap Browse all, and pick your hoodie.", "hoodie"),
-    ("Choose your size. It runs a little tight, so if you are between two, size up.", "size"),
-    ("Add to cart, tap Checkout, enter your address, and pay. It ships worldwide, including India.", "add_checkout"),
+    ("Winter is coming. Here is how to get your Fazza sweatshirt in thirty seconds.", "yt_home"),
+    ("Open our channel, and tap the Store tab.", "yt_store"),
+    ("Tap the sweatshirt, choose your size, and add it to your cart.", "yt_pick_size_add"),
+    ("Tap Checkout, enter your address, and pay. It ships worldwide, including India.", "checkout"),
     ("Subscribe for more, and tell us which design you want next.", "end"),
 ]
 
@@ -100,7 +101,51 @@ class Rec:
 def _act(r: Rec, name: str, dur: float) -> None:
     pg, t0 = r.pg, time.time()
     try:
-        if name == "home":
+        if name == "yt_home":
+            pg.goto(CHANNEL, wait_until="domcontentloaded")
+            r.wait(2.5)
+            pg.mouse.move(640, 300, steps=30)
+        elif name == "yt_store":
+            tab = pg.locator("yt-tab-shape:has-text('Store'), tp-yt-paper-tab:has-text('Store')").first
+            if tab.count():
+                r.click(tab)
+                pg.wait_for_load_state("domcontentloaded")
+            else:
+                pg.goto(CHANNEL + "/store", wait_until="domcontentloaded")
+            r.wait(2.5)
+        elif name in ("yt_pick", "yt_pick_size_add"):
+            card = pg.locator("a[href*='sweatshirt']").first
+            href = card.get_attribute("href") if card.count() else None
+            if card.count():
+                r.move_to(card)
+                r.wait(0.8)
+            pg.goto(href if href else PRODUCT, wait_until="domcontentloaded")
+            r.wait(1.5)
+            if name == "yt_pick_size_add":
+                r.scroll(250, 1.5)
+                lab = pg.locator("label:text-is('L')")
+                if lab.count():
+                    r.click(lab.first)
+                r.click(pg.get_by_role("button", name="Add to Cart").first)
+                r.wait(1.6)
+        elif name == "photos":
+            thumbs = pg.locator("[class*=thumb] img, [class*=Thumb] img, button:has(img)")
+            n = min(thumbs.count(), 5)
+            for i in range(1, n):
+                try:
+                    r.click(thumbs.nth(i))
+                except Exception:  # noqa: BLE001
+                    pass
+                r.wait(max(0.8, (dur - 2.0) / max(1, n - 1)))
+        elif name == "details":
+            md = pg.get_by_text("More details", exact=True).first
+            if md.count():
+                r.click(md)
+                r.wait(1.0)
+                r.scroll(250, 2.0)
+        elif name == "product":
+            r.scroll(260, 2.0)
+        elif name == "home":
             pg.goto(STORE, wait_until="domcontentloaded")
             r.wait(1.5)
             pg.mouse.move(700, 300, steps=30)
@@ -113,7 +158,7 @@ def _act(r: Rec, name: str, dur: float) -> None:
             r.wait(1.0)
             r.scroll(2600, max(2.0, dur - 3.5))
         elif name == "hoodie":
-            pg.goto(HOODIE, wait_until="domcontentloaded")
+            pg.goto(PRODUCT, wait_until="domcontentloaded")
             r.wait(1.5)
             r.scroll(260, 2.0)
         elif name == "size":
@@ -122,6 +167,7 @@ def _act(r: Rec, name: str, dur: float) -> None:
             guide = pg.get_by_role("button", name="Size guide").first
             if guide.count():
                 r.move_to(guide)
+                r.wait(1.0)
             lab = pg.locator("label[for*='_SIZE'], label[for*='-L'], label:text-is('L')")
             for i in range(lab.count()):
                 if (lab.nth(i).inner_text() or "").strip() == "L":
@@ -195,7 +241,7 @@ def make(kind: str) -> Path:
                             device_scale_factor=vsize["width"] / vp["width"])
         ctx.add_init_script(CURSOR_JS)
         pg = ctx.new_page()
-        pg.set_default_timeout(15000)
+        pg.set_default_timeout(8000)
         cdp = ctx.new_cdp_session(pg)
         t_page = time.time()
 

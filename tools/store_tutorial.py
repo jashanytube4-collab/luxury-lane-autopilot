@@ -48,8 +48,8 @@ LONG = [
     ("Start on our YouTube channel, and tap the Store tab.", "yt_store"),
     ("Here are our products. Tap the sweatshirt you like, and it takes you straight to our official store.",
      "yt_pick"),
-    ("This is The Sky Belongs to Those Who Dare sweatshirt. Soft, warm, with the falcon emblem. The price is shown in "
-     "your own currency, and it ships worldwide, including India.", "product"),
+    ("This is The Sky Belongs to Those Who Dare sweatshirt. Soft, warm, with the falcon emblem. It is printed for "
+     "you, and it ships to your door.", "product"),
     ("Swipe through the photos to see the print and the fit from every side.", "photos"),
     ("Open More details to see the fabric and everything about how it is made.", "details"),
     ("Now choose your size. The sizing is unisex and it can run a little tight, so open the size guide, and if you are "
@@ -68,7 +68,7 @@ SHORT = [
     ("Winter is coming. Here is how to get your Fazza sweatshirt in thirty seconds.", "yt_home"),
     ("Open our channel, and tap the Store tab.", "yt_store"),
     ("Tap the sweatshirt, choose your size, and add it to your cart.", "yt_pick_size_add"),
-    ("Tap Checkout, enter your address, and pay. It ships worldwide, including India.", "checkout"),
+    ("Tap Checkout, enter your address, and pay. That is it.", "checkout"),
     ("Subscribe for more, and tell us which design you want next.", "end"),
 ]
 
@@ -102,8 +102,7 @@ def _act(r: Rec, name: str, dur: float) -> None:
     pg, t0 = r.pg, time.time()
     try:
         if name == "yt_home":
-            pg.goto(CHANNEL, wait_until="domcontentloaded")
-            r.wait(2.5)
+            r.wait(0.5)
             pg.mouse.move(640, 300, steps=30)
         elif name == "yt_store":
             tab = pg.locator("yt-tab-shape:has-text('Store'), tp-yt-paper-tab:has-text('Store')").first
@@ -242,6 +241,20 @@ def make(kind: str) -> Path:
         ctx.add_init_script(CURSOR_JS)
         pg = ctx.new_page()
         pg.set_default_timeout(8000)
+        pg.goto(STORE, wait_until="domcontentloaded")       # show prices in dollars, whatever country we record from
+        pg.wait_for_timeout(2500)
+        try:
+            if pg.locator("a:visible", has_text="USD").count():          # the phone layout lists currencies openly
+                pg.locator("a:visible", has_text="USD").first.click()
+            else:
+                pg.get_by_text("INR", exact=True).first.click()
+                pg.wait_for_timeout(800)
+                pg.get_by_role("link", name="USD").first.click()
+            pg.wait_for_timeout(2500)
+        except Exception as e:  # noqa: BLE001
+            print("currency not switched:", str(e)[:80])
+        pg.goto(CHANNEL, wait_until="domcontentloaded")     # loaded before the recording starts: no white opening
+        pg.wait_for_timeout(3500)
         cdp = ctx.new_cdp_session(pg)
         t_page = time.time()
 

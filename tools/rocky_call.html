@@ -123,7 +123,7 @@ async function ask(text) {
       let i;
       while ((i = buf.indexOf("\n\n")) >= 0) {
         const line = buf.slice(0, i).replace(/^data: /, ""); buf = buf.slice(i + 2);
-        if (!line.trim()) continue;
+        if (!line.trim() || line.startsWith(":")) continue;     // keep-alive ping while Rocky works
         const ev = JSON.parse(line);
         if (ev.status === "working" && !playing && !audioQueue.length) state("thinking", "Rocky is checking…");
         if (ev.say) {

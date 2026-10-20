@@ -57,6 +57,12 @@ word you write is spoken aloud immediately, sentence by sentence. So:
   "एक सेकंड, मैं Studio चेक करता हूँ" so the owner is not left in silence; then do it, then give the answer.
 - You cannot show buttons. For anything that needs a yes (publishing, sending, rescheduling), ask clearly
   ("क्या मैं आगे बढ़ूँ? हाँ या ना बोलिए") and wait for the next message.
+- NEVER keep the owner waiting on the call for a long job. Anything that takes more than about a minute (rendering
+  videos, test renders, big downloads, many Studio pages) must run in the BACKGROUND (Bash with
+  run_in_background), and you answer right away: what you started and roughly when it is done. When it finishes,
+  tell the owner at the next message, and send results/previews on Telegram as before.
+- After finishing any task or decision, add one dated line to rocky/notes.md (this call conversation is restarted
+  fresh every day, and the notebook is how you remember).
 """
 
 log = logging.getLogger("rocky.call")
@@ -92,6 +98,21 @@ class Brain:
             if line.strip():
                 log.warning("claude: %s", line.strip()[:300])
 
+    def _too_big(self) -> bool:
+        """A long conversation makes every answer slow: start fresh each day or past ~4 MB (the notebook keeps memory)."""
+        if not SESSION_FILE.exists():
+            return False
+        try:
+            info = json.loads(SESSION_FILE.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            return True
+        if info.get("day") != time.strftime("%Y-%m-%d"):
+            return True
+        for f in (Path.home() / ".claude" / "projects").glob(f"*/{info.get('id')}.jsonl"):
+            if f.stat().st_size > 4_000_000:
+                return True
+        return False
+
     def reset(self) -> None:
         SESSION_FILE.unlink(missing_ok=True)
         if self.p and self.p.poll() is None:
@@ -100,7 +121,20 @@ class Brain:
 
     def turn(self, text: str, out: "queue.Queue[tuple[str, str]]") -> None:
         """Streams ("text", chunk) and ("tool", name) into `out`, then ("done", "")."""
-        with self.lock:
+        if not self.lock.acquire(blocking=False):      # still on the previous request: say so at once, never queue
+            out.put(("text", "मैं अभी आपके पिछले काम पर लगा हूँ, बस थोड़ी देर दीजिए, फिर मैं जवाब देता हूँ।"))
+            out.put(("done", ""))
+            return
+        try:
+            if self._too_big():
+                log.info("starting a fresh call conversation (new day or too long)")
+                self.reset()
+            self._turn(text, out)
+        finally:
+            self.lock.release()
+
+    def _turn(self, text: str, out: "queue.Queue[tuple[str, str]]") -> None:
+        if True:
             for attempt in range(2):
                 if self.p is None or self.p.poll() is not None:
                     self._start()
@@ -115,7 +149,8 @@ class Brain:
                             continue
                         kind = ev.get("type")
                         if kind == "system" and ev.get("session_id"):
-                            SESSION_FILE.write_text(json.dumps({"id": ev["session_id"]}), encoding="utf-8")
+                            SESSION_FILE.write_text(json.dumps({"id": ev["session_id"], "day": time.strftime("%Y-%m-%d")}),
+                                                    encoding="utf-8")
                         elif kind == "stream_event":
                             e = ev.get("event", {})
                             d = e.get("delta", {})
@@ -127,7 +162,8 @@ class Brain:
                                 out.put(("text", "\n"))          # a new sentence after the tool
                         elif kind == "result":
                             if ev.get("session_id"):
-                                SESSION_FILE.write_text(json.dumps({"id": ev["session_id"]}), encoding="utf-8")
+                                SESSION_FILE.write_text(json.dumps({"id": ev["session_id"], "day": time.strftime("%Y-%m-%d")}),
+                                                    encoding="utf-8")
                             if ev.get("is_error") and not ev.get("result"):
                                 out.put(("text", "Sorry, abhi Claude se jawab nahi aa paya."))
                             out.put(("done", ""))
@@ -270,7 +306,12 @@ class Handler(BaseHTTPRequestHandler):
         buf, said = "", []
         try:
             while True:
-                kind, val = out.get(timeout=40 * 60)
+                try:
+                    kind, val = out.get(timeout=15)
+                except queue.Empty:                      # still working: keep the phone's connection alive
+                    self.wfile.write(b": ping" + b"\n\n")
+                    self.wfile.flush()
+                    continue
                 if kind == "tool":
                     send({"status": "working"})
                     continue

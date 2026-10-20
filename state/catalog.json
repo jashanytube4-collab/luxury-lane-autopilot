@@ -6918,6 +6918,17 @@
  "ig:faz3:17891286067659937": {
   "video_exhausted": true
  },
+ "ig:faz3:17895936046260328": {
+  "last_short": "2026-10-21",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    6.5503930000000015,
+    19.410393
+   ]
+  ],
+  "video_len": 39
+ },
  "ig:faz3:17898442852856554": {
   "video_exhausted": true
  },

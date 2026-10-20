@@ -6829,7 +6829,16 @@
   "video_len": 67
  },
  "ig:faz3:17856608734208183": {
-  "long": "2026-10-21"
+  "last_short": "2026-10-21",
+  "long": "2026-10-21",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    12.218558,
+    24.317116000000002
+   ]
+  ],
+  "video_len": 30
  },
  "ig:faz3:17858325696345386": {
   "video_exhausted": true
@@ -6924,11 +6933,19 @@
   "video_exhausted": true,
   "video_len": 58
  },
+ "ig:faz3:17890035022166185": {
+  "video_exhausted": true,
+  "video_len": 58
+ },
  "ig:faz3:17890408430111955": {
   "video_exhausted": true
  },
  "ig:faz3:17891286067659937": {
   "video_exhausted": true
+ },
+ "ig:faz3:17892460411189245": {
+  "video_exhausted": true,
+  "video_len": 33
  },
  "ig:faz3:17892650632206180": {
   "video_exhausted": true,
@@ -6977,6 +6994,10 @@
  "ig:faz3:17906606151142313": {
   "video_exhausted": true
  },
+ "ig:faz3:17908378231083215": {
+  "video_exhausted": true,
+  "video_len": 60
+ },
  "ig:faz3:17912056117574256": {
   "video_exhausted": true
  },
@@ -7017,6 +7038,10 @@
  "ig:faz3:17919927607129680": {
   "video_exhausted": true,
   "video_len": 46
+ },
+ "ig:faz3:17921910184019310": {
+  "video_exhausted": true,
+  "video_len": 50
  },
  "ig:faz3:17924353259135353": {
   "long": "2026-10-21",

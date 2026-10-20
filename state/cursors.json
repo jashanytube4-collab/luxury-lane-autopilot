@@ -1,4 +1,8 @@
 {
+ "ig_status": {
+  "date": "2026-10-20",
+  "ok": true
+ },
  "lines_used": {
   "f:4e24f7783b40": "2026-10-13",
   "f:5ea30ac27622": "2026-10-13",
@@ -679,8 +683,8 @@
  ],
  "shorts_supply": {
   "date": "2026-10-20",
-  "days": 6.8,
-  "events": 205
+  "days": 8.5,
+  "events": 255
  },
  "stories_done": [
   "flydubai-hero",
@@ -689,7 +693,8 @@
   "fazza-children",
   "real-days",
   "palace-life",
-  "emotional-moments"
+  "emotional-moments",
+  "haya-scandal"
  ],
  "topics_used": {
   "horseman": "2026-10-12",

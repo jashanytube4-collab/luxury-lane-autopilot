@@ -3,13 +3,16 @@
  "slots": [
   {
    "at": "2026-10-20T06:09:31+04:00",
-   "status": "open",
+   "status": "missed",
    "type": "short"
   },
   {
    "at": "2026-10-20T06:52:03+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "ig:faz3:18062756032958079",
+   "status": "scheduled",
+   "title": "Dubai's dreams, Hamdan's dedication. 👑 #youtubeshorts #youtube #fazza",
+   "type": "short",
+   "video_id": "C6aGR62JbKM"
   },
   {
    "at": "2026-10-20T07:37:06+04:00",

@@ -6845,6 +6845,10 @@
  "ig:faz3:17863681005256810": {
   "video_exhausted": true
  },
+ "ig:faz3:17864207524265198": {
+  "video_exhausted": true,
+  "video_len": 60
+ },
  "ig:faz3:17867172451593275": {
   "video_exhausted": true
  },
@@ -6863,6 +6867,10 @@
  "ig:faz3:17874520124405449": {
   "video_exhausted": true
  },
+ "ig:faz3:17875194307240816": {
+  "video_exhausted": true,
+  "video_len": 26
+ },
  "ig:faz3:17876650414451103": {
   "video_exhausted": true,
   "video_len": 111
@@ -6875,6 +6883,10 @@
  },
  "ig:faz3:17877990645022141": {
   "video_exhausted": true
+ },
+ "ig:faz3:17878358314265559": {
+  "video_exhausted": true,
+  "video_len": 37
  },
  "ig:faz3:17878608887918059": {
   "long": "2026-10-21",
@@ -6917,6 +6929,10 @@
  },
  "ig:faz3:17891286067659937": {
   "video_exhausted": true
+ },
+ "ig:faz3:17892650632206180": {
+  "video_exhausted": true,
+  "video_len": 39
  },
  "ig:faz3:17895936046260328": {
   "last_short": "2026-10-21",
@@ -6971,10 +6987,25 @@
   ],
   "video_len": 29
  },
+ "ig:faz3:17919871903152164": {
+  "video_exhausted": true,
+  "video_len": 43
+ },
  "ig:faz3:17924353259135353": {
   "long": "2026-10-21",
   "no_hamdan": true,
   "video_exhausted": true
+ },
+ "ig:faz3:17928264826092624": {
+  "last_short": "2026-10-21",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    13.152088666666668,
+    25.70208866666667
+   ]
+  ],
+  "video_len": 59
  },
  "ig:faz3:17932481503720209": {
   "video_exhausted": true
@@ -6982,9 +7013,25 @@
  "ig:faz3:17946374078734156": {
   "video_exhausted": true
  },
+ "ig:faz3:17952746314153759": {
+  "video_exhausted": true,
+  "video_len": 60
+ },
+ "ig:faz3:17952949987110509": {
+  "video_exhausted": true,
+  "video_len": 8
+ },
  "ig:faz3:17956698037255001": {
   "video_exhausted": true,
   "video_len": 54
+ },
+ "ig:faz3:17957919379138417": {
+  "video_exhausted": true,
+  "video_len": 44
+ },
+ "ig:faz3:17958214357030765": {
+  "video_exhausted": true,
+  "video_len": 19
  },
  "ig:faz3:17960898638637719": {
   "video_exhausted": true
@@ -7007,6 +7054,10 @@
  "ig:faz3:17968229216578746": {
   "long": "2026-10-21",
   "no_hamdan": true
+ },
+ "ig:faz3:17970792520067899": {
+  "video_exhausted": true,
+  "video_len": 40
  },
  "ig:faz3:17971208593187771": {
   "video_exhausted": true,

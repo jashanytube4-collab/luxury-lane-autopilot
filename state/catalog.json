@@ -4640,9 +4640,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed opens salem medical fitness smart centre": {
-  "last_short": "2026-10-18",
+  "last_short": "2026-10-21",
   "long": "2026-10-18",
-  "shorts_made": 2,
+  "shorts_made": 3,
   "shot_ranges": [
    [
     7.38,
@@ -4663,8 +4663,17 @@
    [
     138.64000000000001,
     149.35999999999999
+   ],
+   [
+    161.96,
+    172.6
+   ],
+   [
+    211.8,
+    216.88
    ]
-  ]
+  ],
+  "video_len": 226
  },
  "hamdan bin mohammed opens smart police station at la mer": {
   "last_short": "2026-10-13",

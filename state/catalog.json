@@ -339,8 +339,8 @@
   "video_exhausted": true
  },
  "dubai crown prince reviews preparations for emirates mars mission": {
-  "last_short": "2026-10-17",
-  "shorts_made": 2,
+  "last_short": "2026-10-20",
+  "shorts_made": 3,
   "shot_ranges": [
    [
     4.22,
@@ -357,6 +357,14 @@
    [
     60.199999999999996,
     68.97999999999999
+   ],
+   [
+    31.720000000000002,
+    37.64
+   ],
+   [
+    68.97999999999999,
+    77.75999999999999
    ]
   ]
  },
@@ -5390,7 +5398,8 @@
     94.60000000000001,
     102.11999999999999
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed tours dubai airshow 2023": {
   "last_short": "2026-10-09",
@@ -6004,7 +6013,8 @@
     118.0,
     125.39999999999999
    ]
-  ]
+  ],
+  "video_exhausted": true
  },
  "hamdan bin mohammed visits dubai chamber of commerce and industry": {
   "last_short": "2026-10-14",

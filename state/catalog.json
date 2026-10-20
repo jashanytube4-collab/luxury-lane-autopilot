@@ -264,7 +264,9 @@
     202.92000000000002,
     214.35999999999999
    ]
-  ]
+  ],
+  "video_exhausted": true,
+  "video_len": 253
  },
  "dubai crown prince in riyadh to attend king abdulaziz camel festival": {
   "no_hamdan": true,
@@ -659,7 +661,9 @@
     321.84000000000003,
     329.4
    ]
-  ]
+  ],
+  "video_exhausted": true,
+  "video_len": 494
  },
  "hamdan bin mohammed announces conclusion of phase one of dubai 10x": {
   "fails": 1,
@@ -740,7 +744,9 @@
     184.04,
     188.07999999999998
    ]
-  ]
+  ],
+  "video_exhausted": true,
+  "video_len": 306
  },
  "hamdan bin mohammed approves dubai longevity authority s strategy and budget following inaugural board meeting": {
   "last_short": "2026-10-05",
@@ -3277,7 +3283,9 @@
     65.24000000000001,
     69.47999999999999
    ]
-  ]
+  ],
+  "video_exhausted": true,
+  "video_len": 92
  },
  "hamdan bin mohammed launches official operations of driverless taxi service in dubai": {
   "last_short": "2026-10-06",
@@ -4553,7 +4561,9 @@
     141.32,
     146.56
    ]
-  ]
+  ],
+  "video_exhausted": true,
+  "video_len": 215
  },
  "hamdan bin mohammed opens dubai al ain road improvement project": {
   "last_short": "2026-10-10",
@@ -5294,7 +5304,9 @@
     299.96,
     304.84
    ]
-  ]
+  ],
+  "video_exhausted": true,
+  "video_len": 342
  },
  "hamdan bin mohammed reviews uae made calidus b 250 aircraft": {
   "post_photos": [
@@ -5366,7 +5378,9 @@
     54.04,
     58.28
    ]
-  ]
+  ],
+  "video_exhausted": true,
+  "video_len": 75
  },
  "hamdan bin mohammed tours arabian travel market 2024": {
   "last_short": "2026-10-08",
@@ -6755,6 +6769,25 @@
   "long": "2026-10-21",
   "no_hamdan": true
  },
+ "ig:faz3:17845001431738505": {
+  "video_exhausted": true,
+  "video_len": 34
+ },
+ "ig:faz3:17854354462528305": {
+  "last_short": "2026-10-21",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    0.12,
+    12.290059818181817
+   ],
+   [
+    30.545149545454546,
+    42.71520936363636
+   ]
+  ],
+  "video_len": 67
+ },
  "ig:faz3:17856608734208183": {
   "long": "2026-10-21"
  },
@@ -6785,6 +6818,10 @@
  },
  "ig:faz3:17874520124405449": {
   "video_exhausted": true
+ },
+ "ig:faz3:17876650414451103": {
+  "video_exhausted": true,
+  "video_len": 111
  },
  "ig:faz3:17877439837506083": {
   "video_exhausted": true
@@ -6822,6 +6859,14 @@
  },
  "ig:faz3:17886503186189911": {
   "video_exhausted": true
+ },
+ "ig:faz3:17886917287449193": {
+  "video_exhausted": true,
+  "video_len": 42
+ },
+ "ig:faz3:17889210829405315": {
+  "video_exhausted": true,
+  "video_len": 58
  },
  "ig:faz3:17890408430111955": {
   "video_exhausted": true
@@ -6930,6 +6975,10 @@
   "no_hamdan": true,
   "video_exhausted": true
  },
+ "ig:faz3:18039133531210580": {
+  "video_exhausted": true,
+  "video_len": 60
+ },
  "ig:faz3:18040565135241026": {
   "long": "2026-10-18",
   "no_hamdan": true
@@ -6996,6 +7045,10 @@
  },
  "ig:faz3:18119709691134876": {
   "video_exhausted": true
+ },
+ "ig:faz3:18120046711050446": {
+  "video_exhausted": true,
+  "video_len": 378
  },
  "ig:faz3:18125065510344933": {
   "video_exhausted": true
@@ -7105,7 +7158,9 @@
     68.76,
     82.56
    ]
-  ]
+  ],
+  "video_exhausted": true,
+  "video_len": 233
  },
  "khaled bin mohamed bin zayed and hamdan bin mohammed bin rashid witness announcement of high speed train project linking abu dhabi dubai": {
   "fails": 1,

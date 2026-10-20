@@ -42,6 +42,8 @@ short:
   fps: 30
   cooldown_days: 3                   # a story rests this many days between its Shorts (7 ran out of footage at 30/day)
   recycle_after_days: 60             # only if footage runs low: footage whose Shorts are 60+ days old gets a fresh cut
+  deep_cut: null                     # null = automatic: when footage runs low (or Instagram fails) long official videos
+                                     # give one Short per 45 s of video, from time ranges no Short used yet; false = never
   moment_share: 1.0                  # share of Shorts that are 12-17 s music-only "moments" of him (what the
                                      # most-viewed Fazza Shorts are); the rest are narrated stories
 

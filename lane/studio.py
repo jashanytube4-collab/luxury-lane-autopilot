@@ -7,7 +7,9 @@ government news, because that is what Prince Hamdan's fans actually watch.
 Usage bookkeeping (state/catalog.json, keyed by event):
     long         date of the episode that used it (each event is in at most one episode)
     shot_ranges  footage ranges [a, b] already used by Shorts (a Short never reuses footage another Short used)
-    shorts_made  Shorts made from this event (max MAX_SHORTS_PER_EVENT, each a different moment)
+    shorts_made  Shorts made from this event (max MAX_SHORTS_PER_EVENT, each a different moment; with
+                 short.deep_cut on, long videos give up to one Short per 45 s of video)
+    video_len    seconds of the event's footage (noted when it is first cut)
     last_short   date of its last Short (events rest COOLDOWN_DAYS between Shorts)
     no_hamdan    True when he is not clearly visible in its footage/photos (never used again)
 """
@@ -34,6 +36,10 @@ from .moments import moment_caption, moment_description, moment_runs as _moment_
 log = logging.getLogger("lane.studio")
 
 MAX_SHORTS_PER_EVENT = 3     # one story is never told more than three times, each with different footage
+DEEP_SECONDS_PER_SHORT = 45  # "deep cut" (see Studio.event_cap): a long video may give one Short per this many seconds
+DEEP_MAX_SHORTS = 15
+MIN_FACE = 0.07              # a moment is only used where his face is at least 7% of the frame height (clearly seen)
+SEGMENT_PAD = 1.0            # seconds kept clear around footage a Short already used
 COOLDOWN_DAYS = 7
 MOMENT_SECONDS = (12.0, 17.0)
 TOPIC_REST_DAYS = 9
@@ -59,6 +65,14 @@ class Studio:
         self.video_successes = 0
         self.face = FaceID()
         self.bank = fact_bank()
+        self._scenes: dict[Path, list] = {}      # his scenes per video, scanned once per run
+
+    def event_cap(self, u: dict) -> int:
+        """Shorts one event may give. Normally 3. When Instagram footage is thin (short.deep_cut, switched on by the
+        pipeline) a LONG official video may give one Short per 45 s of video, each from a time range no Short used."""
+        if self.cfg.get("short", {}).get("deep_cut") and u.get("video_len"):
+            return max(MAX_SHORTS_PER_EVENT, min(DEEP_MAX_SHORTS, int(u["video_len"] // DEEP_SECONDS_PER_SHORT)))
+        return MAX_SHORTS_PER_EVENT
 
     # ---- material --------------------------------------------------------------------------------------
     def video(self, key: str, ev: dict) -> Path | None:
@@ -99,14 +113,11 @@ class Studio:
 
     def his_scenes(self, video: Path, exclude: list | None = None) -> list[tuple[float, float, Sighting]]:
         """Scenes of `video` where Prince Hamdan is clearly on screen, closest shots first."""
-        timeline = self.face.scan(video)
-        out = []
-        for a, b in _scene_list(video):
-            if exclude and _overlaps(a, b, exclude):
-                continue
-            s = scene_presence(timeline, a, b)
-            if s.present:
-                out.append((a, b, s))
+        if video not in self._scenes:       # the face scan of a long video is slow: once per run is enough
+            timeline = self.face.scan(video)
+            self._scenes[video] = [(a, b, scene_presence(timeline, a, b)) for a, b in _scene_list(video)]
+        padded = [(x - SEGMENT_PAD, y + SEGMENT_PAD) for x, y in exclude or []]
+        out = [(a, b, s) for a, b, s in self._scenes[video] if s.present and not _overlaps(a, b, padded)]
         out.sort(key=lambda x: -x[2].size)
         return out
 
@@ -143,7 +154,7 @@ class Studio:
                 continue
             if u.get("last_short") and u["last_short"] >= rest_until:
                 continue
-            if u.get("shorts_made", 0) >= MAX_SHORTS_PER_EVENT:
+            if u.get("shorts_made", 0) >= self.event_cap(u):
                 continue
             if u.get("no_video_until", "") > now:
                 continue
@@ -171,6 +182,7 @@ class Studio:
         items, cuts, portrait = [], [], False
         if video:
             info = probe(video)
+            u["video_len"] = round(info["duration"])
             portrait = info["height"] > info["width"]
             scenes = self.his_scenes(video, exclude=u.get("shot_ranges", []))
             if len(scenes) < 2 or sum(b - a for a, b, _ in scenes) < 4:
@@ -217,7 +229,8 @@ class Studio:
         if not video:
             u["no_video_until"] = (datetime.now(timezone.utc) + timedelta(days=3)).date().isoformat()
             return None
-        scenes = self.his_scenes(video, exclude=u.get("shot_ranges", []))
+        u["video_len"] = round(probe(video)["duration"])
+        scenes = [x for x in self.his_scenes(video, exclude=u.get("shot_ranges", [])) if x[2].size >= MIN_FACE]
         runs = _moment_runs(sorted(scenes, key=lambda x: x[0]))
         if not runs:
             u["video_exhausted"] = True

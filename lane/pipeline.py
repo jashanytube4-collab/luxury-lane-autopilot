@@ -128,7 +128,16 @@ class Runner:
                 save_events(self.events)
                 self.report.note(f"Instagram: {added} new videos from {', '.join('@' + (a['name'] if isinstance(a, dict) else a) for a in accounts)}")
             except Exception as e:  # noqa: BLE001 — Instagram is a bonus source, never a reason to stop
-                self.report.problem(f"Instagram sync failed: {str(e)[:200]}")
+                msg = str(e)
+                expired = bool(re.search(r"token|session|expired|OAuth|\(#?190\)|permission", msg, re.I))
+                self.state.cursors["ig_status"] = {"ok": False, "expired": expired, "error": msg[:150],
+                                                   "date": datetime.now(timezone.utc).date().isoformat()}
+                self.report.problem(("Instagram login expired - reconnect it (tools/connect_instagram.py); "
+                                     "Shorts continue from the official video library meanwhile. " if expired else "")
+                                    + f"Instagram sync failed: {msg[:200]}")
+                self.studio.cfg.setdefault("short", {})["deep_cut"] = True   # no new Instagram footage: cut deeper
+            else:
+                self.state.cursors["ig_status"] = {"ok": True, "date": datetime.now(timezone.utc).date().isoformat()}
 
     def _check_clip(self, path, caption: str, need_face: bool = False):
         """A new Instagram video. From news accounts it is kept only if face recognition finds him; on his own account
@@ -208,7 +217,7 @@ class Runner:
                 u = self.usage.get(k)
                 if not u or not ev.get("video") or u.get("rejected") or u.get("no_hamdan") or u.get("fails", 0) >= 2:
                     continue
-                used_up = u.get("video_exhausted") or u.get("shorts_made", 0) >= 3
+                used_up = u.get("video_exhausted") or u.get("shorts_made", 0) >= self.studio.event_cap(u)
                 if used_up and u.get("shorts_made", 0) >= 1 and u.get("last_short", "9999") <= cutoff:
                     u.pop("video_exhausted", None)
                     u["shot_ranges"], u["shorts_made"], u["recycled"] = [], 0, today.isoformat()
@@ -218,6 +227,14 @@ class Runner:
                 have = supply(rest)
                 self.report.note(f"{back} older footage event(s) came back for fresh Shorts "
                                  f"(their Shorts went out {sc.get('recycle_after_days', 60)}+ days ago)")
+        if have < need and sc.get("deep_cut") is None:
+            # Instagram (or any new source) is not keeping up: long official videos are cut deeper, one Short per
+            # 45 s of video, always from time ranges no earlier Short used (state: shot_ranges), him clearly in frame
+            sc["deep_cut"] = True                # this run only; config.yaml keeps the setting ("auto")
+            more = supply(rest)
+            if more > have:
+                self.report.note(f"Deep cut on: long official videos now give more Shorts ({have} -> {more} events)")
+                have = more
         days = have / max(1, per_day)
         self.state.cursors["shorts_supply"] = {"date": today.isoformat(), "events": have, "days": round(days, 1)}
         log.info("Shorts footage supply: %d events (about %.1f days at %d a day)", have, days, per_day)

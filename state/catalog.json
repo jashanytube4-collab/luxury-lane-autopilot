@@ -235,7 +235,9 @@
     208.32,
     215.78
    ]
-  ]
+  ],
+  "video_exhausted": true,
+  "video_len": 232
  },
  "dubai crown prince holds minute s silence to honour martyrs on commemoration day": {
   "video_exhausted": true
@@ -3051,7 +3053,9 @@
     106.04,
     110.92
    ]
-  ]
+  ],
+  "video_exhausted": true,
+  "video_len": 262
  },
  "hamdan bin mohammed inspects progress of shindagha bridge project": {
   "last_short": "2026-10-11",
@@ -5968,7 +5972,9 @@
     152.88,
     157.84
    ]
-  ]
+  ],
+  "video_exhausted": true,
+  "video_len": 196
  },
  "hamdan bin mohammed visits department of economic development": {
   "video_exhausted": true
@@ -6138,7 +6144,9 @@
     133.48000000000002,
     139.4
    ]
-  ]
+  ],
+  "video_exhausted": true,
+  "video_len": 260
  },
  "hamdan bin mohammed visits dubai international boat show": {
   "last_short": "2026-10-13",
@@ -6801,6 +6809,10 @@
   "video_exhausted": true,
   "video_len": 34
  },
+ "ig:faz3:17846613829395939": {
+  "video_exhausted": true,
+  "video_len": 60
+ },
  "ig:faz3:17854354462528305": {
   "last_short": "2026-10-21",
   "shorts_made": 1,
@@ -6838,6 +6850,10 @@
  },
  "ig:faz3:17868871735807501": {
   "video_exhausted": true
+ },
+ "ig:faz3:17869115515295778": {
+  "video_exhausted": true,
+  "video_len": 21
  },
  "ig:faz3:17870926954590455": {
   "long": "2026-10-20",
@@ -6926,8 +6942,23 @@
   "long": "2026-10-21",
   "no_hamdan": true
  },
+ "ig:faz3:17916885400301536": {
+  "video_exhausted": true,
+  "video_len": 39
+ },
  "ig:faz3:17917872754369605": {
   "video_exhausted": true
+ },
+ "ig:faz3:17918774896235497": {
+  "last_short": "2026-10-21",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    0.12,
+    13.33
+   ]
+  ],
+  "video_len": 29
  },
  "ig:faz3:17924353259135353": {
   "long": "2026-10-21",
@@ -6939,6 +6970,10 @@
  },
  "ig:faz3:17946374078734156": {
   "video_exhausted": true
+ },
+ "ig:faz3:17956698037255001": {
+  "video_exhausted": true,
+  "video_len": 54
  },
  "ig:faz3:17960898638637719": {
   "video_exhausted": true
@@ -6961,6 +6996,10 @@
  "ig:faz3:17968229216578746": {
   "long": "2026-10-21",
   "no_hamdan": true
+ },
+ "ig:faz3:17971208593187771": {
+  "video_exhausted": true,
+  "video_len": 28
  },
  "ig:faz3:17974610546214471": {
   "no_hamdan": true,
@@ -7007,12 +7046,20 @@
   "no_hamdan": true,
   "video_exhausted": true
  },
+ "ig:faz3:18017478430162100": {
+  "video_exhausted": true,
+  "video_len": 267
+ },
  "ig:faz3:18022870117208864": {
   "video_exhausted": true,
   "video_len": 19
  },
  "ig:faz3:18023608172646501": {
   "video_exhausted": true
+ },
+ "ig:faz3:18026506504043659": {
+  "video_exhausted": true,
+  "video_len": 60
  },
  "ig:faz3:18026528293178207": {
   "video_exhausted": true,
@@ -7030,6 +7077,10 @@
  "ig:faz3:18040565135241026": {
   "long": "2026-10-18",
   "no_hamdan": true
+ },
+ "ig:faz3:18041648752041826": {
+  "video_exhausted": true,
+  "video_len": 60
  },
  "ig:faz3:18061251632321964": {
   "video_exhausted": true

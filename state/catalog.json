@@ -1068,7 +1068,8 @@
     485.3
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 494
  },
  "hamdan bin mohammed attends 2024 edition of dubai majlis": {
   "long": "2026-10-20"
@@ -1146,7 +1147,8 @@
     91.59
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 183
  },
  "hamdan bin mohammed attends annual meeting of global future leaders 2026 in dubai": {
   "video_exhausted": true
@@ -2094,7 +2096,8 @@
     71.59
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 80
  },
  "hamdan bin mohammed attends wedding receptions": {
   "long": "2026-10-18"
@@ -2256,7 +2259,8 @@
     103.14999999999999
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 114
  },
  "hamdan bin mohammed chairs higher committee for development and citizens affairs meeting": {
   "long": "2026-10-14",
@@ -2437,7 +2441,8 @@
     247.35
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 307
  },
  "hamdan bin mohammed crowns winners of maktoum bin rashid cup at al marmoum s camel racing festival": {
   "long": "2026-10-13"
@@ -6071,9 +6076,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits art dubai": {
-  "last_short": "2026-10-12",
+  "last_short": "2026-10-21",
   "long": "2026-10-13",
-  "shorts_made": 1,
+  "shorts_made": 2,
   "shot_ranges": [
    [
     6.38,
@@ -6082,9 +6087,26 @@
    [
     49.78,
     51.510000000000005
+   ],
+   [
+    55.519999999999996,
+    61.120000000000005
+   ],
+   [
+    72.64,
+    75.64
+   ],
+   [
+    151.0,
+    153.84
+   ],
+   [
+    246.04,
+    248.56
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 347
  },
  "hamdan bin mohammed visits aster pharmacy s distribution centre in dubai": {
   "fails": 1,
@@ -8258,7 +8280,8 @@
     149.91
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 180
  },
  "latifa bint mohammed affirms power of culture and its pivotal role in economic and social development at wgs 2022": {
   "no_hamdan": true
@@ -8301,7 +8324,8 @@
     134.98999999999998
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 189
  },
  "mohammad bin salman receives hamdan bin mohammed": {
   "video_exhausted": true
@@ -8676,7 +8700,8 @@
     77.38000000000001
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 134
  },
  "vp abu dhabi crown prince and rulers of emirates attend commemoration day event in abu dhabi": {
   "video_exhausted": true

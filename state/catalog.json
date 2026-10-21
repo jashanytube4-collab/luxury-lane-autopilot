@@ -246,8 +246,8 @@
   "video_exhausted": true
  },
  "dubai crown prince honours winners of hamdan bin mohammed award for innovation in projects management": {
-  "last_short": "2026-10-18",
-  "shorts_made": 2,
+  "last_short": "2026-10-21",
+  "shorts_made": 3,
   "shot_ranges": [
    [
     5.38,
@@ -268,6 +268,22 @@
    [
     202.92000000000002,
     214.35999999999999
+   ],
+   [
+    110.12,
+    115.6
+   ],
+   [
+    177.8,
+    183.44
+   ],
+   [
+    220.76,
+    223.28
+   ],
+   [
+    236.24,
+    239.44
    ]
   ],
   "video_exhausted": true,
@@ -896,7 +912,8 @@
     71.83
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 79
  },
  "hamdan bin mohammed approves higher committee for development citizens affairs new plan for developing model residential neighbourhoods for citizens in dubai": {
   "long": "2026-10-20"
@@ -8193,7 +8210,8 @@
     241.67
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 300
  },
  "mohamed bin zayed hamdan bin mohammed take part in walk unified event": {
   "video_exhausted": true

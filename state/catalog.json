@@ -1463,7 +1463,8 @@
     135.92
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 292
  },
  "hamdan bin mohammed attends global islamic economy summit": {
   "last_short": "2026-10-22",
@@ -3348,8 +3349,8 @@
   "video_len": 227
  },
  "hamdan bin mohammed inspects rta s autonomous mobility and ai projects": {
-  "last_short": "2026-10-13",
-  "shorts_made": 1,
+  "last_short": "2026-10-22",
+  "shorts_made": 2,
   "shot_ranges": [
    [
     10.86,
@@ -3362,9 +3363,26 @@
    [
     99.66,
     102.03
+   ],
+   [
+    59.559999999999995,
+    62.28
+   ],
+   [
+    140.32,
+    144.2
+   ],
+   [
+    175.68,
+    179.88
+   ],
+   [
+    253.48000000000002,
+    258.76
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 371
  },
  "hamdan bin mohammed inspects wadi al amardi housing project approves aed2 billion housing package": {
   "last_short": "2026-10-16",
@@ -3718,7 +3736,8 @@
     114.99
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 118
  },
  "hamdan bin mohammed leads dubai run as 226 000 people take part in world s largest community fun run": {
   "no_hamdan": true
@@ -5094,7 +5113,9 @@
     12.832533199999999,
     25.5425332
    ]
-  ]
+  ],
+  "video_exhausted": true,
+  "video_len": 32
  },
  "hamdan bin mohammed participates in king abdulaziz camel festival finale": {
   "no_hamdan": true

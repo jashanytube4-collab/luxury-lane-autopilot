@@ -8108,8 +8108,8 @@
   "video_len": 51
  },
  "international space station mission carrying first emirati astronaut launched successfully": {
-  "last_short": "2026-10-18",
-  "shorts_made": 2,
+  "last_short": "2026-10-21",
+  "shorts_made": 3,
   "shot_ranges": [
    [
     0.22,
@@ -8126,6 +8126,22 @@
    [
     68.76,
     82.56
+   ],
+   [
+    43.519999999999996,
+    46.68
+   ],
+   [
+    91.0,
+    94.92
+   ],
+   [
+    152.08,
+    155.92
+   ],
+   [
+    192.72,
+    195.84
    ]
   ],
   "video_exhausted": true,

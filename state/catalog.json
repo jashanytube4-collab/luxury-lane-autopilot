@@ -379,7 +379,9 @@
     78.16000000000001,
     82.19999999999999
    ]
-  ]
+  ],
+  "video_exhausted": true,
+  "video_len": 130
  },
  "dubai crown prince receives president of the chechen": {
   "video_exhausted": true
@@ -2898,9 +2900,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed honours mbr creative sports award winners": {
-  "last_short": "2026-10-19",
+  "last_short": "2026-10-22",
   "long": "2026-10-18",
-  "shorts_made": 2,
+  "shorts_made": 3,
   "shot_ranges": [
    [
     81.48,
@@ -2917,8 +2919,21 @@
    [
     370.96,
     384.04
+   ],
+   [
+    0.12,
+    5.0
+   ],
+   [
+    302.08,
+    305.52
+   ],
+   [
+    461.6,
+    466.56
    ]
-  ]
+  ],
+  "video_len": 669
  },
  "hamdan bin mohammed honours the winner of the best minister in the world award": {
   "fails": 1,

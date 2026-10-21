@@ -395,7 +395,24 @@
   "video_exhausted": true
  },
  "dubai crown prince visits emirates nbd head office": {
-  "video_exhausted": true
+  "last_short": "2026-10-21",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    61.08,
+    69.24
+   ],
+   [
+    149.68,
+    152.4
+   ],
+   [
+    155.76,
+    158.68
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 208
  },
  "dubai crown prince visits expo 2020 site": {
   "last_short": "2026-10-11",
@@ -3731,7 +3748,8 @@
   ]
  },
  "hamdan bin mohammed meets teams at the forefront of implementing preventive measures against covid 19": {
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 77
  },
  "hamdan bin mohammed meets with apple ceo": {
   "video_exhausted": true

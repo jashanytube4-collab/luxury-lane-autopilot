@@ -41,6 +41,8 @@ short:
   max_seconds: 17
   fps: 30
   cooldown_days: 3                   # a story rests this many days between its Shorts (7 ran out of footage at 30/day)
+  moment_min_piece: 2.5              # moment Shorts: quick cuts of him from 2.5 s (older Shorts used the long moments)
+  moment_max_pieces: 5               # at most 5 cuts per Short (always at least 12 s, only him)
   recycle_after_days: 60             # only if footage runs low: footage whose Shorts are 60+ days old gets a fresh cut
   deep_cut: null                     # null = automatic: when footage runs low (or Instagram fails) long official videos
                                      # give one Short per 45 s of video, from time ranges no Short used yet; false = never

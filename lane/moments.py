@@ -47,8 +47,8 @@ CONTEXT = [   # (pattern on the official event title, titles that fit that momen
 ]
 
 
-def moment_runs(scenes: list) -> list[dict]:
-    """Merge back-to-back scenes of him (sorted [(a, b, Sighting)]) into continuous moments 4-17 s long."""
+def moment_runs(scenes: list, min_len: float = 4.0) -> list[dict]:
+    """Merge back-to-back scenes of him (sorted [(a, b, Sighting)]) into continuous moments min_len-17 s long."""
     runs: list[dict] = []
     for a, b, s in scenes:
         last = runs[-1] if runs else None
@@ -57,7 +57,7 @@ def moment_runs(scenes: list) -> list[dict]:
             last.update(b=b, size=(last["size"] * last["n"] + s.size) / n, cx=(last["cx"] * last["n"] + s.cx) / n, n=n)
         else:
             runs.append({"a": a, "b": b, "size": s.size, "cx": s.cx, "n": 1})
-    return [r for r in runs if r["b"] - r["a"] >= 4.0]
+    return [r for r in runs if r["b"] - r["a"] >= min_len]
 
 
 POETIC = [   # the style of this channel's own best Shorts (25K-90K views): one poetic line about him and Dubai

@@ -231,7 +231,10 @@ class Studio:
             return None
         u["video_len"] = round(probe(video)["duration"])
         scenes = [x for x in self.his_scenes(video, exclude=u.get("shot_ranges", [])) if x[2].size >= MIN_FACE]
-        runs = _moment_runs(sorted(scenes, key=lambda x: x[0]))
+        sc = self.cfg.get("short", {})
+        # quick cuts of him (2.5 s and up, at most 5 per Short) use footage that older Shorts left between moments
+        runs = _moment_runs(sorted(scenes, key=lambda x: x[0]), float(sc.get("moment_min_piece", 4.0)))
+        max_pieces = int(sc.get("moment_max_pieces", 3))
         if not runs:
             u["video_exhausted"] = True
             return None
@@ -243,7 +246,7 @@ class Studio:
         want = round(rng.uniform(lo, hi), 2)              # a different length every time (never a robotic 16.0 s)
         picked: list[dict] = []
         for r in sorted(runs, key=lambda r: -r["size"] * min(r["b"] - r["a"], 12.0)):
-            if sum(x["b"] - x["a"] for x in picked) >= want or len(picked) == 3:
+            if sum(x["b"] - x["a"] for x in picked) >= want or len(picked) == max_pieces:
                 break
             if all(r["a"] >= x["b"] + 1 or r["b"] <= x["a"] - 1 for x in picked):
                 picked.append(r)

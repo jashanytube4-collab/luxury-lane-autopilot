@@ -66,7 +66,8 @@ story:                               # long-form story episodes (assets/stories)
   ready_only: false                  # every day a long video; every story gets sentence-level clips automatically
 
 news:                                # fresh news about him, scored 0-10 by the reporter (tools/reporter.py)
-  extra_long: true                   # a story scoring above min_score gets an EXTRA long video the same day
+  extra_long: false                  # true = a story above min_score gets an automatic EXTRA long video (owner: no, alert only)
+  alert: true                        # a story above min_score sends the owner a Telegram alert; Rocky builds the video on his yes
   min_score: 6
   lead_minutes: 150                  # time for the script + render (about 45-80 minutes) before it goes public
 

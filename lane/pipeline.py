@@ -19,6 +19,8 @@ import time
 from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 
+import requests
+
 from .audio import credit_line
 from .brain import AIUnavailable, Brain
 from .config import WORK_DIR, load_config, load_secrets
@@ -272,11 +274,30 @@ class Runner:
         return vid
 
     # ---- long-form ------------------------------------------------------------------------------------
+    def alert_news(self, item) -> None:
+        """Telegram message to the owner about a big fresh news story (no video is made automatically)."""
+        text = (f"BIG NEWS ({item.score}/10): {item.label}\n"
+                f"Reported by: {', '.join(item.publishers[:5])}\n"
+                "Tell Rocky 'haan, is par video bana' to build a premium video.")
+        self.report.note(f"News alert sent: {item.label[:90]} ({item.score}/10)")
+        if not (self.secrets.telegram_bot_token and self.secrets.telegram_chat_id):
+            return
+        try:
+            requests.post(f"https://api.telegram.org/bot{self.secrets.telegram_bot_token}/sendMessage",
+                          json={"chat_id": self.secrets.telegram_chat_id, "text": text}, timeout=20)
+        except requests.RequestException as e:
+            log.warning("News alert failed: %s", e)
+
     def plan_news_long(self, day, plan: dict, sc: dict, ncfg: dict) -> None:
         """A big fresh news story (reporter score above news.min_score) gets an EXTRA long video today."""
         from . import news as news_mod
         item = news_mod.best(self.state.cursors, float(ncfg.get("min_score", 6)), day)
         if item is None:
+            return
+        if not ncfg.get("extra_long"):      # alert only: the owner decides, then Rocky builds the video by hand
+            self.alert_news(item)
+            news_mod.mark_done(self.state.cursors, item, day)
+            self.state.save()
             return
         at = datetime.now(timezone.utc) + timedelta(minutes=int(ncfg.get("lead_minutes", 150)))
         at = at.astimezone(ZoneInfo(sc["timezone"])).replace(second=0, microsecond=0)
@@ -635,7 +656,7 @@ class Runner:
                 self.state.save_day(date_s, plan)
                 self.report.note(f"{date_s}: added {len(extra)} Short slot(s) to match shorts_per_day")
         ncfg = self.cfg.get("news", {})
-        if (ncfg.get("extra_long") and not self.args.dry_run and not any(s.get("news") for s in plan["slots"])
+        if ((ncfg.get("extra_long") or ncfg.get("alert")) and not self.args.dry_run and not any(s.get("news") for s in plan["slots"])
                 and day == datetime.now(ZoneInfo(sc["timezone"])).date()):
             self.plan_news_long(day, plan, sc, ncfg)
         if self.channel_uploads is not None and not self.args.dry_run:

@@ -67,6 +67,32 @@ class YouTube:
                 break
         return tags
 
+    def recent_uploads(self, pages: int = 8) -> list[dict]:
+        """The channel's latest uploads with the time each goes (or went) public: {"id", "at", "short"}.
+        Private videos without a schedule (members-only Shorts waiting for the helper) are left out."""
+        import re
+        from datetime import datetime, timezone
+        playlist = self.channel["contentDetails"]["relatedPlaylists"]["uploads"]
+        out, token = [], None
+        for _ in range(pages):
+            resp = self.api.playlistItems().list(part="contentDetails", playlistId=playlist, maxResults=50,
+                                                 pageToken=token).execute()
+            ids = [it["contentDetails"]["videoId"] for it in resp.get("items", [])]
+            if ids:
+                items = self.api.videos().list(part="snippet,status,contentDetails", id=",".join(ids)).execute()
+                for v in items.get("items", []):
+                    when = v["status"].get("publishAt") or v["snippet"].get("publishedAt")
+                    if not when:
+                        continue
+                    m = re.fullmatch(r"PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?", v["contentDetails"].get("duration", ""))
+                    secs = (int(m.group(1) or 0) * 3600 + int(m.group(2) or 0) * 60 + int(m.group(3) or 0)) if m else 999
+                    out.append({"id": v["id"], "short": secs <= 185,
+                                "at": datetime.fromisoformat(when.replace("Z", "+00:00")).astimezone(timezone.utc)})
+            token = resp.get("nextPageToken")
+            if not token:
+                break
+        return out
+
     def upload(self, path: Path, *, title: str, description: str, tags: list[str], category_id: str,
                publish_at: datetime | None) -> str:
         status = {"privacyStatus": "private", "selfDeclaredMadeForKids": False, "embeddable": True}

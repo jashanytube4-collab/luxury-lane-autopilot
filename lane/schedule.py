@@ -54,7 +54,7 @@ def day_slots(day: date, cfg: dict, rng: random.Random) -> list[datetime]:
 
 
 def top_up(day: date, cfg: dict, existing: list[datetime], rng: random.Random,
-           not_before: datetime) -> list[datetime]:
+           not_before: datetime, avoid: list[datetime] | None = None) -> list[datetime]:
     """Extra Short times for a day planned with fewer Shorts than `shorts_per_day` (e.g. after the setting was
     raised). New times go into hours that have no Short yet, at least min_gap minutes from every other Short."""
     tz = ZoneInfo(cfg["timezone"])
@@ -64,7 +64,7 @@ def top_up(day: date, cfg: dict, existing: list[datetime], rng: random.Random,
     min_gap = timedelta(minutes=cfg["gap_minutes"][0])
     first = _hm(cfg["first_post_between"][0])
     start = datetime.combine(day, first, tz).replace(minute=0)
-    taken = list(existing)
+    taken = list(existing) + list(avoid or [])      # `avoid`: other uploads (the episode) to keep clear of
     used_hours = {(t.astimezone(tz).date(), t.astimezone(tz).hour) for t in existing}
     hours = [start + timedelta(hours=h) for h in range(23)]
     rng.shuffle(hours)
@@ -128,3 +128,42 @@ def post_slots(day: date, cfg: dict, existing: list[datetime], rng: random.Rando
                 all(abs(t - o) >= timedelta(minutes=35) for o in out):
             out.append(t)
     return sorted(out)
+
+
+def adopt_uploads(slots: list[dict], uploads: list[dict], per_day: int, min_gap_min: float,
+                  rng: random.Random) -> list[str]:
+    """Match a day's open slots with what is already on the channel, so a lost state file can never cause a
+    second upload at the same time (or more than `per_day` Shorts in a day).
+
+    slots:   the day's plan slots ({"at", "type", "status", ...}); changed in place.
+    uploads: videos already on the channel for that day ({"id", "at": aware datetime, "short": bool}).
+    Returns a short note per change."""
+    notes: list[str] = []
+    gap = timedelta(minutes=min_gap_min)
+    free = list(uploads)
+    for sl in sorted(slots, key=lambda s: s["at"]):
+        if sl["status"] != "open" or sl["type"] not in ("short", "long"):
+            continue
+        at = datetime.fromisoformat(sl["at"])
+        near = [u for u in free if abs(u["at"] - at) <= timedelta(minutes=8) and u["short"] == (sl["type"] == "short")]
+        if near:
+            u = min(near, key=lambda u: abs(u["at"] - at))
+            free.remove(u)
+            sl.update(status="scheduled", video_id=u["id"], event="adopted")
+            notes.append(f"{sl['at']}: already on the channel ({u['id']})")
+    times = [u["at"] for u in uploads]
+    for sl in slots:
+        if sl["status"] == "open" and sl["type"] in ("short", "long"):
+            at = datetime.fromisoformat(sl["at"])
+            if any(abs(at - t) < gap for t in times):
+                sl["status"] = "skipped"
+                notes.append(f"{sl['at']}: skipped, an upload is already within {int(min_gap_min)} min")
+    have = sum(1 for u in uploads if u["short"]) + sum(
+        1 for s in slots if s["type"] == "short" and s["status"] == "scheduled" and s.get("event") != "adopted")
+    open_shorts = [s for s in slots if s["type"] == "short" and s["status"] == "open"]
+    extra = len(open_shorts) + have - per_day
+    if extra > 0:
+        for sl in rng.sample(open_shorts, min(extra, len(open_shorts))):
+            sl["status"] = "skipped"
+            notes.append(f"{sl['at']}: skipped, the day already has {per_day} Shorts")
+    return notes

@@ -27,7 +27,7 @@ from .instagram import Instagram, sync as sync_instagram
 from .report import RunReport, setup_logging
 from .posts import make_post
 from .quotes import harvest as harvest_quotes
-from .schedule import day_slots, long_slot, post_slots, target_days, top_up
+from .schedule import adopt_uploads, day_slots, long_slot, post_slots, target_days, top_up
 from .state import State
 from .story import QualityGateError, StoryMaker, auto_story, bank as story_bank, next_story, produce_story
 from .trends import mark_used
@@ -91,6 +91,7 @@ class Runner:
             cookies.write_bytes(base64.b64decode(self.secrets.yt_download_cookies))
         self.studio = Studio(self.cfg, self.brain, self.hamdan, WORK_DIR, cookies)
         self.yt: YouTube | None = None
+        self.channel_uploads: list[dict] | None = None   # what is already on the channel (duplicate guard)
         self.made = 0
 
     @property
@@ -180,6 +181,11 @@ class Runner:
         if tags is None:
             self.report.problem("Could not check the channel's recent uploads; continuing without it")
             return
+        try:
+            self.channel_uploads = self.yt.recent_uploads()
+        except Exception as e:  # noqa: BLE001 — without it we just lose the duplicate guard for this run
+            self.channel_uploads = None
+            self.report.problem(f"Could not read the channel's upload times ({str(e)[:100]}); duplicate guard is off this run")
         posted = self.state.cursors.setdefault("posted_units", [])
         new = [t for t in tags if t not in posted]
         if new:
@@ -621,7 +627,8 @@ class Runner:
             self.state.save_day(date_s, plan)
         shorts_now = [datetime.fromisoformat(s["at"]) for s in plan["slots"] if s["type"] == "short"]
         if len(shorts_now) < int(sc["shorts_per_day"]):
-            extra = top_up(day, sc, shorts_now, random.Random(), datetime.now(timezone.utc) + lead)
+            long_t = [datetime.fromisoformat(s["at"]) for s in plan["slots"] if s["type"] == "long"]
+            extra = top_up(day, sc, shorts_now, random.Random(), datetime.now(timezone.utc) + lead, avoid=long_t)
             if extra:
                 plan["slots"] = sorted(plan["slots"] + [{"at": t.isoformat(), "type": "short", "status": "open"}
                                                         for t in extra], key=lambda s: s["at"])
@@ -631,6 +638,13 @@ class Runner:
         if (ncfg.get("extra_long") and not self.args.dry_run and not any(s.get("news") for s in plan["slots"])
                 and day == datetime.now(ZoneInfo(sc["timezone"])).date()):
             self.plan_news_long(day, plan, sc, ncfg)
+        if self.channel_uploads is not None and not self.args.dry_run:
+            tz = ZoneInfo(sc["timezone"])
+            mine = [u for u in self.channel_uploads if u["at"].astimezone(tz).date() == day]
+            notes = adopt_uploads(plan["slots"], mine, int(sc["shorts_per_day"]), 15, random.Random())
+            if notes:
+                self.state.save_day(date_s, plan)
+                self.report.note(f"{date_s}: duplicate guard — {len(notes)} slot(s) adjusted ({notes[0]})")
         # the episode first: it is the day's most important upload
         rank = {"long": 0, "short": 1, "members": 2, "post": 3}   # picture posts last: never take a Short's place
         order = sorted(plan["slots"], key=lambda s: (rank.get(s["type"], 3), s["at"]))

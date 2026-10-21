@@ -93,7 +93,7 @@ class State:
             for _ in range(3):
                 if subprocess.run(["git", "push", "-q"], cwd=ROOT).returncode == 0:
                     return
-                subprocess.run(["git", "pull", "-q", "--rebase"], cwd=ROOT)
+                subprocess.run(["git", "pull", "-q", "--rebase", "-X", "theirs"], cwd=ROOT)   # our newest state wins
             log.error("git push failed three times; state is saved locally and will be pushed later")
         except subprocess.CalledProcessError as e:
             log.error("git checkpoint failed: %s", e)

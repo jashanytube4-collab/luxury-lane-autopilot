@@ -16,7 +16,7 @@ source:
 
 schedule:
   timezone: Asia/Dubai
-  shorts_per_day: 30
+  shorts_per_day: 31
   first_post_between: ["06:00", "06:45"]   # first Short of the day lands randomly in this window (local time)
   gap_minutes: [38, 55]                    # random gap between Shorts (30 a day fill the whole 24 hours)
   one_per_hour: false                      # with 30 a day some hours get two; never closer than 38 minutes
@@ -46,7 +46,7 @@ short:
   recycle_after_days: 60             # only if footage runs low: footage whose Shorts are 60+ days old gets a fresh cut
   deep_cut: null                     # null = automatic: when footage runs low (or Instagram fails) long official videos
                                      # give one Short per 45 s of video, from time ranges no Short used yet; false = never
-  moment_share: 0.5                  # share of Shorts that are 12-17 s music-only "moments" of him (what the
+  moment_share: 0.4                  # share of Shorts that are 12-17 s music-only "moments" of him (what the
                                      # most-viewed Fazza Shorts are); the rest are narrated stories
 
 story:                               # long-form story episodes (assets/stories), told like the top royal channels

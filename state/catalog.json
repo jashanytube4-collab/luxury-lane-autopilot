@@ -2169,7 +2169,28 @@
   "video_len": 507
  },
  "hamdan bin mohammed attends the launche of uae innovation month in dubai": {
-  "video_exhausted": true
+  "last_short": "2026-10-22",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    1.7999999999999998,
+    4.4399999999999995
+   ],
+   [
+    19.880000000000003,
+    22.439999999999998
+   ],
+   [
+    128.6,
+    131.51999999999998
+   ],
+   [
+    150.36,
+    155.12
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 369
  },
  "hamdan bin mohammed attends the mohammed bin rashid al maktoum international sports award on opening day of world sports summit": {
   "long": "2026-10-08",
@@ -7196,7 +7217,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits personal status court": {
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 203
  },
  "hamdan bin mohammed visits public prosecution": {
   "last_short": "2026-10-14",

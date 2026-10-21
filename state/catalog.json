@@ -3848,8 +3848,8 @@
   "video_len": 191
  },
  "hamdan bin mohammed meets government team behind uae s progress in world bank s ease of doing business ranking": {
-  "last_short": "2026-10-13",
-  "shorts_made": 1,
+  "last_short": "2026-10-22",
+  "shorts_made": 2,
   "shot_ranges": [
    [
     11.899999999999999,
@@ -3870,9 +3870,26 @@
    [
     131.74,
     134.35
+   ],
+   [
+    20.84,
+    26.919999999999998
+   ],
+   [
+    81.16000000000001,
+    83.83999999999999
+   ],
+   [
+    176.68,
+    179.28
+   ],
+   [
+    186.88,
+    190.48
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 216
  },
  "hamdan bin mohammed meets graduates of one million arab coders": {
   "last_short": "2026-10-13",
@@ -3891,7 +3908,8 @@
     39.99
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 71
  },
  "hamdan bin mohammed meets medical team that conducted the arab world s first ever intrauterine fetal surgery": {
   "last_short": "2026-10-11",

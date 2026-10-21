@@ -8489,9 +8489,9 @@
   "video_len": 64
  },
  "khalifasat launches successfully into orbit emphasising uae s leadership in developing satellites": {
-  "last_short": "2026-10-19",
+  "last_short": "2026-10-22",
   "long": "2026-10-14",
-  "shorts_made": 2,
+  "shorts_made": 3,
   "shot_ranges": [
    [
     74.38,
@@ -8524,8 +8524,25 @@
    [
     124.72,
     137.68
+   ],
+   [
+    6.88,
+    11.8
+   ],
+   [
+    69.32000000000001,
+    72.11999999999999
+   ],
+   [
+    96.76,
+    99.88
+   ],
+   [
+    172.04,
+    175.16
    ]
-  ]
+  ],
+  "video_len": 208
  },
  "king salman bin abdulaziz of saudi arabia receives dubai crown prince": {
   "fails": 1,

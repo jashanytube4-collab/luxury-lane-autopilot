@@ -37,6 +37,7 @@ from .youtube import AuthError, QuotaError, YouTube, key_tag
 log = logging.getLogger("lane.pipeline")
 
 RUN_BUDGET_MIN = 320       # stop starting new videos after this many minutes (GitHub's job limit is 360)
+MONTAGE = "<montage>"       # pseudo event key: the montage fallback after the real candidates (Studio.make_montage)
 SOURCE_CREDIT = "Footage and photos: official media of H.H. Sheikh Hamdan bin Mohammed (hamdan.ae)."
 
 
@@ -497,27 +498,35 @@ class Runner:
     def _fill_short(self, day, slot: dict, plan: dict, moment: bool, members: bool = False) -> bool | None:
         at = datetime.fromisoformat(slot["at"])
         tries, started = 0, time.time()
-        for key in self.studio.short_candidates(self.events, self.usage, day.isoformat()):
+        keys = self.studio.short_candidates(self.events, self.usage, day.isoformat())
+        if moment and self.cfg["short"].get("deep_cut") is not False:
+            keys = keys + [MONTAGE]          # fallback when no single event can give a moment (see Studio.make_montage)
+        for key in keys:
             if time.time() - started > 20 * 60:     # rejected events are remembered, so the next slot goes on from here
                 log.info("no Short after %d tries in 20 min for this slot; moving on", tries)
                 return None
             if self.over_budget():
                 self.report.note("Run time budget reached; remaining slots are filled by the next run")
                 return False
-            ev = self.events[key]
-            if moment and not ev.get("video"):
+            ev = self.events.get(key, {})
+            if moment and key != MONTAGE and not ev.get("video"):
                 continue
             seed = random.randint(1, 10**9)
             tries += 1
             t0 = time.time()
             try:
-                if moment:
+                if key == MONTAGE:
+                    item = self.studio.make_montage(self.events, self.usage, self._recent_titles(), seed)
+                elif moment:
                     item = self.studio.make_moment(key, ev, self.usage, self._recent_titles(), seed)
                 else:
                     item = self.studio.make_short(key, ev, self.usage, self._recent_lines(), seed)
             except AIUnavailable:
                 raise
             except Exception as e:  # noqa: BLE001 — one bad event never stops the day
+                if key == MONTAGE:
+                    self.report.note(f"Montage fallback failed: {str(e)[:150]}")
+                    continue
                 u = self.usage.setdefault(key, {})
                 u["fails"] = u.get("fails", 0) + 1
                 self.report.note(f"Skipped {ev['title'][:60]}: {str(e)[:150]}")
@@ -553,8 +562,13 @@ class Runner:
             if members and not self.args.dry_run:
                 self.state.cursors.setdefault("members_shorts", []).append(
                     {"id": vid, "day": day.isoformat(), "title": p["title"]})
-            u = self.usage.setdefault(key, {})
+            u = self.usage.setdefault(key, {}) if key != MONTAGE else {}
             if not self.args.dry_run:
+                for k2, rngs in item.get("sources", {}).items():     # a montage: every source video remembers its range
+                    u2 = self.usage.setdefault(k2, {})
+                    u2.setdefault("shot_ranges", []).extend(rngs)
+                    u2["last_short"] = max(u2.get("last_short", ""), day.isoformat())
+                    u2["montage_used"] = u2.get("montage_used", 0) + 1
                 if item["photo_only"]:
                     u["photo_short"] = True
                 u.setdefault("shot_ranges", []).extend(item["ranges"])
@@ -566,7 +580,7 @@ class Runner:
                 titles = self.state.cursors.setdefault("recent_titles", [])
                 titles.append(p["title"])
                 del titles[:-300]
-            slot.update(status="scheduled", video_id=vid, title=p["title"], event=key)
+            slot.update(status="scheduled", video_id=vid, title=p["title"], event=key if key != MONTAGE else "montage")
             self.state.save_day(day.isoformat(), plan)
             self.state.checkpoint(f"short {vid} for {slot['at']}")
             self.made += 1

@@ -270,6 +270,78 @@ class Studio:
         return {"path": res.path, "plan": plan, "unit": unit, "ranges": ranges, "music": res.music, "work": work,
                 "photo_only": False}
 
+    def make_montage(self, events: dict, usage: dict, recent_titles: list[str], seed: int) -> dict | None:
+        """FALLBACK moment Short (Instagram down or footage repeating): official videos are mostly ~1 minute with only
+        a few seconds of him each, so the best 2-5 s of him from 3-6 DIFFERENT official videos are joined into one
+        12-17 s Short. Wide 16:9 video is cropped to 9:16 around his face (never letterboxed), at source quality;
+        every range used is remembered per event (shot_ranges), so no second of footage is ever used twice."""
+        rng = random.Random(seed)
+        lo, hi = MOMENT_SECONDS
+        want = round(rng.uniform(lo, hi), 2)
+        now = datetime.now(timezone.utc).date().isoformat()
+        pool = [k for k, ev in events.items() if (ev.get("video") or {}).get("kind") in ("youtube", "mp4")
+                and not usage.get(k, {}).get("no_hamdan") and not usage.get(k, {}).get("rejected")
+                and usage.get(k, {}).get("fails", 0) < 2 and usage.get(k, {}).get("no_video_until", "") <= now
+                and not usage.get(k, {}).get("montage_exhausted")]
+        pool.sort(key=lambda k: events[k].get("date") or "", reverse=True)
+        pool = pool[:150]
+        rng.shuffle(pool)
+        picked: list[tuple[str, Path, dict]] = []
+        total, scanned = 0.0, 0
+        for k in pool:
+            if total >= want or len(picked) >= 6 or scanned >= 14:
+                break
+            u = usage.setdefault(k, {})
+            video = self.video(k, events[k])
+            if not video:
+                u["no_video_until"] = (datetime.now(timezone.utc) + timedelta(days=3)).date().isoformat()
+                continue
+            scanned += 1
+            info = probe(video)
+            u["video_len"] = round(info["duration"])
+            if not 1.6 <= info["width"] / info["height"] <= 1.9:      # montage joins 16:9 pictures only
+                continue
+            scenes = [x for x in self.his_scenes(video, exclude=u.get("shot_ranges", [])) if x[2].size >= MIN_FACE]
+            runs = _moment_runs(sorted(scenes, key=lambda x: x[0]), min_len=2.0)
+            if not runs:
+                u["montage_exhausted"] = True
+                continue
+            r = max(runs, key=lambda r: r["size"] * min(r["b"] - r["a"], 5.0))
+            length = min(r["b"] - r["a"], 5.0, want - total + 0.5)
+            mid = (r["a"] + r["b"]) / 2
+            a = max(r["a"], min(mid - length / 2, r["b"] - length))
+            picked.append((k, video, {"a": a, "b": a + length, "cx": r["cx"]}))
+            total += length
+        if total < lo or len(picked) < 3:
+            return None
+        work = self.work / f"montage_{seed % 100000}"
+        work.mkdir(parents=True, exist_ok=True)
+        parts, shots, t = [], [], 0.0
+        for i, (k, video, r) in enumerate(picked):
+            part = work / f"part{i}.mp4"
+            run([FFMPEG, "-y", "-ss", f"{r['a']:.3f}", "-i", str(video), "-t", f"{r['b'] - r['a']:.3f}", "-an",
+                 "-vf", "scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,fps=30,setsar=1",
+                 "-c:v", "libx264", "-preset", "fast", "-crf", "12", "-pix_fmt", "yuv420p", str(part)])
+            parts.append(part)
+            shots.append({"kind": "video", "start": t, "end": t + (r["b"] - r["a"]), "hard_end": t + (r["b"] - r["a"]),
+                          "focus_x": r["cx"]})
+            t += r["b"] - r["a"]
+        listing = work / "parts.txt"
+        listing.write_text("".join(f"file '{p.as_posix()}'" + chr(10) for p in parts), encoding="utf-8")
+        joined = work / "joined.mp4"
+        run([FFMPEG, "-y", "-f", "concat", "-safe", "0", "-i", str(listing), "-c", "copy", str(joined)])
+        duration = round(min(want, t - 0.05), 2)
+        out = work / "short.mp4"
+        caption = moment_caption("", rng)
+        res = produce_moment(joined, shots, self.cfg, work, out, seed, duration, caption)
+        title = moment_title("", recent_titles, rng)
+        plan = {"title": title, "description": moment_description({}, rng), "tags": moment_tags({}),
+                "hook_text": caption, "shots": shots}
+        sources = {k: [[r["a"], r["b"]]] for k, _, r in picked}
+        unit = f"montage|{'+'.join(sorted(_slug(k) for k in sources))}|{len(usage.get('_montages', []))}"
+        return {"path": res.path, "plan": plan, "unit": unit, "ranges": [], "music": res.music, "work": work,
+                "photo_only": False, "sources": sources}
+
     def _fill_with_him(self, plan: dict, items: list[dict], video: Path | None, work: Path, need: float) -> None:
         """Make sure there is enough footage OF HIM for the whole Short: shots never run past the end of his scene,
         so any shortfall is filled with stills of him (frames from his own scenes, or his photos) with camera moves."""

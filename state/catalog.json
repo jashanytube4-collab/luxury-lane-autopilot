@@ -7221,8 +7221,8 @@
   "video_len": 203
  },
  "hamdan bin mohammed visits public prosecution": {
-  "last_short": "2026-10-14",
-  "shorts_made": 1,
+  "last_short": "2026-10-22",
+  "shorts_made": 2,
   "shot_ranges": [
    [
     194.84,
@@ -7231,9 +7231,30 @@
    [
     300.76,
     306.48
+   ],
+   [
+    65.16000000000001,
+    67.72
+   ],
+   [
+    74.64,
+    77.36
+   ],
+   [
+    93.64,
+    97.28
+   ],
+   [
+    275.48,
+    278.96
+   ],
+   [
+    291.24,
+    294.32
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 335
  },
  "hamdan bin mohammed visits reserve forces command in abu dhabi": {
   "fails": 1,

@@ -4955,9 +4955,9 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed opens gitex tech week 2017": {
-  "last_short": "2026-10-19",
+  "last_short": "2026-10-22",
   "long": "2026-10-14",
-  "shorts_made": 2,
+  "shorts_made": 3,
   "shot_ranges": [
    [
     235.44,
@@ -4978,8 +4978,29 @@
    [
     481.28000000000003,
     487.2
+   ],
+   [
+    118.36,
+    121.88
+   ],
+   [
+    124.96000000000001,
+    127.83999999999999
+   ],
+   [
+    302.52,
+    305.71999999999997
+   ],
+   [
+    356.76,
+    359.96
+   ],
+   [
+    374.6,
+    377.32
    ]
-  ]
+  ],
+  "video_len": 548
  },
  "hamdan bin mohammed opens meta s new regional headquarters in dubai internet city": {
   "last_short": "2026-10-10",

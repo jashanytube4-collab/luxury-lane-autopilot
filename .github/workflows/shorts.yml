@@ -6,6 +6,10 @@ on:
     - cron: "17 0 * * *"    # 04:17 Dubai — main run: finishes today, prepares tomorrow
     - cron: "43 6 * * *"    # 10:43 Dubai — safety net in case the first run was delayed, failed or ran out of time
     - cron: "9 13 * * *"    # 17:09 Dubai — tops up tomorrow
+    # Extra runs so breaking news is caught within a few hours (each run checks the news first):
+    - cron: "45 3 * * *"    # 07:45 Dubai
+    - cron: "15 10 * * *"   # 14:15 Dubai
+    - cron: "0 17 * * *"    # 21:00 Dubai
   workflow_dispatch:
     inputs:
       dry_run:

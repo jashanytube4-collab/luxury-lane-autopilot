@@ -280,7 +280,7 @@ class Runner:
             return
         at = datetime.now(timezone.utc) + timedelta(minutes=int(ncfg.get("lead_minutes", 150)))
         at = at.astimezone(ZoneInfo(sc["timezone"])).replace(second=0, microsecond=0)
-        if at.date() != day or at.hour < 7:
+        if at.date() != day:
             self.report.note(f"Big news story '{item.label[:70]}' ({item.score}/10) found too late for an extra long video today")
             return
         slot = {"at": at.isoformat(), "type": "long", "status": "open",

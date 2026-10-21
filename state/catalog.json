@@ -4624,7 +4624,8 @@
     13.53
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 87
  },
  "hamdan bin mohammed newly appointed ministers take oath before uae president mohammed bin rashid": {
   "long": "2026-10-21"
@@ -4796,7 +4797,8 @@
     108.64
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 120
  },
  "hamdan bin mohammed offers condolences to mohamed bin zayed and tahnoun bin mohammed on death of sheikha hessa bint mohammed": {
   "long": "2026-10-16",
@@ -7018,8 +7020,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits linkedin s regional headquarters in dubai": {
-  "last_short": "2026-10-14",
-  "shorts_made": 1,
+  "last_short": "2026-10-22",
+  "shorts_made": 2,
   "shot_ranges": [
    [
     17.0,
@@ -7028,9 +7030,22 @@
    [
     63.599999999999994,
     72.08
+   ],
+   [
+    35.199999999999996,
+    39.04
+   ],
+   [
+    44.919999999999995,
+    50.96
+   ],
+   [
+    116.0,
+    118.67999999999999
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 134
  },
  "hamdan bin mohammed visits make it in the emirates 2025 in abu dhabi": {
   "fails": 1,

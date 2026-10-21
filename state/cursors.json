@@ -437,7 +437,11 @@
   "ll40e4fe1f13",
   "llde3284e752",
   "ll62ce9cabac",
-  "ll5ded0a51fd"
+  "ll5ded0a51fd",
+  "lld5dd336b5c",
+  "ll6ccf3a13fd",
+  "ll379704418f",
+  "ll380db87947"
  ],
  "quotes": [
   {
@@ -799,8 +803,8 @@
  ],
  "shorts_supply": {
   "date": "2026-10-21",
-  "days": 7.3,
-  "events": 219
+  "days": 6.3,
+  "events": 188
  },
  "stories_done": [
   "flydubai-hero",

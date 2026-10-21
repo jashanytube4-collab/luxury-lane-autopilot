@@ -51,7 +51,8 @@
     41.07000000000001
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 413
  },
  "crown prince offers condolences to al adab family": {
   "long": "2026-10-15",
@@ -676,7 +677,8 @@
  },
  "hamdan bin mohammed announces conclusion of phase one of dubai 10x": {
   "fails": 1,
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 54
  },
  "hamdan bin mohammed approves aed1 billion in economic incentives during dubai executive council meeting": {
   "video_exhausted": true
@@ -1032,7 +1034,8 @@
   ]
  },
  "hamdan bin mohammed attends ai everything conference": {
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 158
  },
  "hamdan bin mohammed attends al amri wedding": {
   "long": "2026-10-17",
@@ -2224,9 +2227,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed chairs virtual meeting of executive council": {
-  "last_short": "2026-10-10",
+  "last_short": "2026-10-21",
   "long": "2026-10-14",
-  "shorts_made": 1,
+  "shorts_made": 2,
   "shot_ranges": [
    [
     18.700000000000003,
@@ -2251,9 +2254,26 @@
    [
     195.06,
     199.46
+   ],
+   [
+    0.12,
+    6.72
+   ],
+   [
+    80.36,
+    83.39999999999999
+   ],
+   [
+    132.52,
+    136.24
+   ],
+   [
+    210.04,
+    214.16
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 218
  },
  "hamdan bin mohammed challenges the city to join dubai fitness challenge 2018": {
   "no_hamdan": true,
@@ -2939,7 +2959,8 @@
     30.79
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 261
  },
  "hamdan bin mohammed inaugurates new outpatient building at dubai hospital": {
   "last_short": "2026-10-10",
@@ -3120,7 +3141,8 @@
     47.03000000000001
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 227
  },
  "hamdan bin mohammed inspects rta s autonomous mobility and ai projects": {
   "last_short": "2026-10-13",
@@ -3567,7 +3589,8 @@
     36.790000000000006
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 40
  },
  "hamdan bin mohammed meets first batch of female cadets graduating from dubai police academy": {
   "last_short": "2026-10-11",
@@ -3598,7 +3621,8 @@
     33.43000000000001
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 191
  },
  "hamdan bin mohammed meets government team behind uae s progress in world bank s ease of doing business ranking": {
   "last_short": "2026-10-13",
@@ -3671,7 +3695,8 @@
     22.909999999999997
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 102
  },
  "hamdan bin mohammed meets prominent business leaders at dubai majlis to chart a course for city s accelerated growth": {
   "fails": 1,
@@ -4578,7 +4603,8 @@
     32.24
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 281
  },
  "hamdan bin mohammed opens cityscape global 2017": {
   "last_short": "2026-10-14",
@@ -5295,7 +5321,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed reviews preparations and protocols at dubai airport": {
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 301
  },
  "hamdan bin mohammed reviews progress of a housing project for citizens in al khawaneej 2": {
   "no_hamdan": true
@@ -5420,7 +5447,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed says dubai is taking off again": {
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 54
  },
  "hamdan bin mohammed shares iftar with national service recruits in abu dhabi": {
   "last_short": "2026-10-14",
@@ -5658,7 +5686,8 @@
     5.59
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 255
  },
  "hamdan bin mohammed tours the 31st edition of dubai international boat show": {
   "last_short": "2026-10-08",
@@ -6327,7 +6356,8 @@
   ]
  },
  "hamdan bin mohammed visits field hospital in dwtc": {
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 164
  },
  "hamdan bin mohammed visits flydubai pilot and praises his courage": {
   "fails": 1,

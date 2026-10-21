@@ -3702,8 +3702,8 @@
   "video_len": 268
  },
  "hamdan bin mohammed launches the government games initiative": {
-  "last_short": "2026-10-14",
-  "shorts_made": 1,
+  "last_short": "2026-10-22",
+  "shorts_made": 2,
   "shot_ranges": [
    [
     0.12,
@@ -3716,9 +3716,30 @@
    [
     196.32,
     202.12
+   ],
+   [
+    35.36,
+    38.92
+   ],
+   [
+    73.84,
+    76.6
+   ],
+   [
+    151.88,
+    154.84
+   ],
+   [
+    173.12,
+    176.16
+   ],
+   [
+    187.92000000000002,
+    191.07999999999998
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 206
  },
  "hamdan bin mohammed launches third phase of dubai 10x initiative": {
   "last_short": "2026-10-09",

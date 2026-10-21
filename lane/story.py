@@ -335,6 +335,7 @@ class StoryMaker:
             elif tok.startswith("sb-"):        # licensed Storyblocks stock clip (mood only), kept in the footage library
                 v = self._stock(tok, work)
                 if v:
+                    vis.append(v)
                     out.sources[id(v)] = "stock"
             elif tok.startswith("clip:"):
                 v = self._clip(tok[5:], work)

@@ -1678,7 +1678,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends graduation ceremony of hbmsu university": {
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 93
  },
  "hamdan bin mohammed attends graduation ceremony of the 26th cohort of the rashid bin saeed al maktoum naval college": {
   "long": "2026-10-06",
@@ -2955,8 +2956,8 @@
   "long": "2026-10-21"
  },
  "hamdan bin mohammed honours arab contributors to entrepreneurial development": {
-  "last_short": "2026-10-14",
-  "shorts_made": 1,
+  "last_short": "2026-10-22",
+  "shorts_made": 2,
   "shot_ranges": [
    [
     6.5600000000000005,
@@ -2965,9 +2966,26 @@
    [
     329.0,
     338.52
+   ],
+   [
+    16.04,
+    18.56
+   ],
+   [
+    102.44,
+    108.24
+   ],
+   [
+    110.16000000000001,
+    115.47999999999999
+   ],
+   [
+    123.48,
+    127.0
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 343
  },
  "hamdan bin mohammed honours challenge 71 program winners": {
   "last_short": "2026-10-15",
@@ -3504,7 +3522,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed launches 26 dubai 10x projects issues directive to implement them within 24 months": {
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 238
  },
  "hamdan bin mohammed launches 3d printing strategic alliance": {
   "no_hamdan": true,
@@ -4890,7 +4909,8 @@
  },
  "hamdan bin mohammed offers condolences to mohamed bin zayed and tahnoun bin mohammed on death of sheikha hessa bint mohammed": {
   "long": "2026-10-16",
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 237
  },
  "hamdan bin mohammed offers condolences to rulers of sharjah umm al quwain": {
   "long": "2026-10-20"
@@ -6217,7 +6237,8 @@
     179.96
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 214
  },
  "hamdan bin mohammed unveils 5 star plaque at dubai chamber of commerce and industry": {
   "last_short": "2026-10-14",
@@ -6232,7 +6253,8 @@
     72.64
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 181
  },
  "hamdan bin mohammed unveils 5 star plaque at hatta gdrfa centre": {
   "last_short": "2026-10-19",
@@ -6322,7 +6344,8 @@
  },
  "hamdan bin mohammed visit family who lost seven children in house fire": {
   "long": "2026-10-20",
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 73
  },
  "hamdan bin mohammed visits abu dhabi international hunting and equestrian exhibition 2026": {
   "fails": 1,
@@ -6964,7 +6987,8 @@
  },
  "hamdan bin mohammed visits dubai sports council": {
   "long": "2026-10-18",
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 185
  },
  "hamdan bin mohammed visits dubai statistics center": {
   "no_hamdan": true,
@@ -7308,7 +7332,8 @@
     102.36
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 137
  },
  "hamdan bin mohammed visits stands of government entities at gitex2019": {
   "last_short": "2026-10-21",
@@ -9001,7 +9026,8 @@
   "video_len": 300
  },
  "mohamed bin zayed hamdan bin mohammed take part in walk unified event": {
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 287
  },
  "mohamed bin zayed offers condolences to hamdan bin mohammed on mansour bin ahmed al thani": {
   "last_short": "2026-10-12",

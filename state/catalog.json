@@ -34,6 +34,9 @@
   "video_exhausted": true,
   "video_len": 37
  },
+ "crown prince attends al falasi s wedding": {
+  "long": "2026-10-22"
+ },
  "crown prince of dubai inaugurates the hamdan smart station for simulation and training": {
   "last_short": "2026-10-11",
   "shorts_made": 1,
@@ -94,6 +97,9 @@
  "dp world commences construction of bharat mart strategic trading hub in dubai offering new horizons for indian businesses": {
   "no_hamdan": true
  },
+ "dubai cp attends al amri wedding": {
+  "long": "2026-10-22"
+ },
  "dubai cp receives uae flag from sharjah crown prince": {
   "video_exhausted": true
  },
@@ -105,7 +111,7 @@
  },
  "dubai crown prince attends al ketbi family wedding reception": {
   "last_short": "2026-10-12",
-  "long": "2026-10-15",
+  "long": "2026-10-22",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -173,7 +179,7 @@
  },
  "dubai crown prince attends wedding reception": {
   "last_short": "2026-10-12",
-  "long": "2026-10-17",
+  "long": "2026-10-22",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -317,7 +323,7 @@
  },
  "dubai crown prince offers condolences al muhairi family": {
   "last_short": "2026-10-13",
-  "long": "2026-10-15",
+  "long": "2026-10-22",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -473,6 +479,9 @@
  "dubai executive council approves annual agenda for 2018": {
   "video_exhausted": true
  },
+ "emirates rulers hamdan bin mohammed and crown princes attend wedding ceremony": {
+  "long": "2026-10-22"
+ },
  "executive council reviews a number of projects": {
   "video_exhausted": true
  },
@@ -520,6 +529,9 @@
  "hamdan attends 3rd day of annual camel race festival": {
   "long": "2026-10-18"
  },
+ "hamdan attends al falasi and al ahbabi wedding": {
+  "long": "2026-10-22"
+ },
  "hamdan attends al kharbash wedding": {
   "long": "2026-10-15",
   "video_exhausted": true
@@ -541,6 +553,12 @@
  },
  "hamdan attends last day of the final annual camel races festival": {
   "long": "2026-10-13"
+ },
+ "hamdan attends opening day of nas ramadan sports": {
+  "no_hamdan": true
+ },
+ "hamdan attends opening of nad al sheba sports tournament": {
+  "no_hamdan": true
  },
  "hamdan attends the second day of al marmoom camel racing festival": {
   "long": "2026-10-13"
@@ -841,7 +859,7 @@
  },
  "hamdan bin mohammed approves dubai marine transport master plan 2030": {
   "last_short": "2026-10-16",
-  "long": "2026-10-18",
+  "long": "2026-10-22",
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -910,6 +928,9 @@
    ]
   ],
   "video_exhausted": true
+ },
+ "hamdan bin mohammed approves dubai sports council s 4th sports events ranking system": {
+  "no_hamdan": true
  },
  "hamdan bin mohammed approves executive council s 2020 agenda unifies health insurance programmes": {
   "last_short": "2026-10-12",
@@ -1122,6 +1143,9 @@
  "hamdan bin mohammed attends al falasi family wedding": {
   "long": "2026-10-17"
  },
+ "hamdan bin mohammed attends al falasi wedding": {
+  "long": "2026-10-22"
+ },
  "hamdan bin mohammed attends al hajeri al harbi family wedding": {
   "long": "2026-10-17"
  },
@@ -1181,6 +1205,9 @@
  },
  "hamdan bin mohammed attends camel race festival at al marmoum": {
   "long": "2026-10-13"
+ },
+ "hamdan bin mohammed attends camel racing": {
+  "long": "2026-10-22"
  },
  "hamdan bin mohammed attends ceremony marking 49th anniversary of uae armed forces unification": {
   "fails": 1,
@@ -1401,6 +1428,7 @@
  },
  "hamdan bin mohammed attends global cardiology congress": {
   "last_short": "2026-10-15",
+  "long": "2026-10-22",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -2092,9 +2120,12 @@
   "long": "2026-10-15",
   "video_exhausted": true
  },
+ "hamdan bin mohammed attends wedding banquet": {
+  "long": "2026-10-22"
+ },
  "hamdan bin mohammed attends wedding reception": {
   "last_short": "2026-10-12",
-  "long": "2026-10-15",
+  "long": "2026-10-22",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -2285,12 +2316,15 @@
   "video_len": 114
  },
  "hamdan bin mohammed chairs higher committee for development and citizens affairs meeting": {
-  "long": "2026-10-14",
+  "long": "2026-10-22",
   "post_photos": [
    0,
    3
   ],
   "video_exhausted": true
+ },
+ "hamdan bin mohammed chairs meeting of dubai s higher committee for development and citizens affairs": {
+  "no_hamdan": true
  },
  "hamdan bin mohammed chairs meeting of mohammed bin rashid space centre board of directors": {
   "long": "2026-10-21"
@@ -2809,6 +2843,9 @@
   "shorts_made": 1,
   "shot_ranges": []
  },
+ "hamdan bin mohammed honours dubai english speaking school as winner of inaugural hamdan bin mohammed order of merit for sports education school": {
+  "long": "2026-10-22"
+ },
  "hamdan bin mohammed honours entities supporting hosting town program": {
   "no_hamdan": true,
   "video_exhausted": true
@@ -3143,6 +3180,7 @@
  },
  "hamdan bin mohammed inaugurates zabeel healthcare center": {
   "last_short": "2026-10-15",
+  "long": "2026-10-22",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -4959,8 +4997,14 @@
  "hamdan bin mohammed praises people of determination s role": {
   "no_hamdan": true
  },
+ "hamdan bin mohammed praises the launch of community sports initiative": {
+  "no_hamdan": true
+ },
  "hamdan bin mohammed presents indian teacher rouble nagi with global teacher prize 2026 at the world governments summit": {
   "video_exhausted": true
+ },
+ "hamdan bin mohammed presents landmark group with first sports imprint award": {
+  "no_hamdan": true
  },
  "hamdan bin mohammed receives afc president": {
   "long": "2026-10-14",
@@ -5572,6 +5616,9 @@
   "video_exhausted": true,
   "video_len": 54
  },
+ "hamdan bin mohammed senior officials partake in car free day initiative": {
+  "no_hamdan": true
+ },
  "hamdan bin mohammed shares iftar with national service recruits in abu dhabi": {
   "last_short": "2026-10-14",
   "long": "2026-10-14",
@@ -5834,6 +5881,9 @@
   ],
   "video_exhausted": true,
   "video_len": 41
+ },
+ "hamdan bin mohammed uae is keen to develop camel racing sport": {
+  "no_hamdan": true
  },
  "hamdan bin mohammed uae is the winner of weg": {
   "video_exhausted": true
@@ -6614,6 +6664,9 @@
   "video_exhausted": true,
   "video_len": 39
  },
+ "hamdan bin mohammed visits hms mirdif hospital and barraquer eye hospital underscoring the role of private healthcare in community service": {
+  "long": "2026-10-22"
+ },
  "hamdan bin mohammed visits idex 2021": {
   "last_short": "2026-10-11",
   "shorts_made": 1,
@@ -6898,7 +6951,7 @@
  },
  "hamdan bin mohammed visits thukhor social club for senior citizens": {
   "last_short": "2026-10-09",
-  "long": "2026-10-14",
+  "long": "2026-10-22",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -7110,12 +7163,18 @@
  "hamdan honors final day winners of al marmoum festival": {
   "long": "2026-10-13"
  },
+ "hamdan honors winners of al wathba camel races": {
+  "long": "2026-10-22"
+ },
  "hamdan honors winners of mbr arabic language award": {
   "long": "2026-10-13",
   "video_exhausted": true
  },
  "hamdan inaugurates makani smart app": {
   "video_exhausted": true
+ },
+ "hamdan inaugurates mena transport congress exhibition": {
+  "long": "2026-10-22"
  },
  "hamdan inspects al bayt studio": {
   "video_exhausted": true
@@ -7191,6 +7250,9 @@
  "hamdan visits government think tank": {
   "video_exhausted": true
  },
+ "hamdan witnesses futaim bint mohammed s sports achievement": {
+  "no_hamdan": true
+ },
  "hamdan witnesses launch of strategic plan to develop islamic economy sector": {
   "video_exhausted": true
  },
@@ -7207,6 +7269,7 @@
   "video_len": 60
  },
  "ig:dubaimediaoffice:17987254074053166": {
+  "long": "2026-10-22",
   "video_exhausted": true,
   "video_len": 93
  },
@@ -7310,6 +7373,8 @@
   "video_len": 15
  },
  "ig:faz3:17841492526024724": {
+  "long": "2026-10-22",
+  "no_hamdan": true,
   "video_exhausted": true,
   "video_len": 15
  },
@@ -7330,6 +7395,7 @@
   "video_len": 10
  },
  "ig:faz3:17841979204024724": {
+  "no_hamdan": true,
   "video_exhausted": true,
   "video_len": 15
  },
@@ -7338,6 +7404,7 @@
   "video_len": 15
  },
  "ig:faz3:17842013983024724": {
+  "no_hamdan": true,
   "video_exhausted": true,
   "video_len": 15
  },
@@ -7370,7 +7437,7 @@
   "video_len": 15
  },
  "ig:faz3:17844415069720278": {
-  "long": "2026-10-21",
+  "long": "2026-10-22",
   "no_hamdan": true
  },
  "ig:faz3:17844473731109359": {
@@ -7402,6 +7469,7 @@
   "video_len": 15
  },
  "ig:faz3:17845001431738505": {
+  "no_hamdan": true,
   "video_exhausted": true,
   "video_len": 34
  },
@@ -7418,6 +7486,7 @@
   "video_len": 14
  },
  "ig:faz3:17845368076024724": {
+  "no_hamdan": true,
   "video_exhausted": true,
   "video_len": 15
  },
@@ -7494,6 +7563,8 @@
   "video_len": 15
  },
  "ig:faz3:17854042189056508": {
+  "long": "2026-10-22",
+  "no_hamdan": true,
   "video_exhausted": true,
   "video_len": 15
  },
@@ -7596,6 +7667,8 @@
   "video_len": 14
  },
  "ig:faz3:17860405955166394": {
+  "long": "2026-10-22",
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "ig:faz3:17861235427081542": {
@@ -7705,6 +7778,7 @@
   "video_exhausted": true
  },
  "ig:faz3:17878358314265559": {
+  "no_hamdan": true,
   "video_exhausted": true,
   "video_len": 37
  },
@@ -7722,6 +7796,8 @@
   "video_len": 38
  },
  "ig:faz3:17879814527005751": {
+  "long": "2026-10-22",
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "ig:faz3:17879937259145558": {
@@ -7739,7 +7815,7 @@
   "video_len": 10
  },
  "ig:faz3:17883379564703736": {
-  "long": "2026-10-20",
+  "long": "2026-10-22",
   "no_hamdan": true,
   "video_exhausted": true
  },
@@ -7843,7 +7919,7 @@
   "video_len": 49
  },
  "ig:faz3:17901918514301358": {
-  "long": "2026-10-21",
+  "long": "2026-10-22",
   "no_hamdan": true
  },
  "ig:faz3:17904706891132148": {
@@ -7877,7 +7953,7 @@
   "video_len": 14
  },
  "ig:faz3:17916707464321339": {
-  "long": "2026-10-21",
+  "long": "2026-10-22",
   "no_hamdan": true
  },
  "ig:faz3:17916885400301536": {
@@ -7915,7 +7991,7 @@
   "video_len": 50
  },
  "ig:faz3:17924353259135353": {
-  "long": "2026-10-21",
+  "long": "2026-10-22",
   "no_hamdan": true,
   "video_exhausted": true
  },
@@ -7979,7 +8055,7 @@
   "video_exhausted": true
  },
  "ig:faz3:17968229216578746": {
-  "long": "2026-10-21",
+  "long": "2026-10-22",
   "no_hamdan": true
  },
  "ig:faz3:17970792520067899": {
@@ -7998,6 +8074,7 @@
   "video_exhausted": true
  },
  "ig:faz3:17980436306441695": {
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "ig:faz3:17981438738093414": {
@@ -8047,6 +8124,7 @@
   "video_exhausted": true
  },
  "ig:faz3:18026506504043659": {
+  "no_hamdan": true,
   "video_exhausted": true,
   "video_len": 60
  },
@@ -8105,16 +8183,19 @@
   "video_exhausted": true
  },
  "ig:faz3:18095594779160670": {
+  "long": "2026-10-22",
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "ig:faz3:18098909275484024": {
-  "long": "2026-10-21",
+  "long": "2026-10-22",
   "no_hamdan": true
  },
  "ig:faz3:18099034300454696": {
   "video_exhausted": true
  },
  "ig:faz3:18101032345138537": {
+  "long": "2026-10-22",
   "video_exhausted": true
  },
  "ig:faz3:18101191255523061": {
@@ -8150,7 +8231,7 @@
   "video_exhausted": true
  },
  "ig:faz3:18163124008405401": {
-  "long": "2026-10-20",
+  "long": "2026-10-22",
   "no_hamdan": true,
   "video_exhausted": true
  },
@@ -8174,7 +8255,7 @@
   "video_exhausted": true
  },
  "ig:faz3:18426448819098880": {
-  "long": "2026-10-21",
+  "long": "2026-10-22",
   "video_exhausted": true
  },
  "ig:faz3:18429849919109636": {
@@ -8229,6 +8310,7 @@
  },
  "international space station mission carrying first emirati astronaut launched successfully": {
   "last_short": "2026-10-21",
+  "long": "2026-10-22",
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -8485,6 +8567,7 @@
   "video_exhausted": true
  },
  "on behalf of the uae president hamdan bin mohammed attends azerbaijan s victory day celebrations": {
+  "long": "2026-10-22",
   "video_exhausted": true
  },
  "partnership between community government the foundation of enhancing government services hamdan bin mohammed": {

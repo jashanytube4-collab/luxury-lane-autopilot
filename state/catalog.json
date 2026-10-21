@@ -4878,8 +4878,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed opens cityscape global 2018": {
-  "last_short": "2026-10-13",
-  "shorts_made": 1,
+  "last_short": "2026-10-22",
+  "shorts_made": 2,
   "shot_ranges": [
    [
     114.26,
@@ -4904,9 +4904,30 @@
    [
     300.46000000000004,
     302.43
+   ],
+   [
+    36.12,
+    39.0
+   ],
+   [
+    155.52,
+    158.07999999999998
+   ],
+   [
+    175.08,
+    177.6
+   ],
+   [
+    336.68,
+    339.24
+   ],
+   [
+    347.12,
+    349.68
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 375
  },
  "hamdan bin mohammed opens crime prevention international conference": {
   "last_short": "2026-10-21",

@@ -2198,7 +2198,8 @@
     72.27
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 141
  },
  "hamdan bin mohammed chairs executive council meeting approves e commerce strategy": {
   "fails": 2
@@ -8436,9 +8437,9 @@
   "video_len": 120
  },
  "rulers of ajman fujairah and ras al khaimah offer condolences to sheikh hamdan on mansour bin ahmed": {
-  "last_short": "2026-10-18",
+  "last_short": "2026-10-21",
   "long": "2026-10-16",
-  "shorts_made": 2,
+  "shorts_made": 3,
   "shot_ranges": [
    [
     89.82,
@@ -8463,6 +8464,22 @@
    [
     115.80000000000001,
     121.32
+   ],
+   [
+    233.32,
+    236.84
+   ],
+   [
+    239.6,
+    242.35999999999999
+   ],
+   [
+    243.88,
+    246.64
+   ],
+   [
+    254.16,
+    258.32
    ]
   ],
   "video_exhausted": true,

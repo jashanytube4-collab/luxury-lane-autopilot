@@ -6085,8 +6085,8 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed visits display of origin autonomous vehicle on the sidelines of the world government summit 2022": {
-  "last_short": "2026-10-10",
-  "shorts_made": 1,
+  "last_short": "2026-10-21",
+  "shorts_made": 2,
   "shot_ranges": [
    [
     2.02,
@@ -6103,6 +6103,18 @@
    [
     17.1,
     18.83
+   ],
+   [
+    39.839999999999996,
+    43.96
+   ],
+   [
+    49.12,
+    55.0
+   ],
+   [
+    59.04,
+    62.36
    ]
   ],
   "video_exhausted": true,

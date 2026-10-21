@@ -2058,8 +2058,8 @@
   "video_len": 164
  },
  "hamdan bin mohammed attends the knowledge summit 2018": {
-  "last_short": "2026-10-19",
-  "shorts_made": 2,
+  "last_short": "2026-10-22",
+  "shorts_made": 3,
   "shot_ranges": [
    [
     21.500000000000004,
@@ -2084,8 +2084,21 @@
    [
     448.72,
     458.24
+   ],
+   [
+    2.64,
+    7.960000000000001
+   ],
+   [
+    382.36,
+    385.28
+   ],
+   [
+    419.44,
+    425.2
    ]
-  ]
+  ],
+  "video_len": 507
  },
  "hamdan bin mohammed attends the launche of uae innovation month in dubai": {
   "video_exhausted": true

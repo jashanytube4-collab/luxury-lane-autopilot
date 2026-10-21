@@ -6641,8 +6641,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits stands of government entities at gitex2019": {
-  "last_short": "2026-10-12",
-  "shorts_made": 1,
+  "last_short": "2026-10-21",
+  "shorts_made": 2,
   "shot_ranges": [
    [
     17.340000000000003,
@@ -6655,9 +6655,26 @@
    [
     42.699999999999996,
     45.470000000000006
+   ],
+   [
+    0.12,
+    3.6
+   ],
+   [
+    154.64000000000001,
+    157.24
+   ],
+   [
+    185.20000000000002,
+    188.44
+   ],
+   [
+    204.0,
+    207.88
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 257
  },
  "hamdan bin mohammed visits the dubai ai festival": {
   "long": "2026-10-13",

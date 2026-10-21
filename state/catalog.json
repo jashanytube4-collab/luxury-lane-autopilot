@@ -1444,7 +1444,8 @@
  },
  "hamdan bin mohammed attends gems our own english high school s golden jubilee celebrations": {
   "long": "2026-10-15",
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 278
  },
  "hamdan bin mohammed attends global cardiology congress": {
   "last_short": "2026-10-15",
@@ -8958,8 +8959,25 @@
   "video_len": 251
  },
  "mohammed bin rashid commends the dubai executive council s efforts over the past 15 years": {
+  "last_short": "2026-10-22",
   "long": "2026-10-16",
-  "video_exhausted": true
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    46.279999999999994,
+    49.800000000000004
+   ],
+   [
+    53.64,
+    60.32
+   ],
+   [
+    83.32000000000001,
+    86.44
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 126
  },
  "mohammed bin zayed receives uae flag from hamdan bin mohammed": {
   "video_exhausted": true

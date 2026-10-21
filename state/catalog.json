@@ -3760,8 +3760,8 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed leads f3 team to gov games finals": {
-  "last_short": "2026-10-14",
-  "shorts_made": 1,
+  "last_short": "2026-10-22",
+  "shorts_made": 2,
   "shot_ranges": [
    [
     4.34,
@@ -3770,9 +3770,26 @@
    [
     12.739999999999998,
     17.14
+   ],
+   [
+    21.2,
+    25.119999999999997
+   ],
+   [
+    37.32,
+    40.96
+   ],
+   [
+    50.559999999999995,
+    53.96
+   ],
+   [
+    77.28,
+    80.19999999999999
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 246
  },
  "hamdan bin mohammed maktoum bin mohammed attend al ghurair family wedding": {
   "long": "2026-10-17"

@@ -2220,7 +2220,8 @@
     74.32
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 78
  },
  "hamdan bin mohammed chairs executive council meeting approves series of economic stimulus policies": {
   "video_exhausted": true
@@ -5472,8 +5473,8 @@
   "video_len": 68
  },
  "hamdan bin mohammed reviews the latest technologies and energy solutions at wetex 2019": {
-  "last_short": "2026-10-18",
-  "shorts_made": 2,
+  "last_short": "2026-10-21",
+  "shorts_made": 3,
   "shot_ranges": [
    [
     20.860000000000003,
@@ -5510,6 +5511,22 @@
    [
     299.96,
     304.84
+   ],
+   [
+    88.64,
+    93.08
+   ],
+   [
+    179.72,
+    183.92
+   ],
+   [
+    240.88,
+    244.48
+   ],
+   [
+    248.32,
+    251.84
    ]
   ],
   "video_exhausted": true,

@@ -1457,7 +1457,8 @@
     167.26999999999998
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 211
  },
  "hamdan bin mohammed attends graduation ceremony at rashid bin saeed al maktoum naval college": {
   "last_short": "2026-10-11",
@@ -6070,15 +6071,32 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits area 2071 reviews dubai 10x initiative projects": {
-  "last_short": "2026-10-13",
-  "shorts_made": 1,
+  "last_short": "2026-10-21",
+  "shorts_made": 2,
   "shot_ranges": [
    [
     14.659999999999998,
     19.06
+   ],
+   [
+    0.12,
+    5.04
+   ],
+   [
+    40.44,
+    44.32
+   ],
+   [
+    51.879999999999995,
+    54.800000000000004
+   ],
+   [
+    60.04,
+    65.16
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 159
  },
  "hamdan bin mohammed visits art dubai": {
   "last_short": "2026-10-21",

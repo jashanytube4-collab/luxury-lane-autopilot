@@ -1366,7 +1366,8 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed attends dubai international health tourism forum": {
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 270
  },
  "hamdan bin mohammed attends dubai metaverse assembly at the museum of the future": {
   "last_short": "2026-10-10",
@@ -4840,7 +4841,8 @@
     45.75
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 118
  },
  "hamdan bin mohammed offers condolences to family of martyr khalid al shehi": {
   "last_short": "2026-10-14",
@@ -7040,7 +7042,32 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed visits gulfood 2018": {
-  "video_exhausted": true
+  "last_short": "2026-10-22",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    7.5200000000000005,
+    10.200000000000001
+   ],
+   [
+    12.879999999999999,
+    18.0
+   ],
+   [
+    22.240000000000002,
+    24.88
+   ],
+   [
+    42.839999999999996,
+    46.080000000000005
+   ],
+   [
+    193.52,
+    196.07999999999998
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 213
  },
  "hamdan bin mohammed visits hazrat imam mosque in uzbekistan": {
   "last_short": "2026-10-08",

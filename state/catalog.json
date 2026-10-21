@@ -741,8 +741,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed approves dff s three year strategic plan": {
-  "last_short": "2026-10-18",
-  "shorts_made": 2,
+  "last_short": "2026-10-21",
+  "shorts_made": 3,
   "shot_ranges": [
    [
     39.14,
@@ -771,6 +771,26 @@
    [
     184.04,
     188.07999999999998
+   ],
+   [
+    14.2,
+    17.64
+   ],
+   [
+    20.12,
+    23.04
+   ],
+   [
+    43.919999999999995,
+    47.160000000000004
+   ],
+   [
+    120.12,
+    123.6
+   ],
+   [
+    132.12,
+    135.2
    ]
   ],
   "video_exhausted": true,
@@ -1178,7 +1198,8 @@
     163.3
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 432
  },
  "hamdan bin mohammed attends day 1 of gov games": {
   "video_exhausted": true
@@ -8323,7 +8344,8 @@
     87.14999999999999
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 120
  },
  "rulers of ajman fujairah and ras al khaimah offer condolences to sheikh hamdan on mansour bin ahmed": {
   "last_short": "2026-10-18",

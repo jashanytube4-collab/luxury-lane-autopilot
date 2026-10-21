@@ -2737,9 +2737,9 @@
   "video_len": 56
  },
  "hamdan bin mohammed honors mbr creative sports award winners": {
-  "last_short": "2026-10-19",
+  "last_short": "2026-10-22",
   "long": "2026-10-18",
-  "shorts_made": 2,
+  "shorts_made": 3,
   "shot_ranges": [
    [
     50.98,
@@ -2776,8 +2776,21 @@
    [
     153.20000000000002,
     162.48
+   ],
+   [
+    122.56,
+    129.04
+   ],
+   [
+    130.92000000000002,
+    137.76
+   ],
+   [
+    170.20000000000002,
+    177.48
    ]
-  ]
+  ],
+  "video_len": 385
  },
  "hamdan bin mohammed honors winners of dubai appreciation award for community service": {
   "last_short": "2026-10-21",

@@ -6536,8 +6536,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits the ministry of foreign affairs in abu dhabi": {
-  "last_short": "2026-10-08",
-  "shorts_made": 1,
+  "last_short": "2026-10-21",
+  "shorts_made": 2,
   "shot_ranges": [
    [
     0.22,
@@ -6570,6 +6570,18 @@
    [
     19.12,
     20.66333333333333
+   ],
+   [
+    22.62,
+    26.18
+   ],
+   [
+    31.753333333333334,
+    35.54666666666667
+   ],
+   [
+    37.919999999999995,
+    43.68
    ]
   ],
   "video_exhausted": true,

@@ -3857,9 +3857,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed meets students of dubai schools": {
-  "last_short": "2026-10-19",
+  "last_short": "2026-10-22",
   "long": "2026-10-17",
-  "shorts_made": 2,
+  "shorts_made": 3,
   "shot_ranges": [
    [
     132.38,
@@ -3876,8 +3876,17 @@
    [
     325.88,
     336.32
+   ],
+   [
+    200.44,
+    204.79999999999998
+   ],
+   [
+    251.28,
+    265.92
    ]
-  ]
+  ],
+  "video_len": 371
  },
  "hamdan bin mohammed meets teams at the forefront of implementing preventive measures against covid 19": {
   "video_exhausted": true,

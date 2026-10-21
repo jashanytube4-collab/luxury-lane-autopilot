@@ -6741,8 +6741,8 @@
   "video_len": 191
  },
  "hamdan bin mohammed visits dubai chamber of commerce and industry": {
-  "last_short": "2026-10-14",
-  "shorts_made": 1,
+  "last_short": "2026-10-22",
+  "shorts_made": 2,
   "shot_ranges": [
    [
     40.239999999999995,
@@ -6751,9 +6751,26 @@
    [
     69.24000000000001,
     79.44
+   ],
+   [
+    0.12,
+    4.3999999999999995
+   ],
+   [
+    52.8,
+    56.32
+   ],
+   [
+    64.88000000000001,
+    68.24
+   ],
+   [
+    100.80000000000001,
+    106.72
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 131
  },
  "hamdan bin mohammed visits dubai civil defense directs it to achieve the highest global benchmarks in community protection": {
   "video_exhausted": true

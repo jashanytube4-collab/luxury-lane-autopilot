@@ -31,24 +31,24 @@ sections:
   - say: Dubai has a Crown Prince the whole world watches, but the ones closest to him are almost invisible.
     show: [sb-352835520, clip:windsor-stand]
   - say: I mean the women of his family.
-    show: [sb-347615179]
+    show: [sb-11125361, clip:horses]
   - say: His mother, whose photograph has reportedly never been officially published.
-    show: [sb-352052980]
+    show: [sb-11125511, clip:camels]
   - say: His grandmother, remembered across Dubai as the Mother of Dubai.
     show: [sb-352898065]
   - say: His wife, who, as far as we can find, has never given a single interview.
-    show: [sb-354773916]
+    show: [sb-353338222]
   - say: And four small children, growing up inside one of the most watched families in the Gulf.
     show: [clip:twins-stroller, sb-6803751]
   - say: Today we follow the women behind Prince Hamdan, using only the public record, with no invented gossip.
     show: [sb-353304412]
   - say: And at the end, we will answer the question the internet keeps asking about the other women in his life.
-    show: [sb-353214152]
+    show: [sb-11081347]
   - say: Stay until the end, and let's begin.
     show: [sb-354777004]
 - beats:
   - say: Start at the top of the family, with Sheikha Hind bint Maktoum bin Juma Al Maktoum.
-    show: [sb-352359766]
+    show: [sb-354566511]
   - say: She is the senior wife of Sheikh Mohammed bin Rashid, the ruler of Dubai, and she is the mother of Prince Hamdan.
     show: [sb-349101818]
   - say: They were married on the twenty-sixth of April, nineteen seventy-nine.
@@ -91,7 +91,7 @@ sections:
   - say: Her name is on the programme, but not her face.
     show: ["key:hamdan bin mohammed reviews outcomes of sheikha hind bint maktoum family program and praises its profound social impact"]
   - say: In March twenty twenty-five, when Prince Hamdan's baby daughter was born, he named her Hind.
-    show: [sb-7721898]
+    show: [sb-347009083]
   - say: The same name as his mother. He did not need to explain it.
     show: [sb-351798932]
   - say: Gulf magazines have also reported that Sheikh Mohammed once shared a rare childhood clip of Sheikha Hind, with her
@@ -108,7 +108,7 @@ sections:
     show: [clip:white-horse]
   - say: She held a women's majlis several times a week, where women could bring their worries and she would carry them to
       the ruler.
-    show: [sb-10988409]
+    show: [sb-346694537]
   - say: In a time when few women had a public voice, that room gave them one.
     show: [sb-10847519]
   - say: She was also known for her knowledge of herbal medicine.
@@ -162,7 +162,7 @@ sections:
   - say: In twenty eighteen, the UAE announced that half of the seats in its Federal National Council would go to women.
     show: [sb-1893798]
   - say: Government sources say women now make up about seventy percent of the country's university graduates.
-    show: [sb-347138547]
+    show: [sb-11125495]
   - say: And Prince Hamdan has put his own name behind this.
     show: ["key:hamdan bin mohammed meets first batch of female cadets graduating from dubai police academy"]
   - say: In August twenty twenty, he met the first twenty-nine women cadets to graduate from Dubai Police Academy.

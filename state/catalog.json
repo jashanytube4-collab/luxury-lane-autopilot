@@ -6359,8 +6359,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits dewa s moro": {
-  "last_short": "2026-10-19",
-  "shorts_made": 2,
+  "last_short": "2026-10-22",
+  "shorts_made": 3,
   "shot_ranges": [
    [
     16.02,
@@ -6373,8 +6373,29 @@
    [
     263.88,
     277.37
+   ],
+   [
+    139.68,
+    143.16
+   ],
+   [
+    254.20000000000002,
+    258.0
+   ],
+   [
+    278.6,
+    284.12
+   ],
+   [
+    318.0,
+    321.12
+   ],
+   [
+    390.68,
+    396.48
    ]
-  ]
+  ],
+  "video_len": 401
  },
  "hamdan bin mohammed visits difc reviews strategic priorities and innovation ambitions": {
   "last_short": "2026-10-15",

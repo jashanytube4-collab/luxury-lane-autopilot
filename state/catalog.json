@@ -2335,7 +2335,24 @@
   "video_len": 78
  },
  "hamdan bin mohammed chairs executive council meeting approves series of economic stimulus policies": {
-  "video_exhausted": true
+  "last_short": "2026-10-22",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    25.400000000000002,
+    29.56
+   ],
+   [
+    66.68,
+    70.52
+   ],
+   [
+    77.36,
+    81.47999999999999
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 122
  },
  "hamdan bin mohammed chairs executive council meeting approves updated school fees framework": {
   "last_short": "2026-10-12",
@@ -4642,7 +4659,8 @@
  },
  "hamdan bin mohammed offers condolences on death of hamad al qasimi": {
   "long": "2026-10-20",
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 58
  },
  "hamdan bin mohammed offers condolences on death of moza bint ali al weri": {
   "last_short": "2026-10-13",
@@ -4674,7 +4692,8 @@
     75.87
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 90
  },
  "hamdan bin mohammed offers condolences on martyr obaid salem al badwawi": {
   "long": "2026-10-20"
@@ -5216,7 +5235,8 @@
     71.75999999999999
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 103
  },
  "hamdan bin mohammed receives chairman of wccd": {
   "video_exhausted": true

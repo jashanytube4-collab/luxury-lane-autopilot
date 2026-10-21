@@ -5333,8 +5333,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed receives winners of hackathon competition": {
-  "last_short": "2026-10-19",
-  "shorts_made": 2,
+  "last_short": "2026-10-22",
+  "shorts_made": 3,
   "shot_ranges": [
    [
     96.48,
@@ -5351,8 +5351,25 @@
    [
     89.80000000000001,
     94.32
+   ],
+   [
+    33.48,
+    36.32
+   ],
+   [
+    61.48,
+    64.19999999999999
+   ],
+   [
+    67.80000000000001,
+    71.24
+   ],
+   [
+    105.60000000000001,
+    110.96
    ]
-  ]
+  ],
+  "video_len": 158
  },
  "hamdan bin mohammed reviews achievements of the higher committee for development and citizens affairs": {
   "long": "2026-10-20"

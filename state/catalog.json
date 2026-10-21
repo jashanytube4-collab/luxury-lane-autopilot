@@ -1447,8 +1447,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends global islamic economy summit": {
-  "last_short": "2026-10-19",
-  "shorts_made": 2,
+  "last_short": "2026-10-22",
+  "shorts_made": 3,
   "shot_ranges": [
    [
     11.1,
@@ -1473,8 +1473,29 @@
    [
     201.84,
     206.2
+   ],
+   [
+    0.12,
+    5.88
+   ],
+   [
+    121.04,
+    124.52
+   ],
+   [
+    130.56,
+    133.48
+   ],
+   [
+    190.52,
+    194.28
+   ],
+   [
+    196.32,
+    200.0
    ]
-  ]
+  ],
+  "video_len": 246
  },
  "hamdan bin mohammed attends graduation ceremony at hbmsu": {
   "last_short": "2026-10-13",

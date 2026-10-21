@@ -4811,7 +4811,8 @@
     198.51
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 319
  },
  "hamdan bin mohammed opens 40th edition of gitex": {
   "last_short": "2026-10-11",
@@ -5100,8 +5101,8 @@
   "video_len": 226
  },
  "hamdan bin mohammed opens smart police station at la mer": {
-  "last_short": "2026-10-13",
-  "shorts_made": 1,
+  "last_short": "2026-10-22",
+  "shorts_made": 2,
   "shot_ranges": [
    [
     36.26,
@@ -5114,9 +5115,26 @@
    [
     105.82,
     107.78999999999999
+   ],
+   [
+    26.32,
+    28.919999999999998
+   ],
+   [
+    31.36,
+    33.88
+   ],
+   [
+    72.84,
+    77.47999999999999
+   ],
+   [
+    128.8,
+    131.35999999999999
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 223
  },
  "hamdan bin mohammed opens the race to excellence": {
   "last_short": "2026-10-19",
@@ -6587,7 +6605,8 @@
     25.349999999999998
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 311
  },
  "hamdan bin mohammed visits dubai airshow 2017": {
   "video_exhausted": true

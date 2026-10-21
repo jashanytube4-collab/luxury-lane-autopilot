@@ -247,6 +247,25 @@ class StoryMaker:
             scenes = [(0.05, dur - 0.05)] if dur > 0.8 else []
         return Visuals(dest, scenes, []) if scenes else None
 
+    def _stock(self, tok: str, work: Path) -> Visuals | None:
+        """A Storyblocks stock clip (sb-<id>), stored in the footage library as stock-<id>.mp4."""
+        dest = work / "clips" / f"{tok}.mp4"
+        if not dest.exists():
+            dest.parent.mkdir(parents=True, exist_ok=True)
+            local = ROOT / "work" / "women" / "raw" / f"{tok[3:]}.mp4"
+            lib = getattr(self.studio.hamdan, "library", None)
+            if local.exists():
+                shutil.copy(local, dest)
+            elif not (lib and lib.fetch(f"stock-{tok[3:]}.mp4", dest)):
+                log.warning("stock clip %r is not in the footage library", tok)
+                return None
+        from .longform import _scene_list, probe
+        scenes = _scene_list(dest)
+        if not scenes:
+            dur = probe(dest)["duration"]
+            scenes = [(0.05, dur - 0.05)] if dur > 0.8 else []
+        return Visuals(dest, scenes, []) if scenes else None
+
     def _events_matching(self, pattern: str | None) -> list[str]:
         rx = re.compile(pattern, re.I) if pattern else None
         keys = [k for k, e in self.events.items()
@@ -313,6 +332,10 @@ class StoryMaker:
                 if made:
                     vis.append(Visuals(made[0], [(0.05, made[1] - 0.05)], []))
                     out.sources[id(vis[-1])] = "chart"
+            elif tok.startswith("sb-"):        # licensed Storyblocks stock clip (mood only), kept in the footage library
+                v = self._stock(tok, work)
+                if v:
+                    out.sources[id(v)] = "stock"
             elif tok.startswith("clip:"):
                 v = self._clip(tok[5:], work)
                 if v:

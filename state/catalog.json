@@ -128,8 +128,8 @@
   "long": "2026-10-17"
  },
  "dubai crown prince attends graduation of dubai police academy": {
-  "last_short": "2026-10-13",
-  "shorts_made": 1,
+  "last_short": "2026-10-21",
+  "shorts_made": 2,
   "shot_ranges": [
    [
     135.26,
@@ -150,9 +150,26 @@
    [
     526.4200000000001,
     528.1500000000001
+   ],
+   [
+    124.84,
+    128.28
+   ],
+   [
+    167.0,
+    170.44
+   ],
+   [
+    442.6,
+    446.32
+   ],
+   [
+    949.36,
+    955.0
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 1017
  },
  "dubai crown prince attends wedding reception": {
   "last_short": "2026-10-12",

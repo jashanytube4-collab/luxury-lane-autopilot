@@ -121,7 +121,8 @@
     52.07000000000001
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 102
  },
  "dubai crown prince attends al marri al falasi family wedding": {
   "long": "2026-10-17"
@@ -167,7 +168,8 @@
     79.59
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 109
  },
  "dubai crown prince commends students selected for the hamdan bin mohammed scholarship programme": {
   "last_short": "2026-10-08",
@@ -1645,7 +1647,8 @@
     220.42999999999998
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 249
  },
  "hamdan bin mohammed attends iftar banquet with autistic children and their families": {
   "last_short": "2026-10-09",
@@ -6405,9 +6408,9 @@
   "video_len": 260
  },
  "hamdan bin mohammed visits dubai international boat show": {
-  "last_short": "2026-10-13",
+  "last_short": "2026-10-21",
   "long": "2026-10-14",
-  "shorts_made": 1,
+  "shorts_made": 2,
   "shot_ranges": [
    [
     16.380000000000003,
@@ -6416,9 +6419,30 @@
    [
     47.82,
     49.550000000000004
+   ],
+   [
+    9.12,
+    13.8
+   ],
+   [
+    41.519999999999996,
+    44.32
+   ],
+   [
+    68.12,
+    70.92
+   ],
+   [
+    102.88000000000001,
+    105.52
+   ],
+   [
+    154.68,
+    158.2
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 263
  },
  "hamdan bin mohammed visits dubai sports council": {
   "long": "2026-10-18",

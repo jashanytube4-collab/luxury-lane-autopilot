@@ -1,6 +1,6 @@
 {
  "ig_status": {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "ok": true
  },
  "lines_used": {
@@ -380,7 +380,16 @@
   "lld4426d4393",
   "ll3d119ec827",
   "ll0bfb5cf0e0",
-  "llee7f904834"
+  "llee7f904834",
+  "ll2d6b310d60",
+  "ll2a9e6c4c38",
+  "ll6557a16b25",
+  "ll56f2b9571e",
+  "llb942d8bce5",
+  "llda44e3bb20",
+  "ll202e0be9c8",
+  "llf274d73eef",
+  "llfbf815fb15"
  ],
  "quotes": [
   {
@@ -490,7 +499,6 @@
   }
  ],
  "recent_hooks": [
-  "FAZZA DID THIS | Fazza Honored The Man Who Built Our Defense 🛡️",
   "FAZZA IN CONTROL | Prince Hamdan Ensures Millions Move In Peace 🚗",
   "FAZZA BUILDING BRIDGES | Prince Hamdan Builds Bridges For Dubai 🤍",
   "FAZZA INSPECTS | Prince Hamdan Watches Defense Briefing With Pride 🛡️",
@@ -549,7 +557,8 @@
   "NO ONE CARRIES IT LIKE HIM | Every great city has a guardian. Dubai has Fazza. 🤍 #youtube #youtubeshorts",
   "QUIET POWER | He never forgets where he comes from. 👑 #youtube #youtubeshorts",
   "LEADING WITHOUT SAYING A WORD | Elegance, strength and a heart of gold. 🤍 #youtube #youtubeshorts",
-  "THIS IS WHY MILLIONS LOVE HIM | Fearless in the sky, gentle on the ground. ❤️ #youtube #youtubeshorts"
+  "THIS IS WHY MILLIONS LOVE HIM | Fearless in the sky, gentle on the ground. ❤️ #youtube #youtubeshorts",
+  "THE PRINCE OF DUBAI | His actions speak in every language. 🤍 #youtubeshorts #youtube"
  ],
  "recent_titles": [
   "Prince Hamdan's Humble Side 🥀 #faz3 #fazza #dubai #princehamdan #ytshorts",
@@ -689,12 +698,13 @@
   "Every great city has a guardian. Dubai has Fazza. 🤍 #youtube #youtubeshorts",
   "He never forgets where he comes from. 👑 #youtube #youtubeshorts",
   "Elegance, strength and a heart of gold. 🤍 #youtube #youtubeshorts",
-  "Fearless in the sky, gentle on the ground. ❤️ #youtube #youtubeshorts"
+  "Fearless in the sky, gentle on the ground. ❤️ #youtube #youtubeshorts",
+  "His actions speak in every language. 🤍 #youtubeshorts #youtube"
  ],
  "shorts_supply": {
-  "date": "2026-10-20",
-  "days": 8.5,
-  "events": 255
+  "date": "2026-10-21",
+  "days": 8.3,
+  "events": 250
  },
  "stories_done": [
   "flydubai-hero",

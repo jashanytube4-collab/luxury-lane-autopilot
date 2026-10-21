@@ -312,7 +312,8 @@
     57.39000000000001
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 68
  },
  "dubai crown prince offers condolences to alkaabi family": {
   "long": "2026-10-17",
@@ -3498,7 +3499,8 @@
     228.19
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 268
  },
  "hamdan bin mohammed launches the government games initiative": {
   "last_short": "2026-10-14",
@@ -6169,8 +6171,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits dental exhibition in dubai": {
-  "last_short": "2026-10-18",
-  "shorts_made": 2,
+  "last_short": "2026-10-21",
+  "shorts_made": 3,
   "shot_ranges": [
    [
     44.379999999999995,
@@ -6199,6 +6201,22 @@
    [
     152.88,
     157.84
+   ],
+   [
+    2.08,
+    5.36
+   ],
+   [
+    15.68,
+    18.32
+   ],
+   [
+    29.040000000000003,
+    33.04
+   ],
+   [
+    141.12,
+    144.48
    ]
   ],
   "video_exhausted": true,

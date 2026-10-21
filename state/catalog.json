@@ -6679,8 +6679,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits exhibition that tells story of uae s participation in world expos": {
-  "last_short": "2026-10-19",
-  "shorts_made": 2,
+  "last_short": "2026-10-22",
+  "shorts_made": 3,
   "shot_ranges": [
    [
     35.3,
@@ -6705,8 +6705,25 @@
    [
     220.24,
     224.44
+   ],
+   [
+    17.560000000000002,
+    21.4
+   ],
+   [
+    144.92000000000002,
+    149.2
+   ],
+   [
+    193.52,
+    198.4
+   ],
+   [
+    201.28,
+    204.76
    ]
-  ]
+  ],
+  "video_len": 225
  },
  "hamdan bin mohammed visits field hospital in dwtc": {
   "video_exhausted": true,

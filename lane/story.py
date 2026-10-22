@@ -270,10 +270,11 @@ class StoryMaker:
                 log.warning("stock clip %r is not in the footage library", tok)
                 return None
         from .longform import _scene_list, probe
-        scenes = _scene_list(dest)
+        scenes = _scene_list(dest, piece=3.8)    # stock stays on screen 3-5 s: a long clip becomes several pieces
         if not scenes:
             dur = probe(dest)["duration"]
             scenes = [(0.05, dur - 0.05)] if dur > 0.8 else []
+        scenes = scenes[::2] + scenes[1::2]      # pieces of one clip come out of order: a cut never continues the same motion
         return Visuals(dest, scenes, []) if scenes else None
 
     def _events_matching(self, pattern: str | None) -> list[str]:
@@ -346,7 +347,7 @@ class StoryMaker:
                 v = self._stock(tok, work)
                 if v:
                     vis.append(v)
-                    out.sources[id(v)] = "stock"
+                    out.sources[id(v)] = f"stock:{tok}"
             elif tok.startswith("clip:"):
                 v = self._clip(tok[5:], work)
                 if v:

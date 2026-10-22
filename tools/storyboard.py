@@ -12,7 +12,7 @@ W, H, ROWS = 200, 112, 9
 
 def find(tok: str) -> Path | None:
     if tok.startswith("sb-"):
-        for d in ("raw", "raw2", "raw3"):
+        for d in ("raw", "raw2", "raw3", "raw4", "raw5"):
             p = ROOT / "work" / "women" / d / f"{tok[3:]}.mp4"
             if p.exists():
                 return p

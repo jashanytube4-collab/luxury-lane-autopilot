@@ -116,7 +116,7 @@ class Visuals:
     photos: list[Path]
 
 
-def _scene_list(video: Path) -> list[tuple[float, float]]:
+def _scene_list(video: Path, piece: float = 6.0) -> list[tuple[float, float]]:
     info = probe(video)
     cuts = scene_cuts(video, info["fps"])
     edges = [0.0] + [c for c in cuts if 0.4 < c < info["duration"] - 0.4] + [info["duration"]]
@@ -125,7 +125,7 @@ def _scene_list(video: Path) -> list[tuple[float, float]]:
         a, b = a + 0.12, b - 0.12
         if b - a < 1.6:
             continue
-        n = max(1, int((b - a) // 6.0))
+        n = max(1, int((b - a) // piece))
         step = (b - a) / n
         scenes += [(a + i * step, a + (i + 1) * step) for i in range(n)]
     return scenes
@@ -230,7 +230,7 @@ def _chapter_shots(pool: list[Item], seconds: float, rng: random.Random, reserve
         left = seconds - total
         if _supply(pool) < left and reserve:
             pool.append(reserve.pop(0))
-        stretch = max(1.0, left / max(1.0, _supply(pool)))
+        stretch = max(1.0, min(1.25, left / max(1.0, _supply(pool))))     # never hold a picture long to fill time
         want = "photo" if photo_every and k % photo_every == photo_every - 1 else "video"   # mostly motion
         k += 1
         if shots and shots[-1].kind == "photo":      # never two photos in a row
@@ -241,6 +241,12 @@ def _chapter_shots(pool: list[Item], seconds: float, rng: random.Random, reserve
                     reserve.remove(vid)
                     pool.append(vid)
         it = _take(pool, want) or _take(pool)
+        if it is not None and shots and it.src == shots[-1].src:     # never cut from a clip to the next piece of the same clip
+            alt = next((x for x in pool if x.src != it.src and x.kind == it.kind), None)
+            if alt is not None:
+                pool.remove(alt)
+                pool.insert(0, it)
+                it = alt
         if it is None and again:                        # out of new pictures: this sentence's own clip again,
             it = again[k % len(again)]                  # never something off-topic
             log.info("sentence shows its own clip again: %s", Path(it.src).name)

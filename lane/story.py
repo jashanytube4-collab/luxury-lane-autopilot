@@ -36,7 +36,7 @@ import yaml
 from . import audio, commons, qa
 from .config import ASSETS_DIR
 from .beats import POP_STYLE, align, make_card, pop_event
-from .longform import (ASS_HEADER, FPS, LW, EpisodeResult, Item, Material, Overlay, Shot, Visuals, _chapter_shots,
+from .longform import (ASS_HEADER, FPS, LW, EpisodeResult, Item, Material, Overlay, Shot, Visuals, _chapter_shots, fit_shots,
                        _esc, _mix_long, _punctuate, _shot, _subtitle_lines, _take, render_timeline)
 from .voice import synthesize
 
@@ -514,10 +514,18 @@ def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int)
     ov = Overlay()
     pops: list[tuple[float, float, str]] = []
     t = 0.0
-    gap = 0.45                                           # breath between sections
+    gap = 0.2                                            # breath after the last word of a section
+    boundaries: list[tuple[int, float, float]] = []      # (section, silence before its voice, longest pause inside it)
+    prev_tail = 0.0
     for i, (sec, voice) in enumerate(zip(story.sections, voices)):
         start = t
-        length = voice.duration + gap + (0.6 if i == 0 else 0)
+        offset0 = 0.6 if i == 0 else 0.15
+        speech = voice.words[-1]["end"] if voice.words else voice.duration
+        length = max(speech + 0.1, voice.duration - 0.25) + gap + offset0
+        lead = voice.words[0]["start"] if voice.words else 0.0
+        inner = max((b2["start"] - a2["end"] for a2, b2 in zip(voice.words, voice.words[1:])), default=0.0)
+        boundaries.append((i, prev_tail + offset0 + lead, inner))
+        prev_tail = length - offset0 - speech
         pool = pools[i]
         if sec.get("beats"):   # sentence-level visuals: each beat shows its own pictures while it is spoken
             offset = 0.6 if i == 0 else 0.15
@@ -565,6 +573,7 @@ def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int)
                     pops.append((start + a + 0.25, start + a + min(2.8, d), str(beat["pop"])))
                 if i == 0 and j > 0:
                     bshots[0].flash_in = 4
+                fit_shots(bshots, d)                  # the pictures last exactly as long as the sentence
                 sec_shots += bshots
             if i == 0:
                 sec_shots[0].dip_in = 8
@@ -590,6 +599,7 @@ def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int)
                 sec_shots[-1].frames = max(FPS, sec_shots[-1].frames - over)
             else:
                 sec_shots = _chapter_shots(pool, length, rng, spare or borrow(i), used)
+            fit_shots(sec_shots, length)
             sec_shots[0].dip_in = 8
             sfx.append((0.0, audio.impact(seed), -12.0))
         else:
@@ -597,6 +607,7 @@ def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int)
             sec_shots = _chapter_shots(pool, length, rng, extra, used, pace=(3.0, 4.4), still=(3.4, 4.6))
             for p in pools:                      # pictures borrowed by this part are not shown again later
                 p[:] = [it for it in p if it not in used]
+            fit_shots(sec_shots, length)
             sec_shots[0].xfade_in = 10
             sfx.append((start - 0.2, audio.whoosh(seed + i, 0.5), -16.0))
         shots += sec_shots
@@ -607,6 +618,10 @@ def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int)
         if i in (1, len(story.sections) // 2):
             music_plan.append((start, story.mood if i == 1 else _second_mood(story.mood)))
         t = start + sum(s.frames for s in sec_shots) / FPS
+    dead = [f"section {i + 1}: {max(g, p):.1f}s without a voice" for i, g, p in boundaries[1:] if max(g, p) > 2.0]
+    log.info("voice gaps (s) between sections: %s", [round(g, 2) for _, g, _ in boundaries])
+    if dead:
+        raise RuntimeError("dead air (more than 2 s without narration): " + "; ".join(dead))
     # leftovers of the story's own pictures go to the closing card background
     if end_card > 0:
         hero = (got.his_photos or [Path(shots[0].src)])[0]

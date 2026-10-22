@@ -7,6 +7,7 @@ from pathlib import Path
 import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
 STORIES = ROOT / "assets" / "stories"
 
 
@@ -53,6 +54,27 @@ def lint(path: Path) -> list[str]:
         for tok in b.get("show", []) or []:
             if str(tok).startswith(("search:", "cat:")):
                 problems.append(f"photo '{tok}' in the first 30 s")
+    # the first 30 s: only native 16:9 clips (no vertical / pillarboxed footage); probed from the local files
+    words = 0
+    for i, b in enumerate(beats):
+        if words > 75:
+            break
+        words += len(re.findall(r"\w+", b.get("say", "")))
+        for tok in b.get("show", []) or []:
+            tok = str(tok)
+            if tok.startswith(("clip:", "sb-")):
+                try:
+                    from tools.storyboard import find
+                    f = find(tok)
+                    if f is not None:
+                        import subprocess
+                        r = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries",
+                                            "stream=width,height", "-of", "csv=p=0", str(f)], capture_output=True, text=True)
+                        w, h = (int(x) for x in r.stdout.strip().split(",")[:2])
+                        if w / h < 1.7:
+                            problems.append(f"beat {i}: {tok} is {w}x{h}, not 16:9: not allowed in the first 30 s")
+                except (OSError, ValueError):
+                    pass
     if len(set(t for _, t in seq if t.startswith("sb-"))) + len({t for _, t in seq if t.startswith("clip:")}) < 40:
         problems.append("fewer than 40 different clips named")
     # checklist 13/14: open loop in the first beat, one CTA only at the very end, the video ends on Hamdan

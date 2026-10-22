@@ -269,6 +269,30 @@ def _chapter_shots(pool: list[Item], seconds: float, rng: random.Random, reserve
     return shots
 
 
+def fit_shots(shots: list[Shot], seconds: float, min_len: float = 0.7) -> None:
+    """Make a run of shots last exactly `seconds` (in place). Shots that are too long are trimmed from the end
+    (never below `min_len`), then trailing shots are dropped; too short: the last shot is extended. Without this the
+    pictures drift ahead of the narration and the next sentence starts late (dead air)."""
+    if not shots:
+        return
+    target = int(round(seconds * FPS))
+    floor = int(min_len * FPS)
+    over = sum(s.frames for s in shots) - target
+    for s in reversed(shots):
+        if over <= 0:
+            break
+        cut = min(over, max(0, s.frames - floor))
+        s.frames -= cut
+        over -= cut
+    while over > 0 and len(shots) > 1:
+        over -= shots.pop().frames
+        if over < 0:
+            shots[-1].frames += -over      # dropped a shot that was longer than the excess: give the time back
+            over = 0
+    cur = sum(s.frames for s in shots)
+    shots[-1].frames = max(6, shots[-1].frames + (target - cur))
+
+
 # ---- frame production ----------------------------------------------------------------------------------------
 def _layout(w: int, h: int) -> str:
     return "fill" if w / h >= 1.45 else "pillar"

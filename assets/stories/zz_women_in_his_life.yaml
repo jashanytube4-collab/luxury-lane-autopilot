@@ -34,9 +34,8 @@ sections:
 - beats:
   - say: Why has the world never seen the faces of the women closest to Prince Hamdan? Stay until the end, and I will reveal the answer.
     show:
-    - clip:deepdive
-    - sb-352835520
     - clip:falcon-hunt
+    - clip:dubairun
   - say: I mean the women of his family.
     show:
     - sb-352965901
@@ -44,14 +43,14 @@ sections:
   - say: His mother, whose photograph has reportedly never been officially published.
     show:
     - sb-347615179
-    - clip:camels
+    - him
   - say: His grandmother, remembered across Dubai as the Mother of Dubai.
     show:
     - sb-351941085
     - him
   - say: His wife, who, as far as we can find, has never given a single interview.
     show:
-    - clip:horse-car
+    - him
     - sb-348896723
   - say: And four small children, growing up inside one of the most watched families in the Gulf.
     show:
@@ -68,11 +67,11 @@ sections:
     - sb-11081347
   - say: Stay until the end, and let's begin.
     show:
-    - clip:white-horse
+    - clip:rider-meet
 - beats:
   - say: Start at the top of the family, with Sheikha Hind bint Maktoum bin Juma Al Maktoum.
     show:
-    - clip:horse-stable
+    - him
     - sb-346714911
   - say: She is the senior wife of Sheikh Mohammed bin Rashid, the ruler of Dubai, and she is the mother of Prince Hamdan.
     show:
@@ -329,7 +328,7 @@ sections:
     - him
   - say: What the record does show is a husband, a father of four, and a son who named his daughter after his mother.
     show:
-    - clip:rider-meet
+    - him
     - him
   - say: That is the real circle around Prince Hamdan, a mother who stays out of sight, a grandmother who gave women a voice, a wife who guards her privacy, and daughters
       who carry old names into a new Dubai.

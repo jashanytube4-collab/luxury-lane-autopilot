@@ -33,6 +33,17 @@ def lint(path: Path) -> list[str]:
                 problems.append(f"{t} was REJECTED: {bad[sid]}")
             elif sid not in ok:
                 problems.append(f"{t} was never looked at (not approved in assets/stock_vetted.yaml)")
+    # time per clip: ~2.5 words/s; a beat's seconds are split over its show items (stock max 6 s, any clip max 8 s)
+    for i, b in enumerate(beats):
+        shows = [str(t) for t in (b.get("show") or [])]
+        if not shows:
+            continue
+        secs = len(re.findall(r"\w+", b.get("say", ""))) / 2.5
+        per = secs / len(shows)
+        if per > 6 and any(t.startswith("sb-") for t in shows):
+            problems.append(f"beat {i}: stock shown ~{per:.0f}s each (max 6 s): {b.get('say','')[:50]}")
+        elif per > 8:
+            problems.append(f"beat {i}: one clip ~{per:.0f}s (max 8 s): {b.get('say','')[:50]}")
     # the first 30 s: ~75 words/30 s at normal pace -> the first beats; they must be moving footage, not photos
     words = 0
     for i, b in enumerate(beats):

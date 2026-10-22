@@ -55,7 +55,7 @@ sections:
     - sb-348896723
   - say: And four small children, growing up inside one of the most watched families in the Gulf.
     show:
-    - clip:twins-stroller
+    - him
     - sb-6803751
   - say: Today we follow the women behind Prince Hamdan, using only the public record, with no invented gossip.
     show:
@@ -202,7 +202,7 @@ sections:
 - beats:
   - say: Prince Hamdan and his wife have four children.
     show:
-    - clip:bike-twins
+    - him
   - say: In May twenty twenty-one, they welcomed twins, a son named Rashid and a daughter named Shaikha.
     show:
     - sb-6852421
@@ -238,10 +238,10 @@ sections:
     - sb-354144467
   - say: Government sources say women now make up about seventy percent of the country's university graduates.
     show:
-    - key:hamdan bin mohammed meets first batch of female cadets graduating from dubai police academy
+    - him
   - say: And Prince Hamdan has put his own name behind this.
     show:
-    - key:hamdan bin mohammed meets first batch of female cadets graduating from dubai police academy
+    - him
   - say: In August twenty twenty, he met the first twenty-nine women cadets to graduate from Dubai Police Academy.
     show:
     - key:hamdan bin mohammed meets first batch of female cadets graduating from dubai police academy
@@ -282,7 +282,7 @@ sections:
 - beats:
   - say: Now, the question the internet keeps asking. Are there other women in his life?
     show:
-    - sb-354985879
+    - sb-352542575
   - say: We went looking, and we are going to be careful.
     show:
     - sb-10523802

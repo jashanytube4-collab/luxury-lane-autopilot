@@ -8732,6 +8732,7 @@
  },
  "ig:faz3:18062756032958079": {
   "last_short": "2026-10-20",
+  "no_hamdan": true,
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -8742,7 +8743,9 @@
     41.48,
     54.129999999999995
    ]
-  ]
+  ],
+  "video_exhausted": true,
+  "video_len": 78
  },
  "ig:faz3:18064891595415941": {
   "long": "2026-10-23",

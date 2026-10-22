@@ -37,6 +37,9 @@
  "crown prince attends al falasi s wedding": {
   "long": "2026-10-22"
  },
+ "crown prince of abu dhabi receives crown prince of dubai": {
+  "long": "2026-10-23"
+ },
  "crown prince of dubai inaugurates the hamdan smart station for simulation and training": {
   "last_short": "2026-10-11",
   "shorts_made": 1,
@@ -100,8 +103,14 @@
  "dubai cp attends al amri wedding": {
   "long": "2026-10-22"
  },
+ "dubai cp attends endurance race in seeh al salam": {
+  "no_hamdan": true
+ },
  "dubai cp receives uae flag from sharjah crown prince": {
   "video_exhausted": true
+ },
+ "dubai cp wins endurance test event for word equestrian games weg 2014": {
+  "long": "2026-10-23"
  },
  "dubai crown prince arrives in manama for endurance race": {
   "no_hamdan": true
@@ -478,6 +487,9 @@
   "video_exhausted": true,
   "video_len": 197
  },
+ "dubai crown prince visits worldskills abu dhabi 2017": {
+  "long": "2026-10-23"
+ },
  "dubai executive council approves annual agenda for 2018": {
   "video_exhausted": true
  },
@@ -531,6 +543,9 @@
  "hamdan attends 3rd day of annual camel race festival": {
   "long": "2026-10-18"
  },
+ "hamdan attends abu dhabi world professional jiu jitsu championship finals": {
+  "long": "2026-10-23"
+ },
  "hamdan attends al falasi and al ahbabi wedding": {
   "long": "2026-10-22"
  },
@@ -547,8 +562,14 @@
  "hamdan attends dubai smart city first meeting": {
   "video_exhausted": true
  },
+ "hamdan attends endurance race": {
+  "long": "2026-10-23"
+ },
  "hamdan attends endurance race at seih al salam": {
   "long": "2026-10-18"
+ },
+ "hamdan attends gamilati endurance cup": {
+  "no_hamdan": true
  },
  "hamdan attends jamilati endurance cup": {
   "no_hamdan": true
@@ -560,6 +581,9 @@
   "no_hamdan": true
  },
  "hamdan attends opening of nad al sheba sports tournament": {
+  "no_hamdan": true
+ },
+ "hamdan attends private stables endurance race at seeh al salam": {
   "no_hamdan": true
  },
  "hamdan attends the second day of al marmoom camel racing festival": {
@@ -1214,6 +1238,7 @@
  "hamdan bin mohammed attends ceremony marking 49th anniversary of uae armed forces unification": {
   "fails": 1,
   "last_short": "2026-10-17",
+  "long": "2026-10-23",
   "photo_short": true,
   "shorts_made": 1,
   "shot_ranges": [],
@@ -1769,7 +1794,7 @@
  },
  "hamdan bin mohammed attends iftar banquet with autistic children and their families": {
   "last_short": "2026-10-09",
-  "long": "2026-10-20",
+  "long": "2026-10-23",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -1952,6 +1977,9 @@
  "hamdan bin mohammed attends safeguarding endangered cultural heritage conference": {
   "long": "2026-10-13",
   "video_exhausted": true
+ },
+ "hamdan bin mohammed attends sardinia endurance race": {
+  "no_hamdan": true
  },
  "hamdan bin mohammed attends second day of dubai games 2025": {
   "fails": 1,
@@ -2519,6 +2547,7 @@
  },
  "hamdan bin mohammed concludes first official visit to india commends strong bilateral partnership": {
   "last_short": "2026-10-07",
+  "long": "2026-10-23",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -2725,6 +2754,9 @@
   ],
   "video_exhausted": true,
   "video_len": 62
+ },
+ "hamdan bin mohammed emphasises crucial role of armed forces in securing nation s progress during visit to abu dhabi military facility": {
+  "long": "2026-10-23"
  },
  "hamdan bin mohammed explores future of space sector with leading uae based startups": {
   "last_short": "2026-10-16",
@@ -3039,6 +3071,7 @@
  },
  "hamdan bin mohammed honours the winner of the best minister in the world award": {
   "fails": 1,
+  "long": "2026-10-23",
   "video_exhausted": true
  },
  "hamdan bin mohammed honours winners of 5th islamic economy award": {
@@ -3133,6 +3166,7 @@
  },
  "hamdan bin mohammed inaugurates biggest edition of idex in abu dhabi": {
   "last_short": "2026-10-08",
+  "long": "2026-10-23",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3157,6 +3191,7 @@
  },
  "hamdan bin mohammed inaugurates dp world s nhava sheva business park in india": {
   "last_short": "2026-10-07",
+  "long": "2026-10-23",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -4394,6 +4429,12 @@
   ],
   "video_exhausted": true,
   "video_len": 36
+ },
+ "hamdan bin mohammed meets with italy s defence minister in abu dhabi": {
+  "long": "2026-10-23"
+ },
+ "hamdan bin mohammed meets with khaled bin mohamed bin zayed": {
+  "no_hamdan": true
  },
  "hamdan bin mohammed meets with kuwait s minister of defence": {
   "video_exhausted": true
@@ -5788,7 +5829,7 @@
  },
  "hamdan bin mohammed reviews outcomes of sheikha hind bint maktoum family program and praises its profound social impact": {
   "last_short": "2026-10-16",
-  "long": "2026-10-17",
+  "long": "2026-10-23",
   "photo_short": true,
   "shorts_made": 2,
   "shot_ranges": [
@@ -7311,6 +7352,7 @@
  },
  "hamdan bin mohammed visits reserve forces command in abu dhabi": {
   "fails": 1,
+  "long": "2026-10-23",
   "video_exhausted": true,
   "video_len": 33
  },
@@ -7402,6 +7444,7 @@
  },
  "hamdan bin mohammed visits the ministry of foreign affairs in abu dhabi": {
   "last_short": "2026-10-21",
+  "long": "2026-10-23",
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -7497,6 +7540,9 @@
   ],
   "video_exhausted": true,
   "video_len": 75
+ },
+ "hamdan bin mohammed visits umex and simtex 2022 exhibition in abu dhabi": {
+  "no_hamdan": true
  },
  "hamdan bin mohammed visits visa s new regional headquarters in dubai internet city": {
   "last_short": "2026-10-10",
@@ -7793,7 +7839,7 @@
   "video_len": 60
  },
  "ig:dubaimediaoffice:17987254074053166": {
-  "long": "2026-10-22",
+  "long": "2026-10-23",
   "video_exhausted": true,
   "video_len": 93
  },
@@ -7837,6 +7883,7 @@
   "video_len": 328
  },
  "ig:dubaimediaoffice:18134849212629565": {
+  "long": "2026-10-23",
   "video_exhausted": true,
   "video_len": 60
  },
@@ -7861,6 +7908,7 @@
   "video_len": 15
  },
  "ig:faz3:17841490936024724": {
+  "no_hamdan": true,
   "video_exhausted": true,
   "video_len": 15
  },
@@ -7869,6 +7917,8 @@
   "video_len": 15
  },
  "ig:faz3:17841490963024724": {
+  "long": "2026-10-23",
+  "no_hamdan": true,
   "video_exhausted": true,
   "video_len": 15
  },
@@ -7961,7 +8011,7 @@
   "video_len": 15
  },
  "ig:faz3:17844415069720278": {
-  "long": "2026-10-22",
+  "long": "2026-10-23",
   "no_hamdan": true
  },
  "ig:faz3:17844473731109359": {
@@ -8200,7 +8250,7 @@
   "video_len": 49
  },
  "ig:faz3:17861456321349970": {
-  "long": "2026-10-21",
+  "long": "2026-10-23",
   "no_hamdan": true,
   "video_exhausted": true
  },
@@ -8307,7 +8357,7 @@
   "video_len": 37
  },
  "ig:faz3:17878608887918059": {
-  "long": "2026-10-21",
+  "long": "2026-10-23",
   "no_hamdan": true,
   "video_exhausted": true
  },
@@ -8443,7 +8493,7 @@
   "video_len": 49
  },
  "ig:faz3:17901918514301358": {
-  "long": "2026-10-22",
+  "long": "2026-10-23",
   "no_hamdan": true
  },
  "ig:faz3:17904706891132148": {
@@ -8477,7 +8527,7 @@
   "video_len": 14
  },
  "ig:faz3:17916707464321339": {
-  "long": "2026-10-22",
+  "long": "2026-10-23",
   "no_hamdan": true
  },
  "ig:faz3:17916885400301536": {
@@ -8583,6 +8633,8 @@
   "no_hamdan": true
  },
  "ig:faz3:17970792520067899": {
+  "long": "2026-10-23",
+  "no_hamdan": true,
   "video_exhausted": true,
   "video_len": 40
  },
@@ -8624,6 +8676,8 @@
   "video_len": 105
  },
  "ig:faz3:18006598649398953": {
+  "long": "2026-10-23",
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "ig:faz3:18007999939942961": {
@@ -8691,7 +8745,7 @@
   ]
  },
  "ig:faz3:18064891595415941": {
-  "long": "2026-10-20",
+  "long": "2026-10-23",
   "no_hamdan": true,
   "video_exhausted": true
  },
@@ -8707,15 +8761,17 @@
   "video_exhausted": true
  },
  "ig:faz3:18095594779160670": {
-  "long": "2026-10-22",
+  "long": "2026-10-23",
   "no_hamdan": true,
   "video_exhausted": true
  },
  "ig:faz3:18098909275484024": {
-  "long": "2026-10-22",
+  "long": "2026-10-23",
   "no_hamdan": true
  },
  "ig:faz3:18099034300454696": {
+  "long": "2026-10-23",
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "ig:faz3:18101032345138537": {
@@ -8726,7 +8782,7 @@
   "video_exhausted": true
  },
  "ig:faz3:18106640728979406": {
-  "long": "2026-10-18",
+  "long": "2026-10-23",
   "no_hamdan": true,
   "video_exhausted": true
  },
@@ -8750,12 +8806,12 @@
   "video_exhausted": true
  },
  "ig:faz3:18155759944168180": {
-  "long": "2026-10-20",
+  "long": "2026-10-23",
   "no_hamdan": true,
   "video_exhausted": true
  },
  "ig:faz3:18163124008405401": {
-  "long": "2026-10-22",
+  "long": "2026-10-23",
   "no_hamdan": true,
   "video_exhausted": true
  },
@@ -8779,7 +8835,7 @@
   "video_exhausted": true
  },
  "ig:faz3:18426448819098880": {
-  "long": "2026-10-22",
+  "long": "2026-10-23",
   "video_exhausted": true
  },
  "ig:faz3:18429849919109636": {
@@ -8899,7 +8955,7 @@
  "khaled bin mohamed bin zayed hamdan bin mohammed bin rashid tour natural history museum abu dhabi in saadiyat cultural district": {
   "fails": 1,
   "last_short": "2026-10-15",
-  "long": "2026-10-13",
+  "long": "2026-10-23",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -8921,6 +8977,9 @@
   "long": "2026-10-21",
   "video_exhausted": true,
   "video_len": 64
+ },
+ "khaled bin mohamed hamdan bin mohammed receive delegations attending dubai airshow 2023": {
+  "long": "2026-10-23"
  },
  "khalifasat launches successfully into orbit emphasising uae s leadership in developing satellites": {
   "last_short": "2026-10-22",
@@ -9003,12 +9062,22 @@
   "video_exhausted": true,
   "video_len": 180
  },
+ "king salman held talks with mohamed bin zayed in presence of hamdan bin mohammed": {
+  "long": "2026-10-23"
+ },
  "latifa bint mohammed affirms power of culture and its pivotal role in economic and social development at wgs 2022": {
+  "no_hamdan": true
+ },
+ "mansour bin zayed abu dhabi crown prince sheikhs receive crown princes well wishers at al mushrif palace": {
+  "no_hamdan": true
+ },
+ "mohamed bin zayed and hamdan bin mohammed attend formula 1 abu dhabi grand prix 2013": {
   "no_hamdan": true
  },
  "mohamed bin zayed hamdan bin mohammed attend adsw 2020": {
   "fails": 1,
   "last_short": "2026-10-12",
+  "long": "2026-10-23",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -9028,6 +9097,7 @@
   "video_len": 300
  },
  "mohamed bin zayed hamdan bin mohammed take part in walk unified event": {
+  "long": "2026-10-23",
   "video_exhausted": true,
   "video_len": 287
  },
@@ -9380,6 +9450,9 @@
  "uae president receives us president trump in official ceremony at qasr al watan": {
   "no_hamdan": true
  },
+ "uae president sheikhs state guests attend formula 1 abu dhabi grand prix": {
+  "long": "2026-10-23"
+ },
  "uae president takes etihad rail to dubai hamdan bin mohammed bin rashid theyab bin mohamed bin zayed open station": {
   "fails": 2,
   "last_short": "2026-10-05",
@@ -9444,6 +9517,7 @@
   "video_len": 134
  },
  "vp abu dhabi crown prince and rulers of emirates attend commemoration day event in abu dhabi": {
+  "no_hamdan": true,
   "video_exhausted": true
  }
 }

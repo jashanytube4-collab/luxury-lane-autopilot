@@ -34,9 +34,8 @@ sections:
 - beats:
   - say: Why has the world never seen the faces of the women closest to Prince Hamdan? Stay until the end, and I will reveal the answer.
     show:
-    - clip:car-falcon-camel
-    - sb-352835520
     - clip:deepdive
+    - sb-352835520
     - clip:falcon-hunt
   - say: I mean the women of his family.
     show:
@@ -61,14 +60,13 @@ sections:
   - say: Today we follow the women behind Prince Hamdan, using only the public record, with no invented gossip.
     show:
     - sb-353304412
-    - sb-346750383
   - say: And at the end, we will answer the question the internet keeps asking about the other women in his life.
     show:
     - sb-354776114
     - sb-11081347
   - say: Stay until the end, and let's begin.
     show:
-    - clip:dubairun
+    - clip:white-horse
 - beats:
   - say: Start at the top of the family, with Sheikha Hind bint Maktoum bin Juma Al Maktoum.
     show:
@@ -76,7 +74,7 @@ sections:
     - sb-346714911
   - say: She is the senior wife of Sheikh Mohammed bin Rashid, the ruler of Dubai, and she is the mother of Prince Hamdan.
     show:
-    - sb-346694537
+    - sb-11058820
   - say: They were married on the twenty-sixth of April, nineteen seventy-nine.
     show:
     - sb-11111525
@@ -155,7 +153,6 @@ sections:
     - sb-351941112
   - say: She was the mother of Sheikh Mohammed, which makes her Prince Hamdan's grandmother, on his father's side.
     show:
-    - clip:white-horse
     - sb-352932268
   - say: She held a women's majlis several times a week, where women could bring their worries and she would carry them to the ruler.
     show:
@@ -313,4 +310,4 @@ sections:
   - say: If this story changed how you see Fazza, subscribe to The Luxury Lane, and tell us in the comments which woman in his life you would like to know more about.
     show:
     - sb-353710742
-    - clip:skydive
+    - clip:horses

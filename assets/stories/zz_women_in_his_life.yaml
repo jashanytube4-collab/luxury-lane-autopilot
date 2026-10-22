@@ -3,7 +3,7 @@ title: 'The Women Behind Prince Fazza: His Mother, His Wife and the Truth Nobody
 thumbnail:
   text: THE WOMEN
   tag: BEHIND FAZZA
-  scene: clip:windsor-stand@0.3|sb-347714666@4   # Prince Hamdan at Royal Windsor + a smiling Gulf-look woman on the right
+  scene: clip:horses@1|sb-347714666@4   # Prince Hamdan at Royal Windsor + a smiling Gulf-look woman on the right
 mood: elegant
 commons: false                      # Hamdan footage is official/own library; every other picture is licensed Storyblocks stock (mood only)
 footage: Hind|women|Women|Queen|mother|female|Ladies|Windsor
@@ -28,8 +28,8 @@ tags:
 - Fazza 2026
 sections:
 - beats:
-  - say: Dubai has a Crown Prince the whole world watches, but the ones closest to him are almost invisible.
-    show: [sb-352835520, clip:windsor-stand]
+  - say: Why has the world never seen the faces of the women closest to Prince Hamdan? Stay until the end, and I will reveal the answer.
+    show: [clip:windsor-stand, sb-352835520]
   - say: I mean the women of his family.
     show: [sb-347714666, clip:horses]
   - say: His mother, whose photograph has reportedly never been officially published.
@@ -37,7 +37,7 @@ sections:
   - say: His grandmother, remembered across Dubai as the Mother of Dubai.
     show: [sb-352898065]
   - say: His wife, who, as far as we can find, has never given a single interview.
-    show: [sb-353338222]
+    show: [clip:hamdan-post]
   - say: And four small children, growing up inside one of the most watched families in the Gulf.
     show: [clip:twins-stroller, sb-6803751]
   - say: Today we follow the women behind Prince Hamdan, using only the public record, with no invented gossip.
@@ -129,7 +129,7 @@ sections:
       two of his brothers.
     show: [sb-352013755]
   - say: In the years since, we found no interviews with her, and no public appearances.
-    show: [clip:dubairun]
+    show: [clip:burj-flag]
   - say: That is a choice, and it is a very common one in Gulf royal families, where privacy is part of tradition.
     show: [sb-349001918]
   - say: So when a website promises secret photos of Prince Hamdan's wife, be careful, because there are none we can verify.
@@ -216,4 +216,4 @@ sections:
     show: [sb-349101814]
   - say: If this story changed how you see Fazza, subscribe to The Luxury Lane, and tell us in the comments which woman in
       his life you would like to know more about.
-    show: [sb-353710742]
+    show: [sb-353710742, clip:skydive]

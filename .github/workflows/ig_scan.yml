@@ -1,0 +1,36 @@
+name: Instagram family scan
+
+on:
+  workflow_dispatch:
+    inputs:
+      users:
+        description: "Instagram usernames (professional accounts), space separated"
+        default: "hhshkmohd faz3 dubaimediaoffice"
+      pages:
+        description: "Pages of 50 posts per account"
+        default: "20"
+
+permissions:
+  contents: read
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - run: pip install requests
+      - name: Scan (read-only, official Meta Business Discovery API)
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+        run: python -m tools.ig_scan ${{ inputs.users }} --pages ${{ inputs.pages }} --out work/igscan
+      - uses: actions/upload-artifact@v7
+        if: always()
+        with:
+          name: igscan
+          path: work/igscan/
+          retention-days: 7

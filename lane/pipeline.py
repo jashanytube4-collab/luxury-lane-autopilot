@@ -415,6 +415,11 @@ class Runner:
 
     def fill_story(self, day, slot: dict, plan: dict, story) -> bool:
         """A story episode (assets/stories) in the style of the most-watched royal-family channels."""
+        from tools.lint_story import lint_story_id     # pre-render gate (test renders): a failing story is never rendered
+        bad = lint_story_id(story.id) if self.args.dry_run else []
+        if bad:
+            self.report.problem(f"Story '{story.id}' blocked BEFORE render by the pre-render gate: " + "; ".join(bad[:8]))
+            return True
         seed = random.randint(1, 10**9)
         work = WORK_DIR / f"story_{story.id}_{seed % 10000}"
         try:

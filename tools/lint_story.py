@@ -55,12 +55,56 @@ def lint(path: Path) -> list[str]:
                 problems.append(f"photo '{tok}' in the first 30 s")
     if len(set(t for _, t in seq if t.startswith("sb-"))) + len({t for _, t in seq if t.startswith("clip:")}) < 40:
         problems.append("fewer than 40 different clips named")
+    # checklist 13/14: open loop in the first beat, one CTA only at the very end, the video ends on Hamdan
+    if beats:
+        first = str(beats[0].get("say", "")).lower()
+        if "?" not in first or not re.search(r"stay|reveal|end", first):
+            problems.append("open loop missing: beat 1 must ask ONE big question and promise the answer at the end")
+        ctas = [i for i, b in enumerate(beats) if re.search(r"\bsubscribe\b", str(b.get("say", "")), re.I)]
+        if len(ctas) != 1 or ctas[0] != len(beats) - 1:
+            problems.append(f"call-to-action must appear once, in the last beat only (found in beats {ctas})")
+        last = [str(t) for t in (beats[-1].get("show") or [])]
+        if not last or not (last[-1] == "him" or last[-1].startswith(("clip:", "key:", "him:"))):
+            problems.append("the video must END on Hamdan footage (last show of the last beat is not him/clip/key)")
+        # first 30 s: a new picture about every 2 s (>= 12 pictures in the first ~75 words)
+        w, n_first = 0, 0
+        for b in beats:
+            w += len(re.findall(r"\w+", b.get("say", "")))
+            n_first += max(1, len(b.get("show") or []))
+            if w > 75:
+                break
+        if n_first < 12:
+            problems.append(f"first 30 s has only {n_first} pictures (need 12+: a cut about every 2 s)")
+        # never two photo sources back to back (retention)
+        for (i1, t1), (i2, t2) in zip(seq, seq[1:]):
+            if t1.startswith(("search:", "cat:")) and t2.startswith(("search:", "cat:")):
+                problems.append(f"beats {i1}-{i2}: two photos back to back ({t1}, {t2})")
+        # hand-pinned Hamdan events must exist in the library
+        try:
+            import json
+            ev = json.loads((ROOT / "state" / "events.json").read_text(encoding="utf-8"))
+            for _, t in seq:
+                if t.startswith("key:") and t[4:] not in ev:
+                    problems.append(f"{t[:60]} is not an event in state/events.json")
+        except (OSError, ValueError):
+            pass
     if not (s.get("thumbnail") or {}).get("scene"):
         problems.append("no thumbnail scene (thumbnail must show his face + the story subject)")
     total = sum(len(re.findall(r"\w+", b.get("say", ""))) for b in beats)
     if total < 1320:
         problems.append(f"script only {total} words (need 1,320+)")
     return problems
+
+
+def lint_story_id(story_id: str) -> list[str]:
+    """Problems for the story file with this id ([] when it has none or there is no file: automatic stories)."""
+    for p in STORIES.glob("*.yaml"):
+        try:
+            if str((yaml.safe_load(p.read_text(encoding="utf-8")) or {}).get("id")) == story_id:
+                return lint(p)
+        except (OSError, yaml.YAMLError):
+            continue
+    return []
 
 
 def main() -> int:

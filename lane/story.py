@@ -160,6 +160,12 @@ class Gathered:
     gate_warning: str = ""                        # set when the footage was thinner than the gate (video still made)
 
 
+def _vetted_stock() -> set[str]:
+    f = ROOT / "assets" / "stock_vetted.yaml"
+    data = (yaml.safe_load(f.read_text(encoding="utf-8")) if f.exists() else None) or {}
+    return {str(x) for x in data.get("approved", [])}
+
+
 class QualityGateError(Exception):
     """The story does not have enough distinct, varied real footage to be a premium video."""
 
@@ -248,7 +254,11 @@ class StoryMaker:
         return Visuals(dest, scenes, []) if scenes else None
 
     def _stock(self, tok: str, work: Path) -> Visuals | None:
-        """A Storyblocks stock clip (sb-<id>), stored in the footage library as stock-<id>.mp4."""
+        """A Storyblocks stock clip (sb-<id>), stored in the footage library as stock-<id>.mp4.
+        Only clips that were looked at and approved (assets/stock_vetted.yaml, tools/vet_stock.py) are ever used."""
+        if tok[3:] not in _vetted_stock():
+            log.warning("stock clip %r is not approved in assets/stock_vetted.yaml - skipped", tok)
+            return None
         dest = work / "clips" / f"{tok}.mp4"
         if not dest.exists():
             dest.parent.mkdir(parents=True, exist_ok=True)
@@ -400,8 +410,11 @@ class StoryMaker:
             log.info("quality gate top-up for '%s': %d more events added", story.id, i)
 
     def thumb_scene(self, story: Story, work: Path) -> Path | None:
-        """story.thumbnail.scene = "clip:<id>@<seconds>": that frame of the clip becomes the thumbnail picture."""
-        tok = str(story.thumbnail.get("scene", ""))
+        """story.thumbnail.scene = "clip:<id>@<seconds>": that frame of the clip becomes the thumbnail picture.
+        "clip:<id>@<s>|sb-<id>@<s>" adds the story's subject on the right: a real frame of an approved stock clip
+        (e.g. a woman, for a story about women) blended in beside him."""
+        spec = str(story.thumbnail.get("scene", ""))
+        tok, _, extra = spec.partition("|")
         if not tok.startswith("clip:"):
             return None
         cid, _, at = tok[5:].partition("@")
@@ -412,6 +425,16 @@ class StoryMaker:
         from .media import FFMPEG
         subprocess.run([FFMPEG, "-v", "error", "-y", "-ss", at or "0.5", "-i", str(v.video), "-frames:v", "1",
                         "-q:v", "2", str(frame)], check=False, timeout=60)
+        if frame.exists() and extra.startswith("sb-"):
+            sid, _, sat = extra[3:].partition("@")
+            sv = self._stock(extra.partition("@")[0], work) if sid in _vetted_stock() else None
+            if sv:
+                sframe = work / "thumb_subject.jpg"
+                subprocess.run([FFMPEG, "-v", "error", "-y", "-ss", sat or "2", "-i", str(sv.video), "-frames:v", "1",
+                                "-q:v", "2", str(sframe)], check=False, timeout=60)
+                if sframe.exists():
+                    from .thumbnail import blend_subject
+                    blend_subject(frame, sframe)
         return frame if frame.exists() else None
 
 

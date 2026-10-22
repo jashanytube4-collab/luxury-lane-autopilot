@@ -353,6 +353,25 @@ def make_thumbnail(photos: list[Path], text: str, tag: str, out: Path, seed: int
     return out
 
 
+def blend_subject(scene: Path, subject: Path, width: int = 400, ramp: int = 140) -> None:
+    """Fade a portrait slice of `subject` into the right edge of the scene picture (in place)."""
+    base, sub = cv2.imread(str(scene)), cv2.imread(str(subject))
+    if base is None or sub is None:
+        return
+    s = max(W / base.shape[1], H / base.shape[0])
+    base = cv2.resize(base, None, fx=s, fy=s, interpolation=cv2.INTER_LANCZOS4)
+    oy, ox = (base.shape[0] - H) // 2, (base.shape[1] - W) // 2
+    base = base[oy:oy + H, ox:ox + W].astype(np.float32)
+    fh, fw = sub.shape[:2]
+    cw = int(fh * width / H)
+    x0 = int(np.clip(fw * 0.30, 0, max(0, fw - cw)))
+    sl = cv2.resize(sub[:, x0:x0 + cw], (width, H), interpolation=cv2.INTER_LANCZOS4).astype(np.float32)
+    mask = np.ones((H, width), np.float32)
+    mask[:, :ramp] = np.linspace(0, 1, ramp)[None, :]
+    base[:, W - width:] = base[:, W - width:] * (1 - mask[..., None]) + sl * mask[..., None]
+    cv2.imwrite(str(scene), np.clip(base, 0, 255).astype(np.uint8), [cv2.IMWRITE_JPEG_QUALITY, 95])
+
+
 def make_scene_thumbnail(photo: Path, text: str, tag: str, out: Path, seed: int,
                          crop: list[float] | None = None) -> Path:
     """A whole real moment as the picture (him with the person the story is about, e.g. at a hospital bedside):

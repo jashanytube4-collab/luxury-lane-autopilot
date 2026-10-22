@@ -3,7 +3,7 @@ title: 'The Women Behind Prince Fazza: His Mother, His Wife and the Truth Nobody
 thumbnail:
   text: THE WOMEN
   tag: BEHIND FAZZA
-  scene: clip:windsor-stand@0.3      # Prince Hamdan, smiling, at the Royal Windsor show
+  scene: clip:windsor-stand@0.3|sb-347714666@4   # Prince Hamdan at Royal Windsor + a smiling Gulf-look woman on the right
 mood: elegant
 commons: false                      # Hamdan footage is official/own library; every other picture is licensed Storyblocks stock (mood only)
 footage: Hind|women|Women|Queen|mother|female|Ladies|Windsor
@@ -31,9 +31,9 @@ sections:
   - say: Dubai has a Crown Prince the whole world watches, but the ones closest to him are almost invisible.
     show: [sb-352835520, clip:windsor-stand]
   - say: I mean the women of his family.
-    show: [sb-11125361, clip:horses]
+    show: [sb-347714666, clip:horses]
   - say: His mother, whose photograph has reportedly never been officially published.
-    show: [sb-11125511, clip:camels]
+    show: [sb-346634773, clip:camels]
   - say: His grandmother, remembered across Dubai as the Mother of Dubai.
     show: [sb-352898065]
   - say: His wife, who, as far as we can find, has never given a single interview.
@@ -48,9 +48,9 @@ sections:
     show: [sb-354777004]
 - beats:
   - say: Start at the top of the family, with Sheikha Hind bint Maktoum bin Juma Al Maktoum.
-    show: [sb-354566511]
+    show: [sb-352965901]
   - say: She is the senior wife of Sheikh Mohammed bin Rashid, the ruler of Dubai, and she is the mother of Prince Hamdan.
-    show: [sb-349101818]
+    show: [sb-354773916]
   - say: They were married on the twenty-sixth of April, nineteen seventy-nine.
     show: [sb-11111525]
   - say: Reports say her wedding was one of the first great public celebrations Dubai had ever seen, with horses, camels
@@ -61,7 +61,7 @@ sections:
   - say: Yet the woman at the centre of that day has lived almost entirely out of sight.
     show: [sb-352958539]
   - say: Her photograph, according to public records, has never been officially released.
-    show: [sb-354461257]
+    show: [sb-347615179]
   - say: But Prince Hamdan has never hidden what she means to him.
     show: ["key:hamdan leads march of loyalty to sheikha hind on mother s day"]
   - say: In March two thousand eight, on Mother's Day, he led a march of loyalty to Sheikha Hind.
@@ -69,12 +69,12 @@ sections:
   - say: He was twenty-five years old, and Dubai's cameras were there to record it.
     show: ["key:hamdan leads march of loyalty to sheikha hind on mother s day"]
   - say: What the public does see of Sheikha Hind is her work.
-    show: [sb-351778946]
+    show: [sb-354566948]
   - say: She chairs the board of trustees of the Emirates Food Bank, a charity that helps put food on tables across the
       country.
-    show: [sb-10951590, sb-354010520]
+    show: [sb-10951590]
   - say: She is also the president of the Sheikha Latifa bint Mohammed Award.
-    show: [sb-355203162]
+    show: [sb-354567891]
   - say: And in August twenty twenty-five, Prince Hamdan reviewed the results of a programme that carries her name, the
       Sheikha Hind bint Maktoum Family Program.
     show: ["key:hamdan bin mohammed reviews outcomes of sheikha hind bint maktoum family program and praises its profound social impact"]
@@ -91,14 +91,14 @@ sections:
   - say: Her name is on the programme, but not her face.
     show: ["key:hamdan bin mohammed reviews outcomes of sheikha hind bint maktoum family program and praises its profound social impact"]
   - say: In March twenty twenty-five, when Prince Hamdan's baby daughter was born, he named her Hind.
-    show: [sb-347009083]
+    show: [clip:rider]
   - say: The same name as his mother. He did not need to explain it.
     show: [sb-351798932]
   - say: Gulf magazines have also reported that Sheikh Mohammed once shared a rare childhood clip of Sheikha Hind, with her
       brothers and her nanny.
     show: [sb-354386316]
   - say: It is one of the very few glimpses of her early life the public has ever been given.
-    show: [sb-354386320]
+    show: [clip:horse-stable]
 - beats:
   - say: Now go one generation further back, to the woman many people in Dubai call the Mother of Dubai.
     show: [sb-352084860]
@@ -110,7 +110,7 @@ sections:
       the ruler.
     show: [sb-346694537]
   - say: In a time when few women had a public voice, that room gave them one.
-    show: [sb-10847519]
+    show: [sb-7505805]
   - say: She was also known for her knowledge of herbal medicine.
     show: [sb-348435118]
   - say: And people who remember her say she could ride a horse and handle a rifle as well as anyone.
@@ -129,11 +129,11 @@ sections:
       two of his brothers.
     show: [sb-352013755]
   - say: In the years since, we found no interviews with her, and no public appearances.
-    show: [sb-352500041]
+    show: [clip:dubairun]
   - say: That is a choice, and it is a very common one in Gulf royal families, where privacy is part of tradition.
     show: [sb-349001918]
   - say: So when a website promises secret photos of Prince Hamdan's wife, be careful, because there are none we can verify.
-    show: [sb-353197197]
+    show: [clip:horse-car]
   - say: What the public does see is the family they are raising together.
     show: [clip:son-walk]
 - beats:
@@ -153,16 +153,16 @@ sections:
     show: [sb-354987983]
 - beats:
   - say: Now look at what Prince Hamdan's family has built for the women of the country.
-    show: [sb-11161867]
+    show: [clip:rider-meet]
   - say: In two thousand six, Sheikh Mohammed founded the Dubai Women Establishment, to help women rise in government and
       business.
     show: [sb-346750383]
   - say: Its first president was Sheikha Manal bint Mohammed, Prince Hamdan's sister.
-    show: [sb-6177863]
+    show: [clip:car-falcon-camel]
   - say: In twenty eighteen, the UAE announced that half of the seats in its Federal National Council would go to women.
-    show: [sb-1893798]
+    show: [clip:skydive-pov]
   - say: Government sources say women now make up about seventy percent of the country's university graduates.
-    show: [sb-11125495]
+    show: [clip:falcon-hunt]
   - say: And Prince Hamdan has put his own name behind this.
     show: ["key:hamdan bin mohammed meets first batch of female cadets graduating from dubai police academy"]
   - say: In August twenty twenty, he met the first twenty-nine women cadets to graduate from Dubai Police Academy.
@@ -178,7 +178,7 @@ sections:
       long road, not starting a new one.
     show: ["key:hamdan bin mohammed meets first batch of female cadets graduating from dubai police academy"]
   - say: A day earlier, he had ordered that women in Dubai government with children studying online could work from home.
-    show: [sb-350225876]
+    show: [clip:oryx]
   - say: In February twenty seventeen, he met members of a United Nations panel on women's economic empowerment.
     show: ["key:hamdan bin mohammed meets members of the un secretary general s high level panel on women s economic empowerment"]
   - say: And in December twenty twenty-two, he received the Order of the Mother of the Nation.
@@ -194,7 +194,7 @@ sections:
   - say: A month later, he toured the Discovery Exhibition with Queen Rania of Jordan.
     show: ["key:dubai crown prince queen rania visit discovery exhibition"]
   - say: The pictures are different, but the message is the same, in the Dubai he leads, women sit at the table.
-    show: [sb-349198790]
+    show: [sb-349227386]
 - beats:
   - say: Now, the question the internet keeps asking. Are there other women in his life?
     show: [sb-354985879]

@@ -18,7 +18,7 @@
   },
   {
    "at": "2026-10-23T08:26:06+04:00",
-   "status": "open",
+   "status": "skipped",
    "type": "short"
   },
   {
@@ -28,17 +28,17 @@
   },
   {
    "at": "2026-10-23T09:57:50+04:00",
-   "status": "open",
+   "status": "skipped",
    "type": "short"
   },
   {
    "at": "2026-10-23T10:41:35+04:00",
-   "status": "open",
+   "status": "skipped",
    "type": "short"
   },
   {
    "at": "2026-10-23T11:29:33+04:00",
-   "status": "open",
+   "status": "skipped",
    "type": "short"
   },
   {
@@ -58,7 +58,7 @@
   },
   {
    "at": "2026-10-23T14:41:00+04:00",
-   "status": "open",
+   "status": "skipped",
    "type": "short"
   },
   {
@@ -96,12 +96,12 @@
   },
   {
    "at": "2026-10-23T19:00:03+04:00",
-   "status": "open",
+   "status": "skipped",
    "type": "short"
   },
   {
    "at": "2026-10-23T19:42:08+04:00",
-   "status": "open",
+   "status": "skipped",
    "type": "short"
   },
   {
@@ -161,7 +161,7 @@
   },
   {
    "at": "2026-10-24T05:05:57+04:00",
-   "status": "open",
+   "status": "skipped",
    "type": "short"
   }
  ],

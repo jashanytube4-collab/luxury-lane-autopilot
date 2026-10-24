@@ -41,7 +41,8 @@
   "long": "2026-10-23"
  },
  "crown prince of dubai inaugurates the hamdan smart station for simulation and training": {
-  "last_short": "2026-10-11",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -55,6 +56,10 @@
    [
     38.699999999999996,
     41.07000000000001
+   ],
+   [
+    51.940000000000005,
+    53.019999999999996
    ]
   ],
   "video_exhausted": true,
@@ -1088,6 +1093,7 @@
  },
  "hamdan bin mohammed arrives in tashkent commencing official visit to uzbekistan": {
   "last_short": "2026-10-08",
+  "montage_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -1115,7 +1121,8 @@
     34.57000000000001
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 35
  },
  "hamdan bin mohammed attends 19th graduation ceremony of rashid bin saeed al maktoum naval college": {
   "fails": 1,
@@ -2084,7 +2091,8 @@
  },
  "hamdan bin mohammed attends the graduation ceremony of the 23rd cohort of rashid bin saeed al maktoum naval college": {
   "fails": 1,
-  "last_short": "2026-10-09",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -2118,13 +2126,18 @@
    [
     39.25333333333333,
     41.63
+   ],
+   [
+    80.45333333333333,
+    83.08
    ]
   ],
   "video_exhausted": true,
   "video_len": 91
  },
  "hamdan bin mohammed attends the graduation of 18th cohort of the national military service": {
-  "last_short": "2026-10-09",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -2138,6 +2151,10 @@
    [
     29.186666666666667,
     30.729999999999997
+   ],
+   [
+    52.019999999999996,
+    54.080000000000005
    ]
   ],
   "video_exhausted": true,
@@ -2586,7 +2603,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed concludes official visit to kuwait": {
-  "last_short": "2026-10-08",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -2604,9 +2622,14 @@
    [
     31.753333333333337,
     33.896666666666675
+   ],
+   [
+    90.38666666666667,
+    94.67999999999999
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 116
  },
  "hamdan bin mohammed concludes official visit to uzbekistan": {
   "last_short": "2026-10-08",
@@ -2716,7 +2739,8 @@
     53.696667000000005
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 54
  },
  "hamdan bin mohammed directs dubai police to further enhance efforts to become the world s leading police force in harnessing technology and ai": {
   "video_exhausted": true
@@ -4480,6 +4504,7 @@
  "hamdan bin mohammed meets with local dignitaries and senior officials at nad al sheba majlis": {
   "last_short": "2026-10-16",
   "long": "2026-10-05",
+  "montage_exhausted": true,
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -4654,6 +4679,7 @@
  },
  "hamdan bin mohammed meets with the chief minister of kerala at the uae pavilion at expo 2020 dubai": {
   "last_short": "2026-10-11",
+  "montage_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -5271,6 +5297,7 @@
  },
  "hamdan bin mohammed opens meta s new regional headquarters in dubai internet city": {
   "last_short": "2026-10-10",
+  "montage_exhausted": true,
   "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
@@ -7234,7 +7261,8 @@
   "long": "2026-10-22"
  },
  "hamdan bin mohammed visits idex 2021": {
-  "last_short": "2026-10-11",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -7248,6 +7276,10 @@
    [
     25.94,
     27.549999999999997
+   ],
+   [
+    163.16,
+    166.12
    ]
   ],
   "video_exhausted": true,
@@ -7712,6 +7744,7 @@
  },
  "hamdan bin mohammed witnesses display of skills of national service programme recruits": {
   "last_short": "2026-10-07",
+  "montage_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [

@@ -2033,7 +2033,15 @@
  },
  "hamdan bin mohammed attends graduation ceremony at zayed ii military college in al ain": {
   "fails": 1,
+  "last_short": "2026-10-25",
   "montage_exhausted": true,
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    25.953333333333333,
+    27.646666666666665
+   ]
+  ],
   "video_exhausted": true,
   "video_len": 62
  },
@@ -2566,11 +2574,15 @@
  "hamdan bin mohammed attends the graduation ceremony of the 23rd cohort of rashid bin saeed al maktoum naval college": {
   "fails": 1,
   "last_short": "2026-10-25",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     8.755271200375496,
     10.805986811950746
+   ],
+   [
+    80.90821185989945,
+    82.5957656192999
    ]
   ],
   "shorts_made": 1,
@@ -3190,12 +3202,16 @@
   "video_len": 116
  },
  "hamdan bin mohammed concludes official visit to uzbekistan": {
-  "last_short": "2026-10-24",
-  "montage_used": 2,
+  "last_short": "2026-10-25",
+  "montage_used": 3,
   "remix_ranges": [
    [
     136.78354122945424,
     138.0107642952995
+   ],
+   [
+    144.28666666666666,
+    146.21333333333334
    ]
   ],
   "shorts_made": 1,
@@ -4967,8 +4983,8 @@
   "video_len": 216
  },
  "hamdan bin mohammed meets graduates of one million arab coders": {
-  "last_short": "2026-10-24",
-  "montage_used": 3,
+  "last_short": "2026-10-25",
+  "montage_used": 4,
   "remix_ranges": [
    [
     58.68,
@@ -4981,6 +4997,10 @@
    [
     9.424350343451877,
     10.837928041217474
+   ],
+   [
+    53.92228699295672,
+    55.8793828236077
    ]
   ],
   "shorts_made": 1,
@@ -5769,11 +5789,15 @@
  "hamdan bin mohammed meets with uae diplomatic mission in india commends ministry of foreign affairs efforts": {
   "last_short": "2026-10-25",
   "montage_exhausted": true,
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     28.66,
     30.58
+   ],
+   [
+    23.68,
+    25.5
    ]
   ],
   "shorts_made": 1,
@@ -5924,7 +5948,7 @@
  "hamdan bin mohammed offers condolences on death of moza bint ali al weri": {
   "last_short": "2026-10-25",
   "long": "2026-10-14",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     17.37089556107783,
@@ -5933,6 +5957,10 @@
    [
     67.44881447454854,
     69.65598502521479
+   ],
+   [
+    34.42045546172217,
+    36.804040537785454
    ]
   ],
   "shorts_made": 1,
@@ -6682,11 +6710,15 @@
  },
  "hamdan bin mohammed receives mourners on death of mansour bin ahmed": {
   "last_short": "2026-10-25",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     378.96334874938265,
     380.6361331399336
+   ],
+   [
+    353.4115122368675,
+    354.8309258837266
    ]
   ],
   "shorts_made": 2,
@@ -7536,8 +7568,17 @@
   "video_len": 53
  },
  "hamdan bin mohammed tours gitex 2013": {
+  "last_short": "2026-10-25",
   "long": "2026-10-14",
-  "video_exhausted": true
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    27.657220408374627,
+    29.97719001529975
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 75
  },
  "hamdan bin mohammed tours gitex global 2022 on its concluding day": {
   "last_short": "2026-10-24",

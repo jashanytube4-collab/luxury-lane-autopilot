@@ -1690,11 +1690,15 @@
  "hamdan bin mohammed attends closing of 4th king abdulaziz camel festival": {
   "last_short": "2026-10-25",
   "long": "2026-10-12",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     92.1521871897563,
     93.63669257639346
+   ],
+   [
+    152.07961343012622,
+    153.70440147473158
    ]
   ],
   "shorts_made": 1,
@@ -3526,13 +3530,17 @@
   "long": "2026-10-17"
  },
  "hamdan bin mohammed extends condolences to al muhairi family": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-25",
   "long": "2026-10-25",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     4.957396382789787,
     6.468087705573867
+   ],
+   [
+    43.316464907377245,
+    45.71027205481211
    ]
   ],
   "video_exhausted": true,
@@ -3793,11 +3801,15 @@
  },
  "hamdan bin mohammed honours arab contributors to entrepreneurial development": {
   "last_short": "2026-10-25",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     290.4050006911069,
     292.0176179717429
+   ],
+   [
+    111.7808572961806,
+    113.39417156385099
    ]
   ],
   "shorts_made": 2,
@@ -5577,11 +5589,15 @@
   "last_short": "2026-10-25",
   "long": "2026-10-10",
   "montage_exhausted": true,
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     14.409641604437299,
     16.16475470531059
+   ],
+   [
+    6.745496230887118,
+    8.832125000371617
    ]
   ],
   "shorts_made": 1,
@@ -6960,7 +6976,7 @@
   "fails": 1,
   "last_short": "2026-10-25",
   "montage_exhausted": true,
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     59.199999999999996,
@@ -6969,6 +6985,10 @@
    [
     7.540343843888715,
     9.01102461885207
+   ],
+   [
+    49.505466823191576,
+    50.3245140797973
    ]
   ],
   "shorts_made": 5,
@@ -8615,11 +8635,21 @@
   "video_len": 311
  },
  "hamdan bin mohammed visits dubai airshow 2017": {
-  "video_exhausted": true
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    129.7640840136278,
+    131.39953010809418
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 195
  },
  "hamdan bin mohammed visits dubai airshow exhibition": {
   "last_short": "2026-10-11",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -8899,14 +8929,20 @@
  },
  "hamdan bin mohammed visits emirates flight catering commends its role in advancing dubai s aviation ecosystem": {
   "fails": 1,
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-25",
   "long": "2026-10-09",
   "montage_exhausted": true,
-  "montage_used": 1,
+  "montage_used": 2,
   "photo_short": true,
   "post_photos": [
    0,
    3
+  ],
+  "remix_ranges": [
+   [
+    41.99369745871769,
+    43.556353714621224
+   ]
   ],
   "shorts_made": 1,
   "shot_ranges": [
@@ -11508,7 +11544,7 @@
  "mohammed bin rashid commends the dubai executive council s efforts over the past 15 years": {
   "last_short": "2026-10-25",
   "long": "2026-10-16",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     83.59827200044164,
@@ -11517,6 +11553,10 @@
    [
     90.01907166204471,
     91.70500438479064
+   ],
+   [
+    78.25642913260643,
+    79.79074129643568
    ]
   ],
   "shorts_made": 1,

@@ -3,7 +3,14 @@
   "no_hamdan": true
  },
  "azizi developments announces aed600 million donation to establish endowment education complex": {
-  "last_short": "2026-10-08",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    7.566117651522867,
+    9.408593969805116
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -960,6 +967,7 @@
  },
  "hamdan bin mohammed approves dubai quality of life strategy 2033 featuring more than 200 projects and initiatives": {
   "last_short": "2026-10-08",
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -991,7 +999,8 @@
     15.996666666666666
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 71
  },
  "hamdan bin mohammed approves dubai sports council s 4th sports events ranking system": {
   "no_hamdan": true
@@ -1425,7 +1434,16 @@
   "video_len": 60
  },
  "hamdan bin mohammed attends dubai forum for government best practices": {
-  "video_exhausted": true
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    28.36,
+    30.48
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 229
  },
  "hamdan bin mohammed attends dubai future forum 2025": {
   "last_short": "2026-10-15",
@@ -1483,7 +1501,14 @@
   "fails": 2
  },
  "hamdan bin mohammed attends dubai police graduation ceremony": {
-  "last_short": "2026-10-12",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    166.60279951075904,
+    168.32818500678334
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -1511,7 +1536,8 @@
     139.95
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 280
  },
  "hamdan bin mohammed attends dubai sports retreat meets with dubai sports ambassadors": {
   "long": "2026-10-20"
@@ -2440,11 +2466,15 @@
  },
  "hamdan bin mohammed chairs executive council meeting": {
   "last_short": "2026-10-24",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     61.638788101365066,
     63.613762284201655
+   ],
+   [
+    45.15104609096183,
+    47.60770947345697
    ]
   ],
   "shorts_made": 1,
@@ -6886,7 +6916,14 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits dental exhibition in dubai": {
-  "last_short": "2026-10-21",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    2.3390712034378356,
+    3.7902474383171953
+   ]
+  ],
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -7351,6 +7388,7 @@
   "video_len": 225
  },
  "hamdan bin mohammed visits field hospital in dwtc": {
+  "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 164
  },
@@ -8017,7 +8055,16 @@
   "long": "2026-10-13"
  },
  "hamdan dubai s a global center for sukuk listing": {
-  "video_exhausted": true
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    131.8375197855403,
+    134.12209915738313
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 184
  },
  "hamdan honors final day winners of al marmoum festival": {
   "long": "2026-10-13"
@@ -8057,8 +8104,15 @@
   "long": "2026-10-17"
  },
  "hamdan officially opens 19th edition of dubai world cup": {
-  "last_short": "2026-10-15",
+  "last_short": "2026-10-24",
   "long": "2026-10-12",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    57.50690395838152,
+    59.83093465641701
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -8070,7 +8124,8 @@
     63.608000000000004
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 73
  },
  "hamdan our legacy lies in our innovative children and youth": {
   "long": "2026-10-17"
@@ -8109,7 +8164,16 @@
   "video_exhausted": true
  },
  "hamdan visits government think tank": {
-  "video_exhausted": true
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    29.076560473178702,
+    30.613463429527396
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 220
  },
  "hamdan witnesses futaim bint mohammed s sports achievement": {
   "no_hamdan": true

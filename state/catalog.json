@@ -589,8 +589,17 @@
   "long": "2026-10-22"
  },
  "hamdan attends al kharbash wedding": {
+  "last_short": "2026-10-24",
   "long": "2026-10-15",
-  "video_exhausted": true
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    19.119741798597573,
+    20.63441385556701
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 51
  },
  "hamdan attends al wathba camel races festival 2016": {
   "long": "2026-10-13"
@@ -1298,9 +1307,11 @@
   "last_short": "2026-10-17",
   "long": "2026-10-23",
   "photo_short": true,
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 65
  },
  "hamdan bin mohammed attends closing ceremony of 3rd dubai future accelerators program": {
   "last_short": "2026-10-24",
@@ -1873,11 +1884,15 @@
   "fails": 1,
   "last_short": "2026-10-24",
   "long": "2026-10-14",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     202.4192200580963,
     203.96990797668352
+   ],
+   [
+    218.0875692398588,
+    220.2789295289338
    ]
   ],
   "shorts_made": 1,
@@ -2872,7 +2887,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed directs launch of second edition of dubai mallathon": {
-  "video_exhausted": true
+  "remix_exhausted": true,
+  "video_exhausted": true,
+  "video_len": 53
  },
  "hamdan bin mohammed directs the launch of dubai proptech hub": {
   "last_short": "2026-10-16",
@@ -4199,7 +4216,14 @@
   "video_len": 40
  },
  "hamdan bin mohammed meets first batch of female cadets graduating from dubai police academy": {
-  "last_short": "2026-10-11",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    146.78250342450744,
+    148.51213360270773
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -6434,7 +6458,14 @@
   "video_len": 149
  },
  "hamdan bin mohammed tours dubai airshow 2023": {
-  "last_short": "2026-10-09",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    37.35333333333333,
+    39.24666666666667
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -6465,9 +6496,11 @@
   "last_short": "2026-10-15",
   "long": "2026-10-05",
   "photo_short": true,
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 53
  },
  "hamdan bin mohammed tours gitex 2013": {
   "long": "2026-10-14",
@@ -7652,11 +7685,15 @@
  },
  "hamdan bin mohammed visits linkedin s regional headquarters in dubai": {
   "last_short": "2026-10-24",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     99.75771873527589,
     101.19300003324085
+   ],
+   [
+    116.1821938358405,
+    118.48668218011925
    ]
   ],
   "shorts_made": 2,
@@ -7945,6 +7982,7 @@
  },
  "hamdan bin mohammed visits visa s new regional headquarters in dubai internet city": {
   "last_short": "2026-10-10",
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -8236,7 +8274,16 @@
   "video_exhausted": true
  },
  "hamdan receives unesco expert": {
-  "video_exhausted": true
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    52.35333333333333,
+    54.18
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 71
  },
  "hamdan rename hbmeu to become hamdan bin mohammed smart university": {
   "video_exhausted": true
@@ -8275,7 +8322,9 @@
   "no_hamdan": true
  },
  "hamdan witnesses launch of strategic plan to develop islamic economy sector": {
-  "video_exhausted": true
+  "remix_exhausted": true,
+  "video_exhausted": true,
+  "video_len": 142
  },
  "ig:dubaimediaoffice:17879245644689188": {
   "video_exhausted": true,
@@ -9459,8 +9508,15 @@
  },
  "khaled bin mohamed bin zayed hamdan bin mohammed bin rashid tour natural history museum abu dhabi in saadiyat cultural district": {
   "fails": 1,
-  "last_short": "2026-10-15",
+  "last_short": "2026-10-24",
   "long": "2026-10-23",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    62.16353701090986,
+    63.60977148146291
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -9676,8 +9732,15 @@
   "video_len": 85
  },
  "mohammed bin rashid attends al marmoum heritage festival closing races": {
-  "last_short": "2026-10-14",
+  "last_short": "2026-10-24",
   "long": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    190.44730834505538,
+    191.9475633207762
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [

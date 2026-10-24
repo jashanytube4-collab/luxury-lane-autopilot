@@ -39,6 +39,7 @@ from .youtube import AuthError, QuotaError, YouTube, key_tag
 log = logging.getLogger("lane.pipeline")
 
 RUN_BUDGET_MIN = 320       # stop starting new videos after this many minutes (GitHub's job limit is 360)
+REMIX = "<remix>"           # pseudo event key: old footage re-cut into short new pieces (Studio.make_montage remix=True)
 MONTAGE = "<montage>"       # pseudo event key: the montage fallback after the real candidates (Studio.make_montage)
 SOURCE_CREDIT = "Footage and photos: official media of H.H. Sheikh Hamdan bin Mohammed (hamdan.ae)."
 
@@ -95,6 +96,7 @@ class Runner:
         self.yt: YouTube | None = None
         self.channel_uploads: list[dict] | None = None   # what is already on the channel (duplicate guard)
         self.made = 0
+        self._dry: set[bool] = set()     # kinds of Short that found no fresh footage earlier in this run
 
     @property
     def usage(self) -> dict:
@@ -521,17 +523,27 @@ class Runner:
         first = random.random() < float(self.cfg["short"].get("moment_share", 0.8))
         # a moment Short when possible; a narrated one only if no footage of him is left for a moment today
         for moment in ([True, False] if first else [False]):
+            if moment in self._dry:      # this run already found no fresh footage for this kind: don't burn time again
+                continue
             done = self._fill_short(day, slot, plan, moment)
             if done is not None:
                 return done
+            self._dry.add(moment)
+        # last resort so a day never runs empty: old footage re-cut as short new pieces from many videos
+        done = self._fill_short(day, slot, plan, True, remix=True)
+        if done is not None:
+            return done
         self.report.problem("No usable material left for Shorts today")
         return False
 
-    def _fill_short(self, day, slot: dict, plan: dict, moment: bool, members: bool = False) -> bool | None:
+    def _fill_short(self, day, slot: dict, plan: dict, moment: bool, members: bool = False,
+                    remix: bool = False) -> bool | None:
         at = datetime.fromisoformat(slot["at"])
         tries, started = 0, time.time()
-        keys = self.studio.short_candidates(self.events, self.usage, day.isoformat())
-        if moment and self.cfg["short"].get("deep_cut") is not False:
+        keys = [] if remix else self.studio.short_candidates(self.events, self.usage, day.isoformat())[:12]
+        if remix:
+            keys = [REMIX, REMIX]
+        elif moment and self.cfg["short"].get("deep_cut") is not False:
             keys = keys + [MONTAGE]          # fallback when no single event can give a moment (see Studio.make_montage)
         for key in keys:
             if time.time() - started > 20 * 60:     # rejected events are remembered, so the next slot goes on from here
@@ -541,14 +553,15 @@ class Runner:
                 self.report.note("Run time budget reached; remaining slots are filled by the next run")
                 return False
             ev = self.events.get(key, {})
-            if moment and key != MONTAGE and not ev.get("video"):
+            if moment and key not in (MONTAGE, REMIX) and not ev.get("video"):
                 continue
             seed = random.randint(1, 10**9)
             tries += 1
             t0 = time.time()
             try:
-                if key == MONTAGE:
-                    item = self.studio.make_montage(self.events, self.usage, self._recent_titles(), seed)
+                if key in (MONTAGE, REMIX):
+                    item = self.studio.make_montage(self.events, self.usage, self._recent_titles(), seed,
+                                                    remix=key == REMIX)
                 elif moment:
                     item = self.studio.make_moment(key, ev, self.usage, self._recent_titles(), seed)
                 else:
@@ -556,7 +569,7 @@ class Runner:
             except AIUnavailable:
                 raise
             except Exception as e:  # noqa: BLE001 — one bad event never stops the day
-                if key == MONTAGE:
+                if key in (MONTAGE, REMIX):
                     self.report.note(f"Montage fallback failed: {str(e)[:150]}")
                     continue
                 u = self.usage.setdefault(key, {})
@@ -594,11 +607,11 @@ class Runner:
             if members and not self.args.dry_run:
                 self.state.cursors.setdefault("members_shorts", []).append(
                     {"id": vid, "day": day.isoformat(), "title": p["title"]})
-            u = self.usage.setdefault(key, {}) if key != MONTAGE else {}
+            u = self.usage.setdefault(key, {}) if key not in (MONTAGE, REMIX) else {}
             if not self.args.dry_run:
                 for k2, rngs in item.get("sources", {}).items():     # a montage: every source video remembers its range
                     u2 = self.usage.setdefault(k2, {})
-                    u2.setdefault("shot_ranges", []).extend(rngs)
+                    u2.setdefault(item.get("range_key", "shot_ranges"), []).extend(rngs)
                     u2["last_short"] = max(u2.get("last_short", ""), day.isoformat())
                     u2["montage_used"] = u2.get("montage_used", 0) + 1
                 if item["photo_only"]:
@@ -612,7 +625,7 @@ class Runner:
                 titles = self.state.cursors.setdefault("recent_titles", [])
                 titles.append(p["title"])
                 del titles[:-300]
-            slot.update(status="scheduled", video_id=vid, title=p["title"], event=key if key != MONTAGE else "montage")
+            slot.update(status="scheduled", video_id=vid, title=p["title"], event=key if key not in (MONTAGE, REMIX) else "montage")
             self.state.save_day(day.isoformat(), plan)
             self.state.checkpoint(f"short {vid} for {slot['at']}")
             self.made += 1

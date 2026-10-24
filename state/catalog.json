@@ -2226,6 +2226,7 @@
  "hamdan bin mohammed attends launch of first community space under hewi dubai initiative": {
   "last_short": "2026-10-07",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -5118,9 +5119,16 @@
   "video_len": 18
  },
  "hamdan bin mohammed meets with indian prime minister to discuss future of bilateral partnership": {
-  "last_short": "2026-10-07",
+  "last_short": "2026-10-25",
   "long": "2026-10-10",
   "montage_exhausted": true,
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    14.409641604437299,
+    16.16475470531059
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -5588,13 +5596,17 @@
   "video_len": 58
  },
  "hamdan bin mohammed offers condolences on death of moza bint ali al weri": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-25",
   "long": "2026-10-14",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     17.37089556107783,
     19.379846532671525
+   ],
+   [
+    67.44881447454854,
+    69.65598502521479
    ]
   ],
   "shorts_made": 1,
@@ -5757,13 +5769,17 @@
   "video_len": 120
  },
  "hamdan bin mohammed offers condolences to mohamed bin zayed and tahnoun bin mohammed on death of sheikha hessa bint mohammed": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-25",
   "long": "2026-10-16",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     108.23730979588721,
     110.37377680326281
+   ],
+   [
+    54.86033607189275,
+    56.262486884871294
    ]
   ],
   "video_exhausted": true,
@@ -7704,12 +7720,16 @@
   "video_len": 43
  },
  "hamdan bin mohammed visits dental exhibition in dubai": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-25",
+  "montage_used": 2,
   "remix_ranges": [
    [
     2.3390712034378356,
     3.7902474383171953
+   ],
+   [
+    141.4272102152791,
+    142.97335832927084
    ]
   ],
   "shorts_made": 3,
@@ -7812,13 +7832,17 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed visits display of origin autonomous vehicle on the sidelines of the world government summit 2022": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-25",
   "montage_exhausted": true,
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     40.817480318674356,
     43.4074324708198
+   ],
+   [
+    59.874053250139575,
+    61.28016474595391
    ]
   ],
   "shorts_made": 2,
@@ -8375,9 +8399,16 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed visits khda commends education community and high level of institutional readiness": {
-  "last_short": "2026-10-06",
+  "last_short": "2026-10-25",
   "long": "2026-10-06",
   "montage_exhausted": true,
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    28.98839342846688,
+    30.962177480079163
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -8965,12 +8996,16 @@
   "long": "2026-10-13"
  },
  "hamdan dubai s a global center for sukuk listing": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-25",
+  "montage_used": 2,
   "remix_ranges": [
    [
     131.8375197855403,
     134.12209915738313
+   ],
+   [
+    77.71158904785413,
+    79.10603554059911
    ]
   ],
   "video_exhausted": true,
@@ -9079,12 +9114,16 @@
   "video_len": 71
  },
  "hamdan rename hbmeu to become hamdan bin mohammed smart university": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-25",
+  "montage_used": 2,
   "remix_ranges": [
    [
     99.23093979121475,
     100.80281978642175
+   ],
+   [
+    143.30654852872706,
+    144.89162391004567
    ]
   ],
   "video_exhausted": true,

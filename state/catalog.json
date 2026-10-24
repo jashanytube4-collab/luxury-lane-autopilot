@@ -1258,11 +1258,15 @@
  "hamdan bin mohammed attends 19th graduation ceremony of rashid bin saeed al maktoum naval college": {
   "fails": 1,
   "last_short": "2026-10-24",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     482.4187301479371,
     484.2335359048875
+   ],
+   [
+    119.63892096561925,
+    121.77318991902311
    ]
   ],
   "shorts_made": 1,
@@ -4582,6 +4586,14 @@
   "video_len": 371
  },
  "hamdan bin mohammed meets teams at the forefront of implementing preventive measures against covid 19": {
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    41.92143700108807,
+    43.87979220285638
+   ]
+  ],
   "video_exhausted": true,
   "video_len": 77
  },
@@ -5113,6 +5125,7 @@
  },
  "hamdan bin mohammed meets with the ferjan dubai team": {
   "fails": 1,
+  "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 27
  },
@@ -5480,7 +5493,14 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed officially opens gitex 2018": {
-  "last_short": "2026-10-13",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    126.01016816879962,
+    127.85106644372517
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -6879,7 +6899,14 @@
   "video_len": 214
  },
  "hamdan bin mohammed unveils 5 star plaque at dubai chamber of commerce and industry": {
-  "last_short": "2026-10-14",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    65.26929340751813,
+    67.74581882527498
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -7384,7 +7411,13 @@
  "hamdan bin mohammed visits display of origin autonomous vehicle on the sidelines of the world government summit 2022": {
   "last_short": "2026-10-24",
   "montage_exhausted": true,
-  "montage_used": 1,
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    40.817480318674356,
+    43.4074324708198
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -9863,11 +9896,15 @@
  "khalifasat launches successfully into orbit emphasising uae s leadership in developing satellites": {
   "last_short": "2026-10-24",
   "long": "2026-10-14",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     133.53845390207644,
     134.94862234331887
+   ],
+   [
+    102.08,
+    103.83999999999999
    ]
   ],
   "shorts_made": 3,

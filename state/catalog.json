@@ -94,8 +94,15 @@
   "long": "2026-10-17"
  },
  "crown prince offers condolences to families of martyrs almazroui and dhahoori": {
-  "last_short": "2026-10-15",
+  "last_short": "2026-10-25",
   "long": "2026-10-16",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    104.98319195546601,
+    107.17545537514924
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -111,7 +118,8 @@
     109.11999999999999
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 144
  },
  "dp world commences construction of bharat mart strategic trading hub in dubai offering new horizons for indian businesses": {
   "no_hamdan": true
@@ -384,7 +392,9 @@
   "video_exhausted": true
  },
  "dubai crown prince launches hbmpsg": {
-  "video_exhausted": true
+  "remix_exhausted": true,
+  "video_exhausted": true,
+  "video_len": 149
  },
  "dubai crown prince offers condolences al muhairi family": {
   "last_short": "2026-10-25",
@@ -440,11 +450,15 @@
  },
  "dubai crown prince receives president of malta": {
   "last_short": "2026-10-25",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     46.561279338420974,
     48.97663361309496
+   ],
+   [
+    67.86949515183007,
+    69.9476032133125
    ]
   ],
   "shorts_made": 2,
@@ -2542,9 +2556,15 @@
   "video_len": 91
  },
  "hamdan bin mohammed attends the graduation of 18th cohort of the national military service": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-25",
   "montage_exhausted": true,
-  "montage_used": 1,
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    52.04592049610483,
+    53.51848061099331
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -4586,12 +4606,16 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed leads f3 team to gov games finals": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-25",
+  "montage_used": 2,
   "remix_ranges": [
    [
     14.912667226240458,
     17.116207286270367
+   ],
+   [
+    77.41678109771574,
+    79.49198121975888
    ]
   ],
   "shorts_made": 2,
@@ -4736,7 +4760,14 @@
   "video_len": 191
  },
  "hamdan bin mohammed meets government team behind uae s progress in world bank s ease of doing business ranking": {
-  "last_short": "2026-10-22",
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    107.52000000000001,
+    109.44
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -4911,7 +4942,9 @@
   "video_len": 77
  },
  "hamdan bin mohammed meets with apple ceo": {
-  "video_exhausted": true
+  "remix_exhausted": true,
+  "video_exhausted": true,
+  "video_len": 154
  },
  "hamdan bin mohammed meets with astronaut sultan al neyadi and zayed ambition 2 team": {
   "last_short": "2026-10-19",
@@ -5803,11 +5836,15 @@
  "hamdan bin mohammed offers condolences to family of martyr al mesmari": {
   "last_short": "2026-10-25",
   "long": "2026-10-15",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     80.51467503711403,
     82.94197470198485
+   ],
+   [
+    53.7839441028503,
+    54.91934224779382
    ]
   ],
   "shorts_made": 1,
@@ -8183,9 +8220,15 @@
   "video_len": 154
  },
  "hamdan bin mohammed visits dubai hospital": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-25",
   "long": "2026-10-14",
-  "montage_used": 1,
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    187.68822236610796,
+    190.22586976231338
+   ]
+  ],
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -8714,6 +8757,7 @@
   "last_short": "2026-10-25",
   "long": "2026-10-23",
   "montage_used": 1,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     20.880000000000003,
@@ -9269,7 +9313,9 @@
   "video_exhausted": true
  },
  "hamdan receives qatar ambassador": {
-  "video_exhausted": true
+  "remix_exhausted": true,
+  "video_exhausted": true,
+  "video_len": 44
  },
  "hamdan receives unesco expert": {
   "last_short": "2026-10-24",
@@ -10698,9 +10744,9 @@
  },
  "mohamed bin zayed hamdan bin mohammed attend adsw 2020": {
   "fails": 1,
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-25",
   "long": "2026-10-23",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     78.73830435472682,
@@ -10709,6 +10755,10 @@
    [
     34.46625004815836,
     36.22895819631002
+   ],
+   [
+    239.1771412382375,
+    241.37596397899128
    ]
   ],
   "shorts_made": 1,

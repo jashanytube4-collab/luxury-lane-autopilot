@@ -1264,7 +1264,14 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends closing ceremony of 3rd dubai future accelerators program": {
-  "last_short": "2026-10-22",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    2.92,
+    4.88
+   ]
+  ],
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -2769,11 +2776,15 @@
  },
  "hamdan bin mohammed economic diversity and supportive legislative environment cornerstones for investor confidence in dubai": {
   "last_short": "2026-10-24",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     43.05333333333333,
     45.480000000000004
+   ],
+   [
+    48.322592562397915,
+    50.4667174730661
    ]
   ],
   "shorts_made": 1,
@@ -3370,6 +3381,7 @@
  },
  "hamdan bin mohammed inaugurates the new building of dubai fertility centre": {
   "last_short": "2026-10-11",
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3409,7 +3421,8 @@
     33.519999999999996
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 316
  },
  "hamdan bin mohammed inaugurates the world s largest solar powered data centre": {
   "last_short": "2026-10-09",
@@ -3918,7 +3931,9 @@
   "video_len": 56
  },
  "hamdan bin mohammed launches uae ai robotics award for good": {
-  "video_exhausted": true
+  "remix_exhausted": true,
+  "video_exhausted": true,
+  "video_len": 101
  },
  "hamdan bin mohammed launches world s largest arabic audio library": {
   "last_short": "2026-10-13",
@@ -4111,7 +4126,14 @@
   "video_len": 216
  },
  "hamdan bin mohammed meets graduates of one million arab coders": {
-  "last_short": "2026-10-13",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    58.68,
+    61.080000000000005
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -5711,6 +5733,14 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed reviews dubai future foundation s 2018 plan and projects": {
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    140.32186297088035,
+    142.05716851287565
+   ]
+  ],
   "video_exhausted": true,
   "video_len": 159
  },
@@ -6057,6 +6087,14 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed says dubai is taking off again": {
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    43.879999999999995,
+    46.160000000000004
+   ]
+  ],
   "video_exhausted": true,
   "video_len": 54
  },
@@ -7133,7 +7171,14 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits exhibition that tells story of uae s participation in world expos": {
-  "last_short": "2026-10-22",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    18.504851306577798,
+    20.580713335844298
+   ]
+  ],
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -9349,10 +9394,26 @@
   "video_exhausted": true
  },
  "partnership between community government the foundation of enhancing government services hamdan bin mohammed": {
-  "video_exhausted": true
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    56.83789082972078,
+    58.11259834779078
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 208
  },
  "president of uzbekistan meets with hamdan bin mohammed in tashkent": {
-  "last_short": "2026-10-08",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    34.66,
+    36.720000000000006
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [

@@ -143,7 +143,14 @@
   "long": "2026-10-17"
  },
  "dubai crown prince attends graduation of dubai police academy": {
-  "last_short": "2026-10-21",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    211.78852581766063,
+    213.30922465678802
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -355,7 +362,9 @@
   "video_exhausted": true
  },
  "dubai crown prince receives crown princes and deputy rulers": {
-  "video_exhausted": true
+  "remix_exhausted": true,
+  "video_exhausted": true,
+  "video_len": 205
  },
  "dubai crown prince receives luxemburg counterpart": {
   "video_exhausted": true
@@ -2735,7 +2744,14 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed economic diversity and supportive legislative environment cornerstones for investor confidence in dubai": {
-  "last_short": "2026-10-10",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    43.05333333333333,
+    45.480000000000004
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -2810,7 +2826,14 @@
   "long": "2026-10-17"
  },
  "hamdan bin mohammed follows up the work mechanisms of dubai future councils": {
-  "last_short": "2026-10-13",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    33.70297380293951,
+    35.17037784010996
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -2822,7 +2845,8 @@
     35.230000000000004
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 98
  },
  "hamdan bin mohammed goes on first test ride of cruise autonomous electric vehicle in jumeirah 1": {
   "last_short": "2026-10-09",
@@ -3193,8 +3217,15 @@
   "video_len": 65
  },
  "hamdan bin mohammed inaugurates dp world s nhava sheva business park in india": {
-  "last_short": "2026-10-07",
+  "last_short": "2026-10-24",
   "long": "2026-10-23",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    17.208061560738443,
+    18.683138746560616
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3235,7 +3266,9 @@
  },
  "hamdan bin mohammed inaugurates dubai fitness challenge": {
   "long": "2026-10-18",
-  "video_exhausted": true
+  "remix_exhausted": true,
+  "video_exhausted": true,
+  "video_len": 247
  },
  "hamdan bin mohammed inaugurates dubai international boat show 2008": {
   "video_exhausted": true
@@ -4351,7 +4384,8 @@
  },
  "hamdan bin mohammed meets with hazza bin zayed in al ain": {
   "fails": 1,
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 37
  },
  "hamdan bin mohammed meets with india s defence minister": {
   "last_short": "2026-10-07",
@@ -5237,6 +5271,7 @@
  },
  "hamdan bin mohammed opens meta s new regional headquarters in dubai internet city": {
   "last_short": "2026-10-10",
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -6332,7 +6367,14 @@
   "video_len": 189
  },
  "hamdan bin mohammed unveils 5 star plaque at sheikh zayed housing programme in dubai": {
-  "last_short": "2026-10-22",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    144.8978218171365,
+    147.49627629039173
+   ]
+  ],
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -6499,7 +6541,16 @@
   "long": "2026-10-13"
  },
  "hamdan bin mohammed visits al seef project": {
-  "video_exhausted": true
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    15.827142872614093,
+    17.77612186597223
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 172
  },
  "hamdan bin mohammed visits arabian travel market 2026": {
   "last_short": "2026-10-05",
@@ -7141,7 +7192,14 @@
   "video_len": 213
  },
  "hamdan bin mohammed visits hazrat imam mosque in uzbekistan": {
-  "last_short": "2026-10-08",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    14.613102080781365,
+    16.057282151307735
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -9126,8 +9184,15 @@
  },
  "mohamed bin zayed hamdan bin mohammed attend adsw 2020": {
   "fails": 1,
-  "last_short": "2026-10-12",
+  "last_short": "2026-10-24",
   "long": "2026-10-23",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    78.73830435472682,
+    80.85675469069555
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [

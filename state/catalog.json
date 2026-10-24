@@ -1847,7 +1847,14 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends hct graduation": {
-  "last_short": "2026-10-14",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    45.8,
+    47.52
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -1859,7 +1866,8 @@
     298.71999999999997
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 321
  },
  "hamdan bin mohammed attends health chain forum": {
   "fails": 1,
@@ -3214,8 +3222,15 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed honours mbr creative sports award winners": {
-  "last_short": "2026-10-22",
+  "last_short": "2026-10-24",
   "long": "2026-10-18",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    74.58464282636517,
+    76.14516418564462
+   ]
+  ],
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -5092,8 +5107,15 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed offers condolences to al falahi family": {
-  "last_short": "2026-10-14",
+  "last_short": "2026-10-24",
   "long": "2026-10-16",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    85.17042709742152,
+    87.37007138121277
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -5109,7 +5131,8 @@
     90.36
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 103
  },
  "hamdan bin mohammed offers condolences to al gergawi s family": {
   "long": "2026-10-17"
@@ -6451,7 +6474,14 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed tours gitex global 2022 on its concluding day": {
-  "last_short": "2026-10-10",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    119.07687657973835,
+    121.157905401723
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -7621,7 +7651,14 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits linkedin s regional headquarters in dubai": {
-  "last_short": "2026-10-22",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    99.75771873527589,
+    101.19300003324085
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -8059,7 +8096,16 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed witnesses the first test flight": {
-  "video_exhausted": true
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    88.67691734041264,
+    90.11735705216934
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 214
  },
  "hamdan bin mohammed witnesses unveiling of uae developed probe for emirates mission to the asteroid belt": {
   "fails": 2,
@@ -8152,11 +8198,15 @@
  "hamdan officially opens 19th edition of dubai world cup": {
   "last_short": "2026-10-24",
   "long": "2026-10-12",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     57.50690395838152,
     59.83093465641701
+   ],
+   [
+    45.083411882173394,
+    46.684733455877144
    ]
   ],
   "shorts_made": 1,
@@ -9378,7 +9428,15 @@
  },
  "khaled bin mohamed bin zayed and hamdan bin mohammed bin rashid witness announcement of high speed train project linking abu dhabi dubai": {
   "fails": 1,
+  "last_short": "2026-10-24",
   "long": "2026-10-21",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    44.086666666666666,
+    45.78
+   ]
+  ],
   "video_exhausted": true,
   "video_len": 64
  },

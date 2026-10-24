@@ -978,8 +978,14 @@
  },
  "hamdan bin mohammed announces conclusion of phase one of dubai 10x": {
   "fails": 1,
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-25",
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    4.483466726815697,
+    6.595003395132226
+   ]
+  ],
   "shot_ranges": [
    [
     4.48,
@@ -2095,12 +2101,16 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends hct graduation": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-25",
+  "montage_used": 2,
   "remix_ranges": [
    [
     45.8,
     47.52
+   ],
+   [
+    215.84,
+    217.79999999999998
    ]
   ],
   "shorts_made": 1,
@@ -2734,8 +2744,17 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed bin rashid receives samsung electronics ceo": {
+  "last_short": "2026-10-25",
   "long": "2026-10-25",
-  "video_exhausted": true
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    7.74173715543559,
+    9.800118571374988
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 45
  },
  "hamdan bin mohammed calls on the city to take on dubai fitness challenge 2019": {
   "no_hamdan": true
@@ -5259,9 +5278,15 @@
   "video_len": 60
  },
  "hamdan bin mohammed meets with minister of defence of uzbekistan": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-25",
   "long": "2026-10-16",
-  "montage_used": 2,
+  "montage_used": 3,
+  "remix_ranges": [
+   [
+    34.78355170239005,
+    36.23793642945343
+   ]
+  ],
   "shot_ranges": [
    [
     12.12,
@@ -6121,8 +6146,15 @@
   "video_len": 119
  },
  "hamdan bin mohammed opens salem medical fitness smart centre": {
-  "last_short": "2026-10-21",
+  "last_short": "2026-10-25",
   "long": "2026-10-18",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    181.00383561389623,
+    183.08393414657107
+   ]
+  ],
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -6375,8 +6407,15 @@
  },
  "hamdan bin mohammed receives ramadan well wishers": {
   "fails": 1,
-  "last_short": "2026-10-06",
+  "last_short": "2026-10-25",
   "montage_exhausted": true,
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    59.199999999999996,
+    61.2
+   ]
+  ],
   "shorts_made": 5,
   "shot_ranges": [
    [
@@ -10695,12 +10734,16 @@
   "video_exhausted": true
  },
  "partnership between community government the foundation of enhancing government services hamdan bin mohammed": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-25",
+  "montage_used": 2,
   "remix_ranges": [
    [
     56.83789082972078,
     58.11259834779078
+   ],
+   [
+    65.11854198093117,
+    66.75414063693704
    ]
   ],
   "video_exhausted": true,

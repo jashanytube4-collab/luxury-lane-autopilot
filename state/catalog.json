@@ -315,7 +315,16 @@
   "video_len": 232
  },
  "dubai crown prince holds minute s silence to honour martyrs on commemoration day": {
-  "video_exhausted": true
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    21.285240638824366,
+    22.910127839883987
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 171
  },
  "dubai crown prince honours winners of hamdan bin mohammed award for innovation in projects management": {
   "last_short": "2026-10-24",
@@ -625,6 +634,7 @@
  "hamadan bin mohammed opens gastech 2021": {
   "last_short": "2026-10-11",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -928,8 +938,14 @@
   "long": "2026-10-21"
  },
  "hamdan bin mohammed and mohammed bin salman visit headquarters of expo 2020 dubai": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-25",
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    324.6005686648568,
+    326.42450544227455
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -1347,8 +1363,8 @@
  },
  "hamdan bin mohammed attends 19th graduation ceremony of rashid bin saeed al maktoum naval college": {
   "fails": 1,
-  "last_short": "2026-10-24",
-  "montage_used": 2,
+  "last_short": "2026-10-25",
+  "montage_used": 3,
   "remix_ranges": [
    [
     482.4187301479371,
@@ -1357,6 +1373,10 @@
    [
     119.63892096561925,
     121.77318991902311
+   ],
+   [
+    431.9232752677989,
+    433.66601301115764
    ]
   ],
   "shorts_made": 1,
@@ -1510,7 +1530,7 @@
  },
  "hamdan bin mohammed attends closing ceremony of 3rd dubai future accelerators program": {
   "last_short": "2026-10-25",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     2.92,
@@ -1519,6 +1539,10 @@
    [
     29.952657177088877,
     31.980080875670232
+   ],
+   [
+    36.9732459296139,
+    39.20554853278149
    ]
   ],
   "shorts_made": 3,
@@ -3247,9 +3271,9 @@
   "video_len": 73
  },
  "hamdan bin mohammed extends condolences to families of pilots": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-25",
   "long": "2026-10-14",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     132.34533841902865,
@@ -3258,6 +3282,10 @@
    [
     58.876580328349206,
     61.249504324496264
+   ],
+   [
+    142.12478589100462,
+    144.08251350832126
    ]
   ],
   "shorts_made": 1,
@@ -5665,8 +5693,15 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed offers condolences to family of martyr al mesmari": {
-  "last_short": "2026-10-14",
+  "last_short": "2026-10-25",
   "long": "2026-10-15",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    80.51467503711403,
+    82.94197470198485
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -6714,6 +6749,7 @@
   "long": "2026-10-25",
   "montage_exhausted": true,
   "photo_short": true,
+  "remix_exhausted": true,
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -8258,8 +8294,14 @@
   "long": "2026-10-22"
  },
  "hamdan bin mohammed visits idex 2021": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-25",
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    163.1610218601753,
+    165.597833101703
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -8371,7 +8413,16 @@
   "video_len": 57
  },
  "hamdan bin mohammed visits knowledge and human development authority": {
-  "video_exhausted": true
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    46.112166656490174,
+    48.19646380777128
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 275
  },
  "hamdan bin mohammed visits linkedin s regional headquarters in dubai": {
   "last_short": "2026-10-24",
@@ -10658,7 +10709,9 @@
  },
  "queen elizabeth honors hamdan on winning windsor royal endurance race": {
   "long": "2026-10-18",
-  "video_exhausted": true
+  "remix_exhausted": true,
+  "video_exhausted": true,
+  "video_len": 108
  },
  "record participation in dubai fitness challenge as people across the city embrace a more active lifestyle": {
   "no_hamdan": true

@@ -3,13 +3,16 @@
  "slots": [
   {
    "at": "2026-10-24T06:09:44+04:00",
-   "status": "open",
+   "status": "missed",
    "type": "short"
   },
   {
    "at": "2026-10-24T06:50:06+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "ig:dubaimediaoffice:18133213366644785",
+   "status": "scheduled",
+   "title": "Prince Hamdan Listens Closely 🤍",
+   "type": "short",
+   "video_id": "NTkYWPj4_ss"
   },
   {
    "at": "2026-10-24T07:29:55+04:00",

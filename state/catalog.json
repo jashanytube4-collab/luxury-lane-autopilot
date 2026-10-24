@@ -509,7 +509,7 @@
  },
  "dubai crown prince visits emirates nbd head office": {
   "last_short": "2026-10-24",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     104.60402386812525,
@@ -533,6 +533,10 @@
    [
     139.96,
     143.64
+   ],
+   [
+    104.48,
+    106.92
    ]
   ],
   "video_exhausted": true,
@@ -880,7 +884,8 @@
   "long": "2026-10-21"
  },
  "hamdan bin mohammed and mohammed bin salman visit headquarters of expo 2020 dubai": {
-  "last_short": "2026-10-18",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -902,6 +907,10 @@
    [
     321.84000000000003,
     329.4
+   ],
+   [
+    427.8,
+    430.76
    ]
   ],
   "video_exhausted": true,
@@ -1624,6 +1633,7 @@
  "hamdan bin mohammed attends dubai metaverse assembly at the museum of the future": {
   "last_short": "2026-10-10",
   "long": "2026-10-13",
+  "montage_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3553,6 +3563,7 @@
  "hamdan bin mohammed inaugurates 8th edition of cybertech global in dubai": {
   "last_short": "2026-10-11",
   "long": "2026-10-14",
+  "montage_exhausted": true,
   "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
@@ -3691,6 +3702,7 @@
  },
  "hamdan bin mohammed inaugurates new generation bus stations at al ghubaiba": {
   "last_short": "2026-10-11",
+  "montage_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -4063,6 +4075,7 @@
  },
  "hamdan bin mohammed launches dubai schools project": {
   "long": "2026-10-17",
+  "montage_exhausted": true,
   "video_exhausted": true,
   "video_len": 70
  },
@@ -4669,11 +4682,17 @@
  },
  "hamdan bin mohammed meets teams at the forefront of implementing preventive measures against covid 19": {
   "last_short": "2026-10-24",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     41.92143700108807,
     43.87979220285638
+   ]
+  ],
+  "shot_ranges": [
+   [
+    39.36,
+    44.32
    ]
   ],
   "video_exhausted": true,
@@ -4958,6 +4977,7 @@
  "hamdan bin mohammed meets with india s minister of commerce and industry": {
   "fails": 1,
   "long": "2026-10-15",
+  "montage_exhausted": true,
   "video_exhausted": true,
   "video_len": 18
  },
@@ -5641,6 +5661,7 @@
  },
  "hamdan bin mohammed opens 40th edition of gitex": {
   "last_short": "2026-10-11",
+  "montage_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -6958,7 +6979,8 @@
   "video_len": 138
  },
  "hamdan bin mohammed tours gulfood 2023": {
-  "last_short": "2026-10-09",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -6972,6 +6994,10 @@
    [
     27.186666666666667,
     29.096666666666664
+   ],
+   [
+    54.75333333333333,
+    56.88
    ]
   ],
   "video_exhausted": true,
@@ -8521,7 +8547,8 @@
   "video_len": 263
  },
  "hamdan bin mohammed watches the historic launch of zayed ambition 2": {
-  "last_short": "2026-10-09",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -8539,6 +8566,10 @@
    [
     47.086666666666666,
     48.69666666666667
+   ],
+   [
+    29.486666666666668,
+    32.68
    ]
   ],
   "video_exhausted": true,
@@ -10151,6 +10182,7 @@
  "king salman bin abdulaziz of saudi arabia receives dubai crown prince": {
   "fails": 1,
   "last_short": "2026-10-12",
+  "montage_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [

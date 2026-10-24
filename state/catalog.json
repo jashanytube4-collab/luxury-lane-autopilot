@@ -2923,8 +2923,14 @@
   "fails": 2
  },
  "hamdan bin mohammed chairs executive council meeting approves plans and policies": {
-  "last_short": "2026-10-24",
-  "montage_used": 3,
+  "last_short": "2026-10-25",
+  "montage_used": 4,
+  "remix_ranges": [
+   [
+    39.68971389404328,
+    41.13526736807152
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3312,8 +3318,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed economic diversity and supportive legislative environment cornerstones for investor confidence in dubai": {
-  "last_short": "2026-10-24",
-  "montage_used": 3,
+  "last_short": "2026-10-25",
+  "montage_used": 4,
   "remix_ranges": [
    [
     43.05333333333333,
@@ -3322,6 +3328,10 @@
    [
     48.322592562397915,
     50.4667174730661
+   ],
+   [
+    16.502354723403887,
+    18.627726707910547
    ]
   ],
   "shorts_made": 1,
@@ -3360,8 +3370,15 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed extends condolences to a lghurair family": {
-  "last_short": "2026-10-14",
+  "last_short": "2026-10-25",
   "long": "2026-10-15",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    36.96,
+    38.6
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3373,7 +3390,8 @@
     62.11000000000001
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 74
  },
  "hamdan bin mohammed extends condolences to al baloushi family": {
   "long": "2026-10-17"
@@ -4359,11 +4377,15 @@
  },
  "hamdan bin mohammed launches integrated housing plan to provide 15 800 homes for nationals in dubai over the next four years": {
   "last_short": "2026-10-25",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     59.488763966027115,
     61.53930535306078
+   ],
+   [
+    67.26297916689818,
+    69.60555592330813
    ]
   ],
   "shorts_made": 1,
@@ -4454,7 +4476,7 @@
  },
  "hamdan bin mohammed launches new phase of dubai s happiness agenda": {
   "last_short": "2026-10-25",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     21.32782479454461,
@@ -4463,6 +4485,10 @@
    [
     66.10240217538598,
     68.2555139995576
+   ],
+   [
+    39.49964318841642,
+    40.92692531269205
    ]
   ],
   "shorts_made": 2,
@@ -5793,8 +5819,15 @@
   "long": "2026-10-21"
  },
  "hamdan bin mohammed offers condolences on death of abdullah mohamed al masoud": {
-  "last_short": "2026-10-12",
+  "last_short": "2026-10-25",
   "long": "2026-10-16",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    19.766719594808833,
+    21.87507122811898
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -5818,7 +5851,8 @@
     47.11000000000001
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 64
  },
  "hamdan bin mohammed offers condolences on death of hamad al qasimi": {
   "long": "2026-10-20",
@@ -8562,7 +8596,14 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed visits gulfood 2018": {
-  "last_short": "2026-10-22",
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    193.52,
+    196.07999999999998
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -9309,8 +9350,15 @@
   "long": "2026-10-09"
  },
  "hamdan celebrates al ahli s arabian gulf league winning": {
-  "last_short": "2026-10-15",
+  "last_short": "2026-10-25",
   "long": "2026-10-15",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    73.01105334886518,
+    74.88191737633457
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -9326,7 +9374,8 @@
     117.67999999999999
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 162
  },
  "hamdan chairs 1st meeting for higher committee to implement smart city project": {
   "video_exhausted": true

@@ -410,7 +410,16 @@
   "video_len": 205
  },
  "dubai crown prince receives luxemburg counterpart": {
-  "video_exhausted": true
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    55.38203169947704,
+    57.95785592705884
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 76
  },
  "dubai crown prince receives president of malta": {
   "last_short": "2026-10-19",
@@ -631,6 +640,7 @@
  "hamdan approves dubai innovation strategy": {
   "last_short": "2026-10-24",
   "montage_used": 1,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     61.26276538884116,
@@ -805,12 +815,16 @@
   "video_len": 54
  },
  "hamdan bin mohammed and maktoum bin mohammed review dubai municipality s key strategic projects following corporate restructuring": {
-  "last_short": "2026-10-24",
-  "montage_used": 3,
+  "last_short": "2026-10-25",
+  "montage_used": 4,
   "remix_ranges": [
    [
     52.18666666666667,
     54.34666666666667
+   ],
+   [
+    35.45333333333333,
+    37.61333333333334
    ]
   ],
   "shorts_made": 1,
@@ -1474,12 +1488,16 @@
   "video_len": 65
  },
  "hamdan bin mohammed attends closing ceremony of 3rd dubai future accelerators program": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-25",
+  "montage_used": 2,
   "remix_ranges": [
    [
     2.92,
     4.88
+   ],
+   [
+    29.952657177088877,
+    31.980080875670232
    ]
   ],
   "shorts_made": 3,
@@ -2767,7 +2785,14 @@
   "video_len": 78
  },
  "hamdan bin mohammed chairs executive council meeting approves series of economic stimulus policies": {
-  "last_short": "2026-10-22",
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    111.4,
+    113.03999999999999
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -5259,6 +5284,7 @@
  "hamdan bin mohammed meets with the chief minister of kerala at the uae pavilion at expo 2020 dubai": {
   "last_short": "2026-10-11",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -6642,7 +6668,14 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed reviews progress of dewa s hydroelectric project in hatta": {
-  "last_short": "2026-10-09",
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    60.38936885017929,
+    62.615092618447704
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -7250,10 +7283,17 @@
  },
  "hamdan bin mohammed visits abu dhabi international hunting and equestrian exhibition 2026": {
   "fails": 1,
-  "last_short": "2026-10-15",
+  "last_short": "2026-10-25",
   "long": "2026-10-12",
   "montage_exhausted": true,
+  "montage_used": 1,
   "photo_short": true,
+  "remix_ranges": [
+   [
+    67.00872336719851,
+    68.13201957442213
+   ]
+  ],
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -7408,7 +7448,8 @@
     49.13
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 57
  },
  "hamdan bin mohammed visits area 2071 reviews dubai 10x initiative projects": {
   "last_short": "2026-10-24",
@@ -8361,7 +8402,14 @@
   "video_len": 137
  },
  "hamdan bin mohammed visits stands of government entities at gitex2019": {
-  "last_short": "2026-10-21",
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    43.23447798351972,
+    45.51950664293132
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -8440,9 +8488,15 @@
   "video_len": 186
  },
  "hamdan bin mohammed visits the ministry of foreign affairs in abu dhabi": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-25",
   "long": "2026-10-23",
-  "montage_used": 1,
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    32.42935439729225,
+    34.88205783622548
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [

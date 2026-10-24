@@ -159,8 +159,8 @@
   "long": "2026-10-17"
  },
  "dubai crown prince attends graduation of dubai police academy": {
-  "last_short": "2026-10-24",
-  "montage_used": 2,
+  "last_short": "2026-10-25",
+  "montage_used": 3,
   "remix_ranges": [
    [
     211.78852581766063,
@@ -169,6 +169,10 @@
    [
     561.8497392910383,
     563.4911547120766
+   ],
+   [
+    442.9737577014928,
+    444.92445591937303
    ]
   ],
   "shorts_made": 2,
@@ -1054,8 +1058,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed approves dff s three year strategic plan": {
-  "last_short": "2026-10-24",
-  "montage_used": 3,
+  "last_short": "2026-10-25",
+  "montage_used": 4,
   "remix_ranges": [
    [
     44.755956300528126,
@@ -1064,6 +1068,10 @@
    [
     238.20000000000002,
     240.0
+   ],
+   [
+    220.88,
+    222.72
    ]
   ],
   "shorts_made": 3,
@@ -3562,7 +3570,14 @@
   "long": "2026-10-21"
  },
  "hamdan bin mohammed honours arab contributors to entrepreneurial development": {
-  "last_short": "2026-10-22",
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    290.4050006911069,
+    292.0176179717429
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -5121,9 +5136,16 @@
   "video_len": 37
  },
  "hamdan bin mohammed meets with india s defence minister": {
-  "last_short": "2026-10-07",
+  "last_short": "2026-10-25",
   "long": "2026-10-15",
   "montage_exhausted": true,
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    13.239999999999998,
+    15.32
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -5900,6 +5922,7 @@
  "hamdan bin mohammed opens 40th edition of gitex": {
   "last_short": "2026-10-11",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -7637,12 +7660,16 @@
   "long": "2026-10-13"
  },
  "hamdan bin mohammed visits al seef project": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-25",
+  "montage_used": 2,
   "remix_ranges": [
    [
     15.827142872614093,
     17.77612186597223
+   ],
+   [
+    134.18792642504843,
+    135.8424134911773
    ]
   ],
   "video_exhausted": true,
@@ -8210,13 +8237,17 @@
   "video_len": 260
  },
  "hamdan bin mohammed visits dubai international boat show": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-25",
   "long": "2026-10-14",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     252.31552180004425,
     254.4316910877127
+   ],
+   [
+    154.72553131449237,
+    157.09353938610695
    ]
   ],
   "shorts_made": 2,
@@ -8614,9 +8645,11 @@
   "last_short": "2026-10-16",
   "long": "2026-10-20",
   "photo_short": true,
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 47
  },
  "hamdan bin mohammed visits mohammed bin rashid model school reviews preparations for dubai fitness challenge": {
   "long": "2026-10-21"
@@ -8631,11 +8664,15 @@
  },
  "hamdan bin mohammed visits public prosecution": {
   "last_short": "2026-10-25",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     65.57386954535049,
     67.62084029747933
+   ],
+   [
+    199.98314848788922,
+    201.49559859815895
    ]
   ],
   "shorts_made": 2,
@@ -8674,7 +8711,15 @@
  },
  "hamdan bin mohammed visits reserve forces command in abu dhabi": {
   "fails": 1,
+  "last_short": "2026-10-25",
   "long": "2026-10-23",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    20.880000000000003,
+    22.68
+   ]
+  ],
   "video_exhausted": true,
   "video_len": 33
  },
@@ -9106,7 +9151,9 @@
   "video_exhausted": true
  },
  "hamdan chairs dubai executive council meeting": {
-  "video_exhausted": true
+  "remix_exhausted": true,
+  "video_exhausted": true,
+  "video_len": 160
  },
  "hamdan chairs expo 2020 higher committee s first session": {
   "video_exhausted": true
@@ -9270,6 +9317,7 @@
  "hamdan visits dubai world hospitality championship": {
   "last_short": "2026-10-24",
   "montage_used": 1,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     87.55243713425686,

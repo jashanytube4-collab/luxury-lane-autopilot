@@ -547,7 +547,16 @@
   "long": "2026-10-20"
  },
  "hamdan approves dubai innovation strategy": {
-  "video_exhausted": true
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    61.26276538884116,
+    63.77303540601748
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 68
  },
  "hamdan approves medical tourism strategy": {
   "video_exhausted": true
@@ -1811,8 +1820,15 @@
  },
  "hamdan bin mohammed attends health chain forum": {
   "fails": 1,
-  "last_short": "2026-10-12",
+  "last_short": "2026-10-24",
   "long": "2026-10-14",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    202.4192200580963,
+    203.96990797668352
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -2635,7 +2651,8 @@
     44.09666666666667
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 58
  },
  "hamdan bin mohammed concludes official visit to kuwait": {
   "last_short": "2026-10-24",
@@ -3867,8 +3884,15 @@
   ]
  },
  "hamdan bin mohammed launches sports initiatives": {
-  "last_short": "2026-10-13",
+  "last_short": "2026-10-24",
   "long": "2026-10-18",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    212.80506732035832,
+    214.86768418585052
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3884,7 +3908,14 @@
   "video_len": 268
  },
  "hamdan bin mohammed launches the government games initiative": {
-  "last_short": "2026-10-22",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    3.050388327506801,
+    4.826534287108945
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -4060,6 +4091,7 @@
  },
  "hamdan bin mohammed meets director generals and executives of dubai government entities": {
   "last_short": "2026-10-11",
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -5015,8 +5047,17 @@
   "long": "2026-10-17"
  },
  "hamdan bin mohammed offers condolences to alsuwaidi family": {
+  "last_short": "2026-10-24",
   "long": "2026-10-17",
-  "video_exhausted": true
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    63.373747089155714,
+    65.36282230479833
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 114
  },
  "hamdan bin mohammed offers condolences to families of martyrs": {
   "long": "2026-10-20"
@@ -6220,7 +6261,13 @@
  },
  "hamdan bin mohammed tours arabian travel market 2024": {
   "last_short": "2026-10-24",
-  "montage_used": 1,
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    48.384688122709605,
+    49.91236870634644
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -7410,7 +7457,14 @@
   "video_len": 172
  },
  "hamdan bin mohammed visits innovation labs 2018": {
-  "last_short": "2026-10-22",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    237.92000000000002,
+    239.64
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -7992,7 +8046,9 @@
  },
  "hamdan offers condolences on death of martyr tareq al shehi": {
   "long": "2026-10-20",
-  "video_exhausted": true
+  "remix_exhausted": true,
+  "video_exhausted": true,
+  "video_len": 94
  },
  "hamdan offers condolences on death of rashid al ghurair": {
   "long": "2026-10-20"
@@ -9420,8 +9476,15 @@
   "video_exhausted": true
  },
  "mohammed bin rashid attends 29th dubai world cup": {
-  "last_short": "2026-10-07",
+  "last_short": "2026-10-24",
   "long": "2026-10-16",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    75.43029455153123,
+    77.52995090887542
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -9441,7 +9504,8 @@
     32.230000000000004
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 85
  },
  "mohammed bin rashid attends al marmoum heritage festival closing races": {
   "last_short": "2026-10-14",

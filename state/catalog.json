@@ -656,12 +656,16 @@
   "long": "2026-10-23"
  },
  "dubai executive council approves annual agenda for 2018": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-25",
+  "montage_used": 2,
   "remix_ranges": [
    [
     41.18786988601433,
     43.64128933857099
+   ],
+   [
+    16.66626872373783,
+    18.519625083631205
    ]
   ],
   "video_exhausted": true,
@@ -3011,11 +3015,15 @@
  },
  "hamdan bin mohammed chairs executive council meeting approves plans and policies": {
   "last_short": "2026-10-25",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     39.68971389404328,
     41.13526736807152
+   ],
+   [
+    31.09983880017083,
+    33.365933496428006
    ]
   ],
   "shorts_made": 1,
@@ -3050,11 +3058,15 @@
  },
  "hamdan bin mohammed chairs executive council meeting approves series of economic stimulus policies": {
   "last_short": "2026-10-25",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     111.4,
     113.03999999999999
+   ],
+   [
+    78.81925008410808,
+    81.0673490722683
    ]
   ],
   "shorts_made": 1,
@@ -3891,12 +3903,16 @@
   "video_len": 19
  },
  "hamdan bin mohammed honours winners of 5th islamic economy award": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-25",
+  "montage_used": 2,
   "remix_ranges": [
    [
     219.23125416320443,
     221.36656810191036
+   ],
+   [
+    155.62309801657338,
+    157.3653841557697
    ]
   ],
   "shorts_made": 2,
@@ -4090,7 +4106,9 @@
   "video_len": 247
  },
  "hamdan bin mohammed inaugurates dubai international boat show 2008": {
-  "video_exhausted": true
+  "remix_exhausted": true,
+  "video_exhausted": true,
+  "video_len": 140
  },
  "hamdan bin mohammed inaugurates dubai world self driving transport exhibition": {
   "long": "2026-10-08",
@@ -4102,6 +4120,7 @@
  "hamdan bin mohammed inaugurates new generation bus stations at al ghubaiba": {
   "last_short": "2026-10-11",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -6187,7 +6206,7 @@
  "hamdan bin mohammed offers condolences to alsuwaidi family": {
   "last_short": "2026-10-25",
   "long": "2026-10-17",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     63.373747089155714,
@@ -6196,6 +6215,10 @@
    [
     0.7844012775566588,
     3.0823314850582384
+   ],
+   [
+    42.825120102493656,
+    44.541123865690686
    ]
   ],
   "video_exhausted": true,
@@ -8748,11 +8771,15 @@
  "hamdan bin mohammed visits dubai hospital": {
   "last_short": "2026-10-25",
   "long": "2026-10-14",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     187.68822236610796,
     190.22586976231338
+   ],
+   [
+    214.13371490092496,
+    215.86564479770007
    ]
   ],
   "shorts_made": 3,
@@ -9576,9 +9603,15 @@
   "video_len": 96
  },
  "hamdan bin mohammed visits wipro s apmea headquarters in dubai": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-25",
   "long": "2026-10-14",
-  "montage_used": 2,
+  "montage_used": 3,
+  "remix_ranges": [
+   [
+    95.5452598962737,
+    97.21467657686958
+   ]
+  ],
   "shot_ranges": [
    [
     23.32,

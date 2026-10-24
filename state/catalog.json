@@ -422,7 +422,14 @@
   "video_len": 76
  },
  "dubai crown prince receives president of malta": {
-  "last_short": "2026-10-19",
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    46.561279338420974,
+    48.97663361309496
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -1990,6 +1997,7 @@
  "hamdan bin mohammed attends graduation ceremony of hbmsu university": {
   "last_short": "2026-10-24",
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     12.833660787017628,
@@ -3350,13 +3358,17 @@
   "video_len": 56
  },
  "hamdan bin mohammed honors mbr creative sports award winners": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-25",
   "long": "2026-10-18",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     50.879999999999995,
     53.080000000000005
+   ],
+   [
+    141.4490095083521,
+    143.87104760594497
    ]
   ],
   "shorts_made": 3,
@@ -3889,8 +3901,15 @@
   "video_len": 61
  },
  "hamdan bin mohammed inaugurates zabeel healthcare center": {
-  "last_short": "2026-10-15",
+  "last_short": "2026-10-25",
   "long": "2026-10-22",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    325.72,
+    327.84
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3906,7 +3925,8 @@
     411.12
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 451
  },
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
   "last_short": "2026-10-18",
@@ -6091,8 +6111,15 @@
   "video_len": 223
  },
  "hamdan bin mohammed opens the race to excellence": {
-  "last_short": "2026-10-19",
+  "last_short": "2026-10-25",
   "long": "2026-10-12",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    17.112070702370673,
+    18.842236659194274
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -6743,7 +6770,14 @@
   "video_len": 68
  },
  "hamdan bin mohammed reviews the latest technologies and energy solutions at wetex 2019": {
-  "last_short": "2026-10-21",
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    159.75027677009626,
+    161.4019115327377
+   ]
+  ],
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -7487,8 +7521,15 @@
   "video_len": 159
  },
  "hamdan bin mohammed visits art dubai": {
-  "last_short": "2026-10-21",
+  "last_short": "2026-10-25",
   "long": "2026-10-13",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    300.44104021575475,
+    303.0132222119203
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -7866,7 +7907,14 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed visits dubai government hr department": {
-  "last_short": "2026-10-22",
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    44.278115517299156,
+    46.32846246422614
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -10408,13 +10456,17 @@
   "video_exhausted": true
  },
  "mohammed bin rashid attends 29th dubai world cup": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-25",
   "long": "2026-10-16",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     75.43029455153123,
     77.52995090887542
+   ],
+   [
+    14.453333333333333,
+    16.413333333333334
    ]
   ],
   "shorts_made": 1,
@@ -10675,6 +10727,7 @@
  "the executive council of dubai approves formation of emirati human resources development council and bicycle friendly city strategy 2025": {
   "last_short": "2026-10-11",
   "long": "2026-10-08",
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [

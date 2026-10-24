@@ -77,8 +77,17 @@
   "video_len": 413
  },
  "crown prince offers condolences to al adab family": {
+  "last_short": "2026-10-25",
   "long": "2026-10-15",
-  "video_exhausted": true
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    33.19540395265692,
+    34.63149992967358
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 50
  },
  "crown prince offers condolences to al ketbi family": {
   "long": "2026-10-17"
@@ -328,11 +337,15 @@
  },
  "dubai crown prince holds minute s silence to honour martyrs on commemoration day": {
   "last_short": "2026-10-25",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     21.285240638824366,
     22.910127839883987
+   ],
+   [
+    63.78835100194621,
+    65.28924840868167
    ]
   ],
   "video_exhausted": true,
@@ -425,8 +438,17 @@
   "video_len": 68
  },
  "dubai crown prince offers condolences to alkaabi family": {
+  "last_short": "2026-10-25",
   "long": "2026-10-17",
-  "video_exhausted": true
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    10.15618395754457,
+    12.23506595862365
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 61
  },
  "dubai crown prince receives australia s governor general": {
   "video_exhausted": true
@@ -4291,7 +4313,14 @@
   "video_len": 42
  },
  "hamdan bin mohammed launches integrated housing plan to provide 15 800 homes for nationals in dubai over the next four years": {
-  "last_short": "2026-10-10",
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    59.488763966027115,
+    61.53930535306078
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -4337,6 +4366,7 @@
  "hamdan bin mohammed launches middle east s first of its kind drone delivery system at dubai silicon oasis": {
   "last_short": "2026-10-25",
   "montage_used": 3,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     51.899358671159604,
@@ -4378,12 +4408,16 @@
   "video_len": 60
  },
  "hamdan bin mohammed launches new phase of dubai s happiness agenda": {
-  "last_short": "2026-10-24",
-  "montage_used": 2,
+  "last_short": "2026-10-25",
+  "montage_used": 3,
   "remix_ranges": [
    [
     21.32782479454461,
     23.357687117517173
+   ],
+   [
+    66.10240217538598,
+    68.2555139995576
    ]
   ],
   "shorts_made": 2,
@@ -4926,6 +4960,7 @@
  "hamdan bin mohammed meets teams at the forefront of implementing preventive measures against covid 19": {
   "last_short": "2026-10-24",
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     41.92143700108807,
@@ -5421,8 +5456,14 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed meets with participants of dubai leadership camp": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-25",
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    34.726826234605284,
+    36.73811018055957
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -6938,6 +6979,7 @@
  },
  "hamdan bin mohammed reviews preparations and protocols at dubai airport": {
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 301
  },
@@ -7096,6 +7138,7 @@
  "hamdan bin mohammed says dubai is taking off again": {
   "last_short": "2026-10-24",
   "montage_used": 1,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     43.879999999999995,
@@ -8054,7 +8097,14 @@
   "video_len": 62
  },
  "hamdan bin mohammed visits dp world s facilities inspects operations of jebel ali port": {
-  "last_short": "2026-10-13",
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    239.21739492730302,
+    241.36657391644613
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -10563,13 +10613,17 @@
  },
  "khaled bin mohamed bin zayed and hamdan bin mohammed bin rashid witness announcement of high speed train project linking abu dhabi dubai": {
   "fails": 1,
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-25",
   "long": "2026-10-25",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     44.086666666666666,
     45.78
+   ],
+   [
+    48.19611248719217,
+    50.30485260878349
    ]
   ],
   "video_exhausted": true,

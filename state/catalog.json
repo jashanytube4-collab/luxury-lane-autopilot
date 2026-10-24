@@ -486,7 +486,9 @@
   "video_len": 71
  },
  "dubai crown prince returns to uae after performing umrah": {
-  "video_exhausted": true
+  "remix_exhausted": true,
+  "video_exhausted": true,
+  "video_len": 155
  },
  "dubai crown prince reviews preparations for emirates mars mission": {
   "last_short": "2026-10-20",
@@ -1605,8 +1607,15 @@
   "long": "2026-10-13"
  },
  "hamdan bin mohammed attends closing of 4th king abdulaziz camel festival": {
-  "last_short": "2026-10-12",
+  "last_short": "2026-10-25",
   "long": "2026-10-12",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    92.1521871897563,
+    93.63669257639346
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -2474,8 +2483,14 @@
  },
  "hamdan bin mohammed attends the graduation ceremony of the 23rd cohort of rashid bin saeed al maktoum naval college": {
   "fails": 1,
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-25",
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    8.755271200375496,
+    10.805986811950746
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -2653,6 +2668,7 @@
  },
  "hamdan bin mohammed attends the opening of world police summit 2022": {
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 119
  },
@@ -4236,7 +4252,8 @@
   "video_len": 70
  },
  "hamdan bin mohammed launches erth dubai initiative": {
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 42
  },
  "hamdan bin mohammed launches integrated housing plan to provide 15 800 homes for nationals in dubai over the next four years": {
   "last_short": "2026-10-10",
@@ -4603,9 +4620,16 @@
  },
  "hamdan bin mohammed marks 20 years leading the executive council of dubai": {
   "fails": 1,
-  "last_short": "2026-10-05",
+  "last_short": "2026-10-25",
   "long": "2026-10-16",
   "montage_exhausted": true,
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    22.143214407472783,
+    23.868402509676194
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -4654,12 +4678,16 @@
   "video_len": 40
  },
  "hamdan bin mohammed meets first batch of female cadets graduating from dubai police academy": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-25",
+  "montage_used": 2,
   "remix_ranges": [
    [
     146.78250342450744,
     148.51213360270773
+   ],
+   [
+    110.04,
+    112.44
    ]
   ],
   "shorts_made": 1,
@@ -7050,7 +7078,9 @@
   "video_len": 77
  },
  "hamdan bin mohammed strikes gold in france": {
-  "video_exhausted": true
+  "remix_exhausted": true,
+  "video_exhausted": true,
+  "video_len": 43
  },
  "hamdan bin mohammed the uae has taken strides in energy sustainability": {
   "last_short": "2026-10-18",
@@ -7694,11 +7724,15 @@
  "hamdan bin mohammed visits art dubai": {
   "last_short": "2026-10-25",
   "long": "2026-10-13",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     300.44104021575475,
     303.0132222119203
+   ],
+   [
+    96.92,
+    98.88
    ]
   ],
   "shorts_made": 2,
@@ -8220,7 +8254,15 @@
   "video_len": 263
  },
  "hamdan bin mohammed visits dubai sports council": {
+  "last_short": "2026-10-25",
   "long": "2026-10-18",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    54.599999999999994,
+    56.24
+   ]
+  ],
   "video_exhausted": true,
   "video_len": 185
  },
@@ -8392,6 +8434,7 @@
  "hamdan bin mohammed visits idex 2021": {
   "last_short": "2026-10-25",
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     163.1610218601753,
@@ -10495,7 +10538,7 @@
  "khalifasat launches successfully into orbit emphasising uae s leadership in developing satellites": {
   "last_short": "2026-10-25",
   "long": "2026-10-14",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     133.53845390207644,
@@ -10508,6 +10551,10 @@
    [
     127.11689091652225,
     128.5339374409507
+   ],
+   [
+    97.15208169458948,
+    99.65721124518598
    ]
   ],
   "shorts_made": 3,
@@ -10780,7 +10827,7 @@
  },
  "partnership between community government the foundation of enhancing government services hamdan bin mohammed": {
   "last_short": "2026-10-25",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     56.83789082972078,
@@ -10789,6 +10836,10 @@
    [
     65.11854198093117,
     66.75414063693704
+   ],
+   [
+    51.93829092704839,
+    53.832752276036096
    ]
   ],
   "video_exhausted": true,

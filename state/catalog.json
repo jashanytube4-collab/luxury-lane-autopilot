@@ -565,7 +565,16 @@
   "long": "2026-10-22"
  },
  "executive council reviews a number of projects": {
-  "video_exhausted": true
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    2.659995592288342,
+    4.09488129014604
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 54
  },
  "hamadan attends last day of al marmoum heritage festival": {
   "long": "2026-10-24"
@@ -814,7 +823,14 @@
   "video_len": 73
  },
  "hamdan bin mohammed and maktoum bin mohammed visit emirates group headquarters": {
-  "last_short": "2026-10-09",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    21.386666666666667,
+    23.18
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -922,11 +938,15 @@
  },
  "hamdan bin mohammed approves dff s three year strategic plan": {
   "last_short": "2026-10-24",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     44.755956300528126,
     46.68727598616421
+   ],
+   [
+    238.20000000000002,
+    240.0
    ]
   ],
   "shorts_made": 3,
@@ -3365,11 +3385,15 @@
  "hamdan bin mohammed honours mbr creative sports award winners": {
   "last_short": "2026-10-24",
   "long": "2026-10-18",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     74.58464282636517,
     76.14516418564462
+   ],
+   [
+    154.73359940368613,
+    156.13921330695027
    ]
   ],
   "shorts_made": 3,
@@ -4455,7 +4479,7 @@
  },
  "hamdan bin mohammed meets graduates of one million arab coders": {
   "last_short": "2026-10-24",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     58.68,
@@ -4464,6 +4488,10 @@
    [
     38.32,
     40.04
+   ],
+   [
+    9.424350343451877,
+    10.837928041217474
    ]
   ],
   "shorts_made": 1,
@@ -6307,11 +6335,15 @@
  },
  "hamdan bin mohammed reviews outcomes of farmers souq initiative": {
   "last_short": "2026-10-24",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     29.266446170224548,
     31.43614347568861
+   ],
+   [
+    21.21658950718024,
+    22.710512566987344
    ]
   ],
   "shorts_made": 1,
@@ -8484,7 +8516,7 @@
  "hamdan officially opens 19th edition of dubai world cup": {
   "last_short": "2026-10-24",
   "long": "2026-10-12",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     57.50690395838152,
@@ -8493,6 +8525,10 @@
    [
     45.083411882173394,
     46.684733455877144
+   ],
+   [
+    7.099722005367877,
+    8.785444451473724
    ]
   ],
   "shorts_made": 1,
@@ -9710,8 +9746,15 @@
   "video_len": 51
  },
  "international space station mission carrying first emirati astronaut launched successfully": {
-  "last_short": "2026-10-21",
+  "last_short": "2026-10-24",
   "long": "2026-10-22",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    193.4567455027698,
+    195.35994785217432
+   ]
+  ],
   "shorts_made": 3,
   "shot_ranges": [
    [

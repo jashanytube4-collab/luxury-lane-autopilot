@@ -252,7 +252,14 @@
   "video_len": 62
  },
  "dubai crown prince hands over hamdan bin mohammed program for smart government flag to dubai police": {
-  "last_short": "2026-10-18",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    135.58406389801235,
+    137.5780421511502
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -1111,8 +1118,17 @@
  },
  "hamdan bin mohammed approves next phase of dubai future solutions initiative": {
   "fails": 1,
+  "last_short": "2026-10-24",
   "long": "2026-10-11",
-  "video_exhausted": true
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    26.147968471020732,
+    27.86020217273657
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 43
  },
  "hamdan bin mohammed approves package of strategic initiatives aimed at strengthening the family s role as the foundation of society": {
   "long": "2026-10-17",
@@ -3130,8 +3146,15 @@
   "video_len": 56
  },
  "hamdan bin mohammed honors mbr creative sports award winners": {
-  "last_short": "2026-10-22",
+  "last_short": "2026-10-24",
   "long": "2026-10-18",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    50.879999999999995,
+    53.080000000000005
+   ]
+  ],
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -5058,7 +5081,13 @@
  "hamdan bin mohammed mohammed bin rashid places the highest priority on supporting youth and developing their skills": {
   "last_short": "2026-10-24",
   "long": "2026-10-21",
-  "montage_used": 1,
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    15.913712985258753,
+    17.284279921446718
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -5369,7 +5398,14 @@
   "video_len": 281
  },
  "hamdan bin mohammed opens cityscape global 2017": {
-  "last_short": "2026-10-14",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    15.810590002816998,
+    17.548003509170478
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -5385,7 +5421,8 @@
     183.28
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 279
  },
  "hamdan bin mohammed opens cityscape global 2018": {
   "last_short": "2026-10-22",
@@ -7647,11 +7684,15 @@
  },
  "hamdan bin mohammed visits innovation labs 2018": {
   "last_short": "2026-10-24",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     237.92000000000002,
     239.64
+   ],
+   [
+    69.71283476309254,
+    72.24067676743113
    ]
   ],
   "shorts_made": 1,
@@ -9456,7 +9497,16 @@
   "video_exhausted": true
  },
  "in presence of dubai crown prince meraas signs agreement with dubai municipality to manage dubai safari": {
-  "video_exhausted": true
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    4.017581494059155,
+    6.2953786510829675
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 75
  },
  "in presence of mohammed bin rashid hamdan bin mohammed sets the seven shifts shaping future cities": {
   "long": "2026-10-21"
@@ -9606,8 +9656,15 @@
   "long": "2026-10-23"
  },
  "khalifasat launches successfully into orbit emphasising uae s leadership in developing satellites": {
-  "last_short": "2026-10-22",
+  "last_short": "2026-10-24",
   "long": "2026-10-14",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    133.53845390207644,
+    134.94862234331887
+   ]
+  ],
   "shorts_made": 3,
   "shot_ranges": [
    [

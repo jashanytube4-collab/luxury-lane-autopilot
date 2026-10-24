@@ -2776,7 +2776,7 @@
  },
  "hamdan bin mohammed economic diversity and supportive legislative environment cornerstones for investor confidence in dubai": {
   "last_short": "2026-10-24",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     43.05333333333333,
@@ -2804,6 +2804,10 @@
    [
     21.753333333333337,
     24.096666666666664
+   ],
+   [
+    48.32,
+    50.81333333333333
    ]
   ],
   "video_exhausted": true,
@@ -4824,8 +4828,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed mohammed bin rashid places the highest priority on supporting youth and developing their skills": {
-  "last_short": "2026-10-10",
+  "last_short": "2026-10-24",
   "long": "2026-10-21",
+  "montage_used": 1,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -4843,6 +4848,10 @@
    [
     30.980000000000004,
     32.95
+   ],
+   [
+    39.14,
+    44.14
    ]
   ],
   "video_exhausted": true,
@@ -5926,6 +5935,7 @@
  "hamdan bin mohammed reviews outcomes of sheikha hind bint maktoum family program and praises its profound social impact": {
   "last_short": "2026-10-16",
   "long": "2026-10-23",
+  "montage_exhausted": true,
   "photo_short": true,
   "shorts_made": 2,
   "shot_ranges": [
@@ -5942,7 +5952,8 @@
     25.349999999999998
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 116
  },
  "hamdan bin mohammed reviews preparations and protocols at dubai airport": {
   "video_exhausted": true,
@@ -6505,6 +6516,7 @@
   "fails": 1,
   "last_short": "2026-10-15",
   "long": "2026-10-12",
+  "montage_exhausted": true,
   "photo_short": true,
   "shorts_made": 3,
   "shot_ranges": [
@@ -6557,7 +6569,8 @@
     78.663333
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 79
  },
  "hamdan bin mohammed visits adihex 2025": {
   "last_short": "2026-10-16",
@@ -6874,7 +6887,8 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed visits display of origin autonomous vehicle on the sidelines of the world government summit 2022": {
-  "last_short": "2026-10-21",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -6904,6 +6918,10 @@
    [
     59.04,
     62.36
+   ],
+   [
+    33.32,
+    35.36
    ]
   ],
   "video_exhausted": true,
@@ -6930,6 +6948,7 @@
  },
  "hamdan bin mohammed visits dubai airshow exhibition": {
   "last_short": "2026-10-11",
+  "montage_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -7712,7 +7731,15 @@
   "video_len": 96
  },
  "hamdan bin mohammed visits wipro s apmea headquarters in dubai": {
+  "last_short": "2026-10-24",
   "long": "2026-10-14",
+  "montage_used": 1,
+  "shot_ranges": [
+   [
+    23.32,
+    27.439999999999998
+   ]
+  ],
   "video_exhausted": true,
   "video_len": 97
  },

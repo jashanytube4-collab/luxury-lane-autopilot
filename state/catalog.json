@@ -156,11 +156,15 @@
  },
  "dubai crown prince attends graduation of dubai police academy": {
   "last_short": "2026-10-24",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     211.78852581766063,
     213.30922465678802
+   ],
+   [
+    561.8497392910383,
+    563.4911547120766
    ]
   ],
   "shorts_made": 2,
@@ -357,8 +361,15 @@
   "video_exhausted": true
  },
  "dubai crown prince offers condolences al muhairi family": {
-  "last_short": "2026-10-13",
+  "last_short": "2026-10-24",
   "long": "2026-10-22",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    21.925560678740784,
+    24.15666164811694
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -906,7 +917,14 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed approves dff s three year strategic plan": {
-  "last_short": "2026-10-21",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    44.755956300528126,
+    46.68727598616421
+   ]
+  ],
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -1991,7 +2009,14 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends launch of dubai international chamber s new office in bengaluru": {
-  "last_short": "2026-10-07",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    46.14,
+    47.74
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3969,7 +3994,14 @@
   "video_len": 60
  },
  "hamdan bin mohammed launches new phase of dubai s happiness agenda": {
-  "last_short": "2026-10-18",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    21.32782479454461,
+    23.357687117517173
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -6640,6 +6672,7 @@
  },
  "hamdan bin mohammed tours route 2020 project": {
   "last_short": "2026-10-11",
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -7684,7 +7717,7 @@
  },
  "hamdan bin mohammed visits innovation labs 2018": {
   "last_short": "2026-10-24",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     237.92000000000002,
@@ -7693,6 +7726,10 @@
    [
     69.71283476309254,
     72.24067676743113
+   ],
+   [
+    180.9192317309211,
+    183.50239644590744
    ]
   ],
   "shorts_made": 1,
@@ -8114,7 +8151,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed volunteers in dubai marine clean up dive": {
-  "video_exhausted": true
+  "remix_exhausted": true,
+  "video_exhausted": true,
+  "video_len": 263
  },
  "hamdan bin mohammed watches the historic launch of zayed ambition 2": {
   "last_short": "2026-10-09",
@@ -8381,7 +8420,16 @@
   "video_len": 71
  },
  "hamdan rename hbmeu to become hamdan bin mohammed smart university": {
-  "video_exhausted": true
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    99.23093979121475,
+    100.80281978642175
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 361
  },
  "hamdan reveals dubai government towards 2021 initiative": {
   "last_short": "2026-10-15",
@@ -9759,11 +9807,15 @@
   "fails": 1,
   "last_short": "2026-10-24",
   "long": "2026-10-23",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     78.73830435472682,
     80.85675469069555
+   ],
+   [
+    34.46625004815836,
+    36.22895819631002
    ]
   ],
   "shorts_made": 1,

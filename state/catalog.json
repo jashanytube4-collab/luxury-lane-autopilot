@@ -461,7 +461,16 @@
   "video_len": 130
  },
  "dubai crown prince receives president of the chechen": {
-  "video_exhausted": true
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    11.455204817160926,
+    13.45006641089782
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 71
  },
  "dubai crown prince returns to uae after performing umrah": {
   "video_exhausted": true
@@ -823,7 +832,7 @@
  },
  "hamdan bin mohammed and maktoum bin mohammed review dubai municipality s key strategic projects following corporate restructuring": {
   "last_short": "2026-10-25",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     52.18666666666667,
@@ -832,6 +841,10 @@
    [
     35.45333333333333,
     37.61333333333334
+   ],
+   [
+    70.97703302014428,
+    73.10665696017803
    ]
   ],
   "shorts_made": 1,
@@ -1301,6 +1314,7 @@
  "hamdan bin mohammed arrives in tashkent commencing official visit to uzbekistan": {
   "last_short": "2026-10-08",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -1749,13 +1763,17 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed attends gems our own english high school s golden jubilee celebrations": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-25",
   "long": "2026-10-15",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     77.94133731869516,
     79.91891816634823
+   ],
+   [
+    192.33118682055368,
+    193.7709297496261
    ]
   ],
   "video_exhausted": true,
@@ -3642,6 +3660,7 @@
  "hamdan bin mohammed inaugurates aeedc dubai 2022": {
   "last_short": "2026-10-11",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3693,13 +3712,17 @@
   "video_len": 65
  },
  "hamdan bin mohammed inaugurates dp world s nhava sheva business park in india": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-25",
   "long": "2026-10-23",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     17.208061560738443,
     18.683138746560616
+   ],
+   [
+    46.044441224743444,
+    47.685496459357594
    ]
   ],
   "shorts_made": 1,
@@ -4199,12 +4222,16 @@
   "video_len": 73
  },
  "hamdan bin mohammed launches middle east s first of its kind drone delivery system at dubai silicon oasis": {
-  "last_short": "2026-10-24",
-  "montage_used": 2,
+  "last_short": "2026-10-25",
+  "montage_used": 3,
   "remix_ranges": [
    [
     51.899358671159604,
     53.41766398009198
+   ],
+   [
+    10.986666666666666,
+    13.08
    ]
   ],
   "shorts_made": 1,
@@ -5335,13 +5362,17 @@
   "video_len": 27
  },
  "hamdan bin mohammed meets with the mayor of miami at expo 2020 dubai": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-25",
   "long": "2026-10-20",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     2.952205388747006,
     5.23013945490934
+   ],
+   [
+    25.46064670821622,
+    27.839859254627015
    ]
   ],
   "shorts_made": 1,
@@ -6245,8 +6276,14 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed receives mourners on death of mansour bin ahmed": {
-  "last_short": "2026-10-24",
-  "montage_used": 2,
+  "last_short": "2026-10-25",
+  "montage_used": 3,
+  "remix_ranges": [
+   [
+    378.96334874938265,
+    380.6361331399336
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -6410,7 +6447,16 @@
   "video_len": 95
  },
  "hamdan bin mohammed receives victory team xcat": {
-  "video_exhausted": true
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    28.725467481363637,
+    30.655025300425685
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 70
  },
  "hamdan bin mohammed receives winners of hackathon competition": {
   "last_short": "2026-10-22",
@@ -7160,7 +7206,9 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed uae is the winner of weg": {
-  "video_exhausted": true
+  "remix_exhausted": true,
+  "video_exhausted": true,
+  "video_len": 91
  },
  "hamdan bin mohammed unveils 5 star plaque at dewa head office": {
   "last_short": "2026-10-14",

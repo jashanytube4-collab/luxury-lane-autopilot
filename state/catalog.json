@@ -383,13 +383,17 @@
   "video_exhausted": true
  },
  "dubai crown prince offers condolences al muhairi family": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-25",
   "long": "2026-10-22",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     21.925560678740784,
     24.15666164811694
+   ],
+   [
+    47.726843474656036,
+    49.75239291687139
    ]
   ],
   "shorts_made": 1,
@@ -658,7 +662,16 @@
   "video_len": 145
  },
  "hamdan addressing future circles looking forward for innovation based future": {
-  "video_exhausted": true
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    217.48666666666668,
+    219.18
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 241
  },
  "hamdan and maktoum offer condolences on death of ahmed al naboodah": {
   "long": "2026-10-20"
@@ -5222,13 +5235,17 @@
   "video_len": 60
  },
  "hamdan bin mohammed meets with local dignitaries and senior officials at za abeel majlis": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-25",
   "long": "2026-10-20",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     23.000655895915443,
     23.735293450795133
+   ],
+   [
+    11.853333333333332,
+    14.046666666666667
    ]
   ],
   "shorts_made": 1,
@@ -5280,11 +5297,15 @@
  "hamdan bin mohammed meets with minister of defence of uzbekistan": {
   "last_short": "2026-10-25",
   "long": "2026-10-16",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     34.78355170239005,
     36.23793642945343
+   ],
+   [
+    12.694266216444811,
+    14.941067716001935
    ]
   ],
   "shot_ranges": [
@@ -6409,11 +6430,15 @@
   "fails": 1,
   "last_short": "2026-10-25",
   "montage_exhausted": true,
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     59.199999999999996,
     61.2
+   ],
+   [
+    7.540343843888715,
+    9.01102461885207
    ]
   ],
   "shorts_made": 5,
@@ -7341,8 +7366,15 @@
   "video_len": 181
  },
  "hamdan bin mohammed unveils 5 star plaque at hatta gdrfa centre": {
-  "last_short": "2026-10-19",
+  "last_short": "2026-10-25",
   "long": "2026-10-14",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    62.43687402402913,
+    64.4262403555636
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -7734,7 +7766,8 @@
     15.096666666666668
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 60
  },
  "hamdan bin mohammed visits bombay stock exchange and rings opening bell": {
   "last_short": "2026-10-18",
@@ -8554,7 +8587,14 @@
   "video_len": 203
  },
  "hamdan bin mohammed visits public prosecution": {
-  "last_short": "2026-10-22",
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    65.57386954535049,
+    67.62084029747933
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -9100,6 +9140,7 @@
   "last_short": "2026-10-24",
   "long": "2026-10-12",
   "montage_used": 3,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     57.50690395838152,
@@ -10452,9 +10493,9 @@
   "long": "2026-10-23"
  },
  "khalifasat launches successfully into orbit emphasising uae s leadership in developing satellites": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-25",
   "long": "2026-10-14",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     133.53845390207644,
@@ -10463,6 +10504,10 @@
    [
     102.08,
     103.83999999999999
+   ],
+   [
+    127.11689091652225,
+    128.5339374409507
    ]
   ],
   "shorts_made": 3,

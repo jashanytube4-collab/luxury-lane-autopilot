@@ -450,7 +450,14 @@
   ]
  },
  "dubai crown prince visits dubai municipality": {
-  "last_short": "2026-10-14",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    296.0,
+    297.68
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -466,7 +473,8 @@
     86.92
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 345
  },
  "dubai crown prince visits emirates nbd head office": {
   "last_short": "2026-10-21",
@@ -1369,6 +1377,7 @@
   "video_len": 432
  },
  "hamdan bin mohammed attends day 1 of gov games": {
+  "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 115
  },
@@ -1785,6 +1794,14 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends graduation ceremony of hbmsu university": {
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    12.833660787017628,
+    14.65713003114965
+   ]
+  ],
   "video_exhausted": true,
   "video_len": 93
  },
@@ -2714,7 +2731,14 @@
   "video_len": 116
  },
  "hamdan bin mohammed concludes official visit to uzbekistan": {
-  "last_short": "2026-10-08",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    136.78354122945424,
+    138.0107642952995
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -2734,7 +2758,8 @@
     31.029999999999998
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 158
  },
  "hamdan bin mohammed congratulates four emirati students on winning gold at the international greenwich olympiad": {
   "last_short": "2026-10-15",
@@ -2744,7 +2769,14 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed crowns winner of global teacher prize": {
-  "last_short": "2026-10-12",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    15.76,
+    17.56
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -2963,8 +2995,15 @@
   "video_len": 98
  },
  "hamdan bin mohammed goes on first test ride of cruise autonomous electric vehicle in jumeirah 1": {
-  "last_short": "2026-10-09",
+  "last_short": "2026-10-24",
   "long": "2026-10-08",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    72.6327034953461,
+    74.96201118536882
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -4222,11 +4261,15 @@
  },
  "hamdan bin mohammed meets graduates of one million arab coders": {
   "last_short": "2026-10-24",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     58.68,
     61.080000000000005
+   ],
+   [
+    38.32,
+    40.04
    ]
   ],
   "shorts_made": 1,
@@ -4459,6 +4502,7 @@
   "video_len": 239
  },
  "hamdan bin mohammed meets with dubai s supreme committee of crisis and disaster management reviews preparations for expo 2020 dubai": {
+  "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 69
  },
@@ -7941,6 +7985,7 @@
  },
  "hamdan bin mohammed welcomes king of jordan as he arrives in the uae to participate in cop28": {
   "last_short": "2026-10-09",
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -7960,7 +8005,8 @@
     26.95
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 34
  },
  "hamdan bin mohammed wgs 2022 reflects mohammed bin rashid s vision": {
   "long": "2026-10-21"
@@ -9617,7 +9663,9 @@
   "video_len": 126
  },
  "mohammed bin zayed receives uae flag from hamdan bin mohammed": {
-  "video_exhausted": true
+  "remix_exhausted": true,
+  "video_exhausted": true,
+  "video_len": 249
  },
  "on behalf of the uae president hamdan bin mohammed attends azerbaijan s victory day celebrations": {
   "long": "2026-10-22",
@@ -9710,8 +9758,15 @@
   "video_len": 120
  },
  "rulers of ajman fujairah and ras al khaimah offer condolences to sheikh hamdan on mansour bin ahmed": {
-  "last_short": "2026-10-21",
+  "last_short": "2026-10-24",
   "long": "2026-10-16",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    80.96000000000001,
+    83.0
+   ]
+  ],
   "shorts_made": 3,
   "shot_ranges": [
    [

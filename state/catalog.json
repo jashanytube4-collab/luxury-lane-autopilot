@@ -3120,11 +3120,15 @@
  "hamdan bin mohammed chairs virtual meeting of executive council": {
   "last_short": "2026-10-25",
   "long": "2026-10-14",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     211.29217723516877,
     213.7700116576756
+   ],
+   [
+    81.30028874159356,
+    83.261188048578
    ]
   ],
   "shorts_made": 2,
@@ -4212,11 +4216,15 @@
  "hamdan bin mohammed inaugurates zabeel healthcare center": {
   "last_short": "2026-10-25",
   "long": "2026-10-22",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     325.72,
     327.84
+   ],
+   [
+    38.76,
+    40.760000000000005
    ]
   ],
   "shorts_made": 1,
@@ -5421,6 +5429,7 @@
   "long": "2026-10-15",
   "montage_exhausted": true,
   "montage_used": 1,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     13.239999999999998,
@@ -5480,6 +5489,7 @@
   "long": "2026-10-15",
   "montage_exhausted": true,
   "montage_used": 1,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     2.2244307378821992,
@@ -6116,13 +6126,17 @@
   "long": "2026-10-17"
  },
  "hamdan bin mohammed offers condolences to alsuwaidi family": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-25",
   "long": "2026-10-17",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     63.373747089155714,
     65.36282230479833
+   ],
+   [
+    0.7844012775566588,
+    3.0823314850582384
    ]
   ],
   "video_exhausted": true,
@@ -6660,11 +6674,15 @@
  "hamdan bin mohammed opens the race to excellence": {
   "last_short": "2026-10-25",
   "long": "2026-10-12",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     17.112070702370673,
     18.842236659194274
+   ],
+   [
+    8.972383164318636,
+    10.68627597700122
    ]
   ],
   "shorts_made": 2,
@@ -7778,7 +7796,14 @@
   "video_len": 91
  },
  "hamdan bin mohammed unveils 5 star plaque at dewa head office": {
-  "last_short": "2026-10-14",
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    134.14256148695682,
+    135.5659603311794
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -8335,7 +8360,16 @@
   "video_len": 196
  },
  "hamdan bin mohammed visits department of economic development": {
-  "video_exhausted": true
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    124.88300414562151,
+    126.80205142255122
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 206
  },
  "hamdan bin mohammed visits dewa s moro": {
   "last_short": "2026-10-25",
@@ -8837,11 +8871,15 @@
  },
  "hamdan bin mohammed visits gulfood 2018": {
   "last_short": "2026-10-25",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     193.52,
     196.07999999999998
+   ],
+   [
+    43.11342951085653,
+    45.548261062535616
    ]
   ],
   "shorts_made": 1,

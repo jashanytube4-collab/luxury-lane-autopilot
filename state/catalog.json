@@ -2679,7 +2679,8 @@
   "fails": 2
  },
  "hamdan bin mohammed chairs executive council meeting approves plans and policies": {
-  "last_short": "2026-10-15",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -2693,6 +2694,10 @@
    [
     66.60000000000001,
     74.32
+   ],
+   [
+    58.12,
+    61.800000000000004
    ]
   ],
   "video_exhausted": true,
@@ -3715,6 +3720,7 @@
  },
  "hamdan bin mohammed inaugurates the new building of dubai fertility centre": {
   "last_short": "2026-10-11",
+  "montage_exhausted": true,
   "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
@@ -5173,7 +5179,7 @@
  "hamdan bin mohammed meets with the mayor of miami at expo 2020 dubai": {
   "last_short": "2026-10-24",
   "long": "2026-10-20",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     2.952205388747006,
@@ -5197,6 +5203,10 @@
    [
     13.459999999999999,
     15.19
+   ],
+   [
+    25.12,
+    28.919999999999998
    ]
   ],
   "video_exhausted": true,
@@ -5229,6 +5239,7 @@
  },
  "hamdan bin mohammed meets with uae diplomatic mission in india commends ministry of foreign affairs efforts": {
   "last_short": "2026-10-17",
+  "montage_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -5692,7 +5703,8 @@
   "video_len": 375
  },
  "hamdan bin mohammed opens crime prevention international conference": {
-  "last_short": "2026-10-21",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -5734,6 +5746,10 @@
    [
     156.68,
     159.64
+   ],
+   [
+    76.52000000000001,
+    80.24
    ]
   ],
   "video_exhausted": true,
@@ -6178,6 +6194,7 @@
  },
  "hamdan bin mohammed receives speaker of kyrgyz parliament": {
   "last_short": "2026-10-24",
+  "montage_exhausted": true,
   "montage_used": 1,
   "shorts_made": 1,
   "shot_ranges": [
@@ -10343,7 +10360,7 @@
  "rulers of ajman fujairah and ras al khaimah offer condolences to sheikh hamdan on mansour bin ahmed": {
   "last_short": "2026-10-24",
   "long": "2026-10-16",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     80.96000000000001,
@@ -10391,6 +10408,10 @@
    [
     254.16,
     258.32
+   ],
+   [
+    124.29499999999999,
+    125.905
    ]
   ],
   "video_exhausted": true,

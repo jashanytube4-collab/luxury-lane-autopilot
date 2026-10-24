@@ -49,7 +49,7 @@
  },
  "crown prince of dubai inaugurates the hamdan smart station for simulation and training": {
   "last_short": "2026-10-24",
-  "montage_used": 1,
+  "montage_used": 2,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -67,6 +67,10 @@
    [
     51.940000000000005,
     53.019999999999996
+   ],
+   [
+    117.80000000000001,
+    120.36
    ]
   ],
   "video_exhausted": true,
@@ -586,6 +590,7 @@
  },
  "hamadan bin mohammed opens gastech 2021": {
   "last_short": "2026-10-11",
+  "montage_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -605,7 +610,8 @@
     28.79
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 145
  },
  "hamdan addressing future circles looking forward for innovation based future": {
   "video_exhausted": true
@@ -943,7 +949,7 @@
  },
  "hamdan bin mohammed approves dff s three year strategic plan": {
   "last_short": "2026-10-24",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     44.755956300528126,
@@ -1003,6 +1009,10 @@
    [
     132.12,
     135.2
+   ],
+   [
+    25.73333333333333,
+    26.466666666666676
    ]
   ],
   "video_exhausted": true,
@@ -3012,6 +3022,7 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed directs launch of second edition of dubai mallathon": {
+  "montage_exhausted": true,
   "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 53
@@ -3671,7 +3682,8 @@
   "video_len": 261
  },
  "hamdan bin mohammed inaugurates new outpatient building at dubai hospital": {
-  "last_short": "2026-10-10",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3689,6 +3701,10 @@
    [
     24.28666666666667,
     27.96333333333333
+   ],
+   [
+    56.15333333333333,
+    58.74666666666667
    ]
   ],
   "video_exhausted": true,
@@ -3829,6 +3845,7 @@
  },
  "hamdan bin mohammed inspects progress of shindagha bridge project": {
   "last_short": "2026-10-11",
+  "montage_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -4115,6 +4132,7 @@
  },
  "hamdan bin mohammed launches official operations of driverless taxi service in dubai": {
   "last_short": "2026-10-06",
+  "montage_exhausted": true,
   "remix_exhausted": true,
   "shorts_made": 3,
   "shot_ranges": [
@@ -4886,6 +4904,7 @@
  "hamdan bin mohammed meets with indian prime minister to discuss future of bilateral partnership": {
   "last_short": "2026-10-07",
   "long": "2026-10-10",
+  "montage_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -6141,7 +6160,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed receives speaker of kyrgyz parliament": {
-  "last_short": "2026-10-11",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -6163,9 +6183,14 @@
    [
     81.42,
     85.82000000000001
+   ],
+   [
+    88.2,
+    91.0
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 95
  },
  "hamdan bin mohammed receives victory team xcat": {
   "video_exhausted": true
@@ -6441,6 +6466,7 @@
   "video_len": 116
  },
  "hamdan bin mohammed reviews preparations and protocols at dubai airport": {
+  "montage_exhausted": true,
   "video_exhausted": true,
   "video_len": 301
  },
@@ -7729,6 +7755,7 @@
   "fails": 1,
   "last_short": "2026-10-24",
   "long": "2026-10-09",
+  "montage_exhausted": true,
   "montage_used": 1,
   "photo_short": true,
   "post_photos": [
@@ -7841,7 +7868,7 @@
  },
  "hamdan bin mohammed visits hazrat imam mosque in uzbekistan": {
   "last_short": "2026-10-24",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     14.613102080781365,
@@ -7873,6 +7900,10 @@
    [
     23.720000000000002,
     25.569999999999997
+   ],
+   [
+    32.54,
+    34.6
    ]
   ],
   "video_exhausted": true,
@@ -10094,7 +10125,7 @@
  "mohammed bin rashid attends 29th dubai world cup": {
   "last_short": "2026-10-24",
   "long": "2026-10-16",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     75.43029455153123,
@@ -10118,6 +10149,10 @@
    [
     30.753333333333337,
     32.230000000000004
+   ],
+   [
+    75.38666666666667,
+    78.08
    ]
   ],
   "video_exhausted": true,

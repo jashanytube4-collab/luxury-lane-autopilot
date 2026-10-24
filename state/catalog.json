@@ -1037,11 +1037,15 @@
  },
  "hamdan bin mohammed and mohammed bin salman visit headquarters of expo 2020 dubai": {
   "last_short": "2026-10-25",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     324.6005686648568,
     326.42450544227455
+   ],
+   [
+    443.9888036681915,
+    445.5239216482208
    ]
   ],
   "shorts_made": 2,
@@ -1797,12 +1801,16 @@
   "video_len": 60
  },
  "hamdan bin mohammed attends dubai forum for government best practices": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-25",
+  "montage_used": 2,
   "remix_ranges": [
    [
     28.36,
     30.48
+   ],
+   [
+    133.53379636273598,
+    135.59894710849966
    ]
   ],
   "video_exhausted": true,
@@ -1954,11 +1962,15 @@
  },
  "hamdan bin mohammed attends global islamic economy summit": {
   "last_short": "2026-10-25",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     185.20387732612363,
     187.21335672102305
+   ],
+   [
+    198.69829278273085,
+    199.72033538295761
    ]
   ],
   "shorts_made": 3,
@@ -2087,11 +2099,15 @@
   "fails": 1,
   "last_short": "2026-10-25",
   "montage_exhausted": true,
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     25.953333333333333,
     27.646666666666665
+   ],
+   [
+    31.78666666666667,
+    33.480000000000004
    ]
   ],
   "video_exhausted": true,
@@ -2477,7 +2493,8 @@
     47.46333333333334
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 55
  },
  "hamdan bin mohammed attends opening of 49th world economic forum": {
   "no_hamdan": true,
@@ -4034,11 +4051,15 @@
  "hamdan bin mohammed inaugurates biggest edition of idex in abu dhabi": {
   "last_short": "2026-10-25",
   "long": "2026-10-23",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     23.053333333333335,
     25.279999999999998
+   ],
+   [
+    18.229111422913494,
+    19.666190412463347
    ]
   ],
   "shorts_made": 1,
@@ -4333,7 +4354,7 @@
  },
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
   "last_short": "2026-10-25",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     185.70301416759017,
@@ -4342,6 +4363,10 @@
    [
     86.42879521805973,
     88.02877540735955
+   ],
+   [
+    31.07411489023813,
+    33.47694486908785
    ]
   ],
   "shorts_made": 2,
@@ -7818,11 +7843,15 @@
  "hamdan bin mohammed tours gitex 2013": {
   "last_short": "2026-10-25",
   "long": "2026-10-14",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     27.657220408374627,
     29.97719001529975
+   ],
+   [
+    23.411945628906626,
+    24.913457234193547
    ]
   ],
   "video_exhausted": true,
@@ -11620,7 +11649,7 @@
  },
  "partnership between community government the foundation of enhancing government services hamdan bin mohammed": {
   "last_short": "2026-10-25",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     56.83789082972078,
@@ -11633,6 +11662,10 @@
    [
     51.93829092704839,
     53.832752276036096
+   ],
+   [
+    80.04772569763993,
+    82.03066046460039
    ]
   ],
   "video_exhausted": true,

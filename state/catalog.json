@@ -788,7 +788,7 @@
  },
  "hamdan bin mohammed and maktoum bin mohammed review dubai municipality s key strategic projects following corporate restructuring": {
   "last_short": "2026-10-24",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     52.18666666666667,
@@ -828,6 +828,10 @@
    [
     38.986666666666665,
     43.54666666666667
+   ],
+   [
+    70.85000016666667,
+    72.51666683333333
    ]
   ],
   "video_exhausted": true,
@@ -901,6 +905,14 @@
  },
  "hamdan bin mohammed announces conclusion of phase one of dubai 10x": {
   "fails": 1,
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "shot_ranges": [
+   [
+    4.48,
+    7.04
+   ]
+  ],
   "video_exhausted": true,
   "video_len": 54
  },
@@ -1145,8 +1157,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed approves mbz sat for launch": {
-  "last_short": "2026-10-08",
+  "last_short": "2026-10-24",
   "long": "2026-10-11",
+  "montage_used": 1,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -1160,6 +1173,10 @@
    [
     29.020000000000003,
     30.63
+   ],
+   [
+    43.78666666666666,
+    47.913333333333334
    ]
   ],
   "video_exhausted": true,
@@ -1425,6 +1442,7 @@
   "fails": 1,
   "last_short": "2026-10-17",
   "long": "2026-10-23",
+  "montage_exhausted": true,
   "photo_short": true,
   "remix_exhausted": true,
   "shorts_made": 1,
@@ -1840,6 +1858,7 @@
  },
  "hamdan bin mohammed attends graduation ceremony at zayed ii military college in al ain": {
   "fails": 1,
+  "montage_exhausted": true,
   "video_exhausted": true,
   "video_len": 62
  },
@@ -2084,6 +2103,7 @@
  },
  "hamdan bin mohammed attends launch of dubai international chamber s new office in bengaluru": {
   "last_short": "2026-10-24",
+  "montage_exhausted": true,
   "montage_used": 1,
   "remix_ranges": [
    [
@@ -2111,6 +2131,7 @@
  },
  "hamdan bin mohammed attends launch of first community space under hewi dubai initiative": {
   "last_short": "2026-10-07",
+  "montage_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -2680,7 +2701,7 @@
  },
  "hamdan bin mohammed chairs executive council meeting approves plans and policies": {
   "last_short": "2026-10-24",
-  "montage_used": 1,
+  "montage_used": 2,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -2698,6 +2719,10 @@
    [
     58.12,
     61.800000000000004
+   ],
+   [
+    23.32,
+    26.279999999999998
    ]
   ],
   "video_exhausted": true,
@@ -3458,7 +3483,9 @@
  "hamdan bin mohammed honours the winner of the best minister in the world award": {
   "fails": 1,
   "long": "2026-10-23",
-  "video_exhausted": true
+  "montage_exhausted": true,
+  "video_exhausted": true,
+  "video_len": 19
  },
  "hamdan bin mohammed honours winners of 5th islamic economy award": {
   "last_short": "2026-10-24",
@@ -4075,7 +4102,7 @@
  },
  "hamdan bin mohammed launches middle east s first of its kind drone delivery system at dubai silicon oasis": {
   "last_short": "2026-10-24",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     51.899358671159604,
@@ -4103,6 +4130,10 @@
    [
     33.85333333333333,
     35.796666666666674
+   ],
+   [
+    51.75333333333333,
+    53.88
    ]
   ],
   "video_exhausted": true,
@@ -4384,6 +4415,7 @@
   "fails": 1,
   "last_short": "2026-10-05",
   "long": "2026-10-16",
+  "montage_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -4403,7 +4435,8 @@
     25.415
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 27
  },
  "hamdan bin mohammed meets director generals and executives of dubai government entities": {
   "last_short": "2026-10-11",
@@ -9994,6 +10027,7 @@
  },
  "khaled bin mohamed bin zayed meets hamdan bin mohammed bin rashid on sidelines of uae government annual meetings": {
   "long": "2026-10-21",
+  "montage_exhausted": true,
   "video_exhausted": true,
   "video_len": 64
  },

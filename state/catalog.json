@@ -509,7 +509,7 @@
  },
  "dubai crown prince visits emirates nbd head office": {
   "last_short": "2026-10-24",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     104.60402386812525,
@@ -529,6 +529,10 @@
    [
     155.76,
     158.68
+   ],
+   [
+    139.96,
+    143.64
    ]
   ],
   "video_exhausted": true,
@@ -1815,6 +1819,7 @@
  },
  "hamdan bin mohammed attends graduation ceremony at rashid bin saeed al maktoum naval college": {
   "last_short": "2026-10-11",
+  "montage_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -2925,7 +2930,7 @@
  },
  "hamdan bin mohammed concludes official visit to uzbekistan": {
   "last_short": "2026-10-24",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     136.78354122945424,
@@ -2949,6 +2954,10 @@
    [
     28.08666666666667,
     31.029999999999998
+   ],
+   [
+    49.88666666666666,
+    52.04666666666667
    ]
   ],
   "video_exhausted": true,
@@ -5088,11 +5097,15 @@
  "hamdan bin mohammed meets with minister of defence of uzbekistan": {
   "last_short": "2026-10-24",
   "long": "2026-10-16",
-  "montage_used": 1,
+  "montage_used": 2,
   "shot_ranges": [
    [
     12.12,
     15.613333333333333
+   ],
+   [
+    34.32,
+    36.34666666666667
    ]
   ],
   "video_exhausted": true,
@@ -5214,6 +5227,7 @@
  },
  "hamdan bin mohammed meets with the ferjan dubai team": {
   "fails": 1,
+  "montage_exhausted": true,
   "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 27
@@ -5750,7 +5764,7 @@
  },
  "hamdan bin mohammed opens crime prevention international conference": {
   "last_short": "2026-10-24",
-  "montage_used": 1,
+  "montage_used": 2,
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -5796,6 +5810,10 @@
    [
     76.52000000000001,
     80.24
+   ],
+   [
+    127.63333333333331,
+    128.5666666666667
    ]
   ],
   "video_exhausted": true,
@@ -6118,7 +6136,7 @@
  },
  "hamdan bin mohammed receives mourners on death of mansour bin ahmed": {
   "last_short": "2026-10-24",
-  "montage_used": 1,
+  "montage_used": 2,
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -6148,6 +6166,10 @@
    [
     395.64,
     398.0
+   ],
+   [
+    89.96000000000001,
+    92.32
    ]
   ],
   "video_exhausted": true,
@@ -7411,6 +7433,7 @@
  },
  "hamdan bin mohammed visits bombay stock exchange and rings opening bell": {
   "last_short": "2026-10-18",
+  "montage_exhausted": true,
   "photo_short": true,
   "shorts_made": 2,
   "shot_ranges": [
@@ -7427,7 +7450,8 @@
     5.67
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 43
  },
  "hamdan bin mohammed visits dental exhibition in dubai": {
   "last_short": "2026-10-24",
@@ -10386,8 +10410,9 @@
   "no_hamdan": true
  },
  "ruler of umm al quwain accepts condolences from hamdan bin mohammed": {
-  "last_short": "2026-10-11",
+  "last_short": "2026-10-24",
   "long": "2026-10-16",
+  "montage_used": 1,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -10409,6 +10434,10 @@
    [
     84.34,
     87.14999999999999
+   ],
+   [
+    77.28,
+    79.67999999999999
    ]
   ],
   "video_exhausted": true,

@@ -257,11 +257,15 @@
  },
  "dubai crown prince hands over hamdan bin mohammed program for smart government flag to dubai police": {
   "last_short": "2026-10-24",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     135.58406389801235,
     137.5780421511502
+   ],
+   [
+    62.40402788561934,
+    64.23716968341138
    ]
   ],
   "shorts_made": 2,
@@ -1224,7 +1228,14 @@
  },
  "hamdan bin mohammed attends 19th graduation ceremony of rashid bin saeed al maktoum naval college": {
   "fails": 1,
-  "last_short": "2026-10-12",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    482.4187301479371,
+    484.2335359048875
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -1278,8 +1289,17 @@
   "video_len": 158
  },
  "hamdan bin mohammed attends al amri wedding": {
+  "last_short": "2026-10-24",
   "long": "2026-10-17",
-  "video_exhausted": true
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    26.309427674914563,
+    27.88635916752477
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 48
  },
  "hamdan bin mohammed attends al falasi al muhairi family wedding": {
   "long": "2026-10-17"
@@ -1857,11 +1877,15 @@
  },
  "hamdan bin mohammed attends graduation ceremony of hbmsu university": {
   "last_short": "2026-10-24",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     12.833660787017628,
     14.65713003114965
+   ],
+   [
+    19.101747206570604,
+    20.9618950079556
    ]
   ],
   "video_exhausted": true,
@@ -4026,6 +4050,7 @@
  },
  "hamdan bin mohammed launches official operations of driverless taxi service in dubai": {
   "last_short": "2026-10-06",
+  "remix_exhausted": true,
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -4072,7 +4097,8 @@
     48.82,
     51.89000000000001
    ]
-  ]
+  ],
+  "video_len": 69
  },
  "hamdan bin mohammed launches sports initiatives": {
   "last_short": "2026-10-24",
@@ -5017,8 +5043,15 @@
   "video_len": 27
  },
  "hamdan bin mohammed meets with the mayor of miami at expo 2020 dubai": {
-  "last_short": "2026-10-10",
+  "last_short": "2026-10-24",
   "long": "2026-10-20",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    2.952205388747006,
+    5.23013945490934
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -5350,7 +5383,15 @@
   "video_len": 120
  },
  "hamdan bin mohammed offers condolences to mohamed bin zayed and tahnoun bin mohammed on death of sheikha hessa bint mohammed": {
+  "last_short": "2026-10-24",
   "long": "2026-10-16",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    108.23730979588721,
+    110.37377680326281
+   ]
+  ],
   "video_exhausted": true,
   "video_len": 237
  },
@@ -6209,7 +6250,14 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed reviews outcomes of farmers souq initiative": {
-  "last_short": "2026-10-10",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    29.266446170224548,
+    31.43614347568861
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -7971,11 +8019,15 @@
  },
  "hamdan bin mohammed visits the dubai future foundation headquarters and reviews 10x projects": {
   "last_short": "2026-10-24",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     31.725173262132333,
     34.288250628237684
+   ],
+   [
+    100.1635105995995,
+    101.69781591602039
    ]
   ],
   "shorts_made": 1,

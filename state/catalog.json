@@ -3028,8 +3028,8 @@
   "video_len": 60
  },
  "hamdan bin mohammed chairs executive council meeting": {
-  "last_short": "2026-10-24",
-  "montage_used": 2,
+  "last_short": "2026-10-25",
+  "montage_used": 3,
   "remix_ranges": [
    [
     61.638788101365066,
@@ -3038,6 +3038,10 @@
    [
     45.15104609096183,
     47.60770947345697
+   ],
+   [
+    93.48,
+    95.64
    ]
   ],
   "shorts_made": 1,
@@ -3383,12 +3387,16 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed crowns winner of global teacher prize": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-25",
+  "montage_used": 2,
   "remix_ranges": [
    [
     15.76,
     17.56
+   ],
+   [
+    245.0774128247374,
+    247.31339521404513
    ]
   ],
   "shorts_made": 1,
@@ -6021,8 +6029,15 @@
   "video_len": 63
  },
  "hamdan bin mohammed meets with top performing school and university graduates": {
-  "last_short": "2026-10-09",
+  "last_short": "2026-10-25",
   "long": "2026-10-17",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    13.76558973958145,
+    15.540905591612944
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -6302,19 +6317,15 @@
  "hamdan bin mohammed offers condolences to alsuwaidi family": {
   "last_short": "2026-10-25",
   "long": "2026-10-17",
-  "montage_used": 3,
+  "montage_used": 2,
   "remix_ranges": [
    [
     63.373747089155714,
     65.36282230479833
    ],
    [
-    0.7844012775566588,
-    3.0823314850582384
-   ],
-   [
-    42.825120102493656,
-    44.541123865690686
+    42.44655441237915,
+    44.27916677520988
    ]
   ],
   "video_exhausted": true,
@@ -9368,8 +9379,8 @@
   "video_len": 275
  },
  "hamdan bin mohammed visits linkedin s regional headquarters in dubai": {
-  "last_short": "2026-10-24",
-  "montage_used": 2,
+  "last_short": "2026-10-25",
+  "montage_used": 3,
   "remix_ranges": [
    [
     99.75771873527589,
@@ -9378,6 +9389,10 @@
    [
     116.1821938358405,
     118.48668218011925
+   ],
+   [
+    69.57825100424532,
+    71.26517185914466
    ]
   ],
   "shorts_made": 2,
@@ -9480,7 +9495,6 @@
   "last_short": "2026-10-25",
   "long": "2026-10-23",
   "montage_used": 1,
-  "remix_exhausted": true,
   "remix_ranges": [
    [
     20.880000000000003,
@@ -9994,6 +10008,7 @@
   "last_short": "2026-10-24",
   "long": "2026-10-24",
   "montage_used": 1,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     280.3430576088029,
@@ -10093,12 +10108,16 @@
   "video_len": 44
  },
  "hamdan receives unesco expert": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-25",
+  "montage_used": 2,
   "remix_ranges": [
    [
     52.35333333333333,
     54.18
+   ],
+   [
+    62.4728069118567,
+    63.87811305169352
    ]
   ],
   "video_exhausted": true,
@@ -11547,8 +11566,8 @@
     36.22895819631002
    ],
    [
-    239.1771412382375,
-    241.37596397899128
+    239.32836468093646,
+    241.23445905968038
    ]
   ],
   "shorts_made": 1,

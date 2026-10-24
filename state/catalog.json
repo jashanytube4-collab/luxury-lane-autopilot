@@ -1861,7 +1861,7 @@
  "hamdan bin mohammed attends gems our own english high school s golden jubilee celebrations": {
   "last_short": "2026-10-25",
   "long": "2026-10-15",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     77.94133731869516,
@@ -1870,6 +1870,10 @@
    [
     192.33118682055368,
     193.7709297496261
+   ],
+   [
+    213.64000000000001,
+    215.6
    ]
   ],
   "video_exhausted": true,
@@ -2747,8 +2751,15 @@
   "long": "2026-10-22"
  },
  "hamdan bin mohammed attends wedding reception": {
-  "last_short": "2026-10-12",
+  "last_short": "2026-10-25",
   "long": "2026-10-22",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    61.47232005028411,
+    63.51907182893565
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3585,7 +3596,14 @@
   "video_len": 385
  },
  "hamdan bin mohammed honors winners of dubai appreciation award for community service": {
-  "last_short": "2026-10-21",
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    209.62917219812215,
+    211.75017446267154
+   ]
+  ],
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -4171,11 +4189,15 @@
  },
  "hamdan bin mohammed inspects rta s autonomous mobility and ai projects": {
   "last_short": "2026-10-25",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     141.28021793275454,
     142.1947286072516
+   ],
+   [
+    68.08,
+    69.72
    ]
   ],
   "shorts_made": 2,
@@ -4327,6 +4349,7 @@
  "hamdan bin mohammed launches dubai schools project": {
   "long": "2026-10-17",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 70
  },
@@ -5517,7 +5540,14 @@
   "video_len": 63
  },
  "hamdan bin mohammed meets with participants of retail summit in dubai": {
-  "last_short": "2026-10-13",
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    87.0869013921355,
+    88.7920037168222
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -5545,7 +5575,8 @@
     163.79
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 187
  },
  "hamdan bin mohammed meets with president and ceo of the world economic forum": {
   "video_exhausted": true
@@ -5928,8 +5959,15 @@
   "video_len": 118
  },
  "hamdan bin mohammed offers condolences to family of martyr khalid al shehi": {
-  "last_short": "2026-10-14",
+  "last_short": "2026-10-25",
   "long": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    59.29739453301614,
+    61.82314391884523
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -5945,7 +5983,8 @@
     112.44
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 125
  },
  "hamdan bin mohammed offers condolences to family of martyr rashid al habsi": {
   "long": "2026-10-17"
@@ -8862,7 +8901,14 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed visits smart dubai office launches dubai paperless strategy": {
-  "last_short": "2026-10-14",
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    40.68961798703567,
+    42.130636864468514
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -10604,14 +10650,18 @@
   "video_len": 51
  },
  "international space station mission carrying first emirati astronaut launched successfully": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-25",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     193.4567455027698,
     195.35994785217432
+   ],
+   [
+    213.87681245531022,
+    216.11718782416068
    ]
   ],
   "shorts_made": 3,

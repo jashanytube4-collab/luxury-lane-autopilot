@@ -152,8 +152,15 @@
   "no_hamdan": true
  },
  "dubai crown prince attends al ketbi family wedding reception": {
-  "last_short": "2026-10-12",
+  "last_short": "2026-10-25",
   "long": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    60.23103364588321,
+    62.14852485589109
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -2549,7 +2556,14 @@
   "video_len": 98
  },
  "hamdan bin mohammed attends the graduation ceremony of a new cohort of dubai police academy cadets": {
-  "last_short": "2026-10-09",
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    102.02000000000001,
+    103.74666666666666
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -4106,11 +4120,15 @@
  },
  "hamdan bin mohammed inaugurates new outpatient building at dubai hospital": {
   "last_short": "2026-10-25",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     56.463618598077424,
     58.73669381566936
+   ],
+   [
+    8.586576542940987,
+    10.861279381763474
    ]
   ],
   "shorts_made": 1,
@@ -4247,11 +4265,15 @@
  },
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
   "last_short": "2026-10-25",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     185.70301416759017,
     187.34355728525315
+   ],
+   [
+    86.42879521805973,
+    88.02877540735955
    ]
   ],
   "shorts_made": 2,
@@ -6089,13 +6111,17 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed offers condolences to al falahi family": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-25",
   "long": "2026-10-16",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     85.17042709742152,
     87.37007138121277
+   ],
+   [
+    67.05341165476884,
+    68.51337056092824
    ]
   ],
   "shorts_made": 1,
@@ -6368,7 +6394,14 @@
   "video_len": 279
  },
  "hamdan bin mohammed opens cityscape global 2018": {
-  "last_short": "2026-10-22",
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    252.68,
+    254.84
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -7012,7 +7045,14 @@
   "video_len": 70
  },
  "hamdan bin mohammed receives winners of hackathon competition": {
-  "last_short": "2026-10-22",
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    34.03999324271554,
+    36.01153851424013
+   ]
+  ],
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -7820,7 +7860,7 @@
  },
  "hamdan bin mohammed unveils 5 star plaque at dubai chamber of commerce and industry": {
   "last_short": "2026-10-25",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     65.26929340751813,
@@ -7829,6 +7869,10 @@
    [
     53.8953938267477,
     55.841513656667345
+   ],
+   [
+    86.52424252108888,
+    88.77222518384909
    ]
   ],
   "shorts_made": 1,

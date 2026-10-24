@@ -903,8 +903,15 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed and maktoum bin mohammed meet dubai s top performing high school students": {
-  "last_short": "2026-10-10",
+  "last_short": "2026-10-25",
   "long": "2026-10-17",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    51.114362516750305,
+    53.252424602433464
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -2239,7 +2246,7 @@
  },
  "hamdan bin mohammed attends hct graduation": {
   "last_short": "2026-10-25",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     45.8,
@@ -2252,6 +2259,10 @@
    [
     256.6072050376929,
     258.80037458992683
+   ],
+   [
+    296.0748648372792,
+    297.90377252849675
    ]
   ],
   "shorts_made": 1,
@@ -4086,11 +4097,15 @@
  },
  "hamdan bin mohammed inaugurates dubai ai campus cluster at the difc innovation hub": {
   "last_short": "2026-10-25",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     7.612695390402471,
     9.392956865905663
+   ],
+   [
+    45.28666666666666,
+    46.913333333333334
    ]
   ],
   "shorts_made": 1,
@@ -5354,6 +5369,7 @@
   "last_short": "2026-10-18",
   "montage_exhausted": true,
   "photo_short": true,
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [],
   "video_exhausted": true,
@@ -6311,11 +6327,15 @@
  "hamdan bin mohammed offers condolences to family of martyr saeed alhajri": {
   "last_short": "2026-10-25",
   "long": "2026-10-15",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     51.95995823473159,
     54.52650052857265
+   ],
+   [
+    43.71285804590288,
+    45.66334587664757
    ]
   ],
   "shorts_made": 1,
@@ -6707,11 +6727,15 @@
  "hamdan bin mohammed opens salem medical fitness smart centre": {
   "last_short": "2026-10-25",
   "long": "2026-10-18",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     181.00383561389623,
     183.08393414657107
+   ],
+   [
+    92.17454862680592,
+    93.63143832969213
    ]
   ],
   "shorts_made": 3,
@@ -8613,11 +8637,15 @@
  },
  "hamdan bin mohammed visits dp world s facilities inspects operations of jebel ali port": {
   "last_short": "2026-10-25",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     239.21739492730302,
     241.36657391644613
+   ],
+   [
+    196.20000000000002,
+    198.76
    ]
   ],
   "shorts_made": 1,
@@ -9060,12 +9088,16 @@
   "video_len": 213
  },
  "hamdan bin mohammed visits hazrat imam mosque in uzbekistan": {
-  "last_short": "2026-10-24",
-  "montage_used": 2,
+  "last_short": "2026-10-25",
+  "montage_used": 3,
   "remix_ranges": [
    [
     14.613102080781365,
     16.057282151307735
+   ],
+   [
+    27.68394655927227,
+    29.982932582074035
    ]
   ],
   "shorts_made": 1,

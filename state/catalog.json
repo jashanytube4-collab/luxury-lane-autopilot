@@ -1836,6 +1836,14 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed attends dubai international health tourism forum": {
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    7.240980523956169,
+    9.31263088170749
+   ]
+  ],
   "video_exhausted": true,
   "video_len": 270
  },
@@ -6434,7 +6442,7 @@
  },
  "hamdan bin mohammed officially opens gitex 2018": {
   "last_short": "2026-10-25",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     126.01016816879962,
@@ -6443,6 +6451,10 @@
    [
     115.60592645886402,
     117.35510809687436
+   ],
+   [
+    211.72,
+    213.56
    ]
   ],
   "shorts_made": 1,
@@ -6707,8 +6719,15 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed opens gitex tech week 2017": {
-  "last_short": "2026-10-22",
+  "last_short": "2026-10-25",
   "long": "2026-10-14",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    332.71433094211426,
+    335.11805589084526
+   ]
+  ],
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -9334,11 +9353,15 @@
  },
  "hamdan bin mohammed visits knowledge and human development authority": {
   "last_short": "2026-10-25",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     46.112166656490174,
     48.19646380777128
+   ],
+   [
+    124.25502533438181,
+    126.73245674425606
    ]
   ],
   "video_exhausted": true,
@@ -9503,11 +9526,15 @@
  },
  "hamdan bin mohammed visits stands of government entities at gitex2019": {
   "last_short": "2026-10-25",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     43.23447798351972,
     45.51950664293132
+   ],
+   [
+    238.3873258115694,
+    240.21041491407428
    ]
   ],
   "shorts_made": 2,
@@ -9978,11 +10005,15 @@
  },
  "hamdan inaugurates makani smart app": {
   "last_short": "2026-10-25",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     38.3617087509123,
     40.21556193493809
+   ],
+   [
+    17.186666666666667,
+    19.18
    ]
   ],
   "video_exhausted": true,
@@ -9995,7 +10026,9 @@
   "video_exhausted": true
  },
  "hamdan leads march of loyalty to sheikha hind on mother s day": {
-  "video_exhausted": true
+  "remix_exhausted": true,
+  "video_exhausted": true,
+  "video_len": 142
  },
  "hamdan maktoum offer condolence to saeed ali al ketbi family": {
   "long": "2026-10-17"
@@ -11456,8 +11489,15 @@
  },
  "king salman bin abdulaziz of saudi arabia receives dubai crown prince": {
   "fails": 1,
-  "last_short": "2026-10-12",
+  "last_short": "2026-10-25",
   "montage_exhausted": true,
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    148.4366039138342,
+    149.92922274616703
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -11533,6 +11573,7 @@
   "last_short": "2026-10-25",
   "long": "2026-10-23",
   "montage_used": 1,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     173.035804515191,
@@ -11796,7 +11837,7 @@
  "rulers of ajman fujairah and ras al khaimah offer condolences to sheikh hamdan on mansour bin ahmed": {
   "last_short": "2026-10-25",
   "long": "2026-10-16",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     80.96000000000001,
@@ -11805,6 +11846,10 @@
    [
     106.1789015681462,
     108.06300122272708
+   ],
+   [
+    239.75626333242164,
+    242.30165433139075
    ]
   ],
   "shorts_made": 3,

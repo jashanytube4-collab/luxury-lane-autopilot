@@ -483,6 +483,7 @@
  },
  "dubai crown prince visits expo 2020 site": {
   "last_short": "2026-10-11",
+  "montage_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -696,7 +697,7 @@
  },
  "hamdan bin mohammed and maktoum bin mohammed review dubai municipality s key strategic projects following corporate restructuring": {
   "last_short": "2026-10-24",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     52.18666666666667,
@@ -732,6 +733,10 @@
    [
     15.053333333333333,
     17.063333333333333
+   ],
+   [
+    38.986666666666665,
+    43.54666666666667
    ]
   ],
   "video_exhausted": true,
@@ -4667,7 +4672,8 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed meets with participants of dubai leadership camp": {
-  "last_short": "2026-10-10",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -4689,6 +4695,10 @@
    [
     50.339999999999996,
     54.190000000000005
+   ],
+   [
+    32.63,
+    37.63
    ]
   ],
   "video_exhausted": true,
@@ -6209,7 +6219,8 @@
   "video_len": 75
  },
  "hamdan bin mohammed tours arabian travel market 2024": {
-  "last_short": "2026-10-08",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -6231,6 +6242,10 @@
    [
     20.88666666666667,
     23.029999999999998
+   ],
+   [
+    54.05333333333333,
+    58.14666666666667
    ]
   ],
   "video_exhausted": true,

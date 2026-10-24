@@ -545,6 +545,7 @@
  "dubai crown prince visits expo 2020 site": {
   "last_short": "2026-10-11",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -640,7 +641,16 @@
   "video_len": 68
  },
  "hamdan approves medical tourism strategy": {
-  "video_exhausted": true
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    29.184896091193437,
+    31.37428838854633
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 88
  },
  "hamdan attends 1st dubai desert triathlon": {
   "long": "2026-10-18"
@@ -2120,6 +2130,7 @@
   "last_short": "2026-10-24",
   "montage_exhausted": true,
   "montage_used": 1,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     46.14,
@@ -2599,8 +2610,15 @@
   "long": "2026-10-18"
  },
  "hamdan bin mohammed attends wedding receptions in al ain dubai": {
-  "last_short": "2026-10-11",
+  "last_short": "2026-10-25",
   "long": "2026-10-15",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    37.90981226167036,
+    39.39389414894758
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -2628,7 +2646,8 @@
     71.39
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 106
  },
  "hamdan bin mohammed attends workshop by rta titled connecting bridges": {
   "last_short": "2026-10-17",
@@ -4023,6 +4042,14 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed launches 26 dubai 10x projects issues directive to implement them within 24 months": {
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    113.84243637422479,
+    115.756470004766
+   ]
+  ],
   "video_exhausted": true,
   "video_len": 238
  },
@@ -4646,7 +4673,16 @@
   "video_len": 46
  },
  "hamdan bin mohammed meets promising leaders from various dubai government entities": {
-  "video_exhausted": true
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    23.271101134211975,
+    24.758946151079805
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 99
  },
  "hamdan bin mohammed meets students of dubai schools": {
   "last_short": "2026-10-22",
@@ -7174,7 +7210,14 @@
   "video_len": 234
  },
  "hamdan bin mohammed unveils 5 star plaques at three customer happiness centres in dubai": {
-  "last_short": "2026-10-14",
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    140.12827217544256,
+    141.70446858595363
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -7193,7 +7236,15 @@
   "long": "2026-10-13"
  },
  "hamdan bin mohammed visit family who lost seven children in house fire": {
+  "last_short": "2026-10-25",
   "long": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    47.12149826062031,
+    49.39959087698006
+   ]
+  ],
   "video_exhausted": true,
   "video_len": 73
  },
@@ -7264,8 +7315,15 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed visits al dhafra air base in abu dhabi": {
-  "last_short": "2026-10-16",
+  "last_short": "2026-10-25",
   "long": "2026-10-20",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    26.748460958884152,
+    28.38537247188773
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -10253,7 +10311,15 @@
   "video_len": 300
  },
  "mohamed bin zayed hamdan bin mohammed take part in walk unified event": {
+  "last_short": "2026-10-25",
   "long": "2026-10-23",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    173.035804515191,
+    174.69152660741932
+   ]
+  ],
   "video_exhausted": true,
   "video_len": 287
  },

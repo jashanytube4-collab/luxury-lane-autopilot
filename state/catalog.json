@@ -2701,7 +2701,7 @@
  },
  "hamdan bin mohammed chairs executive council meeting approves plans and policies": {
   "last_short": "2026-10-24",
-  "montage_used": 2,
+  "montage_used": 3,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -2723,6 +2723,10 @@
    [
     23.32,
     26.279999999999998
+   ],
+   [
+    30.36,
+    34.52
    ]
   ],
   "video_exhausted": true,
@@ -4141,7 +4145,7 @@
  },
  "hamdan bin mohammed launches new phase of dubai s happiness agenda": {
   "last_short": "2026-10-24",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     21.32782479454461,
@@ -4165,6 +4169,10 @@
    [
     65.24000000000001,
     69.47999999999999
+   ],
+   [
+    74.24000000000001,
+    77.44
    ]
   ],
   "video_exhausted": true,
@@ -4890,6 +4898,7 @@
  "hamdan bin mohammed meets with india s defence minister": {
   "last_short": "2026-10-07",
   "long": "2026-10-15",
+  "montage_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -5318,7 +5327,7 @@
  "hamdan bin mohammed mohammed bin rashid places the highest priority on supporting youth and developing their skills": {
   "last_short": "2026-10-24",
   "long": "2026-10-21",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     15.913712985258753,
@@ -5346,6 +5355,10 @@
    [
     39.14,
     44.14
+   ],
+   [
+    13.879999999999999,
+    17.959999999999997
    ]
   ],
   "video_exhausted": true,
@@ -6104,7 +6117,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed receives mourners on death of mansour bin ahmed": {
-  "last_short": "2026-10-18",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -6130,6 +6144,10 @@
    [
     459.52,
     471.32
+   ],
+   [
+    395.64,
+    398.0
    ]
   ],
   "video_exhausted": true,
@@ -7727,8 +7745,9 @@
   "video_len": 154
  },
  "hamdan bin mohammed visits dubai hospital": {
-  "last_short": "2026-10-21",
+  "last_short": "2026-10-24",
   "long": "2026-10-14",
+  "montage_used": 1,
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -7770,6 +7789,10 @@
    [
     187.16,
     190.32
+   ],
+   [
+    214.12,
+    216.32
    ]
   ],
   "video_exhausted": true,

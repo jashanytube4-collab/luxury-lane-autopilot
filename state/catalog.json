@@ -477,7 +477,14 @@
   "video_len": 345
  },
  "dubai crown prince visits emirates nbd head office": {
-  "last_short": "2026-10-21",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    104.60402386812525,
+    106.14373690974806
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -521,7 +528,16 @@
   "long": "2026-10-23"
  },
  "dubai executive council approves annual agenda for 2018": {
-  "video_exhausted": true
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    41.18786988601433,
+    43.64128933857099
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 73
  },
  "emirates rulers hamdan bin mohammed and crown princes attend wedding ceremony": {
   "long": "2026-10-22"
@@ -1223,6 +1239,7 @@
   ]
  },
  "hamdan bin mohammed attends ai everything conference": {
+  "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 158
  },
@@ -2177,6 +2194,7 @@
  "hamdan bin mohammed attends the graduation ceremony of rashid bin saeed al maktoum naval college": {
   "last_short": "2026-10-08",
   "long": "2026-10-06",
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -2974,12 +2992,28 @@
   "long": "2026-10-17"
  },
  "hamdan bin mohammed extends condolences to al muhairi family": {
+  "last_short": "2026-10-24",
   "long": "2026-10-16",
-  "video_exhausted": true
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    4.957396382789787,
+    6.468087705573867
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 73
  },
  "hamdan bin mohammed extends condolences to families of pilots": {
-  "last_short": "2026-10-14",
+  "last_short": "2026-10-24",
   "long": "2026-10-14",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    132.34533841902865,
+    134.31198262158418
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -2991,7 +3025,8 @@
     77.28
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 169
  },
  "hamdan bin mohammed extends condolences to family of the martyr al bishir": {
   "long": "2026-10-17"
@@ -4125,7 +4160,14 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed leads f3 team to gov games finals": {
-  "last_short": "2026-10-22",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    14.912667226240458,
+    17.116207286270367
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -5699,7 +5741,9 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed receives gold coast mayor": {
-  "video_exhausted": true
+  "remix_exhausted": true,
+  "video_exhausted": true,
+  "video_len": 76
  },
  "hamdan bin mohammed receives hazza bin zayed in dubai": {
   "last_short": "2026-10-08",
@@ -8098,6 +8142,7 @@
  "hamdan bin mohammed witnesses display of skills of national service programme recruits": {
   "last_short": "2026-10-07",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -8203,8 +8248,17 @@
   "long": "2026-10-22"
  },
  "hamdan honors winners of mbr arabic language award": {
+  "last_short": "2026-10-24",
   "long": "2026-10-24",
-  "video_exhausted": true
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    280.3430576088029,
+    281.86987012892985
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 551
  },
  "hamdan inaugurates makani smart app": {
   "video_exhausted": true
@@ -8304,7 +8358,16 @@
   "video_exhausted": true
  },
  "hamdan visits dubai world hospitality championship": {
-  "video_exhausted": true
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    87.55243713425686,
+    89.34161653458095
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 202
  },
  "hamdan visits government think tank": {
   "last_short": "2026-10-24",
@@ -9840,7 +9903,9 @@
   "video_len": 39
  },
  "president receives hamdan and maktoum bin mohammed": {
-  "video_exhausted": true
+  "remix_exhausted": true,
+  "video_exhausted": true,
+  "video_len": 173
  },
  "queen elizabeth honors hamdan on winning windsor royal endurance race": {
   "long": "2026-10-18",

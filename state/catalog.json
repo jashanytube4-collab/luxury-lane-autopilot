@@ -2168,7 +2168,7 @@
  },
  "hamdan bin mohammed attends hct graduation": {
   "last_short": "2026-10-25",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     45.8,
@@ -2177,6 +2177,10 @@
    [
     215.84,
     217.79999999999998
+   ],
+   [
+    256.6072050376929,
+    258.80037458992683
    ]
   ],
   "shorts_made": 1,
@@ -2452,7 +2456,14 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends talk on middle eastern cities contributions to advancing human progress": {
-  "last_short": "2026-10-09",
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    94.94955677495503,
+    96.67004647461843
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3405,12 +3416,16 @@
   "long": "2026-10-17"
  },
  "hamdan bin mohammed follows up the work mechanisms of dubai future councils": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-25",
+  "montage_used": 2,
   "remix_ranges": [
    [
     33.70297380293951,
     35.17037784010996
+   ],
+   [
+    8.964254377152054,
+    11.42513145873864
    ]
   ],
   "shorts_made": 1,
@@ -4155,7 +4170,14 @@
   "video_len": 227
  },
  "hamdan bin mohammed inspects rta s autonomous mobility and ai projects": {
-  "last_short": "2026-10-22",
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    141.28021793275454,
+    142.1947286072516
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -5633,8 +5655,15 @@
   "video_len": 63
  },
  "hamdan bin mohammed meets with uae diplomatic mission in india commends ministry of foreign affairs efforts": {
-  "last_short": "2026-10-17",
+  "last_short": "2026-10-25",
   "montage_exhausted": true,
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    28.66,
+    30.58
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -5963,12 +5992,16 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed officially opens gitex 2018": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-25",
+  "montage_used": 2,
   "remix_ranges": [
    [
     126.01016816879962,
     127.85106644372517
+   ],
+   [
+    115.60592645886402,
+    117.35510809687436
    ]
   ],
   "shorts_made": 1,
@@ -6044,12 +6077,16 @@
   "video_len": 281
  },
  "hamdan bin mohammed opens cityscape global 2017": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-25",
+  "montage_used": 2,
   "remix_ranges": [
    [
     15.810590002816998,
     17.548003509170478
+   ],
+   [
+    148.28,
+    150.04
    ]
   ],
   "shorts_made": 1,
@@ -7535,12 +7572,16 @@
   "video_len": 189
  },
  "hamdan bin mohammed unveils 5 star plaque at sheikh zayed housing programme in dubai": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-25",
+  "montage_used": 2,
   "remix_ranges": [
    [
     144.8978218171365,
     147.49627629039173
+   ],
+   [
+    210.14383967962246,
+    212.62561103363115
    ]
   ],
   "shorts_made": 3,

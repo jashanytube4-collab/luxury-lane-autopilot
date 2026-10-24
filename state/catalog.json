@@ -2513,6 +2513,7 @@
   "video_len": 52
  },
  "hamdan bin mohammed attends the opening of world police summit 2022": {
+  "montage_exhausted": true,
   "video_exhausted": true,
   "video_len": 119
  },
@@ -3528,6 +3529,7 @@
  },
  "hamdan bin mohammed inaugurates aeedc dubai 2022": {
   "last_short": "2026-10-11",
+  "montage_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3547,7 +3549,8 @@
     24.229999999999997
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 137
  },
  "hamdan bin mohammed inaugurates al safa art design library": {
   "long": "2026-10-13"
@@ -4981,7 +4984,7 @@
  "hamdan bin mohammed meets with local dignitaries and senior officials at za abeel majlis": {
   "last_short": "2026-10-24",
   "long": "2026-10-20",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     23.000655895915443,
@@ -5001,6 +5004,10 @@
    [
     33.72,
     35.19666666666667
+   ],
+   [
+    21.486666666666668,
+    23.946666666666665
    ]
   ],
   "video_exhausted": true,
@@ -5031,7 +5038,15 @@
   "video_len": 60
  },
  "hamdan bin mohammed meets with minister of defence of uzbekistan": {
+  "last_short": "2026-10-24",
   "long": "2026-10-16",
+  "montage_used": 1,
+  "shot_ranges": [
+   [
+    12.12,
+    15.613333333333333
+   ]
+  ],
   "video_exhausted": true,
   "video_len": 60
  },
@@ -6074,6 +6089,7 @@
  "hamdan bin mohammed receives ramadan well wishers": {
   "fails": 1,
   "last_short": "2026-10-06",
+  "montage_exhausted": true,
   "shorts_made": 5,
   "shot_ranges": [
    [
@@ -6157,7 +6173,8 @@
     69.86
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 76
  },
  "hamdan bin mohammed receives speaker of kyrgyz parliament": {
   "last_short": "2026-10-24",
@@ -6393,7 +6410,7 @@
  },
  "hamdan bin mohammed reviews outcomes of farmers souq initiative": {
   "last_short": "2026-10-24",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     29.266446170224548,
@@ -6437,6 +6454,10 @@
    [
     23.353333333333335,
     24.863333333333333
+   ],
+   [
+    56.05333333333333,
+    59.480000000000004
    ]
   ],
   "video_exhausted": true,
@@ -6868,6 +6889,7 @@
  },
  "hamdan bin mohammed tours route 2020 project": {
   "last_short": "2026-10-11",
+  "montage_exhausted": true,
   "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
@@ -7540,7 +7562,8 @@
   "video_len": 79
  },
  "hamdan bin mohammed visits dubai autism center": {
-  "last_short": "2026-10-21",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -7578,6 +7601,10 @@
    [
     161.68,
     166.6
+   ],
+   [
+    184.4,
+    186.51999999999998
    ]
   ],
   "video_exhausted": true,
@@ -7990,6 +8017,7 @@
  "hamdan bin mohammed visits khda commends education community and high level of institutional readiness": {
   "last_short": "2026-10-06",
   "long": "2026-10-06",
+  "montage_exhausted": true,
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -8370,11 +8398,15 @@
  "hamdan bin mohammed visits wipro s apmea headquarters in dubai": {
   "last_short": "2026-10-24",
   "long": "2026-10-14",
-  "montage_used": 1,
+  "montage_used": 2,
   "shot_ranges": [
    [
     23.32,
     27.439999999999998
+   ],
+   [
+    95.04,
+    97.36
    ]
   ],
   "video_exhausted": true,
@@ -9838,6 +9870,7 @@
  "international space station mission carrying first emirati astronaut launched successfully": {
   "last_short": "2026-10-24",
   "long": "2026-10-22",
+  "montage_exhausted": true,
   "montage_used": 1,
   "remix_ranges": [
    [

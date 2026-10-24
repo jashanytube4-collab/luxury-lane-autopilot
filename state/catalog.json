@@ -695,7 +695,14 @@
   "video_len": 54
  },
  "hamdan bin mohammed and maktoum bin mohammed review dubai municipality s key strategic projects following corporate restructuring": {
-  "last_short": "2026-10-09",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    52.18666666666667,
+    54.34666666666667
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -1065,6 +1072,7 @@
  },
  "hamdan bin mohammed arrives in new delhi on official visit to india": {
   "last_short": "2026-10-07",
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -1495,7 +1503,15 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed attends gems our own english high school s golden jubilee celebrations": {
+  "last_short": "2026-10-24",
   "long": "2026-10-15",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    77.94133731869516,
+    79.91891816634823
+   ]
+  ],
   "video_exhausted": true,
   "video_len": 278
  },
@@ -2402,7 +2418,14 @@
   "video_len": 60
  },
  "hamdan bin mohammed chairs executive council meeting": {
-  "last_short": "2026-10-12",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    61.638788101365066,
+    63.613762284201655
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3186,6 +3209,7 @@
  "hamdan bin mohammed inaugurates 8th edition of cybertech global in dubai": {
   "last_short": "2026-10-11",
   "long": "2026-10-14",
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -4570,8 +4594,15 @@
   "video_len": 60
  },
  "hamdan bin mohammed meets with local dignitaries and senior officials at za abeel majlis": {
-  "last_short": "2026-10-08",
+  "last_short": "2026-10-24",
   "long": "2026-10-20",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    23.000655895915443,
+    23.735293450795133
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -6668,7 +6699,14 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits area 2071 reviews dubai 10x initiative projects": {
-  "last_short": "2026-10-21",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    51.93878486376732,
+    53.661804082879065
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -7131,8 +7169,15 @@
   "video_len": 260
  },
  "hamdan bin mohammed visits dubai international boat show": {
-  "last_short": "2026-10-21",
+  "last_short": "2026-10-24",
   "long": "2026-10-14",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    252.31552180004425,
+    254.4316910877127
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -7578,7 +7623,14 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits the dubai future foundation headquarters and reviews 10x projects": {
-  "last_short": "2026-10-14",
+  "last_short": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    31.725173262132333,
+    34.288250628237684
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -7598,7 +7650,8 @@
     71.19
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 186
  },
  "hamdan bin mohammed visits the ministry of foreign affairs in abu dhabi": {
   "last_short": "2026-10-21",
@@ -9393,8 +9446,15 @@
   "video_len": 251
  },
  "mohammed bin rashid commends the dubai executive council s efforts over the past 15 years": {
-  "last_short": "2026-10-22",
+  "last_short": "2026-10-24",
   "long": "2026-10-16",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    83.59827200044164,
+    85.94881354218674
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -9566,6 +9626,7 @@
  },
  "sultan haitham bin tariq receives hamdan bin mohammed in muscat": {
   "fails": 1,
+  "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 83
  },

@@ -847,8 +847,15 @@
  },
  "hamdan bin mohammed and india s minister of commerce and industry witness signing of 8 mous": {
   "fails": 1,
-  "last_short": "2026-10-17",
+  "last_short": "2026-10-25",
   "long": "2026-10-14",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    2.2600000000000002,
+    4.04
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -1825,12 +1832,16 @@
   "fails": 2
  },
  "hamdan bin mohammed attends dubai police graduation ceremony": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-25",
+  "montage_used": 2,
   "remix_ranges": [
    [
     166.60279951075904,
     168.32818500678334
+   ],
+   [
+    214.7586103547802,
+    216.3728365657538
    ]
   ],
   "shorts_made": 1,
@@ -3037,11 +3048,15 @@
  },
  "hamdan bin mohammed chairs executive council meeting approves updated school fees framework": {
   "last_short": "2026-10-25",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     34.26371275434294,
     36.40276813697482
+   ],
+   [
+    101.4790080722255,
+    103.16846590215242
    ]
   ],
   "shorts_made": 1,
@@ -3103,8 +3118,15 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed chairs virtual meeting of executive council": {
-  "last_short": "2026-10-21",
+  "last_short": "2026-10-25",
   "long": "2026-10-14",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    211.29217723516877,
+    213.7700116576756
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -4417,11 +4439,15 @@
  },
  "hamdan bin mohammed launches day for dubai encourages residents to volunteer": {
   "last_short": "2026-10-25",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     135.35635719561918,
     137.61638740360786
+   ],
+   [
+    80.53225366959813,
+    82.2448314642415
    ]
   ],
   "video_exhausted": true,
@@ -6114,7 +6140,7 @@
  "hamdan bin mohammed offers condolences to family of martyr al mesmari": {
   "last_short": "2026-10-25",
   "long": "2026-10-15",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     80.51467503711403,
@@ -6123,6 +6149,10 @@
    [
     53.7839441028503,
     54.91934224779382
+   ],
+   [
+    70.2,
+    71.96
    ]
   ],
   "shorts_made": 1,
@@ -7878,11 +7908,15 @@
  },
  "hamdan bin mohammed unveils 5 star plaques at three customer happiness centres in dubai": {
   "last_short": "2026-10-25",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     140.12827217544256,
     141.70446858595363
+   ],
+   [
+    255.88,
+    257.56
    ]
   ],
   "shorts_made": 1,
@@ -9271,11 +9305,15 @@
  "hamdan bin mohammed visits the ministry of foreign affairs in abu dhabi": {
   "last_short": "2026-10-25",
   "long": "2026-10-23",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     32.42935439729225,
     34.88205783622548
+   ],
+   [
+    23.95244204045676,
+    25.952159588874913
    ]
   ],
   "shorts_made": 2,

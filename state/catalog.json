@@ -2500,11 +2500,15 @@
  },
  "hamdan bin mohammed attends talk on middle eastern cities contributions to advancing human progress": {
   "last_short": "2026-10-25",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     94.94955677495503,
     96.67004647461843
+   ],
+   [
+    43.475098823892644,
+    44.79044369147532
    ]
   ],
   "shorts_made": 1,
@@ -4067,8 +4071,14 @@
   "video_len": 261
  },
  "hamdan bin mohammed inaugurates new outpatient building at dubai hospital": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-25",
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    56.463618598077424,
+    58.73669381566936
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -5248,12 +5258,16 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed meets with dubai gov t second line of leadership": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-25",
+  "montage_used": 2,
   "remix_ranges": [
    [
     128.9530729946567,
     130.35472903175437
+   ],
+   [
+    103.91338452461976,
+    105.59388228647394
    ]
   ],
   "shorts_made": 3,
@@ -7878,12 +7892,16 @@
   "last_short": "2026-10-25",
   "long": "2026-10-12",
   "montage_exhausted": true,
-  "montage_used": 1,
+  "montage_used": 2,
   "photo_short": true,
   "remix_ranges": [
    [
     67.00872336719851,
     68.13201957442213
+   ],
+   [
+    41.84118911739477,
+    43.93886941359619
    ]
   ],
   "shorts_made": 3,
@@ -8499,11 +8517,15 @@
  },
  "hamdan bin mohammed visits dubai government hr department": {
   "last_short": "2026-10-25",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     44.278115517299156,
     46.32846246422614
+   ],
+   [
+    129.08189264895086,
+    131.00550859894892
    ]
   ],
   "shorts_made": 1,
@@ -9587,7 +9609,16 @@
   "video_len": 551
  },
  "hamdan inaugurates makani smart app": {
-  "video_exhausted": true
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    38.3617087509123,
+    40.21556193493809
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 116
  },
  "hamdan inaugurates mena transport congress exhibition": {
   "long": "2026-10-22"
@@ -11177,6 +11208,7 @@
   "last_short": "2026-10-25",
   "long": "2026-10-16",
   "montage_used": 3,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     75.43029455153123,
@@ -11238,13 +11270,17 @@
   "video_len": 251
  },
  "mohammed bin rashid commends the dubai executive council s efforts over the past 15 years": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-25",
   "long": "2026-10-16",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     83.59827200044164,
     85.94881354218674
+   ],
+   [
+    90.01907166204471,
+    91.70500438479064
    ]
   ],
   "shorts_made": 1,

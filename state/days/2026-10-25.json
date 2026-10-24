@@ -139,8 +139,11 @@
   },
   {
    "at": "2026-10-25T18:30:51+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "status": "scheduled",
+   "title": "He rises with the sun and works until the stars. #youtubeshorts #youtube",
+   "type": "short",
+   "video_id": "DmThgB7CFHg"
   },
   {
    "at": "2026-10-25T19:09:43+04:00",

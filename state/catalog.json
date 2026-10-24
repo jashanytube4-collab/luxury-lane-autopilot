@@ -1037,7 +1037,7 @@
  },
  "hamdan bin mohammed and mohammed bin salman visit headquarters of expo 2020 dubai": {
   "last_short": "2026-10-25",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     324.6005686648568,
@@ -1046,6 +1046,10 @@
    [
     443.9888036681915,
     445.5239216482208
+   ],
+   [
+    376.4365182122772,
+    378.84098923843345
    ]
   ],
   "shorts_made": 2,
@@ -1643,7 +1647,7 @@
  },
  "hamdan bin mohammed attends closing ceremony of 3rd dubai future accelerators program": {
   "last_short": "2026-10-25",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     2.92,
@@ -1656,6 +1660,10 @@
    [
     36.9732459296139,
     39.20554853278149
+   ],
+   [
+    265.5433522268116,
+    267.9736561314739
    ]
   ],
   "shorts_made": 3,
@@ -1921,7 +1929,7 @@
  "hamdan bin mohammed attends gems our own english high school s golden jubilee celebrations": {
   "last_short": "2026-10-25",
   "long": "2026-10-15",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     77.94133731869516,
@@ -1934,6 +1942,10 @@
    [
     213.64000000000001,
     215.6
+   ],
+   [
+    32.9355954845067,
+    34.74415763702334
    ]
   ],
   "video_exhausted": true,
@@ -3577,7 +3589,7 @@
  "hamdan bin mohammed extends condolences to families of pilots": {
   "last_short": "2026-10-25",
   "long": "2026-10-14",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     132.34533841902865,
@@ -3590,6 +3602,10 @@
    [
     142.12478589100462,
     144.08251350832126
+   ],
+   [
+    43.18373826307551,
+    45.697605308259384
    ]
   ],
   "shorts_made": 1,
@@ -3637,13 +3653,17 @@
   "video_len": 98
  },
  "hamdan bin mohammed goes on first test ride of cruise autonomous electric vehicle in jumeirah 1": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-25",
   "long": "2026-10-08",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     72.6327034953461,
     74.96201118536882
+   ],
+   [
+    29.271420985709533,
+    30.72855005716267
    ]
   ],
   "shorts_made": 1,
@@ -5673,9 +5693,16 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed meets with local dignitaries and senior officials at nad al sheba majlis": {
-  "last_short": "2026-10-16",
+  "last_short": "2026-10-25",
   "long": "2026-10-05",
   "montage_exhausted": true,
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    48.919999999999995,
+    50.54666666666667
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -5944,7 +5971,7 @@
  "hamdan bin mohammed meets with the mayor of miami at expo 2020 dubai": {
   "last_short": "2026-10-25",
   "long": "2026-10-20",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     2.952205388747006,
@@ -5953,6 +5980,10 @@
    [
     25.46064670821622,
     27.839859254627015
+   ],
+   [
+    41.736923822294,
+    43.85514544044257
    ]
   ],
   "shorts_made": 1,
@@ -8337,12 +8368,16 @@
   "video_len": 57
  },
  "hamdan bin mohammed visits area 2071 reviews dubai 10x initiative projects": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-25",
+  "montage_used": 2,
   "remix_ranges": [
    [
     51.93878486376732,
     53.661804082879065
+   ],
+   [
+    2.6914956071905847,
+    4.232274122403106
    ]
   ],
   "shorts_made": 2,

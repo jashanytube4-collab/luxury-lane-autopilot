@@ -1901,7 +1901,14 @@
   "video_len": 292
  },
  "hamdan bin mohammed attends global islamic economy summit": {
-  "last_short": "2026-10-22",
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    185.20387732612363,
+    187.21335672102305
+   ]
+  ],
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -2989,7 +2996,14 @@
   "video_len": 122
  },
  "hamdan bin mohammed chairs executive council meeting approves updated school fees framework": {
-  "last_short": "2026-10-12",
+  "last_short": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    34.26371275434294,
+    36.40276813697482
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -4179,6 +4193,7 @@
  "hamdan bin mohammed inspects progress of shindagha bridge project": {
   "last_short": "2026-10-11",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -4866,11 +4881,15 @@
  },
  "hamdan bin mohammed meets government team behind uae s progress in world bank s ease of doing business ranking": {
   "last_short": "2026-10-25",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     107.52000000000001,
     109.44
+   ],
+   [
+    125.83908170414878,
+    127.38296358989746
    ]
   ],
   "shorts_made": 2,
@@ -5083,13 +5102,17 @@
   ]
  },
  "hamdan bin mohammed meets with ceo of whoop tours pavilions of morocco switzerland and baden w rttemberg at expo 2020 dubai": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-25",
   "long": "2026-10-20",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     79.53195569789213,
     82.08418322711886
+   ],
+   [
+    20.652167329831695,
+    22.774510786939164
    ]
   ],
   "shorts_made": 1,
@@ -6802,11 +6825,15 @@
  },
  "hamdan bin mohammed receives victory team xcat": {
   "last_short": "2026-10-25",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     28.725467481363637,
     30.655025300425685
+   ],
+   [
+    49.919999999999995,
+    51.68
    ]
   ],
   "video_exhausted": true,
@@ -7296,8 +7323,15 @@
   "video_len": 43
  },
  "hamdan bin mohammed the uae has taken strides in energy sustainability": {
-  "last_short": "2026-10-18",
+  "last_short": "2026-10-25",
   "long": "2026-10-14",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    46.04243491880998,
+    48.30950584812718
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -7945,7 +7979,7 @@
  "hamdan bin mohammed visits art dubai": {
   "last_short": "2026-10-25",
   "long": "2026-10-13",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     300.44104021575475,
@@ -7954,6 +7988,10 @@
    [
     96.92,
     98.88
+   ],
+   [
+    246.17682803271788,
+    248.16499698301325
    ]
   ],
   "shorts_made": 2,

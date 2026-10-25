@@ -46,6 +46,8 @@ _clips_file = ASSETS_DIR / "clips.yaml"
 CLIPS: dict = (yaml.safe_load(_clips_file.read_text(encoding="utf-8")) or {}).get("clips", {}) if _clips_file.exists() else {}
 
 STORY_DIR = ASSETS_DIR / "stories"
+# licensed Storyblocks light-leak overlays, kept in the private footage library (never in this public repo)
+OVERLAYS = {"leak": ["fx-leak-355009192.mp4", "fx-leak-355017361.mp4"], "flash": ["fx-leak-5290919.mp4"]}
 
 
 @dataclass
@@ -158,6 +160,7 @@ class Gathered:
     thumb_scene: Path | None = None               # a chosen frame for the thumbnail (story.thumbnail.scene)
     sources: dict = field(default_factory=dict)   # id(Visuals) -> where the footage came from (quality gate)
     gate_warning: str = ""                        # set when the footage was thinner than the gate (video still made)
+    overlays: dict = field(default_factory=dict)  # "leak" / "flash" -> licensed Storyblocks light-leak clips
 
 
 def _vetted_stock() -> set[str]:
@@ -277,6 +280,24 @@ class StoryMaker:
         scenes = scenes[::2] + scenes[1::2]      # pieces of one clip come out of order: a cut never continues the same motion
         return Visuals(dest, scenes, []) if scenes else None
 
+    def _overlays(self, work: Path) -> dict:
+        """The light-leak overlay clips (footage library fx-*.mp4; a local copy in work/earn/fx when rendering here)."""
+        lib = getattr(self.studio.hamdan, "library", None)
+        got: dict = {}
+        for kind, names in OVERLAYS.items():
+            for name in names:
+                dest = work / "fx" / name
+                local = ROOT / "work" / "earn" / "fx" / name[3:]
+                if not dest.exists():
+                    dest.parent.mkdir(parents=True, exist_ok=True)
+                    if local.exists():
+                        shutil.copy(local, dest)
+                    elif not (lib and lib.fetch(name, dest)):
+                        log.warning("light-leak overlay %s is not in the footage library", name)
+                        continue
+                got.setdefault(kind, []).append(dest)
+        return got
+
     def _events_matching(self, pattern: str | None) -> list[str]:
         rx = re.compile(pattern, re.I) if pattern else None
         keys = [k for k, e in self.events.items()
@@ -386,6 +407,7 @@ class StoryMaker:
                 vis = resolve(sec.get("show") or ["him"]) or take_events(his_pool, 2, True)
             out.visuals.append(vis)
         out.spare = []       # no random filler: short sections borrow from the rest of this story (see produce_story)
+        out.overlays = self._overlays(work)
         out.thumb_scene = self.thumb_scene(story, work)
         self._top_up(story, out, his_pool, take_events)
         audit(story, out, self.cfg)
@@ -495,6 +517,7 @@ def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int)
     his_bg = list(dict.fromkeys(got.his_photos))[:40]
     rng.shuffle(his_bg)
     n_cards = 0
+    n_fx = 0
     for p in pools:
         rng.shuffle(p)
         p.sort(key=lambda it: it.kind != "video")       # footage first, then photos interleave
@@ -573,6 +596,18 @@ def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int)
                     pops.append((start + a + 0.25, start + a + min(2.8, d), str(beat["pop"])))
                 if i == 0 and j > 0:
                     bshots[0].flash_in = 4
+                fx, cue = str(beat.get("fx", "")), str(beat.get("sfx", ""))
+                if fx in ("leak", "flash") and bshots and got.overlays.get(fx):
+                    pool_fx = got.overlays[fx]
+                    bshots[0].leak_at, bshots[0].leak_src = 0, str(pool_fx[n_fx % len(pool_fx)])
+                    n_fx += 1
+                for c in cue.split("+"):          # e.g. "riser+impact": build up, then hit as the sentence lands
+                    if c == "whoosh":
+                        sfx.append((start + a - 0.3, audio.whoosh(seed + 97 * i + j, 0.6), -10.0))
+                    elif c == "impact":
+                        sfx.append((start + a, audio.impact(seed + 97 * i + j), -7.0))
+                    elif c == "riser":            # builds up and stops exactly where this sentence starts
+                        sfx.append((start + a - 2.4, audio.riser(seed + 97 * i + j, 2.4), -12.0))
                 fit_shots(bshots, d)                  # the pictures last exactly as long as the sentence
                 sec_shots += bshots
             if i == 0:
@@ -580,7 +615,10 @@ def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int)
                 sfx.append((0.0, audio.impact(seed), -12.0))
             else:
                 sec_shots[0].xfade_in = 10
-                sfx.append((start - 0.2, audio.whoosh(seed + i, 0.5), -16.0))
+                sfx.append((start - 0.25, audio.whoosh(seed + i, 0.6), -11.0))
+                if got.overlays.get("leak") and sec_shots[0].leak_at < 0:   # a new chapter opens with a light leak
+                    leaks = got.overlays["leak"]
+                    sec_shots[0].leak_at, sec_shots[0].leak_src = 0, str(leaks[i % len(leaks)])
         elif i == 0:   # the hook: fast montage of moving footage of him
             sec_shots, k = [], 0
             while sum(s.frames for s in sec_shots) / FPS < length - 0.1:

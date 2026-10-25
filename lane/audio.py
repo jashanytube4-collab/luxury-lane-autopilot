@@ -96,6 +96,18 @@ def impact(seed: int) -> np.ndarray:
     return (sig / (np.abs(sig).max() + 1e-9) * 0.7).astype(np.float32)
 
 
+def riser(seed: int, length: float = 2.4) -> np.ndarray:
+    """Tension riser: a noise sweep and a tone gliding up, growing until it stops dead (place it to end on a reveal)."""
+    rng = np.random.default_rng(seed)
+    n = int(SR * length)
+    t = np.linspace(0, 1, n)
+    noise = _bandpass_sweep(rng.standard_normal(n).astype(np.float64), 300, 7000, q=2.0)
+    tone = np.sin(2 * np.pi * np.cumsum(110 + 330 * t ** 2) / SR)
+    sig = (noise / (np.abs(noise).max() + 1e-9) * 0.7 + tone * 0.35) * t ** 2.4
+    sig[-int(0.02 * SR):] *= np.linspace(1, 0, int(0.02 * SR))
+    return (sig / (np.abs(sig).max() + 1e-9) * 0.5).astype(np.float32)
+
+
 def _reverb(sig: np.ndarray, seconds: float = 2.6, wet: float = 0.35, seed: int = 7) -> np.ndarray:
     rng = np.random.default_rng(seed)
     n = int(SR * seconds)

@@ -11,6 +11,7 @@ import logging
 import math
 import random
 import re
+import subprocess
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -107,6 +108,7 @@ class Shot:
     style: str = "normal"      # normal | blur (title/end-card background)
     dims: list = field(default_factory=list)      # [(from_frame, to_frame, amount)] darkening for title cards
     leak_at: int = -1          # frame index (within shot) where a light leak starts
+    leak_src: str = ""         # a licensed light-leak overlay clip (screen-blended); empty = drawn warm leak
 
 
 @dataclass
@@ -366,6 +368,34 @@ def _leak(t: float, seed: int) -> np.ndarray:
     return np.clip(cv2.resize(out * env, (LW, LH), interpolation=cv2.INTER_LINEAR), 0, 255).astype(np.uint8)
 
 
+_OVERLAYS: dict[str, list[np.ndarray]] = {}
+LEAK_FRAMES = 42               # an overlay light leak lasts ~1.4 s
+
+
+def overlay_frames(path: str, n: int = LEAK_FRAMES) -> list[np.ndarray]:
+    """The brightest ~1.4 s of a light-leak overlay clip (small frames, scaled up when used), cached per render."""
+    if path not in _OVERLAYS:
+        w, h = 480, 270
+        r = subprocess.run([FFMPEG, "-v", "error", "-i", path, "-vf", f"scale={w}:{h},fps={FPS}", "-f", "rawvideo",
+                            "-pix_fmt", "bgr24", "-"], capture_output=True)
+        raw = np.frombuffer(r.stdout, np.uint8)
+        frames = [raw[i:i + w * h * 3].reshape(h, w, 3) for i in range(0, len(raw) - w * h * 3 + 1, w * h * 3)]
+        if not frames:
+            _OVERLAYS[path] = []
+        else:
+            light = np.array([f.mean() for f in frames])
+            peak = int(light.argmax())
+            a = max(0, min(len(frames) - n, peak - n // 2))
+            _OVERLAYS[path] = frames[a:a + n]
+    return _OVERLAYS[path]
+
+
+def _screen(img: np.ndarray, layer: np.ndarray, amount: float) -> np.ndarray:
+    """Screen blend (how light leaks are laid over footage): bright parts glow, black parts change nothing."""
+    top = layer.astype(np.float32) * amount
+    return (255 - (255 - img.astype(np.float32)) * (255 - top) / 255).astype(np.uint8)
+
+
 def render_timeline(shots: list[Shot], ass: Path, mix: Path, out: Path, work: Path, seed: int) -> None:
     total = sum(s.frames for s in shots)
     enc, errlog = start_encoder(work, ass, mix, out, (LW, LH), FPS, total / FPS, crf=20)
@@ -394,7 +424,12 @@ def render_timeline(shots: list[Shot], ass: Path, mix: Path, out: Path, work: Pa
                                           interpolation=cv2.INTER_LINEAR)
                         img = cv2.addWeighted(img, 1 - 0.75 * ramp, soft, 0.75 * ramp, 0)
                         img = cv2.convertScaleAbs(img, alpha=1 - amt * ramp, beta=0)
-                if shot.leak_at >= 0 and shot.leak_at <= fi < shot.leak_at + 36:
+                leak = overlay_frames(shot.leak_src) if (shot.leak_src and shot.leak_at >= 0) else []
+                if leak and shot.leak_at <= fi < shot.leak_at + len(leak):
+                    k = fi - shot.leak_at
+                    env = math.sin(math.pi * (k + 1) / (len(leak) + 1))
+                    img = _screen(img, cv2.resize(leak[k], (LW, LH), interpolation=cv2.INTER_LINEAR), 0.9 * env)
+                elif shot.leak_at >= 0 and shot.leak_at <= fi < shot.leak_at + 36:
                     img = cv2.addWeighted(img, 1.0, _leak((fi - shot.leak_at) / 36, seed + si), 0.38, 0)
                 img = look.apply(img, gi)
                 fade = 1.0

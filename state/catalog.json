@@ -2778,8 +2778,15 @@
   "long": "2026-10-22"
  },
  "hamdan bin mohammed attends wedding reception": {
-  "last_short": "2026-10-12",
+  "last_short": "2026-10-26",
   "long": "2026-10-22",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    30.79919761132518,
+    32.35942156886336
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3342,8 +3349,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed economic diversity and supportive legislative environment cornerstones for investor confidence in dubai": {
-  "last_short": "2026-10-24",
-  "montage_used": 3,
+  "last_short": "2026-10-26",
+  "montage_used": 4,
   "remix_ranges": [
    [
     43.05333333333333,
@@ -3352,6 +3359,10 @@
    [
     48.322592562397915,
     50.4667174730661
+   ],
+   [
+    16.633933896314392,
+    18.169281949643768
    ]
   ],
   "shorts_made": 1,
@@ -3499,7 +3510,7 @@
  "hamdan bin mohammed goes on first test ride of cruise autonomous electric vehicle in jumeirah 1": {
   "last_short": "2026-10-26",
   "long": "2026-10-08",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     72.6327034953461,
@@ -3508,6 +3519,10 @@
    [
     33.919999999999995,
     35.78
+   ],
+   [
+    28.404971392241382,
+    30.430536666394307
    ]
   ],
   "shorts_made": 1,
@@ -4499,12 +4514,16 @@
   "video_len": 60
  },
  "hamdan bin mohammed launches new phase of dubai s happiness agenda": {
-  "last_short": "2026-10-24",
-  "montage_used": 2,
+  "last_short": "2026-10-26",
+  "montage_used": 3,
   "remix_ranges": [
    [
     21.32782479454461,
     23.357687117517173
+   ],
+   [
+    75.51316153541484,
+    77.3908535121105
    ]
   ],
   "shorts_made": 2,
@@ -5001,7 +5020,15 @@
  },
  "hamdan bin mohammed meets prominent business leaders at dubai majlis to chart a course for city s accelerated growth": {
   "fails": 1,
+  "last_short": "2026-10-26",
   "long": "2026-10-20",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    6.555273924464135,
+    8.173785157182238
+   ]
+  ],
   "video_exhausted": true,
   "video_len": 46
  },
@@ -5410,11 +5437,15 @@
   "last_short": "2026-10-26",
   "long": "2026-10-05",
   "montage_exhausted": true,
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     43.32590814717401,
     44.75359596447781
+   ],
+   [
+    54.86837301575646,
+    56.4118265379728
    ]
   ],
   "shorts_made": 2,
@@ -6797,7 +6828,16 @@
   "video_len": 95
  },
  "hamdan bin mohammed receives victory team xcat": {
-  "video_exhausted": true
+  "last_short": "2026-10-26",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    67.59418394616664,
+    69.14471659942501
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 70
  },
  "hamdan bin mohammed receives winners of hackathon competition": {
   "last_short": "2026-10-22",
@@ -9516,6 +9556,7 @@
  "hamdan rename hbmeu to become hamdan bin mohammed smart university": {
   "last_short": "2026-10-26",
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     99.23093979121475,
@@ -10679,12 +10720,16 @@
   "video_exhausted": true
  },
  "in presence of dubai crown prince meraas signs agreement with dubai municipality to manage dubai safari": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-26",
+  "montage_used": 2,
   "remix_ranges": [
    [
     4.017581494059155,
     6.2953786510829675
+   ],
+   [
+    39.16,
+    40.96
    ]
   ],
   "video_exhausted": true,

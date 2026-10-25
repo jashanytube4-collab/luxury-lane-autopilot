@@ -548,12 +548,16 @@
   "video_len": 345
  },
  "dubai crown prince visits emirates nbd head office": {
-  "last_short": "2026-10-24",
-  "montage_used": 3,
+  "last_short": "2026-10-26",
+  "montage_used": 4,
   "remix_ranges": [
    [
     104.60402386812525,
     106.14373690974806
+   ],
+   [
+    64.9406944338778,
+    66.83258357336707
    ]
   ],
   "shorts_made": 1,
@@ -627,12 +631,16 @@
   "long": "2026-10-22"
  },
  "executive council reviews a number of projects": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-26",
+  "montage_used": 2,
   "remix_ranges": [
    [
     2.659995592288342,
     4.09488129014604
+   ],
+   [
+    29.753302794913544,
+    31.81905358770481
    ]
   ],
   "video_exhausted": true,
@@ -2890,8 +2898,14 @@
   "fails": 2
  },
  "hamdan bin mohammed chairs executive council meeting approves plans and policies": {
-  "last_short": "2026-10-24",
-  "montage_used": 3,
+  "last_short": "2026-10-26",
+  "montage_used": 4,
+  "remix_ranges": [
+   [
+    68.65279797830273,
+    70.9396221773225
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3405,6 +3419,7 @@
  "hamdan bin mohammed follows up the work mechanisms of dubai future councils": {
   "last_short": "2026-10-26",
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     33.70297380293951,
@@ -4889,6 +4904,7 @@
  },
  "hamdan bin mohammed meets medical team that conducted the arab world s first ever intrauterine fetal surgery": {
   "last_short": "2026-10-11",
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -4984,7 +5000,9 @@
   "video_len": 77
  },
  "hamdan bin mohammed meets with apple ceo": {
-  "video_exhausted": true
+  "remix_exhausted": true,
+  "video_exhausted": true,
+  "video_len": 154
  },
  "hamdan bin mohammed meets with astronaut sultan al neyadi and zayed ambition 2 team": {
   "last_short": "2026-10-26",
@@ -6097,7 +6115,14 @@
   "video_len": 279
  },
  "hamdan bin mohammed opens cityscape global 2018": {
-  "last_short": "2026-10-22",
+  "last_short": "2026-10-26",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    324.3828204350159,
+    325.7951665890885
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -7580,12 +7605,16 @@
   "video_len": 234
  },
  "hamdan bin mohammed unveils 5 star plaques at three customer happiness centres in dubai": {
-  "last_short": "2026-10-25",
-  "montage_used": 1,
+  "last_short": "2026-10-26",
+  "montage_used": 2,
   "remix_ranges": [
    [
     140.12827217544256,
     141.70446858595363
+   ],
+   [
+    230.14730971208814,
+    231.73718483081097
    ]
   ],
   "shorts_made": 1,
@@ -8441,7 +8470,14 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed visits gulfood 2018": {
-  "last_short": "2026-10-22",
+  "last_short": "2026-10-26",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    22.3159346243839,
+    24.5543471009458
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -8745,6 +8781,7 @@
   "last_short": "2026-10-25",
   "long": "2026-10-23",
   "montage_used": 1,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     20.880000000000003,
@@ -9028,8 +9065,14 @@
   "video_len": 263
  },
  "hamdan bin mohammed watches the historic launch of zayed ambition 2": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-26",
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    76.96247371777686,
+    78.09737583711917
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -10867,6 +10910,7 @@
   "video_len": 189
  },
  "mohammad bin salman receives hamdan bin mohammed": {
+  "no_video_until": "2026-10-28",
   "video_exhausted": true
  },
  "mohammed attends as hamdan snatches endurance cup": {

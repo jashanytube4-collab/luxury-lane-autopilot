@@ -667,7 +667,16 @@
   "video_len": 145
  },
  "hamdan addressing future circles looking forward for innovation based future": {
-  "video_exhausted": true
+  "last_short": "2026-10-26",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    224.55333333333334,
+    226.44666666666666
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 241
  },
  "hamdan and maktoum offer condolences on death of ahmed al naboodah": {
   "long": "2026-10-20"
@@ -1348,6 +1357,7 @@
  "hamdan bin mohammed arrives in tashkent commencing official visit to uzbekistan": {
   "last_short": "2026-10-08",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3393,12 +3403,16 @@
   "long": "2026-10-17"
  },
  "hamdan bin mohammed follows up the work mechanisms of dubai future councils": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-26",
+  "montage_used": 2,
   "remix_ranges": [
    [
     33.70297380293951,
     35.17037784010996
+   ],
+   [
+    8.767541496622899,
+    10.369792905697807
    ]
   ],
   "shorts_made": 1,
@@ -3897,7 +3911,9 @@
   "video_len": 247
  },
  "hamdan bin mohammed inaugurates dubai international boat show 2008": {
-  "video_exhausted": true
+  "remix_exhausted": true,
+  "video_exhausted": true,
+  "video_len": 140
  },
  "hamdan bin mohammed inaugurates dubai world self driving transport exhibition": {
   "long": "2026-10-08",
@@ -4314,7 +4330,14 @@
   "video_len": 42
  },
  "hamdan bin mohammed launches integrated housing plan to provide 15 800 homes for nationals in dubai over the next four years": {
-  "last_short": "2026-10-10",
+  "last_short": "2026-10-26",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    15.986666666666666,
+    18.346666666666664
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -5146,8 +5169,15 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed meets with global gaming leaders at dubai gaming retreat": {
-  "last_short": "2026-10-15",
+  "last_short": "2026-10-26",
   "long": "2026-10-10",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    35.690413640488465,
+    38.03435125369652
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -6945,6 +6975,7 @@
  },
  "hamdan bin mohammed reviews preparations and protocols at dubai airport": {
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 301
  },
@@ -7496,7 +7527,7 @@
  },
  "hamdan bin mohammed unveils 5 star plaque at sheikh zayed housing programme in dubai": {
   "last_short": "2026-10-26",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     144.8978218171365,
@@ -7505,6 +7536,10 @@
    [
     211.2051289073293,
     212.9254999917389
+   ],
+   [
+    23.28945558912949,
+    25.767827912493118
    ]
   ],
   "shorts_made": 3,
@@ -9217,11 +9252,15 @@
  },
  "hamdan inspects al bayt studio": {
   "last_short": "2026-10-26",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     140.32,
     142.18
+   ],
+   [
+    62.244367310844076,
+    64.35647263186416
    ]
   ],
   "video_exhausted": true,

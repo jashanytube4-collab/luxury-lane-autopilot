@@ -898,7 +898,7 @@
  "hamdan bin mohammed and maktoum bin mohammed meet dubai s top performing high school students": {
   "last_short": "2026-10-26",
   "long": "2026-10-17",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     25.605869648293655,
@@ -907,6 +907,10 @@
    [
     4.307108936055344,
     5.200559211628938
+   ],
+   [
+    20.43173366757603,
+    22.43761928602953
    ]
   ],
   "shorts_made": 1,
@@ -4832,7 +4836,7 @@
  "hamdan bin mohammed launches world s largest arabic audio library": {
   "last_short": "2026-10-26",
   "long": "2026-10-24",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     98.96000000000001,
@@ -4845,6 +4849,10 @@
    [
     92.90417470181035,
     94.35182295867902
+   ],
+   [
+    20.823933162227704,
+    22.958887719543718
    ]
   ],
   "shorts_made": 1,
@@ -4869,12 +4877,16 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed leads f3 team to gov games finals": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-26",
+  "montage_used": 2,
   "remix_ranges": [
    [
     14.912667226240458,
     17.116207286270367
+   ],
+   [
+    5.278132518723109,
+    7.7824577358623905
    ]
   ],
   "shorts_made": 2,
@@ -7943,10 +7955,17 @@
  },
  "hamdan bin mohammed visits abu dhabi international hunting and equestrian exhibition 2026": {
   "fails": 1,
-  "last_short": "2026-10-15",
+  "last_short": "2026-10-26",
   "long": "2026-10-12",
   "montage_exhausted": true,
+  "montage_used": 1,
   "photo_short": true,
+  "remix_ranges": [
+   [
+    16.681221012826743,
+    18.753706553469442
+   ]
+  ],
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -8677,7 +8696,15 @@
   "video_len": 263
  },
  "hamdan bin mohammed visits dubai sports council": {
+  "last_short": "2026-10-26",
   "long": "2026-10-18",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    54.599999999999994,
+    56.24
+   ]
+  ],
   "video_exhausted": true,
   "video_len": 185
  },
@@ -9521,12 +9548,16 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed witnesses the first test flight": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-26",
+  "montage_used": 2,
   "remix_ranges": [
    [
     88.67691734041264,
     90.11735705216934
+   ],
+   [
+    79.61397601089018,
+    81.69714713073144
    ]
   ],
   "video_exhausted": true,

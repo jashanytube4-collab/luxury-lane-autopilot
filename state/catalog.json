@@ -3580,7 +3580,14 @@
   "long": "2026-10-21"
  },
  "hamdan bin mohammed honours arab contributors to entrepreneurial development": {
-  "last_short": "2026-10-22",
+  "last_short": "2026-10-26",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    134.08871265198363,
+    135.85444380971063
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -7302,8 +7309,14 @@
   "video_len": 138
  },
  "hamdan bin mohammed tours gulfood 2023": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-26",
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    55.28657067553729,
+    56.617367196534865
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -7890,7 +7903,16 @@
   "video_len": 196
  },
  "hamdan bin mohammed visits department of economic development": {
-  "video_exhausted": true
+  "last_short": "2026-10-26",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    99.05206428340473,
+    100.85269953274701
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 206
  },
  "hamdan bin mohammed visits dewa s moro": {
   "last_short": "2026-10-22",
@@ -8505,11 +8527,15 @@
   "last_short": "2026-10-26",
   "long": "2026-10-06",
   "montage_exhausted": true,
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     36.78666666666666,
     39.14666666666667
+   ],
+   [
+    28.99094094128673,
+    31.054251111423994
    ]
   ],
   "shorts_made": 2,
@@ -9080,13 +9106,31 @@
   "video_exhausted": true
  },
  "hamdan chairs 1st meeting for higher committee to implement smart city project": {
-  "video_exhausted": true
+  "last_short": "2026-10-26",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    59.327520072428314,
+    60.97872949101479
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 74
  },
  "hamdan chairs dubai executive council meeting": {
   "video_exhausted": true
  },
  "hamdan chairs expo 2020 higher committee s first session": {
-  "video_exhausted": true
+  "last_short": "2026-10-26",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    61.387647776978035,
+    63.671231301995434
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 119
  },
  "hamdan clinches italian endurance race title": {
   "long": "2026-10-18"
@@ -10912,7 +10956,9 @@
  },
  "queen elizabeth honors hamdan on winning windsor royal endurance race": {
   "long": "2026-10-18",
-  "video_exhausted": true
+  "remix_exhausted": true,
+  "video_exhausted": true,
+  "video_len": 108
  },
  "record participation in dubai fitness challenge as people across the city embrace a more active lifestyle": {
   "no_hamdan": true
@@ -11068,7 +11114,7 @@
  "the executive council of dubai approves the integrated waste management strategy 2021 2041 with a budget of aed74 5 billion": {
   "last_short": "2026-10-26",
   "montage_exhausted": true,
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     73.10353700454662,
@@ -11077,6 +11123,10 @@
    [
     43.80219753116469,
     46.29775382783698
+   ],
+   [
+    27.08473519953424,
+    29.329469157726244
    ]
   ],
   "shorts_made": 1,

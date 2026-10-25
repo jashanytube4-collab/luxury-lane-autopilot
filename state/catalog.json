@@ -417,7 +417,14 @@
   "video_exhausted": true
  },
  "dubai crown prince receives president of malta": {
-  "last_short": "2026-10-19",
+  "last_short": "2026-10-26",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    67.26728040581254,
+    69.86410492366218
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -4167,7 +4174,8 @@
   "video_len": 70
  },
  "hamdan bin mohammed launches erth dubai initiative": {
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 42
  },
  "hamdan bin mohammed launches integrated housing plan to provide 15 800 homes for nationals in dubai over the next four years": {
   "last_short": "2026-10-10",
@@ -4541,9 +4549,16 @@
  },
  "hamdan bin mohammed marks 20 years leading the executive council of dubai": {
   "fails": 1,
-  "last_short": "2026-10-05",
+  "last_short": "2026-10-26",
   "long": "2026-10-16",
   "montage_exhausted": true,
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    22.41111292269787,
+    24.316459481081193
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -4914,12 +4929,16 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed meets with dubai gov t second line of leadership": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-26",
+  "montage_used": 2,
   "remix_ranges": [
    [
     128.9530729946567,
     130.35472903175437
+   ],
+   [
+    108.4726973566511,
+    110.90314739096118
    ]
   ],
   "shorts_made": 3,
@@ -5173,13 +5192,17 @@
   "video_len": 60
  },
  "hamdan bin mohammed meets with local dignitaries and senior officials at za abeel majlis": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-26",
   "long": "2026-10-20",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     23.000655895915443,
     23.735293450795133
+   ],
+   [
+    16.539440541565554,
+    19.13561282276811
    ]
   ],
   "shorts_made": 1,
@@ -5767,12 +5790,16 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed officially opens gitex 2018": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-26",
+  "montage_used": 2,
   "remix_ranges": [
    [
     126.01016816879962,
     127.85106644372517
+   ],
+   [
+    103.02061816394632,
+    105.10435721907018
    ]
   ],
   "shorts_made": 1,
@@ -5848,12 +5875,16 @@
   "video_len": 281
  },
  "hamdan bin mohammed opens cityscape global 2017": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-26",
+  "montage_used": 2,
   "remix_ranges": [
    [
     15.810590002816998,
     17.548003509170478
+   ],
+   [
+    75.35658635312888,
+    76.78197732604845
    ]
   ],
   "shorts_made": 1,
@@ -7041,13 +7072,17 @@
   "video_len": 149
  },
  "hamdan bin mohammed tours dubai airshow 2023": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-26",
   "montage_exhausted": true,
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     37.35333333333333,
     39.24666666666667
+   ],
+   [
+    44.3482047327352,
+    45.81222228685628
    ]
   ],
   "shorts_made": 1,
@@ -8310,9 +8345,16 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed visits khda commends education community and high level of institutional readiness": {
-  "last_short": "2026-10-06",
+  "last_short": "2026-10-26",
   "long": "2026-10-06",
   "montage_exhausted": true,
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    36.78666666666666,
+    39.14666666666667
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [

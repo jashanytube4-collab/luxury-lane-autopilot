@@ -5,6 +5,7 @@
  "azizi developments announces aed600 million donation to establish endowment education complex": {
   "last_short": "2026-10-26",
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     7.566117651522867,
@@ -163,8 +164,8 @@
   "long": "2026-10-17"
  },
  "dubai crown prince attends graduation of dubai police academy": {
-  "last_short": "2026-10-24",
-  "montage_used": 2,
+  "last_short": "2026-10-26",
+  "montage_used": 3,
   "remix_ranges": [
    [
     211.78852581766063,
@@ -173,6 +174,10 @@
    [
     561.8497392910383,
     563.4911547120766
+   ],
+   [
+    131.35852882586278,
+    132.84853153539137
    ]
   ],
   "shorts_made": 2,
@@ -1553,8 +1558,15 @@
   "long": "2026-10-13"
  },
  "hamdan bin mohammed attends closing of 4th king abdulaziz camel festival": {
-  "last_short": "2026-10-12",
+  "last_short": "2026-10-26",
   "long": "2026-10-12",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    157.20665668958088,
+    159.16030605406914
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3448,7 +3460,14 @@
   "video_len": 385
  },
  "hamdan bin mohammed honors winners of dubai appreciation award for community service": {
-  "last_short": "2026-10-21",
+  "last_short": "2026-10-26",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    179.39335360955343,
+    181.22758831509802
+   ]
+  ],
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -3951,7 +3970,14 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
-  "last_short": "2026-10-18",
+  "last_short": "2026-10-26",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    78.30225988576875,
+    79.26793761259856
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -4471,11 +4497,15 @@
  "hamdan bin mohammed launches world s largest arabic audio library": {
   "last_short": "2026-10-26",
   "long": "2026-10-24",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     98.96000000000001,
     100.6
+   ],
+   [
+    86.44,
+    88.19999999999999
    ]
   ],
   "shorts_made": 1,
@@ -6057,8 +6087,15 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed opens gitex tech week 2017": {
-  "last_short": "2026-10-22",
+  "last_short": "2026-10-26",
   "long": "2026-10-14",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    523.8801185278389,
+    525.6723672923694
+   ]
+  ],
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -8110,14 +8147,20 @@
  },
  "hamdan bin mohammed visits emirates flight catering commends its role in advancing dubai s aviation ecosystem": {
   "fails": 1,
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-26",
   "long": "2026-10-09",
   "montage_exhausted": true,
-  "montage_used": 1,
+  "montage_used": 2,
   "photo_short": true,
   "post_photos": [
    0,
    3
+  ],
+  "remix_ranges": [
+   [
+    41.3186754137732,
+    43.5744756162466
+   ]
   ],
   "shorts_made": 1,
   "shot_ranges": [
@@ -8608,9 +8651,15 @@
   "video_len": 186
  },
  "hamdan bin mohammed visits the ministry of foreign affairs in abu dhabi": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-26",
   "long": "2026-10-23",
-  "montage_used": 1,
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    49.961579847562305,
+    51.529966374167266
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [

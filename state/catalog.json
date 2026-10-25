@@ -258,8 +258,15 @@
   "video_len": 109
  },
  "dubai crown prince commends students selected for the hamdan bin mohammed scholarship programme": {
-  "last_short": "2026-10-08",
+  "last_short": "2026-10-26",
   "long": "2026-10-17",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    42.09304322116802,
+    44.484208223658605
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -502,7 +509,14 @@
   "video_exhausted": true
  },
  "dubai crown prince reviews preparations for emirates mars mission": {
-  "last_short": "2026-10-20",
+  "last_short": "2026-10-26",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    10.223000693909508,
+    12.167003433333402
+   ]
+  ],
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -529,7 +543,8 @@
     68.97999999999999,
     77.75999999999999
    ]
-  ]
+  ],
+  "video_len": 78
  },
  "dubai crown prince visits dubai municipality": {
   "last_short": "2026-10-24",
@@ -2109,6 +2124,7 @@
  "hamdan bin mohammed attends graduation ceremony of hbmsu university": {
   "last_short": "2026-10-24",
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     12.833660787017628,
@@ -2462,7 +2478,7 @@
  },
  "hamdan bin mohammed attends talk on middle eastern cities contributions to advancing human progress": {
   "last_short": "2026-10-26",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     55.41467528073014,
@@ -2471,6 +2487,10 @@
    [
     42.725032915124665,
     44.63352933424642
+   ],
+   [
+    94.3808348021763,
+    96.02050387922844
    ]
   ],
   "shorts_made": 1,
@@ -2790,13 +2810,17 @@
   "long": "2026-10-18"
  },
  "hamdan bin mohammed attends wedding receptions in al ain dubai": {
-  "last_short": "2026-10-25",
+  "last_short": "2026-10-26",
   "long": "2026-10-15",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     37.90981226167036,
     39.39389414894758
+   ],
+   [
+    4.192659882762128,
+    6.120502896555347
    ]
   ],
   "shorts_made": 1,
@@ -3552,13 +3576,17 @@
   "video_len": 56
  },
  "hamdan bin mohammed honors mbr creative sports award winners": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-26",
   "long": "2026-10-18",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     50.879999999999995,
     53.080000000000005
+   ],
+   [
+    107.72449031203026,
+    109.3279909749254
    ]
   ],
   "shorts_made": 3,
@@ -5791,11 +5819,15 @@
  },
  "hamdan bin mohammed names mansour bin mohammed as chairman of shabab al ahli s football club company": {
   "last_short": "2026-10-26",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     6.940604019220217,
     9.057075492913436
+   ],
+   [
+    14.339615246590622,
+    16.297514765127083
    ]
   ],
   "shorts_made": 1,
@@ -10698,14 +10730,18 @@
   "video_len": 51
  },
  "international space station mission carrying first emirati astronaut launched successfully": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-26",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     193.4567455027698,
     195.35994785217432
+   ],
+   [
+    44.1635814802904,
+    46.31010475581364
    ]
   ],
   "shorts_made": 3,

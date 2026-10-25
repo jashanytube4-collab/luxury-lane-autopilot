@@ -705,13 +705,17 @@
   "long": "2026-10-22"
  },
  "hamdan attends al kharbash wedding": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-26",
   "long": "2026-10-15",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     19.119741798597573,
     20.63441385556701
+   ],
+   [
+    8.718856355415676,
+    10.86340333735247
    ]
   ],
   "video_exhausted": true,
@@ -1281,6 +1285,7 @@
   "last_short": "2026-10-24",
   "long": "2026-10-11",
   "montage_used": 1,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     26.147968471020732,
@@ -1970,9 +1975,16 @@
  },
  "hamdan bin mohammed attends graduation ceremony of 13th cohort of national defence college": {
   "fails": 1,
-  "last_short": "2026-10-05",
+  "last_short": "2026-10-26",
   "long": "2026-10-06",
   "montage_exhausted": true,
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    49.87427277251726,
+    51.5645039136045
+   ]
+  ],
   "shorts_made": 4,
   "shot_ranges": [
    [
@@ -2108,12 +2120,16 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends hct graduation": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-26",
+  "montage_used": 2,
   "remix_ranges": [
    [
     45.8,
     47.52
+   ],
+   [
+    122.87763682689784,
+    124.35532167999052
    ]
   ],
   "shorts_made": 1,
@@ -2427,7 +2443,14 @@
   "video_len": 98
  },
  "hamdan bin mohammed attends the graduation ceremony of a new cohort of dubai police academy cadets": {
-  "last_short": "2026-10-09",
+  "last_short": "2026-10-26",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    102.02000000000001,
+    103.74666666666666
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3971,7 +3994,14 @@
   "video_len": 316
  },
  "hamdan bin mohammed inaugurates the world s largest solar powered data centre": {
-  "last_short": "2026-10-09",
+  "last_short": "2026-10-26",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    56.3455405839187,
+    58.009116709700756
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -4904,7 +4934,14 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed meets with astronaut sultan al neyadi and zayed ambition 2 team": {
-  "last_short": "2026-10-19",
+  "last_short": "2026-10-26",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    70.87440732804015,
+    72.5156259457025
+   ]
+  ],
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -4931,7 +4968,8 @@
     61.28666666666666,
     72.69999999999999
    ]
-  ]
+  ],
+  "video_len": 111
  },
  "hamdan bin mohammed meets with ceo of whoop tours pavilions of morocco switzerland and baden w rttemberg at expo 2020 dubai": {
   "last_short": "2026-10-24",
@@ -6920,7 +6958,14 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed reviews strategic plans of dubai civil defense": {
-  "last_short": "2026-10-09",
+  "last_short": "2026-10-26",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    7.74615392477855,
+    9.656920773381866
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -10672,8 +10717,15 @@
   "video_len": 287
  },
  "mohamed bin zayed offers condolences to hamdan bin mohammed on mansour bin ahmed al thani": {
-  "last_short": "2026-10-12",
+  "last_short": "2026-10-26",
   "long": "2026-10-16",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    165.28775802571622,
+    167.0965445769279
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [

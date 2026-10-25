@@ -1962,8 +1962,15 @@
   "video_len": 246
  },
  "hamdan bin mohammed attends graduation ceremony at hbmsu": {
-  "last_short": "2026-10-13",
+  "last_short": "2026-10-26",
   "long": "2026-10-14",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    165.40934691813837,
+    166.9197041433088
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -2627,9 +2634,15 @@
   "video_len": 91
  },
  "hamdan bin mohammed attends the graduation of 18th cohort of the national military service": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-26",
   "montage_exhausted": true,
-  "montage_used": 1,
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    42.56876267120477,
+    44.18077227437987
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -4347,7 +4360,14 @@
   "long": "2026-10-21"
  },
  "hamdan bin mohammed joins national guard personnel in hatta for iftar": {
-  "last_short": "2026-10-07",
+  "last_short": "2026-10-26",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    32.15333333333333,
+    33.913333333333334
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -4379,12 +4399,16 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed launches 26 dubai 10x projects issues directive to implement them within 24 months": {
-  "last_short": "2026-10-25",
-  "montage_used": 1,
+  "last_short": "2026-10-26",
+  "montage_used": 2,
   "remix_ranges": [
    [
     113.84243637422479,
     115.756470004766
+   ],
+   [
+    223.30384101151745,
+    225.49212403534588
    ]
   ],
   "video_exhausted": true,
@@ -5861,13 +5885,17 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed mohammed bin rashid places the highest priority on supporting youth and developing their skills": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-26",
   "long": "2026-10-21",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     15.913712985258753,
     17.284279921446718
+   ],
+   [
+    22.8,
+    24.56
    ]
   ],
   "shorts_made": 1,
@@ -6282,11 +6310,15 @@
  },
  "hamdan bin mohammed opens cityscape global 2018": {
   "last_short": "2026-10-26",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     324.3828204350159,
     325.7951665890885
+   ],
+   [
+    133.48000000000002,
+    135.16
    ]
   ],
   "shorts_made": 2,
@@ -7155,6 +7187,7 @@
   "long": "2026-10-25",
   "montage_exhausted": true,
   "photo_short": true,
+  "remix_exhausted": true,
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -7372,8 +7405,15 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed the uae has taken strides in energy sustainability": {
-  "last_short": "2026-10-18",
+  "last_short": "2026-10-26",
   "long": "2026-10-14",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    5.521611542302555,
+    7.490857305479385
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -7911,13 +7951,17 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed visits al dhafra air base in abu dhabi": {
-  "last_short": "2026-10-25",
+  "last_short": "2026-10-26",
   "long": "2026-10-20",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     26.748460958884152,
     28.38537247188773
+   ],
+   [
+    16.171356515871363,
+    17.77842667542434
    ]
   ],
   "shorts_made": 2,
@@ -9461,7 +9505,9 @@
   "video_len": 74
  },
  "hamdan chairs dubai executive council meeting": {
-  "video_exhausted": true
+  "remix_exhausted": true,
+  "video_exhausted": true,
+  "video_len": 160
  },
  "hamdan chairs expo 2020 higher committee s first session": {
   "last_short": "2026-10-26",

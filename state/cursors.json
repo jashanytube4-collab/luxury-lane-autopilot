@@ -1,6 +1,6 @@
 {
  "ig_status": {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "ok": true
  },
  "lines_used": {
@@ -543,7 +543,9 @@
   "ll241e5db9fe",
   "ll566efeca06",
   "ll34f3ef039e",
-  "ll41392cec96"
+  "ll41392cec96",
+  "lle5d7511192",
+  "ll2958cbc1e8"
  ],
  "quotes": [
   {
@@ -933,9 +935,9 @@
   "Dubai's heartbeat has a name. 🤍 #youtubeshorts #ytshorts"
  ],
  "shorts_supply": {
-  "date": "2026-10-24",
-  "days": 3.8,
-  "events": 119
+  "date": "2026-10-25",
+  "days": 4.2,
+  "events": 131
  },
  "stories_done": [
   "flydubai-hero",
@@ -949,7 +951,8 @@
   "true-or-fake",
   "two-crown-princes",
   "fake-poems",
-  "mahra-montana"
+  "mahra-montana",
+  "latifa"
  ],
  "topics_used": {
   "horseman": "2026-10-12",

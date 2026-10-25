@@ -443,11 +443,15 @@
  },
  "dubai crown prince receives president of malta": {
   "last_short": "2026-10-26",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     67.26728040581254,
     69.86410492366218
+   ],
+   [
+    115.13710384547775,
+    116.84957433658279
    ]
   ],
   "shorts_made": 2,
@@ -858,12 +862,16 @@
   "video_len": 54
  },
  "hamdan bin mohammed and maktoum bin mohammed review dubai municipality s key strategic projects following corporate restructuring": {
-  "last_short": "2026-10-24",
-  "montage_used": 3,
+  "last_short": "2026-10-26",
+  "montage_used": 4,
   "remix_ranges": [
    [
     52.18666666666667,
     54.34666666666667
+   ],
+   [
+    70.58911737388475,
+    72.32677814274123
    ]
   ],
   "shorts_made": 1,
@@ -1712,9 +1720,16 @@
   "video_len": 270
  },
  "hamdan bin mohammed attends dubai metaverse assembly at the museum of the future": {
-  "last_short": "2026-10-10",
+  "last_short": "2026-10-26",
   "long": "2026-10-13",
   "montage_exhausted": true,
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    52.137716844002036,
+    54.048091466862864
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3303,8 +3318,15 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed extends condolences to a lghurair family": {
-  "last_short": "2026-10-14",
+  "last_short": "2026-10-26",
   "long": "2026-10-15",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    59.70118184983438,
+    62.01717037009288
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3316,7 +3338,8 @@
     62.11000000000001
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 74
  },
  "hamdan bin mohammed extends condolences to al baloushi family": {
   "long": "2026-10-17"
@@ -6685,12 +6708,16 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed reviews dubai future foundation s 2018 plan and projects": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-26",
+  "montage_used": 2,
   "remix_ranges": [
    [
     140.32186297088035,
     142.05716851287565
+   ],
+   [
+    40.81904799209255,
+    42.869696976439364
    ]
   ],
   "video_exhausted": true,
@@ -7226,7 +7253,7 @@
  "hamdan bin mohammed tours dubai airshow 2023": {
   "last_short": "2026-10-26",
   "montage_exhausted": true,
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     37.35333333333333,
@@ -7235,6 +7262,10 @@
    [
     44.3482047327352,
     45.81222228685628
+   ],
+   [
+    64.70430447906152,
+    66.23071054132718
    ]
   ],
   "shorts_made": 1,
@@ -9107,11 +9138,15 @@
  },
  "hamdan chairs 1st meeting for higher committee to implement smart city project": {
   "last_short": "2026-10-26",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     59.327520072428314,
     60.97872949101479
+   ],
+   [
+    35.11814585546714,
+    36.776655839795666
    ]
   ],
   "video_exhausted": true,
@@ -9300,7 +9335,14 @@
   "video_len": 361
  },
  "hamdan reveals dubai government towards 2021 initiative": {
-  "last_short": "2026-10-15",
+  "last_short": "2026-10-26",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    27.446859008884246,
+    28.914799574862393
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -9312,7 +9354,8 @@
     59.74666666666667
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 65
  },
  "hamdan visits dubai world hospitality championship": {
   "last_short": "2026-10-24",

@@ -399,13 +399,17 @@
   "video_exhausted": true
  },
  "dubai crown prince offers condolences al muhairi family": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-26",
   "long": "2026-10-22",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     21.925560678740784,
     24.15666164811694
+   ],
+   [
+    53.594377055387405,
+    56.08750738523034
    ]
   ],
   "shorts_made": 1,
@@ -1745,7 +1749,7 @@
  },
  "hamdan bin mohammed attends dubai police graduation ceremony": {
   "last_short": "2026-10-26",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     166.60279951075904,
@@ -1754,6 +1758,10 @@
    [
     226.9921898024599,
     228.43399784528418
+   ],
+   [
+    230.46307255735468,
+    232.22428096346252
    ]
   ],
   "shorts_made": 1,
@@ -2381,11 +2389,15 @@
  },
  "hamdan bin mohammed attends talk on middle eastern cities contributions to advancing human progress": {
   "last_short": "2026-10-26",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     55.41467528073014,
     56.912399286024836
+   ],
+   [
+    42.725032915124665,
+    44.63352933424642
    ]
   ],
   "shorts_made": 1,
@@ -2600,7 +2612,14 @@
   "video_len": 507
  },
  "hamdan bin mohammed attends the launche of uae innovation month in dubai": {
-  "last_short": "2026-10-22",
+  "last_short": "2026-10-26",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    42.38019053786916,
+    44.419885448766564
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -2777,8 +2796,8 @@
   "video_len": 60
  },
  "hamdan bin mohammed chairs executive council meeting": {
-  "last_short": "2026-10-25",
-  "montage_used": 3,
+  "last_short": "2026-10-26",
+  "montage_used": 4,
   "remix_ranges": [
    [
     61.638788101365066,
@@ -2791,6 +2810,10 @@
    [
     93.48,
     95.64
+   ],
+   [
+    110.04,
+    112.19999999999999
    ]
   ],
   "shorts_made": 1,
@@ -4045,6 +4068,7 @@
  "hamdan bin mohammed inspects progress of shindagha bridge project": {
   "last_short": "2026-10-11",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -5422,6 +5446,7 @@
  "hamdan bin mohammed meets with the chief minister of kerala at the uae pavilion at expo 2020 dubai": {
   "last_short": "2026-10-11",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -5747,9 +5772,9 @@
   "long": "2026-10-17"
  },
  "hamdan bin mohammed offers condolences to alsuwaidi family": {
-  "last_short": "2026-10-25",
+  "last_short": "2026-10-26",
   "long": "2026-10-17",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     63.373747089155714,
@@ -5758,6 +5783,10 @@
    [
     42.44655441237915,
     44.27916677520988
+   ],
+   [
+    2.314263184426882,
+    3.350099585011413
    ]
   ],
   "video_exhausted": true,
@@ -7377,12 +7406,16 @@
   "video_len": 189
  },
  "hamdan bin mohammed unveils 5 star plaque at sheikh zayed housing programme in dubai": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-26",
+  "montage_used": 2,
   "remix_ranges": [
    [
     144.8978218171365,
     147.49627629039173
+   ],
+   [
+    211.2051289073293,
+    212.9254999917389
    ]
   ],
   "shorts_made": 3,
@@ -9017,12 +9050,16 @@
   "long": "2026-10-13"
  },
  "hamdan dubai s a global center for sukuk listing": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-26",
+  "montage_used": 2,
   "remix_ranges": [
    [
     131.8375197855403,
     134.12209915738313
+   ],
+   [
+    77.45241025747855,
+    78.86367270651452
    ]
   ],
   "video_exhausted": true,

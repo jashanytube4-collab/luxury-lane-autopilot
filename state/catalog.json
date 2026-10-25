@@ -230,8 +230,15 @@
   "video_len": 1017
  },
  "dubai crown prince attends wedding reception": {
-  "last_short": "2026-10-12",
+  "last_short": "2026-10-26",
   "long": "2026-10-22",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    61.519999999999996,
+    63.28
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -850,8 +857,15 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed and maktoum bin mohammed meet dubai s top performing high school students": {
-  "last_short": "2026-10-10",
+  "last_short": "2026-10-26",
   "long": "2026-10-17",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    25.605869648293655,
+    27.09785470783216
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -2422,7 +2436,9 @@
  },
  "hamdan bin mohammed attends second day of dubai games 2025": {
   "fails": 1,
-  "video_exhausted": true
+  "remix_exhausted": true,
+  "video_exhausted": true,
+  "video_len": 42
  },
  "hamdan bin mohammed attends signing of agreement between rta and cruise to operate self driving taxis and ride hailing services in dubai": {
   "long": "2026-10-08",
@@ -3344,11 +3360,15 @@
  "hamdan bin mohammed extends condolences to a lghurair family": {
   "last_short": "2026-10-26",
   "long": "2026-10-15",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     59.70118184983438,
     62.01717037009288
+   ],
+   [
+    37.08840156733372,
+    38.57793779057366
    ]
   ],
   "shorts_made": 1,
@@ -3445,13 +3465,17 @@
   "video_len": 98
  },
  "hamdan bin mohammed goes on first test ride of cruise autonomous electric vehicle in jumeirah 1": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-26",
   "long": "2026-10-08",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     72.6327034953461,
     74.96201118536882
+   ],
+   [
+    33.919999999999995,
+    35.78
    ]
   ],
   "shorts_made": 1,
@@ -7275,7 +7299,14 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed tours bustanica the world s largest vertical farm in dubai": {
-  "last_short": "2026-10-17",
+  "last_short": "2026-10-26",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    137.834523919362,
+    139.9707787740493
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -8737,6 +8768,14 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits personal status court": {
+  "last_short": "2026-10-26",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    80.89349709731536,
+    83.13360204657259
+   ]
+  ],
   "video_exhausted": true,
   "video_len": 203
  },
@@ -8815,7 +8854,14 @@
   "video_len": 137
  },
  "hamdan bin mohammed visits stands of government entities at gitex2019": {
-  "last_short": "2026-10-21",
+  "last_short": "2026-10-26",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    143.24971079721686,
+    145.4046185571185
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -9382,7 +9428,7 @@
  },
  "hamdan receives unesco expert": {
   "last_short": "2026-10-26",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     52.35333333333333,
@@ -9395,6 +9441,10 @@
    [
     65.03653401792376,
     65.62964201001536
+   ],
+   [
+    34.086666666666666,
+    36.513333333333335
    ]
   ],
   "video_exhausted": true,

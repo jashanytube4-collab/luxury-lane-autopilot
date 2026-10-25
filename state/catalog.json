@@ -172,7 +172,7 @@
  },
  "dubai crown prince attends graduation of dubai police academy": {
   "last_short": "2026-10-26",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     211.78852581766063,
@@ -185,6 +185,10 @@
    [
     131.35852882586278,
     132.84853153539137
+   ],
+   [
+    953.395740339968,
+    954.9807159841178
    ]
   ],
   "shorts_made": 2,
@@ -2168,7 +2172,7 @@
  },
  "hamdan bin mohammed attends hct graduation": {
   "last_short": "2026-10-26",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     45.8,
@@ -2177,6 +2181,10 @@
    [
     122.87763682689784,
     124.35532167999052
+   ],
+   [
+    223.44,
+    225.79999999999998
    ]
   ],
   "shorts_made": 1,
@@ -4080,11 +4088,15 @@
  },
  "hamdan bin mohammed inaugurates the world s largest solar powered data centre": {
   "last_short": "2026-10-26",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     56.3455405839187,
     58.009116709700756
+   ],
+   [
+    33.79973187758822,
+    35.5645531862011
    ]
   ],
   "shorts_made": 1,
@@ -4669,7 +4681,7 @@
  "hamdan bin mohammed launches world s largest arabic audio library": {
   "last_short": "2026-10-26",
   "long": "2026-10-24",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     98.96000000000001,
@@ -4678,6 +4690,10 @@
    [
     86.44,
     88.19999999999999
+   ],
+   [
+    92.90417470181035,
+    94.35182295867902
    ]
   ],
   "shorts_made": 1,
@@ -5986,8 +6002,15 @@
   "long": "2026-10-17"
  },
  "hamdan bin mohammed offers condolences to family of martyr saeed alhajri": {
-  "last_short": "2026-10-14",
+  "last_short": "2026-10-26",
   "long": "2026-10-15",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    30.126788906092074,
+    32.571011457949226
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -8834,7 +8857,14 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed visits smart dubai office launches dubai paperless strategy": {
-  "last_short": "2026-10-14",
+  "last_short": "2026-10-26",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    40.13712243900044,
+    41.58682832484012
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -9411,6 +9441,7 @@
  "hamdan provision of housing to emiratis paramount importance to leadership": {
   "last_short": "2026-10-26",
   "montage_used": 1,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     3.42,
@@ -9503,12 +9534,16 @@
   "video_len": 202
  },
  "hamdan visits government think tank": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-26",
+  "montage_used": 2,
   "remix_ranges": [
    [
     29.076560473178702,
     30.613463429527396
+   ],
+   [
+    139.51062611012478,
+    141.5190004450501
    ]
   ],
   "video_exhausted": true,

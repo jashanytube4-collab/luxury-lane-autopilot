@@ -572,12 +572,16 @@
   "long": "2026-10-23"
  },
  "dubai executive council approves annual agenda for 2018": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-26",
+  "montage_used": 2,
   "remix_ranges": [
    [
     41.18786988601433,
     43.64128933857099
+   ],
+   [
+    1.5870039899418544,
+    4.0518245340591434
    ]
   ],
   "video_exhausted": true,
@@ -721,8 +725,17 @@
   "long": "2026-10-13"
  },
  "hamdan attends wedding reception": {
+  "last_short": "2026-10-26",
   "long": "2026-10-15",
-  "video_exhausted": true
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    53.25558494307589,
+    54.33920458047412
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 58
  },
  "hamdan attends yas endurance ride": {
   "long": "2026-10-18"
@@ -1692,12 +1705,16 @@
   "fails": 2
  },
  "hamdan bin mohammed attends dubai police graduation ceremony": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-26",
+  "montage_used": 2,
   "remix_ranges": [
    [
     166.60279951075904,
     168.32818500678334
+   ],
+   [
+    226.9921898024599,
+    228.43399784528418
    ]
   ],
   "shorts_made": 1,
@@ -2324,7 +2341,14 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends talk on middle eastern cities contributions to advancing human progress": {
-  "last_short": "2026-10-09",
+  "last_short": "2026-10-26",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    55.41467528073014,
+    56.912399286024836
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -4437,8 +4461,15 @@
   "video_len": 101
  },
  "hamdan bin mohammed launches world s largest arabic audio library": {
-  "last_short": "2026-10-13",
+  "last_short": "2026-10-26",
   "long": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    98.96000000000001,
+    100.6
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -5499,7 +5530,14 @@
   "video_len": 67
  },
  "hamdan bin mohammed names mansour bin mohammed as chairman of shabab al ahli s football club company": {
-  "last_short": "2026-10-14",
+  "last_short": "2026-10-26",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    6.940604019220217,
+    9.057075492913436
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -9013,6 +9051,7 @@
  "hamdan visits dubai world hospitality championship": {
   "last_short": "2026-10-24",
   "montage_used": 1,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     87.55243713425686,
@@ -10796,11 +10835,15 @@
  "the executive council of dubai approves the integrated waste management strategy 2021 2041 with a budget of aed74 5 billion": {
   "last_short": "2026-10-26",
   "montage_exhausted": true,
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     73.10353700454662,
     74.91311999718219
+   ],
+   [
+    43.80219753116469,
+    46.29775382783698
    ]
   ],
   "shorts_made": 1,

@@ -882,11 +882,15 @@
  "hamdan bin mohammed and maktoum bin mohammed meet dubai s top performing high school students": {
   "last_short": "2026-10-26",
   "long": "2026-10-17",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     25.605869648293655,
     27.09785470783216
+   ],
+   [
+    4.307108936055344,
+    5.200559211628938
    ]
   ],
   "shorts_made": 1,
@@ -4398,7 +4402,16 @@
   "fails": 2
  },
  "hamdan bin mohammed launches day for dubai encourages residents to volunteer": {
-  "video_exhausted": true
+  "last_short": "2026-10-26",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    0.8284244282312303,
+    2.8134090947367074
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 159
  },
  "hamdan bin mohammed launches dubai founders hq to consolidate and strengthen dubai s startup and sme ecosystem": {
   "last_short": "2026-10-15",
@@ -4896,12 +4909,16 @@
   "video_len": 40
  },
  "hamdan bin mohammed meets first batch of female cadets graduating from dubai police academy": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-26",
+  "montage_used": 2,
   "remix_ranges": [
    [
     146.78250342450744,
     148.51213360270773
+   ],
+   [
+    57.4,
+    59.160000000000004
    ]
   ],
   "shorts_made": 1,
@@ -7388,12 +7405,16 @@
   "video_len": 75
  },
  "hamdan bin mohammed tours arabian travel market 2024": {
-  "last_short": "2026-10-24",
-  "montage_used": 2,
+  "last_short": "2026-10-26",
+  "montage_used": 3,
   "remix_ranges": [
    [
     48.384688122709605,
     49.91236870634644
+   ],
+   [
+    59.75609871958512,
+    61.47491781043283
    ]
   ],
   "shorts_made": 1,
@@ -7562,11 +7583,15 @@
  },
  "hamdan bin mohammed tours gulfood 2023": {
   "last_short": "2026-10-26",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     55.28657067553729,
     56.617367196534865
+   ],
+   [
+    27.086666666666666,
+    29.146666666666665
    ]
   ],
   "shorts_made": 1,
@@ -7983,12 +8008,16 @@
   "video_len": 57
  },
  "hamdan bin mohammed visits area 2071 reviews dubai 10x initiative projects": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-26",
+  "montage_used": 2,
   "remix_ranges": [
    [
     51.93878486376732,
     53.661804082879065
+   ],
+   [
+    100.56,
+    102.47999999999999
    ]
   ],
   "shorts_made": 2,
@@ -8414,7 +8443,14 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed visits dubai government hr department": {
-  "last_short": "2026-10-22",
+  "last_short": "2026-10-26",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    92.94184157109537,
+    95.3845875381686
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [

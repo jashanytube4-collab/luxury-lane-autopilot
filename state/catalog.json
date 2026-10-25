@@ -547,12 +547,16 @@
   "video_len": 78
  },
  "dubai crown prince visits dubai municipality": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-26",
+  "montage_used": 2,
   "remix_ranges": [
    [
     296.0,
     297.68
+   ],
+   [
+    131.2903671305396,
+    132.91615982906916
    ]
   ],
   "shorts_made": 1,
@@ -2771,8 +2775,17 @@
   "video_len": 54
  },
  "hamdan bin mohammed attends wedding": {
+  "last_short": "2026-10-26",
   "long": "2026-10-15",
-  "video_exhausted": true
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    38.30255819227579,
+    40.38269508142211
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 88
  },
  "hamdan bin mohammed attends wedding banquet": {
   "long": "2026-10-22"
@@ -3012,7 +3025,14 @@
   "video_len": 122
  },
  "hamdan bin mohammed chairs executive council meeting approves updated school fees framework": {
-  "last_short": "2026-10-12",
+  "last_short": "2026-10-26",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    85.4953236324418,
+    87.73082107053926
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -4475,12 +4495,16 @@
   "video_len": 73
  },
  "hamdan bin mohammed launches middle east s first of its kind drone delivery system at dubai silicon oasis": {
-  "last_short": "2026-10-24",
-  "montage_used": 2,
+  "last_short": "2026-10-26",
+  "montage_used": 3,
   "remix_ranges": [
    [
     51.899358671159604,
     53.41766398009198
+   ],
+   [
+    11.339695822412475,
+    12.827560889894183
    ]
   ],
   "shorts_made": 1,
@@ -5214,7 +5238,7 @@
  },
  "hamdan bin mohammed meets with dubai gov t second line of leadership": {
   "last_short": "2026-10-26",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     128.9530729946567,
@@ -5223,6 +5247,10 @@
    [
     108.4726973566511,
     110.90314739096118
+   ],
+   [
+    70.07747014937638,
+    72.51025541160126
    ]
   ],
   "shorts_made": 3,
@@ -5341,9 +5369,16 @@
   "video_len": 37
  },
  "hamdan bin mohammed meets with india s defence minister": {
-  "last_short": "2026-10-07",
+  "last_short": "2026-10-26",
   "long": "2026-10-15",
   "montage_exhausted": true,
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    13.521411181959825,
+    14.965982927539466
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -5908,13 +5943,17 @@
   "video_len": 58
  },
  "hamdan bin mohammed offers condolences on death of moza bint ali al weri": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-26",
   "long": "2026-10-14",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     17.37089556107783,
     19.379846532671525
+   ],
+   [
+    67.95642262890128,
+    70.16151030114342
    ]
   ],
   "shorts_made": 1,
@@ -7648,8 +7687,15 @@
   "video_len": 181
  },
  "hamdan bin mohammed unveils 5 star plaque at hatta gdrfa centre": {
-  "last_short": "2026-10-19",
+  "last_short": "2026-10-26",
   "long": "2026-10-14",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    62.264740304363606,
+    64.01822099655074
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [

@@ -181,7 +181,7 @@
  },
  "dubai crown prince attends graduation of dubai police academy": {
   "last_short": "2026-10-26",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     211.78852581766063,
@@ -198,6 +198,10 @@
    [
     953.395740339968,
     954.9807159841178
+   ],
+   [
+    531.96,
+    533.6
    ]
   ],
   "shorts_made": 2,
@@ -659,7 +663,7 @@
  },
  "dubai executive council approves annual agenda for 2018": {
   "last_short": "2026-10-26",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     41.18786988601433,
@@ -668,6 +672,10 @@
    [
     1.5870039899418544,
     4.0518245340591434
+   ],
+   [
+    17.073705287177216,
+    18.822998866002774
    ]
   ],
   "video_exhausted": true,
@@ -3488,6 +3496,7 @@
   "last_short": "2026-10-26",
   "long": "2026-10-15",
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     59.70118184983438,
@@ -4031,13 +4040,17 @@
   "video_len": 65
  },
  "hamdan bin mohammed inaugurates dp world s nhava sheva business park in india": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-26",
   "long": "2026-10-23",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     17.208061560738443,
     18.683138746560616
+   ],
+   [
+    45.31740467459893,
+    47.72691149915809
    ]
   ],
   "shorts_made": 1,
@@ -4447,7 +4460,7 @@
  },
  "hamdan bin mohammed launches 26 dubai 10x projects issues directive to implement them within 24 months": {
   "last_short": "2026-10-26",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     113.84243637422479,
@@ -4456,6 +4469,10 @@
    [
     223.30384101151745,
     225.49212403534588
+   ],
+   [
+    53.879999999999995,
+    56.04
    ]
   ],
   "video_exhausted": true,
@@ -5297,6 +5314,7 @@
   "last_short": "2026-10-18",
   "montage_exhausted": true,
   "photo_short": true,
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [],
   "video_exhausted": true,
@@ -7653,12 +7671,16 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed tours gitex global 2022 on its concluding day": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-26",
+  "montage_used": 2,
   "remix_ranges": [
    [
     119.07687657973835,
     121.157905401723
+   ],
+   [
+    26.12,
+    27.88
    ]
   ],
   "shorts_made": 1,
@@ -8698,11 +8720,15 @@
  "hamdan bin mohammed visits dubai sports council": {
   "last_short": "2026-10-26",
   "long": "2026-10-18",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     54.599999999999994,
     56.24
+   ],
+   [
+    110.29296147195406,
+    112.38153099663322
    ]
   ],
   "video_exhausted": true,
@@ -11378,13 +11404,17 @@
   "video_len": 251
  },
  "mohammed bin rashid commends the dubai executive council s efforts over the past 15 years": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-26",
   "long": "2026-10-16",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     83.59827200044164,
     85.94881354218674
+   ],
+   [
+    90.38264553561169,
+    92.18003671339211
    ]
   ],
   "shorts_made": 1,
@@ -11634,7 +11664,7 @@
  "the executive council of dubai approves the integrated waste management strategy 2021 2041 with a budget of aed74 5 billion": {
   "last_short": "2026-10-26",
   "montage_exhausted": true,
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     73.10353700454662,
@@ -11647,6 +11677,10 @@
    [
     27.08473519953424,
     29.329469157726244
+   ],
+   [
+    52.931839016699314,
+    55.237077910855035
    ]
   ],
   "shorts_made": 1,

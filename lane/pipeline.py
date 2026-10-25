@@ -520,7 +520,7 @@ class Runner:
         return self.state.cursors.get("recent_titles", [])[-300:]
 
     def fill_short(self, day, slot: dict, plan: dict) -> bool:
-        first = random.random() < float(self.cfg["short"].get("moment_share", 0.8))
+        first = random.random() < min(0.4, float(self.cfg["short"].get("moment_share", 0.25)))   # >=60% narrated
         # a moment Short when possible; a narrated one only if no footage of him is left for a moment today
         for moment in ([True, False] if first else [False]):
             if moment in self._dry:      # this run already found no fresh footage for this kind: don't burn time again
@@ -589,7 +589,7 @@ class Runner:
                 continue
             hashtags = " ".join(self.cfg["youtube"].get("base_hashtags", []))
             credit = credit_line(item["music"])
-            made_by = "Edit" if moment else "Narration and edit"
+            made_by = "Narration and edit" if (not moment or item.get("voiced")) else "Edit"
             if members:
                 p["description"] = f"🔒 Fazza Fam exclusive — for members of The Luxury Lane 💛\n\n{p['description']}"
             desc = (f"{p['description']}\n\n{SOURCE_CREDIT}\n{made_by}: {self.cfg['channel']['name']}.\n"
@@ -625,7 +625,9 @@ class Runner:
                 titles = self.state.cursors.setdefault("recent_titles", [])
                 titles.append(p["title"])
                 del titles[:-300]
-            slot.update(status="scheduled", video_id=vid, title=p["title"], event=key if key not in (MONTAGE, REMIX) else "montage")
+            slot.update(status="scheduled", video_id=vid, title=p["title"], event=key if key not in (MONTAGE, REMIX) else "montage",
+                        kind=("narrated" if not moment else "remix" if key == REMIX else "montage" if key == MONTAGE else "moment"),
+                        voiced=bool(not moment or item.get("voiced")))
             self.state.save_day(day.isoformat(), plan)
             self.state.checkpoint(f"short {vid} for {slot['at']}")
             self.made += 1

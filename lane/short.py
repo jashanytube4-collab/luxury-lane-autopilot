@@ -98,8 +98,9 @@ def produce(video: Path | None, plan: dict, cfg: dict, work: Path, out: Path, se
 
 
 def produce_moment(video: Path, shots: list[dict], cfg: dict, work: Path, out: Path, seed: int,
-                   duration: float, caption: str = "") -> Result:
-    """A music-only 'moment' Short: real footage of him, vertical, no narration, no captions (see lane/moments.py)."""
+                   duration: float, caption: str = "", script: str = "", shorten=None) -> Result:
+    """A 'moment' Short: real footage of him, vertical (see lane/moments.py). Music only, unless `script` is given:
+    then a short true voice-over with captions is mixed in (original commentary, not just clips)."""
     import random
 
     import numpy as np
@@ -112,15 +113,41 @@ def produce_moment(video: Path, shots: list[dict], cfg: dict, work: Path, out: P
         raise ShortError(str(e)) from e
     for i in range(len(timeline.transitions)):
         timeline.transitions[i] = "punch"
+    narr, spoken = None, ""
+    if script:
+        limit = duration - TAIL
+        try:
+            for faster in (0, 1, 2):
+                narr = synthesize(script, cfg["voice"], work / "voice.wav", faster=faster)
+                if narr.duration <= limit:
+                    break
+            else:
+                if shorten is None:
+                    raise ShortError("voice-over too long")
+                script = shorten(script, int(len(script.split()) * limit / narr.duration * 0.92))
+                narr = synthesize(script, cfg["voice"], work / "voice.wav", faster=1)
+                if narr.duration > limit:
+                    raise ShortError("voice-over too long")
+            spoken = script
+        except Exception as e:  # noqa: BLE001 - no voice available: still a good music-only moment
+            log.warning("voice-over skipped: %s", e)
+            narr = None
     silent = work / "silence.wav"
-    audio.save(np.zeros(int(audio.SR * duration), np.float32), silent)
+    if narr is not None:
+        silent = narr.wav
+    else:
+        audio.save(np.zeros(int(audio.SR * duration), np.float32), silent)
     mood = random.Random(seed).choice(["epic", "arabian", "elegant", "modern"])
     music, music_name = audio.music_bed(duration, seed, mood)
     mix_path = work / "mix.wav"
-    audio.mix(silent, duration, [], music, {**cfg.get("music", {}), "duck_db": 0}, mix_path, work)
+    audio.mix(silent, duration, [], music, {**cfg.get("music", {}), **({} if narr else {"duck_db": 0})}, mix_path, work)
     ass = work / "captions.ass"
-    build_ass(ass, words=[], script="", emphasis=[], hook=caption, watermark=cfg["channel"].get("watermark", ""),
-              duration=duration, caption_y=1240, hook_y=250, hook_seconds=duration)
+    if narr is not None:
+        build_ass(ass, words=narr.words, script=spoken, emphasis=[], hook=caption,
+                  watermark=cfg["channel"].get("watermark", ""), duration=duration, caption_y=1240, hook_y=250)
+    else:
+        build_ass(ass, words=[], script="", emphasis=[], hook=caption, watermark=cfg["channel"].get("watermark", ""),
+                  duration=duration, caption_y=1240, hook_y=250, hook_seconds=duration)
     try:
         render.render_video(timeline, ass, mix_path, out, work, seed)
     except render.RenderError as e:
@@ -128,4 +155,4 @@ def produce_moment(video: Path, shots: list[dict], cfg: dict, work: Path, out: P
     problems = qa.check(out, 11.5, 17.5)
     if problems:
         raise ShortError("quality check failed: " + "; ".join(problems))
-    return Result(out, duration, "none", music_name, "fill")
+    return Result(out, duration, narr.engine if narr else "none", music_name, "fill")

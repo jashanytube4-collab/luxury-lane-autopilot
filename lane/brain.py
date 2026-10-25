@@ -400,6 +400,27 @@ class Brain:
             tags=[clean(t)[:60] for t in d.get("tags") or [] if clean(t)][:12])
         return result
 
+    def voiceover(self, facts: list[str], article: str, title: str, words: int) -> str:
+        """A short narrated commentary for a footage-only Short: only the given facts / article, nothing invented.
+        Falls back to the first fact word for word (always true) if the model is unavailable."""
+        facts = [f for f in facts if f]
+        plain = facts[0] if facts else ""
+        if not facts and not article:
+            return ""
+        prompt = (f"Write the spoken voice-over for a {words + 6}-second vertical Short about Prince Hamdan (Fazza) "
+                  f"of Dubai, in plain spoken English, {words - 6}-{words} words, one flowing paragraph.\n"
+                  f"Use ONLY the facts below (and the article, if given); add nothing, guess nothing, no numbers or "
+                  f"dates that are not written here. First line is a hook about HIM under 8 words (never 'Did you "
+                  f"know'). End with a line that makes fans proud.\n"
+                  + (f"Moment on screen: {title}\nArticle: \"\"\"{article[:1500]}\"\"\"\n" if article else "")
+                  + "Facts:\n" + "\n".join(f"- {f}" for f in facts) + "\nReply with the narration only.")
+        try:
+            out = clean(self.llm.chat([{"type": "text", "text": prompt}], schema=None, max_tokens=300,
+                                      temperature=0.6)).strip('"')
+        except Exception:  # noqa: BLE001 - fallback below is a verified fact
+            return plain
+        return out if (words * 0.6) <= _words(out) <= words + 10 else (plain if not article else "")
+
     def shorten(self, script: str, words: int) -> str:
         prompt = (f"Rewrite this narration in at most {words} words. Keep the opening hook, keep every fact exactly "
                   f"as stated (add none), keep the ending, same voice. Reply with the narration only.\n\n"

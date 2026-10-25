@@ -221,6 +221,23 @@ class Studio:
         return {"path": res.path, "plan": plan, "unit": unit, "ranges": ranges, "music": res.music, "work": work,
                 "photo_only": not ranges}
 
+    def _voiceover(self, ev: dict, rng: random.Random, duration: float, voiced: bool) -> str:
+        """True spoken commentary for a footage-only Short (facts from fazza_facts.yaml and the official article only)."""
+        if not voiced:
+            return ""
+        try:
+            brief, text = self.article_text(ev) if ev.get("news_id") else ("", "")
+            words = max(18, int((duration - 1.4) * 2.3))
+            return self.brain.voiceover(self.facts(None, 3, rng), text or brief, ev.get("title", ""), words)
+        except Exception as e:  # noqa: BLE001 - never lose the Short over its voice-over
+            log.warning("voice-over text unavailable: %s", e)
+            return ""
+
+    def _wants_voice(self, rng: random.Random, montage: bool = False) -> bool:
+        sc = self.cfg.get("short", {})
+        share = float(sc.get("fallback_voice_share" if montage else "moment_voice_share", 1.0))
+        return rng.random() < share
+
     def make_moment(self, key: str, ev: dict, usage: dict, recent_titles: list[str], seed: int) -> dict | None:
         """A 'moment' Short in the style of the most-viewed Fazza Shorts (5-27M views): real clips of him, 12-17 s,
         vertical and centred on his face, music only, made to loop. Returns the same dict as make_short."""
@@ -260,15 +277,17 @@ class Studio:
         work = self.work / f"moment_{_slug(key)}_{seed % 10000}"
         out = work / "short.mp4"
         caption = moment_caption(ev.get("title", ""), rng)
-        res = produce_moment(video, shots, self.cfg, work, out, seed, duration, caption)
+        script = self._voiceover(ev, rng, duration, self._wants_voice(rng))
+        res = produce_moment(video, shots, self.cfg, work, out, seed, duration, caption, script, self.brain.shorten)
         fresh = (ev.get("date") or "")[:10] >= (datetime.now(timezone.utc).date() - timedelta(days=3)).isoformat()
         title = moment_title(ev.get("title", ""), recent_titles, rng, fresh_news=fresh)
         plan = {"title": title, "description": moment_description(ev, rng), "tags": moment_tags(ev),
                 "hook_text": caption, "shots": shots}
+        voiced = res.voice_engine != "none"
         ranges = [[s["start"], min(s["end"], s["start"] + duration)] for s in shots]
         unit = f"{key}|m{len(u.get('shot_ranges', []))}"
         return {"path": res.path, "plan": plan, "unit": unit, "ranges": ranges, "music": res.music, "work": work,
-                "photo_only": False}
+                "photo_only": False, "voiced": voiced}
 
     def make_montage(self, events: dict, usage: dict, recent_titles: list[str], seed: int,
                      remix: bool = False) -> dict | None:
@@ -340,14 +359,16 @@ class Studio:
         duration = round(min(want, t - 0.05), 2)
         out = work / "short.mp4"
         caption = moment_caption("", rng)
-        res = produce_moment(joined, shots, self.cfg, work, out, seed, duration, caption)
+        script = self._voiceover({}, rng, duration, self._wants_voice(rng, montage=True))
+        res = produce_moment(joined, shots, self.cfg, work, out, seed, duration, caption, script, self.brain.shorten)
         title = moment_title("", recent_titles, rng)
+        voiced = res.voice_engine != "none"
         plan = {"title": title, "description": moment_description({}, rng), "tags": moment_tags({}),
                 "hook_text": caption, "shots": shots}
         sources = {k: [[r["a"], r["b"]]] for k, _, r in picked}
         unit = f"montage|{'+'.join(sorted(_slug(k) for k in sources))}|{len(usage.get('_montages', []))}"
         return {"path": res.path, "plan": plan, "unit": unit, "ranges": [], "music": res.music, "work": work,
-                "photo_only": False, "sources": sources, "range_key": rkey}
+                "photo_only": False, "voiced": voiced, "sources": sources, "range_key": rkey}
 
     def _fill_with_him(self, plan: dict, items: list[dict], video: Path | None, work: Path, need: float) -> None:
         """Make sure there is enough footage OF HIM for the whole Short: shots never run past the end of his scene,

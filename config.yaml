@@ -46,6 +46,8 @@ short:
   recycle_after_days: 60             # only if footage runs low: footage whose Shorts are 60+ days old gets a fresh cut
   deep_cut: null                     # null = automatic: when footage runs low (or Instagram fails) long official videos
                                      # give one Short per 45 s of video, from time ranges no Short used yet; false = never
+  moment_voice_share: 0.5            # of the "moment" Shorts, this share also gets a short TRUE voice-over (facts file / article only)
+  fallback_voice_share: 1.0          # montage / re-cut fallback Shorts: always get a true voice-over (reused-content safety)
   moment_share: 0.25                 # share of Shorts that are 12-17 s music-only "moments" of him (what the
                                      # most-viewed Fazza Shorts are); the rest are narrated stories
 

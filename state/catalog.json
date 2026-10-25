@@ -140,8 +140,15 @@
   "no_hamdan": true
  },
  "dubai crown prince attends al ketbi family wedding reception": {
-  "last_short": "2026-10-12",
+  "last_short": "2026-10-26",
   "long": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    49.57652033197624,
+    51.88523412414723
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -324,7 +331,16 @@
   "video_len": 232
  },
  "dubai crown prince holds minute s silence to honour martyrs on commemoration day": {
-  "video_exhausted": true
+  "last_short": "2026-10-26",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    20.424621499001876,
+    23.018097648729857
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 171
  },
  "dubai crown prince honours winners of hamdan bin mohammed award for innovation in projects management": {
   "last_short": "2026-10-24",
@@ -1656,12 +1672,16 @@
   "video_len": 60
  },
  "hamdan bin mohammed attends dubai forum for government best practices": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-26",
+  "montage_used": 2,
   "remix_ranges": [
    [
     28.36,
     30.48
+   ],
+   [
+    155.16,
+    156.96
    ]
   ],
   "video_exhausted": true,
@@ -2627,6 +2647,7 @@
  "hamdan bin mohammed attends uae swat challenge 2023": {
   "fails": 1,
   "long": "2026-10-18",
+  "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 54
  },
@@ -3268,9 +3289,9 @@
   "video_len": 73
  },
  "hamdan bin mohammed extends condolences to families of pilots": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-26",
   "long": "2026-10-14",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     132.34533841902865,
@@ -3279,6 +3300,10 @@
    [
     58.876580328349206,
     61.249504324496264
+   ],
+   [
+    70.666022609776,
+    72.69194680355115
    ]
   ],
   "shorts_made": 1,
@@ -3808,6 +3833,7 @@
  "hamdan bin mohammed inaugurates new generation bus stations at al ghubaiba": {
   "last_short": "2026-10-11",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -5760,8 +5786,15 @@
   "video_len": 118
  },
  "hamdan bin mohammed offers condolences to family of martyr khalid al shehi": {
-  "last_short": "2026-10-14",
+  "last_short": "2026-10-26",
   "long": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    83.49779133078233,
+    85.67157100948783
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -5777,7 +5810,8 @@
     112.44
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 125
  },
  "hamdan bin mohammed offers condolences to family of martyr rashid al habsi": {
   "long": "2026-10-17"
@@ -7587,7 +7621,8 @@
     49.13
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 57
  },
  "hamdan bin mohammed visits area 2071 reviews dubai 10x initiative projects": {
   "last_short": "2026-10-24",
@@ -7698,6 +7733,7 @@
   "last_short": "2026-10-18",
   "montage_exhausted": true,
   "photo_short": true,
+  "remix_exhausted": true,
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -9084,7 +9120,16 @@
   "long": "2026-10-17"
  },
  "hamdan provision of housing to emiratis paramount importance to leadership": {
-  "video_exhausted": true
+  "last_short": "2026-10-26",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    3.42,
+    5.113333333333333
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 71
  },
  "hamdan receives outgoing saudi s consul general": {
   "video_exhausted": true
@@ -9113,12 +9158,16 @@
   "video_len": 71
  },
  "hamdan rename hbmeu to become hamdan bin mohammed smart university": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-26",
+  "montage_used": 2,
   "remix_ranges": [
    [
     99.23093979121475,
     100.80281978642175
+   ],
+   [
+    143.15333333333334,
+    145.07999999999998
    ]
   ],
   "video_exhausted": true,
@@ -10820,13 +10869,17 @@
   "video_len": 120
  },
  "rulers of ajman fujairah and ras al khaimah offer condolences to sheikh hamdan on mansour bin ahmed": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-26",
   "long": "2026-10-16",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     80.96000000000001,
     83.0
+   ],
+   [
+    98.53290021052975,
+    100.24024791742403
    ]
   ],
   "shorts_made": 3,

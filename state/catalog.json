@@ -718,6 +718,7 @@
  "hamadan bin mohammed opens gastech 2021": {
   "last_short": "2026-10-11",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3581,6 +3582,7 @@
   "last_short": "2026-10-27",
   "long": "2026-10-27",
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     4.957396382789787,
@@ -3808,12 +3810,16 @@
   "video_len": 385
  },
  "hamdan bin mohammed honors winners of dubai appreciation award for community service": {
-  "last_short": "2026-10-26",
-  "montage_used": 1,
+  "last_short": "2026-10-27",
+  "montage_used": 2,
   "remix_ranges": [
    [
     179.39335360955343,
     181.22758831509802
+   ],
+   [
+    73.91997010687146,
+    76.49403888159136
    ]
   ],
   "shorts_made": 3,
@@ -3910,9 +3916,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed honours mbr creative sports award winners": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-27",
   "long": "2026-10-18",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     74.58464282636517,
@@ -3921,6 +3927,10 @@
    [
     154.73359940368613,
     156.13921330695027
+   ],
+   [
+    379.04890085964195,
+    380.7764753326048
    ]
   ],
   "shorts_made": 3,
@@ -4348,12 +4358,16 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
-  "last_short": "2026-10-26",
-  "montage_used": 1,
+  "last_short": "2026-10-27",
+  "montage_used": 2,
   "remix_ranges": [
    [
     78.30225988576875,
     79.26793761259856
+   ],
+   [
+    242.08069026796,
+    244.0291880916713
    ]
   ],
   "shorts_made": 2,
@@ -4801,7 +4815,7 @@
  "hamdan bin mohammed launches sports initiatives": {
   "last_short": "2026-10-27",
   "long": "2026-10-18",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     212.80506732035832,
@@ -4814,6 +4828,10 @@
    [
     241.924629672134,
     244.01263161454554
+   ],
+   [
+    198.0650227504766,
+    199.7175179035912
    ]
   ],
   "shorts_made": 1,
@@ -8596,11 +8614,15 @@
  },
  "hamdan bin mohammed visits dubai airshow 2017": {
   "last_short": "2026-10-27",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     71.52518074680644,
     73.76961709135885
+   ],
+   [
+    82.10998255659588,
+    83.86347425774214
    ]
   ],
   "video_exhausted": true,
@@ -9836,6 +9858,7 @@
   "video_len": 551
  },
  "hamdan inaugurates makani smart app": {
+  "no_video_until": "2026-10-29",
   "video_exhausted": true
  },
  "hamdan inaugurates mena transport congress exhibition": {
@@ -11194,10 +11217,10 @@
   "video_len": 51
  },
  "international space station mission carrying first emirati astronaut launched successfully": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-27",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     193.4567455027698,
@@ -11206,6 +11229,10 @@
    [
     44.1635814802904,
     46.31010475581364
+   ],
+   [
+    141.91143146056143,
+    143.70510248276145
    ]
   ],
   "shorts_made": 3,
@@ -11261,8 +11288,15 @@
   "video_len": 64
  },
  "khaled bin mohamed bin zayed hamdan bin mohammed bin rashid attend world governments summit 2025": {
-  "last_short": "2026-10-08",
+  "last_short": "2026-10-27",
   "long": "2026-10-25",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    7.12,
+    8.946666666666667
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -11571,9 +11605,9 @@
   "video_len": 251
  },
  "mohammed bin rashid commends the dubai executive council s efforts over the past 15 years": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-27",
   "long": "2026-10-27",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     83.59827200044164,
@@ -11582,6 +11616,10 @@
    [
     90.38264553561169,
     92.18003671339211
+   ],
+   [
+    54.06666359112171,
+    55.86553253882195
    ]
   ],
   "shorts_made": 1,

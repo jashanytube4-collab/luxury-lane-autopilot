@@ -2167,14 +2167,18 @@
  },
  "hamdan bin mohammed attends graduation ceremony of 13th cohort of national defence college": {
   "fails": 1,
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-27",
   "long": "2026-10-06",
   "montage_exhausted": true,
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     49.87427277251726,
     51.5645039136045
+   ],
+   [
+    22.436526069291368,
+    24.688262170641487
    ]
   ],
   "shorts_made": 4,
@@ -5431,13 +5435,17 @@
   "video_len": 111
  },
  "hamdan bin mohammed meets with ceo of whoop tours pavilions of morocco switzerland and baden w rttemberg at expo 2020 dubai": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-27",
   "long": "2026-10-20",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     79.53195569789213,
     82.08418322711886
+   ],
+   [
+    20.962688642703473,
+    22.51843810219994
    ]
   ],
   "shorts_made": 1,
@@ -5941,7 +5949,14 @@
   "video_len": 63
  },
  "hamdan bin mohammed meets with participants of retail summit in dubai": {
-  "last_short": "2026-10-13",
+  "last_short": "2026-10-27",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    4.6968630874811845,
+    6.218446246112595
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -5969,7 +5984,8 @@
     163.79
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 187
  },
  "hamdan bin mohammed meets with president and ceo of the world economic forum": {
   "video_exhausted": true
@@ -6389,13 +6405,17 @@
   "video_len": 118
  },
  "hamdan bin mohammed offers condolences to family of martyr khalid al shehi": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-27",
   "long": "2026-10-25",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     83.49779133078233,
     85.67157100948783
+   ],
+   [
+    60.277590669759284,
+    62.14344753540951
    ]
   ],
   "shorts_made": 1,
@@ -7067,11 +7087,15 @@
  },
  "hamdan bin mohammed receives mourners on death of mansour bin ahmed": {
   "last_short": "2026-10-27",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     466.2050172416837,
     468.21822612927446
+   ],
+   [
+    90.02428753960814,
+    91.88075067872452
    ]
   ],
   "shorts_made": 2,
@@ -8207,8 +8231,8 @@
   "video_len": 234
  },
  "hamdan bin mohammed unveils 5 star plaques at three customer happiness centres in dubai": {
-  "last_short": "2026-10-26",
-  "montage_used": 2,
+  "last_short": "2026-10-27",
+  "montage_used": 3,
   "remix_ranges": [
    [
     140.12827217544256,
@@ -8217,6 +8241,10 @@
    [
     230.14730971208814,
     231.73718483081097
+   ],
+   [
+    121.81978386556676,
+    123.51672988559567
    ]
   ],
   "shorts_made": 1,
@@ -9520,12 +9548,16 @@
   "video_len": 137
  },
  "hamdan bin mohammed visits stands of government entities at gitex2019": {
-  "last_short": "2026-10-26",
-  "montage_used": 1,
+  "last_short": "2026-10-27",
+  "montage_used": 2,
   "remix_ranges": [
    [
     143.24971079721686,
     145.4046185571185
+   ],
+   [
+    77.27662893371865,
+    79.08049418955785
    ]
   ],
   "shorts_made": 2,
@@ -9931,6 +9963,7 @@
  "hamdan celebrates al ahli s arabian gulf league winning": {
   "last_short": "2026-10-15",
   "long": "2026-10-15",
+  "no_video_until": "2026-10-29",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -11831,8 +11864,8 @@
   "video_exhausted": true
  },
  "partnership between community government the foundation of enhancing government services hamdan bin mohammed": {
-  "last_short": "2026-10-26",
-  "montage_used": 3,
+  "last_short": "2026-10-27",
+  "montage_used": 4,
   "remix_ranges": [
    [
     56.83789082972078,
@@ -11845,6 +11878,10 @@
    [
     79.86554514299652,
     82.20633486528747
+   ],
+   [
+    65.58758593557819,
+    67.44536057250802
    ]
   ],
   "video_exhausted": true,

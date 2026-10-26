@@ -1657,8 +1657,15 @@
   "long": "2026-10-17"
  },
  "hamdan bin mohammed attends al muhairi al rumaithi family wedding": {
-  "last_short": "2026-10-12",
+  "last_short": "2026-10-27",
   "long": "2026-10-27",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    86.69715800486105,
+    89.19529004055808
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -5714,6 +5721,7 @@
   "last_short": "2026-10-26",
   "long": "2026-10-14",
   "montage_used": 1,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     29.5,
@@ -6698,11 +6706,15 @@
  },
  "hamdan bin mohammed opens crime prevention international conference": {
   "last_short": "2026-10-27",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     68.54641858440627,
     71.01811023369692
+   ],
+   [
+    198.4,
+    200.68
    ]
   ],
   "shorts_made": 3,
@@ -7376,11 +7388,15 @@
  },
  "hamdan bin mohammed reviews final preparations as hope probe enters the most critical phase of its journey": {
   "last_short": "2026-10-27",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     53.714791899604954,
     56.14848236448299
+   ],
+   [
+    78.67700742786008,
+    80.79457273941485
    ]
   ],
   "shorts_made": 1,
@@ -7808,7 +7824,9 @@
   "video_len": 77
  },
  "hamdan bin mohammed strikes gold in france": {
-  "video_exhausted": true
+  "remix_exhausted": true,
+  "video_exhausted": true,
+  "video_len": 43
  },
  "hamdan bin mohammed the uae has taken strides in energy sustainability": {
   "last_short": "2026-10-26",
@@ -9587,7 +9605,7 @@
  },
  "hamdan bin mohammed visits stands of government entities at gitex2019": {
   "last_short": "2026-10-27",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     143.24971079721686,
@@ -9596,6 +9614,10 @@
    [
     77.27662893371865,
     79.08049418955785
+   ],
+   [
+    185.23732753641636,
+    186.39790186832087
    ]
   ],
   "shorts_made": 2,
@@ -9849,11 +9871,15 @@
  },
  "hamdan bin mohammed visits youth hub in emirates towers": {
   "last_short": "2026-10-27",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     6.1368945206364796,
     8.334874144584541
+   ],
+   [
+    27.07020910726395,
+    29.229596158378325
    ]
   ],
   "video_exhausted": true,
@@ -9865,12 +9891,16 @@
   "video_len": 263
  },
  "hamdan bin mohammed watches the historic launch of zayed ambition 2": {
-  "last_short": "2026-10-26",
-  "montage_used": 2,
+  "last_short": "2026-10-27",
+  "montage_used": 3,
   "remix_ranges": [
    [
     76.96247371777686,
     78.09737583711917
+   ],
+   [
+    70.48666666666666,
+    72.24666666666666
    ]
   ],
   "shorts_made": 1,
@@ -10198,7 +10228,9 @@
   "video_exhausted": true
  },
  "hamdan receives qatar ambassador": {
-  "video_exhausted": true
+  "remix_exhausted": true,
+  "video_exhausted": true,
+  "video_len": 44
  },
  "hamdan receives unesco expert": {
   "last_short": "2026-10-26",
@@ -11535,11 +11567,15 @@
  "khaled bin mohamed bin zayed hamdan bin mohammed bin rashid attend world governments summit 2025": {
   "last_short": "2026-10-27",
   "long": "2026-10-25",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     7.12,
     8.946666666666667
+   ],
+   [
+    53.952453436623955,
+    55.42679470635328
    ]
   ],
   "shorts_made": 1,

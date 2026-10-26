@@ -485,7 +485,16 @@
   "video_exhausted": true
  },
  "dubai crown prince receives australia s governor general": {
-  "video_exhausted": true
+  "last_short": "2026-10-27",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    22.56190670835522,
+    24.274141640025974
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 128
  },
  "dubai crown prince receives crown princes and deputy rulers": {
   "remix_exhausted": true,
@@ -1143,9 +1152,15 @@
  },
  "hamdan bin mohammed announces conclusion of phase one of dubai 10x": {
   "fails": 1,
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 1,
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    5.357506061461348,
+    6.962082314273863
+   ]
+  ],
   "shot_ranges": [
    [
     4.48,
@@ -3065,11 +3080,15 @@
  "hamdan bin mohammed bin rashid receives samsung electronics ceo": {
   "last_short": "2026-10-27",
   "long": "2026-10-25",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     7.915126810339253,
     9.341212164556122
+   ],
+   [
+    27.53375353102287,
+    29.505817759589615
    ]
   ],
   "video_exhausted": true,
@@ -4996,7 +5015,14 @@
   "video_len": 206
  },
  "hamdan bin mohammed launches third phase of dubai 10x initiative": {
-  "last_short": "2026-10-09",
+  "last_short": "2026-10-27",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    8.294833333333333,
+    9.956733333333334
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -5238,7 +5264,14 @@
   "video_len": 191
  },
  "hamdan bin mohammed meets government team behind uae s progress in world bank s ease of doing business ranking": {
-  "last_short": "2026-10-22",
+  "last_short": "2026-10-27",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    125.5027611214891,
+    126.99427098235674
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -5552,8 +5585,8 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed meets with dubai gov t second line of leadership": {
-  "last_short": "2026-10-26",
-  "montage_used": 3,
+  "last_short": "2026-10-27",
+  "montage_used": 4,
   "remix_ranges": [
    [
     128.9530729946567,
@@ -5566,6 +5599,10 @@
    [
     70.07747014937638,
     72.51025541160126
+   ],
+   [
+    136.22889916074422,
+    137.97904124767203
    ]
   ],
   "shorts_made": 3,
@@ -7133,7 +7170,7 @@
  },
  "hamdan bin mohammed receives mourners on death of mansour bin ahmed": {
   "last_short": "2026-10-27",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     466.2050172416837,
@@ -7142,6 +7179,10 @@
    [
     90.02428753960814,
     91.88075067872452
+   ],
+   [
+    112.89166714611139,
+    115.27567031340753
    ]
   ],
   "shorts_made": 2,
@@ -9786,11 +9827,15 @@
  "hamdan bin mohammed visits thukhor social club for senior citizens": {
   "last_short": "2026-10-27",
   "long": "2026-10-24",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     56.015418952282054,
     57.96072484092415
+   ],
+   [
+    47.942447997646994,
+    49.620939987559645
    ]
   ],
   "shorts_made": 1,
@@ -12133,6 +12178,7 @@
  "the executive council of dubai approves formation of emirati human resources development council and bicycle friendly city strategy 2025": {
   "last_short": "2026-10-11",
   "long": "2026-10-08",
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [

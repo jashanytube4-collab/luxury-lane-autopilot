@@ -108,8 +108,13 @@
   },
   {
    "at": "2026-10-27T15:02:00+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Live with honour, lead with heart. ❤️ #youtubeshorts #youtube",
+   "type": "short",
+   "video_id": "loJhTQeXBnY",
+   "voiced": true
   },
   {
    "at": "2026-10-27T15:45:48+04:00",

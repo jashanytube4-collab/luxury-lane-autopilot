@@ -3578,13 +3578,17 @@
   "long": "2026-10-17"
  },
  "hamdan bin mohammed extends condolences to al muhairi family": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-27",
   "long": "2026-10-27",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     4.957396382789787,
     6.468087705573867
+   ],
+   [
+    43.48493597482684,
+    45.1615515797072
    ]
   ],
   "video_exhausted": true,
@@ -6089,6 +6093,7 @@
  "hamdan bin mohammed names mansour bin mohammed as chairman of shabab al ahli s football club company": {
   "last_short": "2026-10-26",
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     6.940604019220217,
@@ -6754,7 +6759,14 @@
   "video_len": 226
  },
  "hamdan bin mohammed opens smart police station at la mer": {
-  "last_short": "2026-10-22",
+  "last_short": "2026-10-27",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    99.92,
+    102.03999999999999
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -6917,8 +6929,14 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed receives mourners on death of mansour bin ahmed": {
-  "last_short": "2026-10-24",
-  "montage_used": 2,
+  "last_short": "2026-10-27",
+  "montage_used": 3,
+  "remix_ranges": [
+   [
+    466.2050172416837,
+    468.21822612927446
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -7082,12 +7100,16 @@
   "video_len": 95
  },
  "hamdan bin mohammed receives victory team xcat": {
-  "last_short": "2026-10-26",
-  "montage_used": 1,
+  "last_short": "2026-10-27",
+  "montage_used": 2,
   "remix_ranges": [
    [
     67.59418394616664,
     69.14471659942501
+   ],
+   [
+    49.94142683598469,
+    51.554751163702434
    ]
   ],
   "video_exhausted": true,
@@ -8546,12 +8568,16 @@
   "video_len": 62
  },
  "hamdan bin mohammed visits dp world s facilities inspects operations of jebel ali port": {
-  "last_short": "2026-10-26",
-  "montage_used": 1,
+  "last_short": "2026-10-27",
+  "montage_used": 2,
   "remix_ranges": [
    [
     23.240000000000002,
     25.4
+   ],
+   [
+    303.8,
+    305.6
    ]
   ],
   "shorts_made": 1,
@@ -8569,7 +8595,16 @@
   "video_len": 311
  },
  "hamdan bin mohammed visits dubai airshow 2017": {
-  "video_exhausted": true
+  "last_short": "2026-10-27",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    71.52518074680644,
+    73.76961709135885
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 195
  },
  "hamdan bin mohammed visits dubai airshow exhibition": {
   "last_short": "2026-10-11",
@@ -8817,9 +8852,9 @@
   "video_len": 263
  },
  "hamdan bin mohammed visits dubai sports council": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-27",
   "long": "2026-10-18",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     54.599999999999994,
@@ -8828,6 +8863,10 @@
    [
     110.29296147195406,
     112.38153099663322
+   ],
+   [
+    147.40399463763518,
+    149.7487479366144
    ]
   ],
   "video_exhausted": true,

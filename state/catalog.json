@@ -371,12 +371,16 @@
   "video_len": 232
  },
  "dubai crown prince holds minute s silence to honour martyrs on commemoration day": {
-  "last_short": "2026-10-26",
-  "montage_used": 1,
+  "last_short": "2026-10-27",
+  "montage_used": 2,
   "remix_ranges": [
    [
     20.424621499001876,
     23.018097648729857
+   ],
+   [
+    110.95637367174575,
+    113.08319369932289
    ]
   ],
   "video_exhausted": true,
@@ -1388,9 +1392,15 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed approves mbz sat for launch": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-27",
   "long": "2026-10-11",
-  "montage_used": 1,
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    51.549294734111434,
+    53.44212316508972
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -2968,9 +2978,9 @@
   "long": "2026-10-18"
  },
  "hamdan bin mohammed attends wedding receptions in al ain dubai": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-27",
   "long": "2026-10-15",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     37.90981226167036,
@@ -2979,6 +2989,10 @@
    [
     4.192659882762128,
     6.120502896555347
+   ],
+   [
+    68.49759431155472,
+    70.09166498092404
    ]
   ],
   "shorts_made": 1,
@@ -4182,7 +4196,14 @@
   "video_len": 105
  },
  "hamdan bin mohammed inaugurates dubai ai campus cluster at the difc innovation hub": {
-  "last_short": "2026-10-08",
+  "last_short": "2026-10-27",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    6.902635197993996,
+    9.12114200481892
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -5310,8 +5331,15 @@
   "video_len": 99
  },
  "hamdan bin mohammed meets students of dubai schools": {
-  "last_short": "2026-10-22",
+  "last_short": "2026-10-27",
   "long": "2026-10-17",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    163.49934334402403,
+    165.34294600244155
+   ]
+  ],
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -5986,9 +6014,9 @@
   "video_len": 27
  },
  "hamdan bin mohammed meets with the mayor of miami at expo 2020 dubai": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-27",
   "long": "2026-10-20",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     2.952205388747006,
@@ -5997,6 +6025,10 @@
    [
     26.795564346792986,
     28.55867771566399
+   ],
+   [
+    41.73355719038336,
+    43.26950950294127
    ]
   ],
   "shorts_made": 1,
@@ -6676,6 +6708,7 @@
  "hamdan bin mohammed opens dubai al ain road improvement project": {
   "last_short": "2026-10-26",
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     63.84350854055037,
@@ -7427,8 +7460,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed reviews outcomes of farmers souq initiative": {
-  "last_short": "2026-10-24",
-  "montage_used": 3,
+  "last_short": "2026-10-27",
+  "montage_used": 4,
   "remix_ranges": [
    [
     29.266446170224548,
@@ -7437,6 +7470,10 @@
    [
     21.21658950718024,
     22.710512566987344
+   ],
+   [
+    47.40764247764375,
+    49.06069376870933
    ]
   ],
   "shorts_made": 1,
@@ -7847,6 +7884,7 @@
   "last_short": "2026-10-27",
   "montage_exhausted": true,
   "montage_used": 4,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     37.35333333333333,
@@ -9306,12 +9344,16 @@
   "video_len": 57
  },
  "hamdan bin mohammed visits knowledge and human development authority": {
-  "last_short": "2026-10-26",
-  "montage_used": 1,
+  "last_short": "2026-10-27",
+  "montage_used": 2,
   "remix_ranges": [
    [
     245.6187281153152,
     247.9859577578338
+   ],
+   [
+    208.84951018928024,
+    210.38467799248957
    ]
   ],
   "video_exhausted": true,

@@ -2787,8 +2787,14 @@
  },
  "hamdan bin mohammed attends the graduation ceremony of the 23rd cohort of rashid bin saeed al maktoum naval college": {
   "fails": 1,
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-27",
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    8.913499886257668,
+    10.990938391602633
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -2890,7 +2896,14 @@
   "video_len": 164
  },
  "hamdan bin mohammed attends the knowledge summit 2018": {
-  "last_short": "2026-10-22",
+  "last_short": "2026-10-27",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    21.009627951075547,
+    23.33601505706271
+   ]
+  ],
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -6742,8 +6755,8 @@
   "video_len": 279
  },
  "hamdan bin mohammed opens cityscape global 2018": {
-  "last_short": "2026-10-26",
-  "montage_used": 2,
+  "last_short": "2026-10-27",
+  "montage_used": 3,
   "remix_ranges": [
    [
     324.3828204350159,
@@ -6752,6 +6765,10 @@
    [
     133.48000000000002,
     135.16
+   ],
+   [
+    114.2083732957658,
+    116.44598203665224
    ]
   ],
   "shorts_made": 2,
@@ -7233,7 +7250,7 @@
  },
  "hamdan bin mohammed receives mourners on death of mansour bin ahmed": {
   "last_short": "2026-10-27",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     466.2050172416837,
@@ -7246,6 +7263,10 @@
    [
     112.89166714611139,
     115.27567031340753
+   ],
+   [
+    395.8618977733429,
+    397.8460614011338
    ]
   ],
   "shorts_made": 2,
@@ -7498,7 +7519,7 @@
  },
  "hamdan bin mohammed reviews final preparations as hope probe enters the most critical phase of its journey": {
   "last_short": "2026-10-27",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     53.714791899604954,
@@ -7507,6 +7528,10 @@
    [
     78.67700742786008,
     80.79457273941485
+   ],
+   [
+    82.80000000000001,
+    84.47999999999999
    ]
   ],
   "shorts_made": 1,
@@ -8845,7 +8870,14 @@
   "video_len": 206
  },
  "hamdan bin mohammed visits dewa s moro": {
-  "last_short": "2026-10-22",
+  "last_short": "2026-10-27",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    33.81682847894831,
+    35.552483622956906
+   ]
+  ],
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -12042,7 +12074,7 @@
  "mohammed bin rashid commends the dubai executive council s efforts over the past 15 years": {
   "last_short": "2026-10-27",
   "long": "2026-10-27",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     83.59827200044164,
@@ -12055,6 +12087,10 @@
    [
     54.06666359112171,
     55.86553253882195
+   ],
+   [
+    78.76041782413338,
+    80.2533542536446
    ]
   ],
   "shorts_made": 1,
@@ -12460,11 +12496,15 @@
  },
  "umm al qaiwain ruler performs funeral prayer on late sheikh mansour bin ahmad bin ali al thani": {
   "last_short": "2026-10-27",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     74.96434412977598,
     77.11745209877044
+   ],
+   [
+    56.734659754181145,
+    58.36114879604302
    ]
   ],
   "shorts_made": 1,

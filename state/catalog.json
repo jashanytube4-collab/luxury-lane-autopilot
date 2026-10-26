@@ -53,8 +53,14 @@
   "long": "2026-10-23"
  },
  "crown prince of dubai inaugurates the hamdan smart station for simulation and training": {
-  "last_short": "2026-10-24",
-  "montage_used": 2,
+  "last_short": "2026-10-27",
+  "montage_used": 3,
+  "remix_ranges": [
+   [
+    176.48204172023756,
+    178.2530966096589
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -497,7 +503,7 @@
  },
  "dubai crown prince receives australia s governor general": {
   "last_short": "2026-10-27",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     22.56190670835522,
@@ -506,6 +512,10 @@
    [
     71.65170337834842,
     73.29154312924601
+   ],
+   [
+    119.39164101812604,
+    121.60907191548998
    ]
   ],
   "video_exhausted": true,
@@ -2262,7 +2272,7 @@
   "last_short": "2026-10-27",
   "long": "2026-10-06",
   "montage_exhausted": true,
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     49.87427277251726,
@@ -2271,6 +2281,10 @@
    [
     22.436526069291368,
     24.688262170641487
+   ],
+   [
+    45.423688882836004,
+    47.40718918225447
    ]
   ],
   "shorts_made": 4,
@@ -2977,12 +2991,16 @@
   "video_len": 507
  },
  "hamdan bin mohammed attends the launche of uae innovation month in dubai": {
-  "last_short": "2026-10-26",
-  "montage_used": 1,
+  "last_short": "2026-10-27",
+  "montage_used": 2,
   "remix_ranges": [
    [
     42.38019053786916,
     44.419885448766564
+   ],
+   [
+    341.0316319049905,
+    342.5627070834769
    ]
   ],
   "shorts_made": 1,
@@ -4806,7 +4824,7 @@
  },
  "hamdan bin mohammed launches day for dubai encourages residents to volunteer": {
   "last_short": "2026-10-27",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     0.8284244282312303,
@@ -4815,6 +4833,10 @@
    [
     111.66578225009364,
     113.87220696863676
+   ],
+   [
+    58.559999999999995,
+    60.64
    ]
   ],
   "video_exhausted": true,
@@ -9514,12 +9536,16 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed visits gulfood 2018": {
-  "last_short": "2026-10-26",
-  "montage_used": 1,
+  "last_short": "2026-10-27",
+  "montage_used": 2,
   "remix_ranges": [
    [
     22.3159346243839,
     24.5543471009458
+   ],
+   [
+    8.540298173136682,
+    9.977859851641727
    ]
   ],
   "shorts_made": 1,
@@ -9751,8 +9777,8 @@
   "video_len": 275
  },
  "hamdan bin mohammed visits linkedin s regional headquarters in dubai": {
-  "last_short": "2026-10-25",
-  "montage_used": 3,
+  "last_short": "2026-10-27",
+  "montage_used": 4,
   "remix_ranges": [
    [
     99.75771873527589,
@@ -9765,6 +9791,10 @@
    [
     69.57825100424532,
     71.26517185914466
+   ],
+   [
+    66.67116149241421,
+    68.42053854921905
    ]
   ],
   "shorts_made": 2,

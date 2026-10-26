@@ -486,11 +486,15 @@
  },
  "dubai crown prince receives australia s governor general": {
   "last_short": "2026-10-27",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     22.56190670835522,
     24.274141640025974
+   ],
+   [
+    71.65170337834842,
+    73.29154312924601
    ]
   ],
   "video_exhausted": true,
@@ -2400,7 +2404,7 @@
   "fails": 1,
   "last_short": "2026-10-27",
   "long": "2026-10-14",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     202.4192200580963,
@@ -2413,6 +2417,10 @@
    [
     208.96799821686406,
     210.66354704536218
+   ],
+   [
+    77.66439702499802,
+    79.72842524651135
    ]
   ],
   "shorts_made": 1,
@@ -2846,6 +2854,7 @@
  "hamdan bin mohammed attends the graduation of the first batch of the dubai future experts program": {
   "last_short": "2026-10-11",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -4438,8 +4447,8 @@
   "video_len": 316
  },
  "hamdan bin mohammed inaugurates the world s largest solar powered data centre": {
-  "last_short": "2026-10-26",
-  "montage_used": 2,
+  "last_short": "2026-10-27",
+  "montage_used": 3,
   "remix_ranges": [
    [
     56.3455405839187,
@@ -4448,6 +4457,10 @@
    [
     33.79973187758822,
     35.5645531862011
+   ],
+   [
+    16.600241084732748,
+    18.170746015600702
    ]
   ],
   "shorts_made": 1,
@@ -5971,14 +5984,18 @@
   "video_len": 60
  },
  "hamdan bin mohammed meets with minister of defence of uzbekistan": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-27",
   "long": "2026-10-16",
   "montage_exhausted": true,
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     34.32,
     36.34666666666667
+   ],
+   [
+    13.237470431874659,
+    14.923023300973604
    ]
   ],
   "shot_ranges": [
@@ -7693,12 +7710,16 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed reviews progress of dewa s hydroelectric project in hatta": {
-  "last_short": "2026-10-26",
-  "montage_used": 1,
+  "last_short": "2026-10-27",
+  "montage_used": 2,
   "remix_ranges": [
    [
     51.00025703153351,
     52.1494342293267
+   ],
+   [
+    62.290563022917524,
+    64.57480838554272
    ]
   ],
   "shorts_made": 1,
@@ -8406,15 +8427,19 @@
  },
  "hamdan bin mohammed visits abu dhabi international hunting and equestrian exhibition 2026": {
   "fails": 1,
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-27",
   "long": "2026-10-12",
   "montage_exhausted": true,
-  "montage_used": 1,
+  "montage_used": 2,
   "photo_short": true,
   "remix_ranges": [
    [
     16.681221012826743,
     18.753706553469442
+   ],
+   [
+    42.113732566634056,
+    43.7908314441425
    ]
   ],
   "shorts_made": 3,
@@ -8771,7 +8796,7 @@
  },
  "hamdan bin mohammed visits department of economic development": {
   "last_short": "2026-10-27",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     99.05206428340473,
@@ -8780,6 +8805,10 @@
    [
     46.80686700907804,
     49.327462294002125
+   ],
+   [
+    138.84,
+    140.88
    ]
   ],
   "video_exhausted": true,
@@ -8948,8 +8977,14 @@
   "video_len": 79
  },
  "hamdan bin mohammed visits dubai autism center": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-27",
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    22.16,
+    24.279999999999998
+   ]
+  ],
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -9203,6 +9238,7 @@
    0,
    3
   ],
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     41.3186754137732,
@@ -9951,6 +9987,7 @@
  "hamdan bin mohammed visits youth hub in emirates towers": {
   "last_short": "2026-10-27",
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     6.1368945206364796,
@@ -12019,6 +12056,7 @@
  "partnership between community government the foundation of enhancing government services hamdan bin mohammed": {
   "last_short": "2026-10-27",
   "montage_used": 4,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     56.83789082972078,

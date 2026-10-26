@@ -128,8 +128,13 @@
   },
   {
    "at": "2026-10-27T16:25:55+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "His word is his promise. 👑 #youtubeshorts #youtube #fazza",
+   "type": "short",
+   "video_id": "1uU4mxglRD4",
+   "voiced": true
   },
   {
    "at": "2026-10-27T17:06:45+04:00",

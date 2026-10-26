@@ -451,7 +451,9 @@
   "video_exhausted": true
  },
  "dubai crown prince launches hbmpsg": {
-  "video_exhausted": true
+  "remix_exhausted": true,
+  "video_exhausted": true,
+  "video_len": 149
  },
  "dubai crown prince offers condolences al muhairi family": {
   "last_short": "2026-10-26",
@@ -556,7 +558,9 @@
   "video_exhausted": true
  },
  "dubai crown prince returns to uae after performing umrah": {
-  "video_exhausted": true
+  "remix_exhausted": true,
+  "video_exhausted": true,
+  "video_len": 155
  },
  "dubai crown prince reviews preparations for emirates mars mission": {
   "last_short": "2026-10-27",
@@ -4242,6 +4246,7 @@
  "hamdan bin mohammed inaugurates aeedc dubai 2022": {
   "last_short": "2026-10-11",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -4573,7 +4578,7 @@
  },
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
   "last_short": "2026-10-27",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     78.30225988576875,
@@ -4582,6 +4587,10 @@
    [
     242.08069026796,
     244.0291880916713
+   ],
+   [
+    92.06790240796396,
+    94.3967767263268
    ]
   ],
   "shorts_made": 2,
@@ -5939,10 +5948,10 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed meets with local dignitaries and senior officials at nad al sheba majlis": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-27",
   "long": "2026-10-05",
   "montage_exhausted": true,
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     43.32590814717401,
@@ -5951,6 +5960,10 @@
    [
     54.86837301575646,
     56.4118265379728
+   ],
+   [
+    19.870538080222172,
+    21.412260892936892
    ]
   ],
   "shorts_made": 2,
@@ -6337,7 +6350,7 @@
  "hamdan bin mohammed mohammed bin rashid places the highest priority on supporting youth and developing their skills": {
   "last_short": "2026-10-27",
   "long": "2026-10-21",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     15.913712985258753,
@@ -6350,6 +6363,10 @@
    [
     63.456786541312105,
     65.12032851698702
+   ],
+   [
+    40.23657091041781,
+    40.7513149681842
    ]
   ],
   "shorts_made": 1,
@@ -7060,8 +7077,15 @@
   "video_len": 119
  },
  "hamdan bin mohammed opens salem medical fitness smart centre": {
-  "last_short": "2026-10-21",
+  "last_short": "2026-10-27",
   "long": "2026-10-18",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    182.01540657684788,
+    184.01487206134107
+   ]
+  ],
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -7871,8 +7895,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed reviews strategic plans of dubai civil defense": {
-  "last_short": "2026-10-26",
-  "montage_used": 2,
+  "last_short": "2026-10-27",
+  "montage_used": 3,
   "remix_ranges": [
    [
     7.74615392477855,
@@ -7881,6 +7905,10 @@
    [
     59.3747889600634,
     61.95578020621231
+   ],
+   [
+    32.15793397934635,
+    34.31720687310379
    ]
   ],
   "shorts_made": 1,
@@ -8759,8 +8787,15 @@
   "video_len": 159
  },
  "hamdan bin mohammed visits art dubai": {
-  "last_short": "2026-10-21",
+  "last_short": "2026-10-27",
   "long": "2026-10-13",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    49.68,
+    51.56
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -10525,12 +10560,16 @@
   "video_len": 361
  },
  "hamdan reveals dubai government towards 2021 initiative": {
-  "last_short": "2026-10-26",
-  "montage_used": 1,
+  "last_short": "2026-10-27",
+  "montage_used": 2,
   "remix_ranges": [
    [
     27.446859008884246,
     28.914799574862393
+   ],
+   [
+    41.536525951452724,
+    44.04244638435816
    ]
   ],
   "shorts_made": 1,
@@ -12088,13 +12127,17 @@
   "video_exhausted": true
  },
  "mohammed bin rashid attends 29th dubai world cup": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-27",
   "long": "2026-10-27",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     75.43029455153123,
     77.52995090887542
+   ],
+   [
+    14.453333333333333,
+    16.413333333333334
    ]
   ],
   "shorts_made": 1,

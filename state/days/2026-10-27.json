@@ -58,8 +58,13 @@
   },
   {
    "at": "2026-10-27T11:05:52+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "A gentleman in every moment. ✨ #youtubeshorts #ytshorts",
+   "type": "short",
+   "video_id": "fF8E5Yo5duc",
+   "voiced": true
   },
   {
    "at": "2026-10-27T11:49:45+04:00",

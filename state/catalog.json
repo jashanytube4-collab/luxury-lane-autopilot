@@ -579,8 +579,8 @@
   "video_len": 78
  },
  "dubai crown prince visits dubai municipality": {
-  "last_short": "2026-10-26",
-  "montage_used": 2,
+  "last_short": "2026-10-27",
+  "montage_used": 3,
   "remix_ranges": [
    [
     296.0,
@@ -589,6 +589,10 @@
    [
     131.2903671305396,
     132.91615982906916
+   ],
+   [
+    322.00814575750275,
+    323.4749298516074
    ]
   ],
   "shorts_made": 1,
@@ -2921,13 +2925,17 @@
   "long": "2026-10-22"
  },
  "hamdan bin mohammed attends wedding reception": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-27",
   "long": "2026-10-22",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     30.79919761132518,
     32.35942156886336
+   ],
+   [
+    60.22566338650911,
+    62.04975606139669
    ]
   ],
   "shorts_made": 1,
@@ -3348,8 +3356,8 @@
   "video_len": 116
  },
  "hamdan bin mohammed concludes official visit to uzbekistan": {
-  "last_short": "2026-10-26",
-  "montage_used": 3,
+  "last_short": "2026-10-27",
+  "montage_used": 4,
   "remix_ranges": [
    [
     136.78354122945424,
@@ -3358,6 +3366,10 @@
    [
     49.88666666666666,
     52.04666666666667
+   ],
+   [
+    140.32,
+    142.24666666666667
    ]
   ],
   "shorts_made": 1,
@@ -6162,9 +6174,16 @@
   "long": "2026-10-21"
  },
  "hamdan bin mohammed offers condolences on death of abdullah mohamed al masoud": {
-  "last_short": "2026-10-12",
+  "last_short": "2026-10-27",
   "long": "2026-10-16",
   "montage_exhausted": true,
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    44.96,
+    47.160000000000004
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -6908,8 +6927,17 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed receives afc president": {
+  "last_short": "2026-10-27",
   "long": "2026-10-14",
-  "video_exhausted": true
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    13.3014644340285,
+    14.708021920124526
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 97
  },
  "hamdan bin mohammed receives canadian ambassador": {
   "last_short": "2026-10-14",
@@ -7816,9 +7844,9 @@
   "video_len": 149
  },
  "hamdan bin mohammed tours dubai airshow 2023": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     37.35333333333333,
@@ -7831,6 +7859,10 @@
    [
     64.70430447906152,
     66.23071054132718
+   ],
+   [
+    9.543078478836332,
+    10.92367166843928
    ]
   ],
   "shorts_made": 1,
@@ -9145,6 +9177,7 @@
  "hamdan bin mohammed visits idex 2021": {
   "last_short": "2026-10-27",
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     163.77901918367834,
@@ -9617,8 +9650,15 @@
   "video_len": 57
  },
  "hamdan bin mohammed visits thukhor social club for senior citizens": {
-  "last_short": "2026-10-09",
+  "last_short": "2026-10-27",
   "long": "2026-10-24",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    56.015418952282054,
+    57.96072484092415
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -9867,8 +9907,8 @@
   "video_exhausted": true
  },
  "hamdan chairs 1st meeting for higher committee to implement smart city project": {
-  "last_short": "2026-10-26",
-  "montage_used": 2,
+  "last_short": "2026-10-27",
+  "montage_used": 3,
   "remix_ranges": [
    [
     59.327520072428314,
@@ -9877,6 +9917,10 @@
    [
     35.11814585546714,
     36.776655839795666
+   ],
+   [
+    53.68666666666667,
+    55.74666666666667
    ]
   ],
   "video_exhausted": true,

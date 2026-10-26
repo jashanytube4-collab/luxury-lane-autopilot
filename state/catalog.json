@@ -816,7 +816,16 @@
   "long": "2026-10-13"
  },
  "hamdan attends dubai smart city first meeting": {
-  "video_exhausted": true
+  "last_short": "2026-10-27",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    3.313635576410818,
+    4.761221755997052
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 132
  },
  "hamdan attends endurance race": {
   "long": "2026-10-23"
@@ -2582,6 +2591,7 @@
  "hamdan bin mohammed attends talk on middle eastern cities contributions to advancing human progress": {
   "last_short": "2026-10-26",
   "montage_used": 3,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     55.41467528073014,
@@ -3974,12 +3984,16 @@
   "video_len": 19
  },
  "hamdan bin mohammed honours winners of 5th islamic economy award": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-27",
+  "montage_used": 2,
   "remix_ranges": [
    [
     219.23125416320443,
     221.36656810191036
+   ],
+   [
+    120.60000000000001,
+    122.56
    ]
   ],
   "shorts_made": 2,
@@ -6171,9 +6185,9 @@
   "video_len": 58
  },
  "hamdan bin mohammed offers condolences on death of moza bint ali al weri": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-27",
   "long": "2026-10-14",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     17.37089556107783,
@@ -6182,6 +6196,10 @@
    [
     67.95642262890128,
     70.16151030114342
+   ],
+   [
+    3.961280086486453,
+    5.833327104290587
    ]
   ],
   "shorts_made": 1,
@@ -6555,8 +6573,14 @@
   "video_len": 375
  },
  "hamdan bin mohammed opens crime prevention international conference": {
-  "last_short": "2026-10-24",
-  "montage_used": 2,
+  "last_short": "2026-10-27",
+  "montage_used": 3,
+  "remix_ranges": [
+   [
+    68.54641858440627,
+    71.01811023369692
+   ]
+  ],
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -6820,8 +6844,15 @@
   "video_len": 223
  },
  "hamdan bin mohammed opens the race to excellence": {
-  "last_short": "2026-10-19",
+  "last_short": "2026-10-27",
   "long": "2026-10-12",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    2.6092809649617554,
+    4.063039823858403
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -6940,6 +6971,14 @@
   "video_len": 46
  },
  "hamdan bin mohammed receives head of chechen republic": {
+  "last_short": "2026-10-27",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    3.9080168701616587,
+    6.353610153463469
+   ]
+  ],
   "video_exhausted": true,
   "video_len": 33
  },
@@ -9027,13 +9066,17 @@
   "video_len": 213
  },
  "hamdan bin mohammed visits hazrat imam mosque in uzbekistan": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     14.613102080781365,
     16.057282151307735
+   ],
+   [
+    32.54,
+    34.6
    ]
   ],
   "shorts_made": 1,
@@ -9074,8 +9117,14 @@
   "long": "2026-10-22"
  },
  "hamdan bin mohammed visits idex 2021": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-27",
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    163.77901918367834,
+    165.33245419045892
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [

@@ -559,7 +559,7 @@
  },
  "dubai crown prince reviews preparations for emirates mars mission": {
   "last_short": "2026-10-27",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     10.223000693909508,
@@ -568,6 +568,10 @@
    [
     32.12485531015543,
     33.63499364819368
+   ],
+   [
+    72.65797005135224,
+    75.14819371353167
    ]
   ],
   "shorts_made": 3,
@@ -850,7 +854,7 @@
  },
  "hamdan attends dubai smart city first meeting": {
   "last_short": "2026-10-27",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     3.313635576410818,
@@ -859,6 +863,10 @@
    [
     51.513409332998144,
     53.07536517653593
+   ],
+   [
+    61.864888212460265,
+    63.4823219645151
    ]
   ],
   "video_exhausted": true,
@@ -1887,8 +1895,8 @@
   "video_len": 60
  },
  "hamdan bin mohammed attends dubai forum for government best practices": {
-  "last_short": "2026-10-26",
-  "montage_used": 2,
+  "last_short": "2026-10-27",
+  "montage_used": 3,
   "remix_ranges": [
    [
     28.36,
@@ -1897,6 +1905,10 @@
    [
     155.16,
     156.96
+   ],
+   [
+    167.81213599816337,
+    169.80970522538755
    ]
   ],
   "video_exhausted": true,
@@ -3793,9 +3805,9 @@
   "video_len": 98
  },
  "hamdan bin mohammed goes on first test ride of cruise autonomous electric vehicle in jumeirah 1": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-27",
   "long": "2026-10-08",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     72.6327034953461,
@@ -3808,6 +3820,10 @@
    [
     28.404971392241382,
     30.430536666394307
+   ],
+   [
+    59.17417398996545,
+    60.69622936471302
    ]
   ],
   "shorts_made": 1,
@@ -5594,7 +5610,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed meets with cisco ceo": {
-  "video_exhausted": true
+  "remix_exhausted": true,
+  "video_exhausted": true,
+  "video_len": 154
  },
  "hamdan bin mohammed meets with co founder and ceo of colossal biosciences": {
   "rejected": {
@@ -6062,11 +6080,15 @@
  },
  "hamdan bin mohammed meets with participants of retail summit in dubai": {
   "last_short": "2026-10-27",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     4.6968630874811845,
     6.218446246112595
+   ],
+   [
+    53.72,
+    55.96
    ]
   ],
   "shorts_made": 1,
@@ -6430,13 +6452,17 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed offers condolences to al falahi family": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-27",
   "long": "2026-10-16",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     85.17042709742152,
     87.37007138121277
+   ],
+   [
+    13.388793855294033,
+    15.420535045398587
    ]
   ],
   "shorts_made": 1,
@@ -8376,7 +8402,7 @@
  },
  "hamdan bin mohammed unveils 5 star plaques at three customer happiness centres in dubai": {
   "last_short": "2026-10-27",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     140.12827217544256,
@@ -8389,6 +8415,10 @@
    [
     121.81978386556676,
     123.51672988559567
+   ],
+   [
+    236.98588316609974,
+    238.70978354801537
    ]
   ],
   "shorts_made": 1,
@@ -10215,6 +10245,7 @@
  "hamdan dubai s a global center for sukuk listing": {
   "last_short": "2026-10-26",
   "montage_used": 2,
+  "no_video_until": "2026-10-29",
   "remix_ranges": [
    [
     131.8375197855403,
@@ -12428,7 +12459,14 @@
   "video_exhausted": true
  },
  "umm al qaiwain ruler performs funeral prayer on late sheikh mansour bin ahmad bin ali al thani": {
-  "last_short": "2026-10-12",
+  "last_short": "2026-10-27",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    74.96434412977598,
+    77.11745209877044
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [

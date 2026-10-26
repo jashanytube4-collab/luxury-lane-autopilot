@@ -138,8 +138,13 @@
   },
   {
    "at": "2026-10-27T17:06:45+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Grace under pressure. Kindness without limits. ✨ #youtube #youtubeshorts",
+   "type": "short",
+   "video_id": "bWJNTc8R910",
+   "voiced": true
   },
   {
    "at": "2026-10-27T17:55:20+04:00",

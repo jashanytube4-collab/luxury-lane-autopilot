@@ -182,7 +182,7 @@
  },
  "dubai crown prince attends graduation of dubai police academy": {
   "last_short": "2026-10-27",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     211.78852581766063,
@@ -211,6 +211,10 @@
    [
     949.5527255489686,
     951.4812889477686
+   ],
+   [
+    247.7969369618791,
+    249.56686403784983
    ]
   ],
   "shorts_made": 2,
@@ -281,13 +285,17 @@
   "video_len": 109
  },
  "dubai crown prince commends students selected for the hamdan bin mohammed scholarship programme": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-27",
   "long": "2026-10-17",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     42.09304322116802,
     44.484208223658605
+   ],
+   [
+    18.12,
+    19.779999999999998
    ]
   ],
   "shorts_made": 1,
@@ -2857,13 +2865,17 @@
   "video_len": 91
  },
  "hamdan bin mohammed attends the graduation of 18th cohort of the national military service": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     42.56876267120477,
     44.18077227437987
+   ],
+   [
+    86.98666666666666,
+    88.67999999999999
    ]
   ],
   "shorts_made": 1,
@@ -4053,7 +4065,7 @@
  },
  "hamdan bin mohammed honours arab contributors to entrepreneurial development": {
   "last_short": "2026-10-27",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     134.08871265198363,
@@ -4062,6 +4074,10 @@
    [
     110.69335828525809,
     112.92045047673535
+   ],
+   [
+    104.067938573478,
+    106.1403439790155
    ]
   ],
   "shorts_made": 2,
@@ -6430,11 +6446,15 @@
   "last_short": "2026-10-27",
   "long": "2026-10-16",
   "montage_exhausted": true,
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     44.96,
     47.160000000000004
+   ],
+   [
+    37.46421854934102,
+    39.713878167444065
    ]
   ],
   "shorts_made": 1,
@@ -6596,11 +6616,15 @@
  "hamdan bin mohammed offers condolences to family of martyr al mesmari": {
   "last_short": "2026-10-27",
   "long": "2026-10-27",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     70.2,
     71.96
+   ],
+   [
+    42.07180939721504,
+    43.60648396427047
    ]
   ],
   "shorts_made": 1,
@@ -9369,7 +9393,7 @@
  "hamdan bin mohammed visits dubai sports council": {
   "last_short": "2026-10-27",
   "long": "2026-10-18",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     54.599999999999994,
@@ -9382,6 +9406,10 @@
    [
     147.40399463763518,
     149.7487479366144
+   ],
+   [
+    88.64,
+    90.32
    ]
   ],
   "video_exhausted": true,

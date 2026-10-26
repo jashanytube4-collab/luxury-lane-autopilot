@@ -1,0 +1,169 @@
+{
+ "date": "2026-10-27",
+ "slots": [
+  {
+   "at": "2026-10-27T06:41:28+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-27T07:21:22+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-27T08:12:44+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-27T08:52:18+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-27T09:38:48+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-27T10:22:25+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-27T11:05:52+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-27T11:49:45+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-27T12:30:22+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-27T13:14:57+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-27T14:07:35+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-27T15:02:00+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-27T15:45:48+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-27T16:25:55+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-27T17:06:45+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-27T17:55:20+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-27T18:42:45+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-27T19:08:58+04:00",
+   "minutes": 8.4,
+   "status": "scheduled",
+   "title": "How Many Wives and Children Does Fazza's Father Really Have? Inside Dubai's Biggest Royal Family",
+   "type": "long",
+   "video_id": "Tzh4UBmThHo"
+  },
+  {
+   "at": "2026-10-27T19:31:55+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-27T20:17:45+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-27T21:00:09+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-27T21:50:07+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-27T22:38:03+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-27T23:26:10+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-28T00:12:34+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-28T01:00:21+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-28T01:50:03+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-28T02:31:02+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-28T03:21:41+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-28T04:03:12+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-28T04:45:27+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-10-28T05:37:41+04:00",
+   "status": "open",
+   "type": "short"
+  }
+ ],
+ "timezone": "Asia/Dubai"
+}

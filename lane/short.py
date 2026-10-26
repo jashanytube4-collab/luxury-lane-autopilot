@@ -131,7 +131,9 @@ def produce_moment(video: Path, shots: list[dict], cfg: dict, work: Path, out: P
             spoken = script
         except Exception as e:  # noqa: BLE001 - no voice available: still a good music-only moment
             log.warning("voice-over skipped: %s", e)
-            narr = None
+            raise ShortError(f"voice-over was requested but failed: {e}") from e     # never publish a silent Short that should be narrated
+        if not narr.words:
+            raise ShortError("voice-over has no spoken words")
     silent = work / "silence.wav"
     if narr is not None:
         silent = narr.wav

@@ -359,7 +359,10 @@ class Studio:
         duration = round(min(want, t - 0.05), 2)
         out = work / "short.mp4"
         caption = moment_caption("", rng)
-        script = self._voiceover({}, rng, duration, self._wants_voice(rng, montage=True))
+        wants = self._wants_voice(rng, montage=True)
+        script = self._voiceover({}, rng, duration, wants)
+        if wants and not script:
+            return None      # no true voice-over text available: skip rather than publish a silent re-cut
         res = produce_moment(joined, shots, self.cfg, work, out, seed, duration, caption, script, self.brain.shorten)
         title = moment_title("", recent_titles, rng)
         voiced = res.voice_engine != "none"

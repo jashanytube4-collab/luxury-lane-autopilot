@@ -180,8 +180,8 @@
   "long": "2026-10-17"
  },
  "dubai crown prince attends graduation of dubai police academy": {
-  "last_short": "2026-10-26",
-  "montage_used": 6,
+  "last_short": "2026-10-27",
+  "montage_used": 7,
   "remix_ranges": [
    [
     211.78852581766063,
@@ -206,6 +206,10 @@
    [
     177.57116158408004,
     179.37524769155434
+   ],
+   [
+    949.5527255489686,
+    951.4812889477686
    ]
   ],
   "shorts_made": 2,
@@ -913,8 +917,15 @@
  },
  "hamdan bin mohammed and india s minister of commerce and industry witness signing of 8 mous": {
   "fails": 1,
-  "last_short": "2026-10-17",
+  "last_short": "2026-10-27",
   "long": "2026-10-14",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    2.3467459966608333,
+    4.039008506710768
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3045,8 +3056,17 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed bin rashid receives samsung electronics ceo": {
+  "last_short": "2026-10-27",
   "long": "2026-10-25",
-  "video_exhausted": true
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    7.915126810339253,
+    9.341212164556122
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 45
  },
  "hamdan bin mohammed calls on the city to take on dubai fitness challenge 2019": {
   "no_hamdan": true
@@ -3256,13 +3276,17 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed chairs virtual meeting of executive council": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-27",
   "long": "2026-10-14",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     80.58442199620988,
     82.63032766685771
+   ],
+   [
+    1.5206556345642581,
+    3.783563680987373
    ]
   ],
   "shorts_made": 2,
@@ -3345,8 +3369,14 @@
   "video_len": 58
  },
  "hamdan bin mohammed concludes official visit to kuwait": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-27",
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    80.18242730661535,
+    82.27306661018031
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -6468,13 +6498,17 @@
   "video_len": 120
  },
  "hamdan bin mohammed offers condolences to mohamed bin zayed and tahnoun bin mohammed on death of sheikha hessa bint mohammed": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-27",
   "long": "2026-10-16",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     108.23730979588721,
     110.37377680326281
+   ],
+   [
+    54.55538920102937,
+    56.746633504757405
    ]
   ],
   "video_exhausted": true,
@@ -8643,12 +8677,16 @@
   "video_len": 196
  },
  "hamdan bin mohammed visits department of economic development": {
-  "last_short": "2026-10-26",
-  "montage_used": 1,
+  "last_short": "2026-10-27",
+  "montage_used": 2,
   "remix_ranges": [
    [
     99.05206428340473,
     100.85269953274701
+   ],
+   [
+    46.80686700907804,
+    49.327462294002125
    ]
   ],
   "video_exhausted": true,

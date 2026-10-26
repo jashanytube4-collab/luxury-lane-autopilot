@@ -88,8 +88,13 @@
   },
   {
    "at": "2026-10-27T13:14:57+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Character is what you do when no one is watching. #youtubeshorts #youtube #fazza",
+   "type": "short",
+   "video_id": "NJshV9h1BUQ",
+   "voiced": true
   },
   {
    "at": "2026-10-27T14:07:35+04:00",

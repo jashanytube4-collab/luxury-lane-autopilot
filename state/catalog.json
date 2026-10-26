@@ -670,8 +670,8 @@
   "long": "2026-10-23"
  },
  "dubai executive council approves annual agenda for 2018": {
-  "last_short": "2026-10-26",
-  "montage_used": 3,
+  "last_short": "2026-10-27",
+  "montage_used": 4,
   "remix_ranges": [
    [
     41.18786988601433,
@@ -684,6 +684,10 @@
    [
     17.073705287177216,
     18.822998866002774
+   ],
+   [
+    55.3758502226601,
+    57.67226029093048
    ]
   ],
   "video_exhausted": true,
@@ -1713,6 +1717,7 @@
  "hamdan bin mohammed attends closing of 4th king abdulaziz camel festival": {
   "last_short": "2026-10-26",
   "long": "2026-10-12",
+  "montage_exhausted": true,
   "montage_used": 1,
   "remix_ranges": [
    [
@@ -1888,8 +1893,8 @@
   "fails": 2
  },
  "hamdan bin mohammed attends dubai police graduation ceremony": {
-  "last_short": "2026-10-26",
-  "montage_used": 3,
+  "last_short": "2026-10-27",
+  "montage_used": 4,
   "remix_ranges": [
    [
     166.60279951075904,
@@ -1902,6 +1907,10 @@
    [
     230.46307255735468,
     232.22428096346252
+   ],
+   [
+    115.50150564319293,
+    117.48550979510986
    ]
   ],
   "shorts_made": 1,
@@ -2344,8 +2353,15 @@
   "video_len": 249
  },
  "hamdan bin mohammed attends iftar banquet with autistic children and their families": {
-  "last_short": "2026-10-09",
+  "last_short": "2026-10-27",
   "long": "2026-10-27",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    35.0824558967323,
+    36.98167122990901
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -2854,6 +2870,7 @@
  },
  "hamdan bin mohammed attends the opening of world police summit 2022": {
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 119
  },
@@ -4531,12 +4548,16 @@
   "fails": 2
  },
  "hamdan bin mohammed launches day for dubai encourages residents to volunteer": {
-  "last_short": "2026-10-26",
-  "montage_used": 1,
+  "last_short": "2026-10-27",
+  "montage_used": 2,
   "remix_ranges": [
    [
     0.8284244282312303,
     2.8134090947367074
+   ],
+   [
+    111.66578225009364,
+    113.87220696863676
    ]
   ],
   "video_exhausted": true,
@@ -4638,6 +4659,7 @@
  },
  "hamdan bin mohammed launches middle east s first of its kind drone delivery system at dubai silicon oasis": {
   "last_short": "2026-10-26",
+  "montage_exhausted": true,
   "montage_used": 3,
   "remix_ranges": [
    [
@@ -4681,6 +4703,7 @@
  },
  "hamdan bin mohammed launches new phase of dubai s happiness agenda": {
   "last_short": "2026-10-26",
+  "montage_exhausted": true,
   "montage_used": 3,
   "remix_ranges": [
    [
@@ -4772,9 +4795,9 @@
   "video_len": 69
  },
  "hamdan bin mohammed launches sports initiatives": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-27",
   "long": "2026-10-18",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     212.80506732035832,
@@ -4783,6 +4806,10 @@
    [
     69.63444665201894,
     72.17915011003713
+   ],
+   [
+    241.924629672134,
+    244.01263161454554
    ]
   ],
   "shorts_made": 1,
@@ -5467,6 +5494,7 @@
  "hamdan bin mohammed meets with global gaming leaders at dubai gaming retreat": {
   "last_short": "2026-10-26",
   "long": "2026-10-10",
+  "montage_exhausted": true,
   "montage_used": 1,
   "remix_ranges": [
    [
@@ -5590,8 +5618,16 @@
  },
  "hamdan bin mohammed meets with india s minister of commerce and industry": {
   "fails": 1,
+  "last_short": "2026-10-27",
   "long": "2026-10-15",
   "montage_exhausted": true,
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    2.2521022766651715,
+    3.978495216760946
+   ]
+  ],
   "video_exhausted": true,
   "video_len": 18
  },
@@ -7721,6 +7757,7 @@
   "fails": 1,
   "last_short": "2026-10-15",
   "long": "2026-10-05",
+  "montage_exhausted": true,
   "photo_short": true,
   "remix_exhausted": true,
   "shorts_made": 1,
@@ -9237,12 +9274,16 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed visits smart dubai office launches dubai paperless strategy": {
-  "last_short": "2026-10-26",
-  "montage_used": 1,
+  "last_short": "2026-10-27",
+  "montage_used": 2,
   "remix_ranges": [
    [
     40.13712243900044,
     41.58682832484012
+   ],
+   [
+    75.61485131610246,
+    77.62766391659918
    ]
   ],
   "shorts_made": 1,
@@ -9465,6 +9506,7 @@
  },
  "hamdan bin mohammed visits visa s new regional headquarters in dubai internet city": {
   "last_short": "2026-10-10",
+  "montage_exhausted": true,
   "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
@@ -9929,8 +9971,8 @@
   "video_len": 202
  },
  "hamdan visits government think tank": {
-  "last_short": "2026-10-26",
-  "montage_used": 2,
+  "last_short": "2026-10-27",
+  "montage_used": 3,
   "remix_ranges": [
    [
     29.076560473178702,
@@ -9939,6 +9981,10 @@
    [
     139.51062611012478,
     141.5190004450501
+   ],
+   [
+    158.18492578191407,
+    159.3116640270029
    ]
   ],
   "video_exhausted": true,
@@ -10031,6 +10077,7 @@
     287.03
    ]
   ],
+  "video_exhausted": true,
   "video_len": 328
  },
  "ig:dubaimediaoffice:18134849212629565": {
@@ -11195,6 +11242,7 @@
   "fails": 1,
   "last_short": "2026-10-24",
   "long": "2026-10-27",
+  "montage_exhausted": true,
   "montage_used": 1,
   "remix_ranges": [
    [

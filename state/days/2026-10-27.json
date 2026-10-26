@@ -3,8 +3,13 @@
  "slots": [
   {
    "at": "2026-10-27T06:41:28+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "One city, one prince, endless possibilities. 👑 #youtubeshorts #ytshorts",
+   "type": "short",
+   "video_id": "N7mKe9xYArU",
+   "voiced": true
   },
   {
    "at": "2026-10-27T07:21:22+04:00",

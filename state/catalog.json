@@ -906,13 +906,17 @@
   "long": "2026-10-27"
  },
  "hamdan attends wedding reception": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-27",
   "long": "2026-10-15",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     53.25558494307589,
     54.33920458047412
+   ],
+   [
+    28.31327422471157,
+    30.1075222419285
    ]
   ],
   "video_exhausted": true,
@@ -1646,6 +1650,7 @@
   "last_short": "2026-10-24",
   "long": "2026-10-17",
   "montage_used": 1,
+  "no_video_until": "2026-10-29",
   "remix_ranges": [
    [
     26.309427674914563,
@@ -4401,8 +4406,14 @@
   "video_len": 261
  },
  "hamdan bin mohammed inaugurates new outpatient building at dubai hospital": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-27",
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    56.1657575888386,
+    58.56248384359462
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -5129,9 +5140,9 @@
   "video_len": 101
  },
  "hamdan bin mohammed launches world s largest arabic audio library": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-27",
   "long": "2026-10-24",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     98.96000000000001,
@@ -5148,6 +5159,10 @@
    [
     20.823933162227704,
     22.958887719543718
+   ],
+   [
+    110.41396371258563,
+    112.1372632554315
    ]
   ],
   "shorts_made": 1,
@@ -7309,8 +7324,15 @@
  },
  "hamdan bin mohammed receives ramadan well wishers": {
   "fails": 1,
-  "last_short": "2026-10-06",
+  "last_short": "2026-10-27",
   "montage_exhausted": true,
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    59.31105310462557,
+    60.85987613566748
+   ]
+  ],
   "shorts_made": 5,
   "shot_ranges": [
    [
@@ -8765,7 +8787,8 @@
     15.096666666666668
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 60
  },
  "hamdan bin mohammed visits bombay stock exchange and rings opening bell": {
   "last_short": "2026-10-18",
@@ -8999,7 +9022,7 @@
  },
  "hamdan bin mohammed visits dubai airshow 2017": {
   "last_short": "2026-10-27",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     71.52518074680644,
@@ -9008,6 +9031,10 @@
    [
     82.10998255659588,
     83.86347425774214
+   ],
+   [
+    129.38509244999335,
+    130.97171834584327
    ]
   ],
   "video_exhausted": true,
@@ -9016,6 +9043,7 @@
  "hamdan bin mohammed visits dubai airshow exhibition": {
   "last_short": "2026-10-11",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -9602,7 +9630,7 @@
  },
  "hamdan bin mohammed visits knowledge and human development authority": {
   "last_short": "2026-10-27",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     245.6187281153152,
@@ -9611,6 +9639,10 @@
    [
     208.84951018928024,
     210.38467799248957
+   ],
+   [
+    185.1144559819921,
+    186.93613836436884
    ]
   ],
   "video_exhausted": true,
@@ -9960,6 +9992,7 @@
   "last_short": "2026-10-27",
   "long": "2026-10-24",
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     56.015418952282054,
@@ -11618,8 +11651,8 @@
   "video_exhausted": true
  },
  "in presence of dubai crown prince meraas signs agreement with dubai municipality to manage dubai safari": {
-  "last_short": "2026-10-26",
-  "montage_used": 2,
+  "last_short": "2026-10-27",
+  "montage_used": 3,
   "remix_ranges": [
    [
     4.017581494059155,
@@ -11628,6 +11661,10 @@
    [
     39.16,
     40.96
+   ],
+   [
+    14.705101802019028,
+    17.294919957029812
    ]
   ],
   "video_exhausted": true,
@@ -12146,12 +12183,16 @@
   "video_len": 208
  },
  "president of uzbekistan meets with hamdan bin mohammed in tashkent": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-27",
+  "montage_used": 2,
   "remix_ranges": [
    [
     34.66,
     36.720000000000006
+   ],
+   [
+    7.84,
+    9.840000000000002
    ]
   ],
   "shorts_made": 1,

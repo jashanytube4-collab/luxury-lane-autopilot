@@ -57,47 +57,78 @@ def _youtube_id(url: str) -> str | None:
 
 
 class Library:
-    """Private footage library: a GitHub release holding copies of the official YouTube videos (<id>.mp4).
-    GitHub's servers are blocked by YouTube, but can always read from GitHub."""
+    """Private footage library: GitHub releases holding copies of the official YouTube videos (<id>.mp4).
+    GitHub's servers are blocked by YouTube, but can always read from GitHub.
+    A release holds at most 1000 files, so the library spans releases tagged footage, footage-2, footage-3, ...;
+    reads look in all of them, uploads go to the first one with room (a new one is created when all are full)."""
+
+    MAX_ASSETS = 1000
 
     def __init__(self, repo: str, token: str) -> None:
         self.repo, self.token = repo, token
         self._assets: dict[str, int] | None = None
+        self._releases: dict[str, tuple[int, int]] = {}      # tag -> (release id, number of files)
 
     def _api(self, url: str, **kw) -> requests.Response:
         h = {"Authorization": f"Bearer {self.token}", "X-GitHub-Api-Version": "2022-11-28", **kw.pop("headers", {})}
         return requests.get(url, headers=h, timeout=60, **kw)
 
+    @staticmethod
+    def _tag(n: int) -> str:
+        return "footage" if n == 1 else f"footage-{n}"
+
     def assets(self) -> dict[str, int]:
         if self._assets is None:
             self._assets = {}
-            rel = self._api(f"https://api.github.com/repos/{self.repo}/releases/tags/footage")
-            if rel.status_code == 200:
-                rid = rel.json()["id"]
+            for n in range(1, 50):
+                tag = self._tag(n)
+                rel = self._api(f"https://api.github.com/repos/{self.repo}/releases/tags/{tag}")
+                if rel.status_code != 200:
+                    break
+                rid, count = rel.json()["id"], 0
                 for page in range(1, 30):
                     r = self._api(f"https://api.github.com/repos/{self.repo}/releases/{rid}/assets",
                                   params={"per_page": 100, "page": page})
                     batch = r.json() if r.status_code == 200 else []
                     self._assets.update({a["name"]: a["id"] for a in batch})
+                    count += len(batch)
                     if len(batch) < 100:
                         break
-            log.info("footage library: %d videos", len(self._assets))
+                self._releases[tag] = (rid, count)
+            log.info("footage library: %d videos in %d release(s)", len(self._assets), len(self._releases))
         return self._assets
+
+    def _release_with_room(self) -> int | None:
+        for tag, (rid, count) in self._releases.items():
+            if count < self.MAX_ASSETS:
+                return rid
+        tag = self._tag(len(self._releases) + 1)
+        r = requests.post(f"https://api.github.com/repos/{self.repo}/releases",
+                          headers={"Authorization": f"Bearer {self.token}", "X-GitHub-Api-Version": "2022-11-28"},
+                          json={"tag_name": tag, "name": tag, "body": "Footage library (continued)."}, timeout=60)
+        if r.status_code != 201:
+            log.warning("could not create library release %s: %s %s", tag, r.status_code, r.text[:200])
+            return None
+        self._releases[tag] = (r.json()["id"], 0)
+        log.info("footage library: new release %s", tag)
+        return r.json()["id"]
 
     def upload(self, name: str, path: Path) -> bool:
         """Add a video to the library (used for Instagram clips, whose links expire after a few days)."""
         if name in self.assets():
             return True
-        rel = self._api(f"https://api.github.com/repos/{self.repo}/releases/tags/footage")
-        if rel.status_code != 200:
+        rid = self._release_with_room()
+        if rid is None:
             return False
         h = {"Authorization": f"Bearer {self.token}", "X-GitHub-Api-Version": "2022-11-28",
              "Content-Type": "video/mp4"}
         with open(path, "rb") as f:
-            r = requests.post(f"https://uploads.github.com/repos/{self.repo}/releases/{rel.json()['id']}/assets",
+            r = requests.post(f"https://uploads.github.com/repos/{self.repo}/releases/{rid}/assets",
                               params={"name": name}, headers=h, data=f, timeout=600)
         if r.status_code == 201:
             self._assets[name] = r.json()["id"]
+            tag = next(t for t, (i, _) in self._releases.items() if i == rid)
+            self._releases[tag] = (rid, self._releases[tag][1] + 1)
             return True
         log.warning("library upload of %s failed: %s %s", name, r.status_code, r.text[:200])
         return False

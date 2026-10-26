@@ -722,8 +722,8 @@
   "long": "2026-10-22"
  },
  "executive council reviews a number of projects": {
-  "last_short": "2026-10-26",
-  "montage_used": 2,
+  "last_short": "2026-10-27",
+  "montage_used": 3,
   "remix_ranges": [
    [
     2.659995592288342,
@@ -732,6 +732,10 @@
    [
     29.753302794913544,
     31.81905358770481
+   ],
+   [
+    9.578275364063877,
+    11.303742639487323
    ]
   ],
   "video_exhausted": true,
@@ -842,11 +846,15 @@
  },
  "hamdan attends dubai smart city first meeting": {
   "last_short": "2026-10-27",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     3.313635576410818,
     4.761221755997052
+   ],
+   [
+    51.513409332998144,
+    53.07536517653593
    ]
   ],
   "video_exhausted": true,
@@ -1902,6 +1910,14 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed attends dubai international health tourism forum": {
+  "last_short": "2026-10-27",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    6.150845486152802,
+    7.7364696198654395
+   ]
+  ],
   "video_exhausted": true,
   "video_len": 270
  },
@@ -3851,9 +3867,9 @@
   "video_len": 56
  },
  "hamdan bin mohammed honors mbr creative sports award winners": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-27",
   "long": "2026-10-18",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     50.879999999999995,
@@ -3862,6 +3878,10 @@
    [
     107.72449031203026,
     109.3279909749254
+   ],
+   [
+    135.04555341016402,
+    137.3584631117786
    ]
   ],
   "shorts_made": 3,
@@ -7314,9 +7334,15 @@
   "video_len": 76
  },
  "hamdan bin mohammed receives speaker of kyrgyz parliament": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 1,
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    62.509872567857634,
+    65.03849795719326
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -7910,8 +7936,8 @@
   "video_len": 75
  },
  "hamdan bin mohammed tours arabian travel market 2024": {
-  "last_short": "2026-10-26",
-  "montage_used": 3,
+  "last_short": "2026-10-27",
+  "montage_used": 4,
   "remix_ranges": [
    [
     48.384688122709605,
@@ -7920,6 +7946,10 @@
    [
     59.75609871958512,
     61.47491781043283
+   ],
+   [
+    14.99158088297002,
+    16.666045319043484
    ]
   ],
   "shorts_made": 1,
@@ -8358,13 +8388,17 @@
   "long": "2026-10-13"
  },
  "hamdan bin mohammed visit family who lost seven children in house fire": {
-  "last_short": "2026-10-25",
+  "last_short": "2026-10-27",
   "long": "2026-10-25",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     47.12149826062031,
     49.39959087698006
+   ],
+   [
+    25.652769157023815,
+    27.694982476871587
    ]
   ],
   "video_exhausted": true,

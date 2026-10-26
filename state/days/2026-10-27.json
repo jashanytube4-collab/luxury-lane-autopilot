@@ -118,8 +118,13 @@
   },
   {
    "at": "2026-10-27T15:45:48+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "The calmest kings rule the strongest. #youtubeshorts #youtube",
+   "type": "short",
+   "video_id": "aAgptYHgk04",
+   "voiced": true
   },
   {
    "at": "2026-10-27T16:25:55+04:00",

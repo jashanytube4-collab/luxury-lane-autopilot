@@ -648,7 +648,7 @@
  },
  "dubai crown prince visits dubai municipality": {
   "last_short": "2026-10-27",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     296.0,
@@ -665,6 +665,10 @@
    [
     287.56512686191513,
     289.2793949685299
+   ],
+   [
+    153.56,
+    155.64
    ]
   ],
   "shorts_made": 1,
@@ -2000,14 +2004,18 @@
   "video_len": 270
  },
  "hamdan bin mohammed attends dubai metaverse assembly at the museum of the future": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-27",
   "long": "2026-10-13",
   "montage_exhausted": true,
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     52.137716844002036,
     54.048091466862864
+   ],
+   [
+    18.851029258614943,
+    20.543216837133514
    ]
   ],
   "shorts_made": 1,
@@ -4222,6 +4230,7 @@
   "fails": 1,
   "long": "2026-10-23",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 19
  },
@@ -5014,9 +5023,9 @@
   "video_len": 60
  },
  "hamdan bin mohammed launches new phase of dubai s happiness agenda": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     21.32782479454461,
@@ -5025,6 +5034,10 @@
    [
     75.51316153541484,
     77.3908535121105
+   ],
+   [
+    66.74168401371196,
+    69.21018187600954
    ]
   ],
   "shorts_made": 2,
@@ -5911,6 +5924,7 @@
   "long": "2026-10-15",
   "montage_exhausted": true,
   "montage_used": 1,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     13.521411181959825,
@@ -6909,7 +6923,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2018": {
   "last_short": "2026-10-27",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     324.3828204350159,
@@ -6922,6 +6936,10 @@
    [
     114.2083732957658,
     116.44598203665224
+   ],
+   [
+    190.85597370367037,
+    192.86452583366085
    ]
   ],
   "shorts_made": 2,
@@ -8346,8 +8364,17 @@
   "video_len": 53
  },
  "hamdan bin mohammed tours gitex 2013": {
+  "last_short": "2026-10-27",
   "long": "2026-10-14",
-  "video_exhausted": true
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    23.353333333333335,
+    25.346666666666664
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 75
  },
  "hamdan bin mohammed tours gitex global 2022 on its concluding day": {
   "last_short": "2026-10-26",
@@ -9372,9 +9399,15 @@
   "video_len": 154
  },
  "hamdan bin mohammed visits dubai hospital": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-27",
   "long": "2026-10-14",
-  "montage_used": 1,
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    31.287519536112814,
+    33.66462514833501
+   ]
+  ],
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -10585,6 +10618,7 @@
   "last_short": "2026-10-24",
   "long": "2026-10-12",
   "montage_used": 3,
+  "no_video_until": "2026-10-29",
   "remix_ranges": [
    [
     57.50690395838152,
@@ -10680,7 +10714,7 @@
  },
  "hamdan reveals dubai government towards 2021 initiative": {
   "last_short": "2026-10-27",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     27.446859008884246,
@@ -10689,6 +10723,10 @@
    [
     41.536525951452724,
     44.04244638435816
+   ],
+   [
+    33.985931927253596,
+    36.510833268273096
    ]
   ],
   "shorts_made": 1,
@@ -12208,13 +12246,17 @@
   "video_len": 287
  },
  "mohamed bin zayed offers condolences to hamdan bin mohammed on mansour bin ahmed al thani": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-27",
   "long": "2026-10-16",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     165.28775802571622,
     167.0965445769279
+   ],
+   [
+    130.89584802635284,
+    132.40017089521947
    ]
   ],
   "shorts_made": 1,

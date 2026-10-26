@@ -85,6 +85,7 @@
   "last_short": "2026-10-26",
   "long": "2026-10-15",
   "montage_used": 1,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     33.39010952134282,
@@ -605,7 +606,7 @@
  },
  "dubai crown prince visits dubai municipality": {
   "last_short": "2026-10-27",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     296.0,
@@ -618,6 +619,10 @@
    [
     322.00814575750275,
     323.4749298516074
+   ],
+   [
+    287.56512686191513,
+    289.2793949685299
    ]
   ],
   "shorts_made": 1,
@@ -705,6 +710,7 @@
  "dubai executive council approves annual agenda for 2018": {
   "last_short": "2026-10-27",
   "montage_used": 4,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     41.18786988601433,
@@ -1932,11 +1938,15 @@
  },
  "hamdan bin mohammed attends dubai international health tourism forum": {
   "last_short": "2026-10-27",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     6.150845486152802,
     7.7364696198654395
+   ],
+   [
+    39.879449505956735,
+    42.25236644484962
    ]
   ],
   "video_exhausted": true,
@@ -3263,12 +3273,16 @@
   "video_len": 78
  },
  "hamdan bin mohammed chairs executive council meeting approves series of economic stimulus policies": {
-  "last_short": "2026-10-26",
-  "montage_used": 1,
+  "last_short": "2026-10-27",
+  "montage_used": 2,
   "remix_ranges": [
    [
     25.517707085490756,
     28.046592950843987
+   ],
+   [
+    78.53983904639055,
+    80.06924170830722
    ]
   ],
   "shorts_made": 1,
@@ -4034,12 +4048,16 @@
   "long": "2026-10-21"
  },
  "hamdan bin mohammed honours arab contributors to entrepreneurial development": {
-  "last_short": "2026-10-26",
-  "montage_used": 1,
+  "last_short": "2026-10-27",
+  "montage_used": 2,
   "remix_ranges": [
    [
     134.08871265198363,
     135.85444380971063
+   ],
+   [
+    110.69335828525809,
+    112.92045047673535
    ]
   ],
   "shorts_made": 2,
@@ -4320,11 +4338,15 @@
  },
  "hamdan bin mohammed inaugurates dubai ai campus cluster at the difc innovation hub": {
   "last_short": "2026-10-27",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     6.902635197993996,
     9.12114200481892
+   ],
+   [
+    28.653333333333336,
+    30.913333333333334
    ]
   ],
   "shorts_made": 1,
@@ -6313,9 +6335,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed mohammed bin rashid places the highest priority on supporting youth and developing their skills": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-27",
   "long": "2026-10-21",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     15.913712985258753,
@@ -6324,6 +6346,10 @@
    [
     22.8,
     24.56
+   ],
+   [
+    63.456786541312105,
+    65.12032851698702
    ]
   ],
   "shorts_made": 1,
@@ -7171,7 +7197,14 @@
   "video_len": 97
  },
  "hamdan bin mohammed receives canadian ambassador": {
-  "last_short": "2026-10-14",
+  "last_short": "2026-10-27",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    8.984166547999786,
+    10.457340834482181
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -7250,11 +7283,15 @@
  },
  "hamdan bin mohammed receives head of chechen republic": {
   "last_short": "2026-10-27",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     3.9080168701616587,
     6.353610153463469
+   ],
+   [
+    13.823293642002781,
+    15.47207893005494
    ]
   ],
   "video_exhausted": true,
@@ -8309,7 +8346,9 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed uae is the winner of weg": {
-  "video_exhausted": true
+  "remix_exhausted": true,
+  "video_exhausted": true,
+  "video_len": 91
  },
  "hamdan bin mohammed unveils 5 star plaque at dewa head office": {
   "last_short": "2026-10-26",

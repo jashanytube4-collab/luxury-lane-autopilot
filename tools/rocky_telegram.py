@@ -246,6 +246,7 @@ def main() -> None:
     log.info("Rocky on Telegram started as @%s; owner %s", me["username"], owner and owner.get("name"))
     offset = None
     threading.Thread(target=lambda: hear_warmup(), daemon=True).start()
+    threading.Thread(target=ads_watch, daemon=True).start()
     while True:
         try:
             updates = bot.call("getUpdates", http_timeout=70, offset=offset, timeout=50)
@@ -274,6 +275,29 @@ def main() -> None:
                     bot.text(msg["chat"]["id"], f"Sorry, that failed on the laptop: {str(e)[:200]}")
                 except Exception:  # noqa: BLE001
                     pass
+
+
+ADS_HOURS = (13, 19, 23)      # laptop clock: 3 short checks a day for NEW long videos (ads ON, owner's standing rule)
+
+
+def ads_watch() -> None:
+    """Three times a day (not all day): turn ads ON for any new long video. No Claude; the tool does nothing if there is none."""
+    import datetime as dt
+    import subprocess
+    done = None
+    while True:
+        time.sleep(300)
+        now = dt.datetime.now()
+        slot = (now.date(), now.hour)
+        if now.hour in ADS_HOURS and slot != done:
+            done = slot
+            try:
+                py = Path(sys.executable).with_name("python.exe")
+                r = subprocess.run([str(py if py.exists() else sys.executable), "-m", "tools.ads_on", "--new"],
+                                   cwd=str(ROOT), capture_output=True, text=True, timeout=900)
+                log.info("ads_on --new: %s %s", r.returncode, (r.stdout or r.stderr)[-300:].strip())
+            except Exception as e:  # noqa: BLE001
+                log.warning("ads_on --new failed: %s", e)
 
 
 def hear_warmup() -> None:

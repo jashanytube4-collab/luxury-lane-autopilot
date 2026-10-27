@@ -1,6 +1,7 @@
 """Turn Watch Page ads ON for long videos (Studio > video > Earn), in the hidden Studio browser. No Claude needed.
 
     python -m tools.ads_on <id> --rate-none just this (new) video: the normal use, right after an upload
+    python -m tools.ads_on --new            only long videos that appeared since the last run (first run = baseline, changes nothing)
     python -m tools.ads_on --all            every long video that shows "Ads off" (only if the owner asks)
     python -m tools.ads_on --check          only list what is off, change nothing
     --rate-none                             answer YouTube's content rating with 'None of the above' (owner's declaration:
@@ -71,8 +72,52 @@ def turn_on(page, vid: str, rate_none: bool = False) -> str:
     return "TURNED ON (confirmed)" if after == "on" else f"FAILED: page still shows '{after}'"
 
 
+SEEN = ROOT / "work" / "ads_seen.json"
+
+
+def long_ids(pages: int = 2) -> list[str]:
+    buf = io.StringIO()
+    with contextlib.redirect_stdout(buf):
+        st.videos("long", pages)
+    out = []
+    for line in buf.getvalue().splitlines():
+        first = line.split("|")[0].strip()
+        if re.fullmatch(r"[\w-]{11}", first) and first not in out:
+            out.append(first)
+    return out
+
+
+def new_videos_mode() -> int:
+    """Once per NEW long video: the first run only notes the videos that exist (nothing is changed); later runs turn ads
+    ON (+ rating 'None of the above', the owner's standing rule) for each video that was not there before."""
+    import json
+    now = long_ids()
+    if not now:
+        print("could not read the video list; nothing changed")
+        return 1
+    if not SEEN.exists():
+        SEEN.write_text(json.dumps(now), encoding="utf-8")
+        print(f"baseline saved: {len(now)} existing long videos are left alone")
+        return 0
+    seen = set(json.loads(SEEN.read_text(encoding="utf-8")))
+    new = [v for v in now if v not in seen]
+    if not new:
+        print("no new long video")
+        return 0
+    rc = 0
+    for vid in new:
+        r = main([vid, "--rate-none"])
+        if r == 0:
+            seen.add(vid)
+        rc = rc or r
+    SEEN.write_text(json.dumps(sorted(seen)), encoding="utf-8")
+    return rc
+
+
 def main(argv: list[str]) -> int:
     from playwright.sync_api import sync_playwright
+    if "--new" in argv:
+        return new_videos_mode()
     check = "--check" in argv
     ids = [a for a in argv if not a.startswith("--")]
     if not ids and "--all" not in argv and not check:

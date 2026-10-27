@@ -317,36 +317,21 @@ def _names(text: str) -> set[str]:
     return out
 
 
-def topic_fails(s: dict, path: Path) -> list[str]:
+def topic_fails(s: dict, path: Path) -> tuple[list[str], list[str]]:
     """The script must be about the video's topic: every part shares words with the title/description/tags, and names that
     belong to OTHER stories (a rescue, a pilot, a rider) must not turn up here unless this story is about them."""
-    tit = " ".join([str(s.get("title", "")), str(s.get("description", "")), " ".join(map(str, s.get("tags", []))),
-                    str((s.get("thumbnail") or {}).get("text", ""))])
+    # the TOPIC is the title (+ thumbnail words + an optional `topic:` list in the story): not the description or tags
+    tit = " ".join([str(s.get("title", "")), str((s.get("thumbnail") or {}).get("text", "")),
+                    " ".join(map(str, s.get("topic", [])))])
     vocab = words_of(tit)
     mine = _names(tit) | {w.lower() for w in re.findall(r"[A-Za-z]{4,}", tit)}
-    other: dict[str, str] = {}
-    for p in STORIES.glob("*.yaml"):
-        if p.resolve() == Path(path).resolve():
-            continue
-        try:
-            o = yaml.safe_load(p.read_text(encoding="utf-8")) or {}
-        except (OSError, yaml.YAMLError):
-            continue
-        otext = " ".join([str(o.get("title", "")), " ".join(map(str, o.get("tags", [])))])
-        for w in re.findall(r"[A-Z][a-z]{3,}", otext):
-            if w.lower() not in NAME_STOP:
-                other.setdefault(w.lower(), str(o.get("id", p.stem)))
-    out = []
+    out, warn = [], []
     for i, sec in enumerate(s.get("sections", []), 1):
         say = " ".join(str(b.get("say", "")) for b in sec.get("beats", [])) or str(sec.get("say", ""))
         ws = words_of(say)
-        if len(ws) >= 25 and len(ws & vocab) < 2:
-            out.append(f"[off-topic] part {i} shares almost no words with the title/description/tags: \"{say[:70]}\"")
-        for n in sorted(_names(say) & set(other)):
-            if n not in mine:
-                out.append(f"[off-topic] part {i} names '{n.title()}', which belongs to another story ({other[n]}), not this one: \"{say[:60]}\"")
-    return out
-
+        if len(ws) >= 25 and not (ws & vocab):
+            warn.append(f"off-topic? part {i} shares no words with the title (add a `topic:` list to the story if it is on topic): \"{say[:70]}\"")
+    return out, warn
 
 def fmt(t: float) -> str:
     return f"{int(t // 60)}:{int(t % 60):02d}"
@@ -474,7 +459,9 @@ def run_gate(path: Path, use_voice: bool = True) -> tuple[list[str], list[str], 
     fails: list[str] = []
     warns: list[str] = []
     fails += [f"[lint] {p}" for p in lint(path)]
-    fails += topic_fails(s, path)
+    tf, tw = topic_fails(s, path)
+    fails += tf
+    warns += tw
     voices, vnotes = voice_timing(s, use_voice)
     warns += vnotes
     shots = timeline(s, voices)

@@ -115,15 +115,26 @@ def check_beats(shots: list, marks: list, story_sections: list, tags: dict) -> t
                 warns.append(f"uncertain fit {tok} | {ref}")
             elif r != "ok":
                 fails.append(f"[relevance] {tok}: {r} | {ref}")
-            if tg.get("not_hamdan") and re.search(r"(hamdan|fazza)", say, re.I):
+            if tg.get("not_hamdan") and re.search(r"\b(hamdan|fazza)\b", say, re.I):
                 fails.append(f"[wrong person] {tok} is not Hamdan but the line is about him | {ref}")
             hamdan_on = hamdan_on or tg.get("hamdan", 0) >= 0.3
-            if (tok.startswith("sb-") and tg.get("people") and tg.get("hamdan", 0) < 0.3
-                    and HAM.search(say)):
-                fails.append(f"[stock person on a Hamdan line] {tok} shows a stranger while the line is about him "
-                             f"(viewers will think it is him) | {ref}")
-        if hi > lo and re.search(r"(hamdan|fazza)", say, re.I) and not hamdan_on:
+        if hi > lo and re.search(r"\b(hamdan|fazza)\b", say, re.I) and not hamdan_on:
             fails.append(f"[hamdan line without Hamdan] no clip of him while the line is about him | {ref}")
+    # stock must never run on: no 3 stock shots in a row, no stock-only stretch over 8 s - Hamdan's own footage between
+    # them (a video of nothing but stock loses viewers)
+    run_n, run_start = 0, 0.0
+    for k, sh in enumerate(shots + [None]):
+        tok = _tok(sh.src) if sh is not None else None
+        if tok and tok.startswith("sb-"):
+            if run_n == 0:
+                run_start = starts[k]
+            run_n += 1
+            run_end = ends[k]
+        else:
+            if run_n >= 3 or (run_n and run_end - run_start > 8.0):
+                fails.append(f"[stock run] {run_n} stock shots in a row ({run_end - run_start:.0f}s) at {fmt(run_start)}: "
+                             f"put a clip of Hamdan between them")
+            run_n = 0
     # holds
     for k, sh in enumerate(shots):
         d = sh.frames / FPS

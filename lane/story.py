@@ -277,7 +277,9 @@ class StoryMaker:
         if not scenes:
             dur = probe(dest)["duration"]
             scenes = [(0.05, dur - 0.05)] if dur > 0.8 else []
-        scenes = scenes[::2] + scenes[1::2]      # pieces of one clip come out of order: a cut never continues the same motion
+        # one piece per stock clip: a 2nd piece of the same shot in the same sentence reads as a repeat (render
+        # 40488973584: horse legs, jet, motorbike twice); the renderer's hold plays the piece on up to 6 s instead
+        scenes = scenes[:1]
         return Visuals(dest, scenes, []) if scenes else None
 
     def _overlays(self, work: Path) -> dict:
@@ -583,7 +585,8 @@ def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int)
                             and it.src not in shown]
                     # a sentence with its own clip never borrows another topic: it shows more of its own clip;
                     # only a sentence with nothing of its own may use the nearest parts of the story
-                    reserve = same if (own or same) else [it for it in borrow(i) if id(it) not in later
+                    # (render 40488973584: leftovers of earlier sentences turned up as filler -> repeats/off-topic)
+                    reserve = [] if own else same if same else [it for it in borrow(i) if id(it) not in later
                                                           and it.src not in shown]
                     mine = list(beat_pools.get(i, [[]] * len(spans))[j])
                     if not (own or reserve or mine or used):   # nothing at all yet: the nearest part's pictures

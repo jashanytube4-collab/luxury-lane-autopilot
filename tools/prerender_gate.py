@@ -348,7 +348,7 @@ def render_pieces(shots: list[dict], files: dict) -> dict:
             dur = probe(p)["duration"]
             sc = [(0.05, dur - 0.05)] if dur > 0.8 else []
         if tok.startswith("sb-"):
-            sc = sc[::2] + sc[1::2]
+            sc = sc[:1]                     # lane/story.py: one piece per stock clip (held on up to 6 s)
         out[tok] = mat.items(Visuals(p, sc, [])) if sc else []
     return out
 

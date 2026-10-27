@@ -6,7 +6,7 @@ title: How Much Does Prince Fazza REALLY Earn and Spend in a Day? The Truth Behi
 thumbnail:
   text: $?? A DAY
   tag: THE TRUTH
-  scene: clip:ig-falcon-blue-a@4|sb-11087451@6
+  scene: clip:ig-falcon-selfie-a@2|sb-11087451@6
 mood: epic
 commons: false
 footage: .
@@ -434,10 +434,12 @@ sections:
     - clip:ig-ph-enter
     - clip:ig-ph-walk
     - clip:ig-ph-table
-  - say: Yet his days are there for everyone to see. His people. His horses.
+  - say: Yet his days are there for everyone to see.
     show:
     - clip:ig-ai-listen
     - clip:ig-ai-stand
+  - say: His people. His horses.
+    show:
     - sb-11182157
     - clip:ig-horse-hand
   - say: If you could live his life for one day, what would you do first?

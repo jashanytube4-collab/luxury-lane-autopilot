@@ -3010,12 +3010,16 @@
  },
  "hamdan bin mohammed attends the graduation ceremony of the 23rd cohort of rashid bin saeed al maktoum naval college": {
   "fails": 1,
-  "last_short": "2026-10-27",
-  "montage_used": 2,
+  "last_short": "2026-10-28",
+  "montage_used": 3,
   "remix_ranges": [
    [
     8.913499886257668,
     10.990938391602633
+   ],
+   [
+    80.48513386840341,
+    82.5915752638288
    ]
   ],
   "shorts_made": 1,
@@ -3698,7 +3702,7 @@
  },
  "hamdan bin mohammed concludes official visit to kuwait": {
   "last_short": "2026-10-28",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     80.18242730661535,
@@ -3711,6 +3715,10 @@
    [
     26.457780162890167,
     27.955021313211798
+   ],
+   [
+    71.25333333333334,
+    72.94666666666666
    ]
   ],
   "shorts_made": 1,
@@ -5879,13 +5887,17 @@
   "video_len": 99
  },
  "hamdan bin mohammed meets students of dubai schools": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-28",
   "long": "2026-10-17",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     163.49934334402403,
     165.34294600244155
+   ],
+   [
+    11.936853443811946,
+    13.834740347671222
    ]
   ],
   "shorts_made": 3,
@@ -6879,7 +6891,15 @@
   "video_len": 64
  },
  "hamdan bin mohammed offers condolences on death of hamad al qasimi": {
+  "last_short": "2026-10-28",
   "long": "2026-10-20",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    44.35577291257337,
+    46.375217351040455
+   ]
+  ],
   "video_exhausted": true,
   "video_len": 58
  },
@@ -8067,7 +8087,7 @@
  },
  "hamdan bin mohammed reviews dubai future foundation s 2018 plan and projects": {
   "last_short": "2026-10-28",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     140.32186297088035,
@@ -8080,6 +8100,10 @@
    [
     122.28089718384906,
     124.55657785287887
+   ],
+   [
+    133.8,
+    136.12
    ]
   ],
   "video_exhausted": true,
@@ -13012,13 +13036,17 @@
   "no_hamdan": true
  },
  "ruler of umm al quwain accepts condolences from hamdan bin mohammed": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-28",
   "long": "2026-10-28",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     84.34146017449318,
     85.96232966636668
+   ],
+   [
+    93.31752104838387,
+    94.39814941115635
    ]
   ],
   "shorts_made": 1,
@@ -13052,9 +13080,9 @@
   "video_len": 120
  },
  "rulers of ajman fujairah and ras al khaimah offer condolences to sheikh hamdan on mansour bin ahmed": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-28",
   "long": "2026-10-28",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     80.96000000000001,
@@ -13063,6 +13091,10 @@
    [
     98.53290021052975,
     100.24024791742403
+   ],
+   [
+    244.20199124750613,
+    246.49425681364858
    ]
   ],
   "shorts_made": 3,

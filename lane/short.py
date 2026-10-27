@@ -28,18 +28,26 @@ class Result:
     layout: str
 
 
+def _long_enough(narr: Narration, script: str, cfg: dict) -> tuple[Narration, str]:
+    """Owner rule: a narrated Short talks for at least short.min_narration_seconds (no 5-second voice on a 15-second Short)."""
+    need = float(cfg["short"].get("min_narration_seconds", 0))
+    if narr.duration < need:
+        raise ShortError(f"narration only {narr.duration:.1f}s, needs at least {need:.0f}s")
+    return narr, script
+
+
 def _narrate(script: str, cfg: dict, work: Path, shorten) -> tuple[Narration, str]:
     limit = cfg["short"]["max_seconds"] - TAIL
     for faster in (0, 1, 2):
         narr = synthesize(script, cfg["voice"], work / "voice.wav", faster=faster)
         if narr.duration <= limit:
-            return narr, script
+            return _long_enough(narr, script, cfg)
     if shorten is not None:
         words = int(len(script.split()) * limit / narr.duration * 0.95)
         script = shorten(script, words)
         narr = synthesize(script, cfg["voice"], work / "voice.wav", faster=1)
         if narr.duration <= limit:
-            return narr, script
+            return _long_enough(narr, script, cfg)
     raise ShortError(f"narration runs {narr.duration:.1f}s, longer than {limit:.1f}s")
 
 

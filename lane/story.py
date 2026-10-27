@@ -577,10 +577,14 @@ def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int)
                     # pictures set aside for a later sentence (its exact clip) are never used up here as filler
                     later = {id(it) for (i2, per) in beat_pools.items() for j2, bp in enumerate(per)
                              if (i2, j2) > (i, j) for it in bp}
-                    same = [it for it in pool if it not in used and it not in own and id(it) not in later]
+                    # another piece of a clip already on screen is never filler (it reads as a repeat)
+                    shown = {it.src for it in used}
+                    same = [it for it in pool if it not in used and it not in own and id(it) not in later
+                            and it.src not in shown]
                     # a sentence with its own clip never borrows another topic: it shows more of its own clip;
                     # only a sentence with nothing of its own may use the nearest parts of the story
-                    reserve = same if (own or same) else [it for it in borrow(i) if id(it) not in later]
+                    reserve = same if (own or same) else [it for it in borrow(i) if id(it) not in later
+                                                          and it.src not in shown]
                     mine = list(beat_pools.get(i, [[]] * len(spans))[j])
                     if not (own or reserve or mine or used):   # nothing at all yet: the nearest part's pictures
                         reserve = borrow(i) or [it for p in pools for it in p]

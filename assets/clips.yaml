@@ -44,7 +44,7 @@ clips:
     crop: [0.0, 0.02, 0.94, 0.79]
     credit: DD India, Sheikh Hamdan visits Captain Smit Machchhar (2026)
   rider:
-    match: 'delivery rider|concrete blocks|point me to this man'
+    match: 'delivery rider|concrete blocks|point me to this man|help find him'
     yt: I39um_hlFM8
     parts: [[16, 34]]
     crop: [0.28, 0.04, 0.72, 0.68]
@@ -927,25 +927,25 @@ clips:
     ig: '17987254074053166'
     credit: Dubai Media Office (official Instagram)
   ig-dove-car-end:
-    match: ''
+    match: 'would not use the G-Class|not use the G-Class'
     ig: '17883379564703736'
     parts: [[69.2, 75.7]]
     note: 16:9 cut of his vertical Instagram video, every second checked 2026-10-25
     credit: Sheikh Hamdan's Instagram (@faz3)
   ig-dove-close:
-    match: ''
+    match: 'young birds|birds had grown|flown away'
     ig: '17883379564703736'
     parts: [[36.0, 42.5]]
     note: 16:9 cut of his vertical Instagram video, every second checked 2026-10-25
     credit: Sheikh Hamdan's Instagram (@faz3)
   ig-dove-gwagon:
-    match: ''
+    match: 'dove built its nest|top of his Mercedes'
     ig: '17883379564703736'
     parts: [[0.3, 9.3]]
     note: 16:9 cut of his vertical Instagram video, every second checked 2026-10-25
     credit: Sheikh Hamdan's Instagram (@faz3)
   ig-dove-nest:
-    match: ''
+    match: 'moved the nest|the nest'
     ig: '17883379564703736'
     parts: [[28.3, 31.8]]
     note: 16:9 cut of his vertical Instagram video, every second checked 2026-10-25
@@ -1316,3 +1316,99 @@ clips:
     parts: [[12.5, 16.5]]
     note: 16:9 cut of his vertical Instagram video, every second checked 2026-10-25
     credit: Sheikh Hamdan's Instagram (@faz3)
+  ig-council-desk:
+    match: ''
+    ig: '17987254074053166'
+    parts: [[7.0, 11.2]]
+    note: '16:9 cut, every frame checked 2026-10-27: young Hamdan working at his desk (Executive Council 20-year film)'
+    credit: Dubai Media Office (official Instagram)
+  ig-council-expo:
+    match: ''
+    ig: '17987254074053166'
+    parts: [[30.5, 32.3]]
+    note: '16:9 cut, every frame checked 2026-10-27: Hamdan speaking at an Expo 2020 podium, pointing'
+    credit: Dubai Media Office (official Instagram)
+  ig-council-father:
+    match: ''
+    ig: '17987254074053166'
+    parts: [[47.65, 48.65]]
+    note: '16:9 cut, every frame checked 2026-10-27: Hamdan walking with his father Sheikh Mohammed and officials'
+    credit: Dubai Media Office (official Instagram)
+  ig-council-elders:
+    match: ''
+    ig: '17987254074053166'
+    parts: [[50.0, 52.0]]
+    note: '16:9 cut, every frame checked 2026-10-27: close: Hamdan beside his father Sheikh Mohammed, listening'
+    credit: Dubai Media Office (official Instagram)
+  ig-council-close:
+    match: ''
+    ig: '17987254074053166'
+    parts: [[62.75, 63.9]]
+    note: '16:9 cut, every frame checked 2026-10-27: close-up: Hamdan thinking, hand raised'
+    credit: Dubai Media Office (official Instagram)
+  ig-forum-front:
+    match: ''
+    ig: '18115077451992161'
+    parts: [[22.5, 23.5]]
+    note: '16:9 cut, every frame checked 2026-10-27: Hamdan seated in the front row of the government forum, hand on chin'
+    credit: Dubai Media Office (official Instagram)
+  ig-horse-hand:
+    match: ''
+    ig: '17842248646024724'
+    parts: [[6.85, 9.05]]
+    note: '16:9 cut, every frame checked 2026-10-27: his gloved hand stroking a horse face (Yorkshire)'
+    credit: Sheikh Hamdan's Instagram (@faz3)
+  ig-ai-talk:
+    match: ''
+    ig: '17967481827078120'
+    parts: [[6.0, 8.5]]
+    note: '16:9 cut, every frame checked 2026-10-27: Hamdan talking with exhibitors at the Dubai AI Festival 2026'
+    credit: Dubai Media Office (official Instagram)
+  ig-youth-table:
+    match: ''
+    ig: '17857072459066051'
+    parts: [[26.85, 29.45]]
+    note: '16:9 cut, every frame checked 2026-10-27: Hamdan seated, listening to young Emiratis at the Youth Retreat'
+    credit: Sheikh Hamdan's Instagram (@faz3)
+  ig-ai-listen:
+    match: ''
+    ig: '17967481827078120'
+    parts: [[11.8, 13.9]]
+    note: '16:9 cut, every frame checked 2026-10-27: Hamdan listening to an exhibitor at the Dubai AI Festival 2026'
+    credit: Dubai Media Office (official Instagram)
+  ig-ai-stand:
+    match: ''
+    ig: '17967481827078120'
+    parts: [[26.35, 29.0]]
+    note: '16:9 cut, every frame checked 2026-10-27: Hamdan at a tech stand among visitors, Dubai AI Festival 2026'
+    credit: Dubai Media Office (official Instagram)
+  ig-ph-enter:
+    match: ''
+    ig: '17984230449065624'
+    parts: [[5.5, 7.2]]
+    note: '16:9 cut, every frame checked 2026-10-27: Hamdan arriving at the Aster pharmacy distribution centre, Dubai Industrial City (Sept 2026)'
+    credit: Dubai Media Office (official Instagram)
+  ig-ph-table:
+    match: ''
+    ig: '17984230449065624'
+    parts: [[27.3, 29.4]]
+    note: '16:9 cut, every frame checked 2026-10-27: Hamdan looking at products with officials, Aster distribution centre'
+    credit: Dubai Media Office (official Instagram)
+  ig-ph-aisle:
+    match: ''
+    ig: '17984230449065624'
+    parts: [[10.0, 12.6]]
+    note: '16:9 cut, every frame checked 2026-10-27: Hamdan walking through the warehouse with hosts, Aster distribution centre'
+    credit: Dubai Media Office (official Instagram)
+  ig-ph-meet:
+    match: ''
+    ig: '17984230449065624'
+    parts: [[39.6, 41.9]]
+    note: '16:9 cut, every frame checked 2026-10-27: Hamdan meeting a manager among machines, Aster distribution centre'
+    credit: Dubai Media Office (official Instagram)
+  ig-ph-walk:
+    match: ''
+    ig: '17984230449065624'
+    parts: [[30.5, 32.4]]
+    note: '16:9 cut, every frame checked 2026-10-27: Hamdan touring the Aster warehouse with hosts'
+    credit: Dubai Media Office (official Instagram)

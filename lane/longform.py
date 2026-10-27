@@ -219,6 +219,29 @@ def _shot(it: Item, dur: float, rng: random.Random) -> Shot:
     return Shot("photo", it.src, int(dur * FPS), move=rng.choice(moves), strength=0.9)
 
 
+_DUR: dict[str, float] = {}
+
+
+def _hold_room(shot: Shot, shots: list[Shot], used: list[Item]) -> int:
+    """Frames a sentence's last clip may keep playing past its piece: the same continuous motion (never a visible
+    repeat), up to CLIP_MAX (stock: 6 s), and never into a part of the file that is shown anywhere else."""
+    key = str(shot.src)
+    if key not in _DUR:
+        try:
+            _DUR[key] = float(probe(shot.src)["duration"])
+        except Exception:  # noqa: BLE001 - unreadable file: no hold
+            _DUR[key] = shot.start + shot.frames / FPS
+    end = _DUR[key] - 0.1
+    for s in shots:
+        if s is not shot and s.src == shot.src and s.start >= shot.start:
+            end = min(end, s.start)
+    for it in used:
+        if it.src == shot.src and it.a > shot.start + 0.05:
+            end = min(end, it.a)
+    lim = 6.0 if shot.src.name.startswith(("sb-", "stock-")) else CLIP_MAX
+    return int(min(lim, end - shot.start) * FPS) - shot.frames
+
+
 def _chapter_shots(pool: list[Item], seconds: float, rng: random.Random, reserve: list[Item],
                    used: list[Item], pace: tuple[float, float] = (3.6, 5.8),
                    still: tuple[float, float] = (4.4, 5.6), photo_every: int = 4,
@@ -228,6 +251,7 @@ def _chapter_shots(pool: list[Item], seconds: float, rng: random.Random, reserve
     shots: list[Shot] = []
     total = 0.0
     k = 0
+    last: Item | None = None
     while total < seconds - 0.2:
         left = seconds - total
         if _supply(pool) < left and reserve:
@@ -249,6 +273,13 @@ def _chapter_shots(pool: list[Item], seconds: float, rng: random.Random, reserve
                 pool.remove(alt)
                 pool.insert(0, it)
                 it = alt
+        if it is None and again and shots and last is not None and last.kind == "video" and last in again:
+            room = _hold_room(shots[-1], shots, used)
+            if room >= FPS // 2:                        # out of new pictures: hold this sentence's own clip a little
+                ext = min(room, int(left * FPS) + 1)    # longer rather than repeat anything
+                shots[-1].frames += ext
+                total += ext / FPS
+                continue
         if it is None and again:                        # out of new pictures: this sentence's own clip again,
             it = again[k % len(again)]                  # never something off-topic
             log.info("sentence shows its own clip again: %s", Path(it.src).name)
@@ -264,6 +295,7 @@ def _chapter_shots(pool: list[Item], seconds: float, rng: random.Random, reserve
         if shots:
             shot.xfade_in = 12 if (it.kind == "photo" or shots[-1].kind == "photo" or rng.random() < 0.35) else 0
         shots.append(shot)
+        last = it
         total += shot.frames / FPS
     overshoot = int((total - seconds) * FPS)
     if overshoot > 0 and shots[-1].frames - overshoot > FPS:

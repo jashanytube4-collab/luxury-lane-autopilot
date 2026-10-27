@@ -419,6 +419,11 @@ class Runner:
         """A story episode (assets/stories) in the style of the most-watched royal-family channels."""
         from tools.lint_story import lint_story_id     # pre-render gate (test renders): a failing story is never rendered
         bad = lint_story_id(story.id) if self.args.dry_run else []
+        if self.args.dry_run:                          # pre-render quality gate (tools.prerender_gate): no stamp, no render
+            from tools.prerender_gate import stamp_ok
+            why = stamp_ok(story.id)
+            if why:
+                bad.append(why)
         if bad:
             self.report.problem(f"Story '{story.id}' blocked BEFORE render by the pre-render gate: " + "; ".join(bad[:8]))
             return True

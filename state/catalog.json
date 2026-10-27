@@ -606,6 +606,7 @@
  },
  "dubai crown prince reviews preparations for emirates mars mission": {
   "last_short": "2026-10-27",
+  "montage_exhausted": true,
   "montage_used": 3,
   "remix_ranges": [
    [
@@ -694,8 +695,8 @@
   "video_len": 345
  },
  "dubai crown prince visits emirates nbd head office": {
-  "last_short": "2026-10-26",
-  "montage_used": 4,
+  "last_short": "2026-10-28",
+  "montage_used": 5,
   "remix_ranges": [
    [
     104.60402386812525,
@@ -727,6 +728,10 @@
    [
     104.48,
     106.92
+   ],
+   [
+    175.68,
+    177.96
    ]
   ],
   "video_exhausted": true,
@@ -1560,7 +1565,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed approves new targets for dubai ai campus to attract more than 1 000 companies and create over 5 000 jobs": {
-  "fails": 1
+  "fails": 1,
+  "no_video_until": "2026-10-30"
  },
  "hamdan bin mohammed approves new urban planning model for residential areas in dubai": {
   "video_exhausted": true
@@ -4016,9 +4022,9 @@
   "video_len": 56
  },
  "hamdan bin mohammed honors mbr creative sports award winners": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-28",
   "long": "2026-10-18",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     50.879999999999995,
@@ -4082,6 +4088,10 @@
    [
     170.20000000000002,
     177.48
+   ],
+   [
+    372.8916666666667,
+    373.5883333333333
    ]
   ],
   "video_len": 385
@@ -4953,8 +4963,8 @@
   "video_len": 42
  },
  "hamdan bin mohammed launches integrated housing plan to provide 15 800 homes for nationals in dubai over the next four years": {
-  "last_short": "2026-10-26",
-  "montage_used": 1,
+  "last_short": "2026-10-28",
+  "montage_used": 2,
   "remix_ranges": [
    [
     15.986666666666666,
@@ -4998,6 +5008,10 @@
    [
     45.486666666666665,
     47.46333333333334
+   ],
+   [
+    67.10000016666666,
+    72.10000016666666
    ]
   ],
   "video_exhausted": true,
@@ -5687,6 +5701,7 @@
   "video_len": 77
  },
  "hamdan bin mohammed meets with apple ceo": {
+  "montage_exhausted": true,
   "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 154
@@ -6851,8 +6866,8 @@
   "long": "2026-10-28"
  },
  "hamdan bin mohammed officially opens gitex 2018": {
-  "last_short": "2026-10-26",
-  "montage_used": 2,
+  "last_short": "2026-10-28",
+  "montage_used": 3,
   "remix_ranges": [
    [
     126.01016816879962,
@@ -6884,6 +6899,10 @@
    [
     196.5,
     198.51
+   ],
+   [
+    62.879999999999995,
+    66.8
    ]
   ],
   "video_exhausted": true,
@@ -7910,8 +7929,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed reviews outcomes of farmers souq initiative": {
-  "last_short": "2026-10-27",
-  "montage_used": 4,
+  "last_short": "2026-10-28",
+  "montage_used": 5,
   "remix_ranges": [
    [
     29.266446170224548,
@@ -7963,6 +7982,10 @@
    [
     56.05333333333333,
     59.480000000000004
+   ],
+   [
+    29.186666666666667,
+    31.48
    ]
   ],
   "video_exhausted": true,
@@ -8962,9 +8985,9 @@
   "video_len": 159
  },
  "hamdan bin mohammed visits art dubai": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-28",
   "long": "2026-10-13",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     49.68,
@@ -9000,6 +9023,10 @@
    [
     246.04,
     248.56
+   ],
+   [
+    300.4,
+    303.04
    ]
   ],
   "video_exhausted": true,
@@ -9663,6 +9690,7 @@
   "video_len": 225
  },
  "hamdan bin mohammed visits field hospital in dwtc": {
+  "montage_exhausted": true,
   "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 164

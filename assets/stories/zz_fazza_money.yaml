@@ -43,7 +43,7 @@ sections:
   - say: But first, the question so many people search for.
     show:
     - clip:ig-falcon-white-c
-    - clip:ig-horse-stable-a
+    - clip:auto-fev2yxoy5cu-2
     sfx: whoosh
   - say: How much does Prince Hamdan, the Crown Prince of Dubai, really make in a single day?
     show:
@@ -54,30 +54,26 @@ sections:
   - say: And what does one day of his life actually cost?
     show:
     - clip:ig-falcon-white-a
-    - clip:ig-horse-stable-b
+    - clip:ig-camels-car-c
     sfx: whoosh
   - say: Today we follow every clue, using only what is on the public record, and nothing else.
     show:
-    - clip:ig-iftar-a
     - clip:auto-zxe-iznufow-2
     - clip:ig-falcon-white2
     sfx: whoosh
     fx: flash
   - say: Every number you hear will be marked as a fact, a report, or our own estimate.
     show:
-    - clip:fz-visit-portrait
     - clip:auto-cmtlcaca5cs-3
 - beats:
   - say: Here is the first surprise about his money. There is no official number.
     show:
-    - sb-354420882
-    - sb-352598984
+    - sb-352806687
     sfx: impact
     fx: flash
   - say: Dubai's ruling family does not publish what its members earn.
     show:
-    - sb-352806687
-    - clip:twins-stroller
+    - sb-354998245
   - say: And Prince Hamdan has never revealed them.
     show:
     - clip:auto-lnvphef3eqi-2
@@ -87,7 +83,6 @@ sections:
   - say: The one repeated most often online is four hundred million dollars.
     show:
     - sb-9849919
-    - clip:ig-cloud-roof-b
     sfx: whoosh
   - say: Other websites claim his fortune is much higher.
     show:
@@ -105,12 +100,10 @@ sections:
     - sb-353692272
   - say: We checked online, and not one of those fortunes comes from an official source.
     show:
-    - sb-352806684
-    - clip:fz-yaniv
+    - sb-353633803
   - say: So treat every big fortune on the internet as a rumour, not a fact.
     show:
-    - clip:fz-reunion-medics
-    - clip:fz-reunion-kiss
+    - sb-354420884
     fx: leak
     sfx: whoosh
   - say: The money, places and machines you see in stock footage are there for atmosphere only.
@@ -120,8 +113,8 @@ sections:
 - beats:
   - say: Still, let's do some simple money maths, purely as an illustration.
     show:
-    - sb-352940869
     - sb-348383495
+    - sb-352940869
   - say: Imagine the most quoted rumour, four hundred million dollars, were true.
     show:
     - sb-347446633
@@ -135,7 +128,7 @@ sections:
     sfx: riser
   - say: That is roughly fifty five thousand dollars a day.
     show:
-    - clip:prayers-india
+    - sb-352806693
     sfx: impact
     fx: leak
   - say: More than two thousand dollars every single hour on the clock, even while he sleeps.
@@ -151,25 +144,24 @@ sections:
 - beats:
   - say: What we do know for certain is his job.
     show:
-    - clip:auto-btbhdtvcfqe-2
+    - clip:ig-council-desk
   - say: Hamdan has been Crown Prince of Dubai since the first of February, two thousand and eight.
     show:
-    - clip:fz-visit-seated
-    - clip:fz-visit-lean
+    - clip:windsor-stand
   - say: This year he marked twenty years as chairman of the Dubai Executive Council.
     show:
     - clip:ig-council-room
-    - sb-354144467
+    - sb-351909990
   - say: It is the body that runs the government of the city.
     show:
-    - sb-354567891
+    - sb-351922312
   - say: A city of more than three and a half million people.
     show:
     - sb-354773916
     sfx: impact
   - say: And in July twenty twenty four, he was also named Deputy Prime Minister and Minister of Defence, for the whole nation.
     show:
-    - clip:fz-ambassador
+    - clip:ig-iftar-b
     - clip:auto-26labls02ae-1
   - say: In July this year alone, according to official reports, he approved eighteen billion dirhams of new construction
       projects.
@@ -180,11 +172,11 @@ sections:
     fx: flash
   - say: From new roads to new towers.
     show:
-    - clip:ig-gwagon-desert-c
+    - sb-354567891
   - say: 'But here is the twist: that money belongs to the city, not to his own pocket.'
     show:
     - sb-349101770
-    - clip:ig-turtle2
+    - sb-354571730
     sfx: impact
     fx: flash
   - say: Any government salary he receives has never been made public.
@@ -192,7 +184,7 @@ sections:
     - sb-352965901
   - say: So where does the real money go? Follow the hoofprints in the sand.
     show:
-    - sb-353711162
+    - sb-352958539
   - say: Into one very expensive royal passion. Horses.
     show:
     - clip:horse-stable
@@ -201,10 +193,10 @@ sections:
 - beats:
   - say: Remember the G-Class?
     show:
-    - clip:ig-grey-horse
+    - clip:rescue-a
   - say: I have not forgotten.
     show:
-    - clip:auto-pwtz9bem16a-0
+    - clip:ig-recap-wave
   - say: Dubai's royal racing stable, Godolphin, is one of the biggest buyers at the world's top horse auctions.
     show:
     - clip:queen
@@ -229,7 +221,7 @@ sections:
   - say: He is an endurance rider, a sport where horse and rider can cover one hundred and sixty kilometres in a single day.
     show:
     - sb-5345652
-    - clip:dubairun
+    - clip:ig-ride-forest
   - say: In twenty fourteen, at the World Equestrian Games in Normandy, France, he won the individual gold medal on a mare
       called Yamamah.
     show:
@@ -244,22 +236,21 @@ sections:
     - sb-354513165
   - say: Of the one hundred and sixty six riders who started that race, only thirty five crossed the finish line.
     show:
+    - sb-11020072
     - clip:ig-horse-water-b
-    - clip:son-walk
     sfx: impact
   - say: Top endurance horses need vets, trainers, stables and feed every single day of the year.
     show:
-    - clip:child-horse
-    - sb-11182157
+    - clip:ig-horse-stable-d
+    - clip:ig-horse-stable-c
     fx: leak
   - say: We could not find any public figure for what his stables cost. So we will not invent one.
     show:
-    - clip:oryx
-    - clip:bike-twins
+    - clip:ig-grey-horse
+    - sb-354013844
   - say: Keep watching. The answer about that G-Class is getting closer.
     show:
     - sb-352325335
-    - clip:ig-selfdrive-a
     sfx: whoosh
 - beats:
   - say: His second passion is a bird.
@@ -284,68 +275,63 @@ sections:
     fx: leak
   - say: A rare pure white falcon reportedly sold for two point one million dirhams.
     show:
-    - clip:auto-xoaav3r3txm-3
-    - clip:auto-xoaav3r3txm-2
+    - sb-353710742
+    - sb-353710604
   - say: That is around five hundred and seventy thousand dollars, for one bird.
     show:
     - clip:ig-falcon-car
-    - sb-342506
     sfx: impact
   - say: We do not know what Hamdan pays for his falcons.
     show:
     - clip:falcon-hunt
   - say: But that is the kind of market these prized birds come from.
     show:
-    - sb-348435118
+    - sb-7066785
 - beats:
   - say: Then there are the cars, the part fans love most.
     show:
-    - clip:fz-plane-stairs
+    - sb-347396525
     sfx: whoosh
   - say: Supercars? Let us check.
     show:
-    - clip:fz-plane-night
+    - sb-352360950
   - say: Fan pages love to claim he owns a garage full of rare supercars.
     show:
     - sb-352497987
   - say: We could not confirm those lists of cars. So we will not repeat them as fact.
     show:
-    - clip:auto-nfmunjitimm-0
-    - clip:fz-kt-city
+    - clip:ig-gwagon-desert-b
+    - clip:ig-elephant-mirror
   - say: What he really drives is far more practical.
     show:
-    - clip:fz-i24-passenger
+    - clip:ig-gwagon-desert-d
   - say: A black Mercedes G-Class.
     show:
-    - clip:auto-o1nxlkx9yr0-2
+    - clip:ig-gwagon-desert-a
     sfx: impact
   - say: He films himself driving it through the rain in Dubai, and out into the desert to visit his camels.
     show:
-    - sb-352958539
-    - sb-349101814
+    - clip:ig-gwagon-desert-c
+    - clip:camels
     fx: flash
   - say: Back in March twenty seventeen, a viral video showed him towing a stuck lorry free from soft desert sand with his
       own G-Class.
     show:
     - clip:rescue-b-wide
     - sb-352898065
-    - clip:camels
     sfx: whoosh
   - say: The strap snapped on the first try. So the truck driver lightened his load. The second pull worked.
     show:
     - clip:rescue-a-wide
-    - clip:fz-disembark
   - say: And in February twenty twenty six, he posted a clip from a self-driving car. Hands off the wheel. Simply watching
       it drive.
     show:
-    - sb-11101005
-    - clip:ig-elephant-mirror
-    - clip:ig-lion-cub-c
+    - clip:ig-selfdrive-a
+    - clip:ig-selfdrive-b
     sfx: riser+impact
   - say: But none of this explains why he parked his favourite G-Class for weeks.
     show:
-    - sb-354573172
-    - sb-10491381
+    - sb-351748706
     sfx: whoosh
     fx: leak
 - beats:
@@ -367,7 +353,7 @@ sections:
     sfx: whoosh
   - say: Phone in hand, taking pictures like any other visitor.
     show:
-    - clip:fz-visit-monitor
+    - clip:ig-cloud-roof-a
   - say: As for private jets, Dubai's ruling family travels with its own royal flight, called the Dubai Air Wing.
     show:
     - sb-352715053
@@ -383,15 +369,14 @@ sections:
   - say: Like cuddling a white lion cub, or resting his head against a fully grown white lion at night.
     show:
     - clip:ig-moochi-hug
-    - sb-11019410
   - say: He has also filmed a herd of elephants walking across the desert.
     show:
     - clip:ig-elephants-a
     - clip:ig-elephants-b
   - say: And he has released sea turtles into the water near the Burj Al Arab.
     show:
-    - clip:ig-recap-wave
-    - clip:ig-coffee-b
+    - clip:ig-turtle
+    - clip:ig-turtle2
   - say: In April twenty twenty four he even went diving with the billionaire investor Ray Dalio, to launch Dubai Reef.
     show:
     - clip:ig-reef-coral
@@ -400,7 +385,6 @@ sections:
 - beats:
   - say: So far, we have talked about spending. Now for the part that rarely makes headlines.
     show:
-    - clip:fz-visit-doctor
     - clip:ig-boat-son
     sfx: riser
     fx: flash
@@ -421,32 +405,30 @@ sections:
   - say: What he gave was his time, and a handshake the whole world saw.
     show:
     - clip:auto-cxnlqg-p1p8-0
-    - clip:fz-visit-hand
 - beats:
   - say: Which brings us back to the car he would not drive.
     show:
-    - sb-352767003
+    - sb-10491381
     sfx: riser+impact
     fx: flash
   - say: In August twenty twenty, at his home in Dubai, a dove built its nest.
     show:
     - clip:ig-dove-gwagon
-    - sb-352542575
   - say: Right on top of his Mercedes G-Class.
     show:
-    - sb-351922312
+    - clip:ig-dove-gwagon
   - say: He could have moved the nest.
     show:
     - clip:ig-dove-nest
   - say: Or simply taken one of his other cars.
     show:
-    - sb-349001918
+    - sb-348583414
   - say: Instead, he told his followers he would not use the G-Class for a while. Red and white tape went up around it, and
       the eggs were left to hatch.
     show:
     - clip:ig-dove-car-end
-    - clip:fz-smit-call4
-    - clip:auto-dkiioqexvhs-3
+    - clip:ig-dove-eggs
+    - clip:ig-dove-hatch
     sfx: impact
   - say: Weeks later, he shared that the young birds had grown, and one had already flown away.
     show:
@@ -458,8 +440,8 @@ sections:
     - clip:ig-ai-talk
   - say: Giving up his G-Class, for weeks, for a tiny bird.
     show:
-    - clip:rescue-a
-    - clip:rescue-b
+    - clip:ig-dove-shell
+    - clip:ig-dove-brood
   - say: So how much does Prince Hamdan really make in a day?
     show:
     - clip:ig-council-elders
@@ -486,4 +468,4 @@ sections:
   - say: Tell us in the comments, and subscribe for more true stories about Prince Fazza.
     show:
     - clip:ig-youth-table
-    - clip:ig-council-desk
+    - clip:ig-lion-cub-a

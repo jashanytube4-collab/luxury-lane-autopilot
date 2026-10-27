@@ -1412,3 +1412,39 @@ clips:
     parts: [[30.5, 32.4]]
     note: '16:9 cut, every frame checked 2026-10-27: Hamdan touring the Aster warehouse with hosts'
     credit: Dubai Media Office (official Instagram)
+  ig-ride-forest:
+    match: ''
+    ig: '17889210829405315'
+    parts: [[0.2, 3.7]]
+    note: '16:9 cut of his Instagram video, frames checked 2026-10-27: his endurance team riding through a forest (his own post)'
+    credit: Sheikh Hamdan's Instagram (@faz3)
+  ig-gwagon-desert-b:
+    match: ''
+    ig: '17860405955166394'
+    parts: [[13.0, 18.0]]
+    note: '16:9 cut of his Instagram video, frames checked 2026-10-27: his hands on the wheel of his G-Class in the desert'
+    credit: Sheikh Hamdan's Instagram (@faz3)
+  ig-dove-eggs:
+    match: 'eggs were left to hatch'
+    ig: '17883379564703736'
+    parts: [[18.8, 21.9]]
+    note: '16:9 cut of his vertical Instagram video, every frame checked 2026-10-27: the dove eggs in the nest under the G-Class wiper'
+    credit: Sheikh Hamdan's Instagram (@faz3)
+  ig-dove-shell:
+    match: 'for a tiny bird'
+    ig: '17883379564703736'
+    parts: [[56.3, 59.6]]
+    note: '16:9 cut of his vertical Instagram video, every frame checked 2026-10-27: the dove holding a hatched eggshell'
+    credit: Sheikh Hamdan's Instagram (@faz3)
+  ig-dove-hatch:
+    match: ''
+    ig: '17883379564703736'
+    parts: [[60.9, 63.9]]
+    note: '16:9 cut of his vertical Instagram video, every frame checked 2026-10-27: newly hatched chicks in the nest on the G-Class'
+    credit: Sheikh Hamdan's Instagram (@faz3)
+  ig-dove-brood:
+    match: ''
+    ig: '17883379564703736'
+    parts: [[43.9, 47.7]]
+    note: '16:9 cut of his vertical Instagram video, every frame checked 2026-10-27: close-up of the dove sitting on its nest'
+    credit: Sheikh Hamdan's Instagram (@faz3)

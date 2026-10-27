@@ -149,6 +149,11 @@ def cast(s: dict) -> list[str]:
             return None
         if sb and tags[t].get("people") and tags[t].get("arab_people") is not True:
             return None
+        if tags[t].get("not_hamdan") and not re.search(r"\b(president|mohamed bin zayed|sheikh mohamed)\b", say, re.I):
+            return None
+        cred = str(G.CLIPS.get(t[5:], {}).get("credit", "")) if t.startswith("clip:") else ""
+        if G.OTHER_STORY.search(cred) and not G.OTHER_STORY_TOPIC.search(say):
+            return None
         if early and (not wide(t) or tags[t].get("hamdan", 0) < 0.3):
             return None
         if ev_sec.get(event(t), 0) + slot > cap and not sb:

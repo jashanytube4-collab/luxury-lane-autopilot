@@ -69,6 +69,9 @@ for g, ws in SYN.items():
     CANON[g] = g
     for w in ws.split():
         CANON[w] = g
+# clips cut for one news story (credit names it) are off-topic in any other story
+OTHER_STORY = re.compile(r"Smit|FZ1073|flydubai|Tabuk|Yaniv|ambassador to the UAE|i24NEWS|via CNA|prayers for Captain", re.I)
+OTHER_STORY_TOPIC = re.compile(r"\b(smit|machchhar|fz ?1073|flydubai|tel aviv)\b", re.I)
 HAM = re.compile(r"\b(hamdan|fazza|prince|crown prince|he|his|him|himself)\b", re.I)
 PERSON = re.compile(r"\b(mother|wife|father|sister|sisters|brother|brothers|grandfather|grandmother|daughter|son|queen|"
                     r"king|princess|president|prime minister|sheikha|sheikh [A-Z]\w+)\b", re.I)
@@ -128,6 +131,28 @@ def story_tokens(path: Path) -> list[str]:
 def story_sha(p: Path) -> str:
     """Fingerprint of a story file, the same on Windows (CRLF) and on the GitHub runner (LF checkout)."""
     return hashlib.sha1(p.read_bytes().replace(b"\r\n", b"\n")).hexdigest()
+
+
+def library_names() -> set[str] | None:
+    """File names in the private footage library (GitHub releases), or None when it cannot be read."""
+    import os
+    from lane.hamdan import Library
+    token = os.environ.get("LIBRARY_TOKEN", "")
+    for gh in (ROOT / "models" / "gh" / "bin" / "gh.exe", "gh"):
+        if token:
+            break
+        try:
+            token = subprocess.run([str(gh), "auth", "token"], capture_output=True, text=True, timeout=30).stdout.strip()
+        except OSError:
+            continue
+    if not token:
+        return None
+    try:
+        repo = yaml.safe_load((ROOT / "config.yaml").read_text(encoding="utf-8"))["source"]["library_repo"]
+        names = set(Library(repo, token).assets())
+    except Exception:  # noqa: BLE001 - offline / API trouble: reported as a warning
+        return None
+    return names or None
 
 
 def stamp_ok(story_id: str) -> str:
@@ -558,6 +583,11 @@ def run_gate(path: Path, use_voice: bool = True) -> tuple[list[str], list[str], 
             continue
         if tg.get("text_graphic"):
             fails.append(f"[graphic/text/green-screen clip] {ref(sh_)}")
+        cred = str((CLIPS.get(tok[5:]) or {}).get("credit", "")) if tok.startswith("clip:") else ""
+        if OTHER_STORY.search(cred) and not OTHER_STORY_TOPIC.search(" ".join(x["say"] for x in shots)):
+            fails.append(f"[clip belongs to another story ({cred[:50]}), off-topic here] {ref(sh_)}")
+        if tg.get("not_hamdan") and not re.search(r"\b(president|mohamed bin zayed|sheikh mohamed)\b", sh_["say"], re.I):
+            fails.append(f"[clip shows someone else ({tg.get('desc', '')[:60]}), the line is not about them] {ref(sh_)}")
         if tok.startswith("sb-") and tg.get("people") and tg.get("arab_people") is not True:
             fails.append(f"[stock people do not look Emirati/Arab] {ref(sh_)}")
         verdict = relevance(tok, sh_["say"], tg, vocab)
@@ -689,6 +719,15 @@ def run_gate(path: Path, use_voice: bool = True) -> tuple[list[str], list[str], 
     gaps(cues_fx, "light leak/white flash", 45)
     if sum(1 for t, _ in cues_sfx if t < 30) < 3:
         fails.append("[editing cues] first 30 s needs 3+ sound effects (hook hits/whooshes)")
+    # 11b. the GitHub render only has what is in the footage library: a missing file means a lost clip + filler repeats
+    have = library_names()
+    if have is None:
+        warns.append("footage library could not be read: clip presence on GitHub not checked")
+    else:
+        for tok in sorted({sh_["tok"] for sh_ in shots}):
+            name = f"clip-{tok[5:]}.mp4" if tok.startswith("clip:") else f"stock-{tok[3:]}.mp4" if tok.startswith("sb-") else None
+            if name and name not in have:
+                fails.append(f"[not in the footage library, the render would lose it: upload {name}] {tok}")
     info = {"minutes": round(total / 60, 1), "shots": len(shots), "words": nwords, "tagged": len(tags),
             "cues_sfx": [round(t, 1) for t, _ in cues_sfx], "cues_fx": [round(t, 1) for t, _ in cues_fx]}
     # 12. contact sheets (1 per ~60 s)

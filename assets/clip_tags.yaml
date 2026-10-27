@@ -136,8 +136,9 @@ clip:auto-btbhdtvcfqe-0:
   text_graphic: false
 clip:auto-btbhdtvcfqe-1:
   arab_people: true
-  desc: Prince Hamdan chats warmly with a woman.
+  desc: Sheikh Mohammed bin Rashid greets a woman (NOT Hamdan) - checked 2026-10-27
   hamdan: 0.0
+  not_hamdan: true
   people: true
   tags:
   - conversation
@@ -153,8 +154,9 @@ clip:auto-btbhdtvcfqe-1:
   text_graphic: false
 clip:auto-btbhdtvcfqe-2:
   arab_people: true
-  desc: Prince Hamdan raises his cane.
-  hamdan: 0.83
+  desc: Sheikh Mohammed bin Rashid raises his cane, ends in black (NOT Hamdan) - checked 2026-10-27
+  hamdan: 0.0
+  not_hamdan: true
   people: true
   tags:
   - banner
@@ -397,7 +399,7 @@ clip:auto-dkiioqexvhs-3:
   text_graphic: false
 clip:auto-fev2yxoy5cu-2:
   arab_people: true
-  desc: Prince Hamdan, known as Fazza, is seen in a white kandura and ghutra, walking outdoors with his hand raised near his face.
+  desc: Hamdan in sunglasses waving; last second fades to black
   hamdan: 0.5
   hamdan_manual: 2026-10-27 face seen on contact sheet
   people: true
@@ -538,8 +540,9 @@ clip:auto-lnvphef3eqi-2:
   text_graphic: false
 clip:auto-lnvphef3eqi-3:
   arab_people: true
-  desc: A close-up shot of Prince Hamdan wearing a white kandura and ghutra with glasses, looking down thoughtfully while seated in an outdoor setting.
+  desc: Sheikh Mohammed bin Rashid close-up (NOT Hamdan) - checked 2026-10-27
   hamdan: 0.0
+  not_hamdan: true
   people: true
   tags:
   - beard
@@ -772,7 +775,7 @@ clip:auto-olsmzj2q5qo-2:
   text_graphic: false
 clip:auto-pwtz9bem16a-0:
   arab_people: true
-  desc: Men in kandura clap and listen.
+  desc: Hamdan seated beside his father; second half is BLACK (fade) - do not use
   hamdan: 0.67
   people: true
   tags:
@@ -786,7 +789,7 @@ clip:auto-pwtz9bem16a-0:
   - men
   - seats
   - silhouette
-  text_graphic: false
+  text_graphic: true
 clip:auto-s0f-zizbhm4-0:
   arab_people: null
   desc: A plane landing in Dubai
@@ -856,8 +859,9 @@ clip:auto-t7b2muqwfl8-0:
   text_graphic: false
 clip:auto-ttidomuiljm-0:
   arab_people: true
-  desc: Prince Hamdan speaking into a microphone
+  desc: Sheikh Mohammed bin Rashid speaking (NOT Hamdan) - checked 2026-10-27
   hamdan: 0.0
+  not_hamdan: true
   people: true
   tags:
   - beard
@@ -941,8 +945,9 @@ clip:auto-xoaav3r3txm-1:
   text_graphic: false
 clip:auto-xoaav3r3txm-2:
   arab_people: true
-  desc: Prince Hamdan speaks to men in kanduras.
-  hamdan: 0.17
+  desc: bearded official speaks to a crowd (NOT Hamdan) - checked 2026-10-27
+  hamdan: 0.0
+  not_hamdan: true
   people: true
   tags:
   - beard
@@ -958,8 +963,9 @@ clip:auto-xoaav3r3txm-2:
   text_graphic: false
 clip:auto-xoaav3r3txm-3:
   arab_people: true
-  desc: Prince Hamdan speaking to a group
-  hamdan: 0.17
+  desc: bearded official speaks to a crowd (NOT Hamdan) - checked 2026-10-27
+  hamdan: 0.0
+  not_hamdan: true
   people: true
   tags:
   - beard
@@ -2573,6 +2579,20 @@ clip:ig-council-window:
   - skyline
   - window
   text_graphic: false
+clip:ig-dove-brood:
+  arab_people: null
+  desc: Close-up of the dove sitting on its nest
+  hamdan: 0.0
+  people: false
+  tags:
+  - dove
+  - bird
+  - tiny
+  - nest
+  - feathers
+  - close-up
+  - eye
+  text_graphic: false
 clip:ig-dove-car-end:
   arab_people: null
   desc: A bird builds a nest on the roof of a Mercedes-Benz G-Class SUV.
@@ -2607,6 +2627,22 @@ clip:ig-dove-close:
   - straw
   - young
   text_graphic: false
+clip:ig-dove-eggs:
+  arab_people: null
+  desc: Dove eggs in a straw nest under the wiper of his G-Class
+  hamdan: 0.0
+  people: false
+  tags:
+  - dove
+  - bird
+  - eggs
+  - nest
+  - straw
+  - car
+  - g-class
+  - wiper
+  - hatch
+  text_graphic: false
 clip:ig-dove-gwagon:
   arab_people: null
   desc: A close-up view of a Mercedes-Benz vehicle's hood and grille, where a bird is perched on the roof and another is building a nest in the dry grass.
@@ -2624,6 +2660,21 @@ clip:ig-dove-gwagon:
   - star
   - vehicle
   text_graphic: false
+clip:ig-dove-hatch:
+  arab_people: null
+  desc: Newly hatched dove chicks in the straw nest on his G-Class
+  hamdan: 0.0
+  people: false
+  tags:
+  - dove
+  - bird
+  - chicks
+  - hatch
+  - nest
+  - straw
+  - tiny
+  - young birds
+  text_graphic: false
 clip:ig-dove-nest:
   arab_people: null
   desc: A close-up view of a dove resting in a nest made of straw.
@@ -2640,6 +2691,22 @@ clip:ig-dove-nest:
   - straw
   - tail
   - wing
+  text_graphic: false
+clip:ig-dove-shell:
+  arab_people: null
+  desc: A dove holds a hatched white eggshell in its beak
+  hamdan: 0.0
+  people: false
+  tags:
+  - dove
+  - bird
+  - tiny
+  - egg
+  - eggshell
+  - beak
+  - nest
+  - close-up
+  - hatch
   text_graphic: false
 clip:ig-elephant-mirror:
   arab_people: true
@@ -3021,6 +3088,23 @@ clip:ig-gwagon-desert-a:
   - road
   - screen
   - steering wheel
+  text_graphic: false
+clip:ig-gwagon-desert-b:
+  arab_people: true
+  desc: Hands steering a car in the desert
+  hamdan: 0.0
+  people: true
+  tags:
+  - car
+  - dashboard
+  - desert
+  - hands
+  - mercedes logo
+  - phone mount
+  - screen
+  - steering wheel
+  - white garment
+  - windshield
   text_graphic: false
 clip:ig-gwagon-desert-c:
   arab_people: true
@@ -3724,6 +3808,23 @@ clip:ig-reef-dive:
   - underwater
   - water
   text_graphic: false
+clip:ig-ride-forest:
+  arab_people: false
+  desc: Horses gallop through a forest path.
+  hamdan: 0.0
+  people: true
+  tags:
+  - clothing
+  - dust
+  - forest
+  - ground
+  - horse
+  - leaves
+  - legs
+  - path
+  - rider
+  - trees
+  text_graphic: false
 clip:ig-selfdrive-a:
   arab_people: null
   desc: A close-up view from inside a car shows the steering wheel and dashboard as the vehicle moves along a city street.
@@ -4301,6 +4402,24 @@ sb-11019410:
   - sky
   - white
   text_graphic: false
+sb-11020072:
+  arab_people: null
+  desc: A lone rider gallops across the desert.
+  people: false
+  tags:
+  - desert
+  - endurance
+  - fence
+  - goalpost
+  - horizon
+  - horse
+  - race
+  - rider
+  - sand dunes
+  - shadow
+  - skyline
+  - track
+  text_graphic: false
 sb-11058820:
   arab_people: true
   desc: Woman in black abaya with shopping bags.
@@ -4608,6 +4727,22 @@ sb-347201112:
   - skyline
   - track
   text_graphic: false
+sb-347396525:
+  arab_people: null
+  desc: Red Ferrari on cobblestone street
+  people: false
+  tags:
+  - car
+  - cobblestone
+  - ferrari
+  - road
+  - shadow
+  - sky
+  - street
+  - sunlight
+  - trees
+  - wall
+  text_graphic: false
 sb-347446633:
   arab_people: null
   desc: A close-up view of several UAE Dirham banknotes fanned out on a surface.
@@ -4701,6 +4836,22 @@ sb-348542842:
   - skin
   - thumb
   - white surface
+  text_graphic: false
+sb-348583414:
+  arab_people: null
+  desc: Luxury cars in a wooden garage
+  people: false
+  tags:
+  - car
+  - garage
+  - hood
+  - interior
+  - light
+  - mirror
+  - roof
+  - tire
+  - window
+  - wood
   text_graphic: false
 sb-348705571:
   arab_people: true
@@ -4832,6 +4983,22 @@ sb-349236471:
   - thobe
   - white
   text_graphic: false
+sb-351748706:
+  arab_people: null
+  desc: A car covered by a silver sheet in a garage.
+  people: false
+  tags:
+  - box
+  - car
+  - door
+  - floor
+  - garage
+  - light
+  - shadow
+  - sheet
+  - shelf
+  - wall
+  text_graphic: false
 sb-351798932:
   arab_people: false
   desc: A newborn baby's tiny hand and face.
@@ -4847,6 +5014,24 @@ sb-351798932:
   - hand
   - mouth
   - skin
+  text_graphic: false
+sb-351909990:
+  arab_people: true
+  desc: Two men in traditional dress discuss at a desk.
+  people: true
+  tags:
+  - coffee
+  - desk
+  - ghutra
+  - hands
+  - kandura
+  - khimyar
+  - laptop
+  - office
+  - papers
+  - plant
+  - skyline
+  - window
   text_graphic: false
 sb-351921952:
   arab_people: null
@@ -4993,6 +5178,40 @@ sb-352325335:
   - skyline
   - steering wheel
   - vehicle
+  text_graphic: false
+sb-352360950:
+  arab_people: null
+  desc: Close-up of a white car's red taillights.
+  people: false
+  tags:
+  - automotive
+  - car
+  - detail shot
+  - luxury car
+  - modern design
+  - rear view
+  - red light
+  - spoiler
+  - sports car
+  - supercar
+  - taillight
+  - white paint
+  text_graphic: false
+sb-352413798:
+  arab_people: false
+  desc: A white and blue Bugatti with two men standing nearby.
+  people: true
+  tags:
+  - blue
+  - bugatti
+  - building
+  - car
+  - daylight
+  - men
+  - shadows
+  - sidewalk
+  - street
+  - white
   text_graphic: false
 sb-352482007:
   arab_people: null
@@ -5425,6 +5644,25 @@ sb-353338366:
   - window
   - women
   text_graphic: false
+sb-353633803:
+  arab_people: null
+  desc: Hand holding a smartphone in dark.
+  people: false
+  tags:
+  - darkness
+  - device
+  - fingers
+  - hand
+  - internet
+  - light
+  - night
+  - online
+  - phone
+  - screen
+  - shadow
+  - silhouette
+  - smartphone
+  text_graphic: false
 sb-353681405:
   arab_people: null
   desc: Close-up of a luxury watch face.
@@ -5598,6 +5836,25 @@ sb-353951670:
   - wealth
   - yellow
   text_graphic: false
+sb-354013844:
+  arab_people: null
+  desc: Empty horse stable aisle
+  people: false
+  tags:
+  - beam
+  - ceiling
+  - door
+  - floor
+  - horse
+  - light
+  - metal
+  - roof
+  - stable
+  - stables
+  - wall
+  - window
+  - wood
+  text_graphic: false
 sb-354144458:
   arab_people: false
   desc: Two women in hijabs review a tablet.
@@ -5629,6 +5886,25 @@ sb-354144467:
   - screen
   - window
   - women
+  text_graphic: false
+sb-354332628:
+  arab_people: null
+  desc: Hand scrolling through video clips on phone
+  people: false
+  tags:
+  - clips
+  - darkness
+  - device
+  - fingers
+  - hand
+  - internet
+  - light
+  - online
+  - phone
+  - screen
+  - scrolling
+  - smartphone
+  - video
   text_graphic: false
 sb-354338561:
   arab_people: null
@@ -5968,6 +6244,20 @@ sb-354988040:
   - text
   - wall
   text_graphic: false
+sb-354998245:
+  arab_people: null
+  desc: Coins scattered on a surface
+  people: false
+  tags:
+  - blur
+  - coins
+  - gold
+  - light
+  - metal
+  - pile
+  - silver
+  - surface
+  text_graphic: false
 sb-358120874:
   arab_people: null
   desc: A tall building under construction at night.
@@ -6115,6 +6405,22 @@ sb-6852421:
   - sunset
   - wing
   - woman
+  text_graphic: false
+sb-7066785:
+  arab_people: null
+  desc: Falcon perched on a ledge
+  people: false
+  tags:
+  - background
+  - beak
+  - bird
+  - falcon
+  - feathers
+  - ledge
+  - light
+  - perch
+  - tail
+  - wing
   text_graphic: false
 sb-7505805:
   arab_people: null

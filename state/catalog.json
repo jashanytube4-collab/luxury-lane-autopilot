@@ -579,7 +579,7 @@
  },
  "dubai crown prince receives president of malta": {
   "last_short": "2026-10-28",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     67.26728040581254,
@@ -619,6 +619,10 @@
    [
     78.16000000000001,
     82.19999999999999
+   ],
+   [
+    105.62333333333333,
+    107.09666666666666
    ]
   ],
   "video_exhausted": true,
@@ -2238,8 +2242,9 @@
   "video_len": 278
  },
  "hamdan bin mohammed attends global cardiology congress": {
-  "last_short": "2026-10-15",
+  "last_short": "2026-10-28",
   "long": "2026-10-22",
+  "montage_used": 1,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -2253,6 +2258,10 @@
    [
     130.52,
     135.92
+   ],
+   [
+    25.92,
+    30.04
    ]
   ],
   "video_exhausted": true,
@@ -4172,7 +4181,7 @@
  "hamdan bin mohammed honors mbr creative sports award winners": {
   "last_short": "2026-10-28",
   "long": "2026-10-18",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     50.879999999999995,
@@ -4244,6 +4253,10 @@
    [
     372.8916666666667,
     373.5883333333333
+   ],
+   [
+    31.72,
+    36.72
    ]
   ],
   "video_len": 385
@@ -4782,7 +4795,7 @@
  },
  "hamdan bin mohammed inaugurates the world s largest solar powered data centre": {
   "last_short": "2026-10-28",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     56.3455405839187,
@@ -4826,6 +4839,10 @@
    [
     25.253333333333337,
     26.96333333333333
+   ],
+   [
+    48.586666666666666,
+    53.14666666666667
    ]
   ],
   "video_exhausted": true,
@@ -5830,14 +5847,20 @@
  },
  "hamdan bin mohammed meets prominent business leaders at dubai majlis to chart a course for city s accelerated growth": {
   "fails": 1,
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-28",
   "long": "2026-10-20",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_exhausted": true,
   "remix_ranges": [
    [
     6.555273924464135,
     8.173785157182238
+   ]
+  ],
+  "shot_ranges": [
+   [
+    6.12,
+    8.246666666666668
    ]
   ],
   "video_exhausted": true,
@@ -5959,6 +5982,7 @@
  "hamdan bin mohammed meets with ceo of whoop tours pavilions of morocco switzerland and baden w rttemberg at expo 2020 dubai": {
   "last_short": "2026-10-28",
   "long": "2026-10-20",
+  "montage_exhausted": true,
   "montage_used": 3,
   "remix_exhausted": true,
   "remix_ranges": [

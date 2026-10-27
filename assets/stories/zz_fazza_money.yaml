@@ -65,6 +65,7 @@ sections:
   - say: Every number you hear will be marked as a fact, a report, or our own estimate.
     show:
     - clip:auto-cmtlcaca5cs-3
+    - clip:ig-recap-wave
 - beats:
   - say: Here is the first surprise about his money. There is no official number.
     show:
@@ -134,12 +135,11 @@ sections:
   - say: More than two thousand dollars every single hour on the clock, even while he sleeps.
     show:
     - sb-353681405
-  - say: Picture that money arriving every night, while the city sleeps under its lights.
+  - say: Picture that money arriving every night, while the city sleeps under its lights. Remember, that number is only our
+      own estimate, built on an internet rumour.
     show:
     - sb-353304412
     - sb-352835520
-  - say: Remember, that number is only our own estimate, built on an internet rumour.
-    show:
     - sb-353875671
 - beats:
   - say: What we do know for certain is his job.
@@ -191,12 +191,9 @@ sections:
     - clip:white-horse
     sfx: impact
 - beats:
-  - say: Remember the G-Class?
+  - say: Remember the G-Class? I have not forgotten.
     show:
     - clip:rescue-a
-  - say: I have not forgotten.
-    show:
-    - clip:ig-recap-wave
   - say: Dubai's royal racing stable, Godolphin, is one of the biggest buyers at the world's top horse auctions.
     show:
     - clip:queen
@@ -273,12 +270,11 @@ sections:
     - clip:car-falcon-camel
     sfx: riser
     fx: leak
-  - say: A rare pure white falcon reportedly sold for two point one million dirhams.
+  - say: A rare pure white falcon reportedly sold for two point one million dirhams. That is around five hundred and seventy
+      thousand dollars, for one bird.
     show:
     - sb-353710742
     - sb-353710604
-  - say: That is around five hundred and seventy thousand dollars, for one bird.
-    show:
     - clip:ig-falcon-car
     sfx: impact
   - say: We do not know what Hamdan pays for his falcons.
@@ -324,15 +320,12 @@ sections:
     show:
     - clip:rescue-a-wide
   - say: And in February twenty twenty six, he posted a clip from a self-driving car. Hands off the wheel. Simply watching
-      it drive.
+      it drive. But none of this explains why he parked his favourite G-Class for weeks.
     show:
     - clip:ig-selfdrive-a
     - clip:ig-selfdrive-b
-    sfx: riser+impact
-  - say: But none of this explains why he parked his favourite G-Class for weeks.
-    show:
     - sb-351748706
-    sfx: whoosh
+    sfx: riser+impact
     fx: leak
 - beats:
   - say: Then there is the sky.
@@ -347,28 +340,24 @@ sections:
     show:
     - clip:ig-heli-jet-a
     - clip:ig-heli-jet-b
-  - say: And he has stood on a rooftop above a sea of clouds.
+  - say: And he has stood on a rooftop above a sea of clouds. Phone in hand, taking pictures like any other visitor.
     show:
     - clip:ig-heli-e
-    sfx: whoosh
-  - say: Phone in hand, taking pictures like any other visitor.
-    show:
     - clip:ig-cloud-roof-a
-  - say: As for private jets, Dubai's ruling family travels with its own royal flight, called the Dubai Air Wing.
+    sfx: whoosh
+  - say: As for private jets, Dubai's ruling family travels with its own royal flight, called the Dubai Air Wing. Who pays
+      for which flight is not public, and we will not guess.
     show:
     - sb-352715053
     - sb-352758734
-  - say: Who pays for which flight is not public, and we will not guess.
-    show:
     - sb-352482007
 - beats:
-  - say: Some of his most surprising posts involve lions.
+  - say: Some of his most surprising posts involve lions. Like cuddling a white lion cub, or resting his head against a fully
+      grown white lion at night.
     show:
     - clip:ig-moochi
-    sfx: impact
-  - say: Like cuddling a white lion cub, or resting his head against a fully grown white lion at night.
-    show:
     - clip:ig-moochi-hug
+    sfx: impact
   - say: He has also filmed a herd of elephants walking across the desert.
     show:
     - clip:ig-elephants-a
@@ -388,23 +377,18 @@ sections:
     - clip:ig-boat-son
     sfx: riser
     fx: flash
-  - say: In twenty twenty two, a delivery rider stopped in traffic to drag concrete blocks off a busy Dubai road.
+  - say: In twenty twenty two, a delivery rider stopped in traffic to drag concrete blocks off a busy Dubai road. Hamdan asked
+      his followers to help find him.
     show:
+    - clip:rider
     - sb-354338561
-    - clip:rider
-  - say: Hamdan asked his followers to help find him.
-    show:
-    - clip:rider
-  - say: Then he met the young man, Abdul Ghafoor, to thank him.
+  - say: Then he met the young man, Abdul Ghafoor, to thank him. We found no report of any reward, either. What he gave was
+      his time, and a handshake the whole world saw.
     show:
     - clip:rider-meet
-    sfx: whoosh
-  - say: We found no report of any reward, either.
-    show:
-    - clip:rider-meet
-  - say: What he gave was his time, and a handshake the whole world saw.
-    show:
+    - clip:rider-faces
     - clip:auto-cxnlqg-p1p8-0
+    sfx: whoosh
 - beats:
   - say: Which brings us back to the car he would not drive.
     show:
@@ -413,7 +397,7 @@ sections:
     fx: flash
   - say: In August twenty twenty, at his home in Dubai, a dove built its nest.
     show:
-    - clip:ig-dove-gwagon
+    - sb-342506
   - say: Right on top of his Mercedes G-Class.
     show:
     - clip:ig-dove-gwagon
@@ -435,11 +419,9 @@ sections:
     - clip:ig-dove-close
     sfx: impact
     fx: leak
-  - say: Now think about that for a second.
+  - say: Now think about that for a second. Giving up his G-Class, for weeks, for a tiny bird.
     show:
     - clip:ig-ai-talk
-  - say: Giving up his G-Class, for weeks, for a tiny bird.
-    show:
     - clip:ig-dove-shell
     - clip:ig-dove-brood
   - say: So how much does Prince Hamdan really make in a day?
@@ -452,12 +434,11 @@ sections:
     - clip:ig-ph-enter
     - clip:ig-ph-walk
     - clip:ig-ph-table
-  - say: Yet his days are there for everyone to see.
+  - say: Yet his days are there for everyone to see. His people. His horses.
     show:
     - clip:ig-ai-listen
     - clip:ig-ai-stand
-  - say: His people. His horses.
-    show:
+    - sb-11182157
     - clip:ig-horse-hand
   - say: If you could live his life for one day, what would you do first?
     show:

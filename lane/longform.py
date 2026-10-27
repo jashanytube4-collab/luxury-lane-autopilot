@@ -274,11 +274,22 @@ def _chapter_shots(pool: list[Item], seconds: float, rng: random.Random, reserve
                 pool.insert(0, it)
                 it = alt
         if it is None and again and shots and last is not None and last.kind == "video" and last in again:
-            room = _hold_room(shots[-1], shots, used)
-            if room >= FPS // 2:                        # out of new pictures: hold this sentence's own clip a little
-                ext = min(room, int(left * FPS) + 1)    # longer rather than repeat anything
-                shots[-1].frames += ext
-                total += ext / FPS
+            # out of new pictures: this sentence's clips play on a little longer (each only within its own piece,
+            # last one first) rather than repeat anything; the pace cut them short (render 40473595702: 4 repeats
+            # because only the last clip could be held and it was already near its end)
+            need = int(left * FPS) + 1
+            for s_ in reversed(shots):
+                if s_.kind != "video":
+                    continue
+                room = _hold_room(s_, shots, used)
+                if room >= FPS // 2:
+                    ext = min(room, need)
+                    s_.frames += ext
+                    total += ext / FPS
+                    need -= ext
+                    if need <= 0:
+                        break
+            if need < int(left * FPS) + 1:
                 continue
         if it is None and again:                        # out of new pictures: this sentence's own clip again,
             it = again[k % len(again)]                  # never something off-topic

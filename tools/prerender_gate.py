@@ -498,13 +498,23 @@ def run_gate(path: Path, use_voice: bool = True) -> tuple[list[str], list[str], 
         beats[(sh_["sec"], sh_["beat"])].append(sh_)
     for bs in beats.values():
         d = bs[-1]["t1"] - bs[0]["t0"]
-        toks = [t for t in dict.fromkeys(x["tok"] for x in bs) if pieces.get(t)]
-        if not toks or bs[0]["sec"] == 0:
+        # a clip an earlier sentence already showed has no pieces left for this one (the renderer uses them up),
+        # so a line sharing its clip with the line before falls back to old footage (render 40473595702)
+        first = {t: (uses[t][0]["sec"], uses[t][0]["beat"]) for t in dict.fromkeys(x["tok"] for x in bs)}
+        shared = [t for t, k in first.items() if k != (bs[0]["sec"], bs[0]["beat"])]
+        if shared:
+            fails.append(f"[repeat: shares {', '.join(shared)} with an earlier sentence -> the renderer has no new "
+                         f"picture left for this line; give it its own clip or merge the two lines] {ref(bs[0])}")
+        toks = [t for t in dict.fromkeys(x["tok"] for x in bs) if pieces.get(t) and t not in shared]
+        if not toks or (bs[0]["sec"], bs[0]["beat"]) == (0, 0):     # the hook montage is cut separately
             continue
         # the renderer plays each piece, then holds the last clip on (lane.longform._hold_room) up to 6 s stock / 9 s
         cap = sum(min(duration(files[t]) - 0.2, 5.0 * (len(pieces[t]) - 1) + (6.0 if t.startswith("sb-") else 9.0))
                   for t in toks)
-        if cap + 0.3 < d:
+        # margin: the GitHub voice runs a little longer than the local estimate, and a section's last line also
+        # covers the breath before the next part (render 40473595702: 0:30 re-showed its clip)
+        last_beat = bs[0]["beat"] == max(x["beat"] for x in shots if x["sec"] == bs[0]["sec"])
+        if cap < d + (0.8 if last_beat else 0.3):
             fails.append(f"[repeat: only {cap:.1f}s of distinct picture for a {d:.1f}s sentence -> the renderer shows it "
                          f"again; add a 2nd clip or shorten the line] {ref(bs[0])}")
     # 4c. the same scene again: another cut of the same Instagram/YouTube video, or the same Storyblocks shoot, in a

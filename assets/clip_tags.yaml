@@ -4107,6 +4107,23 @@ clip:rider:
   - traffic light
   - trees
   text_graphic: false
+clip:rider-faces:
+  arab_people: false
+  desc: Two men in split-screen portraits
+  hamdan: 1.0
+  people: true
+  tags:
+  - brick wall
+  - face
+  - gesture
+  - ghutra
+  - gold embroidery
+  - hand
+  - kandura
+  - man
+  - orange shirt
+  - portrait
+  text_graphic: false
 clip:rider-meet:
   arab_people: true
   desc: Prince Hamdan stands with a man in a floral shirt, his hand resting on the other's shoulder in a warm, friendly embrace.

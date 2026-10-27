@@ -2054,6 +2054,7 @@
   "long": "2026-10-13",
   "montage_exhausted": true,
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     52.137716844002036,
@@ -2540,9 +2541,9 @@
  },
  "hamdan bin mohammed attends health chain forum": {
   "fails": 1,
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-28",
   "long": "2026-10-14",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     202.4192200580963,
@@ -2559,6 +2560,10 @@
    [
     77.66439702499802,
     79.72842524651135
+   ],
+   [
+    40.09310841312455,
+    42.53401151643167
    ]
   ],
   "shorts_made": 1,
@@ -2803,6 +2808,7 @@
  "hamdan bin mohammed attends signing of agreement between rta and cruise to operate self driving taxis and ride hailing services in dubai": {
   "long": "2026-10-08",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 82
  },
@@ -3981,6 +3987,7 @@
   "last_short": "2026-10-27",
   "long": "2026-10-08",
   "montage_used": 4,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     72.6327034953461,
@@ -5080,6 +5087,7 @@
   "last_short": "2026-10-26",
   "montage_exhausted": true,
   "montage_used": 3,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     51.899358671159604,
@@ -5567,12 +5575,16 @@
   "video_len": 191
  },
  "hamdan bin mohammed meets government team behind uae s progress in world bank s ease of doing business ranking": {
-  "last_short": "2026-10-27",
-  "montage_used": 1,
+  "last_short": "2026-10-28",
+  "montage_used": 2,
   "remix_ranges": [
    [
     125.5027611214891,
     126.99427098235674
+   ],
+   [
+    132.10612112406608,
+    134.20938076681233
    ]
   ],
   "shorts_made": 2,
@@ -5691,6 +5703,7 @@
   "last_short": "2026-10-26",
   "long": "2026-10-20",
   "montage_used": 1,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     6.555273924464135,
@@ -6840,9 +6853,9 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed offers condolences to family of martyr al mesmari": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-28",
   "long": "2026-10-27",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     70.2,
@@ -6851,6 +6864,10 @@
    [
     42.07180939721504,
     43.60648396427047
+   ],
+   [
+    34.097606878318494,
+    36.54820374250205
    ]
   ],
   "shorts_made": 1,
@@ -7805,7 +7822,14 @@
   "video_len": 70
  },
  "hamdan bin mohammed receives winners of hackathon competition": {
-  "last_short": "2026-10-22",
+  "last_short": "2026-10-28",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    90.22305596119119,
+    92.81901876438965
+   ]
+  ],
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -8021,7 +8045,7 @@
  },
  "hamdan bin mohammed reviews outcomes of farmers souq initiative": {
   "last_short": "2026-10-28",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     29.266446170224548,
@@ -8034,6 +8058,10 @@
    [
     47.40764247764375,
     49.06069376870933
+   ],
+   [
+    11.975908472041358,
+    13.51178130071677
    ]
   ],
   "shorts_made": 1,
@@ -12144,10 +12172,10 @@
   "video_len": 51
  },
  "international space station mission carrying first emirati astronaut launched successfully": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-28",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     193.4567455027698,
@@ -12160,6 +12188,10 @@
    [
     141.91143146056143,
     143.70510248276145
+   ],
+   [
+    70.35894933335334,
+    72.47235409124252
    ]
   ],
   "shorts_made": 3,

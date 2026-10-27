@@ -318,20 +318,33 @@ def _names(text: str) -> set[str]:
 
 
 def topic_fails(s: dict, path: Path) -> tuple[list[str], list[str]]:
-    """The script must be about the video's topic: every part shares words with the title/description/tags, and names that
-    belong to OTHER stories (a rescue, a pilot, a rider) must not turn up here unless this story is about them."""
-    # the TOPIC is the title (+ thumbnail words + an optional `topic:` list in the story): not the description or tags
-    tit = " ".join([str(s.get("title", "")), str((s.get("thumbnail") or {}).get("text", "")),
-                    " ".join(map(str, s.get("topic", [])))])
-    vocab = words_of(tit)
-    mine = _names(tit) | {w.lower() for w in re.findall(r"[A-Za-z]{4,}", tit)}
+    """Script vs topic (owner 2026-10-27: a little adjacent is fine, random is not, and no repeating itself).
+    FAIL: a part of 30+ words that shares NO word with the topic (title, thumbnail words, description, tags, optional
+    `topic:` list), or a run of 8+ words said twice in the middle of the story. WARN: a long part with only one topic word."""
+    tit = " ".join([str(s.get("title", "")), str((s.get("thumbnail") or {}).get("text", "")), str(s.get("description", "")),
+                    " ".join(map(str, s.get("tags", []))), " ".join(map(str, s.get("topic", [])))])
+    vocab = words_of(tit) - {canon(x) for x in ("prince", "crown", "hamdan", "fazza", "sheikh", "dubai", "truth", "true")}
     out, warn = [], []
+    seen: dict[tuple, int] = {}
     for i, sec in enumerate(s.get("sections", []), 1):
-        say = " ".join(str(b.get("say", "")) for b in sec.get("beats", [])) or str(sec.get("say", ""))
+        beats = sec.get("beats", [])
+        say = " ".join(str(b.get("say", "")) for b in beats) or str(sec.get("say", ""))
         ws = words_of(say)
-        if len(ws) >= 25 and not (ws & vocab):
-            warn.append(f"off-topic? part {i} shares no words with the title (add a `topic:` list to the story if it is on topic): \"{say[:70]}\"")
+        hit = len(ws & vocab)
+        if len(say.split()) >= 30 and hit == 0:
+            out.append(f"[off-topic] part {i} has nothing to do with the topic ({str(s.get('title', ''))[:50]}): \"{say[:70]}\"")
+        elif len(say.split()) >= 45 and hit == 1:
+            warn.append(f"off-topic? part {i} touches the topic only once: \"{say[:70]}\"")
+        toks = re.findall(r"[a-z']+", say.lower())
+        last = len(s.get("sections", []))
+        for k in range(len(toks) - 7 if 1 < i < last else 0):      # the hook and the closing answer repeat the question on purpose
+            g = tuple(toks[k:k + 8])
+            if g in seen and seen[g] != i:
+                out.append(f"[script repeats itself] \"{' '.join(g)}\" is said in part {seen[g]} and part {i}")
+                break
+            seen.setdefault(g, i)
     return out, warn
+
 
 def fmt(t: float) -> str:
     return f"{int(t // 60)}:{int(t % 60):02d}"

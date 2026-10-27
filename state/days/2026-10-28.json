@@ -93,8 +93,13 @@
   },
   {
    "at": "2026-10-28T14:13:24+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "The prince who never stops learning. ✨ #youtube #youtubeshorts",
+   "type": "short",
+   "video_id": "bLsxqtvxpxI",
+   "voiced": true
   },
   {
    "at": "2026-10-28T15:01:13+04:00",

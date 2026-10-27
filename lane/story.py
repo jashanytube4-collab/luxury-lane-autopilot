@@ -532,6 +532,7 @@ def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int,
     used: list[Item] = []
     log.info("story material: %s items per section, %d spare", [len(p) for p in pools], len(spare))
 
+    plan_marks: list[tuple[int, int, dict, int, int]] = []     # (section, beat no., beat, first shot, last shot + 1)
     shots: list[Shot] = []
     voice_events: list[tuple[float, Path]] = []
     sfx: list[tuple[float, np.ndarray, float]] = []
@@ -552,6 +553,7 @@ def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int,
         boundaries.append((i, prev_tail + offset0 + lead, inner))
         prev_tail = length - offset0 - speech
         pool = pools[i]
+        sec_marks: list[tuple[int, dict, int, int]] = []     # (beat no., beat, first shot, last shot + 1) in this section
         if sec.get("beats"):   # sentence-level visuals: each beat shows its own pictures while it is spoken
             offset = 0.6 if i == 0 else 0.15
             spans = align(sec["beats"], voice.words, voice.duration)
@@ -616,6 +618,7 @@ def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int,
                     elif c == "riser":            # builds up and stops exactly where this sentence starts
                         sfx.append((start + a - 2.4, audio.riser(seed + 97 * i + j, 2.4), -12.0))
                 fit_shots(bshots, d)                  # the pictures last exactly as long as the sentence
+                sec_marks.append((j, beat, len(sec_shots), len(sec_shots) + len(bshots)))
                 sec_shots += bshots
             if i == 0:
                 sec_shots[0].dip_in = 8
@@ -655,6 +658,7 @@ def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int,
             fit_shots(sec_shots, length)
             sec_shots[0].xfade_in = 10
             sfx.append((start - 0.2, audio.whoosh(seed + i, 0.5), -16.0))
+        plan_marks += [(i, j, beat, len(shots) + lo, len(shots) + hi) for j, beat, lo, hi in sec_marks]
         shots += sec_shots
         voice_events.append((start + (0.6 if i == 0 else 0.15), voice.wav))
         if scfg.get("subtitles", True):      # subtitles: many viewers watch on mute, and non-native listeners stay
@@ -668,7 +672,7 @@ def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int,
     if dead:
         raise RuntimeError("dead air (more than 2 s without narration): " + "; ".join(dead))
     if plan_only:      # tools/plan_check.py: the exact shot list the renderer would film, without mixing or encoding
-        return shots
+        return shots, plan_marks
     # leftovers of the story's own pictures go to the closing card background
     if end_card > 0:
         hero = (got.his_photos or [Path(shots[0].src)])[0]

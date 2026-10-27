@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import logging
 import random
+import re
 import sys
 from pathlib import Path
 from types import SimpleNamespace
@@ -70,6 +71,122 @@ def check_shots(shots: list) -> list[str]:
     return problems
 
 
+def _tok(src) -> str | None:
+    """Picture token of a planned shot: sb-<id> for stock, clip:<id> for a library clip (photos have none)."""
+    name = Path(str(src)).stem
+    if Path(str(src)).suffix.lower() != ".mp4":
+        return None
+    return name if name.startswith("sb-") else f"clip:{name}"
+
+
+def check_beats(shots: list, marks: list, story_sections: list, tags: dict) -> tuple[list[str], list[str]]:
+    """Per sentence, on the REAL timeline: only its own pictures, each one fits the words, Hamdan lines show Hamdan,
+    first 30 s, holds, the ending."""
+    from tools.prerender_gate import HAM, STOP, aspect_ok, canon, fmt, relevance
+    fails: list[str] = []
+    warns: list[str] = []
+    vocab: set = set()
+    for t in tags.values():
+        vocab |= {canon(x) for x in t.get("tags", [])}
+    vocab -= STOP
+    starts, t = [], 0.0
+    for sh in shots:
+        starts.append(t)
+        t += sh.frames / FPS
+    ends = [a + sh.frames / FPS for a, sh in zip(starts, shots)]
+    for i, j, beat, lo, hi in marks:
+        say = str(beat.get("say", ""))
+        own = {str(x) for x in (beat.get("show") or []) if not str(x).startswith("card:")}
+        ref = f'{fmt(starts[lo])} "{say[:60]}"' if lo < hi else f'"{say[:60]}"'
+        hamdan_on = False
+        for k in range(lo, hi):
+            tok = _tok(shots[k].src)
+            if tok is None:
+                continue
+            tg = tags.get(tok, {})
+            if tok not in own:
+                fails.append(f"[filler] {tok} at {fmt(starts[k])} is not one of this sentence's own pictures | {ref}")
+                continue
+            if not tg:
+                fails.append(f"[untagged] {tok} has no tag entry | {ref}")
+                continue
+            r = relevance(tok, say, tg, vocab)
+            if r == "uncertain":
+                warns.append(f"uncertain fit {tok} | {ref}")
+            elif r != "ok":
+                fails.append(f"[relevance] {tok}: {r} | {ref}")
+            if tg.get("not_hamdan") and re.search(r"(hamdan|fazza)", say, re.I):
+                fails.append(f"[wrong person] {tok} is not Hamdan but the line is about him | {ref}")
+            hamdan_on = hamdan_on or tg.get("hamdan", 0) >= 0.3
+        if hi > lo and re.search(r"(hamdan|fazza)", say, re.I) and not hamdan_on:
+            fails.append(f"[hamdan line without Hamdan] no clip of him while the line is about him | {ref}")
+    # holds
+    for k, sh in enumerate(shots):
+        d = sh.frames / FPS
+        tok = _tok(sh.src)
+        if tok and d > (6.6 if tok.startswith("sb-") else 8.6):
+            fails.append(f"[held too long] {tok} {d:.1f}s at {fmt(starts[k])}")
+    # first 30 s: fast cuts, native 16:9 Hamdan clips
+    first = [k for k in range(len(shots)) if starts[k] < 30]
+    if len(first) < 13:
+        fails.append(f"[first 30 s] only {len(first)} shots (need 13+)")
+    for k in first:
+        tok = _tok(shots[k].src)
+        d = shots[k].frames / FPS
+        if d > 3.4:
+            fails.append(f"[first 30 s] shot held {d:.1f}s at {fmt(starts[k])} ({tok})")
+        if tok is None:
+            fails.append(f"[first 30 s] a photo at {fmt(starts[k])}")
+        elif tags.get(tok, {}).get("hamdan", 0) < 0.3:
+            fails.append(f"[first 30 s] {tok} at {fmt(starts[k])} is not a Hamdan clip")
+        else:
+            from tools.storyboard import find
+            f = find(tok)
+            bad = aspect_ok(f) if f else ""
+            if bad:
+                fails.append(f"[first 30 s] {tok} {bad}")
+    # no photo right after a photo
+    kinds = [sh.kind for sh in shots]
+    for k in range(1, len(shots)):
+        if kinds[k] == "photo" and kinds[k - 1] == "photo":
+            fails.append(f"[two photos in a row] at {fmt(starts[k])}")
+    # ending on Hamdan
+    last = next((_tok(sh.src) for sh in reversed(shots) if _tok(sh.src)), None)
+    if not last or tags.get(last, {}).get("hamdan", 0) < 0.3:
+        fails.append(f"[ending] last picture {last} is not Hamdan")
+    return fails, warns
+
+
+def check_thumbnail(got, story, seed: int, work: Path) -> list[str]:
+    """Build the thumbnail exactly like the render does, then check his face: found, big, whole, eyes not cut off."""
+    out: list[str] = []
+    try:
+        import cv2
+        from lane.faceid import FaceID
+        from lane.thumbnail import make_scene_thumbnail
+        if not got.thumb_scene:
+            return ["[thumbnail] no scene frame for the thumbnail"]
+        path = make_scene_thumbnail(got.thumb_scene, story.thumbnail.get("text", story.title),
+                                    story.thumbnail.get("tag", ""), work / "thumbnail.jpg", seed,
+                                    story.thumbnail.get("scene_crop"))
+        img = cv2.imread(str(path))
+        h, w = img.shape[:2]
+        row = FaceID().locate(img)
+        if row is None:      # detector needs a whole face: a very tight crop or a falcon over his mouth also fails
+            return [f"[thumbnail] warning: his whole face is not detected (cropped very tight or covered?): LOOK at {path}"]
+        x, y, fw, fh = (float(v) for v in row[:4])
+        eyes_y = [float(row[5]), float(row[7])]
+        if fh / h < 0.22:
+            out.append(f"[thumbnail] his face is small ({fh / h:.0%} of the height; need 22%+)")
+        if y < 0.02 * h or x < 0 or x + fw > w or y + fh > h:
+            out.append("[thumbnail] his face touches or leaves the picture edge (head/eyes cut off)")
+        if min(eyes_y) < 0.06 * h:
+            out.append("[thumbnail] his eyes are too close to the top edge")
+    except Exception as e:  # noqa: BLE001
+        out.append(f"[thumbnail] could not be built/checked: {e}")
+    return out
+
+
 def main(arg: str) -> int:
     from tools.prerender_gate import story_path
     from lane.config import load_config  # type: ignore
@@ -94,15 +211,24 @@ def main(arg: str) -> int:
     logging.getLogger().addHandler(catch)
     maker = st.StoryMaker(_stub_studio(), {}, {}, cfg)
     got = maker.gather(story, random.Random(1), work)
-    shots = st.produce_story(story, got, cfg, work, 1, plan_only=True)
+    shots, marks = st.produce_story(story, got, cfg, work, 1, plan_only=True)
     problems = check_shots(shots)
+    tags = yaml.safe_load((ROOT / "assets" / "clip_tags.yaml").read_text(encoding="utf-8")) or {}
+    f2, warns = check_beats(shots, marks, story.sections, tags)
+    th = check_thumbnail(got, story, 1, work)
+    warns += [x for x in th if "warning" in x]
+    problems += f2 + [x for x in th if "warning" not in x]
     problems += [f"renderer warning: {m}" for m in catch.lines if any(k in m.lower() for k in BAD_LOG)]
     total = sum(s.frames for s in shots) / FPS
     if problems:
         print(f"PLAN FAIL {story.id}: {len(shots)} shots, {total / 60:.1f} min, {len(problems)} problems")
         for p in problems:
             print("  FAIL", p)
+        for w in warns:
+            print("  warn", w)
         return 1
+    for w in warns:
+        print("  warn", w)
     print(f"PLAN PASS {story.id}: {len(shots)} shots, {total / 60:.1f} min")
     return 0
 

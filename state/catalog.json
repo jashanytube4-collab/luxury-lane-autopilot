@@ -899,12 +899,16 @@
   "video_len": 68
  },
  "hamdan approves medical tourism strategy": {
-  "last_short": "2026-10-25",
-  "montage_used": 1,
+  "last_short": "2026-10-28",
+  "montage_used": 2,
   "remix_ranges": [
    [
     29.184896091193437,
     31.37428838854633
+   ],
+   [
+    61.17217440695298,
+    62.81414213627705
    ]
   ],
   "video_exhausted": true,
@@ -1001,7 +1005,7 @@
  "hamdan attends wedding reception": {
   "last_short": "2026-10-28",
   "long": "2026-10-15",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     53.25558494307589,
@@ -1014,6 +1018,10 @@
    [
     9.494078401801525,
     11.516446709839286
+   ],
+   [
+    18.92,
+    20.8
    ]
   ],
   "video_exhausted": true,
@@ -1828,13 +1836,17 @@
   "long": "2026-10-17"
  },
  "hamdan bin mohammed attends al muhairi al rumaithi family wedding": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-28",
   "long": "2026-10-27",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     86.69715800486105,
     89.19529004055808
+   ],
+   [
+    70.26667525828802,
+    71.98393346046828
    ]
   ],
   "shorts_made": 1,
@@ -2380,6 +2392,7 @@
   "long": "2026-10-28",
   "montage_exhausted": true,
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     31.78666666666667,
@@ -3990,9 +4003,9 @@
   "video_len": 73
  },
  "hamdan bin mohammed extends condolences to families of pilots": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-28",
   "long": "2026-10-14",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     132.34533841902865,
@@ -4005,6 +4018,10 @@
    [
     70.666022609776,
     72.69194680355115
+   ],
+   [
+    107.32490035943466,
+    109.5449913317502
    ]
   ],
   "shorts_made": 1,
@@ -6975,9 +6992,9 @@
   "video_len": 118
  },
  "hamdan bin mohammed offers condolences to family of martyr khalid al shehi": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-28",
   "long": "2026-10-25",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     83.49779133078233,
@@ -6986,6 +7003,10 @@
    [
     60.277590669759284,
     62.14344753540951
+   ],
+   [
+    108.18977303238037,
+    110.59267981591228
    ]
   ],
   "shorts_made": 1,
@@ -7587,13 +7608,17 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed receives afc president": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-28",
   "long": "2026-10-14",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     13.3014644340285,
     14.708021920124526
+   ],
+   [
+    34.56509880037222,
+    36.29405970142879
    ]
   ],
   "video_exhausted": true,
@@ -10300,7 +10325,14 @@
   "video_len": 203
  },
  "hamdan bin mohammed visits public prosecution": {
-  "last_short": "2026-10-22",
+  "last_short": "2026-10-28",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    276.27271542570674,
+    278.0975852884907
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [

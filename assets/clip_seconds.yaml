@@ -1,0 +1,329 @@
+sb-10491210:
+  dur: 18.7
+  sec:
+  - action: static shot of a house
+    desc: A modern two-story house with white walls and dark wood accents stands behind a black metal fence, with a paved driveway leading up to it.
+    person: none
+    quality: ok
+    shot: wide
+    t: 0
+    tags:
+    - driveway
+    - fence
+    - gate
+    - grass
+    - house
+    - path
+    - roof
+    - sky
+    - stone
+    - trees
+    - wall
+    - wood
+  - action: static exterior shot of a house
+    desc: A modern two-story villa with white and dark wood cladding, surrounded by a black metal gate and green lawn under bright daylight.
+    person: none
+    quality: ok
+    shot: wide
+    t: 1
+    tags:
+    - carport
+    - driveway
+    - fence
+    - gate
+    - grass
+    - modern architecture
+    - sky
+    - stone path
+    - trees
+    - villa
+    - white walls
+    - wood
+  - action: static shot of a modern home exterior
+    desc: A modern two-story house with white walls and dark wood accents stands behind a black metal gate, with a paved driveway leading up to it under bright daylight.
+    person: none
+    quality: ok
+    shot: photo-still
+    t: 2
+    tags:
+    - driveway
+    - fence
+    - gate
+    - grass
+    - house
+    - light
+    - pavement
+    - roof
+    - sky
+    - tree
+    - white wall
+    - wood
+  - action: static exterior shot of a modern home
+    desc: A modern two-story house with white walls and dark wood accents stands behind a black metal fence, with a paved driveway leading up to it under bright daylight.
+    person: none
+    quality: ok
+    shot: photo-still
+    t: 3
+    tags:
+    - concrete
+    - driveway
+    - fence
+    - gate
+    - grass
+    - house
+    - light
+    - roof
+    - sky
+    - trees
+    - wall
+    - wood
+  - action: static exterior shot of a house
+    desc: A modern two-story villa with white and dark wood cladding, a black metal gate, and a paved driveway under bright daylight.
+    person: none
+    quality: ok
+    shot: wide
+    t: 4
+    tags:
+    - carport
+    - driveway
+    - fence
+    - gate
+    - grass
+    - pavement
+    - roof
+    - sky
+    - trees
+    - villa
+    - white walls
+    - wood
+  - action: car parked in driveway
+    desc: A black car is parked on a paved driveway in front of a modern house with wooden and white walls; the scene is lit by bright daylight.
+    person: none
+    quality: ok
+    shot: wide
+    t: 5
+    tags:
+    - car
+    - driveway
+    - gate
+    - grass
+    - house
+    - pavement
+    - sky
+    - tree
+    - white wall
+    - wooden wall
+  - action: car parked in driveway
+    desc: A sleek black SUV is parked on a paved driveway in front of a modern house with wooden and white paneling. The car's side profile, including the door handle and alloy wheel, is clearly visible
+      under bright daylight.
+    person: none
+    quality: ok
+    shot: medium
+    t: 6
+    tags:
+    - building
+    - car
+    - daylight
+    - driveway
+    - grass
+    - house
+    - modern
+    - pavement
+    - suv
+    - tree
+    - wheel
+    - wood
+  - action: car parked in driveway
+    desc: A sleek black SUV is parked on a paved driveway in front of a modern house with wooden and stone accents. The car reflects the bright sunlight, showing its polished exterior and stylish alloy
+      wheels.
+    person: none
+    quality: ok
+    shot: wide
+    t: 7
+    tags:
+    - alloy-wheels
+    - black-suv
+    - curb
+    - driveway
+    - grass-patch
+    - modern-house
+    - paved-surface
+    - stone-wall
+    - sunlight-reflection
+    - wooden-accent
+  - action: car parked on driveway
+    desc: A black SUV is parked on a paved driveway in front of a modern house with wooden and stone walls.
+    person: none
+    quality: ok
+    shot: photo-still
+    t: 8
+    tags:
+    - car
+    - driveway
+    - exhaust pipe
+    - fence
+    - grass
+    - house
+    - sky
+    - stone wall
+    - tail light
+    - tree
+    - wheel
+    - wooden wall
+  - action: car parked on driveway
+    desc: A black SUV is parked on a paved driveway in front of a modern house with wooden and stone walls.
+    person: none
+    quality: ok
+    shot: medium
+    t: 9
+    tags:
+    - car
+    - driveway
+    - fence
+    - grass
+    - house
+    - shadow
+    - sky
+    - stone wall
+    - tail light
+    - tree
+    - wheel
+    - wooden wall
+  - action: black-suv-exits-gate
+    desc: A black SUV exits a modern house through a gate onto a paved driveway, with sunlight reflecting off its glossy paint and the surrounding green lawn.
+    person: none
+    quality: ok
+    shot: wide
+    t: 10
+    tags:
+    - black-suv
+    - car-tail-lights
+    - driveway
+    - fence
+    - gate
+    - green-lawn
+    - house-garage
+    - modern-house
+    - paved-road
+    - sunlight
+  - action: car parked in driveway
+    desc: A black SUV is parked in the driveway of a modern house with a wooden and white facade. The car is positioned near a dark metal gate, with green grass and trees visible nearby.
+    person: none
+    quality: ok
+    shot: wide
+    t: 11
+    tags:
+    - car
+    - driveway
+    - gate
+    - grass
+    - house
+    - roof
+    - sky
+    - trees
+    - wall
+    - window
+  - action: car parked in driveway
+    desc: A modern house with a black SUV parked in the driveway, surrounded by greenery and a metal fence.
+    person: none
+    quality: ok
+    shot: wide
+    t: 12
+    tags:
+    - car
+    - driveway
+    - fence
+    - gate
+    - grass
+    - house
+    - roof
+    - sky
+    - tree
+    - wall
+  - action: car parked in driveway
+    desc: A modern two-story villa with wooden and white walls, surrounded by a dark metal fence and green lawn. A black SUV is parked in the driveway under the carport.
+    person: none
+    quality: ok
+    shot: wide
+    t: 13
+    tags:
+    - carport
+    - driveway
+    - fence
+    - gate
+    - lawn
+    - roof
+    - sky
+    - suv
+    - trees
+    - villa
+  - action: car parked in garage
+    desc: A modern two-story villa with wooden and white walls, a dark metal fence, and a driveway leading to a garage where a black SUV is parked. A small tree stands near the left side of the house.
+    person: none
+    quality: ok
+    shot: wide
+    t: 14
+    tags:
+    - car
+    - driveway
+    - fence
+    - garage
+    - grass
+    - roof
+    - sky
+    - tree
+    - villa
+    - wall
+  - action: car parked in driveway
+    desc: A modern two-story villa with white and wood paneling, a dark metal fence, and a car parked in the driveway under bright daylight.
+    person: none
+    quality: ok
+    shot: wide
+    t: 15
+    tags:
+    - car
+    - driveway
+    - fence
+    - gate
+    - grass
+    - light
+    - roof
+    - shadow
+    - sky
+    - trees
+    - villa
+    - wall
+  - action: car parked in garage
+    desc: A modern two-story villa with wooden and white facade, featuring a gated driveway leading to an open garage where a dark SUV is parked.
+    person: none
+    quality: ok
+    shot: wide
+    t: 16
+    tags:
+    - car
+    - concrete
+    - driveway
+    - garage
+    - gate
+    - grass
+    - sky
+    - tree
+    - villa
+    - wood
+  - action: car parked in garage
+    desc: A modern two-story villa with white and dark wood cladding, featuring a gated driveway leading to a garage where a black car is partially visible.
+    person: none
+    quality: ok
+    shot: wide
+    t: 17
+    tags:
+    - car
+    - driveway
+    - gate
+    - grass
+    - roof
+    - sky
+    - tree
+    - villa
+    - white walls
+    - wood

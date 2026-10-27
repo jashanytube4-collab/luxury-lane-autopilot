@@ -277,7 +277,7 @@ def main() -> None:
                     pass
 
 
-ADS_HOURS = (13, 19, 23)      # laptop clock: 3 short checks a day for NEW long videos (ads ON, owner's standing rule)
+ADS_HOURS = (9, 11, 13, 15, 17, 18, 19, 21, 23)      # laptop clock: short Studio checks for NEW long videos (ads ON while still private/scheduled; owner rule, no Claude used)
 
 
 def ads_watch() -> None:

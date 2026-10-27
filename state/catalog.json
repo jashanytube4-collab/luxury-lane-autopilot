@@ -1480,6 +1480,7 @@
  },
  "hamdan bin mohammed approves executive council s 2020 agenda unifies health insurance programmes": {
   "last_short": "2026-10-26",
+  "montage_exhausted": true,
   "montage_used": 1,
   "remix_ranges": [
    [
@@ -3018,8 +3019,8 @@
   "video_len": 164
  },
  "hamdan bin mohammed attends the knowledge summit 2018": {
-  "last_short": "2026-10-27",
-  "montage_used": 1,
+  "last_short": "2026-10-28",
+  "montage_used": 2,
   "remix_ranges": [
    [
     21.009627951075547,
@@ -3063,6 +3064,10 @@
    [
     419.44,
     425.2
+   ],
+   [
+    115.72,
+    119.0
    ]
   ],
   "video_len": 507
@@ -3676,6 +3681,7 @@
  },
  "hamdan bin mohammed crowns winner of global teacher prize": {
   "last_short": "2026-10-25",
+  "montage_exhausted": true,
   "montage_used": 2,
   "remix_ranges": [
    [
@@ -5284,6 +5290,7 @@
  },
  "hamdan bin mohammed launches third phase of dubai 10x initiative": {
   "last_short": "2026-10-27",
+  "montage_exhausted": true,
   "montage_used": 1,
   "remix_ranges": [
    [
@@ -5635,6 +5642,7 @@
  },
  "hamdan bin mohammed meets medical team that conducted the arab world s first ever intrauterine fetal surgery": {
   "last_short": "2026-10-11",
+  "montage_exhausted": true,
   "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
@@ -5790,9 +5798,9 @@
   "video_len": 111
  },
  "hamdan bin mohammed meets with ceo of whoop tours pavilions of morocco switzerland and baden w rttemberg at expo 2020 dubai": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-28",
   "long": "2026-10-20",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -5821,6 +5829,10 @@
    [
     29.220000000000002,
     31.63
+   ],
+   [
+    79.52000000000001,
+    81.28
    ]
   ],
   "video_exhausted": true,
@@ -6679,9 +6691,9 @@
   "long": "2026-10-28"
  },
  "hamdan bin mohammed offers condolences on death of moza bint ali al weri": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-28",
   "long": "2026-10-14",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     17.37089556107783,
@@ -6721,6 +6733,10 @@
    [
     73.46,
     75.87
+   ],
+   [
+    2.2799999999999994,
+    7.279999999999999
    ]
   ],
   "video_exhausted": true,
@@ -8178,7 +8194,8 @@
   "video_len": 68
  },
  "hamdan bin mohammed reviews the latest technologies and energy solutions at wetex 2019": {
-  "last_short": "2026-10-21",
+  "last_short": "2026-10-28",
+  "montage_used": 1,
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -8232,6 +8249,10 @@
    [
     248.32,
     251.84
+   ],
+   [
+    143.32,
+    147.12
    ]
   ],
   "video_exhausted": true,
@@ -10462,8 +10483,8 @@
   "video_len": 263
  },
  "hamdan bin mohammed watches the historic launch of zayed ambition 2": {
-  "last_short": "2026-10-27",
-  "montage_used": 3,
+  "last_short": "2026-10-28",
+  "montage_used": 4,
   "remix_ranges": [
    [
     76.96247371777686,
@@ -10495,6 +10516,10 @@
    [
     29.486666666666668,
     32.68
+   ],
+   [
+    38.986666666666665,
+    42.24666666666667
    ]
   ],
   "video_exhausted": true,
@@ -12758,6 +12783,7 @@
  },
  "sultan haitham bin tariq receives hamdan bin mohammed in muscat": {
   "fails": 1,
+  "montage_exhausted": true,
   "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 83
@@ -12946,6 +12972,7 @@
  "umm al qaiwain ruler performs funeral prayer on late sheikh mansour bin ahmad bin ali al thani": {
   "last_short": "2026-10-27",
   "long": "2026-10-28",
+  "montage_exhausted": true,
   "montage_used": 3,
   "remix_ranges": [
    [

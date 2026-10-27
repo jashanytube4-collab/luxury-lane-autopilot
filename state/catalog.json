@@ -180,13 +180,17 @@
   "no_hamdan": true
  },
  "dubai crown prince attends al ketbi family wedding reception": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-28",
   "long": "2026-10-27",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     49.57652033197624,
     51.88523412414723
+   ],
+   [
+    79.52707578129677,
+    81.40642277770033
    ]
   ],
   "shorts_made": 1,
@@ -4290,8 +4294,8 @@
   "video_len": 385
  },
  "hamdan bin mohammed honors winners of dubai appreciation award for community service": {
-  "last_short": "2026-10-27",
-  "montage_used": 2,
+  "last_short": "2026-10-28",
+  "montage_used": 3,
   "remix_ranges": [
    [
     179.39335360955343,
@@ -4300,6 +4304,10 @@
    [
     73.91997010687146,
     76.49403888159136
+   ],
+   [
+    57.161211738533936,
+    59.48515667481121
    ]
   ],
   "shorts_made": 3,
@@ -7731,7 +7739,7 @@
  "hamdan bin mohammed receives afc president": {
   "last_short": "2026-10-28",
   "long": "2026-10-14",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     13.3014644340285,
@@ -7740,6 +7748,10 @@
    [
     34.56509880037222,
     36.29405970142879
+   ],
+   [
+    0.715897846915948,
+    2.447667944867741
    ]
   ],
   "video_exhausted": true,
@@ -8838,7 +8850,7 @@
  "hamdan bin mohammed tours gitex 2013": {
   "last_short": "2026-10-28",
   "long": "2026-10-14",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     23.353333333333335,
@@ -8847,6 +8859,10 @@
    [
     15.698007922410358,
     18.26092291347226
+   ],
+   [
+    27.585057415306046,
+    30.039595010644287
    ]
   ],
   "video_exhausted": true,
@@ -9416,7 +9432,7 @@
  "hamdan bin mohammed visits art dubai": {
   "last_short": "2026-10-28",
   "long": "2026-10-13",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     49.68,
@@ -9425,6 +9441,10 @@
    [
     58.42162507274047,
     60.68443046973776
+   ],
+   [
+    6.47765389343478,
+    7.938765478217089
    ]
   ],
   "shorts_made": 2,
@@ -10198,9 +10218,9 @@
   "video_len": 213
  },
  "hamdan bin mohammed visits hazrat imam mosque in uzbekistan": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     14.613102080781365,
@@ -10209,6 +10229,10 @@
    [
     32.54,
     34.6
+   ],
+   [
+    27.73180488293118,
+    29.99588569523784
    ]
   ],
   "shorts_made": 1,
@@ -11087,8 +11111,8 @@
   "video_len": 160
  },
  "hamdan chairs expo 2020 higher committee s first session": {
-  "last_short": "2026-10-26",
-  "montage_used": 2,
+  "last_short": "2026-10-28",
+  "montage_used": 3,
   "remix_ranges": [
    [
     61.387647776978035,
@@ -11097,6 +11121,10 @@
    [
     113.60734306478201,
     115.42431729220098
+   ],
+   [
+    68.18805784721002,
+    69.72964559168173
    ]
   ],
   "video_exhausted": true,
@@ -12604,13 +12632,17 @@
  },
  "khaled bin mohamed bin zayed and hamdan bin mohammed bin rashid witness announcement of high speed train project linking abu dhabi dubai": {
   "fails": 1,
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-28",
   "long": "2026-10-27",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     44.086666666666666,
     45.78
+   ],
+   [
+    48.12705751831478,
+    50.09650306822881
    ]
   ],
   "video_exhausted": true,

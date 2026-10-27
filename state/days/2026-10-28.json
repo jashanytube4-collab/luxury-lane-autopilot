@@ -241,8 +241,13 @@
   },
   {
    "at": "2026-10-29T02:51:00+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Loyalty, faith and vision. ❤️ #fazza #youtubeshorts #youtube",
+   "type": "short",
+   "video_id": "VsCO-UnT3Xs",
+   "voiced": true
   },
   {
    "at": "2026-10-29T03:40:39+04:00",

@@ -753,7 +753,7 @@
  },
  "dubai crown prince visits emirates nbd head office": {
   "last_short": "2026-10-28",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     104.60402386812525,
@@ -762,6 +762,10 @@
    [
     64.9406944338778,
     66.83258357336707
+   ],
+   [
+    55.78945181484759,
+    57.38492989513637
    ]
   ],
   "shorts_made": 1,
@@ -1992,7 +1996,7 @@
   "last_short": "2026-10-28",
   "long": "2026-10-12",
   "montage_exhausted": true,
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     157.20665668958088,
@@ -2001,6 +2005,10 @@
    [
     152.56530155086313,
     154.0326551198948
+   ],
+   [
+    90.8327041692172,
+    93.02754909652542
    ]
   ],
   "shorts_made": 1,
@@ -4071,7 +4079,7 @@
  "hamdan bin mohammed extends condolences to families of pilots": {
   "last_short": "2026-10-28",
   "long": "2026-10-14",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     132.34533841902865,
@@ -4088,6 +4096,10 @@
    [
     107.32490035943466,
     109.5449913317502
+   ],
+   [
+    16.569583508185694,
+    18.544354361544062
    ]
   ],
   "shorts_made": 1,
@@ -4675,8 +4687,8 @@
   "video_len": 105
  },
  "hamdan bin mohammed inaugurates dubai ai campus cluster at the difc innovation hub": {
-  "last_short": "2026-10-27",
-  "montage_used": 2,
+  "last_short": "2026-10-28",
+  "montage_used": 3,
   "remix_ranges": [
    [
     6.902635197993996,
@@ -4685,6 +4697,10 @@
    [
     28.653333333333336,
     30.913333333333334
+   ],
+   [
+    45.34138036734333,
+    46.900080164012614
    ]
   ],
   "shorts_made": 1,
@@ -7103,7 +7119,7 @@
  "hamdan bin mohammed offers condolences to family of martyr al mesmari": {
   "last_short": "2026-10-28",
   "long": "2026-10-27",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     70.2,
@@ -7116,6 +7132,10 @@
    [
     34.097606878318494,
     36.54820374250205
+   ],
+   [
+    80.19379969842421,
+    82.13403434929498
    ]
   ],
   "shorts_made": 1,
@@ -7783,12 +7803,16 @@
   "video_len": 97
  },
  "hamdan bin mohammed receives canadian ambassador": {
-  "last_short": "2026-10-27",
-  "montage_used": 1,
+  "last_short": "2026-10-28",
+  "montage_used": 2,
   "remix_ranges": [
    [
     8.984166547999786,
     10.457340834482181
+   ],
+   [
+    65.93491027062157,
+    67.9300800186855
    ]
   ],
   "shorts_made": 1,
@@ -11317,7 +11341,9 @@
   "video_len": 71
  },
  "hamdan receives outgoing saudi s consul general": {
-  "video_exhausted": true
+  "remix_exhausted": true,
+  "video_exhausted": true,
+  "video_len": 56
  },
  "hamdan receives qatar ambassador": {
   "remix_exhausted": true,
@@ -12612,7 +12638,7 @@
   "last_short": "2026-10-28",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     193.4567455027698,
@@ -12633,6 +12659,10 @@
    [
     154.06643655891335,
     155.73141850402527
+   ],
+   [
+    93.08159117618682,
+    94.83239311962748
    ]
   ],
   "shorts_made": 3,
@@ -12933,7 +12963,7 @@
  "mohamed bin zayed offers condolences to hamdan bin mohammed on mansour bin ahmed al thani": {
   "last_short": "2026-10-28",
   "long": "2026-10-28",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     165.28775802571622,
@@ -12946,6 +12976,10 @@
    [
     56.16,
     58.32
+   ],
+   [
+    154.20000000000002,
+    155.88
    ]
   ],
   "shorts_made": 1,

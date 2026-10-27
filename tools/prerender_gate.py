@@ -296,6 +296,58 @@ def relevance(tok: str, say: str, tg: dict, vocab: set) -> str:
             f"clip shows {sorted(tg.get('tags', []))[:5]}, Hamdan face in {tg.get('hamdan', 0):.0%} of frames")
 
 
+NAME_STOP = {"hamdan", "fazza", "dubai", "prince", "crown", "sheikh", "emirates", "united", "arab", "uae", "the", "this",
+             "that", "when", "then", "here", "there", "what", "why", "how", "but", "and", "now", "yet", "still", "some",
+             "other", "every", "many", "most", "more", "once", "only", "even", "also", "just", "tell", "think", "with",
+             "from", "his", "has", "had", "was", "who", "not", "one", "two", "three", "four", "five", "ten", "july",
+             "october", "september", "august", "june", "may", "april", "march", "february", "january", "november", "december",
+             "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday", "instagram", "youtube", "google",
+             "arabic", "english", "gulf", "middle", "east", "luxury", "lane", "stock", "none", "nobody", "everyone", "today",
+             "first", "second", "third", "last", "next", "his", "her", "they", "their", "she", "him", "because", "while",
+             "after", "before", "until", "since", "though", "although", "instead", "maybe", "perhaps", "sometimes", "another"}
+
+
+def _names(text: str) -> set[str]:
+    out = set()
+    for sent in re.split(r"(?<=[.!?])\s+", text):
+        for m in re.finditer(r"(?<!^)(?<=\s)([A-Z][a-z]{3,})", sent):
+            w = m.group(1).lower()
+            if w not in NAME_STOP:
+                out.add(w)
+    return out
+
+
+def topic_fails(s: dict, path: Path) -> list[str]:
+    """The script must be about the video's topic: every part shares words with the title/description/tags, and names that
+    belong to OTHER stories (a rescue, a pilot, a rider) must not turn up here unless this story is about them."""
+    tit = " ".join([str(s.get("title", "")), str(s.get("description", "")), " ".join(map(str, s.get("tags", []))),
+                    str((s.get("thumbnail") or {}).get("text", ""))])
+    vocab = words_of(tit)
+    mine = _names(tit) | {w.lower() for w in re.findall(r"[A-Za-z]{4,}", tit)}
+    other: dict[str, str] = {}
+    for p in STORIES.glob("*.yaml"):
+        if p.resolve() == Path(path).resolve():
+            continue
+        try:
+            o = yaml.safe_load(p.read_text(encoding="utf-8")) or {}
+        except (OSError, yaml.YAMLError):
+            continue
+        otext = " ".join([str(o.get("title", "")), " ".join(map(str, o.get("tags", [])))])
+        for w in re.findall(r"[A-Z][a-z]{3,}", otext):
+            if w.lower() not in NAME_STOP:
+                other.setdefault(w.lower(), str(o.get("id", p.stem)))
+    out = []
+    for i, sec in enumerate(s.get("sections", []), 1):
+        say = " ".join(str(b.get("say", "")) for b in sec.get("beats", [])) or str(sec.get("say", ""))
+        ws = words_of(say)
+        if len(ws) >= 25 and len(ws & vocab) < 2:
+            out.append(f"[off-topic] part {i} shares almost no words with the title/description/tags: \"{say[:70]}\"")
+        for n in sorted(_names(say) & set(other)):
+            if n not in mine:
+                out.append(f"[off-topic] part {i} names '{n.title()}', which belongs to another story ({other[n]}), not this one: \"{say[:60]}\"")
+    return out
+
+
 def fmt(t: float) -> str:
     return f"{int(t // 60)}:{int(t % 60):02d}"
 
@@ -422,6 +474,7 @@ def run_gate(path: Path, use_voice: bool = True) -> tuple[list[str], list[str], 
     fails: list[str] = []
     warns: list[str] = []
     fails += [f"[lint] {p}" for p in lint(path)]
+    fails += topic_fails(s, path)
     voices, vnotes = voice_timing(s, use_voice)
     warns += vnotes
     shots = timeline(s, voices)

@@ -118,6 +118,10 @@ def check_beats(shots: list, marks: list, story_sections: list, tags: dict) -> t
             if tg.get("not_hamdan") and re.search(r"(hamdan|fazza)", say, re.I):
                 fails.append(f"[wrong person] {tok} is not Hamdan but the line is about him | {ref}")
             hamdan_on = hamdan_on or tg.get("hamdan", 0) >= 0.3
+            if (tok.startswith("sb-") and tg.get("people") and tg.get("hamdan", 0) < 0.3
+                    and HAM.search(say)):
+                fails.append(f"[stock person on a Hamdan line] {tok} shows a stranger while the line is about him "
+                             f"(viewers will think it is him) | {ref}")
         if hi > lo and re.search(r"(hamdan|fazza)", say, re.I) and not hamdan_on:
             fails.append(f"[hamdan line without Hamdan] no clip of him while the line is about him | {ref}")
     # holds

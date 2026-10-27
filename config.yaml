@@ -35,6 +35,12 @@ longform:
   held:                              # long videos moved to another day by the owner (no new one is made that day)
     "2026-10-19": {video_id: apj28JczdLs, at: "2026-10-19T18:40:00+04:00",
                    title: "Inside Prince Hamdan's Secret Palace Life — Lions, Supercars and a Fortune Nobody Agrees On"}
+    "2026-10-27": {video_id: FuHLAg8YI3k, at: "2026-10-27T19:00:00+04:00",
+                   title: "How Much Does Prince Fazza REALLY Earn and Spend in a Day? The Truth Behind the Rumours"}
+    "2026-10-28": {video_id: KMfnbJY32-s, at: "2026-10-28T19:29:04+04:00",
+                   title: "The Princess Who Tried to Escape Dubai by Sea — The Untold Story of Fazza's Sister Latifa"}
+    "2026-10-29": {video_id: VvXNS2aqSGs, at: "2026-10-29T18:44:12+04:00",
+                   title: "Fazza's Brother Died at 33 — The Rumours Dubai Never Answered"}
 
 short:
   min_seconds: 12                   # every Short is a random length between these (12-17 s)

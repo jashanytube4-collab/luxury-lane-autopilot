@@ -9,9 +9,9 @@ channel:
 source:
   library_repo: jashanytube4-collab/luxury-lane-library   # private copy of the official videos (YouTube blocks GitHub)
   instagram:                         # Instagram accounts read through Meta's official API (IG_TOKEN secret)
-    - {name: faz3, pages: 30}        # his own posts: the personal moments (older posts too, collected over time)
-    - {name: dubaimediaoffice, only_hamdan: true, pages: 4}   # official videos, only posts about him
-  instagram_per_run: 100             # new videos copied, checked (face) and described (AI) per run;
+    - {name: faz3, pages: 60}        # his own posts: the personal moments (older posts too, collected over time)
+    - {name: dubaimediaoffice, only_hamdan: true, pages: 10}   # official videos, only posts about him
+  instagram_per_run: 200             # new videos copied, checked (face) and described (AI) per run;
                                      # new videos are copied into the private library automatically
 
 schedule:

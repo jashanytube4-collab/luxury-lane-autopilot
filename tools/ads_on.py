@@ -1,7 +1,7 @@
 """Turn Watch Page ads ON for long videos (Studio > video > Earn), in the hidden Studio browser. No Claude needed.
 
-    python -m tools.ads_on                  every long video that shows "Ads off" in the content list (2 pages)
-    python -m tools.ads_on <id> [<id> ...]  just these videos
+    python -m tools.ads_on <id> --rate-none just this (new) video: the normal use, right after an upload
+    python -m tools.ads_on --all            every long video that shows "Ads off" (only if the owner asks)
     python -m tools.ads_on --check          only list what is off, change nothing
     --rate-none                             answer YouTube's content rating with 'None of the above' (owner's declaration:
                                             use only for videos where none of the listed items really apply)
@@ -75,6 +75,9 @@ def main(argv: list[str]) -> int:
     from playwright.sync_api import sync_playwright
     check = "--check" in argv
     ids = [a for a in argv if not a.startswith("--")]
+    if not ids and "--all" not in argv and not check:
+        print("give the new video's id (older videos are left alone on purpose); --all scans every long video")
+        return 2
     ids = ids or videos_with_ads_off()
     if not ids:
         print("every long video already has ads on")

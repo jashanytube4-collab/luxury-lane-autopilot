@@ -138,8 +138,13 @@
   },
   {
    "at": "2026-10-28T18:16:14+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Where innovation meets tradition: Dubai and Hamdan. #youtubeshorts #youtube",
+   "type": "short",
+   "video_id": "09aH_kUXVNg",
+   "voiced": true
   },
   {
    "at": "2026-10-28T18:44:12+04:00",

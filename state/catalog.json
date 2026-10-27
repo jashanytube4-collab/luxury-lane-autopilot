@@ -127,13 +127,17 @@
   "long": "2026-10-17"
  },
  "crown prince offers condolences to families of martyrs almazroui and dhahoori": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-28",
   "long": "2026-10-28",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     126.48707207884229,
     128.78910987469396
+   ],
+   [
+    30.923246998341614,
+    32.52197199117342
    ]
   ],
   "shorts_made": 1,
@@ -2837,8 +2841,17 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends safeguarding endangered cultural heritage conference": {
+  "last_short": "2026-10-28",
   "long": "2026-10-24",
-  "video_exhausted": true
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    56.292619883038824,
+    57.73540677724607
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 107
  },
  "hamdan bin mohammed attends sardinia endurance race": {
   "no_hamdan": true
@@ -8472,13 +8485,17 @@
   "video_len": 43
  },
  "hamdan bin mohammed the uae has taken strides in energy sustainability": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-28",
   "long": "2026-10-14",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     5.521611542302555,
     7.490857305479385
+   ],
+   [
+    10.732972955808545,
+    12.517005666691611
    ]
   ],
   "shorts_made": 2,
@@ -8888,7 +8905,7 @@
  },
  "hamdan bin mohammed unveils 5 star plaque at sheikh zayed housing programme in dubai": {
   "last_short": "2026-10-28",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     144.8978218171365,
@@ -8905,6 +8922,10 @@
    [
     200.7872463575129,
     202.78273541981773
+   ],
+   [
+    138.03974945728413,
+    140.40814377856435
    ]
   ],
   "shorts_made": 3,
@@ -9132,12 +9153,16 @@
   "long": "2026-10-13"
  },
  "hamdan bin mohammed visits al seef project": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-28",
+  "montage_used": 2,
   "remix_ranges": [
    [
     15.827142872614093,
     17.77612186597223
+   ],
+   [
+    134.25518864167609,
+    135.85660414628637
    ]
   ],
   "video_exhausted": true,
@@ -9510,8 +9535,8 @@
   "video_len": 62
  },
  "hamdan bin mohammed visits dp world s facilities inspects operations of jebel ali port": {
-  "last_short": "2026-10-27",
-  "montage_used": 2,
+  "last_short": "2026-10-28",
+  "montage_used": 3,
   "remix_ranges": [
    [
     23.240000000000002,
@@ -9520,6 +9545,10 @@
    [
     303.8,
     305.6
+   ],
+   [
+    137.32,
+    139.79999999999998
    ]
   ],
   "shorts_made": 1,
@@ -9876,12 +9905,16 @@
   "video_len": 58
  },
  "hamdan bin mohammed visits exhibition that tells story of uae s participation in world expos": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-28",
+  "montage_used": 2,
   "remix_ranges": [
    [
     18.504851306577798,
     20.580713335844298
+   ],
+   [
+    118.79202971219276,
+    120.29667528838014
    ]
   ],
   "shorts_made": 3,

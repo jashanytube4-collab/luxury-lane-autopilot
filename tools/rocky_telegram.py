@@ -277,27 +277,48 @@ def main() -> None:
                     pass
 
 
-ADS_HOURS = (9, 11, 13, 15, 17, 18, 19, 21, 23)      # laptop clock: short Studio checks for NEW long videos (ads ON while still private/scheduled; owner rule, no Claude used)
+ADS_HOURS = (13, 23)      # laptop clock: fallback Studio checks; the main trigger is the upload commit (see ads_watch)
+REPO = "jashanytube4-collab/luxury-lane-autopilot"
 
 
 def ads_watch() -> None:
-    """Three times a day (not all day): turn ads ON for any new long video. No Claude; the tool does nothing if there is none."""
+    """Turn ads ON for a new long video right after its upload (video still private/scheduled). Every 5 minutes one tiny
+    GitHub call looks for a new 'story ...' upload commit; only then Studio is opened (ads_on --new). Two fallback checks a day.
+    No Claude is used."""
     import datetime as dt
     import subprocess
+    py = Path(sys.executable).with_name("python.exe")
+    py = str(py if py.exists() else sys.executable)
+    gh = str(ROOT / "models" / "gh" / "bin" / "gh.exe")
+    seen: set[str] = set()
+    first = True
     done = None
+
+    def run_ads() -> None:
+        try:
+            r = subprocess.run([py, "-m", "tools.ads_on", "--new"], cwd=str(ROOT), capture_output=True, text=True, timeout=900)
+            log.info("ads_on --new: %s %s", r.returncode, (r.stdout or r.stderr)[-300:].strip())
+        except Exception as e:  # noqa: BLE001
+            log.warning("ads_on --new failed: %s", e)
+
     while True:
-        time.sleep(300)
+        try:
+            out = subprocess.run([gh, "api", f"repos/{REPO}/commits?per_page=15", "--jq", '.[] | .sha + " " + (.commit.message[0:60] | gsub("[\r\n]"; " "))'],
+                                 cwd=str(ROOT), capture_output=True, text=True, timeout=60).stdout
+            rows = [ln.split(" ", 1) for ln in out.splitlines() if " " in ln]
+            new = [m for sha, m in rows if sha not in seen]
+            seen.update(sha for sha, _ in rows)
+            if not first and any(m.lower().startswith("story ") for m in new):
+                log.info("new long-video upload commit -> ads_on --new")
+                run_ads()
+            first = False
+        except Exception as e:  # noqa: BLE001
+            log.warning("ads commit watch failed: %s", e)
         now = dt.datetime.now()
-        slot = (now.date(), now.hour)
-        if now.hour in ADS_HOURS and slot != done:
-            done = slot
-            try:
-                py = Path(sys.executable).with_name("python.exe")
-                r = subprocess.run([str(py if py.exists() else sys.executable), "-m", "tools.ads_on", "--new"],
-                                   cwd=str(ROOT), capture_output=True, text=True, timeout=900)
-                log.info("ads_on --new: %s %s", r.returncode, (r.stdout or r.stderr)[-300:].strip())
-            except Exception as e:  # noqa: BLE001
-                log.warning("ads_on --new failed: %s", e)
+        if now.hour in ADS_HOURS and (now.date(), now.hour) != done:
+            done = (now.date(), now.hour)
+            run_ads()
+        time.sleep(300)
 
 
 def hear_warmup() -> None:

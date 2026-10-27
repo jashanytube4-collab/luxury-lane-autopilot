@@ -123,8 +123,13 @@
   },
   {
    "at": "2026-10-28T16:44:15+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "The world knows his name. His people know his heart. #youtubeshorts #ytshorts",
+   "type": "short",
+   "video_id": "DiXSAdMqFww",
+   "voiced": true
   },
   {
    "at": "2026-10-28T17:27:33+04:00",

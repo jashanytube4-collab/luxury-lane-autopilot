@@ -421,6 +421,20 @@ class Brain:
             return plain
         return out if (words * 0.6) <= _words(out) <= words + 10 else (plain if not article else "")
 
+    def lengthen(self, script: str, words: int) -> str:
+        """Owner rule: a narrated Short talks at least 8 s. Stretch a too-short narration to about `words` words."""
+        prompt = (f"Rewrite this short narration so it is about {words} words. Keep the opening hook and every fact exactly "
+                  f"as stated; add NO new facts, names, numbers or dates. Lengthen only with vivid, true-to-the-footage "
+                  f"description of the moment, the feeling and what it shows about him, and end with a line that makes "
+                  f"fans proud. Same voice. Reply with the narration only.\n\n"
+                  f"\"\"\"{script}\"\"\"")
+        try:
+            out = clean(self.llm.chat([{"type": "text", "text": prompt}], schema=None, max_tokens=400,
+                                      temperature=0.5)).strip('"')
+        except Exception:  # noqa: BLE001 - the original script stays
+            return script
+        return out if words * 0.8 <= _words(out) <= words + 10 else script
+
     def shorten(self, script: str, words: int) -> str:
         prompt = (f"Rewrite this narration in at most {words} words. Keep the opening hook, keep every fact exactly "
                   f"as stated (add none), keep the ending, same voice. Reply with the narration only.\n\n"

@@ -28,37 +28,51 @@ class Result:
     layout: str
 
 
-def _long_enough(narr: Narration, script: str, cfg: dict) -> tuple[Narration, str]:
-    """Owner rule: a narrated Short talks for at least short.min_narration_seconds (no 5-second voice on a 15-second Short)."""
+def _long_enough(narr: Narration, script: str, cfg: dict, work: Path, lengthen) -> tuple[Narration, str]:
+    """Owner rule: a narrated Short talks for at least short.min_narration_seconds (no 5-second voice on a 15-second Short).
+    A too-short script is lengthened (never rejected: the Short count must not drop)."""
     need = float(cfg["short"].get("min_narration_seconds", 0))
-    if narr.duration < need:
-        raise ShortError(f"narration only {narr.duration:.1f}s, needs at least {need:.0f}s")
+    limit = cfg["short"]["max_seconds"] - TAIL
+    for _ in range(3):
+        if narr.duration >= need or lengthen is None:
+            break
+        wps = max(1.5, len(script.split()) / max(narr.duration, 1.0))
+        words = int((need + 1.5) * wps)
+        longer = lengthen(script, words)
+        if len(longer.split()) <= len(script.split()):
+            break
+        cand = synthesize(longer, cfg["voice"], work / "voice.wav")
+        if cand.duration > limit:
+            cand = synthesize(longer, cfg["voice"], work / "voice.wav", faster=1)
+        if cand.duration > limit:
+            break
+        narr, script = cand, longer
     return narr, script
 
 
-def _narrate(script: str, cfg: dict, work: Path, shorten) -> tuple[Narration, str]:
+def _narrate(script: str, cfg: dict, work: Path, shorten, lengthen=None) -> tuple[Narration, str]:
     limit = cfg["short"]["max_seconds"] - TAIL
     for faster in (0, 1, 2):
         narr = synthesize(script, cfg["voice"], work / "voice.wav", faster=faster)
         if narr.duration <= limit:
-            return _long_enough(narr, script, cfg)
+            return _long_enough(narr, script, cfg, work, lengthen)
     if shorten is not None:
         words = int(len(script.split()) * limit / narr.duration * 0.95)
         script = shorten(script, words)
         narr = synthesize(script, cfg["voice"], work / "voice.wav", faster=1)
         if narr.duration <= limit:
-            return _long_enough(narr, script, cfg)
+            return _long_enough(narr, script, cfg, work, lengthen)
     raise ShortError(f"narration runs {narr.duration:.1f}s, longer than {limit:.1f}s")
 
 
 def produce(video: Path | None, plan: dict, cfg: dict, work: Path, out: Path, seed: int, shorten=None,
-            cuts: list[float] | None = None) -> Result:
+            cuts: list[float] | None = None, lengthen=None) -> Result:
     """video: the event's footage (None for a photo-only Short); plan["shots"] mixes video scenes and photos."""
     work.mkdir(parents=True, exist_ok=True)
     s_cfg = cfg["short"]
     fps = int(s_cfg.get("fps", 30))
 
-    narr, script = _narrate(plan["script"], cfg, work, shorten)
+    narr, script = _narrate(plan["script"], cfg, work, shorten, lengthen)
     plan["script"] = script
     duration = min(s_cfg["max_seconds"], max(s_cfg["min_seconds"], narr.duration + TAIL))
 

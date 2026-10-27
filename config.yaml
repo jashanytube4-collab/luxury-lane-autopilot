@@ -45,7 +45,7 @@ longform:
 short:
   min_seconds: 12                   # every Short is a random length between these (12-17 s)
   max_seconds: 17
-  min_narration_seconds: 8          # a narrated Short talks at least this long (owner rule); shorter voice-overs are rejected
+  min_narration_seconds: 8          # a narrated Short talks at least this long (owner rule); a shorter script is lengthened, never dropped
   fps: 30
   cooldown_days: 3                   # a story rests this many days between its Shorts (7 ran out of footage at 30/day)
   moment_min_piece: 2.5              # moment Shorts: quick cuts of him from 2.5 s (older Shorts used the long moments)

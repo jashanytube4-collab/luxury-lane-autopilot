@@ -215,7 +215,7 @@ class Studio:
         self._fill_with_him(plan, items, video, work, self.cfg["short"]["max_seconds"])
         out = work / "short.mp4"
         res = produce(video if any(s["kind"] == "video" for s in plan["shots"]) else None, plan, self.cfg, work, out,
-                      seed, shorten=self.brain.shorten, cuts=cuts)
+                      seed, shorten=self.brain.shorten, cuts=cuts, lengthen=self.brain.lengthen)
         ranges = [[s["start"], s["end"]] for s in plan["shots"] if s["kind"] == "video"]
         unit = f"{key}|{'v' if ranges else 'p'}{len(u.get('shot_ranges', []))}"
         return {"path": res.path, "plan": plan, "unit": unit, "ranges": ranges, "music": res.music, "work": work,
@@ -227,7 +227,7 @@ class Studio:
             return ""
         try:
             brief, text = self.article_text(ev) if ev.get("news_id") else ("", "")
-            words = max(18, int((duration - 1.4) * 2.3))
+            words = max(22, int((duration - 1.4) * 2.3))
             return self.brain.voiceover(self.facts(None, 3, rng), text or brief, ev.get("title", ""), words)
         except Exception as e:  # noqa: BLE001 - never lose the Short over its voice-over
             log.warning("voice-over text unavailable: %s", e)

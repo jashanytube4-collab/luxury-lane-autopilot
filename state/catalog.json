@@ -554,8 +554,8 @@
   "video_exhausted": true
  },
  "dubai crown prince receives president of malta": {
-  "last_short": "2026-10-26",
-  "montage_used": 2,
+  "last_short": "2026-10-28",
+  "montage_used": 3,
   "remix_ranges": [
    [
     67.26728040581254,
@@ -564,6 +564,10 @@
    [
     115.13710384547775,
     116.84957433658279
+   ],
+   [
+    47.74676436662126,
+    49.48293779901163
    ]
   ],
   "shorts_made": 2,
@@ -2336,6 +2340,7 @@
   "long": "2026-10-06",
   "montage_exhausted": true,
   "montage_used": 3,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     49.87427277251726,
@@ -3562,12 +3567,16 @@
   "video_len": 58
  },
  "hamdan bin mohammed concludes official visit to kuwait": {
-  "last_short": "2026-10-27",
-  "montage_used": 2,
+  "last_short": "2026-10-28",
+  "montage_used": 3,
   "remix_ranges": [
    [
     80.18242730661535,
     82.27306661018031
+   ],
+   [
+    109.70180000180052,
+    112.24650876652318
    ]
   ],
   "shorts_made": 1,
@@ -4024,7 +4033,7 @@
  "hamdan bin mohammed honors mbr creative sports award winners": {
   "last_short": "2026-10-28",
   "long": "2026-10-18",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     50.879999999999995,
@@ -4037,6 +4046,10 @@
    [
     135.04555341016402,
     137.3584631117786
+   ],
+   [
+    19.67788974391453,
+    21.15041507762727
    ]
   ],
   "shorts_made": 3,
@@ -5062,9 +5075,9 @@
   "video_len": 60
  },
  "hamdan bin mohammed launches new phase of dubai s happiness agenda": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     21.32782479454461,
@@ -5077,6 +5090,10 @@
    [
     66.74168401371196,
     69.21018187600954
+   ],
+   [
+    37.887868544679236,
+    39.37715510487842
    ]
   ],
   "shorts_made": 2,
@@ -5554,8 +5571,8 @@
   "video_len": 216
  },
  "hamdan bin mohammed meets graduates of one million arab coders": {
-  "last_short": "2026-10-24",
-  "montage_used": 3,
+  "last_short": "2026-10-28",
+  "montage_used": 4,
   "remix_ranges": [
    [
     58.68,
@@ -5568,6 +5585,10 @@
    [
     9.424350343451877,
     10.837928041217474
+   ],
+   [
+    1.3752843871605682,
+    2.8641681389348053
    ]
   ],
   "shorts_made": 1,
@@ -5748,6 +5769,7 @@
   "last_short": "2026-10-27",
   "long": "2026-10-20",
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     79.53195569789213,
@@ -6287,8 +6309,8 @@
   "video_len": 63
  },
  "hamdan bin mohammed meets with participants of retail summit in dubai": {
-  "last_short": "2026-10-27",
-  "montage_used": 3,
+  "last_short": "2026-10-28",
+  "montage_used": 4,
   "remix_ranges": [
    [
     4.6968630874811845,
@@ -6301,6 +6323,10 @@
    [
     145.23028045342625,
     147.2728340841096
+   ],
+   [
+    138.8025355934124,
+    141.06691980280132
    ]
   ],
   "shorts_made": 1,
@@ -6382,6 +6408,7 @@
   "last_short": "2026-10-27",
   "long": "2026-10-20",
   "montage_used": 4,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     2.952205388747006,
@@ -7658,13 +7685,17 @@
   "video_len": 76
  },
  "hamdan bin mohammed receives speaker of kyrgyz parliament": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     62.509872567857634,
     65.03849795719326
+   ],
+   [
+    18.099762570697,
+    20.647998979002864
    ]
   ],
   "shorts_made": 1,
@@ -10358,10 +10389,16 @@
   "video_len": 96
  },
  "hamdan bin mohammed visits wipro s apmea headquarters in dubai": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-28",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 2,
+  "montage_used": 3,
+  "remix_ranges": [
+   [
+    95.66250424944334,
+    97.09830578894936
+   ]
+  ],
   "shot_ranges": [
    [
     23.32,

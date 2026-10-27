@@ -325,7 +325,7 @@
  "dubai crown prince commends students selected for the hamdan bin mohammed scholarship programme": {
   "last_short": "2026-10-28",
   "long": "2026-10-17",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     42.09304322116802,
@@ -365,6 +365,10 @@
    [
     57.72,
     61.713333000000006
+   ],
+   [
+    41.55333333333333,
+    45.68
    ]
   ],
   "video_exhausted": true,
@@ -1245,7 +1249,7 @@
  "hamdan bin mohammed and maktoum bin mohammed visit emirates group headquarters": {
   "last_short": "2026-10-28",
   "long": "2026-10-27",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     21.386666666666667,
@@ -1277,6 +1281,10 @@
    [
     68.45333333333333,
     73.34666666666666
+   ],
+   [
+    42.91333333333333,
+    45.08666666666667
    ]
   ],
   "video_exhausted": true,
@@ -5796,7 +5804,7 @@
  },
  "hamdan bin mohammed meets government team behind uae s progress in world bank s ease of doing business ranking": {
   "last_short": "2026-10-28",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     125.5027611214891,
@@ -5848,6 +5856,10 @@
    [
     186.88,
     190.48
+   ],
+   [
+    145.12,
+    147.64
    ]
   ],
   "video_exhausted": true,
@@ -6334,6 +6346,7 @@
  "hamdan bin mohammed meets with india s external affairs minister": {
   "last_short": "2026-10-26",
   "long": "2026-10-14",
+  "montage_exhausted": true,
   "montage_used": 1,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -6590,6 +6603,7 @@
  },
  "hamdan bin mohammed meets with participants of dubai leadership camp": {
   "last_short": "2026-10-24",
+  "montage_exhausted": true,
   "montage_used": 1,
   "shorts_made": 1,
   "shot_ranges": [
@@ -6728,6 +6742,7 @@
  "hamdan bin mohammed meets with the mayor of miami at expo 2020 dubai": {
   "last_short": "2026-10-28",
   "long": "2026-10-20",
+  "montage_exhausted": true,
   "montage_used": 5,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -7363,8 +7378,8 @@
   "video_len": 279
  },
  "hamdan bin mohammed opens cityscape global 2018": {
-  "last_short": "2026-10-27",
-  "montage_used": 4,
+  "last_short": "2026-10-28",
+  "montage_used": 5,
   "remix_ranges": [
    [
     324.3828204350159,
@@ -7428,6 +7443,10 @@
    [
     347.12,
     349.68
+   ],
+   [
+    354.44,
+    356.92
    ]
   ],
   "video_exhausted": true,
@@ -8660,10 +8679,16 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed says dubai is taking off again": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-28",
+  "montage_used": 2,
   "remix_exhausted": true,
   "remix_ranges": [
+   [
+    43.879999999999995,
+    46.160000000000004
+   ]
+  ],
+  "shot_ranges": [
    [
     43.879999999999995,
     46.160000000000004
@@ -9795,7 +9820,7 @@
  },
  "hamdan bin mohammed visits dp world s facilities inspects operations of jebel ali port": {
   "last_short": "2026-10-28",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     23.240000000000002,
@@ -9819,6 +9844,10 @@
    [
     23.340000000000003,
     25.349999999999998
+   ],
+   [
+    246.68,
+    248.79999999999998
    ]
   ],
   "video_exhausted": true,

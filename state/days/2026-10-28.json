@@ -43,8 +43,13 @@
   },
   {
    "at": "2026-10-28T10:09:12+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Not just a title. A responsibility he carries with pride. 👑 #youtube #youtubeshorts",
+   "type": "short",
+   "video_id": "94WfNRzFGzY",
+   "voiced": true
   },
   {
    "at": "2026-10-28T10:56:20+04:00",

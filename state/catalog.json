@@ -1668,8 +1668,8 @@
  },
  "hamdan bin mohammed attends 19th graduation ceremony of rashid bin saeed al maktoum naval college": {
   "fails": 1,
-  "last_short": "2026-10-24",
-  "montage_used": 2,
+  "last_short": "2026-10-28",
+  "montage_used": 3,
   "remix_ranges": [
    [
     482.4187301479371,
@@ -1678,6 +1678,10 @@
    [
     119.63892096561925,
     121.77318991902311
+   ],
+   [
+    69.3355159332011,
+    71.61447818307049
    ]
   ],
   "shorts_made": 1,
@@ -1986,8 +1990,8 @@
   "video_len": 60
  },
  "hamdan bin mohammed attends dubai forum for government best practices": {
-  "last_short": "2026-10-27",
-  "montage_used": 3,
+  "last_short": "2026-10-28",
+  "montage_used": 4,
   "remix_ranges": [
    [
     28.36,
@@ -2000,6 +2004,10 @@
    [
     167.81213599816337,
     169.80970522538755
+   ],
+   [
+    44.48,
+    46.800000000000004
    ]
   ],
   "video_exhausted": true,
@@ -3290,8 +3298,8 @@
   "video_len": 60
  },
  "hamdan bin mohammed chairs executive council meeting": {
-  "last_short": "2026-10-26",
-  "montage_used": 4,
+  "last_short": "2026-10-28",
+  "montage_used": 5,
   "remix_ranges": [
    [
     61.638788101365066,
@@ -3308,6 +3316,10 @@
    [
     110.04,
     112.19999999999999
+   ],
+   [
+    6.6294916312815015,
+    8.784931348512112
    ]
   ],
   "shorts_made": 1,
@@ -3376,8 +3388,8 @@
   "video_len": 78
  },
  "hamdan bin mohammed chairs executive council meeting approves series of economic stimulus policies": {
-  "last_short": "2026-10-27",
-  "montage_used": 2,
+  "last_short": "2026-10-28",
+  "montage_used": 3,
   "remix_ranges": [
    [
     25.517707085490756,
@@ -3386,6 +3398,10 @@
    [
     78.53983904639055,
     80.06924170830722
+   ],
+   [
+    43.18373538455781,
+    44.030572363591304
    ]
   ],
   "shorts_made": 1,
@@ -4549,12 +4565,16 @@
   "video_len": 261
  },
  "hamdan bin mohammed inaugurates new outpatient building at dubai hospital": {
-  "last_short": "2026-10-27",
-  "montage_used": 2,
+  "last_short": "2026-10-28",
+  "montage_used": 3,
   "remix_ranges": [
    [
     56.1657575888386,
     58.56248384359462
+   ],
+   [
+    8.772005565256478,
+    10.593531848790267
    ]
   ],
   "shorts_made": 1,
@@ -4630,8 +4650,8 @@
   "video_len": 316
  },
  "hamdan bin mohammed inaugurates the world s largest solar powered data centre": {
-  "last_short": "2026-10-27",
-  "montage_used": 4,
+  "last_short": "2026-10-28",
+  "montage_used": 5,
   "remix_ranges": [
    [
     56.3455405839187,
@@ -4648,6 +4668,10 @@
    [
     40.60619648744657,
     42.12706334937969
+   ],
+   [
+    49.60189128023868,
+    51.73206567302457
    ]
   ],
   "shorts_made": 1,
@@ -12201,8 +12225,16 @@
   "long": "2026-10-21"
  },
  "khaled bin mohamed bin zayed meets hamdan bin mohammed bin rashid on sidelines of uae government annual meetings": {
+  "last_short": "2026-10-28",
   "long": "2026-10-27",
   "montage_exhausted": true,
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    38.140979693024,
+    39.79804007057081
+   ]
+  ],
   "video_exhausted": true,
   "video_len": 64
  },

@@ -464,7 +464,7 @@ class StoryMaker:
 
 
 # ---- render -----------------------------------------------------------------------------------------------
-def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int) -> EpisodeResult:
+def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int, plan_only: bool = False):
     rng = random.Random(seed)
     work.mkdir(parents=True, exist_ok=True)
     scfg = cfg.get("story", {})
@@ -667,6 +667,8 @@ def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int)
     log.info("voice gaps (s) between sections: %s", [round(g, 2) for _, g, _ in boundaries])
     if dead:
         raise RuntimeError("dead air (more than 2 s without narration): " + "; ".join(dead))
+    if plan_only:      # tools/plan_check.py: the exact shot list the renderer would film, without mixing or encoding
+        return shots
     # leftovers of the story's own pictures go to the closing card background
     if end_card > 0:
         hero = (got.his_photos or [Path(shots[0].src)])[0]

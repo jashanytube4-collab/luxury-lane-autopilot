@@ -1182,9 +1182,9 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed and maktoum bin mohammed visit emirates group headquarters": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-28",
   "long": "2026-10-27",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     21.386666666666667,
@@ -1212,6 +1212,10 @@
    [
     30.88666666666667,
     33.09666666666667
+   ],
+   [
+    68.45333333333333,
+    73.34666666666666
    ]
   ],
   "video_exhausted": true,
@@ -6510,9 +6514,9 @@
   "video_len": 27
  },
  "hamdan bin mohammed meets with the mayor of miami at expo 2020 dubai": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-28",
   "long": "2026-10-20",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -6549,6 +6553,10 @@
    [
     25.12,
     28.919999999999998
+   ],
+   [
+    41.64,
+    44.160000000000004
    ]
   ],
   "video_exhausted": true,
@@ -7394,9 +7402,9 @@
   "video_len": 119
  },
  "hamdan bin mohammed opens salem medical fitness smart centre": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-28",
   "long": "2026-10-18",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     182.01540657684788,
@@ -7432,6 +7440,10 @@
    [
     211.8,
     216.88
+   ],
+   [
+    105.46000000000001,
+    110.46000000000001
    ]
   ],
   "video_len": 226
@@ -8184,8 +8196,8 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed reviews progress of dewa s hydroelectric project in hatta": {
-  "last_short": "2026-10-27",
-  "montage_used": 2,
+  "last_short": "2026-10-28",
+  "montage_used": 3,
   "remix_ranges": [
    [
     51.00025703153351,
@@ -8213,6 +8225,10 @@
    [
     19.486666666666668,
     21.496666666666666
+   ],
+   [
+    60.18666666666667,
+    64.88
    ]
   ],
   "video_exhausted": true,

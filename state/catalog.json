@@ -321,7 +321,7 @@
  "dubai crown prince commends students selected for the hamdan bin mohammed scholarship programme": {
   "last_short": "2026-10-28",
   "long": "2026-10-17",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     42.09304322116802,
@@ -330,6 +330,10 @@
    [
     18.12,
     19.779999999999998
+   ],
+   [
+    25.586666666666666,
+    27.779999999999998
    ]
   ],
   "shorts_made": 1,
@@ -5037,8 +5041,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed launches 26 dubai 10x projects issues directive to implement them within 24 months": {
-  "last_short": "2026-10-26",
-  "montage_used": 3,
+  "last_short": "2026-10-28",
+  "montage_used": 4,
   "remix_ranges": [
    [
     113.84243637422479,
@@ -5051,6 +5055,10 @@
    [
     53.879999999999995,
     56.04
+   ],
+   [
+    20.41607549515559,
+    22.10108761621996
    ]
   ],
   "video_exhausted": true,
@@ -7296,8 +7304,8 @@
   "video_len": 375
  },
  "hamdan bin mohammed opens crime prevention international conference": {
-  "last_short": "2026-10-27",
-  "montage_used": 4,
+  "last_short": "2026-10-28",
+  "montage_used": 5,
   "remix_ranges": [
    [
     68.54641858440627,
@@ -7306,6 +7314,10 @@
    [
     198.4,
     200.68
+   ],
+   [
+    104.81760927554642,
+    106.77367026472078
    ]
   ],
   "shorts_made": 3,
@@ -7540,12 +7552,16 @@
   "video_len": 226
  },
  "hamdan bin mohammed opens smart police station at la mer": {
-  "last_short": "2026-10-27",
-  "montage_used": 1,
+  "last_short": "2026-10-28",
+  "montage_used": 2,
   "remix_ranges": [
    [
     99.92,
     102.03999999999999
+   ],
+   [
+    36.28250116553336,
+    37.599989081487536
    ]
   ],
   "shorts_made": 2,
@@ -7583,13 +7599,17 @@
   "video_len": 223
  },
  "hamdan bin mohammed opens the race to excellence": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-28",
   "long": "2026-10-12",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     2.6092809649617554,
     4.063039823858403
+   ],
+   [
+    21.977681526358726,
+    23.88284222242695
    ]
   ],
   "shorts_made": 2,
@@ -7730,8 +7750,8 @@
   "video_len": 46
  },
  "hamdan bin mohammed receives head of chechen republic": {
-  "last_short": "2026-10-27",
-  "montage_used": 2,
+  "last_short": "2026-10-28",
+  "montage_used": 3,
   "remix_ranges": [
    [
     3.9080168701616587,
@@ -7740,6 +7760,10 @@
    [
     13.823293642002781,
     15.47207893005494
+   ],
+   [
+    7.924822824873859,
+    10.467767769279387
    ]
   ],
   "video_exhausted": true,
@@ -10704,11 +10728,15 @@
   "last_short": "2026-10-28",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     95.66250424944334,
     97.09830578894936
+   ],
+   [
+    54.279999999999994,
+    55.88
    ]
   ],
   "shot_ranges": [

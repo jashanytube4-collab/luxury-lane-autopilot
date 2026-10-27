@@ -186,8 +186,13 @@
   },
   {
    "at": "2026-10-28T22:22:59+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "The future king of hearts. ✨ #youtubeshorts #youtube #fazza",
+   "type": "short",
+   "video_id": "wpCOZWdX6t8",
+   "voiced": true
   },
   {
    "at": "2026-10-28T23:05:03+04:00",

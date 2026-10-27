@@ -81,6 +81,7 @@ news:                                # fresh news about him, scored 0-10 by the 
   lead_minutes: 150                  # time for the script + render (about 45-80 minutes) before it goes public
 
 members:                             # members-only content (Fazza Fam)
+  shorts_per_day: 3                  # owner rule 2026-10-27: 3 members-only Shorts every day (uploaded private; the laptop helper makes them members-only)
   shorts_per_week: 8                 # extra moment Shorts uploaded private; the Saturday helper makes them members-only
   weekday: 5                         # 5 = Saturday (Dubai time)
 

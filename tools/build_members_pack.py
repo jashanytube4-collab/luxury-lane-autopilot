@@ -1,4 +1,4 @@
-"""A year of members-only YouTube Posts (2 a day): exclusive still frames from his official videos — moments that
+"""A year of members-only YouTube Posts (3 a day): exclusive still frames from his official videos — moments that
 are never posted as photos — with members-only captions. Runs on GitHub (members_pack.yml), where the private
 footage library is fast to read; the result is downloaded to the Desktop as "Fazza Posts (Members)".
 
@@ -101,7 +101,7 @@ def main() -> None:
     studio = Studio(cfg, None, Hamdan(library), WORK_DIR / "memberspack")
     keys = [k for k, e in events.items() if e.get("video") and e.get("title")]
     rng.shuffle(keys)
-    need = days * 2
+    need = days * 3
     shots: list[tuple[str, object]] = []
     for n, k in enumerate(keys):
         if len(shots) >= need:
@@ -127,8 +127,8 @@ def main() -> None:
         day = start + timedelta(days=d_i)
         folder = OUT / day.strftime("%Y-%m %B")
         folder.mkdir(exist_ok=True)
-        for slot, minute in enumerate(natural_times(rng, 2)):
-            i = d_i * 2 + slot
+        for slot, minute in enumerate(natural_times(rng, 3)):
+            i = d_i * 3 + slot
             if i >= len(shots):
                 break
             k, img = shots[i]

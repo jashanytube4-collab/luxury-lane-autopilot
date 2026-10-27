@@ -663,8 +663,10 @@ class Runner:
             self.state.save_day(date_s, plan)
             self.report.note(f"{date_s}: {len(extra)} picture posts planned")
         mcfg = self.cfg.get("members", {})
-        n_members = int(mcfg.get("shorts_per_week", 0))
-        if n_members and day.weekday() == int(mcfg.get("weekday", 5)) and not any(s["type"] == "members" for s in plan["slots"]):
+        n_members = int(mcfg.get("shorts_per_day", 0))
+        if not n_members and day.weekday() == int(mcfg.get("weekday", 5)):
+            n_members = int(mcfg.get("shorts_per_week", 0))
+        if n_members and not any(s["type"] == "members" for s in plan["slots"]):
             # members-only Shorts: uploaded private; the Saturday helper on the laptop makes them members-only
             # (YouTube's upload API cannot set members-only, and Studio cannot schedule it)
             base = datetime.fromisoformat(f"{date_s}T21:00:00").replace(tzinfo=ZoneInfo(sc["timezone"]))

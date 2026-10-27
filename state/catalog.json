@@ -979,9 +979,9 @@
   "long": "2026-10-27"
  },
  "hamdan attends wedding reception": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-28",
   "long": "2026-10-15",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     53.25558494307589,
@@ -990,6 +990,10 @@
    [
     28.31327422471157,
     30.1075222419285
+   ],
+   [
+    9.494078401801525,
+    11.516446709839286
    ]
   ],
   "video_exhausted": true,
@@ -1851,12 +1855,16 @@
   "video_len": 65
  },
  "hamdan bin mohammed attends closing ceremony of 3rd dubai future accelerators program": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-28",
+  "montage_used": 2,
   "remix_ranges": [
    [
     2.92,
     4.88
+   ],
+   [
+    218.81041288347907,
+    220.3640987431007
    ]
   ],
   "shorts_made": 3,
@@ -2332,14 +2340,18 @@
  },
  "hamdan bin mohammed attends graduation ceremony at zayed ii military college in al ain": {
   "fails": 1,
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-28",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     31.78666666666667,
     33.480000000000004
+   ],
+   [
+    25.953333333333333,
+    27.646666666666665
    ]
   ],
   "video_exhausted": true,
@@ -5131,7 +5143,7 @@
  "hamdan bin mohammed launches new phase of dubai s happiness agenda": {
   "last_short": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     21.32782479454461,
@@ -5148,6 +5160,10 @@
    [
     37.887868544679236,
     39.37715510487842
+   ],
+   [
+    59.856440208171804,
+    61.53750361306485
    ]
   ],
   "shorts_made": 2,
@@ -5995,14 +6011,18 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed meets with global gaming leaders at dubai gaming retreat": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-28",
   "long": "2026-10-10",
   "montage_exhausted": true,
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     35.690413640488465,
     38.03435125369652
+   ],
+   [
+    15.127097312259847,
+    17.221358514775265
    ]
   ],
   "shorts_made": 2,
@@ -8244,7 +8264,13 @@
  "hamdan bin mohammed reviews the latest technologies and energy solutions at wetex 2019": {
   "last_short": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 1,
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    249.043806441902,
+    251.5427959574576
+   ]
+  ],
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -10655,8 +10681,8 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed witnesses the first test flight": {
-  "last_short": "2026-10-27",
-  "montage_used": 3,
+  "last_short": "2026-10-28",
+  "montage_used": 4,
   "remix_ranges": [
    [
     88.67691734041264,
@@ -10669,6 +10695,10 @@
    [
     65.89963873439447,
     67.3902247360111
+   ],
+   [
+    161.44803941669707,
+    163.49237006664575
    ]
   ],
   "video_exhausted": true,
@@ -12485,9 +12515,9 @@
   "video_len": 287
  },
  "mohamed bin zayed offers condolences to hamdan bin mohammed on mansour bin ahmed al thani": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-28",
   "long": "2026-10-28",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     165.28775802571622,
@@ -12496,6 +12526,10 @@
    [
     130.89584802635284,
     132.40017089521947
+   ],
+   [
+    56.16,
+    58.32
    ]
   ],
   "shorts_made": 1,

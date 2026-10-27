@@ -311,9 +311,9 @@
   "video_len": 109
  },
  "dubai crown prince commends students selected for the hamdan bin mohammed scholarship programme": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-28",
   "long": "2026-10-17",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     42.09304322116802,
@@ -345,6 +345,10 @@
    [
     25.686666666666667,
     27.729999999999997
+   ],
+   [
+    57.72,
+    61.713333000000006
    ]
   ],
   "video_exhausted": true,
@@ -1523,7 +1527,7 @@
  "hamdan bin mohammed approves mbz sat for launch": {
   "last_short": "2026-10-28",
   "long": "2026-10-11",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     51.549294734111434,
@@ -1551,6 +1555,10 @@
    [
     43.78666666666666,
     47.913333333333334
+   ],
+   [
+    25.0716665,
+    25.661666833333335
    ]
   ],
   "video_exhausted": true,
@@ -3627,8 +3635,8 @@
   "video_len": 116
  },
  "hamdan bin mohammed concludes official visit to uzbekistan": {
-  "last_short": "2026-10-27",
-  "montage_used": 4,
+  "last_short": "2026-10-28",
+  "montage_used": 5,
   "remix_ranges": [
    [
     136.78354122945424,
@@ -3664,6 +3672,10 @@
    [
     49.88666666666666,
     52.04666666666667
+   ],
+   [
+    148.45333333333335,
+    150.78
    ]
   ],
   "video_exhausted": true,
@@ -4447,9 +4459,9 @@
   "video_len": 65
  },
  "hamdan bin mohammed inaugurates dp world s nhava sheva business park in india": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-28",
   "long": "2026-10-23",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -4474,6 +4486,10 @@
    [
     27.040000000000003,
     29.27
+   ],
+   [
+    45.18,
+    48.92
    ]
   ],
   "video_exhausted": true,
@@ -5885,8 +5901,8 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed meets with dubai gov t second line of leadership": {
-  "last_short": "2026-10-27",
-  "montage_used": 4,
+  "last_short": "2026-10-28",
+  "montage_used": 5,
   "remix_ranges": [
    [
     128.9530729946567,
@@ -5938,6 +5954,10 @@
    [
     108.36,
     115.6
+   ],
+   [
+    135.28,
+    138.12
    ]
   ],
   "video_len": 239
@@ -8195,6 +8215,7 @@
  },
  "hamdan bin mohammed reviews the latest technologies and energy solutions at wetex 2019": {
   "last_short": "2026-10-28",
+  "montage_exhausted": true,
   "montage_used": 1,
   "shorts_made": 3,
   "shot_ranges": [
@@ -10366,6 +10387,7 @@
  "hamdan bin mohammed visits thukhor social club for senior citizens": {
   "last_short": "2026-10-27",
   "long": "2026-10-24",
+  "montage_exhausted": true,
   "montage_used": 2,
   "remix_exhausted": true,
   "remix_ranges": [

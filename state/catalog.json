@@ -298,14 +298,18 @@
   "video_len": 1017
  },
  "dubai crown prince attends wedding reception": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-28",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     61.519999999999996,
     63.28
+   ],
+   [
+    49.76,
+    51.440000000000005
    ]
   ],
   "shorts_made": 1,
@@ -455,7 +459,7 @@
  },
  "dubai crown prince honours winners of hamdan bin mohammed award for innovation in projects management": {
   "last_short": "2026-10-28",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     236.71305983579546,
@@ -464,6 +468,10 @@
    [
     180.09908594129834,
     181.81674066410167
+   ],
+   [
+    170.52859188664712,
+    172.06672144600586
    ]
   ],
   "shorts_made": 3,
@@ -589,6 +597,7 @@
  "dubai crown prince receives luxemburg counterpart": {
   "last_short": "2026-10-28",
   "montage_used": 1,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     55.487950107566306,
@@ -1406,7 +1415,7 @@
  },
  "hamdan bin mohammed approves dff s three year strategic plan": {
   "last_short": "2026-10-28",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     44.755956300528126,
@@ -1419,6 +1428,10 @@
    [
     49.90213774805096,
     52.45991667060411
+   ],
+   [
+    145.46980976750618,
+    147.17631127385087
    ]
   ],
   "shorts_made": 3,
@@ -5541,13 +5554,17 @@
   "video_len": 206
  },
  "hamdan bin mohammed launches third phase of dubai 10x initiative": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     8.294833333333333,
     9.956733333333334
+   ],
+   [
+    37.28267965500728,
+    39.06645916020447
    ]
   ],
   "shorts_made": 1,
@@ -6433,6 +6450,7 @@
   "long": "2026-10-05",
   "montage_exhausted": true,
   "montage_used": 4,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     43.32590814717401,
@@ -6946,10 +6964,10 @@
   "long": "2026-10-21"
  },
  "hamdan bin mohammed offers condolences on death of abdullah mohamed al masoud": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-28",
   "long": "2026-10-16",
   "montage_exhausted": true,
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     44.96,
@@ -6958,6 +6976,10 @@
    [
     37.46421854934102,
     39.713878167444065
+   ],
+   [
+    28.019581911502122,
+    29.73956615151447
    ]
   ],
   "shorts_made": 1,
@@ -7803,7 +7825,7 @@
  "hamdan bin mohammed receives afc president": {
   "last_short": "2026-10-28",
   "long": "2026-10-14",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     13.3014644340285,
@@ -7816,6 +7838,10 @@
    [
     0.715897846915948,
     2.447667944867741
+   ],
+   [
+    58.14807733827612,
+    60.26828348134151
    ]
   ],
   "video_exhausted": true,
@@ -9694,8 +9720,8 @@
   "video_len": 196
  },
  "hamdan bin mohammed visits department of economic development": {
-  "last_short": "2026-10-27",
-  "montage_used": 3,
+  "last_short": "2026-10-28",
+  "montage_used": 4,
   "remix_ranges": [
    [
     99.05206428340473,
@@ -9708,6 +9734,10 @@
    [
     138.84,
     140.88
+   ],
+   [
+    162.32,
+    164.48
    ]
   ],
   "video_exhausted": true,
@@ -11126,7 +11156,7 @@
  },
  "hamdan bin mohammed witnesses the first test flight": {
   "last_short": "2026-10-28",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     88.67691734041264,
@@ -11151,6 +11181,10 @@
    [
     95.73453407095946,
     97.36215170506978
+   ],
+   [
+    56.95368293657866,
+    58.524486852282834
    ]
   ],
   "video_exhausted": true,
@@ -11297,7 +11331,9 @@
   "video_len": 182
  },
  "hamdan leads march of loyalty to sheikha hind on mother s day": {
-  "video_exhausted": true
+  "remix_exhausted": true,
+  "video_exhausted": true,
+  "video_len": 142
  },
  "hamdan maktoum bin mohammed offer condolences": {
   "long": "2026-10-27"
@@ -12943,6 +12979,7 @@
   "long": "2026-10-23",
   "montage_exhausted": true,
   "montage_used": 3,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     78.73830435472682,

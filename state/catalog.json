@@ -514,9 +514,9 @@
   "video_len": 149
  },
  "dubai crown prince offers condolences al muhairi family": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-28",
   "long": "2026-10-22",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     21.925560678740784,
@@ -525,6 +525,10 @@
    [
     53.594377055387405,
     56.08750738523034
+   ],
+   [
+    47.73640609033786,
+    49.935065003755156
    ]
   ],
   "shorts_made": 1,
@@ -639,7 +643,7 @@
  "dubai crown prince reviews preparations for emirates mars mission": {
   "last_short": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     10.223000693909508,
@@ -656,6 +660,10 @@
    [
     54.77136531414138,
     56.39715075463523
+   ],
+   [
+    63.57392958287628,
+    65.88735237473368
    ]
   ],
   "shorts_made": 3,
@@ -4197,7 +4205,7 @@
  "hamdan bin mohammed honors mbr creative sports award winners": {
   "last_short": "2026-10-28",
   "long": "2026-10-18",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     50.879999999999995,
@@ -4214,6 +4222,10 @@
    [
     19.67788974391453,
     21.15041507762727
+   ],
+   [
+    65.8493017231328,
+    67.34675476316052
    ]
   ],
   "shorts_made": 3,
@@ -5887,12 +5899,16 @@
   "video_len": 46
  },
  "hamdan bin mohammed meets promising leaders from various dubai government entities": {
-  "last_short": "2026-10-25",
-  "montage_used": 1,
+  "last_short": "2026-10-28",
+  "montage_used": 2,
   "remix_ranges": [
    [
     23.271101134211975,
     24.758946151079805
+   ],
+   [
+    48.16,
+    49.760000000000005
    ]
   ],
   "video_exhausted": true,
@@ -7150,6 +7166,7 @@
   "last_short": "2026-10-27",
   "long": "2026-10-16",
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     108.23730979588721,
@@ -7816,6 +7833,7 @@
  "hamdan bin mohammed receives head of chechen republic": {
   "last_short": "2026-10-28",
   "montage_used": 3,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     3.9080168701616587,
@@ -9505,12 +9523,16 @@
   "video_len": 43
  },
  "hamdan bin mohammed visits dental exhibition in dubai": {
-  "last_short": "2026-10-24",
-  "montage_used": 1,
+  "last_short": "2026-10-28",
+  "montage_used": 2,
   "remix_ranges": [
    [
     2.3390712034378356,
     3.7902474383171953
+   ],
+   [
+    44.499746813211,
+    47.069259954728274
    ]
   ],
   "shorts_made": 3,
@@ -9637,13 +9659,17 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed visits display of origin autonomous vehicle on the sidelines of the world government summit 2022": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     40.817480318674356,
     43.4074324708198
+   ],
+   [
+    52.53766311576042,
+    54.60062605297332
    ]
   ],
   "shorts_made": 2,
@@ -12652,6 +12678,7 @@
   "long": "2026-10-27",
   "montage_exhausted": true,
   "montage_used": 1,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     38.140979693024,
@@ -13380,10 +13407,10 @@
   "video_exhausted": true
  },
  "umm al qaiwain ruler performs funeral prayer on late sheikh mansour bin ahmad bin ali al thani": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-28",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     74.96434412977598,
@@ -13396,6 +13423,10 @@
    [
     23.18370258695374,
     24.944708556466463
+   ],
+   [
+    38.04545783817374,
+    39.61344701414114
    ]
   ],
   "shorts_made": 1,

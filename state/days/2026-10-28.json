@@ -3,8 +3,13 @@
  "slots": [
   {
    "at": "2026-10-28T06:14:14+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Simplicity is his greatest luxury. 🤍 #princehamdan #youtubeshorts #youtube",
+   "type": "short",
+   "video_id": "bNaoXgmTjpQ",
+   "voiced": true
   },
   {
    "at": "2026-10-28T06:59:24+04:00",

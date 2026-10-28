@@ -1703,9 +1703,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed approves mbz sat for launch": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-10-29",
   "long": "2026-10-11",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     51.549294734111434,
@@ -1714,6 +1714,10 @@
    [
     28.92,
     30.68
+   ],
+   [
+    44.52290378132292,
+    46.271830639216724
    ]
   ],
   "shorts_made": 1,
@@ -5156,8 +5160,15 @@
   "video_len": 61
  },
  "hamdan bin mohammed inaugurates zabeel healthcare center": {
-  "last_short": "2026-10-15",
+  "last_short": "2026-10-29",
   "long": "2026-10-22",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    399.88601091430286,
+    402.108706912683
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -5173,7 +5184,8 @@
     411.12
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 451
  },
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
   "last_short": "2026-10-29",
@@ -6933,8 +6945,8 @@
   "video_len": 63
  },
  "hamdan bin mohammed meets with participants of retail summit in dubai": {
-  "last_short": "2026-10-28",
-  "montage_used": 7,
+  "last_short": "2026-10-29",
+  "montage_used": 8,
   "remix_ranges": [
    [
     4.6968630874811845,
@@ -6959,6 +6971,10 @@
    [
     28.837261925389576,
     30.583058394653833
+   ],
+   [
+    17.52349208129951,
+    19.295467355799488
    ]
   ],
   "shorts_made": 1,
@@ -7127,8 +7143,15 @@
   "video_len": 63
  },
  "hamdan bin mohammed meets with uae diplomatic mission in india commends ministry of foreign affairs efforts": {
-  "last_short": "2026-10-17",
+  "last_short": "2026-10-29",
   "montage_exhausted": true,
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    23.68,
+    25.5
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -7467,7 +7490,7 @@
  "hamdan bin mohammed offers condolences to family of martyr al mesmari": {
   "last_short": "2026-10-29",
   "long": "2026-10-27",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     70.2,
@@ -7488,6 +7511,10 @@
    [
     52.869947553173965,
     55.058826875777854
+   ],
+   [
+    64.36585352647413,
+    65.72161895395172
    ]
   ],
   "shorts_made": 1,
@@ -11218,7 +11245,7 @@
  },
  "hamdan bin mohammed visits stands of government entities at gitex2019": {
   "last_short": "2026-10-29",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     143.24971079721686,
@@ -11235,6 +11262,10 @@
    [
     25.135488786052115,
     26.375373030509927
+   ],
+   [
+    238.80179555759028,
+    240.43620492027588
    ]
   ],
   "shorts_made": 2,
@@ -13346,14 +13377,18 @@
  },
  "khaled bin mohamed bin zayed hamdan bin mohammed bin rashid tour natural history museum abu dhabi in saadiyat cultural district": {
   "fails": 1,
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-29",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     62.16353701090986,
     63.60977148146291
+   ],
+   [
+    16.353333333333335,
+    18.113333333333333
    ]
   ],
   "shorts_made": 1,
@@ -13809,9 +13844,9 @@
   "no_hamdan": true
  },
  "ruler of umm al quwain accepts condolences from hamdan bin mohammed": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-10-29",
   "long": "2026-10-28",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     84.34146017449318,
@@ -13820,6 +13855,10 @@
    [
     93.31752104838387,
     94.39814941115635
+   ],
+   [
+    72.33916270440642,
+    74.28538978346931
    ]
   ],
   "shorts_made": 1,

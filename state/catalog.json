@@ -467,8 +467,8 @@
   "video_len": 232
  },
  "dubai crown prince holds minute s silence to honour martyrs on commemoration day": {
-  "last_short": "2026-10-27",
-  "montage_used": 2,
+  "last_short": "2026-10-29",
+  "montage_used": 3,
   "remix_ranges": [
    [
     20.424621499001876,
@@ -477,6 +477,10 @@
    [
     110.95637367174575,
     113.08319369932289
+   ],
+   [
+    28.103214964088576,
+    30.061172604086185
    ]
   ],
   "video_exhausted": true,
@@ -807,8 +811,8 @@
   "video_len": 345
  },
  "dubai crown prince visits emirates nbd head office": {
-  "last_short": "2026-10-28",
-  "montage_used": 6,
+  "last_short": "2026-10-29",
+  "montage_used": 7,
   "remix_ranges": [
    [
     104.60402386812525,
@@ -821,6 +825,10 @@
    [
     55.78945181484759,
     57.38492989513637
+   ],
+   [
+    149.77863291968123,
+    152.37391486825302
    ]
   ],
   "shorts_made": 1,
@@ -1487,7 +1495,7 @@
  },
  "hamdan bin mohammed approves dff s three year strategic plan": {
   "last_short": "2026-10-29",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     44.755956300528126,
@@ -1512,6 +1520,10 @@
    [
     184.26100256042577,
     186.69748752603996
+   ],
+   [
+    15.475622114665473,
+    17.352267573023433
    ]
   ],
   "shorts_made": 3,
@@ -5233,7 +5245,7 @@
  },
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
   "last_short": "2026-10-29",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     78.30225988576875,
@@ -5250,6 +5262,10 @@
    [
     159.80022346889288,
     161.8838321419293
+   ],
+   [
+    100.84732524964888,
+    101.79558781161785
    ]
   ],
   "shorts_made": 2,
@@ -7403,7 +7419,7 @@
  "hamdan bin mohammed offers condolences on death of hamad al qasimi": {
   "last_short": "2026-10-29",
   "long": "2026-10-20",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     44.35577291257337,
@@ -7412,6 +7428,10 @@
    [
     29.300552456617677,
     31.143099652325613
+   ],
+   [
+    36.04,
+    38.0
    ]
   ],
   "video_exhausted": true,
@@ -8035,13 +8055,17 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed opens gitex tech week 2017": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-29",
   "long": "2026-10-14",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     523.8801185278389,
     525.6723672923694
+   ],
+   [
+    222.6874010367773,
+    224.3306887997186
    ]
   ],
   "shorts_made": 3,
@@ -14022,7 +14046,7 @@
  "rulers of ajman fujairah and ras al khaimah offer condolences to sheikh hamdan on mansour bin ahmed": {
   "last_short": "2026-10-29",
   "long": "2026-10-28",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     80.96000000000001,
@@ -14039,6 +14063,10 @@
    [
     124.166842003125,
     125.6622201893176
+   ],
+   [
+    106.21333823169724,
+    107.83190285985958
    ]
   ],
   "shorts_made": 3,

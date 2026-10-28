@@ -342,6 +342,7 @@
  "dubai crown prince commends students selected for the hamdan bin mohammed scholarship programme": {
   "last_short": "2026-10-29",
   "long": "2026-10-17",
+  "montage_exhausted": true,
   "montage_used": 8,
   "remix_ranges": [
    [
@@ -2460,7 +2461,7 @@
  },
  "hamdan bin mohammed attends global islamic economy summit": {
   "last_short": "2026-10-29",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     198.37148978554302,
@@ -2528,6 +2529,10 @@
    [
     208.32,
     211.44
+   ],
+   [
+    213.28,
+    216.44
    ]
   ],
   "video_len": 246
@@ -4591,7 +4596,7 @@
  },
  "hamdan bin mohammed honors winners of dubai appreciation award for community service": {
   "last_short": "2026-10-29",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     179.39335360955343,
@@ -4651,6 +4656,10 @@
    [
     73.52000000000001,
     77.08
+   ],
+   [
+    79.76,
+    82.6
    ]
   ],
   "video_len": 239
@@ -7032,7 +7041,7 @@
  },
  "hamdan bin mohammed meets with participants of retail summit in dubai": {
   "last_short": "2026-10-29",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     4.6968630874811845,
@@ -7092,6 +7101,10 @@
    [
     11.52,
     14.4
+   ],
+   [
+    2.28499999999998,
+    4.59500000000002
    ]
   ],
   "video_exhausted": true,
@@ -7928,7 +7941,7 @@
  },
  "hamdan bin mohammed opens crime prevention international conference": {
   "last_short": "2026-10-29",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     68.54641858440627,
@@ -8000,6 +8013,10 @@
    [
     127.63333333333331,
     128.5666666666667
+   ],
+   [
+    198.4,
+    200.68
    ]
   ],
   "video_exhausted": true,
@@ -8777,7 +8794,7 @@
  },
  "hamdan bin mohammed reviews final preparations as hope probe enters the most critical phase of its journey": {
   "last_short": "2026-10-29",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     53.714791899604954,
@@ -8821,6 +8838,10 @@
    [
     53.68,
     56.64
+   ],
+   [
+    78.60000000000001,
+    80.83999999999999
    ]
   ],
   "video_exhausted": true,
@@ -11255,10 +11276,12 @@
   "fails": 1,
   "last_short": "2026-10-16",
   "long": "2026-10-20",
+  "montage_exhausted": true,
   "photo_short": true,
   "shorts_made": 1,
   "shot_ranges": [],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 47
  },
  "hamdan bin mohammed visits mohammed bin rashid model school reviews preparations for dubai fitness challenge": {
   "long": "2026-10-21"
@@ -14046,7 +14069,7 @@
  "rulers of ajman fujairah and ras al khaimah offer condolences to sheikh hamdan on mansour bin ahmed": {
   "last_short": "2026-10-29",
   "long": "2026-10-28",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     80.96000000000001,
@@ -14114,6 +14137,10 @@
    [
     124.29499999999999,
     125.905
+   ],
+   [
+    80.96000000000001,
+    83.0
    ]
   ],
   "video_exhausted": true,

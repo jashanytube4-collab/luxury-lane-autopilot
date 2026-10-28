@@ -5055,6 +5055,7 @@
  },
  "hamdan bin mohammed inaugurates new outpatient building at dubai hospital": {
   "last_short": "2026-10-28",
+  "montage_exhausted": true,
   "montage_used": 3,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -6117,7 +6118,7 @@
  },
  "hamdan bin mohammed meets government team behind uae s progress in world bank s ease of doing business ranking": {
   "last_short": "2026-10-29",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     125.5027611214891,
@@ -6181,6 +6182,10 @@
    [
     38.919999999999995,
     41.36
+   ],
+   [
+    60.48,
+    62.68
    ]
   ],
   "video_exhausted": true,
@@ -6379,8 +6384,8 @@
   "video_len": 154
  },
  "hamdan bin mohammed meets with astronaut sultan al neyadi and zayed ambition 2 team": {
-  "last_short": "2026-10-26",
-  "montage_used": 1,
+  "last_short": "2026-10-29",
+  "montage_used": 2,
   "remix_ranges": [
    [
     70.87440732804015,
@@ -6412,6 +6417,10 @@
    [
     61.28666666666666,
     72.69999999999999
+   ],
+   [
+    90.62,
+    94.17999999999999
    ]
   ],
   "video_len": 111
@@ -8428,8 +8437,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed receives mourners on death of mansour bin ahmed": {
-  "last_short": "2026-10-27",
-  "montage_used": 6,
+  "last_short": "2026-10-29",
+  "montage_used": 7,
   "remix_ranges": [
    [
     466.2050172416837,
@@ -8481,6 +8490,10 @@
    [
     89.96000000000001,
     92.32
+   ],
+   [
+    153.88,
+    158.6
    ]
   ],
   "video_exhausted": true,
@@ -10620,7 +10633,7 @@
  },
  "hamdan bin mohammed visits dubai government hr department": {
   "last_short": "2026-10-29",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     92.94184157109537,
@@ -10656,6 +10669,10 @@
    [
     92.08,
     95.64
+   ],
+   [
+    50.0,
+    52.64
    ]
   ],
   "video_exhausted": true,

@@ -1103,6 +1103,9 @@
   ],
   "video_exhausted": true
  },
+ "hamdan bin mohammed affirms that public wellbeing remains top priority for every investment in dubai s future": {
+  "no_video_until": "2026-10-31"
+ },
  "hamdan bin mohammed and india s minister of commerce and industry witness signing of 8 mous": {
   "fails": 1,
   "last_short": "2026-10-28",
@@ -1258,6 +1261,7 @@
  "hamdan bin mohammed and maktoum bin mohammed visit emirates group headquarters": {
   "last_short": "2026-10-28",
   "long": "2026-10-27",
+  "montage_exhausted": true,
   "montage_used": 3,
   "remix_ranges": [
    [
@@ -1629,7 +1633,7 @@
  "hamdan bin mohammed approves mbz sat for launch": {
   "last_short": "2026-10-28",
   "long": "2026-10-11",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     51.549294734111434,
@@ -1661,6 +1665,10 @@
    [
     25.0716665,
     25.661666833333335
+   ],
+   [
+    39.22,
+    41.31333333333333
    ]
   ],
   "video_exhausted": true,
@@ -3043,6 +3051,7 @@
  "hamdan bin mohammed attends the graduation ceremony of rashid bin saeed al maktoum naval college": {
   "last_short": "2026-10-08",
   "long": "2026-10-06",
+  "montage_exhausted": true,
   "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
@@ -5991,7 +6000,7 @@
  "hamdan bin mohammed meets students of dubai schools": {
   "last_short": "2026-10-28",
   "long": "2026-10-17",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     163.49934334402403,
@@ -6027,6 +6036,10 @@
    [
     251.28,
     265.92
+   ],
+   [
+    42.12,
+    46.84
    ]
   ],
   "video_len": 371
@@ -6655,7 +6668,7 @@
  },
  "hamdan bin mohammed meets with participants of retail summit in dubai": {
   "last_short": "2026-10-28",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     4.6968630874811845,
@@ -6707,6 +6720,10 @@
    [
     161.26,
     163.79
+   ],
+   [
+    11.52,
+    14.4
    ]
   ],
   "video_exhausted": true,
@@ -8858,8 +8875,8 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed tours bustanica the world s largest vertical farm in dubai": {
-  "last_short": "2026-10-26",
-  "montage_used": 1,
+  "last_short": "2026-10-28",
+  "montage_used": 2,
   "remix_ranges": [
    [
     137.834523919362,
@@ -8891,6 +8908,10 @@
    [
     94.60000000000001,
     102.11999999999999
+   ],
+   [
+    137.42000000000002,
+    142.42000000000002
    ]
   ],
   "video_exhausted": true,
@@ -11531,6 +11552,10 @@
  "ig:dubaimediaoffice:17879245644689188": {
   "video_exhausted": true,
   "video_len": 27
+ },
+ "ig:dubaimediaoffice:17908831533331802": {
+  "video_exhausted": true,
+  "video_len": 44
  },
  "ig:dubaimediaoffice:17958432678248644": {
   "long": "2026-10-26",

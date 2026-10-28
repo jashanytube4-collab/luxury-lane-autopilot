@@ -240,8 +240,13 @@
   },
   {
    "at": "2026-10-30T00:05:10+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "From the skies to the seas, Fazza does it all. #youtubeshorts #ytshorts",
+   "type": "short",
+   "video_id": "PYWjvzaEQRQ",
+   "voiced": true
   },
   {
    "at": "2026-10-30T00:55:52+04:00",

@@ -342,7 +342,7 @@
  "dubai crown prince commends students selected for the hamdan bin mohammed scholarship programme": {
   "last_short": "2026-10-29",
   "long": "2026-10-17",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     42.09304322116802,
@@ -359,6 +359,10 @@
    [
     8.853333333333332,
     10.613333333333333
+   ],
+   [
+    59.55568834981965,
+    61.11764892989735
    ]
   ],
   "shorts_made": 1,
@@ -756,8 +760,8 @@
   "video_len": 78
  },
  "dubai crown prince visits dubai municipality": {
-  "last_short": "2026-10-27",
-  "montage_used": 5,
+  "last_short": "2026-10-29",
+  "montage_used": 6,
   "remix_ranges": [
    [
     296.0,
@@ -778,6 +782,10 @@
    [
     153.56,
     155.64
+   ],
+   [
+    112.90661349712626,
+    114.63432377651674
    ]
   ],
   "shorts_made": 1,
@@ -957,7 +965,7 @@
  },
  "hamdan addressing future circles looking forward for innovation based future": {
   "last_short": "2026-10-29",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     224.55333333333334,
@@ -970,6 +978,10 @@
    [
     6.0200000000000005,
     7.88
+   ],
+   [
+    217.48666666666668,
+    219.18
    ]
   ],
   "video_exhausted": true,
@@ -2436,7 +2448,7 @@
  },
  "hamdan bin mohammed attends global islamic economy summit": {
   "last_short": "2026-10-29",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     198.37148978554302,
@@ -2445,6 +2457,10 @@
    [
     0.7054580940249472,
     2.500998990729685
+   ],
+   [
+    191.16141904327583,
+    192.81081544690682
    ]
   ],
   "shorts_made": 3,
@@ -3217,6 +3233,7 @@
   "fails": 1,
   "last_short": "2026-10-28",
   "montage_used": 3,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     8.913499886257668,
@@ -6172,6 +6189,7 @@
  "hamdan bin mohammed meets graduates of one million arab coders": {
   "last_short": "2026-10-29",
   "montage_used": 5,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     58.68,
@@ -6729,11 +6747,15 @@
   "last_short": "2026-10-29",
   "long": "2026-10-10",
   "montage_exhausted": true,
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     14.317510472381727,
     15.885325085944668
+   ],
+   [
+    22.52,
+    24.459999999999997
    ]
   ],
   "shorts_made": 1,
@@ -10424,7 +10446,7 @@
  },
  "hamdan bin mohammed visits dubai airshow 2017": {
   "last_short": "2026-10-29",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     71.52518074680644,
@@ -10449,6 +10471,10 @@
    [
     52.214999919806644,
     53.74412360629268
+   ],
+   [
+    165.80140814493046,
+    167.49348883643205
    ]
   ],
   "video_exhausted": true,
@@ -11214,7 +11240,7 @@
  },
  "hamdan bin mohammed visits public prosecution": {
   "last_short": "2026-10-29",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     276.27271542570674,
@@ -11223,6 +11249,10 @@
    [
     70.19061588032002,
     72.56369139105222
+   ],
+   [
+    75.41026566244801,
+    77.29500875148153
    ]
   ],
   "shorts_made": 2,
@@ -13568,13 +13598,17 @@
  },
  "king salman bin abdulaziz of saudi arabia receives dubai crown prince": {
   "fails": 1,
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-29",
   "montage_exhausted": true,
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     89.79912058067428,
     92.33307166241016
+   ],
+   [
+    148.32,
+    149.96
    ]
   ],
   "shorts_made": 1,

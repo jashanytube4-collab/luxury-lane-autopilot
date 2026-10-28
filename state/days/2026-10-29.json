@@ -3,8 +3,13 @@
  "slots": [
   {
    "at": "2026-10-29T06:01:08+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "montage",
+   "status": "scheduled",
+   "title": "What you do for others is your real legacy. ❤️ #princehamdan #youtubeshorts #youtube",
+   "type": "short",
+   "video_id": "f-bbIKGoQzo",
+   "voiced": true
   },
   {
    "at": "2026-10-29T06:50:17+04:00",

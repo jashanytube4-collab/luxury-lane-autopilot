@@ -4544,7 +4544,7 @@
  },
  "hamdan bin mohammed honors winners of dubai appreciation award for community service": {
   "last_short": "2026-10-29",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     179.39335360955343,
@@ -4596,6 +4596,10 @@
    [
     177.0,
     182.35999999999999
+   ],
+   [
+    67.52000000000001,
+    71.24
    ]
   ],
   "video_len": 239
@@ -6069,8 +6073,8 @@
   "video_len": 191
  },
  "hamdan bin mohammed meets government team behind uae s progress in world bank s ease of doing business ranking": {
-  "last_short": "2026-10-28",
-  "montage_used": 4,
+  "last_short": "2026-10-29",
+  "montage_used": 5,
   "remix_ranges": [
    [
     125.5027611214891,
@@ -6126,6 +6130,10 @@
    [
     145.12,
     147.64
+   ],
+   [
+    38.919999999999995,
+    41.36
    ]
   ],
   "video_exhausted": true,
@@ -7747,7 +7755,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2018": {
   "last_short": "2026-10-29",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     324.3828204350159,
@@ -7819,6 +7827,10 @@
    [
     354.44,
     356.92
+   ],
+   [
+    317.35999999999996,
+    318.99999999999994
    ]
   ],
   "video_exhausted": true,
@@ -8321,8 +8333,8 @@
   "video_len": 46
  },
  "hamdan bin mohammed receives head of chechen republic": {
-  "last_short": "2026-10-28",
-  "montage_used": 3,
+  "last_short": "2026-10-29",
+  "montage_used": 4,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -8336,6 +8348,12 @@
    [
     7.924822824873859,
     10.467767769279387
+   ]
+  ],
+  "shot_ranges": [
+   [
+    4.640000000000001,
+    9.64
    ]
   ],
   "video_exhausted": true,
@@ -10525,7 +10543,7 @@
  },
  "hamdan bin mohammed visits dubai government hr department": {
   "last_short": "2026-10-29",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     92.94184157109537,
@@ -10557,6 +10575,10 @@
    [
     16.96,
     20.64
+   ],
+   [
+    92.08,
+    95.64
    ]
   ],
   "video_exhausted": true,

@@ -574,8 +574,17 @@
   "video_len": 68
  },
  "dubai crown prince offers condolences to alkaabi family": {
+  "last_short": "2026-10-29",
   "long": "2026-10-17",
-  "video_exhausted": true
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    29.396853895904,
+    30.967719022755134
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 61
  },
  "dubai crown prince receives australia s governor general": {
   "last_short": "2026-10-28",
@@ -1525,13 +1534,17 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed approves dubai marine transport master plan 2030": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-29",
   "long": "2026-10-22",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     48.94176936882123,
     51.00728426504466
+   ],
+   [
+    29.13504938304487,
+    30.572376542367483
    ]
   ],
   "shorts_made": 2,
@@ -3831,8 +3844,8 @@
   "video_len": 58
  },
  "hamdan bin mohammed concludes official visit to kuwait": {
-  "last_short": "2026-10-28",
-  "montage_used": 5,
+  "last_short": "2026-10-29",
+  "montage_used": 6,
   "remix_ranges": [
    [
     80.18242730661535,
@@ -3849,6 +3862,10 @@
    [
     71.25333333333334,
     72.94666666666666
+   ],
+   [
+    92.06054861260472,
+    93.8464538239714
    ]
   ],
   "shorts_made": 1,
@@ -7847,7 +7864,7 @@
  "hamdan bin mohammed opens salem medical fitness smart centre": {
   "last_short": "2026-10-29",
   "long": "2026-10-18",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     182.01540657684788,
@@ -7856,6 +7873,10 @@
    [
     169.41285728607764,
     171.65493021305414
+   ],
+   [
+    189.40647784412448,
+    190.88144562177268
    ]
   ],
   "shorts_made": 3,
@@ -9011,8 +9032,8 @@
   "video_len": 75
  },
  "hamdan bin mohammed tours arabian travel market 2024": {
-  "last_short": "2026-10-27",
-  "montage_used": 4,
+  "last_short": "2026-10-29",
+  "montage_used": 5,
   "remix_ranges": [
    [
     48.384688122709605,
@@ -9025,6 +9046,10 @@
    [
     14.99158088297002,
     16.666045319043484
+   ],
+   [
+    26.253333333333334,
+    27.913333333333334
    ]
   ],
   "shorts_made": 1,
@@ -9667,6 +9692,7 @@
  "hamdan bin mohammed visits al seef project": {
   "last_short": "2026-10-28",
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     15.827142872614093,
@@ -10012,9 +10038,9 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed visits display of origin autonomous vehicle on the sidelines of the world government summit 2022": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-10-29",
   "montage_exhausted": true,
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     40.817480318674356,
@@ -10023,6 +10049,10 @@
    [
     52.53766311576042,
     54.60062605297332
+   ],
+   [
+    59.26389517767937,
+    61.54765381105037
    ]
   ],
   "shorts_made": 2,
@@ -10232,12 +10262,16 @@
   "video_len": 191
  },
  "hamdan bin mohammed visits dubai chamber of commerce and industry": {
-  "last_short": "2026-10-28",
-  "montage_used": 1,
+  "last_short": "2026-10-29",
+  "montage_used": 2,
   "remix_ranges": [
    [
     41.30287533391608,
     43.61120592565935
+   ],
+   [
+    89.44585259876794,
+    91.1270903997228
    ]
   ],
   "shorts_made": 2,
@@ -10802,8 +10836,8 @@
   "video_len": 275
  },
  "hamdan bin mohammed visits linkedin s regional headquarters in dubai": {
-  "last_short": "2026-10-27",
-  "montage_used": 4,
+  "last_short": "2026-10-29",
+  "montage_used": 5,
   "remix_ranges": [
    [
     99.75771873527589,
@@ -10820,6 +10854,10 @@
    [
     66.67116149241421,
     68.42053854921905
+   ],
+   [
+    46.95885043651148,
+    48.55431027634871
    ]
   ],
   "shorts_made": 2,

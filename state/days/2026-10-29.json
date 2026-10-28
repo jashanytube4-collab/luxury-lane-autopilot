@@ -48,8 +48,13 @@
   },
   {
    "at": "2026-10-29T10:07:17+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "He doesn't just inspire. He shows the way. ✨ #youtubeshorts #youtube #fazza",
+   "type": "short",
+   "video_id": "XTvRNf327cE",
+   "voiced": true
   },
   {
    "at": "2026-10-29T10:59:14+04:00",

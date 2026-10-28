@@ -329,7 +329,7 @@
  "dubai crown prince commends students selected for the hamdan bin mohammed scholarship programme": {
   "last_short": "2026-10-29",
   "long": "2026-10-17",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     42.09304322116802,
@@ -342,6 +342,10 @@
    [
     25.586666666666666,
     27.779999999999998
+   ],
+   [
+    8.853333333333332,
+    10.613333333333333
    ]
   ],
   "shorts_made": 1,
@@ -2931,7 +2935,8 @@
     47.46333333333334
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 55
  },
  "hamdan bin mohammed attends opening of 49th world economic forum": {
   "no_hamdan": true,
@@ -3160,10 +3165,10 @@
   "video_len": 91
  },
  "hamdan bin mohammed attends the graduation of 18th cohort of the national military service": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-29",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     42.56876267120477,
@@ -3172,6 +3177,10 @@
    [
     86.98666666666666,
     88.67999999999999
+   ],
+   [
+    52.25044070857908,
+    53.96166997951993
    ]
   ],
   "shorts_made": 1,
@@ -3471,6 +3480,7 @@
   "last_short": "2026-10-27",
   "long": "2026-10-25",
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     7.915126810339253,
@@ -3572,7 +3582,7 @@
  "hamdan bin mohammed chairs executive council meeting approves plans and policies": {
   "last_short": "2026-10-29",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     68.65279797830273,
@@ -3585,6 +3595,10 @@
    [
     5.475383572114706,
     6.953988835103953
+   ],
+   [
+    58.53138402199608,
+    60.356257848283654
    ]
   ],
   "shorts_made": 1,
@@ -3618,8 +3632,8 @@
   "video_len": 78
  },
  "hamdan bin mohammed chairs executive council meeting approves series of economic stimulus policies": {
-  "last_short": "2026-10-28",
-  "montage_used": 3,
+  "last_short": "2026-10-29",
+  "montage_used": 4,
   "remix_ranges": [
    [
     25.517707085490756,
@@ -3632,6 +3646,10 @@
    [
     43.18373538455781,
     44.030572363591304
+   ],
+   [
+    88.14729522355071,
+    89.92729416122083
    ]
   ],
   "shorts_made": 1,
@@ -3860,8 +3878,8 @@
   "video_len": 116
  },
  "hamdan bin mohammed concludes official visit to uzbekistan": {
-  "last_short": "2026-10-28",
-  "montage_used": 5,
+  "last_short": "2026-10-29",
+  "montage_used": 6,
   "remix_ranges": [
    [
     136.78354122945424,
@@ -3874,6 +3892,10 @@
    [
     140.32,
     142.24666666666667
+   ],
+   [
+    41.65333333333333,
+    43.513333333333335
    ]
   ],
   "shorts_made": 1,
@@ -5803,6 +5825,7 @@
   "long": "2026-10-16",
   "montage_exhausted": true,
   "montage_used": 1,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     22.41111292269787,
@@ -6618,6 +6641,7 @@
   "long": "2026-10-20",
   "montage_exhausted": true,
   "montage_used": 4,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     23.000655895915443,
@@ -7085,10 +7109,10 @@
   "long": "2026-10-21"
  },
  "hamdan bin mohammed offers condolences on death of abdullah mohamed al masoud": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-10-29",
   "long": "2026-10-16",
   "montage_exhausted": true,
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     44.96,
@@ -7101,6 +7125,10 @@
    [
     28.019581911502122,
     29.73956615151447
+   ],
+   [
+    19.939707895995443,
+    21.77678429340595
    ]
   ],
   "shorts_made": 1,
@@ -7979,6 +8007,7 @@
   "last_short": "2026-10-28",
   "long": "2026-10-14",
   "montage_used": 4,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     13.3014644340285,
@@ -10087,7 +10116,7 @@
  },
  "hamdan bin mohammed visits dubai airshow 2017": {
   "last_short": "2026-10-29",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     71.52518074680644,
@@ -10108,6 +10137,10 @@
    [
     33.399985707574054,
     35.600529833622026
+   ],
+   [
+    52.214999919806644,
+    53.74412360629268
    ]
   ],
   "video_exhausted": true,
@@ -13027,9 +13060,9 @@
   "video_len": 64
  },
  "khaled bin mohamed bin zayed hamdan bin mohammed bin rashid attend world governments summit 2025": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-29",
   "long": "2026-10-25",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     7.12,
@@ -13038,6 +13071,10 @@
    [
     53.952453436623955,
     55.42679470635328
+   ],
+   [
+    25.386666666666667,
+    27.246666666666666
    ]
   ],
   "shorts_made": 1,
@@ -13680,6 +13717,7 @@
   "long": "2026-10-28",
   "montage_exhausted": true,
   "montage_used": 4,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     73.10353700454662,

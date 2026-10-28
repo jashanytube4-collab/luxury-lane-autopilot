@@ -221,7 +221,7 @@
  },
  "dubai crown prince attends graduation of dubai police academy": {
   "last_short": "2026-10-29",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     211.78852581766063,
@@ -258,6 +258,10 @@
    [
     657.3732325148076,
     658.7971966481724
+   ],
+   [
+    136.22155299373637,
+    136.98207236537928
    ]
   ],
   "shorts_made": 2,
@@ -1987,9 +1991,9 @@
   "long": "2026-10-17"
  },
  "hamdan bin mohammed attends al muhairi al rumaithi family wedding": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-10-29",
   "long": "2026-10-27",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     86.69715800486105,
@@ -1998,6 +2002,10 @@
    [
     70.26667525828802,
     71.98393346046828
+   ],
+   [
+    56.727707695812086,
+    59.24738811298073
    ]
   ],
   "shorts_made": 1,
@@ -2395,9 +2403,15 @@
   "video_len": 278
  },
  "hamdan bin mohammed attends global cardiology congress": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-10-29",
   "long": "2026-10-22",
-  "montage_used": 1,
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    227.92000000000002,
+    229.76
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -6086,7 +6100,7 @@
  },
  "hamdan bin mohammed meets government team behind uae s progress in world bank s ease of doing business ranking": {
   "last_short": "2026-10-29",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     125.5027611214891,
@@ -6099,6 +6113,10 @@
    [
     152.36,
     154.51999999999998
+   ],
+   [
+    81.2176638053214,
+    83.5873640400257
    ]
   ],
   "shorts_made": 2,
@@ -7130,7 +7148,7 @@
  "hamdan bin mohammed meets with top performing school and university graduates": {
   "last_short": "2026-10-29",
   "long": "2026-10-17",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     13.76558973958145,
@@ -7139,6 +7157,10 @@
    [
     56.16225482437853,
     58.3615589392415
+   ],
+   [
+    7.374359055187358,
+    9.026403246352041
    ]
   ],
   "shorts_made": 1,
@@ -7644,7 +7666,7 @@
  },
  "hamdan bin mohammed officially opens gitex 2018": {
   "last_short": "2026-10-29",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     126.01016816879962,
@@ -7657,6 +7679,10 @@
    [
     204.68,
     206.68
+   ],
+   [
+    96.38438011975623,
+    98.39102119996343
    ]
   ],
   "shorts_made": 1,
@@ -7851,7 +7877,7 @@
  },
  "hamdan bin mohammed opens crime prevention international conference": {
   "last_short": "2026-10-29",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     68.54641858440627,
@@ -7868,6 +7894,10 @@
    [
     97.80230811504242,
     99.47278273550356
+   ],
+   [
+    157.61591331676695,
+    159.4313570323303
    ]
   ],
   "shorts_made": 3,
@@ -8843,7 +8873,7 @@
  },
  "hamdan bin mohammed reviews outcomes of farmers souq initiative": {
   "last_short": "2026-10-29",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     29.266446170224548,
@@ -8868,6 +8898,10 @@
    [
     25.570867596765552,
     27.16353432128007
+   ],
+   [
+    52.55720820260433,
+    54.363179192153225
    ]
   ],
   "shorts_made": 1,

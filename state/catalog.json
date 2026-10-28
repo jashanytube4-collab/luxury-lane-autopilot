@@ -1117,9 +1117,9 @@
  },
  "hamdan bin mohammed and india s minister of commerce and industry witness signing of 8 mous": {
   "fails": 1,
-  "last_short": "2026-10-28",
+  "last_short": "2026-10-29",
   "long": "2026-10-14",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     2.3467459966608333,
@@ -1128,6 +1128,10 @@
    [
     20.262977785004736,
     22.263024566849886
+   ],
+   [
+    25.060000000000002,
+    27.08
    ]
   ],
   "shorts_made": 1,
@@ -3568,7 +3572,7 @@
  "hamdan bin mohammed chairs executive council meeting approves plans and policies": {
   "last_short": "2026-10-29",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     68.65279797830273,
@@ -3577,6 +3581,10 @@
    [
     39.42441778773624,
     41.747524331962794
+   ],
+   [
+    5.475383572114706,
+    6.953988835103953
    ]
   ],
   "shorts_made": 1,
@@ -4696,6 +4704,7 @@
   "last_short": "2026-10-26",
   "long": "2026-10-23",
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     17.187444669921586,
@@ -6718,9 +6727,15 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed meets with participants of dubai leadership camp": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-29",
   "montage_exhausted": true,
-  "montage_used": 1,
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    44.45334747323149,
+    46.27938740070478
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -7115,13 +7130,17 @@
   "video_len": 64
  },
  "hamdan bin mohammed offers condolences on death of hamad al qasimi": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-10-29",
   "long": "2026-10-20",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     44.35577291257337,
     46.375217351040455
+   ],
+   [
+    29.300552456617677,
+    31.143099652325613
    ]
   ],
   "video_exhausted": true,
@@ -7131,9 +7150,9 @@
   "long": "2026-10-28"
  },
  "hamdan bin mohammed offers condolences on death of moza bint ali al weri": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-10-29",
   "long": "2026-10-14",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     17.37089556107783,
@@ -7146,6 +7165,10 @@
    [
     3.961280086486453,
     5.833327104290587
+   ],
+   [
+    43.21796200095339,
+    44.72382080825132
    ]
   ],
   "shorts_made": 1,
@@ -7900,9 +7923,9 @@
   "video_len": 223
  },
  "hamdan bin mohammed opens the race to excellence": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-10-29",
   "long": "2026-10-12",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     2.6092809649617554,
@@ -7911,6 +7934,10 @@
    [
     21.977681526358726,
     23.88284222242695
+   ],
+   [
+    15.494201198744562,
+    17.275621565896547
    ]
   ],
   "shorts_made": 2,
@@ -10009,7 +10036,7 @@
  },
  "hamdan bin mohammed visits dp world s facilities inspects operations of jebel ali port": {
   "last_short": "2026-10-29",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     23.240000000000002,
@@ -10030,6 +10057,10 @@
    [
     196.20000000000002,
     198.76
+   ],
+   [
+    95.35167190609276,
+    96.84774070959908
    ]
   ],
   "shorts_made": 1,
@@ -11349,6 +11380,7 @@
  "hamdan bin mohammed witnesses the first test flight": {
   "last_short": "2026-10-28",
   "montage_used": 7,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     88.67691734041264,
@@ -12845,8 +12877,8 @@
   "video_exhausted": true
  },
  "in presence of dubai crown prince meraas signs agreement with dubai municipality to manage dubai safari": {
-  "last_short": "2026-10-27",
-  "montage_used": 3,
+  "last_short": "2026-10-29",
+  "montage_used": 4,
   "remix_ranges": [
    [
     4.017581494059155,
@@ -12859,6 +12891,10 @@
    [
     14.705101802019028,
     17.294919957029812
+   ],
+   [
+    23.652604339335603,
+    25.786120285977816
    ]
   ],
   "video_exhausted": true,
@@ -13267,7 +13303,7 @@
   "video_len": 189
  },
  "mohammad bin salman receives hamdan bin mohammed": {
-  "no_video_until": "2026-10-28",
+  "no_video_until": "2026-10-31",
   "video_exhausted": true
  },
  "mohammed attends as hamdan snatches endurance cup": {

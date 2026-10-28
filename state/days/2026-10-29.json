@@ -73,8 +73,13 @@
   },
   {
    "at": "2026-10-29T12:22:11+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Strength, honour and humility. #youtube #youtubeshorts",
+   "type": "short",
+   "video_id": "QEGi1Fcm8qY",
+   "voiced": true
   },
   {
    "at": "2026-10-29T13:02:52+04:00",

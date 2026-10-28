@@ -2344,7 +2344,13 @@
  },
  "hamdan bin mohammed attends global islamic economy summit": {
   "last_short": "2026-10-29",
-  "montage_used": 1,
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    198.37148978554302,
+    199.9307099794356
+   ]
+  ],
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -4301,9 +4307,9 @@
   "video_len": 56
  },
  "hamdan bin mohammed honors mbr creative sports award winners": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-10-29",
   "long": "2026-10-18",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     50.879999999999995,
@@ -4324,6 +4330,10 @@
    [
     65.8493017231328,
     67.34675476316052
+   ],
+   [
+    33.62563603570157,
+    35.64094310438903
    ]
   ],
   "shorts_made": 3,
@@ -5625,6 +5635,7 @@
   "last_short": "2026-10-28",
   "montage_exhausted": true,
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     8.294833333333333,
@@ -6041,8 +6052,8 @@
   "video_len": 46
  },
  "hamdan bin mohammed meets promising leaders from various dubai government entities": {
-  "last_short": "2026-10-28",
-  "montage_used": 2,
+  "last_short": "2026-10-29",
+  "montage_used": 3,
   "remix_ranges": [
    [
     23.271101134211975,
@@ -6051,6 +6062,10 @@
    [
     48.16,
     49.760000000000005
+   ],
+   [
+    55.726410859447505,
+    57.89354474936723
    ]
   ],
   "video_exhausted": true,
@@ -6348,6 +6363,7 @@
   "long": "2026-10-10",
   "montage_exhausted": true,
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     35.690413640488465,
@@ -7378,8 +7394,8 @@
   "long": "2026-10-28"
  },
  "hamdan bin mohammed officially opens gitex 2018": {
-  "last_short": "2026-10-28",
-  "montage_used": 3,
+  "last_short": "2026-10-29",
+  "montage_used": 4,
   "remix_ranges": [
    [
     126.01016816879962,
@@ -7388,6 +7404,10 @@
    [
     103.02061816394632,
     105.10435721907018
+   ],
+   [
+    204.68,
+    206.68
    ]
   ],
   "shorts_made": 1,
@@ -8300,8 +8320,8 @@
   "video_len": 70
  },
  "hamdan bin mohammed receives winners of hackathon competition": {
-  "last_short": "2026-10-28",
-  "montage_used": 2,
+  "last_short": "2026-10-29",
+  "montage_used": 3,
   "remix_ranges": [
    [
     90.22305596119119,
@@ -8310,6 +8330,10 @@
    [
     51.559999999999995,
     53.64
+   ],
+   [
+    99.45592838338976,
+    101.39092204193798
    ]
   ],
   "shorts_made": 3,
@@ -9318,8 +9342,8 @@
   "video_len": 189
  },
  "hamdan bin mohammed unveils 5 star plaque at sheikh zayed housing programme in dubai": {
-  "last_short": "2026-10-28",
-  "montage_used": 5,
+  "last_short": "2026-10-29",
+  "montage_used": 6,
   "remix_ranges": [
    [
     144.8978218171365,
@@ -9340,6 +9364,10 @@
    [
     138.03974945728413,
     140.40814377856435
+   ],
+   [
+    152.41435567730625,
+    154.86450647113458
    ]
   ],
   "shorts_made": 3,
@@ -10498,6 +10526,7 @@
   "last_short": "2026-10-28",
   "montage_exhausted": true,
   "montage_used": 4,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     14.613102080781365,
@@ -11474,8 +11503,8 @@
   "long": "2026-10-22"
  },
  "hamdan inspects al bayt studio": {
-  "last_short": "2026-10-28",
-  "montage_used": 3,
+  "last_short": "2026-10-29",
+  "montage_used": 4,
   "remix_ranges": [
    [
     140.32,
@@ -11488,6 +11517,10 @@
    [
     149.9429201028359,
     152.30173536396902
+   ],
+   [
+    111.07367261003886,
+    112.79988762046587
    ]
   ],
   "video_exhausted": true,
@@ -11579,8 +11612,8 @@
   "video_len": 44
  },
  "hamdan receives unesco expert": {
-  "last_short": "2026-10-26",
-  "montage_used": 4,
+  "last_short": "2026-10-29",
+  "montage_used": 5,
   "remix_ranges": [
    [
     52.35333333333333,
@@ -11597,6 +11630,10 @@
    [
     34.086666666666666,
     36.513333333333335
+   ],
+   [
+    28.838728814538793,
+    30.30624967746148
    ]
   ],
   "video_exhausted": true,

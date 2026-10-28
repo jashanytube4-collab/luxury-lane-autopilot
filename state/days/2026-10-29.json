@@ -38,8 +38,13 @@
   },
   {
    "at": "2026-10-29T09:26:04+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Kindness is his quiet superpower. #youtubeshorts #youtube #fazza",
+   "type": "short",
+   "video_id": "CPTt8_SPu1w",
+   "voiced": true
   },
   {
    "at": "2026-10-29T10:07:17+04:00",

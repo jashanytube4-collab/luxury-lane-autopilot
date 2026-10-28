@@ -220,8 +220,13 @@
   },
   {
    "at": "2026-10-29T22:31:25+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "montage",
+   "status": "scheduled",
+   "title": "Where he goes, hope follows. #fazza #youtubeshorts #youtube",
+   "type": "short",
+   "video_id": "UWn7oZ6kVx4",
+   "voiced": true
   },
   {
    "at": "2026-10-29T23:19:26+04:00",

@@ -3325,6 +3325,7 @@
  "hamdan bin mohammed attends uae swat challenge 2023": {
   "fails": 1,
   "long": "2026-10-18",
+  "montage_exhausted": true,
   "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 54
@@ -4195,9 +4196,9 @@
   "video_len": 98
  },
  "hamdan bin mohammed goes on first test ride of cruise autonomous electric vehicle in jumeirah 1": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-29",
   "long": "2026-10-08",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -4234,6 +4235,10 @@
    [
     45.12,
     47.296666666666674
+   ],
+   [
+    72.38666666666667,
+    75.28
    ]
   ],
   "video_exhausted": true,
@@ -5139,8 +5144,8 @@
   "long": "2026-10-21"
  },
  "hamdan bin mohammed joins national guard personnel in hatta for iftar": {
-  "last_short": "2026-10-28",
-  "montage_used": 2,
+  "last_short": "2026-10-29",
+  "montage_used": 3,
   "remix_ranges": [
    [
     32.15333333333333,
@@ -5172,6 +5177,10 @@
    [
     43.85333333333333,
     46.63
+   ],
+   [
+    26.953333333333333,
+    29.013333333333332
    ]
   ],
   "video_exhausted": true,
@@ -7715,9 +7724,9 @@
   "video_len": 119
  },
  "hamdan bin mohammed opens salem medical fitness smart centre": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-10-29",
   "long": "2026-10-18",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     182.01540657684788,
@@ -7761,13 +7770,17 @@
    [
     105.46000000000001,
     110.46000000000001
+   ],
+   [
+    129.12,
+    134.12
    ]
   ],
   "video_len": 226
  },
  "hamdan bin mohammed opens smart police station at la mer": {
-  "last_short": "2026-10-28",
-  "montage_used": 2,
+  "last_short": "2026-10-29",
+  "montage_used": 3,
   "remix_ranges": [
    [
     99.92,
@@ -7807,6 +7820,10 @@
    [
     128.8,
     131.35999999999999
+   ],
+   [
+    99.92,
+    102.03999999999999
    ]
   ],
   "video_exhausted": true,
@@ -9701,6 +9718,7 @@
  },
  "hamdan bin mohammed visits dental exhibition in dubai": {
   "last_short": "2026-10-28",
+  "montage_exhausted": true,
   "montage_used": 2,
   "remix_ranges": [
    [
@@ -9981,8 +9999,8 @@
   "video_len": 79
  },
  "hamdan bin mohammed visits dubai autism center": {
-  "last_short": "2026-10-27",
-  "montage_used": 2,
+  "last_short": "2026-10-29",
+  "montage_used": 3,
   "remix_ranges": [
    [
     22.16,
@@ -10030,6 +10048,10 @@
    [
     184.4,
     186.51999999999998
+   ],
+   [
+    175.92666666666668,
+    176.43333333333337
    ]
   ],
   "video_exhausted": true,
@@ -10081,8 +10103,8 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed visits dubai government hr department": {
-  "last_short": "2026-10-26",
-  "montage_used": 1,
+  "last_short": "2026-10-29",
+  "montage_used": 2,
   "remix_ranges": [
    [
     92.94184157109537,
@@ -10110,6 +10132,10 @@
    [
     142.28,
     146.12
+   ],
+   [
+    16.96,
+    20.64
    ]
   ],
   "video_exhausted": true,

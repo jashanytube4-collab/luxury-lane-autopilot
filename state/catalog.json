@@ -55,6 +55,7 @@
  "crown prince of dubai inaugurates the hamdan smart station for simulation and training": {
   "last_short": "2026-10-28",
   "montage_used": 6,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     176.48204172023756,
@@ -1640,13 +1641,17 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed approves executive council s 2020 agenda unifies health insurance programmes": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-29",
   "montage_exhausted": true,
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     68.89767791203319,
     71.08007175763707
+   ],
+   [
+    45.850290816501186,
+    47.615514558239724
    ]
   ],
   "shorts_made": 1,
@@ -3224,6 +3229,7 @@
   "long": "2026-10-28",
   "montage_exhausted": true,
   "montage_used": 4,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     42.56876267120477,
@@ -5378,8 +5384,8 @@
   "fails": 2
  },
  "hamdan bin mohammed launches day for dubai encourages residents to volunteer": {
-  "last_short": "2026-10-28",
-  "montage_used": 4,
+  "last_short": "2026-10-29",
+  "montage_used": 5,
   "remix_ranges": [
    [
     0.8284244282312303,
@@ -5396,6 +5402,10 @@
    [
     6.349706618813064,
     8.599554231031291
+   ],
+   [
+    80.30929478974012,
+    82.55924862463608
    ]
   ],
   "video_exhausted": true,
@@ -6631,9 +6641,16 @@
   "video_len": 18
  },
  "hamdan bin mohammed meets with indian prime minister to discuss future of bilateral partnership": {
-  "last_short": "2026-10-07",
+  "last_short": "2026-10-29",
   "long": "2026-10-10",
   "montage_exhausted": true,
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    14.317510472381727,
+    15.885325085944668
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -7664,8 +7681,8 @@
   "video_len": 279
  },
  "hamdan bin mohammed opens cityscape global 2018": {
-  "last_short": "2026-10-28",
-  "montage_used": 5,
+  "last_short": "2026-10-29",
+  "montage_used": 6,
   "remix_ranges": [
    [
     324.3828204350159,
@@ -7682,6 +7699,10 @@
    [
     190.85597370367037,
     192.86452583366085
+   ],
+   [
+    221.17329860334308,
+    222.59888617972263
    ]
   ],
   "shorts_made": 2,
@@ -9888,7 +9909,7 @@
  "hamdan bin mohammed visits art dubai": {
   "last_short": "2026-10-29",
   "long": "2026-10-13",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     49.68,
@@ -9905,6 +9926,10 @@
    [
     151.31838384775045,
     152.76828684820367
+   ],
+   [
+    12.081165602874922,
+    13.493710175335744
    ]
   ],
   "shorts_made": 2,
@@ -10564,9 +10589,9 @@
   "video_len": 263
  },
  "hamdan bin mohammed visits dubai sports council": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-29",
   "long": "2026-10-18",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     54.599999999999994,
@@ -10583,6 +10608,10 @@
    [
     88.64,
     90.32
+   ],
+   [
+    96.688108470224,
+    98.14462966473273
    ]
   ],
   "video_exhausted": true,
@@ -11629,8 +11658,8 @@
   "video_exhausted": true
  },
  "hamdan chairs 1st meeting for higher committee to implement smart city project": {
-  "last_short": "2026-10-27",
-  "montage_used": 3,
+  "last_short": "2026-10-29",
+  "montage_used": 4,
   "remix_ranges": [
    [
     59.327520072428314,
@@ -11643,6 +11672,10 @@
    [
     53.68666666666667,
     55.74666666666667
+   ],
+   [
+    3.22,
+    4.9799999999999995
    ]
   ],
   "video_exhausted": true,
@@ -13223,6 +13256,7 @@
   "last_short": "2026-10-29",
   "long": "2026-10-25",
   "montage_used": 3,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     7.12,
@@ -13760,9 +13794,9 @@
   "video_len": 120
  },
  "rulers of ajman fujairah and ras al khaimah offer condolences to sheikh hamdan on mansour bin ahmed": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-10-29",
   "long": "2026-10-28",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     80.96000000000001,
@@ -13775,6 +13809,10 @@
    [
     244.20199124750613,
     246.49425681364858
+   ],
+   [
+    124.166842003125,
+    125.6622201893176
    ]
   ],
   "shorts_made": 3,

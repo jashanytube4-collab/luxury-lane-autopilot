@@ -947,6 +947,7 @@
  "hamdan approves dubai innovation strategy": {
   "last_short": "2026-10-24",
   "montage_used": 1,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     61.26276538884116,
@@ -4935,8 +4936,8 @@
   "video_len": 316
  },
  "hamdan bin mohammed inaugurates the world s largest solar powered data centre": {
-  "last_short": "2026-10-28",
-  "montage_used": 6,
+  "last_short": "2026-10-29",
+  "montage_used": 7,
   "remix_ranges": [
    [
     56.3455405839187,
@@ -4957,6 +4958,10 @@
    [
     49.60189128023868,
     51.73206567302457
+   ],
+   [
+    26.528062649750268,
+    28.110929891212823
    ]
   ],
   "shorts_made": 1,
@@ -5211,8 +5216,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed launches 26 dubai 10x projects issues directive to implement them within 24 months": {
-  "last_short": "2026-10-28",
-  "montage_used": 4,
+  "last_short": "2026-10-29",
+  "montage_used": 5,
   "remix_ranges": [
    [
     113.84243637422479,
@@ -5229,6 +5234,10 @@
    [
     20.41607549515559,
     22.10108761621996
+   ],
+   [
+    85.22209498919806,
+    86.63743627578923
    ]
   ],
   "video_exhausted": true,
@@ -7164,9 +7173,9 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed offers condolences to al falahi family": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-29",
   "long": "2026-10-16",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     85.17042709742152,
@@ -7175,6 +7184,10 @@
    [
     13.388793855294033,
     15.420535045398587
+   ],
+   [
+    57.41597084144217,
+    59.36391179274431
    ]
   ],
   "shorts_made": 1,
@@ -7235,9 +7248,9 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed offers condolences to family of martyr al mesmari": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-10-29",
   "long": "2026-10-27",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     70.2,
@@ -7254,6 +7267,10 @@
    [
     80.19379969842421,
     82.13403434929498
+   ],
+   [
+    52.869947553173965,
+    55.058826875777854
    ]
   ],
   "shorts_made": 1,
@@ -8260,7 +8277,7 @@
  },
  "hamdan bin mohammed receives victory team xcat": {
   "last_short": "2026-10-29",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     67.59418394616664,
@@ -8273,6 +8290,10 @@
    [
     29.233551583465278,
     30.730827218464484
+   ],
+   [
+    60.634150247166076,
+    62.882953051409764
    ]
   ],
   "video_exhausted": true,
@@ -8723,13 +8744,17 @@
   "video_len": 68
  },
  "hamdan bin mohammed reviews the latest technologies and energy solutions at wetex 2019": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-10-29",
   "montage_exhausted": true,
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     249.043806441902,
     251.5427959574576
+   ],
+   [
+    143.34588157089038,
+    145.90809838078496
    ]
   ],
   "shorts_made": 3,
@@ -10002,8 +10027,8 @@
   "video_len": 311
  },
  "hamdan bin mohammed visits dubai airshow 2017": {
-  "last_short": "2026-10-28",
-  "montage_used": 4,
+  "last_short": "2026-10-29",
+  "montage_used": 5,
   "remix_ranges": [
    [
     71.52518074680644,
@@ -10020,6 +10045,10 @@
    [
     181.6858507638069,
     183.49317749840142
+   ],
+   [
+    33.399985707574054,
+    35.600529833622026
    ]
   ],
   "video_exhausted": true,
@@ -13280,9 +13309,9 @@
   "video_len": 251
  },
  "mohammed bin rashid commends the dubai executive council s efforts over the past 15 years": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-10-29",
   "long": "2026-10-28",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     83.59827200044164,
@@ -13303,6 +13332,10 @@
    [
     108.32643238031376,
     110.00775995386564
+   ],
+   [
+    115.39474065119207,
+    116.90596002565425
    ]
   ],
   "shorts_made": 1,

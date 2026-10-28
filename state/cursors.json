@@ -630,7 +630,33 @@
   "ll51d85088fa",
   "ll390f02c406",
   "ll607c663a6e",
-  "ll68a32c5f74"
+  "ll68a32c5f74",
+  "ll859c5491cd",
+  "llb3a0e89ece",
+  "ll92e71f5173",
+  "ll10749420be",
+  "lldcd4c0aa5f",
+  "ll1b12e8f484",
+  "lle6a7583821",
+  "ll4c2f0d03b5",
+  "ll391c860df6",
+  "ll7bc72b393d",
+  "ll2b7f351906",
+  "ll07c51d7466",
+  "lla2093ea439",
+  "llcd54be210e",
+  "ll0d95387b15",
+  "lle35f06a2b3",
+  "ll95cd32b55b",
+  "ll3a8592c860",
+  "ll97ba79477d",
+  "ll55a92cffa6",
+  "llb061f402b3",
+  "llb777b3aadc",
+  "ll018dee57ef",
+  "ll5550ed1991",
+  "ll5024ad740c",
+  "ll59a711650c"
  ],
  "quotes": [
   {
@@ -1119,8 +1145,8 @@
  ],
  "shorts_supply": {
   "date": "2026-10-28",
-  "days": 2.1,
-  "events": 65
+  "days": 2.6,
+  "events": 80
  },
  "stories_done": [
   "flydubai-hero",

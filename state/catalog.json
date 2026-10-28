@@ -2994,9 +2994,16 @@
   "long": "2026-10-18"
  },
  "hamdan bin mohammed attends part of national multi sector exercise conducted by ncema uae cyber security council": {
-  "last_short": "2026-10-07",
+  "last_short": "2026-10-29",
   "long": "2026-10-05",
   "montage_exhausted": true,
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    38.12,
+    39.84666666666667
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -3339,7 +3346,7 @@
  },
  "hamdan bin mohammed attends the launche of uae innovation month in dubai": {
   "last_short": "2026-10-29",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     42.38019053786916,
@@ -3352,6 +3359,10 @@
    [
     13.399999999999999,
     15.4
+   ],
+   [
+    130.13032117333876,
+    131.19106905480032
    ]
   ],
   "shorts_made": 1,
@@ -3407,13 +3418,17 @@
   "video_len": 54
  },
  "hamdan bin mohammed attends wedding": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-29",
   "long": "2026-10-15",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     38.30255819227579,
     40.38269508142211
+   ],
+   [
+    61.522661191609025,
+    63.93374841695459
    ]
   ],
   "video_exhausted": true,
@@ -3685,7 +3700,7 @@
  },
  "hamdan bin mohammed chairs executive council meeting approves series of economic stimulus policies": {
   "last_short": "2026-10-29",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     25.517707085490756,
@@ -3702,6 +3717,10 @@
    [
     88.14729522355071,
     89.92729416122083
+   ],
+   [
+    111.4,
+    113.03999999999999
    ]
   ],
   "shorts_made": 1,
@@ -4485,8 +4504,8 @@
   "video_len": 385
  },
  "hamdan bin mohammed honors winners of dubai appreciation award for community service": {
-  "last_short": "2026-10-28",
-  "montage_used": 3,
+  "last_short": "2026-10-29",
+  "montage_used": 4,
   "remix_ranges": [
    [
     179.39335360955343,
@@ -4499,6 +4518,10 @@
    [
     57.161211738533936,
     59.48515667481121
+   ],
+   [
+    109.2962811625726,
+    111.51063810197101
    ]
   ],
   "shorts_made": 3,
@@ -7716,8 +7739,8 @@
   "video_len": 375
  },
  "hamdan bin mohammed opens crime prevention international conference": {
-  "last_short": "2026-10-28",
-  "montage_used": 5,
+  "last_short": "2026-10-29",
+  "montage_used": 6,
   "remix_ranges": [
    [
     68.54641858440627,
@@ -7730,6 +7753,10 @@
    [
     104.81760927554642,
     106.77367026472078
+   ],
+   [
+    97.80230811504242,
+    99.47278273550356
    ]
   ],
   "shorts_made": 3,
@@ -11895,8 +11922,8 @@
   "video_len": 202
  },
  "hamdan visits government think tank": {
-  "last_short": "2026-10-27",
-  "montage_used": 3,
+  "last_short": "2026-10-29",
+  "montage_used": 4,
   "remix_ranges": [
    [
     29.076560473178702,
@@ -11909,6 +11936,10 @@
    [
     158.18492578191407,
     159.3116640270029
+   ],
+   [
+    153.12,
+    154.94666666666666
    ]
   ],
   "video_exhausted": true,
@@ -13487,6 +13518,7 @@
   "long": "2026-10-28",
   "montage_exhausted": true,
   "montage_used": 3,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     75.43029455153123,

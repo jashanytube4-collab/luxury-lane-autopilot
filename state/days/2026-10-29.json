@@ -143,8 +143,13 @@
   },
   {
    "at": "2026-10-29T17:35:23+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "The poet who became a leader. #youtubeshorts #youtube #fazza",
+   "type": "short",
+   "video_id": "6Ev4sHhO7Ss",
+   "voiced": true
   },
   {
    "at": "2026-10-29T18:22:05+04:00",

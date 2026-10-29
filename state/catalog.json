@@ -122,8 +122,17 @@
   "long": "2026-10-17"
  },
  "crown prince offers condolences to al mansouri family": {
+  "last_short": "2026-10-30",
   "long": "2026-10-16",
-  "video_exhausted": true
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    14.789589577577805,
+    17.287470537736375
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 38
  },
  "crown prince offers condolences to al tayaer family": {
   "long": "2026-10-17"
@@ -1050,9 +1059,9 @@
   "video_len": 68
  },
  "hamdan approves medical tourism strategy": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-10-30",
   "long": "2026-10-30",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     29.184896091193437,
@@ -1061,6 +1070,10 @@
    [
     61.17217440695298,
     62.81414213627705
+   ],
+   [
+    38.19687103351474,
+    40.274325711395626
    ]
   ],
   "video_exhausted": true,
@@ -2499,11 +2512,15 @@
  "hamdan bin mohammed attends gems our own english high school s golden jubilee celebrations": {
   "last_short": "2026-10-30",
   "long": "2026-10-15",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     77.94133731869516,
     79.91891816634823
+   ],
+   [
+    192.105247112048,
+    193.64783180843185
    ]
   ],
   "shot_ranges": [
@@ -6609,7 +6626,7 @@
  },
  "hamdan bin mohammed meets with astronaut sultan al neyadi and zayed ambition 2 team": {
   "last_short": "2026-10-30",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     70.87440732804015,
@@ -6618,6 +6635,10 @@
    [
     61.797444963180794,
     64.35886013128275
+   ],
+   [
+    83.37853690307345,
+    84.8479549950262
    ]
   ],
   "shorts_made": 3,
@@ -7686,7 +7707,7 @@
  "hamdan bin mohammed offers condolences on death of moza bint ali al weri": {
   "last_short": "2026-10-30",
   "long": "2026-10-14",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     17.37089556107783,
@@ -7707,6 +7728,10 @@
    [
     73.80280296212544,
     75.39142351323036
+   ],
+   [
+    34.76156187600307,
+    36.329642659631006
    ]
   ],
   "shorts_made": 1,
@@ -8787,7 +8812,7 @@
   "fails": 1,
   "last_short": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     59.31105310462557,
@@ -8796,6 +8821,10 @@
    [
     53.435741722988226,
     55.4129991370187
+   ],
+   [
+    39.0920954301296,
+    40.82989640150351
    ]
   ],
   "shorts_made": 5,
@@ -11027,13 +11056,17 @@
   "video_len": 154
  },
  "hamdan bin mohammed visits dubai hospital": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-30",
   "long": "2026-10-14",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     31.287519536112814,
     33.66462514833501
+   ],
+   [
+    214.12,
+    216.32
    ]
   ],
   "shorts_made": 3,
@@ -14260,9 +14293,9 @@
   "video_len": 251
  },
  "mohammed bin rashid commends the dubai executive council s efforts over the past 15 years": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-30",
   "long": "2026-10-28",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     83.59827200044164,
@@ -14287,6 +14320,10 @@
    [
     115.39474065119207,
     116.90596002565425
+   ],
+   [
+    46.44277603652441,
+    48.504290439131765
    ]
   ],
   "shorts_made": 1,
@@ -14741,6 +14778,7 @@
   "long": "2026-10-28",
   "montage_exhausted": true,
   "montage_used": 4,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     74.96434412977598,

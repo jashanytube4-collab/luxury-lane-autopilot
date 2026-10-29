@@ -192,6 +192,7 @@
  "dubai cp receives uae flag from sharjah crown prince": {
   "last_short": "2026-10-30",
   "montage_used": 1,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     97.98666666666666,
@@ -2985,8 +2986,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends hct graduation": {
-  "last_short": "2026-10-26",
-  "montage_used": 3,
+  "last_short": "2026-10-30",
+  "montage_used": 4,
   "remix_ranges": [
    [
     45.8,
@@ -2999,6 +3000,10 @@
    [
     223.44,
     225.79999999999998
+   ],
+   [
+    165.92000000000002,
+    167.79999999999998
    ]
   ],
   "shorts_made": 1,
@@ -3756,7 +3761,7 @@
   "last_short": "2026-10-30",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     30.79919761132518,
@@ -3769,6 +3774,10 @@
    [
     69.15274619434837,
     71.45588881678593
+   ],
+   [
+    42.71376583380235,
+    44.56533299457405
    ]
   ],
   "shorts_made": 1,
@@ -5081,9 +5090,9 @@
   "video_len": 19
  },
  "hamdan bin mohammed honours winners of 5th islamic economy award": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-10-30",
   "long": "2026-10-30",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     219.23125416320443,
@@ -5100,6 +5109,10 @@
    [
     42.4623355441821,
     44.07093388606433
+   ],
+   [
+    154.87555488593486,
+    157.06122039962116
    ]
   ],
   "shorts_made": 2,
@@ -6109,9 +6122,9 @@
   "video_len": 69
  },
  "hamdan bin mohammed launches sports initiatives": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-10-30",
   "long": "2026-10-18",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     212.80506732035832,
@@ -6132,6 +6145,10 @@
    [
     250.2722046832068,
     251.85671209503803
+   ],
+   [
+    260.72,
+    262.52
    ]
   ],
   "shorts_made": 1,
@@ -6150,7 +6167,7 @@
  },
  "hamdan bin mohammed launches the government games initiative": {
   "last_short": "2026-10-30",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     3.050388327506801,
@@ -6159,6 +6176,10 @@
    [
     75.49369175956015,
     76.49517249958404
+   ],
+   [
+    88.60000000000001,
+    90.83999999999999
    ]
   ],
   "shorts_made": 2,
@@ -6688,9 +6709,9 @@
   "video_len": 99
  },
  "hamdan bin mohammed meets students of dubai schools": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-30",
   "long": "2026-10-17",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     163.49934334402403,
@@ -6703,6 +6724,10 @@
    [
     97.39914547133657,
     98.8928415057095
+   ],
+   [
+    216.52998106705192,
+    218.82301236332546
    ]
   ],
   "shorts_made": 3,
@@ -8055,9 +8080,9 @@
   "video_len": 118
  },
  "hamdan bin mohammed offers condolences to family of martyr khalid al shehi": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-10-30",
   "long": "2026-10-25",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     83.49779133078233,
@@ -8070,6 +8095,10 @@
    [
     108.18977303238037,
     110.59267981591228
+   ],
+   [
+    49.22201411141004,
+    51.378937428771245
    ]
   ],
   "shorts_made": 1,
@@ -10279,7 +10308,7 @@
  },
  "hamdan bin mohammed unveils 5 star plaque at sheikh zayed housing programme in dubai": {
   "last_short": "2026-10-30",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     144.8978218171365,
@@ -10308,6 +10337,10 @@
    [
     118.06432686806436,
     119.98006827598226
+   ],
+   [
+    217.44317964737414,
+    218.9113729820505
    ]
   ],
   "shorts_made": 3,

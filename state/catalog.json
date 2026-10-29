@@ -2451,9 +2451,9 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed attends gems our own english high school s golden jubilee celebrations": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-30",
   "long": "2026-10-15",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     77.94133731869516,
@@ -2464,6 +2464,10 @@
    [
     207.28,
     209.88
+   ],
+   [
+    77.76,
+    79.92
    ]
   ],
   "video_exhausted": true,
@@ -3896,9 +3900,9 @@
   "video_len": 122
  },
  "hamdan bin mohammed chairs executive council meeting approves updated school fees framework": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-30",
   "long": "2026-10-30",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     85.4953236324418,
@@ -3930,6 +3934,10 @@
    [
     100.62,
     103.14999999999999
+   ],
+   [
+    91.72,
+    94.32
    ]
   ],
   "video_exhausted": true,
@@ -6517,7 +6525,7 @@
  },
  "hamdan bin mohammed meets with astronaut sultan al neyadi and zayed ambition 2 team": {
   "last_short": "2026-10-30",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     70.87440732804015,
@@ -6557,6 +6565,10 @@
    [
     90.62,
     94.17999999999999
+   ],
+   [
+    81.35333333333334,
+    84.91333333333333
    ]
   ],
   "video_len": 111
@@ -7320,9 +7332,9 @@
   "video_len": 63
  },
  "hamdan bin mohammed meets with top performing school and university graduates": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-30",
   "long": "2026-10-17",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     13.76558973958145,
@@ -7354,6 +7366,10 @@
    [
     7.453333333333333,
     9.096666666666668
+   ],
+   [
+    55.35333333333333,
+    58.71333333333334
    ]
   ],
   "video_exhausted": true,
@@ -9897,8 +9913,8 @@
   "video_len": 189
  },
  "hamdan bin mohammed unveils 5 star plaque at sheikh zayed housing programme in dubai": {
-  "last_short": "2026-10-29",
-  "montage_used": 6,
+  "last_short": "2026-10-30",
+  "montage_used": 7,
   "remix_ranges": [
    [
     144.8978218171365,
@@ -9958,6 +9974,10 @@
    [
     151.20000000000002,
     155.35999999999999
+   ],
+   [
+    216.84,
+    218.96
    ]
   ],
   "video_len": 234
@@ -14170,6 +14190,7 @@
  },
  "president of uzbekistan meets with hamdan bin mohammed in tashkent": {
   "last_short": "2026-10-29",
+  "montage_exhausted": true,
   "montage_used": 3,
   "remix_ranges": [
    [

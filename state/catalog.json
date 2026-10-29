@@ -141,9 +141,9 @@
   "long": "2026-10-17"
  },
  "crown prince offers condolences to families of martyrs almazroui and dhahoori": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-30",
   "long": "2026-10-28",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     126.48707207884229,
@@ -156,6 +156,10 @@
    [
     11.938220972545187,
     13.657719791523338
+   ],
+   [
+    106.01430295295145,
+    108.1343482857698
    ]
   ],
   "shorts_made": 1,
@@ -817,8 +821,8 @@
   "video_len": 78
  },
  "dubai crown prince visits dubai municipality": {
-  "last_short": "2026-10-29",
-  "montage_used": 6,
+  "last_short": "2026-10-30",
+  "montage_used": 7,
   "remix_ranges": [
    [
     296.0,
@@ -843,6 +847,10 @@
    [
     112.90661349712626,
     114.63432377651674
+   ],
+   [
+    66.55305424468747,
+    68.06593633455881
    ]
   ],
   "shorts_made": 1,
@@ -976,6 +984,7 @@
   "last_short": "2026-10-28",
   "long": "2026-10-30",
   "montage_used": 4,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     2.659995592288342,
@@ -1352,9 +1361,9 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed and maktoum bin mohammed review dubai municipality s key strategic projects following corporate restructuring": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-30",
   "long": "2026-10-27",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     52.18666666666667,
@@ -1363,6 +1372,10 @@
    [
     70.58911737388475,
     72.32677814274123
+   ],
+   [
+    35.72782078689867,
+    37.28327649449307
    ]
   ],
   "shorts_made": 1,
@@ -1989,6 +2002,7 @@
   "last_short": "2026-10-30",
   "montage_exhausted": true,
   "montage_used": 6,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     482.4187301479371,
@@ -3115,6 +3129,7 @@
  "hamdan bin mohammed attends launch of first community space under hewi dubai initiative": {
   "last_short": "2026-10-07",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -4936,7 +4951,7 @@
  "hamdan bin mohammed honours mbr creative sports award winners": {
   "last_short": "2026-10-30",
   "long": "2026-10-18",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     74.58464282636517,
@@ -4957,6 +4972,10 @@
    [
     106.15046083916148,
     108.47842701749215
+   ],
+   [
+    66.05265100579265,
+    68.53784296021352
    ]
   ],
   "shorts_made": 3,
@@ -5375,6 +5394,7 @@
  "hamdan bin mohammed inaugurates the world s largest solar powered data centre": {
   "last_short": "2026-10-29",
   "montage_used": 8,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     56.3455405839187,
@@ -5569,7 +5589,14 @@
   "video_len": 227
  },
  "hamdan bin mohammed inspects rta s autonomous mobility and ai projects": {
-  "last_short": "2026-10-22",
+  "last_short": "2026-10-30",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    100.06784977818178,
+    101.97229656130587
+   ]
+  ],
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -6664,7 +6691,7 @@
  },
  "hamdan bin mohammed meets with astronaut sultan al neyadi and zayed ambition 2 team": {
   "last_short": "2026-10-30",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     70.87440732804015,
@@ -6677,6 +6704,10 @@
    [
     83.37853690307345,
     84.8479549950262
+   ],
+   [
+    87.01190387431825,
+    88.90616297969447
    ]
   ],
   "shorts_made": 3,
@@ -9287,6 +9318,7 @@
  "hamdan bin mohammed reviews outcomes of farmers souq initiative": {
   "last_short": "2026-10-29",
   "montage_used": 9,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     29.266446170224548,
@@ -9400,6 +9432,7 @@
   "last_short": "2026-10-28",
   "montage_exhausted": true,
   "montage_used": 3,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     51.00025703153351,
@@ -10480,9 +10513,9 @@
   "video_len": 159
  },
  "hamdan bin mohammed visits art dubai": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-30",
   "long": "2026-10-13",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     49.68,
@@ -10503,6 +10536,10 @@
    [
     12.081165602874922,
     13.493710175335744
+   ],
+   [
+    72.6866087492202,
+    74.66871192679436
    ]
   ],
   "shorts_made": 2,
@@ -14509,9 +14546,9 @@
   "no_hamdan": true
  },
  "ruler of umm al quwain accepts condolences from hamdan bin mohammed": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-30",
   "long": "2026-10-28",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     84.34146017449318,
@@ -14524,6 +14561,10 @@
    [
     72.33916270440642,
     74.28538978346931
+   ],
+   [
+    77.58226747990255,
+    79.52542534749554
    ]
   ],
   "shorts_made": 1,

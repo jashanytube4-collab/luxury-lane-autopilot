@@ -715,7 +715,16 @@
   "video_len": 130
  },
  "dubai crown prince receives president of the chechen": {
-  "video_exhausted": true
+  "last_short": "2026-10-30",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    45.227858673030426,
+    47.07811918017842
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 71
  },
  "dubai crown prince returns to uae after performing umrah": {
   "remix_exhausted": true,
@@ -1933,9 +1942,9 @@
  },
  "hamdan bin mohammed attends 19th graduation ceremony of rashid bin saeed al maktoum naval college": {
   "fails": 1,
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     482.4187301479371,
@@ -1952,6 +1961,10 @@
    [
     54.46856072875833,
     56.65214267695543
+   ],
+   [
+    185.1710556827683,
+    187.3494544955738
    ]
   ],
   "shorts_made": 1,
@@ -3184,13 +3197,17 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends safeguarding endangered cultural heritage conference": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-10-30",
   "long": "2026-10-24",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     56.292619883038824,
     57.73540677724607
+   ],
+   [
+    14.055261205587719,
+    16.30404646464154
    ]
   ],
   "video_exhausted": true,
@@ -3584,9 +3601,9 @@
   "video_len": 54
  },
  "hamdan bin mohammed attends wedding": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-30",
   "long": "2026-10-15",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     38.30255819227579,
@@ -3595,6 +3612,10 @@
    [
     61.522661191609025,
     63.93374841695459
+   ],
+   [
+    67.40788217643221,
+    69.26119568391059
    ]
   ],
   "video_exhausted": true,
@@ -3819,10 +3840,10 @@
   "long": "2026-10-30"
  },
  "hamdan bin mohammed chairs executive council meeting approves plans and policies": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-30",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     68.65279797830273,
@@ -3839,6 +3860,10 @@
    [
     58.53138402199608,
     60.356257848283654
+   ],
+   [
+    30.6491239958717,
+    32.556785989083366
    ]
   ],
   "shorts_made": 1,
@@ -7363,7 +7388,7 @@
  "hamdan bin mohammed meets with top performing school and university graduates": {
   "last_short": "2026-10-30",
   "long": "2026-10-17",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     13.76558973958145,
@@ -7380,6 +7405,10 @@
    [
     30.378220376835877,
     32.17194809019256
+   ],
+   [
+    17.886942413569063,
+    20.17495885073524
    ]
   ],
   "shorts_made": 1,
@@ -11205,6 +11234,7 @@
  "hamdan bin mohammed visits gulfood 2018": {
   "last_short": "2026-10-30",
   "montage_used": 5,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     22.3159346243839,
@@ -11983,8 +12013,8 @@
   "video_len": 263
  },
  "hamdan bin mohammed watches the historic launch of zayed ambition 2": {
-  "last_short": "2026-10-29",
-  "montage_used": 5,
+  "last_short": "2026-10-30",
+  "montage_used": 6,
   "remix_ranges": [
    [
     76.96247371777686,
@@ -11997,6 +12027,10 @@
    [
     40.02415191429235,
     41.73221527756208
+   ],
+   [
+    31.748967882356705,
+    32.367208473903105
    ]
   ],
   "shorts_made": 1,
@@ -12394,6 +12428,7 @@
  "hamdan receives unesco expert": {
   "last_short": "2026-10-29",
   "montage_used": 5,
+  "no_video_until": "2026-11-01",
   "remix_ranges": [
    [
     52.35333333333333,
@@ -14351,9 +14386,9 @@
   "video_len": 120
  },
  "rulers of ajman fujairah and ras al khaimah offer condolences to sheikh hamdan on mansour bin ahmed": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-30",
   "long": "2026-10-28",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     80.96000000000001,
@@ -14374,6 +14409,10 @@
    [
     106.21333823169724,
     107.83190285985958
+   ],
+   [
+    224.31505008441925,
+    226.8003729760093
    ]
   ],
   "shorts_made": 3,

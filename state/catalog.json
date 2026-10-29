@@ -186,7 +186,16 @@
   "no_hamdan": true
  },
  "dubai cp receives uae flag from sharjah crown prince": {
-  "video_exhausted": true
+  "last_short": "2026-10-30",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    97.98666666666666,
+    99.74666666666666
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 194
  },
  "dubai cp wins endurance test event for word equestrian games weg 2014": {
   "long": "2026-10-23"
@@ -1282,7 +1291,7 @@
  "hamdan bin mohammed and maktoum bin mohammed meet dubai s top performing high school students": {
   "last_short": "2026-10-30",
   "long": "2026-10-17",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     25.605869648293655,
@@ -1299,6 +1308,10 @@
    [
     36.88666666666666,
     39.013333333333335
+   ],
+   [
+    48.81193646932119,
+    50.348634667371144
    ]
   ],
   "shorts_made": 1,
@@ -3642,7 +3655,7 @@
  "hamdan bin mohammed attends wedding": {
   "last_short": "2026-10-30",
   "long": "2026-10-15",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     38.30255819227579,
@@ -3655,6 +3668,10 @@
    [
     67.40788217643221,
     69.26119568391059
+   ],
+   [
+    44.239999999999995,
+    46.56
    ]
   ],
   "video_exhausted": true,
@@ -4766,8 +4783,8 @@
   "video_len": 385
  },
  "hamdan bin mohammed honors winners of dubai appreciation award for community service": {
-  "last_short": "2026-10-29",
-  "montage_used": 7,
+  "last_short": "2026-10-30",
+  "montage_used": 8,
   "remix_ranges": [
    [
     179.39335360955343,
@@ -4784,6 +4801,10 @@
    [
     109.2962811625726,
     111.51063810197101
+   ],
+   [
+    16.845394017779622,
+    18.050672141424336
    ]
   ],
   "shorts_made": 3,
@@ -6136,9 +6157,9 @@
   "video_len": 101
  },
  "hamdan bin mohammed launches world s largest arabic audio library": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-30",
   "long": "2026-10-24",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     98.96000000000001,
@@ -6159,6 +6180,10 @@
    [
     110.41396371258563,
     112.1372632554315
+   ],
+   [
+    106.321201259713,
+    108.6644786192047
    ]
   ],
   "shorts_made": 1,
@@ -7993,8 +8018,8 @@
   "long": "2026-10-28"
  },
  "hamdan bin mohammed officially opens gitex 2018": {
-  "last_short": "2026-10-29",
-  "montage_used": 5,
+  "last_short": "2026-10-30",
+  "montage_used": 6,
   "remix_ranges": [
    [
     126.01016816879962,
@@ -8011,6 +8036,10 @@
    [
     96.38438011975623,
     98.39102119996343
+   ],
+   [
+    130.79936047166225,
+    132.35137818129775
    ]
   ],
   "shorts_made": 1,
@@ -9706,12 +9735,16 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed tours bustanica the world s largest vertical farm in dubai": {
-  "last_short": "2026-10-28",
-  "montage_used": 2,
+  "last_short": "2026-10-30",
+  "montage_used": 3,
   "remix_ranges": [
    [
     137.834523919362,
     139.9707787740493
+   ],
+   [
+    83.14187183957921,
+    84.83776180919696
    ]
   ],
   "shorts_made": 2,
@@ -14269,13 +14302,17 @@
   "video_len": 85
  },
  "mohammed bin rashid attends al marmoum heritage festival closing races": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-30",
   "long": "2026-10-28",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     190.44730834505538,
     191.9475633207762
+   ],
+   [
+    234.79805174460535,
+    236.52489038416573
    ]
   ],
   "shorts_made": 1,

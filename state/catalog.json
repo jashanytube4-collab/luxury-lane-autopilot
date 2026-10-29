@@ -489,6 +489,7 @@
  },
  "dubai crown prince honours winners of hamdan bin mohammed award for innovation in projects management": {
   "last_short": "2026-10-28",
+  "long": "2026-10-30",
   "montage_used": 4,
   "remix_ranges": [
    [
@@ -890,6 +891,7 @@
  },
  "dubai executive council approves annual agenda for 2018": {
   "last_short": "2026-10-27",
+  "long": "2026-10-30",
   "montage_used": 4,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -913,11 +915,15 @@
   "video_exhausted": true,
   "video_len": 73
  },
+ "dubai islamic economy development centre launches islamic economy week": {
+  "long": "2026-10-30"
+ },
  "emirates rulers hamdan bin mohammed and crown princes attend wedding ceremony": {
   "long": "2026-10-22"
  },
  "executive council reviews a number of projects": {
   "last_short": "2026-10-28",
+  "long": "2026-10-30",
   "montage_used": 4,
   "remix_ranges": [
    [
@@ -974,6 +980,7 @@
  },
  "hamdan addressing future circles looking forward for innovation based future": {
   "last_short": "2026-10-29",
+  "long": "2026-10-30",
   "montage_used": 4,
   "remix_ranges": [
    [
@@ -1001,6 +1008,7 @@
  },
  "hamdan approves dubai innovation strategy": {
   "last_short": "2026-10-24",
+  "long": "2026-10-30",
   "montage_used": 1,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -1014,6 +1022,7 @@
  },
  "hamdan approves medical tourism strategy": {
   "last_short": "2026-10-28",
+  "long": "2026-10-30",
   "montage_used": 2,
   "remix_ranges": [
    [
@@ -1173,6 +1182,7 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed affirms that public wellbeing remains top priority for every investment in dubai s future": {
+  "long": "2026-10-30",
   "no_video_until": "2026-10-31"
  },
  "hamdan bin mohammed and india s minister of commerce and industry witness signing of 8 mous": {
@@ -1452,6 +1462,7 @@
   "video_len": 54
  },
  "hamdan bin mohammed approves aed1 billion in economic incentives during dubai executive council meeting": {
+  "long": "2026-10-30",
   "video_exhausted": true
  },
  "hamdan bin mohammed approves aed18 billion in landmark projects to shape dubai s future": {
@@ -1643,6 +1654,7 @@
  "hamdan bin mohammed approves dubai quality of life strategy 2033 featuring more than 200 projects and initiatives": {
   "last_short": "2026-10-08",
   "montage_exhausted": true,
+  "no_hamdan": true,
   "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
@@ -1683,6 +1695,7 @@
  },
  "hamdan bin mohammed approves executive council s 2020 agenda unifies health insurance programmes": {
   "last_short": "2026-10-29",
+  "long": "2026-10-30",
   "montage_exhausted": true,
   "montage_used": 3,
   "remix_ranges": [
@@ -1794,6 +1807,7 @@
  },
  "hamdan bin mohammed approves new targets for dubai ai campus to attract more than 1 000 companies and create over 5 000 jobs": {
   "fails": 1,
+  "long": "2026-10-30",
   "no_video_until": "2026-10-30"
  },
  "hamdan bin mohammed approves new urban planning model for residential areas in dubai": {
@@ -1825,6 +1839,9 @@
    "score": 5
   },
   "video_exhausted": true
+ },
+ "hamdan bin mohammed approves strategic incentives to boost dubai s economy": {
+  "long": "2026-10-30"
  },
  "hamdan bin mohammed arrives in new delhi on official visit to india": {
   "last_short": "2026-10-07",
@@ -1949,6 +1966,9 @@
  "hamdan bin mohammed attends 3rd day of al marmoom heritage festival": {
   "long": "2026-10-24"
  },
+ "hamdan bin mohammed attends 3rd global islamic economy summit honours islamic economy award winners": {
+  "long": "2026-10-30"
+ },
  "hamdan bin mohammed attends 4th day of al marmoum hertige festival": {
   "long": "2026-10-13"
  },
@@ -2052,6 +2072,7 @@
   "video_len": 183
  },
  "hamdan bin mohammed attends annual meeting of global future leaders 2026 in dubai": {
+  "long": "2026-10-30",
   "video_exhausted": true
  },
  "hamdan bin mohammed attends camel race at al marmoom": {
@@ -2080,6 +2101,7 @@
  },
  "hamdan bin mohammed attends closing ceremony of 3rd dubai future accelerators program": {
   "last_short": "2026-10-28",
+  "long": "2026-10-30",
   "montage_used": 3,
   "remix_ranges": [
    [
@@ -2196,6 +2218,7 @@
  "hamdan bin mohammed attends dubai camp 2026": {
   "fails": 1,
   "last_short": "2026-10-06",
+  "long": "2026-10-30",
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -2348,10 +2371,12 @@
   "video_len": 58
  },
  "hamdan bin mohammed attends dubai police academy graduation ceremony": {
-  "fails": 2
+  "fails": 2,
+  "long": "2026-10-30"
  },
  "hamdan bin mohammed attends dubai police graduation ceremony": {
   "last_short": "2026-10-27",
+  "long": "2026-10-30",
   "montage_used": 5,
   "remix_ranges": [
    [
@@ -2461,6 +2486,7 @@
  },
  "hamdan bin mohammed attends global islamic economy summit": {
   "last_short": "2026-10-29",
+  "long": "2026-10-30",
   "montage_used": 6,
   "remix_ranges": [
    [
@@ -2580,6 +2606,7 @@
  "hamdan bin mohammed attends graduation ceremony at rashid bin saeed al maktoum naval college": {
   "last_short": "2026-10-11",
   "montage_exhausted": true,
+  "no_hamdan": true,
   "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
@@ -2798,6 +2825,7 @@
  },
  "hamdan bin mohammed attends graduation of the second cohort of dubai future foundation s lead design program": {
   "last_short": "2026-10-15",
+  "long": "2026-10-30",
   "photo_short": true,
   "shorts_made": 1,
   "shot_ranges": []
@@ -3192,6 +3220,7 @@
  },
  "hamdan bin mohammed attends the graduation ceremony of a new cohort of dubai police academy cadets": {
   "last_short": "2026-10-26",
+  "long": "2026-10-30",
   "montage_exhausted": true,
   "montage_used": 1,
   "remix_exhausted": true,
@@ -3249,6 +3278,7 @@
  "hamdan bin mohammed attends the graduation ceremony of the 23rd cohort of rashid bin saeed al maktoum naval college": {
   "fails": 1,
   "last_short": "2026-10-28",
+  "long": "2026-10-30",
   "montage_used": 3,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -3348,6 +3378,7 @@
  "hamdan bin mohammed attends the graduation of the first batch of the dubai future experts program": {
   "last_short": "2026-10-11",
   "montage_exhausted": true,
+  "no_hamdan": true,
   "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
@@ -3431,6 +3462,7 @@
  },
  "hamdan bin mohammed attends the launche of uae innovation month in dubai": {
   "last_short": "2026-10-29",
+  "long": "2026-10-30",
   "montage_used": 4,
   "remix_ranges": [
    [
@@ -3674,8 +3706,12 @@
   "video_exhausted": true,
   "video_len": 60
  },
+ "hamdan bin mohammed chairs dubai executive council s meeting": {
+  "long": "2026-10-30"
+ },
  "hamdan bin mohammed chairs executive council meeting": {
   "last_short": "2026-10-29",
+  "long": "2026-10-30",
   "montage_used": 7,
   "remix_ranges": [
    [
@@ -3730,10 +3766,12 @@
   "video_len": 141
  },
  "hamdan bin mohammed chairs executive council meeting approves e commerce strategy": {
-  "fails": 2
+  "fails": 2,
+  "long": "2026-10-30"
  },
  "hamdan bin mohammed chairs executive council meeting approves plans and policies": {
   "last_short": "2026-10-29",
+  "long": "2026-10-30",
   "montage_exhausted": true,
   "montage_used": 7,
   "remix_ranges": [
@@ -3786,6 +3824,7 @@
  },
  "hamdan bin mohammed chairs executive council meeting approves series of economic stimulus policies": {
   "last_short": "2026-10-29",
+  "long": "2026-10-30",
   "montage_used": 5,
   "remix_ranges": [
    [
@@ -3829,6 +3868,7 @@
  },
  "hamdan bin mohammed chairs executive council meeting approves updated school fees framework": {
   "last_short": "2026-10-26",
+  "long": "2026-10-30",
   "montage_used": 1,
   "remix_ranges": [
    [
@@ -3880,6 +3920,9 @@
  "hamdan bin mohammed chairs meeting of mohammed bin rashid space centre board of directors": {
   "long": "2026-10-21"
  },
+ "hamdan bin mohammed chairs meeting of the executive council approves dubai building code": {
+  "long": "2026-10-30"
+ },
  "hamdan bin mohammed chairs meeting of the higher committee for future technology development and the digital economy": {
   "long": "2026-10-07",
   "no_hamdan": true
@@ -3892,6 +3935,7 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed chairs third defence council meeting of 2025": {
+  "long": "2026-10-30",
   "video_exhausted": true
  },
  "hamdan bin mohammed chairs virtual meeting of executive council": {
@@ -4211,6 +4255,7 @@
  },
  "hamdan bin mohammed directs launch of second edition of dubai mallathon": {
   "montage_exhausted": true,
+  "no_hamdan": true,
   "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 53
@@ -4385,6 +4430,7 @@
  },
  "hamdan bin mohammed follows up the work mechanisms of dubai future councils": {
   "last_short": "2026-10-26",
+  "long": "2026-10-30",
   "montage_used": 2,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -4793,6 +4839,7 @@
  },
  "hamdan bin mohammed honours winners of 5th islamic economy award": {
   "last_short": "2026-10-28",
+  "long": "2026-10-30",
   "montage_used": 4,
   "remix_ranges": [
    [
@@ -4981,6 +5028,7 @@
  },
  "hamdan bin mohammed inaugurates dubai ai campus cluster at the difc innovation hub": {
   "last_short": "2026-10-28",
+  "long": "2026-10-30",
   "montage_used": 3,
   "remix_ranges": [
    [
@@ -5495,7 +5543,8 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed launches create ai agents championship to inspire transformative ideas for global good": {
-  "fails": 2
+  "fails": 2,
+  "long": "2026-10-30"
  },
  "hamdan bin mohammed launches day for dubai encourages residents to volunteer": {
   "last_short": "2026-10-29",
@@ -5534,6 +5583,7 @@
  },
  "hamdan bin mohammed launches dubai future readiness index": {
   "last_short": "2026-10-10",
+  "long": "2026-10-30",
   "montage_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
@@ -5671,6 +5721,7 @@
  },
  "hamdan bin mohammed launches new phase of dubai s happiness agenda": {
   "last_short": "2026-10-28",
+  "long": "2026-10-30",
   "montage_exhausted": true,
   "montage_used": 8,
   "remix_ranges": [
@@ -6063,6 +6114,7 @@
  },
  "hamdan bin mohammed meets director generals and executives of dubai government entities": {
   "last_short": "2026-10-11",
+  "long": "2026-10-30",
   "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
@@ -6143,6 +6195,7 @@
  },
  "hamdan bin mohammed meets government team behind uae s progress in world bank s ease of doing business ranking": {
   "last_short": "2026-10-29",
+  "long": "2026-10-30",
   "montage_used": 7,
   "remix_ranges": [
    [
@@ -6218,6 +6271,7 @@
  },
  "hamdan bin mohammed meets graduates of one million arab coders": {
   "last_short": "2026-10-29",
+  "long": "2026-10-30",
   "montage_used": 5,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -6498,6 +6552,7 @@
  "hamdan bin mohammed meets with chairman of international cricket council indian cricket stars": {
   "fails": 1,
   "last_short": "2026-10-18",
+  "long": "2026-10-30",
   "montage_exhausted": true,
   "photo_short": true,
   "remix_exhausted": true,
@@ -6929,6 +6984,7 @@
  },
  "hamdan bin mohammed meets with members of the business and trading community": {
   "last_short": "2026-10-08",
+  "long": "2026-10-30",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -8764,6 +8820,7 @@
  },
  "hamdan bin mohammed reviews dubai future foundation s 2018 plan and projects": {
   "last_short": "2026-10-28",
+  "long": "2026-10-30",
   "montage_used": 4,
   "remix_ranges": [
    [
@@ -8914,6 +8971,7 @@
  "hamdan bin mohammed reviews operations of dubai international airport and emirates": {
   "fails": 2,
   "last_short": "2026-10-06",
+  "long": "2026-10-30",
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -11096,6 +11154,7 @@
  },
  "hamdan bin mohammed visits innovation labs 2018": {
   "last_short": "2026-10-24",
+  "long": "2026-10-30",
   "montage_used": 3,
   "remix_ranges": [
    [
@@ -11373,6 +11432,7 @@
  },
  "hamdan bin mohammed visits smart dubai office launches dubai paperless strategy": {
   "last_short": "2026-10-28",
+  "long": "2026-10-30",
   "montage_used": 4,
   "remix_ranges": [
    [
@@ -11475,6 +11535,7 @@
  },
  "hamdan bin mohammed visits the dubai future foundation headquarters and reviews 10x projects": {
   "last_short": "2026-10-29",
+  "long": "2026-10-30",
   "montage_used": 4,
   "remix_ranges": [
    [
@@ -11939,6 +12000,7 @@
   "video_len": 74
  },
  "hamdan chairs dubai executive council meeting": {
+  "long": "2026-10-30",
   "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 160
@@ -12036,6 +12098,9 @@
   ],
   "video_exhausted": true,
   "video_len": 182
+ },
+ "hamdan issues directives to accelerate implementation of dubai industrial strategy 2030 initiatives": {
+  "long": "2026-10-30"
  },
  "hamdan leads march of loyalty to sheikha hind on mother s day": {
   "remix_exhausted": true,
@@ -12239,6 +12304,7 @@
   "no_hamdan": true
  },
  "hamdan witnesses launch of strategic plan to develop islamic economy sector": {
+  "long": "2026-10-30",
   "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 142
@@ -12291,6 +12357,7 @@
  },
  "ig:dubaimediaoffice:18133213366644785": {
   "last_short": "2026-10-24",
+  "long": "2026-10-30",
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -12339,6 +12406,7 @@
   "video_len": 60
  },
  "ig:dubaimediaoffice:18357178693223628": {
+  "long": "2026-10-30",
   "video_exhausted": true,
   "video_len": 77
  },
@@ -12464,7 +12532,7 @@
   "video_len": 15
  },
  "ig:faz3:17844415069720278": {
-  "long": "2026-10-28",
+  "long": "2026-10-30",
   "no_hamdan": true
  },
  "ig:faz3:17844473731109359": {
@@ -12717,7 +12785,7 @@
   "video_len": 49
  },
  "ig:faz3:17861456321349970": {
-  "long": "2026-10-28",
+  "long": "2026-10-30",
   "no_hamdan": true,
   "video_exhausted": true
  },
@@ -12730,7 +12798,7 @@
   "video_len": 60
  },
  "ig:faz3:17863018309058325": {
-  "long": "2026-10-28",
+  "long": "2026-10-30",
   "no_hamdan": true,
   "video_exhausted": true,
   "video_len": 31
@@ -12820,7 +12888,7 @@
   "video_len": 111
  },
  "ig:faz3:17877439837506083": {
-  "long": "2026-10-28",
+  "long": "2026-10-30",
   "no_hamdan": true,
   "video_exhausted": true
  },
@@ -12966,7 +13034,7 @@
   "no_hamdan": true
  },
  "ig:faz3:17899581361634030": {
-  "long": "2026-10-27",
+  "long": "2026-10-30",
   "video_exhausted": true
  },
  "ig:faz3:17900364406048879": {
@@ -12987,7 +13055,7 @@
   "video_len": 49
  },
  "ig:faz3:17901918514301358": {
-  "long": "2026-10-27",
+  "long": "2026-10-30",
   "no_hamdan": true
  },
  "ig:faz3:17904706891132148": {
@@ -13021,10 +13089,11 @@
   "video_len": 14
  },
  "ig:faz3:17916707464321339": {
-  "long": "2026-10-28",
+  "long": "2026-10-30",
   "no_hamdan": true
  },
  "ig:faz3:17916885400301536": {
+  "long": "2026-10-30",
   "video_exhausted": true,
   "video_len": 39
  },
@@ -13049,6 +13118,8 @@
   "video_len": 7
  },
  "ig:faz3:17919871903152164": {
+  "long": "2026-10-30",
+  "no_hamdan": true,
   "video_exhausted": true,
   "video_len": 43
  },
@@ -13132,7 +13203,7 @@
   "video_exhausted": true
  },
  "ig:faz3:17968229216578746": {
-  "long": "2026-10-28",
+  "long": "2026-10-30",
   "no_hamdan": true
  },
  "ig:faz3:17970792520067899": {
@@ -13163,7 +13234,7 @@
   "video_exhausted": true
  },
  "ig:faz3:17984061542229866": {
-  "long": "2026-10-28",
+  "long": "2026-10-30",
   "no_hamdan": true,
   "video_exhausted": true
  },
@@ -13258,7 +13329,7 @@
   "video_len": 78
  },
  "ig:faz3:18064891595415941": {
-  "long": "2026-10-28",
+  "long": "2026-10-30",
   "no_hamdan": true,
   "video_exhausted": true
  },
@@ -13268,18 +13339,20 @@
   "video_exhausted": true
  },
  "ig:faz3:18077166664173734": {
+  "long": "2026-10-30",
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "ig:faz3:18078859945409245": {
   "video_exhausted": true
  },
  "ig:faz3:18095594779160670": {
-  "long": "2026-10-27",
+  "long": "2026-10-30",
   "no_hamdan": true,
   "video_exhausted": true
  },
  "ig:faz3:18098909275484024": {
-  "long": "2026-10-28",
+  "long": "2026-10-30",
   "no_hamdan": true
  },
  "ig:faz3:18099034300454696": {
@@ -13319,7 +13392,7 @@
   "video_exhausted": true
  },
  "ig:faz3:18155759944168180": {
-  "long": "2026-10-23",
+  "long": "2026-10-30",
   "no_hamdan": true,
   "video_exhausted": true
  },
@@ -13348,7 +13421,7 @@
   "video_exhausted": true
  },
  "ig:faz3:18426448819098880": {
-  "long": "2026-10-28",
+  "long": "2026-10-30",
   "video_exhausted": true
  },
  "ig:faz3:18429849919109636": {
@@ -13388,6 +13461,7 @@
  },
  "in the presence of hamdan bin mohammed dubai chambers holds high level meeting in mumbai": {
   "last_short": "2026-10-17",
+  "long": "2026-10-30",
   "shorts_made": 2,
   "shot_ranges": [
    [

@@ -74,7 +74,7 @@ def produce(video: Path | None, plan: dict, cfg: dict, work: Path, out: Path, se
 
     narr, script = _narrate(plan["script"], cfg, work, shorten, lengthen)
     plan["script"] = script
-    duration = min(s_cfg["max_seconds"], max(s_cfg["min_seconds"], narr.duration + TAIL))
+    duration = min(s_cfg["max_seconds"], narr.duration + TAIL)   # owner rule: video length = voice length (+ short tail), no silent padding
 
     if cuts is None and video is not None:
         cuts = scene_cuts(video, probe(video)["fps"])
@@ -128,13 +128,18 @@ def produce_moment(video: Path, shots: list[dict], cfg: dict, work: Path, out: P
     import numpy as np
     work.mkdir(parents=True, exist_ok=True)
     fps = int(cfg["short"].get("fps", 30))
-    try:
-        timeline = render.make_plan(shots, layout="fill", duration=duration, video=video,
-                                    cuts=scene_cuts(video, probe(video)["fps"]), fps=fps, seed=seed)
-    except render.RenderError as e:
-        raise ShortError(str(e)) from e
-    for i in range(len(timeline.transitions)):
-        timeline.transitions[i] = "punch"
+    cuts = scene_cuts(video, probe(video)["fps"])
+
+    def build_timeline(length: float):
+        try:
+            tl = render.make_plan(shots, layout="fill", duration=length, video=video, cuts=cuts, fps=fps, seed=seed)
+        except render.RenderError as e:
+            raise ShortError(str(e)) from e
+        for i in range(len(tl.transitions)):
+            tl.transitions[i] = "punch"
+        return tl
+
+    timeline = build_timeline(duration)
     narr, spoken = None, ""
     if script:
         limit = duration - TAIL
@@ -156,6 +161,9 @@ def produce_moment(video: Path, shots: list[dict], cfg: dict, work: Path, out: P
             raise ShortError(f"voice-over was requested but failed: {e}") from e     # never publish a silent Short that should be narrated
         if not narr.words:
             raise ShortError("voice-over has no spoken words")
+        if narr.duration + TAIL < duration - 0.25:   # owner rule: video length = voice length (+ short tail)
+            duration = narr.duration + TAIL
+            timeline = build_timeline(duration)
     silent = work / "silence.wav"
     if narr is not None:
         silent = narr.wav

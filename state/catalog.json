@@ -1559,6 +1559,10 @@
    [
     427.8,
     430.76
+   ],
+   [
+    376.12,
+    378.88
    ]
   ],
   "video_exhausted": true,
@@ -2119,6 +2123,7 @@
   ]
  },
  "hamdan bin mohammed attends ai everything conference": {
+  "montage_exhausted": true,
   "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 158
@@ -5278,6 +5283,7 @@
  "hamdan bin mohammed inaugurates dp world s nhava sheva business park in india": {
   "last_short": "2026-10-28",
   "long": "2026-10-23",
+  "montage_exhausted": true,
   "montage_used": 3,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -6198,6 +6204,10 @@
    [
     225.94,
     228.19
+   ],
+   [
+    29.76,
+    32.68
    ]
   ],
   "video_exhausted": true,
@@ -8540,6 +8550,7 @@
  },
  "hamdan bin mohammed opens dubai al ain road improvement project": {
   "last_short": "2026-10-26",
+  "montage_exhausted": true,
   "montage_used": 2,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -8988,8 +8999,8 @@
   "video_len": 46
  },
  "hamdan bin mohammed receives head of chechen republic": {
-  "last_short": "2026-10-29",
-  "montage_used": 4,
+  "last_short": "2026-10-30",
+  "montage_used": 5,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -9009,6 +9020,10 @@
    [
     4.640000000000001,
     9.64
+   ],
+   [
+    13.339999999999993,
+    16.060000000000006
    ]
   ],
   "video_exhausted": true,
@@ -11980,6 +11995,10 @@
    [
     116.0,
     118.67999999999999
+   ],
+   [
+    99.64,
+    101.64
    ]
   ],
   "video_exhausted": true,
@@ -12021,8 +12040,8 @@
   "video_len": 203
  },
  "hamdan bin mohammed visits public prosecution": {
-  "last_short": "2026-10-29",
-  "montage_used": 3,
+  "last_short": "2026-10-30",
+  "montage_used": 4,
   "remix_ranges": [
    [
     276.27271542570674,
@@ -12066,6 +12085,10 @@
    [
     291.24,
     294.32
+   ],
+   [
+    84.44,
+    86.88
    ]
   ],
   "video_exhausted": true,
@@ -14684,6 +14707,7 @@
  "mohammed bin rashid attends al marmoum heritage festival closing races": {
   "last_short": "2026-10-30",
   "long": "2026-10-28",
+  "montage_exhausted": true,
   "montage_used": 2,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -14914,6 +14938,7 @@
  "rulers of ajman fujairah and ras al khaimah offer condolences to sheikh hamdan on mansour bin ahmed": {
   "last_short": "2026-10-30",
   "long": "2026-10-28",
+  "montage_exhausted": true,
   "montage_used": 9,
   "remix_ranges": [
    [

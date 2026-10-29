@@ -374,6 +374,7 @@
   "long": "2026-10-17",
   "montage_exhausted": true,
   "montage_used": 9,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     42.09304322116802,
@@ -1491,8 +1492,8 @@
   "long": "2026-10-21"
  },
  "hamdan bin mohammed and mohammed bin salman visit headquarters of expo 2020 dubai": {
-  "last_short": "2026-10-29",
-  "montage_used": 5,
+  "last_short": "2026-10-30",
+  "montage_used": 6,
   "remix_ranges": [
    [
     438.68,
@@ -1509,6 +1510,10 @@
    [
     294.58598645020754,
     296.61080347878203
+   ],
+   [
+    463.48,
+    465.44
    ]
   ],
   "shorts_made": 2,
@@ -4477,6 +4482,7 @@
  "hamdan bin mohammed economic diversity and supportive legislative environment cornerstones for investor confidence in dubai": {
   "last_short": "2026-10-29",
   "montage_used": 6,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     43.05333333333333,
@@ -7362,13 +7368,17 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed meets with participants of dubai leadership camp": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     44.45334747323149,
     46.27938740070478
+   ],
+   [
+    32.90818090253064,
+    34.933266565149225
    ]
   ],
   "shorts_made": 1,
@@ -7811,6 +7821,7 @@
   "last_short": "2026-10-29",
   "long": "2026-10-20",
   "montage_used": 3,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     44.35577291257337,
@@ -7902,9 +7913,9 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed offers condolences to al falahi family": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-30",
   "long": "2026-10-16",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     85.17042709742152,
@@ -7917,6 +7928,10 @@
    [
     57.41597084144217,
     59.36391179274431
+   ],
+   [
+    62.7009717257063,
+    64.6500526550096
    ]
   ],
   "shorts_made": 1,
@@ -8121,7 +8136,7 @@
  },
  "hamdan bin mohammed officially opens gitex 2018": {
   "last_short": "2026-10-30",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     126.01016816879962,
@@ -8142,6 +8157,10 @@
    [
     130.79936047166225,
     132.35137818129775
+   ],
+   [
+    143.44151095280313,
+    145.1773087973538
    ]
   ],
   "shorts_made": 1,
@@ -8479,9 +8498,9 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed opens gitex tech week 2017": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-30",
   "long": "2026-10-14",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     523.8801185278389,
@@ -8490,6 +8509,10 @@
    [
     222.6874010367773,
     224.3306887997186
+   ],
+   [
+    118.62324662339549,
+    120.62851257051557
    ]
   ],
   "shorts_made": 3,
@@ -12081,13 +12104,17 @@
   "video_len": 186
  },
  "hamdan bin mohammed visits the ministry of foreign affairs in abu dhabi": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-30",
   "long": "2026-10-23",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     49.961579847562305,
     51.529966374167266
+   ],
+   [
+    41.50289297821464,
+    43.145754657968745
    ]
   ],
   "shorts_made": 2,
@@ -12782,8 +12809,8 @@
   "video_len": 361
  },
  "hamdan reveals dubai government towards 2021 initiative": {
-  "last_short": "2026-10-27",
-  "montage_used": 3,
+  "last_short": "2026-10-30",
+  "montage_used": 4,
   "remix_ranges": [
    [
     27.446859008884246,
@@ -12796,6 +12823,10 @@
    [
     33.985931927253596,
     36.510833268273096
+   ],
+   [
+    53.92025246718299,
+    56.192160403836276
    ]
   ],
   "shorts_made": 1,

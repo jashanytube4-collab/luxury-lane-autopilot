@@ -711,9 +711,9 @@
   "video_len": 155
  },
  "dubai crown prince reviews preparations for emirates mars mission": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     10.223000693909508,
@@ -734,6 +734,10 @@
    [
     63.57392958287628,
     65.88735237473368
+   ],
+   [
+    4.274903877893718,
+    6.199746461072156
    ]
   ],
   "shorts_made": 3,
@@ -2866,9 +2870,9 @@
  },
  "hamdan bin mohammed attends health chain forum": {
   "fails": 1,
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-30",
   "long": "2026-10-14",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     202.4192200580963,
@@ -2893,6 +2897,10 @@
    [
     86.36787000216516,
     88.80721913315787
+   ],
+   [
+    55.61027089278401,
+    57.21016240414016
    ]
   ],
   "shorts_made": 1,
@@ -6463,12 +6471,16 @@
   "video_len": 154
  },
  "hamdan bin mohammed meets with astronaut sultan al neyadi and zayed ambition 2 team": {
-  "last_short": "2026-10-29",
-  "montage_used": 2,
+  "last_short": "2026-10-30",
+  "montage_used": 3,
   "remix_ranges": [
    [
     70.87440732804015,
     72.5156259457025
+   ],
+   [
+    61.797444963180794,
+    64.35886013128275
    ]
   ],
   "shorts_made": 3,
@@ -7617,9 +7629,9 @@
   "long": "2026-10-17"
  },
  "hamdan bin mohammed offers condolences to alsuwaidi family": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-30",
   "long": "2026-10-27",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     63.373747089155714,
@@ -7636,6 +7648,10 @@
    [
     74.06397075075817,
     76.08429625916774
+   ],
+   [
+    84.44285061129756,
+    86.3476471578952
    ]
   ],
   "video_exhausted": true,
@@ -7654,6 +7670,7 @@
   "last_short": "2026-10-29",
   "long": "2026-10-27",
   "montage_used": 6,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     70.2,
@@ -10377,8 +10394,8 @@
   "video_len": 196
  },
  "hamdan bin mohammed visits department of economic development": {
-  "last_short": "2026-10-28",
-  "montage_used": 4,
+  "last_short": "2026-10-30",
+  "montage_used": 5,
   "remix_ranges": [
    [
     99.05206428340473,
@@ -10395,6 +10412,10 @@
    [
     162.32,
     164.48
+   ],
+   [
+    152.45690826383014,
+    154.02902100055087
    ]
   ],
   "video_exhausted": true,
@@ -10454,9 +10475,9 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed visits display of origin autonomous vehicle on the sidelines of the world government summit 2022": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     40.817480318674356,
@@ -10469,6 +10490,10 @@
    [
     59.26389517767937,
     61.54765381105037
+   ],
+   [
+    33.32,
+    35.36
    ]
   ],
   "shorts_made": 2,
@@ -10886,9 +10911,9 @@
   "video_len": 263
  },
  "hamdan bin mohammed visits dubai sports council": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-30",
   "long": "2026-10-18",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     54.599999999999994,
@@ -10909,6 +10934,10 @@
    [
     96.688108470224,
     98.14462966473273
+   ],
+   [
+    19.040000000000003,
+    20.8
    ]
   ],
   "video_exhausted": true,
@@ -11431,9 +11460,9 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed visits smart dubai office launches dubai paperless strategy": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-10-30",
   "long": "2026-10-30",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     40.13712243900044,
@@ -11450,6 +11479,10 @@
    [
     87.21888360239899,
     89.19265158449359
+   ],
+   [
+    97.04569834518834,
+    99.08263979923342
    ]
   ],
   "shorts_made": 1,
@@ -13622,6 +13655,7 @@
   "long": "2026-10-27",
   "montage_exhausted": true,
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     62.16353701090986,

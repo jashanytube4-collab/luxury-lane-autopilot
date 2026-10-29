@@ -3,8 +3,13 @@
  "slots": [
   {
    "at": "2026-10-30T06:27:08+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Humility is the crown he wears best. ❤️ #youtube #youtubeshorts",
+   "type": "short",
+   "video_id": "QZpV5s0ezIY",
+   "voiced": true
   },
   {
    "at": "2026-10-30T07:16:09+04:00",

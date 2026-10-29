@@ -33,8 +33,13 @@
   },
   {
    "at": "2026-10-30T08:58:55+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Discipline today. Legacy tomorrow. 👑 #youtubeshorts #youtube #fazza",
+   "type": "short",
+   "video_id": "q0XFBMJPPJw",
+   "voiced": true
   },
   {
    "at": "2026-10-30T09:50:46+04:00",

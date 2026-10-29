@@ -1082,6 +1082,7 @@
   "last_short": "2026-10-30",
   "long": "2026-10-15",
   "montage_used": 3,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     19.119741798597573,
@@ -3216,7 +3217,7 @@
  "hamdan bin mohammed attends safeguarding endangered cultural heritage conference": {
   "last_short": "2026-10-30",
   "long": "2026-10-24",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     56.292619883038824,
@@ -3225,6 +3226,10 @@
    [
     14.055261205587719,
     16.30404646464154
+   ],
+   [
+    72.65085521760754,
+    74.4186736347929
    ]
   ],
   "video_exhausted": true,
@@ -3642,10 +3647,10 @@
   "long": "2026-10-22"
  },
  "hamdan bin mohammed attends wedding reception": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-30",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     30.79919761132518,
@@ -3654,6 +3659,10 @@
    [
     60.22566338650911,
     62.04975606139669
+   ],
+   [
+    69.15274619434837,
+    71.45588881678593
    ]
   ],
   "shorts_made": 1,
@@ -7463,13 +7472,17 @@
   "video_len": 63
  },
  "hamdan bin mohammed meets with uae diplomatic mission in india commends ministry of foreign affairs efforts": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     23.68,
     25.5
+   ],
+   [
+    5.271421489647989,
+    7.009334814482752
    ]
   ],
   "shorts_made": 1,
@@ -10963,12 +10976,16 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed visits dubai government hr department": {
-  "last_short": "2026-10-29",
-  "montage_used": 4,
+  "last_short": "2026-10-30",
+  "montage_used": 5,
   "remix_ranges": [
    [
     92.94184157109537,
     95.3845875381686
+   ],
+   [
+    44.05731566035572,
+    45.77916984630006
    ]
   ],
   "shorts_made": 1,
@@ -11398,9 +11415,9 @@
   "video_len": 172
  },
  "hamdan bin mohammed visits innovation labs 2018": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-30",
   "long": "2026-10-30",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     237.92000000000002,
@@ -11413,6 +11430,10 @@
    [
     180.9192317309211,
     183.50239644590744
+   ],
+   [
+    64.00319646773066,
+    66.02100792986077
    ]
   ],
   "shorts_made": 1,
@@ -12291,8 +12312,8 @@
   "long": "2026-10-13"
  },
  "hamdan dubai s a global center for sukuk listing": {
-  "last_short": "2026-10-26",
-  "montage_used": 2,
+  "last_short": "2026-10-30",
+  "montage_used": 3,
   "no_video_until": "2026-10-29",
   "remix_ranges": [
    [
@@ -12302,6 +12323,10 @@
    [
     77.45241025747855,
     78.86367270651452
+   ],
+   [
+    85.6640318017316,
+    87.52271167345579
    ]
   ],
   "video_exhausted": true,
@@ -13702,8 +13727,8 @@
   "video_exhausted": true
  },
  "in presence of dubai crown prince meraas signs agreement with dubai municipality to manage dubai safari": {
-  "last_short": "2026-10-29",
-  "montage_used": 4,
+  "last_short": "2026-10-30",
+  "montage_used": 5,
   "remix_ranges": [
    [
     4.017581494059155,
@@ -13720,6 +13745,10 @@
    [
     23.652604339335603,
     25.786120285977816
+   ],
+   [
+    33.2209446200438,
+    34.54372473578749
    ]
   ],
   "video_exhausted": true,

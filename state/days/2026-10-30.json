@@ -181,8 +181,13 @@
   },
   {
    "at": "2026-10-30T20:57:49+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Born into royalty. Raised on discipline. ✨ #fazza #youtubeshorts #youtube",
+   "type": "short",
+   "video_id": "vYeDYimEqIk",
+   "voiced": true
   },
   {
    "at": "2026-10-30T21:00:00+04:00",

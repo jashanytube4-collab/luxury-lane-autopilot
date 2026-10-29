@@ -1439,14 +1439,18 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed and maktoum bin mohammed visit emirates group headquarters": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-10-30",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     21.386666666666667,
     23.18
+   ],
+   [
+    42.79780958366585,
+    44.97220958247791
    ]
   ],
   "shorts_made": 1,
@@ -2419,6 +2423,7 @@
  "hamdan bin mohammed attends dubai international health tourism forum": {
   "last_short": "2026-10-30",
   "montage_used": 4,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     6.150845486152802,
@@ -2997,7 +3002,7 @@
   "fails": 1,
   "last_short": "2026-10-30",
   "long": "2026-10-14",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     202.4192200580963,
@@ -3030,6 +3035,10 @@
    [
     125.40240331341116,
     126.96518379748065
+   ],
+   [
+    193.0,
+    194.96
    ]
   ],
   "shorts_made": 1,
@@ -4736,9 +4745,9 @@
   "video_len": 56
  },
  "hamdan bin mohammed honors mbr creative sports award winners": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-30",
   "long": "2026-10-18",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     50.879999999999995,
@@ -4763,6 +4772,10 @@
    [
     33.62563603570157,
     35.64094310438903
+   ],
+   [
+    141.4605038537179,
+    143.10417225249063
    ]
   ],
   "shorts_made": 3,
@@ -9166,7 +9179,7 @@
  "hamdan bin mohammed reviews dubai future foundation s 2018 plan and projects": {
   "last_short": "2026-10-30",
   "long": "2026-10-30",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     140.32186297088035,
@@ -9187,6 +9200,10 @@
    [
     111.41784309908589,
     113.21832398986159
+   ],
+   [
+    62.62543779411749,
+    64.28660241169986
    ]
   ],
   "video_exhausted": true,
@@ -10097,12 +10114,16 @@
   "video_len": 91
  },
  "hamdan bin mohammed unveils 5 star plaque at dewa head office": {
-  "last_short": "2026-10-26",
-  "montage_used": 1,
+  "last_short": "2026-10-30",
+  "montage_used": 2,
   "remix_ranges": [
    [
     149.9136373207893,
     152.1544197256797
+   ],
+   [
+    65.46133224671959,
+    67.74359264211185
    ]
   ],
   "shorts_made": 1,
@@ -10184,7 +10205,7 @@
  },
  "hamdan bin mohammed unveils 5 star plaque at sheikh zayed housing programme in dubai": {
   "last_short": "2026-10-30",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     144.8978218171365,
@@ -10209,6 +10230,10 @@
    [
     152.41435567730625,
     154.86450647113458
+   ],
+   [
+    118.06432686806436,
+    119.98006827598226
    ]
   ],
   "shorts_made": 3,
@@ -12412,9 +12437,16 @@
   "long": "2026-10-09"
  },
  "hamdan celebrates al ahli s arabian gulf league winning": {
-  "last_short": "2026-10-15",
+  "last_short": "2026-10-30",
   "long": "2026-10-15",
+  "montage_used": 1,
   "no_video_until": "2026-10-29",
+  "remix_ranges": [
+   [
+    74.53223314101635,
+    76.77499832253903
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -12430,11 +12462,13 @@
     117.67999999999999
    ]
   ],
-  "video_exhausted": true
+  "video_exhausted": true,
+  "video_len": 162
  },
  "hamdan chairs 1st meeting for higher committee to implement smart city project": {
   "last_short": "2026-10-30",
   "montage_used": 5,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     59.327520072428314,
@@ -12496,6 +12530,7 @@
   "last_short": "2026-10-30",
   "montage_used": 3,
   "no_video_until": "2026-10-29",
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     131.8375197855403,

@@ -664,8 +664,8 @@
   "video_len": 76
  },
  "dubai crown prince receives president of malta": {
-  "last_short": "2026-10-28",
-  "montage_used": 4,
+  "last_short": "2026-10-30",
+  "montage_used": 5,
   "remix_ranges": [
    [
     67.26728040581254,
@@ -678,6 +678,10 @@
    [
     47.74676436662126,
     49.48293779901163
+   ],
+   [
+    27.240000000000002,
+    29.279999999999998
    ]
   ],
   "shorts_made": 2,
@@ -1075,9 +1079,9 @@
   "long": "2026-10-22"
  },
  "hamdan attends al kharbash wedding": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-30",
   "long": "2026-10-15",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     19.119741798597573,
@@ -1086,6 +1090,10 @@
    [
     8.718856355415676,
     10.86340333735247
+   ],
+   [
+    37.229255759219804,
+    39.12922969681363
    ]
   ],
   "video_exhausted": true,
@@ -1727,10 +1735,10 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed approves executive council s 2020 agenda unifies health insurance programmes": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-30",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     68.89767791203319,
@@ -1743,6 +1751,10 @@
    [
     39.79930210132844,
     41.86192327583165
+   ],
+   [
+    8.8424011028839,
+    10.896686023332553
    ]
   ],
   "shorts_made": 1,
@@ -1944,7 +1956,7 @@
   "fails": 1,
   "last_short": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     482.4187301479371,
@@ -1965,6 +1977,10 @@
    [
     185.1710556827683,
     187.3494544955738
+   ],
+   [
+    431.92552444920784,
+    433.9129869028867
    ]
   ],
   "shorts_made": 1,
@@ -2840,6 +2856,7 @@
  },
  "hamdan bin mohammed attends graduation of government policies experts": {
   "last_short": "2026-10-26",
+  "montage_exhausted": true,
   "montage_used": 1,
   "remix_ranges": [
    [
@@ -3780,9 +3797,9 @@
   "long": "2026-10-30"
  },
  "hamdan bin mohammed chairs executive council meeting": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-30",
   "long": "2026-10-30",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     61.638788101365066,
@@ -3807,6 +3824,10 @@
    [
     70.20233513832625,
     71.93401755715915
+   ],
+   [
+    100.89312369674133,
+    101.94622250839933
    ]
   ],
   "shorts_made": 1,
@@ -5391,8 +5412,8 @@
   "video_len": 451
  },
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
-  "last_short": "2026-10-29",
-  "montage_used": 6,
+  "last_short": "2026-10-30",
+  "montage_used": 7,
   "remix_ranges": [
    [
     78.30225988576875,
@@ -5413,6 +5434,10 @@
    [
     100.84732524964888,
     101.79558781161785
+   ],
+   [
+    115.36,
+    117.19999999999999
    ]
   ],
   "shorts_made": 2,
@@ -9285,6 +9310,7 @@
  },
  "hamdan bin mohammed reviews progress of dewa s hydroelectric project in hatta": {
   "last_short": "2026-10-28",
+  "montage_exhausted": true,
   "montage_used": 3,
   "remix_ranges": [
    [
@@ -12205,8 +12231,8 @@
   "video_exhausted": true
  },
  "hamdan chairs 1st meeting for higher committee to implement smart city project": {
-  "last_short": "2026-10-29",
-  "montage_used": 4,
+  "last_short": "2026-10-30",
+  "montage_used": 5,
   "remix_ranges": [
    [
     59.327520072428314,
@@ -12223,6 +12249,10 @@
    [
     3.22,
     4.9799999999999995
+   ],
+   [
+    13.554461058753725,
+    15.877925272479182
    ]
   ],
   "video_exhausted": true,
@@ -13739,7 +13769,7 @@
   "last_short": "2026-10-30",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     193.4567455027698,
@@ -13768,6 +13798,10 @@
    [
     0.16463182633629303,
     2.059599490420062
+   ],
+   [
+    214.1009987710061,
+    216.0427144339013
    ]
   ],
   "shorts_made": 3,

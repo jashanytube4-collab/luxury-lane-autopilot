@@ -565,9 +565,9 @@
   "video_len": 149
  },
  "dubai crown prince offers condolences al muhairi family": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-30",
   "long": "2026-10-22",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     21.925560678740784,
@@ -580,6 +580,10 @@
    [
     47.73640609033786,
     49.935065003755156
+   ],
+   [
+    27.243402145688126,
+    28.781438537125577
    ]
   ],
   "shorts_made": 1,
@@ -2112,9 +2116,9 @@
   "video_len": 65
  },
  "hamdan bin mohammed attends closing ceremony of 3rd dubai future accelerators program": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-10-30",
   "long": "2026-10-30",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     2.92,
@@ -2127,6 +2131,10 @@
    [
     65.26016177056435,
     66.89797537194389
+   ],
+   [
+    194.15477321086527,
+    195.87654982889646
    ]
   ],
   "shorts_made": 3,
@@ -5557,7 +5565,7 @@
  },
  "hamdan bin mohammed launches 26 dubai 10x projects issues directive to implement them within 24 months": {
   "last_short": "2026-10-30",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     113.84243637422479,
@@ -5586,6 +5594,10 @@
    [
     206.6593169289279,
     208.37931438075398
+   ],
+   [
+    212.04763119024207,
+    214.21641874203567
    ]
   ],
   "video_exhausted": true,
@@ -6664,8 +6676,8 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed meets with dubai gov t second line of leadership": {
-  "last_short": "2026-10-29",
-  "montage_used": 7,
+  "last_short": "2026-10-30",
+  "montage_used": 8,
   "remix_ranges": [
    [
     128.9530729946567,
@@ -6686,6 +6698,10 @@
    [
     91.78080250061531,
     93.54658784188636
+   ],
+   [
+    0.15444620838150563,
+    2.6207835539940283
    ]
   ],
   "shorts_made": 3,
@@ -7334,7 +7350,7 @@
  "hamdan bin mohammed meets with top performing school and university graduates": {
   "last_short": "2026-10-30",
   "long": "2026-10-17",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     13.76558973958145,
@@ -7347,6 +7363,10 @@
    [
     7.374359055187358,
     9.026403246352041
+   ],
+   [
+    30.378220376835877,
+    32.17194809019256
    ]
   ],
   "shorts_made": 1,
@@ -8685,13 +8705,17 @@
  },
  "hamdan bin mohammed receives ramadan well wishers": {
   "fails": 1,
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     59.31105310462557,
     60.85987613566748
+   ],
+   [
+    53.435741722988226,
+    55.4129991370187
    ]
   ],
   "shorts_made": 5,
@@ -8781,9 +8805,9 @@
   "video_len": 76
  },
  "hamdan bin mohammed receives speaker of kyrgyz parliament": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     62.509872567857634,
@@ -8792,6 +8816,10 @@
    [
     18.099762570697,
     20.647998979002864
+   ],
+   [
+    1.270663585089495,
+    3.4089973227884185
    ]
   ],
   "shorts_made": 1,
@@ -8943,6 +8971,7 @@
  "hamdan bin mohammed reviews final preparations as hope probe enters the most critical phase of its journey": {
   "last_short": "2026-10-29",
   "montage_used": 5,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     53.714791899604954,
@@ -12218,8 +12247,17 @@
   "video_len": 551
  },
  "hamdan inaugurates makani smart app": {
+  "last_short": "2026-10-30",
+  "montage_used": 1,
   "no_video_until": "2026-10-29",
-  "video_exhausted": true
+  "remix_ranges": [
+   [
+    38.86510087176517,
+    40.020844099804336
+   ]
+  ],
+  "video_exhausted": true,
+  "video_len": 116
  },
  "hamdan inaugurates mena transport congress exhibition": {
   "long": "2026-10-22"

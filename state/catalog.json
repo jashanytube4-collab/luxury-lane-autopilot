@@ -1165,7 +1165,7 @@
  },
  "hamdan attends dubai smart city first meeting": {
   "last_short": "2026-10-30",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     3.313635576410818,
@@ -1186,6 +1186,10 @@
    [
     71.21018200166411,
     73.12893217234759
+   ],
+   [
+    85.03640915672636,
+    86.63057396738736
    ]
   ],
   "video_exhausted": true,
@@ -2520,7 +2524,7 @@
  "hamdan bin mohammed attends dubai police graduation ceremony": {
   "last_short": "2026-10-30",
   "long": "2026-10-30",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     166.60279951075904,
@@ -2545,6 +2549,10 @@
    [
     159.76,
     161.44
+   ],
+   [
+    71.68,
+    73.47999999999999
    ]
   ],
   "shorts_made": 1,
@@ -4625,7 +4633,7 @@
  "hamdan bin mohammed extends condolences to families of pilots": {
   "last_short": "2026-10-30",
   "long": "2026-10-14",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     132.34533841902865,
@@ -4650,6 +4658,10 @@
    [
     43.176522695730505,
     44.74092779281811
+   ],
+   [
+    142.37793161155622,
+    144.64045473150628
    ]
   ],
   "shorts_made": 1,
@@ -4793,7 +4805,7 @@
  "hamdan bin mohammed honors mbr creative sports award winners": {
   "last_short": "2026-10-30",
   "long": "2026-10-18",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     50.879999999999995,
@@ -4822,6 +4834,10 @@
    [
     141.4605038537179,
     143.10417225249063
+   ],
+   [
+    175.35363830606687,
+    177.15305028205802
    ]
   ],
   "shorts_made": 3,
@@ -8310,7 +8326,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2017": {
   "last_short": "2026-10-30",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     15.810590002816998,
@@ -8327,6 +8343,10 @@
    [
     121.52552959194438,
     123.93584237544499
+   ],
+   [
+    171.24,
+    173.56
    ]
   ],
   "shorts_made": 1,
@@ -10151,7 +10171,7 @@
  },
  "hamdan bin mohammed tours gulfood 2023": {
   "last_short": "2026-10-30",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     55.28657067553729,
@@ -10164,6 +10184,10 @@
    [
     37.02761892801552,
     38.52384343052962
+   ],
+   [
+    42.33803908073966,
+    43.3049886448191
    ]
   ],
   "shorts_made": 1,
@@ -10858,7 +10882,7 @@
  "hamdan bin mohammed visits dental exhibition in dubai": {
   "last_short": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     2.3390712034378356,
@@ -10875,6 +10899,10 @@
    [
     141.57566204458863,
     143.33373145776787
+   ],
+   [
+    16.419753103249246,
+    18.27670363256763
    ]
   ],
   "shorts_made": 3,

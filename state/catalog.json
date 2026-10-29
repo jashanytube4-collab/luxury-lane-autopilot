@@ -691,7 +691,7 @@
  },
  "dubai crown prince receives president of malta": {
   "last_short": "2026-10-30",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     67.26728040581254,
@@ -708,6 +708,10 @@
    [
     27.240000000000002,
     29.279999999999998
+   ],
+   [
+    79.51540469374898,
+    81.94960323558816
    ]
   ],
   "shorts_made": 2,
@@ -764,7 +768,7 @@
  "dubai crown prince reviews preparations for emirates mars mission": {
   "last_short": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     10.223000693909508,
@@ -789,6 +793,10 @@
    [
     4.274903877893718,
     6.199746461072156
+   ],
+   [
+    20.800781670947448,
+    22.433135043164828
    ]
   ],
   "shorts_made": 3,
@@ -1039,9 +1047,9 @@
   "video_len": 145
  },
  "hamdan addressing future circles looking forward for innovation based future": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-30",
   "long": "2026-10-30",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     224.55333333333334,
@@ -1058,6 +1066,10 @@
    [
     217.48666666666668,
     219.18
+   ],
+   [
+    151.82874253237264,
+    154.0125986507641
    ]
   ],
   "video_exhausted": true,
@@ -3601,7 +3613,7 @@
  "hamdan bin mohammed attends the launche of uae innovation month in dubai": {
   "last_short": "2026-10-30",
   "long": "2026-10-30",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     42.38019053786916,
@@ -3622,6 +3634,10 @@
    [
     151.72272797075786,
     153.51661476326944
+   ],
+   [
+    119.84,
+    121.52
    ]
   ],
   "shorts_made": 1,
@@ -6839,7 +6855,7 @@
  },
  "hamdan bin mohammed meets with dubai gov t second line of leadership": {
   "last_short": "2026-10-30",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     128.9530729946567,
@@ -6864,6 +6880,10 @@
    [
     0.15444620838150563,
     2.6207835539940283
+   ],
+   [
+    21.26473658821443,
+    23.45154129798276
    ]
   ],
   "shorts_made": 3,
@@ -8163,8 +8183,8 @@
   "video_len": 281
  },
  "hamdan bin mohammed opens cityscape global 2017": {
-  "last_short": "2026-10-26",
-  "montage_used": 2,
+  "last_short": "2026-10-30",
+  "montage_used": 3,
   "remix_ranges": [
    [
     15.810590002816998,
@@ -8173,6 +8193,10 @@
    [
     75.35658635312888,
     76.78197732604845
+   ],
+   [
+    65.77543847860404,
+    67.31620018345403
    ]
   ],
   "shorts_made": 1,
@@ -8194,8 +8218,8 @@
   "video_len": 279
  },
  "hamdan bin mohammed opens cityscape global 2018": {
-  "last_short": "2026-10-29",
-  "montage_used": 7,
+  "last_short": "2026-10-30",
+  "montage_used": 8,
   "remix_ranges": [
    [
     324.3828204350159,
@@ -8216,6 +8240,10 @@
    [
     221.17329860334308,
     222.59888617972263
+   ],
+   [
+    342.92629964551105,
+    344.96832519844475
    ]
   ],
   "shorts_made": 2,

@@ -30,7 +30,26 @@ def load() -> dict:
     return (yaml.safe_load(OUT.read_text(encoding="utf-8")) or {}) if OUT.exists() else {}
 
 
+def single_instance():
+    """Hold an OS lock for the whole run (released when the process dies). Two runs at once would double the RAM and
+    overwrite each other's results in clip_seconds.yaml, so a second run just exits."""
+    lock = (ROOT / "work" / "tag_seconds.lock").open("a+")
+    try:
+        if sys.platform == "win32":
+            import msvcrt
+            msvcrt.locking(lock.fileno(), msvcrt.LK_NBLCK, 1)
+        else:
+            import fcntl
+            fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except OSError:
+        return None
+    return lock
+
+
 def main() -> None:
+    if not (_lock := single_instance()):
+        print("another tag_seconds run is already going - exiting", flush=True)
+        return
     from lane.brain import LocalModel, image_b64, _img
     from lane.config import load_config
     from tools.prerender_gate import story_tokens, duration, CLIPS

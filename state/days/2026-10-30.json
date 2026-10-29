@@ -216,8 +216,13 @@
   },
   {
    "at": "2026-10-30T23:15:38+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Patience of the desert. Speed of the future. ❤️ #fazza #youtubeshorts #youtube",
+   "type": "short",
+   "video_id": "fLR-v_H3snc",
+   "voiced": true
   },
   {
    "at": "2026-10-30T23:55:32+04:00",

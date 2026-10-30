@@ -973,9 +973,9 @@
   "long": "2026-10-23"
  },
  "dubai executive council approves annual agenda for 2018": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-31",
   "long": "2026-10-30",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -993,6 +993,12 @@
    [
     55.3758502226601,
     57.67226029093048
+   ]
+  ],
+  "shot_ranges": [
+   [
+    2.9433333333333302,
+    3.7766666666666695
    ]
   ],
   "video_exhausted": true,
@@ -2608,9 +2614,9 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed attends gems our own english high school s golden jubilee celebrations": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-10-31",
   "long": "2026-10-15",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     77.94133731869516,
@@ -2629,6 +2635,10 @@
    [
     77.76,
     79.92
+   ],
+   [
+    32.64,
+    35.120000000000005
    ]
   ],
   "video_exhausted": true,
@@ -4301,8 +4311,8 @@
   "video_len": 58
  },
  "hamdan bin mohammed concludes official visit to kuwait": {
-  "last_short": "2026-10-29",
-  "montage_used": 6,
+  "last_short": "2026-10-31",
+  "montage_used": 7,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -4347,6 +4357,10 @@
    [
     90.38666666666667,
     94.67999999999999
+   ],
+   [
+    79.42,
+    82.28
    ]
   ],
   "video_exhausted": true,
@@ -4730,9 +4744,9 @@
   "video_len": 98
  },
  "hamdan bin mohammed goes on first test ride of cruise autonomous electric vehicle in jumeirah 1": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-31",
   "long": "2026-10-08",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -4773,6 +4787,10 @@
    [
     72.38666666666667,
     75.28
+   ],
+   [
+    58.68666666666667,
+    61.21333333333334
    ]
   ],
   "video_exhausted": true,
@@ -4994,9 +5012,9 @@
   "long": "2026-10-21"
  },
  "hamdan bin mohammed honours arab contributors to entrepreneurial development": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-31",
   "long": "2026-10-31",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     134.08871265198363,
@@ -5040,6 +5058,10 @@
    [
     123.48,
     127.0
+   ],
+   [
+    31.240000000000002,
+    33.52
    ]
   ],
   "video_exhausted": true,
@@ -6328,9 +6350,9 @@
   "video_len": 101
  },
  "hamdan bin mohammed launches world s largest arabic audio library": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-10-31",
   "long": "2026-10-24",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     98.96000000000001,
@@ -6370,6 +6392,10 @@
    [
     111.9,
     114.99
+   ],
+   [
+    105.68,
+    108.67999999999999
    ]
   ],
   "video_exhausted": true,
@@ -9345,6 +9371,7 @@
  },
  "hamdan bin mohammed reviews final preparations as hope probe enters the most critical phase of its journey": {
   "last_short": "2026-10-29",
+  "montage_exhausted": true,
   "montage_used": 5,
   "remix_exhausted": true,
   "remix_ranges": [

@@ -641,13 +641,17 @@
   "video_len": 68
  },
  "dubai crown prince offers condolences to alkaabi family": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-31",
   "long": "2026-10-17",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     29.396853895904,
     30.967719022755134
+   ],
+   [
+    9.530559670009248,
+    12.063497281431879
    ]
   ],
   "video_exhausted": true,
@@ -1167,9 +1171,9 @@
   "long": "2026-10-13"
  },
  "hamdan attends dubai smart city first meeting": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-31",
   "long": "2026-10-31",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     3.313635576410818,
@@ -1186,6 +1190,10 @@
    [
     40.204180951622796,
     42.571025376842584
+   ],
+   [
+    71.72493877857792,
+    73.44100000572097
    ]
   ],
   "video_exhausted": true,
@@ -1932,7 +1940,7 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed approves new targets for dubai ai campus to attract more than 1 000 companies and create over 5 000 jobs": {
-  "fails": 1,
+  "fails": 2,
   "long": "2026-10-30",
   "no_video_until": "2026-10-30"
  },
@@ -2530,9 +2538,9 @@
   "long": "2026-10-30"
  },
  "hamdan bin mohammed attends dubai police graduation ceremony": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-31",
   "long": "2026-10-30",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     166.60279951075904,
@@ -2553,6 +2561,10 @@
    [
     64.75243636409273,
     66.93909061873502
+   ],
+   [
+    46.34650839528947,
+    47.64197912360417
    ]
   ],
   "shorts_made": 1,
@@ -3150,6 +3162,12 @@
  },
  "hamdan bin mohammed attends launch of dubai ai week 2025": {
   "video_exhausted": true
+ },
+ "hamdan bin mohammed attends launch of dubai future regulations team": {
+  "rejected": {
+   "reason": "fans would not love it",
+   "score": 3
+  }
  },
  "hamdan bin mohammed attends launch of dubai international chamber s new office in bengaluru": {
   "last_short": "2026-10-24",
@@ -3770,10 +3788,10 @@
   "long": "2026-10-22"
  },
  "hamdan bin mohammed attends wedding reception": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-10-31",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     30.79919761132518,
@@ -3786,6 +3804,10 @@
    [
     69.15274619434837,
     71.45588881678593
+   ],
+   [
+    52.70841687903313,
+    54.11353914286658
    ]
   ],
   "shorts_made": 1,
@@ -6133,9 +6155,9 @@
   "video_len": 69
  },
  "hamdan bin mohammed launches sports initiatives": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-10-31",
   "long": "2026-10-18",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     212.80506732035832,
@@ -6156,6 +6178,10 @@
    [
     250.2722046832068,
     251.85671209503803
+   ],
+   [
+    226.01079348390033,
+    228.0120294695181
    ]
   ],
   "shorts_made": 1,
@@ -14867,9 +14893,9 @@
   "no_hamdan": true
  },
  "ruler of umm al quwain accepts condolences from hamdan bin mohammed": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-10-31",
   "long": "2026-10-28",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     84.34146017449318,
@@ -14886,6 +14912,10 @@
    [
     77.58226747990255,
     79.52542534749554
+   ],
+   [
+    51.85461421000153,
+    53.58701466874645
    ]
   ],
   "shorts_made": 1,
@@ -14919,10 +14949,10 @@
   "video_len": 120
  },
  "rulers of ajman fujairah and ras al khaimah offer condolences to sheikh hamdan on mansour bin ahmed": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-10-31",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     80.96000000000001,
@@ -14951,6 +14981,10 @@
    [
     234.30256245929215,
     235.73183400872605
+   ],
+   [
+    256.4578478237793,
+    258.2846195487028
    ]
   ],
   "shorts_made": 3,

@@ -3,8 +3,13 @@
  "slots": [
   {
    "at": "2026-10-31T06:20:34+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "The desert taught him patience. Life taught him purpose. 👑 #fazza #youtubeshorts #youtube",
+   "type": "short",
+   "video_id": "qjXyYgfqetg",
+   "voiced": true
   },
   {
    "at": "2026-10-31T06:58:54+04:00",

@@ -1571,6 +1571,7 @@
  "hamdan bin mohammed and mohammed bin salman visit headquarters of expo 2020 dubai": {
   "last_short": "2026-10-31",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 7,
   "remix_ranges": [
    [
@@ -9222,6 +9223,7 @@
  },
  "hamdan bin mohammed receives head of chechen republic": {
   "last_short": "2026-10-30",
+  "montage_exhausted": true,
   "montage_used": 5,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -10874,6 +10876,7 @@
  "hamdan bin mohammed visits al dhafra air base in abu dhabi": {
   "last_short": "2026-10-26",
   "long": "2026-10-20",
+  "montage_exhausted": true,
   "montage_used": 2,
   "remix_exhausted": true,
   "remix_ranges": [

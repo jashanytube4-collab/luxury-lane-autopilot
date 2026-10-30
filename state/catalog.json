@@ -1153,9 +1153,9 @@
   "video_len": 68
  },
  "hamdan approves medical tourism strategy": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-10-31",
   "long": "2026-10-30",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     29.184896091193437,
@@ -1168,6 +1168,10 @@
    [
     38.19687103351474,
     40.274325711395626
+   ],
+   [
+    53.55333333333333,
+    55.61333333333334
    ]
   ],
   "video_exhausted": true,
@@ -1789,10 +1793,10 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed approves dubai marine transport master plan 2030": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-31",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     48.94176936882123,
@@ -1801,6 +1805,10 @@
    [
     29.13504938304487,
     30.572376542367483
+   ],
+   [
+    18.099152458580935,
+    19.62771649705132
    ]
   ],
   "shorts_made": 2,
@@ -6044,7 +6052,7 @@
  "hamdan bin mohammed launches day for dubai encourages residents to volunteer": {
   "last_short": "2026-10-31",
   "long": "2026-10-31",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     0.8284244282312303,
@@ -6069,6 +6077,10 @@
    [
     63.620023983568714,
     65.41681579434761
+   ],
+   [
+    136.30318291140833,
+    137.50949695218512
    ]
   ],
   "video_exhausted": true,
@@ -6085,11 +6097,15 @@
   "last_short": "2026-10-31",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     3.1048296422002672,
     5.5633604083555905
+   ],
+   [
+    18.12,
+    20.2
    ]
   ],
   "shorts_made": 1,
@@ -10132,9 +10148,9 @@
   "video_len": 43
  },
  "hamdan bin mohammed the uae has taken strides in energy sustainability": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-31",
   "long": "2026-10-14",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     5.521611542302555,
@@ -10147,6 +10163,10 @@
    [
     20.94976147918171,
     22.900222446252386
+   ],
+   [
+    47.06894664651144,
+    49.436627967155715
    ]
   ],
   "shorts_made": 2,
@@ -11149,10 +11169,10 @@
   "video_len": 43
  },
  "hamdan bin mohammed visits dental exhibition in dubai": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-31",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     2.3390712034378356,
@@ -11165,6 +11185,10 @@
    [
     108.09533523949239,
     110.0744718523149
+   ],
+   [
+    16.45948358533609,
+    18.30256036819516
    ]
   ],
   "shorts_made": 3,
@@ -11251,7 +11275,7 @@
  },
  "hamdan bin mohammed visits dewa s moro": {
   "last_short": "2026-10-31",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     33.81682847894831,
@@ -11268,6 +11292,10 @@
    [
     85.28359032251227,
     87.34544278172277
+   ],
+   [
+    113.63545912380734,
+    115.54982294105682
    ]
   ],
   "shorts_made": 3,
@@ -11428,8 +11456,8 @@
   "video_len": 311
  },
  "hamdan bin mohammed visits dubai airshow 2017": {
-  "last_short": "2026-10-30",
-  "montage_used": 8,
+  "last_short": "2026-10-31",
+  "montage_used": 9,
   "remix_ranges": [
    [
     71.52518074680644,
@@ -11462,6 +11490,10 @@
    [
     152.60563478831114,
     154.31209074970246
+   ],
+   [
+    86.64,
+    88.75999999999999
    ]
   ],
   "video_exhausted": true,

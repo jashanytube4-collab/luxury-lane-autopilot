@@ -83,8 +83,13 @@
   },
   {
    "at": "2026-10-31T13:06:38+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "The world sees royalty; we see Fazza's heart. #youtubeshorts #ytshorts",
+   "type": "short",
+   "video_id": "0MXRHR2c3bA",
+   "voiced": true
   },
   {
    "at": "2026-10-31T13:58:39+04:00",

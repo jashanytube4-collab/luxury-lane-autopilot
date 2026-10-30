@@ -13,8 +13,13 @@
   },
   {
    "at": "2026-10-31T06:58:54+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "montage",
+   "status": "scheduled",
+   "title": "A name that means help. A life that proves it. 🤍 #youtube #youtubeshorts",
+   "type": "short",
+   "video_id": "RIC_KkfbKLE",
+   "voiced": true
   },
   {
    "at": "2026-10-31T07:46:56+04:00",

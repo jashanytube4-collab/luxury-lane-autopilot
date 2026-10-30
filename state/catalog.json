@@ -1735,6 +1735,7 @@
  "hamdan bin mohammed approves dubai marine transport master plan 2030": {
   "last_short": "2026-10-29",
   "long": "2026-10-22",
+  "montage_exhausted": true,
   "montage_used": 2,
   "remix_ranges": [
    [
@@ -1949,14 +1950,20 @@
  },
  "hamdan bin mohammed approves next phase of dubai future solutions initiative": {
   "fails": 1,
-  "last_short": "2026-10-24",
+  "last_short": "2026-10-31",
   "long": "2026-10-11",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_exhausted": true,
   "remix_ranges": [
    [
     26.147968471020732,
     27.86020217273657
+   ]
+  ],
+  "shot_ranges": [
+   [
+    25.745600000000003,
+    28.1082
    ]
   ],
   "video_exhausted": true,
@@ -3117,9 +3124,9 @@
   "video_len": 249
  },
  "hamdan bin mohammed attends iftar banquet with autistic children and their families": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-10-31",
   "long": "2026-10-28",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     35.0824558967323,
@@ -3151,6 +3158,10 @@
    [
     24.08666666666667,
     25.63
+   ],
+   [
+    33.150000000000006,
+    38.150000000000006
    ]
   ],
   "video_exhausted": true,
@@ -4072,9 +4083,9 @@
   "video_len": 78
  },
  "hamdan bin mohammed chairs executive council meeting approves series of economic stimulus policies": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-31",
   "long": "2026-10-30",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     25.517707085490756,
@@ -4110,6 +4121,10 @@
    [
     77.36,
     81.47999999999999
+   ],
+   [
+    43.0,
+    45.120000000000005
    ]
   ],
   "video_exhausted": true,
@@ -4340,6 +4355,7 @@
  "hamdan bin mohammed concludes official visit to uzbekistan": {
   "last_short": "2026-10-29",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 6,
   "remix_ranges": [
    [
@@ -6620,6 +6636,7 @@
  "hamdan bin mohammed meets graduates of one million arab coders": {
   "last_short": "2026-10-30",
   "long": "2026-10-30",
+  "montage_exhausted": true,
   "montage_used": 6,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -9962,9 +9979,9 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed tours bustanica the world s largest vertical farm in dubai": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-10-31",
   "long": "2026-10-31",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     137.834523919362,
@@ -10004,6 +10021,10 @@
    [
     137.42000000000002,
     142.42000000000002
+   ],
+   [
+    82.92,
+    85.52
    ]
   ],
   "video_exhausted": true,
@@ -11969,9 +11990,9 @@
   "video_len": 203
  },
  "hamdan bin mohammed visits public prosecution": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-10-31",
   "long": "2026-10-31",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     276.27271542570674,
@@ -12019,6 +12040,10 @@
    [
     84.44,
     86.88
+   ],
+   [
+    70.08,
+    72.75999999999999
    ]
   ],
   "video_exhausted": true,
@@ -12028,6 +12053,7 @@
   "fails": 1,
   "last_short": "2026-10-25",
   "long": "2026-10-23",
+  "montage_exhausted": true,
   "montage_used": 1,
   "remix_exhausted": true,
   "remix_ranges": [

@@ -3785,7 +3785,7 @@
  "hamdan bin mohammed attends the launche of uae innovation month in dubai": {
   "last_short": "2026-10-31",
   "long": "2026-10-30",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     42.38019053786916,
@@ -3814,6 +3814,10 @@
    [
     123.91713408963305,
     125.62150635714256
+   ],
+   [
+    115.36,
+    117.19999999999999
    ]
   ],
   "shorts_made": 1,
@@ -4776,9 +4780,9 @@
   "video_len": 73
  },
  "hamdan bin mohammed extends condolences to families of pilots": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-10-31",
   "long": "2026-10-14",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     132.34533841902865,
@@ -4799,6 +4803,10 @@
    [
     16.569583508185694,
     18.544354361544062
+   ],
+   [
+    43.164079914278005,
+    44.57065260305862
    ]
   ],
   "shorts_made": 1,
@@ -6930,9 +6938,9 @@
   "video_len": 99
  },
  "hamdan bin mohammed meets students of dubai schools": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-31",
   "long": "2026-10-17",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     163.49934334402403,
@@ -6945,6 +6953,10 @@
    [
     97.39914547133657,
     98.8928415057095
+   ],
+   [
+    332.86061542571326,
+    335.39064167648525
    ]
   ],
   "shorts_made": 3,
@@ -9900,9 +9912,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed reviews strategic plans of dubai civil defense": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-31",
   "long": "2026-10-31",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     7.74615392477855,
@@ -9923,6 +9935,10 @@
    [
     42.35333333333333,
     44.24666666666667
+   ],
+   [
+    54.1133917729799,
+    55.77529635696853
    ]
   ],
   "shorts_made": 1,
@@ -10212,7 +10228,7 @@
  "hamdan bin mohammed tours bustanica the world s largest vertical farm in dubai": {
   "last_short": "2026-10-31",
   "long": "2026-10-31",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     137.834523919362,
@@ -10225,6 +10241,10 @@
    [
     44.11664636344026,
     46.004883965723955
+   ],
+   [
+    47.95677186288794,
+    50.53448110056078
    ]
   ],
   "shorts_made": 2,
@@ -11206,8 +11226,8 @@
   "video_len": 206
  },
  "hamdan bin mohammed visits dewa s moro": {
-  "last_short": "2026-10-30",
-  "montage_used": 2,
+  "last_short": "2026-10-31",
+  "montage_used": 3,
   "remix_ranges": [
    [
     33.81682847894831,
@@ -11216,6 +11236,10 @@
    [
     164.01859648093594,
     165.63148824525436
+   ],
+   [
+    150.56,
+    152.2
    ]
   ],
   "shorts_made": 3,
@@ -12030,7 +12054,7 @@
  "hamdan bin mohammed visits innovation labs 2018": {
   "last_short": "2026-10-31",
   "long": "2026-10-30",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     237.92000000000002,
@@ -12051,6 +12075,10 @@
    [
     21.819329398568062,
     23.331346127753346
+   ],
+   [
+    320.1658652748104,
+    321.63022361217907
    ]
   ],
   "shorts_made": 1,
@@ -14613,6 +14641,7 @@
   "long": "2026-10-22",
   "montage_exhausted": true,
   "montage_used": 9,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     193.4567455027698,

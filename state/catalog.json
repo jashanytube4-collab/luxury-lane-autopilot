@@ -194,6 +194,7 @@
   "last_short": "2026-10-30",
   "long": "2026-10-31",
   "montage_used": 1,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     97.98666666666666,
@@ -2203,6 +2204,7 @@
   "last_short": "2026-10-29",
   "long": "2026-10-27",
   "montage_used": 3,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     86.69715800486105,
@@ -4569,6 +4571,7 @@
   "last_short": "2026-10-29",
   "long": "2026-10-31",
   "montage_used": 6,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     43.05333333333333,
@@ -6368,6 +6371,7 @@
  "hamdan bin mohammed launches world s largest arabic audio library": {
   "last_short": "2026-10-31",
   "long": "2026-10-24",
+  "montage_exhausted": true,
   "montage_used": 7,
   "remix_ranges": [
    [
@@ -7107,6 +7111,7 @@
   "video_len": 239
  },
  "hamdan bin mohammed meets with dubai s supreme committee of crisis and disaster management reviews preparations for expo 2020 dubai": {
+  "montage_exhausted": true,
   "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 69
@@ -11682,6 +11687,7 @@
  "hamdan bin mohammed visits gulfood 2018": {
   "last_short": "2026-10-30",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 5,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -12498,6 +12504,7 @@
  "hamdan bin mohammed watches the historic launch of zayed ambition 2": {
   "last_short": "2026-10-30",
   "montage_used": 6,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     76.96247371777686,
@@ -12551,6 +12558,7 @@
  },
  "hamdan bin mohammed welcomes king of jordan as he arrives in the uae to participate in cop28": {
   "last_short": "2026-10-09",
+  "montage_exhausted": true,
   "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
@@ -12887,7 +12895,7 @@
   "last_short": "2026-10-24",
   "long": "2026-10-12",
   "montage_used": 3,
-  "no_video_until": "2026-10-29",
+  "no_video_until": "2026-11-02",
   "remix_ranges": [
    [
     57.50690395838152,

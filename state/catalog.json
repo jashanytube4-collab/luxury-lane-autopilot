@@ -123,13 +123,17 @@
   "long": "2026-10-17"
  },
  "crown prince offers condolences to al mansouri family": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-10-31",
   "long": "2026-10-16",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     14.789589577577805,
     17.287470537736375
+   ],
+   [
+    28.600283685583776,
+    30.311188375499825
    ]
   ],
   "video_exhausted": true,
@@ -2577,7 +2581,7 @@
  "hamdan bin mohammed attends dubai police graduation ceremony": {
   "last_short": "2026-10-31",
   "long": "2026-10-30",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     166.60279951075904,
@@ -2602,6 +2606,10 @@
    [
     46.34650839528947,
     47.64197912360417
+   ],
+   [
+    154.87405381939257,
+    156.50554383399307
    ]
   ],
   "shorts_made": 1,
@@ -3006,14 +3014,18 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed attends graduation of government policies experts": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-31",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     182.84935360385398,
     184.95776807216762
+   ],
+   [
+    108.02351125000024,
+    109.80700377034854
    ]
   ],
   "shorts_made": 1,
@@ -4004,9 +4016,9 @@
   "long": "2026-10-30"
  },
  "hamdan bin mohammed chairs executive council meeting": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-10-31",
   "long": "2026-10-30",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     61.638788101365066,
@@ -4035,6 +4047,10 @@
    [
     100.89312369674133,
     101.94622250839933
+   ],
+   [
+    83.9278576677336,
+    85.86559857003496
    ]
   ],
   "shorts_made": 1,
@@ -6257,7 +6273,7 @@
  "hamdan bin mohammed launches sports initiatives": {
   "last_short": "2026-10-31",
   "long": "2026-10-18",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     212.80506732035832,
@@ -6282,6 +6298,10 @@
    [
     226.01079348390033,
     228.0120294695181
+   ],
+   [
+    146.04,
+    147.84
    ]
   ],
   "shorts_made": 1,
@@ -6828,8 +6848,8 @@
   "video_len": 46
  },
  "hamdan bin mohammed meets promising leaders from various dubai government entities": {
-  "last_short": "2026-10-29",
-  "montage_used": 3,
+  "last_short": "2026-10-31",
+  "montage_used": 4,
   "remix_ranges": [
    [
     23.271101134211975,
@@ -6842,6 +6862,10 @@
    [
     55.726410859447505,
     57.89354474936723
+   ],
+   [
+    16.04,
+    17.64
    ]
   ],
   "video_exhausted": true,
@@ -11884,9 +11908,9 @@
   "video_len": 172
  },
  "hamdan bin mohammed visits innovation labs 2018": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-10-31",
   "long": "2026-10-30",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     237.92000000000002,
@@ -11903,6 +11927,10 @@
    [
     64.00319646773066,
     66.02100792986077
+   ],
+   [
+    21.819329398568062,
+    23.331346127753346
    ]
   ],
   "shorts_made": 1,
@@ -12018,9 +12046,9 @@
   "video_len": 275
  },
  "hamdan bin mohammed visits linkedin s regional headquarters in dubai": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-10-31",
   "long": "2026-10-31",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     99.75771873527589,
@@ -12041,6 +12069,10 @@
    [
     46.95885043651148,
     48.55431027634871
+   ],
+   [
+    18.028234488412924,
+    19.76619316603349
    ]
   ],
   "shorts_made": 2,
@@ -14361,6 +14393,7 @@
   "last_short": "2026-10-31",
   "long": "2026-10-31",
   "montage_used": 6,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     4.017581494059155,
@@ -14792,6 +14825,7 @@
   "last_short": "2026-10-28",
   "long": "2026-10-28",
   "montage_used": 4,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     165.28775802571622,

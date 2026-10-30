@@ -3699,9 +3699,9 @@
   "video_len": 507
  },
  "hamdan bin mohammed attends the launche of uae innovation month in dubai": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-10-31",
   "long": "2026-10-30",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     42.38019053786916,
@@ -3726,6 +3726,10 @@
    [
     119.84,
     121.52
+   ],
+   [
+    123.91713408963305,
+    125.62150635714256
    ]
   ],
   "shorts_made": 1,
@@ -4434,6 +4438,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 4,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     15.76,
@@ -5157,9 +5162,9 @@
   "video_len": 19
  },
  "hamdan bin mohammed honours winners of 5th islamic economy award": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-10-31",
   "long": "2026-10-30",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     219.23125416320443,
@@ -5176,6 +5181,10 @@
    [
     42.4623355441821,
     44.07093388606433
+   ],
+   [
+    183.28923422421485,
+    184.96765174321928
    ]
   ],
   "shorts_made": 2,
@@ -5938,9 +5947,16 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed launches dubai future readiness index": {
-  "last_short": "2026-10-10",
+  "last_short": "2026-10-31",
   "long": "2026-10-30",
   "montage_exhausted": true,
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    3.1048296422002672,
+    5.5633604083555905
+   ]
+  ],
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -8191,13 +8207,17 @@
   "long": "2026-10-17"
  },
  "hamdan bin mohammed offers condolences to family of martyr saeed alhajri": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-10-31",
   "long": "2026-10-27",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_ranges": [
    [
     30.126788906092074,
     32.571011457949226
+   ],
+   [
+    50.5027639785565,
+    52.532445913915915
    ]
   ],
   "shorts_made": 1,
@@ -8761,8 +8781,8 @@
   "video_len": 226
  },
  "hamdan bin mohammed opens smart police station at la mer": {
-  "last_short": "2026-10-29",
-  "montage_used": 3,
+  "last_short": "2026-10-31",
+  "montage_used": 4,
   "remix_ranges": [
    [
     99.92,
@@ -8771,6 +8791,10 @@
    [
     36.28250116553336,
     37.599989081487536
+   ],
+   [
+    110.79970240194444,
+    112.2763746287566
    ]
   ],
   "shorts_made": 2,
@@ -9194,9 +9218,9 @@
   "video_len": 76
  },
  "hamdan bin mohammed receives speaker of kyrgyz parliament": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     62.509872567857634,
@@ -9213,6 +9237,10 @@
    [
     83.12785743625143,
     85.11661225190524
+   ],
+   [
+    88.3127903537335,
+    90.18558897270822
    ]
   ],
   "shorts_made": 1,
@@ -10008,7 +10036,7 @@
  "hamdan bin mohammed tours bustanica the world s largest vertical farm in dubai": {
   "last_short": "2026-10-31",
   "long": "2026-10-31",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     137.834523919362,
@@ -10017,6 +10045,10 @@
    [
     83.14187183957921,
     84.83776180919696
+   ],
+   [
+    44.11664636344026,
+    46.004883965723955
    ]
   ],
   "shorts_made": 2,
@@ -12702,8 +12734,8 @@
   "video_len": 160
  },
  "hamdan chairs expo 2020 higher committee s first session": {
-  "last_short": "2026-10-28",
-  "montage_used": 3,
+  "last_short": "2026-10-31",
+  "montage_used": 4,
   "remix_ranges": [
    [
     61.387647776978035,
@@ -12716,6 +12748,10 @@
    [
     68.18805784721002,
     69.72964559168173
+   ],
+   [
+    11.917940426203767,
+    13.589284736117651
    ]
   ],
   "video_exhausted": true,

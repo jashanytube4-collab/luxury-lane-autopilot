@@ -912,7 +912,7 @@
  },
  "dubai crown prince visits emirates nbd head office": {
   "last_short": "2026-10-31",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     104.60402386812525,
@@ -933,6 +933,10 @@
    [
     156.04815125673343,
     158.41850503828599
+   ],
+   [
+    140.61740438530092,
+    142.45684273641632
    ]
   ],
   "shorts_made": 1,
@@ -1490,10 +1494,10 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed and maktoum bin mohammed visit emirates group headquarters": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-10-31",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     21.386666666666667,
@@ -1502,6 +1506,10 @@
    [
     42.79780958366585,
     44.97220958247791
+   ],
+   [
+    70.6140437221361,
+    73.16098681245374
    ]
   ],
   "shorts_made": 1,
@@ -2652,7 +2660,7 @@
  "hamdan bin mohammed attends gems our own english high school s golden jubilee celebrations": {
   "last_short": "2026-10-31",
   "long": "2026-10-15",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     77.94133731869516,
@@ -2661,6 +2669,10 @@
    [
     192.105247112048,
     193.64783180843185
+   ],
+   [
+    133.15691696273404,
+    134.69835756982144
    ]
   ],
   "shot_ranges": [
@@ -2681,13 +2693,17 @@
   "video_len": 278
  },
  "hamdan bin mohammed attends global cardiology congress": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-31",
   "long": "2026-10-22",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     227.92000000000002,
     229.76
+   ],
+   [
+    93.36,
+    95.0
    ]
   ],
   "shorts_made": 1,
@@ -7361,10 +7377,10 @@
   "video_len": 18
  },
  "hamdan bin mohammed meets with indian prime minister to discuss future of bilateral partnership": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-31",
   "long": "2026-10-10",
   "montage_exhausted": true,
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     14.317510472381727,
@@ -7373,6 +7389,10 @@
    [
     22.52,
     24.459999999999997
+   ],
+   [
+    6.931410610643816,
+    8.477374185898407
    ]
   ],
   "shorts_made": 1,
@@ -8725,9 +8745,9 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed opens gitex tech week 2017": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-31",
   "long": "2026-10-14",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     523.8801185278389,
@@ -8736,6 +8756,10 @@
    [
     222.6874010367773,
     224.3306887997186
+   ],
+   [
+    483.69965981494107,
+    485.32418252066475
    ]
   ],
   "shorts_made": 3,
@@ -10073,9 +10097,9 @@
   "video_len": 75
  },
  "hamdan bin mohammed tours arabian travel market 2024": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-10-31",
   "long": "2026-10-31",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     48.384688122709605,
@@ -10092,6 +10116,10 @@
    [
     26.253333333333334,
     27.913333333333334
+   ],
+   [
+    40.88683815719188,
+    42.82102097929265
    ]
   ],
   "shorts_made": 1,
@@ -12295,9 +12323,9 @@
   "video_len": 137
  },
  "hamdan bin mohammed visits stands of government entities at gitex2019": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-31",
   "long": "2026-10-31",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     143.24971079721686,
@@ -12318,6 +12346,10 @@
    [
     238.80179555759028,
     240.43620492027588
+   ],
+   [
+    44.44094265966632,
+    46.59496849596636
    ]
   ],
   "shorts_made": 2,

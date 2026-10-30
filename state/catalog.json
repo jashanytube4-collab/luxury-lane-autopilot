@@ -507,9 +507,9 @@
   "video_len": 232
  },
  "dubai crown prince holds minute s silence to honour martyrs on commemoration day": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-31",
   "long": "2026-10-31",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     20.424621499001876,
@@ -522,6 +522,10 @@
    [
     28.103214964088576,
     30.061172604086185
+   ],
+   [
+    129.28657116737165,
+    131.4193963056101
    ]
   ],
   "video_exhausted": true,
@@ -665,6 +669,7 @@
   "last_short": "2026-10-28",
   "long": "2026-10-31",
   "montage_used": 4,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     22.56190670835522,
@@ -898,8 +903,8 @@
   "video_len": 345
  },
  "dubai crown prince visits emirates nbd head office": {
-  "last_short": "2026-10-29",
-  "montage_used": 7,
+  "last_short": "2026-10-31",
+  "montage_used": 8,
   "remix_ranges": [
    [
     104.60402386812525,
@@ -916,6 +921,10 @@
    [
     149.77863291968123,
     152.37391486825302
+   ],
+   [
+    156.04815125673343,
+    158.41850503828599
    ]
   ],
   "shorts_made": 1,
@@ -1298,9 +1307,9 @@
  },
  "hamdan bin mohammed and india s minister of commerce and industry witness signing of 8 mous": {
   "fails": 1,
-  "last_short": "2026-10-29",
+  "last_short": "2026-10-31",
   "long": "2026-10-14",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     2.3467459966608333,
@@ -1313,6 +1322,10 @@
    [
     25.060000000000002,
     27.08
+   ],
+   [
+    16.12,
+    17.98
    ]
   ],
   "shorts_made": 1,
@@ -2440,7 +2453,7 @@
  "hamdan bin mohammed attends dubai forum for government best practices": {
   "last_short": "2026-10-31",
   "long": "2026-10-31",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     28.36,
@@ -2461,6 +2474,10 @@
    [
     57.53563641136799,
     59.24255262901474
+   ],
+   [
+    16.09267389184617,
+    17.58595353229898
    ]
   ],
   "video_exhausted": true,
@@ -3823,7 +3840,7 @@
   "last_short": "2026-10-31",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     30.79919761132518,
@@ -3840,6 +3857,10 @@
    [
     52.70841687903313,
     54.11353914286658
+   ],
+   [
+    43.0439233263912,
+    45.07191526521583
    ]
   ],
   "shorts_made": 1,
@@ -4953,7 +4974,7 @@
  },
  "hamdan bin mohammed honors winners of dubai appreciation award for community service": {
   "last_short": "2026-10-31",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     179.39335360955343,
@@ -4978,6 +4999,10 @@
    [
     171.41941515107754,
     173.8465753215624
+   ],
+   [
+    41.162122289172565,
+    43.53375958121221
    ]
   ],
   "shorts_made": 3,
@@ -12707,14 +12732,18 @@
   "long": "2026-10-09"
  },
  "hamdan celebrates al ahli s arabian gulf league winning": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-10-31",
   "long": "2026-10-15",
-  "montage_used": 1,
+  "montage_used": 2,
   "no_video_until": "2026-10-29",
   "remix_ranges": [
    [
     74.53223314101635,
     76.77499832253903
+   ],
+   [
+    69.32000000000001,
+    71.31333333333333
    ]
   ],
   "shorts_made": 1,
@@ -12774,6 +12803,7 @@
  "hamdan chairs expo 2020 higher committee s first session": {
   "last_short": "2026-10-31",
   "montage_used": 4,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     61.387647776978035,
@@ -14328,9 +14358,9 @@
   "video_exhausted": true
  },
  "in presence of dubai crown prince meraas signs agreement with dubai municipality to manage dubai safari": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-10-31",
   "long": "2026-10-31",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     4.017581494059155,
@@ -14351,6 +14381,10 @@
    [
     33.2209446200438,
     34.54372473578749
+   ],
+   [
+    1.071583609002634,
+    2.5941136901739723
    ]
   ],
   "video_exhausted": true,

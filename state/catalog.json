@@ -382,6 +382,7 @@
   "long": "2026-10-17",
   "montage_exhausted": true,
   "montage_used": 9,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     42.09304322116802,
@@ -449,7 +450,7 @@
  "dubai crown prince hands over hamdan bin mohammed program for smart government flag to dubai police": {
   "last_short": "2026-10-31",
   "long": "2026-10-31",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     135.58406389801235,
@@ -470,6 +471,10 @@
    [
     43.10310602845247,
     44.99577487788371
+   ],
+   [
+    209.341900954074,
+    211.80762464777825
    ]
   ],
   "shorts_made": 2,
@@ -1104,6 +1109,7 @@
   "last_short": "2026-10-30",
   "long": "2026-10-30",
   "montage_used": 5,
+  "no_video_until": "2026-11-02",
   "remix_ranges": [
    [
     224.55333333333334,
@@ -1558,9 +1564,9 @@
   "long": "2026-10-21"
  },
  "hamdan bin mohammed and mohammed bin salman visit headquarters of expo 2020 dubai": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-10-31",
   "long": "2026-10-31",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     438.68,
@@ -1577,6 +1583,10 @@
    [
     294.58598645020754,
     296.61080347878203
+   ],
+   [
+    427.82707202589387,
+    429.66090676060276
    ]
   ],
   "shorts_made": 2,
@@ -2816,10 +2826,10 @@
   "video_len": 246
  },
  "hamdan bin mohammed attends graduation ceremony at hbmsu": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-10-31",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     165.40934691813837,
@@ -2828,6 +2838,10 @@
    [
     46.19220875137722,
     47.92008966538435
+   ],
+   [
+    127.27130471461979,
+    129.8565436012048
    ]
   ],
   "shorts_made": 1,
@@ -6476,6 +6490,7 @@
   "long": "2026-10-24",
   "montage_exhausted": true,
   "montage_used": 7,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     98.96000000000001,
@@ -9370,6 +9385,7 @@
   "last_short": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 6,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     62.509872567857634,
@@ -9428,6 +9444,7 @@
  "hamdan bin mohammed receives victory team xcat": {
   "last_short": "2026-10-29",
   "montage_used": 4,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     67.59418394616664,
@@ -10565,8 +10582,8 @@
   "video_len": 189
  },
  "hamdan bin mohammed unveils 5 star plaque at sheikh zayed housing programme in dubai": {
-  "last_short": "2026-10-30",
-  "montage_used": 8,
+  "last_short": "2026-10-31",
+  "montage_used": 9,
   "remix_ranges": [
    [
     144.8978218171365,
@@ -10595,6 +10612,10 @@
    [
     118.06432686806436,
     119.98006827598226
+   ],
+   [
+    217.00094365065533,
+    218.9158784243807
    ]
   ],
   "shorts_made": 3,
@@ -10948,9 +10969,9 @@
   "video_len": 159
  },
  "hamdan bin mohammed visits art dubai": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-10-31",
   "long": "2026-10-13",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     49.68,
@@ -10975,6 +10996,10 @@
    [
     72.6866087492202,
     74.66871192679436
+   ],
+   [
+    42.80936542082905,
+    44.97070244248748
    ]
   ],
   "shorts_made": 2,
@@ -11147,8 +11172,8 @@
   "video_len": 196
  },
  "hamdan bin mohammed visits department of economic development": {
-  "last_short": "2026-10-30",
-  "montage_used": 5,
+  "last_short": "2026-10-31",
+  "montage_used": 6,
   "remix_ranges": [
    [
     99.05206428340473,
@@ -11169,6 +11194,10 @@
    [
     152.45690826383014,
     154.02902100055087
+   ],
+   [
+    156.55989835646227,
+    157.6659049413904
    ]
   ],
   "video_exhausted": true,
@@ -12110,9 +12139,9 @@
   "video_len": 57
  },
  "hamdan bin mohammed visits knowledge and human development authority": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-10-31",
   "long": "2026-10-31",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     245.6187281153152,
@@ -12129,6 +12158,10 @@
    [
     189.64983043235645,
     191.1463631802071
+   ],
+   [
+    124.4391791297804,
+    126.05180069387428
    ]
   ],
   "video_exhausted": true,
@@ -12214,9 +12247,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits personal status court": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-10-31",
   "long": "2026-10-31",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     80.89349709731536,
@@ -12225,6 +12258,10 @@
    [
     101.80000000000001,
     103.75999999999999
+   ],
+   [
+    40.44438790473172,
+    42.22469064532771
    ]
   ],
   "video_exhausted": true,

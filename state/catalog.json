@@ -1335,6 +1335,7 @@
   "fails": 1,
   "last_short": "2026-10-31",
   "long": "2026-10-14",
+  "montage_exhausted": true,
   "montage_used": 4,
   "remix_ranges": [
    [
@@ -2487,7 +2488,7 @@
  "hamdan bin mohammed attends dubai forum for government best practices": {
   "last_short": "2026-10-31",
   "long": "2026-10-31",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     28.36,
@@ -2512,6 +2513,10 @@
    [
     16.09267389184617,
     17.58595353229898
+   ],
+   [
+    133.7386763962964,
+    135.44453654950576
    ]
   ],
   "video_exhausted": true,
@@ -3148,6 +3153,7 @@
   "last_short": "2026-10-30",
   "long": "2026-10-14",
   "montage_used": 10,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     202.4192200580963,
@@ -4323,10 +4329,10 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed chairs virtual meeting of executive council": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-10-31",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     80.58442199620988,
@@ -4335,6 +4341,10 @@
    [
     1.5206556345642581,
     3.783563680987373
+   ],
+   [
+    19.276261203029716,
+    21.306568077630914
    ]
   ],
   "shorts_made": 2,
@@ -5929,6 +5939,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 4,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     32.15333333333333,
@@ -8110,6 +8121,7 @@
   "last_short": "2026-10-29",
   "long": "2026-10-20",
   "montage_used": 3,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     44.35577291257337,
@@ -8795,7 +8807,7 @@
  "hamdan bin mohammed opens gitex tech week 2017": {
   "last_short": "2026-10-31",
   "long": "2026-10-14",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     523.8801185278389,
@@ -8808,6 +8820,10 @@
    [
     483.69965981494107,
     485.32418252066475
+   ],
+   [
+    496.4049386991013,
+    498.9464074616907
    ]
   ],
   "shorts_made": 3,
@@ -8951,7 +8967,7 @@
  },
  "hamdan bin mohammed opens smart police station at la mer": {
   "last_short": "2026-10-31",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     99.92,
@@ -8964,6 +8980,10 @@
    [
     110.79970240194444,
     112.2763746287566
+   ],
+   [
+    210.32,
+    212.16
    ]
   ],
   "shorts_made": 2,
@@ -10941,7 +10961,7 @@
  "hamdan bin mohammed visits area 2071 reviews dubai 10x initiative projects": {
   "last_short": "2026-10-31",
   "long": "2026-10-31",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     51.93878486376732,
@@ -10962,6 +10982,10 @@
    [
     16.842891023414563,
     18.344720753078914
+   ],
+   [
+    70.58036737696527,
+    72.43751591892887
    ]
   ],
   "shorts_made": 2,
@@ -11227,7 +11251,7 @@
  },
  "hamdan bin mohammed visits dewa s moro": {
   "last_short": "2026-10-31",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     33.81682847894831,
@@ -11240,6 +11264,10 @@
    [
     150.56,
     152.2
+   ],
+   [
+    85.28359032251227,
+    87.34544278172277
    ]
   ],
   "shorts_made": 3,
@@ -12301,7 +12329,7 @@
   "last_short": "2026-10-31",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     276.27271542570674,
@@ -12318,6 +12346,10 @@
    [
     197.63793840798536,
     199.091770529617
+   ],
+   [
+    65.54669093499088,
+    67.66516806171111
    ]
   ],
   "shorts_made": 2,
@@ -15120,9 +15152,9 @@
   "video_len": 251
  },
  "mohammed bin rashid commends the dubai executive council s efforts over the past 15 years": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-10-31",
   "long": "2026-10-28",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     83.59827200044164,
@@ -15151,6 +15183,10 @@
    [
     46.44277603652441,
     48.504290439131765
+   ],
+   [
+    58.204212280145654,
+    60.09286031147281
    ]
   ],
   "shorts_made": 1,

@@ -260,9 +260,9 @@
   "long": "2026-10-17"
  },
  "dubai crown prince attends graduation of dubai police academy": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     211.78852581766063,
@@ -307,6 +307,10 @@
    [
     849.6208203200206,
     852.0984069397449
+   ],
+   [
+    443.006848159708,
+    445.5124217471821
    ]
   ],
   "shorts_made": 2,
@@ -821,12 +825,16 @@
   "video_len": 130
  },
  "dubai crown prince receives president of the chechen": {
-  "last_short": "2026-10-30",
-  "montage_used": 1,
+  "last_short": "2026-11-01",
+  "montage_used": 2,
   "remix_ranges": [
    [
     45.227858673030426,
     47.07811918017842
+   ],
+   [
+    50.52020967576635,
+    52.63038452623985
    ]
   ],
   "video_exhausted": true,
@@ -2406,9 +2414,9 @@
   "video_len": 65
  },
  "hamdan bin mohammed attends closing ceremony of 3rd dubai future accelerators program": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-11-01",
   "long": "2026-10-30",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     2.92,
@@ -2425,6 +2433,10 @@
    [
     194.15477321086527,
     195.87654982889646
+   ],
+   [
+    165.89420458539198,
+    167.48862328231772
    ]
   ],
   "shorts_made": 3,
@@ -2867,7 +2879,7 @@
  "hamdan bin mohammed attends global islamic economy summit": {
   "last_short": "2026-11-01",
   "long": "2026-10-30",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     198.37148978554302,
@@ -2884,6 +2896,10 @@
    [
     48.826175822950646,
     50.271484984903516
+   ],
+   [
+    213.6121370353491,
+    215.89559974686514
    ]
   ],
   "shorts_made": 3,
@@ -4637,7 +4653,7 @@
   "last_short": "2026-11-01",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     136.78354122945424,
@@ -4658,6 +4674,10 @@
    [
     148.92278311304906,
     150.710580704011
+   ],
+   [
+    144.3314525774245,
+    145.85603187215065
    ]
   ],
   "shorts_made": 1,
@@ -8794,8 +8814,8 @@
   "video_len": 281
  },
  "hamdan bin mohammed opens cityscape global 2017": {
-  "last_short": "2026-10-30",
-  "montage_used": 4,
+  "last_short": "2026-11-01",
+  "montage_used": 5,
   "remix_ranges": [
    [
     15.810590002816998,
@@ -8812,6 +8832,10 @@
    [
     121.52552959194438,
     123.93584237544499
+   ],
+   [
+    106.16000000000001,
+    107.88
    ]
   ],
   "shorts_made": 1,
@@ -12943,7 +12967,7 @@
  "hamdan bin mohammed visits the dubai future foundation headquarters and reviews 10x projects": {
   "last_short": "2026-11-01",
   "long": "2026-10-30",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     31.725173262132333,
@@ -12968,6 +12992,10 @@
    [
     52.26779438438693,
     54.69033956587203
+   ],
+   [
+    177.40527559845896,
+    179.23592436497808
    ]
   ],
   "shorts_made": 1,
@@ -15828,7 +15856,7 @@
   "last_short": "2026-11-01",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     80.96000000000001,
@@ -15873,6 +15901,10 @@
    [
     117.21334219815577,
     119.47440365456615
+   ],
+   [
+    239.62645039111982,
+    241.9975924834852
    ]
   ],
   "shorts_made": 3,

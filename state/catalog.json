@@ -1456,7 +1456,7 @@
  "hamdan bin mohammed and maktoum bin mohammed review dubai municipality s key strategic projects following corporate restructuring": {
   "last_short": "2026-11-01",
   "long": "2026-10-27",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     52.18666666666667,
@@ -1473,6 +1473,10 @@
    [
     61.02544282042873,
     62.57213678155499
+   ],
+   [
+    40.71336144915571,
+    42.182490954838116
    ]
   ],
   "shorts_made": 1,
@@ -1524,10 +1528,10 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed and maktoum bin mohammed visit emirates group headquarters": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-01",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     21.386666666666667,
@@ -1540,6 +1544,10 @@
    [
     70.6140437221361,
     73.16098681245374
+   ],
+   [
+    25.501804984933443,
+    27.351376571805524
    ]
   ],
   "shorts_made": 1,
@@ -2874,10 +2882,10 @@
   "video_len": 246
  },
  "hamdan bin mohammed attends graduation ceremony at hbmsu": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-01",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     165.40934691813837,
@@ -2890,6 +2898,10 @@
    [
     127.27130471461979,
     129.8565436012048
+   ],
+   [
+    157.1211299198804,
+    158.75977890390564
    ]
   ],
   "shorts_made": 1,
@@ -4535,10 +4547,10 @@
   "video_len": 116
  },
  "hamdan bin mohammed concludes official visit to uzbekistan": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-11-01",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     136.78354122945424,
@@ -4555,6 +4567,10 @@
    [
     41.65333333333333,
     43.513333333333335
+   ],
+   [
+    148.92278311304906,
+    150.710580704011
    ]
   ],
   "shorts_made": 1,
@@ -5111,8 +5127,8 @@
   "video_len": 385
  },
  "hamdan bin mohammed honors winners of dubai appreciation award for community service": {
-  "last_short": "2026-10-31",
-  "montage_used": 10,
+  "last_short": "2026-11-01",
+  "montage_used": 11,
   "remix_ranges": [
    [
     179.39335360955343,
@@ -5141,6 +5157,10 @@
    [
     41.162122289172565,
     43.53375958121221
+   ],
+   [
+    97.32723661798607,
+    99.20120992394872
    ]
   ],
   "shorts_made": 3,
@@ -8682,8 +8702,8 @@
   "video_len": 279
  },
  "hamdan bin mohammed opens cityscape global 2018": {
-  "last_short": "2026-10-31",
-  "montage_used": 9,
+  "last_short": "2026-11-01",
+  "montage_used": 10,
   "remix_ranges": [
    [
     324.3828204350159,
@@ -8712,6 +8732,10 @@
    [
     365.53751210690734,
     367.22960799926057
+   ],
+   [
+    312.76,
+    314.56
    ]
   ],
   "shorts_made": 2,
@@ -10500,6 +10524,7 @@
   "last_short": "2026-10-28",
   "long": "2026-10-14",
   "montage_used": 3,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     23.353333333333335,
@@ -11294,10 +11319,10 @@
   "video_len": 43
  },
  "hamdan bin mohammed visits dental exhibition in dubai": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-01",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     2.3390712034378356,
@@ -11314,6 +11339,10 @@
    [
     16.45948358533609,
     18.30256036819516
+   ],
+   [
+    31.294391597172933,
+    32.86605618121343
    ]
   ],
   "shorts_made": 3,
@@ -11583,8 +11612,8 @@
   "video_len": 311
  },
  "hamdan bin mohammed visits dubai airshow 2017": {
-  "last_short": "2026-10-31",
-  "montage_used": 9,
+  "last_short": "2026-11-01",
+  "montage_used": 10,
   "remix_ranges": [
    [
     71.52518074680644,
@@ -11621,6 +11650,10 @@
    [
     86.64,
     88.75999999999999
+   ],
+   [
+    24.352423883922437,
+    26.658226331206208
    ]
   ],
   "video_exhausted": true,

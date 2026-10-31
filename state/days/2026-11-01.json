@@ -43,8 +43,13 @@
   },
   {
    "at": "2026-11-01T09:44:51+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Built on values. Driven by vision. #youtube #youtubeshorts",
+   "type": "short",
+   "video_id": "DeRCrBGsEJc",
+   "voiced": true
   },
   {
    "at": "2026-11-01T10:30:18+04:00",

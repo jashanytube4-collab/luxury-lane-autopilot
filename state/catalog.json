@@ -224,6 +224,7 @@
   "last_short": "2026-11-01",
   "long": "2026-10-27",
   "montage_used": 5,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     49.57652033197624,
@@ -1244,9 +1245,9 @@
   "video_len": 68
  },
  "hamdan approves medical tourism strategy": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-01",
   "long": "2026-10-30",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     29.184896091193437,
@@ -1263,6 +1264,10 @@
    [
     53.55333333333333,
     55.61333333333334
+   ],
+   [
+    73.69087367718993,
+    75.5246279236463
    ]
   ],
   "video_exhausted": true,
@@ -1484,6 +1489,7 @@
   "last_short": "2026-10-30",
   "long": "2026-10-17",
   "montage_used": 6,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     25.605869648293655,
@@ -4061,7 +4067,7 @@
  "hamdan bin mohammed attends the launche of uae innovation month in dubai": {
   "last_short": "2026-11-01",
   "long": "2026-10-30",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     42.38019053786916,
@@ -4098,6 +4104,10 @@
    [
     20.05592568357923,
     22.38597441702061
+   ],
+   [
+    346.6,
+    348.24
    ]
   ],
   "shorts_made": 1,
@@ -4362,9 +4372,9 @@
   "long": "2026-10-30"
  },
  "hamdan bin mohammed chairs executive council meeting": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-01",
   "long": "2026-10-30",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     61.638788101365066,
@@ -4397,6 +4407,10 @@
    [
     83.9278576677336,
     85.86559857003496
+   ],
+   [
+    21.802958486921934,
+    23.703089422403767
    ]
   ],
   "shorts_made": 1,
@@ -4540,10 +4554,10 @@
   "video_len": 122
  },
  "hamdan bin mohammed chairs executive council meeting approves updated school fees framework": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-01",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     85.4953236324418,
@@ -4556,6 +4570,10 @@
    [
     92.09883164183942,
     93.56607065294595
+   ],
+   [
+    100.91291763919702,
+    102.63852215189982
    ]
   ],
   "shorts_made": 1,
@@ -5103,9 +5121,9 @@
   "video_len": 73
  },
  "hamdan bin mohammed extends condolences to families of pilots": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-01",
   "long": "2026-10-14",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     132.34533841902865,
@@ -5130,6 +5148,10 @@
    [
     43.164079914278005,
     44.57065260305862
+   ],
+   [
+    142.15401115405805,
+    143.66821156521365
    ]
   ],
   "shorts_made": 1,
@@ -7183,7 +7205,7 @@
  "hamdan bin mohammed meets government team behind uae s progress in world bank s ease of doing business ranking": {
   "last_short": "2026-11-01",
   "long": "2026-10-30",
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     125.5027611214891,
@@ -7220,6 +7242,10 @@
    [
     187.00819136770733,
     189.29027424083387
+   ],
+   [
+    46.8,
+    49.24
    ]
   ],
   "shorts_made": 2,
@@ -11327,7 +11353,7 @@
  },
  "hamdan bin mohammed unveils 5 star plaque at sheikh zayed housing programme in dubai": {
   "last_short": "2026-11-01",
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     144.8978218171365,
@@ -11368,6 +11394,10 @@
    [
     128.05784535322502,
     130.17096760688207
+   ],
+   [
+    102.21820486866869,
+    104.55406415729288
    ]
   ],
   "shorts_made": 3,
@@ -13091,7 +13121,7 @@
  "hamdan bin mohammed visits linkedin s regional headquarters in dubai": {
   "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     99.75771873527589,
@@ -13120,6 +13150,10 @@
    [
     35.82486905967208,
     38.19560595069129
+   ],
+   [
+    23.00229570790361,
+    25.237605985451516
    ]
   ],
   "shorts_made": 2,

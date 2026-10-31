@@ -127,6 +127,7 @@
   "last_short": "2026-10-31",
   "long": "2026-10-16",
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     14.789589577577805,
@@ -1804,10 +1805,10 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed approves dubai marine transport master plan 2030": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-01",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     48.94176936882123,
@@ -1820,6 +1821,10 @@
    [
     18.099152458580935,
     19.62771649705132
+   ],
+   [
+    43.00602028048031,
+    45.5982658226053
    ]
   ],
   "shorts_made": 2,
@@ -3755,9 +3760,9 @@
   "video_len": 164
  },
  "hamdan bin mohammed attends the knowledge summit 2018": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     21.009627951075547,
@@ -3774,6 +3779,10 @@
    [
     443.0077190775189,
     445.2453355896237
+   ],
+   [
+    131.25505746141815,
+    132.6952910240767
    ]
   ],
   "shorts_made": 3,
@@ -5248,9 +5257,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed honours mbr creative sports award winners": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-11-01",
   "long": "2026-10-18",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     74.58464282636517,
@@ -5279,6 +5288,10 @@
    [
     427.9652283504941,
     429.596653920913
+   ],
+   [
+    289.7304007283577,
+    291.4293102520299
    ]
   ],
   "shorts_made": 3,
@@ -7767,9 +7780,9 @@
   "video_len": 63
  },
  "hamdan bin mohammed meets with participants of retail summit in dubai": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     4.6968630874811845,
@@ -7798,6 +7811,10 @@
    [
     17.52349208129951,
     19.295467355799488
+   ],
+   [
+    92.48,
+    94.6
    ]
   ],
   "shorts_made": 1,
@@ -8868,9 +8885,9 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed opens gitex tech week 2017": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-01",
   "long": "2026-10-14",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     523.8801185278389,
@@ -8887,6 +8904,10 @@
    [
     496.4049386991013,
     498.9464074616907
+   ],
+   [
+    357.32828216704644,
+    359.55334626508403
    ]
   ],
   "shorts_made": 3,
@@ -10779,8 +10800,8 @@
   "video_len": 234
  },
  "hamdan bin mohammed unveils 5 star plaques at three customer happiness centres in dubai": {
-  "last_short": "2026-10-27",
-  "montage_used": 4,
+  "last_short": "2026-11-01",
+  "montage_used": 5,
   "remix_ranges": [
    [
     140.12827217544256,
@@ -10797,6 +10818,10 @@
    [
     236.98588316609974,
     238.70978354801537
+   ],
+   [
+    199.20034592686463,
+    200.43086525533934
    ]
   ],
   "shorts_made": 1,
@@ -11406,6 +11431,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 5,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     40.817480318674356,
@@ -15405,9 +15431,9 @@
   "no_hamdan": true
  },
  "ruler of umm al quwain accepts condolences from hamdan bin mohammed": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-01",
   "long": "2026-10-28",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     84.34146017449318,
@@ -15428,6 +15454,10 @@
    [
     51.85461421000153,
     53.58701466874645
+   ],
+   [
+    39.450297146316,
+    41.7088589675416
    ]
   ],
   "shorts_made": 1,
@@ -15464,7 +15494,7 @@
   "last_short": "2026-11-01",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     80.96000000000001,
@@ -15501,6 +15531,10 @@
    [
     190.52665143644893,
     192.0577587372991
+   ],
+   [
+    87.28287685040658,
+    89.68734297421297
    ]
   ],
   "shorts_made": 3,

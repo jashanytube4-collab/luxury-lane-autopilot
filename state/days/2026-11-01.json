@@ -73,8 +73,13 @@
   },
   {
    "at": "2026-11-01T12:16:16+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Dubai's dreams, Hamdan's dedication. #youtubeshorts #ytshorts",
+   "type": "short",
+   "video_id": "epIs2MXudWY",
+   "voiced": true
   },
   {
    "at": "2026-11-01T13:09:42+04:00",

@@ -741,7 +741,7 @@
   "last_short": "2026-11-01",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     67.26728040581254,
@@ -766,6 +766,10 @@
    [
     51.81826964233413,
     53.52043772751541
+   ],
+   [
+    105.17345148728197,
+    107.51068636798477
    ]
   ],
   "shorts_made": 2,
@@ -3200,9 +3204,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends hct graduation": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     45.8,
@@ -3215,6 +3219,10 @@
    [
     223.44,
     225.79999999999998
+   ],
+   [
+    219.71909112280235,
+    221.2478482755281
    ]
   ],
   "shorts_made": 1,
@@ -5404,7 +5412,7 @@
  "hamdan bin mohammed honours winners of 5th islamic economy award": {
   "last_short": "2026-11-01",
   "long": "2026-10-30",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     219.23125416320443,
@@ -5429,6 +5437,10 @@
    [
     210.779982191423,
     212.68399834567566
+   ],
+   [
+    36.76,
+    38.760000000000005
    ]
   ],
   "shorts_made": 2,
@@ -8373,9 +8385,9 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed offers condolences to al falahi family": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-11-01",
   "long": "2026-10-16",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     85.17042709742152,
@@ -8388,6 +8400,10 @@
    [
     57.41597084144217,
     59.36391179274431
+   ],
+   [
+    6.5853668440977815,
+    8.761618935987237
    ]
   ],
   "shorts_made": 1,
@@ -8500,6 +8516,7 @@
   "last_short": "2026-11-01",
   "long": "2026-10-25",
   "montage_used": 4,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     83.49779133078233,
@@ -8745,7 +8762,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2018": {
   "last_short": "2026-11-01",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     324.3828204350159,
@@ -8778,6 +8795,10 @@
    [
     312.76,
     314.56
+   ],
+   [
+    84.39387593149996,
+    85.85464287411372
    ]
   ],
   "shorts_made": 2,
@@ -9493,9 +9514,9 @@
  },
  "hamdan bin mohammed receives ramadan well wishers": {
   "fails": 1,
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-01",
   "montage_exhausted": true,
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     59.31105310462557,
@@ -9512,6 +9533,10 @@
    [
     50.00788774411344,
     51.4571013352659
+   ],
+   [
+    7.727734127910346,
+    9.15031596145373
    ]
   ],
   "shorts_made": 5,
@@ -10828,7 +10853,7 @@
  },
  "hamdan bin mohammed unveils 5 star plaque at sheikh zayed housing programme in dubai": {
   "last_short": "2026-11-01",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     144.8978218171365,
@@ -10861,6 +10886,10 @@
    [
     217.00094365065533,
     218.9158784243807
+   ],
+   [
+    77.14868324128821,
+    79.2008845526178
    ]
   ],
   "shorts_made": 3,
@@ -11734,13 +11763,17 @@
   "video_len": 79
  },
  "hamdan bin mohammed visits dubai autism center": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     22.16,
     24.279999999999998
+   ],
+   [
+    100.32000000000001,
+    101.96
    ]
   ],
   "shorts_made": 3,

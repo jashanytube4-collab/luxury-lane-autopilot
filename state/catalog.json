@@ -151,6 +151,7 @@
   "last_short": "2026-10-30",
   "long": "2026-10-28",
   "montage_used": 4,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     126.48707207884229,
@@ -1608,7 +1609,7 @@
   "last_short": "2026-11-01",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     438.68,
@@ -1633,6 +1634,10 @@
    [
     463.51824639125715,
     465.362190152924
+   ],
+   [
+    289.09823375617225,
+    291.57610819537933
    ]
   ],
   "shorts_made": 2,
@@ -2767,7 +2772,7 @@
  "hamdan bin mohammed attends gems our own english high school s golden jubilee celebrations": {
   "last_short": "2026-11-01",
   "long": "2026-10-15",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     77.94133731869516,
@@ -2780,6 +2785,10 @@
    [
     133.15691696273404,
     134.69835756982144
+   ],
+   [
+    185.4,
+    187.07999999999998
    ]
   ],
   "shot_ranges": [
@@ -9481,7 +9490,7 @@
  "hamdan bin mohammed receives mourners on death of mansour bin ahmed": {
   "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     466.2050172416837,
@@ -9506,6 +9515,10 @@
    [
     378.9201686651447,
     380.63965142917806
+   ],
+   [
+    192.00084204519538,
+    194.09703868115128
    ]
   ],
   "shorts_made": 2,
@@ -10184,9 +10197,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed reviews strategic plans of dubai civil defense": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     7.74615392477855,
@@ -10211,6 +10224,10 @@
    [
     54.1133917729799,
     55.77529635696853
+   ],
+   [
+    27.886666666666667,
+    29.746666666666666
    ]
   ],
   "shorts_made": 1,
@@ -12554,9 +12571,9 @@
   "video_len": 275
  },
  "hamdan bin mohammed visits linkedin s regional headquarters in dubai": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     99.75771873527589,
@@ -12581,6 +12598,10 @@
    [
     18.028234488412924,
     19.76619316603349
+   ],
+   [
+    35.82486905967208,
+    38.19560595069129
    ]
   ],
   "shorts_made": 2,
@@ -13657,9 +13678,9 @@
   "video_len": 361
  },
  "hamdan reveals dubai government towards 2021 initiative": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     27.446859008884246,
@@ -13672,6 +13693,10 @@
    [
     33.985931927253596,
     36.510833268273096
+   ],
+   [
+    55.463130773673775,
+    57.382932298217014
    ]
   ],
   "shorts_made": 1,
@@ -13703,8 +13728,8 @@
   "video_len": 202
  },
  "hamdan visits government think tank": {
-  "last_short": "2026-10-29",
-  "montage_used": 4,
+  "last_short": "2026-11-01",
+  "montage_used": 5,
   "remix_ranges": [
    [
     29.076560473178702,
@@ -13721,6 +13746,10 @@
    [
     153.12,
     154.94666666666666
+   ],
+   [
+    172.32,
+    174.07999999999998
    ]
   ],
   "video_exhausted": true,

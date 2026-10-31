@@ -226,8 +226,13 @@
   },
   {
    "at": "2026-10-31T23:30:00+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "The kind of leader the world needs more of. #youtubeshorts #youtube",
+   "type": "short",
+   "video_id": "4Ybjo3sD780",
+   "voiced": true
   },
   {
    "at": "2026-11-01T00:22:37+04:00",

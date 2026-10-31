@@ -3534,9 +3534,9 @@
   "video_len": 249
  },
  "hamdan bin mohammed attends iftar banquet with autistic children and their families": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-01",
   "long": "2026-10-28",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     35.0824558967323,
@@ -3553,6 +3553,10 @@
    [
     43.194065595841344,
     44.90446057821061
+   ],
+   [
+    12.42,
+    14.513333333333334
    ]
   ],
   "shorts_made": 1,
@@ -9704,7 +9708,7 @@
  },
  "hamdan bin mohammed opens smart police station at la mer": {
   "last_short": "2026-11-01",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     99.92,
@@ -9725,6 +9729,10 @@
    [
     105.72,
     107.83999999999999
+   ],
+   [
+    73.19163661921458,
+    75.77431178823144
    ]
   ],
   "shorts_made": 2,
@@ -10784,9 +10792,9 @@
   "video_len": 68
  },
  "hamdan bin mohammed reviews the latest technologies and energy solutions at wetex 2019": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-01",
   "montage_exhausted": true,
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     249.043806441902,
@@ -10799,6 +10807,10 @@
    [
     215.62908757377693,
     217.3101156282087
+   ],
+   [
+    89.97521661036065,
+    91.40059150376875
    ]
   ],
   "shorts_made": 3,
@@ -11867,7 +11879,7 @@
  "hamdan bin mohammed visits area 2071 reviews dubai 10x initiative projects": {
   "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     51.93878486376732,
@@ -11908,6 +11920,10 @@
    [
     140.48000000000002,
     142.79999999999998
+   ],
+   [
+    0.23391129861205628,
+    1.9408153237091317
    ]
   ],
   "shorts_made": 2,
@@ -12568,8 +12584,8 @@
   "video_len": 191
  },
  "hamdan bin mohammed visits dubai chamber of commerce and industry": {
-  "last_short": "2026-10-31",
-  "montage_used": 6,
+  "last_short": "2026-11-01",
+  "montage_used": 7,
   "remix_ranges": [
    [
     41.30287533391608,
@@ -12594,6 +12610,10 @@
    [
     0.4455492186386229,
     2.5407507264634988
+   ],
+   [
+    76.92228712756517,
+    79.0731119016564
    ]
   ],
   "shorts_made": 2,
@@ -12699,7 +12719,7 @@
  "hamdan bin mohammed visits dubai hospital": {
   "last_short": "2026-11-01",
   "long": "2026-10-14",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     31.287519536112814,
@@ -12716,6 +12736,10 @@
    [
     81.41255894564108,
     83.3459202913882
+   ],
+   [
+    209.61535190350148,
+    211.59958803719678
    ]
   ],
   "shorts_made": 3,
@@ -13552,7 +13576,7 @@
  "hamdan bin mohammed visits stands of government entities at gitex2019": {
   "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     143.24971079721686,
@@ -13593,6 +13617,10 @@
    [
     159.28,
     161.0
+   ],
+   [
+    205.4133387571581,
+    207.6063864677649
    ]
   ],
   "shorts_made": 2,
@@ -16115,6 +16143,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 4,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     89.79912058067428,
@@ -16501,6 +16530,7 @@
   "last_short": "2026-11-01",
   "long": "2026-10-28",
   "montage_used": 10,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     84.34146017449318,
@@ -16573,7 +16603,7 @@
   "last_short": "2026-11-01",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     80.96000000000001,
@@ -16622,6 +16652,10 @@
    [
     239.62645039111982,
     241.9975924834852
+   ],
+   [
+    128.96293666811678,
+    130.20654062886805
    ]
   ],
   "shorts_made": 3,

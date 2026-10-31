@@ -1709,7 +1709,7 @@
   "last_short": "2026-11-01",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     438.68,
@@ -1742,6 +1742,10 @@
    [
     322.8113813310177,
     324.8486229475114
+   ],
+   [
+    101.66875918751523,
+    103.5111502717735
    ]
   ],
   "shorts_made": 2,
@@ -1846,7 +1850,7 @@
  },
  "hamdan bin mohammed approves dff s three year strategic plan": {
   "last_short": "2026-11-01",
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     44.755956300528126,
@@ -1891,6 +1895,10 @@
    [
     25.332818636843328,
     27.05859652784987
+   ],
+   [
+    39.177035716613794,
+    40.84554260792097
    ]
   ],
   "shorts_made": 3,
@@ -2830,7 +2838,7 @@
  "hamdan bin mohammed attends dubai police graduation ceremony": {
   "last_short": "2026-11-01",
   "long": "2026-10-30",
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     166.60279951075904,
@@ -2871,6 +2879,10 @@
    [
     135.0460660260212,
     137.5359346664544
+   ],
+   [
+    204.8299543840201,
+    206.42506823141272
    ]
   ],
   "shorts_made": 1,
@@ -6902,7 +6914,7 @@
  },
  "hamdan bin mohammed launches the government games initiative": {
   "last_short": "2026-11-01",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     3.050388327506801,
@@ -6923,6 +6935,10 @@
    [
     174.19013119398642,
     175.9489768179618
+   ],
+   [
+    152.72501561744508,
+    154.21384309195244
    ]
   ],
   "shorts_made": 2,
@@ -7512,7 +7528,7 @@
  "hamdan bin mohammed meets students of dubai schools": {
   "last_short": "2026-11-01",
   "long": "2026-10-17",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     163.49934334402403,
@@ -7533,6 +7549,10 @@
    [
     269.5784725243403,
     271.83923911608184
+   ],
+   [
+    261.5481961040707,
+    263.77997387454883
    ]
   ],
   "shorts_made": 3,
@@ -10306,9 +10326,9 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed reviews dubai future foundation s 2018 plan and projects": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-01",
   "long": "2026-10-30",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     140.32186297088035,
@@ -10337,6 +10357,10 @@
    [
     67.7526976803575,
     69.55557431706544
+   ],
+   [
+    26.23167954945762,
+    27.961851725215695
    ]
   ],
   "video_exhausted": true,
@@ -12784,6 +12808,7 @@
   "last_short": "2026-10-30",
   "long": "2026-10-18",
   "montage_used": 7,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     54.599999999999994,
@@ -13205,7 +13230,7 @@
  "hamdan bin mohammed visits knowledge and human development authority": {
   "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     245.6187281153152,
@@ -13230,6 +13255,10 @@
    [
     152.92000000000002,
     154.56
+   ],
+   [
+    45.96,
+    48.2
    ]
   ],
   "video_exhausted": true,
@@ -13499,7 +13528,7 @@
  "hamdan bin mohammed visits stands of government entities at gitex2019": {
   "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     143.24971079721686,
@@ -13536,6 +13565,10 @@
    [
     108.04,
     109.88
+   ],
+   [
+    159.28,
+    161.0
    ]
   ],
   "shorts_made": 2,

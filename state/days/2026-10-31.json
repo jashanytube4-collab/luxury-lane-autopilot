@@ -156,8 +156,13 @@
   },
   {
    "at": "2026-10-31T18:45:35+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "The pride of the Emirates. 🤍 #youtubeshorts #ytshorts",
+   "type": "short",
+   "video_id": "rLkHVlLEocA",
+   "voiced": true
   },
   {
    "at": "2026-10-31T19:30:43+04:00",

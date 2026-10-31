@@ -571,7 +571,7 @@
  "dubai crown prince honours winners of hamdan bin mohammed award for innovation in projects management": {
   "last_short": "2026-11-01",
   "long": "2026-10-30",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     236.71305983579546,
@@ -596,6 +596,10 @@
    [
     204.38784801012562,
     206.02775235989287
+   ],
+   [
+    151.2063292001739,
+    153.19206420026103
    ]
   ],
   "shorts_made": 3,
@@ -2311,6 +2315,7 @@
   "long": "2026-10-17",
   "montage_used": 2,
   "no_video_until": "2026-10-29",
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     26.309427674914563,
@@ -2607,7 +2612,7 @@
  "hamdan bin mohammed attends dubai forum for government best practices": {
   "last_short": "2026-10-31",
   "long": "2026-10-31",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     28.36,
@@ -2636,6 +2641,10 @@
    [
     133.7386763962964,
     135.44453654950576
+   ],
+   [
+    172.2740597548539,
+    174.71100343875668
    ]
   ],
   "shot_ranges": [
@@ -2992,6 +3001,7 @@
   "long": "2026-10-14",
   "montage_exhausted": true,
   "montage_used": 4,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     165.40934691813837,
@@ -9274,7 +9284,7 @@
  "hamdan bin mohammed opens salem medical fitness smart centre": {
   "last_short": "2026-11-01",
   "long": "2026-10-18",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     182.01540657684788,
@@ -9299,6 +9309,10 @@
    [
     7.74851866038971,
     9.853493392783335
+   ],
+   [
+    44.792017957112314,
+    46.207086789085615
    ]
   ],
   "shorts_made": 3,
@@ -9973,9 +9987,9 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed reviews dubai future foundation s 2018 plan and projects": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-10-31",
   "long": "2026-10-30",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     140.32186297088035,
@@ -10000,6 +10014,10 @@
    [
     62.62543779411749,
     64.28660241169986
+   ],
+   [
+    67.7526976803575,
+    69.55557431706544
    ]
   ],
   "video_exhausted": true,
@@ -10617,7 +10635,7 @@
  "hamdan bin mohammed tours arabian travel market 2024": {
   "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     48.384688122709605,
@@ -10642,6 +10660,10 @@
    [
     19.44951558021984,
     21.01994343383944
+   ],
+   [
+    54.547896214696685,
+    56.224729893364994
    ]
   ],
   "shorts_made": 1,
@@ -10687,7 +10709,7 @@
  "hamdan bin mohammed tours bustanica the world s largest vertical farm in dubai": {
   "last_short": "2026-10-31",
   "long": "2026-10-31",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     137.834523919362,
@@ -10704,6 +10726,10 @@
    [
     47.95677186288794,
     50.53448110056078
+   ],
+   [
+    23.037894423476025,
+    24.98444939445919
    ]
   ],
   "shorts_made": 2,
@@ -12028,7 +12054,7 @@
  "hamdan bin mohammed visits dubai autism center": {
   "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     22.16,
@@ -12041,6 +12067,10 @@
    [
     16.96,
     19.08
+   ],
+   [
+    12.319999999999999,
+    14.24
    ]
   ],
   "shorts_made": 3,
@@ -12159,9 +12189,9 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed visits dubai government hr department": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-10-31",
   "long": "2026-10-31",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     92.94184157109537,
@@ -12174,6 +12204,10 @@
    [
     17.45693611997544,
     19.94228777142741
+   ],
+   [
+    100.67114603012254,
+    102.15713322779995
    ]
   ],
   "shorts_made": 1,

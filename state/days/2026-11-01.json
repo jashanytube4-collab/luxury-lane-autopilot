@@ -221,8 +221,13 @@
   },
   {
    "at": "2026-11-02T02:09:53+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "He shows the world what modern leadership looks like. ✨ #youtubeshorts #ytshorts",
+   "type": "short",
+   "video_id": "jVdHOjYGHFA",
+   "voiced": true
   },
   {
    "at": "2026-11-02T02:55:09+04:00",

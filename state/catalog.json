@@ -2795,9 +2795,9 @@
   "video_len": 278
  },
  "hamdan bin mohammed attends global cardiology congress": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-01",
   "long": "2026-10-22",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     227.92000000000002,
@@ -2806,6 +2806,10 @@
    [
     93.36,
     95.0
+   ],
+   [
+    47.939897360553836,
+    50.3108185630948
    ]
   ],
   "shorts_made": 1,
@@ -8315,9 +8319,9 @@
   "long": "2026-10-28"
  },
  "hamdan bin mohammed offers condolences on death of moza bint ali al weri": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-11-01",
   "long": "2026-10-14",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     17.37089556107783,
@@ -8342,6 +8346,10 @@
    [
     34.76156187600307,
     36.329642659631006
+   ],
+   [
+    28.873155592072827,
+    30.6600429058128
    ]
   ],
   "shorts_made": 1,
@@ -8387,7 +8395,7 @@
  "hamdan bin mohammed offers condolences to al falahi family": {
   "last_short": "2026-11-01",
   "long": "2026-10-16",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     85.17042709742152,
@@ -8404,6 +8412,10 @@
    [
     6.5853668440977815,
     8.761618935987237
+   ],
+   [
+    42.911921479275655,
+    43.9587030236139
    ]
   ],
   "shorts_made": 1,
@@ -10610,8 +10622,8 @@
   "video_len": 75
  },
  "hamdan bin mohammed tours gitex global 2022 on its concluding day": {
-  "last_short": "2026-10-31",
-  "montage_used": 5,
+  "last_short": "2026-11-01",
+  "montage_used": 6,
   "remix_ranges": [
    [
     119.07687657973835,
@@ -10624,6 +10636,10 @@
    [
     90.93546483804623,
     92.53918930684146
+   ],
+   [
+    85.64,
+    87.75999999999999
    ]
   ],
   "shorts_made": 1,
@@ -11636,9 +11652,9 @@
   "video_len": 62
  },
  "hamdan bin mohammed visits dp world s facilities inspects operations of jebel ali port": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     23.240000000000002,
@@ -11663,6 +11679,10 @@
    [
     95.35167190609276,
     96.84774070959908
+   ],
+   [
+    179.56,
+    181.51999999999998
    ]
   ],
   "shorts_made": 1,
@@ -12864,14 +12884,18 @@
   "video_len": 186
  },
  "hamdan bin mohammed visits the ministry of foreign affairs in abu dhabi": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-11-01",
   "long": "2026-10-23",
   "montage_exhausted": true,
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     49.961579847562305,
     51.529966374167266
+   ],
+   [
+    31.928515887353615,
+    34.34668820040439
    ]
   ],
   "shorts_made": 2,
@@ -15235,10 +15259,10 @@
  },
  "king salman bin abdulaziz of saudi arabia receives dubai crown prince": {
   "fails": 1,
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-01",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     89.79912058067428,
@@ -15251,6 +15275,10 @@
    [
     55.41239237877624,
     57.21022675894533
+   ],
+   [
+    61.08395932066131,
+    63.24119694699138
    ]
   ],
   "shorts_made": 1,

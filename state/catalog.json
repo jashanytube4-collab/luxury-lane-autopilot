@@ -729,9 +729,9 @@
   "video_len": 68
  },
  "dubai crown prince offers condolences to alkaabi family": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-01",
   "long": "2026-10-17",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     29.396853895904,
@@ -740,6 +740,10 @@
    [
     9.530559670009248,
     12.063497281431879
+   ],
+   [
+    53.28759162369827,
+    54.957496988711924
    ]
   ],
   "video_exhausted": true,
@@ -865,7 +869,7 @@
  },
  "dubai crown prince receives president of the chechen": {
   "last_short": "2026-11-01",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     45.227858673030426,
@@ -878,6 +882,10 @@
    [
     11.298207444066922,
     13.473927846447301
+   ],
+   [
+    36.424153244366956,
+    38.50131667328041
    ]
   ],
   "video_exhausted": true,
@@ -4825,6 +4833,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 9,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     136.78354122945424,
@@ -5319,9 +5328,9 @@
   "video_len": 56
  },
  "hamdan bin mohammed honors mbr creative sports award winners": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-11-01",
   "long": "2026-10-18",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     50.879999999999995,
@@ -5350,6 +5359,10 @@
    [
     141.4605038537179,
     143.10417225249063
+   ],
+   [
+    155.15425937594475,
+    156.93452689614023
    ]
   ],
   "shorts_made": 3,
@@ -5682,7 +5695,7 @@
  "hamdan bin mohammed honours winners of 5th islamic economy award": {
   "last_short": "2026-11-01",
   "long": "2026-10-30",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     219.23125416320443,
@@ -5715,6 +5728,10 @@
    [
     191.6050223441779,
     193.0791092803379
+   ],
+   [
+    154.9592528878404,
+    157.32315841304927
    ]
   ],
   "shorts_made": 2,
@@ -7701,9 +7718,9 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed meets with dubai gov t second line of leadership": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     128.9530729946567,
@@ -7736,6 +7753,10 @@
    [
     102.82151428577123,
     105.06313186248057
+   ],
+   [
+    61.89620503799884,
+    63.76631099874125
    ]
   ],
   "shorts_made": 3,
@@ -12074,7 +12095,7 @@
  "hamdan bin mohammed visits dewa s moro": {
   "last_short": "2026-11-01",
   "long": "2026-11-01",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     33.81682847894831,
@@ -12103,6 +12124,10 @@
    [
     105.49888375831753,
     107.24064704884512
+   ],
+   [
+    254.9048892531642,
+    257.13165409033877
    ]
   ],
   "shorts_made": 3,
@@ -12642,7 +12667,7 @@
  "hamdan bin mohammed visits dubai international boat show": {
   "last_short": "2026-11-01",
   "long": "2026-10-14",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     252.31552180004425,
@@ -12655,6 +12680,10 @@
    [
     154.86417408381803,
     157.17161330639058
+   ],
+   [
+    44.0943869485788,
+    46.54615301149222
    ]
   ],
   "shorts_made": 2,
@@ -13270,7 +13299,7 @@
   "last_short": "2026-11-01",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     276.27271542570674,
@@ -13295,6 +13324,10 @@
    [
     303.2336951464807,
     305.44692884099436
+   ],
+   [
+    94.46549112747097,
+    95.98961027789419
    ]
   ],
   "shorts_made": 2,

@@ -296,8 +296,13 @@
   },
   {
    "at": "2026-11-02T04:30:33+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Some men chase power. He chases purpose. ❤️ #fazza #youtubeshorts #youtube",
+   "type": "short",
+   "video_id": "7jUk96m-dxs",
+   "voiced": true
   },
   {
    "at": "2026-11-02T05:23:14+04:00",

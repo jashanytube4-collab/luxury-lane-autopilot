@@ -738,10 +738,10 @@
   "video_len": 76
  },
  "dubai crown prince receives president of malta": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-11-01",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     67.26728040581254,
@@ -762,6 +762,10 @@
    [
     79.51540469374898,
     81.94960323558816
+   ],
+   [
+    51.81826964233413,
+    53.52043772751541
    ]
   ],
   "shorts_made": 2,
@@ -931,8 +935,8 @@
   "video_len": 345
  },
  "dubai crown prince visits emirates nbd head office": {
-  "last_short": "2026-10-31",
-  "montage_used": 9,
+  "last_short": "2026-11-01",
+  "montage_used": 10,
   "remix_ranges": [
    [
     104.60402386812525,
@@ -957,6 +961,10 @@
    [
     140.61740438530092,
     142.45684273641632
+   ],
+   [
+    31.965660117058416,
+    33.68774200154782
    ]
   ],
   "shorts_made": 1,
@@ -2245,14 +2253,18 @@
   "video_len": 158
  },
  "hamdan bin mohammed attends al amri wedding": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-11-01",
   "long": "2026-10-17",
-  "montage_used": 1,
+  "montage_used": 2,
   "no_video_until": "2026-10-29",
   "remix_ranges": [
    [
     26.309427674914563,
     27.88635916752477
+   ],
+   [
+    39.580906141075445,
+    41.3667252519194
    ]
   ],
   "video_exhausted": true,
@@ -4040,9 +4052,9 @@
   "long": "2026-10-18"
  },
  "hamdan bin mohammed attends wedding receptions in al ain dubai": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-11-01",
   "long": "2026-10-15",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     37.90981226167036,
@@ -4055,6 +4067,10 @@
    [
     68.49759431155472,
     70.09166498092404
+   ],
+   [
+    46.721921551756424,
+    48.14478778951252
    ]
   ],
   "shorts_made": 1,
@@ -4822,6 +4838,7 @@
  "hamdan bin mohammed extends condolences to a lghurair family": {
   "last_short": "2026-10-26",
   "long": "2026-10-27",
+  "montage_exhausted": true,
   "montage_used": 2,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -5385,9 +5402,9 @@
   "video_len": 19
  },
  "hamdan bin mohammed honours winners of 5th islamic economy award": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-01",
   "long": "2026-10-30",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     219.23125416320443,
@@ -5408,6 +5425,10 @@
    [
     183.28923422421485,
     184.96765174321928
+   ],
+   [
+    210.779982191423,
+    212.68399834567566
    ]
   ],
   "shorts_made": 2,
@@ -7070,9 +7091,9 @@
   "video_len": 99
  },
  "hamdan bin mohammed meets students of dubai schools": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-01",
   "long": "2026-10-17",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     163.49934334402403,
@@ -7089,6 +7110,10 @@
    [
     332.86061542571326,
     335.39064167648525
+   ],
+   [
+    269.5784725243403,
+    271.83923911608184
    ]
   ],
   "shorts_made": 3,
@@ -8115,9 +8140,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed mohammed bin rashid places the highest priority on supporting youth and developing their skills": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-11-01",
   "long": "2026-10-21",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     15.913712985258753,
@@ -8138,6 +8163,10 @@
    [
     29.964563059035513,
     31.914478735089958
+   ],
+   [
+    42.32,
+    44.480000000000004
    ]
   ],
   "shorts_made": 1,
@@ -8172,6 +8201,7 @@
  },
  "hamdan bin mohammed names mansour bin mohammed as chairman of shabab al ahli s football club company": {
   "last_short": "2026-10-26",
+  "montage_exhausted": true,
   "montage_used": 2,
   "remix_exhausted": true,
   "remix_ranges": [

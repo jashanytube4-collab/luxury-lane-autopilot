@@ -223,7 +223,7 @@
  "dubai crown prince attends al ketbi family wedding reception": {
   "last_short": "2026-11-01",
   "long": "2026-10-27",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     49.57652033197624,
@@ -240,6 +240,10 @@
    [
     63.9550510191641,
     65.3843256361103
+   ],
+   [
+    36.164279083585726,
+    38.438081310781236
    ]
   ],
   "shorts_made": 1,
@@ -856,7 +860,7 @@
  },
  "dubai crown prince receives president of the chechen": {
   "last_short": "2026-11-01",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     45.227858673030426,
@@ -865,6 +869,10 @@
    [
     50.52020967576635,
     52.63038452623985
+   ],
+   [
+    11.298207444066922,
+    13.473927846447301
    ]
   ],
   "video_exhausted": true,
@@ -3282,7 +3290,7 @@
   "last_short": "2026-11-01",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     182.84935360385398,
@@ -3299,6 +3307,10 @@
    [
     215.59906148511942,
     217.07147755944857
+   ],
+   [
+    5.731789627373919,
+    7.623961734805437
    ]
   ],
   "shorts_made": 1,
@@ -3454,7 +3466,7 @@
  "hamdan bin mohammed attends iftar banquet with autistic children and their families": {
   "last_short": "2026-10-31",
   "long": "2026-10-28",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     35.0824558967323,
@@ -3467,6 +3479,10 @@
    [
     21.1988180372617,
     23.59839750207317
+   ],
+   [
+    43.194065595841344,
+    44.90446057821061
    ]
   ],
   "shorts_made": 1,
@@ -9027,7 +9043,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2017": {
   "last_short": "2026-11-01",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     15.810590002816998,
@@ -9052,6 +9068,10 @@
    [
     244.84,
     246.68
+   ],
+   [
+    264.09654914094335,
+    266.00855971285483
    ]
   ],
   "shorts_made": 1,
@@ -9074,7 +9094,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2018": {
   "last_short": "2026-11-01",
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     324.3828204350159,
@@ -9119,6 +9139,10 @@
    [
     252.68,
     254.84
+   ],
+   [
+    169.38126787397735,
+    171.27060354494012
    ]
   ],
   "shorts_made": 2,
@@ -16043,6 +16067,7 @@
   "last_short": "2026-10-31",
   "long": "2026-10-28",
   "montage_used": 8,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     83.59827200044164,
@@ -16193,7 +16218,7 @@
  "ruler of umm al quwain accepts condolences from hamdan bin mohammed": {
   "last_short": "2026-11-01",
   "long": "2026-10-28",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     84.34146017449318,
@@ -16222,6 +16247,10 @@
    [
     34.451245580578906,
     36.35454935871264
+   ],
+   [
+    45.11999410370299,
+    47.05655814145204
    ]
   ],
   "shorts_made": 1,

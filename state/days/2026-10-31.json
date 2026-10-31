@@ -281,8 +281,13 @@
   },
   {
    "at": "2026-11-01T04:00:55+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Dubai's pride, Hamdan's legacy. 🤍 #youtubeshorts #ytshorts",
+   "type": "short",
+   "video_id": "JhLfRvkc-EY",
+   "voiced": true
   },
   {
    "at": "2026-11-01T04:49:34+04:00",

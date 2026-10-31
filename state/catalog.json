@@ -364,6 +364,7 @@
   "long": "2026-10-22",
   "montage_exhausted": true,
   "montage_used": 3,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     61.519999999999996,
@@ -1386,6 +1387,7 @@
   "long": "2026-10-14",
   "montage_exhausted": true,
   "montage_used": 4,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     2.3467459966608333,
@@ -10257,6 +10259,7 @@
   "last_short": "2026-11-01",
   "long": "2026-10-31",
   "montage_used": 7,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     7.74615392477855,

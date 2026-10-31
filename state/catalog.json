@@ -4127,7 +4127,7 @@
  "hamdan bin mohammed attends the launche of uae innovation month in dubai": {
   "last_short": "2026-11-01",
   "long": "2026-10-30",
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     42.38019053786916,
@@ -4172,6 +4172,10 @@
    [
     307.6,
     309.56
+   ],
+   [
+    4.96,
+    7.04
    ]
   ],
   "shorts_made": 1,
@@ -5201,6 +5205,7 @@
   "last_short": "2026-11-01",
   "long": "2026-10-14",
   "montage_used": 7,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     132.34533841902865,
@@ -5378,7 +5383,7 @@
  "hamdan bin mohammed honors mbr creative sports award winners": {
   "last_short": "2026-11-01",
   "long": "2026-10-18",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     50.879999999999995,
@@ -5411,6 +5416,10 @@
    [
     155.15425937594475,
     156.93452689614023
+   ],
+   [
+    251.45156302373312,
+    252.88703484839635
    ]
   ],
   "shorts_made": 3,
@@ -5751,7 +5760,7 @@
  "hamdan bin mohammed honours winners of 5th islamic economy award": {
   "last_short": "2026-11-01",
   "long": "2026-10-30",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     219.23125416320443,
@@ -5792,6 +5801,10 @@
    [
     69.10291836158137,
     71.08850581491963
+   ],
+   [
+    244.89986746570384,
+    246.75761221638535
    ]
   ],
   "shorts_made": 2,
@@ -7635,10 +7648,10 @@
   "video_len": 154
  },
  "hamdan bin mohammed meets with astronaut sultan al neyadi and zayed ambition 2 team": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-01",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     70.87440732804015,
@@ -7663,6 +7676,10 @@
    [
     91.94467480617304,
     93.5658079392348
+   ],
+   [
+    45.84347925643916,
+    47.355132845309654
    ]
   ],
   "shorts_made": 3,
@@ -9108,8 +9125,8 @@
   "long": "2026-10-28"
  },
  "hamdan bin mohammed officially opens gitex 2018": {
-  "last_short": "2026-10-31",
-  "montage_used": 7,
+  "last_short": "2026-11-01",
+  "montage_used": 8,
   "remix_ranges": [
    [
     126.01016816879962,
@@ -9134,6 +9151,10 @@
    [
     262.65582881136123,
     264.7247188993394
+   ],
+   [
+    69.2546358871073,
+    71.27132295105969
    ]
   ],
   "shorts_made": 1,
@@ -10003,7 +10024,7 @@
  "hamdan bin mohammed receives mourners on death of mansour bin ahmed": {
   "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     466.2050172416837,
@@ -10036,6 +10057,10 @@
    [
     272.3559718113256,
     274.46590658677144
+   ],
+   [
+    423.07805377238867,
+    425.34397275360595
    ]
   ],
   "shorts_made": 2,
@@ -13402,7 +13427,7 @@
  "hamdan bin mohammed visits personal status court": {
   "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     80.89349709731536,
@@ -13427,6 +13452,10 @@
    [
     148.24,
     150.64
+   ],
+   [
+    129.92000000000002,
+    131.88
    ]
   ],
   "video_exhausted": true,

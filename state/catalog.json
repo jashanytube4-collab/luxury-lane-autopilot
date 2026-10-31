@@ -1581,6 +1581,7 @@
   "long": "2026-10-27",
   "montage_exhausted": true,
   "montage_used": 6,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     21.386666666666667,
@@ -3892,7 +3893,7 @@
  "hamdan bin mohammed attends the knowledge summit 2018": {
   "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     21.009627951075547,
@@ -3913,6 +3914,10 @@
    [
     131.25505746141815,
     132.6952910240767
+   ],
+   [
+    382.6599070082193,
+    385.1142010360285
    ]
   ],
   "shorts_made": 3,
@@ -5415,7 +5420,7 @@
  "hamdan bin mohammed honours mbr creative sports award winners": {
   "last_short": "2026-11-01",
   "long": "2026-10-18",
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     74.58464282636517,
@@ -5464,6 +5469,10 @@
    [
     658.3544369557654,
     660.4486624653867
+   ],
+   [
+    462.1300088746051,
+    464.0284211526222
    ]
   ],
   "shorts_made": 3,
@@ -6650,7 +6659,7 @@
  },
  "hamdan bin mohammed launches the government games initiative": {
   "last_short": "2026-11-01",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     3.050388327506801,
@@ -6667,6 +6676,10 @@
    [
     88.60000000000001,
     90.83999999999999
+   ],
+   [
+    174.19013119398642,
+    175.9489768179618
    ]
   ],
   "shorts_made": 2,
@@ -6824,10 +6837,10 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed leads f3 team to gov games finals": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-10-31",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     14.912667226240458,
@@ -6840,6 +6853,10 @@
    [
     51.270195752495006,
     53.45227282229639
+   ],
+   [
+    39.497827970972764,
+    40.91881485909158
    ]
   ],
   "shorts_made": 2,
@@ -7318,7 +7335,7 @@
   "last_short": "2026-10-31",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     70.87440732804015,
@@ -7339,6 +7356,10 @@
    [
     103.41571862435433,
     104.43090414654634
+   ],
+   [
+    91.94467480617304,
+    93.5658079392348
    ]
   ],
   "shorts_made": 3,
@@ -9493,12 +9514,16 @@
   "video_len": 103
  },
  "hamdan bin mohammed receives chairman of wccd": {
-  "last_short": "2026-10-28",
-  "montage_used": 1,
+  "last_short": "2026-10-31",
+  "montage_used": 2,
   "remix_ranges": [
    [
     43.36821742219416,
     44.83197162761908
+   ],
+   [
+    30.129841446916508,
+    31.67862759494093
    ]
   ],
   "video_exhausted": true,
@@ -10516,7 +10541,7 @@
  "hamdan bin mohammed the uae has taken strides in energy sustainability": {
   "last_short": "2026-11-01",
   "long": "2026-10-14",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     5.521611542302555,
@@ -10541,6 +10566,10 @@
    [
     62.47556122878849,
     64.25693296749726
+   ],
+   [
+    56.40161009725225,
+    58.11220208450868
    ]
   ],
   "shorts_made": 2,

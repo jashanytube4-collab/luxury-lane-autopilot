@@ -118,12 +118,17 @@
   },
   {
    "at": "2026-10-31T16:27:22+04:00",
-   "status": "skipped",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "He never stops serving. ✨ #youtubeshorts #youtube #fazza",
+   "type": "short",
+   "video_id": "6ZzyKCPLbew",
+   "voiced": true
   },
   {
    "at": "2026-10-31T17:07:15+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   },
   {
@@ -146,12 +151,12 @@
   },
   {
    "at": "2026-10-31T18:45:35+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   },
   {
    "at": "2026-10-31T19:30:43+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   },
   {
@@ -176,7 +181,7 @@
   },
   {
    "at": "2026-10-31T21:11:02+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   },
   {
@@ -201,22 +206,22 @@
   },
   {
    "at": "2026-10-31T23:30:00+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   },
   {
    "at": "2026-11-01T00:22:37+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   },
   {
    "at": "2026-11-01T01:14:11+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   },
   {
    "at": "2026-11-01T01:58:29+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   },
   {
@@ -226,22 +231,22 @@
   },
   {
    "at": "2026-11-01T03:22:19+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   },
   {
    "at": "2026-11-01T04:00:55+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   },
   {
    "at": "2026-11-01T04:49:34+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   },
   {
    "at": "2026-11-01T05:40:10+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   }
  ],

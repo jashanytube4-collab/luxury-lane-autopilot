@@ -13,6 +13,7 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 OUT = ROOT / "assets" / "clip_seconds.yaml"
+PARTIAL = ROOT / "work" / "tag_seconds_partial.json"     # seconds done so far of the clip being tagged
 
 PROMPT = ("This is ONE frame (one second) of a video clip. Describe in detail what is really visible. Answer JSON only: "
           '{"desc": "1-2 plain sentences: who/what, what they do, where, clothes, objects, lighting", '
@@ -68,12 +69,30 @@ def main() -> None:
     print(f"{len(toks)} clips, {len(todo)} to tag", flush=True)
     if not todo:
         return
-    m = LocalModel(load_config()["ai"])
+    import subprocess
+    busy = subprocess.run(["tasklist", "/fi", "imagename eq llama-server.exe"], capture_output=True,
+                          text=True).stdout if sys.platform == "win32" else ""
+    if "llama-server.exe" in busy:          # the comment replier has the local AI loaded: two copies do not fit in RAM
+        print("another local AI is running, try later", flush=True)
+        return
+    if sys.platform == "win32":             # a Deep Space plan/render (work/ds_run.py) or any ffmpeg render needs the RAM
+        procs = subprocess.run(["powershell", "-NoProfile", "-Command",
+                                "Get-CimInstance Win32_Process | ForEach-Object { $_.Name + ' ' + $_.CommandLine }"],
+                               capture_output=True, text=True).stdout
+        if "ds_run.py" in procs or "ffmpeg.exe" in procs.lower():
+            print("a render is running, try later", flush=True)
+            return
+    # One frame + short prompt needs ~1K tokens; the default 12K context made the server too big for the
+    # 7.5 GB laptop, so the RAM guard killed every run before a single second was tagged.
+    m = LocalModel({**load_config()["ai"], "context": 3072})
     for n, tok in enumerate(todo, 1):
         p = find(tok)
         d = duration(p)
-        secs = []
-        for s in range(max(1, int(d))):
+        # The RAM guard kills this run every few minutes on a busy laptop; keep each finished second of the
+        # current clip so the next run carries on instead of restarting the same clip forever.
+        part = json.loads(PARTIAL.read_text(encoding="utf-8")) if PARTIAL.exists() else {}
+        secs = part["sec"] if part.get("tok") == tok else []
+        for s in range(secs[-1]["t"] + 1 if secs else 0, max(1, int(d))):
             t = min(s + 0.5, max(d - 0.05, 0))
             try:
                 out = m.chat([{"type": "text", "text": PROMPT}, _img(image_b64(p, t, 448))], schema=SCHEMA, max_tokens=260, temperature=0.1)
@@ -84,6 +103,7 @@ def main() -> None:
             secs.append({"t": s, "desc": str(j.get("desc", ""))[:300], "tags": sorted({str(x).lower().strip() for x in j.get("tags", [])}),
                          "person": str(j.get("person", ""))[:120], "action": str(j.get("action", ""))[:80],
                          "shot": str(j.get("shot", ""))[:30], "quality": str(j.get("quality", ""))[:30]})
+            PARTIAL.write_text(json.dumps({"tok": tok, "sec": secs}), encoding="utf-8")
         if secs:
             data[tok] = {"dur": round(d, 1), "sec": secs}
             OUT.write_text(yaml.safe_dump(data, sort_keys=True, allow_unicode=True, width=200), encoding="utf-8")

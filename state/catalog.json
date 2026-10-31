@@ -356,10 +356,10 @@
   "video_len": 1017
  },
  "dubai crown prince attends wedding reception": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-11-01",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     61.519999999999996,
@@ -368,6 +368,10 @@
    [
     49.76,
     51.440000000000005
+   ],
+   [
+    77.26892216512263,
+    79.56701738876623
    ]
   ],
   "shorts_made": 1,
@@ -6947,7 +6951,7 @@
  "hamdan bin mohammed meets government team behind uae s progress in world bank s ease of doing business ranking": {
   "last_short": "2026-11-01",
   "long": "2026-10-30",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     125.5027611214891,
@@ -6972,6 +6976,10 @@
    [
     39.200527135151354,
     41.26026667829923
+   ],
+   [
+    13.190898670837587,
+    15.126096615168521
    ]
   ],
   "shorts_made": 2,
@@ -9227,8 +9235,8 @@
   "video_len": 226
  },
  "hamdan bin mohammed opens smart police station at la mer": {
-  "last_short": "2026-10-31",
-  "montage_used": 5,
+  "last_short": "2026-11-01",
+  "montage_used": 6,
   "remix_ranges": [
    [
     99.92,
@@ -9245,6 +9253,10 @@
    [
     210.32,
     212.16
+   ],
+   [
+    105.72,
+    107.83999999999999
    ]
   ],
   "shorts_made": 2,
@@ -11862,7 +11874,7 @@
  "hamdan bin mohammed visits dubai autism center": {
   "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     22.16,
@@ -11871,6 +11883,10 @@
    [
     100.32000000000001,
     101.96
+   ],
+   [
+    16.96,
+    19.08
    ]
   ],
   "shorts_made": 3,
@@ -12687,9 +12703,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits personal status court": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     80.89349709731536,
@@ -12702,6 +12718,10 @@
    [
     40.44438790473172,
     42.22469064532771
+   ],
+   [
+    64.39678620559616,
+    66.36401391961978
    ]
   ],
   "video_exhausted": true,
@@ -12847,7 +12867,7 @@
  "hamdan bin mohammed visits stands of government entities at gitex2019": {
   "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     143.24971079721686,
@@ -12876,6 +12896,10 @@
    [
     210.52018543146042,
     211.9346391556468
+   ],
+   [
+    0.9939662152535648,
+    2.4523838768450466
    ]
   ],
   "shorts_made": 2,
@@ -15804,7 +15828,7 @@
   "last_short": "2026-11-01",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     80.96000000000001,
@@ -15845,6 +15869,10 @@
    [
     87.28287685040658,
     89.68734297421297
+   ],
+   [
+    117.21334219815577,
+    119.47440365456615
    ]
   ],
   "shorts_made": 3,

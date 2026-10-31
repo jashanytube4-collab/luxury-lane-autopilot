@@ -1683,7 +1683,7 @@
   "last_short": "2026-11-01",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     438.68,
@@ -1712,6 +1712,10 @@
    [
     289.09823375617225,
     291.57610819537933
+   ],
+   [
+    322.8113813310177,
+    324.8486229475114
    ]
   ],
   "shorts_made": 2,
@@ -4233,7 +4237,7 @@
  "hamdan bin mohammed attends wedding receptions in al ain dubai": {
   "last_short": "2026-11-01",
   "long": "2026-10-15",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     37.90981226167036,
@@ -4254,6 +4258,10 @@
    [
     30.18184473033277,
     32.62227155456813
+   ],
+   [
+    81.60000000000001,
+    84.03999999999999
    ]
   ],
   "shorts_made": 1,
@@ -6356,6 +6364,7 @@
   "last_short": "2026-10-31",
   "long": "2026-10-31",
   "montage_used": 11,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     113.84243637422479,
@@ -7634,9 +7643,9 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed meets with dubai gov t second line of leadership": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-10-31",
   "long": "2026-10-31",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     128.9530729946567,
@@ -7665,6 +7674,10 @@
    [
     21.26473658821443,
     23.45154129798276
+   ],
+   [
+    102.82151428577123,
+    105.06313186248057
    ]
   ],
   "shorts_made": 3,
@@ -8617,7 +8630,7 @@
  "hamdan bin mohammed offers condolences on death of moza bint ali al weri": {
   "last_short": "2026-11-01",
   "long": "2026-10-14",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     17.37089556107783,
@@ -8646,6 +8659,10 @@
    [
     28.873155592072827,
     30.6600429058128
+   ],
+   [
+    54.879999999999995,
+    57.04
    ]
   ],
   "shorts_made": 1,
@@ -9668,7 +9685,7 @@
  "hamdan bin mohammed receives canadian ambassador": {
   "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     8.984166547999786,
@@ -9681,6 +9698,10 @@
    [
     42.953367606867246,
     45.36867538817786
+   ],
+   [
+    55.653157977257855,
+    57.63430693063131
    ]
   ],
   "shorts_made": 1,
@@ -10743,6 +10764,7 @@
   "last_short": "2026-11-01",
   "long": "2026-10-14",
   "montage_used": 7,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     5.521611542302555,
@@ -12118,7 +12140,7 @@
  "hamdan bin mohammed visits dp world s facilities inspects operations of jebel ali port": {
   "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     23.240000000000002,
@@ -12147,6 +12169,10 @@
    [
     179.56,
     181.51999999999998
+   ],
+   [
+    132.22292910914163,
+    133.9464885940226
    ]
   ],
   "shorts_made": 1,
@@ -12331,8 +12357,8 @@
   "video_len": 191
  },
  "hamdan bin mohammed visits dubai chamber of commerce and industry": {
-  "last_short": "2026-10-30",
-  "montage_used": 5,
+  "last_short": "2026-10-31",
+  "montage_used": 6,
   "remix_ranges": [
    [
     41.30287533391608,
@@ -12353,6 +12379,10 @@
    [
     104.38962657306465,
     106.09151733416056
+   ],
+   [
+    0.4455492186386229,
+    2.5407507264634988
    ]
   ],
   "shorts_made": 2,
@@ -15755,7 +15785,7 @@
  "khalifasat launches successfully into orbit emphasising uae s leadership in developing satellites": {
   "last_short": "2026-11-01",
   "long": "2026-10-14",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     133.53845390207644,
@@ -15768,6 +15798,10 @@
    [
     91.81443619857819,
     93.94753225416939
+   ],
+   [
+    120.15533323418089,
+    121.70634562381001
    ]
   ],
   "shorts_made": 3,

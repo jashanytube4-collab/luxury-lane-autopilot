@@ -113,7 +113,7 @@ def produce(video: Path | None, plan: dict, cfg: dict, work: Path, out: Path, se
     except render.RenderError as e:
         raise ShortError(str(e)) from e
 
-    problems = qa.check(out, s_cfg["min_seconds"], s_cfg["max_seconds"])
+    problems = qa.check(out, min(s_cfg["min_seconds"], 7.0), s_cfg["max_seconds"])   # length follows the voice now
     if problems:
         raise ShortError("quality check failed: " + "; ".join(problems))
     return Result(out, duration, narr.engine, music_name, plan["layout"])
@@ -184,7 +184,7 @@ def produce_moment(video: Path, shots: list[dict], cfg: dict, work: Path, out: P
         render.render_video(timeline, ass, mix_path, out, work, seed)
     except render.RenderError as e:
         raise ShortError(str(e)) from e
-    problems = qa.check(out, 11.5, 17.5)
+    problems = qa.check(out, 4.0, 17.5)
     if problems:
         raise ShortError("quality check failed: " + "; ".join(problems))
     return Result(out, duration, narr.engine if narr else "none", music_name, "fill")

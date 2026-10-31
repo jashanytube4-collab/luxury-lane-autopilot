@@ -689,6 +689,12 @@ class Runner:
         if self.channel_uploads is not None and not self.args.dry_run:
             tz = ZoneInfo(sc["timezone"])
             mine = [u for u in self.channel_uploads if u["at"].astimezone(tz).date() == day]
+            # the guard decides afresh each run: future Short slots it skipped before get another look
+            # (they are skipped again below if the day really is full or another upload is too close)
+            for s in plan["slots"]:
+                if (s["type"] == "short" and s["status"] == "skipped" and not s.get("video_id")
+                        and datetime.fromisoformat(s["at"]) >= datetime.now(timezone.utc) + lead):
+                    s["status"] = "open"
             notes = adopt_uploads(plan["slots"], mine, int(sc["shorts_per_day"]), 15, random.Random())
             if notes:
                 self.state.save_day(date_s, plan)

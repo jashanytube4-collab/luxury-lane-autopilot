@@ -158,8 +158,11 @@ def adopt_uploads(slots: list[dict], uploads: list[dict], per_day: int, min_gap_
             if any(abs(at - t) < gap for t in times):
                 sl["status"] = "skipped"
                 notes.append(f"{sl['at']}: skipped, an upload is already within {int(min_gap_min)} min")
-    have = sum(1 for u in uploads if u["short"]) + sum(
-        1 for s in slots if s["type"] == "short" and s["status"] == "scheduled" and s.get("event") != "adopted")
+    # our own scheduled Shorts are on the channel too: count each video once (a double count skipped
+    # half of a full day's slots on 2026-11-01: "the day already has 31 Shorts" with only 17 made)
+    on_channel = {u["id"] for u in uploads if u["short"]}
+    have = len(on_channel) + sum(1 for s in slots if s["type"] == "short" and s["status"] == "scheduled"
+                                 and s.get("video_id") not in on_channel)
     open_shorts = [s for s in slots if s["type"] == "short" and s["status"] == "open"]
     extra = len(open_shorts) + have - per_day
     if extra > 0:

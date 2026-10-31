@@ -4,6 +4,7 @@
  },
  "azizi developments announces aed600 million donation to establish endowment education complex": {
   "last_short": "2026-10-26",
+  "montage_exhausted": true,
   "montage_used": 2,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -734,6 +735,7 @@
  "dubai crown prince receives president of malta": {
   "last_short": "2026-10-30",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 6,
   "remix_ranges": [
    [
@@ -1333,7 +1335,7 @@
  },
  "hamdan bin mohammed affirms that public wellbeing remains top priority for every investment in dubai s future": {
   "long": "2026-10-30",
-  "no_video_until": "2026-10-31"
+  "no_video_until": "2026-11-03"
  },
  "hamdan bin mohammed and india s minister of commerce and industry witness signing of 8 mous": {
   "fails": 1,
@@ -2497,7 +2499,7 @@
  "hamdan bin mohammed attends dubai forum for government best practices": {
   "last_short": "2026-10-31",
   "long": "2026-10-31",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     28.36,
@@ -2526,6 +2528,12 @@
    [
     133.7386763962964,
     135.44453654950576
+   ]
+  ],
+  "shot_ranges": [
+   [
+    198.28,
+    201.64
    ]
   ],
   "video_exhausted": true,
@@ -2625,7 +2633,7 @@
  "hamdan bin mohammed attends dubai police graduation ceremony": {
   "last_short": "2026-10-31",
   "long": "2026-10-30",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     166.60279951075904,
@@ -2681,6 +2689,10 @@
    [
     137.1,
     139.95
+   ],
+   [
+    166.08,
+    168.4
    ]
   ],
   "video_exhausted": true,
@@ -4848,6 +4860,7 @@
  "hamdan bin mohammed follows up the work mechanisms of dubai future councils": {
   "last_short": "2026-10-26",
   "long": "2026-10-30",
+  "montage_exhausted": true,
   "montage_used": 2,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -5998,9 +6011,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed launches 26 dubai 10x projects issues directive to implement them within 24 months": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-10-31",
   "long": "2026-10-31",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     113.84243637422479,
@@ -6033,6 +6046,12 @@
    [
     212.04763119024207,
     214.21641874203567
+   ]
+  ],
+  "shot_ranges": [
+   [
+    20.2,
+    23.32
    ]
   ],
   "video_exhausted": true,
@@ -6968,7 +6987,7 @@
  "hamdan bin mohammed meets students of dubai schools": {
   "last_short": "2026-10-31",
   "long": "2026-10-17",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     163.49934334402403,
@@ -7016,6 +7035,10 @@
    [
     42.12,
     46.84
+   ],
+   [
+    301.87,
+    302.61
    ]
   ],
   "video_len": 371
@@ -10409,8 +10432,8 @@
   "video_len": 75
  },
  "hamdan bin mohammed tours gitex global 2022 on its concluding day": {
-  "last_short": "2026-10-29",
-  "montage_used": 4,
+  "last_short": "2026-10-31",
+  "montage_used": 5,
   "remix_ranges": [
    [
     119.07687657973835,
@@ -10446,6 +10469,10 @@
    [
     119.0,
     121.24
+   ],
+   [
+    90.28,
+    92.6
    ]
   ],
   "video_exhausted": true,
@@ -14632,7 +14659,7 @@
  "in presence of dubai crown prince meraas signs agreement with dubai municipality to manage dubai safari": {
   "last_short": "2026-10-31",
   "long": "2026-10-31",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -14658,6 +14685,12 @@
    [
     1.071583609002634,
     2.5941136901739723
+   ]
+  ],
+  "shot_ranges": [
+   [
+    13.879999999999999,
+    17.84
    ]
   ],
   "video_exhausted": true,

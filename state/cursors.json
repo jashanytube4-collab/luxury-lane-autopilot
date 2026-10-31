@@ -1,6 +1,6 @@
 {
  "ig_status": {
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "ok": true
  },
  "lines_used": {
@@ -67,6 +67,11 @@
    "day": "2026-10-30",
    "id": "NxIy6IJ2OP0",
    "title": "Leading from the front, always. ✨ #fazza #youtubeshorts #youtube"
+  },
+  {
+   "day": "2026-10-31",
+   "id": "x9KgRBQUhFc",
+   "title": "Strength, humility and elegance in one man. #fazza #youtubeshorts #youtube"
   }
  ],
  "news_done": {},
@@ -701,7 +706,8 @@
   "llb083af2a14",
   "ll60110b521d",
   "lla96181c90f",
-  "ll7ed5b3f9e2"
+  "ll7ed5b3f9e2",
+  "ll016a44b46c"
  ],
  "quotes": [
   {
@@ -839,7 +845,6 @@
   }
  ],
  "recent_hooks": [
-  "THIS IS WHY MILLIONS LOVE HIM | Strength looks different when it comes with kindness. 🤍 #youtubeshorts #ytshorts",
   "SIMPLE. STRONG. FAZZA. | The prince the whole Gulf admires. 🤍 #princehamdan #youtubeshorts #youtube",
   "FAZZA, AS HIS FANS SEE HIM | A legacy built one humble act at a time. ❤️ #youtubeshorts #ytshorts",
   "STILL SO HUMBLE | What you do for others is your real legacy. ❤️ #princehamdan #youtubeshorts #youtube",
@@ -898,10 +903,10 @@
   "THE CROWN PRINCE, UP CLOSE | The crown prince with the people's heart. #youtubeshorts #youtube",
   "ALWAYS RESPECTFUL | His smile is his strongest signature. 🤍 #youtubeshorts #youtube",
   "FAZZA, AS HIS FANS SEE HIM | His actions speak in every language. ✨ #youtubeshorts #youtube",
-  "THE PRINCE OF DUBAI | Greatness begins with respect. 🤍 #youtubeshorts #ytshorts"
+  "THE PRINCE OF DUBAI | Greatness begins with respect. 🤍 #youtubeshorts #ytshorts",
+  "THE MAN BEHIND THE TITLE | Strength, humility and elegance in one man. #fazza #youtubeshorts #youtube"
  ],
  "recent_titles": [
-  "Prince Hamdan Visits DIFC For The Future 💙",
   "Fazza Hands the Award to Save 5 Million Kids 🤍",
   "Prince Hamdan's Pride In 25 New Leaders 🤍",
   "Prince Hamdan Visits DCT College 🤍",
@@ -1200,12 +1205,13 @@
   "The crown prince with the people's heart. #youtubeshorts #youtube",
   "His smile is his strongest signature. 🤍 #youtubeshorts #youtube",
   "His actions speak in every language. ✨ #youtubeshorts #youtube",
-  "Greatness begins with respect. 🤍 #youtubeshorts #ytshorts"
+  "Greatness begins with respect. 🤍 #youtubeshorts #ytshorts",
+  "Strength, humility and elegance in one man. #fazza #youtubeshorts #youtube"
  ],
  "shorts_supply": {
-  "date": "2026-10-30",
-  "days": 2.1,
-  "events": 66
+  "date": "2026-10-31",
+  "days": 3.0,
+  "events": 94
  },
  "stories_done": [
   "flydubai-hero",

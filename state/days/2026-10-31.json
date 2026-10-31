@@ -166,8 +166,13 @@
   },
   {
    "at": "2026-10-31T21:00:00+04:00",
-   "status": "open",
-   "type": "members"
+   "event": "montage",
+   "kind": "montage",
+   "status": "scheduled",
+   "title": "Strength, humility and elegance in one man. #fazza #youtubeshorts #youtube",
+   "type": "members",
+   "video_id": "x9KgRBQUhFc",
+   "voiced": true
   },
   {
    "at": "2026-10-31T21:11:02+04:00",
@@ -196,7 +201,7 @@
   },
   {
    "at": "2026-10-31T23:30:00+04:00",
-   "status": "open",
+   "status": "skipped",
    "type": "short"
   },
   {
@@ -206,7 +211,7 @@
   },
   {
    "at": "2026-11-01T01:14:11+04:00",
-   "status": "open",
+   "status": "skipped",
    "type": "short"
   },
   {
@@ -216,12 +221,12 @@
   },
   {
    "at": "2026-11-01T02:40:07+04:00",
-   "status": "open",
+   "status": "skipped",
    "type": "short"
   },
   {
    "at": "2026-11-01T03:22:19+04:00",
-   "status": "open",
+   "status": "skipped",
    "type": "short"
   },
   {

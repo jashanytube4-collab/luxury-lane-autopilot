@@ -538,7 +538,7 @@
  "dubai crown prince holds minute s silence to honour martyrs on commemoration day": {
   "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     20.424621499001876,
@@ -559,6 +559,10 @@
    [
     64.54503178006503,
     65.19955630444831
+   ],
+   [
+    57.168095122510366,
+    59.29576916277753
    ]
   ],
   "video_exhausted": true,
@@ -1267,6 +1271,7 @@
   "last_short": "2026-10-31",
   "long": "2026-10-31",
   "montage_used": 5,
+  "no_video_until": "2026-11-03",
   "remix_ranges": [
    [
     3.313635576410818,
@@ -5690,9 +5695,9 @@
   "video_len": 105
  },
  "hamdan bin mohammed inaugurates dubai ai campus cluster at the difc innovation hub": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-11-01",
   "long": "2026-10-30",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     6.902635197993996,
@@ -5705,6 +5710,10 @@
    [
     45.34138036734333,
     46.900080164012614
+   ],
+   [
+    35.019999999999996,
+    37.013333333333335
    ]
   ],
   "shorts_made": 1,
@@ -6620,8 +6629,8 @@
   "video_len": 268
  },
  "hamdan bin mohammed launches the government games initiative": {
-  "last_short": "2026-10-30",
-  "montage_used": 2,
+  "last_short": "2026-11-01",
+  "montage_used": 3,
   "remix_ranges": [
    [
     3.050388327506801,
@@ -6630,6 +6639,10 @@
    [
     75.49369175956015,
     76.49517249958404
+   ],
+   [
+    188.12918439534684,
+    190.4633494636687
    ]
   ],
   "shorts_made": 2,
@@ -8477,7 +8490,7 @@
  "hamdan bin mohammed offers condolences to al falahi family": {
   "last_short": "2026-11-01",
   "long": "2026-10-16",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     85.17042709742152,
@@ -8498,6 +8511,10 @@
    [
     42.911921479275655,
     43.9587030236139
+   ],
+   [
+    73.36197220408938,
+    75.51870325540148
    ]
   ],
   "shorts_made": 1,
@@ -10463,7 +10480,7 @@
  "hamdan bin mohammed the uae has taken strides in energy sustainability": {
   "last_short": "2026-11-01",
   "long": "2026-10-14",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     5.521611542302555,
@@ -10484,6 +10501,10 @@
    [
     72.80000000000001,
     74.44
+   ],
+   [
+    62.47556122878849,
+    64.25693296749726
    ]
   ],
   "shorts_made": 2,
@@ -10784,6 +10805,7 @@
   "last_short": "2026-11-01",
   "long": "2026-10-31",
   "montage_used": 5,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     55.28657067553729,
@@ -11600,8 +11622,8 @@
   "video_len": 196
  },
  "hamdan bin mohammed visits department of economic development": {
-  "last_short": "2026-10-31",
-  "montage_used": 6,
+  "last_short": "2026-11-01",
+  "montage_used": 7,
   "remix_ranges": [
    [
     99.05206428340473,
@@ -11626,6 +11648,10 @@
    [
     156.55989835646227,
     157.6659049413904
+   ],
+   [
+    87.57722519918279,
+    90.07120712528432
    ]
   ],
   "video_exhausted": true,
@@ -12277,8 +12303,8 @@
   "video_len": 58
  },
  "hamdan bin mohammed visits exhibition that tells story of uae s participation in world expos": {
-  "last_short": "2026-10-29",
-  "montage_used": 3,
+  "last_short": "2026-11-01",
+  "montage_used": 4,
   "remix_ranges": [
    [
     18.504851306577798,
@@ -12287,6 +12313,10 @@
    [
     118.79202971219276,
     120.29667528838014
+   ],
+   [
+    202.2351239503503,
+    204.01786679230557
    ]
   ],
   "shorts_made": 3,
@@ -12618,9 +12648,9 @@
   "video_len": 57
  },
  "hamdan bin mohammed visits knowledge and human development authority": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     245.6187281153152,
@@ -12641,6 +12671,10 @@
    [
     124.4391791297804,
     126.05180069387428
+   ],
+   [
+    152.92000000000002,
+    154.56
    ]
   ],
   "video_exhausted": true,
@@ -13590,6 +13624,7 @@
   "last_short": "2026-11-01",
   "long": "2026-10-31",
   "montage_used": 8,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     140.32,

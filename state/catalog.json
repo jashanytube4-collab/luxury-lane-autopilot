@@ -873,7 +873,7 @@
  },
  "dubai crown prince receives president of the chechen": {
   "last_short": "2026-11-01",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     45.227858673030426,
@@ -894,6 +894,10 @@
    [
     66.90450740987217,
     69.24883907055961
+   ],
+   [
+    57.574444720345014,
+    59.39303286870662
    ]
   ],
   "video_exhausted": true,
@@ -1850,7 +1854,7 @@
  },
  "hamdan bin mohammed approves dff s three year strategic plan": {
   "last_short": "2026-11-01",
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     44.755956300528126,
@@ -1899,6 +1903,10 @@
    [
     39.177035716613794,
     40.84554260792097
+   ],
+   [
+    138.2013525977712,
+    140.1784185609586
    ]
   ],
   "shorts_made": 3,
@@ -2525,7 +2533,7 @@
  "hamdan bin mohammed attends closing ceremony of 3rd dubai future accelerators program": {
   "last_short": "2026-11-01",
   "long": "2026-10-30",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     2.92,
@@ -2546,6 +2554,10 @@
    [
     165.89420458539198,
     167.48862328231772
+   ],
+   [
+    13.76,
+    15.92
    ]
   ],
   "shorts_made": 3,
@@ -6384,7 +6396,7 @@
  "hamdan bin mohammed inspects rta s autonomous mobility and ai projects": {
   "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     100.06784977818178,
@@ -6401,6 +6413,10 @@
    [
     68.08,
     69.72
+   ],
+   [
+    25.996269901698795,
+    27.552804037901456
    ]
   ],
   "shorts_made": 2,
@@ -9142,7 +9158,7 @@
  },
  "hamdan bin mohammed officially opens gitex 2018": {
   "last_short": "2026-11-01",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     126.01016816879962,
@@ -9171,6 +9187,10 @@
    [
     69.2546358871073,
     71.27132295105969
+   ],
+   [
+    115.41425744563917,
+    117.12433048360569
    ]
   ],
   "shorts_made": 1,
@@ -10327,7 +10347,7 @@
  "hamdan bin mohammed receives winners of hackathon competition": {
   "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     90.22305596119119,
@@ -10352,6 +10372,10 @@
    [
     34.155595690962905,
     36.29566367868574
+   ],
+   [
+    69.18283546294178,
+    70.9940180914441
    ]
   ],
   "shorts_made": 3,
@@ -10397,7 +10421,7 @@
  "hamdan bin mohammed reviews dubai future foundation s 2018 plan and projects": {
   "last_short": "2026-11-01",
   "long": "2026-10-30",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     140.32186297088035,
@@ -10430,6 +10454,10 @@
    [
     26.23167954945762,
     27.961851725215695
+   ],
+   [
+    50.37975132552704,
+    52.15057453619805
    ]
   ],
   "video_exhausted": true,
@@ -12698,9 +12726,9 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed visits dubai government hr department": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     92.94184157109537,
@@ -12721,6 +12749,10 @@
    [
     73.70441782520334,
     75.53292434879684
+   ],
+   [
+    144.0067665262467,
+    145.7924994013552
    ]
   ],
   "shorts_made": 1,

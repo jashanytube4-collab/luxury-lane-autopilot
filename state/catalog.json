@@ -2924,7 +2924,7 @@
  "hamdan bin mohammed attends global cardiology congress": {
   "last_short": "2026-11-01",
   "long": "2026-10-22",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     227.92000000000002,
@@ -2941,6 +2941,10 @@
    [
     262.4588411602048,
     263.70721730435406
+   ],
+   [
+    215.4,
+    217.24
    ]
   ],
   "shorts_made": 1,
@@ -4067,7 +4071,7 @@
  "hamdan bin mohammed attends the launche of uae innovation month in dubai": {
   "last_short": "2026-11-01",
   "long": "2026-10-30",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     42.38019053786916,
@@ -4108,6 +4112,10 @@
    [
     346.6,
     348.24
+   ],
+   [
+    307.6,
+    309.56
    ]
   ],
   "shorts_made": 1,
@@ -4251,7 +4259,7 @@
  "hamdan bin mohammed attends wedding receptions in al ain dubai": {
   "last_short": "2026-11-01",
   "long": "2026-10-15",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     37.90981226167036,
@@ -4276,6 +4284,10 @@
    [
     81.60000000000001,
     84.03999999999999
+   ],
+   [
+    23.28491536205285,
+    24.98923964605364
    ]
   ],
   "shorts_made": 1,
@@ -4444,10 +4456,10 @@
   "long": "2026-10-30"
  },
  "hamdan bin mohammed chairs executive council meeting approves plans and policies": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-11-01",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     68.65279797830273,
@@ -4468,6 +4480,10 @@
    [
     30.6491239958717,
     32.556785989083366
+   ],
+   [
+    23.46899910086779,
+    24.968155426176633
    ]
   ],
   "shorts_made": 1,
@@ -4643,10 +4659,10 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed chairs virtual meeting of executive council": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-01",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     80.58442199620988,
@@ -4663,6 +4679,10 @@
    [
     26.788915766620402,
     28.799619202643402
+   ],
+   [
+    45.843711655169166,
+    47.87562372113646
    ]
   ],
   "shorts_made": 2,
@@ -10946,9 +10966,9 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed tours bustanica the world s largest vertical farm in dubai": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     137.834523919362,
@@ -10969,6 +10989,10 @@
    [
     23.037894423476025,
     24.98444939445919
+   ],
+   [
+    99.58530950676173,
+    101.12600142532595
    ]
   ],
   "shorts_made": 2,
@@ -12967,7 +12991,7 @@
  "hamdan bin mohammed visits innovation labs 2018": {
   "last_short": "2026-11-01",
   "long": "2026-10-30",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     237.92000000000002,
@@ -12996,6 +13020,10 @@
    [
     131.6092614307106,
     133.86756515054822
+   ],
+   [
+    150.5909834927068,
+    152.0139176737249
    ]
   ],
   "shorts_made": 1,
@@ -13519,7 +13547,7 @@
   "last_short": "2026-11-01",
   "long": "2026-10-23",
   "montage_exhausted": true,
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     49.961579847562305,
@@ -13532,6 +13560,10 @@
    [
     81.75333333333334,
     83.44666666666666
+   ],
+   [
+    9.929001630977094,
+    11.404726930418386
    ]
   ],
   "shorts_made": 2,

@@ -271,7 +271,7 @@
  "dubai crown prince attends graduation of dubai police academy": {
   "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     211.78852581766063,
@@ -324,6 +324,10 @@
    [
     494.08,
     496.12
+   ],
+   [
+    526.321278541296,
+    528.0710617006721
    ]
   ],
   "shorts_made": 2,
@@ -874,6 +878,7 @@
  "dubai crown prince receives president of the chechen": {
   "last_short": "2026-11-01",
   "montage_used": 6,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     45.227858673030426,
@@ -1713,7 +1718,7 @@
   "last_short": "2026-11-01",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     438.68,
@@ -1754,6 +1759,10 @@
    [
     443.96,
     445.71999999999997
+   ],
+   [
+    298.3281707298483,
+    300.66585101755896
    ]
   ],
   "shorts_made": 2,
@@ -3454,7 +3463,7 @@
  "hamdan bin mohammed attends hct graduation": {
   "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     45.8,
@@ -3483,6 +3492,10 @@
    [
     228.36486119533305,
     229.95846192667878
+   ],
+   [
+    169.47677430129616,
+    171.77164041094943
    ]
   ],
   "shorts_made": 1,
@@ -5713,7 +5726,7 @@
  "hamdan bin mohammed honours mbr creative sports award winners": {
   "last_short": "2026-11-01",
   "long": "2026-10-18",
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     74.58464282636517,
@@ -5770,6 +5783,10 @@
    [
     482.46936088214943,
     484.2079898103795
+   ],
+   [
+    86.89584887306977,
+    88.42227502368311
    ]
   ],
   "shorts_made": 3,
@@ -6288,9 +6305,9 @@
   "video_len": 61
  },
  "hamdan bin mohammed inaugurates zabeel healthcare center": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-11-01",
   "long": "2026-10-22",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     399.88601091430286,
@@ -6299,6 +6316,10 @@
    [
     100.80747456903636,
     102.56083459579729
+   ],
+   [
+    150.33336933894213,
+    151.27382064546143
    ]
   ],
   "shorts_made": 1,
@@ -9130,9 +9151,9 @@
   "long": "2026-10-17"
  },
  "hamdan bin mohammed offers condolences to family of martyr saeed alhajri": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-01",
   "long": "2026-10-27",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     30.126788906092074,
@@ -9145,6 +9166,10 @@
    [
     109.35718328311563,
     110.78051937436136
+   ],
+   [
+    99.72814762362619,
+    101.30074793832576
    ]
   ],
   "shorts_made": 1,
@@ -12623,7 +12648,7 @@
  "hamdan bin mohammed visits dubai autism center": {
   "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     22.16,
@@ -12648,6 +12673,10 @@
    [
     163.89121562875278,
     164.9677657343277
+   ],
+   [
+    120.34643976184766,
+    122.27284722682468
    ]
   ],
   "shorts_made": 3,
@@ -12924,7 +12953,7 @@
  "hamdan bin mohammed visits dubai international boat show": {
   "last_short": "2026-11-01",
   "long": "2026-10-14",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     252.31552180004425,
@@ -12945,6 +12974,10 @@
    [
     68.27699111096348,
     69.88470407962012
+   ],
+   [
+    225.79782258782492,
+    227.65960779427564
    ]
   ],
   "shorts_made": 2,

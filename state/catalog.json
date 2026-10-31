@@ -1720,7 +1720,7 @@
  },
  "hamdan bin mohammed approves dff s three year strategic plan": {
   "last_short": "2026-11-01",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     44.755956300528126,
@@ -1808,6 +1808,10 @@
    [
     25.73333333333333,
     26.466666666666676
+   ],
+   [
+    137.8,
+    140.51999999999998
    ]
   ],
   "video_exhausted": true,
@@ -1977,9 +1981,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed approves mbz sat for launch": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-11-01",
   "long": "2026-10-11",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     51.549294734111434,
@@ -2019,6 +2023,10 @@
    [
     39.22,
     41.31333333333333
+   ],
+   [
+    51.26499999999998,
+    53.03500000000002
    ]
   ],
   "video_exhausted": true,
@@ -2732,9 +2740,9 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed attends gems our own english high school s golden jubilee celebrations": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-01",
   "long": "2026-10-15",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     77.94133731869516,
@@ -2761,6 +2769,10 @@
    [
     32.64,
     35.120000000000005
+   ],
+   [
+    85.12,
+    87.28
    ]
   ],
   "video_exhausted": true,
@@ -10785,8 +10797,8 @@
   "video_len": 189
  },
  "hamdan bin mohammed unveils 5 star plaque at sheikh zayed housing programme in dubai": {
-  "last_short": "2026-10-31",
-  "montage_used": 9,
+  "last_short": "2026-11-01",
+  "montage_used": 10,
   "remix_ranges": [
    [
     144.8978218171365,
@@ -10858,6 +10870,10 @@
    [
     216.84,
     218.96
+   ],
+   [
+    75.94,
+    80.94
    ]
   ],
   "video_len": 234
@@ -11187,6 +11203,7 @@
  "hamdan bin mohammed visits art dubai": {
   "last_short": "2026-10-31",
   "long": "2026-10-13",
+  "montage_exhausted": true,
   "montage_used": 9,
   "remix_ranges": [
    [
@@ -11868,9 +11885,9 @@
   "video_len": 154
  },
  "hamdan bin mohammed visits dubai hospital": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-01",
   "long": "2026-10-14",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     31.287519536112814,
@@ -11930,6 +11947,10 @@
    [
     214.12,
     216.32
+   ],
+   [
+    209.28,
+    211.72
    ]
   ],
   "video_exhausted": true,
@@ -12241,6 +12262,7 @@
  "hamdan bin mohammed visits idex 2021": {
   "last_short": "2026-10-27",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 2,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -12781,6 +12803,7 @@
  "hamdan bin mohammed visits the ministry of foreign affairs in abu dhabi": {
   "last_short": "2026-10-26",
   "long": "2026-10-23",
+  "montage_exhausted": true,
   "montage_used": 2,
   "remix_ranges": [
    [
@@ -15077,9 +15100,9 @@
   "long": "2026-10-23"
  },
  "khalifasat launches successfully into orbit emphasising uae s leadership in developing satellites": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-11-01",
   "long": "2026-10-14",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     133.53845390207644,
@@ -15139,6 +15162,10 @@
    [
     172.04,
     175.16
+   ],
+   [
+    14.92,
+    17.24
    ]
   ],
   "video_len": 208

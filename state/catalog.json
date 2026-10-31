@@ -223,7 +223,7 @@
  "dubai crown prince attends al ketbi family wedding reception": {
   "last_short": "2026-11-01",
   "long": "2026-10-27",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     49.57652033197624,
@@ -236,6 +236,10 @@
    [
     58.64500991941693,
     60.17968907809403
+   ],
+   [
+    63.9550510191641,
+    65.3843256361103
    ]
   ],
   "shorts_made": 1,
@@ -538,7 +542,7 @@
  "dubai crown prince holds minute s silence to honour martyrs on commemoration day": {
   "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     20.424621499001876,
@@ -563,6 +567,10 @@
    [
     57.168095122510366,
     59.29576916277753
+   ],
+   [
+    120.57637685074951,
+    122.64152787765413
    ]
   ],
   "video_exhausted": true,
@@ -2908,7 +2916,7 @@
  "hamdan bin mohammed attends global islamic economy summit": {
   "last_short": "2026-11-01",
   "long": "2026-10-30",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     198.37148978554302,
@@ -2933,6 +2941,10 @@
    [
     121.28673500725374,
     123.80955894284719
+   ],
+   [
+    184.6777995784636,
+    186.69076462310423
    ]
   ],
   "shorts_made": 3,
@@ -3907,7 +3919,7 @@
  "hamdan bin mohammed attends the knowledge summit 2018": {
   "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     21.009627951075547,
@@ -3932,6 +3944,10 @@
    [
     382.6599070082193,
     385.1142010360285
+   ],
+   [
+    450.1893534821293,
+    452.4136944787836
    ]
   ],
   "shorts_made": 3,
@@ -4537,7 +4553,7 @@
   "last_short": "2026-10-31",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     80.58442199620988,
@@ -4550,6 +4566,10 @@
    [
     19.276261203029716,
     21.306568077630914
+   ],
+   [
+    26.788915766620402,
+    28.799619202643402
    ]
   ],
   "shorts_made": 2,
@@ -5737,6 +5757,7 @@
   "last_short": "2026-11-01",
   "long": "2026-10-30",
   "montage_used": 4,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     6.902635197993996,
@@ -8257,10 +8278,10 @@
   "video_len": 63
  },
  "hamdan bin mohammed meets with uae diplomatic mission in india commends ministry of foreign affairs efforts": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-10-31",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     23.68,
@@ -8269,6 +8290,10 @@
    [
     5.271421489647989,
     7.009334814482752
+   ],
+   [
+    28.66,
+    30.58
    ]
   ],
   "shorts_made": 1,
@@ -9727,6 +9752,7 @@
   "last_short": "2026-11-01",
   "montage_exhausted": true,
   "montage_used": 5,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     59.31105310462557,
@@ -12191,7 +12217,7 @@
  "hamdan bin mohammed visits dubai government hr department": {
   "last_short": "2026-10-31",
   "long": "2026-10-31",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     92.94184157109537,
@@ -12208,6 +12234,10 @@
    [
     100.67114603012254,
     102.15713322779995
+   ],
+   [
+    73.70441782520334,
+    75.53292434879684
    ]
   ],
   "shorts_made": 1,
@@ -12909,7 +12939,7 @@
  "hamdan bin mohammed visits personal status court": {
   "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     80.89349709731536,
@@ -12926,6 +12956,10 @@
    [
     64.39678620559616,
     66.36401391961978
+   ],
+   [
+    30.67562634512104,
+    32.30476562776053
    ]
   ],
   "video_exhausted": true,
@@ -13947,6 +13981,7 @@
   "last_short": "2026-11-01",
   "long": "2026-10-31",
   "montage_used": 4,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     27.446859008884246,

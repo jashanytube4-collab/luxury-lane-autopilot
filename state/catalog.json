@@ -547,6 +547,7 @@
   "last_short": "2026-11-01",
   "long": "2026-10-31",
   "montage_used": 7,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     20.424621499001876,
@@ -940,7 +941,7 @@
  },
  "dubai crown prince visits dubai municipality": {
   "last_short": "2026-11-01",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     296.0,
@@ -973,6 +974,10 @@
    [
     40.228255260581506,
     42.3833063745775
+   ],
+   [
+    74.32509173932162,
+    76.65929905218255
    ]
   ],
   "shorts_made": 1,
@@ -2771,7 +2776,7 @@
  "hamdan bin mohammed attends dubai police graduation ceremony": {
   "last_short": "2026-10-31",
   "long": "2026-10-30",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     166.60279951075904,
@@ -2804,6 +2809,10 @@
    [
     85.54799040562213,
     87.10515682503453
+   ],
+   [
+    192.4,
+    194.04
    ]
   ],
   "shorts_made": 1,
@@ -4733,7 +4742,7 @@
   "last_short": "2026-11-01",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     136.78354122945424,
@@ -4758,6 +4767,10 @@
    [
     144.3314525774245,
     145.85603187215065
+   ],
+   [
+    92.95333333333333,
+    94.81333333333333
    ]
   ],
   "shorts_made": 1,
@@ -5579,7 +5592,7 @@
  "hamdan bin mohammed honours winners of 5th islamic economy award": {
   "last_short": "2026-11-01",
   "long": "2026-10-30",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     219.23125416320443,
@@ -5608,6 +5621,10 @@
    [
     36.76,
     38.760000000000005
+   ],
+   [
+    191.6050223441779,
+    193.0791092803379
    ]
   ],
   "shorts_made": 2,
@@ -7037,7 +7054,7 @@
  "hamdan bin mohammed meets first batch of female cadets graduating from dubai police academy": {
   "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     146.78250342450744,
@@ -7062,6 +7079,10 @@
    [
     171.59053767699172,
     173.91666316824416
+   ],
+   [
+    169.02417220031163,
+    170.45469881182478
    ]
   ],
   "shorts_made": 1,
@@ -8806,7 +8827,7 @@
  "hamdan bin mohammed offers condolences to family of martyr saeed alhajri": {
   "last_short": "2026-10-31",
   "long": "2026-10-27",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_ranges": [
    [
     30.126788906092074,
@@ -8815,6 +8836,10 @@
    [
     50.5027639785565,
     52.532445913915915
+   ],
+   [
+    109.35718328311563,
+    110.78051937436136
    ]
   ],
   "shorts_made": 1,
@@ -11192,7 +11217,7 @@
  },
  "hamdan bin mohammed unveils 5 star plaque at sheikh zayed housing programme in dubai": {
   "last_short": "2026-11-01",
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     144.8978218171365,
@@ -11229,6 +11254,10 @@
    [
     77.14868324128821,
     79.2008845526178
+   ],
+   [
+    128.05784535322502,
+    130.17096760688207
    ]
   ],
   "shorts_made": 3,
@@ -13318,7 +13347,7 @@
   "last_short": "2026-11-01",
   "long": "2026-10-23",
   "montage_exhausted": true,
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     49.961579847562305,
@@ -13327,6 +13356,10 @@
    [
     31.928515887353615,
     34.34668820040439
+   ],
+   [
+    81.75333333333334,
+    83.44666666666666
    ]
   ],
   "shorts_made": 2,

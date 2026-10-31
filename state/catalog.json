@@ -3810,6 +3810,7 @@
   "fails": 1,
   "last_short": "2026-10-28",
   "long": "2026-10-30",
+  "montage_exhausted": true,
   "montage_used": 3,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -4489,7 +4490,7 @@
   "last_short": "2026-10-31",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     85.4953236324418,
@@ -4498,6 +4499,10 @@
    [
     34.02724525849774,
     36.25685843361086
+   ],
+   [
+    92.09883164183942,
+    93.56607065294595
    ]
   ],
   "shorts_made": 1,
@@ -5401,7 +5406,7 @@
  "hamdan bin mohammed honours arab contributors to entrepreneurial development": {
   "last_short": "2026-10-31",
   "long": "2026-10-31",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     134.08871265198363,
@@ -5418,6 +5423,10 @@
    [
     224.14279285371964,
     225.7449126688278
+   ],
+   [
+    21.560000000000002,
+    23.56
    ]
   ],
   "shorts_made": 2,
@@ -5813,6 +5822,7 @@
  },
  "hamdan bin mohammed inaugurates dubai fitness challenge": {
   "long": "2026-10-18",
+  "montage_exhausted": true,
   "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 247
@@ -6288,7 +6298,7 @@
  "hamdan bin mohammed launches 26 dubai 10x projects issues directive to implement them within 24 months": {
   "last_short": "2026-10-31",
   "long": "2026-10-31",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     113.84243637422479,
@@ -6321,6 +6331,10 @@
    [
     212.04763119024207,
     214.21641874203567
+   ],
+   [
+    108.8585936677509,
+    110.28951182610396
    ]
   ],
   "shot_ranges": [
@@ -6892,7 +6906,7 @@
   "last_short": "2026-10-31",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     14.912667226240458,
@@ -6913,6 +6927,10 @@
    [
     77.4432381909587,
     79.40323814852276
+   ],
+   [
+    23.537439647487908,
+    25.118524466768317
    ]
   ],
   "shorts_made": 2,
@@ -8073,7 +8091,7 @@
  "hamdan bin mohammed meets with participants of retail summit in dubai": {
   "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     4.6968630874811845,
@@ -8110,6 +8128,10 @@
    [
     162.6017075569793,
     163.3841498785678
+   ],
+   [
+    77.4303695063737,
+    78.89851778205733
    ]
   ],
   "shorts_made": 1,
@@ -8948,7 +8970,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2017": {
   "last_short": "2026-11-01",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     15.810590002816998,
@@ -8969,6 +8991,10 @@
    [
     106.16000000000001,
     107.88
+   ],
+   [
+    244.84,
+    246.68
    ]
   ],
   "shorts_made": 1,
@@ -9331,7 +9357,7 @@
  "hamdan bin mohammed opens salem medical fitness smart centre": {
   "last_short": "2026-11-01",
   "long": "2026-10-18",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     182.01540657684788,
@@ -9360,6 +9386,10 @@
    [
     44.792017957112314,
     46.207086789085615
+   ],
+   [
+    153.4641583025426,
+    155.65609674575367
    ]
   ],
   "shorts_made": 3,
@@ -13829,7 +13859,7 @@
  "hamdan inaugurates makani smart app": {
   "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 3,
+  "montage_used": 4,
   "no_video_until": "2026-10-29",
   "remix_ranges": [
    [
@@ -13843,6 +13873,10 @@
    [
     60.725437505391064,
     63.274236867555615
+   ],
+   [
+    30.23177717876779,
+    31.9216578511587
    ]
   ],
   "video_exhausted": true,

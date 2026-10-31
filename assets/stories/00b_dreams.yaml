@@ -1,6 +1,6 @@
 id: dreams
 title: "A Crying Boy Begged to See Dubai — What Prince Hamdan Did Next Made the World Cry"
-thumbnail: {text: "HE MADE IT HAPPEN", tag: "TRUE STORY"}
+thumbnail: {text: "HE MADE IT HAPPEN", tag: "TRUE STORY", scene: "clip:milan-cry-close@1.5"}
 mood: elegant
 description: >-
   A little boy in Kenya cried because he wanted to go to Dubai "right now". Weeks later, he was standing under the
@@ -37,7 +37,7 @@ sections:
       a planet had landed on it. For millions of people watching, it was a reminder that sometimes the most powerful
       people in the world are still moved by a child's tears. Here is our question. If you could visit one place in
       Dubai, where would you go first? Tell us in the comments.
-    show: ["cat:Burj Khalifa", "search:Dubai Fountain", "search:Dubai Miracle Garden", "search:hot air balloon desert"]
+    show: ["cat:Burj Khalifa", "search:Dubai Fountain", "search:Ski Dubai", "search:IMG Worlds"]
   - say: >-
       Milan was not the first person Fazza surprised. In July two thousand and twenty-two, a video went viral in Dubai.
       A food delivery rider stopped his motorbike at a busy junction, picked up two heavy concrete blocks that had

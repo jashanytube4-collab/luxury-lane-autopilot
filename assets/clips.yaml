@@ -1454,3 +1454,83 @@ clips:
     parts: [[5.2, 9.6]]
     note: 'frames checked 2026-10-27: side by side portraits of Abdul Ghafoor and Sheikh Hamdan, slow zoom, no text'
     credit: Sheikh Hamdan meets Abdul Ghafoor (2022), as shared online
+  # Kenyan boy Milan (story 00b_dreams). Source: MediaOne Gulf news report, his mother's vertical phone video
+  # inside the news frame; crop keeps only the phone video (no Malayalam bars, no logos). Every part checked at
+  # 4 fps on 2026-11-01.
+  milan-cry:
+    match: 'crying little boy he had never met'
+    yt: hIc4CMSthfw
+    parts: [[16.3, 23.2]]
+    crop: [0.35, 0.115, 0.65, 0.85]
+    note: 'frames checked 2026-11-01: Milan crying on the sofa, his mother beside him, one continuous shot'
+    credit: Milan's mother's video, via MediaOne
+  milan-cry-close:
+    match: 'The boy was in Kenya'
+    yt: hIc4CMSthfw
+    parts: [[23.6, 26.9]]
+    crop: [0.35, 0.115, 0.65, 0.85]
+    note: 'frames checked 2026-11-01: close-up of Milan in tears'
+    credit: Milan's mother's video, via MediaOne
+  milan-cry-mum:
+    match: 'thought Dubai might be a planet'
+    yt: hIc4CMSthfw
+    parts: [[27.2, 34.0]]
+    crop: [0.35, 0.115, 0.65, 0.85]
+    note: 'frames checked 2026-11-01: his mother talks to him, he wipes his tears (ends before the Instagram circle)'
+    credit: Milan's mother's video, via MediaOne
+  milan-fazza-story:
+    match: 'appeared somewhere nobody expected'
+    yt: hIc4CMSthfw
+    parts: [[36.1, 38.1]]
+    crop: [0.35, 0.115, 0.65, 0.85]
+    note: 'frames checked 2026-11-01: Sheikh Hamdan walking in white kandura, waves (from his Instagram story)'
+    credit: Sheikh Hamdan's Instagram (@faz3), via MediaOne
+  milan-ig-msg:
+    match: 'hopefully very soon'
+    yt: hIc4CMSthfw
+    parts: [[42.6, 46.9]]
+    crop: [0.35, 0.115, 0.65, 0.85]
+    note: 'frames checked 2026-11-01: his story text "It will make me very happy to see you in Dubai, hopefully very soon"'
+    credit: Sheikh Hamdan's Instagram (@faz3), via MediaOne
+  milan-arrive:
+    match: 'Milan and his family were arriving'
+    yt: hIc4CMSthfw
+    parts: [[48.5, 49.95], [53.85, 55.4]]
+    crop: [0.35, 0.115, 0.65, 0.85]
+    note: 'frames checked 2026-11-01: the family at the Dubai Fountain at night; father carrying Milan, city lights'
+    credit: Milan's family's video, via MediaOne
+  milan-burj:
+    match: 'foot of the Burj Khalifa'
+    yt: hIc4CMSthfw
+    parts: [[57.5, 59.9]]
+    crop: [0.35, 0.115, 0.65, 0.85]
+    note: 'frames checked 2026-11-01: Milan standing at the entrance of the Burj Khalifa'
+    credit: Milan's family's video, via MediaOne
+  milan-brothers:
+    match: 'Milan came with his brother'
+    yt: hIc4CMSthfw
+    parts: [[60.5, 63.3]]
+    crop: [0.35, 0.115, 0.65, 0.85]
+    note: 'frames checked 2026-11-01: Milan, Christopher and their parents dancing at the Burj Khalifa'
+    credit: Milan's family's video, via MediaOne
+  milan-places:
+    match: 'rainforest of The Green'
+    yt: hIc4CMSthfw
+    parts: [[82.75, 84.5], [52.2, 53.75], [89.72, 91.2]]
+    crop: [0.35, 0.115, 0.65, 0.85]
+    note: 'frames checked 2026-11-01: The Green Planet sign + sloth mascot; the family in parkas at the snow (Ski Dubai); IMG Worlds sign + family inside'
+    credit: Milan's family's video, via MediaOne
+  milan-top:
+    match: 'had landed on it'
+    yt: hIc4CMSthfw
+    parts: [[91.9, 93.2]]
+    crop: [0.35, 0.115, 0.65, 0.85]
+    note: 'frames checked 2026-11-01: Milan looking down at the city from a Burj Khalifa window'
+    credit: Milan's family's video, via MediaOne
+  milan-fair:
+    match: 'Milan and Christopher from Kenya'
+    yt: hIc4CMSthfw
+    parts: [[94.55, 95.7]]
+    crop: [0.35, 0.115, 0.65, 0.85]
+    note: 'frames checked 2026-11-01: Milan smiling at a fun fair at night'
+    credit: Milan's family's video, via MediaOne

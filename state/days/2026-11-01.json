@@ -306,8 +306,13 @@
   },
   {
    "at": "2026-11-02T05:23:14+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Dubai's future shines through Hamdan's vision. ✨ #youtubeshorts #youtube #fazza",
+   "type": "short",
+   "video_id": "J4T0zf8PlqQ",
+   "voiced": true
   },
   {
    "at": "2026-11-02T06:07:07+04:00",

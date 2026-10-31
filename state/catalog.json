@@ -695,7 +695,7 @@
  "dubai crown prince offers condolences al muhairi family": {
   "last_short": "2026-11-01",
   "long": "2026-10-22",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     21.925560678740784,
@@ -731,6 +731,10 @@
    [
     26.8,
     28.88
+   ],
+   [
+    47.559999999999995,
+    49.96
    ]
   ],
   "video_exhausted": true,
@@ -761,9 +765,9 @@
   "long": "2026-10-31"
  },
  "dubai crown prince receives australia s governor general": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -781,6 +785,12 @@
    [
     111.69575018491946,
     113.14229685317805
+   ]
+  ],
+  "shot_ranges": [
+   [
+    72.585,
+    74.41499999999999
    ]
   ],
   "video_exhausted": true,
@@ -2793,9 +2803,9 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed attends dubai international health tourism forum": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -2813,6 +2823,12 @@
    [
     252.72,
     254.6
+   ]
+  ],
+  "shot_ranges": [
+   [
+    40.400000000000006,
+    45.400000000000006
    ]
   ],
   "video_exhausted": true,
@@ -3005,7 +3021,7 @@
  "hamdan bin mohammed attends global cardiology congress": {
   "last_short": "2026-11-01",
   "long": "2026-10-22",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     227.92000000000002,
@@ -3049,6 +3065,10 @@
    [
     25.92,
     30.04
+   ],
+   [
+    21.040000000000003,
+    23.24
    ]
   ],
   "video_exhausted": true,
@@ -3589,6 +3609,7 @@
  "hamdan bin mohammed attends iftar banquet with autistic children and their families": {
   "last_short": "2026-11-01",
   "long": "2026-10-28",
+  "montage_exhausted": true,
   "montage_used": 6,
   "remix_ranges": [
    [
@@ -7708,6 +7729,7 @@
  },
  "hamdan bin mohammed meets teams at the forefront of implementing preventive measures against covid 19": {
   "last_short": "2026-10-24",
+  "montage_exhausted": true,
   "montage_used": 2,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -11958,8 +11980,8 @@
   "long": "2026-10-13"
  },
  "hamdan bin mohammed visits al seef project": {
-  "last_short": "2026-10-31",
-  "montage_used": 3,
+  "last_short": "2026-11-01",
+  "montage_used": 4,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -11975,6 +11997,10 @@
    [
     15.0,
     18.32
+   ],
+   [
+    133.04,
+    136.64
    ]
   ],
   "video_exhausted": true,

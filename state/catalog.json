@@ -633,9 +633,9 @@
   "video_len": 149
  },
  "dubai crown prince offers condolences al muhairi family": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-11-01",
   "long": "2026-10-22",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     21.925560678740784,
@@ -652,6 +652,10 @@
    [
     27.243402145688126,
     28.781438537125577
+   ],
+   [
+    43.16,
+    44.88
    ]
   ],
   "shorts_made": 1,
@@ -742,6 +746,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 8,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     67.26728040581254,
@@ -1732,7 +1737,7 @@
  },
  "hamdan bin mohammed approves dff s three year strategic plan": {
   "last_short": "2026-11-01",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     44.755956300528126,
@@ -1765,6 +1770,10 @@
    [
     191.84499956462142,
     193.56573372654736
+   ],
+   [
+    229.3054089411452,
+    230.84543687415652
    ]
   ],
   "shorts_made": 3,
@@ -2835,9 +2844,9 @@
   "video_len": 292
  },
  "hamdan bin mohammed attends global islamic economy summit": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-11-01",
   "long": "2026-10-30",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     198.37148978554302,
@@ -2850,6 +2859,10 @@
    [
     191.16141904327583,
     192.81081544690682
+   ],
+   [
+    48.826175822950646,
+    50.271484984903516
    ]
   ],
   "shorts_made": 3,
@@ -3210,7 +3223,7 @@
  "hamdan bin mohammed attends hct graduation": {
   "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     45.8,
@@ -3227,6 +3240,10 @@
    [
     219.71909112280235,
     221.2478482755281
+   ],
+   [
+    232.12268199662284,
+    234.66836320862043
    ]
   ],
   "shorts_made": 1,
@@ -3888,9 +3905,9 @@
   "video_len": 507
  },
  "hamdan bin mohammed attends the launche of uae innovation month in dubai": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-01",
   "long": "2026-10-30",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     42.38019053786916,
@@ -3923,6 +3940,10 @@
    [
     115.36,
     117.19999999999999
+   ],
+   [
+    20.05592568357923,
+    22.38597441702061
    ]
   ],
   "shorts_made": 1,
@@ -4304,9 +4325,9 @@
   "video_len": 78
  },
  "hamdan bin mohammed chairs executive council meeting approves series of economic stimulus policies": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-01",
   "long": "2026-10-30",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     25.517707085490756,
@@ -4327,6 +4348,10 @@
    [
     111.4,
     113.03999999999999
+   ],
+   [
+    67.62656932445387,
+    70.07867953944081
    ]
   ],
   "shorts_made": 1,
@@ -6185,6 +6210,7 @@
   "last_short": "2026-10-31",
   "long": "2026-10-31",
   "montage_used": 7,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     0.8284244282312303,
@@ -10624,6 +10650,7 @@
  "hamdan bin mohammed tours gitex global 2022 on its concluding day": {
   "last_short": "2026-11-01",
   "montage_used": 6,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     119.07687657973835,
@@ -12764,9 +12791,9 @@
   "video_len": 137
  },
  "hamdan bin mohammed visits stands of government entities at gitex2019": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     143.24971079721686,
@@ -12791,6 +12818,10 @@
    [
     44.44094265966632,
     46.59496849596636
+   ],
+   [
+    210.52018543146042,
+    211.9346391556468
    ]
   ],
   "shorts_made": 2,
@@ -13424,7 +13455,7 @@
  "hamdan inaugurates makani smart app": {
   "last_short": "2026-11-01",
   "long": "2026-10-31",
-  "montage_used": 2,
+  "montage_used": 3,
   "no_video_until": "2026-10-29",
   "remix_ranges": [
    [
@@ -13434,6 +13465,10 @@
    [
     17.244190528513737,
     19.024207606465673
+   ],
+   [
+    60.725437505391064,
+    63.274236867555615
    ]
   ],
   "video_exhausted": true,

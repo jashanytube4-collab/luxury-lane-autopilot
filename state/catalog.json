@@ -269,9 +269,9 @@
   "long": "2026-10-17"
  },
  "dubai crown prince attends graduation of dubai police academy": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-02",
   "long": "2026-10-31",
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     211.78852581766063,
@@ -328,6 +328,10 @@
    [
     526.321278541296,
     528.0710617006721
+   ],
+   [
+    125.17335155454225,
+    127.50736799611951
    ]
   ],
   "shorts_made": 2,
@@ -2201,6 +2205,7 @@
   "last_short": "2026-11-01",
   "long": "2026-10-11",
   "montage_used": 10,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     51.549294734111434,
@@ -2605,7 +2610,7 @@
  "hamdan bin mohammed attends closing ceremony of 3rd dubai future accelerators program": {
   "last_short": "2026-11-02",
   "long": "2026-10-30",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     2.92,
@@ -2638,6 +2643,10 @@
    [
     287.635939322474,
     289.0655712427952
+   ],
+   [
+    238.08,
+    240.07999999999998
    ]
   ],
   "shorts_made": 3,
@@ -3096,7 +3105,7 @@
  "hamdan bin mohammed attends global cardiology congress": {
   "last_short": "2026-11-02",
   "long": "2026-10-22",
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     227.92000000000002,
@@ -3133,6 +3142,10 @@
    [
     100.67920096798953,
     102.16306074818007
+   ],
+   [
+    187.68036744046955,
+    189.31038991634162
    ]
   ],
   "shorts_made": 1,
@@ -3164,7 +3177,7 @@
  "hamdan bin mohammed attends global islamic economy summit": {
   "last_short": "2026-11-02",
   "long": "2026-10-30",
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     198.37148978554302,
@@ -3213,6 +3226,10 @@
    [
     209.2191033273679,
     211.4351826842556
+   ],
+   [
+    64.4,
+    66.16
    ]
   ],
   "shorts_made": 3,
@@ -7874,7 +7891,7 @@
  "hamdan bin mohammed meets students of dubai schools": {
   "last_short": "2026-11-02",
   "long": "2026-10-17",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     163.49934334402403,
@@ -7903,6 +7920,10 @@
    [
     185.2531364050187,
     186.76481650013818
+   ],
+   [
+    319.28097034590377,
+    321.18037971567236
    ]
   ],
   "shorts_made": 3,
@@ -9620,7 +9641,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2017": {
   "last_short": "2026-11-02",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     15.810590002816998,
@@ -9657,6 +9678,10 @@
    [
     158.76,
     161.12
+   ],
+   [
+    239.61500529763921,
+    241.6449640223573
    ]
   ],
   "shorts_made": 1,
@@ -10756,6 +10781,7 @@
   "last_short": "2026-11-02",
   "long": "2026-10-31",
   "montage_used": 11,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     90.22305596119119,
@@ -11514,6 +11540,7 @@
   "last_short": "2026-11-02",
   "long": "2026-10-31",
   "montage_used": 10,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     48.384688122709605,
@@ -13306,9 +13333,9 @@
   "video_len": 154
  },
  "hamdan bin mohammed visits dubai hospital": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-02",
   "long": "2026-10-14",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     31.287519536112814,
@@ -13329,6 +13356,10 @@
    [
     209.61535190350148,
     211.59958803719678
+   ],
+   [
+    142.12355789252902,
+    143.66365772025526
    ]
   ],
   "shorts_made": 3,
@@ -14072,6 +14103,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 11,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     276.27271542570674,

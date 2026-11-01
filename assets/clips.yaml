@@ -1534,3 +1534,118 @@ clips:
     crop: [0.35, 0.115, 0.65, 0.85]
     note: 'frames checked 2026-11-01: Milan smiling at a fun fair at night'
     credit: Milan's family's video, via MediaOne
+  # reef story r02 (keepbusy 2026-11-01): more scenes from his Dubai Reef + turtle videos, every frame looked at
+  ig-reef-face:
+    match: 'looks? (out )?at the (sea|water)|on (a|the) boat'
+    ig: '18006598649398953'
+    parts: [[1.9, 3.2]]
+    note: '16:9 cut, frames checked 2026-11-01: close: Hamdan on the boat looking out to sea'
+    credit: Sheikh Hamdan's Instagram (@faz3)
+  ig-reef-speedboat:
+    match: '\bboat\b|heads? out|sails?'
+    ig: '18006598649398953'
+    parts: [[3.0, 4.1]]
+    note: '16:9 cut, frames checked 2026-11-01: speedboat with divers heading out to the reef site'
+    credit: Sheikh Hamdan's Instagram (@faz3)
+  ig-reef-plaque:
+    match: 'plaque|sign(ed|s)?\b|module number one|first module|Ray Dalio'
+    ig: '18006598649398953'
+    parts: [[4.0, 7.0]]
+    note: '16:9 cut, frames checked 2026-11-01: Hamdan and Ray Dalio sign the Dubai Reef module number 1 plaque on the boat'
+    credit: Sheikh Hamdan's Instagram (@faz3)
+  ig-reef-module:
+    match: '\bmodules?\b|concrete|structure'
+    ig: '18006598649398953'
+    parts: [[8.0, 10.0]]
+    note: '16:9 cut, frames checked 2026-11-01: concrete reef module structure on deck, worker on top'
+    credit: Sheikh Hamdan's Instagram (@faz3)
+  ig-reef-crane:
+    match: '\bcrane\b|lower(ed|s)?|placed on the sea floor|into the sea'
+    ig: '18006598649398953'
+    parts: [[10.2, 12.0]]
+    note: '16:9 cut, frames checked 2026-11-01: crane lowers a concrete reef module from a barge'
+    credit: Sheikh Hamdan's Instagram (@faz3)
+  ig-reef-gear:
+    match: 'scuba|dive gear|wetsuit|gets? ready to dive|dived?\b'
+    ig: '18006598649398953'
+    parts: [[20.6, 22.1]]
+    note: '16:9 cut, frames checked 2026-11-01: Hamdan in a camouflage wetsuit and scuba gear on the boat edge'
+    credit: Sheikh Hamdan's Instagram (@faz3)
+  ig-reef-enter:
+    match: 'into the water|dives? in|goes under|went underwater|dived?\b'
+    ig: '18006598649398953'
+    parts: [[22.0, 24.0]]
+    note: '16:9 cut, frames checked 2026-11-01: Hamdan in the water in scuba gear, about to go under'
+    credit: Sheikh Hamdan's Instagram (@faz3)
+  ig-reef-descend:
+    match: 'underwater|dive|divers?|went down'
+    ig: '18006598649398953'
+    parts: [[24.0, 26.0]]
+    note: '16:9 cut, frames checked 2026-11-01: two divers going down underwater (Hamdan in camouflage)'
+    credit: Sheikh Hamdan's Instagram (@faz3)
+  ig-reef-x:
+    match: 'fish|module|reef structure|apartments'
+    ig: '18006598649398953'
+    parts: [[38.0, 40.0]]
+    note: '16:9 cut, frames checked 2026-11-01: fish swimming through an X-shaped reef module underwater'
+    credit: Sheikh Hamdan's Instagram (@faz3)
+  ig-reef-divers2:
+    match: 'divers?|underwater'
+    ig: '18006598649398953'
+    parts: [[41.0, 43.0]]
+    note: '16:9 cut, frames checked 2026-11-01: diver beside the reef modules underwater'
+    credit: Sheikh Hamdan's Instagram (@faz3)
+  ig-reef-growth:
+    match: 'grow(s|th|ing)?|corals? attach|life attracts'
+    ig: '18006598649398953'
+    parts: [[44.1, 46.1]]
+    note: '16:9 cut, frames checked 2026-11-01: sea growth on the reef module underwater'
+    credit: Sheikh Hamdan's Instagram (@faz3)
+  ig-turtle-hatch:
+    match: 'hatchlings?|baby turtles?'
+    ig: '17868871735807501'
+    parts: [[5.0, 8.5]]
+    note: '16:9 cut, frames checked 2026-11-01: a baby turtle crawls across the sand to the sea'
+    credit: Sheikh Hamdan's Instagram (@faz3)
+  ig-turtle-swim:
+    match: 'turtles?|swim'
+    ig: '17868871735807501'
+    parts: [[16.0, 20.0]]
+    note: '16:9 cut, frames checked 2026-11-01: baby turtles swim away near the Burj Al Arab'
+    credit: Sheikh Hamdan's Instagram (@faz3)
+  ig-turtle-crates:
+    match: 'turtles?|rehabilitat|nurse'
+    ig: '17868871735807501'
+    parts: [[23.0, 25.0]]
+    note: '16:9 cut, frames checked 2026-11-01: rescued turtles in crates on the boat, wrapped in towels'
+    credit: Sheikh Hamdan's Instagram (@faz3)
+  ig-turtle-hold:
+    match: 'hawksbill|turtles?|holds?'
+    ig: '17868871735807501'
+    parts: [[26.0, 28.0]]
+    note: '16:9 cut, frames checked 2026-11-01: Hamdan holds a hawksbill turtle on the boat'
+    credit: Sheikh Hamdan's Instagram (@faz3)
+  ig-turtle-release:
+    match: 'turtles?|from a boat|back to the sea|release'
+    ig: '17868871735807501'
+    parts: [[28.0, 30.0]]
+    note: '16:9 cut, frames checked 2026-11-01: Hamdan lowers a turtle into the sea from the boat'
+    credit: Sheikh Hamdan's Instagram (@faz3)
+  ig-reef-wall:
+    match: 'corals? (cover|attach)|reef (starts to )?grow|sea life|module'
+    ig: '18006598649398953'
+    parts: [[31.2, 33.8]]
+    note: '16:9 cut, frames checked 2026-11-01: coral and fish growing on a reef module'
+    credit: Sheikh Hamdan's Instagram (@faz3)
+  ig-reef-banner-a:
+    match: 'banner|Dubai Reef'
+    ig: '18006598649398953'
+    parts: [[47.1, 48.5]]
+    note: '16:9 cut, frames checked 2026-11-01: Hamdan underwater holding the Dubai Reef banner'
+    credit: Sheikh Hamdan's Instagram (@faz3)
+  ig-reef-sink:
+    match: 'sink|sea floor|module'
+    ig: '18006598649398953'
+    parts: [[12.2, 14.8]]
+    note: '16:9 cut, frames checked 2026-11-01: a reef module standing in murky water on the sea floor'
+    credit: Sheikh Hamdan's Instagram (@faz3)

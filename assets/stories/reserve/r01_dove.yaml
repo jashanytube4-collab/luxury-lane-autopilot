@@ -1,0 +1,289 @@
+# NOT FRESH (keepbusy 2026-11-01 18:20): the dove-on-the-G-Class story was already a full segment in 05b_emotional_moments, 07_true_or_fake and fazza-money (published). Do not promote unless the owner asks; topics must be new (rule 30c).
+# RESERVE (not in the live queue). ready:false until: Storyblocks stock: placeholders are replaced by vetted sb-<id> clips
+# (Arab/Emirati, 3-5 s), every clip viewed against its sentence, then lint/plan_check gates. Written 2026-11-01.
+id: r01-bird-on-the-car
+title: Why Prince Fazza Left His Car Alone for Weeks — Because of One Tiny Bird
+thumbnail:
+  text: ONE TINY BIRD
+  tag: STOPPED THE PRINCE
+  scene: clip:ig-dove-gwagon
+mood: elegant
+commons: false
+footage: .
+ready: false
+description: A dove built a nest on the Mercedes G-Class of Sheikh Hamdan, Crown Prince of Dubai. He had tape put around the car, left it alone, filmed the chicks hatching and posted the
+  story. Built only from his own Instagram posts and news reports from Gulf News, Gulf Today and Esquire Middle East.
+tags:
+- Prince Hamdan dove
+- Fazza bird nest
+- Sheikh Hamdan G Class
+- Crown Prince of Dubai kindness
+- Fazza animals
+- Sheikh Hamdan Instagram
+- Fazza dove video
+- Dubai royal kindness
+sections:
+- beats:
+  - say: Why did the Crown Prince of Dubai stop using his own car, and keep it parked for weeks, because of something smaller than his hand? Stay until the end, and I will reveal the last frame of this
+      story.
+    show:
+    - clip:ig-dove-gwagon
+    - clip:ig-gwagon-rain-a
+  - say: It really happened, and the whole story is on his own Instagram.
+    show:
+    - clip:ig-gwagon-desert-a
+  - say: No scandal, no secret, no rumour. Just a man, a car, and a bird.
+    show:
+    - clip:ig-dove-nest
+  - say: And yet more than half a million people stopped scrolling to watch it.
+    show:
+    - clip:ig-dove-close
+  - say: Today I will tell you exactly what happened, using only what he posted and what the news reported.
+    show:
+    - clip:ig-gwagon-desert-b
+  - say: And I will show you why this small moment says more about Prince Hamdan than a thousand grand speeches.
+    show:
+    - clip:ig-camel-window-a
+- beats:
+  - say: Start with the car.
+    show:
+    - clip:ig-gwagon-desert-c
+  - say: It is a black Mercedes G-Class, the AMG model that news outlets called the G sixty-three.
+    show:
+    - clip:ig-gwagon-desert-d
+  - say: It is the kind of vehicle the world connects with money, speed and power.
+    show:
+    - him
+  - say: His followers have seen it in the desert, in the rain, on the roads of Dubai.
+    show:
+    - clip:ig-gwagon-rain-b
+  - say: He often shares his own drives on his page.
+    show:
+    - clip:ig-selfdrive-a
+  - say: Then, one summer morning, something landed on it.
+    show:
+    - clip:ig-dove-nest
+  - say: A dove.
+    show:
+    - clip:ig-dove-gwagon
+  - say: Reports say a pair of doves chose the car as the place to build their nest.
+    show:
+    - clip:ig-dove-car-end
+  - say: Think about that for a second. The bird had the whole of Dubai to choose from.
+    show:
+    - clip:ig-cloud-roof-a
+  - say: Trees, rooftops, balconies, ten thousand quiet corners. And it picked the car of the Crown Prince.
+    show:
+    - clip:ig-dove-nest
+- beats:
+  - say: Now, what would most people do?
+    show:
+    - him
+  - say: Most of us would wave the bird away, wash the roof, and drive off, because we have somewhere to be.
+    show:
+    - clip:ig-gwagon-rain-a
+  - say: That is not what he did.
+    show:
+    - him
+  - say: He said on Instagram that he would not use his vehicle for some time, so that he would not disturb the bird building a nest on it.
+    show:
+    - clip:ig-dove-gwagon
+  - say: Read that sentence again, because it is the whole story.
+    show:
+    - him
+  - say: 'A man who can have any car in the country said: this one can wait.'
+    show:
+    - clip:ig-gwagon-desert-a
+  - say: And the news reports add a detail that makes it even more striking.
+    show:
+    - clip:ig-dove-close
+  - say: They say the car was cordoned off. Red tape around it, so nobody would bump it, open a door or frighten the mother.
+    show:
+    - clip:ig-dove-nest
+  - say: Imagine the scene. One of the most expensive SUVs in the city, ringed with red tape, and the thing it is protecting is a nest.
+    show:
+    - clip:ig-dove-gwagon
+  - say: Reports say he filmed the nest from a distance. Not close, not noisy. A quiet distance, so the bird would stay.
+    show:
+    - clip:ig-dove-eggs
+  - say: 'Remember this, because it matters later: the video you are about to hear about was filmed by a man who chose not to get too close.'
+    show:
+    - clip:ig-dove-eggs
+- beats:
+  - say: Here is the question many people asked in the comments. Was this just a nice photo for social media?
+    show:
+    - him
+  - say: It is a fair question, and I think a fair answer needs the facts.
+    show:
+    - him
+  - say: Fact one. The nest was there for weeks, not for an afternoon. Weeks of a parked car are not a photo opportunity, they are a decision.
+    show:
+    - clip:ig-gwagon-rain-b
+  - say: Fact two. The posts were simple, a short caption and the moment itself.
+    show:
+    - clip:ig-dove-shell
+  - say: Fact three. He had been showing animals on his page long before this one.
+    show:
+    - clip:ig-camels-car-a
+  - say: There are camels that put their heads through his car window to be petted.
+    show:
+    - clip:ig-camel-window-b
+  - say: There are falcons beside him, horses that rest their faces on his shoulder, and a herd of elephants walking beside a dirt road.
+    show:
+    - clip:ig-elephants-a
+  - say: So this was not a one-time act. It matched a pattern that his followers had seen again and again.
+    show:
+    - clip:ig-elephant-mirror
+  - say: Whether you call it kindness, patience or simply love of living things, it was consistent.
+    show:
+    - clip:ig-falcon-car
+  - say: 'And notice what is missing from the whole story: there is no lecture. He never told anyone to be kind to birds.'
+    show:
+    - clip:ig-falcon-white-a
+  - say: He simply parked the car, and let the video speak. Maybe that is why it travelled so far, because nobody felt told what to think.
+    show:
+    - clip:ig-falcon-white-b
+  - say: And remember, the whole thing played out quietly, one small post at a time, while millions of people watched.
+    show:
+    - clip:ig-sunset-a
+- beats:
+  - say: Now let us go back to the nest.
+    show:
+    - clip:ig-dove-hatch
+  - say: The pair of doves did what doves do. They sat on the eggs, one after the other, taking turns.
+    show:
+    - clip:ig-dove-eggs
+  - say: Reports describe the mother and the father sharing the parenting, one warming the eggs while the other stayed close.
+    show:
+    - clip:ig-dove-brood
+  - say: Days passed. The car stayed where it was.
+    show:
+    - clip:ig-gwagon-desert-b
+  - say: And then, one morning, Prince Hamdan posted an eighty second video.
+    show:
+    - clip:ig-dove-hatch
+  - say: The chicks had hatched. Two of them, right there beside the windshield of his black Mercedes.
+    show:
+    - clip:ig-dove-hatch
+  - say: In the video the parents remove the broken pieces of eggshell. They feed the chicks, and they keep them warm.
+    show:
+    - clip:ig-dove-shell
+  - say: The camera stays still, and so does everything around it.
+    show:
+    - clip:ig-dove-brood
+  - say: 'The caption said: Sometimes the little things in life are more than enough.'
+    show:
+    - clip:ig-dove-close
+- beats:
+  - say: I want you to feel the size of what happened next.
+    show:
+    - him
+  - say: Within two hours that video had five hundred forty-seven thousand views and more than seven thousand comments.
+    show:
+    - clip:ig-dove-hatch
+  - say: Two hours, for a pair of doves.
+    show:
+    - clip:ig-dove-close
+  - say: Why? Perhaps because people are tired of loud, expensive, perfect things.
+    show:
+    - clip:ig-cloud-roof-a
+  - say: They saw a powerful man pause his own life for a bird, and it felt like calm.
+    show:
+    - clip:ig-dove-brood
+  - say: Newspapers around the Gulf wrote about it. Fact checkers who looked into it rated the story true.
+    show:
+    - stock:dove bird nest
+  - say: That matters, because the internet is full of fake kind stories about famous people. This one was real.
+    show:
+    - him
+  - say: And here is the part that I find most interesting. It cost him nothing that anyone could count.
+    show:
+    - clip:ig-gwagon-desert-c
+  - say: 'No donation, no press release. Only the one thing powerful people have least of: time.'
+    show:
+    - clip:ig-dove-eggs
+  - say: He gave a bird his time.
+    show:
+    - stock:Arab man white kandura desert
+- beats:
+  - say: But we are not finished, because the story had a second chapter.
+    show:
+    - stock:dove bird nest
+  - say: Remember I promised you the last frame. We are getting close.
+    show:
+    - clip:ig-dove-brood
+  - say: A few weeks later the chicks were no longer chicks.
+    show:
+    - stock:Arab man white kandura desert
+  - say: Reports say they had grown, and he posted a new video of the young birds, now fully feathered.
+    show:
+    - clip:ig-dove-car-end
+  - say: The video follows their growth, step by step, like a small diary.
+    show:
+    - stock:dove bird nest
+  - say: Then comes the moment the whole series was leading to.
+    show:
+    - stock:Arab man white kandura desert
+  - say: I will tell you in a minute. First, one thing about why this matters for Dubai itself.
+    show:
+    - clip:ig-cloud-roof-b
+- beats:
+  - say: Dubai is a city of record breaking towers, and the Crown Prince is the man who chairs its Executive Council.
+    show:
+    - clip:ig-heli-e
+  - say: Yet the pictures that went around the Gulf that month were not of a tower.
+    show:
+    - clip:ig-heli-a
+  - say: They were of a nest.
+    show:
+    - stock:dove bird nest
+  - say: For a city that competes to be the biggest and the fastest, this was a quiet sign that something else counts too.
+    show:
+    - clip:ig-heli-d
+  - say: I think that is why people who have never been to Dubai, and may never go, still remember this clip.
+    show:
+    - clip:ig-heli-b
+  - say: A leader is judged by large decisions. But people also judge a leader by what he does when nobody forces him to do anything.
+    show:
+    - him
+  - say: And nobody forced him to park that car.
+    show:
+    - clip:ig-gwagon-rain-a
+- beats:
+  - say: So what does this tell us about Prince Hamdan? Let me be careful, because I do not want to invent anything.
+    show:
+    - him
+  - say: We cannot know what was in his mind. We only know what he chose to show.
+    show:
+    - him
+  - say: What he showed was patience. What he showed was respect for something small and weak.
+    show:
+    - stock:Arab man white kandura desert
+  - say: His own words on his page say that every picture has a story, and every story has a moment he would love to share.
+    show:
+    - him
+  - say: This moment he shared was a bird.
+    show:
+    - stock:dove bird nest
+- beats:
+  - say: Now, the last frame.
+    show:
+    - clip:ig-dove-car-end
+  - say: In the final video the young birds grow strong, and the series ends with one of them flying away.
+    show:
+    - clip:ig-dove-car-end
+  - say: Gone. The nest empty. The red tape could come down.
+    show:
+    - stock:Arab man white kandura desert
+  - say: That is the answer to the question I asked at the start. He left his car alone for weeks so that bird could leave on its own wings, and not a day before.
+    show:
+    - stock:dove bird nest
+  - say: Not because someone told him to. Because, in his own view, a small life was worth more than a drive.
+    show:
+    - stock:Arab man white kandura desert
+  - say: So next time you are in a hurry and something small is in your way, remember the black car and the red tape, and the quiet video that half a million people watched in two hours.
+    show:
+    - him
+  - say: If this story made you smile, tell us in the comments what small kindness you have seen lately, and subscribe so you do not miss the next one.
+    show:
+    - stock:dove bird nest

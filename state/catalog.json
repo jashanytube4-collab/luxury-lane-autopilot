@@ -1006,7 +1006,7 @@
  "dubai crown prince visits dubai municipality": {
   "last_short": "2026-11-02",
   "long": "2026-11-02",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     296.0,
@@ -1047,6 +1047,10 @@
    [
     83.31352892879498,
     85.45148341112396
+   ],
+   [
+    172.2196749283372,
+    173.64713827681516
    ]
   ],
   "shorts_made": 1,
@@ -2786,9 +2790,9 @@
   "video_len": 60
  },
  "hamdan bin mohammed attends dubai forum for government best practices": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-02",
   "long": "2026-10-31",
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     28.36,
@@ -2829,6 +2833,10 @@
    [
     102.86004864130996,
     105.03271521119213
+   ],
+   [
+    199.32164506344628,
+    201.3086192933002
    ]
   ],
   "shot_ranges": [
@@ -3694,6 +3702,7 @@
   "long": "2026-11-02",
   "montage_exhausted": true,
   "montage_used": 7,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     35.0824558967323,
@@ -4485,6 +4494,7 @@
   "last_short": "2026-11-02",
   "long": "2026-10-15",
   "montage_used": 8,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     37.90981226167036,
@@ -4690,6 +4700,7 @@
   "long": "2026-10-30",
   "montage_exhausted": true,
   "montage_used": 9,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     68.65279797830273,
@@ -4803,7 +4814,7 @@
   "last_short": "2026-11-02",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     85.4953236324418,
@@ -4828,6 +4839,10 @@
    [
     39.8,
     42.28
+   ],
+   [
+    77.060900856824,
+    79.18928772610323
    ]
   ],
   "shorts_made": 1,
@@ -6457,7 +6472,7 @@
  "hamdan bin mohammed inaugurates zabeel healthcare center": {
   "last_short": "2026-11-02",
   "long": "2026-10-22",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     399.88601091430286,
@@ -6474,6 +6489,10 @@
    [
     299.327615256283,
     301.178009956077
+   ],
+   [
+    183.43998466601542,
+    185.9193530151581
    ]
   ],
   "shorts_made": 1,
@@ -7380,6 +7399,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 6,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     14.912667226240458,
@@ -7511,6 +7531,7 @@
   "last_short": "2026-11-02",
   "long": "2026-10-31",
   "montage_used": 10,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     146.78250342450744,
@@ -7826,9 +7847,9 @@
   "video_len": 99
  },
  "hamdan bin mohammed meets students of dubai schools": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-02",
   "long": "2026-10-17",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     163.49934334402403,
@@ -7853,6 +7874,10 @@
    [
     261.5481961040707,
     263.77997387454883
+   ],
+   [
+    185.2531364050187,
+    186.76481650013818
    ]
   ],
   "shorts_made": 3,
@@ -9748,7 +9773,7 @@
  },
  "hamdan bin mohammed opens crime prevention international conference": {
   "last_short": "2026-11-02",
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     68.54641858440627,
@@ -9785,6 +9810,10 @@
    [
     40.277734811846614,
     41.68689301725444
+   ],
+   [
+    76.67661662274251,
+    78.17853564602241
    ]
   ],
   "shorts_made": 3,
@@ -10295,6 +10324,7 @@
  "hamdan bin mohammed receives chairman of wccd": {
   "last_short": "2026-10-31",
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     43.36821742219416,
@@ -11524,6 +11554,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 9,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     137.834523919362,
@@ -14229,9 +14260,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits the dubai future foundation headquarters and reviews 10x projects": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-02",
   "long": "2026-10-30",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     31.725173262132333,
@@ -14264,6 +14295,10 @@
    [
     4.15720391824553,
     6.202494005419745
+   ],
+   [
+    26.273958035519076,
+    27.680452213238773
    ]
   ],
   "shorts_made": 1,
@@ -14853,9 +14888,9 @@
   "video_len": 551
  },
  "hamdan inaugurates makani smart app": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-02",
   "long": "2026-10-31",
-  "montage_used": 4,
+  "montage_used": 5,
   "no_video_until": "2026-10-29",
   "remix_ranges": [
    [
@@ -14873,6 +14908,10 @@
    [
     30.23177717876779,
     31.9216578511587
+   ],
+   [
+    48.086666666666666,
+    49.980000000000004
    ]
   ],
   "video_exhausted": true,

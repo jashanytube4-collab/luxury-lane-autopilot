@@ -56,6 +56,7 @@
  "crown prince of dubai inaugurates the hamdan smart station for simulation and training": {
   "last_short": "2026-10-30",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 7,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -1091,6 +1092,7 @@
  },
  "dubai crown prince visits emirates nbd head office": {
   "last_short": "2026-11-02",
+  "montage_exhausted": true,
   "montage_used": 11,
   "remix_ranges": [
    [
@@ -2625,7 +2627,7 @@
  "hamdan bin mohammed attends closing ceremony of 3rd dubai future accelerators program": {
   "last_short": "2026-11-02",
   "long": "2026-10-30",
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     2.92,
@@ -2705,6 +2707,10 @@
    [
     275.4533333333334,
     276.46666666666675
+   ],
+   [
+    89.24000000000001,
+    91.28
    ]
   ],
   "video_len": 317
@@ -2894,9 +2900,9 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed attends dubai international health tourism forum": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-02",
   "long": "2026-10-31",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -2920,6 +2926,10 @@
    [
     40.400000000000006,
     45.400000000000006
+   ],
+   [
+    5.859999999999986,
+    8.780000000000015
    ]
   ],
   "video_exhausted": true,
@@ -9238,9 +9248,9 @@
   "long": "2026-10-28"
  },
  "hamdan bin mohammed offers condolences on death of moza bint ali al weri": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-02",
   "long": "2026-10-14",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -9305,6 +9315,10 @@
    [
     2.2799999999999994,
     7.279999999999999
+   ],
+   [
+    54.879999999999995,
+    57.04
    ]
   ],
   "video_exhausted": true,
@@ -9319,7 +9333,7 @@
  "hamdan bin mohammed offers condolences to al falahi family": {
   "last_short": "2026-11-02",
   "long": "2026-10-16",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     85.17042709742152,
@@ -9363,6 +9377,10 @@
    [
     83.60000000000001,
     90.36
+   ],
+   [
+    6.5600000000000005,
+    8.8
    ]
   ],
   "video_exhausted": true,
@@ -9592,7 +9610,7 @@
  "hamdan bin mohammed officially opens gitex 2018": {
   "last_short": "2026-11-02",
   "long": "2026-11-02",
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     126.01016816879962,
@@ -9660,6 +9678,10 @@
    [
     130.6,
     132.96
+   ],
+   [
+    250.84,
+    254.48
    ]
   ],
   "video_exhausted": true,
@@ -10046,6 +10068,7 @@
  "hamdan bin mohammed opens fifth edition of gov games in dubai festival city": {
   "fails": 1,
   "long": "2026-10-13",
+  "montage_exhausted": true,
   "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 36
@@ -14464,7 +14487,7 @@
  "hamdan bin mohammed visits the dubai future foundation headquarters and reviews 10x projects": {
   "last_short": "2026-11-02",
   "long": "2026-10-30",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     31.725173262132333,
@@ -14524,6 +14547,10 @@
    [
     68.34,
     71.19
+   ],
+   [
+    98.16000000000001,
+    101.72
    ]
   ],
   "video_exhausted": true,

@@ -276,8 +276,13 @@
   },
   {
    "at": "2026-11-03T06:13:19+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "montage",
+   "status": "scheduled",
+   "title": "The future of Dubai has a face. #youtubeshorts #youtube #fazza",
+   "type": "short",
+   "video_id": "0sVCXsdW3FM",
+   "voiced": true
   }
  ],
  "timezone": "Asia/Dubai"

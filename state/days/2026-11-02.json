@@ -53,8 +53,13 @@
   },
   {
    "at": "2026-11-02T11:18:10+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "montage",
+   "status": "scheduled",
+   "title": "A prince of the desert, a leader of the world. 🤍 #youtubeshorts #youtube",
+   "type": "short",
+   "video_id": "1-Xf6F7Zkrc",
+   "voiced": true
   },
   {
    "at": "2026-11-02T12:04:43+04:00",

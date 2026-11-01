@@ -2688,6 +2688,7 @@
  },
  "hamdan bin mohammed attends day 1 of gov games": {
   "long": "2026-11-02",
+  "montage_exhausted": true,
   "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 115
@@ -5297,9 +5298,9 @@
   "long": "2026-10-17"
  },
  "hamdan bin mohammed extends condolences to al muhairi family": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-11-02",
   "long": "2026-10-27",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -5309,6 +5310,12 @@
    [
     43.48493597482684,
     45.1615515797072
+   ]
+  ],
+  "shot_ranges": [
+   [
+    43.239999999999995,
+    45.84
    ]
   ],
   "video_exhausted": true,
@@ -6648,9 +6655,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed launches 26 dubai 10x projects issues directive to implement them within 24 months": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-02",
   "long": "2026-10-31",
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -6698,6 +6705,10 @@
    [
     20.2,
     23.32
+   ],
+   [
+    113.52000000000001,
+    115.8
    ]
   ],
   "video_exhausted": true,
@@ -9308,9 +9319,9 @@
   "long": "2026-10-28"
  },
  "hamdan bin mohammed officially opens gitex 2018": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-02",
   "long": "2026-11-02",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     126.01016816879962,
@@ -9370,6 +9381,10 @@
    [
     62.879999999999995,
     66.8
+   ],
+   [
+    130.6,
+    132.96
    ]
   ],
   "video_exhausted": true,
@@ -9423,8 +9438,8 @@
   "video_len": 281
  },
  "hamdan bin mohammed opens cityscape global 2017": {
-  "last_short": "2026-11-01",
-  "montage_used": 7,
+  "last_short": "2026-11-02",
+  "montage_used": 8,
   "remix_ranges": [
    [
     15.810590002816998,
@@ -9468,6 +9483,10 @@
    [
     178.8,
     183.28
+   ],
+   [
+    101.04,
+    104.64000000000001
    ]
   ],
   "video_exhausted": true,
@@ -11484,8 +11503,8 @@
   "video_len": 75
  },
  "hamdan bin mohammed tours gitex global 2022 on its concluding day": {
-  "last_short": "2026-11-01",
-  "montage_used": 6,
+  "last_short": "2026-11-02",
+  "montage_used": 7,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -11530,6 +11549,10 @@
    [
     90.28,
     92.6
+   ],
+   [
+    85.64,
+    87.75999999999999
    ]
   ],
   "video_exhausted": true,
@@ -17110,6 +17133,7 @@
  "the executive council of dubai approves formation of emirati human resources development council and bicycle friendly city strategy 2025": {
   "last_short": "2026-10-11",
   "long": "2026-10-08",
+  "montage_exhausted": true,
   "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [

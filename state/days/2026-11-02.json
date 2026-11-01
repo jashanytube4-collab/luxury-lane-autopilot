@@ -3,8 +3,13 @@
  "slots": [
   {
    "at": "2026-11-02T06:43:20+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Where there is purpose, there is Fazza. #youtubeshorts #ytshorts",
+   "type": "short",
+   "video_id": "NmboXInNpag",
+   "voiced": true
   },
   {
    "at": "2026-11-02T07:29:04+04:00",

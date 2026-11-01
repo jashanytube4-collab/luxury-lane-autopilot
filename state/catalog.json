@@ -275,7 +275,7 @@
  "dubai crown prince attends graduation of dubai police academy": {
   "last_short": "2026-11-02",
   "long": "2026-10-31",
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     211.78852581766063,
@@ -336,6 +336,10 @@
    [
     125.17335155454225,
     127.50736799611951
+   ],
+   [
+    628.3282930920674,
+    629.8158373429217
    ]
   ],
   "shorts_made": 2,
@@ -3188,7 +3192,7 @@
  "hamdan bin mohammed attends global islamic economy summit": {
   "last_short": "2026-11-02",
   "long": "2026-10-30",
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     198.37148978554302,
@@ -3241,6 +3245,10 @@
    [
     64.4,
     66.16
+   ],
+   [
+    175.2955037593323,
+    177.62777297991653
    ]
   ],
   "shorts_made": 3,
@@ -4879,6 +4887,7 @@
   "long": "2026-10-30",
   "montage_exhausted": true,
   "montage_used": 8,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     85.4953236324418,
@@ -4979,7 +4988,7 @@
   "last_short": "2026-11-02",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     80.58442199620988,
@@ -5004,6 +5013,10 @@
    [
     212.4766937878423,
     213.895552537849
+   ],
+   [
+    195.29575071185164,
+    197.82438505758597
    ]
   ],
   "shorts_made": 2,
@@ -9228,6 +9241,7 @@
   "last_short": "2026-11-01",
   "long": "2026-10-14",
   "montage_used": 9,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     17.37089556107783,
@@ -12008,7 +12022,7 @@
  "hamdan bin mohammed unveils 5 star plaque at dewa head office": {
   "last_short": "2026-11-02",
   "long": "2026-11-01",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     149.9136373207893,
@@ -12025,6 +12039,10 @@
    [
     171.8463183345157,
     173.3789441317614
+   ],
+   [
+    114.98829940108325,
+    116.7027252389469
    ]
   ],
   "shorts_made": 1,
@@ -12743,10 +12761,10 @@
   "video_len": 43
  },
  "hamdan bin mohammed visits dental exhibition in dubai": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-02",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     2.3390712034378356,
@@ -12775,6 +12793,10 @@
    [
     131.61991700186192,
     133.92326833967985
+   ],
+   [
+    155.8129745399164,
+    157.824243066797
    ]
   ],
   "shorts_made": 3,
@@ -14929,9 +14951,9 @@
   "long": "2026-10-09"
  },
  "hamdan celebrates al ahli s arabian gulf league winning": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-02",
   "long": "2026-10-15",
-  "montage_used": 3,
+  "montage_used": 4,
   "no_video_until": "2026-10-29",
   "remix_ranges": [
    [
@@ -14945,6 +14967,10 @@
    [
     115.9192860633811,
     117.46452921945375
+   ],
+   [
+    100.3904816136382,
+    102.93243258077368
    ]
   ],
   "shorts_made": 1,

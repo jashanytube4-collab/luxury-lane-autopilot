@@ -1538,9 +1538,9 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed and maktoum bin mohammed meet dubai s top performing high school students": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-11-02",
   "long": "2026-10-17",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -1589,6 +1589,10 @@
    [
     48.400000166666665,
     53.400000166666665
+   ],
+   [
+    36.88666666666666,
+    39.013333333333335
    ]
   ],
   "video_exhausted": true,
@@ -2582,7 +2586,7 @@
  "hamdan bin mohammed attends closing ceremony of 3rd dubai future accelerators program": {
   "last_short": "2026-11-02",
   "long": "2026-10-30",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     2.92,
@@ -2650,6 +2654,10 @@
    [
     265.08,
     268.24
+   ],
+   [
+    41.64,
+    43.92
    ]
   ],
   "video_len": 317
@@ -3448,9 +3456,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends graduation ceremony of hbmsu university": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-11-02",
   "long": "2026-10-31",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -3460,6 +3468,12 @@
    [
     19.101747206570604,
     20.9618950079556
+   ]
+  ],
+  "shot_ranges": [
+   [
+    12.28,
+    15.040000000000001
    ]
   ],
   "video_exhausted": true,
@@ -7452,9 +7466,9 @@
   "video_len": 40
  },
  "hamdan bin mohammed meets first batch of female cadets graduating from dubai police academy": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-02",
   "long": "2026-10-31",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     146.78250342450744,
@@ -7514,6 +7528,10 @@
    [
     169.2,
     174.2
+   ],
+   [
+    146.16,
+    148.6
    ]
   ],
   "video_exhausted": true,
@@ -16430,9 +16448,9 @@
  },
  "khaled bin mohamed bin zayed and hamdan bin mohammed bin rashid witness announcement of high speed train project linking abu dhabi dubai": {
   "fails": 1,
-  "last_short": "2026-10-28",
+  "last_short": "2026-11-02",
   "long": "2026-10-27",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -16442,6 +16460,12 @@
    [
     48.12705751831478,
     50.09650306822881
+   ]
+  ],
+  "shot_ranges": [
+   [
+    47.72,
+    50.34666666666667
    ]
   ],
   "video_exhausted": true,
@@ -16923,9 +16947,9 @@
   "video_exhausted": true
  },
  "partnership between community government the foundation of enhancing government services hamdan bin mohammed": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-11-02",
   "long": "2026-10-31",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -16943,6 +16967,12 @@
    [
     65.58758593557819,
     67.44536057250802
+   ]
+  ],
+  "shot_ranges": [
+   [
+    51.36,
+    53.88
    ]
   ],
   "video_exhausted": true,

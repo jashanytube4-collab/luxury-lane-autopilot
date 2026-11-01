@@ -1217,9 +1217,9 @@
   "long": "2026-10-22"
  },
  "executive council reviews a number of projects": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-11-02",
   "long": "2026-10-30",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -1237,6 +1237,12 @@
    [
     36.20436685968981,
     37.7127885450451
+   ]
+  ],
+  "shot_ranges": [
+   [
+    28.42,
+    32.34666666666667
    ]
   ],
   "video_exhausted": true,
@@ -3608,9 +3614,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends hct graduation": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-02",
   "long": "2026-10-31",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     45.8,
@@ -3654,6 +3660,10 @@
    [
     287.92,
     298.71999999999997
+   ],
+   [
+    33.04,
+    37.080000000000005
    ]
   ],
   "video_exhausted": true,
@@ -3979,7 +3989,7 @@
  "hamdan bin mohammed attends safeguarding endangered cultural heritage conference": {
   "last_short": "2026-11-02",
   "long": "2026-10-24",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -3999,6 +4009,10 @@
    [
     12.959999999999999,
     16.36
+   ],
+   [
+    56.0,
+    58.2
    ]
   ],
   "video_exhausted": true,
@@ -6894,9 +6908,9 @@
   "long": "2026-10-30"
  },
  "hamdan bin mohammed launches day for dubai encourages residents to volunteer": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-02",
   "long": "2026-10-31",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -6926,6 +6940,12 @@
    [
     136.30318291140833,
     137.50949695218512
+   ]
+  ],
+  "shot_ranges": [
+   [
+    5.04,
+    8.760000000000002
    ]
   ],
   "video_exhausted": true,
@@ -7272,7 +7292,7 @@
  },
  "hamdan bin mohammed launches the government games initiative": {
   "last_short": "2026-11-02",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     3.050388327506801,
@@ -7340,6 +7360,10 @@
    [
     187.92000000000002,
     191.07999999999998
+   ],
+   [
+    88.65333333333334,
+    90.78666666666666
    ]
   ],
   "video_exhausted": true,
@@ -7400,6 +7424,7 @@
  },
  "hamdan bin mohammed launches uae ai robotics award for good": {
   "long": "2026-11-01",
+  "montage_exhausted": true,
   "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 101
@@ -9433,6 +9458,7 @@
  "hamdan bin mohammed offers condolences to family of martyr khalid al shehi": {
   "last_short": "2026-11-01",
   "long": "2026-10-25",
+  "montage_exhausted": true,
   "montage_used": 5,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -12441,6 +12467,7 @@
  },
  "hamdan bin mohammed visits al seef project": {
   "last_short": "2026-11-01",
+  "montage_exhausted": true,
   "montage_used": 4,
   "remix_exhausted": true,
   "remix_ranges": [

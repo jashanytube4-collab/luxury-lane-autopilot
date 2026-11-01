@@ -196,8 +196,13 @@
   },
   {
    "at": "2026-11-02T21:00:00+04:00",
-   "status": "open",
-   "type": "members"
+   "event": "montage",
+   "kind": "montage",
+   "status": "scheduled",
+   "title": "Elegance that cannot be copied. 🤍 #princehamdan #youtubeshorts #youtube",
+   "type": "members",
+   "video_id": "r17YkKPlKj4",
+   "voiced": true
   },
   {
    "at": "2026-11-02T21:34:03+04:00",

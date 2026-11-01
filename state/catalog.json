@@ -1590,6 +1590,7 @@
  "hamdan bin mohammed and maktoum bin mohammed meet dubai s top performing high school students": {
   "last_short": "2026-11-02",
   "long": "2026-10-17",
+  "montage_exhausted": true,
   "montage_used": 7,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -6766,7 +6767,7 @@
  "hamdan bin mohammed inspects rta s autonomous mobility and ai projects": {
   "last_short": "2026-11-02",
   "long": "2026-10-31",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     100.06784977818178,
@@ -6822,6 +6823,10 @@
    [
     48.68,
     50.88
+   ],
+   [
+    161.08,
+    163.2
    ]
   ],
   "video_exhausted": true,
@@ -9796,7 +9801,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2017": {
   "last_short": "2026-11-02",
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     15.810590002816998,
@@ -9856,6 +9861,10 @@
    [
     101.04,
     104.64000000000001
+   ],
+   [
+    263.88,
+    266.15999999999997
    ]
   ],
   "video_exhausted": true,
@@ -10922,8 +10931,8 @@
   "long": "2026-10-31"
  },
  "hamdan bin mohammed receives victory team xcat": {
-  "last_short": "2026-10-29",
-  "montage_used": 4,
+  "last_short": "2026-11-02",
+  "montage_used": 5,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -10941,6 +10950,12 @@
    [
     60.634150247166076,
     62.882953051409764
+   ]
+  ],
+  "shot_ranges": [
+   [
+    28.080000000000002,
+    30.88
    ]
   ],
   "video_exhausted": true,
@@ -12105,7 +12120,7 @@
  "hamdan bin mohammed unveils 5 star plaque at dewa head office": {
   "last_short": "2026-11-02",
   "long": "2026-11-01",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     149.9136373207893,
@@ -12141,6 +12156,10 @@
    [
     149.96,
     154.96
+   ],
+   [
+    131.69,
+    136.69
    ]
   ],
   "video_exhausted": true,
@@ -13493,7 +13512,7 @@
  "hamdan bin mohammed visits dubai government hr department": {
   "last_short": "2026-11-02",
   "long": "2026-10-31",
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     92.94184157109537,
@@ -13561,6 +13580,10 @@
    [
     50.0,
     52.64
+   ],
+   [
+    99.28,
+    102.47999999999999
    ]
   ],
   "video_exhausted": true,

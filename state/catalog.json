@@ -697,6 +697,7 @@
   "long": "2026-10-22",
   "montage_exhausted": true,
   "montage_used": 7,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     21.925560678740784,
@@ -991,9 +992,9 @@
   "video_len": 78
  },
  "dubai crown prince visits dubai municipality": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-02",
   "long": "2026-11-02",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     296.0,
@@ -1030,6 +1031,10 @@
    [
     74.32509173932162,
     76.65929905218255
+   ],
+   [
+    83.31352892879498,
+    85.45148341112396
    ]
   ],
   "shorts_made": 1,
@@ -2573,7 +2578,7 @@
  "hamdan bin mohammed attends closing ceremony of 3rd dubai future accelerators program": {
   "last_short": "2026-11-02",
   "long": "2026-10-30",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     2.92,
@@ -2602,6 +2607,10 @@
    [
     85.28,
     87.47999999999999
+   ],
+   [
+    287.635939322474,
+    289.0655712427952
    ]
   ],
   "shorts_made": 3,
@@ -3038,9 +3047,9 @@
   "video_len": 278
  },
  "hamdan bin mohammed attends global cardiology congress": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-02",
   "long": "2026-10-22",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     227.92000000000002,
@@ -3065,6 +3074,10 @@
    [
     27.86640966454163,
     28.7687977221645
+   ],
+   [
+    0.6377209525021632,
+    2.8654017051096075
    ]
   ],
   "shorts_made": 1,
@@ -4828,10 +4841,10 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed chairs virtual meeting of executive council": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-02",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     80.58442199620988,
@@ -4852,6 +4865,10 @@
    [
     45.843711655169166,
     47.87562372113646
+   ],
+   [
+    212.4766937878423,
+    213.895552537849
    ]
   ],
   "shorts_made": 2,
@@ -9123,7 +9140,7 @@
  "hamdan bin mohammed offers condolences to alsuwaidi family": {
   "last_short": "2026-11-02",
   "long": "2026-10-27",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     63.373747089155714,
@@ -9148,6 +9165,10 @@
    [
     20.50854962658967,
     21.91878597688217
+   ],
+   [
+    33.12505915454855,
+    34.80956078575845
    ]
   ],
   "video_exhausted": true,
@@ -13114,9 +13135,9 @@
   "video_len": 260
  },
  "hamdan bin mohammed visits dubai international boat show": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-02",
   "long": "2026-10-14",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     252.31552180004425,
@@ -13141,6 +13162,10 @@
    [
     225.79782258782492,
     227.65960779427564
+   ],
+   [
+    10.673947098071212,
+    13.021641255856498
    ]
   ],
   "shorts_made": 2,
@@ -14259,10 +14284,10 @@
   "video_len": 96
  },
  "hamdan bin mohammed visits wipro s apmea headquarters in dubai": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-11-02",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     95.66250424944334,
@@ -14275,6 +14300,10 @@
    [
     25.12206476327337,
     26.69852396945409
+   ],
+   [
+    34.559999999999995,
+    36.480000000000004
    ]
   ],
   "shot_ranges": [

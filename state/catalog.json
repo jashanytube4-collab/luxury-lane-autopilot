@@ -954,7 +954,6 @@
  },
  "dubai crown prince returns to uae after performing umrah": {
   "long": "2026-11-02",
-  "montage_exhausted": true,
   "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 155
@@ -2993,7 +2992,7 @@
  "hamdan bin mohammed attends dubai police graduation ceremony": {
   "last_short": "2026-11-02",
   "long": "2026-10-30",
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     166.60279951075904,
@@ -3046,6 +3045,10 @@
    [
     159.76,
     161.44
+   ],
+   [
+    71.68,
+    73.47999999999999
    ]
   ],
   "shorts_made": 1,
@@ -3207,7 +3210,7 @@
  "hamdan bin mohammed attends global islamic economy summit": {
   "last_short": "2026-11-02",
   "long": "2026-10-30",
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     198.37148978554302,
@@ -3264,6 +3267,10 @@
    [
     175.2955037593323,
     177.62777297991653
+   ],
+   [
+    76.61591791219219,
+    78.19095464406033
    ]
   ],
   "shorts_made": 3,
@@ -6573,7 +6580,7 @@
  "hamdan bin mohammed inaugurates zabeel healthcare center": {
   "last_short": "2026-11-02",
   "long": "2026-10-22",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     399.88601091430286,
@@ -6594,6 +6601,10 @@
    [
     183.43998466601542,
     185.9193530151581
+   ],
+   [
+    325.72,
+    327.84
    ]
   ],
   "shorts_made": 1,
@@ -9346,7 +9357,7 @@
  "hamdan bin mohammed offers condolences to al falahi family": {
   "last_short": "2026-11-02",
   "long": "2026-10-16",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     85.17042709742152,
@@ -9379,6 +9390,10 @@
    [
     66.20059613530003,
     68.73240052586196
+   ],
+   [
+    62.599999999999994,
+    64.72
    ]
   ],
   "shorts_made": 1,
@@ -9627,7 +9642,7 @@
  "hamdan bin mohammed officially opens gitex 2018": {
   "last_short": "2026-11-02",
   "long": "2026-11-02",
-  "montage_used": 13,
+  "montage_used": 12,
   "remix_ranges": [
    [
     126.01016816879962,
@@ -9699,10 +9714,6 @@
    [
     250.84,
     254.48
-   ],
-   [
-    69.615,
-    70.94500000000002
    ]
   ],
   "video_exhausted": true,
@@ -11001,7 +11012,7 @@
  "hamdan bin mohammed reviews dubai future foundation s 2018 plan and projects": {
   "last_short": "2026-11-02",
   "long": "2026-10-30",
-  "montage_used": 11,
+  "montage_used": 10,
   "remix_ranges": [
    [
     140.32186297088035,
@@ -11042,12 +11053,6 @@
    [
     96.91238236214951,
     98.99617744473898
-   ]
-  ],
-  "shot_ranges": [
-   [
-    95.86,
-    100.86
    ]
   ],
   "video_exhausted": true,
@@ -12152,7 +12157,7 @@
  "hamdan bin mohammed unveils 5 star plaque at hatta gdrfa centre": {
   "last_short": "2026-11-02",
   "long": "2026-10-14",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     62.264740304363606,
@@ -12173,6 +12178,10 @@
    [
     134.45831706853295,
     136.27526566727155
+   ],
+   [
+    66.72,
+    68.44
    ]
   ],
   "shorts_made": 2,
@@ -12607,6 +12616,7 @@
   "last_short": "2026-11-01",
   "long": "2026-10-31",
   "montage_used": 11,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     51.93878486376732,
@@ -12909,7 +12919,7 @@
  },
  "hamdan bin mohammed visits department of economic development": {
   "last_short": "2026-11-02",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     99.05206428340473,
@@ -12942,6 +12952,10 @@
    [
     187.42064023209224,
     189.6738732337273
+   ],
+   [
+    103.64848654505117,
+    104.51074033441591
    ]
   ],
   "shot_ranges": [
@@ -13120,7 +13134,7 @@
  "hamdan bin mohammed visits dp world s facilities inspects operations of jebel ali port": {
   "last_short": "2026-11-02",
   "long": "2026-10-31",
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     23.240000000000002,
@@ -13157,6 +13171,10 @@
    [
     246.7059864342304,
     248.79922288209318
+   ],
+   [
+    127.48,
+    129.35999999999999
    ]
   ],
   "shorts_made": 1,
@@ -13435,7 +13453,7 @@
  "hamdan bin mohammed visits dubai government hr department": {
   "last_short": "2026-11-02",
   "long": "2026-10-31",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     92.94184157109537,
@@ -13464,6 +13482,10 @@
    [
     129.00352201784906,
     131.2716149478057
+   ],
+   [
+    23.418029762643762,
+    25.080739241410967
    ]
   ],
   "shorts_made": 1,
@@ -14240,7 +14262,7 @@
  "hamdan bin mohammed visits personal status court": {
   "last_short": "2026-11-02",
   "long": "2026-10-31",
-  "montage_used": 9,
+  "montage_used": 8,
   "remix_ranges": [
    [
     80.89349709731536,
@@ -14273,12 +14295,6 @@
    [
     172.0804244111251,
     173.93511335740243
-   ]
-  ],
-  "shot_ranges": [
-   [
-    148.24,
-    150.64
    ]
   ],
   "video_exhausted": true,
@@ -16732,9 +16748,9 @@
   "video_exhausted": true
  },
  "in presence of dubai crown prince meraas signs agreement with dubai municipality to manage dubai safari": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-10-31",
   "long": "2026-10-31",
-  "montage_used": 8,
+  "montage_used": 7,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -16766,10 +16782,6 @@
    [
     13.879999999999999,
     17.84
-   ],
-   [
-    4.34,
-    9.34
    ]
   ],
   "video_exhausted": true,
@@ -17487,7 +17499,6 @@
  },
  "queen elizabeth honors hamdan on winning windsor royal endurance race": {
   "long": "2026-10-18",
-  "montage_exhausted": true,
   "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 108

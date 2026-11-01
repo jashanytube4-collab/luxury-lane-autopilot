@@ -43,8 +43,13 @@
   },
   {
    "at": "2026-11-02T09:43:59+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Not every prince is a legend. This one is. ✨ #youtubeshorts #youtube",
+   "type": "short",
+   "video_id": "b5kPZjVvTU0",
+   "voiced": true
   },
   {
    "at": "2026-11-02T10:28:52+04:00",
@@ -186,13 +191,8 @@
   },
   {
    "at": "2026-11-02T21:00:00+04:00",
-   "event": "montage",
-   "kind": "montage",
-   "status": "scheduled",
-   "title": "One look, a thousand stories. ✨ #youtubeshorts #youtube #fazza",
-   "type": "members",
-   "video_id": "fI_gLKfgeLM",
-   "voiced": true
+   "status": "open",
+   "type": "members"
   },
   {
    "at": "2026-11-02T21:34:03+04:00",

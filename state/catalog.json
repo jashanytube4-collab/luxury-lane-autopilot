@@ -751,9 +751,9 @@
   "video_len": 68
  },
  "dubai crown prince offers condolences to alkaabi family": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-02",
   "long": "2026-10-17",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -767,6 +767,12 @@
    [
     53.28759162369827,
     54.957496988711924
+   ]
+  ],
+  "shot_ranges": [
+   [
+    8.719999999999999,
+    12.4
    ]
   ],
   "video_exhausted": true,
@@ -6212,6 +6218,7 @@
  "hamdan bin mohammed inaugurates dubai ai campus cluster at the difc innovation hub": {
   "last_short": "2026-11-01",
   "long": "2026-10-30",
+  "montage_exhausted": true,
   "montage_used": 4,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -9773,7 +9780,7 @@
  },
  "hamdan bin mohammed opens crime prevention international conference": {
   "last_short": "2026-11-02",
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     68.54641858440627,
@@ -9869,6 +9876,10 @@
    [
     198.4,
     200.68
+   ],
+   [
+    18.68,
+    22.439999999999998
    ]
   ],
   "video_exhausted": true,
@@ -10322,8 +10333,8 @@
   "video_len": 103
  },
  "hamdan bin mohammed receives chairman of wccd": {
-  "last_short": "2026-10-31",
-  "montage_used": 2,
+  "last_short": "2026-11-02",
+  "montage_used": 3,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -10333,6 +10344,12 @@
    [
     30.129841446916508,
     31.67862759494093
+   ]
+  ],
+  "shot_ranges": [
+   [
+    43.239999999999995,
+    45.92
    ]
   ],
   "video_exhausted": true,
@@ -12673,7 +12690,7 @@
  },
  "hamdan bin mohammed visits department of economic development": {
   "last_short": "2026-11-02",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     99.05206428340473,
@@ -12706,6 +12723,12 @@
    [
     187.42064023209224,
     189.6738732337273
+   ]
+  ],
+  "shot_ranges": [
+   [
+    103.60000000000001,
+    105.75999999999999
    ]
   ],
   "video_exhausted": true,
@@ -13024,9 +13047,9 @@
   "video_len": 79
  },
  "hamdan bin mohammed visits dubai autism center": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-02",
   "long": "2026-10-31",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     22.16,
@@ -13106,6 +13129,10 @@
    [
     81.84,
     84.72
+   ],
+   [
+    22.16,
+    24.279999999999998
    ]
   ],
   "video_exhausted": true,

@@ -695,6 +695,7 @@
  "dubai crown prince offers condolences al muhairi family": {
   "last_short": "2026-11-01",
   "long": "2026-10-22",
+  "montage_exhausted": true,
   "montage_used": 7,
   "remix_ranges": [
    [
@@ -1050,8 +1051,8 @@
   "video_len": 345
  },
  "dubai crown prince visits emirates nbd head office": {
-  "last_short": "2026-11-01",
-  "montage_used": 10,
+  "last_short": "2026-11-02",
+  "montage_used": 11,
   "remix_ranges": [
    [
     104.60402386812525,
@@ -1107,6 +1108,10 @@
    [
     175.68,
     177.96
+   ],
+   [
+    54.519999999999996,
+    57.440000000000005
    ]
   ],
   "video_exhausted": true,
@@ -2497,9 +2502,9 @@
   "long": "2026-10-17"
  },
  "hamdan bin mohammed attends al muhairi al rumaithi family wedding": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-11-02",
   "long": "2026-10-27",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -2528,6 +2533,10 @@
    [
     89.46,
     91.59
+   ],
+   [
+    56.68,
+    59.28
    ]
   ],
   "video_exhausted": true,
@@ -4916,9 +4925,9 @@
   "video_len": 58
  },
  "hamdan bin mohammed concludes official visit to kuwait": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-02",
   "long": "2026-11-02",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -4967,6 +4976,10 @@
    [
     79.42,
     82.28
+   ],
+   [
+    109.58666666666667,
+    112.24666666666666
    ]
   ],
   "video_exhausted": true,
@@ -8473,9 +8486,9 @@
   "video_len": 63
  },
  "hamdan bin mohammed meets with participants of retail summit in dubai": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-02",
   "long": "2026-10-31",
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     4.6968630874811845,
@@ -8555,6 +8568,10 @@
    [
     2.28499999999998,
     4.59500000000002
+   ],
+   [
+    86.88000000000001,
+    89.52
    ]
   ],
   "video_exhausted": true,
@@ -8771,9 +8788,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed mohammed bin rashid places the highest priority on supporting youth and developing their skills": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-02",
   "long": "2026-10-21",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     15.913712985258753,
@@ -8825,6 +8842,10 @@
    [
     13.879999999999999,
     17.959999999999997
+   ],
+   [
+    63.48999999999998,
+    65.71000000000001
    ]
   ],
   "video_exhausted": true,
@@ -13085,9 +13106,9 @@
   "video_len": 263
  },
  "hamdan bin mohammed visits dubai sports council": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-11-02",
   "long": "2026-10-18",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -13117,6 +13138,12 @@
    [
     80.74917775022033,
     83.16608844268475
+   ]
+  ],
+  "shot_ranges": [
+   [
+    94.48,
+    98.32
    ]
   ],
   "video_exhausted": true,
@@ -13557,6 +13584,7 @@
  "hamdan bin mohammed visits linkedin s regional headquarters in dubai": {
   "last_short": "2026-11-01",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 9,
   "remix_exhausted": true,
   "remix_ranges": [

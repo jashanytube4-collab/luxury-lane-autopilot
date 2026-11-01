@@ -928,8 +928,8 @@
   "video_len": 130
  },
  "dubai crown prince receives president of the chechen": {
-  "last_short": "2026-11-01",
-  "montage_used": 6,
+  "last_short": "2026-11-02",
+  "montage_used": 7,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -955,6 +955,12 @@
    [
     57.574444720345014,
     59.39303286870662
+   ]
+  ],
+  "shot_ranges": [
+   [
+    35.3,
+    40.3
    ]
   ],
   "video_exhausted": true,
@@ -2648,7 +2654,7 @@
  "hamdan bin mohammed attends closing ceremony of 3rd dubai future accelerators program": {
   "last_short": "2026-11-02",
   "long": "2026-10-30",
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     2.92,
@@ -2736,6 +2742,10 @@
    [
     89.24000000000001,
     91.28
+   ],
+   [
+    22.880000000000003,
+    25.2
    ]
   ],
   "video_len": 317
@@ -4710,9 +4720,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed bin rashid receives samsung electronics ceo": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-11-02",
   "long": "2026-10-25",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -4722,6 +4732,12 @@
    [
     27.53375353102287,
     29.505817759589615
+   ]
+  ],
+  "shot_ranges": [
+   [
+    27.220000000000002,
+    29.946666666666665
    ]
   ],
   "video_exhausted": true,
@@ -9037,7 +9053,7 @@
  "hamdan bin mohammed meets with top performing school and university graduates": {
   "last_short": "2026-11-02",
   "long": "2026-10-17",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     13.76558973958145,
@@ -9085,6 +9101,10 @@
    [
     17.553333333333335,
     20.38
+   ],
+   [
+    30.33,
+    32.30333333333334
    ]
   ],
   "video_exhausted": true,
@@ -9323,6 +9343,7 @@
  "hamdan bin mohammed offers condolences on death of moza bint ali al weri": {
   "last_short": "2026-11-02",
   "long": "2026-10-14",
+  "montage_exhausted": true,
   "montage_used": 10,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -12144,7 +12165,7 @@
  "hamdan bin mohammed unveils 5 star plaque at dewa head office": {
   "last_short": "2026-11-02",
   "long": "2026-11-01",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     149.9136373207893,
@@ -12188,6 +12209,10 @@
    [
     131.69,
     136.69
+   ],
+   [
+    65.44,
+    67.75999999999999
    ]
   ],
   "video_exhausted": true,
@@ -15098,7 +15123,7 @@
  "hamdan bin mohammed witnesses the first test flight": {
   "last_short": "2026-11-02",
   "long": "2026-10-31",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -15134,6 +15159,10 @@
    [
     77.5,
     82.5
+   ],
+   [
+    56.8,
+    59.56
    ]
   ],
   "video_exhausted": true,

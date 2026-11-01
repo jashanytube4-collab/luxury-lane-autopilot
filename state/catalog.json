@@ -2993,7 +2993,7 @@
  "hamdan bin mohammed attends dubai police graduation ceremony": {
   "last_short": "2026-11-02",
   "long": "2026-10-30",
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     166.60279951075904,
@@ -3042,6 +3042,10 @@
    [
     20.581906012443646,
     22.717176539262788
+   ],
+   [
+    159.76,
+    161.44
    ]
   ],
   "shorts_made": 1,
@@ -4297,7 +4301,7 @@
  "hamdan bin mohammed attends the knowledge summit 2018": {
   "last_short": "2026-11-02",
   "long": "2026-10-31",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     21.009627951075547,
@@ -4330,6 +4334,10 @@
    [
     5.343048395511314,
     6.865042723214202
+   ],
+   [
+    168.49587264407387,
+    170.42488763065313
    ]
   ],
   "shorts_made": 3,
@@ -7034,8 +7042,8 @@
   "video_len": 42
  },
  "hamdan bin mohammed launches integrated housing plan to provide 15 800 homes for nationals in dubai over the next four years": {
-  "last_short": "2026-11-01",
-  "montage_used": 3,
+  "last_short": "2026-11-02",
+  "montage_used": 4,
   "remix_ranges": [
    [
     15.986666666666666,
@@ -7044,6 +7052,10 @@
    [
     60.21799249836865,
     61.75375374282677
+   ],
+   [
+    29.635754234730957,
+    31.643086405333413
    ]
   ],
   "shorts_made": 1,
@@ -9334,7 +9346,7 @@
  "hamdan bin mohammed offers condolences to al falahi family": {
   "last_short": "2026-11-02",
   "long": "2026-10-16",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     85.17042709742152,
@@ -9363,6 +9375,10 @@
    [
     49.47844880083205,
     51.205986596396684
+   ],
+   [
+    66.20059613530003,
+    68.73240052586196
    ]
   ],
   "shorts_made": 1,
@@ -12289,8 +12305,8 @@
   "video_len": 234
  },
  "hamdan bin mohammed unveils 5 star plaques at three customer happiness centres in dubai": {
-  "last_short": "2026-11-01",
-  "montage_used": 9,
+  "last_short": "2026-11-02",
+  "montage_used": 10,
   "remix_ranges": [
    [
     140.12827217544256,
@@ -12327,6 +12343,10 @@
    [
     89.3459047592,
     91.90690703545032
+   ],
+   [
+    192.36604265719035,
+    194.204311431362
    ]
   ],
   "shorts_made": 1,
@@ -12798,7 +12818,7 @@
   "last_short": "2026-11-02",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     2.3390712034378356,
@@ -12831,6 +12851,10 @@
    [
     155.8129745399164,
     157.824243066797
+   ],
+   [
+    120.45921176420684,
+    122.76601472607514
    ]
   ],
   "shorts_made": 3,
@@ -13335,9 +13359,9 @@
   "video_len": 191
  },
  "hamdan bin mohammed visits dubai chamber of commerce and industry": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     41.30287533391608,
@@ -13366,6 +13390,10 @@
    [
     76.92228712756517,
     79.0731119016564
+   ],
+   [
+    65.1574526219851,
+    67.31847442603443
    ]
   ],
   "shorts_made": 2,
@@ -13950,6 +13978,7 @@
   "last_short": "2026-11-01",
   "long": "2026-10-30",
   "montage_used": 9,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     237.92000000000002,
@@ -14752,6 +14781,7 @@
   "long": "2026-10-14",
   "montage_exhausted": true,
   "montage_used": 6,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     95.66250424944334,

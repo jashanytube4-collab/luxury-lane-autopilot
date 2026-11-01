@@ -3791,6 +3791,40 @@ clip:ig-reef-coral:
   - sea
   - underwater
   text_graphic: false
+clip:ig-reef-crane:
+  arab_people: false
+  desc: Construction workers in safety vests.
+  hamdan: 0.0
+  people: true
+  tags:
+  - construction
+  - crane
+  - gear
+  - metal
+  - safety
+  - site
+  - sky
+  - steel
+  - vests
+  - workers
+  text_graphic: false
+clip:ig-reef-descend:
+  arab_people: false
+  desc: Two divers underwater in scuba gear.
+  hamdan: 0.0
+  people: true
+  tags:
+  - blue
+  - bubbles
+  - diver
+  - equipment
+  - gear
+  - ocean
+  - scuba
+  - swimmer
+  - underwater
+  - water
+  text_graphic: false
 clip:ig-reef-dive:
   arab_people: false
   desc: A scuba diver in full gear explores a submerged coral reef structure underwater.
@@ -3807,6 +3841,161 @@ clip:ig-reef-dive:
   - scuba
   - underwater
   - water
+  text_graphic: false
+clip:ig-reef-divers2:
+  arab_people: false
+  desc: Divers underwater in blue water
+  hamdan: 0.0
+  people: true
+  tags:
+  - blue
+  - bubbles
+  - diver
+  - gear
+  - ocean
+  - scuba
+  - silhouette
+  - tank
+  - underwater
+  - water
+  text_graphic: false
+clip:ig-reef-enter:
+  arab_people: false
+  desc: Prince Hamdan scuba diving underwater
+  hamdan: 0.0
+  people: true
+  tags:
+  - blue
+  - bubbles
+  - diver
+  - gear
+  - mask
+  - ocean
+  - scuba
+  - swimmer
+  - tube
+  - water
+  text_graphic: false
+clip:ig-reef-face:
+  arab_people: false
+  desc: Prince Hamdan's profile in the sun
+  hamdan: 0.0
+  people: true
+  tags:
+  - beard
+  - blue
+  - ear
+  - hair
+  - light
+  - man
+  - neck
+  - profile
+  - shoulder
+  - sky
+  text_graphic: false
+clip:ig-reef-gear:
+  arab_people: false
+  desc: Diver in full gear on a boat
+  hamdan: 0.0
+  people: true
+  tags:
+  - boat
+  - diver
+  - fins
+  - gear
+  - mask
+  - ocean
+  - sky
+  - tank
+  - water
+  - yellow strap
+  text_graphic: false
+clip:ig-reef-growth:
+  arab_people: null
+  desc: Underwater coral reef footage
+  hamdan: 0.0
+  people: false
+  tags:
+  - colorful
+  - coral
+  - life
+  - marine
+  - nature
+  - ocean
+  - reef
+  - sea
+  - texture
+  - underwater
+  text_graphic: false
+clip:ig-reef-module:
+  arab_people: false
+  desc: Construction workers on a concrete structure
+  hamdan: 0.0
+  people: true
+  tags:
+  - arch
+  - beam
+  - blue helmet
+  - concrete
+  - construction
+  - crack
+  - metal
+  - orange line
+  - safety vest
+  - shadow
+  - sky
+  - worker
+  text_graphic: false
+clip:ig-reef-plaque:
+  arab_people: false
+  desc: Divers sign a Dubai Reef plaque.
+  hamdan: 0.0
+  people: true
+  tags:
+  - diver
+  - handwriting
+  - marine
+  - ocean
+  - plaque
+  - project
+  - sign
+  - skyline
+  - team
+  - water
+  text_graphic: false
+clip:ig-reef-speedboat:
+  arab_people: false
+  desc: A white speedboat cuts through blue water.
+  hamdan: 0.0
+  people: true
+  tags:
+  - boat
+  - men
+  - ocean
+  - people
+  - sand
+  - sea
+  - shore
+  - skyline
+  - speedboat
+  - water
+  text_graphic: false
+clip:ig-reef-x:
+  arab_people: null
+  desc: Underwater coral reef with fish
+  hamdan: 0.0
+  people: false
+  tags:
+  - aquatic
+  - blue water
+  - coral
+  - fish
+  - marine life
+  - nature
+  - ocean
+  - reef
+  - sea
+  - underwater
   text_graphic: false
 clip:ig-ride-forest:
   arab_people: false
@@ -3907,6 +4096,95 @@ clip:ig-turtle:
   - ocean
   - sand
   - sky
+  - turtle
+  - water
+  text_graphic: false
+clip:ig-turtle-crates:
+  arab_people: false
+  desc: Hands gently handling a turtle in a tub.
+  hamdan: 0.0
+  people: true
+  tags:
+  - blue mat
+  - grey bin
+  - hands
+  - leopard print
+  - striped cloth
+  - tub
+  - turtle
+  - watch
+  - water
+  - white basin
+  text_graphic: false
+clip:ig-turtle-hatch:
+  arab_people: null
+  desc: Baby sea turtle crawling on sand
+  hamdan: 0.0
+  people: false
+  tags:
+  - beach
+  - body
+  - eye
+  - head
+  - legs
+  - sand
+  - shell
+  - skin
+  - turtle
+  - water
+  text_graphic: false
+clip:ig-turtle-hold:
+  arab_people: true
+  desc: Fazza holds a sea turtle on a boat.
+  hamdan: 0.17
+  people: true
+  tags:
+  - animal
+  - beach
+  - boat
+  - hand
+  - hat
+  - man
+  - nature
+  - sea
+  - shirt
+  - sky
+  - turtle
+  - water
+  text_graphic: false
+clip:ig-turtle-release:
+  arab_people: false
+  desc: Fazza feeding a crocodile on a boat
+  hamdan: 0.0
+  people: true
+  tags:
+  - boat
+  - cap
+  - crocodile
+  - green
+  - hand
+  - man
+  - mouth
+  - shirt
+  - sky
+  - water
+  text_graphic: false
+clip:ig-turtle-swim:
+  arab_people: null
+  desc: Turtles swimming in clear water
+  hamdan: 0.0
+  people: false
+  tags:
+  - bridge
+  - building
+  - legs
+  - palm tree
+  - pool
+  - reflection
+  - sand
+  - shell
+  - sky
+  - tail
   - turtle
   - water
   text_graphic: false
@@ -4375,6 +4653,38 @@ sb-10523802:
   - seats
   - space
   text_graphic: false
+sb-10836835:
+  arab_people: null
+  desc: A sea turtle swims underwater.
+  people: false
+  tags:
+  - animal
+  - blue
+  - green
+  - marine
+  - nature
+  - ocean
+  - sea
+  - turtle
+  - underwater
+  - water
+  text_graphic: false
+sb-10848718:
+  arab_people: null
+  desc: Sea turtle swims in blue water
+  people: false
+  tags:
+  - blue
+  - fish
+  - life
+  - marine
+  - nature
+  - ocean
+  - sea
+  - swimming
+  - turtle
+  - water
+  text_graphic: false
 sb-10864257:
   arab_people: null
   desc: hands counting hundred-dollar bills
@@ -4386,6 +4696,22 @@ sb-10864257:
   - hand
   - money
   - plant
+  text_graphic: false
+sb-10902035:
+  arab_people: null
+  desc: Underwater view of pilings and fish
+  people: false
+  tags:
+  - blue
+  - coral
+  - fish
+  - marine
+  - nature
+  - ocean
+  - pilings
+  - sand
+  - sea
+  - underwater
   text_graphic: false
 sb-10951590:
   arab_people: false
@@ -4401,6 +4727,50 @@ sb-10951590:
   - hands
   - oil
   - shirt
+  - water
+  text_graphic: false
+sb-11009803:
+  arab_people: null
+  desc: A sea turtle swimming in blue water
+  people: false
+  tags:
+  - ocean
+  - sea
+  - turtle
+  - water
+  text_graphic: false
+sb-11019133:
+  arab_people: null
+  desc: Aerial view of turquoise water and a waterfront promenade.
+  people: false
+  tags:
+  - architecture
+  - beach
+  - buildings
+  - coast
+  - furniture
+  - palm trees
+  - promenade
+  - skyline
+  - umbrellas
+  - water
+  text_graphic: false
+sb-11019329:
+  arab_people: null
+  desc: Aerial view of Jumeirah Beach in Dubai
+  people: false
+  tags:
+  - beach
+  - boats
+  - buildings
+  - city
+  - coast
+  - dubai
+  - people
+  - sand
+  - sea
+  - skyline
+  - sun
   - water
   text_graphic: false
 sb-11019410:
@@ -4436,6 +4806,22 @@ sb-11020072:
   - shadow
   - skyline
   - track
+  text_graphic: false
+sb-11023454:
+  arab_people: null
+  desc: A boat moves across the water near Dubai's skyline.
+  people: false
+  tags:
+  - beach
+  - boat
+  - cityscape
+  - dubai
+  - ferris wheel
+  - horizon
+  - sea
+  - skyscrapers
+  - sunlight
+  - water
   text_graphic: false
 sb-11058820:
   arab_people: true
@@ -4618,6 +5004,22 @@ sb-2859623:
   - wedding
   - wood
   text_graphic: false
+sb-341778:
+  arab_people: null
+  desc: Water flows from a fountain into pebbles.
+  people: false
+  tags:
+  - flow
+  - fountain
+  - ground
+  - liquid
+  - metal
+  - outlet
+  - pebbles
+  - stream
+  - surface
+  - water
+  text_graphic: false
 sb-342506:
   arab_people: null
   desc: A dove perched in a leafy tree.
@@ -4650,6 +5052,24 @@ sb-346634773:
   - skin
   - window
   text_graphic: false
+sb-346637927:
+  arab_people: false
+  desc: Hand holds a porous rock near water.
+  people: true
+  tags:
+  - fingernail
+  - hand
+  - light
+  - palm
+  - pebble
+  - rock
+  - shadow
+  - stone
+  - surface
+  - texture
+  - thumb
+  - water
+  text_graphic: false
 sb-346694537:
   arab_people: true
   desc: Mother and two daughters at a kitchen table.
@@ -4665,6 +5085,22 @@ sb-346694537:
   - mother
   - shelf
   - table
+  text_graphic: false
+sb-346701412:
+  arab_people: false
+  desc: Hand holds coral near sea
+  people: true
+  tags:
+  - beach
+  - coral
+  - fossil
+  - hand
+  - nature
+  - ocean
+  - rocks
+  - sea
+  - sky
+  - water
   text_graphic: false
 sb-346714911:
   arab_people: true
@@ -4728,6 +5164,22 @@ sb-346750383:
   - window
   - woman
   text_graphic: false
+sb-347179641:
+  arab_people: null
+  desc: Dubai skyline at night from above
+  people: false
+  tags:
+  - buildings
+  - city
+  - darkness
+  - dubai
+  - lights
+  - night
+  - skyline
+  - tower
+  - urban
+  - view
+  text_graphic: false
 sb-347201112:
   arab_people: false
   desc: Four jockeys on horses gallop across a dusty track kicking up clouds of sand.
@@ -4743,6 +5195,22 @@ sb-347201112:
   - sand
   - skyline
   - track
+  text_graphic: false
+sb-347235586:
+  arab_people: null
+  desc: A plastic bottle sinking underwater.
+  people: false
+  tags:
+  - bottle
+  - environment
+  - marine
+  - nature
+  - ocean
+  - plastic
+  - pollution
+  - sea
+  - trash
+  - water
   text_graphic: false
 sb-347396525:
   arab_people: null
@@ -4777,6 +5245,22 @@ sb-347446633:
   - text
   - uae
   text_graphic: false
+sb-347583666:
+  arab_people: null
+  desc: Aerial view of a coastal city with streets and buildings.
+  people: false
+  tags:
+  - beach
+  - buildings
+  - city
+  - coastline
+  - houses
+  - ocean
+  - roads
+  - skyline
+  - streets
+  - urban
+  text_graphic: false
 sb-347615179:
   arab_people: false
   desc: Silhouette of a woman in a stone room
@@ -4808,6 +5292,102 @@ sb-347714666:
   - smile
   - wall
   - woman
+  text_graphic: false
+sb-347725320:
+  arab_people: null
+  desc: Dubai skyline from a boat
+  people: false
+  tags:
+  - beach
+  - buildings
+  - city
+  - dusk
+  - horizon
+  - reflection
+  - sea
+  - skyline
+  - sun
+  - water
+  text_graphic: false
+sb-347725326:
+  arab_people: null
+  desc: Dubai skyline at sunset
+  people: false
+  tags:
+  - beach
+  - buildings
+  - cars
+  - people
+  - pools
+  - sand
+  - skyline
+  - sun
+  - trees
+  - water
+  text_graphic: false
+sb-347732374:
+  arab_people: null
+  desc: Trash on a sandy beach
+  people: false
+  tags:
+  - beach
+  - driftwood
+  - island
+  - metal
+  - plastic
+  - sand
+  - sky
+  - trash
+  - trees
+  - water
+  text_graphic: false
+sb-347806244:
+  arab_people: false
+  desc: A diver explores a submerged structure underwater.
+  people: true
+  tags:
+  - blue
+  - coral
+  - diver
+  - ocean
+  - ruin
+  - sand
+  - sea
+  - structure
+  - underwater
+  - water
+  text_graphic: false
+sb-347808138:
+  arab_people: null
+  desc: Aerial view of a green racecourse
+  people: false
+  tags:
+  - courtyard
+  - fence
+  - grass
+  - pavement
+  - racecourse
+  - roof
+  - shadows
+  - stadium
+  - track
+  - trees
+  text_graphic: false
+sb-348264457:
+  arab_people: null
+  desc: A sunken car on the ocean floor.
+  people: false
+  tags:
+  - car
+  - coral
+  - depths
+  - fish
+  - marine
+  - ocean
+  - ruin
+  - sand
+  - water
+  - wreck
   text_graphic: false
 sb-348383495:
   arab_people: null
@@ -4870,6 +5450,22 @@ sb-348583414:
   - window
   - wood
   text_graphic: false
+sb-348586848:
+  arab_people: null
+  desc: Aerial view of Dubai coastline and skyline
+  people: false
+  tags:
+  - beach
+  - buildings
+  - burj al arab
+  - dubai
+  - grass
+  - sand
+  - sea
+  - skyscrapers
+  - trees
+  - uae
+  text_graphic: false
 sb-348705571:
   arab_people: true
   desc: 'Stock model: Arab man in red ghutra smiling at his smartphone, studio backdrop (NOT Hamdan)'
@@ -4920,6 +5516,22 @@ sb-349001918:
   - skyline
   - streets
   text_graphic: false
+sb-349001921:
+  arab_people: null
+  desc: Aerial night view of Dubai skyline
+  people: false
+  tags:
+  - bridge
+  - buildings
+  - city
+  - dubai
+  - horizon
+  - lights
+  - night
+  - roads
+  - skyline
+  - water
+  text_graphic: false
 sb-349016837:
   arab_people: null
   desc: A money counting machine processes stacks of US dollar bills, with the digital display showing the count increasing from 20 to 100.
@@ -4935,6 +5547,22 @@ sb-349016837:
   - finance
   - machine
   - money
+  text_graphic: false
+sb-349101766:
+  arab_people: null
+  desc: Dubai skyline at night with lights
+  people: false
+  tags:
+  - burj khalifa
+  - city
+  - dubai
+  - highways
+  - lights
+  - night
+  - skyline
+  - skyscrapers
+  - traffic
+  - urban
   text_graphic: false
 sb-349101770:
   arab_people: null
@@ -4967,6 +5595,22 @@ sb-349101814:
   - skyline
   - water
   - yachts
+  text_graphic: false
+sb-349101826:
+  arab_people: null
+  desc: Aerial view of Palm Jumeirah with Atlantis.
+  people: false
+  tags:
+  - atlas
+  - buildings
+  - horizon
+  - island
+  - palace
+  - palm
+  - road
+  - sea
+  - skyline
+  - water
   text_graphic: false
 sb-349227386:
   arab_people: true
@@ -5084,6 +5728,22 @@ sb-351922312:
   - traffic
   - urban
   text_graphic: false
+sb-351940819:
+  arab_people: null
+  desc: Fish swim near coral in shallow water.
+  people: false
+  tags:
+  - coral
+  - fish
+  - life
+  - marine
+  - nature
+  - ocean
+  - reef
+  - sea
+  - underwater
+  - water
+  text_graphic: false
 sb-351941085:
   arab_people: false
   desc: Elderly woman in white headscarf
@@ -5132,6 +5792,22 @@ sb-352013755:
   - table
   - white
   text_graphic: false
+sb-352044780:
+  arab_people: null
+  desc: Fish swimming in an aquarium
+  people: false
+  tags:
+  - aquarium
+  - blue
+  - coral
+  - fish
+  - ocean
+  - plants
+  - swimming
+  - tank
+  - underwater
+  - water
+  text_graphic: false
 sb-352084860:
   arab_people: false
   desc: A cinematic aerial view of golden sand dunes at sunset, with a lone figure riding a horse across the vast desert landscape.
@@ -5147,6 +5823,22 @@ sb-352084860:
   - silhouette
   - skyline
   - sunset
+  text_graphic: false
+sb-352105745:
+  arab_people: null
+  desc: A sea turtle swims over coral.
+  people: false
+  tags:
+  - blue
+  - coral
+  - marine
+  - nature
+  - ocean
+  - sea
+  - swimming
+  - turtle
+  - underwater
+  - water
   text_graphic: false
 sb-352186488:
   arab_people: null
@@ -5164,6 +5856,22 @@ sb-352186488:
   - text
   - yellow paper
   text_graphic: true
+sb-352308493:
+  arab_people: null
+  desc: Colorful fish swim around coral.
+  people: false
+  tags:
+  - blue water
+  - coral
+  - fish
+  - marine life
+  - nature
+  - ocean
+  - reef
+  - sea
+  - swimming
+  - underwater
+  text_graphic: false
 sb-352324514:
   arab_people: null
   desc: A view from inside a vehicle driving through golden sand dunes under a clear blue sky.
@@ -5294,6 +6002,22 @@ sb-352598984:
   - romance
   - wedding
   text_graphic: false
+sb-352678101:
+  arab_people: null
+  desc: Underwater coral reef with small fish
+  people: false
+  tags:
+  - blue
+  - coral
+  - fish
+  - marine
+  - nature
+  - ocean
+  - reef
+  - sea
+  - underwater
+  - water
+  text_graphic: false
 sb-352715053:
   arab_people: null
   desc: The interior of a private jet cabin with cream-colored leather seats and large oval windows.
@@ -5341,6 +6065,22 @@ sb-352767003:
   - street
   - trees
   - woman
+  text_graphic: false
+sb-352806569:
+  arab_people: null
+  desc: Underwater coral reef scene
+  people: false
+  tags:
+  - colorful
+  - coral
+  - habitat
+  - life
+  - marine
+  - nature
+  - ocean
+  - reef
+  - sea
+  - underwater
   text_graphic: false
 sb-352806684:
   arab_people: null
@@ -5486,6 +6226,22 @@ sb-352835520:
   - tower
   - urban
   text_graphic: false
+sb-352892667:
+  arab_people: null
+  desc: A striped fish swims over a coral reef.
+  people: false
+  tags:
+  - blue
+  - coral
+  - fish
+  - life
+  - marine
+  - nature
+  - ocean
+  - reef
+  - underwater
+  - water
+  text_graphic: false
 sb-352898065:
   arab_people: null
   desc: A sweeping aerial view of golden sand dunes at sunset with a distant white city skyline visible on the horizon.
@@ -5597,6 +6353,38 @@ sb-353056846:
   - sky
   - wind
   text_graphic: false
+sb-353157747:
+  arab_people: null
+  desc: Close-up of a white coral reef
+  people: false
+  tags:
+  - color
+  - coral
+  - life
+  - marine
+  - nature
+  - ocean
+  - reef
+  - sea
+  - underwater
+  - water
+  text_graphic: false
+sb-353304362:
+  arab_people: null
+  desc: Dubai skyline and Palm Jumeirah
+  people: false
+  tags:
+  - bridge
+  - buildings
+  - city
+  - horizon
+  - land
+  - sea
+  - skyline
+  - structure
+  - view
+  - water
+  text_graphic: false
 sb-353304412:
   arab_people: null
   desc: A night-time aerial view of the Dubai skyline with the Burj Khalifa glowing in the center.
@@ -5660,6 +6448,22 @@ sb-353338366:
   - tablet
   - window
   - women
+  text_graphic: false
+sb-353434767:
+  arab_people: null
+  desc: A sea anemone in the ocean.
+  people: false
+  tags:
+  - anemone
+  - coral
+  - fish
+  - life
+  - marine
+  - nature
+  - ocean
+  - sea
+  - underwater
+  - water
   text_graphic: false
 sb-353633803:
   arab_people: null
@@ -5788,6 +6592,38 @@ sb-353711197:
   - skyline
   - white clothing
   text_graphic: false
+sb-353735881:
+  arab_people: null
+  desc: School of colorful fish swimming over coral
+  people: false
+  tags:
+  - blue water
+  - coral
+  - fish
+  - marine life
+  - nature
+  - ocean
+  - reef
+  - school
+  - swimming
+  - underwater
+  text_graphic: false
+sb-353788364:
+  arab_people: false
+  desc: Underwater coral reef with fish and a diver.
+  people: true
+  tags:
+  - coral
+  - diver
+  - fish
+  - marine
+  - ocean
+  - reef
+  - sea
+  - swimmer
+  - underwater
+  - water
+  text_graphic: false
 sb-353875671:
   arab_people: true
   desc: 'Stock: a Gulf man in ghutra cheers at his laptop (NOT Hamdan; atmosphere only)'
@@ -5853,6 +6689,96 @@ sb-353951670:
   - wealth
   - yellow
   text_graphic: false
+sb-353963478:
+  arab_people: null
+  desc: Colorful fish swim over coral reef
+  people: false
+  tags:
+  - blue
+  - coral
+  - fish
+  - marine
+  - nature
+  - ocean
+  - reef
+  - swimming
+  - underwater
+  - water
+  text_graphic: false
+sb-353993413:
+  arab_people: null
+  desc: Underwater coral reef with fish
+  people: false
+  tags:
+  - blue
+  - coral
+  - fish
+  - life
+  - marine
+  - nature
+  - ocean
+  - reef
+  - sea
+  - water
+  text_graphic: false
+sb-353993430:
+  arab_people: null
+  desc: colorful fish swim around coral
+  people: false
+  tags:
+  - blue water
+  - coral
+  - fish
+  - ocean
+  text_graphic: false
+sb-353997748:
+  arab_people: null
+  desc: Underwater coral reef with fish
+  people: false
+  tags:
+  - blue water
+  - coral
+  - fish
+  - marine
+  - nature
+  - ocean
+  - reef
+  - sea life
+  - swimming
+  - underwater
+  text_graphic: false
+sb-354004829:
+  arab_people: null
+  desc: Underwater coral reef with fish
+  people: false
+  tags:
+  - blue water
+  - coral
+  - depth
+  - fish
+  - marine
+  - nature
+  - ocean
+  - reef
+  - sea life
+  - underwater
+  text_graphic: false
+sb-354008817:
+  arab_people: null
+  desc: Coral reef teeming with colorful fish
+  people: false
+  tags:
+  - blue
+  - coral
+  - fish
+  - marine
+  - nature
+  - ocean
+  - reef
+  - sea
+  - underwater
+  - water
+  text_graphic: false
 sb-354013844:
   arab_people: null
   desc: Empty horse stable aisle
@@ -5871,6 +6797,22 @@ sb-354013844:
   - wall
   - window
   - wood
+  text_graphic: false
+sb-354015626:
+  arab_people: null
+  desc: Underwater coral reef with small fish
+  people: false
+  tags:
+  - blue water
+  - coral
+  - depth
+  - fish
+  - marine life
+  - nature
+  - ocean
+  - reef
+  - sea
+  - underwater
   text_graphic: false
 sb-354144458:
   arab_people: false
@@ -5903,6 +6845,86 @@ sb-354144467:
   - screen
   - window
   - women
+  text_graphic: false
+sb-354181918:
+  arab_people: null
+  desc: Colorful coral reef underwater
+  people: false
+  tags:
+  - blue water
+  - coral
+  - depths
+  - fish
+  - marine life
+  - nature
+  - ocean
+  - reef
+  - sea
+  - underwater
+  text_graphic: false
+sb-354187516:
+  arab_people: null
+  desc: Colorful fish swim around coral reefs.
+  people: false
+  tags:
+  - blue
+  - coral
+  - fish
+  - marine
+  - nature
+  - ocean
+  - reef
+  - sea
+  - underwater
+  - water
+  text_graphic: false
+sb-354187552:
+  arab_people: null
+  desc: Colorful fish swim around coral reefs.
+  people: false
+  tags:
+  - blue
+  - coral
+  - fish
+  - life
+  - marine
+  - nature
+  - ocean
+  - reef
+  - sea
+  - water
+  text_graphic: false
+sb-354187633:
+  arab_people: null
+  desc: Colorful coral reef with fish
+  people: false
+  tags:
+  - blue
+  - coral
+  - fish
+  - marine
+  - nature
+  - ocean
+  - reef
+  - sea
+  - underwater
+  - water
+  text_graphic: false
+sb-354328057:
+  arab_people: null
+  desc: Underwater scene with fish and coral
+  people: false
+  tags:
+  - blue water
+  - coral
+  - depths
+  - fish
+  - marine life
+  - nature
+  - ocean
+  - reef
+  - sea
+  - underwater
   text_graphic: false
 sb-354332628:
   arab_people: null
@@ -6020,6 +7042,22 @@ sb-354477428:
   - wake
   - water
   - yacht
+  text_graphic: false
+sb-354511021:
+  arab_people: null
+  desc: Underwater coral reef scene
+  people: false
+  tags:
+  - blue
+  - coral
+  - life
+  - marine
+  - nature
+  - ocean
+  - reef
+  - sea
+  - underwater
+  - water
   text_graphic: false
 sb-354513165:
   arab_people: null
@@ -6151,6 +7189,38 @@ sb-354773916:
   - tower
   - urban
   text_graphic: false
+sb-354774717:
+  arab_people: null
+  desc: Aerial view of Dubai coastline
+  people: false
+  tags:
+  - beach
+  - bridge
+  - buildings
+  - city
+  - dunes
+  - horizon
+  - minaret
+  - sea
+  - skyline
+  - water
+  text_graphic: false
+sb-354774774:
+  arab_people: null
+  desc: Aerial view of a coastal city
+  people: false
+  tags:
+  - beach
+  - bridge
+  - buildings
+  - city
+  - dunes
+  - horizon
+  - road
+  - sea
+  - skyline
+  - water
+  text_graphic: false
 sb-354774885:
   arab_people: null
   desc: Two skyscrapers under construction at night.
@@ -6275,6 +7345,22 @@ sb-354998245:
   - silver
   - surface
   text_graphic: false
+sb-356665485:
+  arab_people: null
+  desc: Colorful coral underwater
+  people: false
+  tags:
+  - blue
+  - color
+  - coral
+  - life
+  - marine
+  - nature
+  - sea
+  - texture
+  - underwater
+  - water
+  text_graphic: false
 sb-358120874:
   arab_people: null
   desc: A tall building under construction at night.
@@ -6291,6 +7377,38 @@ sb-358120874:
   - structure
   - tower
   text_graphic: false
+sb-358121160:
+  arab_people: null
+  desc: A coral-covered shipwreck in blue water.
+  people: false
+  tags:
+  - blue
+  - coral
+  - fish
+  - marine
+  - ocean
+  - ruin
+  - sea
+  - shipwreck
+  - underwater
+  - water
+  text_graphic: false
+sb-358121192:
+  arab_people: null
+  desc: Coral reef underwater scene
+  people: false
+  tags:
+  - blue
+  - coral
+  - fish
+  - marine
+  - nature
+  - ocean
+  - reef
+  - sea
+  - underwater
+  - water
+  text_graphic: false
 sb-358145107:
   arab_people: null
   desc: Baskets of colorful spices on a table
@@ -6306,6 +7424,48 @@ sb-358145107:
   - spices
   - table
   - textiles
+  text_graphic: false
+sb-358145229:
+  arab_people: null
+  desc: A sea turtle swims in blue water.
+  people: false
+  tags:
+  - animal
+  - blue
+  - marine
+  - nature
+  - ocean
+  - sea
+  - swimming
+  - turtle
+  - underwater
+  - water
+  text_graphic: false
+sb-358231769:
+  arab_people: false
+  desc: Hand holding a coral piece on beach
+  people: true
+  tags:
+  - beach
+  - coral
+  - hand
+  - nature
+  - ocean
+  - sand
+  - sea
+  - shore
+  - water
+  - waves
+  text_graphic: false
+sb-358296478:
+  arab_people: null
+  desc: A sea turtle swims over coral.
+  people: false
+  tags:
+  - coral
+  - ocean
+  - turtle
+  - water
   text_graphic: false
 sb-358534621:
   arab_people: null
@@ -6338,6 +7498,33 @@ sb-5345652:
   - legs
   - movement
   - speed
+  text_graphic: false
+sb-55329:
+  arab_people: null
+  desc: A sea turtle swimming in blue water.
+  people: false
+  tags:
+  - animal
+  - blue
+  - deep
+  - marine
+  - nature
+  - ocean
+  - sea
+  - swimming
+  - turtle
+  - water
+  text_graphic: false
+sb-59411:
+  arab_people: null
+  desc: rusty anchor on a boat
+  people: false
+  tags:
+  - anchor
+  - boat
+  - rope
+  - water
+  - wood
   text_graphic: false
 sb-6235864:
   arab_people: true
@@ -6439,6 +7626,24 @@ sb-7066785:
   - tail
   - wing
   text_graphic: false
+sb-7285221:
+  arab_people: null
+  desc: Ocean waves crashing on shore
+  people: false
+  tags:
+  - beach
+  - blue
+  - foam
+  - nature
+  - ocean
+  - sea
+  - shoreline
+  - surf
+  - tide
+  - water
+  - waves
+  - white
+  text_graphic: false
 sb-7505805:
   arab_people: null
   desc: Modern architecture and manicured gardens.
@@ -6454,6 +7659,22 @@ sb-7505805:
   - pathway
   - skyline
   - trees
+  text_graphic: false
+sb-9081827:
+  arab_people: null
+  desc: Plastic bottles and bags on rocks by water.
+  people: false
+  tags:
+  - beach
+  - bottles
+  - debris
+  - nature
+  - ocean
+  - plastic
+  - rocks
+  - trash
+  - waste
+  - water
   text_graphic: false
 sb-9849919:
   arab_people: null

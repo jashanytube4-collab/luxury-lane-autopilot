@@ -4028,9 +4028,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends talk on middle eastern cities contributions to advancing human progress": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-11-02",
   "long": "2026-10-31",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -4067,6 +4067,10 @@
    [
     36.12,
     37.86333333333334
+   ],
+   [
+    42.586666666666666,
+    45.24666666666667
    ]
   ],
   "video_exhausted": true,
@@ -10211,6 +10215,7 @@
  },
  "hamdan bin mohammed opens smart police station at la mer": {
   "last_short": "2026-11-02",
+  "montage_exhausted": true,
   "montage_used": 8,
   "remix_ranges": [
    [
@@ -10361,9 +10366,9 @@
   "video_len": 97
  },
  "hamdan bin mohammed receives canadian ambassador": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-02",
   "long": "2026-10-31",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     8.984166547999786,
@@ -10395,6 +10400,10 @@
    [
     65.80000000000001,
     71.75999999999999
+   ],
+   [
+    53.620000000000005,
+    58.620000000000005
    ]
   ],
   "video_exhausted": true,
@@ -10402,7 +10411,7 @@
  },
  "hamdan bin mohammed receives chairman of wccd": {
   "last_short": "2026-11-02",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -10418,6 +10427,10 @@
    [
     43.239999999999995,
     45.92
+   ],
+   [
+    30.210000000000004,
+    31.19
    ]
   ],
   "video_exhausted": true,
@@ -11955,9 +11968,9 @@
   "video_len": 91
  },
  "hamdan bin mohammed unveils 5 star plaque at dewa head office": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-02",
   "long": "2026-11-01",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     149.9136373207893,
@@ -11981,6 +11994,10 @@
    [
     171.20000000000002,
     179.96
+   ],
+   [
+    149.96,
+    154.96
    ]
   ],
   "video_exhausted": true,
@@ -13216,6 +13233,7 @@
  },
  "hamdan bin mohammed visits dubai chamber of commerce and industry": {
   "last_short": "2026-11-01",
+  "montage_exhausted": true,
   "montage_used": 7,
   "remix_ranges": [
    [

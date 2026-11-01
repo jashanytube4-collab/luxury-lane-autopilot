@@ -148,9 +148,9 @@
   "long": "2026-10-17"
  },
  "crown prince offers condolences to families of martyrs almazroui and dhahoori": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-11-02",
   "long": "2026-10-28",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -183,6 +183,10 @@
    [
     104.4,
     109.11999999999999
+   ],
+   [
+    126.36,
+    128.84
    ]
   ],
   "video_exhausted": true,
@@ -2291,6 +2295,7 @@
   "fails": 1,
   "last_short": "2026-10-31",
   "long": "2026-10-11",
+  "montage_exhausted": true,
   "montage_used": 2,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -3510,7 +3515,7 @@
  "hamdan bin mohammed attends graduation ceremony of hbmsu university": {
   "last_short": "2026-11-02",
   "long": "2026-10-31",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -3526,6 +3531,10 @@
    [
     12.28,
     15.040000000000001
+   ],
+   [
+    19.0,
+    21.16
    ]
   ],
   "video_exhausted": true,
@@ -5447,9 +5456,9 @@
   "video_len": 73
  },
  "hamdan bin mohammed extends condolences to families of pilots": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-02",
   "long": "2026-10-14",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -5490,6 +5499,10 @@
    [
     64.56,
     77.28
+   ],
+   [
+    43.08,
+    46.160000000000004
    ]
   ],
   "video_exhausted": true,
@@ -6662,9 +6675,9 @@
   "video_len": 227
  },
  "hamdan bin mohammed inspects rta s autonomous mobility and ai projects": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-02",
   "long": "2026-10-31",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     100.06784977818178,
@@ -6716,6 +6729,10 @@
    [
     253.48000000000002,
     258.76
+   ],
+   [
+    48.68,
+    50.88
    ]
   ],
   "video_exhausted": true,
@@ -9357,9 +9374,9 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed offers condolences to family of martyr al mesmari": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-11-02",
   "long": "2026-10-27",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -9392,6 +9409,10 @@
    [
     32.96,
     45.75
+   ],
+   [
+    52.8,
+    55.480000000000004
    ]
   ],
   "video_exhausted": true,
@@ -11470,6 +11491,7 @@
  "hamdan bin mohammed the uae has taken strides in energy sustainability": {
   "last_short": "2026-11-02",
   "long": "2026-10-14",
+  "montage_exhausted": true,
   "montage_used": 8,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -13102,6 +13124,7 @@
  "hamdan bin mohammed visits dubai autism center": {
   "last_short": "2026-11-02",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 11,
   "remix_ranges": [
    [
@@ -13571,6 +13594,7 @@
  "hamdan bin mohammed visits exhibition that tells story of uae s participation in world expos": {
   "last_short": "2026-11-01",
   "long": "2026-11-02",
+  "montage_exhausted": true,
   "montage_used": 6,
   "remix_ranges": [
    [
@@ -13931,9 +13955,9 @@
   "video_len": 57
  },
  "hamdan bin mohammed visits knowledge and human development authority": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-02",
   "long": "2026-10-31",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -13960,6 +13984,12 @@
     152.92000000000002,
     154.56
    ],
+   [
+    45.96,
+    48.2
+   ]
+  ],
+  "shot_ranges": [
    [
     45.96,
     48.2

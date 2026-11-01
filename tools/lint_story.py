@@ -115,7 +115,39 @@ def lint(path: Path) -> list[str]:
     total = sum(len(re.findall(r"\w+", b.get("say", ""))) for b in beats)
     if total < 1320:
         problems.append(f"script only {total} words (need 1,320+)")
+    problems += old_content_signals(s)
     return problems
+
+
+_NUM = r"(?:one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen" \
+       r"|eighteen|nineteen|twenty(?:-\w+)?)"
+_OLD = re.compile(
+    r"\b(?:19|20)\d\d\b"                                     # 2020, 1985
+    r"|\btwo thousand(?: and)? " + _NUM +                     # two thousand and nineteen
+    r"|\b(?:nineteen|twenty) (?:ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen"
+    r"|twenty(?:-\w+)?|(?:thirty|forty|fifty|sixty|seventy|eighty|ninety)(?:-\w+)?)\b"   # twenty twenty-two
+    r"|\b(?:\d+|a few|many|" + _NUM + r") years? ago\b"
+    r"|\b(?:in|of|on|since|from|until) (?:early |late |mid )?(?:january|february|march|april|may|june|july|august"
+    r"|september|october|november|december)\b(?! \w+ly)", re.I)
+_OLD_OK = re.compile(r"\bvision (?:2030|twenty-thirty)\b", re.I)   # plan names, not dates
+
+
+def old_content_signals(s: dict) -> list[str]:
+    """Rule 38 (owner, PERMANENT): Luxury Lane never says or shows years, dates or 'X years ago' (viewers comment
+    'this is old'). Checks every spoken line (beats or old-style sections), the title, description, tags and thumbnail."""
+    texts = [("title", s.get("title", "")), ("description", s.get("description", "")),
+             ("tags", " , ".join(map(str, s.get("tags", []) or []))),
+             ("thumbnail", " ".join(str(v) for k, v in (s.get("thumbnail") or {}).items() if k in ("text", "tag")))]
+    for sec in s.get("sections", []) or []:
+        texts += [("say", b.get("say", "")) for b in sec.get("beats", []) or []]
+        if "say" in sec:
+            texts.append(("say", sec.get("say", "")))
+    out = []
+    for where, txt in texts:
+        txt = _OLD_OK.sub("", " ".join(str(txt).split()))
+        for m in _OLD.finditer(txt):
+            out.append(f"rule 38 date/year in {where}: '...{txt[max(0, m.start() - 25):m.end() + 10]}...'")
+    return out
 
 
 def lint_story_id(story_id: str) -> list[str]:

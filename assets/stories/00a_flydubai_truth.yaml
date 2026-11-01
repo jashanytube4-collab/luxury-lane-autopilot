@@ -24,11 +24,11 @@ tags:
 - Fazza hospital visit
 - Indian pilot hero
 - Crown Prince of Dubai
-- Fazza 2026
+- Fazza flydubai pilot
 # Every sentence shows its own real footage (assets/clips.yaml fz-*, official videos of him), each one once.
 sections:
 - beats:
-  - say: On the thirtieth of September, a flydubai jet took off from Dubai with more than one hundred and seventy people
+  - say: One day, a flydubai jet took off from Dubai with more than one hundred and seventy people
       on board.
     show: [clip:flydubai-jet2, clip:fz-plane-stairs]
   - say: Within hours, the whole world was asking how close it had come to disaster.
@@ -56,7 +56,7 @@ sections:
     show: [clip:fz-smit-selfie2]
   - say: He grew up in Mumbai, and his father paid for his first flying lessons.
     show: [clip:fz-uncle]
-  - say: He trained in New Zealand, flew for SpiceJet for about ten years, and joined flydubai in twenty twenty-two.
+  - say: He trained in New Zealand, flew for SpiceJet for about ten years, and then joined flydubai.
     show: [clip:fz-aunt]
 - beats:
   - say: Shocking truth number two. The attack came from inside the flight deck, from his own first officer.
@@ -72,7 +72,7 @@ sections:
 - beats:
   - say: Shocking truth number three. The door that was built to keep everyone safe had turned into a trap.
     show: [clip:fz-passenger-arrivals]
-  - say: Since two thousand and one, cockpit doors have been reinforced, and the pilot inside can keep them shut.
+  - say: Ever since the attacks on New York, cockpit doors have been reinforced, and the pilot inside can keep them shut.
     show: [clip:fz-arrive-night, clip:fz-arrive-gate]
   - say: That stops hijackers. But when the threat is already inside, every bit of help is locked on the wrong side.
     show: [clip:fz-bg-crowd, clip:fz-arrive-walk]
@@ -132,7 +132,7 @@ sections:
   - say: Prince Hamdan is not only Dubai's Crown Prince. He is also Deputy Prime Minister and Minister of Defence of
       the UAE.
     show: ["key:hamdan bin mohammed attends ceremony marking 49th anniversary of uae armed forces unification"]
-  - say: On Saturday, the third of October, Prince Hamdan bin Mohammed went to see the captain in hospital.
+  - say: Days later, Prince Hamdan bin Mohammed went to see the captain in hospital.
     show: [clip:fz-visit-doctor]
   - say: With him was Sheikh Ahmed bin Saeed, the head of Dubai's civil aviation authority and the chairman of Emirates.
     show: ["key:hamdan bin mohammed and maktoum bin mohammed visit emirates group headquarters"]

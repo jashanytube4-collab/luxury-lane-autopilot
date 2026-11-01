@@ -83,8 +83,13 @@
   },
   {
    "at": "2026-11-02T12:56:35+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Strength looks different when it comes with kindness. #youtubeshorts #ytshorts",
+   "type": "short",
+   "video_id": "dxZqQ5IZoQ0",
+   "voiced": true
   },
   {
    "at": "2026-11-02T13:36:04+04:00",

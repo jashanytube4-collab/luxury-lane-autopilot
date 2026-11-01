@@ -3078,7 +3078,7 @@
  "hamdan bin mohammed attends global cardiology congress": {
   "last_short": "2026-11-02",
   "long": "2026-10-22",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     227.92000000000002,
@@ -3111,6 +3111,10 @@
    [
     12.2,
     14.040000000000001
+   ],
+   [
+    100.67920096798953,
+    102.16306074818007
    ]
   ],
   "shorts_made": 1,
@@ -4612,6 +4616,7 @@
   "last_short": "2026-11-01",
   "long": "2026-10-30",
   "montage_used": 10,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     61.638788101365066,
@@ -4795,10 +4800,10 @@
   "video_len": 122
  },
  "hamdan bin mohammed chairs executive council meeting approves updated school fees framework": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-02",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     85.4953236324418,
@@ -4819,6 +4824,10 @@
    [
     0.7986450523251469,
     2.6580723947260667
+   ],
+   [
+    39.8,
+    42.28
    ]
   ],
   "shorts_made": 1,
@@ -7577,7 +7586,7 @@
  "hamdan bin mohammed meets government team behind uae s progress in world bank s ease of doing business ranking": {
   "last_short": "2026-11-02",
   "long": "2026-10-30",
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     125.5027611214891,
@@ -7626,6 +7635,10 @@
    [
     60.48,
     62.68
+   ],
+   [
+    107.52000000000001,
+    109.44
    ]
   ],
   "shorts_made": 2,
@@ -8918,6 +8931,7 @@
   "last_short": "2026-11-02",
   "long": "2026-10-21",
   "montage_used": 9,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     15.913712985258753,
@@ -9733,8 +9747,8 @@
   "video_len": 375
  },
  "hamdan bin mohammed opens crime prevention international conference": {
-  "last_short": "2026-11-01",
-  "montage_used": 11,
+  "last_short": "2026-11-02",
+  "montage_used": 12,
   "remix_ranges": [
    [
     68.54641858440627,
@@ -9767,6 +9781,10 @@
    [
     144.00219949274077,
     146.42473887222883
+   ],
+   [
+    40.277734811846614,
+    41.68689301725444
    ]
   ],
   "shorts_made": 3,
@@ -9991,7 +10009,7 @@
  "hamdan bin mohammed opens salem medical fitness smart centre": {
   "last_short": "2026-11-02",
   "long": "2026-10-18",
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     182.01540657684788,
@@ -10032,6 +10050,10 @@
    [
     213.32850247733606,
     215.34650704533448
+   ],
+   [
+    17.48,
+    19.279999999999998
    ]
   ],
   "shorts_made": 3,
@@ -11420,9 +11442,9 @@
   "video_len": 75
  },
  "hamdan bin mohammed tours arabian travel market 2024": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-02",
   "long": "2026-10-31",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     48.384688122709605,
@@ -11451,6 +11473,10 @@
    [
     54.547896214696685,
     56.224729893364994
+   ],
+   [
+    9.586666666666666,
+    11.313333333333334
    ]
   ],
   "shorts_made": 1,
@@ -12615,8 +12641,8 @@
   "video_len": 196
  },
  "hamdan bin mohammed visits department of economic development": {
-  "last_short": "2026-11-01",
-  "montage_used": 7,
+  "last_short": "2026-11-02",
+  "montage_used": 8,
   "remix_ranges": [
    [
     99.05206428340473,
@@ -12645,6 +12671,10 @@
    [
     87.57722519918279,
     90.07120712528432
+   ],
+   [
+    187.42064023209224,
+    189.6738732337273
    ]
   ],
   "video_exhausted": true,
@@ -13120,9 +13150,9 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed visits dubai government hr department": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-02",
   "long": "2026-10-31",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     92.94184157109537,
@@ -13147,6 +13177,10 @@
    [
     144.0067665262467,
     145.7924994013552
+   ],
+   [
+    129.00352201784906,
+    131.2716149478057
    ]
   ],
   "shorts_made": 1,

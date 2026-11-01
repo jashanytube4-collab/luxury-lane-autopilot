@@ -2605,7 +2605,7 @@
  "hamdan bin mohammed attends closing ceremony of 3rd dubai future accelerators program": {
   "last_short": "2026-11-02",
   "long": "2026-10-30",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     2.92,
@@ -2677,6 +2677,10 @@
    [
     41.64,
     43.92
+   ],
+   [
+    275.4533333333334,
+    276.46666666666675
    ]
   ],
   "video_len": 317
@@ -3947,9 +3951,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends safeguarding endangered cultural heritage conference": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-11-02",
   "long": "2026-10-24",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -3963,6 +3967,12 @@
    [
     72.65085521760754,
     74.4186736347929
+   ]
+  ],
+  "shot_ranges": [
+   [
+    12.959999999999999,
+    16.36
    ]
   ],
   "video_exhausted": true,
@@ -4764,9 +4774,9 @@
   "video_len": 78
  },
  "hamdan bin mohammed chairs executive council meeting approves series of economic stimulus policies": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-02",
   "long": "2026-10-30",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -4811,6 +4821,10 @@
    [
     43.0,
     45.120000000000005
+   ],
+   [
+    87.84,
+    89.96
    ]
   ],
   "video_exhausted": true,
@@ -7155,9 +7169,9 @@
   "video_len": 69
  },
  "hamdan bin mohammed launches sports initiatives": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-02",
   "long": "2026-10-18",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     212.80506732035832,
@@ -7205,6 +7219,10 @@
    [
     29.76,
     32.68
+   ],
+   [
+    69.48,
+    72.28
    ]
   ],
   "video_exhausted": true,
@@ -8846,9 +8864,9 @@
   "video_len": 63
  },
  "hamdan bin mohammed meets with top performing school and university graduates": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-11-02",
   "long": "2026-10-17",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     13.76558973958145,
@@ -8892,6 +8910,10 @@
    [
     55.35333333333333,
     58.71333333333334
+   ],
+   [
+    17.553333333333335,
+    20.38
    ]
   ],
   "video_exhausted": true,
@@ -11916,8 +11938,8 @@
   "video_len": 214
  },
  "hamdan bin mohammed unveils 5 star plaque at dubai chamber of commerce and industry": {
-  "last_short": "2026-11-01",
-  "montage_used": 3,
+  "last_short": "2026-11-02",
+  "montage_used": 4,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -11942,6 +11964,10 @@
    [
     61.68,
     72.64
+   ],
+   [
+    86.08,
+    89.19999999999999
    ]
   ],
   "video_exhausted": true,

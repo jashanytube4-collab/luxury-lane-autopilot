@@ -186,8 +186,13 @@
   },
   {
    "at": "2026-11-02T21:34:03+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "montage",
+   "status": "scheduled",
+   "title": "Simplicity is his greatest luxury. #fazza #youtubeshorts #youtube",
+   "type": "short",
+   "video_id": "RbCtG7pwrr8",
+   "voiced": true
   },
   {
    "at": "2026-11-02T22:24:42+04:00",

@@ -9294,9 +9294,9 @@
   "long": "2026-10-17"
  },
  "hamdan bin mohammed offers condolences to family of martyr saeed alhajri": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-02",
   "long": "2026-10-27",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     30.126788906092074,
@@ -9328,6 +9328,10 @@
    [
     103.04,
     108.64
+   ],
+   [
+    86.92,
+    89.72
    ]
   ],
   "video_exhausted": true,
@@ -11780,7 +11784,7 @@
  "hamdan bin mohammed unveils 5 star plaque at hatta gdrfa centre": {
   "last_short": "2026-11-02",
   "long": "2026-10-14",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     62.264740304363606,
@@ -11816,6 +11820,10 @@
    [
     132.44,
     137.28
+   ],
+   [
+    59.8,
+    64.6
    ]
   ],
   "video_exhausted": true,
@@ -13166,7 +13174,7 @@
  "hamdan bin mohammed visits dubai international boat show": {
   "last_short": "2026-11-02",
   "long": "2026-10-14",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     252.31552180004425,
@@ -13226,6 +13234,10 @@
    [
     154.68,
     158.2
+   ],
+   [
+    80.02499999999999,
+    81.615
    ]
   ],
   "video_exhausted": true,
@@ -14512,9 +14524,9 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed witnesses the first test flight": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-11-02",
   "long": "2026-10-31",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -14544,6 +14556,12 @@
    [
     56.95368293657866,
     58.524486852282834
+   ]
+  ],
+  "shot_ranges": [
+   [
+    77.5,
+    82.5
    ]
   ],
   "video_exhausted": true,

@@ -954,6 +954,7 @@
  },
  "dubai crown prince returns to uae after performing umrah": {
   "long": "2026-11-02",
+  "montage_exhausted": true,
   "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 155
@@ -9610,7 +9611,7 @@
  "hamdan bin mohammed officially opens gitex 2018": {
   "last_short": "2026-11-02",
   "long": "2026-11-02",
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     126.01016816879962,
@@ -9682,6 +9683,10 @@
    [
     250.84,
     254.48
+   ],
+   [
+    69.615,
+    70.94500000000002
    ]
   ],
   "video_exhausted": true,
@@ -10980,7 +10985,7 @@
  "hamdan bin mohammed reviews dubai future foundation s 2018 plan and projects": {
   "last_short": "2026-11-02",
   "long": "2026-10-30",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     140.32186297088035,
@@ -11021,6 +11026,12 @@
    [
     96.91238236214951,
     98.99617744473898
+   ]
+  ],
+  "shot_ranges": [
+   [
+    95.86,
+    100.86
    ]
   ],
   "video_exhausted": true,
@@ -14200,7 +14211,7 @@
  "hamdan bin mohammed visits personal status court": {
   "last_short": "2026-11-02",
   "long": "2026-10-31",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     80.89349709731536,
@@ -14233,6 +14244,12 @@
    [
     172.0804244111251,
     173.93511335740243
+   ]
+  ],
+  "shot_ranges": [
+   [
+    148.24,
+    150.64
    ]
   ],
   "video_exhausted": true,
@@ -16685,9 +16702,9 @@
   "video_exhausted": true
  },
  "in presence of dubai crown prince meraas signs agreement with dubai municipality to manage dubai safari": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-02",
   "long": "2026-10-31",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -16719,6 +16736,10 @@
    [
     13.879999999999999,
     17.84
+   ],
+   [
+    4.34,
+    9.34
    ]
   ],
   "video_exhausted": true,
@@ -17436,6 +17457,7 @@
  },
  "queen elizabeth honors hamdan on winning windsor royal endurance race": {
   "long": "2026-10-18",
+  "montage_exhausted": true,
   "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 108

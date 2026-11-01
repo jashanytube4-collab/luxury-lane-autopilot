@@ -181,8 +181,13 @@
   },
   {
    "at": "2026-11-02T21:00:00+04:00",
-   "status": "open",
-   "type": "members"
+   "event": "montage",
+   "kind": "montage",
+   "status": "scheduled",
+   "title": "One look, a thousand stories. ✨ #youtubeshorts #youtube #fazza",
+   "type": "members",
+   "video_id": "fI_gLKfgeLM",
+   "voiced": true
   },
   {
    "at": "2026-11-02T21:34:03+04:00",

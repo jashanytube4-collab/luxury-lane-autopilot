@@ -772,9 +772,9 @@
   "long": "2026-10-31"
  },
  "dubai crown prince receives australia s governor general": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-02",
   "long": "2026-10-31",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -798,6 +798,10 @@
    [
     72.585,
     74.41499999999999
+   ],
+   [
+    117.96833333333332,
+    120.55166666666666
    ]
   ],
   "video_exhausted": true,
@@ -1898,6 +1902,7 @@
  },
  "hamdan bin mohammed approves dff s three year strategic plan": {
   "last_short": "2026-11-01",
+  "montage_exhausted": true,
   "montage_used": 15,
   "remix_ranges": [
    [
@@ -4469,9 +4474,9 @@
   "long": "2026-10-18"
  },
  "hamdan bin mohammed attends wedding receptions in al ain dubai": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-02",
   "long": "2026-10-15",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     37.90981226167036,
@@ -4527,6 +4532,10 @@
    [
     68.26,
     71.39
+   ],
+   [
+    37.64,
+    40.800000000000004
    ]
   ],
   "video_exhausted": true,
@@ -6364,9 +6373,9 @@
   "video_len": 316
  },
  "hamdan bin mohammed inaugurates the world s largest solar powered data centre": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-11-02",
   "long": "2026-10-31",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -6423,6 +6432,10 @@
    [
     55.766666666666666,
     60.766666666666666
+   ],
+   [
+    40.28666666666666,
+    42.31333333333333
    ]
   ],
   "video_exhausted": true,
@@ -11314,9 +11327,9 @@
   "video_len": 43
  },
  "hamdan bin mohammed the uae has taken strides in energy sustainability": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-02",
   "long": "2026-10-14",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -11373,6 +11386,10 @@
    [
     54.04,
     58.28
+   ],
+   [
+    61.879999999999995,
+    64.88
    ]
   ],
   "video_exhausted": true,
@@ -11455,6 +11472,7 @@
  "hamdan bin mohammed tours bustanica the world s largest vertical farm in dubai": {
   "last_short": "2026-11-01",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 8,
   "remix_ranges": [
    [
@@ -13220,7 +13238,7 @@
  "hamdan bin mohammed visits dubai international boat show": {
   "last_short": "2026-11-02",
   "long": "2026-10-14",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     252.31552180004425,
@@ -13284,6 +13302,10 @@
    [
     80.02499999999999,
     81.615
+   ],
+   [
+    252.28,
+    254.64
    ]
   ],
   "video_exhausted": true,
@@ -16478,6 +16500,7 @@
   "fails": 1,
   "last_short": "2026-11-02",
   "long": "2026-10-27",
+  "montage_exhausted": true,
   "montage_used": 3,
   "remix_exhausted": true,
   "remix_ranges": [

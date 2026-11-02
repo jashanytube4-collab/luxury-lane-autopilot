@@ -830,9 +830,9 @@
   "long": "2026-10-31"
  },
  "dubai crown prince receives australia s governor general": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-03",
   "long": "2026-10-31",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -860,6 +860,10 @@
    [
     117.96833333333332,
     120.55166666666666
+   ],
+   [
+    22.560000000000002,
+    24.8
    ]
   ],
   "video_exhausted": true,
@@ -2641,9 +2645,9 @@
   "video_len": 158
  },
  "hamdan bin mohammed attends al amri wedding": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-03",
   "long": "2026-10-17",
-  "montage_used": 2,
+  "montage_used": 3,
   "no_video_until": "2026-10-29",
   "remix_exhausted": true,
   "remix_ranges": [
@@ -2654,6 +2658,12 @@
    [
     39.580906141075445,
     41.3667252519194
+   ]
+  ],
+  "shot_ranges": [
+   [
+    26.086666666666666,
+    28.18
    ]
   ],
   "video_exhausted": true,
@@ -3934,9 +3944,9 @@
  },
  "hamdan bin mohammed attends health chain forum": {
   "fails": 1,
-  "last_short": "2026-10-30",
+  "last_short": "2026-11-03",
   "long": "2026-10-14",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -4001,6 +4011,10 @@
    [
     86.2,
     89.56
+   ],
+   [
+    208.68,
+    212.0
    ]
   ],
   "video_exhausted": true,
@@ -10836,7 +10850,7 @@
  "hamdan bin mohammed opens salem medical fitness smart centre": {
   "last_short": "2026-11-03",
   "long": "2026-10-18",
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     182.01540657684788,
@@ -10932,6 +10946,10 @@
    [
     92.21999999999998,
     94.35999999999999
+   ],
+   [
+    187.04,
+    191.64
    ]
   ],
   "video_len": 226
@@ -14366,6 +14384,7 @@
  "hamdan bin mohammed visits dubai hospital": {
   "last_short": "2026-11-03",
   "long": "2026-10-14",
+  "montage_exhausted": true,
   "montage_used": 13,
   "remix_ranges": [
    [
@@ -15308,9 +15327,9 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed visits smart dubai office launches dubai paperless strategy": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-11-03",
   "long": "2026-10-30",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -15347,6 +15366,10 @@
    [
     97.0,
     102.36
+   ],
+   [
+    40.721666666666664,
+    42.11833333333334
    ]
   ],
   "video_exhausted": true,
@@ -16255,6 +16278,7 @@
  },
  "hamdan offers condolences on death of martyr tareq al shehi": {
   "long": "2026-10-20",
+  "montage_exhausted": true,
   "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 94
@@ -16381,6 +16405,7 @@
  "hamdan reveals dubai government towards 2021 initiative": {
   "last_short": "2026-11-01",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 4,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -18421,9 +18446,9 @@
   "video_exhausted": true
  },
  "partnership between community government the foundation of enhancing government services hamdan bin mohammed": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-03",
   "long": "2026-10-31",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -18447,6 +18472,10 @@
    [
     51.36,
     53.88
+   ],
+   [
+    55.919999999999995,
+    58.24
    ]
   ],
   "video_exhausted": true,

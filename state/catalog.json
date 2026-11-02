@@ -282,7 +282,7 @@
  "dubai crown prince attends graduation of dubai police academy": {
   "last_short": "2026-11-03",
   "long": "2026-10-31",
-  "montage_used": 21,
+  "montage_used": 22,
   "remix_ranges": [
    [
     211.78852581766063,
@@ -363,6 +363,10 @@
    [
     223.90211847681286,
     225.59968421627656
+   ],
+   [
+    479.04,
+    480.76
    ]
   ],
   "shorts_made": 2,
@@ -1077,7 +1081,7 @@
  "dubai crown prince visits dubai municipality": {
   "last_short": "2026-11-03",
   "long": "2026-11-02",
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     296.0,
@@ -1138,6 +1142,10 @@
    [
     240.31724054091498,
     242.58290276114425
+   ],
+   [
+    328.72,
+    331.15999999999997
    ]
   ],
   "shorts_made": 1,
@@ -6020,7 +6028,7 @@
  "hamdan bin mohammed honors mbr creative sports award winners": {
   "last_short": "2026-11-03",
   "long": "2026-10-18",
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     50.879999999999995,
@@ -6073,6 +6081,10 @@
    [
     74.3404039810395,
     76.33217574066713
+   ],
+   [
+    281.76,
+    283.8
    ]
   ],
   "shorts_made": 3,
@@ -6143,7 +6155,7 @@
  "hamdan bin mohammed honors winners of dubai appreciation award for community service": {
   "last_short": "2026-11-03",
   "long": "2026-11-02",
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     179.39335360955343,
@@ -6192,6 +6204,10 @@
    [
     80.31942497912131,
     82.47026683825425
+   ],
+   [
+    198.95070165090442,
+    200.5427841567207
    ]
   ],
   "shorts_made": 3,
@@ -6485,6 +6501,7 @@
   "last_short": "2026-11-03",
   "long": "2026-10-30",
   "montage_used": 15,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     219.23125416320443,
@@ -6983,6 +7000,7 @@
   "last_short": "2026-11-03",
   "long": "2026-10-22",
   "montage_used": 11,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     399.88601091430286,
@@ -7049,7 +7067,7 @@
  },
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
   "last_short": "2026-11-03",
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     78.30225988576875,
@@ -7110,6 +7128,10 @@
    [
     164.8189010455698,
     166.2568866345934
+   ],
+   [
+    69.64,
+    71.47999999999999
    ]
   ],
   "shorts_made": 2,
@@ -7739,7 +7761,7 @@
  "hamdan bin mohammed launches sports initiatives": {
   "last_short": "2026-11-03",
   "long": "2026-10-18",
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     212.80506732035832,
@@ -7788,6 +7810,10 @@
    [
     87.46017839265352,
     89.84997663222002
+   ],
+   [
+    234.41256872654873,
+    235.953080441813
    ]
   ],
   "shorts_made": 1,
@@ -10571,7 +10597,7 @@
  },
  "hamdan bin mohammed opens crime prevention international conference": {
   "last_short": "2026-11-03",
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     68.54641858440627,
@@ -10624,6 +10650,10 @@
    [
     61.20634035888016,
     63.69694105395628
+   ],
+   [
+    127.15336867404037,
+    128.7226342132348
    ]
   ],
   "shorts_made": 3,
@@ -13497,6 +13527,7 @@
   "long": "2026-10-13",
   "montage_exhausted": true,
   "montage_used": 13,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     49.68,
@@ -18090,7 +18121,7 @@
  "khalifasat launches successfully into orbit emphasising uae s leadership in developing satellites": {
   "last_short": "2026-11-03",
   "long": "2026-10-14",
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     133.53845390207644,
@@ -18135,6 +18166,10 @@
    [
     126.50993898842059,
     127.72291458686477
+   ],
+   [
+    6.928613009002943,
+    9.225541866456336
    ]
   ],
   "shorts_made": 3,

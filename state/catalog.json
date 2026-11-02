@@ -2942,9 +2942,9 @@
   "video_len": 60
  },
  "hamdan bin mohammed attends dubai forum for government best practices": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-03",
   "long": "2026-10-31",
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -3000,6 +3000,10 @@
    [
     198.28,
     201.64
+   ],
+   [
+    172.0,
+    174.92
    ]
   ],
   "video_exhausted": true,
@@ -3786,7 +3790,7 @@
  "hamdan bin mohammed attends hct graduation": {
   "last_short": "2026-11-03",
   "long": "2026-10-31",
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     45.8,
@@ -3846,6 +3850,10 @@
    [
     33.04,
     37.080000000000005
+   ],
+   [
+    10.384999999999984,
+    11.855000000000018
    ]
   ],
   "video_exhausted": true,
@@ -7938,9 +7946,9 @@
   "video_len": 40
  },
  "hamdan bin mohammed meets first batch of female cadets graduating from dubai police academy": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-03",
   "long": "2026-10-31",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -8009,6 +8017,10 @@
    [
     146.16,
     148.6
+   ],
+   [
+    97.84,
+    101.24
    ]
   ],
   "video_exhausted": true,
@@ -12759,7 +12771,7 @@
  },
  "hamdan bin mohammed unveils 5 star plaques at three customer happiness centres in dubai": {
   "last_short": "2026-11-03",
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     140.12827217544256,
@@ -12827,6 +12839,10 @@
    [
     234.12,
     238.79999999999998
+   ],
+   [
+    140.04,
+    142.16
    ]
   ],
   "video_exhausted": true,
@@ -15794,7 +15810,7 @@
  "hamdan inspects al bayt studio": {
   "last_short": "2026-11-03",
   "long": "2026-10-31",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -15834,6 +15850,10 @@
    [
     96.78666666666668,
     101.11333333333333
+   ],
+   [
+    109.28666666666668,
+    112.94666666666666
    ]
   ],
   "video_exhausted": true,
@@ -18091,6 +18111,7 @@
  },
  "queen elizabeth honors hamdan on winning windsor royal endurance race": {
   "long": "2026-10-18",
+  "montage_exhausted": true,
   "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 108

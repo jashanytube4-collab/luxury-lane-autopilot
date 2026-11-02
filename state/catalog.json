@@ -4399,9 +4399,9 @@
   "video_len": 164
  },
  "hamdan bin mohammed attends the knowledge summit 2018": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-03",
   "long": "2026-10-31",
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     21.009627951075547,
@@ -4485,6 +4485,10 @@
    [
     115.72,
     119.0
+   ],
+   [
+    442.96,
+    445.32
    ]
   ],
   "video_len": 507
@@ -10614,6 +10618,7 @@
  "hamdan bin mohammed opens the race to excellence": {
   "last_short": "2026-11-03",
   "long": "2026-10-12",
+  "montage_exhausted": true,
   "montage_used": 4,
   "no_video_until": "2026-11-02",
   "remix_ranges": [
@@ -11126,8 +11131,8 @@
   "long": "2026-10-31"
  },
  "hamdan bin mohammed receives victory team xcat": {
-  "last_short": "2026-11-02",
-  "montage_used": 5,
+  "last_short": "2026-11-03",
+  "montage_used": 6,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -11151,6 +11156,10 @@
    [
     28.080000000000002,
     30.88
+   ],
+   [
+    58.44,
+    63.44
    ]
   ],
   "video_exhausted": true,
@@ -11927,6 +11936,7 @@
  "hamdan bin mohammed tours arabian travel market 2024": {
   "last_short": "2026-11-03",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 11,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -13411,9 +13421,9 @@
   "video_len": 62
  },
  "hamdan bin mohammed visits dp world s facilities inspects operations of jebel ali port": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-03",
   "long": "2026-10-31",
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     23.240000000000002,
@@ -13473,6 +13483,10 @@
    [
     239.20000000000002,
     241.76
+   ],
+   [
+    94.92,
+    97.28
    ]
   ],
   "video_exhausted": true,
@@ -13991,9 +14005,9 @@
   "video_len": 263
  },
  "hamdan bin mohammed visits dubai sports council": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-03",
   "long": "2026-10-18",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -14029,6 +14043,10 @@
    [
     94.48,
     98.32
+   ],
+   [
+    80.52000000000001,
+    83.39999999999999
    ]
   ],
   "video_exhausted": true,

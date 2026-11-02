@@ -627,6 +627,7 @@
   "last_short": "2026-11-03",
   "long": "2026-10-30",
   "montage_used": 13,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     236.71305983579546,
@@ -1052,7 +1053,7 @@
  "dubai crown prince visits dubai municipality": {
   "last_short": "2026-11-03",
   "long": "2026-11-02",
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     296.0,
@@ -1105,6 +1106,10 @@
    [
     33.46713525372699,
     36.021147002820065
+   ],
+   [
+    58.19746646045046,
+    60.66656946653378
    ]
   ],
   "shorts_made": 1,
@@ -3082,6 +3087,7 @@
   "last_short": "2026-11-02",
   "long": "2026-10-30",
   "montage_used": 16,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     166.60279951075904,
@@ -3752,7 +3758,7 @@
  "hamdan bin mohammed attends hct graduation": {
   "last_short": "2026-11-03",
   "long": "2026-10-31",
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     45.8,
@@ -3793,6 +3799,10 @@
    [
     161.734625693171,
     163.93849522650197
+   ],
+   [
+    100.5336482544567,
+    102.12092489288774
    ]
   ],
   "shorts_made": 1,
@@ -5840,7 +5850,7 @@
  "hamdan bin mohammed honors mbr creative sports award winners": {
   "last_short": "2026-11-03",
   "long": "2026-10-18",
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     50.879999999999995,
@@ -5885,6 +5895,10 @@
    [
     125.82222121207123,
     127.387957593403
+   ],
+   [
+    201.10516087521015,
+    202.0755939832602
    ]
   ],
   "shorts_made": 3,
@@ -6751,7 +6765,7 @@
  "hamdan bin mohammed inaugurates zabeel healthcare center": {
   "last_short": "2026-11-03",
   "long": "2026-10-22",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     399.88601091430286,
@@ -6784,6 +6798,10 @@
    [
     166.36,
     168.24
+   ],
+   [
+    247.5312033716539,
+    249.26598184782662
    ]
   ],
   "shorts_made": 1,
@@ -10022,7 +10040,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2017": {
   "last_short": "2026-11-03",
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     15.810590002816998,
@@ -10067,6 +10085,10 @@
    [
     255.44,
     257.36
+   ],
+   [
+    171.24,
+    173.56
    ]
   ],
   "shorts_made": 1,
@@ -12413,7 +12435,7 @@
  "hamdan bin mohammed unveils 5 star plaque at dewa head office": {
   "last_short": "2026-11-03",
   "long": "2026-11-01",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     149.9136373207893,
@@ -12442,6 +12464,10 @@
    [
     121.22030905573486,
     122.64670541037744
+   ],
+   [
+    131.2608388252075,
+    133.41065304741906
    ]
   ],
   "shorts_made": 1,
@@ -12672,7 +12698,7 @@
  },
  "hamdan bin mohammed unveils 5 star plaques at three customer happiness centres in dubai": {
   "last_short": "2026-11-03",
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     140.12827217544256,
@@ -12721,6 +12747,10 @@
    [
     95.0927876818514,
     97.22558717026264
+   ],
+   [
+    265.7425188621742,
+    267.8211134112255
    ]
   ],
   "shorts_made": 1,
@@ -13672,7 +13702,7 @@
   "last_short": "2026-11-03",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     22.16,
@@ -13705,6 +13735,10 @@
    [
     53.87640269865342,
     55.842069374582586
+   ],
+   [
+    5.92,
+    7.88
    ]
   ],
   "shorts_made": 3,

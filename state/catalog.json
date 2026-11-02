@@ -744,6 +744,7 @@
  },
  "dubai crown prince launches hbmpsg": {
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 149
@@ -832,6 +833,7 @@
  "dubai crown prince receives australia s governor general": {
   "last_short": "2026-11-03",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 7,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -11206,6 +11208,7 @@
  },
  "hamdan bin mohammed receives gold coast mayor": {
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 76
@@ -15484,9 +15487,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits the dubai future foundation headquarters and reviews 10x projects": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-03",
   "long": "2026-10-30",
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -15559,6 +15562,10 @@
    [
     98.16000000000001,
     101.72
+   ],
+   [
+    81.75999999999999,
+    86.75999999999999
    ]
   ],
   "video_exhausted": true,
@@ -16128,9 +16135,9 @@
   "long": "2026-10-13"
  },
  "hamdan dubai s a global center for sukuk listing": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-11-03",
   "long": "2026-10-31",
-  "montage_used": 3,
+  "montage_used": 4,
   "no_video_until": "2026-10-29",
   "remix_exhausted": true,
   "remix_ranges": [
@@ -16145,6 +16152,12 @@
    [
     85.6640318017316,
     87.52271167345579
+   ]
+  ],
+  "shot_ranges": [
+   [
+    131.68666666666667,
+    135.24666666666667
    ]
   ],
   "video_exhausted": true,
@@ -16293,9 +16306,9 @@
   "long": "2026-10-17"
  },
  "hamdan officially opens 19th edition of dubai world cup": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-11-03",
   "long": "2026-10-12",
-  "montage_used": 3,
+  "montage_used": 4,
   "no_video_until": "2026-11-02",
   "remix_exhausted": true,
   "remix_ranges": [
@@ -16321,6 +16334,10 @@
    [
     56.936,
     63.608000000000004
+   ],
+   [
+    6.810000000000002,
+    10.989999999999998
    ]
   ],
   "video_exhausted": true,
@@ -18448,7 +18465,7 @@
  "partnership between community government the foundation of enhancing government services hamdan bin mohammed": {
   "last_short": "2026-11-03",
   "long": "2026-10-31",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -18476,6 +18493,10 @@
    [
     55.919999999999995,
     58.24
+   ],
+   [
+    79.72,
+    82.64
    ]
   ],
   "video_exhausted": true,

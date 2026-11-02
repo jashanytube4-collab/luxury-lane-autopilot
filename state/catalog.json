@@ -1356,14 +1356,20 @@
   "long": "2026-10-20"
  },
  "hamdan approves dubai innovation strategy": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-11-03",
   "long": "2026-10-30",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_exhausted": true,
   "remix_ranges": [
    [
     61.26276538884116,
     63.77303540601748
+   ]
+  ],
+  "shot_ranges": [
+   [
+    59.25,
+    64.25
    ]
   ],
   "video_exhausted": true,
@@ -2959,6 +2965,7 @@
  "hamdan bin mohammed attends dubai international health tourism forum": {
   "last_short": "2026-11-02",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 6,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -5479,6 +5486,7 @@
  "hamdan bin mohammed economic diversity and supportive legislative environment cornerstones for investor confidence in dubai": {
   "last_short": "2026-10-29",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 6,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -8073,8 +8081,8 @@
   "video_len": 46
  },
  "hamdan bin mohammed meets promising leaders from various dubai government entities": {
-  "last_short": "2026-10-31",
-  "montage_used": 4,
+  "last_short": "2026-11-03",
+  "montage_used": 5,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -8092,6 +8100,12 @@
    [
     16.04,
     17.64
+   ]
+  ],
+  "shot_ranges": [
+   [
+    22.68,
+    26.08
    ]
   ],
   "video_exhausted": true,
@@ -10094,8 +10108,8 @@
   "video_len": 375
  },
  "hamdan bin mohammed opens crime prevention international conference": {
-  "last_short": "2026-11-02",
-  "montage_used": 14,
+  "last_short": "2026-11-03",
+  "montage_used": 15,
   "remix_ranges": [
    [
     68.54641858440627,
@@ -10195,6 +10209,10 @@
    [
     18.68,
     22.439999999999998
+   ],
+   [
+    110.78166666666668,
+    111.93833333333333
    ]
   ],
   "video_exhausted": true,
@@ -11842,9 +11860,9 @@
   "video_len": 75
  },
  "hamdan bin mohammed tours arabian travel market 2024": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-03",
   "long": "2026-10-31",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -11909,6 +11927,10 @@
    [
     40.88666666666666,
     43.04666666666667
+   ],
+   [
+    47.85333333333333,
+    49.94666666666667
    ]
   ],
   "video_exhausted": true,
@@ -12295,6 +12317,7 @@
  },
  "hamdan bin mohammed unveils 5 star plaque at dubai chamber of commerce and industry": {
   "last_short": "2026-11-02",
+  "montage_exhausted": true,
   "montage_used": 4,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -14658,9 +14681,9 @@
   "video_len": 137
  },
  "hamdan bin mohammed visits stands of government entities at gitex2019": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-03",
   "long": "2026-10-31",
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     143.24971079721686,
@@ -14744,6 +14767,10 @@
    [
     135.84,
     138.07999999999998
+   ],
+   [
+    50.599999999999994,
+    52.800000000000004
    ]
   ],
   "video_exhausted": true,

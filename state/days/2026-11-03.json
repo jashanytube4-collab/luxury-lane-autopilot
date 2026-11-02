@@ -60,8 +60,13 @@
   },
   {
    "at": "2026-11-03T11:46:17+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "montage",
+   "status": "scheduled",
+   "title": "Kindness in action, every day. ❤️ #youtube #youtubeshorts",
+   "type": "short",
+   "video_id": "4XkDTDs7RRI",
+   "voiced": true
   },
   {
    "at": "2026-11-03T12:30:15+04:00",

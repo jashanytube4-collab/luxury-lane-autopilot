@@ -30,12 +30,17 @@
   },
   {
    "at": "2026-11-03T08:23:06+04:00",
-   "status": "skipped",
-   "type": "short"
+   "event": "montage",
+   "kind": "montage",
+   "status": "scheduled",
+   "title": "Not just a title. A responsibility he carries with pride. #youtube #youtubeshorts",
+   "type": "short",
+   "video_id": "ff-V9uTvdEI",
+   "voiced": true
   },
   {
    "at": "2026-11-03T09:10:05+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   },
   {
@@ -158,17 +163,17 @@
   },
   {
    "at": "2026-11-03T19:12:47+04:00",
-   "status": "skipped",
-   "type": "short"
-  },
-  {
-   "at": "2026-11-03T19:52:42+04:00",
    "status": "open",
    "type": "short"
   },
   {
-   "at": "2026-11-03T20:31:58+04:00",
+   "at": "2026-11-03T19:52:42+04:00",
    "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-03T20:31:58+04:00",
+   "status": "open",
    "type": "short"
   },
   {
@@ -198,7 +203,7 @@
   },
   {
    "at": "2026-11-04T00:28:49+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   },
   {

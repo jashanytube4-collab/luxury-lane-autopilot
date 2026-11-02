@@ -125,9 +125,9 @@
   "long": "2026-10-17"
  },
  "crown prince offers condolences to al mansouri family": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-03",
   "long": "2026-10-16",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -137,6 +137,12 @@
    [
     28.600283685583776,
     30.311188375499825
+   ]
+  ],
+  "shot_ranges": [
+   [
+    27.64,
+    31.88
    ]
   ],
   "video_exhausted": true,
@@ -1718,9 +1724,9 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed and maktoum bin mohammed review dubai municipality s key strategic projects following corporate restructuring": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-03",
   "long": "2026-10-27",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -1789,6 +1795,10 @@
    [
     60.55333333333333,
     62.74666666666667
+   ],
+   [
+    52.18666666666667,
+    54.34666666666667
    ]
   ],
   "video_exhausted": true,
@@ -3245,9 +3255,9 @@
   "video_len": 278
  },
  "hamdan bin mohammed attends global cardiology congress": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-03",
   "long": "2026-10-22",
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     227.92000000000002,
@@ -3311,6 +3321,10 @@
    [
     21.040000000000003,
     23.24
+   ],
+   [
+    187.68,
+    189.72
    ]
   ],
   "video_exhausted": true,
@@ -4537,7 +4551,7 @@
  "hamdan bin mohammed attends the launche of uae innovation month in dubai": {
   "last_short": "2026-11-03",
   "long": "2026-10-30",
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -4610,6 +4624,10 @@
    [
     150.36,
     155.12
+   ],
+   [
+    13.399999999999999,
+    15.4
    ]
   ],
   "video_exhausted": true,
@@ -5856,7 +5874,7 @@
  "hamdan bin mohammed honors mbr creative sports award winners": {
   "last_short": "2026-11-03",
   "long": "2026-10-18",
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     50.879999999999995,
@@ -5964,6 +5982,10 @@
    [
     31.72,
     36.72
+   ],
+   [
+    281.76,
+    283.8
    ]
   ],
   "video_len": 385
@@ -9369,6 +9391,7 @@
  "hamdan bin mohammed mohammed bin rashid places the highest priority on supporting youth and developing their skills": {
   "last_short": "2026-11-02",
   "long": "2026-10-21",
+  "montage_exhausted": true,
   "montage_used": 9,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -10803,6 +10826,7 @@
  "hamdan bin mohammed receives canadian ambassador": {
   "last_short": "2026-11-02",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 5,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -11918,6 +11942,7 @@
  "hamdan bin mohammed says dubai is taking off again": {
   "last_short": "2026-10-28",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 2,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -12447,7 +12472,7 @@
  "hamdan bin mohammed unveils 5 star plaque at dewa head office": {
   "last_short": "2026-11-03",
   "long": "2026-11-01",
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     149.9136373207893,
@@ -12503,6 +12528,10 @@
    [
     65.44,
     67.75999999999999
+   ],
+   [
+    70.24000000000001,
+    72.52
    ]
   ],
   "video_exhausted": true,
@@ -15346,6 +15375,7 @@
   "video_len": 100
  },
  "hamdan bin mohammed volunteers in dubai marine clean up dive": {
+  "montage_exhausted": true,
   "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 263

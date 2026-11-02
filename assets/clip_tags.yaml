@@ -4748,6 +4748,22 @@ sb-10864257:
   - money
   - plant
   text_graphic: false
+sb-10891097:
+  arab_people: null
+  desc: Sunlight reflecting on calm water
+  people: false
+  tags:
+  - glare
+  - horizon
+  - light
+  - ocean
+  - reflection
+  - sea
+  - sky
+  - sun
+  - water
+  - waves
+  text_graphic: false
 sb-10902035:
   arab_people: null
   desc: Underwater view of pilings and fish
@@ -4956,6 +4972,22 @@ sb-11081347:
   - portrait
   - woman
   text_graphic: false
+sb-11084363:
+  arab_people: null
+  desc: Turquoise sea meets white sand beach
+  people: false
+  tags:
+  - beach
+  - dunes
+  - horizon
+  - ocean
+  - sand
+  - sea
+  - shoreline
+  - sky
+  - water
+  - waves
+  text_graphic: false
 sb-11087451:
   arab_people: null
   desc: Rows of gold bars with the word 'GOLD' embossed on them are shown in a close-up shot.
@@ -5070,6 +5102,22 @@ sb-1214149:
   - shrimp
   - texture
   - underwater
+  text_graphic: false
+sb-122628:
+  arab_people: false
+  desc: Boats on a river with city buildings in the background.
+  people: true
+  tags:
+  - boats
+  - buildings
+  - canal
+  - city
+  - dhow
+  - river
+  - scene
+  - skyline
+  - urban
+  - water
   text_graphic: false
 sb-1713718:
   arab_people: null
@@ -5217,6 +5265,22 @@ sb-346637927:
   - surface
   - texture
   - thumb
+  - water
+  text_graphic: false
+sb-346676185:
+  arab_people: false
+  desc: A traditional dhow boat on water with buildings in the background.
+  people: true
+  tags:
+  - boat
+  - building
+  - canal
+  - dhow
+  - flag
+  - sea
+  - shore
+  - skyline
+  - structure
   - water
   text_graphic: false
 sb-346694537:
@@ -5535,6 +5599,24 @@ sb-347651741:
   - sea
   - skyline
   - sunlight
+  - water
+  - waves
+  text_graphic: false
+sb-347688329:
+  arab_people: null
+  desc: Aerial view of turquoise waves hitting golden sand.
+  people: false
+  tags:
+  - beach
+  - coast
+  - foam
+  - horizon
+  - nature
+  - ocean
+  - sand
+  - sea
+  - shoreline
+  - sky
   - water
   - waves
   text_graphic: false
@@ -6351,6 +6433,22 @@ sb-352127341:
   - sea life
   - underwater
   text_graphic: false
+sb-352146572:
+  arab_people: null
+  desc: Golden sun over calm sea
+  people: false
+  tags:
+  - glow
+  - horizon
+  - light
+  - ocean
+  - reflection
+  - sea
+  - sky
+  - sun
+  - sunset
+  - water
+  text_graphic: false
 sb-352186488:
   arab_people: null
   desc: A smartphone displays a cartoon magnifying glass over text.
@@ -6689,6 +6787,22 @@ sb-352777031:
   - water
   - yellow
   text_graphic: false
+sb-352782708:
+  arab_people: false
+  desc: A man in a green vest stands on a wooden boat.
+  people: true
+  tags:
+  - boat
+  - buildings
+  - dhow
+  - man
+  - people
+  - river
+  - shore
+  - skyline
+  - vest
+  - water
+  text_graphic: false
 sb-352806569:
   arab_people: null
   desc: Underwater coral reef scene
@@ -7007,6 +7121,17 @@ sb-353056846:
   - nation
   - sky
   - wind
+  text_graphic: false
+sb-353117733:
+  arab_people: null
+  desc: Aerial view of a desert landscape
+  people: false
+  tags:
+  - desert
+  - dunes
+  - horizon
+  - sand
+  - skyline
   text_graphic: false
 sb-353157747:
   arab_people: null
@@ -7359,6 +7484,22 @@ sb-353911748:
   - hair
   - hand
   - skin
+  text_graphic: false
+sb-353922600:
+  arab_people: null
+  desc: ripples on a sandy beach
+  people: false
+  tags:
+  - beach
+  - ground
+  - light
+  - nature
+  - sand
+  - shimmer
+  - surface
+  - texture
+  - water
+  - waves
   text_graphic: false
 sb-353951670:
   arab_people: null
@@ -8056,6 +8197,33 @@ sb-354821268:
   - towers
   - urban
   text_graphic: false
+sb-354855352:
+  arab_people: null
+  desc: Wind-sculpted sand patterns
+  people: false
+  tags:
+  - beach
+  - dunes
+  - earth
+  - landscape
+  - nature
+  - patterns
+  - sand
+  - terrain
+  - texture
+  - wind
+  text_graphic: false
+sb-354878696:
+  arab_people: null
+  desc: A fishing boat on the sea
+  people: false
+  tags:
+  - boat
+  - horizon
+  - sea
+  - sky
+  - waves
+  text_graphic: false
 sb-354913396:
   arab_people: null
   desc: Golden bars are falling against a dark background.
@@ -8179,6 +8347,22 @@ sb-355197436:
   - reef
   - sea
   - water
+  text_graphic: false
+sb-355269292:
+  arab_people: null
+  desc: Aerial view of ocean waves meeting sand
+  people: false
+  tags:
+  - beach
+  - coast
+  - foam
+  - ocean
+  - sand
+  - sea
+  - shoreline
+  - tide
+  - water
+  - waves
   text_graphic: false
 sb-355299992:
   arab_people: null
@@ -8383,6 +8567,22 @@ sb-358231769:
   - water
   - waves
   text_graphic: false
+sb-358284380:
+  arab_people: null
+  desc: Golden sun reflecting on calm sea
+  people: false
+  tags:
+  - glare
+  - horizon
+  - light
+  - ocean
+  - reflection
+  - sea
+  - sky
+  - sun
+  - sunset
+  - water
+  text_graphic: false
 sb-358296478:
   arab_people: null
   desc: A sea turtle swims over coral.
@@ -8403,6 +8603,22 @@ sb-358297526:
   - ocean
   - reef
   - underwater
+  text_graphic: false
+sb-358311165:
+  arab_people: null
+  desc: Wavy sand dunes in the desert
+  people: false
+  tags:
+  - beige
+  - desert
+  - dunes
+  - ground
+  - landscape
+  - nature
+  - pattern
+  - sand
+  - texture
+  - wind
   text_graphic: false
 sb-358534621:
   arab_people: null
@@ -8628,6 +8844,40 @@ sb-7505805:
   - pathway
   - skyline
   - trees
+  text_graphic: false
+sb-7923907:
+  arab_people: null
+  desc: Sun shining through golden clouds
+  people: false
+  tags:
+  - atmosphere
+  - brightness
+  - clouds
+  - daytime
+  - glare
+  - light
+  - nature
+  - rays
+  - sky
+  - sun
+  text_graphic: false
+sb-9002809:
+  arab_people: null
+  desc: A workboat moves across turquoise water.
+  people: false
+  tags:
+  - blue
+  - boat
+  - green
+  - horizon
+  - ocean
+  - sailing
+  - sea
+  - ship
+  - sky
+  - vessel
+  - water
+  - waves
   text_graphic: false
 sb-9081827:
   arab_people: null

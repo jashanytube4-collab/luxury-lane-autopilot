@@ -6,7 +6,6 @@ title: Fazza's Giant Secret Under the Sea — The Dubai Reef Almost Nobody Talks
 thumbnail:
   text: UNDER THE SEA
   tag: FAZZA'S BIG PLAN
-  scene: clip:ig-reef-banner@1.5
 mood: epic
 commons: false
 footage: .
@@ -29,110 +28,111 @@ sections:
 - beats:
   - say: What is Prince Hamdan building under the sea off Dubai? Stay until the end, and I will reveal the number.
     show:
-    - clip:ig-turtle2
     - clip:ig-reef-boat
-    - clip:ig-turtle-hold
-    - clip:ig-abra-a
+    - clip:auto-t7b2muqwfl8-0
+    - clip:ig-boat-son
     sfx: impact
   - say: His own team compares it to tens of thousands of football pitches.
     show:
-    - clip:ig-boat-son
-    - clip:ig-turtle-release
+    - clip:ig-ph-table
+    - clip:auto-cmtlcaca5cs-3
     sfx: whoosh
-  - say: He did not watch it from an office.
+  - say: He did not watch it from an office. He went down there himself.
     show:
-    - clip:ig-reef-face
     - clip:ig-council-window
+    - clip:ig-council-desk
     sfx: impact
-  - say: He went down there himself.
+  - say: Most people think of his city as glass towers and desert sand.
     show:
-    - clip:ig-council-close
-    - clip:ig-council-father
-  - say: Most people think Dubai is only glass, steel and sand.
-    show:
-    - clip:auto-zxe-iznufow-2
-    - clip:ig-council-elders
+    - clip:ig-gwagon-desert-c
+    - clip:ig-abra-a
     sfx: whoosh
   - say: But one of his biggest ideas is under the water.
     show:
-    - clip:ig-council-desk
+    - clip:ig-council-elders
     - clip:auto-fi451vd-l70-1
     sfx: impact
     fx: flash
-  - say: And almost nobody talks about it.
+  - say: And almost nobody talks about his plan.
     show:
-    - clip:ig-forum-front
+    - clip:ig-ph-meet
     - clip:ig-council-expo
   - say: Today I will show you what it is, what is really known, and what is still only a plan.
     show:
     - clip:ig-iftar-b
-    - clip:auto-cmtlcaca5cs-3
-    - clip:ig-council-room
+    - clip:ig-ph-aisle
+    - clip:auto-zxe-iznufow-2
     sfx: whoosh
 - beats:
   - say: Let me start with a small story about turtles.
     show:
     - clip:ig-turtle-hatch
+    - clip:ig-turtle-hold
   - say: On World Sea Turtle Day, Sheikh Hamdan posted a video from a beach beside the Burj Al Arab.
     show:
+    - clip:ig-turtle2
     - clip:ig-turtle
-    - sb-348586848
-  - say: He kneels in the shallow water, and a baby turtle swims out of his hands.
+    - sb-354777004
+  - say: He kneels, and a baby turtle swims away.
     show:
     - clip:ig-turtle-swim
-    - sb-10836835
-  - say: Then it swims away into the open sea.
+    - clip:ig-turtle-release
+  - say: Then it heads past the waves, into the open sea.
     show:
-    - sb-352599574
+    - sb-355269292
     sfx: whoosh
   - say: Reports from that day say twenty young hawksbill turtles were released.
     show:
-    - sb-10848718
-  - say: Forty five rescued hawksbills also went back to the sea, some of them from a boat.
+    - sb-349114643
+  - say: Forty five rescued turtles went back too, some by boat.
     show:
     - clip:ig-turtle-crates
-    - sb-55329
-    - sb-11009803
+    - sb-349387659
+    sfx: impact
+    fx: flash
   - say: Those turtles had been nursed back to health by the Dubai Turtle Rehabilitation Project.
     show:
-    - sb-358145229
+    - sb-358296478
+    - sb-10848718
   - say: Why does that matter? Because hawksbill turtles are critically endangered. Every turtle counts.
     show:
     - sb-352105745
     sfx: impact
-  - say: The hawksbill is named for its pointed beak. Its shell has a famous pattern.
+  - say: A hawksbill turtle is named for its pointed beak and patterned shell.
     show:
-    - sb-352084852
+    - sb-10836835
   - say: 'Remember one word: home. For a sea turtle, home is a coral reef.'
     show:
-    - sb-352867715
+    - sb-353993430
+    - sb-56334
 - beats:
   - say: And the reefs in the Gulf are under pressure.
     show:
-    - sb-348886253
+    - sb-352127341
   - say: Heat waves can bleach coral white, and bleached coral can starve and die.
     show:
-    - sb-352678101
+    - sb-356665485
   - say: Dubai has also built far into the sea, with islands, ports and marinas.
     show:
-    - sb-353304362
+    - sb-354878696
     - sb-347725320
   - say: From the air, the palm shaped islands reach far out over the water.
     show:
-    - sb-10987349
+    - sb-349101814
   - say: Building on the coast stirs up sand and changes the sea floor.
     show:
-    - sb-354774774
-  - say: So a fair question grew louder. What does the city give back to the sea?
+    - sb-354855352
+    sfx: impact
+  - say: So a fair question grew louder across the country. What does the city give back to the sea?
     show:
-    - sb-11023454
-    - sb-7285221
+    - sb-351921952
+    - sb-358120874
     sfx: impact
 - beats:
   - say: Part of the answer started with something small. Plastic bottles in the sea.
     show:
     - sb-9081827
-  - say: Dubai launched a campaign called Dubai Can. The idea is simple.
+  - say: Dubai launched a campaign against plastic, called Dubai Can. The idea is simple.
     show:
     - sb-347732374
     sfx: impact
@@ -141,61 +141,65 @@ sections:
     - sb-341778
   - say: Water stations went up across the city, near beaches, in parks and on busy streets.
     show:
-    - sb-347725326
     - sb-11019329
+    - sb-347688329
   - say: Fewer plastic bottles in the bin means fewer plastic bottles floating in the sea.
     show:
     - sb-347235586
-  - say: Plastic in the sea does not vanish. It breaks into tiny pieces that fish swallow.
+    sfx: whoosh
+  - say: Plastic in the sea does not vanish. It breaks into pieces that fish swallow.
     show:
     - sb-352825225
-  - say: Reports say the campaign has already saved millions of single use bottles. Small habits, big numbers.
+  - say: Reports say the campaign has already saved millions of plastic bottles across the city. Small habits, big numbers.
     show:
     - sb-5172520
-    - sb-11019133
+    - sb-354571730
     sfx: whoosh
 - beats:
-  - say: Then the same campaign took a much bigger step, at the biggest climate meeting in the world, held in Dubai.
+  - say: Then the same campaign took a much bigger step, at the biggest climate summit in the world, held in the city.
     show:
     - sb-347583666
-    - sb-349101826
+    - sb-353304412
   - say: Dubai announced a project called Dubai Reef.
     show:
-    - sb-354181918
+    - sb-352678101
     sfx: impact
-  - say: The city's Department of Economy and Tourism leads it, under the directives of Sheikh Hamdan.
+  - say: Dubai's tourism department leads it from its offices, under Sheikh Hamdan's directives.
     show:
-    - him
-    - sb-353157747
+    - clip:ig-ai-stand
+    - sb-352965901
   - say: Official reports called it one of the largest marine reef projects in the world.
     show:
     - sb-353963478
-  - say: Notice the words. One of the largest. That is the project's own claim about its reef, and I will keep to it.
+    fx: flash
+  - say: Notice the words. One of the largest. That is the project's own claim about its coral reef, and I will keep to it.
     show:
-    - sb-353993430
-    - sb-354015626
-  - say: So what are they building?
-    show:
-    - clip:ig-reef-module
-    sfx: whoosh
+    - sb-348460476
+    - sb-352008772
   - say: 'Picture the sea floor there: flat sand, and only a few fish.'
     show:
     - sb-10907554
+  - say: So what are they building? Not one giant concrete wall.
+    show:
+    - clip:ig-reef-module
+    - sb-353304362
+    sfx: whoosh
 - beats:
-  - say: Not one giant concrete wall.
+  - say: Cranes lower the modules, one by one.
     show:
     - clip:ig-reef-crane
-  - say: Thousands of small modules, placed one by one on the sea floor.
-    show:
-    - sb-355479235
-  - say: Reports say about twenty thousand modules.
+    - sb-354540780
+  - say: Thousands of them settle onto the sand of the sea floor.
     show:
     - sb-10902035
+  - say: Reports say about twenty thousand modules, for one new reef.
+    show:
+    - clip:ig-reef-growth
+    - sb-353718299
   - say: Together they make more than four hundred thousand cubic metres of reef structure.
     show:
-    - clip:ig-reef-x
-    - sb-348264457
-    - sb-353718299
+    - sb-353157747
+    - sb-354187516
   - say: Each module is a hollow concrete frame, full of gaps and holes for fish.
     show:
     - sb-358121192
@@ -205,112 +209,110 @@ sections:
   - say: Fishermen know this trick. Fish gather wherever there is something to hide behind.
     show:
     - sb-352257484
+    sfx: impact
   - say: First the fish move in. Then small sea creatures arrive.
     show:
     - sb-351940819
     - sb-354328057
   - say: Then corals attach themselves, and the reef starts to grow. Life attracts more life.
     show:
-    - clip:ig-reef-growth
-    - sb-353735881
-    - sb-347538938
+    - sb-1214149
+    - sb-352892667
+    fx: flash
   - say: Artificial reefs are not new. All over the world, old shipwrecks have turned into reefs.
     show:
-    - sb-352892667
-    - sb-358121160
+    - sb-354015626
+    - sb-355019686
+    sfx: whoosh
   - say: Fish move into the hull, corals cover the metal, and after some years you can hardly see the ship.
     show:
-    - sb-355019686
-    - sb-352008772
-  - say: Remember the football pitches from the start? We are getting closer to that number.
+    - sb-354677012
+    - sb-353434767
+  - say: Remember the football pitches from the start? Picture one grass pitch in a stadium. Now picture thousands of them.
     show:
     - sb-347201677
+    - sb-347808138
     sfx: riser
 - beats:
-  - say: First, the day Prince Hamdan went to see the reef with his own eyes, out at sea.
-    show:
-    - clip:ig-reef-plaque
-    - sb-354971579
-  - say: By boat.
-    show:
-    - clip:ig-reef-speedboat
-  - say: A speedboat takes a small team out to sea, and on deck he signs a plaque with the American investor Ray Dalio. It reads module number one.
-    show:
-    - sb-348873802
-    - sb-352540690
-    - sb-347651741
-  - say: Camouflage wetsuit. Scuba gear.
+  - say: Now, his own dive day.
     show:
     - clip:ig-reef-gear
-  - say: He drops into the water.
+    - sb-348873802
+  - say: 'A speedboat takes a small team out to sea. On the boat deck, he signs a plaque with the investor Ray Dalio: module number one.'
+    show:
+    - sb-352540690
+    - clip:ig-reef-plaque
+    - sb-59411
+  - say: Camouflage wetsuit. Scuba gear. Then he drops into the water and goes under.
     show:
     - clip:ig-reef-enter
-    sfx: whoosh
-  - say: And he goes under.
-    show:
     - clip:ig-reef-descend
+    - clip:ig-reef-divers2
+    sfx: whoosh
   - say: Down there, the divers swim between the new modules, and fish are already moving through the reef.
     show:
-    - clip:ig-reef-divers2
     - clip:ig-reef-dive
-    - sb-353997748
+    - clip:ig-reef-coral
+    - clip:ig-reef-wall
     sfx: impact
 - beats:
-  - say: Why is this so hard? Because the sea around Dubai is one of the hottest and saltiest seas on earth.
+  - say: Why is this so hard? Because under a burning sun, the sea around Dubai is one of the hottest and saltiest seas on earth.
     show:
     - sb-354386405
-    - sb-354187516
-  - say: In summer the water can get as warm as a bath, above thirty degrees.
+    - sb-348383184
+  - say: In summer the shallow water off the beach can get as warm as a bath, above thirty degrees.
     show:
     - sb-354511021
+    - sb-10891097
   - say: In winter the same water cools to around twenty degrees, so the corals must handle both extremes.
     show:
     - sb-352764916
     - sb-355309747
+    sfx: impact
   - say: The corals that live there survive heat that kills coral in other seas.
     show:
-    - sb-352806569
-    - sb-354187552
+    - sb-355479235
   - say: These are some of the toughest corals on the planet.
     show:
-    - sb-353434767
+    - sb-352806569
   - say: That is why scientists study these reefs closely, for clues about how coral can survive a hotter ocean.
     show:
-    - sb-351800336
-    - sb-354310481
+    - sb-353997748
+    - sb-353761339
+    sfx: whoosh
+    fx: flash
   - say: I am not a marine biologist, and I will not pretend to be. But if you can grow a reef in the hardest sea, the lessons travel far.
     show:
     - sb-353993413
-    - sb-352127341
-    sfx: whoosh
+    - sb-351800336
 - beats:
   - say: So did the reef work?
     show:
-    - clip:ig-reef-coral
+    - sb-355197436
     sfx: impact
-  - say: It started as a pilot, a trial. You test a small area of the sea floor first, and you watch what really happens.
+  - say: It started as a pilot, a trial. You test a small patch of coral first, and you watch what really happens to the reef.
     show:
     - sb-355509286
-    - sb-348460476
+    - sb-352867715
   - say: A coral reef is measured in years, not weeks. Many corals grow only a few centimetres a year.
     show:
     - sb-354008817
-    - sb-1214149
+    - sb-353735881
+    sfx: whoosh
   - say: Later, the state news agency reported significant progress in marine life and fish in Dubai waters.
     show:
-    - clip:ig-reef-wall
     - sb-351812371
     - sb-347794102
   - say: That is the official description, not an independent study. But it tells us the reef did not disappear after the headline.
     show:
-    - sb-56334
+    - sb-355299992
     - sb-347330327
 - beats:
-  - say: Why would a crown ruler care this much about fish?
+  - say: Why would a crown prince care this much about the water?
     show:
     - clip:deepdive
     sfx: impact
-  - say: Dubai itself grew from the water. For generations its people lived from fishing, trading and diving for pearls.
+  - say: Dubai itself grew from the water. For generations its people lived from fishing boats, trading and diving for pearls.
     show:
     - sb-346780211
     - sb-352452048
@@ -318,95 +320,96 @@ sections:
     show:
     - clip:ig-horse-chestnut-a
     - clip:ig-falcon-white2
+    sfx: whoosh
   - say: 'But look at his page, and you find the sea again and again: boats, beaches, turtles, and a dive in Deep Dive Dubai, one of the deepest pools in the world.'
     show:
     - sb-347211169
-    - sb-349114643
-  - say: So the sea has been part of his life for a long time. This reef turns that love of the ocean into a plan for the whole city.
+    - sb-351922236
+    - sb-352084852
+  - say: So the sea has been part of his life for a long time. This reef turns that love of the ocean, from the beach to the deep, into a plan for the whole city.
     show:
     - sb-348917002
-    - sb-111079
+    - sb-353898940
+    - sb-11009803
+    fx: flash
 - beats:
-  - say: Now, the number I promised you.
+  - say: Now, the number I promised you, out on the open water.
     show:
     - sb-351899756
     sfx: riser
-  - say: According to the project's own figures, the reef area covers more than six hundred square kilometres of sea.
+  - say: According to the project's own figures, the reef area covers more than six hundred square kilometres of water and sandy sea floor.
     show:
-    - sb-354187633
-    - sb-349387659
+    - sb-352308493
+    - sb-354386248
     sfx: impact
     fx: flash
-  - say: The organisers say that is roughly eighty five thousand football pitches.
+  - say: The organisers say that is roughly eighty five thousand football pitches of open water.
     show:
-    - sb-347808138
+    - sb-354971579
     sfx: impact
   - say: Here is what surprised me most. The whole land of the city of Dubai is only about four thousand square kilometres.
     show:
-    - sb-349101766
-    - sb-351922236
-  - say: So the planned reef zone in the sea is about one seventh the size of Dubai itself.
-    show:
     - sb-354774717
-    - sb-348383184
-    sfx: impact
-  - say: Again, that is the plan for the reef on paper, not what is already built.
+    - sb-352898065
+  - say: So the planned reef zone, out past the beaches, is about one seventh the size of the city itself.
     show:
-    - sb-352186488
-    - clip:ig-reef-sink
+    - sb-348586848
+    - sb-10987349
+    sfx: impact
+  - say: Again, that is the reef plan on paper, not what is built.
+    show:
+    - sb-355430794
 - beats:
   - say: What could go wrong? Coral reefs are fragile.
     show:
-    - sb-356665485
+    - sb-354181918
   - say: A strong heat wave can bleach coral in a few weeks, and boat anchors can crush it.
     show:
-    - sb-358297526
-    - sb-59411
-  - say: Lost fishing nets can drift onto a reef and smother it.
+    - sb-355355326
+    - sb-354566948
+  - say: Lost fishing nets can drift through the water onto a reef and smother it.
     show:
     - sb-347086234
   - say: A module placed in the wrong spot can simply sink into the sand.
     show:
-    - sb-354677012
-  - say: No press release can change the physics of the sea. That is not a reason to stop. It is a reason to measure the reef.
+    - sb-352030846
+    sfx: impact
+  - say: No press release can change the physics of the sea. That is not a reason to stop. It is a reason to measure the coral reef.
     show:
-    - sb-3438814
     - sb-352777031
-  - say: Scientists will need to check the coral in the open, with numbers anyone can read.
+    - sb-354310481
+  - say: Scientists will need to check the coral, with numbers anyone can read.
     show:
     - sb-352328686
   - say: If the numbers are good, Dubai will have done something rare. A city that grew into the sea, and then gave something back.
     show:
-    - sb-352308493
+    - sb-354821268
     - sb-352835520
     sfx: whoosh
 - beats:
-  - say: So, here is the answer to the question from the start.
+  - say: So, here is the answer to the question from the start, about the reef.
     show:
-    - sb-355197436
+    - sb-347538938
     sfx: impact
   - say: Under the sea off Dubai, Prince Hamdan is building a home for fish, corals and turtles.
     show:
-    - clip:ig-reef-banner
-    - sb-355299992
-  - say: More than six hundred square kilometres of planned reef, by the project's own figures. It is not finished, and it is not proven yet.
+    - clip:auto-lnvphef3eqi-2
+    - sb-55329
+  - say: More than six hundred square kilometres of planned reef, far beyond the beach. Not finished, and not proven yet.
     show:
-    - sb-355355326
-    - sb-355430794
+    - sb-11023454
+    - sb-349101770
+    fx: flash
   - say: It is far from the glitter of the city that Dubai is famous for. But it may be the quietest big idea the city has ever had.
     show:
     - sb-354793153
-    - sb-354821268
-  - say: If you want us to follow the reef and its corals as they grow, and tell you honestly if it works, subscribe.
-    show:
-    - sb-353761339
-    - sb-352030846
-    sfx: whoosh
+    - sb-354766892
   - say: Tell us in the comments what the city should build after Dubai Reef.
     show:
-    - sb-354766892
-    - sb-10995966
-    - clip:ig-reef-banner-a
-  - say: Thank you for watching.
+    - sb-348886253
+    sfx: whoosh
+  - say: To follow his reef beneath the waves, and hear honestly if it works, subscribe.
     show:
+    - sb-3438814
+    - sb-347651741
     - clip:ig-recap-wave

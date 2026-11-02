@@ -110,8 +110,13 @@
   },
   {
    "at": "2026-11-03T15:19:35+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Grace is his strongest weapon. #youtubeshorts #youtube",
+   "type": "short",
+   "video_id": "oLpsSUtm58I",
+   "voiced": true
   },
   {
    "at": "2026-11-03T16:01:54+04:00",

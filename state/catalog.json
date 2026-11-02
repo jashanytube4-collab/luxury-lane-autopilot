@@ -3346,6 +3346,7 @@
   "last_short": "2026-11-03",
   "long": "2026-10-30",
   "montage_used": 20,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     198.37148978554302,
@@ -6009,7 +6010,7 @@
  "hamdan bin mohammed honors winners of dubai appreciation award for community service": {
   "last_short": "2026-11-03",
   "long": "2026-11-02",
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     179.39335360955343,
@@ -6050,6 +6051,10 @@
    [
     185.65426687769195,
     187.52728391965465
+   ],
+   [
+    67.96111610712602,
+    69.60881072051079
    ]
   ],
   "shorts_made": 3,
@@ -6109,9 +6114,9 @@
   "long": "2026-10-21"
  },
  "hamdan bin mohammed honours arab contributors to entrepreneurial development": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-03",
   "long": "2026-10-31",
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     134.08871265198363,
@@ -6152,6 +6157,10 @@
    [
     290.3842383385283,
     292.05947526457203
+   ],
+   [
+    329.1925005062171,
+    331.1976508818267
    ]
   ],
   "shorts_made": 2,
@@ -7547,7 +7556,7 @@
  "hamdan bin mohammed launches sports initiatives": {
   "last_short": "2026-11-03",
   "long": "2026-10-18",
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     212.80506732035832,
@@ -7584,6 +7593,10 @@
    [
     0.4696375735644653,
     2.1731175111706786
+   ],
+   [
+    260.72,
+    262.52
    ]
   ],
   "shorts_made": 1,
@@ -8277,7 +8290,7 @@
  "hamdan bin mohammed meets students of dubai schools": {
   "last_short": "2026-11-03",
   "long": "2026-10-17",
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     163.49934334402403,
@@ -8318,6 +8331,10 @@
    [
     255.49187976000817,
     258.0134788347882
+   ],
+   [
+    132.37817503802268,
+    134.78825145405926
    ]
   ],
   "shorts_made": 3,
@@ -13169,7 +13186,7 @@
   "last_short": "2026-11-03",
   "long": "2026-10-13",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     49.68,
@@ -13202,6 +13219,10 @@
    [
     300.6350001336121,
     302.67812037354605
+   ],
+   [
+    252.10903003924443,
+    253.63856810502742
    ]
   ],
   "shorts_made": 2,
@@ -14042,7 +14063,7 @@
  "hamdan bin mohammed visits dubai hospital": {
   "last_short": "2026-11-03",
   "long": "2026-10-14",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     31.287519536112814,
@@ -14075,6 +14096,10 @@
    [
     187.9017132525013,
     190.21985738717007
+   ],
+   [
+    22.548870603872285,
+    24.71641113305836
    ]
   ],
   "shorts_made": 3,
@@ -14799,7 +14824,7 @@
  "hamdan bin mohammed visits personal status court": {
   "last_short": "2026-11-03",
   "long": "2026-10-31",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     80.89349709731536,
@@ -14836,6 +14861,10 @@
    [
     70.60000000000001,
     72.32
+   ],
+   [
+    153.44,
+    155.16
    ]
   ],
   "video_exhausted": true,

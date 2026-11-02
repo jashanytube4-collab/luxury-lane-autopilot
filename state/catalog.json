@@ -1341,7 +1341,7 @@
  "hamdan addressing future circles looking forward for innovation based future": {
   "last_short": "2026-11-03",
   "long": "2026-10-30",
-  "montage_used": 9,
+  "montage_used": 10,
   "no_video_until": "2026-11-02",
   "remix_ranges": [
    [
@@ -1375,6 +1375,10 @@
    [
     70.12,
     71.91333333333333
+   ],
+   [
+    208.75333333333333,
+    210.54666666666665
    ]
   ],
   "shot_ranges": [
@@ -3269,7 +3273,7 @@
  "hamdan bin mohammed attends global cardiology congress": {
   "last_short": "2026-11-03",
   "long": "2026-10-22",
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     227.92000000000002,
@@ -3310,6 +3314,10 @@
    [
     187.68036744046955,
     189.31038991634162
+   ],
+   [
+    71.00391894084592,
+    73.22944095001819
    ]
   ],
   "shorts_made": 1,
@@ -6218,7 +6226,7 @@
  "hamdan bin mohammed honours mbr creative sports award winners": {
   "last_short": "2026-11-03",
   "long": "2026-10-18",
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     74.58464282636517,
@@ -6291,6 +6299,10 @@
    [
     418.81460183232525,
     421.3791750314498
+   ],
+   [
+    1.7525137275013911,
+    3.8124816461300868
    ]
   ],
   "shorts_made": 3,
@@ -6827,7 +6839,7 @@
  "hamdan bin mohammed inaugurates zabeel healthcare center": {
   "last_short": "2026-11-03",
   "long": "2026-10-22",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     399.88601091430286,
@@ -6864,6 +6876,10 @@
    [
     247.5312033716539,
     249.26598184782662
+   ],
+   [
+    406.64237056962077,
+    408.13599800616265
    ]
   ],
   "shorts_made": 1,
@@ -7628,6 +7644,7 @@
  "hamdan bin mohammed launches the government games initiative": {
   "last_short": "2026-11-03",
   "montage_used": 12,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     3.050388327506801,
@@ -10012,9 +10029,9 @@
   "long": "2026-10-28"
  },
  "hamdan bin mohammed officially opens gitex 2018": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-03",
   "long": "2026-11-02",
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     126.01016816879962,
@@ -10051,6 +10068,10 @@
    [
     197.1178810737439,
     198.81191342667208
+   ],
+   [
+    147.49417272534387,
+    149.09461049225447
    ]
   ],
   "shorts_made": 1,
@@ -10510,7 +10531,7 @@
  "hamdan bin mohammed opens gitex tech week 2017": {
   "last_short": "2026-11-03",
   "long": "2026-10-14",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     523.8801185278389,
@@ -10551,6 +10572,10 @@
    [
     302.72674631245394,
     305.32399235319315
+   ],
+   [
+    388.6,
+    390.28
    ]
   ],
   "shorts_made": 3,
@@ -11905,7 +11930,7 @@
  "hamdan bin mohammed reviews the latest technologies and energy solutions at wetex 2019": {
   "last_short": "2026-11-03",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     249.043806441902,
@@ -11934,6 +11959,10 @@
    [
     317.72603655447233,
     319.4781736569751
+   ],
+   [
+    200.24,
+    202.12
    ]
   ],
   "shorts_made": 3,
@@ -13827,7 +13856,7 @@
   "last_short": "2026-11-03",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     22.16,
@@ -13864,6 +13893,10 @@
    [
     5.92,
     7.88
+   ],
+   [
+    75.33551575867548,
+    77.01754128784282
    ]
   ],
   "shorts_made": 3,

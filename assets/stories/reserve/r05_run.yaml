@@ -1,0 +1,269 @@
+# RESERVE (not in the live queue). ready:false until: Storyblocks stock: placeholders are replaced by vetted sb-<id> clips
+# (Arab/Emirati, 3-5 s), every clip viewed against its sentence, then lint/plan_check gates. Written 2026-11-01.
+id: r05-dubai-run-193000
+title: 193,000 People Ran Behind Fazza on Dubai's Busiest Road — The Idea That Closed Sheikh Zayed Road
+thumbnail:
+  text: 193,000 RAN
+  tag: BEHIND FAZZA
+  scene: clip:dubairun
+mood: modern
+commons: false
+footage: .
+ready: false
+description: How Sheikh Hamdan, Crown Prince of Dubai, turned a simple idea from 2017, 30 minutes of exercise for 30 days, into the Dubai Fitness Challenge and the Dubai Run, when Sheikh Zayed Road is closed
+  to cars and filled with runners. First run 8 November 2019 with about 70,000 people; the fourth edition on 20 November 2022 with more than 193,000, according to his own post. Built from the Dubai Media
+  Office, Gulf News, Sharjah24 and other reports.
+tags:
+- Dubai Run
+- Dubai Fitness Challenge
+- Sheikh Hamdan run
+- Fazza Sheikh Zayed Road
+- Crown Prince of Dubai fitness
+- Dubai Run 2022
+- Fazza leads Dubai Run
+- Dubai Run 193000
+sections:
+- beats:
+  - say: How do you persuade almost two hundred thousand people to get up before sunrise on a Sunday and run along the busiest road in Dubai? The answer started with one tiny request in two thousand seventeen.
+      Stay until the end, and I will tell you the exact number, and what he did that morning.
+    show:
+    - clip:dubairun
+    - stock:Sheikh Zayed Road aerial early morning
+  - say: Imagine Sheikh Zayed Road. A road of many lanes, towers on both sides, thousands of cars every hour.
+    show:
+    - stock:Sheikh Zayed Road traffic towers
+  - say: Now imagine it silent. No engines, no horns. Just footsteps.
+    show:
+    - clip:dubairun
+  - say: That is what Dubai looks like for a few hours each year, and it is one of the most surprising sights in the Gulf.
+    show:
+    - stock:runners crowd city road
+  - say: Today I will tell you how that happened, from the first idea to the record crowd, with every number labelled by its source.
+    show:
+    - clip:ig-recap-wave
+  - say: And I will tell you what I think it shows about the way Prince Hamdan leads.
+    show:
+    - clip:ig-ph-meet
+- beats:
+  - say: Let us go back to twenty seventeen.
+    show:
+    - clip:ig-ph-walk
+  - say: Reports say Sheikh Hamdan started the Dubai Fitness Challenge that year.
+    show:
+    - clip:ig-ph-enter
+  - say: The idea was almost embarrassingly simple. Thirty minutes of activity a day, for thirty days.
+    show:
+    - stock:woman walking morning Dubai
+  - say: That's it. Not a marathon, not an expensive gym, not a special diet. Thirty minutes.
+    show:
+    - stock:family walking park Dubai
+  - say: Think about how smart that is. Most health campaigns ask for too much, and people give up on the first day.
+    show:
+    - clip:ig-ph-table
+  - say: Thirty minutes is a promise anyone can keep, and thirty days is long enough to make a habit.
+    show:
+    - clip:ig-ph-aisle
+  - say: The challenge was open to everyone, and it grew into a month of thousands of free activities across the city.
+    show:
+    - stock:diverse group exercising Dubai
+  - say: One report counted more than thirteen thousand fitness and wellness events in the early years, though I could not check that figure against official data.
+    show:
+    - stock:fitness class outdoors
+  - say: That is the foundation. Remember it, because everything else grows from it.
+    show:
+    - clip:ig-youth-table
+  - say: 'Many of us make the same mistake with big goals: we wait until we can do them perfectly. His idea did the opposite, it asked for something small today.'
+    show:
+    - clip:ig-ph-walk
+- beats:
+  - say: Now to the run itself.
+    show:
+    - clip:dubairun
+  - say: The first Dubai Run took place on the eighth of November, twenty nineteen.
+    show:
+    - clip:dubairun
+  - say: For the first time ever, Sheikh Zayed Road was turned into a running track.
+    show:
+    - stock:empty highway runners
+  - say: The Dubai Media Office reported that Sheikh Hamdan led the run, with about seventy thousand participants.
+    show:
+    - clip:ig-ph-enter
+  - say: 'Two routes: a five kilometre fun run and a ten kilometre race.'
+    show:
+    - stock:runners crowd city road
+  - say: Think about the planning. A road that normally carries traffic all day had to be emptied, and the whole city had to agree.
+    show:
+    - stock:police traffic control road closed
+  - say: Seventy thousand people on a motorway. If you had told Dubai's engineers ten years earlier that this was possible, they might have laughed.
+    show:
+    - stock:aerial runners highway
+  - say: But it worked. And once it worked, the numbers started to climb.
+    show:
+    - stock:Arab family jogging park
+- beats:
+  - say: Let me take you to the fourth edition, the one in my title.
+    show:
+    - clip:ig-recap-wave
+  - say: It is Sunday, the twentieth of November, twenty twenty two.
+    show:
+    - stock:runners crowd city road
+  - say: Sheikh Zayed Road is closed to motorists from four in the morning until ten.
+    show:
+    - stock:Sheikh Zayed Road night closed
+  - say: There are two routes again. The five kilometre route starts near the Museum of the Future and finishes near Dubai Mall.
+    show:
+    - stock:Museum of the Future Dubai
+  - say: The ten kilometre route ends on Al Mustaqbal Street, near the financial centre.
+    show:
+    - stock:DIFC Dubai morning
+  - say: It is early, close to sunrise, and thousands of people in bright shirts are lining up.
+    show:
+    - stock:runners start line dawn
+  - say: And in the front, Sheikh Hamdan.
+    show:
+    - stock:Arab family jogging park
+  - say: Reports say he kicked off the run in the early morning, and led the way.
+    show:
+    - clip:ig-ph-meet
+  - say: Notice the verb. He did not watch from a balcony. He ran at the front, and a hundred thousand people were behind him.
+    show:
+    - stock:runners crowd city road
+  - say: More than a hundred thousand? Much more.
+    show:
+    - stock:crowd runners from above
+- beats:
+  - say: Here comes the number I promised, but let me build up to it with the one before.
+    show:
+    - clip:ig-youth-table
+  - say: The edition before had more than one hundred forty six thousand runners, according to the reports.
+    show:
+    - stock:crowd runners from above
+  - say: A hundred and forty six thousand. Already enough to fill many stadiums.
+    show:
+    - stock:football stadium full crowd
+  - say: And then, on that Sunday morning in twenty twenty two, Sheikh Hamdan posted on Instagram.
+    show:
+    - clip:ig-recap-wave
+  - say: 'His words were: More than one hundred ninety three thousand ran together, thank you Dubai.'
+    show:
+    - clip:ig-recap-wave
+  - say: One hundred and ninety three thousand. The news site Sharjah24 reported the same figure, with people from all walks of life.
+    show:
+    - stock:Arab family jogging park
+  - say: Compare it with the first run. Seventy thousand in twenty nineteen. One hundred ninety three thousand in twenty twenty two.
+    show:
+    - stock:runners crowd city road
+  - say: That is almost three times as many in just three years, according to the figures given at the time.
+    show:
+    - stock:graph rising abstract
+  - say: I will not make a chart for you, because you can do that sum in your head. It is a big jump.
+    show:
+    - clip:ig-ph-table
+- beats:
+  - say: And the growth did not stop.
+    show:
+    - stock:runners crowd city road
+  - say: A report about the next year, twenty twenty three, says the turnout was around two hundred twenty six thousand.
+    show:
+    - stock:Arab family jogging park
+  - say: So in four years, from seventy thousand to more than two hundred thousand, according to published reports.
+    show:
+    - stock:Dubai skyline morning
+  - say: I should say that those later figures come from press reports, and I could not check them against official records. I tell you that so you can judge for yourself.
+    show:
+    - clip:ig-ph-aisle
+  - say: Even if you take the numbers cautiously, the direction is clear.
+    show:
+    - him
+- beats:
+  - say: Why do so many people come? Let me think about this honestly.
+    show:
+    - clip:ig-ph-meet
+  - say: First, it is free. The reports call it the world's largest free fun run. That matters, because a price keeps people away.
+    show:
+    - stock:runners smiling crowd
+  - say: Second, the setting is spectacular. You run past the Museum of the Future, towards Dubai Mall. A road you only know from your car becomes a path for your feet.
+    show:
+    - stock:Museum of the Future runners
+  - say: Third, it welcomes everyone. Children, grandparents, beginners, athletes. You do not need to be fast.
+    show:
+    - stock:children running family
+  - say: And fourth, I think, is the person at the front.
+    show:
+    - clip:ig-youth-table
+  - say: People like to run with someone who runs. A leader who stands at the front of a crowd, and not above it, makes ordinary people feel they belong.
+    show:
+    - stock:runners crowd city road
+- beats:
+  - say: Let me be fair and ask the hard question as well.
+    show:
+    - him
+  - say: Is a one day run really changing a city's health?
+    show:
+    - him
+  - say: One run does not. The reports describe the Dubai Fitness Challenge as a month of activities, with thousands of free sessions, and the run as its centrepiece.
+    show:
+    - stock:fitness class outdoors
+  - say: The real test is what people do the day after. Do they keep walking, keep swimming, keep playing sport?
+    show:
+    - stock:woman jogging park
+  - say: I could not find an independent study that measures that, and I will not pretend I did.
+    show:
+    - clip:ig-ph-table
+  - say: What can be said is that the first step is the hardest, and in these years hundreds of thousands of people took it.
+    show:
+    - stock:Arab family jogging park
+  - say: A city built around cars gave its residents a reason to be outside on foot.
+    show:
+    - stock:Dubai park green morning
+- beats:
+  - say: Now, something small, which I find touching.
+    show:
+    - stock:runners crowd city road
+  - say: Look at the way he talks about the run. He thanks the city. Not himself. Thank you, Dubai.
+    show:
+    - stock:Arab family jogging park
+  - say: That is a leader giving credit to the crowd. And the crowd, in return, gives him a morning of its time.
+    show:
+    - stock:runners crowd city road
+  - say: It is a very simple exchange. And I think simple exchanges are what build trust over time.
+    show:
+    - clip:ig-ph-meet
+- beats:
+  - say: Let us not forget the other side of his public life.
+    show:
+    - clip:ig-iftar-a
+  - say: There is the Crown Prince who sits in meetings, who signs decisions, who chairs the Executive Council.
+    show:
+    - clip:ig-ph-walk
+  - say: And there is the one who runs at six thirty in the morning, in sports clothes, among regular people.
+    show:
+    - stock:Arab family jogging park
+  - say: Both are part of the same job. In a city that wants to be the best place in the world to live, health is part of the plan.
+    show:
+    - clip:ig-youth-table
+  - say: That is how I read it, and I invite you to read it differently if you wish.
+    show:
+    - him
+- beats:
+  - say: So here is the picture to remember.
+    show:
+    - stock:runners crowd city road
+  - say: Sheikh Zayed Road, silent, in the dawn light. A sea of people in the lanes where cars normally roar.
+    show:
+    - stock:aerial runners highway
+  - say: At the front, a man who started the whole thing with one request, thirty minutes a day for thirty days.
+    show:
+    - clip:ig-ph-enter
+  - say: Seventy thousand people the first time. A hundred and forty six thousand in the edition before this one.
+    show:
+    - stock:crowd runners from above
+  - say: And in the fourth edition, more than one hundred ninety three thousand, in his own words, running together.
+    show:
+    - stock:Arab family jogging park
+  - say: That is the answer to the question I asked at the start. That many people will get up before sunrise for a leader who gets up with them.
+    show:
+    - stock:runners crowd city road
+  - say: If you would join a run like this, tell us in the comments, and subscribe so you do not miss the next true story from Dubai.
+    show:
+    - stock:Arab family jogging park

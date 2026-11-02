@@ -1,0 +1,274 @@
+# RESERVE (not in the live queue). ready:false until: Storyblocks stock: placeholders are replaced by vetted sb-<id> clips
+# (Arab/Emirati, 3-5 s), every clip viewed against its sentence, then lint/plan_check gates. Written 2026-11-01.
+id: r04-three-rescues
+title: Three Times Prince Fazza Dropped Everything to Save Someone — A Truck, an Oryx and a Friend in the Deep Sea
+thumbnail:
+  text: HE JUMPED IN
+  tag: FAZZA'S RESCUES
+  scene: clip:jetpack-rescue
+mood: epic
+commons: false
+footage: .
+ready: false
+description: 'Three real moments filmed on camera: March 2017, Sheikh Hamdan helps free a stuck truck with his Mercedes G-Class; November 2018, he tranquilises an Arabian oryx and cuts away a net; August
+  2021, he dives in after his friend Nasser Al Neyadi after a water jetpack accident. Built from Gulf News, Gulf Today, Arab News and other reports. Where reports differ, we say so.'
+tags:
+- Sheikh Hamdan rescue
+- Fazza saves friend
+- Fazza oryx
+- Fazza truck driver
+- Nasser Al Neyadi
+- Crown Prince of Dubai hero
+- Fazza jetpack
+- Sheikh Hamdan Instagram
+sections:
+- beats:
+  - say: What does the Crown Prince of Dubai do in the first three seconds when someone is in danger? You are about to see it three times, and the third time he goes into the water. Stay until the end,
+      and I will tell you what the three rescues have in common.
+    show:
+    - clip:jetpack-rescue
+    - clip:rescue-b
+  - say: Three videos. Three different years. A truck, an animal and a friend.
+    show:
+    - clip:rescue-a
+  - say: None of them was planned, and none of them was a stunt, according to the reports of the time.
+    show:
+    - clip:oryx
+  - say: In every one, the camera was there by chance, or it was his own phone.
+    show:
+    - clip:jetpack-rescue
+  - say: Today I want to put the three side by side, because together they show something that a single clip cannot.
+    show:
+    - clip:rescue-b
+- beats:
+  - say: Let us begin in March of twenty seventeen.
+    show:
+    - clip:rescue-a
+  - say: A video appears online. It was posted to Instagram by a user, not by the palace.
+    show:
+    - clip:rescue-a
+  - say: It shows a heavily loaded lorry stuck in soft sand.
+    show:
+    - clip:rescue-a
+  - say: And beside it, a black Mercedes G-Class. At the wheel, according to the news reports, is Sheikh Hamdan.
+    show:
+    - stock:Arab man helping desert vehicle sand
+  - say: Arab News reported the clip on the thirtieth of March.
+    show:
+    - clip:rescue-b
+  - say: 'Some outlets say it happened at a construction site in Dubai. Others only say the desert. So we will say: soft sand, near Dubai.'
+    show:
+    - clip:rescue-b
+  - say: A lorry that is stuck in sand is a serious problem. The wheels spin, the sand gives way, and the more the driver tries, the deeper he sinks.
+    show:
+    - stock:Arabian oryx desert
+  - say: The Mercedes is used to pull. A strap or rope runs between the two vehicles.
+    show:
+    - stock:sea waves underwater swimmer
+  - say: Now, reports differ on the details, and I will be honest about that.
+    show:
+    - stock:rope tow vehicle desert
+  - say: One report says the first attempt failed when the rope snapped. Another says the driver was advised to release some weight, and then the lorry moved freely.
+    show:
+    - stock:Gulf sea boat sunset
+  - say: 'What nearly every report agrees on is this: the Crown Prince of Dubai got his hands dirty. He did not send someone else.'
+    show:
+    - stock:Arab man helping desert vehicle sand
+  - say: A phone in a stranger's hand captured it, and within days it was seen across the Gulf.
+    show:
+    - stock:Arabian oryx desert
+  - say: Not at a ceremony. In the sand, with a rope.
+    show:
+    - stock:sea waves underwater swimmer
+- beats:
+  - say: Rescue number two. November, twenty eighteen.
+    show:
+    - clip:oryx
+  - say: This time the video was posted on his own Instagram account, and it ran for one minute.
+    show:
+    - clip:oryx
+  - say: The animal is an Arabian oryx, the white antelope with two long straight horns that has become a symbol of the Gulf.
+    show:
+    - clip:oryx
+  - say: Its horns had become tangled in a mesh of construction netting and plastic. And worse, the net covered its eyes.
+    show:
+    - stock:rope tow vehicle desert
+  - say: Think about what that means for a wild animal. It cannot see, it cannot find water, and it cannot run safely.
+    show:
+    - stock:Gulf sea boat sunset
+  - say: In the video, Sheikh Hamdan tranquilises the oryx. Then, with the help of a few people, he cuts the binding away.
+    show:
+    - stock:Arab man helping desert vehicle sand
+  - say: It sounds simple. It is not. Tranquilising a wild animal takes care, because the animal has to be calm enough to be helped and safe enough to wake up.
+    show:
+    - stock:Arabian oryx desert
+  - say: The oryx wakes up, finds its feet, and runs back to the herd.
+    show:
+    - stock:sea waves underwater swimmer
+  - say: 'His caption said: All good to go for this Oryx! Mission accomplished.'
+    show:
+    - stock:rope tow vehicle desert
+  - say: Within about an hour the clip had more than two hundred thirty two thousand views.
+    show:
+    - stock:Gulf sea boat sunset
+  - say: 'People in the comments wrote things like: great team effort, and thank you for showing kindness to that oryx.'
+    show:
+    - stock:Arab man helping desert vehicle sand
+- beats:
+  - say: Why does the oryx matter so much? Because of what it stands for in the Emirates.
+    show:
+    - stock:Arabian oryx desert
+  - say: The report notes that the number of Arabian oryx once fell very low. The late Sheikh Zayed, founder of the UAE, began conservation work.
+    show:
+    - stock:sea waves underwater swimmer
+  - say: Today the country is said to hold the largest Arabian oryx population in the world.
+    show:
+    - stock:rope tow vehicle desert
+  - say: So when the Crown Prince frees one entangled animal, he is not just helping an animal. He is protecting a national symbol.
+    show:
+    - stock:Gulf sea boat sunset
+  - say: That is my reading, and you can disagree. But look at the pattern forming.
+    show:
+    - stock:Arab man helping desert vehicle sand
+- beats:
+  - say: In twenty seventeen, a driver. In twenty eighteen, an animal.
+    show:
+    - stock:Arabian oryx desert
+  - say: And now the big one. August, twenty twenty one.
+    show:
+    - clip:jetpack-rescue
+  - say: The place is the sea off Dubai. The sport is water jetpacking, the machine that sends you up into the air on a jet of water.
+    show:
+    - clip:jetpack-rescue
+  - say: Among the group is a friend of the Crown Prince, a sports lover named Nasser Al Neyadi.
+    show:
+    - stock:sea waves underwater swimmer
+  - say: Gulf Today reported what went wrong. The thrust of the jetpack pushed Nasser downward, into deep water, and he disappeared from view.
+    show:
+    - stock:rope tow vehicle desert
+  - say: Pause on that sentence. A man with a machine strapped to him goes down, not up. And the surface closes over him.
+    show:
+    - stock:Gulf sea boat sunset
+  - say: In the video, shared online by a user known as Uncle Saeed, you can see people in wetsuits reacting.
+    show:
+    - stock:Arab man helping desert vehicle sand
+  - say: And you can see the Crown Prince move.
+    show:
+    - stock:Arabian oryx desert
+  - say: Reports say Sheikh Hamdan saw the danger and dived in to bring Nasser back to the surface. Others helped as well.
+    show:
+    - stock:sea waves underwater swimmer
+  - say: I want to be careful here, because one headline called it a drowning. The reports I trust describe an extreme sports accident, and a rescue.
+    show:
+    - stock:rope tow vehicle desert
+  - say: Afterwards, Nasser received care. Hamdan confirmed that his friend was unhurt.
+    show:
+    - stock:Gulf sea boat sunset
+  - say: And later, the two of them were seen sharing light moments together again.
+    show:
+    - stock:Arab man helping desert vehicle sand
+- beats:
+  - say: Let me ask the question you are probably asking. Was it brave, or was it reckless?
+    show:
+    - him
+  - say: Honestly, we cannot judge it from a video. He may well have been trained for water safety. We simply do not know.
+    show:
+    - clip:sharks
+  - say: What we know is what he chose in that moment. A man is under the water, and he went in.
+    show:
+    - stock:Arabian oryx desert
+  - say: He did not call for help and wait. He acted, and others acted with him.
+    show:
+    - stock:sea waves underwater swimmer
+  - say: Maybe you have seen him freediving and diving in other videos. The sea is a place he knows.
+    show:
+    - clip:sharks
+  - say: Knowing water is one thing. Being first to jump is another.
+    show:
+    - stock:rope tow vehicle desert
+- beats:
+  - say: Now let me answer the question I asked at the start. What do these three rescues have in common?
+    show:
+    - stock:Gulf sea boat sunset
+  - say: First, speed. In each video, there is no meeting, no announcement, no committee.
+    show:
+    - stock:Arab man helping desert vehicle sand
+  - say: Second, his own hands. The rope, the tranquiliser, the dive.
+    show:
+    - stock:Arabian oryx desert
+  - say: Third, and I think the most important, nobody asked him to.
+    show:
+    - stock:sea waves underwater swimmer
+  - say: Nobody sent a request, nobody was recording for a news bulletin, and nobody gave him an award for it. The reward was a truck on the move, an oryx on its feet and a friend breathing.
+    show:
+    - stock:rope tow vehicle desert
+  - say: A truck driver, a wild animal and a friend. Three very different beings, and one reaction.
+    show:
+    - stock:Gulf sea boat sunset
+  - say: And what he asked for in return was nothing. At most, a caption.
+    show:
+    - stock:Arab man helping desert vehicle sand
+- beats:
+  - say: I want to say one more thing, and I want to say it fairly.
+    show:
+    - him
+  - say: Videos can be selected. We see the good moments, because those are the ones shared.
+    show:
+    - stock:Arabian oryx desert
+  - say: We do not see the days when nothing happened. We only see the highlights.
+    show:
+    - stock:sea waves underwater swimmer
+  - say: That is true for every public figure on earth, and it is true for him.
+    show:
+    - him
+  - say: 'So I do not tell you he is perfect. I tell you what the record shows: three real rescues, filmed, reported by independent newspapers, and not disputed.'
+    show:
+    - stock:rope tow vehicle desert
+  - say: Where the reports disagree, like the rope in the sand, we told you.
+    show:
+    - stock:Gulf sea boat sunset
+- beats:
+  - say: Think about why such stories travel so far.
+    show:
+    - stock:Arab man helping desert vehicle sand
+  - say: In a world of loud politics and expensive things, a rope and a net are simple. Everyone understands a rope.
+    show:
+    - stock:Arabian oryx desert
+  - say: Everyone understands a net on an animal's eyes. And everyone understands a man in deep water.
+    show:
+    - stock:sea waves underwater swimmer
+  - say: When a powerful person does something that every person understands, the distance between them and us gets shorter.
+    show:
+    - stock:rope tow vehicle desert
+  - say: That is the real power of these videos, more than the views.
+    show:
+    - stock:Gulf sea boat sunset
+- beats:
+  - say: 'On his page, the line at the top reads: Every picture has a story, and every story has a moment that I''d love to share with you.'
+    show:
+    - him
+  - say: Three pictures. Three stories. Three moments.
+    show:
+    - stock:Arab man helping desert vehicle sand
+  - say: The first moment, a lorry out of the sand.
+    show:
+    - stock:Arabian oryx desert
+  - say: The second, an oryx that ran home to its herd.
+    show:
+    - stock:sea waves underwater swimmer
+  - say: The third, a friend who came back up.
+    show:
+    - stock:rope tow vehicle desert
+- beats:
+  - say: So, the answer. What does he do in the first three seconds when someone is in danger?
+    show:
+    - stock:Gulf sea boat sunset
+  - say: He moves. Before the camera, before the caption, before the discussion.
+    show:
+    - stock:Arab man helping desert vehicle sand
+  - say: That is what the three videos have in common, and that is why people still share them years later.
+    show:
+    - stock:Arabian oryx desert
+  - say: If you want more true stories like this, with the facts checked and nothing invented, subscribe, and tell us in the comments which of the three rescues moved you the most.
+    show:
+    - stock:sea waves underwater swimmer

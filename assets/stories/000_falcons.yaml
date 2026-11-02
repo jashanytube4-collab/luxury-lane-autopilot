@@ -1,0 +1,425 @@
+# Falcon story r06 (keepbusy 2026-11-02): no dates (rule 38). Facts: Khaleej Times, Gulf News, What's On Dubai,
+# Dubai Media Office, WAM, his own Instagram captions. Built by work/falcon/make_r06.py - edit there, not here.
+id: r06-fazza-falcons
+title: Fazza Won the Falcon Race — Then Gave the Winner's Prize Away
+thumbnail:
+  text: HE GAVE IT AWAY
+  tag: TRUE STORY
+  scene: clip:ig-falcon-selfie-a@1.5
+mood: elegant
+commons: false
+footage: .
+ready: true
+description: Prince Hamdan's falcon Ghaith, bred for hunting and nicknamed the Phenomenon, broke a record at the Fazza Championship for Falconry, and then broke it again. What the Crown Prince of Dubai
+  did with the prize surprised everyone. Plus the race his falcon Antar lost by five hundredths of a second, the international falconry federation he ordered, and the falcon season he opens with his son
+  Rashid. Built from Khaleej Times, Gulf News, What's On Dubai, Dubai Media Office reports and his own Instagram videos. Stock footage of falcons and the desert is for atmosphere.
+tags:
+- Fazza falcon
+- Sheikh Hamdan falcon
+- Prince Hamdan falcons
+- Fazza Championship for Falconry
+- Ghaith falcon
+- Hamdan bin Mohammed Heritage Centre
+- Dubai falconry
+- Fazza
+- Crown Prince of Dubai
+- falcon race Dubai
+- Sheikh Hamdan son Rashid
+- Emirati falconry
+sections:
+- beats:
+  - say: Why did Prince Hamdan win a falcon race, then give the winner's prize away? Stay to find out.
+    show:
+    - clip:ig-falcon-selfie-a
+    - clip:ig-falcon-selfie-b
+    - clip:ig-falcon-sunset-a
+    sfx: impact
+  - say: He had the fastest falcon in the desert. Faster than birds bred only to race. Faster than all of them.
+    show:
+    - clip:auto-lnvphef3eqi-2
+    - clip:auto-zxe-iznufow-2
+    - clip:ig-council-window
+  - say: A record. Then another record.
+    show:
+    - clip:ig-ai-listen
+    - clip:ig-ph-walk
+  - say: But what the Crown Prince did next, nobody expected.
+    show:
+    - clip:ig-ai-talk
+    - clip:ig-council-elders
+    sfx: whoosh
+    fx: flash
+  - say: He never made a speech about it. He never posted about it, not once, not a word.
+    show:
+    - clip:ig-ph-meet
+    - clip:ig-ph-aisle
+    - clip:ig-ph-table
+  - say: The prize part was barely reported. It only came out in one small magazine report, and almost nobody ever heard about it at all.
+    show:
+    - clip:auto-cmtlcaca5cs-0
+    - clip:rider-faces
+    - clip:ig-expo-suv
+  - say: Today you will hear every number, every rival, and the time he lost.
+    show:
+    - clip:ig-recap-wave
+    - clip:ig-youth-table
+    - clip:ig-ph-enter
+    sfx: impact
+- beats:
+  - say: In the Emirates, the falcon is far more than a bird. It is history.
+    show:
+    - sb-354989818
+  - say: For Fazza, falcons mark every winter.
+    show:
+    - clip:ig-falcon-blue-a
+  - say: Long ago, desert families hunted with the falcon to put food on the table.
+    show:
+    - sb-352918191
+    sfx: whoosh
+  - say: He still goes out with his falcon on cold mornings.
+    show:
+    - clip:ig-falcon-blue-b
+    fx: flash
+  - say: Wrapped in a thick winter jacket, he films it himself, out in the open desert, with falconers around him.
+    show:
+    - clip:ig-falcon-blue-c
+    - clip:ig-falcon-blue-d
+  - say: Up close, the falcon misses nothing, and it never looks away.
+    show:
+    - sb-10860853
+    sfx: impact
+  - say: In his own videos, his falcon even rides in the car.
+    show:
+    - clip:ig-falcon-car
+  - say: Falcons in the Emirates can even travel with their own passports.
+    show:
+    - sb-7066956
+  - say: Often he takes the wheel himself, driving his own car deep into the desert, far from the city, toward the open hunting grounds.
+    show:
+    - clip:ig-gwagon-desert-a
+    - clip:ig-gwagon-desert-d
+    sfx: whoosh
+  - say: Out there, his car rolls across golden dunes under a blue sky.
+    show:
+    - sb-352324514
+- beats:
+  - say: The falcon circles high above the desert, watching everything below, waiting for his signal.
+    show:
+    - clip:falcon-hunt
+    fx: flash
+  - say: A falcon only comes back to someone it trusts. That is the whole secret.
+    show:
+    - sb-348412211
+    sfx: impact
+  - say: Now look at his own videos. He holds out his arm and calls his white falcon down from the sky.
+    show:
+    - clip:ig-falcon-white-a
+    - clip:ig-falcon-white-b
+  - say: He does not move. He does not shout. He just waits, completely still.
+    show:
+    - clip:ig-falcon-white-c
+    - clip:ig-falcon-white-d
+  - say: Then, in one swift dive, the falcon drops toward his glove.
+    show:
+    - sb-11064084
+    sfx: whoosh
+  - say: It lands on his glove, as if it never left.
+    show:
+    - clip:ig-falcon-white-f
+  - say: Every falcon owner knows that moment. It is the reward for patience.
+    show:
+    - sb-353860428
+  - say: Fans have watched him do this for many years, falcons riding in his car, even a camel at the window.
+    show:
+    - clip:car-falcon-camel
+    sfx: impact
+    fx: flash
+  - say: Deep in the desert, the dunes stretch for miles, and the air is still.
+    show:
+    - sb-111207
+  - say: His white falcon rests on his glove.
+    show:
+    - clip:ig-falcon-white2
+  - say: A falcon can spot its prey from very far across the open sand.
+    show:
+    - sb-347082689
+    sfx: whoosh
+  - say: He filmed his falcon at full speed, as it chased low across the sand right beside his moving car.
+    show:
+    - clip:ig-falcon-hunt-a
+    - clip:ig-falcon-hunt-b
+  - say: 'His caption: falcon against camera.'
+    show:
+    - clip:ig-falcon-hunt-c
+  - say: In the Gulf, the falcon has meant pride for centuries.
+    show:
+    - clip:ig-sunset-a
+    sfx: impact
+  - say: Out on the dunes, the sun climbs fast, and the hunt starts early.
+    show:
+    - sb-352958539
+    fx: flash
+  - say: His falcon trips take him far from home.
+    show:
+    - clip:ig-heli-e
+  - say: Gulf News noted Uzbekistan posts nearly always include his birds.
+    show:
+    - sb-7066785
+    sfx: whoosh
+- beats:
+  - say: Remember that prize? We are getting closer now. Very close.
+    show:
+    - clip:auto-cmtlcaca5cs-3
+  - say: Every winter, falconers gather in the Al Ruwayyah desert outside Dubai.
+    show:
+    - sb-353710604
+  - say: It is the Fazza Championship for Falconry, organised by the Hamdan Bin Mohammed Heritage Centre in Dubai.
+    show:
+    - clip:windsor-stand
+    sfx: impact
+  - say: Each falcon flies four hundred metres across the desert, straight toward a lure.
+    show:
+    - sb-353710742
+  - say: He knows exactly how fine the margins really are.
+    show:
+    - clip:ig-council-desk
+    fx: flash
+  - say: The clock is so precise that races are decided by thousandths of a second.
+    show:
+    - sb-1958092
+    sfx: whoosh
+  - say: One blink, and his falcon can lose.
+    show:
+    - clip:auto-fi451vd-l70-1
+  - say: Some owners there are children, as young as five.
+    show:
+    - clip:son-walk
+  - say: His heritage centre wants the sport kept alive for the young.
+    show:
+    - clip:rider-meet
+    sfx: impact
+  - say: Top falcons reportedly fetch two hundred and fifty thousand dirhams each.
+    show:
+    - sb-352806693
+  - say: Now imagine the Crown Prince racing his falcon.
+    show:
+    - clip:auto-t7b2muqwfl8-0
+- beats:
+  - say: The falcon was called Ghaith, and it would make history in that desert.
+    show:
+    - sb-354132849
+    sfx: whoosh
+    fx: flash
+  - say: Ghaith was bred for hunting, not for racing at all.
+    show:
+    - clip:ig-falcon-indoor-a
+  - say: The championship director told Khaleej Times exactly that about the falcon.
+    show:
+    - sb-354132855
+  - say: He was never, ever meant to be a speed champion.
+    show:
+    - clip:ig-falcon-indoor-e
+    sfx: impact
+  - say: In qualifying, the falcon clocked nineteen point three five three.
+    show:
+    - sb-354132865
+  - say: A new record, and nobody had expected it from him.
+    show:
+    - clip:ig-iftar-a
+  - say: Then, in the very next round, the same falcon broke its own record.
+    show:
+    - sb-440038
+    sfx: whoosh
+  - say: Nineteen point two five two. The Phenomenon.
+    show:
+    - clip:ig-iftar-c
+    fx: flash
+  - say: The second falcon, Nawaf, was more than half a second behind.
+    show:
+    - sb-354132877
+  - say: In his sport, half a second is a whole lifetime.
+    show:
+    - clip:ig-lion-cub-a
+    sfx: impact
+  - say: The director said the record breaking run speaks volumes about this special bird.
+    show:
+    - sb-354326435
+  - say: So Fazza had won. Now remember that prize. Because what happened next is the real reason this story exists.
+    show:
+    - clip:ig-lion-cub-b
+    - clip:ig-lion-cub-c
+- beats:
+  - say: And then came the moment this story is really about. What would he do with the prize now?
+    show:
+    - clip:queen
+    sfx: whoosh
+  - say: Out in the desert sand, the runner up was a falcon called B six.
+    show:
+    - sb-353898940
+  - say: He gave that owner the very same first place prize as well.
+    show:
+    - clip:ig-cloud-roof-b
+    fx: flash
+  - say: Two owners left the desert with first place, What's On Dubai reported.
+    show:
+    - sb-352118907
+    sfx: impact
+  - say: Only one of them was the Crown Prince of Dubai himself.
+    show:
+    - clip:ig-cloud-roof-a
+  - say: 'The magazine said the reason was simple: to encourage everyone in the desert sport.'
+    show:
+    - sb-353117733
+  - say: He did not need another cup on his shelf at home.
+    show:
+    - clip:ig-turtle2
+    sfx: whoosh
+  - say: For an ordinary desert falconer, first place is a family story.
+    show:
+    - sb-11019410
+  - say: Would you have kept the prize for yourself, or shared it with a rival, like Fazza did? Be honest. Most people would have kept it, and nobody would have blamed them.
+    show:
+    - clip:auto-fev2yxoy5cu-2
+    - clip:ig-gwagon-rain-a
+    - clip:ig-gwagon-rain-b
+- beats:
+  - say: But not every falcon wins out in the desert, not even the best ones.
+    show:
+    - sb-354653909
+    sfx: impact
+    fx: flash
+  - say: In another season, his falcon Antar raced across the same Al Ruwayyah desert.
+    show:
+    - clip:oryx
+  - say: Antar ran nineteen point six two five over the sand, and lost.
+    show:
+    - sb-358311165
+  - say: He lost by just five hundredths of a second, less than the blink of an eye. Antar finished third.
+    show:
+    - clip:ig-boat-son
+    sfx: whoosh
+  - say: There are no special rules out on the sand, and no easy path for anyone.
+    show:
+    - sb-354855352
+  - say: He lost, like anyone.
+    show:
+    - clip:ig-council-father
+    - clip:ig-forum-front
+    - clip:ig-council-expo
+  - say: The director said his falcons have lifted the desert sport to greater heights.
+    show:
+    - sb-352898065
+    sfx: impact
+  - say: He did not stop at racing.
+    show:
+    - clip:horse-car
+    fx: flash
+  - say: He ordered an international federation for falcon racing, with its home in Dubai.
+    show:
+    - sb-358220525
+  - say: His brother, Sheikh Ahmed bin Mohammed, was elected to lead it from its first meeting, giving the sport a world stage.
+    show:
+    - clip:horse-stable
+    - clip:horses
+    sfx: whoosh
+- beats:
+  - say: Out in the desert, camels still cross the golden dunes in long lines.
+    show:
+    - sb-11084370
+  - say: But his animal family is much bigger than his falcons. In other videos, he drives slowly through a camel farm.
+    show:
+    - clip:ig-camels-car-a
+    - clip:ig-camels-car-d
+  - say: The camels push their heads right through his car window, and he feeds them by hand, one by one.
+    show:
+    - clip:ig-camels-car-e
+    - clip:ig-camels-car-f
+    sfx: impact
+  - say: One camel walks right up, and he leans out to greet it gently.
+    show:
+    - clip:ig-camels-car-g
+    - clip:ig-camels-car-h
+  - say: Another camel leans in at the open car window, and waits for him there patiently, the way an old friend always would.
+    show:
+    - clip:ig-camel-window-a
+    - clip:ig-camel-window-b
+    fx: flash
+  - say: Out on the farm, the camels wear bright blankets against the desert wind.
+    show:
+    - sb-7721934
+    sfx: whoosh
+  - say: Even from the driver's seat, he greets every camel by hand. He is never in a hurry with any of them. He gives each one his time.
+    show:
+    - clip:ig-camel-window-c
+    - clip:camels
+  - say: In the stable, he rests his head against his horse.
+    show:
+    - clip:ig-horse-stable-a
+  - say: The stable is quiet. Not a sound. The horse does not move at all.
+    show:
+    - sb-354013844
+    sfx: impact
+  - say: Horse or camel, the same quiet patience.
+    show:
+    - clip:ig-horse-stable-b
+  - say: A gentle hand on the horse, every day, is how that trust is built.
+    show:
+    - sb-354513165
+  - say: The same patience he shows his falcons and his horse.
+    show:
+    - clip:ig-horse-stable-c
+    sfx: whoosh
+    fx: flash
+  - say: His horses race too, in long endurance rides across the desert.
+    show:
+    - sb-11182157
+- beats:
+  - say: His horses are also how he shares life with family.
+    show:
+    - clip:ig-horse-water-a
+  - say: A horse learns the voice of the person who cares for it, day by day.
+    show:
+    - sb-354385089
+    sfx: impact
+  - say: Away from the cameras, stable evenings are quiet.
+    show:
+    - clip:ig-horse-water-b
+  - say: A good horse is groomed, fed and checked by hand every single day.
+    show:
+    - sb-352507384
+  - say: 'One post his fans love most has an Arabic caption that says: Bu Rashid and Rashid, and the start of the season.'
+    show:
+    - clip:ig-horse-chestnut-a
+    - clip:ig-horse-chestnut-b
+    sfx: whoosh
+  - say: Every child here learns the old ways, just as generations did.
+    show:
+    - sb-11113070
+    fx: flash
+  - say: Bu Rashid means the father of Rashid. That is Fazza himself, and Rashid is his son, out with him for the season.
+    show:
+    - clip:ig-grey-horse
+    - clip:ig-horse-white-a
+  - say: A new season begins, and the horses are ready.
+    show:
+    - sb-354291083
+    sfx: impact
+- beats:
+  - say: What does this tell us?
+    show:
+    - clip:white-horse
+  - say: Out in the desert, the camels graze quietly as the day ends.
+    show:
+    - sb-352296885
+  - say: He can lose. But when he wins, he shares. That is the answer.
+    show:
+    - clip:ig-moochi
+    sfx: whoosh
+  - say: 'Which animals next: horses, camels or falcons?'
+    show:
+    - sb-349220424
+  - say: Tell us in the comments, and subscribe for the next story.
+    show:
+    - clip:ig-ai-stand
+    - clip:ig-reef-boat
+    fx: flash

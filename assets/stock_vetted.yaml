@@ -1,9 +1,15 @@
 approved:
+- '352118907'
+- '355090632'
+- '354326435'
+- '358220525'
+- '440038'
 - '10491210'
 - '10491381'
 - '10523802'
 - '10836835'
 - '10848718'
+- '10860853'
 - '10864257'
 - '10891097'
 - '10902035'
@@ -18,13 +24,16 @@ approved:
 - '11020072'
 - '11023454'
 - '11058820'
+- '11064084'
 - '11081347'
 - '11084363'
+- '11084370'
 - '11087451'
 - '11101005'
 - '111079'
 - '11111525'
 - '11113070'
+- '111207'
 - '11182157'
 - '1214149'
 - '122628'
@@ -45,6 +54,7 @@ approved:
 - '346720205'
 - '346750383'
 - '346780211'
+- '347082689'
 - '347086234'
 - '347201112'
 - '347201677'
@@ -68,6 +78,7 @@ approved:
 - '348264457'
 - '348383184'
 - '348383495'
+- '348412211'
 - '348435118'
 - '348460476'
 - '348542842'
@@ -85,6 +96,7 @@ approved:
 - '349101814'
 - '349101826'
 - '349114643'
+- '349220424'
 - '349227386'
 - '349236471'
 - '349387659'
@@ -111,6 +123,7 @@ approved:
 - '352146572'
 - '352186488'
 - '352257484'
+- '352296885'
 - '352308493'
 - '352324514'
 - '352325335'
@@ -120,6 +133,7 @@ approved:
 - '352452048'
 - '352482007'
 - '352497987'
+- '352507384'
 - '352540690'
 - '352542575'
 - '352598984'
@@ -145,6 +159,7 @@ approved:
 - '352867715'
 - '352892667'
 - '352898065'
+- '352918191'
 - '352931318'
 - '352932268'
 - '352940869'
@@ -159,9 +174,11 @@ approved:
 - '353338309'
 - '353338366'
 - '353434767'
+- '353543458'
 - '353633803'
 - '353681405'
 - '353692272'
+- '353710591'
 - '353710604'
 - '353710742'
 - '353710751'
@@ -171,6 +188,7 @@ approved:
 - '353735881'
 - '353761339'
 - '353788364'
+- '353860428'
 - '353875671'
 - '353898940'
 - '353911748'
@@ -184,16 +202,25 @@ approved:
 - '354008817'
 - '354013844'
 - '354015626'
+- '354132842'
+- '354132849'
+- '354132855'
+- '354132865'
+- '354132869'
+- '354132877'
 - '354144458'
 - '354144467'
 - '354181918'
 - '354187516'
 - '354187552'
 - '354187633'
+- '354291083'
 - '354310481'
+- '354326482'
 - '354328057'
 - '354332628'
 - '354338561'
+- '354385089'
 - '354386248'
 - '354386316'
 - '354386405'
@@ -208,6 +235,7 @@ approved:
 - '354568401'
 - '354571730'
 - '354573172'
+- '354653909'
 - '354677012'
 - '354766892'
 - '354773916'
@@ -225,6 +253,9 @@ approved:
 - '354985879'
 - '354987983'
 - '354988040'
+- '354989810'
+- '354989812'
+- '354989818'
 - '354998245'
 - '355019686'
 - '355197436'
@@ -258,13 +289,18 @@ approved:
 - '6823951'
 - '6852421'
 - '7066785'
+- '7066956'
 - '7285221'
 - '7505805'
+- '7721934'
+- '7879997'
 - '7923907'
 - '9002809'
 - '9081827'
 - '9849919'
 rejected:
+  '1256529': 'falcon r06 vetting 2026-11-02: bird not visible, green scrub not Gulf look'
+  '1084715': 'falcon r06 vetting 2026-11-02: green hills + power pylon, bird tiny'
   '10847519': blonde non-Gulf woman
   '10928972': 'reef vetting 2026-11-02: diver in blue suit + torch'
   '10988409': blonde non-Gulf woman
@@ -276,7 +312,11 @@ rejected:
   '11125511': green screen
   '11125568': green screen
   '11161867': mixed western conference, not Gulf look
+  '1616214': blurred non-Gulf people behind / beach hawk with red sleeve / visitor
+    hand on pony
   '1893798': western man, blurry
+  '3181521': buzzard with Western people / gory raw meat on green hedge / mountains+power
+    line - not Gulf
   '346563351': green screen
   '346768262': 'earn video vetting 2026-10-25: non-Gulf people / off-topic / too dark'
   '347009083': not Gulf look
@@ -302,20 +342,31 @@ rejected:
   '352304436': non-Gulf tourists in front of the car
   '352359766': Alhambra, Spain
   '352437187': non-Gulf tourist photographing the car
+  '352481482': buzzard with Western people / gory raw meat on green hedge / mountains+power
+    line - not Gulf
   '352500041': cartoon graphic
   '352512545': 'reef vetting 2026-11-02: boat wake with lens vignette'
   '352526418': 'reef r02 vetting: cartoon/animated reef'
   '352572493': cheap hatchback, not luxury
   '352832184': not Gulf look
+  '352833994': Harris hawk on a beach, red sleeve - not a falcon, not Gulf
   '352979942': 'reef r02 vetting: cartoon/animated reef'
+  '353002977': blurred non-Gulf people behind / beach hawk with red sleeve / visitor
+    hand on pony
   '353006443': 'reef r02 vetting: cartoon/animated reef'
   '353197197': green screen phone
   '353214152': green screen phone
+  '353508632': buzzard with Western people / gory raw meat on green hedge / mountains+power
+    line - not Gulf
   '353777367': East Asian woman, not Gulf look
   '353807585': 'earn video vetting 2026-10-25: non-Gulf people / off-topic / too dark'
   '353930864': 'reef r02 vetting: person silhouette/diver + glitch frame'
   '354010520': mixed western volunteers
   '354315362': green screen
+  '354318187': blurred non-Gulf people behind / beach hawk with red sleeve / visitor
+    hand on pony
+  '354326450': European handler, green forest/power line - wrong look
+  '354326549': European handler, green forest/power line - wrong look
   '354386320': duplicate of 354386316
   '354461257': Alhambra, Spain
   '354566511': blonde non-Gulf woman

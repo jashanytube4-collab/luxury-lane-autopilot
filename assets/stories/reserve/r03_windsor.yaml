@@ -1,0 +1,265 @@
+# RESERVE (not in the live queue). ready:false until: Storyblocks stock: placeholders are replaced by vetted sb-<id> clips
+# (Arab/Emirati, 3-5 s), every clip viewed against its sentence, then lint/plan_check gates. Written 2026-11-01.
+id: r03-windsor-hand-in-hand
+title: He Could Have Won Alone Before the Queen — Why Fazza Crossed the Line Hand in Hand
+thumbnail:
+  text: WON TOGETHER
+  tag: BEFORE THE QUEEN
+  scene: clip:queen
+mood: elegant
+commons: false
+footage: .
+ready: false
+description: In May 2014, in Windsor Great Park, Sheikh Hamdan, Crown Prince of Dubai, finished the 120 km Royal Windsor Endurance ride joint first with Sheikh Nasser bin Hamad Al Khalifa of Bahrain, holding
+  hands, while Queen Elizabeth II, King Hamad of Bahrain and Sheikh Mohammed bin Rashid watched. Built from Gulf News reports and the Dubai government protocol pages of the time. Nothing here is invented.
+tags:
+- Prince Hamdan Windsor
+- Fazza endurance
+- Royal Windsor Horse Show 2014
+- Sheikh Hamdan horse
+- Queen Elizabeth Dubai
+- Fazza horse riding
+- Sheikh Nasser bin Hamad
+- Dubai Crown Prince sport
+sections:
+- beats:
+  - say: Why did the Crown Prince of Dubai refuse to cross the finish line alone, when the Queen of England was watching and the whole race was his to win? Stay until the end, and I will reveal who he waited
+      for.
+    show:
+    - clip:queen
+    - clip:ig-endurance-team
+  - say: It was a hundred and twenty kilometres of riding, and the final picture was two men holding hands.
+    show:
+    - clip:horse-stable
+  - say: Today I will tell you what happened in Windsor Great Park in the middle of May, twenty fourteen.
+    show:
+    - clip:ig-ride-forest
+  - say: I will tell you who was sitting in the Royal Box, what the numbers were, and what one rider said afterwards.
+    show:
+    - clip:windsor-stand
+  - say: Every fact comes from news reports of the day and from Dubai government pages.
+    show:
+    - clip:horses
+- beats:
+  - say: Start with the place. Windsor Castle, west of London, home of the British royal family for nearly a thousand years.
+    show:
+    - stock:Windsor Castle aerial
+  - say: Each year its private grounds host the Royal Windsor Horse Show, a five day event that began in nineteen forty three.
+    show:
+    - stock:horse show jumping arena
+  - say: There is dressage, carriage driving, display teams from the Household Cavalry, hundreds of horses. And one more thing, an endurance ride.
+    show:
+    - clip:ig-grey-horse
+  - say: Endurance is the quiet sport of horse riding. No fences, no tricks. Only distance.
+    show:
+    - clip:ig-ride-forest
+  - say: In this race the distance was a hundred and twenty kilometres, around Windsor Great Park.
+    show:
+    - clip:ig-horse-stable-a
+  - say: The reports call it a two star international ride. It had forty four competitors, riders from the United Arab Emirates, from Bahrain and from Britain.
+    show:
+    - clip:ig-endurance-team
+  - say: The weather, they say, was sunny. The route passed the grandstand of Ascot Racecourse, the Jubilee Statue and the Prince Consort Statue.
+    show:
+    - stock:English park path horse riders
+  - say: It went along the Long Walk, with views of the Berkshire Downs and Windsor Castle on the horizon.
+    show:
+    - stock:Long Walk Windsor
+  - say: It sounds like a postcard. But it is a hard race.
+    show:
+    - clip:ig-horse-stable-b
+- beats:
+  - say: Why is it hard? Because the horse is the athlete, not the rider.
+    show:
+    - clip:ig-horse-water-a
+  - say: In endurance rides a horse must pass veterinary checks along the way. If the horse is tired or unwell, the ride is over, however good the rider is.
+    show:
+    - clip:ig-horse-water-b
+  - say: So the winner is the rider who knows his horse best, who can go fast without breaking the animal.
+    show:
+    - clip:ig-horse-chestnut-a
+  - say: That is why people in this sport talk about patience before they talk about speed.
+    show:
+    - clip:ig-horse-chestnut-b
+  - say: And patience is a word that fits Prince Hamdan's pictures, on horses, in stables, with the bridle in his hand.
+    show:
+    - clip:horses
+- beats:
+  - say: Now to the people in the Royal Box.
+    show:
+    - clip:queen
+  - say: Queen Elizabeth the Second was there, with her husband, Prince Philip, the Duke of Edinburgh.
+    show:
+    - clip:queen
+  - say: Beside them sat King Hamad bin Isa Al Khalifa of Bahrain.
+    show:
+    - stock:royal box horse show
+  - say: And with them, the ruler of Dubai, Sheikh Mohammed bin Rashid Al Maktoum, Prince Hamdan's father.
+    show:
+    - clip:queen
+  - say: Reports say that Sheikh Mohammed had ridden in the event too, before he withdrew.
+    show:
+    - clip:horse-car
+  - say: His friendship with the Queen goes back decades. One account says it began in his early racing days in England, when he watched Royal Palace win the Two Thousand Guineas at Newmarket.
+    show:
+    - stock:Newmarket racehorses gallop
+  - say: So here is the stage. A queen, two rulers, and two sons about to ride for their fathers.
+    show:
+    - stock:horse riders endurance trail
+  - say: One son was Hamdan of Dubai. The other was Sheikh Nasser bin Hamad Al Khalifa of Bahrain, the King's son.
+    show:
+    - clip:windsor-stand
+- beats:
+  - say: Let me tell you a detail that changes how you see this story.
+    show:
+    - him
+  - say: Sheikh Nasser's father in law is Sheikh Mohammed bin Rashid.
+    show:
+    - clip:windsor-stand
+  - say: That means the Bahraini rider is married into Hamdan's own family. In simple words, they were not just rivals on a horse, they were relatives.
+    show:
+    - clip:ig-horse-hand
+  - say: Remember that, because it explains what happens in the last minutes of the race.
+    show:
+    - clip:ig-endurance-team
+- beats:
+  - say: The race started, and the pace was fast.
+    show:
+    - clip:ig-ride-forest
+  - say: The reports say the leaders averaged more than twenty four kilometres an hour, which is very quick for a long ride, and they pulled clear in the second and third loops.
+    show:
+    - clip:ig-grey-horse
+  - say: Think about twenty four kilometres an hour, hour after hour, on a living animal.
+    show:
+    - clip:ig-horse-stable-c
+  - say: Hamdan went to the front. By the account that Sheikh Nasser gave afterwards, Nasser was about four minutes behind him.
+    show:
+    - clip:ig-horse-stable-d
+  - say: Four minutes. In a sport where some people lose a race by seconds, four minutes is a gap you can see.
+    show:
+    - clip:ig-horse-chestnut-a
+  - say: Hamdan was ahead. The win was within reach.
+    show:
+    - clip:horse-stable
+- beats:
+  - say: And then, Nasser says, he caught up.
+    show:
+    - clip:ig-ride-forest
+  - say: He closed the gap. Two horses, two riders, one finish line ahead, and the Queen of England on the other side of it.
+    show:
+    - clip:ig-endurance-team
+  - say: What would you have done? Almost any rider would have sprinted. Winning in front of a queen is the dream.
+    show:
+    - clip:ig-horse-hand
+  - say: But they did not sprint.
+    show:
+    - clip:ig-horse-water-a
+  - say: Sheikh Nasser said that they wanted to make both of their fathers happy, by finishing together.
+    show:
+    - clip:windsor-stand
+  - say: So they crossed the line at the same moment. And the reports say they did it holding hands.
+    show:
+    - stock:Arabian horse close up
+  - say: The time was four hours, fifty two minutes and thirty seconds.
+    show:
+    - clip:ig-horse-chestnut-b
+  - say: Joint winners. No second place between them.
+    show:
+    - clip:horses
+- beats:
+  - say: Take a breath and think about the picture.
+    show:
+    - stock:Windsor Castle aerial
+  - say: Two young men, in the colours of two countries, on tired horses, hands joined, riding slowly to the end of a long road.
+    show:
+    - stock:horse riders endurance trail
+  - say: Behind them, a castle that has seen a thousand years of kings. In front of them, a queen. And in the Royal Box two fathers watching their sons.
+    show:
+    - stock:Arabian horse close up
+  - say: It is not the picture of a race. It is the picture of a family.
+    show:
+    - stock:Windsor Castle aerial
+  - say: Third place went to another Emirati rider, Sheikh Hasher bin Mohammad Thani Al Maktoum.
+    show:
+    - clip:ig-horse-stable-a
+  - say: Fourth and fifth were riders from Bahrain, and sixth was Alexandre Monbrun of France.
+    show:
+    - stock:horse riders endurance trail
+  - say: The best placed British rider was Harry Ingram, twelfth.
+    show:
+    - clip:ig-grey-horse
+  - say: Riders from three nations filled the top places that day.
+    show:
+    - clip:ig-horse-stable-b
+- beats:
+  - say: Now I want to be honest about what we do not know.
+    show:
+    - him
+  - say: We do not know what the two riders said to each other in those last minutes.
+    show:
+    - stock:Arabian horse close up
+  - say: We only have the account that Nasser gave, and the pictures.
+    show:
+    - clip:ig-horse-water-b
+  - say: We do not know whether the idea of crossing together came from one of them or from both.
+    show:
+    - clip:ig-horse-stable-c
+  - say: 'What we do know is that the result is on record: joint first. And Dubai government pages of the time reported the achievement, with the Queen and King Hamad in attendance.'
+    show:
+    - stock:Windsor Castle aerial
+  - say: I looked for a report saying the Queen herself handed over a cup, and I could not find a reliable source. So I will not say it.
+    show:
+    - stock:horse riders endurance trail
+  - say: That is how this channel works. If it is not proven, we do not say it.
+    show:
+    - him
+- beats:
+  - say: So why does this old race still matter today?
+    show:
+    - clip:ig-horse-chestnut-a
+  - say: Because it shows a side of Hamdan that statistics do not show.
+    show:
+    - clip:horse-stable
+  - say: He has shown his love of horses for years. On his own page there are horses resting their heads on his shoulder, horses by the water, horses in the stable.
+    show:
+    - clip:ig-horse-chestnut-b
+  - say: Horse riding is where he has often chosen to appear in public, as a rider, not as a prince.
+    show:
+    - clip:horse-car
+  - say: And Windsor, in twenty fourteen, is the best example of what that looks like when it goes well.
+    show:
+    - stock:Arabian horse close up
+  - say: He rode the race hard, was caught by a relative, and chose to share the ending.
+    show:
+    - stock:Windsor Castle aerial
+  - say: 'Maybe a lesson in sport. In many families, and in many countries, people say: win at any price. Here, two riders said: win together.'
+    show:
+    - clip:ig-horse-hand
+  - say: Perhaps that is also a lesson about leadership. A strong leader does not always need to be the only one on the podium.
+    show:
+    - clip:horses
+  - say: I say perhaps, because it is an opinion, and you can disagree. Tell me in the comments.
+    show:
+    - clip:ig-horse-water-a
+- beats:
+  - say: Let us put the ending together.
+    show:
+    - stock:horse riders endurance trail
+  - say: In mid May twenty fourteen, in Windsor Great Park, forty four riders started a hundred and twenty kilometre ride.
+    show:
+    - stock:Arabian horse close up
+  - say: Two came to the line side by side.
+    show:
+    - stock:Windsor Castle aerial
+  - say: Prince Hamdan of Dubai, and Sheikh Nasser of Bahrain, a man married to a daughter of Hamdan's own father, according to the report of the time.
+    show:
+    - stock:horse riders endurance trail
+  - say: And that answers the question I asked at the start. Who did he wait for? He did not wait. His relative caught up, and he chose to cross with him.
+    show:
+    - stock:Arabian horse close up
+  - say: Not one winner, but two, and a hand held up for two fathers and one queen to see.
+    show:
+    - stock:Windsor Castle aerial
+  - say: If you enjoy stories like this, true ones, with no invented drama, subscribe, and tell us in the comments which moment of Fazza's life you want us to cover next.
+    show:
+    - stock:horse riders endurance trail

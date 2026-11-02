@@ -1037,7 +1037,7 @@ clip:burj-flag:
 clip:camels:
   arab_people: true
   desc: Fazza shares a tender moment with a camel.
-  hamdan: 0.0
+  hamdan: 0.5
   people: true
   tags:
   - belt
@@ -2333,9 +2333,10 @@ clip:ig-camel-window-c:
   - window
   text_graphic: false
 clip:ig-camels-car-a:
-  arab_people: false
+  arab_people: true
   desc: A man watches a group of camels walking in a sandy enclosure from the passenger seat of a car.
-  hamdan: 0.0
+  hamdan: 0.4
+  hamdan_note: set by Rocky 2026-11-02 after looking at frames (face cut by 16:9 crop / profile / same continuous video of his own Instagram)
   people: true
   tags:
   - back
@@ -2387,10 +2388,97 @@ clip:ig-camels-car-c:
   - vehicle
   - window
   text_graphic: false
+clip:ig-camels-car-d:
+  arab_people: true
+  desc: Crown Prince watching camels from car
+  hamdan: 0.4
+  hamdan_note: set by Rocky 2026-11-02 after looking at frames (face cut by 16:9 crop / profile / same continuous video of his own Instagram)
+  people: true
+  tags:
+  - camels
+  - car
+  - crowd
+  - desert
+  - jewellery
+  - office
+  - skyline
+  text_graphic: false
+clip:ig-camels-car-e:
+  arab_people: true
+  desc: A camel's curious face peering from a car window.
+  hamdan: 0.4
+  hamdan_note: set by Rocky 2026-11-02 after looking at frames (face cut by 16:9 crop / profile / same continuous video of his own Instagram)
+  people: true
+  tags:
+  - camel
+  - car
+  - clothing
+  - desert
+  - fence
+  - mirror
+  - people
+  - sand
+  - sky
+  - window
+  text_graphic: false
+clip:ig-camels-car-f:
+  arab_people: true
+  desc: A man watches camels from a car window.
+  hamdan: 0.4
+  hamdan_note: set by Rocky 2026-11-02 after looking at frames (face cut by 16:9 crop / profile / same continuous video of his own Instagram)
+  people: true
+  tags:
+  - camel
+  - car
+  - hair
+  - head
+  - hump
+  - legs
+  - man
+  - mirror
+  - neck
+  - sand
+  - shoulder
+  - window
+  text_graphic: false
+clip:ig-camels-car-g:
+  arab_people: true
+  desc: Cameleers and camels in a sandy enclosure.
+  hamdan: 0.4
+  hamdan_note: set by Rocky 2026-11-02 after looking at frames (face cut by 16:9 crop / profile / same continuous video of his own Instagram)
+  people: true
+  tags:
+  - back
+  - camel
+  - car
+  - clothing
+  - fence
+  - mirror
+  - person
+  - pole
+  - sand
+  - skyline
+  text_graphic: false
+clip:ig-camels-car-h:
+  arab_people: true
+  desc: Crown Prince watching camels from a car
+  hamdan: 0.4
+  hamdan_note: set by Rocky 2026-11-02 after looking at frames (face cut by 16:9 crop / profile / same continuous video of his own Instagram)
+  people: true
+  tags:
+  - camels
+  - car
+  - crowd
+  - desert
+  - jewellery
+  - office
+  - skyline
+  text_graphic: false
 clip:ig-cloud-roof-a:
   arab_people: true
   desc: A man in a white kandura stands on a rooftop terrace holding a smartphone to take a picture of the distant city skyline.
-  hamdan: 0.0
+  hamdan: 0.4
+  hamdan_note: set by Rocky 2026-11-02 after looking at frames (face cut by 16:9 crop / profile / same continuous video of his own Instagram)
   people: true
   tags:
   - building
@@ -2407,7 +2495,8 @@ clip:ig-cloud-roof-a:
 clip:ig-cloud-roof-b:
   arab_people: true
   desc: Prince Hamdan sits on a balcony overlooking a sea of clouds while holding a smartphone.
-  hamdan: 0.0
+  hamdan: 0.6
+  hamdan_note: set by Rocky 2026-11-02 after looking at frames (face cut by 16:9 crop / profile / same continuous video of his own Instagram)
   people: true
   tags:
   - atmosphere
@@ -2795,9 +2884,9 @@ clip:ig-expo-suv:
   - trees
   text_graphic: false
 clip:ig-falcon-blue-a:
-  arab_people: false
-  desc: A man in a blue jacket holds a falcon against the backdrop of a vast desert landscape.
-  hamdan: 0.0
+  arab_people: true
+  desc: Prince Hamdan in a blue winter jacket (selfie, frames checked by Rocky) holds a falcon against the backdrop of a vast desert landscape.
+  hamdan: 0.9
   people: true
   tags:
   - beard
@@ -2812,9 +2901,9 @@ clip:ig-falcon-blue-a:
   - sky
   text_graphic: false
 clip:ig-falcon-blue-b:
-  arab_people: false
-  desc: A man with a beard and a blue jacket holds a falcon against a clear blue sky.
-  hamdan: 0.0
+  arab_people: true
+  desc: Prince Hamdan in a blue winter jacket (selfie, frames checked by Rocky) holds a falcon against a clear blue sky.
+  hamdan: 0.9
   people: true
   tags:
   - beard
@@ -2828,10 +2917,47 @@ clip:ig-falcon-blue-b:
   - outdoor
   - sky
   text_graphic: false
+clip:ig-falcon-blue-c:
+  arab_people: true
+  desc: Two men in desert landscape
+  hamdan: 0.9
+  hamdan_note: set by Rocky 2026-11-02 after looking at frames (face cut by 16:9 crop / profile / same continuous video of his own Instagram)
+  people: true
+  tags:
+  - beard
+  - clothing
+  - desert
+  - grass
+  - headwear
+  - jacket
+  - man
+  - sand
+  - scarf
+  - skyline
+  text_graphic: false
+clip:ig-falcon-blue-d:
+  arab_people: true
+  desc: Two men in desert landscape
+  hamdan: 0.9
+  hamdan_note: set by Rocky 2026-11-02 after looking at frames (face cut by 16:9 crop / profile / same continuous video of his own Instagram)
+  people: true
+  tags:
+  - beard
+  - desert
+  - face
+  - grass
+  - headscarf
+  - jacket
+  - man
+  - puffer
+  - sand
+  - shadow
+  text_graphic: false
 clip:ig-falcon-car:
-  arab_people: false
+  arab_people: true
   desc: A large falcon rests its wings on the dashboard of a car while a man with a beard looks on.
-  hamdan: 0.0
+  hamdan: 0.8
+  hamdan_note: set by Rocky 2026-11-02 after looking at frames (face cut by 16:9 crop / profile / same continuous video of his own Instagram)
   people: true
   tags:
   - beard
@@ -2844,6 +2970,23 @@ clip:ig-falcon-car:
   - seat
   - steering wheel
   - wings
+  text_graphic: false
+clip:ig-falcon-car-b:
+  arab_people: null
+  desc: A falcon soars over the desert.
+  hamdan: 0.0
+  people: false
+  tags:
+  - car
+  - dashboard
+  - desert
+  - falcon
+  - interior
+  - sand
+  - sky
+  - steering wheel
+  - vehicle
+  - windshield
   text_graphic: false
 clip:ig-falcon-convoy:
   arab_people: null
@@ -2861,6 +3004,48 @@ clip:ig-falcon-convoy:
   - suv
   - travel
   - vehicle
+  text_graphic: false
+clip:ig-falcon-hunt-a:
+  arab_people: null
+  desc: Two falcons soaring in the desert sky
+  hamdan: 0.0
+  people: false
+  tags:
+  - desert
+  - falcon
+  - flight
+  - sky
+  text_graphic: false
+clip:ig-falcon-hunt-b:
+  arab_people: null
+  desc: Falcon flying over desert landscape
+  hamdan: 0.0
+  people: false
+  tags:
+  - bird
+  - car
+  - desert
+  - falcon
+  - flight
+  - grassland
+  - landscape
+  - nature
+  - skyline
+  - wildlife
+  text_graphic: false
+clip:ig-falcon-hunt-c:
+  arab_people: true
+  desc: A falcon is released from a car in the desert.
+  hamdan: 0.0
+  people: true
+  tags:
+  - car
+  - crowd
+  - desert
+  - falcon
+  - jewellery
+  - office
+  - skyline
   text_graphic: false
 clip:ig-falcon-indoor-a:
   arab_people: true
@@ -2897,6 +3082,80 @@ clip:ig-falcon-indoor-b:
   - kandura
   - lighting
   - necklace
+  text_graphic: false
+clip:ig-falcon-indoor-c:
+  arab_people: true
+  desc: Prince Hamdan with a falcon
+  hamdan: 0.6
+  hamdan_note: set by Rocky 2026-11-02 after looking at frames (face cut by 16:9 crop / profile / same continuous video of his own Instagram)
+  people: true
+  tags:
+  - beard
+  - ceiling
+  - falcon
+  - feathers
+  - hand
+  - kandura
+  - light
+  - man
+  - necklace
+  - wall
+  text_graphic: false
+clip:ig-falcon-indoor-d:
+  arab_people: true
+  desc: Man in kandura gently holds falcon
+  hamdan: 0.6
+  hamdan_note: set by Rocky 2026-11-02 after looking at frames (face cut by 16:9 crop / profile / same continuous video of his own Instagram)
+  people: true
+  tags:
+  - beard
+  - ceiling
+  - chest
+  - falcon
+  - feather
+  - hand
+  - indoor
+  - kandura
+  - light
+  - necklace
+  - wall
+  - wing
+  text_graphic: false
+clip:ig-falcon-indoor-e:
+  arab_people: true
+  desc: Man in kandura with falcon
+  hamdan: 0.6
+  hamdan_note: set by Rocky 2026-11-02 after looking at frames (face cut by 16:9 crop / profile / same continuous video of his own Instagram)
+  people: true
+  tags:
+  - arm
+  - beard
+  - ceiling
+  - falcon
+  - feathers
+  - hand
+  - indoor
+  - kandura
+  - light
+  - man
+  text_graphic: false
+clip:ig-falcon-indoor-f:
+  arab_people: true
+  desc: Fazza gently holds a falcon.
+  hamdan: 0.6
+  hamdan_note: set by Rocky 2026-11-02 after looking at frames (face cut by 16:9 crop / profile / same continuous video of his own Instagram)
+  people: true
+  tags:
+  - beard
+  - ceiling
+  - clothing
+  - falcon
+  - feathers
+  - hand
+  - indoor
+  - kandura
+  - light
+  - pattern
   text_graphic: false
 clip:ig-falcon-selfie-a:
   arab_people: true
@@ -3017,6 +3276,75 @@ clip:ig-falcon-white-c:
   - man
   - sky
   - white
+  text_graphic: false
+clip:ig-falcon-white-d:
+  arab_people: true
+  desc: Fazza releases a falcon from his glove.
+  hamdan: 0.33
+  people: true
+  tags:
+  - bird
+  - falcon
+  - feathers
+  - flight
+  - glove
+  - hand
+  - kandura
+  - man
+  - release
+  - sky
+  text_graphic: false
+clip:ig-falcon-white-e:
+  arab_people: true
+  desc: Fazza training falcon in white
+  hamdan: 0.33
+  people: true
+  tags:
+  - bird
+  - clothing
+  - falcon
+  - feathers
+  - hand
+  - head
+  - man
+  - sky
+  - white
+  - wing
+  text_graphic: false
+clip:ig-falcon-white-f:
+  arab_people: true
+  desc: Fazza releases a falcon in the desert
+  hamdan: 0.67
+  people: true
+  tags:
+  - bird
+  - desert
+  - falcon
+  - flight
+  - glove
+  - headgear
+  - kandura
+  - man
+  - sky
+  - white
+  text_graphic: false
+clip:ig-falcon-white-g:
+  arab_people: true
+  desc: Fazza with a falcon in flight
+  hamdan: 0.6
+  hamdan_note: set by Rocky 2026-11-02 after looking at frames (face cut by 16:9 crop / profile / same continuous video of his own Instagram)
+  people: true
+  tags:
+  - bird
+  - eyes
+  - face
+  - falcon
+  - glove
+  - hair
+  - hand
+  - kandura
+  - man
+  - sky
   text_graphic: false
 clip:ig-falcon-white2:
   arab_people: true
@@ -3601,7 +3929,7 @@ clip:ig-lion-cub-c:
 clip:ig-moochi:
   arab_people: true
   desc: Prince Hamdan is seen gently petting a white lion in a dark, intimate moment that highlights his deep connection with animals.
-  hamdan: 0.0
+  hamdan: 0.5
   people: true
   tags:
   - clothing
@@ -4294,7 +4622,7 @@ clip:jetpack-rescue:
 clip:oryx:
   arab_people: true
   desc: Fazza and his team with a horse in the desert.
-  hamdan: 0.0
+  hamdan: 0.5
   people: true
   tags:
   - arm
@@ -4736,6 +5064,22 @@ sb-10848718:
   - turtle
   - water
   text_graphic: false
+sb-10860853:
+  arab_people: null
+  desc: A falcon's head in profile
+  people: false
+  tags:
+  - beak
+  - bird
+  - branch
+  - close-up
+  - eye
+  - falcon
+  - feathers
+  - nature
+  - profile
+  - wildlife
+  text_graphic: false
 sb-10864257:
   arab_people: null
   desc: hands counting hundred-dollar bills
@@ -4956,6 +5300,22 @@ sb-11058820:
   - storefront
   - woman
   text_graphic: false
+sb-11064084:
+  arab_people: null
+  desc: A falcon soars against a blue sky.
+  people: false
+  tags:
+  - air
+  - bird
+  - falcon
+  - flight
+  - horizon
+  - nature
+  - sky
+  - skyline
+  - soaring
+  - wildlife
+  text_graphic: false
 sb-11081347:
   arab_people: true
   desc: Woman in beige hijab looking down
@@ -4987,6 +5347,22 @@ sb-11084363:
   - sky
   - water
   - waves
+  text_graphic: false
+sb-11084370:
+  arab_people: null
+  desc: Camel caravan crossing golden dunes
+  people: false
+  tags:
+  - camel
+  - desert
+  - dunes
+  - horizon
+  - journey
+  - landscape
+  - nature
+  - sand
+  - silhouette
+  - travel
   text_graphic: false
 sb-11087451:
   arab_people: null
@@ -5070,6 +5446,22 @@ sb-11113070:
   - sofa
   - table
   - woman
+  text_graphic: false
+sb-111207:
+  arab_people: null
+  desc: Endless golden dunes under a clear sky
+  people: false
+  tags:
+  - desert
+  - dunes
+  - heat
+  - horizon
+  - landscape
+  - nature
+  - rubble
+  - sand
+  - silhouette
+  - sky
   text_graphic: false
 sb-11182157:
   arab_people: null
@@ -5392,6 +5784,22 @@ sb-346780211:
   - wake
   - water
   - waves
+  text_graphic: false
+sb-347082689:
+  arab_people: null
+  desc: A falcon perched against a green background.
+  people: false
+  tags:
+  - beak
+  - bird
+  - desert
+  - eye
+  - falcon
+  - feathers
+  - nature
+  - perch
+  - skyline
+  - wildlife
   text_graphic: false
 sb-347086234:
   arab_people: null
@@ -5780,6 +6188,16 @@ sb-348383495:
   - paper
   - stack
   text_graphic: false
+sb-348412211:
+  arab_people: null
+  desc: A falcon soars in the sky
+  people: false
+  tags:
+  - bird
+  - falcon
+  - flight
+  - sky
+  text_graphic: false
 sb-348435118:
   arab_people: null
   desc: Rows of colorful spices in cloth bags.
@@ -6066,6 +6484,24 @@ sb-349114643:
   - turtle
   - underwater
   - water
+  text_graphic: false
+sb-349220424:
+  arab_people: null
+  desc: Close-up of a white horse's nose and bridle.
+  people: false
+  tags:
+  - bridle
+  - close-up
+  - fence
+  - hair
+  - horse
+  - leather
+  - metal
+  - nose
+  - ring
+  - whiskers
+  - white
+  - wood
   text_graphic: false
 sb-349227386:
   arab_people: true
@@ -6417,6 +6853,22 @@ sb-352105745:
   - underwater
   - water
   text_graphic: false
+sb-352118907:
+  arab_people: null
+  desc: Golden sand dunes in the desert
+  people: false
+  tags:
+  - beauty
+  - desert
+  - dunes
+  - landscape
+  - light
+  - nature
+  - sand
+  - silhouette
+  - texture
+  - wind
+  text_graphic: false
 sb-352127341:
   arab_people: null
   desc: Underwater coral reef with small fish swimming.
@@ -6480,6 +6932,17 @@ sb-352257484:
   - spot
   - swim
   - underwater
+  text_graphic: false
+sb-352296885:
+  arab_people: null
+  desc: Two camels grazing in the desert
+  people: false
+  tags:
+  - camel
+  - desert
+  - grass
+  - sand dunes
+  - wildlife
   text_graphic: false
 sb-352308493:
   arab_people: null
@@ -6626,6 +7089,22 @@ sb-352497987:
   - orange
   - sidewalk
   - street
+  text_graphic: false
+sb-352507384:
+  arab_people: null
+  desc: Close-up of a horse's head in tack.
+  people: false
+  tags:
+  - bridle
+  - close-up
+  - dark coat
+  - horse
+  - lighting
+  - nose
+  - stable
+  - tack
+  - whiskers
+  - wood
   text_graphic: false
 sb-352540690:
   arab_people: null
@@ -7027,6 +7506,22 @@ sb-352898065:
   - skyline
   - sunset
   text_graphic: false
+sb-352918191:
+  arab_people: null
+  desc: A falcon stands by water.
+  people: false
+  tags:
+  - beak
+  - bird
+  - desert
+  - falcon
+  - feathers
+  - legs
+  - nature
+  - sand
+  - skyline
+  - water
+  text_graphic: false
 sb-352931318:
   arab_people: false
   desc: An elderly woman in a white headscarf.
@@ -7245,6 +7740,18 @@ sb-353434767:
   - underwater
   - water
   text_graphic: false
+sb-353543458:
+  arab_people: null
+  desc: Camels grazing in the desert
+  people: false
+  tags:
+  - camel
+  - desert
+  - horizon
+  - landscape
+  - sand
+  - sky
+  text_graphic: false
 sb-353633803:
   arab_people: null
   desc: Hand holding a smartphone in dark.
@@ -7295,6 +7802,18 @@ sb-353692272:
   - hands
   - money
   - patterned cloth
+  text_graphic: false
+sb-353710591:
+  arab_people: null
+  desc: Falcon perched on dune
+  people: false
+  tags:
+  - dune
+  - falcon
+  - flag
+  - perch
+  - sand
+  - skyline
   text_graphic: false
 sb-353710604:
   arab_people: null
@@ -7435,6 +7954,16 @@ sb-353788364:
   - swimmer
   - underwater
   - water
+  text_graphic: false
+sb-353860428:
+  arab_people: null
+  desc: Falcon perched on a log
+  people: false
+  tags:
+  - falcon
+  - grass
+  - log
+  - sky
   text_graphic: false
 sb-353875671:
   arab_people: true
@@ -7642,6 +8171,102 @@ sb-354015626:
   - sea
   - underwater
   text_graphic: false
+sb-354132842:
+  arab_people: null
+  desc: Falcon perched on a wooden perch
+  people: false
+  tags:
+  - beak
+  - falcon
+  - feathers
+  - greenery
+  - leg
+  - perch
+  - sand
+  - skyline
+  - talon
+  - wood
+  text_graphic: false
+sb-354132849:
+  arab_people: null
+  desc: A majestic falcon's face in golden light.
+  people: false
+  tags:
+  - beak
+  - bird
+  - close-up
+  - eye
+  - falcon
+  - feathers
+  - golden light
+  - nature
+  - profile
+  - wildlife
+  text_graphic: false
+sb-354132855:
+  arab_people: null
+  desc: A majestic falcon in golden light.
+  people: false
+  tags:
+  - beauty
+  - bird
+  - desert
+  - falcon
+  - flight
+  - hunt
+  - nature
+  - sky
+  - skyline
+  - wildlife
+  text_graphic: false
+sb-354132865:
+  arab_people: null
+  desc: A falcon stands alert in the sun.
+  people: false
+  tags:
+  - beak
+  - bird
+  - eye
+  - falcon
+  - feathers
+  - light
+  - sand
+  - sky
+  - sun
+  - wing
+  text_graphic: false
+sb-354132869:
+  arab_people: null
+  desc: A falcon's head in golden light.
+  people: false
+  tags:
+  - beak
+  - bird
+  - eye
+  - falcon
+  - feathers
+  - nature
+  - outdoor
+  - plumage
+  - sky
+  - wildlife
+  text_graphic: false
+sb-354132877:
+  arab_people: null
+  desc: A majestic falcon in flight
+  people: false
+  tags:
+  - beak
+  - bird
+  - eye
+  - falcon
+  - feathers
+  - flight
+  - nature
+  - sky
+  - wildlife
+  - wings
+  text_graphic: false
 sb-354144458:
   arab_people: false
   desc: Two women in hijabs review a tablet.
@@ -7738,6 +8363,22 @@ sb-354187633:
   - underwater
   - water
   text_graphic: false
+sb-354291083:
+  arab_people: null
+  desc: Close-up of a horse's head in a paddock.
+  people: false
+  tags:
+  - building
+  - eye
+  - fence
+  - horse
+  - mane
+  - nose
+  - paddock
+  - roof
+  - sand
+  - sky
+  text_graphic: false
 sb-354310481:
   arab_people: null
   desc: Underwater coral reef footage
@@ -7753,6 +8394,27 @@ sb-354310481:
   - reef
   - sea
   - underwater
+  text_graphic: false
+sb-354326435:
+  arab_people: null
+  desc: A hawk in a grassy field
+  people: false
+  tags:
+  - bird
+  - field
+  - grass
+  - hawk
+  - skyline
+  text_graphic: false
+sb-354326482:
+  arab_people: null
+  desc: A falcon soars in the sky
+  people: false
+  tags:
+  - clouds
+  - falcon
+  - flight
+  - sky
   text_graphic: false
 sb-354328057:
   arab_people: null
@@ -7804,6 +8466,22 @@ sb-354338561:
   - road
   - sky
   - trees
+  text_graphic: false
+sb-354385089:
+  arab_people: null
+  desc: Close-up of a horse's eye
+  people: false
+  tags:
+  - bridle
+  - eye
+  - fur
+  - horse
+  - mane
+  - metal
+  - nose
+  - plastic
+  - skin
+  - whiskers
   text_graphic: false
 sb-354386248:
   arab_people: null
@@ -8032,6 +8710,17 @@ sb-354573172:
   - skyscraper
   - sunset
   - traffic
+  text_graphic: false
+sb-354653909:
+  arab_people: null
+  desc: Red sand dunes under a pale sky
+  people: false
+  tags:
+  - desert
+  - dunes
+  - horizon
+  - sand
+  - sky
   text_graphic: false
 sb-354677012:
   arab_people: null
@@ -8302,6 +8991,51 @@ sb-354988040:
   - text
   - wall
   text_graphic: false
+sb-354989810:
+  arab_people: null
+  desc: Falcon perched on stand in desert
+  people: false
+  tags:
+  - dunes
+  - falcon
+  - green
+  - perch
+  - sand
+  - sky
+  - stand
+  text_graphic: false
+sb-354989812:
+  arab_people: true
+  desc: Fazza with his falcon in the desert
+  people: true
+  tags:
+  - bird
+  - clothing
+  - desert
+  - falcon
+  - kandura
+  - landscape
+  - man
+  - sand
+  - silhouette
+  - sky
+  text_graphic: false
+sb-354989818:
+  arab_people: null
+  desc: Falcon perched on a stand in the desert.
+  people: false
+  tags:
+  - bird
+  - desert
+  - falcon
+  - landscape
+  - nature
+  - outdoor
+  - perch
+  - sand dunes
+  - skyline
+  - wildlife
+  text_graphic: false
 sb-354998245:
   arab_people: null
   desc: Coins scattered on a surface
@@ -8331,6 +9065,22 @@ sb-355019686:
   - sea
   - sunlight
   - underwater
+  text_graphic: false
+sb-355090632:
+  arab_people: null
+  desc: Sunlit sand dunes under blue sky
+  people: false
+  tags:
+  - beach
+  - desert
+  - dunes
+  - horizon
+  - landscape
+  - nature
+  - oasis
+  - sand
+  - sky
+  - sun
   text_graphic: false
 sb-355197436:
   arab_people: null
@@ -8551,6 +9301,16 @@ sb-358145229:
   - underwater
   - water
   text_graphic: false
+sb-358220525:
+  arab_people: null
+  desc: A majestic falcon in flight
+  people: false
+  tags:
+  - bird
+  - falcon
+  - flight
+  - sky
+  text_graphic: false
 sb-358231769:
   arab_people: false
   desc: Hand holding a coral piece on beach
@@ -8635,6 +9395,24 @@ sb-358534621:
   - water
   - white
   - yacht
+  text_graphic: false
+sb-440038:
+  arab_people: null
+  desc: A falcon soars against the sky.
+  people: false
+  tags:
+  - air
+  - bird
+  - clouds
+  - falcon
+  - flight
+  - horizon
+  - nature
+  - silhouette
+  - sky
+  - skyline
+  - wildlife
+  - wings
   text_graphic: false
 sb-5172520:
   arab_people: null
@@ -8811,6 +9589,16 @@ sb-7066785:
   - tail
   - wing
   text_graphic: false
+sb-7066956:
+  arab_people: null
+  desc: Falcon perched on a ledge
+  people: false
+  tags:
+  - bird
+  - falcon
+  - ledge
+  - perch
+  text_graphic: false
 sb-7285221:
   arab_people: null
   desc: Ocean waves crashing on shore
@@ -8844,6 +9632,36 @@ sb-7505805:
   - pathway
   - skyline
   - trees
+  text_graphic: false
+sb-7721934:
+  arab_people: null
+  desc: Camels with red blankets in the desert.
+  people: false
+  tags:
+  - blanket
+  - blue barrel
+  - camel
+  - desert
+  - pole
+  - road
+  - sand
+  - skyline
+  text_graphic: false
+sb-7879997:
+  arab_people: null
+  desc: Close-up of a horse's face and bridle.
+  people: false
+  tags:
+  - bridle
+  - brown_coat
+  - eye
+  - horse
+  - metal_ring
+  - nose
+  - snout
+  - tether
+  - whiskers
+  - white_mark
   text_graphic: false
 sb-7923907:
   arab_people: null

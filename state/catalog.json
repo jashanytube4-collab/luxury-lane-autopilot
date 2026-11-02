@@ -1063,7 +1063,7 @@
  "dubai crown prince visits dubai municipality": {
   "last_short": "2026-11-03",
   "long": "2026-11-02",
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     296.0,
@@ -1120,6 +1120,10 @@
    [
     58.19746646045046,
     60.66656946653378
+   ],
+   [
+    240.31724054091498,
+    242.58290276114425
    ]
   ],
   "shorts_made": 1,
@@ -1345,7 +1349,7 @@
  "hamdan addressing future circles looking forward for innovation based future": {
   "last_short": "2026-11-03",
   "long": "2026-10-30",
-  "montage_used": 11,
+  "montage_used": 12,
   "no_video_until": "2026-11-02",
   "remix_ranges": [
    [
@@ -1387,6 +1391,10 @@
    [
     33.58251437397979,
     35.80450274753437
+   ],
+   [
+    156.22,
+    158.04666666666665
    ]
   ],
   "shot_ranges": [
@@ -3827,7 +3835,7 @@
  "hamdan bin mohammed attends hct graduation": {
   "last_short": "2026-11-03",
   "long": "2026-10-31",
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     45.8,
@@ -3872,6 +3880,10 @@
    [
     100.5336482544567,
     102.12092489288774
+   ],
+   [
+    296.2419664129611,
+    298.5476416958709
    ]
   ],
   "shorts_made": 1,
@@ -4505,7 +4517,7 @@
  "hamdan bin mohammed attends the knowledge summit 2018": {
   "last_short": "2026-11-03",
   "long": "2026-10-31",
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     21.009627951075547,
@@ -4562,6 +4574,10 @@
    [
     248.322855387813,
     250.75298026389825
+   ],
+   [
+    311.6601579327029,
+    313.72638899558183
    ]
   ],
   "shorts_made": 3,
@@ -6956,7 +6972,7 @@
  },
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
   "last_short": "2026-11-03",
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     78.30225988576875,
@@ -7013,6 +7029,10 @@
    [
     250.01547079737085,
     251.40175067994414
+   ],
+   [
+    164.8189010455698,
+    166.2568866345934
    ]
   ],
   "shorts_made": 2,
@@ -10942,6 +10962,7 @@
   "montage_exhausted": true,
   "montage_used": 4,
   "no_video_until": "2026-11-02",
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     2.6092809649617554,
@@ -11190,7 +11211,7 @@
  "hamdan bin mohammed receives mourners on death of mansour bin ahmed": {
   "last_short": "2026-11-03",
   "long": "2026-10-31",
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     466.2050172416837,
@@ -11239,6 +11260,10 @@
    [
     346.08707471124393,
     347.90444265842586
+   ],
+   [
+    460.78911253710305,
+    462.2778565939824
    ]
   ],
   "shorts_made": 2,
@@ -12950,7 +12975,7 @@
  },
  "hamdan bin mohammed unveils 5 star plaques at three customer happiness centres in dubai": {
   "last_short": "2026-11-03",
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     140.12827217544256,
@@ -13007,6 +13032,10 @@
    [
     241.42957020372154,
     244.02285260011416
+   ],
+   [
+    255.88,
+    257.56
    ]
   ],
   "shorts_made": 1,
@@ -14176,6 +14205,7 @@
   "last_short": "2026-11-03",
   "long": "2026-10-31",
   "montage_used": 13,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     92.94184157109537,
@@ -15037,6 +15067,7 @@
   "last_short": "2026-11-03",
   "long": "2026-10-31",
   "montage_used": 10,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     80.89349709731536,
@@ -15421,7 +15452,7 @@
   "last_short": "2026-11-03",
   "long": "2026-10-23",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     49.961579847562305,
@@ -15446,6 +15477,10 @@
    [
     16.189858707726046,
     18.062482113915344
+   ],
+   [
+    23.131143820073568,
+    24.631075868776897
    ]
   ],
   "shorts_made": 2,

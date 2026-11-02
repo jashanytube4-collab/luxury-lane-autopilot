@@ -268,8 +268,13 @@
   },
   {
    "at": "2026-11-04T02:39:38+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Faith gives him calm. Vision gives him direction. #youtubeshorts #youtube #fazza",
+   "type": "short",
+   "video_id": "NEQeXDMFfEE",
+   "voiced": true
   },
   {
    "at": "2026-11-04T03:28:01+04:00",

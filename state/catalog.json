@@ -1335,7 +1335,7 @@
  "hamdan addressing future circles looking forward for innovation based future": {
   "last_short": "2026-11-03",
   "long": "2026-10-30",
-  "montage_used": 7,
+  "montage_used": 8,
   "no_video_until": "2026-11-02",
   "remix_ranges": [
    [
@@ -1365,6 +1365,12 @@
    [
     23.495785389771285,
     25.002122994616617
+   ]
+  ],
+  "shot_ranges": [
+   [
+    118.99499999999998,
+    121.13833333333334
    ]
   ],
   "video_exhausted": true,
@@ -5963,9 +5969,9 @@
   "video_len": 385
  },
  "hamdan bin mohammed honors winners of dubai appreciation award for community service": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-03",
   "long": "2026-11-02",
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     179.39335360955343,
@@ -6053,6 +6059,10 @@
    [
     79.76,
     82.6
+   ],
+   [
+    40.879999999999995,
+    43.88
    ]
   ],
   "video_len": 239
@@ -6696,6 +6706,7 @@
  "hamdan bin mohammed inaugurates the world s largest solar powered data centre": {
   "last_short": "2026-11-02",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 9,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -14137,7 +14148,7 @@
  "hamdan bin mohammed visits dubai sports council": {
   "last_short": "2026-11-03",
   "long": "2026-10-18",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -14177,6 +14188,10 @@
    [
     80.52000000000001,
     83.39999999999999
+   ],
+   [
+    110.24000000000001,
+    112.44
    ]
   ],
   "video_exhausted": true,
@@ -15721,9 +15736,9 @@
   "long": "2026-10-22"
  },
  "hamdan inspects al bayt studio": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-03",
   "long": "2026-10-31",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -15757,6 +15772,12 @@
    [
     66.35333333333334,
     68.88
+   ]
+  ],
+  "shot_ranges": [
+   [
+    96.78666666666668,
+    101.11333333333333
    ]
   ],
   "video_exhausted": true,
@@ -15957,7 +15978,7 @@
  "hamdan visits government think tank": {
   "last_short": "2026-11-03",
   "long": "2026-11-02",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     29.076560473178702,
@@ -15990,6 +16011,12 @@
    [
     133.4350938383957,
     135.2004649853868
+   ]
+  ],
+  "shot_ranges": [
+   [
+    187.08666666666667,
+    189.34666666666666
    ]
   ],
   "video_exhausted": true,

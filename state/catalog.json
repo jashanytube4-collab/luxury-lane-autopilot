@@ -3230,7 +3230,7 @@
  "hamdan bin mohammed attends gems our own english high school s golden jubilee celebrations": {
   "last_short": "2026-11-03",
   "long": "2026-10-15",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     77.94133731869516,
@@ -3255,6 +3255,10 @@
    [
     207.95068628493837,
     209.56408819527698
+   ],
+   [
+    213.6429127838277,
+    215.50011392124037
    ]
   ],
   "shot_ranges": [
@@ -4485,7 +4489,7 @@
  "hamdan bin mohammed attends the knowledge summit 2018": {
   "last_short": "2026-11-03",
   "long": "2026-10-31",
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     21.009627951075547,
@@ -4530,6 +4534,10 @@
    [
     433.1558836186576,
     433.833680456909
+   ],
+   [
+    42.2130406309869,
+    43.83206860705955
    ]
   ],
   "shorts_made": 3,
@@ -6235,6 +6243,7 @@
   "last_short": "2026-11-03",
   "long": "2026-10-18",
   "montage_used": 19,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     74.58464282636517,
@@ -6847,7 +6856,7 @@
  "hamdan bin mohammed inaugurates zabeel healthcare center": {
   "last_short": "2026-11-03",
   "long": "2026-10-22",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     399.88601091430286,
@@ -6888,6 +6897,10 @@
    [
     406.64237056962077,
     408.13599800616265
+   ],
+   [
+    38.96826665324741,
+    40.72656559139539
    ]
   ],
   "shorts_made": 1,
@@ -10260,7 +10273,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2018": {
   "last_short": "2026-11-03",
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     324.3828204350159,
@@ -10321,6 +10334,10 @@
    [
     317.0966914719178,
     318.9348843146382
+   ],
+   [
+    336.6853765163974,
+    339.2311137272683
    ]
   ],
   "shorts_made": 2,
@@ -10772,7 +10789,7 @@
  "hamdan bin mohammed opens smart police station at la mer": {
   "last_short": "2026-11-03",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     99.92,
@@ -10809,6 +10826,10 @@
    [
     31.69815040894987,
     33.11734539400054
+   ],
+   [
+    62.04,
+    63.800000000000004
    ]
   ],
   "shorts_made": 2,
@@ -11950,7 +11971,7 @@
  "hamdan bin mohammed reviews the latest technologies and energy solutions at wetex 2019": {
   "last_short": "2026-11-03",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     249.043806441902,
@@ -11983,6 +12004,10 @@
    [
     200.24,
     202.12
+   ],
+   [
+    1.1125891632361962,
+    2.777981441555448
    ]
   ],
   "shorts_made": 3,
@@ -12588,6 +12613,7 @@
   "last_short": "2026-11-03",
   "long": "2026-11-01",
   "montage_used": 12,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     149.9136373207893,
@@ -15732,9 +15758,9 @@
   "long": "2026-10-09"
  },
  "hamdan celebrates al ahli s arabian gulf league winning": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-03",
   "long": "2026-10-15",
-  "montage_used": 6,
+  "montage_used": 7,
   "no_video_until": "2026-10-29",
   "remix_ranges": [
    [
@@ -15760,6 +15786,10 @@
    [
     12.84225555563084,
     14.82044265422594
+   ],
+   [
+    48.616069837193166,
+    50.694308094007184
    ]
   ],
   "shorts_made": 1,
@@ -17756,7 +17786,7 @@
  "khalifasat launches successfully into orbit emphasising uae s leadership in developing satellites": {
   "last_short": "2026-11-03",
   "long": "2026-10-14",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     133.53845390207644,
@@ -17789,6 +17819,10 @@
    [
     69.32241871028964,
     71.8546103915732
+   ],
+   [
+    54.80261562187427,
+    56.82251950750847
    ]
   ],
   "shorts_made": 3,

@@ -1,0 +1,176 @@
+{
+ "date": "2026-11-03",
+ "slots": [
+  {
+   "at": "2026-11-03T06:11:11+04:00",
+   "event": "adopted",
+   "status": "scheduled",
+   "type": "short",
+   "video_id": "0sVCXsdW3FM"
+  },
+  {
+   "at": "2026-11-03T07:00:06+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-03T07:41:56+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-03T08:23:06+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-03T09:10:05+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-03T10:00:43+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-03T10:55:01+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-03T11:46:17+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-03T12:30:15+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-03T13:11:25+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-03T13:51:08+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-03T14:37:22+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-03T15:19:35+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-03T16:01:54+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-03T16:54:55+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-03T17:49:42+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-03T18:11:05+04:00",
+   "minutes": 9.0,
+   "status": "scheduled",
+   "title": "What Prince Hamdan Did Next for Humanity",
+   "type": "long",
+   "video_id": "VjKC2D5cuPQ"
+  },
+  {
+   "at": "2026-11-03T18:31:38+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-03T19:12:47+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-03T19:52:42+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-03T20:31:58+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-03T21:00:00+04:00",
+   "status": "open",
+   "type": "members"
+  },
+  {
+   "at": "2026-11-03T21:11:57+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-03T22:04:37+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-03T22:46:17+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-03T23:40:11+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-04T00:28:49+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-04T01:08:28+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-04T01:46:42+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-04T02:39:38+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-04T03:28:01+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-04T04:22:45+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-04T05:07:49+04:00",
+   "status": "open",
+   "type": "short"
+  }
+ ],
+ "timezone": "Asia/Dubai"
+}

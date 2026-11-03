@@ -280,9 +280,9 @@
   "long": "2026-10-17"
  },
  "dubai crown prince attends graduation of dubai police academy": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 22,
+  "montage_used": 23,
   "remix_ranges": [
    [
     211.78852581766063,
@@ -367,6 +367,10 @@
    [
     479.04,
     480.76
+   ],
+   [
+    316.52,
+    319.0
    ]
   ],
   "shorts_made": 2,
@@ -1561,9 +1565,9 @@
   "long": "2026-10-13"
  },
  "hamdan attends dubai smart city first meeting": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 5,
+  "montage_used": 6,
   "no_video_until": "2026-11-03",
   "remix_ranges": [
    [
@@ -1585,6 +1589,10 @@
    [
     71.72493877857792,
     73.44100000572097
+   ],
+   [
+    119.47857909473721,
+    121.63395131043669
    ]
   ],
   "video_exhausted": true,
@@ -6199,7 +6207,7 @@
  "hamdan bin mohammed honors winners of dubai appreciation award for community service": {
   "last_short": "2026-11-04",
   "long": "2026-11-02",
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     179.39335360955343,
@@ -6252,6 +6260,10 @@
    [
     198.95070165090442,
     200.5427841567207
+   ],
+   [
+    212.57904622767253,
+    215.15344464885504
    ]
   ],
   "shorts_made": 3,
@@ -7263,7 +7275,7 @@
  "hamdan bin mohammed inspects rta s autonomous mobility and ai projects": {
   "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     100.06784977818178,
@@ -7296,6 +7308,10 @@
    [
     283.52,
     285.32
+   ],
+   [
+    255.29661795657756,
+    257.56476078014043
    ]
   ],
   "shorts_made": 2,
@@ -10322,7 +10338,7 @@
  "hamdan bin mohammed officially opens gitex 2018": {
   "last_short": "2026-11-04",
   "long": "2026-11-02",
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     126.01016816879962,
@@ -10371,6 +10387,10 @@
    [
     252.55352073876574,
     254.05280403981234
+   ],
+   [
+    139.69801800298046,
+    141.32444452612114
    ]
   ],
   "shorts_made": 1,
@@ -10980,7 +11000,7 @@
  "hamdan bin mohammed opens salem medical fitness smart centre": {
   "last_short": "2026-11-04",
   "long": "2026-10-18",
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     182.01540657684788,
@@ -11037,6 +11057,10 @@
    [
     107.16713248383205,
     109.64046047387426
+   ],
+   [
+    66.3269573430348,
+    66.9560937834527
    ]
   ],
   "shorts_made": 3,
@@ -14823,10 +14847,10 @@
   "video_len": 58
  },
  "hamdan bin mohammed visits exhibition that tells story of uae s participation in world expos": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-04",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     18.504851306577798,
@@ -14867,6 +14891,10 @@
    [
     64.31292679484542,
     66.54234756949008
+   ],
+   [
+    107.40732343754502,
+    109.85384701354153
    ]
   ],
   "shorts_made": 3,
@@ -15768,6 +15796,7 @@
   "long": "2026-10-23",
   "montage_exhausted": true,
   "montage_used": 9,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     49.961579847562305,

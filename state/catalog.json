@@ -1665,7 +1665,8 @@
  },
  "hamdan bin mohammed affirms that public wellbeing remains top priority for every investment in dubai s future": {
   "long": "2026-10-30",
-  "no_video_until": "2026-11-03"
+  "no_video_until": "2026-11-03",
+  "video_exhausted": true
  },
  "hamdan bin mohammed and india s minister of commerce and industry witness signing of 8 mous": {
   "fails": 1,
@@ -1938,6 +1939,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 13,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     438.68,
@@ -2085,9 +2087,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed approves dff s three year strategic plan": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-04",
   "montage_exhausted": true,
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     44.755956300528126,
@@ -2160,6 +2162,10 @@
    [
     261.68,
     263.36
+   ],
+   [
+    220.91100664633146,
+    222.71476732383027
    ]
   ],
   "shorts_made": 3,
@@ -3351,9 +3357,9 @@
   "video_len": 278
  },
  "hamdan bin mohammed attends global cardiology congress": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-04",
   "long": "2026-10-22",
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     227.92000000000002,
@@ -3406,6 +3412,10 @@
    [
     21.169421246890952,
     23.218650939483872
+   ],
+   [
+    74.8667285428798,
+    76.38932689106379
    ]
   ],
   "shorts_made": 1,
@@ -7066,8 +7076,8 @@
   "video_len": 451
  },
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
-  "last_short": "2026-11-03",
-  "montage_used": 17,
+  "last_short": "2026-11-04",
+  "montage_used": 18,
   "remix_ranges": [
    [
     78.30225988576875,
@@ -7132,6 +7142,10 @@
    [
     69.64,
     71.47999999999999
+   ],
+   [
+    87.01616488799064,
+    89.10462859415287
    ]
   ],
   "shorts_made": 2,
@@ -7208,9 +7222,9 @@
   "video_len": 227
  },
  "hamdan bin mohammed inspects rta s autonomous mobility and ai projects": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     100.06784977818178,
@@ -7235,6 +7249,10 @@
    [
     161.4330086608575,
     163.15056800113192
+   ],
+   [
+    167.92000000000002,
+    169.56
    ]
   ],
   "shorts_made": 2,
@@ -7759,9 +7777,9 @@
   "video_len": 69
  },
  "hamdan bin mohammed launches sports initiatives": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-04",
   "long": "2026-10-18",
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     212.80506732035832,
@@ -7814,6 +7832,10 @@
    [
     234.41256872654873,
     235.953080441813
+   ],
+   [
+    10.202426999472744,
+    12.231332781959601
    ]
   ],
   "shorts_made": 1,
@@ -15441,9 +15463,9 @@
   "video_len": 137
  },
  "hamdan bin mohammed visits stands of government entities at gitex2019": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     143.24971079721686,
@@ -15504,6 +15526,10 @@
    [
     136.0551752116859,
     137.87403752735426
+   ],
+   [
+    37.32900992071639,
+    39.642597650984264
    ]
   ],
   "shorts_made": 2,
@@ -18119,9 +18145,9 @@
   "long": "2026-10-23"
  },
  "khalifasat launches successfully into orbit emphasising uae s leadership in developing satellites": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-04",
   "long": "2026-10-14",
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     133.53845390207644,
@@ -18170,6 +18196,10 @@
    [
     6.928613009002943,
     9.225541866456336
+   ],
+   [
+    80.04337685297963,
+    81.72606060837988
    ]
   ],
   "shorts_made": 3,

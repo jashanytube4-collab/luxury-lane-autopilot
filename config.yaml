@@ -72,7 +72,7 @@ story:                               # long-form story episodes (assets/stories)
     min_clips: 100                   # distinct clips/photos in an 8-minute video (a new picture every ~4 s)
     min_sources: 10                  # different places the footage comes from
     max_source_share: 0.25           # no single source may be more than this share of the video
-  ready_only: false                  # every day a long video; every story gets sentence-level clips automatically
+  ready_only: true                   # owner rule 0b (2026-11-01): NEVER an automatic story; no long video rather than one below the standard (only stories with ready: true + a gate stamp)
 
 news:                                # fresh news about him, scored 0-10 by the reporter (tools/reporter.py)
   extra_long: false                  # true = a story above min_score gets an automatic EXTRA long video (owner: no, alert only)

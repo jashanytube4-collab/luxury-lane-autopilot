@@ -157,6 +157,7 @@
  "crown prince offers condolences to families of martyrs almazroui and dhahoori": {
   "last_short": "2026-11-02",
   "long": "2026-10-28",
+  "montage_exhausted": true,
   "montage_used": 5,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -282,7 +283,7 @@
  "dubai crown prince attends graduation of dubai police academy": {
   "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 24,
+  "montage_used": 25,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -419,6 +420,10 @@
    [
     173.32,
     175.64
+   ],
+   [
+    131.16,
+    133.48
    ]
   ],
   "video_exhausted": true,
@@ -832,9 +837,9 @@
   "video_len": 68
  },
  "dubai crown prince offers condolences to alkaabi family": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-04",
   "long": "2026-10-17",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -854,6 +859,10 @@
    [
     8.719999999999999,
     12.4
+   ],
+   [
+    29.0,
+    31.119999999999997
    ]
   ],
   "video_exhausted": true,
@@ -4764,7 +4773,7 @@
  "hamdan bin mohammed attends the knowledge summit 2018": {
   "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 21,
+  "montage_used": 22,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -4889,6 +4898,10 @@
    [
     409.8,
     412.24
+   ],
+   [
+    42.885,
+    43.91500000000001
    ]
   ],
   "video_len": 507
@@ -10369,7 +10382,7 @@
  "hamdan bin mohammed offers condolences to alsuwaidi family": {
   "last_short": "2026-11-04",
   "long": "2026-10-27",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -10405,6 +10418,10 @@
    [
     61.5,
     66.5
+   ],
+   [
+    42.480000000000004,
+    47.480000000000004
    ]
   ],
   "video_exhausted": true,
@@ -12487,6 +12504,7 @@
  },
  "hamdan bin mohammed reviews outcomes of farmers souq initiative": {
   "last_short": "2026-10-29",
+  "montage_exhausted": true,
   "montage_used": 9,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -16891,9 +16909,9 @@
   "long": "2026-10-13"
  },
  "hamdan dubai s a global center for sukuk listing": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 4,
+  "montage_used": 5,
   "no_video_until": "2026-10-29",
   "remix_exhausted": true,
   "remix_ranges": [
@@ -16914,6 +16932,10 @@
    [
     131.68666666666667,
     135.24666666666667
+   ],
+   [
+    77.22,
+    79.38
    ]
   ],
   "video_exhausted": true,

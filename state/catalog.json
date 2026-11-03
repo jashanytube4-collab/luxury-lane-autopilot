@@ -1089,7 +1089,7 @@
  "dubai crown prince visits dubai municipality": {
   "last_short": "2026-11-04",
   "long": "2026-11-02",
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     296.0,
@@ -1158,6 +1158,10 @@
    [
     107.4,
     109.24
+   ],
+   [
+    46.08,
+    48.04
    ]
   ],
   "shorts_made": 1,
@@ -3920,9 +3924,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends hct graduation": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     45.8,
@@ -3975,6 +3979,10 @@
    [
     215.84,
     217.79999999999998
+   ],
+   [
+    210.8732786222111,
+    213.34527897634496
    ]
   ],
   "shorts_made": 1,
@@ -10872,9 +10880,9 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed opens gitex tech week 2017": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-04",
   "long": "2026-10-14",
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     523.8801185278389,
@@ -10923,6 +10931,10 @@
    [
     118.49937671302096,
     120.67279392393034
+   ],
+   [
+    505.8198620647821,
+    508.14470506707784
    ]
   ],
   "shorts_made": 3,
@@ -11000,7 +11012,7 @@
  "hamdan bin mohammed opens salem medical fitness smart centre": {
   "last_short": "2026-11-04",
   "long": "2026-10-18",
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     182.01540657684788,
@@ -11061,6 +11073,10 @@
    [
     66.3269573430348,
     66.9560937834527
+   ],
+   [
+    54.00507627505719,
+    56.2053505185528
    ]
   ],
   "shorts_made": 3,
@@ -13955,9 +13971,9 @@
   "video_len": 206
  },
  "hamdan bin mohammed visits dewa s moro": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-04",
   "long": "2026-11-01",
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     33.81682847894831,
@@ -14010,6 +14026,10 @@
    [
     43.456463570862184,
     45.47314225890621
+   ],
+   [
+    16.04709251946543,
+    18.504781023805123
    ]
   ],
   "shorts_made": 3,
@@ -14569,7 +14589,7 @@
   "last_short": "2026-11-04",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     31.287519536112814,
@@ -14618,6 +14638,10 @@
    [
     121.4907571367133,
     123.53002453672248
+   ],
+   [
+    85.80000000000001,
+    87.67999999999999
    ]
   ],
   "shorts_made": 3,

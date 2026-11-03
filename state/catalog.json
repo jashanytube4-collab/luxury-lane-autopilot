@@ -4641,9 +4641,9 @@
   "video_len": 164
  },
  "hamdan bin mohammed attends the knowledge summit 2018": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     21.009627951075547,
@@ -4755,6 +4755,10 @@
    [
     442.96,
     445.32
+   ],
+   [
+    409.8,
+    412.24
    ]
   ],
   "video_len": 507
@@ -9494,9 +9498,9 @@
   "video_len": 63
  },
  "hamdan bin mohammed meets with participants of retail summit in dubai": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -9593,6 +9597,10 @@
    [
     28.44,
     30.8
+   ],
+   [
+    144.96,
+    147.28
    ]
   ],
   "video_exhausted": true,
@@ -12913,9 +12921,9 @@
   "video_len": 138
  },
  "hamdan bin mohammed tours gulfood 2023": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -12952,6 +12960,10 @@
    [
     54.75333333333333,
     56.88
+   ],
+   [
+    41.55333333333333,
+    43.71333333333334
    ]
   ],
   "video_exhausted": true,
@@ -14267,9 +14279,9 @@
   "video_len": 311
  },
  "hamdan bin mohammed visits dubai airshow 2017": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-04",
   "long": "2026-11-02",
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -14319,6 +14331,12 @@
    [
     134.83622246657092,
     137.3021417488182
+   ]
+  ],
+  "shot_ranges": [
+   [
+    152.24,
+    154.48
    ]
   ],
   "video_exhausted": true,
@@ -15663,7 +15681,7 @@
  "hamdan bin mohammed visits stands of government entities at gitex2019": {
   "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -15768,6 +15786,10 @@
    [
     50.599999999999994,
     52.800000000000004
+   ],
+   [
+    25.12,
+    27.439999999999998
    ]
   ],
   "video_exhausted": true,
@@ -16676,6 +16698,7 @@
  },
  "hamdan receives qatar ambassador": {
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 44
@@ -18784,9 +18807,9 @@
   "video_exhausted": true
  },
  "partnership between community government the foundation of enhancing government services hamdan bin mohammed": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -18818,6 +18841,10 @@
    [
     79.72,
     82.64
+   ],
+   [
+    65.0,
+    67.47999999999999
    ]
   ],
   "video_exhausted": true,

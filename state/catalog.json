@@ -983,8 +983,8 @@
   "video_len": 130
  },
  "dubai crown prince receives president of the chechen": {
-  "last_short": "2026-11-02",
-  "montage_used": 7,
+  "last_short": "2026-11-04",
+  "montage_used": 8,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -1016,6 +1016,10 @@
    [
     35.3,
     40.3
+   ],
+   [
+    11.159999999999998,
+    13.96
    ]
   ],
   "video_exhausted": true,
@@ -3071,9 +3075,9 @@
   "video_len": 60
  },
  "hamdan bin mohammed attends dubai forum for government best practices": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -3133,6 +3137,10 @@
    [
     172.0,
     174.92
+   ],
+   [
+    15.639999999999999,
+    18.08
    ]
   ],
   "video_exhausted": true,
@@ -8411,9 +8419,9 @@
   "video_len": 191
  },
  "hamdan bin mohammed meets government team behind uae s progress in world bank s ease of doing business ranking": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-04",
   "long": "2026-10-30",
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -8522,6 +8530,10 @@
    [
     60.48,
     62.68
+   ],
+   [
+    152.36,
+    154.51999999999998
    ]
   ],
   "video_exhausted": true,
@@ -10552,7 +10564,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2017": {
   "last_short": "2026-11-04",
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     15.810590002816998,
@@ -10632,6 +10644,10 @@
    [
     263.88,
     266.15999999999997
+   ],
+   [
+    204.12,
+    206.24
    ]
   ],
   "video_exhausted": true,
@@ -16422,7 +16438,7 @@
  "hamdan chairs 1st meeting for higher committee to implement smart city project": {
   "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -16450,6 +16466,10 @@
    [
     34.78666666666666,
     38.54666666666667
+   ],
+   [
+    58.68666666666667,
+    61.580000000000005
    ]
   ],
   "video_exhausted": true,

@@ -1534,7 +1534,7 @@
  "hamdan approves medical tourism strategy": {
   "last_short": "2026-11-04",
   "long": "2026-10-30",
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -1580,6 +1580,12 @@
    [
     24.861346460553555,
     26.942950680326057
+   ]
+  ],
+  "shot_ranges": [
+   [
+    2.6833333333333336,
+    7.683333333333334
    ]
   ],
   "video_exhausted": true,
@@ -2797,9 +2803,9 @@
   "video_len": 158
  },
  "hamdan bin mohammed attends al amri wedding": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-04",
   "long": "2026-10-17",
-  "montage_used": 3,
+  "montage_used": 4,
   "no_video_until": "2026-10-29",
   "remix_exhausted": true,
   "remix_ranges": [
@@ -2816,6 +2822,10 @@
    [
     26.086666666666666,
     28.18
+   ],
+   [
+    39.22,
+    41.38
    ]
   ],
   "video_exhausted": true,
@@ -3457,6 +3467,7 @@
  "hamdan bin mohammed attends gems our own english high school s golden jubilee celebrations": {
   "last_short": "2026-11-03",
   "long": "2026-10-15",
+  "montage_exhausted": true,
   "montage_used": 12,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -5144,6 +5155,7 @@
  "hamdan bin mohammed attends wedding receptions in al ain dubai": {
   "last_short": "2026-11-04",
   "long": "2026-10-15",
+  "montage_exhausted": true,
   "montage_used": 9,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -7796,9 +7808,9 @@
   "long": "2026-10-30"
  },
  "hamdan bin mohammed launches day for dubai encourages residents to volunteer": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -7834,6 +7846,10 @@
    [
     5.04,
     8.760000000000002
+   ],
+   [
+    63.559999999999995,
+    65.8
    ]
   ],
   "video_exhausted": true,
@@ -9976,6 +9992,7 @@
  "hamdan bin mohammed meets with top performing school and university graduates": {
   "last_short": "2026-11-03",
   "long": "2026-10-17",
+  "montage_exhausted": true,
   "montage_used": 10,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -13785,7 +13802,7 @@
  },
  "hamdan bin mohammed unveils 5 star plaques at three customer happiness centres in dubai": {
   "last_short": "2026-11-04",
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -13866,6 +13883,10 @@
    [
     140.04,
     142.16
+   ],
+   [
+    266.40000000000003,
+    268.04
    ]
   ],
   "video_exhausted": true,
@@ -14112,9 +14133,9 @@
   "video_len": 57
  },
  "hamdan bin mohammed visits area 2071 reviews dubai 10x initiative projects": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -14183,6 +14204,10 @@
    [
     60.04,
     65.16
+   ],
+   [
+    70.12,
+    72.96
    ]
   ],
   "video_exhausted": true,

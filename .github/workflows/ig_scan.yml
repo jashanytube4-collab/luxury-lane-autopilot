@@ -9,6 +9,9 @@ on:
       pages:
         description: "Pages of 50 posts per account"
         default: "20"
+      keys:
+        description: "Caption regex to download (empty = family keywords)"
+        default: ""
 
 permissions:
   contents: read
@@ -27,7 +30,8 @@ jobs:
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
-        run: python -m tools.ig_scan ${{ inputs.users }} --pages ${{ inputs.pages }} --out work/igscan
+          KEYS: ${{ inputs.keys }}
+        run: python -m tools.ig_scan ${{ inputs.users }} --pages ${{ inputs.pages }} --out work/igscan --keys "$KEYS" --max 150
       - uses: actions/upload-artifact@v7
         if: always()
         with:

@@ -28,7 +28,10 @@ def main() -> None:
     ap.add_argument("users", nargs="+")
     ap.add_argument("--pages", type=int, default=20)
     ap.add_argument("--out", default="work/igscan")
+    ap.add_argument("--keys", default="", help="regex used instead of the family keywords (e.g. 'india|modi')")
+    ap.add_argument("--max", type=int, default=80, help="most media files downloaded per account")
     a = ap.parse_args()
+    keys = re.compile(a.keys, re.I) if a.keys else KEYS
     ig = Instagram(os.environ["IG_TOKEN"], os.environ["IG_USER_ID"])
     out = Path(a.out)
     for user in a.users:
@@ -39,11 +42,11 @@ def main() -> None:
             continue
         out.mkdir(parents=True, exist_ok=True)
         (out / f"{user}.json").write_text(json.dumps(posts, ensure_ascii=False, indent=1), encoding="utf-8")
-        hits = [p for p in posts if KEYS.search(p.get("caption") or "")]
-        print(f"{user}: {len(posts)} posts, {len(hits)} match the family keywords")
+        hits = [p for p in posts if keys.search(p.get("caption") or "")]
+        print(f"{user}: {len(posts)} posts, {len(hits)} match the keywords")
         d = out / user
         d.mkdir(exist_ok=True)
-        for p in hits[:80]:
+        for p in hits[:a.max]:
             url = p.get("media_url")
             if not url:
                 continue

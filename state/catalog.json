@@ -1108,7 +1108,7 @@
  "dubai crown prince visits dubai municipality": {
   "last_short": "2026-11-04",
   "long": "2026-11-02",
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     296.0,
@@ -1185,6 +1185,10 @@
    [
     120.6310759765781,
     122.9986467260524
+   ],
+   [
+    18.141996307858967,
+    20.191374015354615
    ]
   ],
   "shorts_made": 1,
@@ -3447,6 +3451,7 @@
   "last_short": "2026-11-04",
   "long": "2026-10-22",
   "montage_used": 18,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     227.92000000000002,
@@ -3993,7 +3998,7 @@
  "hamdan bin mohammed attends hct graduation": {
   "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     45.8,
@@ -4062,6 +4067,10 @@
    [
     241.48495806603657,
     243.91509839849888
+   ],
+   [
+    156.87675034099556,
+    158.68756797212842
    ]
   ],
   "shorts_made": 1,
@@ -4703,7 +4712,7 @@
  "hamdan bin mohammed attends the knowledge summit 2018": {
   "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     21.009627951075547,
@@ -4772,6 +4781,10 @@
    [
     116.4344259015792,
     117.83691340718772
+   ],
+   [
+    485.4,
+    487.44
    ]
   ],
   "shorts_made": 3,
@@ -6180,6 +6193,7 @@
   "last_short": "2026-11-04",
   "long": "2026-10-18",
   "montage_used": 21,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     50.879999999999995,
@@ -8743,7 +8757,7 @@
  "hamdan bin mohammed meets students of dubai schools": {
   "last_short": "2026-11-04",
   "long": "2026-10-17",
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     163.49934334402403,
@@ -8812,6 +8826,10 @@
    [
     64.6252557621908,
     66.18069987735267
+   ],
+   [
+    42.787136943716945,
+    44.395090285173566
    ]
   ],
   "shorts_made": 3,
@@ -11197,7 +11215,7 @@
  "hamdan bin mohammed opens salem medical fitness smart centre": {
   "last_short": "2026-11-04",
   "long": "2026-10-18",
-  "montage_used": 21,
+  "montage_used": 22,
   "remix_ranges": [
    [
     182.01540657684788,
@@ -11266,6 +11284,10 @@
    [
     33.299321889948644,
     34.96217616645441
+   ],
+   [
+    71.92951473349022,
+    73.78878451502044
    ]
   ],
   "shorts_made": 3,
@@ -11320,7 +11342,7 @@
  "hamdan bin mohammed opens smart police station at la mer": {
   "last_short": "2026-11-04",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     99.92,
@@ -11373,6 +11395,10 @@
    [
     26.86673500001265,
     28.31283234024371
+   ],
+   [
+    80.84,
+    82.8
    ]
   ],
   "shorts_made": 2,
@@ -12536,9 +12562,9 @@
   "video_len": 68
  },
  "hamdan bin mohammed reviews the latest technologies and energy solutions at wetex 2019": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-04",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     249.043806441902,
@@ -12575,6 +12601,10 @@
    [
     1.1125891632361962,
     2.777981441555448
+   ],
+   [
+    186.78979338175293,
+    187.64487653940688
    ]
   ],
   "shorts_made": 3,
@@ -13464,6 +13494,7 @@
  "hamdan bin mohammed unveils 5 star plaques at three customer happiness centres in dubai": {
   "last_short": "2026-11-04",
   "montage_used": 17,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     140.12827217544256,
@@ -14185,7 +14216,7 @@
  "hamdan bin mohammed visits dewa s moro": {
   "last_short": "2026-11-04",
   "long": "2026-11-01",
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     33.81682847894831,
@@ -14254,6 +14285,10 @@
    [
     392.1800638653231,
     393.01517445111693
+   ],
+   [
+    123.53077968194556,
+    125.89827806267625
    ]
   ],
   "shorts_made": 3,
@@ -14543,6 +14578,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 19,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     22.16,

@@ -1099,7 +1099,7 @@
  "dubai crown prince visits dubai municipality": {
   "last_short": "2026-11-04",
   "long": "2026-11-02",
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     296.0,
@@ -1187,6 +1187,10 @@
    [
     82.80000000000001,
     86.92
+   ],
+   [
+    171.56,
+    174.88
    ]
   ],
   "video_exhausted": true,
@@ -6274,7 +6278,7 @@
  "hamdan bin mohammed honors winners of dubai appreciation award for community service": {
   "last_short": "2026-11-04",
   "long": "2026-11-02",
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     179.39335360955343,
@@ -6386,6 +6390,10 @@
    [
     90.72,
     93.56
+   ],
+   [
+    97.24000000000001,
+    99.44
    ]
   ],
   "video_len": 239
@@ -7129,9 +7137,9 @@
   "video_len": 61
  },
  "hamdan bin mohammed inaugurates zabeel healthcare center": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-04",
   "long": "2026-10-22",
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -7192,6 +7200,10 @@
    [
     405.92,
     411.12
+   ],
+   [
+    248.08333333333331,
+    249.4366666666667
    ]
   ],
   "video_exhausted": true,
@@ -10189,9 +10201,9 @@
   "long": "2026-10-17"
  },
  "hamdan bin mohammed offers condolences to alsuwaidi family": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-04",
   "long": "2026-10-27",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -10221,6 +10233,12 @@
    [
     33.12505915454855,
     34.80956078575845
+   ]
+  ],
+  "shot_ranges": [
+   [
+    61.5,
+    66.5
    ]
   ],
   "video_exhausted": true,
@@ -16606,9 +16624,9 @@
   "long": "2026-10-22"
  },
  "hamdan inspects al bayt studio": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -16652,6 +16670,10 @@
    [
     109.28666666666668,
     112.94666666666666
+   ],
+   [
+    129.55333333333334,
+    132.48
    ]
   ],
   "video_exhausted": true,
@@ -18852,6 +18874,7 @@
   "video_len": 126
  },
  "mohammed bin zayed receives uae flag from hamdan bin mohammed": {
+  "montage_exhausted": true,
   "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 249

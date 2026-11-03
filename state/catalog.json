@@ -1669,7 +1669,7 @@
  },
  "hamdan bin mohammed affirms that public wellbeing remains top priority for every investment in dubai s future": {
   "long": "2026-10-30",
-  "no_video_until": "2026-11-03",
+  "no_video_until": "2026-11-06",
   "video_exhausted": true
  },
  "hamdan bin mohammed and india s minister of commerce and industry witness signing of 8 mous": {
@@ -4359,9 +4359,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends talk on middle eastern cities contributions to advancing human progress": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -4402,6 +4402,10 @@
    [
     42.586666666666666,
     45.24666666666667
+   ],
+   [
+    92.95333333333333,
+    97.38
    ]
   ],
   "video_exhausted": true,
@@ -5188,6 +5192,7 @@
  "hamdan bin mohammed chairs executive council meeting approves series of economic stimulus policies": {
   "last_short": "2026-11-02",
   "long": "2026-10-30",
+  "montage_exhausted": true,
   "montage_used": 8,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -5861,9 +5866,9 @@
   "video_len": 73
  },
  "hamdan bin mohammed extends condolences to families of pilots": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-04",
   "long": "2026-10-14",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -5908,6 +5913,10 @@
    [
     43.08,
     46.160000000000004
+   ],
+   [
+    131.28,
+    134.32
    ]
   ],
   "video_exhausted": true,
@@ -11704,9 +11713,9 @@
   "video_len": 70
  },
  "hamdan bin mohammed receives winners of hackathon competition": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -11787,6 +11796,10 @@
    [
     105.60000000000001,
     110.96
+   ],
+   [
+    51.88833333333331,
+    53.31166666666668
    ]
   ],
   "video_len": 158
@@ -15024,9 +15037,9 @@
   "video_len": 172
  },
  "hamdan bin mohammed visits innovation labs 2018": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-04",
   "long": "2026-10-30",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -15087,6 +15100,10 @@
    [
     180.8,
     183.79999999999998
+   ],
+   [
+    20.880000000000003,
+    23.36
    ]
   ],
   "video_exhausted": true,
@@ -15287,9 +15304,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits personal status court": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -15331,6 +15348,12 @@
    [
     153.44,
     155.16
+   ]
+  ],
+  "shot_ranges": [
+   [
+    148.24,
+    150.64
    ]
   ],
   "video_exhausted": true,

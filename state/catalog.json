@@ -531,6 +531,7 @@
   "last_short": "2026-11-04",
   "long": "2026-10-31",
   "montage_used": 12,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     135.58406389801235,
@@ -3445,7 +3446,7 @@
  "hamdan bin mohammed attends global cardiology congress": {
   "last_short": "2026-11-04",
   "long": "2026-10-22",
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     227.92000000000002,
@@ -3502,6 +3503,10 @@
    [
     74.8667285428798,
     76.38932689106379
+   ],
+   [
+    130.95349346839106,
+    133.42988649868104
    ]
   ],
   "shorts_made": 1,
@@ -10488,7 +10493,7 @@
  "hamdan bin mohammed officially opens gitex 2018": {
   "last_short": "2026-11-04",
   "long": "2026-11-02",
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     126.01016816879962,
@@ -10541,6 +10546,10 @@
    [
     139.69801800298046,
     141.32444452612114
+   ],
+   [
+    87.96463177183864,
+    89.89552834722438
    ]
   ],
   "shorts_made": 1,
@@ -10725,7 +10734,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2018": {
   "last_short": "2026-11-04",
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     324.3828204350159,
@@ -10798,6 +10807,10 @@
    [
     216.2092129730499,
     217.8069712721961
+   ],
+   [
+    347.1333267523598,
+    349.65916081551495
    ]
   ],
   "shorts_made": 2,
@@ -11307,7 +11320,7 @@
  "hamdan bin mohammed opens smart police station at la mer": {
   "last_short": "2026-11-04",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     99.92,
@@ -11356,6 +11369,10 @@
    [
     190.0,
     191.68
+   ],
+   [
+    26.86673500001265,
+    28.31283234024371
    ]
   ],
   "shorts_made": 2,
@@ -14168,7 +14185,7 @@
  "hamdan bin mohammed visits dewa s moro": {
   "last_short": "2026-11-04",
   "long": "2026-11-01",
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     33.81682847894831,
@@ -14233,6 +14250,10 @@
    [
     302.64,
     304.4
+   ],
+   [
+    392.1800638653231,
+    393.01517445111693
    ]
   ],
   "shorts_made": 3,
@@ -14521,7 +14542,7 @@
   "last_short": "2026-11-04",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     22.16,
@@ -14578,6 +14599,10 @@
    [
     43.40202403306598,
     45.252893083227164
+   ],
+   [
+    82.02581391238787,
+    84.55148231753209
    ]
   ],
   "shorts_made": 3,
@@ -14807,6 +14832,7 @@
   "long": "2026-10-14",
   "montage_exhausted": true,
   "montage_used": 17,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     31.287519536112814,
@@ -18561,7 +18587,7 @@
  "khalifasat launches successfully into orbit emphasising uae s leadership in developing satellites": {
   "last_short": "2026-11-04",
   "long": "2026-10-14",
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     133.53845390207644,
@@ -18614,6 +18640,10 @@
    [
     80.04337685297963,
     81.72606060837988
+   ],
+   [
+    65.44,
+    67.36
    ]
   ],
   "shorts_made": 3,

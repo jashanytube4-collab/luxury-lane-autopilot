@@ -1584,7 +1584,7 @@
  "hamdan attends dubai smart city first meeting": {
   "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 6,
+  "montage_used": 7,
   "no_video_until": "2026-11-03",
   "remix_ranges": [
    [
@@ -1610,6 +1610,10 @@
    [
     119.47857909473721,
     121.63395131043669
+   ],
+   [
+    112.84507392420414,
+    115.31906303552579
    ]
   ],
   "video_exhausted": true,
@@ -3945,7 +3949,7 @@
  "hamdan bin mohammed attends hct graduation": {
   "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     45.8,
@@ -4002,6 +4006,10 @@
    [
     210.8732786222111,
     213.34527897634496
+   ],
+   [
+    289.81725877321065,
+    291.76547430952314
    ]
   ],
   "shorts_made": 1,
@@ -4643,7 +4651,7 @@
  "hamdan bin mohammed attends the knowledge summit 2018": {
   "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     21.009627951075547,
@@ -4708,6 +4716,10 @@
    [
     472.2192928933807,
     474.6896219286975
+   ],
+   [
+    116.4344259015792,
+    117.83691340718772
    ]
   ],
   "shorts_made": 3,
@@ -8652,9 +8664,9 @@
   "video_len": 99
  },
  "hamdan bin mohammed meets students of dubai schools": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-04",
   "long": "2026-10-17",
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     163.49934334402403,
@@ -8719,6 +8731,10 @@
    [
     284.31583177105324,
     286.1397547687118
+   ],
+   [
+    64.6252557621908,
+    66.18069987735267
    ]
   ],
   "shorts_made": 3,
@@ -11061,7 +11077,7 @@
  "hamdan bin mohammed opens salem medical fitness smart centre": {
   "last_short": "2026-11-04",
   "long": "2026-10-18",
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     182.01540657684788,
@@ -11126,6 +11142,10 @@
    [
     54.00507627505719,
     56.2053505185528
+   ],
+   [
+    33.299321889948644,
+    34.96217616645441
    ]
   ],
   "shorts_made": 3,
@@ -11178,9 +11198,9 @@
   "video_len": 226
  },
  "hamdan bin mohammed opens smart police station at la mer": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-04",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     99.92,
@@ -11221,6 +11241,10 @@
    [
     62.04,
     63.800000000000004
+   ],
+   [
+    128.82536551512504,
+    131.2832839968111
    ]
   ],
   "shorts_made": 2,
@@ -11518,6 +11542,7 @@
   "last_short": "2026-11-04",
   "long": "2026-10-31",
   "montage_used": 19,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     466.2050172416837,
@@ -14373,7 +14398,7 @@
   "last_short": "2026-11-04",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     22.16,
@@ -14426,6 +14451,10 @@
    [
     131.8067382631811,
     133.44765612550466
+   ],
+   [
+    43.40202403306598,
+    45.252893083227164
    ]
   ],
   "shorts_made": 3,
@@ -14764,9 +14793,9 @@
   "video_len": 260
  },
  "hamdan bin mohammed visits dubai international boat show": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-04",
   "long": "2026-10-14",
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     252.31552180004425,
@@ -14807,6 +14836,10 @@
    [
     47.72,
     49.6
+   ],
+   [
+    103.2869804103562,
+    105.39053086049103
    ]
   ],
   "shorts_made": 2,
@@ -14940,6 +14973,7 @@
   "long": "2026-11-02",
   "montage_exhausted": true,
   "montage_used": 12,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     18.504851306577798,

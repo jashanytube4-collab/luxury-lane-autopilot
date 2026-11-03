@@ -2887,7 +2887,7 @@
  "hamdan bin mohammed attends closing ceremony of 3rd dubai future accelerators program": {
   "last_short": "2026-11-04",
   "long": "2026-10-30",
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     2.92,
@@ -2940,6 +2940,10 @@
    [
     36.80493658278466,
     39.17845159515602
+   ],
+   [
+    96.76778159154522,
+    98.68845212805053
    ]
   ],
   "shorts_made": 3,
@@ -3998,7 +4002,7 @@
  "hamdan bin mohammed attends hct graduation": {
   "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     45.8,
@@ -4071,6 +4075,10 @@
    [
     156.87675034099556,
     158.68756797212842
+   ],
+   [
+    9.79232131192146,
+    11.875743716736334
    ]
   ],
   "shorts_made": 1,
@@ -8757,7 +8765,7 @@
  "hamdan bin mohammed meets students of dubai schools": {
   "last_short": "2026-11-04",
   "long": "2026-10-17",
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     163.49934334402403,
@@ -8830,6 +8838,10 @@
    [
     42.787136943716945,
     44.395090285173566
+   ],
+   [
+    288.6282977627206,
+    290.1835088891436
    ]
   ],
   "shorts_made": 3,
@@ -10657,7 +10669,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2017": {
   "last_short": "2026-11-04",
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     15.810590002816998,
@@ -10718,6 +10730,10 @@
    [
     101.97929162707001,
     103.68172671499255
+   ],
+   [
+    180.29664171717846,
+    182.19853119021244
    ]
   ],
   "shorts_made": 1,
@@ -10752,7 +10768,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2018": {
   "last_short": "2026-11-04",
-  "montage_used": 21,
+  "montage_used": 22,
   "remix_ranges": [
    [
     324.3828204350159,
@@ -10829,6 +10845,10 @@
    [
     347.1333267523598,
     349.65916081551495
+   ],
+   [
+    268.72619674359566,
+    270.69756665584936
    ]
   ],
   "shorts_made": 2,
@@ -11077,7 +11097,7 @@
  "hamdan bin mohammed opens gitex tech week 2017": {
   "last_short": "2026-11-04",
   "long": "2026-10-14",
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     523.8801185278389,
@@ -11138,6 +11158,10 @@
    [
     470.0738852500596,
     471.56466538605787
+   ],
+   [
+    156.8175002022554,
+    158.85386441798983
    ]
   ],
   "shorts_made": 3,
@@ -11216,6 +11240,7 @@
   "last_short": "2026-11-04",
   "long": "2026-10-18",
   "montage_used": 22,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     182.01540657684788,
@@ -12564,7 +12589,7 @@
  "hamdan bin mohammed reviews the latest technologies and energy solutions at wetex 2019": {
   "last_short": "2026-11-04",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     249.043806441902,
@@ -12605,6 +12630,10 @@
    [
     186.78979338175293,
     187.64487653940688
+   ],
+   [
+    41.46524161965074,
+    43.737417080617384
    ]
   ],
   "shorts_made": 3,
@@ -18623,7 +18652,7 @@
  "khalifasat launches successfully into orbit emphasising uae s leadership in developing satellites": {
   "last_short": "2026-11-04",
   "long": "2026-10-14",
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     133.53845390207644,
@@ -18680,6 +18709,10 @@
    [
     65.44,
     67.36
+   ],
+   [
+    96.95731945957777,
+    98.83855238376667
    ]
   ],
   "shorts_made": 3,

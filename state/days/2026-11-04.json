@@ -221,8 +221,13 @@
   },
   {
    "at": "2026-11-05T00:04:14+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Discipline today. Legacy tomorrow. #youtubeshorts #youtube #fazza",
+   "type": "short",
+   "video_id": "nvv4ttYbIgc",
+   "voiced": true
   },
   {
    "at": "2026-11-05T00:45:11+04:00",

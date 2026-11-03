@@ -1596,7 +1596,7 @@
  "hamdan attends al kharbash wedding": {
   "last_short": "2026-11-04",
   "long": "2026-10-15",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -1616,6 +1616,10 @@
    [
     8.353333333333332,
     11.313333333333334
+   ],
+   [
+    19.02,
+    21.113333333333333
    ]
   ],
   "video_exhausted": true,
@@ -1630,7 +1634,7 @@
  "hamdan attends dubai smart city first meeting": {
   "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 11,
+  "montage_used": 12,
   "no_video_until": "2026-11-03",
   "remix_exhausted": true,
   "remix_ranges": [
@@ -1677,6 +1681,12 @@
    [
     31.464888456033155,
     33.42705025698753
+   ]
+  ],
+  "shot_ranges": [
+   [
+    2.12,
+    5.913333333333333
    ]
   ],
   "video_exhausted": true,
@@ -7272,7 +7282,7 @@
  "hamdan bin mohammed inaugurates zabeel healthcare center": {
   "last_short": "2026-11-04",
   "long": "2026-10-22",
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -7337,6 +7347,10 @@
    [
     248.08333333333331,
     249.4366666666667
+   ],
+   [
+    300.91833333333335,
+    302.2816666666667
    ]
   ],
   "video_exhausted": true,
@@ -9180,6 +9194,7 @@
  "hamdan bin mohammed meets with dubai gov t second line of leadership": {
   "last_short": "2026-11-02",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 12,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -10382,7 +10397,7 @@
  "hamdan bin mohammed offers condolences to alsuwaidi family": {
   "last_short": "2026-11-04",
   "long": "2026-10-27",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -10422,6 +10437,10 @@
    [
     42.480000000000004,
     47.480000000000004
+   ],
+   [
+    33.260000000000005,
+    38.260000000000005
    ]
   ],
   "video_exhausted": true,
@@ -11869,7 +11888,7 @@
  "hamdan bin mohammed receives mourners on death of mansour bin ahmed": {
   "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -11974,6 +11993,10 @@
    [
     272.08,
     274.56
+   ],
+   [
+    112.84,
+    115.28
    ]
   ],
   "video_exhausted": true,

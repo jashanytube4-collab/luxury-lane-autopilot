@@ -2400,6 +2400,7 @@
  "hamdan bin mohammed approves mbz sat for launch": {
   "last_short": "2026-11-01",
   "long": "2026-10-11",
+  "montage_exhausted": true,
   "montage_used": 10,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -6184,9 +6185,9 @@
   "video_len": 385
  },
  "hamdan bin mohammed honors winners of dubai appreciation award for community service": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-04",
   "long": "2026-11-02",
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     179.39335360955343,
@@ -6290,6 +6291,10 @@
    [
     40.879999999999995,
     43.88
+   ],
+   [
+    90.72,
+    93.56
    ]
   ],
   "video_len": 239
@@ -7398,9 +7403,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed launches 26 dubai 10x projects issues directive to implement them within 24 months": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -7452,6 +7457,10 @@
    [
     113.52000000000001,
     115.8
+   ],
+   [
+    223.20000000000002,
+    225.6
    ]
   ],
   "video_exhausted": true,
@@ -11396,9 +11405,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed receives mourners on death of mansour bin ahmed": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     466.2050172416837,
@@ -11498,6 +11507,10 @@
    [
     153.88,
     158.6
+   ],
+   [
+    272.08,
+    274.56
    ]
   ],
   "video_exhausted": true,
@@ -11715,6 +11728,7 @@
  "hamdan bin mohammed receives winners of hackathon competition": {
   "last_short": "2026-11-04",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 12,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -12740,6 +12754,7 @@
  },
  "hamdan bin mohammed tours gitex global 2022 on its concluding day": {
   "last_short": "2026-11-02",
+  "montage_exhausted": true,
   "montage_used": 7,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -15306,7 +15321,7 @@
  "hamdan bin mohammed visits personal status court": {
   "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -15354,6 +15369,10 @@
    [
     148.24,
     150.64
+   ],
+   [
+    64.0,
+    66.39999999999999
    ]
   ],
   "video_exhausted": true,
@@ -15465,9 +15484,9 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed visits smart dubai office launches dubai paperless strategy": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-04",
   "long": "2026-10-30",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -15508,6 +15527,10 @@
    [
     40.721666666666664,
     42.11833333333334
+   ],
+   [
+    86.44,
+    89.52
    ]
   ],
   "video_exhausted": true,

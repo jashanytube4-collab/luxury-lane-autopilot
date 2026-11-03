@@ -282,7 +282,7 @@
  "dubai crown prince attends graduation of dubai police academy": {
   "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 23,
+  "montage_used": 24,
   "remix_ranges": [
    [
     211.78852581766063,
@@ -371,6 +371,10 @@
    [
     316.52,
     319.0
+   ],
+   [
+    77.95124956367422,
+    79.51038636805255
    ]
   ],
   "shorts_made": 2,
@@ -1103,7 +1107,7 @@
  "dubai crown prince visits dubai municipality": {
   "last_short": "2026-11-04",
   "long": "2026-11-02",
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     296.0,
@@ -1176,6 +1180,10 @@
    [
     46.08,
     48.04
+   ],
+   [
+    120.6310759765781,
+    122.9986467260524
    ]
   ],
   "shorts_made": 1,
@@ -1498,6 +1506,7 @@
   "last_short": "2026-11-04",
   "long": "2026-10-30",
   "montage_used": 11,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     29.184896091193437,
@@ -1596,7 +1605,7 @@
  "hamdan attends dubai smart city first meeting": {
   "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 8,
+  "montage_used": 9,
   "no_video_until": "2026-11-03",
   "remix_ranges": [
    [
@@ -1630,6 +1639,10 @@
    [
     85.58354209934835,
     87.70355386657315
+   ],
+   [
+    77.42214748853573,
+    79.61586306121278
    ]
   ],
   "video_exhausted": true,
@@ -2869,7 +2882,7 @@
  "hamdan bin mohammed attends closing ceremony of 3rd dubai future accelerators program": {
   "last_short": "2026-11-04",
   "long": "2026-10-30",
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     2.92,
@@ -2918,6 +2931,10 @@
    [
     249.24359010500365,
     251.72331545419777
+   ],
+   [
+    36.80493658278466,
+    39.17845159515602
    ]
   ],
   "shorts_made": 3,
@@ -7381,7 +7398,7 @@
  "hamdan bin mohammed inspects rta s autonomous mobility and ai projects": {
   "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     100.06784977818178,
@@ -7418,6 +7435,10 @@
    [
     255.29661795657756,
     257.56476078014043
+   ],
+   [
+    177.27422547000873,
+    179.53009394403898
    ]
   ],
   "shorts_made": 2,
@@ -10609,7 +10630,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2017": {
   "last_short": "2026-11-04",
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     15.810590002816998,
@@ -10666,6 +10687,10 @@
    [
     204.22852804496168,
     206.07513419821004
+   ],
+   [
+    101.97929162707001,
+    103.68172671499255
    ]
   ],
   "shorts_made": 1,
@@ -10700,7 +10725,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2018": {
   "last_short": "2026-11-04",
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     324.3828204350159,
@@ -10769,6 +10794,10 @@
    [
     247.25291029571068,
     248.86282384353484
+   ],
+   [
+    216.2092129730499,
+    217.8069712721961
    ]
   ],
   "shorts_made": 2,
@@ -10833,6 +10862,7 @@
   "last_short": "2026-11-04",
   "montage_exhausted": true,
   "montage_used": 20,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     68.54641858440627,
@@ -14138,7 +14168,7 @@
  "hamdan bin mohammed visits dewa s moro": {
   "last_short": "2026-11-04",
   "long": "2026-11-01",
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     33.81682847894831,
@@ -14199,6 +14229,10 @@
    [
     139.7599232959786,
     142.33956598785588
+   ],
+   [
+    302.64,
+    304.4
    ]
   ],
   "shorts_made": 3,

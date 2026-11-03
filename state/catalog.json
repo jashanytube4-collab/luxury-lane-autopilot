@@ -616,9 +616,9 @@
   "video_len": 232
  },
  "dubai crown prince holds minute s silence to honour martyrs on commemoration day": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -648,6 +648,12 @@
    [
     120.57637685074951,
     122.64152787765413
+   ]
+  ],
+  "shot_ranges": [
+   [
+    62.879999999999995,
+    66.64
    ]
   ],
   "video_exhausted": true,
@@ -1458,6 +1464,7 @@
  "hamdan approves dubai innovation strategy": {
   "last_short": "2026-11-03",
   "long": "2026-10-30",
+  "montage_exhausted": true,
   "montage_used": 2,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -1541,9 +1548,9 @@
   "long": "2026-10-22"
  },
  "hamdan attends al kharbash wedding": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-11-04",
   "long": "2026-10-15",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -1557,6 +1564,12 @@
    [
     37.229255759219804,
     39.12922969681363
+   ]
+  ],
+  "shot_ranges": [
+   [
+    8.353333333333332,
+    11.313333333333334
    ]
   ],
   "video_exhausted": true,
@@ -2765,6 +2778,7 @@
  "hamdan bin mohammed attends al muhairi al rumaithi family wedding": {
   "last_short": "2026-11-02",
   "long": "2026-10-27",
+  "montage_exhausted": true,
   "montage_used": 4,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -3478,9 +3492,9 @@
   "video_len": 292
  },
  "hamdan bin mohammed attends global islamic economy summit": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-04",
   "long": "2026-10-30",
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -3609,6 +3623,10 @@
    [
     213.28,
     216.44
+   ],
+   [
+    76.0,
+    78.6
    ]
   ],
   "video_len": 246
@@ -5026,9 +5044,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed bin rashid receives samsung electronics ceo": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-04",
   "long": "2026-10-25",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -5044,6 +5062,10 @@
    [
     27.220000000000002,
     29.946666666666665
+   ],
+   [
+    6.5200000000000005,
+    10.046666666666667
    ]
   ],
   "video_exhausted": true,
@@ -5080,9 +5102,9 @@
   "long": "2026-10-30"
  },
  "hamdan bin mohammed chairs executive council meeting": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-04",
   "long": "2026-10-30",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -5143,6 +5165,10 @@
    [
     93.48,
     95.64
+   ],
+   [
+    110.04,
+    112.19999999999999
    ]
   ],
   "video_exhausted": true,
@@ -6080,7 +6106,7 @@
  "hamdan bin mohammed honors mbr creative sports award winners": {
   "last_short": "2026-11-04",
   "long": "2026-10-18",
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     50.879999999999995,
@@ -6208,6 +6234,10 @@
    [
     281.76,
     283.8
+   ],
+   [
+    107.48,
+    109.52
    ]
   ],
   "video_len": 385
@@ -6852,6 +6882,7 @@
   "video_len": 247
  },
  "hamdan bin mohammed inaugurates dubai international boat show 2008": {
+  "montage_exhausted": true,
   "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 140
@@ -16597,6 +16628,7 @@
  },
  "hamdan provision of housing to emiratis paramount importance to leadership": {
   "last_short": "2026-10-26",
+  "montage_exhausted": true,
   "montage_used": 1,
   "remix_exhausted": true,
   "remix_ranges": [

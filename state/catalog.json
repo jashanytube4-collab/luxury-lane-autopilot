@@ -1083,9 +1083,9 @@
   "video_len": 78
  },
  "dubai crown prince visits dubai municipality": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-04",
   "long": "2026-11-02",
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     296.0,
@@ -1150,6 +1150,10 @@
    [
     328.72,
     331.15999999999997
+   ],
+   [
+    107.4,
+    109.24
    ]
   ],
   "shorts_made": 1,
@@ -1464,9 +1468,9 @@
   "video_len": 68
  },
  "hamdan approves medical tourism strategy": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-04",
   "long": "2026-10-30",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     29.184896091193437,
@@ -1507,6 +1511,10 @@
    [
     69.15651485431378,
     69.70947566513576
+   ],
+   [
+    24.861346460553555,
+    26.942950680326057
    ]
   ],
   "video_exhausted": true,
@@ -6056,7 +6064,7 @@
  "hamdan bin mohammed honors mbr creative sports award winners": {
   "last_short": "2026-11-04",
   "long": "2026-10-18",
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     50.879999999999995,
@@ -6117,6 +6125,10 @@
    [
     371.5063332223338,
     374.03628089392845
+   ],
+   [
+    174.56503490979452,
+    176.98039543762164
    ]
   ],
   "shorts_made": 3,
@@ -7104,6 +7116,7 @@
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
   "last_short": "2026-11-04",
   "montage_used": 18,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     78.30225988576875,
@@ -10307,9 +10320,9 @@
   "long": "2026-10-28"
  },
  "hamdan bin mohammed officially opens gitex 2018": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-04",
   "long": "2026-11-02",
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     126.01016816879962,
@@ -10354,6 +10367,10 @@
    [
     186.11921537534568,
     187.57108293679124
+   ],
+   [
+    252.55352073876574,
+    254.05280403981234
    ]
   ],
   "shorts_made": 1,
@@ -10442,8 +10459,8 @@
   "video_len": 281
  },
  "hamdan bin mohammed opens cityscape global 2017": {
-  "last_short": "2026-11-03",
-  "montage_used": 15,
+  "last_short": "2026-11-04",
+  "montage_used": 16,
   "remix_ranges": [
    [
     15.810590002816998,
@@ -10496,6 +10513,10 @@
    [
     91.07998481226055,
     92.60455486300035
+   ],
+   [
+    204.22852804496168,
+    206.07513419821004
    ]
   ],
   "shorts_made": 1,
@@ -14243,7 +14264,7 @@
   "last_short": "2026-11-04",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     22.16,
@@ -14292,6 +14313,10 @@
    [
     184.4,
     186.51999999999998
+   ],
+   [
+    131.8067382631811,
+    133.44765612550466
    ]
   ],
   "shorts_made": 3,
@@ -15540,6 +15565,7 @@
   "last_short": "2026-11-04",
   "long": "2026-10-31",
   "montage_used": 18,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     143.24971079721686,
@@ -15738,10 +15764,10 @@
   "video_len": 186
  },
  "hamdan bin mohammed visits the ministry of foreign affairs in abu dhabi": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-04",
   "long": "2026-10-23",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     49.961579847562305,
@@ -15770,6 +15796,10 @@
    [
     23.131143820073568,
     24.631075868776897
+   ],
+   [
+    12.68529765099442,
+    14.285786384003195
    ]
   ],
   "shorts_made": 2,

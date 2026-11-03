@@ -1596,7 +1596,7 @@
  "hamdan attends dubai smart city first meeting": {
   "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 7,
+  "montage_used": 8,
   "no_video_until": "2026-11-03",
   "remix_ranges": [
    [
@@ -1626,6 +1626,10 @@
    [
     112.84507392420414,
     115.31906303552579
+   ],
+   [
+    85.58354209934835,
+    87.70355386657315
    ]
   ],
   "video_exhausted": true,
@@ -2143,6 +2147,7 @@
   "last_short": "2026-11-04",
   "montage_exhausted": true,
   "montage_used": 21,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     44.755956300528126,
@@ -3966,7 +3971,7 @@
  "hamdan bin mohammed attends hct graduation": {
   "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     45.8,
@@ -4031,6 +4036,10 @@
    [
     278.31913017086424,
     280.6563323479969
+   ],
+   [
+    241.48495806603657,
+    243.91509839849888
    ]
   ],
   "shorts_made": 1,
@@ -7940,6 +7949,7 @@
   "last_short": "2026-11-04",
   "long": "2026-10-18",
   "montage_used": 17,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     212.80506732035832,
@@ -10820,9 +10830,9 @@
   "video_len": 375
  },
  "hamdan bin mohammed opens crime prevention international conference": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-04",
   "montage_exhausted": true,
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     68.54641858440627,
@@ -10879,6 +10889,10 @@
    [
     127.15336867404037,
     128.7226342132348
+   ],
+   [
+    44.760526186203265,
+    46.630585236580565
    ]
   ],
   "shorts_made": 3,
@@ -11002,7 +11016,7 @@
  "hamdan bin mohammed opens gitex tech week 2017": {
   "last_short": "2026-11-04",
   "long": "2026-10-14",
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     523.8801185278389,
@@ -11059,6 +11073,10 @@
    [
     334.41463274908676,
     336.2767070265806
+   ],
+   [
+    470.0738852500596,
+    471.56466538605787
    ]
   ],
   "shorts_made": 3,
@@ -11259,7 +11277,7 @@
  "hamdan bin mohammed opens smart police station at la mer": {
   "last_short": "2026-11-04",
   "montage_exhausted": true,
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     99.92,
@@ -11304,6 +11322,10 @@
    [
     128.82536551512504,
     131.2832839968111
+   ],
+   [
+    190.0,
+    191.68
    ]
   ],
   "shorts_made": 2,
@@ -13393,8 +13415,8 @@
   "video_len": 234
  },
  "hamdan bin mohammed unveils 5 star plaques at three customer happiness centres in dubai": {
-  "last_short": "2026-11-03",
-  "montage_used": 16,
+  "last_short": "2026-11-04",
+  "montage_used": 17,
   "remix_ranges": [
    [
     140.12827217544256,
@@ -13455,6 +13477,10 @@
    [
     255.88,
     257.56
+   ],
+   [
+    211.53999698075322,
+    213.04694171092592
    ]
   ],
   "shorts_made": 1,
@@ -14112,7 +14138,7 @@
  "hamdan bin mohammed visits dewa s moro": {
   "last_short": "2026-11-04",
   "long": "2026-11-01",
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     33.81682847894831,
@@ -14169,6 +14195,10 @@
    [
     16.04709251946543,
     18.504781023805123
+   ],
+   [
+    139.7599232959786,
+    142.33956598785588
    ]
   ],
   "shorts_made": 3,
@@ -14742,7 +14772,7 @@
   "last_short": "2026-11-04",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     31.287519536112814,
@@ -14799,6 +14829,10 @@
    [
     204.48000000000002,
     206.56
+   ],
+   [
+    71.3411764342509,
+    73.17171465411589
    ]
   ],
   "shorts_made": 3,

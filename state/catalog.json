@@ -2926,7 +2926,7 @@
  "hamdan bin mohammed attends closing ceremony of 3rd dubai future accelerators program": {
   "last_short": "2026-11-04",
   "long": "2026-10-30",
-  "montage_used": 21,
+  "montage_used": 22,
   "remix_ranges": [
    [
     2.92,
@@ -2995,6 +2995,10 @@
    [
     189.36,
     191.0
+   ],
+   [
+    42.00173804542305,
+    43.562486286095535
    ]
   ],
   "shorts_made": 3,
@@ -4053,7 +4057,7 @@
  "hamdan bin mohammed attends hct graduation": {
   "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 26,
+  "montage_used": 27,
   "remix_ranges": [
    [
     45.8,
@@ -4150,6 +4154,10 @@
    [
     165.92000000000002,
     167.79999999999998
+   ],
+   [
+    256.91618520943825,
+    259.0701610827053
    ]
   ],
   "shorts_made": 1,
@@ -7514,7 +7522,7 @@
  "hamdan bin mohammed inspects rta s autonomous mobility and ai projects": {
   "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     100.06784977818178,
@@ -7575,6 +7583,10 @@
    [
     10.782275845676644,
     12.486745767469372
+   ],
+   [
+    35.839999999999996,
+    38.24
    ]
   ],
   "shorts_made": 2,
@@ -10654,7 +10666,7 @@
  "hamdan bin mohammed officially opens gitex 2018": {
   "last_short": "2026-11-04",
   "long": "2026-11-02",
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     126.01016816879962,
@@ -10723,6 +10735,10 @@
    [
     143.23614050551498,
     144.9757360508422
+   ],
+   [
+    211.72,
+    213.56
    ]
   ],
   "shorts_made": 1,
@@ -10812,7 +10828,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2017": {
   "last_short": "2026-11-04",
-  "montage_used": 23,
+  "montage_used": 24,
   "remix_ranges": [
    [
     15.810590002816998,
@@ -10893,6 +10909,10 @@
    [
     148.28096688198002,
     150.03761418730858
+   ],
+   [
+    70.0,
+    71.67999999999999
    ]
   ],
   "shorts_made": 1,
@@ -10927,7 +10947,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2018": {
   "last_short": "2026-11-04",
-  "montage_used": 25,
+  "montage_used": 26,
   "remix_ranges": [
    [
     324.3828204350159,
@@ -11020,6 +11040,10 @@
    [
     61.24197016446373,
     63.31279932343217
+   ],
+   [
+    354.44,
+    356.92
    ]
   ],
   "shorts_made": 2,

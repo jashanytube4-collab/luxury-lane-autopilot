@@ -283,6 +283,7 @@
   "last_short": "2026-11-04",
   "long": "2026-10-31",
   "montage_used": 24,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     211.78852581766063,
@@ -1108,7 +1109,7 @@
  "dubai crown prince visits dubai municipality": {
   "last_short": "2026-11-04",
   "long": "2026-11-02",
-  "montage_used": 21,
+  "montage_used": 22,
   "remix_ranges": [
    [
     296.0,
@@ -1189,6 +1190,10 @@
    [
     18.141996307858967,
     20.191374015354615
+   ],
+   [
+    160.79041918220526,
+    163.0402777624735
    ]
   ],
   "shorts_made": 1,
@@ -1610,7 +1615,7 @@
  "hamdan attends dubai smart city first meeting": {
   "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 9,
+  "montage_used": 10,
   "no_video_until": "2026-11-03",
   "remix_ranges": [
    [
@@ -1648,6 +1653,10 @@
    [
     77.42214748853573,
     79.61586306121278
+   ],
+   [
+    93.38666666666667,
+    95.71333333333332
    ]
   ],
   "video_exhausted": true,
@@ -2887,7 +2896,7 @@
  "hamdan bin mohammed attends closing ceremony of 3rd dubai future accelerators program": {
   "last_short": "2026-11-04",
   "long": "2026-10-30",
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     2.92,
@@ -2944,6 +2953,10 @@
    [
     96.76778159154522,
     98.68845212805053
+   ],
+   [
+    296.1605090972172,
+    298.32905356671426
    ]
   ],
   "shorts_made": 3,
@@ -4002,7 +4015,7 @@
  "hamdan bin mohammed attends hct graduation": {
   "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 21,
+  "montage_used": 22,
   "remix_ranges": [
    [
     45.8,
@@ -4079,6 +4092,10 @@
    [
     9.79232131192146,
     11.875743716736334
+   ],
+   [
+    174.61511435462614,
+    176.2043692144561
    ]
   ],
   "shorts_made": 1,
@@ -7425,7 +7442,7 @@
  "hamdan bin mohammed inspects rta s autonomous mobility and ai projects": {
   "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     100.06784977818178,
@@ -7466,6 +7483,10 @@
    [
     177.27422547000873,
     179.53009394403898
+   ],
+   [
+    272.24,
+    274.36
    ]
   ],
   "shorts_made": 2,
@@ -8765,7 +8786,7 @@
  "hamdan bin mohammed meets students of dubai schools": {
   "last_short": "2026-11-04",
   "long": "2026-10-17",
-  "montage_used": 21,
+  "montage_used": 22,
   "remix_ranges": [
    [
     163.49934334402403,
@@ -8842,6 +8863,10 @@
    [
     288.6282977627206,
     290.1835088891436
+   ],
+   [
+    139.97778557913605,
+    141.8290034383114
    ]
   ],
   "shorts_made": 3,
@@ -11097,7 +11122,7 @@
  "hamdan bin mohammed opens gitex tech week 2017": {
   "last_short": "2026-11-04",
   "long": "2026-10-14",
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     523.8801185278389,
@@ -11162,6 +11187,10 @@
    [
     156.8175002022554,
     158.85386441798983
+   ],
+   [
+    70.7506210018533,
+    72.57074689410356
    ]
   ],
   "shorts_made": 3,
@@ -12589,7 +12618,7 @@
  "hamdan bin mohammed reviews the latest technologies and energy solutions at wetex 2019": {
   "last_short": "2026-11-04",
   "montage_exhausted": true,
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     249.043806441902,
@@ -12634,6 +12663,10 @@
    [
     41.46524161965074,
     43.737417080617384
+   ],
+   [
+    241.7359265047165,
+    244.2314414620805
    ]
   ],
   "shorts_made": 3,
@@ -18653,6 +18686,7 @@
   "last_short": "2026-11-04",
   "long": "2026-10-14",
   "montage_used": 16,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     133.53845390207644,

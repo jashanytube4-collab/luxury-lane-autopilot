@@ -241,8 +241,13 @@
   },
   {
    "at": "2026-11-05T01:34:41+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "His smile is his strongest signature. 🤍 #youtubeshorts #ytshorts",
+   "type": "short",
+   "video_id": "zFyCvgZLQ8o",
+   "voiced": true
   },
   {
    "at": "2026-11-05T02:23:30+04:00",

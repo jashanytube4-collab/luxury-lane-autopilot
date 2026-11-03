@@ -1109,7 +1109,7 @@
  "dubai crown prince visits dubai municipality": {
   "last_short": "2026-11-04",
   "long": "2026-11-02",
-  "montage_used": 22,
+  "montage_used": 23,
   "remix_ranges": [
    [
     296.0,
@@ -1194,6 +1194,10 @@
    [
     160.79041918220526,
     163.0402777624735
+   ],
+   [
+    235.28722954512588,
+    237.12459817400932
    ]
   ],
   "shorts_made": 1,
@@ -4015,7 +4019,7 @@
  "hamdan bin mohammed attends hct graduation": {
   "last_short": "2026-11-04",
   "long": "2026-10-31",
-  "montage_used": 22,
+  "montage_used": 23,
   "remix_ranges": [
    [
     45.8,
@@ -4096,6 +4100,10 @@
    [
     174.61511435462614,
     176.2043692144561
+   ],
+   [
+    151.3666927150977,
+    153.67756893708912
    ]
   ],
   "shorts_made": 1,
@@ -4738,6 +4746,7 @@
   "last_short": "2026-11-04",
   "long": "2026-10-31",
   "montage_used": 21,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     21.009627951075547,
@@ -6361,7 +6370,7 @@
  "hamdan bin mohammed honors winners of dubai appreciation award for community service": {
   "last_short": "2026-11-04",
   "long": "2026-11-02",
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     179.39335360955343,
@@ -6418,6 +6427,10 @@
    [
     212.57904622767253,
     215.15344464885504
+   ],
+   [
+    30.680565916585024,
+    32.71297263348535
    ]
   ],
   "shorts_made": 3,
@@ -8786,7 +8799,7 @@
  "hamdan bin mohammed meets students of dubai schools": {
   "last_short": "2026-11-04",
   "long": "2026-10-17",
-  "montage_used": 22,
+  "montage_used": 23,
   "remix_ranges": [
    [
     163.49934334402403,
@@ -8867,6 +8880,10 @@
    [
     139.97778557913605,
     141.8290034383114
+   ],
+   [
+    215.88734829785957,
+    218.31213772812757
    ]
   ],
   "shorts_made": 3,
@@ -11122,7 +11139,7 @@
  "hamdan bin mohammed opens gitex tech week 2017": {
   "last_short": "2026-11-04",
   "long": "2026-10-14",
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     523.8801185278389,
@@ -11191,6 +11208,10 @@
    [
     70.7506210018533,
     72.57074689410356
+   ],
+   [
+    442.9003404342473,
+    445.0893606035796
    ]
   ],
   "shorts_made": 3,
@@ -11397,6 +11418,7 @@
   "last_short": "2026-11-04",
   "montage_exhausted": true,
   "montage_used": 15,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     99.92,
@@ -12618,7 +12640,7 @@
  "hamdan bin mohammed reviews the latest technologies and energy solutions at wetex 2019": {
   "last_short": "2026-11-04",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     249.043806441902,
@@ -12667,6 +12689,10 @@
    [
     241.7359265047165,
     244.2314414620805
+   ],
+   [
+    300.84193784907404,
+    302.9977735013713
    ]
   ],
   "shorts_made": 3,
@@ -14278,7 +14304,7 @@
  "hamdan bin mohammed visits dewa s moro": {
   "last_short": "2026-11-04",
   "long": "2026-11-01",
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     33.81682847894831,
@@ -14351,6 +14377,10 @@
    [
     123.53077968194556,
     125.89827806267625
+   ],
+   [
+    267.77419147415446,
+    270.2538946544817
    ]
   ],
   "shorts_made": 3,

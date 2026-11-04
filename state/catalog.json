@@ -233,9 +233,9 @@
   "no_hamdan": true
  },
  "dubai crown prince attends al ketbi family wedding reception": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-05",
   "long": "2026-10-27",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -272,6 +272,10 @@
    [
     49.46,
     52.07000000000001
+   ],
+   [
+    61.56166666666667,
+    62.758333333333326
    ]
   ],
   "video_exhausted": true,
@@ -1443,9 +1447,9 @@
   "video_len": 145
  },
  "hamdan addressing future circles looking forward for innovation based future": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-05",
   "long": "2026-10-30",
-  "montage_used": 14,
+  "montage_used": 15,
   "no_video_until": "2026-11-02",
   "remix_exhausted": true,
   "remix_ranges": [
@@ -1506,6 +1510,10 @@
    [
     118.99499999999998,
     121.13833333333334
+   ],
+   [
+    31.953333333333333,
+    35.94666666666667
    ]
   ],
   "video_exhausted": true,
@@ -4078,9 +4086,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends hct graduation": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-05",
   "long": "2026-10-31",
-  "montage_used": 27,
+  "montage_used": 28,
   "remix_ranges": [
    [
     45.8,
@@ -4200,6 +4208,10 @@
    [
     10.384999999999984,
     11.855000000000018
+   ],
+   [
+    100.44,
+    102.56
    ]
   ],
   "video_exhausted": true,
@@ -5252,6 +5264,7 @@
  "hamdan bin mohammed bin rashid receives samsung electronics ceo": {
   "last_short": "2026-11-04",
   "long": "2026-10-25",
+  "montage_exhausted": true,
   "montage_used": 4,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -6124,9 +6137,9 @@
   "video_len": 73
  },
  "hamdan bin mohammed extends condolences to families of pilots": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-05",
   "long": "2026-10-14",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -6175,6 +6188,10 @@
    [
     131.28,
     134.32
+   ],
+   [
+    56.8,
+    61.400000000000006
    ]
   ],
   "video_exhausted": true,
@@ -6821,9 +6838,9 @@
   "video_len": 19
  },
  "hamdan bin mohammed honours winners of 5th islamic economy award": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-05",
   "long": "2026-10-30",
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -6912,6 +6929,10 @@
    [
     154.72,
     157.56
+   ],
+   [
+    68.84,
+    71.11999999999999
    ]
   ],
   "video_exhausted": true,
@@ -15135,6 +15156,7 @@
  "hamdan bin mohammed visits dubai government hr department": {
   "last_short": "2026-11-03",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 13,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -19425,6 +19447,7 @@
  "partnership between community government the foundation of enhancing government services hamdan bin mohammed": {
   "last_short": "2026-11-04",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 8,
   "remix_exhausted": true,
   "remix_ranges": [

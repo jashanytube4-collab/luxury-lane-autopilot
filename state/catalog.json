@@ -1336,9 +1336,9 @@
   "long": "2026-10-23"
  },
  "dubai executive council approves annual agenda for 2018": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-05",
   "long": "2026-10-30",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -1362,6 +1362,10 @@
    [
     2.9433333333333302,
     3.7766666666666695
+   ],
+   [
+    16.44,
+    21.04
    ]
   ],
   "video_exhausted": true,
@@ -4203,9 +4207,9 @@
  },
  "hamdan bin mohammed attends health chain forum": {
   "fails": 1,
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-05",
   "long": "2026-10-14",
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -4274,6 +4278,10 @@
    [
     208.68,
     212.0
+   ],
+   [
+    125.00499999999998,
+    126.99500000000002
    ]
   ],
   "video_exhausted": true,
@@ -8575,9 +8583,9 @@
   "video_len": 40
  },
  "hamdan bin mohammed meets first batch of female cadets graduating from dubai police academy": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-05",
   "long": "2026-10-31",
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -8650,6 +8658,10 @@
    [
     97.84,
     101.24
+   ],
+   [
+    110.04,
+    112.44
    ]
   ],
   "video_exhausted": true,
@@ -14744,9 +14756,9 @@
   "video_len": 62
  },
  "hamdan bin mohammed visits dp world s facilities inspects operations of jebel ali port": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-05",
   "long": "2026-10-31",
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -14815,6 +14827,10 @@
    [
     94.92,
     97.28
+   ],
+   [
+    196.20000000000002,
+    198.76
    ]
   ],
   "video_exhausted": true,
@@ -15417,9 +15433,9 @@
   "video_len": 263
  },
  "hamdan bin mohammed visits dubai sports council": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-05",
   "long": "2026-10-18",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -15463,6 +15479,10 @@
    [
     110.24000000000001,
     112.44
+   ],
+   [
+    146.96,
+    149.96
    ]
   ],
   "video_exhausted": true,
@@ -16956,9 +16976,9 @@
   "video_len": 162
  },
  "hamdan chairs 1st meeting for higher committee to implement smart city project": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-05",
   "long": "2026-10-31",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -16990,6 +17010,10 @@
    [
     58.68666666666667,
     61.580000000000005
+   ],
+   [
+    13.553333333333333,
+    15.913333333333336
    ]
   ],
   "video_exhausted": true,

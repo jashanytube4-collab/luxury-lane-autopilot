@@ -1006,8 +1006,8 @@
   "video_len": 130
  },
  "dubai crown prince receives president of the chechen": {
-  "last_short": "2026-11-04",
-  "montage_used": 9,
+  "last_short": "2026-11-05",
+  "montage_used": 10,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -1047,6 +1047,10 @@
    [
     56.48,
     59.400000000000006
+   ],
+   [
+    50.12,
+    52.800000000000004
    ]
   ],
   "video_exhausted": true,
@@ -4543,9 +4547,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends safeguarding endangered cultural heritage conference": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-05",
   "long": "2026-10-24",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -4569,6 +4573,10 @@
    [
     56.0,
     58.2
+   ],
+   [
+    72.56666666666666,
+    74.19333333333333
    ]
   ],
   "video_exhausted": true,
@@ -11810,9 +11818,9 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed receives afc president": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-05",
   "long": "2026-10-14",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -11836,6 +11844,10 @@
    [
     57.326666666666675,
     58.47333333333333
+   ],
+   [
+    34.12,
+    36.71333333333334
    ]
   ],
   "video_exhausted": true,
@@ -13735,8 +13747,8 @@
   "video_len": 189
  },
  "hamdan bin mohammed unveils 5 star plaque at sheikh zayed housing programme in dubai": {
-  "last_short": "2026-11-01",
-  "montage_used": 14,
+  "last_short": "2026-11-05",
+  "montage_used": 15,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -13829,6 +13841,10 @@
    [
     75.94,
     80.94
+   ],
+   [
+    208.38,
+    213.38
    ]
   ],
   "video_len": 234
@@ -14779,7 +14795,7 @@
  "hamdan bin mohammed visits dp world s facilities inspects operations of jebel ali port": {
   "last_short": "2026-11-05",
   "long": "2026-10-31",
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -14852,6 +14868,10 @@
    [
     196.20000000000002,
     198.76
+   ],
+   [
+    137.32,
+    139.79999999999998
    ]
   ],
   "video_exhausted": true,

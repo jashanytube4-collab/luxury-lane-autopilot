@@ -17537,6 +17537,10 @@
   "video_exhausted": true,
   "video_len": 142
  },
+ "ig:dubaimediaoffice:17867376915681117": {
+  "video_exhausted": true,
+  "video_len": 70
+ },
  "ig:dubaimediaoffice:17879245644689188": {
   "long": "2026-11-02",
   "video_exhausted": true,
@@ -17546,6 +17550,10 @@
   "long": "2026-10-31",
   "video_exhausted": true,
   "video_len": 44
+ },
+ "ig:dubaimediaoffice:17931614553279471": {
+  "video_exhausted": true,
+  "video_len": 54
  },
  "ig:dubaimediaoffice:17958432678248644": {
   "long": "2026-10-26",
@@ -17575,6 +17583,10 @@
   "long": "2026-11-02",
   "video_exhausted": true,
   "video_len": 57
+ },
+ "ig:dubaimediaoffice:18076938170253729": {
+  "video_exhausted": true,
+  "video_len": 61
  },
  "ig:dubaimediaoffice:18110051591066880": {
   "last_short": "2026-11-05",
@@ -17687,10 +17699,33 @@
   "video_exhausted": true,
   "video_len": 60
  },
+ "ig:dubaimediaoffice:18201065956345278": {
+  "last_short": "2026-11-05",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    31.08666666666667,
+    32.69666666666667
+   ],
+   [
+    53.12,
+    54.93000000000001
+   ],
+   [
+    63.019999999999996,
+    64.76333333333334
+   ]
+  ],
+  "video_len": 84
+ },
  "ig:dubaimediaoffice:18357178693223628": {
   "long": "2026-10-30",
   "video_exhausted": true,
   "video_len": 77
+ },
+ "ig:dubaimediaoffice:18445505212189984": {
+  "video_exhausted": true,
+  "video_len": 42
  },
  "ig:dubaimediaoffice:18646769758028622": {
   "last_short": "2026-11-05",

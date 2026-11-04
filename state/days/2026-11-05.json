@@ -33,8 +33,13 @@
   },
   {
    "at": "2026-11-05T08:56:04+04:00",
-   "status": "skipped",
-   "type": "short"
+   "event": "ig:dubaimediaoffice:18646769758028622",
+   "kind": "moment",
+   "status": "scheduled",
+   "title": "Duty first, always. 🤍 #youtubeshorts #youtube",
+   "type": "short",
+   "video_id": "m_akYUObdrQ",
+   "voiced": false
   },
   {
    "at": "2026-11-05T09:39:48+04:00",
@@ -73,7 +78,7 @@
   },
   {
    "at": "2026-11-05T14:34:39+04:00",
-   "status": "open",
+   "status": "skipped",
    "type": "short"
   },
   {
@@ -83,7 +88,7 @@
   },
   {
    "at": "2026-11-05T16:06:11+04:00",
-   "status": "open",
+   "status": "skipped",
    "type": "short"
   },
   {
@@ -138,7 +143,7 @@
   },
   {
    "at": "2026-11-05T23:15:21+04:00",
-   "status": "open",
+   "status": "skipped",
    "type": "short"
   },
   {
@@ -158,7 +163,7 @@
   },
   {
    "at": "2026-11-06T02:07:43+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   },
   {

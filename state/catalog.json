@@ -9951,6 +9951,7 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed meets with president and ceo of the world economic forum": {
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "hamdan bin mohammed meets with the armenian defence minister on the sidelines of the dubai airshow": {
@@ -17643,6 +17644,10 @@
   "long": "2026-11-02",
   "video_exhausted": true,
   "video_len": 85
+ },
+ "ig:dubaimediaoffice:18128622343505408": {
+  "fails": 1,
+  "video_len": 57
  },
  "ig:dubaimediaoffice:18130091401745842": {
   "long": "2026-10-31",

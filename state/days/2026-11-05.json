@@ -53,8 +53,13 @@
   },
   {
    "at": "2026-11-05T10:29:06+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "ig:dubaimediaoffice:18114870820766535",
+   "kind": "narrated",
+   "status": "scheduled",
+   "title": "Prince Hamdan Leads UAE Riders in Dubai 🤍",
+   "type": "short",
+   "video_id": "CrxoKKVi_o4",
+   "voiced": true
   },
   {
    "at": "2026-11-05T11:18:03+04:00",

@@ -681,6 +681,7 @@
  "dubai crown prince honours winners of hamdan bin mohammed award for innovation in projects management": {
   "last_short": "2026-11-03",
   "long": "2026-10-30",
+  "montage_exhausted": true,
   "montage_used": 13,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -10321,9 +10322,9 @@
   "video_len": 64
  },
  "hamdan bin mohammed offers condolences on death of hamad al qasimi": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-11-05",
   "long": "2026-10-20",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -10337,6 +10338,12 @@
    [
     36.04,
     38.0
+   ]
+  ],
+  "shot_ranges": [
+   [
+    43.8,
+    46.52
    ]
   ],
   "video_exhausted": true,
@@ -11543,9 +11550,9 @@
   "video_len": 119
  },
  "hamdan bin mohammed opens salem medical fitness smart centre": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-05",
   "long": "2026-10-18",
-  "montage_used": 22,
+  "montage_used": 23,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -11666,6 +11673,10 @@
    [
     187.04,
     191.64
+   ],
+   [
+    44.46,
+    49.46
    ]
   ],
   "video_len": 226
@@ -12461,9 +12472,9 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed reviews dubai future foundation s 2018 plan and projects": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-05",
   "long": "2026-10-30",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -12505,6 +12516,12 @@
    [
     96.91238236214951,
     98.99617744473898
+   ]
+  ],
+  "shot_ranges": [
+   [
+    96.05999999999999,
+    100.66
    ]
   ],
   "video_exhausted": true,
@@ -17647,6 +17664,7 @@
  },
  "ig:dubaimediaoffice:18128622343505408": {
   "fails": 1,
+  "video_exhausted": true,
   "video_len": 57
  },
  "ig:dubaimediaoffice:18130091401745842": {
@@ -19698,9 +19716,9 @@
   "no_hamdan": true
  },
  "ruler of umm al quwain accepts condolences from hamdan bin mohammed": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-05",
   "long": "2026-10-28",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -19765,6 +19783,10 @@
    [
     77.28,
     79.67999999999999
+   ],
+   [
+    70.88000000000001,
+    74.47999999999999
    ]
   ],
   "video_exhausted": true,

@@ -4,7 +4,7 @@
   "term:championship": "2026-11-03"
  },
  "ig_status": {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "ok": true
  },
  "lines_used": {
@@ -877,7 +877,11 @@
   "ll4ca0163924",
   "ll820858c016",
   "ll8eb1551cf1",
-  "ll2a08b1569c"
+  "ll2a08b1569c",
+  "ll05bdb5e98a",
+  "ll7d4bcb7bc2",
+  "lld8320a5740",
+  "ll3db3077964"
  ],
  "quotes": [
   {
@@ -1015,7 +1019,6 @@
   }
  ],
  "recent_hooks": [
-  "NO ONE CARRIES IT LIKE HIM | Grace is his strongest weapon. #youtubeshorts #youtube",
   "THIS IS WHY MILLIONS LOVE HIM | Dubai dreams big because he does. 👑 #youtubeshorts #youtube #fazza",
   "QUIET POWER | When Fazza believes in something, the world follows. ❤️ #fazza #youtubeshorts #youtube",
   "THE PRESENCE OF A LEADER | Not just a title. A responsibility he carries with pride. #youtube #youtubeshorts",
@@ -1074,10 +1077,10 @@
   "LEADING WITHOUT SAYING A WORD | Duty first, always. 🤍 #youtubeshorts #youtube",
   "THE HUNT PRINCE | Prince Hamdan Leads UAE Riders in Dubai 🤍",
   "HUMBLE HEART. | Prince Hamdan Loves His Heritage Team ❤️",
-  "FAZZA'S TOUCH ❤️ | FAZZA'S TOUCH ❤️ Fazza Honored Cultural Icons At The Dubai Heritage Awards 🤍"
+  "FAZZA'S TOUCH ❤️ | FAZZA'S TOUCH ❤️ Fazza Honored Cultural Icons At The Dubai Heritage Awards 🤍",
+  "DUBAI'S FAVOURITE PRINCE | Faith, family and the future. #youtube #youtubeshorts"
  ],
  "recent_titles": [
-  "Dubai's vision comes alive through Hamdan. ✨ #youtubeshorts #youtube #fazza",
   "Humble in power. Strong in heart. 🤍 #princehamdan #youtubeshorts #youtube",
   "Nothing fake. Just Fazza. #fazza #youtubeshorts #youtube",
   "The future of Dubai has a name. Fazza. ✨ #youtubeshorts #youtube",
@@ -1376,12 +1379,13 @@
   "Duty first, always. 🤍 #youtubeshorts #youtube",
   "Prince Hamdan Leads UAE Riders in Dubai 🤍",
   "Prince Hamdan Loves His Heritage Team ❤️",
-  "FAZZA'S TOUCH ❤️ Fazza Honored Cultural Icons At The Dubai Heritage Awards 🤍"
+  "FAZZA'S TOUCH ❤️ Fazza Honored Cultural Icons At The Dubai Heritage Awards 🤍",
+  "Faith, family and the future. #youtube #youtubeshorts"
  ],
  "shorts_supply": {
-  "date": "2026-11-04",
-  "days": 4.1,
-  "events": 126
+  "date": "2026-11-05",
+  "days": 4.7,
+  "events": 146
  },
  "stories_done": [
   "flydubai-hero",

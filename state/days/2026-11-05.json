@@ -103,7 +103,7 @@
   },
   {
    "at": "2026-11-05T15:15:33+04:00",
-   "status": "open",
+   "status": "missed",
    "type": "short"
   },
   {
@@ -153,7 +153,7 @@
   },
   {
    "at": "2026-11-05T21:32:45+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   },
   {
@@ -168,7 +168,7 @@
   },
   {
    "at": "2026-11-06T00:03:38+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   },
   {
@@ -183,12 +183,12 @@
   },
   {
    "at": "2026-11-06T02:07:43+04:00",
-   "status": "open",
+   "status": "skipped",
    "type": "short"
   },
   {
    "at": "2026-11-06T02:54:33+04:00",
-   "status": "open",
+   "status": "skipped",
    "type": "short"
   },
   {
@@ -198,7 +198,7 @@
   },
   {
    "at": "2026-11-06T04:30:30+04:00",
-   "status": "open",
+   "status": "skipped",
    "type": "short"
   },
   {
@@ -208,7 +208,7 @@
   },
   {
    "at": "2026-11-06T06:00:13+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   }
  ],

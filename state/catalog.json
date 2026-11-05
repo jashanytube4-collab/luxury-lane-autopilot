@@ -842,9 +842,9 @@
   "video_len": 68
  },
  "dubai crown prince offers condolences to alkaabi family": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-05",
   "long": "2026-10-17",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -868,6 +868,10 @@
    [
     29.0,
     31.119999999999997
+   ],
+   [
+    52.96,
+    55.480000000000004
    ]
   ],
   "video_exhausted": true,
@@ -3545,9 +3549,9 @@
   "video_len": 278
  },
  "hamdan bin mohammed attends global cardiology congress": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-05",
   "long": "2026-10-22",
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -3636,6 +3640,10 @@
    [
     187.68,
     189.72
+   ],
+   [
+    100.16000000000001,
+    102.19999999999999
    ]
   ],
   "video_exhausted": true,
@@ -4610,9 +4618,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends talk on middle eastern cities contributions to advancing human progress": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-05",
   "long": "2026-10-31",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -4657,6 +4665,10 @@
    [
     92.95333333333333,
     97.38
+   ],
+   [
+    53.919999999999995,
+    57.11333333333334
    ]
   ],
   "video_exhausted": true,
@@ -7595,9 +7607,9 @@
   "video_len": 227
  },
  "hamdan bin mohammed inspects rta s autonomous mobility and ai projects": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-05",
   "long": "2026-10-31",
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     100.06784977818178,
@@ -7701,6 +7713,10 @@
    [
     161.08,
     163.2
+   ],
+   [
+    147.16,
+    149.68
    ]
   ],
   "video_exhausted": true,
@@ -8194,9 +8210,9 @@
   "video_len": 69
  },
  "hamdan bin mohammed launches sports initiatives": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-05",
   "long": "2026-10-18",
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -8277,6 +8293,10 @@
    [
     69.48,
     72.28
+   ],
+   [
+    242.26,
+    243.74
    ]
   ],
   "video_exhausted": true,
@@ -15513,6 +15533,7 @@
  "hamdan bin mohammed visits dubai sports council": {
   "last_short": "2026-11-05",
   "long": "2026-10-18",
+  "montage_exhausted": true,
   "montage_used": 11,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -17429,9 +17450,9 @@
   "video_len": 71
  },
  "hamdan rename hbmeu to become hamdan bin mohammed smart university": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-11-05",
   "long": "2026-10-31",
-  "montage_used": 2,
+  "montage_used": 3,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -17441,6 +17462,12 @@
    [
     143.15333333333334,
     145.07999999999998
+   ]
+  ],
+  "shot_ranges": [
+   [
+    96.98666666666666,
+    100.91333333333333
    ]
   ],
   "video_exhausted": true,

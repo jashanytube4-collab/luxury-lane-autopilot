@@ -2828,6 +2828,7 @@
  "hamdan bin mohammed attends al amri wedding": {
   "last_short": "2026-11-04",
   "long": "2026-10-17",
+  "montage_exhausted": true,
   "montage_used": 4,
   "no_video_until": "2026-10-29",
   "remix_exhausted": true,
@@ -4236,6 +4237,7 @@
   "fails": 1,
   "last_short": "2026-11-05",
   "long": "2026-10-14",
+  "montage_exhausted": true,
   "montage_used": 12,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -7039,6 +7041,7 @@
  "hamdan bin mohammed inaugurates biggest edition of idex in abu dhabi": {
   "last_short": "2026-11-05",
   "long": "2026-10-23",
+  "montage_exhausted": true,
   "montage_used": 4,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -7874,9 +7877,9 @@
   "long": "2026-10-30"
  },
  "hamdan bin mohammed launches day for dubai encourages residents to volunteer": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-06",
   "long": "2026-10-31",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -7916,6 +7919,10 @@
    [
     63.559999999999995,
     65.8
+   ],
+   [
+    135.24,
+    137.79999999999998
    ]
   ],
   "video_exhausted": true,
@@ -7980,8 +7987,8 @@
   "video_len": 42
  },
  "hamdan bin mohammed launches integrated housing plan to provide 15 800 homes for nationals in dubai over the next four years": {
-  "last_short": "2026-11-03",
-  "montage_used": 5,
+  "last_short": "2026-11-06",
+  "montage_used": 6,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -8042,6 +8049,10 @@
    [
     67.10000016666666,
     72.10000016666666
+   ],
+   [
+    58.65333333333333,
+    63.64666666666667
    ]
   ],
   "video_exhausted": true,
@@ -10592,9 +10603,9 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed offers condolences to family of martyr al mesmari": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-06",
   "long": "2026-10-27",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -10631,6 +10642,10 @@
    [
     52.8,
     55.480000000000004
+   ],
+   [
+    80.12,
+    83.36
    ]
   ],
   "video_exhausted": true,
@@ -13617,6 +13632,7 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed uae is the winner of weg": {
+  "montage_exhausted": true,
   "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 91
@@ -13803,8 +13819,8 @@
   "video_len": 189
  },
  "hamdan bin mohammed unveils 5 star plaque at sheikh zayed housing programme in dubai": {
-  "last_short": "2026-11-05",
-  "montage_used": 15,
+  "last_short": "2026-11-06",
+  "montage_used": 16,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -13901,6 +13917,10 @@
    [
     208.38,
     213.38
+   ],
+   [
+    128.72666666666666,
+    130.07333333333335
    ]
   ],
   "video_len": 234
@@ -16146,9 +16166,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits personal status court": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-06",
   "long": "2026-10-31",
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -16204,6 +16224,10 @@
    [
     80.6,
     85.6
+   ],
+   [
+    40.239999999999995,
+    43.36
    ]
   ],
   "video_exhausted": true,

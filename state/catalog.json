@@ -1396,9 +1396,9 @@
   "long": "2026-10-22"
  },
  "executive council reviews a number of projects": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-07",
   "long": "2026-10-30",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -1422,6 +1422,10 @@
    [
     28.42,
     32.34666666666667
+   ],
+   [
+    35.88666666666666,
+    39.34666666666667
    ]
   ],
   "video_exhausted": true,
@@ -4114,9 +4118,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends hct graduation": {
-  "last_short": "2026-11-05",
+  "last_short": "2026-11-07",
   "long": "2026-10-31",
-  "montage_used": 28,
+  "montage_used": 29,
   "remix_ranges": [
    [
     45.8,
@@ -4240,6 +4244,10 @@
    [
     100.44,
     102.56
+   ],
+   [
+    1.52,
+    3.6399999999999997
    ]
   ],
   "video_exhausted": true,
@@ -9019,9 +9027,9 @@
   "video_len": 99
  },
  "hamdan bin mohammed meets students of dubai schools": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-07",
   "long": "2026-10-17",
-  "montage_used": 24,
+  "montage_used": 25,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -9146,6 +9154,10 @@
    [
     301.87,
     302.61
+   ],
+   [
+    95.36,
+    99.11999999999999
    ]
   ],
   "video_len": 371
@@ -14688,9 +14700,9 @@
   "video_len": 206
  },
  "hamdan bin mohammed visits dewa s moro": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-07",
   "long": "2026-11-01",
-  "montage_used": 25,
+  "montage_used": 26,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -14827,6 +14839,10 @@
    [
     23.60999999999998,
     24.270000000000017
+   ],
+   [
+    235.13666666666666,
+    236.1833333333333
    ]
   ],
   "video_len": 401
@@ -17290,9 +17306,9 @@
   "video_len": 551
  },
  "hamdan inaugurates makani smart app": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-07",
   "long": "2026-10-31",
-  "montage_used": 6,
+  "montage_used": 7,
   "no_video_until": "2026-10-29",
   "remix_exhausted": true,
   "remix_ranges": [
@@ -17319,6 +17335,12 @@
    [
     87.22672379076464,
     88.90547426936105
+   ]
+  ],
+  "shot_ranges": [
+   [
+    60.086666666666666,
+    63.28
    ]
   ],
   "video_exhausted": true,
@@ -19491,14 +19513,20 @@
   "video_len": 300
  },
  "mohamed bin zayed hamdan bin mohammed take part in walk unified event": {
-  "last_short": "2026-10-25",
+  "last_short": "2026-11-07",
   "long": "2026-10-23",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_exhausted": true,
   "remix_ranges": [
    [
     173.035804515191,
     174.69152660741932
+   ]
+  ],
+  "shot_ranges": [
+   [
+    172.76,
+    175.4
    ]
   ],
   "video_exhausted": true,

@@ -1134,9 +1134,9 @@
   "video_len": 78
  },
  "dubai crown prince visits dubai municipality": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-06",
   "long": "2026-11-02",
-  "montage_used": 23,
+  "montage_used": 24,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -1245,6 +1245,10 @@
    [
     171.56,
     174.88
+   ],
+   [
+    130.84,
+    133.68
    ]
   ],
   "video_exhausted": true,
@@ -4870,9 +4874,9 @@
   "video_len": 164
  },
  "hamdan bin mohammed attends the knowledge summit 2018": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-06",
   "long": "2026-10-31",
-  "montage_used": 22,
+  "montage_used": 23,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -5001,6 +5005,10 @@
    [
     42.885,
     43.91500000000001
+   ],
+   [
+    467.72,
+    469.76
    ]
   ],
   "video_len": 507
@@ -7618,9 +7626,9 @@
   "video_len": 227
  },
  "hamdan bin mohammed inspects rta s autonomous mobility and ai projects": {
-  "last_short": "2026-11-05",
+  "last_short": "2026-11-06",
   "long": "2026-10-31",
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     100.06784977818178,
@@ -7728,6 +7736,10 @@
    [
     147.16,
     149.68
+   ],
+   [
+    272.24,
+    274.36
    ]
   ],
   "video_exhausted": true,
@@ -10962,8 +10974,8 @@
   "video_len": 281
  },
  "hamdan bin mohammed opens cityscape global 2017": {
-  "last_short": "2026-11-04",
-  "montage_used": 24,
+  "last_short": "2026-11-06",
+  "montage_used": 25,
   "remix_ranges": [
    [
     15.810590002816998,
@@ -11075,6 +11087,10 @@
    [
     204.12,
     206.24
+   ],
+   [
+    91.04,
+    93.39999999999999
    ]
   ],
   "video_exhausted": true,
@@ -14970,9 +14986,9 @@
   "video_len": 311
  },
  "hamdan bin mohammed visits dubai airshow 2017": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-06",
   "long": "2026-11-02",
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -15028,6 +15044,10 @@
    [
     152.24,
     154.48
+   ],
+   [
+    22.68,
+    26.919999999999998
    ]
   ],
   "video_exhausted": true,
@@ -16184,7 +16204,7 @@
  "hamdan bin mohammed visits personal status court": {
   "last_short": "2026-11-06",
   "long": "2026-10-31",
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -16244,6 +16264,10 @@
    [
     40.239999999999995,
     43.36
+   ],
+   [
+    30.52,
+    32.88
    ]
   ],
   "video_exhausted": true,
@@ -17618,6 +17642,7 @@
  },
  "hamdan witnesses launch of strategic plan to develop islamic economy sector": {
   "long": "2026-10-30",
+  "montage_exhausted": true,
   "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 142

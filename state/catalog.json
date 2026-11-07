@@ -848,6 +848,7 @@
  "dubai crown prince offers condolences to alkaabi family": {
   "last_short": "2026-11-05",
   "long": "2026-10-17",
+  "montage_exhausted": true,
   "montage_used": 6,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -6909,9 +6910,9 @@
   "video_len": 19
  },
  "hamdan bin mohammed honours winners of 5th islamic economy award": {
-  "last_short": "2026-11-05",
+  "last_short": "2026-11-07",
   "long": "2026-10-30",
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -7004,6 +7005,10 @@
    [
     68.84,
     71.11999999999999
+   ],
+   [
+    102.48,
+    104.67999999999999
    ]
   ],
   "video_exhausted": true,
@@ -11008,8 +11013,8 @@
   "video_len": 281
  },
  "hamdan bin mohammed opens cityscape global 2017": {
-  "last_short": "2026-11-06",
-  "montage_used": 25,
+  "last_short": "2026-11-07",
+  "montage_used": 26,
   "remix_ranges": [
    [
     15.810590002816998,
@@ -11125,6 +11130,10 @@
    [
     91.04,
     93.39999999999999
+   ],
+   [
+    239.24,
+    242.07999999999998
    ]
   ],
   "video_exhausted": true,
@@ -11942,6 +11951,7 @@
  "hamdan bin mohammed receives afc president": {
   "last_short": "2026-11-07",
   "long": "2026-10-14",
+  "montage_exhausted": true,
   "montage_used": 7,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -17252,8 +17262,8 @@
   "video_len": 160
  },
  "hamdan chairs expo 2020 higher committee s first session": {
-  "last_short": "2026-11-04",
-  "montage_used": 5,
+  "last_short": "2026-11-07",
+  "montage_used": 6,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -17277,6 +17287,10 @@
    [
     67.42,
     70.71333333333332
+   ],
+   [
+    60.95333333333333,
+    63.84666666666667
    ]
   ],
   "video_exhausted": true,
@@ -17400,9 +17414,9 @@
   "long": "2026-10-22"
  },
  "hamdan inspects al bayt studio": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-07",
   "long": "2026-10-31",
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -17450,6 +17464,10 @@
    [
     129.55333333333334,
     132.48
+   ],
+   [
+    66.35333333333334,
+    68.88
    ]
   ],
   "video_exhausted": true,
@@ -17588,6 +17606,7 @@
  "hamdan rename hbmeu to become hamdan bin mohammed smart university": {
   "last_short": "2026-11-05",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 3,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -17648,14 +17667,20 @@
   "video_len": 65
  },
  "hamdan visits dubai world hospitality championship": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-11-07",
   "long": "2026-10-31",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_exhausted": true,
   "remix_ranges": [
    [
     87.55243713425686,
     89.34161653458095
+   ]
+  ],
+  "shot_ranges": [
+   [
+    87.15333333333334,
+    90.78
    ]
   ],
   "video_exhausted": true,
@@ -19708,9 +19733,9 @@
   "video_len": 251
  },
  "mohammed bin rashid commends the dubai executive council s efforts over the past 15 years": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-07",
   "long": "2026-10-28",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -19763,6 +19788,10 @@
    [
     77.76,
     80.32
+   ],
+   [
+    108.25833333333331,
+    109.70166666666668
    ]
   ],
   "video_exhausted": true,

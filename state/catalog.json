@@ -19590,6 +19590,7 @@
  "mohamed bin zayed hamdan bin mohammed take part in walk unified event": {
   "last_short": "2026-11-07",
   "long": "2026-10-23",
+  "montage_exhausted": true,
   "montage_used": 2,
   "remix_exhausted": true,
   "remix_ranges": [

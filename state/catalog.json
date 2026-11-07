@@ -125,9 +125,9 @@
   "long": "2026-10-17"
  },
  "crown prince offers condolences to al mansouri family": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-07",
   "long": "2026-10-16",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -143,6 +143,10 @@
    [
     27.64,
     31.88
+   ],
+   [
+    14.639999999999999,
+    18.88
    ]
   ],
   "video_exhausted": true,
@@ -5026,9 +5030,9 @@
   "video_len": 507
  },
  "hamdan bin mohammed attends the launche of uae innovation month in dubai": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-07",
   "long": "2026-10-30",
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -5105,6 +5109,10 @@
    [
     13.399999999999999,
     15.4
+   ],
+   [
+    336.72,
+    338.88
    ]
   ],
   "video_exhausted": true,
@@ -13984,8 +13992,8 @@
   "video_len": 234
  },
  "hamdan bin mohammed unveils 5 star plaques at three customer happiness centres in dubai": {
-  "last_short": "2026-11-04",
-  "montage_used": 18,
+  "last_short": "2026-11-07",
+  "montage_used": 19,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -14070,6 +14078,10 @@
    [
     266.40000000000003,
     268.04
+   ],
+   [
+    131.4,
+    133.4
    ]
   ],
   "video_exhausted": true,
@@ -15532,9 +15544,9 @@
   "video_len": 260
  },
  "hamdan bin mohammed visits dubai international boat show": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-07",
   "long": "2026-10-14",
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -15619,6 +15631,10 @@
    [
     252.28,
     254.64
+   ],
+   [
+    225.52,
+    228.72
    ]
   ],
   "video_exhausted": true,
@@ -17182,9 +17198,9 @@
   "video_len": 162
  },
  "hamdan chairs 1st meeting for higher committee to implement smart city project": {
-  "last_short": "2026-11-05",
+  "last_short": "2026-11-07",
   "long": "2026-10-31",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -17220,6 +17236,10 @@
    [
     13.553333333333333,
     15.913333333333336
+   ],
+   [
+    53.68666666666667,
+    55.74666666666667
    ]
   ],
   "video_exhausted": true,
@@ -17334,7 +17354,7 @@
  "hamdan inaugurates makani smart app": {
   "last_short": "2026-11-07",
   "long": "2026-10-31",
-  "montage_used": 7,
+  "montage_used": 8,
   "no_video_until": "2026-10-29",
   "remix_exhausted": true,
   "remix_ranges": [
@@ -17367,6 +17387,10 @@
    [
     60.086666666666666,
     63.28
+   ],
+   [
+    29.720000000000002,
+    32.480000000000004
    ]
   ],
   "video_exhausted": true,

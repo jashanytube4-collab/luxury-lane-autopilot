@@ -4,7 +4,7 @@
   "term:championship": "2026-11-03"
  },
  "ig_status": {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "ok": true
  },
  "lines_used": {
@@ -887,7 +887,8 @@
   "llee25254dfe",
   "ll42e9a84385",
   "llefc67b708d",
-  "ll237c265b3a"
+  "ll237c265b3a",
+  "ll04e5734dff"
  ],
  "quotes": [
   {
@@ -1025,7 +1026,6 @@
   }
  ],
  "recent_hooks": [
-  "STILL SO HUMBLE | The prince who never stops learning. 👑 #youtubeshorts #youtube #fazza",
   "NO ONE CARRIES IT LIKE HIM | A horseman's discipline. A poet's soul. #princehamdan #youtubeshorts #youtube",
   "WATCH HOW HE CARRIES HIMSELF | The heart of the Emirates beats in its people. He knows it. 👑 #youtubeshorts #youtube #fazza",
   "THE FUTURE RULER OF DUBAI | The man, the poet, the prince. 🤍 #youtubeshorts #ytshorts",
@@ -1084,10 +1084,10 @@
   "THE MOST LOVED PRINCE | A leader for today and tomorrow. #princehamdan #youtubeshorts #youtube",
   "THE MOST LOVED PRINCE | His people are his pride. #youtubeshorts #youtube",
   "PURE CLASS | He leads by example, not by words. ❤️ #youtubeshorts #ytshorts",
-  "REAL MOMENTS. REAL FAZZA. | Live with honour, lead with heart. 🤍 #youtube #youtubeshorts"
+  "REAL MOMENTS. REAL FAZZA. | Live with honour, lead with heart. 🤍 #youtube #youtubeshorts",
+  "STILL SO HUMBLE | Leadership is not a position. It is an action. ❤️ #youtube #youtubeshorts"
  ],
  "recent_titles": [
-  "Fazza: a name the world remembers. ✨ #youtubeshorts #youtube",
   "The world sees royalty; we see Fazza's heart. 🤍 #youtube #youtubeshorts",
   "Leading with love is the strongest leadership. 👑 #youtube #youtubeshorts",
   "Elegance in every move. 🤍 #youtubeshorts #youtube",
@@ -1386,12 +1386,13 @@
   "A leader for today and tomorrow. #princehamdan #youtubeshorts #youtube",
   "His people are his pride. #youtubeshorts #youtube",
   "He leads by example, not by words. ❤️ #youtubeshorts #ytshorts",
-  "Live with honour, lead with heart. 🤍 #youtube #youtubeshorts"
+  "Live with honour, lead with heart. 🤍 #youtube #youtubeshorts",
+  "Leadership is not a position. It is an action. ❤️ #youtube #youtubeshorts"
  ],
  "shorts_supply": {
-  "date": "2026-11-06",
-  "days": 5.2,
-  "events": 160
+  "date": "2026-11-07",
+  "days": 5.8,
+  "events": 181
  },
  "stories_done": [
   "flydubai-hero",

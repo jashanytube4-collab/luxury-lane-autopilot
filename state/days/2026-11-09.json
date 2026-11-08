@@ -1,0 +1,171 @@
+{
+ "date": "2026-11-09",
+ "slots": [
+  {
+   "at": "2026-11-09T06:08:06+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-09T06:59:11+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-09T07:40:20+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-09T08:23:01+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-09T09:07:33+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-09T10:00:26+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-09T10:53:35+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-09T11:46:49+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-09T12:27:49+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-09T13:07:48+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-09T14:00:49+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-09T14:42:35+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-09T15:27:38+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-09T16:15:33+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-09T17:02:39+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-09T17:48:54+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-09T18:16:06+04:00",
+   "status": "open",
+   "type": "long"
+  },
+  {
+   "at": "2026-11-09T18:41:24+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-09T19:21:49+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-09T20:06:22+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-09T20:46:31+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-09T21:00:00+04:00",
+   "status": "open",
+   "type": "members"
+  },
+  {
+   "at": "2026-11-09T21:27:49+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-09T22:21:56+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-09T23:13:27+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-09T23:52:41+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-10T00:31:29+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-10T01:14:35+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-10T02:05:38+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-10T02:59:00+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-10T03:50:17+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-10T04:35:34+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-10T05:16:33+04:00",
+   "status": "open",
+   "type": "short"
+  }
+ ],
+ "timezone": "Asia/Dubai"
+}

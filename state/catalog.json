@@ -2960,6 +2960,7 @@
  },
  "hamdan bin mohammed attends annual meeting of global future leaders 2026 in dubai": {
   "long": "2026-10-30",
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "hamdan bin mohammed attends camel race at al marmoom": {
@@ -9501,6 +9502,7 @@
  },
  "hamdan bin mohammed meets with first cohort of graduates from the hamdan bin mohammed scholarship programme": {
   "long": "2026-11-02",
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "hamdan bin mohammed meets with global gaming leaders at dubai gaming retreat": {

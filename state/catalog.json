@@ -9508,6 +9508,7 @@
   "long": "2026-10-10",
   "montage_exhausted": true,
   "montage_used": 2,
+  "no_hamdan": true,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -12964,6 +12965,7 @@
   "video_len": 84
  },
  "hamdan bin mohammed reviews progress of key initiatives under dubai s education 33 strategy": {
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "hamdan bin mohammed reviews progress of key strategic road corridors projects timeline through 2027": {

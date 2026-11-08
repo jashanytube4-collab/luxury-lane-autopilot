@@ -890,7 +890,8 @@
   "ll237c265b3a",
   "ll04e5734dff",
   "lle65128853a",
-  "lld1ff1805d0"
+  "lld1ff1805d0",
+  "llfbf313bea0"
  ],
  "quotes": [
   {
@@ -1024,6 +1025,13 @@
    "link": "https://www.mediaoffice.ae/en/news/2026/october/29-10/hamdan-bin-mohammed-attends-launch-of-dubai-future-regulations-tea",
    "text": "We want legislative innovation to become an integrated institutional practice, driven by collaboration between Dubai’s public and private sectors.",
    "title": "Hamdan bin Mohammed attends launch of ‘Dubai ...",
+   "used": ""
+  },
+  {
+   "id": "8e2c4ace7354",
+   "link": "https://www.mediaoffice.ae/en/news/2026/novemebr/08-11/dubai-government-excellence-programme-commences-2026-assessment-cycle-with-279-nominations",
+   "text": "Our rigorous assessment process reflects the Government of Dubai’s commitment to advancing excellence.",
+   "title": "Dubai Government Excellence Programme commences ...",
    "used": ""
   }
  ],
@@ -1394,7 +1402,7 @@
  "shorts_supply": {
   "date": "2026-11-08",
   "days": 6.1,
-  "events": 190
+  "events": 189
  },
  "stories_done": [
   "flydubai-hero",

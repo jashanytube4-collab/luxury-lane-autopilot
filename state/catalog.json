@@ -239,6 +239,7 @@
  "dubai crown prince attends al ketbi family wedding reception": {
   "last_short": "2026-11-05",
   "long": "2026-10-27",
+  "montage_exhausted": true,
   "montage_used": 6,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -289,9 +290,9 @@
   "long": "2026-10-17"
  },
  "dubai crown prince attends graduation of dubai police academy": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-08",
   "long": "2026-10-31",
-  "montage_used": 25,
+  "montage_used": 26,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -432,6 +433,10 @@
    [
     131.16,
     133.48
+   ],
+   [
+    247.48999999999998,
+    250.63
    ]
   ],
   "video_exhausted": true,
@@ -5033,9 +5038,9 @@
   "video_len": 507
  },
  "hamdan bin mohammed attends the launche of uae innovation month in dubai": {
-  "last_short": "2026-11-07",
+  "last_short": "2026-11-08",
   "long": "2026-10-30",
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -5116,6 +5121,10 @@
    [
     336.72,
     338.88
+   ],
+   [
+    42.32,
+    44.440000000000005
    ]
   ],
   "video_exhausted": true,
@@ -15051,9 +15060,9 @@
   "video_len": 311
  },
  "hamdan bin mohammed visits dubai airshow 2017": {
-  "last_short": "2026-11-06",
+  "last_short": "2026-11-08",
   "long": "2026-11-02",
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -15113,6 +15122,10 @@
    [
     22.68,
     26.919999999999998
+   ],
+   [
+    51.279999999999994,
+    53.760000000000005
    ]
   ],
   "video_exhausted": true,
@@ -16275,9 +16288,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits personal status court": {
-  "last_short": "2026-11-06",
+  "last_short": "2026-11-08",
   "long": "2026-10-31",
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -16341,6 +16354,10 @@
    [
     30.52,
     32.88
+   ],
+   [
+    171.92000000000002,
+    174.0
    ]
   ],
   "video_exhausted": true,
@@ -16506,9 +16523,9 @@
   "video_len": 137
  },
  "hamdan bin mohammed visits stands of government entities at gitex2019": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-08",
   "long": "2026-10-31",
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -16617,6 +16634,10 @@
    [
     25.12,
     27.439999999999998
+   ],
+   [
+    237.72,
+    240.64
    ]
   ],
   "video_exhausted": true,
@@ -19762,9 +19783,9 @@
   "video_len": 251
  },
  "mohammed bin rashid commends the dubai executive council s efforts over the past 15 years": {
-  "last_short": "2026-11-07",
+  "last_short": "2026-11-08",
   "long": "2026-10-28",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -19821,6 +19842,10 @@
    [
     108.25833333333331,
     109.70166666666668
+   ],
+   [
+    89.96000000000001,
+    92.67999999999999
    ]
   ],
   "video_exhausted": true,

@@ -7461,9 +7461,9 @@
   "video_len": 61
  },
  "hamdan bin mohammed inaugurates zabeel healthcare center": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-10",
   "long": "2026-10-22",
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -7532,6 +7532,10 @@
    [
     300.91833333333335,
     302.2816666666667
+   ],
+   [
+    182.6,
+    186.68
    ]
   ],
   "video_exhausted": true,
@@ -8071,6 +8075,7 @@
  },
  "hamdan bin mohammed launches integrated housing plan to provide 15 800 homes for nationals in dubai over the next four years": {
   "last_short": "2026-11-06",
+  "montage_exhausted": true,
   "montage_used": 6,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -9087,9 +9092,9 @@
   "video_len": 99
  },
  "hamdan bin mohammed meets students of dubai schools": {
-  "last_short": "2026-11-07",
+  "last_short": "2026-11-10",
   "long": "2026-10-17",
-  "montage_used": 25,
+  "montage_used": 26,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -9218,6 +9223,10 @@
    [
     95.36,
     99.11999999999999
+   ],
+   [
+    184.04,
+    186.96
    ]
   ],
   "video_len": 371
@@ -10448,9 +10457,9 @@
   "video_len": 64
  },
  "hamdan bin mohammed offers condolences on death of hamad al qasimi": {
-  "last_short": "2026-11-05",
+  "last_short": "2026-11-10",
   "long": "2026-10-20",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -10470,6 +10479,10 @@
    [
     43.8,
     46.52
+   ],
+   [
+    29.12,
+    31.24
    ]
   ],
   "video_exhausted": true,
@@ -10698,9 +10711,9 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed offers condolences to family of martyr al mesmari": {
-  "last_short": "2026-11-06",
+  "last_short": "2026-11-10",
   "long": "2026-10-27",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -10741,6 +10754,10 @@
    [
     80.12,
     83.36
+   ],
+   [
+    63.775000000000006,
+    66.26499999999999
    ]
   ],
   "video_exhausted": true,
@@ -10889,7 +10906,7 @@
  "hamdan bin mohammed officially opens gitex 2018": {
   "last_short": "2026-11-10",
   "long": "2026-11-02",
-  "montage_used": 22,
+  "montage_used": 23,
   "remix_ranges": [
    [
     126.01016816879962,
@@ -11001,6 +11018,10 @@
    [
     69.2,
     71.36
+   ],
+   [
+    262.32,
+    264.8
    ]
   ],
   "video_exhausted": true,
@@ -14793,7 +14814,7 @@
  "hamdan bin mohammed visits dewa s moro": {
   "last_short": "2026-11-10",
   "long": "2026-11-01",
-  "montage_used": 27,
+  "montage_used": 28,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -14938,6 +14959,10 @@
    [
     135.12,
     137.64
+   ],
+   [
+    112.76,
+    115.83999999999999
    ]
   ],
   "video_len": 401
@@ -17419,6 +17444,7 @@
  "hamdan honors winners of mbr arabic language award": {
   "last_short": "2026-11-05",
   "long": "2026-10-24",
+  "montage_exhausted": true,
   "montage_used": 2,
   "remix_exhausted": true,
   "remix_ranges": [

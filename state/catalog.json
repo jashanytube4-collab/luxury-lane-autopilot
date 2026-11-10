@@ -2998,9 +2998,9 @@
   "video_len": 65
  },
  "hamdan bin mohammed attends closing ceremony of 3rd dubai future accelerators program": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-11",
   "long": "2026-10-30",
-  "montage_used": 22,
+  "montage_used": 23,
   "remix_ranges": [
    [
     2.92,
@@ -3124,6 +3124,10 @@
    [
     22.880000000000003,
     25.2
+   ],
+   [
+    13.76,
+    15.92
    ]
   ],
   "video_len": 317
@@ -5405,9 +5409,9 @@
   "long": "2026-10-30"
  },
  "hamdan bin mohammed chairs executive council meeting": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-11",
   "long": "2026-10-30",
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -5472,6 +5476,10 @@
    [
     110.04,
     112.19999999999999
+   ],
+   [
+    83.88000000000001,
+    86.92
    ]
   ],
   "video_exhausted": true,
@@ -6940,9 +6948,9 @@
   "video_len": 19
  },
  "hamdan bin mohammed honours winners of 5th islamic economy award": {
-  "last_short": "2026-11-07",
+  "last_short": "2026-11-11",
   "long": "2026-10-30",
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -7039,6 +7047,10 @@
    [
     102.48,
     104.67999999999999
+   ],
+   [
+    36.76,
+    38.760000000000005
    ]
   ],
   "video_exhausted": true,
@@ -15636,6 +15648,7 @@
  "hamdan bin mohammed visits dubai international boat show": {
   "last_short": "2026-11-07",
   "long": "2026-10-14",
+  "montage_exhausted": true,
   "montage_used": 14,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -17250,9 +17263,9 @@
   "long": "2026-10-09"
  },
  "hamdan celebrates al ahli s arabian gulf league winning": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-11",
   "long": "2026-10-15",
-  "montage_used": 7,
+  "montage_used": 8,
   "no_video_until": "2026-10-29",
   "remix_exhausted": true,
   "remix_ranges": [
@@ -17298,6 +17311,10 @@
    [
     112.02000000000001,
     117.67999999999999
+   ],
+   [
+    1.9700000000000046,
+    2.829999999999995
    ]
   ],
   "video_exhausted": true,
@@ -17463,9 +17480,9 @@
   "video_len": 551
  },
  "hamdan inaugurates makani smart app": {
-  "last_short": "2026-11-07",
+  "last_short": "2026-11-11",
   "long": "2026-10-31",
-  "montage_used": 8,
+  "montage_used": 9,
   "no_video_until": "2026-10-29",
   "remix_exhausted": true,
   "remix_ranges": [
@@ -17502,6 +17519,10 @@
    [
     29.720000000000002,
     32.480000000000004
+   ],
+   [
+    37.78666666666666,
+    40.34666666666667
    ]
   ],
   "video_exhausted": true,
@@ -17511,9 +17532,9 @@
   "long": "2026-10-22"
  },
  "hamdan inspects al bayt studio": {
-  "last_short": "2026-11-07",
+  "last_short": "2026-11-11",
   "long": "2026-10-31",
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -17565,6 +17586,10 @@
    [
     66.35333333333334,
     68.88
+   ],
+   [
+    19.433333333333334,
+    24.433333333333334
    ]
   ],
   "video_exhausted": true,
@@ -18072,6 +18097,7 @@
     33.09666666666667
    ]
   ],
+  "video_exhausted": true,
   "video_len": 64
  },
  "ig:faz3:17841490177024724": {

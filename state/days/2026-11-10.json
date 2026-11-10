@@ -48,33 +48,38 @@
   },
   {
    "at": "2026-11-10T12:29:51+04:00",
-   "status": "open",
+   "status": "missed",
    "type": "short"
   },
   {
    "at": "2026-11-10T13:20:20+04:00",
-   "status": "open",
+   "status": "missed",
    "type": "short"
   },
   {
    "at": "2026-11-10T14:13:57+04:00",
-   "status": "open",
+   "status": "missed",
    "type": "short"
   },
   {
    "at": "2026-11-10T15:02:35+04:00",
-   "status": "open",
+   "status": "missed",
    "type": "short"
   },
   {
    "at": "2026-11-10T15:55:03+04:00",
-   "status": "open",
+   "status": "missed",
    "type": "short"
   },
   {
    "at": "2026-11-10T16:49:10+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "montage",
+   "status": "scheduled",
+   "title": "Rise early. Work hard. Stay humble. #youtubeshorts #ytshorts",
+   "type": "short",
+   "video_id": "rD_m3sGOHcg",
+   "voiced": true
   },
   {
    "at": "2026-11-10T17:29:08+04:00",

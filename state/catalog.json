@@ -1479,9 +1479,9 @@
   "video_len": 145
  },
  "hamdan addressing future circles looking forward for innovation based future": {
-  "last_short": "2026-11-06",
+  "last_short": "2026-11-12",
   "long": "2026-10-30",
-  "montage_used": 16,
+  "montage_used": 17,
   "no_video_until": "2026-11-02",
   "remix_exhausted": true,
   "remix_ranges": [
@@ -1550,6 +1550,10 @@
    [
     151.82,
     154.01333333333332
+   ],
+   [
+    23.453333333333333,
+    25.746666666666666
    ]
   ],
   "video_exhausted": true,
@@ -7558,8 +7562,8 @@
   "video_len": 451
  },
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
-  "last_short": "2026-11-04",
-  "montage_used": 18,
+  "last_short": "2026-11-12",
+  "montage_used": 19,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -7668,6 +7672,10 @@
    [
     164.64000000000001,
     166.72
+   ],
+   [
+    190.20000000000002,
+    192.24
    ]
   ],
   "video_exhausted": true,
@@ -10729,6 +10737,7 @@
  "hamdan bin mohammed offers condolences to family of martyr al mesmari": {
   "last_short": "2026-11-10",
   "long": "2026-10-27",
+  "montage_exhausted": true,
   "montage_used": 9,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -13064,9 +13073,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed reviews strategic plans of dubai civil defense": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-12",
   "long": "2026-10-31",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -13119,6 +13128,10 @@
    [
     32.12,
     33.86333333333334
+   ],
+   [
+    59.25333333333333,
+    63.080000000000005
    ]
   ],
   "video_exhausted": true,
@@ -16606,9 +16619,9 @@
   "video_len": 137
  },
  "hamdan bin mohammed visits stands of government entities at gitex2019": {
-  "last_short": "2026-11-08",
+  "last_short": "2026-11-12",
   "long": "2026-10-31",
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -16721,6 +16734,10 @@
    [
     237.72,
     240.64
+   ],
+   [
+    143.16,
+    145.6
    ]
   ],
   "video_exhausted": true,
@@ -17700,8 +17717,8 @@
   "video_len": 44
  },
  "hamdan receives unesco expert": {
-  "last_short": "2026-10-29",
-  "montage_used": 5,
+  "last_short": "2026-11-12",
+  "montage_used": 6,
   "no_video_until": "2026-11-01",
   "remix_exhausted": true,
   "remix_ranges": [
@@ -17724,6 +17741,12 @@
    [
     28.838728814538793,
     30.30624967746148
+   ]
+  ],
+  "shot_ranges": [
+   [
+    62.235,
+    64.265
    ]
   ],
   "video_exhausted": true,

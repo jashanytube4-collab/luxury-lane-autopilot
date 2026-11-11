@@ -1038,6 +1038,20 @@
    "text": "Our rigorous assessment process reflects the Government of Dubai’s commitment to advancing excellence.",
    "title": "Dubai Government Excellence Programme commences ...",
    "used": ""
+  },
+  {
+   "id": "49d5432209c4",
+   "link": "https://www.mediaoffice.ae/en/news/2026/novemebr/11-11/hamdan-bin-mohammed-honours-winners-of-inaugural-dubai-it-award",
+   "text": "Our goal is to establish an enduring ethos of excellence passed down through generations.",
+   "title": "Hamdan bin Mohammed honours winners of inaugural ...",
+   "used": ""
+  },
+  {
+   "id": "04a8a3bed062",
+   "link": "https://www.mediaoffice.ae/en/news/2026/novemebr/11-11/hamdan-bin-mohammed-honours-winners-of-inaugural-dubai-it-award",
+   "text": "We look forward to more success stories that raise the bar for ambition and strengthen Dubai’s global leadership.",
+   "title": "Hamdan bin Mohammed honours winners of inaugural ...",
+   "used": ""
   }
  ],
  "recent_hooks": [
@@ -1407,7 +1421,7 @@
  "shorts_supply": {
   "date": "2026-11-11",
   "days": 6.4,
-  "events": 197
+  "events": 198
  },
  "stories_done": [
   "flydubai-hero",

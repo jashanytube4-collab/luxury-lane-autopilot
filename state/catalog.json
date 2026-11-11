@@ -3592,6 +3592,7 @@
  "hamdan bin mohammed attends global cardiology congress": {
   "last_short": "2026-11-06",
   "long": "2026-10-22",
+  "montage_exhausted": true,
   "montage_used": 20,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -10929,9 +10930,9 @@
   "long": "2026-10-28"
  },
  "hamdan bin mohammed officially opens gitex 2018": {
-  "last_short": "2026-11-10",
+  "last_short": "2026-11-12",
   "long": "2026-11-02",
-  "montage_used": 23,
+  "montage_used": 24,
   "remix_ranges": [
    [
     126.01016816879962,
@@ -11047,6 +11048,10 @@
    [
     262.32,
     264.8
+   ],
+   [
+    125.44,
+    127.91999999999999
    ]
   ],
   "video_exhausted": true,
@@ -13622,9 +13627,9 @@
   "video_len": 53
  },
  "hamdan bin mohammed tours gitex 2013": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-11-12",
   "long": "2026-10-14",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -13638,6 +13643,12 @@
    [
     27.585057415306046,
     30.039595010644287
+   ]
+  ],
+  "shot_ranges": [
+   [
+    13.55,
+    18.55
    ]
   ],
   "video_exhausted": true,
@@ -13992,8 +14003,8 @@
   "video_len": 189
  },
  "hamdan bin mohammed unveils 5 star plaque at sheikh zayed housing programme in dubai": {
-  "last_short": "2026-11-06",
-  "montage_used": 16,
+  "last_short": "2026-11-12",
+  "montage_used": 17,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -14094,6 +14105,10 @@
    [
     128.72666666666666,
     130.07333333333335
+   ],
+   [
+    145.34166666666664,
+    147.05833333333334
    ]
   ],
   "video_len": 234
@@ -17064,9 +17079,9 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed visits youth hub in emirates towers": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-12",
   "long": "2026-10-31",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -17082,6 +17097,10 @@
    [
     27.340000000000003,
     32.34
+   ],
+   [
+    5.72,
+    8.64
    ]
   ],
   "video_exhausted": true,
@@ -17836,9 +17855,9 @@
   "video_len": 202
  },
  "hamdan visits government think tank": {
-  "last_short": "2026-11-10",
+  "last_short": "2026-11-12",
   "long": "2026-11-02",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -17882,6 +17901,10 @@
    [
     28.52,
     30.779999999999998
+   ],
+   [
+    139.38666666666668,
+    141.78
    ]
   ],
   "video_exhausted": true,

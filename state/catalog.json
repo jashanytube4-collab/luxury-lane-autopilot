@@ -108,14 +108,20 @@
   "video_len": 413
  },
  "crown prince offers condolences to al adab family": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-11-13",
   "long": "2026-10-15",
-  "montage_used": 1,
+  "montage_used": 2,
   "remix_exhausted": true,
   "remix_ranges": [
    [
     33.39010952134282,
     35.548630994029445
+   ]
+  ],
+  "shot_ranges": [
+   [
+    33.12,
+    35.800000000000004
    ]
   ],
   "video_exhausted": true,
@@ -552,9 +558,9 @@
   "video_len": 62
  },
  "dubai crown prince hands over hamdan bin mohammed program for smart government flag to dubai police": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-13",
   "long": "2026-10-31",
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -643,6 +649,10 @@
    [
     208.32,
     215.78
+   ],
+   [
+    123.2,
+    127.39999999999999
    ]
   ],
   "video_exhausted": true,
@@ -5470,9 +5480,9 @@
   "long": "2026-10-30"
  },
  "hamdan bin mohammed chairs executive council meeting": {
-  "last_short": "2026-11-11",
+  "last_short": "2026-11-13",
   "long": "2026-10-30",
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -5541,6 +5551,10 @@
    [
     83.88000000000001,
     86.92
+   ],
+   [
+    61.784999999999954,
+    62.975000000000044
    ]
   ],
   "video_exhausted": true,
@@ -7544,7 +7558,7 @@
  "hamdan bin mohammed inaugurates zabeel healthcare center": {
   "last_short": "2026-11-13",
   "long": "2026-10-22",
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -7621,6 +7635,10 @@
    [
     148.9466668333333,
     152.57333316666666
+   ],
+   [
+    325.72,
+    327.84
    ]
   ],
   "video_exhausted": true,
@@ -10576,6 +10594,7 @@
  "hamdan bin mohammed offers condolences on death of hamad al qasimi": {
   "last_short": "2026-11-10",
   "long": "2026-10-20",
+  "montage_exhausted": true,
   "montage_used": 5,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -14217,7 +14236,7 @@
  },
  "hamdan bin mohammed unveils 5 star plaques at three customer happiness centres in dubai": {
   "last_short": "2026-11-13",
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -14310,6 +14329,10 @@
    [
     206.64000000000001,
     208.76
+   ],
+   [
+    241.20000000000002,
+    244.04
    ]
   ],
   "video_exhausted": true,
@@ -17553,7 +17576,7 @@
  },
  "hamdan chairs expo 2020 higher committee s first session": {
   "last_short": "2026-11-13",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -17585,6 +17608,10 @@
    [
     11.819999999999999,
     14.446666666666667
+   ],
+   [
+    113.15333333333334,
+    116.11333333333333
    ]
   ],
   "video_exhausted": true,

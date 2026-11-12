@@ -291,9 +291,9 @@
   "long": "2026-10-17"
  },
  "dubai crown prince attends graduation of dubai police academy": {
-  "last_short": "2026-11-08",
+  "last_short": "2026-11-13",
   "long": "2026-10-31",
-  "montage_used": 26,
+  "montage_used": 27,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -438,6 +438,10 @@
    [
     247.48999999999998,
     250.63
+   ],
+   [
+    77.36,
+    81.28
    ]
   ],
   "video_exhausted": true,
@@ -4951,9 +4955,9 @@
   "video_len": 164
  },
  "hamdan bin mohammed attends the knowledge summit 2018": {
-  "last_short": "2026-11-12",
+  "last_short": "2026-11-13",
   "long": "2026-10-31",
-  "montage_used": 24,
+  "montage_used": 25,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -5090,6 +5094,10 @@
    [
     472.16,
     474.76
+   ],
+   [
+    485.4,
+    487.44
    ]
   ],
   "video_len": 507
@@ -8406,9 +8414,9 @@
   "video_len": 69
  },
  "hamdan bin mohammed launches sports initiatives": {
-  "last_short": "2026-11-12",
+  "last_short": "2026-11-13",
   "long": "2026-10-18",
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -8497,6 +8505,10 @@
    [
     212.16,
     214.96
+   ],
+   [
+    79.24000000000001,
+    81.6
    ]
   ],
   "video_exhausted": true,
@@ -14307,9 +14319,9 @@
   "long": "2026-10-13"
  },
  "hamdan bin mohammed visit family who lost seven children in house fire": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-13",
   "long": "2026-10-25",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -14329,6 +14341,10 @@
    [
     21.880000000000003,
     26.880000000000003
+   ],
+   [
+    46.839999999999996,
+    49.64
    ]
   ],
   "video_exhausted": true,
@@ -14883,8 +14899,8 @@
   "video_len": 196
  },
  "hamdan bin mohammed visits department of economic development": {
-  "last_short": "2026-11-06",
-  "montage_used": 14,
+  "last_short": "2026-11-13",
+  "montage_used": 15,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -14944,6 +14960,10 @@
    [
     87.52000000000001,
     90.39999999999999
+   ],
+   [
+    180.6,
+    184.35999999999999
    ]
   ],
   "video_exhausted": true,
@@ -15177,6 +15197,7 @@
  "hamdan bin mohammed visits dp world s facilities inspects operations of jebel ali port": {
   "last_short": "2026-11-05",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 16,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -17525,6 +17546,7 @@
  },
  "hamdan chairs dubai executive council meeting": {
   "long": "2026-10-30",
+  "montage_exhausted": true,
   "remix_exhausted": true,
   "video_exhausted": true,
   "video_len": 160
@@ -17958,6 +17980,7 @@
  "hamdan visits dubai world hospitality championship": {
   "last_short": "2026-11-07",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 2,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -20247,6 +20270,7 @@
  "ruler of umm al quwain accepts condolences from hamdan bin mohammed": {
   "last_short": "2026-11-13",
   "long": "2026-10-28",
+  "montage_exhausted": true,
   "montage_used": 13,
   "remix_exhausted": true,
   "remix_ranges": [

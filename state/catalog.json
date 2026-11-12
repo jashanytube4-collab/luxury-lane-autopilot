@@ -4177,9 +4177,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends hct graduation": {
-  "last_short": "2026-11-10",
+  "last_short": "2026-11-13",
   "long": "2026-10-31",
-  "montage_used": 30,
+  "montage_used": 31,
   "remix_ranges": [
    [
     45.8,
@@ -4311,6 +4311,10 @@
    [
     277.4,
     281.36
+   ],
+   [
+    156.48000000000002,
+    159.92
    ]
   ],
   "video_exhausted": true,
@@ -7530,9 +7534,9 @@
   "video_len": 61
  },
  "hamdan bin mohammed inaugurates zabeel healthcare center": {
-  "last_short": "2026-11-10",
+  "last_short": "2026-11-13",
   "long": "2026-10-22",
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -7605,6 +7609,10 @@
    [
     182.6,
     186.68
+   ],
+   [
+    148.9466668333333,
+    152.57333316666666
    ]
   ],
   "video_exhausted": true,
@@ -15252,9 +15260,9 @@
   "video_len": 311
  },
  "hamdan bin mohammed visits dubai airshow 2017": {
-  "last_short": "2026-11-12",
+  "last_short": "2026-11-13",
   "long": "2026-11-02",
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -15322,6 +15330,10 @@
    [
     134.76,
     137.6
+   ],
+   [
+    76.68,
+    79.36
    ]
   ],
   "video_exhausted": true,
@@ -19590,9 +19602,9 @@
   "video_len": 64
  },
  "khaled bin mohamed bin zayed hamdan bin mohammed bin rashid attend world governments summit 2025": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-11-13",
   "long": "2026-10-25",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -19617,6 +19629,10 @@
    [
     23.353333333333335,
     25.096666666666664
+   ],
+   [
+    52.15333333333333,
+    56.546667
    ]
   ],
   "video_exhausted": true,

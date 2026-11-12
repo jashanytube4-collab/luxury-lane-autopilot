@@ -1148,9 +1148,9 @@
   "video_len": 78
  },
  "dubai crown prince visits dubai municipality": {
-  "last_short": "2026-11-06",
+  "last_short": "2026-11-12",
   "long": "2026-11-02",
-  "montage_used": 24,
+  "montage_used": 25,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -1263,6 +1263,10 @@
    [
     130.84,
     133.68
+   ],
+   [
+    328.72,
+    331.15999999999997
    ]
   ],
   "video_exhausted": true,
@@ -1796,9 +1800,9 @@
   "long": "2026-10-27"
  },
  "hamdan attends wedding reception": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-11-12",
   "long": "2026-10-15",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -1816,6 +1820,12 @@
    [
     18.92,
     20.8
+   ]
+  ],
+  "shot_ranges": [
+   [
+    7.540000000000001,
+    12.540000000000001
    ]
   ],
   "video_exhausted": true,
@@ -5180,9 +5190,9 @@
   "video_len": 54
  },
  "hamdan bin mohammed attends wedding": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-11-12",
   "long": "2026-10-15",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -5200,6 +5210,12 @@
    [
     44.239999999999995,
     46.56
+   ]
+  ],
+  "shot_ranges": [
+   [
+    67.48999999999998,
+    69.75000000000003
    ]
   ],
   "video_exhausted": true,
@@ -8334,9 +8350,9 @@
   "video_len": 69
  },
  "hamdan bin mohammed launches sports initiatives": {
-  "last_short": "2026-11-05",
+  "last_short": "2026-11-12",
   "long": "2026-10-18",
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -8421,6 +8437,10 @@
    [
     242.26,
     243.74
+   ],
+   [
+    212.16,
+    214.96
    ]
   ],
   "video_exhausted": true,
@@ -17670,6 +17690,7 @@
  "hamdan officially opens 19th edition of dubai world cup": {
   "last_short": "2026-11-03",
   "long": "2026-10-12",
+  "montage_exhausted": true,
   "montage_used": 4,
   "no_video_until": "2026-11-02",
   "remix_exhausted": true,

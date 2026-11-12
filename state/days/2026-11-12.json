@@ -118,8 +118,13 @@
   },
   {
    "at": "2026-11-12T20:51:34+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "montage",
+   "status": "scheduled",
+   "title": "Proud father. Proud son. Proud Emirati. #princehamdan #youtubeshorts #youtube",
+   "type": "short",
+   "video_id": "DbJ-3P4S7hw",
+   "voiced": true
   },
   {
    "at": "2026-11-12T21:00:00+04:00",

@@ -1378,9 +1378,9 @@
   "long": "2026-10-23"
  },
  "dubai executive council approves annual agenda for 2018": {
-  "last_short": "2026-11-05",
+  "last_short": "2026-11-12",
   "long": "2026-10-30",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -1408,6 +1408,10 @@
    [
     16.44,
     21.04
+   ],
+   [
+    40.08,
+    43.800000000000004
    ]
   ],
   "video_exhausted": true,
@@ -4933,9 +4937,9 @@
   "video_len": 164
  },
  "hamdan bin mohammed attends the knowledge summit 2018": {
-  "last_short": "2026-11-06",
+  "last_short": "2026-11-12",
   "long": "2026-10-31",
-  "montage_used": 23,
+  "montage_used": 24,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -5068,6 +5072,10 @@
    [
     467.72,
     469.76
+   ],
+   [
+    472.16,
+    474.76
    ]
   ],
   "video_len": 507
@@ -7935,9 +7943,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed launches 26 dubai 10x projects issues directive to implement them within 24 months": {
-  "last_short": "2026-11-10",
+  "last_short": "2026-11-12",
   "long": "2026-10-31",
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -7997,6 +8005,10 @@
    [
     206.32,
     208.51999999999998
+   ],
+   [
+    212.04,
+    214.24
    ]
   ],
   "video_exhausted": true,
@@ -8017,7 +8029,7 @@
  "hamdan bin mohammed launches day for dubai encourages residents to volunteer": {
   "last_short": "2026-11-12",
   "long": "2026-10-31",
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -8065,6 +8077,10 @@
    [
     111.52000000000001,
     113.96
+   ],
+   [
+    58.81499999999998,
+    60.385000000000005
    ]
   ],
   "video_exhausted": true,
@@ -12584,6 +12600,7 @@
  },
  "hamdan bin mohammed receives victory team xcat": {
   "last_short": "2026-11-05",
+  "montage_exhausted": true,
   "montage_used": 7,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -13118,6 +13135,7 @@
  "hamdan bin mohammed reviews strategic plans of dubai civil defense": {
   "last_short": "2026-11-12",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 8,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -16806,9 +16824,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits the dubai future foundation headquarters and reviews 10x projects": {
-  "last_short": "2026-11-10",
+  "last_short": "2026-11-12",
   "long": "2026-10-30",
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -16889,6 +16907,10 @@
    [
     31.44,
     34.400000000000006
+   ],
+   [
+    104.72,
+    107.47999999999999
    ]
   ],
   "video_exhausted": true,
@@ -17565,6 +17587,7 @@
  "hamdan inaugurates makani smart app": {
   "last_short": "2026-11-11",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 9,
   "no_video_until": "2026-10-29",
   "remix_exhausted": true,

@@ -898,7 +898,9 @@
   "ll2826ea92a5",
   "llf2e46770b2",
   "llb9f6759bd3",
-  "ll45bd46733f"
+  "ll45bd46733f",
+  "ll64737c01e8",
+  "ll05bd3fc483"
  ],
  "quotes": [
   {
@@ -1057,7 +1059,6 @@
   }
  ],
  "recent_hooks": [
-  "QUIET POWER | A heart for his people. A vision for the world. #princehamdan #youtubeshorts #youtube",
   "THE MOST LOVED PRINCE | Respect follows him everywhere. 🤍 #princehamdan #youtubeshorts #youtube",
   "THE PRESENCE OF A LEADER | Nothing fake. Just Fazza. ✨ #princehamdan #youtubeshorts #youtube",
   "THE MAN BEHIND THE TITLE | A prince's true legacy is written in smiles. 🤍 #fazza #youtubeshorts #youtube",
@@ -1116,10 +1117,10 @@
   "CALM. HUMBLE. FAZZA. | Every generation needs a leader like him. ❤️ #youtubeshorts #youtube #fazza",
   "DUBAI'S FAVOURITE PRINCE | He never forgets where he comes from. #youtubeshorts #youtube",
   "WATCH HOW HE CARRIES HIMSELF | Greatness begins with respect. ✨ #youtubeshorts #youtube",
-  "THE CROWN PRINCE, UP CLOSE | Proud father. Proud son. Proud Emirati. #princehamdan #youtubeshorts #youtube"
+  "THE CROWN PRINCE, UP CLOSE | Proud father. Proud son. Proud Emirati. #princehamdan #youtubeshorts #youtube",
+  "NO ONE CARRIES IT LIKE HIM | Strength, humility and elegance in one man. 🤍 #youtubeshorts #ytshorts"
  ],
  "recent_titles": [
-  "Pure heart, strong mind. #youtubeshorts #ytshorts",
   "A prince of the desert, a leader of the world. 🤍 #youtubeshorts #ytshorts",
   "The desert falcon of Dubai. ❤️ #fazza #youtubeshorts #youtube",
   "When he smiles, Dubai smiles. #youtubeshorts #youtube #fazza",
@@ -1418,12 +1419,13 @@
   "Every generation needs a leader like him. ❤️ #youtubeshorts #youtube #fazza",
   "He never forgets where he comes from. #youtubeshorts #youtube",
   "Greatness begins with respect. ✨ #youtubeshorts #youtube",
-  "Proud father. Proud son. Proud Emirati. #princehamdan #youtubeshorts #youtube"
+  "Proud father. Proud son. Proud Emirati. #princehamdan #youtubeshorts #youtube",
+  "Strength, humility and elegance in one man. 🤍 #youtubeshorts #ytshorts"
  ],
  "shorts_supply": {
   "date": "2026-11-12",
-  "days": 6.2,
-  "events": 192
+  "days": 6.1,
+  "events": 188
  },
  "stories_done": [
   "flydubai-hero",

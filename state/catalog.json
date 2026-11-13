@@ -4965,9 +4965,9 @@
   "video_len": 164
  },
  "hamdan bin mohammed attends the knowledge summit 2018": {
-  "last_short": "2026-11-13",
+  "last_short": "2026-11-14",
   "long": "2026-10-31",
-  "montage_used": 25,
+  "montage_used": 26,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -5108,6 +5108,10 @@
    [
     485.4,
     487.44
+   ],
+   [
+    432.96,
+    434.96
    ]
   ],
   "video_len": 507
@@ -9192,8 +9196,8 @@
   "video_len": 46
  },
  "hamdan bin mohammed meets promising leaders from various dubai government entities": {
-  "last_short": "2026-11-03",
-  "montage_used": 5,
+  "last_short": "2026-11-14",
+  "montage_used": 6,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -9217,6 +9221,10 @@
    [
     22.68,
     26.08
+   ],
+   [
+    54.8,
+    58.2
    ]
   ],
   "video_exhausted": true,
@@ -10109,9 +10117,9 @@
   "video_len": 63
  },
  "hamdan bin mohammed meets with participants of retail summit in dubai": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-14",
   "long": "2026-10-31",
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -10212,6 +10220,10 @@
    [
     144.96,
     147.28
+   ],
+   [
+    93.28166666666664,
+    93.79833333333333
    ]
   ],
   "video_exhausted": true,
@@ -13835,6 +13847,7 @@
  "hamdan bin mohammed tours gulfood 2023": {
   "last_short": "2026-11-04",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 6,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -14583,9 +14596,9 @@
   "video_len": 57
  },
  "hamdan bin mohammed visits area 2071 reviews dubai 10x initiative projects": {
-  "last_short": "2026-11-07",
+  "last_short": "2026-11-14",
   "long": "2026-10-31",
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -14662,6 +14675,10 @@
    [
     105.64,
     108.08
+   ],
+   [
+    140.48000000000002,
+    142.79999999999998
    ]
   ],
   "video_exhausted": true,
@@ -17462,9 +17479,9 @@
   "long": "2026-10-09"
  },
  "hamdan celebrates al ahli s arabian gulf league winning": {
-  "last_short": "2026-11-11",
+  "last_short": "2026-11-14",
   "long": "2026-10-15",
-  "montage_used": 8,
+  "montage_used": 9,
   "no_video_until": "2026-10-29",
   "remix_exhausted": true,
   "remix_ranges": [
@@ -17514,6 +17531,10 @@
    [
     1.9700000000000046,
     2.829999999999995
+   ],
+   [
+    11.653333333333332,
+    16.346666666666664
    ]
   ],
   "video_exhausted": true,
@@ -18026,9 +18047,9 @@
   "video_len": 202
  },
  "hamdan visits government think tank": {
-  "last_short": "2026-11-12",
+  "last_short": "2026-11-14",
   "long": "2026-11-02",
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -18076,6 +18097,10 @@
    [
     139.38666666666668,
     141.78
+   ],
+   [
+    19.353333333333335,
+    22.113333333333333
    ]
   ],
   "video_exhausted": true,
@@ -19743,6 +19768,7 @@
  "khalifasat launches successfully into orbit emphasising uae s leadership in developing satellites": {
   "last_short": "2026-11-04",
   "long": "2026-10-14",
+  "montage_exhausted": true,
   "montage_used": 16,
   "remix_exhausted": true,
   "remix_ranges": [

@@ -659,9 +659,9 @@
   "video_len": 232
  },
  "dubai crown prince holds minute s silence to honour martyrs on commemoration day": {
-  "last_short": "2026-11-10",
+  "last_short": "2026-11-14",
   "long": "2026-10-31",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -701,6 +701,10 @@
    [
     110.08,
     115.08
+   ],
+   [
+    27.8,
+    30.64
    ]
   ],
   "video_exhausted": true,
@@ -1048,8 +1052,8 @@
   "video_len": 130
  },
  "dubai crown prince receives president of the chechen": {
-  "last_short": "2026-11-05",
-  "montage_used": 10,
+  "last_short": "2026-11-14",
+  "montage_used": 11,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -1093,6 +1097,10 @@
    [
     50.12,
     52.800000000000004
+   ],
+   [
+    43.96,
+    47.2
    ]
   ],
   "video_exhausted": true,
@@ -1170,9 +1178,9 @@
   "video_len": 78
  },
  "dubai crown prince visits dubai municipality": {
-  "last_short": "2026-11-13",
+  "last_short": "2026-11-14",
   "long": "2026-11-02",
-  "montage_used": 26,
+  "montage_used": 27,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -1293,6 +1301,10 @@
    [
     178.88,
     181.88
+   ],
+   [
+    17.400000000000002,
+    20.599999999999998
    ]
   ],
   "video_exhausted": true,
@@ -8451,9 +8463,9 @@
   "video_len": 69
  },
  "hamdan bin mohammed launches sports initiatives": {
-  "last_short": "2026-11-13",
+  "last_short": "2026-11-14",
   "long": "2026-10-18",
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -8546,6 +8558,10 @@
    [
     79.24000000000001,
     81.6
+   ],
+   [
+    87.4,
+    89.92
    ]
   ],
   "video_exhausted": true,
@@ -12831,9 +12847,9 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed reviews dubai future foundation s 2018 plan and projects": {
-  "last_short": "2026-11-05",
+  "last_short": "2026-11-14",
   "long": "2026-10-30",
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -12881,6 +12897,10 @@
    [
     96.05999999999999,
     100.66
+   ],
+   [
+    25.884999999999998,
+    27.31500000000001
    ]
   ],
   "video_exhausted": true,
@@ -16309,6 +16329,7 @@
  "hamdan bin mohammed visits innovation labs 2018": {
   "last_short": "2026-11-13",
   "long": "2026-10-30",
+  "montage_exhausted": true,
   "montage_used": 11,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -17621,6 +17642,7 @@
  },
  "hamdan chairs expo 2020 higher committee s first session": {
   "last_short": "2026-11-13",
+  "montage_exhausted": true,
   "montage_used": 8,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -17952,8 +17974,8 @@
   "video_len": 44
  },
  "hamdan receives unesco expert": {
-  "last_short": "2026-11-12",
-  "montage_used": 6,
+  "last_short": "2026-11-14",
+  "montage_used": 7,
   "no_video_until": "2026-11-01",
   "remix_exhausted": true,
   "remix_ranges": [
@@ -17982,6 +18004,10 @@
    [
     62.235,
     64.265
+   ],
+   [
+    28.153333333333336,
+    31.513333333333332
    ]
   ],
   "video_exhausted": true,

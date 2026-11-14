@@ -1444,9 +1444,9 @@
   "long": "2026-10-22"
  },
  "executive council reviews a number of projects": {
-  "last_short": "2026-11-07",
+  "last_short": "2026-11-14",
   "long": "2026-10-30",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -1474,6 +1474,10 @@
    [
     35.88666666666666,
     39.34666666666667
+   ],
+   [
+    2.52,
+    5.18
    ]
   ],
   "video_exhausted": true,
@@ -5119,6 +5123,7 @@
  "hamdan bin mohammed attends the launche of uae innovation month in dubai": {
   "last_short": "2026-11-12",
   "long": "2026-10-30",
+  "montage_exhausted": true,
   "montage_used": 17,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -6318,6 +6323,7 @@
  "hamdan bin mohammed extends condolences to families of pilots": {
   "last_short": "2026-11-10",
   "long": "2026-10-14",
+  "montage_exhausted": true,
   "montage_used": 12,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -6903,9 +6909,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed honours mbr creative sports award winners": {
-  "last_short": "2026-11-07",
+  "last_short": "2026-11-14",
   "long": "2026-10-18",
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -7018,6 +7024,10 @@
    [
     106.04,
     108.52
+   ],
+   [
+    114.48,
+    116.96
    ]
   ],
   "video_len": 669
@@ -7649,8 +7659,8 @@
   "video_len": 451
  },
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
-  "last_short": "2026-11-12",
-  "montage_used": 19,
+  "last_short": "2026-11-14",
+  "montage_used": 20,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -7763,6 +7773,10 @@
    [
     190.20000000000002,
     192.24
+   ],
+   [
+    86.36,
+    89.24
    ]
   ],
   "video_exhausted": true,
@@ -7802,6 +7816,7 @@
  "hamdan bin mohammed inspects rta s autonomous mobility and ai projects": {
   "last_short": "2026-11-06",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 20,
   "remix_ranges": [
    [
@@ -11057,9 +11072,9 @@
   "long": "2026-10-28"
  },
  "hamdan bin mohammed officially opens gitex 2018": {
-  "last_short": "2026-11-12",
+  "last_short": "2026-11-14",
   "long": "2026-11-02",
-  "montage_used": 25,
+  "montage_used": 26,
   "remix_ranges": [
    [
     126.01016816879962,
@@ -11183,6 +11198,10 @@
    [
     102.76,
     105.11999999999999
+   ],
+   [
+    143.16,
+    145.24
    ]
   ],
   "video_exhausted": true,
@@ -14138,6 +14157,7 @@
  },
  "hamdan bin mohammed unveils 5 star plaque at sheikh zayed housing programme in dubai": {
   "last_short": "2026-11-12",
+  "montage_exhausted": true,
   "montage_used": 17,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -17481,7 +17501,7 @@
  "hamdan celebrates al ahli s arabian gulf league winning": {
   "last_short": "2026-11-14",
   "long": "2026-10-15",
-  "montage_used": 9,
+  "montage_used": 10,
   "no_video_until": "2026-10-29",
   "remix_exhausted": true,
   "remix_ranges": [
@@ -17535,6 +17555,10 @@
    [
     11.653333333333332,
     16.346666666666664
+   ],
+   [
+    47.55333333333333,
+    50.74666666666667
    ]
   ],
   "video_exhausted": true,
@@ -17647,6 +17671,7 @@
  "hamdan dubai s a global center for sukuk listing": {
   "last_short": "2026-11-05",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 6,
   "no_video_until": "2026-10-29",
   "remix_exhausted": true,

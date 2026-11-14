@@ -5261,9 +5261,9 @@
   "video_len": 54
  },
  "hamdan bin mohammed attends wedding": {
-  "last_short": "2026-11-12",
+  "last_short": "2026-11-15",
   "long": "2026-10-15",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -5287,6 +5287,10 @@
    [
     67.48999999999998,
     69.75000000000003
+   ],
+   [
+    61.4,
+    64.32
    ]
   ],
   "video_exhausted": true,
@@ -6814,9 +6818,9 @@
   "long": "2026-10-21"
  },
  "hamdan bin mohammed honours arab contributors to entrepreneurial development": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-15",
   "long": "2026-10-31",
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -6901,6 +6905,10 @@
    [
     31.240000000000002,
     33.52
+   ],
+   [
+    320.56,
+    323.68
    ]
   ],
   "video_exhausted": true,
@@ -8110,9 +8118,9 @@
   "long": "2026-10-30"
  },
  "hamdan bin mohammed launches day for dubai encourages residents to volunteer": {
-  "last_short": "2026-11-12",
+  "last_short": "2026-11-15",
   "long": "2026-10-31",
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -8164,6 +8172,10 @@
    [
     58.81499999999998,
     60.385000000000005
+   ],
+   [
+    0.1200000000000001,
+    2.96
    ]
   ],
   "video_exhausted": true,
@@ -11743,9 +11755,9 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed opens gitex tech week 2017": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-15",
   "long": "2026-10-14",
-  "montage_used": 22,
+  "montage_used": 23,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -11878,6 +11890,10 @@
    [
     374.6,
     377.32
+   ],
+   [
+    70.72,
+    73.08
    ]
   ],
   "video_len": 548
@@ -18098,9 +18114,9 @@
   "video_len": 202
  },
  "hamdan visits government think tank": {
-  "last_short": "2026-11-14",
+  "last_short": "2026-11-15",
   "long": "2026-11-02",
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -18152,6 +18168,10 @@
    [
     19.353333333333335,
     22.113333333333333
+   ],
+   [
+    133.22,
+    135.34666666666666
    ]
   ],
   "video_exhausted": true,

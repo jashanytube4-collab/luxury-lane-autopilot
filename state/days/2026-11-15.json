@@ -53,32 +53,32 @@
   },
   {
    "at": "2026-11-15T12:42:35+04:00",
-   "status": "open",
+   "status": "missed",
    "type": "short"
   },
   {
    "at": "2026-11-15T13:27:55+04:00",
-   "status": "open",
+   "status": "missed",
    "type": "short"
   },
   {
    "at": "2026-11-15T14:16:26+04:00",
-   "status": "open",
+   "status": "missed",
    "type": "short"
   },
   {
    "at": "2026-11-15T15:08:02+04:00",
-   "status": "open",
+   "status": "missed",
    "type": "short"
   },
   {
    "at": "2026-11-15T15:47:45+04:00",
-   "status": "open",
+   "status": "missed",
    "type": "short"
   },
   {
    "at": "2026-11-15T16:39:51+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   },
   {

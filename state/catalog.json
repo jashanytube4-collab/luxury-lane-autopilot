@@ -1052,8 +1052,8 @@
   "video_len": 130
  },
  "dubai crown prince receives president of the chechen": {
-  "last_short": "2026-11-14",
-  "montage_used": 11,
+  "last_short": "2026-11-15",
+  "montage_used": 12,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -1101,6 +1101,10 @@
    [
     43.96,
     47.2
+   ],
+   [
+    66.64,
+    69.39999999999999
    ]
   ],
   "video_exhausted": true,
@@ -1410,9 +1414,9 @@
   "long": "2026-10-23"
  },
  "dubai executive council approves annual agenda for 2018": {
-  "last_short": "2026-11-12",
+  "last_short": "2026-11-15",
   "long": "2026-10-30",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -1444,6 +1448,10 @@
    [
     40.08,
     43.800000000000004
+   ],
+   [
+    55.36,
+    57.68
    ]
   ],
   "video_exhausted": true,
@@ -1909,7 +1917,7 @@
  },
  "hamdan bin mohammed affirms that public wellbeing remains top priority for every investment in dubai s future": {
   "long": "2026-10-30",
-  "no_video_until": "2026-11-15",
+  "no_video_until": "2026-11-18",
   "video_exhausted": true
  },
  "hamdan bin mohammed and india s minister of commerce and industry witness signing of 8 mous": {
@@ -3758,6 +3766,7 @@
  "hamdan bin mohammed attends global islamic economy summit": {
   "last_short": "2026-11-04",
   "long": "2026-10-30",
+  "montage_exhausted": true,
   "montage_used": 21,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -7679,8 +7688,8 @@
   "video_len": 451
  },
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
-  "last_short": "2026-11-14",
-  "montage_used": 20,
+  "last_short": "2026-11-15",
+  "montage_used": 21,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -7797,6 +7806,10 @@
    [
     86.36,
     89.24
+   ],
+   [
+    249.44,
+    251.64
    ]
   ],
   "video_exhausted": true,
@@ -9240,6 +9253,7 @@
  },
  "hamdan bin mohammed meets promising leaders from various dubai government entities": {
   "last_short": "2026-11-14",
+  "montage_exhausted": true,
   "montage_used": 6,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -10841,9 +10855,9 @@
   "long": "2026-10-17"
  },
  "hamdan bin mohammed offers condolences to alsuwaidi family": {
-  "last_short": "2026-11-13",
+  "last_short": "2026-11-15",
   "long": "2026-10-27",
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -10891,6 +10905,10 @@
    [
     18.2,
     22.64
+   ],
+   [
+    74.04,
+    76.11999999999999
    ]
   ],
   "video_exhausted": true,
@@ -15066,9 +15084,9 @@
   "video_len": 206
  },
  "hamdan bin mohammed visits dewa s moro": {
-  "last_short": "2026-11-10",
+  "last_short": "2026-11-15",
   "long": "2026-11-01",
-  "montage_used": 28,
+  "montage_used": 29,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -15217,6 +15235,10 @@
    [
     112.76,
     115.83999999999999
+   ],
+   [
+    327.92,
+    330.92
    ]
   ],
   "video_len": 401
@@ -15377,9 +15399,9 @@
   "video_len": 311
  },
  "hamdan bin mohammed visits dubai airshow 2017": {
-  "last_short": "2026-11-13",
+  "last_short": "2026-11-15",
   "long": "2026-11-02",
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -15451,6 +15473,10 @@
    [
     76.68,
     79.36
+   ],
+   [
+    87.15999999999997,
+    88.24000000000001
    ]
   ],
   "video_exhausted": true,

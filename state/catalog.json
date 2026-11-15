@@ -3073,6 +3073,7 @@
   "last_short": "2026-11-11",
   "long": "2026-10-30",
   "montage_used": 23,
+  "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
     2.92,
@@ -4580,6 +4581,7 @@
   "fails": 1,
   "last_short": "2026-10-06",
   "long": "2026-10-14",
+  "no_video_until": "2026-11-18",
   "shorts_made": 4,
   "shot_ranges": [
    [
@@ -5252,6 +5254,7 @@
  "hamdan bin mohammed attends the opening of the inaugural edition of the dubai ai web3 festival": {
   "fails": 1,
   "long": "2026-10-13",
+  "no_video_until": "2026-11-18",
   "video_exhausted": true,
   "video_len": 52
  },
@@ -5496,6 +5499,7 @@
  "hamdan bin mohammed chairs defence council meeting": {
   "last_short": "2026-10-16",
   "long": "2026-10-14",
+  "no_video_until": "2026-11-18",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -5925,6 +5929,7 @@
  "hamdan bin mohammed concludes first official visit to india commends strong bilateral partnership": {
   "last_short": "2026-10-07",
   "long": "2026-10-23",
+  "no_video_until": "2026-11-18",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -6142,6 +6147,7 @@
   "fails": 1,
   "last_short": "2026-10-06",
   "long": "2026-10-10",
+  "no_video_until": "2026-11-18",
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -6511,6 +6517,7 @@
  "hamdan bin mohammed highlights uae s focus on technology as a development enabler during visit to google s dubai offices": {
   "last_short": "2026-10-16",
   "long": "2026-10-07",
+  "no_video_until": "2026-11-18",
   "post_photos": [
    0,
    5
@@ -7851,6 +7858,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 20,
+  "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
     100.06784977818178,
@@ -9811,6 +9819,7 @@
  "hamdan bin mohammed meets with hazza bin zayed in al ain": {
   "fails": 1,
   "long": "2026-10-31",
+  "no_video_until": "2026-11-18",
   "video_exhausted": true,
   "video_len": 37
  },
@@ -10056,6 +10065,7 @@
  "hamdan bin mohammed meets with members of the business and trading community": {
   "last_short": "2026-10-08",
   "long": "2026-10-30",
+  "no_video_until": "2026-11-18",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -11121,6 +11131,7 @@
   "last_short": "2026-11-14",
   "long": "2026-11-02",
   "montage_used": 26,
+  "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
     126.01016816879962,
@@ -11303,6 +11314,7 @@
  "hamdan bin mohammed opens cityscape global 2017": {
   "last_short": "2026-11-07",
   "montage_used": 26,
+  "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
     15.810590002816998,
@@ -12375,6 +12387,7 @@
  "hamdan bin mohammed receives hazza bin zayed in dubai": {
   "last_short": "2026-10-08",
   "long": "2026-11-02",
+  "no_video_until": "2026-11-18",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -13511,6 +13524,7 @@
  "hamdan bin mohammed shares iftar with national service recruits in abu dhabi": {
   "last_short": "2026-10-14",
   "long": "2026-10-14",
+  "no_video_until": "2026-11-18",
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -13997,6 +14011,7 @@
  "hamdan bin mohammed tours the 31st edition of dubai international boat show": {
   "last_short": "2026-10-08",
   "long": "2026-10-31",
+  "no_video_until": "2026-11-18",
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -14634,6 +14649,7 @@
  "hamdan bin mohammed visits arabian travel market 2026": {
   "last_short": "2026-10-05",
   "long": "2026-10-14",
+  "no_video_until": "2026-11-18",
   "photo_short": true,
   "shorts_made": 3,
   "shot_ranges": [
@@ -14852,6 +14868,7 @@
   "fails": 1,
   "last_short": "2026-10-05",
   "long": "2026-10-14",
+  "no_video_until": "2026-11-18",
   "shorts_made": 3,
   "shot_ranges": [
    [
@@ -19631,6 +19648,7 @@
  "in the presence of hamdan bin mohammed dubai chambers holds high level meeting in mumbai": {
   "last_short": "2026-10-17",
   "long": "2026-10-30",
+  "no_video_until": "2026-11-18",
   "shorts_made": 2,
   "shot_ranges": [
    [

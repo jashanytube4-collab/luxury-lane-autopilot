@@ -3,8 +3,13 @@
  "slots": [
   {
    "at": "2026-11-17T06:22:30+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "montage",
+   "status": "scheduled",
+   "title": "The quiet strength behind a shining city. 👑 #youtubeshorts #ytshorts",
+   "type": "short",
+   "video_id": "ew-0fCOOO-8",
+   "voiced": true
   },
   {
    "at": "2026-11-17T07:14:44+04:00",

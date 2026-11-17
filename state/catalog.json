@@ -1202,9 +1202,9 @@
   "video_len": 78
  },
  "dubai crown prince visits dubai municipality": {
-  "last_short": "2026-11-14",
+  "last_short": "2026-11-17",
   "long": "2026-11-02",
-  "montage_used": 27,
+  "montage_used": 28,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -1329,6 +1329,10 @@
    [
     17.400000000000002,
     20.599999999999998
+   ],
+   [
+    240.24,
+    243.16
    ]
   ],
   "video_exhausted": true,
@@ -4255,9 +4259,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends hct graduation": {
-  "last_short": "2026-11-13",
+  "last_short": "2026-11-17",
   "long": "2026-10-31",
-  "montage_used": 31,
+  "montage_used": 32,
   "remix_ranges": [
    [
     45.8,
@@ -4393,6 +4397,10 @@
    [
     156.48000000000002,
     159.92
+   ],
+   [
+    187.52,
+    190.68
    ]
   ],
   "video_exhausted": true,
@@ -8559,9 +8567,9 @@
   "video_len": 69
  },
  "hamdan bin mohammed launches sports initiatives": {
-  "last_short": "2026-11-14",
+  "last_short": "2026-11-17",
   "long": "2026-10-18",
-  "montage_used": 21,
+  "montage_used": 22,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -8658,6 +8666,10 @@
    [
     87.4,
     89.92
+   ],
+   [
+    0.1200000000000001,
+    2.1999999999999997
    ]
   ],
   "video_exhausted": true,
@@ -9095,6 +9107,7 @@
  "hamdan bin mohammed meets government team behind uae s progress in world bank s ease of doing business ranking": {
   "last_short": "2026-11-07",
   "long": "2026-10-30",
+  "montage_exhausted": true,
   "montage_used": 19,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -17615,9 +17628,9 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed witnesses the first test flight": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-17",
   "long": "2026-10-31",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -17657,6 +17670,10 @@
    [
     56.8,
     59.56
+   ],
+   [
+    160.995,
+    164.085
    ]
   ],
   "video_exhausted": true,
@@ -17736,6 +17753,7 @@
  "hamdan chairs 1st meeting for higher committee to implement smart city project": {
   "last_short": "2026-11-07",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 9,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -19698,9 +19716,9 @@
   "video_exhausted": true
  },
  "in presence of dubai crown prince meraas signs agreement with dubai municipality to manage dubai safari": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-17",
   "long": "2026-10-31",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -19732,6 +19750,10 @@
    [
     13.879999999999999,
     17.84
+   ],
+   [
+    4.34,
+    9.34
    ]
   ],
   "video_exhausted": true,

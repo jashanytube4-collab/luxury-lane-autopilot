@@ -1491,6 +1491,7 @@
  "executive council reviews a number of projects": {
   "last_short": "2026-11-17",
   "long": "2026-10-30",
+  "montage_exhausted": true,
   "montage_used": 8,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -1788,7 +1789,7 @@
  "hamdan attends dubai smart city first meeting": {
   "last_short": "2026-11-17",
   "long": "2026-10-31",
-  "montage_used": 16,
+  "montage_used": 17,
   "no_video_until": "2026-11-03",
   "remix_exhausted": true,
   "remix_ranges": [
@@ -1857,6 +1858,10 @@
    [
     50.38666666666666,
     53.14666666666667
+   ],
+   [
+    119.73666666666666,
+    121.99666666666666
    ]
   ],
   "video_exhausted": true,
@@ -13944,9 +13949,9 @@
   "video_len": 53
  },
  "hamdan bin mohammed tours gitex 2013": {
-  "last_short": "2026-11-12",
+  "last_short": "2026-11-17",
   "long": "2026-10-14",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -13966,6 +13971,10 @@
    [
     13.55,
     18.55
+   ],
+   [
+    27.52,
+    30.08
    ]
   ],
   "video_exhausted": true,
@@ -14547,6 +14556,7 @@
  "hamdan bin mohammed visit family who lost seven children in house fire": {
   "last_short": "2026-11-13",
   "long": "2026-10-25",
+  "montage_exhausted": true,
   "montage_used": 5,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -14787,9 +14797,9 @@
   "video_len": 57
  },
  "hamdan bin mohammed visits area 2071 reviews dubai 10x initiative projects": {
-  "last_short": "2026-11-14",
+  "last_short": "2026-11-17",
   "long": "2026-10-31",
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -14870,6 +14880,10 @@
    [
     140.48000000000002,
     142.79999999999998
+   ],
+   [
+    156.28,
+    158.44
    ]
   ],
   "video_exhausted": true,
@@ -17136,9 +17150,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits the dubai future foundation headquarters and reviews 10x projects": {
-  "last_short": "2026-11-12",
+  "last_short": "2026-11-17",
   "long": "2026-10-30",
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -17223,6 +17237,10 @@
    [
     104.72,
     107.47999999999999
+   ],
+   [
+    52.0,
+    54.760000000000005
    ]
   ],
   "video_exhausted": true,
@@ -17630,7 +17648,7 @@
  "hamdan bin mohammed witnesses the first test flight": {
   "last_short": "2026-11-17",
   "long": "2026-10-31",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -17674,6 +17692,10 @@
    [
     160.995,
     164.085
+   ],
+   [
+    35.519999999999996,
+    39.24
    ]
   ],
   "video_exhausted": true,

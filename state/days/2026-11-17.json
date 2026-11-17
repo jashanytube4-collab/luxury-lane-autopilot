@@ -98,8 +98,13 @@
   },
   {
    "at": "2026-11-17T18:19:06+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "montage",
+   "status": "scheduled",
+   "title": "The desert made him strong. 🤍 #youtubeshorts #youtube",
+   "type": "short",
+   "video_id": "UecaF4reqng",
+   "voiced": true
   },
   {
    "at": "2026-11-17T18:41:46+04:00",

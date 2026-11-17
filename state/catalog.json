@@ -301,7 +301,7 @@
  "dubai crown prince attends graduation of dubai police academy": {
   "last_short": "2026-11-17",
   "long": "2026-10-31",
-  "montage_used": 29,
+  "montage_used": 30,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -458,6 +458,10 @@
    [
     211.16,
     213.76
+   ],
+   [
+    316.52,
+    319.0
    ]
   ],
   "video_exhausted": true,
@@ -5578,9 +5582,9 @@
   "long": "2026-10-30"
  },
  "hamdan bin mohammed chairs executive council meeting": {
-  "last_short": "2026-11-13",
+  "last_short": "2026-11-17",
   "long": "2026-10-30",
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -5653,6 +5657,10 @@
    [
     61.784999999999954,
     62.975000000000044
+   ],
+   [
+    100.80000000000001,
+    103.47999999999999
    ]
   ],
   "video_exhausted": true,
@@ -14765,7 +14773,8 @@
   "video_len": 172
  },
  "hamdan bin mohammed visits amazon s new corporate office in dubai": {
-  "fails": 1
+  "fails": 1,
+  "no_video_until": "2026-11-20"
  },
  "hamdan bin mohammed visits arabian travel market 2026": {
   "last_short": "2026-10-05",
@@ -17031,9 +17040,9 @@
   "video_len": 137
  },
  "hamdan bin mohammed visits stands of government entities at gitex2019": {
-  "last_short": "2026-11-12",
+  "last_short": "2026-11-17",
   "long": "2026-10-31",
-  "montage_used": 21,
+  "montage_used": 22,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -17150,6 +17159,10 @@
    [
     143.16,
     145.6
+   ],
+   [
+    76.92,
+    79.19999999999999
    ]
   ],
   "video_exhausted": true,
@@ -17658,7 +17671,7 @@
  "hamdan bin mohammed witnesses the first test flight": {
   "last_short": "2026-11-17",
   "long": "2026-10-31",
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -17706,6 +17719,10 @@
    [
     35.519999999999996,
     39.24
+   ],
+   [
+    64.60000000000001,
+    68.56
    ]
   ],
   "video_exhausted": true,
@@ -19750,7 +19767,7 @@
  "in presence of dubai crown prince meraas signs agreement with dubai municipality to manage dubai safari": {
   "last_short": "2026-11-17",
   "long": "2026-10-31",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -19786,6 +19803,10 @@
    [
     4.34,
     9.34
+   ],
+   [
+    22.38499999999999,
+    25.255000000000013
    ]
   ],
   "video_exhausted": true,

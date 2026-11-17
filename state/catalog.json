@@ -110,6 +110,7 @@
  "crown prince offers condolences to al adab family": {
   "last_short": "2026-11-13",
   "long": "2026-10-15",
+  "montage_exhausted": true,
   "montage_used": 2,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -298,9 +299,9 @@
   "long": "2026-10-17"
  },
  "dubai crown prince attends graduation of dubai police academy": {
-  "last_short": "2026-11-13",
+  "last_short": "2026-11-17",
   "long": "2026-10-31",
-  "montage_used": 27,
+  "montage_used": 28,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -449,6 +450,10 @@
    [
     77.36,
     81.28
+   ],
+   [
+    849.44,
+    852.36
    ]
   ],
   "video_exhausted": true,
@@ -1062,6 +1067,7 @@
  },
  "dubai crown prince receives president of the chechen": {
   "last_short": "2026-11-15",
+  "montage_exhausted": true,
   "montage_used": 12,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -6973,9 +6979,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed honours mbr creative sports award winners": {
-  "last_short": "2026-11-14",
+  "last_short": "2026-11-17",
   "long": "2026-10-18",
-  "montage_used": 21,
+  "montage_used": 22,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -7092,6 +7098,10 @@
    [
     114.48,
     116.96
+   ],
+   [
+    289.64,
+    292.0
    ]
   ],
   "video_len": 669
@@ -7105,9 +7115,9 @@
   "video_len": 19
  },
  "hamdan bin mohammed honours winners of 5th islamic economy award": {
-  "last_short": "2026-11-16",
+  "last_short": "2026-11-17",
   "long": "2026-10-30",
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -7212,6 +7222,10 @@
    [
     41.72,
     44.760000000000005
+   ],
+   [
+    59.72,
+    61.92
    ]
   ],
   "video_exhausted": true,
@@ -10220,9 +10234,9 @@
   "video_len": 63
  },
  "hamdan bin mohammed meets with participants of retail summit in dubai": {
-  "last_short": "2026-11-14",
+  "last_short": "2026-11-17",
   "long": "2026-10-31",
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -10327,6 +10341,10 @@
    [
     93.28166666666664,
     93.79833333333333
+   ],
+   [
+    137.84,
+    141.48
    ]
   ],
   "video_exhausted": true,
@@ -11826,9 +11844,9 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed opens gitex tech week 2017": {
-  "last_short": "2026-11-15",
+  "last_short": "2026-11-17",
   "long": "2026-10-14",
-  "montage_used": 23,
+  "montage_used": 24,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -11965,6 +11983,10 @@
    [
     70.72,
     73.08
+   ],
+   [
+    442.91,
+    445.0100000000001
    ]
   ],
   "video_len": 548
@@ -11997,9 +12019,9 @@
   "video_len": 119
  },
  "hamdan bin mohammed opens salem medical fitness smart centre": {
-  "last_short": "2026-11-10",
+  "last_short": "2026-11-17",
   "long": "2026-10-18",
-  "montage_used": 25,
+  "montage_used": 26,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -12132,6 +12154,10 @@
    [
     180.16,
     184.04
+   ],
+   [
+    71.80000000000001,
+    75.03999999999999
    ]
   ],
   "video_len": 226
@@ -17622,6 +17648,7 @@
  "hamdan celebrates al ahli s arabian gulf league winning": {
   "last_short": "2026-11-14",
   "long": "2026-10-15",
+  "montage_exhausted": true,
   "montage_used": 10,
   "no_video_until": "2026-10-29",
   "remix_exhausted": true,
@@ -18075,6 +18102,7 @@
  },
  "hamdan receives unesco expert": {
   "last_short": "2026-11-17",
+  "montage_exhausted": true,
   "montage_used": 8,
   "no_video_until": "2026-11-01",
   "remix_exhausted": true,

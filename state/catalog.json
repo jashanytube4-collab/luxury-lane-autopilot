@@ -301,7 +301,7 @@
  "dubai crown prince attends graduation of dubai police academy": {
   "last_short": "2026-11-17",
   "long": "2026-10-31",
-  "montage_used": 28,
+  "montage_used": 29,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -454,6 +454,10 @@
    [
     849.44,
     852.36
+   ],
+   [
+    211.16,
+    213.76
    ]
   ],
   "video_exhausted": true,
@@ -566,6 +570,7 @@
  "dubai crown prince hands over hamdan bin mohammed program for smart government flag to dubai police": {
   "last_short": "2026-11-17",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 15,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -1779,7 +1784,7 @@
  "hamdan attends dubai smart city first meeting": {
   "last_short": "2026-11-17",
   "long": "2026-10-31",
-  "montage_used": 15,
+  "montage_used": 16,
   "no_video_until": "2026-11-03",
   "remix_exhausted": true,
   "remix_ranges": [
@@ -1844,6 +1849,10 @@
    [
     39.82,
     42.68
+   ],
+   [
+    50.38666666666666,
+    53.14666666666667
    ]
   ],
   "video_exhausted": true,
@@ -5303,9 +5312,9 @@
   "video_len": 54
  },
  "hamdan bin mohammed attends wedding": {
-  "last_short": "2026-11-16",
+  "last_short": "2026-11-17",
   "long": "2026-10-15",
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -5337,6 +5346,10 @@
    [
     44.239999999999995,
     46.56
+   ],
+   [
+    37.44,
+    40.64
    ]
   ],
   "video_exhausted": true,
@@ -8185,9 +8198,9 @@
   "long": "2026-10-30"
  },
  "hamdan bin mohammed launches day for dubai encourages residents to volunteer": {
-  "last_short": "2026-11-15",
+  "last_short": "2026-11-17",
   "long": "2026-10-31",
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -8243,6 +8256,10 @@
    [
     0.1200000000000001,
     2.96
+   ],
+   [
+    80.28,
+    82.72
    ]
   ],
   "video_exhausted": true,
@@ -14404,8 +14421,8 @@
   "video_len": 234
  },
  "hamdan bin mohammed unveils 5 star plaques at three customer happiness centres in dubai": {
-  "last_short": "2026-11-13",
-  "montage_used": 21,
+  "last_short": "2026-11-17",
+  "montage_used": 22,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -14502,6 +14519,10 @@
    [
     241.20000000000002,
     244.04
+   ],
+   [
+    147.6,
+    149.68
    ]
   ],
   "video_exhausted": true,
@@ -19868,6 +19889,7 @@
  "khaled bin mohamed bin zayed hamdan bin mohammed bin rashid attend world governments summit 2025": {
   "last_short": "2026-11-13",
   "long": "2026-10-25",
+  "montage_exhausted": true,
   "montage_used": 4,
   "remix_exhausted": true,
   "remix_ranges": [

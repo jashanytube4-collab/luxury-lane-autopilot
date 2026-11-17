@@ -7278,7 +7278,11 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed honours winners of uae innovates 2026 award from dubai government entities": {
-  "fails": 1
+  "fails": 1,
+  "last_short": "2026-11-17",
+  "photo_short": true,
+  "shorts_made": 1,
+  "shot_ranges": []
  },
  "hamdan bin mohammed inaugurates 8th edition of cybertech global in dubai": {
   "last_short": "2026-10-11",
@@ -14759,6 +14763,9 @@
   ],
   "video_exhausted": true,
   "video_len": 172
+ },
+ "hamdan bin mohammed visits amazon s new corporate office in dubai": {
+  "fails": 1
  },
  "hamdan bin mohammed visits arabian travel market 2026": {
   "last_short": "2026-10-05",

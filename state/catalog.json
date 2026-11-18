@@ -1807,9 +1807,9 @@
   "long": "2026-10-13"
  },
  "hamdan attends dubai smart city first meeting": {
-  "last_short": "2026-11-18",
+  "last_short": "2026-11-19",
   "long": "2026-10-31",
-  "montage_used": 19,
+  "montage_used": 20,
   "no_video_until": "2026-11-03",
   "remix_exhausted": true,
   "remix_ranges": [
@@ -1890,6 +1890,10 @@
    [
     77.38666666666667,
     80.17999999999999
+   ],
+   [
+    71.61666666666666,
+    73.31666666666669
    ]
   ],
   "video_exhausted": true,
@@ -7821,8 +7825,8 @@
   "video_len": 451
  },
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
-  "last_short": "2026-11-18",
-  "montage_used": 22,
+  "last_short": "2026-11-19",
+  "montage_used": 23,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -7947,6 +7951,10 @@
    [
     242.04,
     245.12
+   ],
+   [
+    170.12,
+    172.56
    ]
   ],
   "video_exhausted": true,
@@ -11025,9 +11033,9 @@
   "long": "2026-10-17"
  },
  "hamdan bin mohammed offers condolences to alsuwaidi family": {
-  "last_short": "2026-11-18",
+  "last_short": "2026-11-19",
   "long": "2026-10-27",
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -11083,6 +11091,10 @@
    [
     84.28,
     86.52
+   ],
+   [
+    0.1200000000000001,
+    4.32
    ]
   ],
   "video_exhausted": true,
@@ -13084,9 +13096,9 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed reviews dubai future foundation s 2018 plan and projects": {
-  "last_short": "2026-11-18",
+  "last_short": "2026-11-19",
   "long": "2026-10-30",
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -13142,6 +13154,10 @@
    [
     111.28,
     115.0
+   ],
+   [
+    39.519999999999996,
+    43.24
    ]
   ],
   "video_exhausted": true,
@@ -14536,8 +14552,8 @@
   "video_len": 234
  },
  "hamdan bin mohammed unveils 5 star plaques at three customer happiness centres in dubai": {
-  "last_short": "2026-11-17",
-  "montage_used": 22,
+  "last_short": "2026-11-19",
+  "montage_used": 23,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -14638,6 +14654,10 @@
    [
     147.6,
     149.68
+   ],
+   [
+    192.24,
+    194.32
    ]
   ],
   "video_exhausted": true,
@@ -17760,9 +17780,9 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed witnesses the first test flight": {
-  "last_short": "2026-11-18",
+  "last_short": "2026-11-19",
   "long": "2026-10-31",
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -17818,6 +17838,10 @@
    [
     93.0,
     97.39999999999999
+   ],
+   [
+    88.32000000000001,
+    90.75999999999999
    ]
   ],
   "video_exhausted": true,
@@ -20545,6 +20569,7 @@
  "mohammed bin rashid commends the dubai executive council s efforts over the past 15 years": {
   "last_short": "2026-11-17",
   "long": "2026-10-28",
+  "montage_exhausted": true,
   "montage_used": 12,
   "remix_exhausted": true,
   "remix_ranges": [

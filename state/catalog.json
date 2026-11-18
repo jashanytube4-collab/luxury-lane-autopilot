@@ -18529,6 +18529,25 @@
   "video_exhausted": true,
   "video_len": 85
  },
+ "ig:dubaimediaoffice:18125521951935782": {
+  "last_short": "2026-11-18",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    37.75333333333333,
+    39.396666666666675
+   ],
+   [
+    41.32,
+    43.46333333333334
+   ],
+   [
+    50.68666666666667,
+    52.263333333333335
+   ]
+  ],
+  "video_len": 60
+ },
  "ig:dubaimediaoffice:18128622343505408": {
   "fails": 1,
   "video_exhausted": true,

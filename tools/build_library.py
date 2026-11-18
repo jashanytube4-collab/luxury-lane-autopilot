@@ -17,10 +17,22 @@ YTDLP = str(Path(sys.executable).with_name("yt-dlp.exe" if sys.platform == "win3
 FORMAT = "bv*[height<=1080][vcodec^=avc1]/bv*[height<=1080][vcodec^=av01]/bv*[height<=1080]/b[height<=1080]"
 
 
-def existing(repo: str, gh: str) -> set[str]:
-    out = subprocess.run([gh, "api", "--paginate", f"repos/{repo}/releases/tags/footage", "--jq", ".assets[].name"],
-                         capture_output=True, text=True, check=True).stdout
-    return {line.strip() for line in out.splitlines() if line.strip()}
+TAGS = ["footage", "footage-2", "footage-3", "footage-4"]
+
+
+def existing(repo: str, gh: str) -> tuple[set[str], dict[str, int]]:
+    """Names of all videos over every library release, and the file count per release tag."""
+    names: set[str] = set()
+    counts: dict[str, int] = {}
+    for tag in TAGS:
+        p = subprocess.run([gh, "api", "--paginate", f"repos/{repo}/releases/tags/{tag}", "--jq", ".assets[].name"],
+                           capture_output=True, text=True)
+        if p.returncode != 0:
+            continue
+        got = {line.strip() for line in p.stdout.splitlines() if line.strip()}
+        names |= got
+        counts[tag] = len(got)
+    return names, counts
 
 
 def main() -> None:
@@ -29,7 +41,7 @@ def main() -> None:
     ids = sorted({e["video"]["ref"] for e in events.values() if e.get("video") and e["video"]["kind"] == "youtube"},
                  key=lambda i: next(e["date"] for e in events.values()
                                     if e.get("video") and e["video"].get("ref") == i), reverse=True)
-    have = existing(repo, gh)
+    have, counts = existing(repo, gh)
     todo = [i for i in ids if f"{i}.mp4" not in have]
     print(f"library has {len(have)} videos; {len(todo)} to add", flush=True)
     TMP.mkdir(parents=True, exist_ok=True)
@@ -51,13 +63,18 @@ def main() -> None:
             failed += 1
             print(f"[{n}/{len(todo)}] FAILED {vid}", flush=True)
             continue
-        up = subprocess.run([gh, "release", "upload", "footage", "-R", repo, str(dest), "--clobber"],
+        tag = next((t for t in TAGS if t in counts and counts[t] < 990), None)
+        if tag is None:
+            print("all library releases are full; create the next release (footage-N) first", flush=True)
+            break
+        up = subprocess.run([gh, "release", "upload", tag, "-R", repo, str(dest), "--clobber"],
                             capture_output=True, text=True)
         if up.returncode != 0:
             failed += 1
             print(f"[{n}/{len(todo)}] upload FAILED {vid}: {up.stderr.strip()[-200:]}", flush=True)
             continue
         done += 1
+        counts[tag] += 1
         print(f"[{n}/{len(todo)}] added {vid} ({dest.stat().st_size / 1e6:.0f} MB)", flush=True)
         dest.unlink()
         time.sleep(random.uniform(2, 6))

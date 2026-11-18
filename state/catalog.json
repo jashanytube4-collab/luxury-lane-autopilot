@@ -299,9 +299,9 @@
   "long": "2026-10-17"
  },
  "dubai crown prince attends graduation of dubai police academy": {
-  "last_short": "2026-11-17",
+  "last_short": "2026-11-18",
   "long": "2026-10-31",
-  "montage_used": 30,
+  "montage_used": 31,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -462,6 +462,10 @@
    [
     316.52,
     319.0
+   ],
+   [
+    628.2,
+    630.24
    ]
   ],
   "video_exhausted": true,
@@ -1795,9 +1799,9 @@
   "long": "2026-10-13"
  },
  "hamdan attends dubai smart city first meeting": {
-  "last_short": "2026-11-17",
+  "last_short": "2026-11-18",
   "long": "2026-10-31",
-  "montage_used": 17,
+  "montage_used": 18,
   "no_video_until": "2026-11-03",
   "remix_exhausted": true,
   "remix_ranges": [
@@ -1870,6 +1874,10 @@
    [
     119.73666666666666,
     121.99666666666666
+   ],
+   [
+    84.95333333333333,
+    87.84666666666666
    ]
   ],
   "video_exhausted": true,
@@ -1911,6 +1919,7 @@
  "hamdan attends wedding reception": {
   "last_short": "2026-11-17",
   "long": "2026-10-15",
+  "montage_exhausted": true,
   "montage_used": 6,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -6399,6 +6408,7 @@
  "hamdan bin mohammed extends condolences to al muhairi family": {
   "last_short": "2026-11-12",
   "long": "2026-10-27",
+  "montage_exhausted": true,
   "montage_used": 4,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -9405,9 +9415,9 @@
   "video_len": 99
  },
  "hamdan bin mohammed meets students of dubai schools": {
-  "last_short": "2026-11-16",
+  "last_short": "2026-11-18",
   "long": "2026-10-17",
-  "montage_used": 28,
+  "montage_used": 29,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -9548,6 +9558,10 @@
    [
     139.72,
     142.07999999999998
+   ],
+   [
+    6.72,
+    10.16
    ]
   ],
   "video_len": 371
@@ -11254,9 +11268,9 @@
   "long": "2026-10-28"
  },
  "hamdan bin mohammed officially opens gitex 2018": {
-  "last_short": "2026-11-14",
+  "last_short": "2026-11-18",
   "long": "2026-11-02",
-  "montage_used": 26,
+  "montage_used": 27,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -11385,6 +11399,10 @@
    [
     143.16,
     145.24
+   ],
+   [
+    185.72,
+    187.76
    ]
   ],
   "video_exhausted": true,
@@ -11911,9 +11929,9 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed opens gitex tech week 2017": {
-  "last_short": "2026-11-17",
+  "last_short": "2026-11-18",
   "long": "2026-10-14",
-  "montage_used": 24,
+  "montage_used": 25,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -12054,6 +12072,10 @@
    [
     442.91,
     445.0100000000001
+   ],
+   [
+    228.16,
+    230.64
    ]
   ],
   "video_len": 548
@@ -13029,9 +13051,9 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed reviews dubai future foundation s 2018 plan and projects": {
-  "last_short": "2026-11-14",
+  "last_short": "2026-11-18",
   "long": "2026-10-30",
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -13083,6 +13105,10 @@
    [
     25.884999999999998,
     27.31500000000001
+   ],
+   [
+    111.28,
+    115.0
    ]
   ],
   "video_exhausted": true,
@@ -17064,6 +17090,7 @@
  "hamdan bin mohammed visits stands of government entities at gitex2019": {
   "last_short": "2026-11-18",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 23,
   "remix_exhausted": true,
   "remix_ranges": [

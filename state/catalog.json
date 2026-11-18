@@ -1809,7 +1809,7 @@
  "hamdan attends dubai smart city first meeting": {
   "last_short": "2026-11-18",
   "long": "2026-10-31",
-  "montage_used": 18,
+  "montage_used": 19,
   "no_video_until": "2026-11-03",
   "remix_exhausted": true,
   "remix_ranges": [
@@ -1886,6 +1886,10 @@
    [
     84.95333333333333,
     87.84666666666666
+   ],
+   [
+    77.38666666666667,
+    80.17999999999999
    ]
   ],
   "video_exhausted": true,
@@ -3474,6 +3478,9 @@
   "shorts_made": 1,
   "shot_ranges": []
  },
+ "hamdan bin mohammed attends dubai future week 2026": {
+  "no_video_until": "2026-11-21"
+ },
  "hamdan bin mohammed attends dubai international health tourism forum": {
   "last_short": "2026-11-02",
   "long": "2026-10-31",
@@ -3566,9 +3573,9 @@
   "long": "2026-10-30"
  },
  "hamdan bin mohammed attends dubai police graduation ceremony": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-18",
   "long": "2026-10-30",
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -3661,6 +3668,10 @@
    [
     166.08,
     168.4
+   ],
+   [
+    154.48000000000002,
+    156.64
    ]
   ],
   "video_exhausted": true,
@@ -6927,6 +6938,7 @@
  "hamdan bin mohammed honours arab contributors to entrepreneurial development": {
   "last_short": "2026-11-15",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 15,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -8259,6 +8271,7 @@
  "hamdan bin mohammed launches day for dubai encourages residents to volunteer": {
   "last_short": "2026-11-17",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 14,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -9425,7 +9438,7 @@
  "hamdan bin mohammed meets students of dubai schools": {
   "last_short": "2026-11-18",
   "long": "2026-10-17",
-  "montage_used": 29,
+  "montage_used": 30,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -9570,6 +9583,10 @@
    [
     6.72,
     10.16
+   ],
+   [
+    64.12,
+    66.28
    ]
   ],
   "video_len": 371
@@ -11008,9 +11025,9 @@
   "long": "2026-10-17"
  },
  "hamdan bin mohammed offers condolences to alsuwaidi family": {
-  "last_short": "2026-11-15",
+  "last_short": "2026-11-18",
   "long": "2026-10-27",
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -11062,6 +11079,10 @@
    [
     74.04,
     76.11999999999999
+   ],
+   [
+    84.28,
+    86.52
    ]
   ],
   "video_exhausted": true,
@@ -15292,9 +15313,9 @@
   "video_len": 206
  },
  "hamdan bin mohammed visits dewa s moro": {
-  "last_short": "2026-11-15",
+  "last_short": "2026-11-18",
   "long": "2026-11-01",
-  "montage_used": 29,
+  "montage_used": 30,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -15447,6 +15468,10 @@
    [
     327.92,
     330.92
+   ],
+   [
+    43.44,
+    45.480000000000004
    ]
   ],
   "video_len": 401
@@ -19858,9 +19883,9 @@
   "video_exhausted": true
  },
  "in presence of dubai crown prince meraas signs agreement with dubai municipality to manage dubai safari": {
-  "last_short": "2026-11-17",
+  "last_short": "2026-11-18",
   "long": "2026-10-31",
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -19900,6 +19925,10 @@
    [
     22.38499999999999,
     25.255000000000013
+   ],
+   [
+    32.48,
+    35.6
    ]
   ],
   "video_exhausted": true,

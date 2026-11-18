@@ -921,7 +921,9 @@
   "lla18c137d6b",
   "lla77f312239",
   "llb581b801d0",
-  "ll9bbb3ca6bc"
+  "ll9bbb3ca6bc",
+  "llee85a2668f",
+  "llc92cd30c64"
  ],
  "quotes": [
   {
@@ -1080,7 +1082,6 @@
   }
  ],
  "recent_hooks": [
-  "THE CROWN PRINCE, UP CLOSE | His smile is his strongest signature. 🤍 #youtubeshorts #ytshorts",
   "REAL MOMENTS. REAL FAZZA. | Where royalty meets humanity. #youtubeshorts #youtube #fazza",
   "WATCH HOW HE CARRIES HIMSELF | Kindness is his quiet superpower. ❤️ #princehamdan #youtubeshorts #youtube",
   "SIMPLE. STRONG. FAZZA. | Calm mind, strong heart, clear vision. #fazza #youtubeshorts #youtube",
@@ -1139,10 +1140,10 @@
   "THE PRINCE OF DUBAI | A legacy built one humble act at a time. 👑 #fazza #youtubeshorts #youtube",
   "FAZZA'S LEGACY | Prince Hamdan Crowns 13 Winners Today 👑",
   "NO ONE CARRIES IT LIKE HIM | Dubai's dreams, Hamdan's dedication. 🤍 #youtubeshorts #youtube #fazza",
-  "QUIET POWER | Strong roots. Endless horizons. 🤍 #princehamdan #youtubeshorts #youtube"
+  "QUIET POWER | Strong roots. Endless horizons. 🤍 #princehamdan #youtubeshorts #youtube",
+  "LEADING WITHOUT SAYING A WORD | He shows the world what modern leadership looks like. 👑 #youtubeshorts #ytshorts"
  ],
  "recent_titles": [
-  "Big dreams start with small, humble steps. #youtubeshorts #youtube #fazza",
   "Every champion was once a dreamer. #youtubeshorts #youtube",
   "The kind of leader the world needs more of. 🤍 #youtubeshorts #youtube #fazza",
   "Fearless. Focused. Fazza. 🤍 #fazza #youtubeshorts #youtube",
@@ -1441,12 +1442,13 @@
   "A legacy built one humble act at a time. 👑 #fazza #youtubeshorts #youtube",
   "Prince Hamdan Crowns 13 Winners Today 👑",
   "Dubai's dreams, Hamdan's dedication. 🤍 #youtubeshorts #youtube #fazza",
-  "Strong roots. Endless horizons. 🤍 #princehamdan #youtubeshorts #youtube"
+  "Strong roots. Endless horizons. 🤍 #princehamdan #youtubeshorts #youtube",
+  "He shows the world what modern leadership looks like. 👑 #youtubeshorts #ytshorts"
  ],
  "shorts_supply": {
   "date": "2026-11-18",
-  "days": 6.1,
-  "events": 189
+  "days": 6.0,
+  "events": 186
  },
  "stories_done": [
   "flydubai-hero",

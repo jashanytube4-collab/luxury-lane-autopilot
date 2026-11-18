@@ -1577,7 +1577,7 @@
  "hamdan addressing future circles looking forward for innovation based future": {
   "last_short": "2026-11-18",
   "long": "2026-10-30",
-  "montage_used": 18,
+  "montage_used": 19,
   "no_video_until": "2026-11-02",
   "remix_exhausted": true,
   "remix_ranges": [
@@ -1654,6 +1654,10 @@
    [
     92.92,
     95.14666666666666
+   ],
+   [
+    82.62,
+    84.67999999999999
    ]
   ],
   "video_exhausted": true,
@@ -1684,9 +1688,9 @@
   "video_len": 68
  },
  "hamdan approves medical tourism strategy": {
-  "last_short": "2026-11-07",
+  "last_short": "2026-11-18",
   "long": "2026-10-30",
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -1742,6 +1746,10 @@
    [
     82.62,
     85.24666666666666
+   ],
+   [
+    29.153333333333336,
+    31.48
    ]
   ],
   "video_exhausted": true,
@@ -11456,8 +11464,8 @@
   "video_len": 281
  },
  "hamdan bin mohammed opens cityscape global 2017": {
-  "last_short": "2026-11-07",
-  "montage_used": 26,
+  "last_short": "2026-11-18",
+  "montage_used": 27,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -11578,6 +11586,10 @@
    [
     239.24,
     242.07999999999998
+   ],
+   [
+    65.28,
+    67.52
    ]
   ],
   "video_exhausted": true,
@@ -14010,6 +14022,7 @@
  "hamdan bin mohammed tours gitex 2013": {
   "last_short": "2026-11-17",
   "long": "2026-10-14",
+  "montage_exhausted": true,
   "montage_used": 5,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -17722,9 +17735,9 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed witnesses the first test flight": {
-  "last_short": "2026-11-17",
+  "last_short": "2026-11-18",
   "long": "2026-10-31",
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -17776,6 +17789,10 @@
    [
     64.60000000000001,
     68.56
+   ],
+   [
+    93.0,
+    97.39999999999999
    ]
   ],
   "video_exhausted": true,
@@ -18077,9 +18094,9 @@
   "long": "2026-10-22"
  },
  "hamdan inspects al bayt studio": {
-  "last_short": "2026-11-11",
+  "last_short": "2026-11-18",
   "long": "2026-10-31",
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -18135,6 +18152,10 @@
    [
     19.433333333333334,
     24.433333333333334
+   ],
+   [
+    149.62,
+    152.51333333333332
    ]
   ],
   "video_exhausted": true,

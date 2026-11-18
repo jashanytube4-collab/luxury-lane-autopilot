@@ -1763,3 +1763,1323 @@ clips:
     parts: [[35.0, 39.5]]
     note: '16:9 cut, frames checked 2026-11-02 (falcon story r06): he drives slowly through a camel farm, camels at his window'
     credit: Sheikh Hamdan's Instagram (@faz3)
+  # ---- India visit story r07 (keepbusy 2026-11-03) ----
+  in-billboard:
+    match: ''
+    yt: wts4UHCOAYY
+    parts:
+    - [19.7, 28.0]
+    crop: [0.06, 0.18, 0.86, 0.98]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, ANI via The Tribune
+  in-flags-trees:
+    match: ''
+    yt: yqpEb67KObI
+    parts:
+    - [39.0, 41.3]
+    crop: [0.06, 0.18, 0.86, 0.98]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via Business Standard
+  in-plane-flags:
+    match: ''
+    yt: yqpEb67KObI
+    parts:
+    - [46.16, 47.76]
+    crop: [0.06, 0.18, 0.86, 0.98]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via Business Standard
+  in-door:
+    match: ''
+    yt: RzBCeUMVYks
+    parts:
+    - [0.3, 5.8]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via The Brief Media
+  in-stairs:
+    match: ''
+    yt: RzBCeUMVYks
+    parts:
+    - [6.2, 11.6]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via The Brief Media
+  in-stairs-close:
+    match: ''
+    yt: RzBCeUMVYks
+    parts:
+    - [12.2, 15.5]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via The Brief Media
+  in-officer:
+    match: ''
+    yt: RzBCeUMVYks
+    parts:
+    - [23.0, 28.6]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via The Brief Media
+  in-gopi:
+    match: ''
+    yt: RzBCeUMVYks
+    parts:
+    - [30.0, 35.5]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via The Brief Media
+  in-gopi-2:
+    match: ''
+    yt: RzBCeUMVYks
+    parts:
+    - [42.0, 44.8]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via The Brief Media
+  in-carpet-back:
+    match: ''
+    yt: RzBCeUMVYks
+    parts:
+    - [49.5, 52.3]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via The Brief Media
+  in-guard-wide:
+    match: ''
+    yt: RzBCeUMVYks
+    parts:
+    - [54.5, 60.0]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via The Brief Media
+  in-salute-stand:
+    match: ''
+    yt: RzBCeUMVYks
+    parts:
+    - [74.5, 79.5]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via The Brief Media
+  in-salute-close:
+    match: ''
+    yt: RzBCeUMVYks
+    parts:
+    - [87.5, 95.5]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via The Brief Media
+  in-guard-rows:
+    match: ''
+    yt: RzBCeUMVYks
+    parts:
+    - [99.5, 107.0]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via The Brief Media
+  in-canopy:
+    match: ''
+    yt: RzBCeUMVYks
+    parts:
+    - [112.0, 120.0]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via The Brief Media
+  in-walk-officer:
+    match: ''
+    yt: RzBCeUMVYks
+    parts:
+    - [149.0, 153.5]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via The Brief Media
+  in-inspect-far:
+    match: ''
+    yt: RzBCeUMVYks
+    parts:
+    - [160.0, 167.5]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via The Brief Media
+  in-inspect-close:
+    match: ''
+    yt: RzBCeUMVYks
+    parts:
+    - [179.0, 184.5]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via The Brief Media
+  in-inspect-line:
+    match: ''
+    yt: RzBCeUMVYks
+    parts:
+    - [190.0, 199.5]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via The Brief Media
+  in-line-greet:
+    match: ''
+    yt: RzBCeUMVYks
+    parts:
+    - [213.5, 221.0]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via The Brief Media
+  in-line-greet-2:
+    match: ''
+    yt: RzBCeUMVYks
+    parts:
+    - [224.5, 232.0]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via The Brief Media
+  in-phone:
+    match: ''
+    yt: yqpEb67KObI
+    parts:
+    - [102.76, 107.72]
+    crop: [0.06, 0.18, 0.86, 0.98]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via Business Standard
+  in-drums:
+    match: ''
+    yt: yqpEb67KObI
+    parts:
+    - [112.1, 117.6]
+    crop: [0.06, 0.18, 0.86, 0.98]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via Business Standard
+  in-car-delhi:
+    match: ''
+    yt: yqpEb67KObI
+    parts:
+    - [123.12, 126.72]
+    crop: [0.06, 0.18, 0.86, 0.98]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via Business Standard
+  in-pm-car:
+    match: ''
+    yt: iHKrgTnh6j8
+    parts:
+    - [3.0, 5.5]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Prime Minister Narendra Modi's official channel
+  in-pm-greet:
+    match: ''
+    yt: iHKrgTnh6j8
+    parts:
+    - [6.86, 12.16]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Prime Minister Narendra Modi's official channel
+  in-pm-close:
+    match: ''
+    yt: iHKrgTnh6j8
+    parts:
+    - [13.6, 16.64]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Prime Minister Narendra Modi's official channel
+  in-pm-pose:
+    match: ''
+    yt: iHKrgTnh6j8
+    parts:
+    - [18.92, 21.72]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Prime Minister Narendra Modi's official channel
+  in-pm-walk:
+    match: ''
+    yt: iHKrgTnh6j8
+    parts:
+    - [23.16, 26.48]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Prime Minister Narendra Modi's official channel
+  in-pm-room:
+    match: ''
+    yt: iHKrgTnh6j8
+    parts:
+    - [27.92, 32.4]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Prime Minister Narendra Modi's official channel
+  in-pm-horse:
+    match: ''
+    yt: iHKrgTnh6j8
+    parts:
+    - [34.5, 37.3]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Prime Minister Narendra Modi's official channel
+  in-pm-talk:
+    match: ''
+    yt: iHKrgTnh6j8
+    parts:
+    - [39.6, 45.0]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Prime Minister Narendra Modi's official channel
+  in-pm-sofa:
+    match: ''
+    yt: iHKrgTnh6j8
+    parts:
+    - [52.5, 58.3]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Prime Minister Narendra Modi's official channel
+  in-pm-garden:
+    match: ''
+    yt: iHKrgTnh6j8
+    parts:
+    - [61.68, 64.4]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Prime Minister Narendra Modi's official channel
+  in-pm-photo:
+    match: ''
+    yt: iHKrgTnh6j8
+    parts:
+    - [64.64, 68.64]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Prime Minister Narendra Modi's official channel
+  in-pm-shake:
+    match: ''
+    yt: iHKrgTnh6j8
+    parts:
+    - [83.84, 88.36]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Prime Minister Narendra Modi's official channel
+  in-pm-gazebo:
+    match: ''
+    yt: iHKrgTnh6j8
+    parts:
+    - [93.84, 99.32]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Prime Minister Narendra Modi's official channel
+  in-pm-lawn:
+    match: ''
+    yt: iHKrgTnh6j8
+    parts:
+    - [105.48, 108.28]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Prime Minister Narendra Modi's official channel
+  in-pm-corridor:
+    match: ''
+    yt: iHKrgTnh6j8
+    parts:
+    - [109.52, 111.84]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Prime Minister Narendra Modi's official channel
+  in-pm-peacock:
+    match: ''
+    yt: iHKrgTnh6j8
+    parts:
+    - [117.92, 119.24]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Prime Minister Narendra Modi's official channel
+  in-pm-delegation:
+    match: ''
+    yt: iHKrgTnh6j8
+    parts:
+    - [125.08, 127.64]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Prime Minister Narendra Modi's official channel
+  in-pm-group:
+    match: ''
+    yt: iHKrgTnh6j8
+    parts:
+    - [135.88, 140.28]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Prime Minister Narendra Modi's official channel
+  in-pm-farewell:
+    match: ''
+    yt: iHKrgTnh6j8
+    parts:
+    - [147.04, 148.52]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Prime Minister Narendra Modi's official channel
+  in-jaishankar:
+    match: ''
+    yt: mIA1bDzd2xU
+    parts:
+    - [48.92, 52.44]
+    crop: [0.1, 0.0, 0.9, 0.8]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Meetings with S Jaishankar and Rajnath Singh, via WION
+  in-jai-seated:
+    match: ''
+    yt: mIA1bDzd2xU
+    parts:
+    - [55.32, 58.0]
+    crop: [0.1, 0.0, 0.9, 0.8]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Meetings with S Jaishankar and Rajnath Singh, via WION
+  in-rajnath:
+    match: ''
+    yt: mIA1bDzd2xU
+    parts:
+    - [67.7, 69.5]
+    crop: [0.1, 0.0, 0.9, 0.8]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Meetings with S Jaishankar and Rajnath Singh, via WION
+  in-talks:
+    match: ''
+    yt: mIA1bDzd2xU
+    parts:
+    - [74.56, 80.16]
+    crop: [0.1, 0.0, 0.9, 0.8]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Meetings with S Jaishankar and Rajnath Singh, via WION
+  in-defence-table:
+    match: ''
+    yt: ZoFzY9gdf8g
+    parts:
+    - [7.56, 12.24]
+    crop: [0.0, 0.1, 0.9, 1.0]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Defence talks with Rajnath Singh, via Bharat Shakti
+  in-rajnath-car:
+    match: ''
+    yt: ZoFzY9gdf8g
+    parts:
+    - [25.08, 28.8]
+    crop: [0.0, 0.1, 0.9, 1.0]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Defence talks with Rajnath Singh, via Bharat Shakti
+  in-bse-bell:
+    match: ''
+    yt: BrMZsOHcLMQ
+    parts:
+    - [7.51, 14.81]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Bombay Stock Exchange visit, via Rasgulla Reddy
+  in-bse-face:
+    match: ''
+    yt: BrMZsOHcLMQ
+    parts:
+    - [20.39, 21.98]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Bombay Stock Exchange visit, via Rasgulla Reddy
+  in-bse-photos:
+    match: ''
+    yt: BrMZsOHcLMQ
+    parts:
+    - [22.22, 24.88]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Bombay Stock Exchange visit, via Rasgulla Reddy
+  in-bse-look:
+    match: ''
+    yt: BrMZsOHcLMQ
+    parts:
+    - [26.45, 27.81]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Bombay Stock Exchange visit, via Rasgulla Reddy
+  in-bse-walk:
+    match: ''
+    yt: BrMZsOHcLMQ
+    parts:
+    - [30.69, 36.08]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Bombay Stock Exchange visit, via Rasgulla Reddy
+  in-bse-oldphoto:
+    match: ''
+    yt: BrMZsOHcLMQ
+    parts:
+    - [39.02, 40.68]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Bombay Stock Exchange visit, via Rasgulla Reddy
+  in-bse-gallery:
+    match: ''
+    yt: BrMZsOHcLMQ
+    parts:
+    - [48.25, 50.05]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Bombay Stock Exchange visit, via Rasgulla Reddy
+  in-bse-building:
+    match: ''
+    yt: BrMZsOHcLMQ
+    parts:
+    - [54.2, 56.3]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Bombay Stock Exchange visit, via Rasgulla Reddy
+  in-cric-shake:
+    match: ''
+    yt: nyVZE1Gms4Y
+    parts:
+    - [2.55, 4.21]
+    crop: [0.0, 0.1, 0.9, 1.0]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Meeting with Jay Shah and Indian cricketers, via Cric Central
+  in-cric-rohit:
+    match: ''
+    yt: nyVZE1Gms4Y
+    parts:
+    - [4.65, 6.55]
+    crop: [0.0, 0.1, 0.9, 1.0]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Meeting with Jay Shah and Indian cricketers, via Cric Central
+  in-cric-sign:
+    match: ''
+    yt: nyVZE1Gms4Y
+    parts:
+    - [13.05, 16.75]
+    crop: [0.0, 0.1, 0.9, 1.0]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Meeting with Jay Shah and Indian cricketers, via Cric Central
+  in-cric-memento:
+    match: ''
+    yt: nyVZE1Gms4Y
+    parts:
+    - [19.09, 20.95]
+    crop: [0.0, 0.1, 0.9, 1.0]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Meeting with Jay Shah and Indian cricketers, via Cric Central
+  in-team-sofa:
+    match: ''
+    yt: kxry15MvurA
+    parts:
+    - [7.42, 9.35]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Meeting with Jay Shah and Indian cricketers, via Rasgulla Reddy
+  in-team-players:
+    match: ''
+    yt: kxry15MvurA
+    parts:
+    - [12.05, 14.85]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Meeting with Jay Shah and Indian cricketers, via Rasgulla Reddy
+  in-team-lobby:
+    match: ''
+    yt: kxry15MvurA
+    parts:
+    - [16.99, 18.35]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Meeting with Jay Shah and Indian cricketers, via Rasgulla Reddy
+  in-team-jersey:
+    match: ''
+    yt: kxry15MvurA
+    parts:
+    - [36.09, 37.55]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Meeting with Jay Shah and Indian cricketers, via Rasgulla Reddy
+  in-team-rohit:
+    match: ''
+    yt: kxry15MvurA
+    parts:
+    - [38.42, 39.55]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Meeting with Jay Shah and Indian cricketers, via Rasgulla Reddy
+  inx-ihkr-52:
+    match: ''
+    yt: iHKrgTnh6j8
+    parts:
+    - [68.91, 71.53]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Prime Minister Narendra Modi's official channel
+  inx-ihkr-54:
+    match: ''
+    yt: iHKrgTnh6j8
+    parts:
+    - [71.87, 76.05]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Prime Minister Narendra Modi's official channel
+  inx-ihkr-65:
+    match: ''
+    yt: iHKrgTnh6j8
+    parts:
+    - [89.27, 91.33]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Prime Minister Narendra Modi's official channel
+  inx-ihkr-69:
+    match: ''
+    yt: iHKrgTnh6j8
+    parts:
+    - [99.59, 102.21]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Prime Minister Narendra Modi's official channel
+  inx-ihkr-70:
+    match: ''
+    yt: iHKrgTnh6j8
+    parts:
+    - [102.51, 104.61]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Prime Minister Narendra Modi's official channel
+  inx-ihkr-92:
+    match: ''
+    yt: iHKrgTnh6j8
+    parts:
+    - [120.43, 123.61]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Prime Minister Narendra Modi's official channel
+  inx-ihkr-98:
+    match: ''
+    yt: iHKrgTnh6j8
+    parts:
+    - [127.91, 130.13]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Prime Minister Narendra Modi's official channel
+  inx-ihkr-102:
+    match: ''
+    yt: iHKrgTnh6j8
+    parts:
+    - [130.95, 135.29]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Prime Minister Narendra Modi's official channel
+  inx-ihkr-114:
+    match: ''
+    yt: iHKrgTnh6j8
+    parts:
+    - [142.63, 145.57]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Prime Minister Narendra Modi's official channel
+  inx-ihkr-124:
+    match: ''
+    yt: iHKrgTnh6j8
+    parts:
+    - [149.39, 154.89]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Prime Minister Narendra Modi's official channel
+  inx-yqpe-01:
+    match: ''
+    yt: yqpEb67KObI
+    parts:
+    - [6.43, 11.93]
+    crop: [0.06, 0.18, 0.86, 0.98]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via Business Standard
+  inx-yqpe-02:
+    match: ''
+    yt: yqpEb67KObI
+    parts:
+    - [13.91, 19.41]
+    crop: [0.06, 0.18, 0.86, 0.98]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via Business Standard
+  inx-yqpe-03:
+    match: ''
+    yt: yqpEb67KObI
+    parts:
+    - [22.75, 28.25]
+    crop: [0.06, 0.18, 0.86, 0.98]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via Business Standard
+  inx-yqpe-04:
+    match: ''
+    yt: yqpEb67KObI
+    parts:
+    - [29.99, 35.49]
+    crop: [0.06, 0.18, 0.86, 0.98]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via Business Standard
+  inx-yqpe-08:
+    match: ''
+    yt: yqpEb67KObI
+    parts:
+    - [43.63, 45.89]
+    crop: [0.06, 0.18, 0.86, 0.98]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via Business Standard
+  inx-yqpe-10:
+    match: ''
+    yt: yqpEb67KObI
+    parts:
+    - [48.03, 53.53]
+    crop: [0.06, 0.18, 0.86, 0.98]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via Business Standard
+  inx-yqpe-11:
+    match: ''
+    yt: yqpEb67KObI
+    parts:
+    - [57.55, 63.05]
+    crop: [0.06, 0.18, 0.86, 0.98]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via Business Standard
+  inx-yqpe-13:
+    match: ''
+    yt: yqpEb67KObI
+    parts:
+    - [66.39, 71.89]
+    crop: [0.06, 0.18, 0.86, 0.98]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via Business Standard
+  inx-yqpe-14:
+    match: ''
+    yt: yqpEb67KObI
+    parts:
+    - [72.43, 75.37]
+    crop: [0.06, 0.18, 0.86, 0.98]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via Business Standard
+  inx-yqpe-18:
+    match: ''
+    yt: yqpEb67KObI
+    parts:
+    - [92.11, 97.61]
+    crop: [0.06, 0.18, 0.86, 0.98]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via Business Standard
+  inx-yqpe-27:
+    match: ''
+    yt: yqpEb67KObI
+    parts:
+    - [126.99, 132.49]
+    crop: [0.06, 0.18, 0.86, 0.98]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via Business Standard
+  inx-mia1-10:
+    match: ''
+    yt: mIA1bDzd2xU
+    parts:
+    - [52.71, 55.05]
+    crop: [0.1, 0.0, 0.9, 0.8]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Meetings with S Jaishankar and Rajnath Singh, via WION
+  inx-mia1-12:
+    match: ''
+    yt: mIA1bDzd2xU
+    parts:
+    - [59.79, 64.41]
+    crop: [0.1, 0.0, 0.9, 0.8]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Meetings with S Jaishankar and Rajnath Singh, via WION
+  inx-mia1-16:
+    match: ''
+    yt: mIA1bDzd2xU
+    parts:
+    - [80.43, 83.17]
+    crop: [0.1, 0.0, 0.9, 0.8]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Meetings with S Jaishankar and Rajnath Singh, via WION
+  inx-mia1-17:
+    match: ''
+    yt: mIA1bDzd2xU
+    parts:
+    - [83.47, 86.97]
+    crop: [0.1, 0.0, 0.9, 0.8]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Meetings with S Jaishankar and Rajnath Singh, via WION
+  inx-mia1-18:
+    match: ''
+    yt: mIA1bDzd2xU
+    parts:
+    - [87.27, 90.37]
+    crop: [0.1, 0.0, 0.9, 0.8]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Meetings with S Jaishankar and Rajnath Singh, via WION
+  inx-zofz-04:
+    match: ''
+    yt: ZoFzY9gdf8g
+    parts:
+    - [2.55, 7.25]
+    crop: [0.0, 0.1, 0.9, 1.0]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Defence talks with Rajnath Singh, via Bharat Shakti
+  inx-zofz-39:
+    match: ''
+    yt: ZoFzY9gdf8g
+    parts:
+    - [41.47, 44.53]
+    crop: [0.0, 0.1, 0.9, 1.0]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Defence talks with Rajnath Singh, via Bharat Shakti
+  inx-zofz-48:
+    match: ''
+    yt: ZoFzY9gdf8g
+    parts:
+    - [59.75, 65.25]
+    crop: [0.0, 0.1, 0.9, 1.0]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Defence talks with Rajnath Singh, via Bharat Shakti
+  inx-brmz-18:
+    match: ''
+    yt: BrMZsOHcLMQ
+    parts:
+    - [36.75, 38.75]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Bombay Stock Exchange visit, via Rasgulla Reddy
+  inx-brmz-20:
+    match: ''
+    yt: BrMZsOHcLMQ
+    parts:
+    - [40.95, 42.95]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Bombay Stock Exchange visit, via Rasgulla Reddy
+  inx-nyvz-00:
+    match: ''
+    yt: nyVZE1Gms4Y
+    parts:
+    - [0.15, 2.28]
+    crop: [0.0, 0.1, 0.9, 1.0]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Meeting with Jay Shah and Indian cricketers, via Cric Central
+  inx-nyvz-04:
+    match: ''
+    yt: nyVZE1Gms4Y
+    parts:
+    - [6.82, 10.62]
+    crop: [0.0, 0.1, 0.9, 1.0]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Meeting with Jay Shah and Indian cricketers, via Cric Central
+  inx-nyvz-11:
+    match: ''
+    yt: nyVZE1Gms4Y
+    parts:
+    - [21.22, 24.25]
+    crop: [0.0, 0.1, 0.9, 1.0]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Meeting with Jay Shah and Indian cricketers, via Cric Central
+  inx-nyvz-14:
+    match: ''
+    yt: nyVZE1Gms4Y
+    parts:
+    - [26.38, 28.88]
+    crop: [0.0, 0.1, 0.9, 1.0]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Meeting with Jay Shah and Indian cricketers, via Cric Central
+  inx-nyvz-18:
+    match: ''
+    yt: nyVZE1Gms4Y
+    parts:
+    - [29.48, 34.42]
+    crop: [0.0, 0.1, 0.9, 1.0]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Meeting with Jay Shah and Indian cricketers, via Cric Central
+  # ---- India visit story r07 (keepbusy 2026-11-03) ----
+  dmo-5r9t-00:
+    match: ''
+    yt: 5R9txj6YAug
+    parts:
+    - [0.15, 7.15]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-5r9t-02:
+    match: ''
+    yt: 5R9txj6YAug
+    parts:
+    - [25.77, 28.39]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-5r9t-03:
+    match: ''
+    yt: 5R9txj6YAug
+    parts:
+    - [28.69, 30.55]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-5r9t-07:
+    match: ''
+    yt: 5R9txj6YAug
+    parts:
+    - [34.99, 37.33]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-oof8-12:
+    match: ''
+    yt: OoF8vkEpjKg
+    parts:
+    - [16.15, 17.95]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-oof8-14:
+    match: ''
+    yt: OoF8vkEpjKg
+    parts:
+    - [20.29, 22.27]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-oof8-15:
+    match: ''
+    yt: OoF8vkEpjKg
+    parts:
+    - [22.57, 24.73]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-oof8-17:
+    match: ''
+    yt: OoF8vkEpjKg
+    parts:
+    - [25.09, 27.05]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-oof8-18:
+    match: ''
+    yt: OoF8vkEpjKg
+    parts:
+    - [27.35, 29.66]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-uaxf-00:
+    match: ''
+    yt: uA-Feaynvo8
+    parts:
+    - [0.15, 3.39]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-uaxf-01:
+    match: ''
+    yt: uA-Feaynvo8
+    parts:
+    - [3.69, 7.65]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-uaxf-03:
+    match: ''
+    yt: uA-Feaynvo8
+    parts:
+    - [9.03, 11.11]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-uaxf-06:
+    match: ''
+    yt: uA-Feaynvo8
+    parts:
+    - [15.59, 18.05]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-uaxf-07:
+    match: ''
+    yt: uA-Feaynvo8
+    parts:
+    - [18.35, 20.59]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-uaxf-10:
+    match: ''
+    yt: uA-Feaynvo8
+    parts:
+    - [23.23, 26.27]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-uaxf-11:
+    match: ''
+    yt: uA-Feaynvo8
+    parts:
+    - [26.57, 28.91]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-uaxf-12:
+    match: ''
+    yt: uA-Feaynvo8
+    parts:
+    - [29.21, 31.08]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-erds-22:
+    match: ''
+    yt: ErDSTdQP8_0
+    parts:
+    - [15.88, 19.42]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-erds-26:
+    match: ''
+    yt: ErDSTdQP8_0
+    parts:
+    - [24.02, 28.72]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-erds-30:
+    match: ''
+    yt: ErDSTdQP8_0
+    parts:
+    - [33.32, 36.08]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-erds-38:
+    match: ''
+    yt: ErDSTdQP8_0
+    parts:
+    - [48.68, 52.35]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-erds-39:
+    match: ''
+    yt: ErDSTdQP8_0
+    parts:
+    - [52.65, 55.28]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-erds-41:
+    match: ''
+    yt: ErDSTdQP8_0
+    parts:
+    - [57.52, 59.65]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-erds-44:
+    match: ''
+    yt: ErDSTdQP8_0
+    parts:
+    - [63.55, 67.05]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-erds-45:
+    match: ''
+    yt: ErDSTdQP8_0
+    parts:
+    - [67.35, 69.32]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-erds-48:
+    match: ''
+    yt: ErDSTdQP8_0
+    parts:
+    - [71.95, 73.78]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-erds-55:
+    match: ''
+    yt: ErDSTdQP8_0
+    parts:
+    - [85.62, 88.08]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-erds-65:
+    match: ''
+    yt: ErDSTdQP8_0
+    parts:
+    - [95.62, 97.48]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-sseg-00:
+    match: ''
+    yt: sSEgPzDOwaM
+    parts:
+    - [0.15, 3.03]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-sseg-01:
+    match: ''
+    yt: sSEgPzDOwaM
+    parts:
+    - [3.33, 6.15]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-sseg-02:
+    match: ''
+    yt: sSEgPzDOwaM
+    parts:
+    - [6.45, 9.11]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-sseg-05:
+    match: ''
+    yt: sSEgPzDOwaM
+    parts:
+    - [16.53, 23.21]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-sseg-06:
+    match: ''
+    yt: sSEgPzDOwaM
+    parts:
+    - [23.51, 25.53]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-sseg-08:
+    match: ''
+    yt: sSEgPzDOwaM
+    parts:
+    - [31.03, 34.59]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-sseg-09:
+    match: ''
+    yt: sSEgPzDOwaM
+    parts:
+    - [34.89, 37.75]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-sseg-10:
+    match: ''
+    yt: sSEgPzDOwaM
+    parts:
+    - [38.05, 40.11]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-sseg-12:
+    match: ''
+    yt: sSEgPzDOwaM
+    parts:
+    - [47.37, 49.99]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-sseg-13:
+    match: ''
+    yt: sSEgPzDOwaM
+    parts:
+    - [50.29, 55.95]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-sseg-14:
+    match: ''
+    yt: sSEgPzDOwaM
+    parts:
+    - [56.25, 60.81]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-sseg-15:
+    match: ''
+    yt: sSEgPzDOwaM
+    parts:
+    - [61.11, 64.51]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-sseg-17:
+    match: ''
+    yt: sSEgPzDOwaM
+    parts:
+    - [69.45, 72.83]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-sseg-18:
+    match: ''
+    yt: sSEgPzDOwaM
+    parts:
+    - [73.13, 76.45]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-dprt-00:
+    match: ''
+    yt: dPrTbyrt3oI
+    parts:
+    - [0.15, 6.21]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-dprt-01:
+    match: ''
+    yt: dPrTbyrt3oI
+    parts:
+    - [6.51, 9.19]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-dprt-03:
+    match: ''
+    yt: dPrTbyrt3oI
+    parts:
+    - [11.93, 13.91]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-dprt-05:
+    match: ''
+    yt: dPrTbyrt3oI
+    parts:
+    - [17.23, 19.91]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-dprt-07:
+    match: ''
+    yt: dPrTbyrt3oI
+    parts:
+    - [22.55, 24.43]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-dprt-10:
+    match: ''
+    yt: dPrTbyrt3oI
+    parts:
+    - [30.03, 32.93]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-dprt-11:
+    match: ''
+    yt: dPrTbyrt3oI
+    parts:
+    - [33.23, 35.42]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-la1w-00:
+    match: ''
+    yt: La1WEUV2r-0
+    parts:
+    - [0.15, 2.81]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-la1w-01:
+    match: ''
+    yt: La1WEUV2r-0
+    parts:
+    - [3.11, 5.69]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-la1w-02:
+    match: ''
+    yt: La1WEUV2r-0
+    parts:
+    - [5.99, 9.85]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-la1w-17:
+    match: ''
+    yt: La1WEUV2r-0
+    parts:
+    - [24.07, 26.03]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-la1w-19:
+    match: ''
+    yt: La1WEUV2r-0
+    parts:
+    - [28.27, 30.23]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-epmv-02:
+    match: ''
+    yt: EpMvcF8dqlc
+    parts:
+    - [3.59, 6.77]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-epmv-03:
+    match: ''
+    yt: EpMvcF8dqlc
+    parts:
+    - [7.07, 12.01]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-epmv-04:
+    match: ''
+    yt: EpMvcF8dqlc
+    parts:
+    - [12.31, 14.55]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-epmv-14:
+    match: ''
+    yt: EpMvcF8dqlc
+    parts:
+    - [29.53, 31.71]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-epmv-15:
+    match: ''
+    yt: EpMvcF8dqlc
+    parts:
+    - [32.01, 34.49]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-epmv-16:
+    match: ''
+    yt: EpMvcF8dqlc
+    parts:
+    - [34.79, 37.42]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-s6id-24:
+    match: ''
+    yt: s6iD9fpYXIU
+    parts:
+    - [31.83, 33.83]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-s6id-25:
+    match: ''
+    yt: s6iD9fpYXIU
+    parts:
+    - [34.13, 35.97]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-s6id-33:
+    match: ''
+    yt: s6iD9fpYXIU
+    parts:
+    - [49.67, 51.95]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-s6id-37:
+    match: ''
+    yt: s6iD9fpYXIU
+    parts:
+    - [57.37, 59.21]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-s6id-38:
+    match: ''
+    yt: s6iD9fpYXIU
+    parts:
+    - [59.51, 61.37]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-s6id-40:
+    match: ''
+    yt: s6iD9fpYXIU
+    parts:
+    - [62.23, 64.77]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-62tu-12:
+    match: ''
+    yt: 62tu1bYON8c
+    parts:
+    - [15.55, 18.4]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  inf-00:
+    match: ''
+    yt: eoBysvS3RtY
+    parts:
+    - [0.15, 7.65]
+    crop: [0.06, 0.18, 0.86, 0.98]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via The Free Press Journal
+  inf-01:
+    match: ''
+    yt: eoBysvS3RtY
+    parts:
+    - [14.05, 20.32]
+    crop: [0.06, 0.18, 0.86, 0.98]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via The Free Press Journal
+  inf-03:
+    match: ''
+    yt: eoBysvS3RtY
+    parts:
+    - [20.82, 28.32]
+    crop: [0.06, 0.18, 0.86, 0.98]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via The Free Press Journal
+  inf-10:
+    match: ''
+    yt: eoBysvS3RtY
+    parts:
+    - [34.22, 37.35]
+    crop: [0.06, 0.18, 0.86, 0.98]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via The Free Press Journal
+  inf-11:
+    match: ''
+    yt: eoBysvS3RtY
+    parts:
+    - [37.65, 39.95]
+    crop: [0.06, 0.18, 0.86, 0.98]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via The Free Press Journal
+  inf-12:
+    match: ''
+    yt: eoBysvS3RtY
+    parts:
+    - [40.25, 47.75]
+    crop: [0.06, 0.18, 0.86, 0.98]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via The Free Press Journal
+  inf-13:
+    match: ''
+    yt: eoBysvS3RtY
+    parts:
+    - [56.65, 64.15]
+    crop: [0.06, 0.18, 0.86, 0.98]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via The Free Press Journal
+  inf-14:
+    match: ''
+    yt: eoBysvS3RtY
+    parts:
+    - [65.28, 72.78]
+    crop: [0.06, 0.18, 0.86, 0.98]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via The Free Press Journal
+  inf-15:
+    match: ''
+    yt: eoBysvS3RtY
+    parts:
+    - [77.35, 84.55]
+    crop: [0.06, 0.18, 0.86, 0.98]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via The Free Press Journal
+  inf-25:
+    match: ''
+    yt: eoBysvS3RtY
+    parts:
+    - [146.42, 148.92]
+    crop: [0.06, 0.18, 0.86, 0.98]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Arrival in New Delhi, via The Free Press Journal
+  # ---- India visit story r07 (keepbusy 2026-11-03) ----
+  dmo-erds-36:
+    match: ''
+    yt: ErDSTdQP8_0
+    parts:
+    - [44.12, 47.48]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office
+  dmo-erds-31:
+    match: ''
+    yt: ErDSTdQP8_0
+    parts:
+    - [36.38, 38.88]
+    note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
+    credit: Dubai Media Office

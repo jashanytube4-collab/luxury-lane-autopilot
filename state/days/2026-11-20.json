@@ -1,0 +1,174 @@
+{
+ "date": "2026-11-20",
+ "slots": [
+  {
+   "at": "2026-11-20T06:26:45+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-20T07:08:00+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-20T07:53:16+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-20T08:40:21+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-20T09:21:22+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-20T10:13:01+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-20T11:07:45+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-20T11:57:20+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-20T12:41:01+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-20T13:25:32+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-20T14:05:22+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-20T14:46:24+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-20T15:32:46+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-20T16:22:16+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-20T17:15:52+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-20T17:56:37+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-20T18:35:30+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-20T19:18:05+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-20T19:38:32+04:00",
+   "minutes": 8.7,
+   "status": "scheduled",
+   "title": "What Fazza Did in India That Nobody Expected — His First Official Visit",
+   "type": "long",
+   "video_id": "YjjtxH1BneU"
+  },
+  {
+   "at": "2026-11-20T20:02:01+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-20T20:45:52+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-20T21:00:00+04:00",
+   "status": "open",
+   "type": "members"
+  },
+  {
+   "at": "2026-11-20T21:34:26+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-20T22:13:03+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-20T22:58:01+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-20T23:43:52+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-21T00:22:37+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-21T01:15:37+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-21T02:10:35+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-21T02:50:38+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-21T03:43:18+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-21T04:33:32+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-21T05:28:25+04:00",
+   "status": "open",
+   "type": "short"
+  }
+ ],
+ "timezone": "Asia/Dubai"
+}

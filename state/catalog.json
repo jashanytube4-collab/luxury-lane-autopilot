@@ -7385,6 +7385,9 @@
   "video_exhausted": true,
   "video_len": 137
  },
+ "hamdan bin mohammed inaugurates ahmed khamis al hameli school": {
+  "fails": 1
+ },
  "hamdan bin mohammed inaugurates al safa art design library": {
   "long": "2026-10-13"
  },
@@ -18590,6 +18593,10 @@
   ],
   "video_exhausted": true,
   "video_len": 90
+ },
+ "ig:dubaimediaoffice:18110645801219055": {
+  "fails": 1,
+  "video_len": 61
  },
  "ig:dubaimediaoffice:18114266015142739": {
   "long": "2026-10-31",

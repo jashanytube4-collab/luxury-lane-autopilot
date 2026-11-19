@@ -12395,3 +12395,320 @@ sb-353495571:
   - palace
   - taj
   text_graphic: false
+sb-121987:
+  arab_people: null
+  desc: India Gate war memorial and its empty canopy on the lawns of New Delhi
+  people: false
+  tags:
+  - delhi
+  - gate
+  - india
+  - landmark
+  - memorial
+  - monument
+  - war
+  text_graphic: false
+sb-353495689:
+  arab_people: null
+  desc: Marine Drive curving along the sea in Mumbai with traffic, the Queen's Necklace
+  people: false
+  tags:
+  - bay
+  - drive
+  - marine
+  - mumbai
+  - necklace
+  - road
+  - sea
+  - traffic
+  text_graphic: false
+sb-354160142:
+  arab_people: null
+  desc: The Victorian Gothic railway station of Mumbai, Chhatrapati Shivaji Terminus, with traffic
+  people: false
+  tags:
+  - building
+  - heritage
+  - mumbai
+  - railway
+  - station
+  - terminus
+  - traffic
+  text_graphic: false
+clip:dmo-uaxf-05:
+  arab_people: true
+  desc: Prince Hamdan seated at the long meeting table with India defence ministry
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - defence
+  - minister
+  - meeting
+  - table
+  - talks
+  - delegation
+  - office
+  text_graphic: false
+clip:in-bse-banner:
+  arab_people: true
+  desc: Prince Hamdan at the Bombay Stock Exchange with the BSE bull statue
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - stock
+  - exchange
+  - bse
+  - bull
+  - mumbai
+  - visit
+  - market
+  text_graphic: false
+clip:in-team-shah:
+  arab_people: true
+  desc: Prince Hamdan with ICC chairman Jay Shah on hotel stairs
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - jay
+  - shah
+  - chairman
+  - icc
+  - cricket
+  - meeting
+  - stairs
+  text_graphic: false
+clip:in-team-talk:
+  arab_people: false
+  desc: Team India cricketers Hardik Pandya and Suryakumar Yadav on a sofa
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - cricket
+  - stars
+  - players
+  - team
+  - india
+  - sofa
+  - talk
+  text_graphic: false
+clip:dmo-la1w-c1:
+  arab_people: true
+  desc: Prince Hamdan looks at the wall of old clocks as a BSE official points
+  hamdan: 0.8
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - clocks
+  - exchange
+  - history
+  - official
+  - wall
+  text_graphic: false
+clip:dmo-la1w-c2:
+  arab_people: true
+  desc: Close shot of Prince Hamdan smiling inside the stock exchange
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - exchange
+  - face
+  - smile
+  text_graphic: false
+clip:dmo-la1w-c3:
+  arab_people: true
+  desc: Prince Hamdan walks past easels of historic photographs at the BSE
+  hamdan: 0.8
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - easels
+  - exchange
+  - history
+  - photographs
+  - walk
+  text_graphic: false
+clip:dmo-s6id-c1:
+  arab_people: true
+  desc: Prince Hamdan seated in the front row beside Piyush Goyal at the Dubai Chambers forum
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - business
+  - forum
+  - goyal
+  - minister
+  - row
+  - seated
+  text_graphic: false
+clip:dmo-s6id-c2:
+  arab_people: false
+  desc: Business leaders in the audience of the forum, Prince Hamdan far away in the front row
+  hamdan: 0.2
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - audience
+  - business
+  - forum
+  - leaders
+  - room
+  - row
+  text_graphic: false
+clip:dmo-s6id-c3:
+  arab_people: true
+  desc: Prince Hamdan seated next to DP World chairman Sultan bin Sulayem
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - business
+  - forum
+  - row
+  - seated
+  text_graphic: false
+clip:dmo-62tu-c1:
+  arab_people: true
+  desc: Close shot of Prince Hamdan talking with his hand raised in a meeting room
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - face
+  - hand
+  - meeting
+  - talks
+  text_graphic: false
+clip:dmo-62tu-c2:
+  arab_people: true
+  desc: The Dubai and Indian teams seated facing each other in a meeting room
+  hamdan: 0.3
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - delegation
+  - meeting
+  - talks
+  - teams
+  text_graphic: false
+clip:dmo-5r9t-c1:
+  arab_people: true
+  desc: Prince Hamdan shakes hands one by one with the embassy staff, women in abayas
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - embassy
+  - handshake
+  - member
+  - staff
+  - team
+  - women
+  text_graphic: false
+clip:dmo-epmv-c1:
+  arab_people: true
+  desc: Prince Hamdan and S Jaishankar seated side by side in a wood panelled hall
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - hall
+  - jaishankar
+  - minister
+  - seated
+  - talks
+  - wooden
+  text_graphic: false
+clip:dmo-epmv-c2:
+  arab_people: false
+  desc: The Dubai delegation seated along one side of the hall
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - delegation
+  - hall
+  - officials
+  - side
+  - team
+  text_graphic: false
+clip:dmo-epmv-c3:
+  arab_people: false
+  desc: Wide view of the hall, Dubai team on one side and Indian officials on the other
+  hamdan: 0.2
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - delegation
+  - hall
+  - officials
+  - room
+  - side
+  - team
+  text_graphic: false
+clip:dmo-dprt-c1:
+  arab_people: true
+  desc: Narendra Modi gestures with his hands as Prince Hamdan listens, silver horse on the table
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - hands
+  - horse
+  - modi
+  - table
+  - talks
+  text_graphic: false
+clip:ihkr-c1:
+  arab_people: true
+  desc: Narendra Modi points along a corridor as Prince Hamdan looks
+  hamdan: 0.8
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - corridor
+  - modi
+  - pointing
+  text_graphic: false
+clip:ihkr-c2:
+  arab_people: true
+  desc: Narendra Modi shows Prince Hamdan a tall peacock sculpture
+  hamdan: 0.8
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - bird
+  - modi
+  - peacock
+  - sculpture
+  text_graphic: false
+clip:ihkr-c3:
+  arab_people: true
+  desc: Narendra Modi and Prince Hamdan stand together in a sitting room with an aide
+  hamdan: 0.8
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - aide
+  - modi
+  - room
+  - sitting
+  text_graphic: false
+clip:dmo-uaxf-c1:
+  arab_people: true
+  desc: Prince Hamdan seated at the long defence meeting table
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - defence
+  - meeting
+  - minister
+  - table
+  - talks
+  text_graphic: false

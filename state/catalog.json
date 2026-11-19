@@ -2048,6 +2048,7 @@
   "video_len": 30
  },
  "hamdan bin mohammed and kuwait s defence minister attend uae kuwait media forum": {
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "hamdan bin mohammed and maktoum bin mohammed attend kuwait prime minister s address at world government summit 2022": {
@@ -2722,10 +2723,12 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed approves launch of three new projects under dubai 10x initiative": {
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "hamdan bin mohammed approves master plan to develop umm suqeim beach as one of a kind global attraction": {
   "long": "2026-10-11",
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "hamdan bin mohammed approves mbz sat for launch": {
@@ -2813,6 +2816,7 @@
   "no_video_until": "2026-10-30"
  },
  "hamdan bin mohammed approves new urban planning model for residential areas in dubai": {
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "hamdan bin mohammed approves next phase of dubai future solutions initiative": {
@@ -4092,6 +4096,7 @@
   "video_len": 275
  },
  "hamdan bin mohammed attends graduation ceremony at the dubai police academy": {
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "hamdan bin mohammed attends graduation ceremony at zayed ii military college in al ain": {
@@ -4648,6 +4653,7 @@
   "last_short": "2026-10-07",
   "long": "2026-10-31",
   "montage_exhausted": true,
+  "no_hamdan": true,
   "remix_exhausted": true,
   "shorts_made": 1,
   "shot_ranges": [
@@ -5342,6 +5348,7 @@
  },
  "hamdan bin mohammed attends the mohammed bin rashid al maktoum international sports award on opening day of world sports summit": {
   "long": "2026-10-08",
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "hamdan bin mohammed attends the opening of asia pacific cities summit and mayors forum at expo city dubai": {
@@ -9914,6 +9921,7 @@
  },
  "hamdan bin mohammed meets with elon musk affirms the uae and dubai s vision to foster technology partnerships for greater good": {
   "long": "2026-10-05",
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "hamdan bin mohammed meets with emirati children who volunteered to clean up their neighbourhoods following heavy rains": {
@@ -9921,6 +9929,7 @@
  },
  "hamdan bin mohammed meets with fifa president on the sidelines of the world sports summit in dubai": {
   "long": "2026-10-08",
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "hamdan bin mohammed meets with first cohort of graduates from the hamdan bin mohammed scholarship programme": {
@@ -10129,6 +10138,7 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed meets with kuwait s minister of defence": {
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "hamdan bin mohammed meets with local dignitaries and senior officials at nad al sheba majlis": {
@@ -13241,6 +13251,7 @@
   "video_len": 169
  },
  "hamdan bin mohammed reviews jumeirah beach 1 development project underscores role of public beaches in enhancing quality of life": {
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "hamdan bin mohammed reviews khda s preparations for the new school year": {
@@ -21129,6 +21140,7 @@
  },
  "uae president attends graduation ceremony at zayed ii military college in al ain": {
   "long": "2026-11-02",
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "uae president confers first class order of zayed ii on flydubai crew": {

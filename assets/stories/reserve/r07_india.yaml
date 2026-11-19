@@ -1,5 +1,5 @@
 # India visit story r07 (keepbusy 2026-11-03): no dates (rule 38). Facts: Dubai Media Office, WAM, Gulf News,
-# Indian news, PM Modi's official channel footage. v7 (keepbusy 2026-11-18 22:00): edited directly here (v6 backup work/india/r07_v6_backup.yaml). v8 2026-11-19: work/india/v8/patch_v8.py + patch_v8b.py. v8d: work/india/v8/patch_v8d.py (stock runs).
+# Indian news, PM Modi's official channel footage. v7 (keepbusy 2026-11-18 22:00): edited directly here (v6 backup work/india/r07_v6_backup.yaml). v8 2026-11-19: work/india/v8/patch_v8.py + patch_v8b.py. v9k: work/india/v9/patch_v9k.py (stock runs + rule 9 + words, plan_check).
 id: r07-fazza-india
 title: What Fazza Did in India That Nobody Expected — His First Official Visit
 thumbnail:
@@ -33,7 +33,7 @@ tags:
 - Fazza
 sections:
 - beats:
-  - say: Why did the Crown Prince of Dubai end his first official trip to India with a message in Hindi? Stay to the end to find out.
+  - say: Why did the Crown Prince of Dubai end his trip to India with a message in Hindi? Stay to the end to find out.
     show:
     - clip:dmo-erds-22
     - clip:dmo-erds-26
@@ -62,16 +62,19 @@ sections:
     - clip:dmo-sseg-06
     - clip:dmo-sseg-17
 - beats:
-  - say: It began at the airport in New Delhi, where his royal jet rolled slowly to a stop beside a red canopy.
+  - say: It began at the airport in New Delhi, where his royal jet rolled to a stop beside a red canopy.
     show:
-    - clip:dmo-sseg-00
+    - clip:dmo-sseg-02
     - clip:dmo-sseg-08
     - clip:dmo-sseg-01
+    - sb-352748614
     sfx: impact
   - say: Next to the red carpet, the flags of both countries waved together.
     show:
     - clip:dmo-sseg-18
     - clip:dmo-sseg-12
+    - sb-346728802
+    - sb-351921952
   - say: The guard of honour stretched far down the red carpet.
     show:
     - clip:dmo-sseg-14
@@ -80,7 +83,7 @@ sections:
     - clip:inf-00
     - clip:in-stairs-close
     sfx: whoosh
-  - say: At the bottom, an Indian Air Force officer stood ready and shook his hand.
+  - say: At the bottom, an Indian Air Force officer shook his hand.
     show:
     - clip:inf-01
     fx: flash
@@ -91,37 +94,37 @@ sections:
     show:
     - clip:inf-15
     sfx: impact
-  - say: India had rolled out the long red carpet, quite literally, all the way across the tarmac.
+  - say: India had rolled out the red carpet, quite literally, all the way across the tarmac.
     show:
     - clip:inf-13
-  - say: Then, under a red canopy, he took his place on the saluting stand as the national anthems of both countries played.
+    - sb-8219222
+  - say: Under a red canopy, he took his place on the saluting stand as the national anthems of both countries played.
     show:
     - clip:in-canopy
     - clip:in-salute-stand
-  - say: Sailors in white uniforms and white caps stood in perfect rows for the guard of honour.
+  - say: Sailors in white uniforms stood in perfect rows for the guard of honour.
     show:
     - clip:in-guard-rows
     sfx: whoosh
-  - say: He stood to attention, perfectly still and calm, as an officer saluted beside him.
+  - say: He stood to attention, perfectly still, as an officer saluted beside him.
     show:
     - clip:in-salute-close
   - say: Then he walked the whole length of the guard of honour, slowly, past every single soldier.
     show:
     - clip:inf-14
     fx: flash
-  - say: An Indian officer walked at his side, step by step.
+  - say: An Indian officer walked at his side.
     show:
     - clip:in-walk-officer
     sfx: impact
-  - say: Then the Air Force and the Army marched past in his honour, in perfect step, row after row.
+  - say: Then the Air Force and the Army marched past in his honour.
     show:
     - clip:inx-yqpe-01
-    - clip:inx-yqpe-02
-  - say: An officer checked every soldier in the line. And every soldier stood to attention. Not one of them moved.
+  - say: An officer checked every soldier. And every soldier stood to attention. Not one moved.
     show:
     - clip:inx-yqpe-03
     - clip:inx-yqpe-04
-  - say: He walked along the red carpet with the Indian officials, slowly, talking as they went, past the saluting stand and the flags.
+  - say: He walked along the red carpet with the Indian officials, slowly, past the saluting stand, step by step.
     show:
     - clip:inx-yqpe-11
     - clip:inx-yqpe-13
@@ -129,23 +132,32 @@ sections:
   - say: Then something lovely happened. Drummers began to play a welcome.
     show:
     - clip:in-drums
-  - say: And the Crown Prince took out his own phone and filmed them, smiling, like any visitor. Just a happy guest, enjoying the music.
+  - say: And the Crown Prince took out his own phone and filmed them, smiling, like any visitor. Just a happy guest.
     show:
     - clip:in-phone
     - clip:inx-yqpe-18
-  - say: Finally, his long black Mercedes was ready, and the convoy drove him into the city of New Delhi.
+  - say: Finally, his black Mercedes was ready, and the convoy drove him into the city of New Delhi, the capital of India.
     show:
     - clip:in-car-delhi
     - clip:inx-yqpe-27
     sfx: impact
     fx: flash
-  - say: New Delhi, India's capital, is a giant city of highways, traffic and history.
+  - say: New Delhi is a giant city of highways, traffic and history.
     show:
     - sb-348696260
+    - clip:inx-yqpe-08
+  - say: Its white Lotus Temple is shaped like a flower, with twenty seven petals.
+    show:
+    - sb-352743358
+  - say: India Gate, a giant war memorial, stands at the heart of Delhi.
+    show:
+    - clip:in-flags-trees
+    - sb-121987
+    sfx: whoosh
   - say: So why did he choose India? And why New Delhi first?
     show:
     - sb-3666285
-    - clip:in-flags-trees
+    - clip:ihkr-c2
 - beats:
   - say: His first stop was the home of Prime Minister Narendra Modi. The car pulled up under a white portico.
     show:
@@ -157,36 +169,32 @@ sections:
     - clip:in-pm-greet
     - clip:dmo-dprt-00
     sfx: impact
-  - say: Then they walked in together, side by side, past a long row of flags.
+  - say: Then they walked in together, past a long row of flags.
     show:
     - clip:dmo-dprt-10
     - clip:in-pm-walk
     fx: flash
-  - say: Inside, they first stood together for a moment, and then the talks began in a quiet room.
+  - say: Inside, the talks began in a quiet room.
     show:
-    - clip:ihkr-c3
     - clip:in-pm-room
-  - say: A silver horse stood on the small table between them. Modi talked with his hands.
+  - say: A silver horse on the table. Modi talked with his hands.
     show:
     - clip:in-pm-horse
     - clip:dmo-dprt-05
-    - clip:dmo-dprt-c1
     sfx: whoosh
   - say: Fazza listened, and nodded. A good guest listens first.
     show:
     - clip:dmo-dprt-03
     - clip:in-pm-talk
-  - say: Modi hosted a working lunch in his honour, and shook hands with the Dubai team. The talks went on.
+  - say: Modi hosted a working lunch in his honour. The talks went on.
     show:
     - clip:in-pm-sofa
-    - clip:inx-ihkr-98
-    - clip:inx-ihkr-102
-  - say: Then the Prime Minister took his guest out into his large green garden.
+  - say: Then the Prime Minister took his guest out into his garden.
     show:
     - clip:inx-ihkr-52
     - clip:in-pm-garden
     sfx: impact
-  - say: He showed him a framed display, with an old black and white photograph from the history of both countries.
+  - say: He showed him a framed display, with an old black and white photograph from history.
     show:
     - clip:inx-ihkr-54
     - clip:in-pm-photo
@@ -194,23 +202,16 @@ sections:
     show:
     - clip:in-pm-shake
     fx: flash
-  - say: Modi stopped and pointed out a carved wooden pavilion in the garden. Fazza looked at it closely, between its carved pillars.
+  - say: Modi stopped and pointed out a carved wooden pavilion in the garden.
     show:
     - clip:in-pm-gazebo
-    - clip:inx-ihkr-65
-    - clip:inx-ihkr-69
     - clip:inx-ihkr-70
     sfx: whoosh
-  - say: Then they strolled slowly across the green lawn, and walked back down a corridor past the flags.
+  - say: Then they strolled across the lawn, and walked back down a corridor past the flags.
     show:
     - clip:in-pm-lawn
     - clip:in-pm-corridor
     - clip:inx-ihkr-92
-  - say: Inside, Modi showed him a tall peacock, India's national bird.
-    show:
-    - clip:ihkr-c1
-    - clip:ihkr-c2
-    - clip:in-pm-peacock
   - say: Modi greeted every member of the Dubai delegation under the portico.
     show:
     - clip:in-pm-delegation
@@ -222,7 +223,7 @@ sections:
     show:
     - clip:inx-ihkr-124
 - beats:
-  - say: 'Fazza replied: India and the Emirates share ties built on trust, and shaped by history.'
+  - say: 'Fazza replied: India and the Emirates share ties built on trust.'
     show:
     - clip:dmo-epmv-03
     - clip:dmo-epmv-16
@@ -236,24 +237,24 @@ sections:
     show:
     - clip:dmo-epmv-04
     - clip:inx-mia1-12
-    - clip:dmo-epmv-c1
-  - say: His Dubai team sat on one side, and India's officials on the other.
-    show:
-    - clip:dmo-epmv-c2
-    - clip:dmo-epmv-c3
   - say: Afterwards, the foreign minister walked beside him. Still talking. Still smiling.
     show:
     - clip:dmo-epmv-14
     - clip:in-jai-seated
     - clip:in-jaishankar
     sfx: impact
+  - say: According to officials, trade between the two countries is now worth around one hundred billion US dollars a year.
+    show:
+    - sb-348383495
+    - sb-352806694
+    fx: flash
   - say: Fazza is also the Minister of Defence of the Emirates. So in New Delhi, he met India's defence minister, Rajnath Singh.
     show:
     - clip:dmo-uaxf-12
     - clip:dmo-uaxf-01
     - clip:dmo-uaxf-00
     - clip:dmo-uaxf-11
-  - say: Singh came out to meet him at his car, and welcomed him inside.
+  - say: Rajnath Singh came out to meet him at his car, and walked him inside.
     show:
     - clip:in-rajnath-car
     - clip:in-rajnath
@@ -282,28 +283,41 @@ sections:
   - say: But remember that Hindi message from Fazza? We will get to it.
     show:
     - clip:inx-zofz-48
-- beats:
-  - say: On day two, he flew to Mumbai, India's city of money.
+  - say: First, he flew to India's city of money, home to twenty million people.
     show:
+    - sb-349016837
+    - clip:in-pm-farewell
     - sb-354876423
+- beats:
+  - say: On the second day of his visit, he landed in Mumbai, where a long bridge crosses the sea.
+    show:
     - sb-348745233
+    - clip:inf-10
     sfx: whoosh
+  - say: Mumbai is a city of yellow taxis and red buses.
+    show:
+    - sb-566345
+  - say: Near the water stand the Gateway of India and the Taj Mahal Palace, the city's famous old hotel.
+    show:
+    - sb-566916
+    - clip:dmo-dprt-11
+    - sb-353495571
+    fx: flash
+  - say: Along the sea runs Marine Drive, a long curve of road and lights.
+    show:
+    - sb-353495689
+    sfx: impact
   - say: At the stock exchange, his face filled a giant screen.
     show:
     - clip:dmo-la1w-00
     - clip:dmo-la1w-01
-  - say: Then he rang the opening bell of the Bombay Stock Exchange. One strike. And the day's trading in Mumbai began.
+  - say: Then he rang the opening bell of the Bombay Stock Exchange. One strike. And the day's trading began.
     show:
     - clip:dmo-la1w-02
     - clip:in-bse-bell
   - say: Numbers began to fly across the screens of the stock market.
     show:
     - sb-346803249
-  - say: An official showed him the old clocks of the exchange.
-    show:
-    - clip:dmo-la1w-c1
-    - clip:dmo-la1w-c2
-    - clip:dmo-la1w-c3
   - say: Old photos on the wall. A share certificate, in rupees.
     show:
     - clip:dmo-la1w-17
@@ -312,18 +326,6 @@ sections:
     - clip:in-bse-face
     sfx: impact
     fx: flash
-  - say: Here is a surprising fact. Dubai once used the Indian rupee.
-    show:
-    - sb-10971663
-    sfx: whoosh
-  - say: Later it became a Gulf rupee, from India's central bank in Mumbai.
-    show:
-    - clip:inx-brmz-20
-    - sb-74608
-  - say: Back then, before oil, wooden dhows with big sails crossed the sea to India.
-    show:
-    - sb-351934906
-    sfx: impact
   - say: This is the oldest stock exchange in all of Asia.
     show:
     - clip:inx-brmz-18
@@ -332,68 +334,106 @@ sections:
   - say: Its history goes back to traders under a banyan tree.
     show:
     - clip:in-bse-walk
+  - say: Here is a surprising fact. For years, Dubai used the Indian rupee as its own money.
+    show:
+    - sb-10971663
+    - clip:inx-brmz-20
+    - sb-354420882
+    sfx: whoosh
+  - say: Later it became a Gulf rupee, from India's central bank in Mumbai.
+    show:
+    - sb-74608
+    sfx: impact
 - beats:
-  - say: Then he sat down with two hundred business leaders, all in one room, with India's commerce minister beside him.
+  - say: Then he sat down with two hundred business leaders, all in one room.
     show:
     - clip:dmo-s6id-38
     - clip:dmo-s6id-25
     - clip:dmo-s6id-24
-    - clip:dmo-s6id-c2
-    - clip:dmo-s6id-c1
     fx: flash
-  - say: Officials report that more than four million Indians live in the Emirates, many of them right here in the city of Dubai.
-    show:
-    - sb-349101766
-    - sb-354573172
-    sfx: whoosh
-  - say: Indian companies are the biggest foreign group in the Dubai Chambers, the city's chamber of commerce.
+  - say: Indian companies are the biggest foreign group in the Dubai Chambers.
     show:
     - clip:dmo-s6id-33
     - clip:dmo-s6id-40
     - clip:dmo-s6id-37
+  - say: Officials report that more than four million Indians live in the Emirates, many of them right here in the city of Dubai.
+    show:
+    - sb-354573172
+    - sb-349101766
+    sfx: whoosh
+  - say: Every day, container ships carry cargo between the ports of India and the Emirates.
+    show:
+    - clip:inx-mia1-16
+    - sb-10828523
+  - say: Ships carry Emirati oil to India.
+    show:
+    - clip:inx-mia1-17
+  - say: Long before oil, wooden dhows with big sails carried spices, tea and rice between Dubai and India.
+    show:
+    - sb-351934906
+    - sb-1428417
+  - say: For business, the big news was a trade deal cutting taxes on most goods.
+    show:
+    - clip:dmo-s6id-c2
+    - clip:dmo-s6id-c1
+    - sb-351663949
+    sfx: impact
+    fx: flash
   - say: And every year, Dubai lights up for Diwali, the Indian festival of lights.
     show:
     - sb-348481046
-  - say: Then he and Piyush Goyal held talks, face to face, with their teams around them.
+    - clip:in-plane-flags
+    - sb-352835520
+  - say: On the boats of old Dubai Creek, you hear Hindi and Malayalam every day.
     show:
-    - clip:dmo-62tu-c1
-    - clip:dmo-62tu-c2
-    - clip:dmo-62tu-12
-  - say: The two countries even signed a big trade deal, cutting taxes on thousands of goods.
-    show:
-    - sb-351663949
+    - sb-354566802
     sfx: impact
+  - say: Every week, hundreds of flights connect India and the Emirates.
+    show:
+    - clip:inx-yqpe-10
+    - sb-349321098
+  - say: According to both governments, they can now trade in rupees and dirhams.
+    show:
+    - sb-347446633
+    fx: flash
+  - say: He met India's commerce minister, Piyush Goyal.
+    show:
+    - clip:dmo-62tu-12
+    - clip:dmo-oof8-12
   - say: Officials from both sides signed eight agreements on the stage. Eight, in one day.
     show:
     - clip:dmo-oof8-15
     - clip:dmo-oof8-14
     - clip:dmo-oof8-17
     - clip:dmo-oof8-18
-  - say: Indian visitors love Dubai's famous gold shops, especially before weddings.
-    show:
-    - sb-10257510
-    sfx: whoosh
-  - say: Every week, hundreds of flights link the two countries.
-    show:
-    - clip:in-plane-flags
-    - sb-349321098
-  - say: According to both governments, they can now trade in rupees and dirhams.
-    show:
-    - sb-10966388
-    fx: flash
-  - say: Ships carry Emirati oil to India.
-    show:
-    - clip:inx-mia1-17
-    - clip:inx-mia1-18
-  - say: Every day, container ships carry cargo between the ports of India and the Emirates.
-    show:
-    - sb-10828523
-    - clip:inx-mia1-16
 - beats:
-  - say: Why cricket? India had just won the Champions Trophy, in Dubai.
+  - say: What surprised his followers most was not a meeting, or a deal. It was food.
+    show:
+    - sb-353492055
+    - clip:dmo-62tu-c1
+    - clip:dmo-62tu-c2
+    sfx: whoosh
+    fx: flash
+  - say: In Mumbai, food is everywhere.
+    show:
+    - sb-352535688
+  - say: On his Instagram stories, he shared a video from Pali Bhavan, a much loved Indian restaurant in Bandra, Mumbai.
+    show:
+    - sb-355075646
+    - clip:inx-yqpe-14
+    - sb-567261
+  - say: The restaurant posted the video on social media, with three simple words.
+    show:
+    - sb-354636279
+    sfx: impact
+  - say: Thank you, Fazza.
+    show:
+    - clip:ig-council-desk
+- beats:
+  - say: Why cricket? India had just won the Champions Trophy, right here in Dubai.
     show:
     - sb-488209
-  - say: Then came a meeting with Indian cricket players that set social media on fire.
+  - say: Then came a meeting with cricket players that set social media on fire.
     show:
     - clip:inx-nyvz-04
     - clip:in-team-players
@@ -409,56 +449,44 @@ sections:
     - clip:in-team-rohit
     - clip:in-cric-shake
     - clip:in-cric-memento
-  - say: 'With him were three cricket stars: Rohit Sharma, Suryakumar Yadav and Hardik Pandya, all in Team India shirts.'
+  - say: With him were cricket stars Rohit Sharma, Suryakumar Yadav and Hardik Pandya, three of the biggest names in Indian cricket.
     show:
     - clip:inx-nyvz-14
     - clip:inx-nyvz-18
     - clip:in-team-sofa
+    - sb-354811803
     sfx: impact
   - say: 'He signed their jersey. His own said: Dubai, eleven.'
     show:
     - clip:in-cric-sign
     - clip:in-team-jersey
     - clip:in-team-lobby
-  - say: World cricket is even run from Dubai, next to its cricket stadium.
+  - say: World cricket is even run from Dubai. The ICC's headquarters is right next to Dubai's cricket stadium.
     show:
     - sb-348498441
+    - sb-347201677
 - beats:
   - say: He posted the photo on Instagram. In Hindi.
     show:
     - clip:ig-cloud-roof-b
     sfx: whoosh
-  - say: A memorable meeting with Team India, he wrote.
+  - say: A memorable meeting with Team India, he wrote. Fans in India loved it.
     show:
     - sb-352791457
-  - say: What surprised his followers most was not a meeting. It was food.
-    show:
-    - sb-353492055
-    - clip:ig-cloud-roof-a
-    sfx: whoosh
-    fx: flash
-  - say: On his Instagram stories, he shared a video from Pali Bhavan, a much loved restaurant in Mumbai.
-    show:
-    - sb-355075646
-    - sb-352731073
-  - say: 'The restaurant posted the video on social media, with three simple words: Thank you, Fazza.'
-    show:
-    - clip:ig-council-desk
-    - sb-354636279
   - say: Before leaving, he met the team of the UAE embassy in India and thanked them.
     show:
     - clip:dmo-5r9t-00
+    fx: flash
   - say: He shook hands with every member of the team, one by one.
     show:
     - clip:dmo-5r9t-c1
-    fx: flash
   - say: 'Then he thanked India in three languages: Hindi, Arabic and English.'
     show:
     - clip:dmo-5r9t-02
     - clip:dmo-5r9t-07
     - clip:dmo-5r9t-03
     sfx: impact
-  - say: Here is the answer. He came to India as a guest, and after two days he left as a friend who spoke their language.
+  - say: Here is the answer. He came to India as a guest, and he left as a friend who spoke their language.
     show:
     - clip:auto-fi451vd-l70-1
     - clip:in-line-greet-2

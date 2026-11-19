@@ -2839,6 +2839,7 @@
  },
  "hamdan bin mohammed approves package of strategic initiatives aimed at strengthening the family s role as the foundation of society": {
   "long": "2026-10-17",
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "hamdan bin mohammed approves series of strategies aimed at achieving mohammed bin rashid s vision to make dubai the world s best most beautiful and most advanced city": {
@@ -3353,6 +3354,7 @@
   "fails": 1,
   "last_short": "2026-10-06",
   "long": "2026-10-30",
+  "no_hamdan": true,
   "shorts_made": 2,
   "shot_ranges": [
    [
@@ -4777,6 +4779,7 @@
   "video_len": 64
  },
  "hamdan bin mohammed attends peace shield 2026 joint military exercise between uae and azerbaijan": {
+  "no_hamdan": true,
   "post_photos": [
    5
   ],
@@ -7386,7 +7389,8 @@
   "video_len": 137
  },
  "hamdan bin mohammed inaugurates ahmed khamis al hameli school": {
-  "fails": 1
+  "fails": 1,
+  "no_hamdan": true
  },
  "hamdan bin mohammed inaugurates al safa art design library": {
   "long": "2026-10-13"
@@ -8277,6 +8281,7 @@
  },
  "hamdan bin mohammed launches aed 1billion international space cooperation programme to support space research and development": {
   "long": "2026-10-07",
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "hamdan bin mohammed launches create ai agents championship to inspire transformative ideas for global good": {
@@ -9758,6 +9763,7 @@
   "video_len": 121
  },
  "hamdan bin mohammed meets with chairman of accor group": {
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "hamdan bin mohammed meets with chairman of international cricket council indian cricket stars": {
@@ -12460,6 +12466,7 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed presents indian teacher rouble nagi with global teacher prize 2026 at the world governments summit": {
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "hamdan bin mohammed presents landmark group with first sports imprint award": {
@@ -13510,6 +13517,7 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed reviews specialised initiatives and projects undertaken by rta": {
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "hamdan bin mohammed reviews strategic plans of dubai civil defense": {
@@ -16722,6 +16730,7 @@
   "long": "2026-10-06",
   "montage_exhausted": true,
   "montage_used": 3,
+  "no_hamdan": true,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -17771,6 +17780,7 @@
  },
  "hamdan bin mohammed witnesses launch of dubai digital twin platform marking a new milestone in dubai s futuristic journey": {
   "long": "2026-10-10",
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "hamdan bin mohammed witnesses opening of the 27th general conference of the international council of museums": {
@@ -21108,6 +21118,7 @@
  },
  "uae and egyptian presidents discuss fraternal ties and regional developments": {
   "long": "2026-10-07",
+  "no_hamdan": true,
   "post_photos": [
    0
   ],
@@ -21129,6 +21140,7 @@
  },
  "uae president offers condolences to emir of qatar on passing of sheikh hamad bin khalifa al thani": {
   "long": "2026-10-20",
+  "no_hamdan": true,
   "video_exhausted": true
  },
  "uae president receives crown prince of dubai and first deputy ruler of dubai": {

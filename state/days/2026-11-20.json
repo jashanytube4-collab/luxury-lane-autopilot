@@ -3,8 +3,13 @@
  "slots": [
   {
    "at": "2026-11-20T06:26:45+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "ig:dubaimediaoffice:18110645801219055",
+   "kind": "narrated",
+   "status": "scheduled",
+   "title": "Prince Hamdan Honors Flight Pioneers 🤍",
+   "type": "short",
+   "video_id": "yQYh-9X24qQ",
+   "voiced": true
   },
   {
    "at": "2026-11-20T07:08:00+04:00",

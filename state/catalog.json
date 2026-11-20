@@ -477,7 +477,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     60.155932025090266,
@@ -490,6 +490,10 @@
    [
     23.7608590279293,
     26.086593907556992
+   ],
+   [
+    158.34543685836454,
+    160.16952612720112
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -683,10 +687,10 @@
   "video_len": 149
  },
  "dubai crown prince offers condolences al muhairi family": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     55.625184337432124,
@@ -703,6 +707,10 @@
    [
     47.90858287403907,
     49.83694257217442
+   ],
+   [
+    43.744130081969985,
+    44.63005923166419
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1171,10 +1179,10 @@
   "long": "2026-10-23"
  },
  "dubai executive council approves annual agenda for 2018": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     40.11976320344587,
@@ -1183,6 +1191,10 @@
    [
     55.72440863900867,
     57.16566472079287
+   ],
+   [
+    17.596778143520794,
+    19.241990622388922
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1895,7 +1907,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     101.08052694620307,
@@ -1912,6 +1924,10 @@
    [
     463.4982645228952,
     465.43069371644856
+   ],
+   [
+    376.2172115047996,
+    378.45423438639955
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2616,6 +2632,7 @@
   "long": "2026-10-27",
   "montage_exhausted": true,
   "montage_used": 7,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     70.24000000000001,
@@ -3546,6 +3563,7 @@
   "long": "2026-10-28",
   "montage_exhausted": true,
   "montage_used": 4,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     25.953333333333333,
@@ -3660,14 +3678,18 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends graduation ceremony of hbmsu university": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     12.41941150822768,
     14.783002786744126
+   ],
+   [
+    19.0,
+    21.16
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4809,10 +4831,10 @@
   "long": "2026-10-18"
  },
  "hamdan bin mohammed attends wedding receptions in al ain dubai": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-15",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     25.482115009548746,
@@ -4829,6 +4851,10 @@
    [
     31.13633761766564,
     33.41944527441444
+   ],
+   [
+    0.8259556779963235,
+    3.3348267912863863
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5357,11 +5383,16 @@
   "video_len": 116
  },
  "hamdan bin mohammed concludes official visit to uzbekistan": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-22",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 9,
-  "remix_ranges": [],
+  "montage_used": 10,
+  "remix_ranges": [
+   [
+    140.32574025403827,
+    142.05461536174934
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [

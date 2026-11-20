@@ -728,7 +728,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     104.95980191406525,
@@ -737,6 +737,10 @@
    [
     111.80589717100759,
     113.41442169707477
+   ],
+   [
+    27.253500948168828,
+    28.812256171405657
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1036,11 +1040,16 @@
   "long": "2026-10-22"
  },
  "executive council reviews a number of projects": {
-  "last_short": "2026-11-17",
+  "last_short": "2026-11-21",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 8,
-  "remix_ranges": [],
+  "montage_used": 9,
+  "remix_ranges": [
+   [
+    29.85244713206491,
+    31.89348805547219
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -2132,14 +2141,18 @@
  },
  "hamdan bin mohammed attends 19th graduation ceremony of rashid bin saeed al maktoum naval college": {
   "fails": 1,
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     54.629629705411226,
     56.249538299606094
+   ],
+   [
+    69.14695426441527,
+    71.70842069725742
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2325,6 +2338,7 @@
   "long": "2026-10-23",
   "montage_exhausted": true,
   "photo_short": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
@@ -2333,10 +2347,10 @@
   "video_len": 65
  },
  "hamdan bin mohammed attends closing ceremony of 3rd dubai future accelerators program": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 24,
+  "montage_used": 25,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -2410,6 +2424,10 @@
    [
     42.00173804542305,
     43.562486286095535
+   ],
+   [
+    123.27442091154663,
+    124.90134414297853
    ]
   ],
   "shorts_made": 3,
@@ -2691,6 +2709,7 @@
   "long": "2026-10-13",
   "montage_exhausted": true,
   "montage_used": 4,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     20.039942805758713,
@@ -4006,11 +4025,15 @@
   "last_short": "2026-11-21",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 27,
+  "montage_used": 28,
   "remix_ranges": [
    [
     167.6806468932527,
     169.47073561125436
+   ],
+   [
+    42.07436262187155,
+    44.659907071167936
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4324,6 +4347,7 @@
   "long": "2026-10-25",
   "montage_exhausted": true,
   "montage_used": 6,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     27.46495299996722,
@@ -4530,11 +4554,16 @@
   "video_len": 122
  },
  "hamdan bin mohammed chairs executive council meeting approves updated school fees framework": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-21",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 8,
-  "remix_ranges": [],
+  "montage_used": 9,
+  "remix_ranges": [
+   [
+    85.61181999860901,
+    87.41841762954503
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -5524,7 +5553,7 @@
  "hamdan bin mohammed honours winners of 5th islamic economy award": {
   "last_short": "2026-11-21",
   "long": "2026-10-30",
-  "montage_used": 24,
+  "montage_used": 25,
   "remix_ranges": [
    [
     154.96962970092923,
@@ -5533,6 +5562,10 @@
    [
     188.67630013828688,
     190.95335028523473
+   ],
+   [
+    42.06748080278297,
+    43.43189739285137
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6382,7 +6415,7 @@
  "hamdan bin mohammed launches 26 dubai 10x projects issues directive to implement them within 24 months": {
   "last_short": "2026-11-21",
   "long": "2026-10-31",
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     53.879999999999995,
@@ -6391,6 +6424,10 @@
    [
     206.32,
     208.51999999999998
+   ],
+   [
+    3.1529252214810333,
+    4.618180740262065
    ]
   ],
   "remix_reset": "2026-11-20",

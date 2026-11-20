@@ -133,6 +133,55 @@ class Library:
         log.warning("library upload of %s failed: %s %s", name, r.status_code, r.text[:200])
         return False
 
+    # ---- photo mirror: hamdan.ae blocks GitHub's servers, so photos are copied (zips) by tools/mirror_photos.py ----
+    PHOTO_TAG = "photos"
+
+    @staticmethod
+    def photo_name(url: str) -> str:
+        import hashlib
+        return hashlib.sha1(url.encode("utf-8")).hexdigest()[:20] + ".jpg"
+
+    def _photo_assets(self) -> dict[str, int]:
+        if getattr(self, "_photo_idx", None) is None:
+            self._photo_idx, self._photo_map = {}, {}
+            try:
+                r = self._api(f"https://api.github.com/repos/{self.repo}/releases/tags/{self.PHOTO_TAG}")
+                if r.status_code == 200:
+                    rid = r.json()["id"]
+                    a = self._api(f"https://api.github.com/repos/{self.repo}/releases/{rid}/assets?per_page=100").json()
+                    self._photo_idx = {x["name"]: x["id"] for x in a}
+                    if "index.json" in self._photo_idx:
+                        d = self._api(f"https://api.github.com/repos/{self.repo}/releases/assets/{self._photo_idx['index.json']}",
+                                      headers={"Accept": "application/octet-stream"})
+                        self._photo_map = d.json()
+            except Exception as e:  # noqa: BLE001 — the mirror is a fallback only
+                log.warning("photo mirror unavailable: %s", e)
+        return self._photo_idx
+
+    def photo(self, url: str, dest: Path) -> bool:
+        """Photo from the mirror zip (False when it is not mirrored)."""
+        import io
+        import zipfile
+        self._photo_assets()
+        name = self.photo_name(url)
+        zname = self._photo_map.get(name)
+        aid = self._photo_idx.get(zname or "")
+        if not aid:
+            return False
+        cache = getattr(self, "_zips", None)
+        if cache is None:
+            cache = self._zips = {}
+        if zname not in cache:
+            r = self._api(f"https://api.github.com/repos/{self.repo}/releases/assets/{aid}",
+                          headers={"Accept": "application/octet-stream"})
+            if r.status_code != 200:
+                return False
+            cache[zname] = r.content
+        with zipfile.ZipFile(io.BytesIO(cache[zname])) as z:
+            dest.parent.mkdir(parents=True, exist_ok=True)
+            dest.write_bytes(z.read(name))
+        return dest.stat().st_size > 20_000
+
     def fetch(self, name: str, dest: Path) -> bool:
         aid = self.assets().get(name)
         if not aid:
@@ -241,6 +290,8 @@ class Hamdan:
         if dest.exists() and dest.stat().st_size > 20_000:
             return dest
         dest.parent.mkdir(parents=True, exist_ok=True)
+        if self.library and self.library.photo(url, dest):      # mirror first: the website blocks GitHub's servers
+            return dest
         r = self.s.get(url, timeout=90)
         r.raise_for_status()
         if len(r.content) < 20_000:

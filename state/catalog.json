@@ -54,6 +54,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 11,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     117.90484480772568,
@@ -167,7 +168,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     31.33986486029299,
@@ -176,6 +177,10 @@
    [
     14.225563232601008,
     16.056565318205042
+   ],
+   [
+    127.57528270147864,
+    128.1400473861348
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3095,7 +3100,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-15",
   "montage_exhausted": true,
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     133.08,
@@ -3112,6 +3117,10 @@
    [
     213.82852056301482,
     215.32773865410047
+   ],
+   [
+    77.93743088547484,
+    79.5410976026922
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3396,11 +3405,16 @@
  },
  "hamdan bin mohammed attends graduation ceremony at zayed ii military college in al ain": {
   "fails": 1,
-  "last_short": "2026-10-28",
+  "last_short": "2026-11-21",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 2,
-  "remix_ranges": [],
+  "montage_used": 3,
+  "remix_ranges": [
+   [
+    25.953333333333333,
+    27.646666666666665
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "video_exhausted": true,
   "video_len": 62
@@ -3588,6 +3602,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-31",
   "montage_used": 36,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     45.8,
@@ -3815,11 +3830,15 @@
   "last_short": "2026-11-21",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     21.084998469625425,
     23.403825681385428
+   ],
+   [
+    26.213916021621458,
+    27.858322018545984
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4005,6 +4024,7 @@
   "long": "2026-10-05",
   "montage_exhausted": true,
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     38.12,
@@ -4445,7 +4465,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     307.72823911856494,
@@ -4454,6 +4474,10 @@
    [
     123.80944775716394,
     126.1142888096196
+   ],
+   [
+    13.399999999999999,
+    15.4
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4767,10 +4791,10 @@
   "long": "2026-10-30"
  },
  "hamdan bin mohammed chairs executive council meeting": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     100.98462020886136,
@@ -4779,6 +4803,10 @@
    [
     93.48,
     95.64
+   ],
+   [
+    110.1562247077752,
+    112.08385404958402
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5723,7 +5751,7 @@
   "last_short": "2026-11-21",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 29,
+  "montage_used": 30,
   "remix_ranges": [
    [
     91.53469075790515,
@@ -5752,6 +5780,10 @@
    [
     18.294854975349175,
     19.70280449767518
+   ],
+   [
+    186.4013081061492,
+    188.67063171450775
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6955,11 +6987,16 @@
   "video_len": 52
  },
  "hamdan bin mohammed launches day for dubai encourages residents to volunteer": {
-  "last_short": "2026-11-17",
+  "last_short": "2026-11-21",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 14,
-  "remix_ranges": [],
+  "montage_used": 15,
+  "remix_ranges": [
+   [
+    135.3528267576151,
+    137.06970307531634
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -10169,6 +10206,7 @@
   "last_short": "2026-11-21",
   "montage_used": 30,
   "no_video_until": "2026-11-18",
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     15.810590002816998,

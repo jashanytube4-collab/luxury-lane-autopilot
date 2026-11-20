@@ -73,8 +73,13 @@
   },
   {
    "at": "2026-11-22T12:00:30+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Wherever he stands, he stands tall. #youtubeshorts #ytshorts",
+   "type": "short",
+   "video_id": "pE2bhmcOHTM",
+   "voiced": true
   },
   {
    "at": "2026-11-22T12:44:57+04:00",

@@ -73,8 +73,13 @@
   },
   {
    "at": "2026-11-21T11:33:54+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Dignity never goes out of style. 👑 #youtubeshorts #youtube #fazza",
+   "type": "short",
+   "video_id": "MbJ3E22RaLw",
+   "voiced": true
   },
   {
    "at": "2026-11-21T12:25:30+04:00",

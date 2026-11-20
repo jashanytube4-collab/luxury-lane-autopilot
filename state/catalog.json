@@ -302,10 +302,10 @@
   "long": "2026-10-17"
  },
  "dubai crown prince attends graduation of dubai police academy": {
-  "last_short": "2026-11-22",
+  "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 39,
+  "montage_used": 40,
   "remix_ranges": [
    [
     316.5598655911052,
@@ -334,6 +334,10 @@
    [
     656.6614797669748,
     658.7382120931883
+   ],
+   [
+    167.19116127339674,
+    169.55191491682658
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2175,10 +2179,10 @@
   "long": "2026-10-21"
  },
  "hamdan bin mohammed and mohammed bin salman visit headquarters of expo 2020 dubai": {
-  "last_short": "2026-11-22",
+  "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     101.08052694620307,
@@ -2207,6 +2211,10 @@
    [
     428.41431954559545,
     430.6980311737172
+   ],
+   [
+    292.9878394785234,
+    295.43375579343274
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -7427,7 +7435,7 @@
  },
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
   "last_short": "2026-11-23",
-  "montage_used": 32,
+  "montage_used": 33,
   "remix_ranges": [
    [
     86.51501862110607,
@@ -7460,6 +7468,10 @@
    [
     243.1683995768088,
     244.95636057791717
+   ],
+   [
+    142.3012937191862,
+    143.80804805331113
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9453,6 +9465,7 @@
   "fails": 1,
   "long": "2026-10-31",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "video_exhausted": true,
@@ -10352,11 +10365,16 @@
   "video_len": 215
  },
  "hamdan bin mohammed opens dubai al ain road improvement project": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 2,
-  "remix_ranges": [],
+  "montage_used": 3,
+  "remix_ranges": [
+   [
+    64.50962398447788,
+    66.69188481946945
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -10509,11 +10527,15 @@
   "last_short": "2026-11-23",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 27,
+  "montage_used": 28,
   "remix_ranges": [
    [
     44.48273041474908,
     46.063264953848034
+   ],
+   [
+    122.38471790424062,
+    124.0988142882867
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11754,11 +11776,15 @@
   "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     137.733928641976,
     139.62370170382457
+   ],
+   [
+    44.10833176400888,
+    45.709039886525275
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11910,11 +11936,16 @@
   "video_len": 138
  },
  "hamdan bin mohammed tours gulfood 2023": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 6,
-  "remix_ranges": [],
+  "montage_used": 7,
+  "remix_ranges": [
+   [
+    55.02960752090558,
+    56.4739142352065
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -12573,6 +12604,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "photo_short": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "shorts_made": 2,

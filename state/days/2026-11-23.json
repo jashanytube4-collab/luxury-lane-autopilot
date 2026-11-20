@@ -108,8 +108,13 @@
   },
   {
    "at": "2026-11-23T15:33:14+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "montage",
+   "status": "scheduled",
+   "title": "The crown is heavy. He wears it lightly. #youtube #youtubeshorts",
+   "type": "short",
+   "video_id": "_Hx_07whiqw",
+   "voiced": true
   },
   {
    "at": "2026-11-23T16:25:14+04:00",

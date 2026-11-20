@@ -1154,9 +1154,9 @@
   "video_len": 78
  },
  "dubai crown prince visits dubai municipality": {
-  "last_short": "2026-11-22",
+  "last_short": "2026-11-23",
   "long": "2026-11-02",
-  "montage_used": 37,
+  "montage_used": 38,
   "remix_ranges": [
    [
     321.72,
@@ -1233,6 +1233,10 @@
    [
     39.239999999999995,
     42.6
+   ],
+   [
+    120.56,
+    123.08
    ]
   ],
   "video_exhausted": true,
@@ -3202,7 +3206,7 @@
  "hamdan bin mohammed attends dubai forum for government best practices": {
   "last_short": "2026-11-23",
   "long": "2026-10-31",
-  "montage_used": 24,
+  "montage_used": 25,
   "remix_ranges": [
    [
     199.21437450345937,
@@ -3254,6 +3258,10 @@
    [
     44.48,
     46.800000000000004
+   ],
+   [
+    167.8,
+    169.88
    ]
   ],
   "video_exhausted": true,
@@ -7667,7 +7675,7 @@
  "hamdan bin mohammed launches 26 dubai 10x projects issues directive to implement them within 24 months": {
   "last_short": "2026-11-23",
   "long": "2026-10-31",
-  "montage_used": 26,
+  "montage_used": 27,
   "remix_ranges": [
    [
     53.879999999999995,
@@ -7735,6 +7743,10 @@
    [
     217.68,
     219.72
+   ],
+   [
+    53.879999999999995,
+    56.04
    ]
   ],
   "video_exhausted": true,
@@ -10061,7 +10073,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2017": {
   "last_short": "2026-11-23",
-  "montage_used": 33,
+  "montage_used": 34,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -10119,6 +10131,10 @@
    [
     171.24,
     173.56
+   ],
+   [
+    74.68,
+    77.52
    ]
   ],
   "video_exhausted": true,
@@ -12735,9 +12751,9 @@
   "video_len": 311
  },
  "hamdan bin mohammed visits dubai airshow 2017": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-23",
   "long": "2026-11-02",
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
@@ -12772,6 +12788,10 @@
    [
     71.28,
     73.88
+   ],
+   [
+    129.20000000000002,
+    131.92
    ]
   ],
   "video_exhausted": true,

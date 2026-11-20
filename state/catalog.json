@@ -512,11 +512,15 @@
  "dubai crown prince holds minute s silence to honour martyrs on commemoration day": {
   "last_short": "2026-11-21",
   "long": "2026-10-31",
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     122.18137349623053,
     123.00519566005627
+   ],
+   [
+    111.31914748246149,
+    113.32631833035161
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -549,7 +553,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     221.18549172617395,
@@ -558,6 +562,10 @@
    [
     135.43401316086673,
     137.67731112572605
+   ],
+   [
+    110.63602020374775,
+    112.86852649769327
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1946,11 +1954,16 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed approves dubai marine transport master plan 2030": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-21",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 4,
-  "remix_ranges": [],
+  "montage_used": 5,
+  "remix_ranges": [
+   [
+    29.21984774239835,
+    31.627605805037888
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 2,
   "shot_ranges": [
@@ -2086,7 +2099,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-11",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     16.32,
@@ -2099,6 +2112,10 @@
    [
     23.530320157152183,
     25.119774207956826
+   ],
+   [
+    28.97120958300766,
+    30.522687684042186
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2921,7 +2938,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 21,
+  "montage_used": 22,
   "remix_ranges": [
    [
     214.5336373953238,
@@ -2938,6 +2955,10 @@
    [
     192.43120299153293,
     193.9607412290267
+   ],
+   [
+    85.44,
+    87.19999999999999
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3379,11 +3400,16 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends graduation ceremony of hbmsu university": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-21",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 4,
-  "remix_ranges": [],
+  "montage_used": 5,
+  "remix_ranges": [
+   [
+    12.41941150822768,
+    14.783002786744126
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -6080,7 +6106,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     45.28666666666666,
@@ -6089,6 +6115,10 @@
    [
     35.019999999999996,
     37.013333333333335
+   ],
+   [
+    29.044588774614414,
+    30.902084190588276
    ]
   ],
   "remix_reset": "2026-11-20",

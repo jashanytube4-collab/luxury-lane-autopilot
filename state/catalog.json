@@ -689,10 +689,10 @@
   "video_len": 171
  },
  "dubai crown prince honours winners of hamdan bin mohammed award for innovation in projects management": {
-  "last_short": "2026-11-22",
+  "last_short": "2026-11-23",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 21,
+  "montage_used": 22,
   "remix_ranges": [
    [
     221.18549172617395,
@@ -725,6 +725,10 @@
    [
     151.41108598971886,
     153.63186995762678
+   ],
+   [
+    206.45738060032963,
+    208.52810462927403
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4144,8 +4148,13 @@
  "hamdan bin mohammed attends hct graduation": {
   "last_short": "2026-11-23",
   "long": "2026-10-31",
-  "montage_used": 37,
-  "remix_ranges": [],
+  "montage_used": 38,
+  "remix_ranges": [
+   [
+    219.49568300016466,
+    220.90323792315945
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -6360,10 +6369,10 @@
   "video_len": 56
  },
  "hamdan bin mohammed honors mbr creative sports award winners": {
-  "last_short": "2026-11-22",
+  "last_short": "2026-11-23",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 29,
+  "montage_used": 30,
   "remix_ranges": [
    [
     107.48779104831378,
@@ -6396,6 +6405,10 @@
    [
     50.879999999999995,
     53.080000000000005
+   ],
+   [
+    74.32000000000001,
+    76.52
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -7368,10 +7381,10 @@
   "video_len": 61
  },
  "hamdan bin mohammed inaugurates zabeel healthcare center": {
-  "last_short": "2026-11-22",
+  "last_short": "2026-11-23",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 26,
+  "montage_used": 27,
   "remix_ranges": [
    [
     247.78626092144114,
@@ -7408,6 +7421,10 @@
    [
     38.76,
     40.760000000000005
+   ],
+   [
+    99.43905220439535,
+    100.85667412461804
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9987,7 +10004,7 @@
   "last_short": "2026-11-23",
   "long": "2026-10-25",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     83.58291392845342,
@@ -9996,6 +10013,10 @@
    [
     108.8226615148848,
     111.14044591080435
+   ],
+   [
+    47.82900265023436,
+    49.51699812432834
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11934,11 +11955,15 @@
  "hamdan bin mohammed tours dubai airshow 2023": {
   "last_short": "2026-11-23",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     9.751827196072886,
     10.531134091910761
+   ],
+   [
+    44.05333333333333,
+    45.88
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13342,11 +13367,15 @@
   "last_short": "2026-11-23",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     79.64,
     82.0
+   ],
+   [
+    16.28,
+    18.279999999999998
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13400,11 +13429,15 @@
   "last_short": "2026-11-23",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     110.28976119537938,
     111.90887187523917
+   ],
+   [
+    88.73478389240172,
+    90.13906482853541
    ]
   ],
   "remix_reset": "2026-11-20",

@@ -192,8 +192,13 @@
   },
   {
    "at": "2026-11-20T23:43:52+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Patience of the desert. Speed of the future. 🤍 #youtube #youtubeshorts",
+   "type": "short",
+   "video_id": "rElFbSnTb0A",
+   "voiced": true
   },
   {
    "at": "2026-11-21T00:22:37+04:00",

@@ -637,11 +637,16 @@
   "video_len": 76
  },
  "dubai crown prince receives president of malta": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-20",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 8,
-  "remix_ranges": [],
+  "montage_used": 9,
+  "remix_ranges": [
+   [
+    104.95980191406525,
+    107.09490425176733
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 2,
   "shot_ranges": [
@@ -1682,11 +1687,16 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed approves executive council s 2020 agenda unifies health insurance programmes": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-11-20",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 4,
-  "remix_ranges": [],
+  "montage_used": 5,
+  "remix_ranges": [
+   [
+    9.067493498569839,
+    11.093794506724322
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -1828,6 +1838,7 @@
   "last_short": "2026-10-07",
   "long": "2026-11-02",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
@@ -1952,18 +1963,24 @@
  "hamdan bin mohammed attends ai everything conference": {
   "long": "2026-10-31",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "video_exhausted": true,
   "video_len": 158
  },
  "hamdan bin mohammed attends al amri wedding": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-20",
   "long": "2026-10-17",
   "montage_exhausted": true,
-  "montage_used": 4,
+  "montage_used": 5,
   "no_video_until": "2026-10-29",
-  "remix_ranges": [],
+  "remix_ranges": [
+   [
+    39.22,
+    41.38
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -2456,11 +2473,16 @@
   "video_len": 165
  },
  "hamdan bin mohammed attends dubai police graduation ceremony": {
-  "last_short": "2026-11-18",
+  "last_short": "2026-11-20",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 17,
-  "remix_ranges": [],
+  "montage_used": 18,
+  "remix_ranges": [
+   [
+    214.5336373953238,
+    216.30579762681035
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -2577,11 +2599,16 @@
   "video_len": 292
  },
  "hamdan bin mohammed attends global islamic economy summit": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-20",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 21,
-  "remix_ranges": [],
+  "montage_used": 22,
+  "remix_ranges": [
+   [
+    48.36,
+    50.36
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 3,
   "shot_ranges": [
@@ -3421,6 +3448,7 @@
   "last_short": "2026-10-08",
   "long": "2026-10-06",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
@@ -3749,11 +3777,16 @@
   "long": "2026-10-22"
  },
  "hamdan bin mohammed attends wedding reception": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-20",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 5,
-  "remix_ranges": [],
+  "montage_used": 6,
+  "remix_ranges": [
+   [
+    30.480169713021183,
+    32.38540341033085
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -3785,11 +3818,16 @@
   "long": "2026-10-18"
  },
  "hamdan bin mohammed attends wedding receptions in al ain dubai": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-20",
   "long": "2026-10-15",
   "montage_exhausted": true,
-  "montage_used": 9,
-  "remix_ranges": [],
+  "montage_used": 10,
+  "remix_ranges": [
+   [
+    25.482115009548746,
+    27.541459014352633
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -4290,11 +4328,16 @@
   "long": "2026-10-27"
  },
  "hamdan bin mohammed crowns winner of global teacher prize": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-11-20",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 4,
-  "remix_ranges": [],
+  "montage_used": 5,
+  "remix_ranges": [
+   [
+    15.78783976885465,
+    17.469698489397985
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -4933,6 +4976,7 @@
   "fails": 1,
   "long": "2026-10-23",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "video_exhausted": true,

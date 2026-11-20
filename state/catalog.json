@@ -3497,6 +3497,18 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed attends dubai future week 2026": {
+  "last_short": "2026-11-20",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    42.95333333333333,
+    44.49666666666667
+   ],
+   [
+    48.32,
+    51.03000000000001
+   ]
+  ],
   "video_exhausted": true,
   "video_len": 63
  },

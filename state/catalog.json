@@ -311,11 +311,16 @@
   "video_len": 1017
  },
  "dubai crown prince attends wedding reception": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-20",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 3,
-  "remix_ranges": [],
+  "montage_used": 4,
+  "remix_ranges": [
+   [
+    76.9807968418774,
+    79.31840079724896
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -766,10 +771,15 @@
   "video_len": 78
  },
  "dubai crown prince visits dubai municipality": {
-  "last_short": "2026-11-17",
+  "last_short": "2026-11-20",
   "long": "2026-11-02",
-  "montage_used": 28,
-  "remix_ranges": [],
+  "montage_used": 29,
+  "remix_ranges": [
+   [
+    321.72,
+    323.56
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -1240,11 +1250,16 @@
  },
  "hamdan bin mohammed and india s minister of commerce and industry witness signing of 8 mous": {
   "fails": 1,
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-20",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 4,
-  "remix_ranges": [],
+  "montage_used": 5,
+  "remix_ranges": [
+   [
+    16.12,
+    17.98
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -1914,11 +1929,16 @@
  },
  "hamdan bin mohammed attends 19th graduation ceremony of rashid bin saeed al maktoum naval college": {
   "fails": 1,
-  "last_short": "2026-10-30",
+  "last_short": "2026-11-20",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 6,
-  "remix_ranges": [],
+  "montage_used": 7,
+  "remix_ranges": [
+   [
+    54.629629705411226,
+    56.249538299606094
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -2245,11 +2265,16 @@
   "long": "2026-10-13"
  },
  "hamdan bin mohammed attends closing of 4th king abdulaziz camel festival": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-11-20",
   "long": "2026-10-12",
   "montage_exhausted": true,
-  "montage_used": 3,
-  "remix_ranges": [],
+  "montage_used": 4,
+  "remix_ranges": [
+   [
+    90.27343308735402,
+    92.00579930613539
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -3957,11 +3982,15 @@
   "last_short": "2026-11-20",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     100.98462020886136,
     102.9718273310363
+   ],
+   [
+    93.48,
+    95.64
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4625,11 +4654,15 @@
   "last_short": "2026-11-20",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     9.424498157764402,
     11.440964407233821
+   ],
+   [
+    33.04034532906964,
+    34.70512604805465
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5012,10 +5045,15 @@
   "video_len": 19
  },
  "hamdan bin mohammed honours winners of 5th islamic economy award": {
-  "last_short": "2026-11-17",
+  "last_short": "2026-11-20",
   "long": "2026-10-30",
-  "montage_used": 21,
-  "remix_ranges": [],
+  "montage_used": 22,
+  "remix_ranges": [
+   [
+    154.96962970092923,
+    157.43489231631884
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 2,
   "shot_ranges": [

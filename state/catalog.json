@@ -1393,7 +1393,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 25,
+  "montage_used": 26,
   "no_video_until": "2026-11-02",
   "remix_ranges": [
    [
@@ -1419,6 +1419,10 @@
    [
     224.63569866788185,
     226.4214475385515
+   ],
+   [
+    33.80387026172865,
+    35.38281455155257
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2169,7 +2173,7 @@
  "hamdan bin mohammed approves dff s three year strategic plan": {
   "last_short": "2026-11-22",
   "montage_exhausted": true,
-  "montage_used": 24,
+  "montage_used": 25,
   "remix_ranges": [
    [
     132.68279953235296,
@@ -2182,6 +2186,10 @@
    [
     137.84873390191086,
     140.12014962458022
+   ],
+   [
+    149.32918441003002,
+    151.29145496398706
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3564,7 +3572,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 27,
+  "montage_used": 28,
   "remix_ranges": [
    [
     48.36,
@@ -3589,6 +3597,10 @@
    [
     76.04255611039984,
     77.74195566641617
+   ],
+   [
+    213.91986738839822,
+    216.39988447169713
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4771,10 +4783,10 @@
   "video_len": 164
  },
  "hamdan bin mohammed attends the knowledge summit 2018": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 29,
+  "montage_used": 30,
   "remix_ranges": [
    [
     167.6806468932527,
@@ -4787,6 +4799,10 @@
    [
     432.96,
     434.96
+   ],
+   [
+    3.178307668389777,
+    4.156702554068241
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5023,10 +5039,10 @@
   "long": "2026-10-22"
  },
  "hamdan bin mohammed attends wedding reception": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     30.480169713021183,
@@ -5043,6 +5059,10 @@
    [
     43.35442458208926,
     45.027894230961955
+   ],
+   [
+    58.49225557369918,
+    60.651515109649864
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5304,6 +5324,7 @@
   "long": "2026-10-30",
   "montage_exhausted": true,
   "montage_used": 15,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     39.372002435350204,
@@ -5412,6 +5433,7 @@
   "long": "2026-10-30",
   "montage_exhausted": true,
   "montage_used": 15,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     85.61181999860901,
@@ -6176,7 +6198,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 25,
+  "montage_used": 26,
   "remix_ranges": [
    [
     107.48779104831378,
@@ -6193,6 +6215,10 @@
    [
     58.18241298446403,
     59.7157728330473
+   ],
+   [
+    65.72,
+    67.39999999999999
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -7529,9 +7555,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed launches 26 dubai 10x projects issues directive to implement them within 24 months": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-31",
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     53.879999999999995,
@@ -7544,6 +7570,10 @@
    [
     3.1529252214810333,
     4.618180740262065
+   ],
+   [
+    223.2429530581172,
+    225.03406670940817
    ]
   ],
   "remix_reset": "2026-11-20",

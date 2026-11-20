@@ -3200,9 +3200,9 @@
   "video_len": 60
  },
  "hamdan bin mohammed attends dubai forum for government best practices": {
-  "last_short": "2026-11-22",
+  "last_short": "2026-11-23",
   "long": "2026-10-31",
-  "montage_used": 23,
+  "montage_used": 24,
   "remix_ranges": [
    [
     199.21437450345937,
@@ -3250,6 +3250,10 @@
    [
     102.80000000000001,
     105.03999999999999
+   ],
+   [
+    44.48,
+    46.800000000000004
    ]
   ],
   "video_exhausted": true,
@@ -3383,7 +3387,7 @@
  "hamdan bin mohammed attends dubai police academy graduation ceremony": {
   "last_short": "2026-11-23",
   "long": "2026-10-30",
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
@@ -3394,6 +3398,10 @@
    [
     133.48666666666668,
     135.57999999999998
+   ],
+   [
+    10.986666666666666,
+    13.013333333333334
    ]
   ],
   "video_exhausted": true,
@@ -4089,9 +4097,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends hct graduation": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-23",
   "long": "2026-10-31",
-  "montage_used": 36,
+  "montage_used": 37,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
@@ -4131,6 +4139,10 @@
    [
     187.52,
     190.68
+   ],
+   [
+    192.52,
+    195.84
    ]
   ],
   "video_exhausted": true,
@@ -7384,8 +7396,8 @@
   "video_len": 451
  },
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
-  "last_short": "2026-11-22",
-  "montage_used": 31,
+  "last_short": "2026-11-23",
+  "montage_used": 32,
   "remix_ranges": [
    [
     86.51501862110607,
@@ -7478,6 +7490,10 @@
    [
     170.12,
     172.56
+   ],
+   [
+    159.8,
+    161.92
    ]
   ],
   "video_exhausted": true,
@@ -11020,9 +11036,9 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed reviews dubai future foundation s 2018 plan and projects": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-23",
   "long": "2026-10-30",
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
@@ -11053,6 +11069,10 @@
    [
     121.64,
     124.83999999999999
+   ],
+   [
+    49.879999999999995,
+    53.080000000000005
    ]
   ],
   "video_exhausted": true,
@@ -13540,6 +13560,7 @@
  "hamdan bin mohammed visits knowledge and human development authority": {
   "last_short": "2026-11-23",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 13,
   "remix_exhausted": true,
   "remix_ranges": [

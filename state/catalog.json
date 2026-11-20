@@ -894,7 +894,7 @@
  "dubai crown prince receives president of the chechen": {
   "last_short": "2026-11-22",
   "montage_exhausted": true,
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     11.207791472061334,
@@ -907,6 +907,10 @@
    [
     50.41526429250616,
     52.10290613097783
+   ],
+   [
+    56.62984748801123,
+    59.03157768336494
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1001,9 +1005,9 @@
   "video_len": 78
  },
  "dubai crown prince visits dubai municipality": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-11-02",
-  "montage_used": 32,
+  "montage_used": 33,
   "remix_ranges": [
    [
     321.72,
@@ -1012,6 +1016,10 @@
    [
     234.0852449089149,
     235.87555550186002
+   ],
+   [
+    112.5045346235881,
+    114.52758674360267
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1066,9 +1074,9 @@
   "video_len": 345
  },
  "dubai crown prince visits emirates nbd head office": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "montage_exhausted": true,
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     150.28730135626125,
@@ -1085,6 +1093,10 @@
    [
     156.3276575356713,
     158.40995784290556
+   ],
+   [
+    64.6326205876285,
+    65.3029904710654
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1424,6 +1436,7 @@
   "long": "2026-10-15",
   "montage_exhausted": true,
   "montage_used": 8,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     37.28659956809034,
@@ -1813,6 +1826,7 @@
   "long": "2026-10-27",
   "montage_exhausted": true,
   "montage_used": 10,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     42.86319801219613,
@@ -3657,7 +3671,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     181.7391902863043,
@@ -3670,6 +3684,10 @@
    [
     108.25348717969652,
     109.89143181635734
+   ],
+   [
+    5.784702944729954,
+    7.547389922604338
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5360,10 +5378,10 @@
   "long": "2026-10-27"
  },
  "hamdan bin mohammed crowns winner of global teacher prize": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     15.78783976885465,
@@ -5376,6 +5394,10 @@
    [
     244.92695422384844,
     247.2841816556521
+   ],
+   [
+    145.29258010128538,
+    147.1986024045549
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5985,7 +6007,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 22,
+  "montage_used": 23,
   "remix_ranges": [
    [
     16.33302972290008,
@@ -6014,6 +6036,10 @@
    [
     124.60323579747177,
     126.0456900041663
+   ],
+   [
+    110.24481874349217,
+    112.70694993280077
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6757,8 +6783,8 @@
   "video_len": 451
  },
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
-  "last_short": "2026-11-21",
-  "montage_used": 26,
+  "last_short": "2026-11-22",
+  "montage_used": 27,
   "remix_ranges": [
    [
     86.51501862110607,
@@ -6771,6 +6797,10 @@
    [
     100.85896480760688,
     102.7036453316469
+   ],
+   [
+    107.68647332527061,
+    109.13048065601294
    ]
   ],
   "remix_reset": "2026-11-20",

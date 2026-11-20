@@ -189,11 +189,16 @@
   "no_hamdan": true
  },
  "dubai crown prince attends al ketbi family wedding reception": {
-  "last_short": "2026-11-05",
+  "last_short": "2026-11-20",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 6,
-  "remix_ranges": [],
+  "montage_used": 7,
+  "remix_ranges": [
+   [
+    49.55159658541657,
+    51.45674099296965
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -1031,10 +1036,15 @@
   "video_len": 68
  },
  "hamdan approves medical tourism strategy": {
-  "last_short": "2026-11-18",
+  "last_short": "2026-11-20",
   "long": "2026-10-30",
-  "montage_used": 14,
-  "remix_ranges": [],
+  "montage_used": 15,
+  "remix_ranges": [
+   [
+    37.810954235443916,
+    40.2964932237826
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -2526,11 +2536,16 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed attends gems our own english high school s golden jubilee celebrations": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-20",
   "long": "2026-10-15",
   "montage_exhausted": true,
-  "montage_used": 12,
-  "remix_ranges": [],
+  "montage_used": 13,
+  "remix_ranges": [
+   [
+    133.08,
+    135.07999999999998
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -2776,11 +2791,16 @@
  },
  "hamdan bin mohammed attends graduation ceremony of 13th cohort of national defence college": {
   "fails": 1,
-  "last_short": "2026-10-27",
+  "last_short": "2026-11-20",
   "long": "2026-10-06",
   "montage_exhausted": true,
-  "montage_used": 3,
-  "remix_ranges": [],
+  "montage_used": 4,
+  "remix_ranges": [
+   [
+    23.297735048634593,
+    24.270942631797926
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 4,
   "shot_ranges": [
@@ -4503,11 +4523,15 @@
   "last_short": "2026-11-20",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     59.98826556174299,
     61.84311348417313
+   ],
+   [
+    36.96431406367369,
+    38.42765008087146
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4705,11 +4729,16 @@
   "video_len": 56
  },
  "hamdan bin mohammed honors mbr creative sports award winners": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-20",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 21,
-  "remix_ranges": [],
+  "montage_used": 22,
+  "remix_ranges": [
+   [
+    107.48779104831378,
+    109.47434037191869
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 3,
   "shot_ranges": [
@@ -5570,7 +5599,7 @@
   "last_short": "2026-11-20",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 21,
+  "montage_used": 22,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -5640,6 +5669,10 @@
    [
     59.72571306645869,
     61.95759090372267
+   ],
+   [
+    140.52459114086466,
+    142.7208148210069
    ]
   ],
   "shorts_made": 2,

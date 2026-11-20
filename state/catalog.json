@@ -159,11 +159,15 @@
   "last_short": "2026-11-21",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     31.33986486029299,
     33.70825120983905
+   ],
+   [
+    14.225563232601008,
+    16.056565318205042
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -624,7 +628,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     55.625184337432124,
@@ -633,6 +637,10 @@
    [
     21.92,
     24.16
+   ],
+   [
+    26.8,
+    28.88
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1097,7 +1105,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     29.85244713206491,
@@ -1106,6 +1114,10 @@
    [
     8.888154051515539,
     10.757531036057333
+   ],
+   [
+    2.9129916467596333,
+    4.855545971038562
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1167,7 +1179,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 22,
+  "montage_used": 23,
   "no_video_until": "2026-11-02",
   "remix_ranges": [
    [
@@ -1181,6 +1193,10 @@
    [
     65.42,
     67.28
+   ],
+   [
+    119.35155761692062,
+    121.53759239770208
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3953,6 +3969,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 9,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     94.41696247158148,
@@ -4473,7 +4490,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-15",
   "montage_exhausted": true,
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     25.482115009548746,
@@ -4486,6 +4503,10 @@
    [
     38.14003378929731,
     40.386533846019
+   ],
+   [
+    31.13633761766564,
+    33.41944527441444
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5285,14 +5306,18 @@
   "video_len": 73
  },
  "hamdan bin mohammed extends condolences to families of pilots": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     58.30116845702413,
     60.02720612503976
+   ],
+   [
+    142.64931808389719,
+    144.53547799717512
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5544,7 +5569,7 @@
   "last_short": "2026-11-21",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 27,
+  "montage_used": 28,
   "remix_ranges": [
    [
     91.53469075790515,
@@ -5565,6 +5590,10 @@
    [
     57.20508812018346,
     59.77044261501795
+   ],
+   [
+    68.9921836407083,
+    70.62283637172648
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6243,7 +6272,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     51.40652446591109,
@@ -6256,6 +6285,10 @@
    [
     34.14240380979764,
     35.6790503540515
+   ],
+   [
+    26.339045614007112,
+    28.62953412229777
    ]
   ],
   "remix_reset": "2026-11-20",

@@ -232,7 +232,7 @@
  "dubai crown prince attends graduation of dubai police academy": {
   "last_short": "2026-11-20",
   "long": "2026-10-31",
-  "montage_used": 32,
+  "montage_used": 33,
   "remix_ranges": [
    [
     316.5598655911052,
@@ -309,6 +309,10 @@
    [
     628.2,
     630.24
+   ],
+   [
+    657.1783333333334,
+    658.2616666666668
    ]
   ],
   "video_exhausted": true,
@@ -2393,7 +2397,7 @@
  "hamdan bin mohammed attends dubai forum for government best practices": {
   "last_short": "2026-11-20",
   "long": "2026-10-31",
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     199.21437450345937,
@@ -2413,6 +2417,10 @@
    [
     15.639999999999999,
     18.08
+   ],
+   [
+    102.80000000000001,
+    105.03999999999999
    ]
   ],
   "video_exhausted": true,
@@ -2523,7 +2531,15 @@
   "video_len": 58
  },
  "hamdan bin mohammed attends dubai police academy graduation ceremony": {
+  "last_short": "2026-11-20",
   "long": "2026-10-30",
+  "montage_used": 1,
+  "shot_ranges": [
+   [
+    103.45333333333333,
+    105.78
+   ]
+  ],
   "video_exhausted": true,
   "video_len": 165
  },
@@ -5555,6 +5571,7 @@
  "hamdan bin mohammed inaugurates zabeel healthcare center": {
   "last_short": "2026-11-18",
   "long": "2026-10-22",
+  "montage_exhausted": true,
   "montage_used": 17,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
@@ -7080,9 +7097,9 @@
   "video_len": 99
  },
  "hamdan bin mohammed meets students of dubai schools": {
-  "last_short": "2026-11-18",
+  "last_short": "2026-11-20",
   "long": "2026-10-17",
-  "montage_used": 30,
+  "montage_used": 31,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -7231,6 +7248,10 @@
    [
     64.12,
     66.28
+   ],
+   [
+    23.720000000000002,
+    27.68
    ]
   ],
   "video_len": 371
@@ -7987,6 +8008,7 @@
  "hamdan bin mohammed meets with participants of retail summit in dubai": {
   "last_short": "2026-11-17",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 20,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -9143,8 +9165,8 @@
   "video_len": 281
  },
  "hamdan bin mohammed opens cityscape global 2017": {
-  "last_short": "2026-11-18",
-  "montage_used": 27,
+  "last_short": "2026-11-20",
+  "montage_used": 28,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -9269,6 +9291,10 @@
    [
     65.28,
     67.52
+   ],
+   [
+    15.0,
+    17.959999999999997
    ]
   ],
   "video_exhausted": true,
@@ -13319,9 +13345,9 @@
   "video_len": 311
  },
  "hamdan bin mohammed visits dubai airshow 2017": {
-  "last_short": "2026-11-18",
+  "last_short": "2026-11-20",
   "long": "2026-11-02",
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -13401,6 +13427,10 @@
    [
     33.0,
     35.760000000000005
+   ],
+   [
+    71.28,
+    73.88
    ]
   ],
   "video_exhausted": true,

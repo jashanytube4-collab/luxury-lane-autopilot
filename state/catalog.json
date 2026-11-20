@@ -3369,15 +3369,19 @@
   "video_len": 58
  },
  "hamdan bin mohammed attends dubai police academy graduation ceremony": {
-  "last_short": "2026-11-22",
+  "last_short": "2026-11-23",
   "long": "2026-10-30",
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
     103.45333333333333,
     105.78
+   ],
+   [
+    133.48666666666668,
+    135.57999999999998
    ]
   ],
   "video_exhausted": true,
@@ -9817,9 +9821,9 @@
   "long": "2026-10-28"
  },
  "hamdan bin mohammed officially opens gitex 2018": {
-  "last_short": "2026-11-22",
+  "last_short": "2026-11-23",
   "long": "2026-11-02",
-  "montage_used": 31,
+  "montage_used": 32,
   "no_video_until": "2026-11-18",
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
@@ -9888,6 +9892,10 @@
    [
     204.68,
     206.68
+   ],
+   [
+    147.12,
+    149.12
    ]
   ],
   "video_exhausted": true,
@@ -9941,8 +9949,8 @@
   "video_len": 281
  },
  "hamdan bin mohammed opens cityscape global 2017": {
-  "last_short": "2026-11-22",
-  "montage_used": 31,
+  "last_short": "2026-11-23",
+  "montage_used": 32,
   "no_video_until": "2026-11-18",
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
@@ -9991,14 +9999,18 @@
    [
     158.76,
     161.12
+   ],
+   [
+    171.24,
+    173.56
    ]
   ],
   "video_exhausted": true,
   "video_len": 279
  },
  "hamdan bin mohammed opens cityscape global 2018": {
-  "last_short": "2026-11-21",
-  "montage_used": 27,
+  "last_short": "2026-11-23",
+  "montage_used": 28,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "shorts_made": 2,
@@ -10058,6 +10070,10 @@
    [
     365.12,
     367.48
+   ],
+   [
+    190.84,
+    193.0
    ]
   ],
   "video_exhausted": true,
@@ -12095,6 +12111,7 @@
     22.93
    ]
   ],
+  "video_exhausted": true,
   "video_len": 53
  },
  "hamdan bin mohammed visits arabian travel market 2026": {
@@ -12352,8 +12369,8 @@
   "video_len": 196
  },
  "hamdan bin mohammed visits department of economic development": {
-  "last_short": "2026-11-13",
-  "montage_used": 15,
+  "last_short": "2026-11-23",
+  "montage_used": 16,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
@@ -12368,6 +12385,10 @@
    [
     180.6,
     184.35999999999999
+   ],
+   [
+    186.96,
+    189.72
    ]
   ],
   "video_exhausted": true,
@@ -13348,9 +13369,9 @@
   "video_len": 57
  },
  "hamdan bin mohammed visits knowledge and human development authority": {
-  "last_short": "2026-11-12",
+  "last_short": "2026-11-23",
   "long": "2026-10-31",
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -13398,6 +13419,10 @@
    [
     124.24000000000001,
     126.75999999999999
+   ],
+   [
+    245.48000000000002,
+    248.0
    ]
   ],
   "video_exhausted": true,

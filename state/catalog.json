@@ -1316,7 +1316,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 24,
+  "montage_used": 25,
   "no_video_until": "2026-11-03",
   "remix_ranges": [
    [
@@ -1326,6 +1326,10 @@
    [
     71.57009098801883,
     73.5135844899208
+   ],
+   [
+    85.3183248642686,
+    86.77915638505962
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2038,7 +2042,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-11",
   "montage_exhausted": true,
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     16.32,
@@ -2047,6 +2051,10 @@
    [
     39.22,
     41.31333333333333
+   ],
+   [
+    23.530320157152183,
+    25.119774207956826
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3232,14 +3240,18 @@
  },
  "hamdan bin mohammed attends graduation ceremony of 13th cohort of national defence college": {
   "fails": 1,
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-06",
   "montage_exhausted": true,
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     23.297735048634593,
     24.270942631797926
+   ],
+   [
+    45.73965319806389,
+    48.121759100360144
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3338,14 +3350,18 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed attends graduation of government policies experts": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     181.7391902863043,
     183.5738719024814
+   ],
+   [
+    204.2230293023095,
+    206.003766893991
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3794,11 +3810,16 @@
   "long": "2026-10-18"
  },
  "hamdan bin mohammed attends part of national multi sector exercise conducted by ncema uae cyber security council": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-11-21",
   "long": "2026-10-05",
   "montage_exhausted": true,
-  "montage_used": 1,
-  "remix_ranges": [],
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    38.12,
+    39.84666666666667
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -3826,14 +3847,18 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends safeguarding endangered cultural heritage conference": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-24",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     56.061348287165146,
     58.130418170246166
+   ],
+   [
+    72.32000000000001,
+    74.44
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5962,11 +5987,15 @@
   "last_short": "2026-11-21",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     45.28666666666666,
     46.913333333333334
+   ],
+   [
+    35.019999999999996,
+    37.013333333333335
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6060,6 +6089,7 @@
   "long": "2026-11-02",
   "montage_exhausted": true,
   "montage_used": 5,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     57.113221531035336,
@@ -6528,7 +6558,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     26.953333333333333,
@@ -6537,6 +6567,10 @@
    [
     32.15333333333333,
     33.913333333333334
+   ],
+   [
+    9.428858709558986,
+    10.990565243533798
    ]
   ],
   "remix_reset": "2026-11-20",

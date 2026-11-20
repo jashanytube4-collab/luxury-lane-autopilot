@@ -765,10 +765,15 @@
   "video_len": 155
  },
  "dubai crown prince reviews preparations for emirates mars mission": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-11-21",
   "montage_exhausted": true,
-  "montage_used": 7,
-  "remix_ranges": [],
+  "montage_used": 8,
+  "remix_ranges": [
+   [
+    72.17488650356064,
+    74.18095588367181
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 3,
   "shot_ranges": [
@@ -1549,11 +1554,16 @@
  },
  "hamdan bin mohammed announces conclusion of phase one of dubai 10x": {
   "fails": 1,
-  "last_short": "2026-10-27",
+  "last_short": "2026-11-21",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 2,
-  "remix_ranges": [],
+  "montage_used": 3,
+  "remix_ranges": [
+   [
+    4.52452963982325,
+    6.127993136652989
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -2446,13 +2456,17 @@
   "video_len": 60
  },
  "hamdan bin mohammed attends dubai forum for government best practices": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-31",
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     199.21437450345937,
     200.76892584788337
+   ],
+   [
+    57.40280585782444,
+    58.86268459700111
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2691,14 +2705,18 @@
   "video_len": 278
  },
  "hamdan bin mohammed attends global cardiology congress": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 21,
+  "montage_used": 22,
   "remix_ranges": [
    [
     93.41739919554406,
     94.94814903841092
+   ],
+   [
+    227.92000000000002,
+    229.76
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3661,11 +3679,15 @@
   "last_short": "2026-11-21",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     82.15340756261807,
     82.84131489741524
+   ],
+   [
+    8.810356571884885,
+    11.245327964821303
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3773,11 +3795,16 @@
   "video_len": 164
  },
  "hamdan bin mohammed attends the knowledge summit 2018": {
-  "last_short": "2026-11-14",
+  "last_short": "2026-11-21",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 26,
-  "remix_ranges": [],
+  "montage_used": 27,
+  "remix_ranges": [
+   [
+    167.6806468932527,
+    169.47073561125436
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 3,
   "shot_ranges": [
@@ -4850,11 +4877,16 @@
   "video_len": 98
  },
  "hamdan bin mohammed goes on first test ride of cruise autonomous electric vehicle in jumeirah 1": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-21",
   "long": "2026-10-08",
   "montage_exhausted": true,
-  "montage_used": 6,
-  "remix_ranges": [],
+  "montage_used": 7,
+  "remix_ranges": [
+   [
+    28.447144106742545,
+    30.54906343327118
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -5013,11 +5045,16 @@
   "video_len": 385
  },
  "hamdan bin mohammed honors winners of dubai appreciation award for community service": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-21",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 22,
-  "remix_ranges": [],
+  "montage_used": 23,
+  "remix_ranges": [
+   [
+    91.53469075790515,
+    93.47127886451109
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 3,
   "shot_ranges": [

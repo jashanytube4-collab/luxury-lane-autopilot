@@ -6,6 +6,7 @@
   "last_short": "2026-11-22",
   "montage_exhausted": true,
   "montage_used": 4,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     8.659913540613902,
@@ -3191,9 +3192,9 @@
   "video_len": 58
  },
  "hamdan bin mohammed attends dubai police academy graduation ceremony": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-30",
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     140.55333333333334,
@@ -3206,6 +3207,10 @@
    [
     133.48666666666668,
     135.57999999999998
+   ],
+   [
+    11.166842936252323,
+    12.921868843889277
    ]
   ],
   "shot_ranges": [
@@ -4008,7 +4013,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     193.14324482816696,
@@ -4029,6 +4034,10 @@
    [
     88.4296974636502,
     89.49319253911804
+   ],
+   [
+    55.48701594261052,
+    56.84977097662412
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4910,7 +4919,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-15",
   "montage_exhausted": true,
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     25.482115009548746,
@@ -4935,6 +4944,10 @@
    [
     69.21079436434484,
     70.86102151252774
+   ],
+   [
+    45.55003247532268,
+    47.88137137875103
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5123,10 +5136,10 @@
   "long": "2026-10-30"
  },
  "hamdan bin mohammed chairs executive council meeting approves plans and policies": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     39.372002435350204,
@@ -5143,6 +5156,10 @@
    [
     24.00075528457108,
     26.15232324767426
+   ],
+   [
+    5.216422922488923,
+    6.663432050880826
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5965,7 +5982,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 24,
+  "montage_used": 25,
   "remix_ranges": [
    [
     107.48779104831378,
@@ -5978,6 +5995,10 @@
    [
     125.89536546539205,
     127.55263147328873
+   ],
+   [
+    58.18241298446403,
+    59.7157728330473
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6255,7 +6276,7 @@
  "hamdan bin mohammed honours mbr creative sports award winners": {
   "last_short": "2026-11-22",
   "long": "2026-10-18",
-  "montage_used": 28,
+  "montage_used": 29,
   "remix_ranges": [
    [
     658.7792960623468,
@@ -6272,6 +6293,10 @@
    [
     463.5801251877273,
     465.8442945668375
+   ],
+   [
+    154.63751763064536,
+    156.22005144932604
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6341,7 +6366,7 @@
  "hamdan bin mohammed honours winners of 5th islamic economy award": {
   "last_short": "2026-11-22",
   "long": "2026-10-30",
-  "montage_used": 30,
+  "montage_used": 31,
   "remix_ranges": [
    [
     154.96962970092923,
@@ -6374,6 +6399,10 @@
    [
     120.60000000000001,
     122.56
+   ],
+   [
+    69.06160051799777,
+    70.96957787726303
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10384,9 +10413,9 @@
   "long": "2026-10-28"
  },
  "hamdan bin mohammed officially opens gitex 2018": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-11-02",
-  "montage_used": 29,
+  "montage_used": 30,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -10464,6 +10493,10 @@
    [
     39.74885184064021,
     41.43789171814807
+   ],
+   [
+    119.84,
+    121.8
    ]
   ],
   "shorts_made": 1,

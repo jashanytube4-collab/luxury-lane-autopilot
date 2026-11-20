@@ -1089,11 +1089,15 @@
   "last_short": "2026-11-21",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     29.85244713206491,
     31.89348805547219
+   ],
+   [
+    8.888154051515539,
+    10.757531036057333
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1228,7 +1232,7 @@
  "hamdan approves medical tourism strategy": {
   "last_short": "2026-11-21",
   "long": "2026-10-30",
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     37.810954235443916,
@@ -1241,6 +1245,10 @@
    [
     5.489205434557578,
     7.393048368923098
+   ],
+   [
+    83.51938096105711,
+    85.09959713967393
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1316,7 +1324,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 25,
+  "montage_used": 26,
   "no_video_until": "2026-11-03",
   "remix_ranges": [
    [
@@ -1330,6 +1338,10 @@
    [
     85.3183248642686,
     86.77915638505962
+   ],
+   [
+    61.805907589349104,
+    63.900109013326784
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3042,10 +3054,10 @@
   "video_len": 292
  },
  "hamdan bin mohammed attends global islamic economy summit": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 23,
+  "montage_used": 24,
   "remix_ranges": [
    [
     48.36,
@@ -3054,6 +3066,10 @@
    [
     202.73353483171263,
     205.31792356862883
+   ],
+   [
+    178.86643906237515,
+    180.32681935884844
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3404,7 +3420,7 @@
  "hamdan bin mohammed attends hct graduation": {
   "last_short": "2026-11-21",
   "long": "2026-10-31",
-  "montage_used": 34,
+  "montage_used": 35,
   "remix_ranges": [
    [
     45.8,
@@ -3513,6 +3529,10 @@
    [
     182.3510164951112,
     184.00119004099346
+   ],
+   [
+    237.28284852426333,
+    238.98724280424358
    ]
   ],
   "shorts_made": 1,
@@ -3894,6 +3914,7 @@
  "hamdan bin mohammed attends signing of agreement between rta and cruise to operate self driving taxis and ride hailing services in dubai": {
   "long": "2026-10-08",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "video_exhausted": true,
@@ -3910,7 +3931,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     94.41696247158148,
@@ -3919,6 +3940,10 @@
    [
     42.588718430639986,
     44.62657370309147
+   ],
+   [
+    54.50399902850789,
+    56.55504088793117
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4085,6 +4110,7 @@
   "long": "2026-10-28",
   "montage_exhausted": true,
   "montage_used": 7,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     52.019999999999996,
@@ -5484,7 +5510,7 @@
   "last_short": "2026-11-21",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 26,
+  "montage_used": 27,
   "remix_ranges": [
    [
     91.53469075790515,
@@ -5501,6 +5527,10 @@
    [
     30.84839949224559,
     32.597036111044176
+   ],
+   [
+    57.20508812018346,
+    59.77044261501795
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6559,6 +6589,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 7,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     26.953333333333333,

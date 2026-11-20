@@ -21,7 +21,7 @@ schedule:
   gap_minutes: [38, 55]                    # random gap between Shorts (30 a day fill the whole 24 hours)
   one_per_hour: false                      # with 30 a day some hours get two; never closer than 38 minutes
   long_between: ["18:00", "20:00"]         # the daily long-form episode goes out in this evening window
-  days_ahead: 2                            # keep today + tomorrow scheduled, so a missed run never leaves a gap
+  days_ahead: 3                            # keep today + tomorrow scheduled, so a missed run never leaves a gap
   min_lead_minutes: 25                     # never schedule anything sooner than this from "now"
   posts_per_day: 0                         # picture Shorts off: picture posts go to the Posts tab from the yearly pack
   posts_between: ["07:00", "23:30"]
@@ -51,7 +51,7 @@ short:
   moment_min_piece: 2.5              # moment Shorts: quick cuts of him from 2.5 s (older Shorts used the long moments)
   moment_max_pieces: 5               # at most 5 cuts per Short (always at least 12 s, only him)
   recycle_after_days: 60             # only if footage runs low: footage whose Shorts are 60+ days old gets a fresh cut
-  deep_cut: null                     # null = automatic: when footage runs low (or Instagram fails) long official videos
+  deep_cut: true                     # null = automatic: when footage runs low (or Instagram fails) long official videos
                                      # give one Short per 45 s of video, from time ranges no Short used yet; false = never
   moment_voice_share: 0.0            # of the "moment" Shorts, this share also gets a short TRUE voice-over (facts file / article only)
   fallback_voice_share: 1.0          # montage / re-cut fallback Shorts: always get a true voice-over (reused-content safety)

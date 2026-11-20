@@ -3484,7 +3484,10 @@
   "shorts_made": 1,
   "shot_ranges": []
  },
- "hamdan bin mohammed attends dubai future week 2026": {},
+ "hamdan bin mohammed attends dubai future week 2026": {
+  "fails": 1,
+  "video_len": 63
+ },
  "hamdan bin mohammed attends dubai future week 2026 approves city ai agent initiative": {
   "last_short": "2026-11-20",
   "shorts_made": 1,
@@ -7319,7 +7322,25 @@
   "video_exhausted": true,
   "video_len": 268
  },
- "hamdan bin mohammed honours winners of inaugural dubai it award": {},
+ "hamdan bin mohammed honours winners of inaugural dubai it award": {
+  "last_short": "2026-11-20",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    37.75333333333333,
+    39.396666666666675
+   ],
+   [
+    41.32,
+    43.46333333333334
+   ],
+   [
+    50.68666666666667,
+    52.263333333333335
+   ]
+  ],
+  "video_len": 60
+ },
  "hamdan bin mohammed honours winners of the 6th arab hope makers initiative in dubai": {
   "no_hamdan": true
  },

@@ -589,7 +589,7 @@
  "dubai crown prince holds minute s silence to honour martyrs on commemoration day": {
   "last_short": "2026-11-22",
   "long": "2026-10-31",
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     122.18137349623053,
@@ -610,6 +610,10 @@
    [
     57.69961987132171,
     59.74054276692999
+   ],
+   [
+    128.68645107279667,
+    130.22125430545205
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -901,7 +905,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     104.95980191406525,
@@ -926,6 +930,10 @@
    [
     51.36875928454003,
     53.91204379947224
+   ],
+   [
+    67.47842571926051,
+    69.99322679536118
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1172,7 +1180,7 @@
  "dubai crown prince visits emirates nbd head office": {
   "last_short": "2026-11-22",
   "montage_exhausted": true,
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     150.28730135626125,
@@ -1201,6 +1209,10 @@
    [
     175.68,
     177.96
+   ],
+   [
+    140.38297080250246,
+    142.97808661065505
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1911,7 +1923,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     60.683582239329986,
@@ -1928,6 +1940,10 @@
    [
     35.45333333333333,
     37.61333333333334
+   ],
+   [
+    52.23616835284893,
+    54.339827860782954
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2878,7 +2894,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 29,
+  "montage_used": 30,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -2972,6 +2988,10 @@
    [
     23.219492489868127,
     24.17537250458404
+   ],
+   [
+    89.52651172688222,
+    91.21189217544502
    ]
   ],
   "shorts_made": 3,
@@ -3589,7 +3609,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 28,
+  "montage_used": 29,
   "remix_ranges": [
    [
     48.36,
@@ -3618,6 +3638,10 @@
    [
     213.91986738839822,
     216.39988447169713
+   ],
+   [
+    191.86185261418242,
+    193.55813073551587
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5266,7 +5290,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     100.98462020886136,
@@ -5287,6 +5311,10 @@
    [
     84.84271455367359,
     86.72124450054487
+   ],
+   [
+    6.39666566033718,
+    8.728637483052609
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -7098,6 +7126,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 15,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     51.40652446591109,
@@ -7578,7 +7607,7 @@
  "hamdan bin mohammed launches 26 dubai 10x projects issues directive to implement them within 24 months": {
   "last_short": "2026-11-22",
   "long": "2026-10-31",
-  "montage_used": 21,
+  "montage_used": 22,
   "remix_ranges": [
    [
     53.879999999999995,
@@ -7599,6 +7628,10 @@
    [
     217.7289594033032,
     219.6286509207509
+   ],
+   [
+    108.56255181277645,
+    110.33302129995299
    ]
   ],
   "remix_reset": "2026-11-20",

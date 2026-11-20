@@ -512,7 +512,7 @@
  "dubai crown prince holds minute s silence to honour martyrs on commemoration day": {
   "last_short": "2026-11-21",
   "long": "2026-10-31",
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     122.18137349623053,
@@ -521,6 +521,10 @@
    [
     111.31914748246149,
     113.32631833035161
+   ],
+   [
+    28.07889758398782,
+    30.544242380681236
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -988,7 +992,7 @@
  "dubai crown prince visits emirates nbd head office": {
   "last_short": "2026-11-21",
   "montage_exhausted": true,
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     150.28730135626125,
@@ -1001,6 +1005,10 @@
    [
     31.92,
     33.760000000000005
+   ],
+   [
+    156.3276575356713,
+    158.40995784290556
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1957,11 +1965,15 @@
   "last_short": "2026-11-21",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     29.21984774239835,
     31.627605805037888
+   ],
+   [
+    47.84633634981518,
+    49.252682353623996
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2437,11 +2449,15 @@
   "last_short": "2026-11-21",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     70.24000000000001,
     72.0
+   ],
+   [
+    88.76929995000751,
+    90.93456292748968
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4808,11 +4824,15 @@
   "last_short": "2026-11-21",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     85.61181999860901,
     87.41841762954503
+   ],
+   [
+    91.92384464205972,
+    94.29937207886732
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5692,7 +5712,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     16.33302972290008,
@@ -5709,6 +5729,10 @@
    [
     31.702604416134154,
     33.49535237197892
+   ],
+   [
+    224.04955158454874,
+    225.78235095683993
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10011,7 +10035,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2017": {
   "last_short": "2026-11-21",
-  "montage_used": 29,
+  "montage_used": 30,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -10101,6 +10125,10 @@
    [
     35.746609209383806,
     37.6292426277214
+   ],
+   [
+    268.28000000000003,
+    270.2
    ]
   ],
   "shorts_made": 1,

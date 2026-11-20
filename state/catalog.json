@@ -53,7 +53,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     117.90484480772568,
@@ -66,6 +66,10 @@
    [
     67.5913727864948,
     69.88240501615299
+   ],
+   [
+    51.36766620991146,
+    53.67612038210116
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -522,7 +526,7 @@
  "dubai crown prince holds minute s silence to honour martyrs on commemoration day": {
   "last_short": "2026-11-21",
   "long": "2026-10-31",
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     122.18137349623053,
@@ -535,6 +539,10 @@
    [
     28.07889758398782,
     30.544242380681236
+   ],
+   [
+    20.615152967766132,
+    22.275221918257017
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1288,6 +1296,7 @@
   "long": "2026-10-30",
   "montage_exhausted": true,
   "montage_used": 3,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     63.32593644028964,
@@ -1514,7 +1523,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-15",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     19.018162111987653,
@@ -1523,6 +1532,10 @@
    [
     28.28482907605506,
     29.94028464396519
+   ],
+   [
+    10.228293846114768,
+    12.422748183315544
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1806,7 +1819,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     101.08052694620307,
@@ -1815,6 +1828,10 @@
    [
     438.68,
     440.32
+   ],
+   [
+    443.96,
+    445.71999999999997
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2977,7 +2994,7 @@
  "hamdan bin mohammed attends dubai police academy graduation ceremony": {
   "last_short": "2026-11-21",
   "long": "2026-10-30",
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     140.55333333333334,
@@ -2986,6 +3003,10 @@
    [
     103.85420295275505,
     105.35427230189589
+   ],
+   [
+    133.48666666666668,
+    135.57999999999998
    ]
   ],
   "shot_ranges": [
@@ -4903,7 +4924,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     85.61181999860901,
@@ -4912,6 +4933,10 @@
    [
     91.92384464205972,
     94.29937207886732
+   ],
+   [
+    33.962378332671655,
+    36.091118153966306
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4989,7 +5014,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     2.546056517394315,
@@ -5002,6 +5027,10 @@
    [
     211.14751345996484,
     213.66000205396423
+   ],
+   [
+    97.10821589645528,
+    99.34949075092247
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5694,7 +5723,7 @@
   "last_short": "2026-11-21",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 28,
+  "montage_used": 29,
   "remix_ranges": [
    [
     91.53469075790515,
@@ -5719,6 +5748,10 @@
    [
     68.9921836407083,
     70.62283637172648
+   ],
+   [
+    18.294854975349175,
+    19.70280449767518
    ]
   ],
   "remix_reset": "2026-11-20",

@@ -552,9 +552,9 @@
   "video_len": 232
  },
  "dubai crown prince holds minute s silence to honour martyrs on commemoration day": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-31",
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     122.18137349623053,
@@ -571,6 +571,10 @@
    [
     20.615152967766132,
     22.275221918257017
+   ],
+   [
+    57.69961987132171,
+    59.74054276692999
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -910,7 +914,7 @@
  "dubai crown prince receives president of the chechen": {
   "last_short": "2026-11-22",
   "montage_exhausted": true,
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     11.207791472061334,
@@ -927,6 +931,10 @@
    [
     56.62984748801123,
     59.03157768336494
+   ],
+   [
+    36.398863967774645,
+    38.8662990803996
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1599,10 +1607,10 @@
   "long": "2026-10-27"
  },
  "hamdan attends wedding reception": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-15",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     19.018162111987653,
@@ -1615,6 +1623,10 @@
    [
     10.228293846114768,
     12.422748183315544
+   ],
+   [
+    52.58589325912475,
+    54.03656705798463
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1709,10 +1721,10 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed and maktoum bin mohammed meet dubai s top performing high school students": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-17",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     36.903189437724784,
@@ -1721,6 +1733,10 @@
    [
     3.4133014678642484,
     4.968066389360924
+   ],
+   [
+    49.30659809709123,
+    51.706775711773524
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3714,7 +3730,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     181.7391902863043,
@@ -3731,6 +3747,10 @@
    [
     5.784702944729954,
     7.547389922604338
+   ],
+   [
+    215.57430030735784,
+    217.8583511596062
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6237,7 +6257,7 @@
  "hamdan bin mohammed honours winners of 5th islamic economy award": {
   "last_short": "2026-11-22",
   "long": "2026-10-30",
-  "montage_used": 28,
+  "montage_used": 29,
   "remix_ranges": [
    [
     154.96962970092923,
@@ -6262,6 +6282,10 @@
    [
     216.39275934085023,
     217.88932611528574
+   ],
+   [
+    48.54578516456135,
+    50.63616870710403
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6841,7 +6865,7 @@
  },
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
   "last_short": "2026-11-22",
-  "montage_used": 27,
+  "montage_used": 28,
   "remix_ranges": [
    [
     86.51501862110607,
@@ -6858,6 +6882,10 @@
    [
     107.68647332527061,
     109.13048065601294
+   ],
+   [
+    33.801073959283336,
+    35.8974301427169
    ]
   ],
   "remix_reset": "2026-11-20",

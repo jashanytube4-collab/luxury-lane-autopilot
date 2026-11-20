@@ -19,7 +19,7 @@ import cv2
 import numpy as np
 
 from . import audio, qa
-from .captions import _esc, _ts
+from .captions import _esc, _ts, badge_events
 from .media import FFMPEG, iter_frames, probe, run, scene_cuts
 from .render import Look, RenderError, blurred_backdrop, camera, ease, finish_encoder, paste_feathered, \
     start_encoder, window
@@ -798,7 +798,8 @@ def produce_episode(*, theme: str, chapters_in: list[dict], package: dict, cfg: 
             ov.add(a, b, "Sub", rf"{{\fad(80,80)}}{_esc(text)}", 2)
     mark = cfg["channel"].get("watermark", "")
     if mark:
-        ov.add(0, duration, "Mark", rf"{{\an9\pos({LW - 60},{44})}}{_esc(mark.upper())}", 1)
+        for t, ly in badge_events(LW - 50, 36, 1.0, "right"):
+            ov.add(0, duration, "Mark", t, ly)
     ass = work / "captions.ass"
     ass.write_text(ASS_HEADER + "\n".join(ov.ass_events) + "\n", encoding="utf-8")
 

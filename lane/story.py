@@ -36,6 +36,7 @@ import yaml
 from . import audio, commons, qa
 from .config import ASSETS_DIR
 from .beats import POP_STYLE, align, make_card, pop_event
+from .captions import badge_events
 from .longform import (ASS_HEADER, FPS, LW, EpisodeResult, Item, Material, Overlay, Shot, Visuals, _chapter_shots, fit_shots,
                        _esc, _mix_long, _punctuate, _shot, _subtitle_lines, _take, render_timeline)
 from .voice import synthesize
@@ -687,7 +688,8 @@ def produce_story(story: Story, got: Gathered, cfg: dict, work: Path, seed: int,
 
     mark = cfg["channel"].get("watermark", "")
     if mark:
-        ov.add(0, duration, "Mark", rf"{{\an9\pos({LW - 60},{44})}}{_esc(mark.upper())}", 1)
+        for t, ly in badge_events(LW - 50, 36, 1.0, "right"):
+            ov.add(0, duration, "Mark", t, ly)
     for a2, b2, text in pops:
         ov.ass_events.append(pop_event(a2, b2, text, _esc))
     ass = work / "captions.ass"

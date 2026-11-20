@@ -15,7 +15,7 @@ from pathlib import Path
 import numpy as np
 
 from . import audio, qa, quotes, render
-from .captions import GOLD, H, W, _esc
+from .captions import GOLD, H, W, _esc, badge_events
 
 log = logging.getLogger("lane.posts")
 
@@ -71,7 +71,8 @@ def _ass(path: Path, quote: dict, duration: float, end_card: float, watermark: s
     add(q_end + 0.1, duration, "Sub", rf"{{\an5\pos({W // 2},1420)\fad(250,0)\fscx120\fscy120"
                                        rf"\t(0,300,\fscx100\fscy100)}}SUBSCRIBE\NFOR MORE\NFAZZA", 3)
     if watermark:
-        add(0, duration, "Mark", rf"{{\an8\pos({W // 2},118)}}{_esc(watermark.upper())}", 1)
+        for t, ly in badge_events(W // 2, 100, 1.5):
+            add(0, duration, "Mark", t, ly)
     path.write_text(HEADER + "\n".join(ev) + "\n", encoding="utf-8")
 
 

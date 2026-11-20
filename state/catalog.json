@@ -940,7 +940,7 @@
  "dubai crown prince receives president of the chechen": {
   "last_short": "2026-11-22",
   "montage_exhausted": true,
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     11.207791472061334,
@@ -961,6 +961,10 @@
    [
     36.398863967774645,
     38.8662990803996
+   ],
+   [
+    44.808434269083335,
+    46.89141250119212
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1545,7 +1549,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 27,
+  "montage_used": 28,
   "no_video_until": "2026-11-03",
   "remix_ranges": [
    [
@@ -1567,6 +1571,10 @@
    [
     93.69357296408663,
     95.68142974454899
+   ],
+   [
+    113.57183159523284,
+    115.37897943635278
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3132,14 +3140,18 @@
   "video_len": 63
  },
  "hamdan bin mohammed attends dubai international health tourism forum": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     252.72,
     254.6
+   ],
+   [
+    42.45377221337095,
+    44.79018331210618
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3800,6 +3812,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 10,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     181.7391902863043,
@@ -4029,7 +4042,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     193.14324482816696,
@@ -4054,6 +4067,10 @@
    [
     55.48701594261052,
     56.84977097662412
+   ],
+   [
+    40.139342741049795,
+    42.16095808052793
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4096,10 +4113,10 @@
   "video_len": 249
  },
  "hamdan bin mohammed attends iftar banquet with autistic children and their families": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     21.084998469625425,
@@ -4108,6 +4125,10 @@
    [
     26.213916021621458,
     27.858322018545984
+   ],
+   [
+    12.484869232317436,
+    14.460531210792377
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4740,7 +4761,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 21,
+  "montage_used": 22,
   "remix_ranges": [
    [
     307.72823911856494,
@@ -4757,6 +4778,10 @@
    [
     20.161389775483148,
     22.41961705952269
+   ],
+   [
+    346.6,
+    348.24
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5213,7 +5238,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     67.34768501082806,
@@ -5222,6 +5247,10 @@
    [
     77.56670195597371,
     80.16069804918982
+   ],
+   [
+    27.293707716422052,
+    28.78979168702241
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10445,6 +10474,7 @@
   "long": "2026-11-02",
   "montage_used": 30,
   "no_video_until": "2026-11-18",
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     126.01016816879962,

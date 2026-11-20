@@ -1692,9 +1692,9 @@
   "video_len": 68
  },
  "hamdan approves medical tourism strategy": {
-  "last_short": "2026-11-18",
+  "last_short": "2026-11-20",
   "long": "2026-10-30",
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -1754,6 +1754,10 @@
    [
     29.153333333333336,
     31.48
+   ],
+   [
+    24.853333333333335,
+    27.013333333333332
    ]
   ],
   "video_exhausted": true,
@@ -1813,7 +1817,7 @@
  "hamdan attends dubai smart city first meeting": {
   "last_short": "2026-11-20",
   "long": "2026-10-31",
-  "montage_used": 21,
+  "montage_used": 22,
   "no_video_until": "2026-11-03",
   "remix_exhausted": true,
   "remix_ranges": [
@@ -1902,6 +1906,10 @@
    [
     61.75333333333333,
     63.913333333333334
+   ],
+   [
+    93.38666666666667,
+    95.71333333333332
    ]
   ],
   "video_exhausted": true,
@@ -3646,6 +3654,7 @@
  "hamdan bin mohammed attends dubai police graduation ceremony": {
   "last_short": "2026-11-18",
   "long": "2026-10-30",
+  "montage_exhausted": true,
   "montage_used": 17,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -5442,6 +5451,7 @@
  "hamdan bin mohammed attends wedding": {
   "last_short": "2026-11-17",
   "long": "2026-10-15",
+  "montage_exhausted": true,
   "montage_used": 8,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -8734,6 +8744,7 @@
  "hamdan bin mohammed launches sports initiatives": {
   "last_short": "2026-11-17",
   "long": "2026-10-18",
+  "montage_exhausted": true,
   "montage_used": 22,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -9539,7 +9550,7 @@
  "hamdan bin mohammed meets students of dubai schools": {
   "last_short": "2026-11-20",
   "long": "2026-10-17",
-  "montage_used": 31,
+  "montage_used": 32,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -9692,6 +9703,10 @@
    [
     23.720000000000002,
     27.68
+   ],
+   [
+    318.53999999999996,
+    323.53999999999996
    ]
   ],
   "video_len": 371
@@ -15479,7 +15494,7 @@
  "hamdan bin mohammed visits dewa s moro": {
   "last_short": "2026-11-20",
   "long": "2026-11-01",
-  "montage_used": 31,
+  "montage_used": 32,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -15640,6 +15655,10 @@
    [
     123.52000000000001,
     125.96
+   ],
+   [
+    68.92,
+    71.08
    ]
   ],
   "video_len": 401
@@ -17763,6 +17782,7 @@
  "hamdan bin mohammed visits youth hub in emirates towers": {
   "last_short": "2026-11-12",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 4,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -20081,9 +20101,9 @@
   "video_exhausted": true
  },
  "in presence of dubai crown prince meraas signs agreement with dubai municipality to manage dubai safari": {
-  "last_short": "2026-11-18",
+  "last_short": "2026-11-20",
   "long": "2026-10-31",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -20127,6 +20147,10 @@
    [
     32.48,
     35.6
+   ],
+   [
+    0.7133333333333232,
+    2.0466666666666766
    ]
   ],
   "video_exhausted": true,

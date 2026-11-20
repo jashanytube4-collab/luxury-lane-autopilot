@@ -178,8 +178,13 @@
   },
   {
    "at": "2026-11-22T19:59:39+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Discipline today. Legacy tomorrow. ✨ #youtube #youtubeshorts",
+   "type": "short",
+   "video_id": "Xh5JWc02oW4",
+   "voiced": true
   },
   {
    "at": "2026-11-22T20:50:33+04:00",

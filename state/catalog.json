@@ -442,7 +442,7 @@
   "last_short": "2026-11-22",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     49.542727574595624,
@@ -459,6 +459,10 @@
    [
     18.12,
     19.779999999999998
+   ],
+   [
+    25.607769861655928,
+    27.684610006225903
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -893,7 +897,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     104.95980191406525,
@@ -914,6 +918,10 @@
    [
     47.98120253832576,
     49.537431799487145
+   ],
+   [
+    51.36875928454003,
+    53.91204379947224
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1023,7 +1031,7 @@
  "dubai crown prince reviews preparations for emirates mars mission": {
   "last_short": "2026-11-22",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     72.17488650356064,
@@ -1048,6 +1056,10 @@
    [
     62.70486559367576,
     64.80855771094822
+   ],
+   [
+    20.63804399388672,
+    21.41150441885685
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1251,6 +1263,7 @@
   "long": "2026-10-30",
   "montage_exhausted": true,
   "montage_used": 12,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     40.11976320344587,
@@ -1579,7 +1592,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 28,
+  "montage_used": 29,
   "no_video_until": "2026-11-03",
   "remix_ranges": [
    [
@@ -1605,6 +1618,10 @@
    [
     113.57183159523284,
     115.37897943635278
+   ],
+   [
+    50.59473395864121,
+    52.372312406172895
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3457,7 +3474,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 30,
+  "montage_used": 31,
   "remix_ranges": [
    [
     93.41739919554406,
@@ -3498,6 +3515,10 @@
    [
     26.45793033982893,
     28.4150317318078
+   ],
+   [
+    166.92000000000002,
+    168.56
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4198,7 +4219,7 @@
   "last_short": "2026-11-22",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     21.084998469625425,
@@ -4211,6 +4232,10 @@
    [
     12.484869232317436,
     14.460531210792377
+   ],
+   [
+    0.5510770543571564,
+    2.499877522564293
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4843,7 +4868,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 23,
+  "montage_used": 24,
   "remix_ranges": [
    [
     307.72823911856494,
@@ -4868,6 +4893,10 @@
    [
     336.85929791132463,
     338.67453921290786
+   ],
+   [
+    340.838580240632,
+    342.5533869843783
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4946,10 +4975,10 @@
   "video_len": 54
  },
  "hamdan bin mohammed attends wedding": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-15",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     38.49011550814778,
@@ -4962,6 +4991,10 @@
    [
     44.934720945049655,
     46.34964431556162
+   ],
+   [
+    68.04416953395078,
+    69.71939878999335
    ]
   ],
   "remix_reset": "2026-11-20",

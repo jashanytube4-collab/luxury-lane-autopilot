@@ -6716,10 +6716,10 @@
   "video_len": 19
  },
  "hamdan bin mohammed honours winners of 5th islamic economy award": {
-  "last_short": "2026-11-22",
+  "last_short": "2026-11-23",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 32,
+  "montage_used": 33,
   "remix_ranges": [
    [
     154.96962970092923,
@@ -6760,6 +6760,10 @@
    [
     175.7553324433199,
     177.26534355669665
+   ],
+   [
+    103.23714159470717,
+    104.22866194804604
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -7629,9 +7633,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed launches 26 dubai 10x projects issues directive to implement them within 24 months": {
-  "last_short": "2026-11-22",
+  "last_short": "2026-11-23",
   "long": "2026-10-31",
-  "montage_used": 25,
+  "montage_used": 26,
   "remix_ranges": [
    [
     53.879999999999995,
@@ -7664,6 +7668,10 @@
    [
     84.48,
     86.72
+   ],
+   [
+    113.56948142178652,
+    115.64155603393468
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8127,10 +8135,15 @@
   "video_len": 206
  },
  "hamdan bin mohammed launches third phase of dubai 10x initiative": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-11-23",
   "montage_exhausted": true,
-  "montage_used": 2,
-  "remix_ranges": [],
+  "montage_used": 3,
+  "remix_ranges": [
+   [
+    37.28601541920983,
+    39.484989923196224
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -8534,10 +8547,15 @@
   "video_len": 46
  },
  "hamdan bin mohammed meets promising leaders from various dubai government entities": {
-  "last_short": "2026-11-14",
+  "last_short": "2026-11-23",
   "montage_exhausted": true,
-  "montage_used": 6,
-  "remix_ranges": [],
+  "montage_used": 7,
+  "remix_ranges": [
+   [
+    22.972803243625428,
+    24.564352354930815
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -8646,6 +8664,7 @@
  "hamdan bin mohammed meets with apple ceo": {
   "long": "2026-10-31",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "video_exhausted": true,
@@ -8999,11 +9018,15 @@
   "last_short": "2026-11-23",
   "long": "2026-10-10",
   "montage_exhausted": true,
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     22.52,
     24.459999999999997
+   ],
+   [
+    14.266065557943033,
+    15.863241788677225
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10229,6 +10252,7 @@
   "fails": 1,
   "long": "2026-10-13",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "video_exhausted": true,
@@ -10416,11 +10440,15 @@
  "hamdan bin mohammed opens smart police station at la mer": {
   "last_short": "2026-11-23",
   "montage_exhausted": true,
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     62.11021807184426,
     63.764297501368596
+   ],
+   [
+    80.91905345435602,
+    82.40589269776409
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10466,12 +10494,16 @@
   "last_short": "2026-11-23",
   "long": "2026-10-12",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "no_video_until": "2026-11-02",
   "remix_ranges": [
    [
     2.4225680931886022,
     4.333966000362336
+   ],
+   [
+    22.84703958969938,
+    24.30913247292973
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11550,11 +11582,16 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed tours bustanica the world s largest vertical farm in dubai": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 9,
-  "remix_ranges": [],
+  "montage_used": 10,
+  "remix_ranges": [
+   [
+    137.733928641976,
+    139.62370170382457
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 2,
   "shot_ranges": [

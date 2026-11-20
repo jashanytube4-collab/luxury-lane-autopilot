@@ -188,8 +188,13 @@
   },
   {
    "at": "2026-11-21T19:57:06+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "A horseman's discipline. A poet's soul. ✨ #youtube #youtubeshorts",
+   "type": "short",
+   "video_id": "9Xrh5uwa55k",
+   "voiced": true
   },
   {
    "at": "2026-11-21T20:50:39+04:00",

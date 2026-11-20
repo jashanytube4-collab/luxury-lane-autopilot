@@ -846,6 +846,7 @@
  "dubai crown prince returns to uae after performing umrah": {
   "long": "2026-11-02",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "video_exhausted": true,
@@ -854,7 +855,7 @@
  "dubai crown prince reviews preparations for emirates mars mission": {
   "last_short": "2026-11-21",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     72.17488650356064,
@@ -863,6 +864,10 @@
    [
     4.184024459023304,
     6.069011097722183
+   ],
+   [
+    10.169202231074582,
+    12.752473414677855
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1979,7 +1984,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     9.067493498569839,
@@ -1988,6 +1993,10 @@
    [
     47.36206032275216,
     49.53453346434328
+   ],
+   [
+    69.31914752558193,
+    71.1747626458095
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2424,7 +2433,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 25,
+  "montage_used": 26,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -2502,6 +2511,10 @@
    [
     123.27442091154663,
     124.90134414297853
+   ],
+   [
+    52.0819171730621,
+    53.57473428823
    ]
   ],
   "shorts_made": 3,
@@ -3373,9 +3386,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends hct graduation": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-31",
-  "montage_used": 33,
+  "montage_used": 34,
   "remix_ranges": [
    [
     45.8,
@@ -3480,6 +3493,10 @@
    [
     34.534886991752735,
     36.16565120259154
+   ],
+   [
+    182.3510164951112,
+    184.00119004099346
    ]
   ],
   "shorts_made": 1,
@@ -4838,11 +4855,16 @@
   "video_len": 58
  },
  "hamdan bin mohammed concludes official visit to kuwait": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-21",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 8,
-  "remix_ranges": [],
+  "montage_used": 9,
+  "remix_ranges": [
+   [
+    90.8459171690852,
+    92.52350583493912
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -5437,7 +5459,7 @@
   "last_short": "2026-11-21",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 25,
+  "montage_used": 26,
   "remix_ranges": [
    [
     91.53469075790515,
@@ -5450,6 +5472,10 @@
    [
     97.3237884928959,
     98.90069483400129
+   ],
+   [
+    30.84839949224559,
+    32.597036111044176
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6123,7 +6149,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     51.40652446591109,
@@ -6132,6 +6158,10 @@
    [
     16.453333333333333,
     18.246666666666666
+   ],
+   [
+    34.14240380979764,
+    35.6790503540515
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6495,14 +6525,18 @@
   "long": "2026-10-21"
  },
  "hamdan bin mohammed joins national guard personnel in hatta for iftar": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     26.953333333333333,
     29.013333333333332
+   ],
+   [
+    32.15333333333333,
+    33.913333333333334
    ]
   ],
   "remix_reset": "2026-11-20",

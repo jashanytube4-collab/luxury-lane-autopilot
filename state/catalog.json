@@ -996,11 +996,16 @@
   "video_len": 145
  },
  "hamdan addressing future circles looking forward for innovation based future": {
-  "last_short": "2026-11-18",
+  "last_short": "2026-11-20",
   "long": "2026-10-30",
-  "montage_used": 19,
+  "montage_used": 20,
   "no_video_until": "2026-11-02",
-  "remix_ranges": [],
+  "remix_ranges": [
+   [
+    151.99170839989952,
+    153.92864652913735
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -1559,10 +1564,15 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed approves dff s three year strategic plan": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-20",
   "montage_exhausted": true,
-  "montage_used": 21,
-  "remix_ranges": [],
+  "montage_used": 22,
+  "remix_ranges": [
+   [
+    132.68279953235296,
+    134.9921052329282
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 3,
   "shot_ranges": [
@@ -2734,11 +2744,15 @@
   "last_short": "2026-11-20",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     47.21942589706834,
     48.278343514717676
+   ],
+   [
+    157.1668175913444,
+    158.56754951872773
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3394,11 +3408,16 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends safeguarding endangered cultural heritage conference": {
-  "last_short": "2026-11-05",
+  "last_short": "2026-11-20",
   "long": "2026-10-24",
   "montage_exhausted": true,
-  "montage_used": 6,
-  "remix_ranges": [],
+  "montage_used": 7,
+  "remix_ranges": [
+   [
+    56.061348287165146,
+    58.130418170246166
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -4577,6 +4596,7 @@
   "long": "2026-10-27",
   "montage_exhausted": true,
   "montage_used": 4,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     59.98826556174299,
@@ -4609,11 +4629,15 @@
   "last_short": "2026-11-20",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     4.838676879865984,
     6.584935371674957
+   ],
+   [
+    43.26046253158616,
+    45.78352491056394
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4684,6 +4708,7 @@
   "long": "2026-10-30",
   "montage_exhausted": true,
   "montage_used": 4,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     9.424498157764402,
@@ -5011,8 +5036,13 @@
  "hamdan bin mohammed honours mbr creative sports award winners": {
   "last_short": "2026-11-20",
   "long": "2026-10-18",
-  "montage_used": 23,
-  "remix_ranges": [],
+  "montage_used": 24,
+  "remix_ranges": [
+   [
+    658.7792960623468,
+    660.4253812331617
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 3,
   "shot_ranges": [
@@ -5328,6 +5358,7 @@
  "hamdan bin mohammed inaugurates dubai fitness challenge": {
   "long": "2026-10-18",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "video_exhausted": true,
@@ -5472,11 +5503,16 @@
   "video_len": 316
  },
  "hamdan bin mohammed inaugurates the world s largest solar powered data centre": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-20",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 9,
-  "remix_ranges": [],
+  "montage_used": 10,
+  "remix_ranges": [
+   [
+    51.40652446591109,
+    52.83844986412065
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [

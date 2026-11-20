@@ -1016,9 +1016,9 @@
   "video_len": 155
  },
  "dubai crown prince reviews preparations for emirates mars mission": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     72.17488650356064,
@@ -1035,6 +1035,10 @@
    [
     25.581645719669662,
     27.231843697309095
+   ],
+   [
+    54.736099823746805,
+    55.59720239684721
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1139,7 +1143,7 @@
  "dubai crown prince visits emirates nbd head office": {
   "last_short": "2026-11-22",
   "montage_exhausted": true,
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     150.28730135626125,
@@ -1164,6 +1168,10 @@
    [
     54.91240006982734,
     56.84756562399573
+   ],
+   [
+    175.68,
+    177.96
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2381,6 +2389,7 @@
   "long": "2026-10-11",
   "montage_exhausted": true,
   "montage_used": 16,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     16.32,
@@ -3089,7 +3098,7 @@
  "hamdan bin mohammed attends dubai forum for government best practices": {
   "last_short": "2026-11-22",
   "long": "2026-10-31",
-  "montage_used": 21,
+  "montage_used": 22,
   "remix_ranges": [
    [
     199.21437450345937,
@@ -3110,6 +3119,10 @@
    [
     44.78596793061099,
     46.46870929060422
+   ],
+   [
+    150.9787365075574,
+    152.40242894753655
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3177,6 +3190,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 9,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     252.72,
@@ -3825,6 +3839,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 6,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     12.41941150822768,
@@ -5156,7 +5171,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     100.98462020886136,
@@ -5173,6 +5188,10 @@
    [
     69.99648567005706,
     72.27538465103476
+   ],
+   [
+    84.84271455367359,
+    86.72124450054487
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5433,10 +5452,10 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed chairs virtual meeting of executive council": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     2.546056517394315,
@@ -5453,6 +5472,10 @@
    [
     97.10821589645528,
     99.34949075092247
+   ],
+   [
+    80.56294799083855,
+    82.53768700577352
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -7031,7 +7054,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 23,
+  "montage_used": 24,
   "remix_ranges": [
    [
     247.78626092144114,
@@ -7056,6 +7079,10 @@
    [
     407.539826550264,
     408.5179792140842
+   ],
+   [
+    184.02735714362385,
+    186.38428424423302
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -7103,7 +7130,7 @@
  },
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
   "last_short": "2026-11-22",
-  "montage_used": 29,
+  "montage_used": 30,
   "remix_ranges": [
    [
     86.51501862110607,
@@ -7128,6 +7155,10 @@
    [
     250.00061725711473,
     251.49002164614424
+   ],
+   [
+    170.14711367933785,
+    172.15212260384283
    ]
   ],
   "remix_reset": "2026-11-20",

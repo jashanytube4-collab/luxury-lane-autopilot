@@ -432,7 +432,7 @@
   "last_short": "2026-11-22",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     49.542727574595624,
@@ -441,6 +441,10 @@
    [
     8.853333333333332,
     10.613333333333333
+   ],
+   [
+    57.776011069230634,
+    60.04296053130335
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -486,7 +490,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     60.155932025090266,
@@ -503,6 +507,10 @@
    [
     158.34543685836454,
     160.16952612720112
+   ],
+   [
+    211.14790340218462,
+    213.3032254476044
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1424,7 +1432,7 @@
  "hamdan approves medical tourism strategy": {
   "last_short": "2026-11-22",
   "long": "2026-10-30",
-  "montage_used": 22,
+  "montage_used": 23,
   "remix_ranges": [
    [
     37.810954235443916,
@@ -1449,6 +1457,10 @@
    [
     19.758412158401836,
     21.428204777473788
+   ],
+   [
+    61.086666666666666,
+    62.84666666666667
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1758,7 +1770,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-17",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     36.903189437724784,
@@ -1775,6 +1787,10 @@
    [
     20.424333031091347,
     22.54415417739334
+   ],
+   [
+    25.15489616548921,
+    27.058332442184334
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5239,7 +5255,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     85.61181999860901,
@@ -5260,6 +5276,10 @@
    [
     77.38040517036553,
     79.12952728546782
+   ],
+   [
+    100.61870044692841,
+    102.80766110946333
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5487,11 +5507,15 @@
   "last_short": "2026-11-22",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     140.32574025403827,
     142.05461536174934
+   ],
+   [
+    148.45333333333335,
+    150.78
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5669,10 +5693,10 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed economic diversity and supportive legislative environment cornerstones for investor confidence in dubai": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     21.9481309686273,
@@ -5685,6 +5709,10 @@
    [
     43.93106157037361,
     45.46079977162794
+   ],
+   [
+    48.4481598634565,
+    50.65682475006733
    ]
   ],
   "remix_reset": "2026-11-20",

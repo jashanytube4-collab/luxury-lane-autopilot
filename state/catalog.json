@@ -522,10 +522,10 @@
   "video_len": 62
  },
  "dubai crown prince hands over hamdan bin mohammed program for smart government flag to dubai police": {
-  "last_short": "2026-11-22",
+  "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 21,
+  "montage_used": 22,
   "remix_ranges": [
    [
     60.155932025090266,
@@ -550,6 +550,10 @@
    [
     203.5630854379967,
     205.55391886138062
+   ],
+   [
+    123.28319004474358,
+    124.8988022119387
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3650,10 +3654,10 @@
   "video_len": 292
  },
  "hamdan bin mohammed attends global islamic economy summit": {
-  "last_short": "2026-11-22",
+  "last_short": "2026-11-23",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 31,
+  "montage_used": 32,
   "remix_ranges": [
    [
     48.36,
@@ -3694,6 +3698,10 @@
    [
     11.018744381524899,
     13.075222376552958
+   ],
+   [
+    208.38110212176178,
+    210.71046762248233
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8040,11 +8048,15 @@
   "last_short": "2026-11-23",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 23,
+  "montage_used": 24,
   "remix_ranges": [
    [
     87.58143717853224,
     89.37596122971055
+   ],
+   [
+    234.28,
+    235.96
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8468,11 +8480,15 @@
   "last_short": "2026-11-23",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     53.9493408689339,
     55.75368852093286
+   ],
+   [
+    59.23989487990409,
+    60.801019948034124
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8501,6 +8517,7 @@
  "hamdan bin mohammed meets medical team that conducted the arab world s first ever intrauterine fetal surgery": {
   "last_short": "2026-10-11",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
@@ -9711,11 +9728,16 @@
   "long": "2026-10-17"
  },
  "hamdan bin mohammed offers condolences to alsuwaidi family": {
-  "last_short": "2026-11-19",
+  "last_short": "2026-11-23",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 14,
-  "remix_ranges": [],
+  "montage_used": 15,
+  "remix_ranges": [
+   [
+    41.16052104638739,
+    42.83985380026493
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -9760,11 +9782,16 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed offers condolences to family of martyr al mesmari": {
-  "last_short": "2026-11-10",
+  "last_short": "2026-11-23",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 9,
-  "remix_ranges": [],
+  "montage_used": 10,
+  "remix_ranges": [
+   [
+    63.93917455125275,
+    66.14229968696368
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -12761,11 +12788,15 @@
   "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     184.4,
     186.51999999999998
+   ],
+   [
+    74.13971777393307,
+    75.81317610194014
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12830,11 +12861,15 @@
  "hamdan bin mohammed visits dubai chamber of commerce and industry": {
   "last_short": "2026-11-23",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     1.5047652305267265,
     3.1679304803545563
+   ],
+   [
+    76.83908252906332,
+    78.35706357542205
    ]
   ],
   "remix_reset": "2026-11-20",

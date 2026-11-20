@@ -221,8 +221,12 @@ class Runner:
         if rest != base:
             sc["cooldown_days"] = rest           # this run only; config.yaml keeps the normal value
             self.report.note(f"Footage for Shorts was low: stories rest {rest} day(s) instead of {base} this run")
-        if have < need:
-            cutoff = (today - timedelta(days=int(sc.get("recycle_after_days", 60)))).isoformat()
+        first_window = int(sc.get("recycle_after_days", 60))
+        for window in (first_window, 30, 21):     # footage gets recycled earlier and earlier, always with a fresh cut + voice-over
+          if have >= need:
+            break
+          if True:
+            cutoff = (today - timedelta(days=window)).isoformat()
             back = 0
             for k, ev in self.events.items():
                 u = self.usage.get(k)
@@ -237,7 +241,7 @@ class Runner:
                 self.state.save()
                 have = supply(rest)
                 self.report.note(f"{back} older footage event(s) came back for fresh Shorts "
-                                 f"(their Shorts went out {sc.get('recycle_after_days', 60)}+ days ago)")
+                                 f"(their Shorts went out {window}+ days ago)")
         if have < need and sc.get("deep_cut") is None:
             # Instagram (or any new source) is not keeping up: long official videos are cut deeper, one Short per
             # 45 s of video, always from time ranges no earlier Short used (state: shot_ranges), him clearly in frame
@@ -246,6 +250,13 @@ class Runner:
             if more > have:
                 self.report.note(f"Deep cut on: long official videos now give more Shorts ({have} -> {more} events)")
                 have = more
+        floor = int(sc.get("min_per_day", 25))
+        if have < need and per_day > floor:
+            # last resort: fewer Shorts rather than none or weak ones, but never below the owner's floor
+            cut = max(floor, min(per_day, have // 2))
+            self.cfg["schedule"]["shorts_per_day"] = cut
+            per_day = cut
+            self.report.note(f"Footage still low: {cut} Shorts a day this run (floor {floor})")
         days = have / max(1, per_day)
         self.state.cursors["shorts_supply"] = {"date": today.isoformat(), "events": have, "days": round(days, 1)}
         log.info("Shorts footage supply: %d events (about %.1f days at %d a day)", have, days, per_day)

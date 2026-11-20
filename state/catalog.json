@@ -221,11 +221,16 @@
   "no_hamdan": true
  },
  "dubai cp receives uae flag from sharjah crown prince": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-11-22",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 1,
-  "remix_ranges": [],
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    97.98666666666666,
+    99.74666666666666
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "video_exhausted": true,
   "video_len": 194
@@ -889,7 +894,7 @@
  "dubai crown prince receives president of the chechen": {
   "last_short": "2026-11-22",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     11.207791472061334,
@@ -898,6 +903,10 @@
    [
     67.27735545521011,
     68.99086545937242
+   ],
+   [
+    50.41526429250616,
+    52.10290613097783
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1861,10 +1870,10 @@
   "long": "2026-10-21"
  },
  "hamdan bin mohammed and mohammed bin salman visit headquarters of expo 2020 dubai": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     101.08052694620307,
@@ -1877,6 +1886,10 @@
    [
     443.96,
     445.71999999999997
+   ],
+   [
+    463.4982645228952,
+    465.43069371644856
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2413,7 +2426,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     54.629629705411226,
@@ -2434,6 +2447,10 @@
    [
     119.84465634656944,
     121.83748345161088
+   ],
+   [
+    431.92808443623403,
+    433.89676209314905
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2502,6 +2519,7 @@
   "montage_exhausted": true,
   "montage_used": 6,
   "no_video_until": "2026-10-29",
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     39.22,
@@ -3169,10 +3187,10 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed attends gems our own english high school s golden jubilee celebrations": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-15",
   "montage_exhausted": true,
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     133.08,
@@ -3193,6 +3211,10 @@
    [
     77.93743088547484,
     79.5410976026922
+   ],
+   [
+    208.00508823449192,
+    209.72508921522115
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3221,7 +3243,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 29,
+  "montage_used": 30,
   "remix_ranges": [
    [
     93.41739919554406,
@@ -3258,6 +3280,10 @@
    [
     0.6033718532314388,
     2.1202166751054983
+   ],
+   [
+    26.45793033982893,
+    28.4150317318078
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3628,10 +3654,10 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed attends graduation of government policies experts": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     181.7391902863043,
@@ -3640,6 +3666,10 @@
    [
     204.2230293023095,
     206.003766893991
+   ],
+   [
+    108.25348717969652,
+    109.89143181635734
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4877,10 +4907,10 @@
   "long": "2026-10-30"
  },
  "hamdan bin mohammed chairs executive council meeting": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     100.98462020886136,
@@ -4893,6 +4923,10 @@
    [
     110.1562247077752,
     112.08385404958402
+   ],
+   [
+    69.99648567005706,
+    72.27538465103476
    ]
   ],
   "remix_reset": "2026-11-20",

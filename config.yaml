@@ -3,7 +3,7 @@
 
 channel:
   name: The Luxury Lane
-  watermark: THE LUXURY LANE        # small brand mark on every video ("" to disable)
+  watermark: ""        # burned-in mark OFF (owner 2026-11-20): only YouTube native watermark, long videos
 
 # Source: the official website of H.H. Sheikh Hamdan bin Mohammed (hamdan.ae) — videos, photos and articles.
 source:

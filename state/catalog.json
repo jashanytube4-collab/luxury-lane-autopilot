@@ -232,6 +232,7 @@
  "dubai crown prince attends graduation of dubai police academy": {
   "last_short": "2026-11-20",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 33,
   "remix_ranges": [
    [
@@ -1062,7 +1063,7 @@
  "hamdan approves medical tourism strategy": {
   "last_short": "2026-11-20",
   "long": "2026-10-30",
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     37.810954235443916,
@@ -1082,6 +1083,10 @@
    [
     29.153333333333336,
     31.48
+   ],
+   [
+    24.853333333333335,
+    27.013333333333332
    ]
   ],
   "video_exhausted": true,
@@ -2149,9 +2154,9 @@
   "video_len": 65
  },
  "hamdan bin mohammed attends closing ceremony of 3rd dubai future accelerators program": {
-  "last_short": "2026-11-11",
+  "last_short": "2026-11-20",
   "long": "2026-10-30",
-  "montage_used": 23,
+  "montage_used": 24,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -2280,6 +2285,10 @@
    [
     13.76,
     15.92
+   ],
+   [
+    85.28,
+    87.47999999999999
    ]
   ],
   "video_exhausted": true,
@@ -5052,7 +5061,7 @@
  "hamdan bin mohammed honours mbr creative sports award winners": {
   "last_short": "2026-11-20",
   "long": "2026-10-18",
-  "montage_used": 24,
+  "montage_used": 25,
   "remix_ranges": [
    [
     658.7792960623468,
@@ -5105,6 +5114,10 @@
    [
     658.2,
     660.56
+   ],
+   [
+    454.72,
+    459.36
    ]
   ],
   "video_len": 669
@@ -5122,7 +5135,7 @@
  "hamdan bin mohammed honours winners of 5th islamic economy award": {
   "last_short": "2026-11-20",
   "long": "2026-10-30",
-  "montage_used": 22,
+  "montage_used": 23,
   "remix_ranges": [
    [
     154.96962970092923,
@@ -5175,6 +5188,10 @@
    [
     59.72,
     61.92
+   ],
+   [
+    49.124999999999986,
+    49.99500000000002
    ]
   ],
   "video_exhausted": true,
@@ -14983,9 +15000,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits the dubai future foundation headquarters and reviews 10x projects": {
-  "last_short": "2026-11-17",
+  "last_short": "2026-11-20",
   "long": "2026-10-30",
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -15074,6 +15091,10 @@
    [
     52.0,
     54.760000000000005
+   ],
+   [
+    3.8000000000000003,
+    6.56
    ]
   ],
   "video_exhausted": true,

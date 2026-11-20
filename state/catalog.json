@@ -53,7 +53,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     117.90484480772568,
@@ -62,6 +62,10 @@
    [
     176.45996722654058,
     177.9301451628539
+   ],
+   [
+    67.5913727864948,
+    69.88240501615299
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -226,6 +230,7 @@
   "long": "2026-10-27",
   "montage_exhausted": true,
   "montage_used": 10,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     49.55159658541657,
@@ -395,11 +400,16 @@
   "video_len": 109
  },
  "dubai crown prince commends students selected for the hamdan bin mohammed scholarship programme": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-11-21",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 9,
-  "remix_ranges": [],
+  "montage_used": 10,
+  "remix_ranges": [
+   [
+    49.542727574595624,
+    51.57998243805597
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -640,7 +650,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     55.625184337432124,
@@ -653,6 +663,10 @@
    [
     26.8,
     28.88
+   ],
+   [
+    47.90858287403907,
+    49.83694257217442
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -682,7 +696,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-17",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     9.248830832179399,
@@ -691,6 +705,10 @@
    [
     53.11380983425948,
     54.70445738456639
+   ],
+   [
+    29.87100009951576,
+    30.723180587772156
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -718,7 +736,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     72.42213502453089,
@@ -727,6 +745,10 @@
    [
     111.4736040174918,
     112.99634760221979
+   ],
+   [
+    118.24841640991004,
+    120.62271519390033
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3020,10 +3042,10 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed attends gems our own english high school s golden jubilee celebrations": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-15",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     133.08,
@@ -3032,6 +3054,10 @@
    [
     185.4,
     187.07999999999998
+   ],
+   [
+    85.53491515856238,
+    87.21417532159778
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4353,11 +4379,15 @@
   "last_short": "2026-11-21",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     307.72823911856494,
     309.47573434006233
+   ],
+   [
+    123.80944775716394,
+    126.1142888096196
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6388,7 +6418,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     247.78626092144114,
@@ -6401,6 +6431,10 @@
    [
     166.5341799242467,
     168.13750858761892
+   ],
+   [
+    398.85645196787914,
+    400.8592246888875
    ]
   ],
   "remix_reset": "2026-11-20",

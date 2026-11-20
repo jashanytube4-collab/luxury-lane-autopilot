@@ -646,7 +646,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     221.18549172617395,
@@ -663,6 +663,10 @@
    [
     178.68683074887562,
     180.6441529401474
+   ],
+   [
+    6.522530712860042,
+    7.972531773439311
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1031,7 +1035,7 @@
  "dubai crown prince reviews preparations for emirates mars mission": {
   "last_short": "2026-11-22",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     72.17488650356064,
@@ -1060,6 +1064,10 @@
    [
     20.63804399388672,
     21.41150441885685
+   ],
+   [
+    35.11308991520583,
+    37.4167942791221
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1716,6 +1724,7 @@
   "long": "2026-10-15",
   "montage_exhausted": true,
   "montage_used": 10,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     19.018162111987653,
@@ -1784,7 +1793,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     16.12,
@@ -1797,6 +1806,10 @@
    [
     20.262827418798864,
     21.872768119171585
+   ],
+   [
+    25.060000000000002,
+    27.08
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2173,7 +2186,7 @@
  "hamdan bin mohammed approves dff s three year strategic plan": {
   "last_short": "2026-11-22",
   "montage_exhausted": true,
-  "montage_used": 25,
+  "montage_used": 26,
   "remix_ranges": [
    [
     132.68279953235296,
@@ -2190,6 +2203,10 @@
    [
     149.32918441003002,
     151.29145496398706
+   ],
+   [
+    121.52893822361268,
+    123.45540113629367
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5539,7 +5556,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     2.546056517394315,
@@ -5560,6 +5577,10 @@
    [
     80.56294799083855,
     82.53768700577352
+   ],
+   [
+    133.16194927134842,
+    134.88983599434067
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -7557,7 +7578,7 @@
  "hamdan bin mohammed launches 26 dubai 10x projects issues directive to implement them within 24 months": {
   "last_short": "2026-11-22",
   "long": "2026-10-31",
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     53.879999999999995,
@@ -7574,6 +7595,10 @@
    [
     223.2429530581172,
     225.03406670940817
+   ],
+   [
+    217.7289594033032,
+    219.6286509207509
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -7624,7 +7649,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     135.3528267576151,
@@ -7633,6 +7658,10 @@
    [
     58.957716032964676,
     60.36215247783265
+   ],
+   [
+    0.2863929497975604,
+    2.738646372181084
    ]
   ],
   "remix_reset": "2026-11-20",

@@ -529,7 +529,7 @@
   "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 23,
+  "montage_used": 24,
   "remix_ranges": [
    [
     60.155932025090266,
@@ -562,6 +562,10 @@
    [
     185.24015643482994,
     186.90904982717285
+   ],
+   [
+    41.69503435357267,
+    43.917210762093084
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6789,7 +6793,7 @@
   "last_short": "2026-11-23",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 33,
+  "montage_used": 34,
   "remix_ranges": [
    [
     154.96962970092923,
@@ -6834,6 +6838,10 @@
    [
     103.23714159470717,
     104.22866194804604
+   ],
+   [
+    210.4628738997746,
+    212.0970332861776
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8700,10 +8708,15 @@
   "video_len": 99
  },
  "hamdan bin mohammed meets students of dubai schools": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-23",
   "long": "2026-10-17",
-  "montage_used": 32,
-  "remix_ranges": [],
+  "montage_used": 33,
+  "remix_ranges": [
+   [
+    202.24325973382153,
+    204.32202293269674
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 3,
   "shot_ranges": [
@@ -9806,11 +9819,15 @@
  "hamdan bin mohammed offers condolences to al falahi family": {
   "last_short": "2026-11-23",
   "long": "2026-10-16",
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     40.36954099792474,
     42.92200538660285
+   ],
+   [
+    49.77330746088433,
+    51.2616042606131
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10565,7 +10582,7 @@
   "last_short": "2026-11-23",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 28,
+  "montage_used": 29,
   "remix_ranges": [
    [
     44.48273041474908,
@@ -10574,6 +10591,10 @@
    [
     122.38471790424062,
     124.0988142882867
+   ],
+   [
+    166.71640540528304,
+    168.94277226355624
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10786,7 +10807,7 @@
   "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     9.295798858709851,
@@ -10799,6 +10820,10 @@
    [
     66.9928611810556,
     68.92035194796003
+   ],
+   [
+    44.10154048393759,
+    45.37844449880369
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12331,12 +12356,17 @@
  },
  "hamdan bin mohammed visits abu dhabi international hunting and equestrian exhibition 2026": {
   "fails": 1,
-  "last_short": "2026-10-28",
+  "last_short": "2026-11-23",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "photo_short": true,
-  "remix_ranges": [],
+  "remix_ranges": [
+   [
+    65.85333333333334,
+    68.14666666666666
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 3,
   "shot_ranges": [

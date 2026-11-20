@@ -39,7 +39,7 @@ def pack_posts(pack: Path = PACK) -> list[tuple[datetime, Path]]:
     """(local India time, picture) of every post in a pack, in order."""
     out = []
     for img in pack.glob("*/*.jpg"):
-        m = re.match(r"(\d{4}-\d{2}-\d{2})_(\d{2})(\d{2})_m?\d\.jpg$", img.name)
+        m = re.match(r"(\d{4}-\d{2}-\d{2})_(\d{2})(\d{2})_m?\d+\.jpg$", img.name)
         if m:
             dubai = datetime.fromisoformat(f"{m.group(1)}T{m.group(2)}:{m.group(3)}")
             out.append((dubai + INDIA_MINUS_DUBAI, img))

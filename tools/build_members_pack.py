@@ -21,6 +21,7 @@ from lane.hamdan import Hamdan, Library, load_events  # noqa: E402
 from lane.media import probe  # noqa: E402
 from lane.studio import Studio  # noqa: E402
 from tools.build_post_pack import QUESTIONS, grade, natural_times, nice_title, square_crop  # noqa: E402
+from tools.question_bank import fresh as fresh_question  # noqa: E402
 
 OUT = Path(__import__("os").environ.get("PACK_OUT", str(WORK_DIR / "members_pack")))
 PER_VIDEO = 2                     # frames taken from one video (different moments)
@@ -84,7 +85,7 @@ def caption(kind: str, ev: dict, rng: random.Random, qi: int) -> str:
     when = datetime.fromisoformat(ev["date"][:10]).strftime("%B %Y") if ev.get("date") else ""
     head = rng.choice(EXCLUSIVE)
     if kind == "question":
-        return (f"{head}\n\nMembers' corner: {QUESTIONS[qi % len(QUESTIONS)]} 👇\n\n"
+        return (f"{head}\n\nMembers' corner: {fresh_question(rng)} 👇\n\n"
                 f"{rng.choice(THANKS)}\n\n#FazzaFam #Fazza #SheikhHamdan")
     return (f"{head}\n\nA frame from the official footage: {nice_title(ev['title']).rstrip('.')}"
             + (f" ({when})" if when else "") + ".\nNever posted as a photo — straight from the video, just for you."

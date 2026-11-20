@@ -298,6 +298,8 @@ def ads_watch() -> None:
         try:
             r = subprocess.run([py, "-m", "tools.ads_on", "--new"], cwd=str(ROOT), capture_output=True, text=True, timeout=900)
             log.info("ads_on --new: %s %s", r.returncode, (r.stdout or r.stderr)[-300:].strip())
+            r = subprocess.run([py, "-m", "tools.end_screen", "--new"], cwd=str(ROOT), capture_output=True, text=True, timeout=1800)
+            log.info("end_screen --new: %s %s", r.returncode, (r.stdout or r.stderr)[-300:].strip())
         except Exception as e:  # noqa: BLE001
             log.warning("ads_on --new failed: %s", e)
 

@@ -30,8 +30,16 @@ PERIODS = {"7": "period-last_7_days", "28": "period-default", "90": "period-last
 
 
 def _open(p):
-    ctx = p.chromium.launch_persistent_context(str(PROFILE), executable_path=str(CHROME), headless=True,
-                                               user_agent=UA, viewport={"width": 1500, "height": 1100})
+    import time
+    for attempt in range(12):                       # another job (e.g. the comment replier) may hold the profile: wait for it
+        try:
+            ctx = p.chromium.launch_persistent_context(str(PROFILE), executable_path=str(CHROME), headless=True,
+                                                       user_agent=UA, viewport={"width": 1500, "height": 1100})
+            break
+        except Exception:
+            if attempt == 11:
+                raise
+            time.sleep(30)
     page = ctx.pages[0] if ctx.pages else ctx.new_page()
     page.set_default_timeout(20000)
     return ctx, page

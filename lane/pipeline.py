@@ -250,6 +250,27 @@ class Runner:
             if more > have:
                 self.report.note(f"Deep cut on: long official videos now give more Shorts ({have} -> {more} events)")
                 have = more
+        # Remix pieces (1.4-2.6 s of him from many videos) never repeat a second; when most videos are used up, seconds come
+        # back after a rest in a NEW order, with new music and a new true voice-over (montage fallback = always narrated)
+        ok = sum(1 for k, ev in self.events.items()
+                 if (ev.get("video") or {}).get("kind") in ("youtube", "mp4")
+                 and not (self.usage.get(k) or {}).get("remix_exhausted")
+                 and not (self.usage.get(k) or {}).get("no_hamdan") and not (self.usage.get(k) or {}).get("rejected"))
+        if ok < 60:
+            rest = int(sc.get("remix_rest_days", 30))
+            cutoff = (today - timedelta(days=rest)).isoformat()
+            back = 0
+            for k, ev in self.events.items():
+                u = self.usage.get(k)
+                if (u and u.get("remix_exhausted") and not u.get("no_hamdan") and not u.get("rejected")
+                        and (ev.get("video") or {}).get("kind") in ("youtube", "mp4")
+                        and u.get("remix_reset", "0000") <= cutoff and back < 120):
+                    u.pop("remix_exhausted", None)
+                    u["remix_ranges"], u["remix_reset"] = [], today.isoformat()
+                    back += 1
+            if back:
+                self.state.save()
+                self.report.note(f"Remix footage was used up: {back} videos came back for new cuts (new order, music and voice-over)")
         floor = int(sc.get("min_per_day", 25))
         if have < need and per_day > floor:
             # last resort: fewer Shorts rather than none or weak ones, but never below the owner's floor

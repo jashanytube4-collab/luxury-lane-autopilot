@@ -128,14 +128,18 @@ def _act(r: Rec, name: str, dur: float) -> None:
                 r.click(pg.get_by_role("button", name="Add to Cart").first)
                 r.wait(1.6)
         elif name == "photos":
-            thumbs = pg.locator("[class*=thumb] img, [class*=Thumb] img, button:has(img)")
-            n = min(thumbs.count(), 5)
-            for i in range(1, n):
+            btns = pg.locator("button:has(img)")      # only the small thumbnail strip, never the big photo (it zooms)
+            small = [btns.nth(i) for i in range(min(btns.count(), 12))
+                     if (btns.nth(i).bounding_box() or {"width": 999})["width"] < 120]
+            picks = small[1:4]                         # three different views, then stop: no looping, no zoom
+            for k, loc in enumerate(picks):
+                if time.time() - t0 > dur - 1.2:
+                    break
                 try:
-                    r.click(thumbs.nth(i))
+                    r.click(loc)
                 except Exception:  # noqa: BLE001
                     pass
-                r.wait(max(0.8, (dur - 2.0) / max(1, n - 1)))
+                r.wait(max(0.8, (dur - 1.5) / max(1, len(picks))))
         elif name == "details":
             md = pg.get_by_text("More details", exact=True).first
             if md.count():
@@ -244,8 +248,10 @@ def make(kind: str) -> Path:
         pg.goto(STORE, wait_until="domcontentloaded")       # show prices in dollars, whatever country we record from
         pg.wait_for_timeout(2500)
         try:
-            if pg.locator("a:visible", has_text="USD").count():          # the phone layout lists currencies openly
-                pg.locator("a:visible", has_text="USD").first.click()
+            usd = pg.locator("a[href*='localization?currency=USD']")      # the phone menu link is not clickable
+            if usd.count():                                               # while closed: open its address directly
+                href = usd.first.get_attribute("href")
+                pg.goto(href if href.startswith("http") else STORE + href, wait_until="domcontentloaded")
             else:
                 pg.get_by_text("INR", exact=True).first.click()
                 pg.wait_for_timeout(800)

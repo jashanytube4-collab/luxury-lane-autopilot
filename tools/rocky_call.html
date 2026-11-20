@@ -43,6 +43,10 @@
   <div id="log"></div>
   <div id="status">Tap the button to start talking to Rocky</div>
   <button id="orb">Start</button>
+  <form id="typeform" class="row" style="width:100%">
+    <input id="typed" type="text" placeholder="Type to Rocky…" autocomplete="off" style="flex:1;min-width:0;padding:10px 12px;border-radius:10px;border:1px solid #2b2f38;background:var(--card);color:var(--text);font-size:16px">
+    <button type="submit" id="send">Send</button>
+  </form>
   <div class="row">
     <button id="lang">हिंदी / Hinglish</button>
     <button id="end" class="hide">End call</button>
@@ -98,7 +102,7 @@ function listen() {
 function playNext() {
   if (playing) return;
   const next = audioQueue.shift();
-  if (!next) { if (serverDone && inCall) { busy = false; listen(); } else if (!serverDone) state("thinking", "Rocky is working on it…"); return; }
+  if (!next) { if (serverDone && inCall) { busy = false; listen(); } else if (serverDone) { busy = false; state("", "Type or tap Start to talk"); } else if (!serverDone) state("thinking", "Rocky is working on it…"); return; }
   state("speaking", "Rocky is speaking — tap to interrupt");
   if (next.audio) {
     playing = new Audio("data:audio/mpeg;base64," + next.audio);
@@ -110,6 +114,16 @@ function speakFallback(text) {                       // if the laptop voice fail
   const u = new SpeechSynthesisUtterance(text); u.lang = /[ऀ-ॿ]/.test(text) ? "hi-IN" : "en-IN";
   playing = u; u.onend = u.onerror = () => { playing = null; playNext(); }; speechSynthesis.speak(u);
 }
+
+$("typeform").onsubmit = (e) => {
+  e.preventDefault();
+  const t = $("typed").value.trim();
+  if (!t || busy) return;
+  $("typed").value = "";
+  if (rec) { rec.onend = null; rec.abort(); rec = null; }
+  if (liveBubble) { liveBubble.remove(); liveBubble = null; }
+  bubble("me", t); ask(t);
+};
 
 async function ask(text) {
   busy = true; serverDone = false; state("thinking", "Rocky is thinking…");

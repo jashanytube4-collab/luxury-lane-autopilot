@@ -31,6 +31,7 @@ from lane.config import FONTS_DIR, WORK_DIR, load_config  # noqa: E402
 from lane.faceid import FaceID  # noqa: E402
 from lane.hamdan import Hamdan, load_events  # noqa: E402
 from lane.studio import Studio, fact_bank  # noqa: E402
+from tools.question_bank import fresh as fresh_question  # noqa: E402
 
 OUT = Path(__import__("os").environ.get("PACK_OUT", str(Path(r"D:\Jashan\Desktop") / "Fazza Posts (YouTube)")))
 SIZE = 1080
@@ -302,7 +303,7 @@ def main() -> None:
                         pic = card(src[1], "DID YOU KNOW?", fact, band="bottom")
                         caption = f"Did you know? {fact}\n\n{rng.choice(CTAS)}\n\n{TAGS}"
                     else:
-                        q = QUESTIONS[(ei - ei // 3) % len(QUESTIONS)]
+                        q = fresh_question(rng)
                         pic = card(src[1], "YOUR TURN", q, band="bottom")
                         caption = f"{q} 👇\nTell us in the comments!\n\n{rng.choice(CTAS)}\n\n{TAGS}"
                     ei += 1

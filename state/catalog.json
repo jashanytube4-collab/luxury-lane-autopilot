@@ -1575,9 +1575,9 @@
   "video_len": 68
  },
  "hamdan approves medical tourism strategy": {
-  "last_short": "2026-11-22",
+  "last_short": "2026-11-23",
   "long": "2026-10-30",
-  "montage_used": 25,
+  "montage_used": 26,
   "remix_ranges": [
    [
     37.810954235443916,
@@ -1637,6 +1637,10 @@
    [
     73.72833333333332,
     74.63833333333334
+   ],
+   [
+    37.419999999999995,
+    40.480000000000004
    ]
   ],
   "video_exhausted": true,
@@ -6614,9 +6618,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed honours mbr creative sports award winners": {
-  "last_short": "2026-11-22",
+  "last_short": "2026-11-23",
   "long": "2026-10-18",
-  "montage_used": 32,
+  "montage_used": 33,
   "remix_ranges": [
    [
     658.7792960623468,
@@ -6701,6 +6705,10 @@
    [
     454.72,
     459.36
+   ],
+   [
+    74.04,
+    77.47999999999999
    ]
   ],
   "video_len": 669
@@ -9882,6 +9890,7 @@
  "hamdan bin mohammed officially opens gitex 2018": {
   "last_short": "2026-11-23",
   "long": "2026-11-02",
+  "montage_exhausted": true,
   "montage_used": 32,
   "no_video_until": "2026-11-18",
   "remix_ranges": [],
@@ -10074,7 +10083,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2018": {
   "last_short": "2026-11-23",
-  "montage_used": 28,
+  "montage_used": 29,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "shorts_made": 2,
@@ -10138,6 +10147,10 @@
    [
     190.84,
     193.0
+   ],
+   [
+    61.239999999999995,
+    63.32
    ]
   ],
   "video_exhausted": true,
@@ -10265,9 +10278,9 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed opens gitex tech week 2017": {
-  "last_short": "2026-11-22",
+  "last_short": "2026-11-23",
   "long": "2026-10-14",
-  "montage_used": 27,
+  "montage_used": 28,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "shorts_made": 3,
@@ -10331,6 +10344,10 @@
    [
     495.8,
     499.56
+   ],
+   [
+    156.16,
+    159.44
    ]
   ],
   "video_exhausted": true,
@@ -12498,9 +12515,9 @@
   "video_len": 206
  },
  "hamdan bin mohammed visits dewa s moro": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-23",
   "long": "2026-11-01",
-  "montage_used": 31,
+  "montage_used": 32,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "shorts_made": 3,
@@ -12568,6 +12585,10 @@
    [
     123.52000000000001,
     125.96
+   ],
+   [
+    68.92,
+    71.08
    ]
   ],
   "video_exhausted": true,
@@ -13484,7 +13505,7 @@
  "hamdan bin mohammed visits knowledge and human development authority": {
   "last_short": "2026-11-23",
   "long": "2026-10-31",
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -13536,6 +13557,10 @@
    [
     245.48000000000002,
     248.0
+   ],
+   [
+    184.92000000000002,
+    187.2
    ]
   ],
   "video_exhausted": true,

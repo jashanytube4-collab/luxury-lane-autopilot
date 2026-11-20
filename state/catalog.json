@@ -795,11 +795,15 @@
  "dubai crown prince reviews preparations for emirates mars mission": {
   "last_short": "2026-11-21",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     72.17488650356064,
     74.18095588367181
+   ],
+   [
+    4.184024459023304,
+    6.069011097722183
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1066,7 +1070,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 21,
+  "montage_used": 22,
   "no_video_until": "2026-11-02",
   "remix_ranges": [
    [
@@ -1076,6 +1080,10 @@
    [
     82.83171138450801,
     84.23386677623093
+   ],
+   [
+    65.42,
+    67.28
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1453,14 +1461,18 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed and maktoum bin mohammed review dubai municipality s key strategic projects following corporate restructuring": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     60.683582239329986,
     62.66006832755944
+   ],
+   [
+    70.6685357028342,
+    73.14395990660228
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2632,14 +2644,18 @@
   "video_len": 270
  },
  "hamdan bin mohammed attends dubai metaverse assembly at the museum of the future": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-13",
   "montage_exhausted": true,
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     20.039942805758713,
     20.986667542462627
+   ],
+   [
+    52.26344920758332,
+    54.150916301297784
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2697,14 +2713,18 @@
   "video_len": 165
  },
  "hamdan bin mohammed attends dubai police graduation ceremony": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     214.5336373953238,
     216.30579762681035
+   ],
+   [
+    154.48000000000002,
+    156.64
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2790,7 +2810,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 22,
+  "montage_used": 23,
   "remix_ranges": [
    [
     93.41739919554406,
@@ -2799,6 +2819,10 @@
    [
     227.92000000000002,
     229.76
+   ],
+   [
+    215.4,
+    217.24
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3854,14 +3878,18 @@
   "video_len": 91
  },
  "hamdan bin mohammed attends the graduation of 18th cohort of the national military service": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     52.019999999999996,
     54.080000000000005
+   ],
+   [
+    87.29385023788171,
+    88.12597230170033
    ]
   ],
   "remix_reset": "2026-11-20",

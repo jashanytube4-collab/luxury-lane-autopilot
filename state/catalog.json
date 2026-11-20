@@ -610,11 +610,16 @@
   "video_len": 68
  },
  "dubai crown prince offers condolences to alkaabi family": {
-  "last_short": "2026-11-05",
+  "last_short": "2026-11-21",
   "long": "2026-10-17",
   "montage_exhausted": true,
-  "montage_used": 6,
-  "remix_ranges": [],
+  "montage_used": 7,
+  "remix_ranges": [
+   [
+    9.248830832179399,
+    11.603934400491045
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -1176,11 +1181,16 @@
   "long": "2026-10-22"
  },
  "hamdan attends al kharbash wedding": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-21",
   "long": "2026-10-15",
   "montage_exhausted": true,
-  "montage_used": 5,
-  "remix_ranges": [],
+  "montage_used": 6,
+  "remix_ranges": [
+   [
+    37.28659956809034,
+    39.12389713874306
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -1205,9 +1215,14 @@
   "last_short": "2026-11-21",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 22,
+  "montage_used": 23,
   "no_video_until": "2026-11-03",
-  "remix_ranges": [],
+  "remix_ranges": [
+   [
+    78.01101116484791,
+    79.48564424054273
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -1890,14 +1905,18 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed approves mbz sat for launch": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-11",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     16.32,
     18.313333333333333
+   ],
+   [
+    39.22,
+    41.31333333333333
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2204,11 +2223,16 @@
   "long": "2026-10-17"
  },
  "hamdan bin mohammed attends al muhairi al rumaithi family wedding": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-21",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 4,
-  "remix_ranges": [],
+  "montage_used": 5,
+  "remix_ranges": [
+   [
+    70.24000000000001,
+    72.0
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -3325,7 +3349,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     193.14324482816696,
@@ -3334,6 +3358,10 @@
    [
     217.8858841888649,
     220.4290380695022
+   ],
+   [
+    125.01418529518193,
+    126.45071914890079
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5307,13 +5335,17 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed honours mbr creative sports award winners": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-18",
-  "montage_used": 25,
+  "montage_used": 26,
   "remix_ranges": [
    [
     658.7792960623468,
     660.4253812331617
+   ],
+   [
+    114.48520753394945,
+    116.4510321834035
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6327,11 +6359,16 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed launches dubai future readiness index": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-21",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 2,
-  "remix_ranges": [],
+  "montage_used": 3,
+  "remix_ranges": [
+   [
+    4.0152626439487715,
+    5.942005816630783
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [

@@ -106,14 +106,18 @@
   "long": "2026-10-17"
  },
  "crown prince offers condolences to al mansouri family": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-16",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     29.151429833654575,
     30.47343521525087
+   ],
+   [
+    15.662437300208708,
+    18.26100231848039
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -627,11 +631,15 @@
   "last_short": "2026-11-21",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     72.42213502453089,
     74.69880439518737
+   ],
+   [
+    111.4736040174918,
+    112.99634760221979
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1181,6 +1189,7 @@
  "hamdan attends dubai smart city first meeting": {
   "last_short": "2026-11-21",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 22,
   "no_video_until": "2026-11-03",
   "remix_ranges": [],
@@ -1486,11 +1495,16 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed and maktoum bin mohammed visit emirates group headquarters": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-21",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 6,
-  "remix_ranges": [],
+  "montage_used": 7,
+  "remix_ranges": [
+   [
+    42.86319801219613,
+    45.0799045168399
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -2232,6 +2246,7 @@
  "hamdan bin mohammed attends closing ceremony of 3rd dubai future accelerators program": {
   "last_short": "2026-11-20",
   "long": "2026-10-30",
+  "montage_exhausted": true,
   "montage_used": 24,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
@@ -2868,7 +2883,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     47.21942589706834,
@@ -2881,6 +2896,10 @@
    [
     163.8263984542828,
     165.8290080913029
+   ],
+   [
+    128.57724387697704,
+    130.95739800105068
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3338,11 +3357,16 @@
   "video_len": 249
  },
  "hamdan bin mohammed attends iftar banquet with autistic children and their families": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-21",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 7,
-  "remix_ranges": [],
+  "montage_used": 8,
+  "remix_ranges": [
+   [
+    21.084998469625425,
+    23.403825681385428
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -3388,10 +3412,15 @@
   }
  },
  "hamdan bin mohammed attends launch of dubai international chamber s new office in bengaluru": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-11-21",
   "montage_exhausted": true,
-  "montage_used": 1,
-  "remix_ranges": [],
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    46.14,
+    47.74
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -3658,6 +3687,7 @@
   "long": "2026-10-30",
   "montage_exhausted": true,
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     102.16717876309677,
@@ -5180,7 +5210,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     16.33302972290008,
@@ -5193,6 +5223,10 @@
    [
     290.32,
     292.12
+   ],
+   [
+    31.702604416134154,
+    33.49535237197892
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5534,11 +5568,15 @@
   "last_short": "2026-11-21",
   "long": "2026-10-23",
   "montage_exhausted": true,
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     15.76434127641193,
     17.949479449538842
+   ],
+   [
+    47.23891543887233,
+    48.870278912371035
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -15257,6 +15295,7 @@
  "hamdan bin mohammed visits the dubai future foundation headquarters and reviews 10x projects": {
   "last_short": "2026-11-20",
   "long": "2026-10-30",
+  "montage_exhausted": true,
   "montage_used": 18,
   "remix_exhausted": true,
   "remix_ranges": [

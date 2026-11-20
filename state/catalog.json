@@ -7865,7 +7865,7 @@
  },
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
   "last_short": "2026-11-20",
-  "montage_used": 24,
+  "montage_used": 25,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -7998,6 +7998,10 @@
    [
     159.8,
     161.92
+   ],
+   [
+    185.32,
+    187.4
    ]
   ],
   "video_exhausted": true,
@@ -9489,9 +9493,9 @@
   "video_len": 99
  },
  "hamdan bin mohammed meets students of dubai schools": {
-  "last_short": "2026-11-18",
+  "last_short": "2026-11-20",
   "long": "2026-10-17",
-  "montage_used": 30,
+  "montage_used": 31,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -9640,6 +9644,10 @@
    [
     64.12,
     66.28
+   ],
+   [
+    23.720000000000002,
+    27.68
    ]
   ],
   "video_len": 371
@@ -10395,6 +10403,7 @@
  "hamdan bin mohammed meets with participants of retail summit in dubai": {
   "last_short": "2026-11-17",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 20,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -11358,9 +11367,9 @@
   "long": "2026-10-28"
  },
  "hamdan bin mohammed officially opens gitex 2018": {
-  "last_short": "2026-11-18",
+  "last_short": "2026-11-20",
   "long": "2026-11-02",
-  "montage_used": 27,
+  "montage_used": 28,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -11493,6 +11502,10 @@
    [
     185.72,
     187.76
+   ],
+   [
+    87.92,
+    90.03999999999999
    ]
   ],
   "video_exhausted": true,
@@ -11546,8 +11559,8 @@
   "video_len": 281
  },
  "hamdan bin mohammed opens cityscape global 2017": {
-  "last_short": "2026-11-18",
-  "montage_used": 27,
+  "last_short": "2026-11-20",
+  "montage_used": 28,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -11672,6 +11685,10 @@
    [
     65.28,
     67.52
+   ],
+   [
+    15.0,
+    17.959999999999997
    ]
   ],
   "video_exhausted": true,
@@ -11679,7 +11696,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2018": {
   "last_short": "2026-11-20",
-  "montage_used": 27,
+  "montage_used": 28,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -11836,6 +11853,10 @@
    [
     365.12,
     367.48
+   ],
+   [
+    190.84,
+    193.0
    ]
   ],
   "video_exhausted": true,
@@ -15404,9 +15425,9 @@
   "video_len": 206
  },
  "hamdan bin mohammed visits dewa s moro": {
-  "last_short": "2026-11-18",
+  "last_short": "2026-11-20",
   "long": "2026-11-01",
-  "montage_used": 30,
+  "montage_used": 31,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -15563,6 +15584,10 @@
    [
     43.44,
     45.480000000000004
+   ],
+   [
+    123.52000000000001,
+    125.96
    ]
   ],
   "video_len": 401

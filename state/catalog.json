@@ -525,7 +525,7 @@
   "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 22,
+  "montage_used": 23,
   "remix_ranges": [
    [
     60.155932025090266,
@@ -554,6 +554,10 @@
    [
     123.28319004474358,
     124.8988022119387
+   ],
+   [
+    185.24015643482994,
+    186.90904982717285
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5457,6 +5461,7 @@
   "long": "2026-10-30",
   "montage_exhausted": true,
   "montage_used": 14,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     67.34768501082806,
@@ -7539,12 +7544,17 @@
   "video_len": 227
  },
  "hamdan bin mohammed inspects rta s autonomous mobility and ai projects": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 22,
+  "montage_used": 23,
   "no_video_until": "2026-11-18",
-  "remix_ranges": [],
+  "remix_ranges": [
+   [
+    26.231332227013592,
+    27.10682514620582
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 2,
   "shot_ranges": [
@@ -8185,11 +8195,15 @@
  "hamdan bin mohammed launches third phase of dubai 10x initiative": {
   "last_short": "2026-11-23",
   "montage_exhausted": true,
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     37.28601541920983,
     39.484989923196224
+   ],
+   [
+    8.294833333333333,
+    9.956733333333334
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8320,11 +8334,16 @@
  },
  "hamdan bin mohammed marks 20 years leading the executive council of dubai": {
   "fails": 1,
-  "last_short": "2026-10-26",
+  "last_short": "2026-11-23",
   "long": "2026-10-16",
   "montage_exhausted": true,
-  "montage_used": 1,
-  "remix_ranges": [],
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    21.202933404700982,
+    23.708292463962344
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -9116,11 +9135,16 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed meets with local dignitaries and senior officials at nad al sheba majlis": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-11-23",
   "long": "2026-10-05",
   "montage_exhausted": true,
-  "montage_used": 4,
-  "remix_ranges": [],
+  "montage_used": 5,
+  "remix_ranges": [
+   [
+    48.919999999999995,
+    50.54666666666667
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 2,
   "shot_ranges": [
@@ -9624,11 +9648,16 @@
   "video_len": 64
  },
  "hamdan bin mohammed offers condolences on death of hamad al qasimi": {
-  "last_short": "2026-11-10",
+  "last_short": "2026-11-23",
   "long": "2026-10-20",
   "montage_exhausted": true,
-  "montage_used": 5,
-  "remix_ranges": [],
+  "montage_used": 6,
+  "remix_ranges": [
+   [
+    36.04,
+    38.0
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -9847,11 +9876,15 @@
   "last_short": "2026-11-23",
   "long": "2026-10-25",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     83.58291392845342,
     85.69820076452133
+   ],
+   [
+    108.8226615148848,
+    111.14044591080435
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10416,6 +10449,7 @@
   "last_short": "2026-10-10",
   "long": "2026-10-31",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
@@ -10516,7 +10550,7 @@
  "hamdan bin mohammed opens smart police station at la mer": {
   "last_short": "2026-11-23",
   "montage_exhausted": true,
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     62.11021807184426,
@@ -10525,6 +10559,10 @@
    [
     80.91905345435602,
     82.40589269776409
+   ],
+   [
+    26.341086011486766,
+    28.88498957810406
    ]
   ],
   "remix_reset": "2026-11-20",

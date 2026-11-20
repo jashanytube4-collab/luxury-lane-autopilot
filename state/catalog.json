@@ -175,6 +175,7 @@
   "long": "2026-10-28",
   "montage_exhausted": true,
   "montage_used": 9,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     31.33986486029299,
@@ -432,7 +433,7 @@
   "last_short": "2026-11-22",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     49.542727574595624,
@@ -445,6 +446,10 @@
    [
     57.776011069230634,
     60.04296053130335
+   ],
+   [
+    18.12,
+    19.779999999999998
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1840,10 +1845,10 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed and maktoum bin mohammed review dubai municipality s key strategic projects following corporate restructuring": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     60.683582239329986,
@@ -1856,6 +1861,10 @@
    [
     39.57340024738944,
     41.54893213795324
+   ],
+   [
+    35.45333333333333,
+    37.61333333333334
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2360,10 +2369,10 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed approves mbz sat for launch": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-11",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     16.32,
@@ -2380,6 +2389,10 @@
    [
     28.97120958300766,
     30.522687684042186
+   ],
+   [
+    51.704110273490656,
+    53.62768757211283
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3064,7 +3077,7 @@
  "hamdan bin mohammed attends dubai forum for government best practices": {
   "last_short": "2026-11-22",
   "long": "2026-10-31",
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     199.21437450345937,
@@ -3077,6 +3090,10 @@
    [
     28.506212829121047,
     30.2544400508715
+   ],
+   [
+    133.07038165161978,
+    135.26919447221977
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3143,7 +3160,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     252.72,
@@ -3152,6 +3169,10 @@
    [
     42.45377221337095,
     44.79018331210618
+   ],
+   [
+    6.563124531468663,
+    8.988716259413843
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3470,7 +3491,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 25,
+  "montage_used": 26,
   "remix_ranges": [
    [
     48.36,
@@ -3487,6 +3508,10 @@
    [
     26.36,
     28.279999999999998
+   ],
+   [
+    33.81557440386695,
+    35.58943989287945
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5726,6 +5751,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 10,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     21.9481309686273,
@@ -6979,7 +7005,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 22,
+  "montage_used": 23,
   "remix_ranges": [
    [
     247.78626092144114,
@@ -7000,6 +7026,10 @@
    [
     302.2276854443365,
     303.8019000627983
+   ],
+   [
+    407.539826550264,
+    408.5179792140842
    ]
   ],
   "remix_reset": "2026-11-20",

@@ -3175,9 +3175,9 @@
   "video_len": 65
  },
  "hamdan bin mohammed attends closing ceremony of 3rd dubai future accelerators program": {
-  "last_short": "2026-11-11",
+  "last_short": "2026-11-20",
   "long": "2026-10-30",
-  "montage_used": 23,
+  "montage_used": 24,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -3251,6 +3251,10 @@
    [
     42.00173804542305,
     43.562486286095535
+   ],
+   [
+    265.4588054861218,
+    268.03137462289897
    ]
   ],
   "shorts_made": 3,
@@ -3627,7 +3631,15 @@
   "video_len": 58
  },
  "hamdan bin mohammed attends dubai police academy graduation ceremony": {
+  "last_short": "2026-11-20",
   "long": "2026-10-30",
+  "montage_used": 1,
+  "remix_ranges": [
+   [
+    103.45333333333333,
+    105.78
+   ]
+  ],
   "video_exhausted": true,
   "video_len": 165
  },
@@ -4360,9 +4372,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends hct graduation": {
-  "last_short": "2026-11-17",
+  "last_short": "2026-11-20",
   "long": "2026-10-31",
-  "montage_used": 32,
+  "montage_used": 33,
   "remix_ranges": [
    [
     45.8,
@@ -4463,6 +4475,10 @@
    [
     256.91618520943825,
     259.0701610827053
+   ],
+   [
+    1.544541694563319,
+    3.603515615792248
    ]
   ],
   "shorts_made": 1,
@@ -8063,10 +8079,10 @@
   "video_len": 227
  },
  "hamdan bin mohammed inspects rta s autonomous mobility and ai projects": {
-  "last_short": "2026-11-06",
+  "last_short": "2026-11-20",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 20,
+  "montage_used": 21,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -8132,6 +8148,10 @@
    [
     35.839999999999996,
     38.24
+   ],
+   [
+    141.50787006945757,
+    143.50623521202593
    ]
   ],
   "shorts_made": 2,
@@ -11393,7 +11413,7 @@
  "hamdan bin mohammed officially opens gitex 2018": {
   "last_short": "2026-11-20",
   "long": "2026-11-02",
-  "montage_used": 28,
+  "montage_used": 29,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -11467,6 +11487,10 @@
    [
     211.72,
     213.56
+   ],
+   [
+    37.98063722164466,
+    40.400709810311376
    ]
   ],
   "shorts_made": 1,
@@ -11584,7 +11608,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2017": {
   "last_short": "2026-11-20",
-  "montage_used": 28,
+  "montage_used": 29,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -11670,6 +11694,10 @@
    [
     70.0,
     71.67999999999999
+   ],
+   [
+    268.39383672440795,
+    270.0271892685001
    ]
   ],
   "shorts_made": 1,

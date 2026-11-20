@@ -208,8 +208,13 @@
   },
   {
    "at": "2026-11-21T21:00:00+04:00",
-   "status": "open",
-   "type": "members"
+   "event": "montage",
+   "kind": "montage",
+   "status": "scheduled",
+   "title": "Respect for elders. Love for children. That is Fazza. ❤️ #youtubeshorts #youtube",
+   "type": "members",
+   "video_id": "LxS4CmfvEHw",
+   "voiced": true
   },
   {
    "at": "2026-11-21T21:44:01+04:00",

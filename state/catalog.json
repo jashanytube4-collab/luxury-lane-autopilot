@@ -532,7 +532,7 @@
  "dubai crown prince holds minute s silence to honour martyrs on commemoration day": {
   "last_short": "2026-11-21",
   "long": "2026-10-31",
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     122.18137349623053,
@@ -572,6 +572,10 @@
    [
     128.64000000000001,
     131.6
+   ],
+   [
+    20.36,
+    23.08
    ]
   ],
   "video_exhausted": true,
@@ -976,7 +980,7 @@
  "dubai crown prince visits dubai municipality": {
   "last_short": "2026-11-21",
   "long": "2026-11-02",
-  "montage_used": 31,
+  "montage_used": 32,
   "remix_ranges": [
    [
     321.72,
@@ -1029,6 +1033,10 @@
    [
     153.56,
     155.64
+   ],
+   [
+    39.239999999999995,
+    42.6
    ]
   ],
   "video_exhausted": true,
@@ -1326,7 +1334,7 @@
  "hamdan approves medical tourism strategy": {
   "last_short": "2026-11-21",
   "long": "2026-10-30",
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     37.810954235443916,
@@ -1366,6 +1374,10 @@
    [
     24.853333333333335,
     27.013333333333332
+   ],
+   [
+    53.55333333333333,
+    55.61333333333334
    ]
   ],
   "video_exhausted": true,
@@ -8161,9 +8173,9 @@
   "video_len": 99
  },
  "hamdan bin mohammed meets students of dubai schools": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-17",
-  "montage_used": 31,
+  "montage_used": 32,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -8316,6 +8328,10 @@
    [
     23.720000000000002,
     27.68
+   ],
+   [
+    320.25,
+    321.83
    ]
   ],
   "video_len": 371
@@ -10047,7 +10063,7 @@
  "hamdan bin mohammed officially opens gitex 2018": {
   "last_short": "2026-11-21",
   "long": "2026-11-02",
-  "montage_used": 28,
+  "montage_used": 29,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -10184,6 +10200,10 @@
    [
     185.72,
     187.76
+   ],
+   [
+    87.92,
+    90.03999999999999
    ]
   ],
   "video_exhausted": true,
@@ -10731,9 +10751,9 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed opens gitex tech week 2017": {
-  "last_short": "2026-11-18",
+  "last_short": "2026-11-21",
   "long": "2026-10-14",
-  "montage_used": 25,
+  "montage_used": 26,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -10878,6 +10898,10 @@
    [
     228.16,
     230.64
+   ],
+   [
+    222.6,
+    224.68
    ]
   ],
   "video_exhausted": true,
@@ -16952,6 +16976,7 @@
  "hamdan inspects al bayt studio": {
   "last_short": "2026-11-20",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 15,
   "remix_exhausted": true,
   "remix_ranges": [

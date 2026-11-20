@@ -7851,6 +7851,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 21,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     135.3528267576151,
@@ -9199,7 +9200,7 @@
   "last_short": "2026-11-23",
   "long": "2026-10-10",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     22.52,
@@ -9208,6 +9209,10 @@
    [
     14.266065557943033,
     15.863241788677225
+   ],
+   [
+    6.5818302252413226,
+    8.379665992018031
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10116,9 +10121,14 @@
   "last_short": "2026-11-23",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 32,
+  "montage_used": 33,
   "no_video_until": "2026-11-18",
-  "remix_ranges": [],
+  "remix_ranges": [
+   [
+    63.226043815293394,
+    64.9882973810404
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -10710,7 +10720,7 @@
  "hamdan bin mohammed opens smart police station at la mer": {
   "last_short": "2026-11-23",
   "montage_exhausted": true,
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     62.11021807184426,
@@ -10723,6 +10733,10 @@
    [
     26.341086011486766,
     28.88498957810406
+   ],
+   [
+    128.946432930425,
+    130.77991740600106
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10975,11 +10989,15 @@
  "hamdan bin mohammed receives head of chechen republic": {
   "last_short": "2026-11-23",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     13.23563367599619,
     15.81206048418533
+   ],
+   [
+    5.628376240636625,
+    7.429949426773822
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11275,8 +11293,13 @@
  "hamdan bin mohammed reviews dubai future foundation s 2018 plan and projects": {
   "last_short": "2026-11-23",
   "long": "2026-10-30",
-  "montage_used": 18,
-  "remix_ranges": [],
+  "montage_used": 19,
+  "remix_ranges": [
+   [
+    40.994186600963694,
+    42.697270016016624
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -11485,11 +11508,15 @@
  "hamdan bin mohammed reviews outcomes of farmers souq initiative": {
   "last_short": "2026-11-23",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     25.287802896479974,
     26.997034693551782
+   ],
+   [
+    12.479017577602855,
+    13.872321866892129
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12785,11 +12812,16 @@
   "video_len": 43
  },
  "hamdan bin mohammed visits dental exhibition in dubai": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 11,
-  "remix_ranges": [],
+  "montage_used": 12,
+  "remix_ranges": [
+   [
+    30.26795915214033,
+    32.47642445356116
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 3,
   "shot_ranges": [

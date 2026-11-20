@@ -208,8 +208,13 @@
   },
   {
    "at": "2026-11-23T22:29:45+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "He makes kindness look powerful. 🤍 #youtubeshorts #youtube #fazza",
+   "type": "short",
+   "video_id": "vOUiuZmDIlk",
+   "voiced": true
   },
   {
    "at": "2026-11-23T23:20:21+04:00",

@@ -134,6 +134,7 @@
   "long": "2026-10-16",
   "montage_exhausted": true,
   "montage_used": 6,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     29.151429833654575,
@@ -923,7 +924,7 @@
  "dubai crown prince reviews preparations for emirates mars mission": {
   "last_short": "2026-11-21",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     72.17488650356064,
@@ -936,6 +937,10 @@
    [
     10.169202231074582,
     12.752473414677855
+   ],
+   [
+    25.581645719669662,
+    27.231843697309095
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1638,11 +1643,15 @@
   "last_short": "2026-11-21",
   "long": "2026-10-17",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     36.903189437724784,
     39.00860527752734
+   ],
+   [
+    3.4133014678642484,
+    4.968066389360924
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2030,7 +2039,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     29.21984774239835,
@@ -2039,6 +2048,10 @@
    [
     47.84633634981518,
     49.252682353623996
+   ],
+   [
+    42.78172775999581,
+    44.22227079768623
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2365,7 +2378,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     54.629629705411226,
@@ -2378,6 +2391,10 @@
    [
     185.46073171631517,
     187.28127530137093
+   ],
+   [
+    483.65739629318085,
+    485.6966634398504
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3432,6 +3449,7 @@
   "long": "2026-10-06",
   "montage_exhausted": true,
   "montage_used": 6,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     23.297735048634593,
@@ -5575,7 +5593,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-08",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     28.447144106742545,
@@ -5588,6 +5606,10 @@
    [
     73.19522555647275,
     75.07552527368848
+   ],
+   [
+    33.93247626411547,
+    35.76136556516763
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5856,7 +5878,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     16.33302972290008,
@@ -5877,6 +5899,10 @@
    [
     224.04955158454874,
     225.78235095683993
+   ],
+   [
+    134.1064799883289,
+    135.99043839282342
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6017,7 +6043,7 @@
  "hamdan bin mohammed honours winners of 5th islamic economy award": {
   "last_short": "2026-11-21",
   "long": "2026-10-30",
-  "montage_used": 26,
+  "montage_used": 27,
   "remix_ranges": [
    [
     154.96962970092923,
@@ -6034,6 +6060,10 @@
    [
     36.77964100141099,
     38.66168209498037
+   ],
+   [
+    59.72,
+    61.92
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6612,7 +6642,7 @@
  },
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
   "last_short": "2026-11-21",
-  "montage_used": 25,
+  "montage_used": 26,
   "remix_ranges": [
    [
     86.51501862110607,
@@ -6621,6 +6651,10 @@
    [
     77.18594494817111,
     79.20845735396416
+   ],
+   [
+    100.85896480760688,
+    102.7036453316469
    ]
   ],
   "remix_reset": "2026-11-20",

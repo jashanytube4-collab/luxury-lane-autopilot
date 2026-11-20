@@ -2297,9 +2297,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed approves dff s three year strategic plan": {
-  "last_short": "2026-11-22",
+  "last_short": "2026-11-23",
   "montage_exhausted": true,
-  "montage_used": 26,
+  "montage_used": 27,
   "remix_ranges": [
    [
     132.68279953235296,
@@ -2320,6 +2320,10 @@
    [
     121.52893822361268,
     123.45540113629367
+   ],
+   [
+    229.20619249656139,
+    230.71205152780982
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5582,6 +5586,7 @@
   "long": "2026-10-14",
   "montage_exhausted": true,
   "montage_used": 20,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     2.546056517394315,
@@ -7816,6 +7821,7 @@
  "hamdan bin mohammed launches dubai schools project": {
   "long": "2026-10-17",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "video_exhausted": true,
@@ -8007,11 +8013,16 @@
   "video_len": 69
  },
  "hamdan bin mohammed launches sports initiatives": {
-  "last_short": "2026-11-17",
+  "last_short": "2026-11-23",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 22,
-  "remix_ranges": [],
+  "montage_used": 23,
+  "remix_ranges": [
+   [
+    87.58143717853224,
+    89.37596122971055
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -8154,6 +8165,7 @@
  "hamdan bin mohammed launches uae ai robotics award for good": {
   "long": "2026-11-01",
   "montage_exhausted": true,
+  "no_video_until": "2026-11-23",
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "video_exhausted": true,
@@ -8970,11 +8982,16 @@
   "video_len": 18
  },
  "hamdan bin mohammed meets with indian prime minister to discuss future of bilateral partnership": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-23",
   "long": "2026-10-10",
   "montage_exhausted": true,
-  "montage_used": 3,
-  "remix_ranges": [],
+  "montage_used": 4,
+  "remix_ranges": [
+   [
+    22.52,
+    24.459999999999997
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -9950,9 +9967,14 @@
  },
  "hamdan bin mohammed opens cityscape global 2017": {
   "last_short": "2026-11-23",
-  "montage_used": 32,
+  "montage_used": 33,
   "no_video_until": "2026-11-18",
-  "remix_ranges": [],
+  "remix_ranges": [
+   [
+    188.56,
+    190.44
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -10373,10 +10395,15 @@
   "video_len": 226
  },
  "hamdan bin mohammed opens smart police station at la mer": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-23",
   "montage_exhausted": true,
-  "montage_used": 15,
-  "remix_ranges": [],
+  "montage_used": 16,
+  "remix_ranges": [
+   [
+    62.11021807184426,
+    63.764297501368596
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 2,
   "shot_ranges": [
@@ -10598,10 +10625,15 @@
   "video_len": 46
  },
  "hamdan bin mohammed receives head of chechen republic": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-11-23",
   "montage_exhausted": true,
-  "montage_used": 5,
-  "remix_ranges": [],
+  "montage_used": 6,
+  "remix_ranges": [
+   [
+    13.23563367599619,
+    15.81206048418533
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -12909,11 +12941,16 @@
   "video_len": 263
  },
  "hamdan bin mohammed visits dubai sports council": {
-  "last_short": "2026-11-05",
+  "last_short": "2026-11-23",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 11,
-  "remix_ranges": [],
+  "montage_used": 12,
+  "remix_ranges": [
+   [
+    110.28976119537938,
+    111.90887187523917
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [

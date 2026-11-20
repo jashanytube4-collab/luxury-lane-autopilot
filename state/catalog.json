@@ -170,10 +170,10 @@
   "long": "2026-10-17"
  },
  "crown prince offers condolences to families of martyrs almazroui and dhahoori": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     31.33986486029299,
@@ -186,6 +186,10 @@
    [
     127.57528270147864,
     128.1400473861348
+   ],
+   [
+    106.75797294608134,
+    108.49210226390355
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -470,10 +474,10 @@
   "video_len": 62
  },
  "dubai crown prince hands over hamdan bin mohammed program for smart government flag to dubai police": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     60.155932025090266,
@@ -482,6 +486,10 @@
    [
     126.70406150410021,
     127.28412360178604
+   ],
+   [
+    23.7608590279293,
+    26.086593907556992
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2094,10 +2102,10 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed approves dubai marine transport master plan 2030": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     29.21984774239835,
@@ -2110,6 +2118,10 @@
    [
     42.78172775999581,
     44.22227079768623
+   ],
+   [
+    18.001154470374782,
+    20.10378106448506
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2441,6 +2453,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 12,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     54.629629705411226,
@@ -2672,10 +2685,10 @@
   "video_len": 65
  },
  "hamdan bin mohammed attends closing ceremony of 3rd dubai future accelerators program": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 27,
+  "montage_used": 28,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -2761,6 +2774,10 @@
    [
     256.16,
     258.0
+   ],
+   [
+    266.11133188245475,
+    267.81309189058237
    ]
   ],
   "shorts_made": 3,
@@ -3525,14 +3542,18 @@
  },
  "hamdan bin mohammed attends graduation ceremony at zayed ii military college in al ain": {
   "fails": 1,
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     25.953333333333333,
     27.646666666666665
+   ],
+   [
+    31.78666666666667,
+    33.480000000000004
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4192,6 +4213,7 @@
   "long": "2026-10-24",
   "montage_exhausted": true,
   "montage_used": 9,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     56.061348287165146,
@@ -5091,10 +5113,10 @@
   "video_len": 122
  },
  "hamdan bin mohammed chairs executive council meeting approves updated school fees framework": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     85.61181999860901,
@@ -5107,6 +5129,10 @@
    [
     33.962378332671655,
     36.091118153966306
+   ],
+   [
+    39.97711699570208,
+    41.80752989622747
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -7219,14 +7245,18 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed launches dubai future readiness index": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     4.0152626439487715,
     5.942005816630783
+   ],
+   [
+    18.5790697478036,
+    20.074647349486774
    ]
   ],
   "remix_reset": "2026-11-20",

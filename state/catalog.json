@@ -209,10 +209,10 @@
   "no_hamdan": true
  },
  "dubai crown prince attends al ketbi family wedding reception": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     49.55159658541657,
@@ -221,6 +221,10 @@
    [
     33.47632030521928,
     35.876788960664335
+   ],
+   [
+    62.73500272826332,
+    64.95133953185655
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -928,13 +932,17 @@
   "video_len": 345
  },
  "dubai crown prince visits emirates nbd head office": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     150.28730135626125,
     152.3470876560911
+   ],
+   [
+    104.59010336869424,
+    106.69292603764065
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1004,11 +1012,15 @@
   "last_short": "2026-11-21",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     40.11976320344587,
     42.57271763532623
+   ],
+   [
+    55.72440863900867,
+    57.16566472079287
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1456,11 +1468,16 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed and maktoum bin mohammed meet dubai s top performing high school students": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-21",
   "long": "2026-10-17",
   "montage_exhausted": true,
-  "montage_used": 7,
-  "remix_ranges": [],
+  "montage_used": 8,
+  "remix_ranges": [
+   [
+    36.903189437724784,
+    39.00860527752734
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -2144,7 +2161,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     54.629629705411226,
@@ -2153,6 +2170,10 @@
    [
     69.14695426441527,
     71.70842069725742
+   ],
+   [
+    185.46073171631517,
+    187.28127530137093
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4193,14 +4214,18 @@
   "video_len": 54
  },
  "hamdan bin mohammed attends wedding": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-15",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     38.49011550814778,
     40.54783266318975
+   ],
+   [
+    61.87925562770384,
+    64.24619162765877
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4639,11 +4664,15 @@
   "last_short": "2026-11-21",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     2.546056517394315,
     4.631247925075101
+   ],
+   [
+    46.43037087421372,
+    47.95004559392487
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5323,11 +5352,15 @@
   "last_short": "2026-11-21",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 23,
+  "montage_used": 24,
   "remix_ranges": [
    [
     91.53469075790515,
     93.47127886451109
+   ],
+   [
+    178.9643751192321,
+    180.75138942038387
    ]
   ],
   "remix_reset": "2026-11-20",

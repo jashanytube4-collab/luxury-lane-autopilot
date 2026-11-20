@@ -82,11 +82,16 @@
   "video_len": 413
  },
  "crown prince offers condolences to al adab family": {
-  "last_short": "2026-11-13",
+  "last_short": "2026-11-21",
   "long": "2026-10-15",
   "montage_exhausted": true,
-  "montage_used": 2,
-  "remix_ranges": [],
+  "montage_used": 3,
+  "remix_ranges": [
+   [
+    33.188845853412516,
+    34.93418404879658
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -556,6 +561,7 @@
  "dubai crown prince launches hbmpsg": {
   "long": "2026-10-31",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "video_exhausted": true,
@@ -1099,13 +1105,17 @@
   "video_len": 68
  },
  "hamdan approves medical tourism strategy": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-30",
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     37.810954235443916,
     40.2964932237826
+   ],
+   [
+    53.55333333333333,
+    55.61333333333334
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1520,11 +1530,16 @@
   "long": "2026-10-21"
  },
  "hamdan bin mohammed and mohammed bin salman visit headquarters of expo 2020 dubai": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-21",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 13,
-  "remix_ranges": [],
+  "montage_used": 14,
+  "remix_ranges": [
+   [
+    101.08052694620307,
+    102.61650647171072
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 2,
   "shot_ranges": [
@@ -1566,6 +1581,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 3,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     4.52452963982325,
@@ -3588,11 +3604,16 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends talk on middle eastern cities contributions to advancing human progress": {
-  "last_short": "2026-11-05",
+  "last_short": "2026-11-21",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 6,
-  "remix_ranges": [],
+  "montage_used": 7,
+  "remix_ranges": [
+   [
+    94.41696247158148,
+    96.29657284259497
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -3633,11 +3654,16 @@
   "video_len": 98
  },
  "hamdan bin mohammed attends the graduation ceremony of a new cohort of dubai police academy cadets": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-11-21",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 1,
-  "remix_ranges": [],
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    102.16717876309677,
+    103.65399930130945
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -3692,6 +3718,7 @@
   "long": "2026-10-30",
   "montage_exhausted": true,
   "montage_used": 5,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     82.15340756261807,
@@ -4010,14 +4037,18 @@
   "long": "2026-10-22"
  },
  "hamdan bin mohammed attends wedding reception": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     30.480169713021183,
     32.38540341033085
+   ],
+   [
+    69.84763907049673,
+    71.43161370901811
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4051,14 +4082,18 @@
   "long": "2026-10-18"
  },
  "hamdan bin mohammed attends wedding receptions in al ain dubai": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-15",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     25.482115009548746,
     27.541459014352633
+   ],
+   [
+    82.18572404897562,
+    83.95760067044196
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5398,6 +5433,7 @@
   "last_short": "2026-10-11",
   "long": "2026-10-14",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
@@ -5621,11 +5657,16 @@
   "video_len": 261
  },
  "hamdan bin mohammed inaugurates new outpatient building at dubai hospital": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-11-21",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 3,
-  "remix_ranges": [],
+  "montage_used": 4,
+  "remix_ranges": [
+   [
+    57.113221531035336,
+    58.63775081552174
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [

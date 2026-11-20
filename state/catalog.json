@@ -1045,11 +1045,16 @@
   "long": "2026-10-20"
  },
  "hamdan approves dubai innovation strategy": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-20",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 2,
-  "remix_ranges": [],
+  "montage_used": 3,
+  "remix_ranges": [
+   [
+    63.32593644028964,
+    64.91605870350624
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -1272,11 +1277,15 @@
   "last_short": "2026-11-20",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     16.12,
     17.98
+   ],
+   [
+    2.2600000000000002,
+    4.04
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1856,6 +1865,7 @@
   "long": "2026-10-11",
   "montage_exhausted": true,
   "montage_used": 3,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     25.750160494429192,
@@ -2609,11 +2619,15 @@
   "last_short": "2026-11-20",
   "long": "2026-10-15",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     133.08,
     135.07999999999998
+   ],
+   [
+    185.4,
+    187.07999999999998
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2639,11 +2653,16 @@
   "video_len": 278
  },
  "hamdan bin mohammed attends global cardiology congress": {
-  "last_short": "2026-11-06",
+  "last_short": "2026-11-20",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 20,
-  "remix_ranges": [],
+  "montage_used": 21,
+  "remix_ranges": [
+   [
+    93.41739919554406,
+    94.94814903841092
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -2980,11 +2999,16 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed attends graduation of government policies experts": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-20",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 5,
-  "remix_ranges": [],
+  "montage_used": 6,
+  "remix_ranges": [
+   [
+    181.7391902863043,
+    183.5738719024814
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -3023,9 +3047,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends hct graduation": {
-  "last_short": "2026-11-17",
+  "last_short": "2026-11-20",
   "long": "2026-10-31",
-  "montage_used": 32,
+  "montage_used": 33,
   "remix_ranges": [
    [
     45.8,
@@ -3126,6 +3150,10 @@
    [
     256.91618520943825,
     259.0701610827053
+   ],
+   [
+    34.534886991752735,
+    36.16565120259154
    ]
   ],
   "shorts_made": 1,
@@ -3860,10 +3888,15 @@
   "video_len": 54
  },
  "hamdan bin mohammed attends wedding": {
-  "last_short": "2026-11-17",
+  "last_short": "2026-11-20",
   "long": "2026-10-15",
-  "montage_used": 8,
-  "remix_ranges": [],
+  "montage_used": 9,
+  "remix_ranges": [
+   [
+    38.49011550814778,
+    40.54783266318975
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -5586,11 +5619,16 @@
   "video_len": 61
  },
  "hamdan bin mohammed inaugurates zabeel healthcare center": {
-  "last_short": "2026-11-18",
+  "last_short": "2026-11-20",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 17,
-  "remix_ranges": [],
+  "montage_used": 18,
+  "remix_ranges": [
+   [
+    247.78626092144114,
+    249.41358031031703
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [

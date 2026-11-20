@@ -380,6 +380,7 @@
   "long": "2026-10-22",
   "montage_exhausted": true,
   "montage_used": 6,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     76.9807968418774,
@@ -756,6 +757,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 11,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     72.42213502453089,
@@ -1175,6 +1177,7 @@
   "long": "2026-10-30",
   "montage_exhausted": true,
   "montage_used": 12,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     29.85244713206491,
@@ -2144,10 +2147,10 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed approves executive council s 2020 agenda unifies health insurance programmes": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     9.067493498569839,
@@ -2160,6 +2163,10 @@
    [
     69.31914752558193,
     71.1747626458095
+   ],
+   [
+    39.717302811076436,
+    41.911742162892565
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2387,10 +2394,10 @@
  },
  "hamdan bin mohammed attends 19th graduation ceremony of rashid bin saeed al maktoum naval college": {
   "fails": 1,
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     54.629629705411226,
@@ -2407,6 +2414,10 @@
    [
     483.65739629318085,
     485.6966634398504
+   ],
+   [
+    119.84465634656944,
+    121.83748345161088
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2540,10 +2551,10 @@
   "long": "2026-10-17"
  },
  "hamdan bin mohammed attends al muhairi al rumaithi family wedding": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     70.24000000000001,
@@ -2552,6 +2563,10 @@
    [
     88.76929995000751,
     90.93456292748968
+   ],
+   [
+    57.47190921652339,
+    59.18892613297102
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2876,9 +2891,9 @@
   "video_len": 60
  },
  "hamdan bin mohammed attends dubai forum for government best practices": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-31",
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     199.21437450345937,
@@ -2887,6 +2902,10 @@
    [
     57.40280585782444,
     58.86268459700111
+   ],
+   [
+    28.506212829121047,
+    30.2544400508715
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3175,10 +3194,10 @@
   "video_len": 278
  },
  "hamdan bin mohammed attends global cardiology congress": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 27,
+  "montage_used": 28,
   "remix_ranges": [
    [
     93.41739919554406,
@@ -3207,6 +3226,10 @@
    [
     188.22269112920912,
     189.66722199726718
+   ],
+   [
+    21.070741914341298,
+    23.106140702405114
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3919,6 +3942,7 @@
   "last_short": "2026-11-21",
   "montage_exhausted": true,
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     46.14,
@@ -4088,10 +4112,10 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends safeguarding endangered cultural heritage conference": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-24",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     56.061348287165146,
@@ -4100,6 +4124,10 @@
    [
     72.32000000000001,
     74.44
+   ],
+   [
+    14.135934969342378,
+    16.09746271857131
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4941,14 +4969,18 @@
   "video_len": 78
  },
  "hamdan bin mohammed chairs executive council meeting approves series of economic stimulus policies": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-22",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     67.34768501082806,
     69.78666510220636
+   ],
+   [
+    77.56670195597371,
+    80.16069804918982
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5606,6 +5638,7 @@
   "long": "2026-10-08",
   "montage_exhausted": true,
   "montage_used": 10,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     28.447144106742545,
@@ -6053,9 +6086,9 @@
   "video_len": 19
  },
  "hamdan bin mohammed honours winners of 5th islamic economy award": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-30",
-  "montage_used": 27,
+  "montage_used": 28,
   "remix_ranges": [
    [
     154.96962970092923,
@@ -6076,6 +6109,10 @@
    [
     59.72,
     61.92
+   ],
+   [
+    216.39275934085023,
+    217.88932611528574
    ]
   ],
   "remix_reset": "2026-11-20",

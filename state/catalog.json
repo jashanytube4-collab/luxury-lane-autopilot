@@ -3210,7 +3210,7 @@
  "hamdan bin mohammed attends dubai forum for government best practices": {
   "last_short": "2026-11-23",
   "long": "2026-10-31",
-  "montage_used": 25,
+  "montage_used": 26,
   "remix_ranges": [
    [
     199.21437450345937,
@@ -3239,6 +3239,10 @@
    [
     15.6697300852939,
     18.018853038399126
+   ],
+   [
+    167.8,
+    169.88
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6433,10 +6437,10 @@
   "video_len": 385
  },
  "hamdan bin mohammed honors winners of dubai appreciation award for community service": {
-  "last_short": "2026-11-22",
+  "last_short": "2026-11-23",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 31,
+  "montage_used": 32,
   "remix_ranges": [
    [
     91.53469075790515,
@@ -6473,6 +6477,10 @@
    [
     80.21880367319275,
     81.90975352716859
+   ],
+   [
+    41.49974348965921,
+    43.22392856191082
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8527,7 +8535,7 @@
   "last_short": "2026-11-23",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     53.9493408689339,
@@ -8536,6 +8544,10 @@
    [
     59.23989487990409,
     60.801019948034124
+   ],
+   [
+    38.32,
+    40.04
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8602,6 +8614,7 @@
   "long": "2026-10-20",
   "montage_exhausted": true,
   "montage_used": 3,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     6.12,
@@ -11016,10 +11029,15 @@
   "long": "2026-10-31"
  },
  "hamdan bin mohammed receives victory team xcat": {
-  "last_short": "2026-11-05",
+  "last_short": "2026-11-23",
   "montage_exhausted": true,
-  "montage_used": 7,
-  "remix_ranges": [],
+  "montage_used": 8,
+  "remix_ranges": [
+   [
+    61.99092501489006,
+    63.961461744065005
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -11794,11 +11812,16 @@
   "video_len": 53
  },
  "hamdan bin mohammed tours gitex 2013": {
-  "last_short": "2026-11-17",
+  "last_short": "2026-11-23",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 5,
-  "remix_ranges": [],
+  "montage_used": 6,
+  "remix_ranges": [
+   [
+    28.17750851335637,
+    30.040557377040347
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -12301,10 +12324,15 @@
   "long": "2026-10-13"
  },
  "hamdan bin mohammed visits al seef project": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-23",
   "montage_exhausted": true,
-  "montage_used": 4,
-  "remix_ranges": [],
+  "montage_used": 5,
+  "remix_ranges": [
+   [
+    133.17353424649173,
+    134.83640797798307
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -12618,8 +12646,13 @@
  "hamdan bin mohammed visits dewa s moro": {
   "last_short": "2026-11-23",
   "long": "2026-11-01",
-  "montage_used": 32,
-  "remix_ranges": [],
+  "montage_used": 33,
+  "remix_ranges": [
+   [
+    85.28,
+    87.44
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 3,
   "shot_ranges": [
@@ -13098,11 +13131,16 @@
   "video_len": 260
  },
  "hamdan bin mohammed visits dubai international boat show": {
-  "last_short": "2026-11-07",
+  "last_short": "2026-11-23",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 14,
-  "remix_ranges": [],
+  "montage_used": 15,
+  "remix_ranges": [
+   [
+    79.64,
+    82.0
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 2,
   "shot_ranges": [

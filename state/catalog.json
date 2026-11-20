@@ -14879,7 +14879,21 @@
   "video_exhausted": true,
   "video_len": 172
  },
- "hamdan bin mohammed visits amazon s new corporate office in dubai": {},
+ "hamdan bin mohammed visits amazon s new corporate office in dubai": {
+  "last_short": "2026-11-20",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    20.153333333333336,
+    22.93
+   ],
+   [
+    50.086666666666666,
+    53.06333300000001
+   ]
+  ],
+  "video_len": 53
+ },
  "hamdan bin mohammed visits arabian travel market 2026": {
   "last_short": "2026-10-05",
   "long": "2026-10-14",

@@ -8484,7 +8484,10 @@
    "https://asset.hamdan.ae/CPDAssets/News/2026/6023/1911202621552290.jpg"
   ],
   "title": "Hamdan bin Mohammed inaugurates Ahmed Khamis Al Hameli School",
-  "video": null
+  "video": {
+   "kind": "youtube",
+   "ref": "Ru6HqRhdV-4"
+  }
  },
  "hamdan bin mohammed inaugurates al safa art design library": {
   "date": "2019-03-04",

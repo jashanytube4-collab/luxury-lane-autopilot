@@ -3210,7 +3210,7 @@
  "hamdan bin mohammed attends dubai forum for government best practices": {
   "last_short": "2026-11-23",
   "long": "2026-10-31",
-  "montage_used": 26,
+  "montage_used": 27,
   "remix_ranges": [
    [
     199.21437450345937,
@@ -3243,6 +3243,10 @@
    [
     167.8,
     169.88
+   ],
+   [
+    155.4036262738565,
+    156.93142502740596
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3403,8 +3407,13 @@
  "hamdan bin mohammed attends dubai police academy graduation ceremony": {
   "last_short": "2026-11-23",
   "long": "2026-10-30",
-  "montage_used": 7,
-  "remix_ranges": [],
+  "montage_used": 8,
+  "remix_ranges": [
+   [
+    10.986666666666666,
+    13.013333333333334
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -8149,10 +8158,15 @@
   "video_len": 268
  },
  "hamdan bin mohammed launches the government games initiative": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-23",
   "montage_exhausted": true,
-  "montage_used": 12,
-  "remix_ranges": [],
+  "montage_used": 13,
+  "remix_ranges": [
+   [
+    152.44500151607716,
+    154.4844126698627
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 2,
   "shot_ranges": [
@@ -9151,11 +9165,15 @@
   "last_short": "2026-11-23",
   "long": "2026-10-05",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     48.919999999999995,
     50.54666666666667
+   ],
+   [
+    20.158556172563923,
+    22.59242780178071
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10488,11 +10506,16 @@
   "video_len": 119
  },
  "hamdan bin mohammed opens salem medical fitness smart centre": {
-  "last_short": "2026-11-17",
+  "last_short": "2026-11-23",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 26,
-  "remix_ranges": [],
+  "montage_used": 27,
+  "remix_ranges": [
+   [
+    44.48273041474908,
+    46.063264953848034
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 3,
   "shot_ranges": [
@@ -10700,11 +10723,16 @@
   "video_len": 97
  },
  "hamdan bin mohammed receives canadian ambassador": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 5,
-  "remix_ranges": [],
+  "montage_used": 6,
+  "remix_ranges": [
+   [
+    9.295798858709851,
+    11.373128048241604
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -11569,11 +11597,16 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed says dubai is taking off again": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 2,
-  "remix_ranges": [],
+  "montage_used": 3,
+  "remix_ranges": [
+   [
+    43.88803651890827,
+    46.15565263026081
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -12781,11 +12814,16 @@
   "video_len": 62
  },
  "hamdan bin mohammed visits dp world s facilities inspects operations of jebel ali port": {
-  "last_short": "2026-11-05",
+  "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 16,
-  "remix_ranges": [],
+  "montage_used": 17,
+  "remix_ranges": [
+   [
+    227.25091329983198,
+    228.78768525663025
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [

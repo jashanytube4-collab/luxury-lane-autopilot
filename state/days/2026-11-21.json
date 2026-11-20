@@ -113,8 +113,13 @@
   },
   {
    "at": "2026-11-21T14:48:19+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Unshakeable, like the mountains of Hatta. 🤍 #youtube #youtubeshorts",
+   "type": "short",
+   "video_id": "bpRGfnFil38",
+   "voiced": true
   },
   {
    "at": "2026-11-21T15:27:28+04:00",

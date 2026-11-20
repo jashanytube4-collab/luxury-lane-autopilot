@@ -476,10 +476,15 @@
   "video_len": 232
  },
  "dubai crown prince holds minute s silence to honour martyrs on commemoration day": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-31",
-  "montage_used": 12,
-  "remix_ranges": [],
+  "montage_used": 13,
+  "remix_ranges": [
+   [
+    122.18137349623053,
+    123.00519566005627
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -688,6 +693,7 @@
   "last_short": "2026-11-21",
   "montage_exhausted": true,
   "montage_used": 3,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     55.27007138695407,
@@ -751,10 +757,15 @@
   "video_len": 130
  },
  "dubai crown prince receives president of the chechen": {
-  "last_short": "2026-11-15",
+  "last_short": "2026-11-21",
   "montage_exhausted": true,
-  "montage_used": 12,
-  "remix_ranges": [],
+  "montage_used": 13,
+  "remix_ranges": [
+   [
+    11.207791472061334,
+    12.841636988029899
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -2629,11 +2640,16 @@
   "video_len": 63
  },
  "hamdan bin mohammed attends dubai international health tourism forum": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-21",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 6,
-  "remix_ranges": [],
+  "montage_used": 7,
+  "remix_ranges": [
+   [
+    252.72,
+    254.6
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -3700,6 +3716,7 @@
  "hamdan bin mohammed attends second day of dubai games 2025": {
   "fails": 1,
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "video_exhausted": true,
@@ -4403,10 +4420,10 @@
   "long": "2026-10-30"
  },
  "hamdan bin mohammed chairs executive council meeting approves plans and policies": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     39.372002435350204,
@@ -4415,6 +4432,10 @@
    [
     58.877425833910166,
     61.44291284540452
+   ],
+   [
+    70.6998372501727,
+    72.22178609009723
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5470,13 +5491,17 @@
   "video_len": 19
  },
  "hamdan bin mohammed honours winners of 5th islamic economy award": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-30",
-  "montage_used": 23,
+  "montage_used": 24,
   "remix_ranges": [
    [
     154.96962970092923,
     157.43489231631884
+   ],
+   [
+    188.67630013828688,
+    190.95335028523473
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5639,11 +5664,15 @@
   "last_short": "2026-11-21",
   "long": "2026-10-23",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     17.883534265915138,
     19.943890379009208
+   ],
+   [
+    23.053333333333335,
+    25.279999999999998
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5717,11 +5746,16 @@
   "video_len": 105
  },
  "hamdan bin mohammed inaugurates dubai ai campus cluster at the difc innovation hub": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-21",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 4,
-  "remix_ranges": [],
+  "montage_used": 5,
+  "remix_ranges": [
+   [
+    45.28666666666666,
+    46.913333333333334
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -6317,11 +6351,15 @@
  "hamdan bin mohammed launches 26 dubai 10x projects issues directive to implement them within 24 months": {
   "last_short": "2026-11-21",
   "long": "2026-10-31",
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     53.879999999999995,
     56.04
+   ],
+   [
+    206.32,
+    208.51999999999998
    ]
   ],
   "remix_reset": "2026-11-20",

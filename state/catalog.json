@@ -488,11 +488,16 @@
   "video_len": 171
  },
  "dubai crown prince honours winners of hamdan bin mohammed award for innovation in projects management": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-21",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 13,
-  "remix_ranges": [],
+  "montage_used": 14,
+  "remix_ranges": [
+   [
+    221.18549172617395,
+    222.90684727654354
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 3,
   "shot_ranges": [
@@ -651,10 +656,15 @@
   "video_len": 205
  },
  "dubai crown prince receives luxemburg counterpart": {
-  "last_short": "2026-11-12",
+  "last_short": "2026-11-21",
   "montage_exhausted": true,
-  "montage_used": 2,
-  "remix_ranges": [],
+  "montage_used": 3,
+  "remix_ranges": [
+   [
+    55.27007138695407,
+    57.137925017192686
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -1763,14 +1773,18 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed approves executive council s 2020 agenda unifies health insurance programmes": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     9.067493498569839,
     11.093794506724322
+   ],
+   [
+    47.36206032275216,
+    49.53453346434328
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2568,9 +2582,15 @@
   "video_len": 58
  },
  "hamdan bin mohammed attends dubai police academy graduation ceremony": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-30",
-  "montage_used": 1,
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    140.55333333333334,
+    142.41333333333333
+   ]
+  ],
   "shot_ranges": [
    [
     103.45333333333333,
@@ -3218,14 +3238,18 @@
  },
  "hamdan bin mohammed attends health chain forum": {
   "fails": 1,
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     193.14324482816696,
     194.77521111504154
+   ],
+   [
+    217.8858841888649,
+    220.4290380695022
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3634,11 +3658,16 @@
  },
  "hamdan bin mohammed attends the graduation ceremony of the 23rd cohort of rashid bin saeed al maktoum naval college": {
   "fails": 1,
-  "last_short": "2026-10-28",
+  "last_short": "2026-11-21",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 3,
-  "remix_ranges": [],
+  "montage_used": 4,
+  "remix_ranges": [
+   [
+    82.15340756261807,
+    82.84131489741524
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -4048,11 +4077,16 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed bin rashid receives samsung electronics ceo": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-21",
   "long": "2026-10-25",
   "montage_exhausted": true,
-  "montage_used": 4,
-  "remix_ranges": [],
+  "montage_used": 5,
+  "remix_ranges": [
+   [
+    27.46495299996722,
+    29.859697056540345
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -5711,12 +5745,16 @@
   "video_len": 451
  },
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
-  "last_short": "2026-11-20",
-  "montage_used": 24,
+  "last_short": "2026-11-21",
+  "montage_used": 25,
   "remix_ranges": [
    [
     86.51501862110607,
     89.0296854990786
+   ],
+   [
+    77.18594494817111,
+    79.20845735396416
    ]
   ],
   "remix_reset": "2026-11-20",

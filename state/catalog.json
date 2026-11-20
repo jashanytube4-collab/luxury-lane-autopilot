@@ -3,10 +3,15 @@
   "no_hamdan": true
  },
  "azizi developments announces aed600 million donation to establish endowment education complex": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-11-21",
   "montage_exhausted": true,
-  "montage_used": 2,
-  "remix_ranges": [],
+  "montage_used": 3,
+  "remix_ranges": [
+   [
+    8.659913540613902,
+    10.9171846161803
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -607,11 +612,15 @@
   "last_short": "2026-11-21",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     55.625184337432124,
     57.2797231371541
+   ],
+   [
+    21.92,
+    24.16
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -883,13 +892,17 @@
   "video_len": 78
  },
  "dubai crown prince visits dubai municipality": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-11-02",
-  "montage_used": 30,
+  "montage_used": 31,
   "remix_ranges": [
    [
     321.72,
     323.56
+   ],
+   [
+    234.0852449089149,
+    235.87555550186002
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2253,15 +2266,19 @@
   "video_len": 158
  },
  "hamdan bin mohammed attends al amri wedding": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-17",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "no_video_until": "2026-10-29",
   "remix_ranges": [
    [
     39.22,
     41.38
+   ],
+   [
+    26.555235735559602,
+    27.999375827887206
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2815,7 +2832,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     214.5336373953238,
@@ -2828,6 +2845,10 @@
    [
     21.948282263208455,
     22.52774175623167
+   ],
+   [
+    192.43120299153293,
+    193.9607412290267
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2913,7 +2934,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 24,
+  "montage_used": 25,
   "remix_ranges": [
    [
     93.41739919554406,
@@ -2930,6 +2951,10 @@
    [
     100.1688734905913,
     102.12854386985924
+   ],
+   [
+    12.389778467072617,
+    13.811291036936037
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4876,7 +4901,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     15.78783976885465,
@@ -4885,6 +4910,10 @@
    [
     58.76,
     61.0
+   ],
+   [
+    244.92695422384844,
+    247.2841816556521
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6287,6 +6316,7 @@
   "montage_exhausted": true,
   "montage_used": 22,
   "no_video_until": "2026-11-18",
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     100.06784977818178,

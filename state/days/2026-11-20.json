@@ -157,8 +157,13 @@
   },
   {
    "at": "2026-11-20T21:00:00+04:00",
-   "status": "open",
-   "type": "members"
+   "event": "montage",
+   "kind": "montage",
+   "status": "scheduled",
+   "title": "Grace is his strongest weapon. ❤️ #youtubeshorts #youtube #fazza",
+   "type": "members",
+   "video_id": "tZC1ZryYQ3c",
+   "voiced": true
   },
   {
    "at": "2026-11-20T21:34:26+04:00",

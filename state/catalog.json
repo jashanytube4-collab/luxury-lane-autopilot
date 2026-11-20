@@ -459,7 +459,7 @@
  "dubai crown prince holds minute s silence to honour martyrs on commemoration day": {
   "last_short": "2026-11-20",
   "long": "2026-10-31",
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
@@ -478,6 +478,10 @@
    [
     120.48,
     123.52
+   ],
+   [
+    128.64000000000001,
+    131.6
    ]
   ],
   "video_exhausted": true,
@@ -783,7 +787,7 @@
  "dubai crown prince visits dubai municipality": {
   "last_short": "2026-11-20",
   "long": "2026-11-02",
-  "montage_used": 29,
+  "montage_used": 30,
   "remix_ranges": [
    [
     321.72,
@@ -828,6 +832,10 @@
    [
     240.24,
     243.16
+   ],
+   [
+    153.56,
+    155.64
    ]
   ],
   "video_exhausted": true,
@@ -1003,6 +1011,7 @@
  "hamdan addressing future circles looking forward for innovation based future": {
   "last_short": "2026-11-20",
   "long": "2026-10-30",
+  "montage_exhausted": true,
   "montage_used": 20,
   "no_video_until": "2026-11-02",
   "remix_ranges": [
@@ -1136,9 +1145,9 @@
   "long": "2026-10-13"
  },
  "hamdan attends dubai smart city first meeting": {
-  "last_short": "2026-11-19",
+  "last_short": "2026-11-20",
   "long": "2026-10-31",
-  "montage_used": 20,
+  "montage_used": 21,
   "no_video_until": "2026-11-03",
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
@@ -1178,6 +1187,10 @@
    [
     71.61666666666666,
     73.31666666666669
+   ],
+   [
+    61.75333333333333,
+    63.913333333333334
    ]
   ],
   "video_exhausted": true,
@@ -3890,6 +3903,7 @@
  "hamdan bin mohammed attends wedding": {
   "last_short": "2026-11-20",
   "long": "2026-10-15",
+  "montage_exhausted": true,
   "montage_used": 9,
   "remix_ranges": [
    [
@@ -10827,7 +10841,7 @@
  "hamdan bin mohammed reviews dubai future foundation s 2018 plan and projects": {
   "last_short": "2026-11-20",
   "long": "2026-10-30",
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -10891,6 +10905,10 @@
    [
     67.60000000000001,
     71.08
+   ],
+   [
+    139.36,
+    142.84
    ]
   ],
   "video_exhausted": true,
@@ -15541,6 +15559,7 @@
  "hamdan bin mohammed witnesses the first test flight": {
   "last_short": "2026-11-19",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 14,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -17690,9 +17709,9 @@
   "video_exhausted": true
  },
  "in presence of dubai crown prince meraas signs agreement with dubai municipality to manage dubai safari": {
-  "last_short": "2026-11-18",
+  "last_short": "2026-11-20",
   "long": "2026-10-31",
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -17736,6 +17755,10 @@
    [
     32.48,
     35.6
+   ],
+   [
+    0.1200000000000001,
+    2.6399999999999997
    ]
   ],
   "video_exhausted": true,

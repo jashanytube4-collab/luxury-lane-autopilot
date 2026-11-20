@@ -45,11 +45,16 @@
   "long": "2026-10-23"
  },
  "crown prince of dubai inaugurates the hamdan smart station for simulation and training": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-11-21",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 7,
-  "remix_ranges": [],
+  "montage_used": 8,
+  "remix_ranges": [
+   [
+    117.90484480772568,
+    120.12295702370666
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -335,14 +340,18 @@
   "video_len": 1017
  },
  "dubai crown prince attends wedding reception": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     76.9807968418774,
     79.31840079724896
+   ],
+   [
+    61.519999999999996,
+    63.28
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -587,11 +596,16 @@
   "video_len": 149
  },
  "dubai crown prince offers condolences al muhairi family": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-21",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 7,
-  "remix_ranges": [],
+  "montage_used": 8,
+  "remix_ranges": [
+   [
+    55.625184337432124,
+    57.2797231371541
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -711,14 +725,18 @@
   "video_len": 76
  },
  "dubai crown prince receives president of malta": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     104.95980191406525,
     107.09490425176733
+   ],
+   [
+    111.80589717100759,
+    113.41442169707477
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1552,11 +1570,15 @@
   "last_short": "2026-11-21",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     42.86319801219613,
     45.0799045168399
+   ],
+   [
+    21.386666666666667,
+    23.18
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4585,11 +4607,16 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed chairs virtual meeting of executive council": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-21",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 10,
-  "remix_ranges": [],
+  "montage_used": 11,
+  "remix_ranges": [
+   [
+    2.546056517394315,
+    4.631247925075101
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 2,
   "shot_ranges": [
@@ -5091,7 +5118,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-08",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     28.447144106742545,
@@ -5100,6 +5127,10 @@
    [
     58.68666666666667,
     61.21333333333334
+   ],
+   [
+    73.19522555647275,
+    75.07552527368848
    ]
   ],
   "remix_reset": "2026-11-20",

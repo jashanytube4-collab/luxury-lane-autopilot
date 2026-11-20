@@ -299,14 +299,18 @@
   "long": "2026-10-17"
  },
  "dubai crown prince attends graduation of dubai police academy": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-22",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 33,
+  "montage_used": 34,
   "remix_ranges": [
    [
     316.5598655911052,
     318.83859871583405
+   ],
+   [
+    135.22189020184578,
+    137.2187023892686
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -699,6 +703,7 @@
   "long": "2026-10-22",
   "montage_exhausted": true,
   "montage_used": 12,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     55.625184337432124,
@@ -1198,7 +1203,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     40.11976320344587,
@@ -1211,6 +1216,10 @@
    [
     17.596778143520794,
     19.241990622388922
+   ],
+   [
+    2.0984035885332846,
+    4.254818905923949
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1736,7 +1745,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-17",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     36.903189437724784,
@@ -1749,6 +1758,10 @@
    [
     49.30659809709123,
     51.706775711773524
+   ],
+   [
+    20.424333031091347,
+    22.54415417739334
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3409,10 +3422,10 @@
   "video_len": 292
  },
  "hamdan bin mohammed attends global islamic economy summit": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 24,
+  "montage_used": 25,
   "remix_ranges": [
    [
     48.36,
@@ -3425,6 +3438,10 @@
    [
     178.86643906237515,
     180.32681935884844
+   ],
+   [
+    26.36,
+    28.279999999999998
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3976,10 +3993,10 @@
  },
  "hamdan bin mohammed attends health chain forum": {
   "fails": 1,
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     193.14324482816696,
@@ -3996,6 +4013,10 @@
    [
     77.29801732850376,
     79.69382395530313
+   ],
+   [
+    88.4296974636502,
+    89.49319253911804
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4679,10 +4700,10 @@
   "video_len": 507
  },
  "hamdan bin mohammed attends the launche of uae innovation month in dubai": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     307.72823911856494,
@@ -4695,6 +4716,10 @@
    [
     13.399999999999999,
     15.4
+   ],
+   [
+    20.161389775483148,
+    22.41961705952269
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5925,14 +5950,18 @@
   "video_len": 56
  },
  "hamdan bin mohammed honors mbr creative sports award winners": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-22",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 22,
+  "montage_used": 23,
   "remix_ranges": [
    [
     107.48779104831378,
     109.47434037191869
+   ],
+   [
+    34.63217540145641,
+    36.12296794596557
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -7287,14 +7316,18 @@
   "video_len": 52
  },
  "hamdan bin mohammed launches day for dubai encourages residents to volunteer": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     135.3528267576151,
     137.06970307531634
+   ],
+   [
+    58.957716032964676,
+    60.36215247783265
    ]
   ],
   "remix_reset": "2026-11-20",

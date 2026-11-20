@@ -3706,7 +3706,7 @@
   "last_short": "2026-11-23",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 32,
+  "montage_used": 33,
   "remix_ranges": [
    [
     48.36,
@@ -3751,6 +3751,10 @@
    [
     208.38110212176178,
     210.71046762248233
+   ],
+   [
+    130.85516339942683,
+    132.7037648953102
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4948,10 +4952,10 @@
   "video_len": 507
  },
  "hamdan bin mohammed attends the launche of uae innovation month in dubai": {
-  "last_short": "2026-11-22",
+  "last_short": "2026-11-23",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 28,
+  "montage_used": 29,
   "remix_ranges": [
    [
     307.72823911856494,
@@ -4996,6 +5000,10 @@
    [
     42.437250141042504,
     44.36860946384638
+   ],
+   [
+    119.88938302943245,
+    121.4404419266361
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8460,11 +8468,15 @@
   "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     98.4840092909426,
     100.22192679322977
+   ],
+   [
+    110.27803991021345,
+    112.10875384309463
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8813,11 +8825,16 @@
   "video_len": 154
  },
  "hamdan bin mohammed meets with astronaut sultan al neyadi and zayed ambition 2 team": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 11,
-  "remix_ranges": [],
+  "montage_used": 12,
+  "remix_ranges": [
+   [
+    86.95333333333333,
+    88.94666666666666
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 3,
   "shot_ranges": [
@@ -10274,8 +10291,13 @@
  },
  "hamdan bin mohammed opens cityscape global 2018": {
   "last_short": "2026-11-23",
-  "montage_used": 29,
-  "remix_ranges": [],
+  "montage_used": 30,
+  "remix_ranges": [
+   [
+    317.08,
+    319.28
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 2,
   "shot_ranges": [
@@ -10808,6 +10830,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 9,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     9.295798858709851,
@@ -11360,6 +11383,7 @@
   "long": "2026-10-09",
   "montage_exhausted": true,
   "photo_short": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
@@ -11531,11 +11555,16 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed reviews progress of dewa s hydroelectric project in hatta": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 3,
-  "remix_ranges": [],
+  "montage_used": 4,
+  "remix_ranges": [
+   [
+    50.88666666666666,
+    52.68
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -11750,6 +11779,7 @@
  "hamdan bin mohammed strikes gold in france": {
   "long": "2026-11-02",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "video_exhausted": true,
@@ -12429,11 +12459,16 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed visits al dhafra air base in abu dhabi": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-11-23",
   "long": "2026-10-20",
   "montage_exhausted": true,
-  "montage_used": 2,
-  "remix_ranges": [],
+  "montage_used": 3,
+  "remix_ranges": [
+   [
+    16.153333333333336,
+    17.779999999999998
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 2,
   "shot_ranges": [
@@ -12610,11 +12645,16 @@
   "video_len": 159
  },
  "hamdan bin mohammed visits art dubai": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-23",
   "long": "2026-10-13",
   "montage_exhausted": true,
-  "montage_used": 13,
-  "remix_ranges": [],
+  "montage_used": 14,
+  "remix_ranges": [
+   [
+    97.26657852612965,
+    98.71597852024226
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 2,
   "shot_ranges": [

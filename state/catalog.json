@@ -221,7 +221,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     49.55159658541657,
@@ -234,6 +234,10 @@
    [
     62.73500272826332,
     64.95133953185655
+   ],
+   [
+    79.52000000000001,
+    81.44
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -541,11 +545,15 @@
   "last_short": "2026-11-21",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     221.18549172617395,
     222.90684727654354
+   ],
+   [
+    135.43401316086673,
+    137.67731112572605
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1428,14 +1436,18 @@
   "long": "2026-10-27"
  },
  "hamdan attends wedding reception": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-15",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     19.018162111987653,
     20.58363790511784
+   ],
+   [
+    28.28482907605506,
+    29.94028464396519
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1582,7 +1594,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     60.683582239329986,
@@ -1591,6 +1603,10 @@
    [
     70.6685357028342,
     73.14395990660228
+   ],
+   [
+    39.57340024738944,
+    41.54893213795324
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2453,7 +2469,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 26,
+  "montage_used": 27,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -2535,6 +2551,10 @@
    [
     52.0819171730621,
     53.57473428823
+   ],
+   [
+    256.16,
+    258.0
    ]
   ],
   "shorts_made": 3,
@@ -3144,6 +3164,7 @@
   "long": "2026-10-14",
   "montage_exhausted": true,
   "montage_used": 8,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     47.21942589706834,
@@ -4179,7 +4200,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 28,
+  "montage_used": 29,
   "remix_ranges": [
    [
     167.6806468932527,
@@ -4188,6 +4209,10 @@
    [
     42.07436262187155,
     44.659907071167936
+   ],
+   [
+    432.96,
+    434.96
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4266,11 +4291,16 @@
   "video_len": 507
  },
  "hamdan bin mohammed attends the launche of uae innovation month in dubai": {
-  "last_short": "2026-11-12",
+  "last_short": "2026-11-21",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 17,
-  "remix_ranges": [],
+  "montage_used": 18,
+  "remix_ranges": [
+   [
+    307.72823911856494,
+    309.47573434006233
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -4350,7 +4380,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-15",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     38.49011550814778,
@@ -4359,6 +4389,10 @@
    [
     61.87925562770384,
     64.24619162765877
+   ],
+   [
+    44.934720945049655,
+    46.34964431556162
    ]
   ],
   "remix_reset": "2026-11-20",

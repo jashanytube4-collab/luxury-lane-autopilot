@@ -1169,9 +1169,9 @@
   "long": "2026-10-13"
  },
  "hamdan attends dubai smart city first meeting": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-31",
-  "montage_used": 21,
+  "montage_used": 22,
   "no_video_until": "2026-11-03",
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
@@ -1215,6 +1215,10 @@
    [
     61.75333333333333,
     63.913333333333334
+   ],
+   [
+    93.38666666666667,
+    95.71333333333332
    ]
   ],
   "video_exhausted": true,
@@ -8814,9 +8818,9 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed offers condolences to al falahi family": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-16",
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -8881,6 +8885,10 @@
    [
     49.239999999999995,
     51.760000000000005
+   ],
+   [
+    13.12,
+    15.440000000000001
    ]
   ],
   "video_exhausted": true,
@@ -9505,8 +9513,8 @@
   "video_len": 279
  },
  "hamdan bin mohammed opens cityscape global 2018": {
-  "last_short": "2026-11-04",
-  "montage_used": 26,
+  "last_short": "2026-11-21",
+  "montage_used": 27,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -9659,6 +9667,10 @@
    [
     317.35999999999996,
     318.99999999999994
+   ],
+   [
+    365.12,
+    367.48
    ]
   ],
   "video_exhausted": true,
@@ -9999,6 +10011,7 @@
     230.64
    ]
   ],
+  "video_exhausted": true,
   "video_len": 548
  },
  "hamdan bin mohammed opens meta s new regional headquarters in dubai internet city": {
@@ -10974,9 +10987,9 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed reviews dubai future foundation s 2018 plan and projects": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-30",
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -11044,6 +11057,10 @@
    [
     139.36,
     142.84
+   ],
+   [
+    121.64,
+    124.83999999999999
    ]
   ],
   "video_exhausted": true,
@@ -12442,6 +12459,7 @@
  },
  "hamdan bin mohammed unveils 5 star plaques at three customer happiness centres in dubai": {
   "last_short": "2026-11-19",
+  "montage_exhausted": true,
   "montage_used": 23,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -13234,9 +13252,9 @@
   "video_len": 206
  },
  "hamdan bin mohammed visits dewa s moro": {
-  "last_short": "2026-11-18",
+  "last_short": "2026-11-21",
   "long": "2026-11-01",
-  "montage_used": 30,
+  "montage_used": 31,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -13393,8 +13411,13 @@
    [
     43.44,
     45.480000000000004
+   ],
+   [
+    123.52000000000001,
+    125.96
    ]
   ],
+  "video_exhausted": true,
   "video_len": 401
  },
  "hamdan bin mohammed visits difc reviews strategic priorities and innovation ambitions": {
@@ -15521,6 +15544,7 @@
  "hamdan bin mohammed visits youth hub in emirates towers": {
   "last_short": "2026-11-12",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 4,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -16580,6 +16604,7 @@
     52.263333333333335
    ]
   ],
+  "video_exhausted": true,
   "video_len": 60
  },
  "ig:dubaimediaoffice:18128622343505408": {
@@ -17846,6 +17871,7 @@
  "in presence of dubai crown prince meraas signs agreement with dubai municipality to manage dubai safari": {
   "last_short": "2026-11-20",
   "long": "2026-10-31",
+  "montage_exhausted": true,
   "montage_used": 11,
   "remix_exhausted": true,
   "remix_ranges": [

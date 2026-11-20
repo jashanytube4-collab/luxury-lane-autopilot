@@ -43,88 +43,69 @@
   },
   {
    "at": "2026-11-20T11:57:20+04:00",
-   "event": "hamdan bin mohammed visits amazon s new corporate office in dubai",
-   "kind": "narrated",
+   "event": "adopted",
    "status": "scheduled",
-   "title": "Prince Hamdan Visits Amazon's HQ 🏢",
    "type": "short",
-   "video_id": "VN8Pnr5IMuk",
-   "voiced": true
+   "video_id": "VN8Pnr5IMuk"
   },
   {
    "at": "2026-11-20T12:41:01+04:00",
-   "event": "hamdan bin mohammed attends dubai future week 2026 approves city ai agent initiative",
-   "kind": "narrated",
+   "event": "adopted",
    "status": "scheduled",
-   "title": "Fazza Approves City AI Agent 🧠",
    "type": "short",
-   "video_id": "vW7cZ_EFcv4",
-   "voiced": true
+   "video_id": "vW7cZ_EFcv4"
   },
   {
    "at": "2026-11-20T13:25:32+04:00",
-   "event": "montage",
-   "kind": "montage",
+   "event": "adopted",
    "status": "scheduled",
-   "title": "Some legends are still being written. ❤️ #princehamdan #youtubeshorts #youtube",
    "type": "short",
-   "video_id": "t3DEo-TdZC8",
-   "voiced": true
+   "video_id": "t3DEo-TdZC8"
   },
   {
    "at": "2026-11-20T14:05:22+04:00",
-   "event": "montage",
-   "kind": "montage",
+   "event": "adopted",
    "status": "scheduled",
-   "title": "From the skies to the seas, Fazza does it all. #princehamdan #youtubeshorts #youtube",
    "type": "short",
-   "video_id": "iU4ph9aBEc0",
-   "voiced": true
+   "video_id": "iU4ph9aBEc0"
   },
   {
    "at": "2026-11-20T14:46:24+04:00",
-   "event": "hamdan bin mohammed attends dubai future week 2026",
-   "kind": "narrated",
+   "event": "adopted",
    "status": "scheduled",
-   "title": "Prince Hamdan Checks The Future Tech 🔍",
    "type": "short",
-   "video_id": "6izLC-F9nZ0",
-   "voiced": true
+   "video_id": "6izLC-F9nZ0"
   },
   {
    "at": "2026-11-20T15:32:46+04:00",
-   "event": "hamdan bin mohammed approves new targets for dubai ai campus to attract more than 1 000 companies and create over 5 000 jobs",
-   "kind": "narrated",
+   "event": "adopted",
    "status": "scheduled",
-   "title": "Prince Hamdan Builds A Dream By Hand 🤍",
    "type": "short",
-   "video_id": "wGu39gjNOGo",
-   "voiced": true
+   "video_id": "wGu39gjNOGo"
   },
   {
    "at": "2026-11-20T16:22:16+04:00",
-   "event": "montage",
-   "kind": "remix",
+   "event": "adopted",
    "status": "scheduled",
-   "title": "A man of tradition with eyes on the future. ❤️ #youtubeshorts #ytshorts",
    "type": "short",
-   "video_id": "2Fd8mYBKnHA",
-   "voiced": true
+   "video_id": "2Fd8mYBKnHA"
   },
   {
    "at": "2026-11-20T17:15:52+04:00",
-   "event": "montage",
-   "kind": "montage",
+   "event": "adopted",
    "status": "scheduled",
-   "title": "Dubai's pride, Hamdan's legacy. #youtubeshorts #youtube",
    "type": "short",
-   "video_id": "p3c6kR-Vyqc",
-   "voiced": true
+   "video_id": "p3c6kR-Vyqc"
   },
   {
    "at": "2026-11-20T17:56:37+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "hamdan bin mohammed visits amazon s new corporate office in dubai",
+   "kind": "narrated",
+   "status": "scheduled",
+   "title": "Prince Hamdan Visits Amazon HQ 🇦🇪",
+   "type": "short",
+   "video_id": "89sHuUdqLB4",
+   "voiced": true
   },
   {
    "at": "2026-11-20T18:35:30+04:00",

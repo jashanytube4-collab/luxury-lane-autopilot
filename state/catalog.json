@@ -347,7 +347,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     76.9807968418774,
@@ -356,6 +356,10 @@
    [
     61.519999999999996,
     63.28
+   ],
+   [
+    49.85283965953849,
+    51.436273256091766
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -637,11 +641,15 @@
   "last_short": "2026-11-21",
   "long": "2026-10-17",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     9.248830832179399,
     11.603934400491045
+   ],
+   [
+    53.11380983425948,
+    54.70445738456639
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -934,7 +942,7 @@
  "dubai crown prince visits emirates nbd head office": {
   "last_short": "2026-11-21",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     150.28730135626125,
@@ -943,6 +951,10 @@
    [
     104.59010336869424,
     106.69292603764065
+   ],
+   [
+    31.92,
+    33.760000000000005
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1649,11 +1661,15 @@
   "last_short": "2026-11-21",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     101.08052694620307,
     102.61650647171072
+   ],
+   [
+    438.68,
+    440.32
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4257,7 +4273,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     30.480169713021183,
@@ -4266,6 +4282,10 @@
    [
     69.84763907049673,
     71.43161370901811
+   ],
+   [
+    52.209076853117104,
+    54.55777194143012
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4302,7 +4322,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-15",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     25.482115009548746,
@@ -4311,6 +4331,10 @@
    [
     82.18572404897562,
     83.95760067044196
+   ],
+   [
+    38.14003378929731,
+    40.386533846019
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4664,7 +4688,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     2.546056517394315,
@@ -4673,6 +4697,10 @@
    [
     46.43037087421372,
     47.95004559392487
+   ],
+   [
+    211.14751345996484,
+    213.66000205396423
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5352,7 +5380,7 @@
   "last_short": "2026-11-21",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 24,
+  "montage_used": 25,
   "remix_ranges": [
    [
     91.53469075790515,
@@ -5361,6 +5389,10 @@
    [
     178.9643751192321,
     180.75138942038387
+   ],
+   [
+    97.3237884928959,
+    98.90069483400129
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5762,6 +5794,7 @@
   "long": "2026-10-23",
   "montage_exhausted": true,
   "montage_used": 6,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     17.883534265915138,

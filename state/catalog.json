@@ -443,6 +443,7 @@
   "long": "2026-11-02",
   "montage_exhausted": true,
   "montage_used": 15,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     49.542727574595624,
@@ -1057,6 +1058,7 @@
   "last_short": "2026-11-22",
   "montage_exhausted": true,
   "montage_used": 15,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     72.17488650356064,
@@ -1427,7 +1429,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 26,
+  "montage_used": 27,
   "no_video_until": "2026-11-02",
   "remix_ranges": [
    [
@@ -1457,6 +1459,10 @@
    [
     33.80387026172865,
     35.38281455155257
+   ],
+   [
+    217.48666666666668,
+    219.18
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1943,6 +1949,7 @@
   "long": "2026-10-27",
   "montage_exhausted": true,
   "montage_used": 15,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     60.683582239329986,
@@ -2092,7 +2099,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     101.08052694620307,
@@ -2117,6 +2124,10 @@
    [
     321.87371222867625,
     323.90121073474893
+   ],
+   [
+    428.41431954559545,
+    430.6980311737172
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3408,7 +3419,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 26,
+  "montage_used": 27,
   "remix_ranges": [
    [
     214.5336373953238,
@@ -3445,6 +3456,10 @@
    [
     137.63684376443535,
     139.30647969182036
+   ],
+   [
+    114.68568280285012,
+    116.5865232615202
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5222,6 +5237,7 @@
   "long": "2026-10-15",
   "montage_exhausted": true,
   "montage_used": 16,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     25.482115009548746,
@@ -5371,7 +5387,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     100.98462020886136,
@@ -5396,6 +5412,10 @@
    [
     6.39666566033718,
     8.728637483052609
+   ],
+   [
+    61.24396982051357,
+    63.811349097003145
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6555,7 +6575,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 26,
+  "montage_used": 27,
   "remix_ranges": [
    [
     16.33302972290008,
@@ -6600,6 +6620,10 @@
    [
     332.0689520643948,
     334.6344935963437
+   ],
+   [
+    6.821030422818411,
+    9.381564750447215
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6658,7 +6682,7 @@
  "hamdan bin mohammed honours mbr creative sports award winners": {
   "last_short": "2026-11-22",
   "long": "2026-10-18",
-  "montage_used": 30,
+  "montage_used": 31,
   "remix_ranges": [
    [
     658.7792960623468,
@@ -6683,6 +6707,10 @@
    [
     482.44,
     484.24
+   ],
+   [
+    377.60110360902655,
+    380.06027831673987
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -7393,7 +7421,7 @@
  },
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
   "last_short": "2026-11-22",
-  "montage_used": 30,
+  "montage_used": 31,
   "remix_ranges": [
    [
     86.51501862110607,
@@ -7422,6 +7450,10 @@
    [
     170.14711367933785,
     172.15212260384283
+   ],
+   [
+    243.1683995768088,
+    244.95636057791717
    ]
   ],
   "remix_reset": "2026-11-20",

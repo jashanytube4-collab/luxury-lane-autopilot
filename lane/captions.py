@@ -45,25 +45,6 @@ def _esc(s: str) -> str:
     return s.replace("\\", "").replace("{", "(").replace("}", ")")
 
 
-def badge_events(x: float, y: float, scale: float = 1.0, align: str = "center") -> list[tuple[str, int]]:
-    """YouTube-style red play icon + SUBSCRIBE text as ASS vector events: [(text, layer)].
-    x = centre (align 'center') or right edge (align 'right'); y = top of the icon."""
-    total = 235 * scale
-    left = x - total / 2 if align == "center" else x - total
-    k = int(round(scale * 100))
-    red, white = "&H001721E6&", "&H00FFFFFF&"
-    box = ("m 8 0 l 36 0 b 40 0 44 4 44 8 l 44 23 b 44 27 40 31 36 31 l 8 31 "
-           "b 4 31 0 27 0 23 l 0 8 b 0 4 4 0 8 0")
-    tri = "m 17 8 l 31 15.5 l 17 23"
-    pos = rf"\pos({left:.0f},{y:.0f})"
-    return [
-        (rf"{{\an7{pos}\fscx{k}\fscy{k}\bord0\shad0\1c{red}\1a&H10&\p1}}{box}{{\p0}}", 1),
-        (rf"{{\an7{pos}\fscx{k}\fscy{k}\bord0\shad0\1c{white}\1a&H00&\p1}}{tri}{{\p0}}", 2),
-        (rf"{{\an4\pos({left + 54 * scale:.0f},{y + 16 * scale:.0f})\fnMontserrat Black\fs{int(24 * scale)}\fsp1"
-         rf"\1c{white}\1a&H00&\3c&H00000000&\3a&H40&\bord{max(1, int(2 * scale))}\shad0}}SUBSCRIBE", 2),
-    ]
-
-
 def _norm(s: str) -> str:
     return re.sub(r"[^\w]", "", s.lower())
 
@@ -124,8 +105,7 @@ def build_ass(path: Path, *, words: list[dict], script: str, emphasis: list[str]
             ev.append(f"Dialogue: {layer},{_ts(start)},{_ts(end)},{style},,0,0,0,,{text}")
 
     if watermark:
-        for t, ly in badge_events(W // 2, 100, 1.5):
-            add(0, duration, "Mark", t, layer=ly)
+        add(0, duration, "Mark", rf"{{\an8\pos({W // 2},118)}}{_esc(watermark.upper())}", layer=1)
 
     hook_end = 0.0
     if hook:

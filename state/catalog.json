@@ -192,11 +192,15 @@
   "last_short": "2026-11-20",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     49.55159658541657,
     51.45674099296965
+   ],
+   [
+    33.47632030521928,
+    35.876788960664335
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -626,6 +630,7 @@
  "dubai crown prince receives crown princes and deputy rulers": {
   "long": "2026-10-31",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "video_exhausted": true,
@@ -1758,11 +1763,16 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed approves mbz sat for launch": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-20",
   "long": "2026-10-11",
   "montage_exhausted": true,
-  "montage_used": 10,
-  "remix_ranges": [],
+  "montage_used": 11,
+  "remix_ranges": [
+   [
+    16.32,
+    18.313333333333333
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -2642,11 +2652,15 @@
   "last_short": "2026-11-20",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 22,
+  "montage_used": 23,
   "remix_ranges": [
    [
     48.36,
     50.36
+   ],
+   [
+    202.73353483171263,
+    205.31792356862883
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2717,11 +2731,16 @@
   "video_len": 246
  },
  "hamdan bin mohammed attends graduation ceremony at hbmsu": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-20",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 4,
-  "remix_ranges": [],
+  "montage_used": 5,
+  "remix_ranges": [
+   [
+    47.21942589706834,
+    48.278343514717676
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -3114,11 +3133,16 @@
  },
  "hamdan bin mohammed attends health chain forum": {
   "fails": 1,
-  "last_short": "2026-11-05",
+  "last_short": "2026-11-20",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 12,
-  "remix_ranges": [],
+  "montage_used": 13,
+  "remix_ranges": [
+   [
+    193.14324482816696,
+    194.77521111504154
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -4582,11 +4606,16 @@
   "long": "2026-10-17"
  },
  "hamdan bin mohammed extends condolences to al muhairi family": {
-  "last_short": "2026-11-12",
+  "last_short": "2026-11-20",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 4,
-  "remix_ranges": [],
+  "montage_used": 5,
+  "remix_ranges": [
+   [
+    4.838676879865984,
+    6.584935371674957
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -5536,9 +5565,14 @@
   "video_len": 451
  },
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
-  "last_short": "2026-11-19",
-  "montage_used": 23,
-  "remix_ranges": [],
+  "last_short": "2026-11-20",
+  "montage_used": 24,
+  "remix_ranges": [
+   [
+    86.51501862110607,
+    89.0296854990786
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 2,
   "shot_ranges": [

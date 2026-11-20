@@ -3,13 +3,17 @@
   "no_hamdan": true
  },
  "azizi developments announces aed600 million donation to establish endowment education complex": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "montage_exhausted": true,
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     8.659913540613902,
     10.9171846161803
+   ],
+   [
+    19.686666666666667,
+    21.746666666666666
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -825,10 +829,10 @@
   "video_len": 76
  },
  "dubai crown prince receives president of malta": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     104.95980191406525,
@@ -841,6 +845,10 @@
    [
     27.253500948168828,
     28.812256171405657
+   ],
+   [
+    79.73836458071551,
+    81.36546630884897
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -879,13 +887,17 @@
   "video_len": 130
  },
  "dubai crown prince receives president of the chechen": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     11.207791472061334,
     12.841636988029899
+   ],
+   [
+    67.27735545521011,
+    68.99086545937242
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1788,10 +1800,10 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed and maktoum bin mohammed visit emirates group headquarters": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     42.86319801219613,
@@ -1804,6 +1816,10 @@
    [
     25.795257747000605,
     27.722044576350942
+   ],
+   [
+    68.7195921779791,
+    70.90620234477346
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2781,10 +2797,10 @@
   "long": "2026-10-13"
  },
  "hamdan bin mohammed attends closing of 4th king abdulaziz camel festival": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-12",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     90.27343308735402,
@@ -2793,6 +2809,10 @@
    [
     158.29537525067923,
     160.37769768131986
+   ],
+   [
+    152.01328375173858,
+    154.38360606519723
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3072,10 +3092,10 @@
   "video_len": 165
  },
  "hamdan bin mohammed attends dubai police graduation ceremony": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 23,
+  "montage_used": 24,
   "remix_ranges": [
    [
     214.5336373953238,
@@ -3100,6 +3120,10 @@
    [
     71.69212776529007,
     72.84756211535247
+   ],
+   [
+    226.8,
+    228.79999999999998
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3197,7 +3221,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 28,
+  "montage_used": 29,
   "remix_ranges": [
    [
     93.41739919554406,
@@ -3230,6 +3254,10 @@
    [
     21.070741914341298,
     23.106140702405114
+   ],
+   [
+    0.6033718532314388,
+    2.1202166751054983
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5920,10 +5948,10 @@
   "long": "2026-10-21"
  },
  "hamdan bin mohammed honours arab contributors to entrepreneurial development": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 21,
+  "montage_used": 22,
   "remix_ranges": [
    [
     16.33302972290008,
@@ -5948,6 +5976,10 @@
    [
     134.1064799883289,
     135.99043839282342
+   ],
+   [
+    124.60323579747177,
+    126.0456900041663
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6362,6 +6394,7 @@
   "long": "2026-10-30",
   "montage_exhausted": true,
   "montage_used": 8,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     45.28666666666666,

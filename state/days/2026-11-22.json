@@ -168,8 +168,13 @@
   },
   {
    "at": "2026-11-22T19:13:41+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "When he smiles, Dubai smiles. 👑 #fazza #youtubeshorts #youtube",
+   "type": "short",
+   "video_id": "anRL8iEsknM",
+   "voiced": true
   },
   {
    "at": "2026-11-22T19:59:39+04:00",

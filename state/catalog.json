@@ -231,6 +231,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     97.98666666666666,
@@ -304,7 +305,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 35,
+  "montage_used": 36,
   "remix_ranges": [
    [
     316.5598655911052,
@@ -317,6 +318,10 @@
    [
     479.04,
     480.76
+   ],
+   [
+    223.88,
+    225.6
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1018,7 +1023,7 @@
  "dubai crown prince reviews preparations for emirates mars mission": {
   "last_short": "2026-11-22",
   "montage_exhausted": true,
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     72.17488650356064,
@@ -1039,6 +1044,10 @@
    [
     54.736099823746805,
     55.59720239684721
+   ],
+   [
+    62.70486559367576,
+    64.80855771094822
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1751,10 +1760,10 @@
  },
  "hamdan bin mohammed and india s minister of commerce and industry witness signing of 8 mous": {
   "fails": 1,
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-22",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     16.12,
@@ -1763,6 +1772,10 @@
    [
     2.2600000000000002,
     4.04
+   ],
+   [
+    20.262827418798864,
+    21.872768119171585
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2823,7 +2836,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 28,
+  "montage_used": 29,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -2913,6 +2926,10 @@
    [
     266.11133188245475,
     267.81309189058237
+   ],
+   [
+    23.219492489868127,
+    24.17537250458404
    ]
   ],
   "shorts_made": 3,
@@ -3526,7 +3543,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 26,
+  "montage_used": 27,
   "remix_ranges": [
    [
     48.36,
@@ -3547,6 +3564,10 @@
    [
     33.81557440386695,
     35.58943989287945
+   ],
+   [
+    76.04255611039984,
+    77.74195566641617
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4822,7 +4843,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 22,
+  "montage_used": 23,
   "remix_ranges": [
    [
     307.72823911856494,
@@ -4843,6 +4864,10 @@
    [
     346.6,
     348.24
+   ],
+   [
+    336.85929791132463,
+    338.67453921290786
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5245,7 +5270,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     39.372002435350204,
@@ -5266,6 +5291,10 @@
    [
     5.216422922488923,
     6.663432050880826
+   ],
+   [
+    30.494844684866212,
+    32.03069099490555
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6408,7 +6437,7 @@
  "hamdan bin mohammed honours mbr creative sports award winners": {
   "last_short": "2026-11-22",
   "long": "2026-10-18",
-  "montage_used": 29,
+  "montage_used": 30,
   "remix_ranges": [
    [
     658.7792960623468,
@@ -6429,6 +6458,10 @@
    [
     154.63751763064536,
     156.22005144932604
+   ],
+   [
+    482.44,
+    484.24
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -7585,6 +7618,7 @@
   "long": "2026-10-30",
   "montage_exhausted": true,
   "montage_used": 4,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     4.0152626439487715,

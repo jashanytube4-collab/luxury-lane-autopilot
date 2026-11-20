@@ -86,6 +86,7 @@
   "long": "2026-10-15",
   "montage_exhausted": true,
   "montage_used": 3,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     33.188845853412516,
@@ -2444,14 +2445,18 @@
   "long": "2026-10-13"
  },
  "hamdan bin mohammed attends closing of 4th king abdulaziz camel festival": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-21",
   "long": "2026-10-12",
   "montage_exhausted": true,
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     90.27343308735402,
     92.00579930613539
+   ],
+   [
+    158.29537525067923,
+    160.37769768131986
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2716,7 +2721,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     214.5336373953238,
@@ -2725,6 +2730,10 @@
    [
     154.48000000000002,
     156.64
+   ],
+   [
+    21.948282263208455,
+    22.52774175623167
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2810,7 +2819,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 23,
+  "montage_used": 24,
   "remix_ranges": [
    [
     93.41739919554406,
@@ -2823,6 +2832,10 @@
    [
     215.4,
     217.24
+   ],
+   [
+    100.1688734905913,
+    102.12854386985924
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3373,7 +3386,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     193.14324482816696,
@@ -3386,6 +3399,10 @@
    [
     125.01418529518193,
     126.45071914890079
+   ],
+   [
+    77.29801732850376,
+    79.69382395530313
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3881,7 +3898,7 @@
   "last_short": "2026-11-21",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     52.019999999999996,
@@ -3890,6 +3907,10 @@
    [
     87.29385023788171,
     88.12597230170033
+   ],
+   [
+    42.55333333333333,
+    44.24666666666667
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4263,11 +4284,15 @@
   "last_short": "2026-11-21",
   "long": "2026-10-25",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     27.46495299996722,
     29.859697056540345
+   ],
+   [
+    6.762294855940366,
+    8.775035926209164
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5045,11 +5070,15 @@
   "last_short": "2026-11-21",
   "long": "2026-10-08",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     28.447144106742545,
     30.54906343327118
+   ],
+   [
+    58.68666666666667,
+    61.21333333333334
    ]
   ],
   "remix_reset": "2026-11-20",

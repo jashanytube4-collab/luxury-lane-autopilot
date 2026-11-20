@@ -5702,10 +5702,10 @@
   "video_len": 58
  },
  "hamdan bin mohammed concludes official visit to kuwait": {
-  "last_short": "2026-11-22",
+  "last_short": "2026-11-23",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     90.8459171690852,
@@ -5714,6 +5714,10 @@
    [
     71.25333333333334,
     72.94666666666666
+   ],
+   [
+    26.657446321312083,
+    28.071602451508834
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8288,11 +8292,16 @@
   "video_len": 40
  },
  "hamdan bin mohammed meets first batch of female cadets graduating from dubai police academy": {
-  "last_short": "2026-11-05",
+  "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 12,
-  "remix_ranges": [],
+  "montage_used": 13,
+  "remix_ranges": [
+   [
+    98.4840092909426,
+    100.22192679322977
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -8474,11 +8483,16 @@
  },
  "hamdan bin mohammed meets prominent business leaders at dubai majlis to chart a course for city s accelerated growth": {
   "fails": 1,
-  "last_short": "2026-10-28",
+  "last_short": "2026-11-23",
   "long": "2026-10-20",
   "montage_exhausted": true,
-  "montage_used": 2,
-  "remix_ranges": [],
+  "montage_used": 3,
+  "remix_ranges": [
+   [
+    6.12,
+    8.246666666666668
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -9573,10 +9587,15 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed offers condolences to al falahi family": {
-  "last_short": "2026-11-22",
+  "last_short": "2026-11-23",
   "long": "2026-10-16",
-  "montage_used": 14,
-  "remix_ranges": [],
+  "montage_used": 15,
+  "remix_ranges": [
+   [
+    40.36954099792474,
+    42.92200538660285
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -10382,12 +10401,17 @@
   "video_len": 223
  },
  "hamdan bin mohammed opens the race to excellence": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-23",
   "long": "2026-10-12",
   "montage_exhausted": true,
-  "montage_used": 4,
+  "montage_used": 5,
   "no_video_until": "2026-11-02",
-  "remix_ranges": [],
+  "remix_ranges": [
+   [
+    2.4225680931886022,
+    4.333966000362336
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 2,
   "shot_ranges": [
@@ -10730,10 +10754,15 @@
   "video_len": 76
  },
  "hamdan bin mohammed receives speaker of kyrgyz parliament": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-23",
   "montage_exhausted": true,
-  "montage_used": 6,
-  "remix_ranges": [],
+  "montage_used": 7,
+  "remix_ranges": [
+   [
+    6.37768238943519,
+    8.736089586568141
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -11039,10 +11068,15 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed reviews outcomes of farmers souq initiative": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-11-23",
   "montage_exhausted": true,
-  "montage_used": 9,
-  "remix_ranges": [],
+  "montage_used": 10,
+  "remix_ranges": [
+   [
+    25.287802896479974,
+    26.997034693551782
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -12644,10 +12678,15 @@
   "video_len": 191
  },
  "hamdan bin mohammed visits dubai chamber of commerce and industry": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-23",
   "montage_exhausted": true,
-  "montage_used": 9,
-  "remix_ranges": [],
+  "montage_used": 10,
+  "remix_ranges": [
+   [
+    1.5047652305267265,
+    3.1679304803545563
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 2,
   "shot_ranges": [

@@ -305,7 +305,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 38,
+  "montage_used": 39,
   "remix_ranges": [
    [
     316.5598655911052,
@@ -330,6 +330,10 @@
    [
     247.98625456054558,
     250.02158671269348
+   ],
+   [
+    656.6614797669748,
+    658.7382120931883
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1148,7 +1152,7 @@
  "dubai crown prince visits dubai municipality": {
   "last_short": "2026-11-22",
   "long": "2026-11-02",
-  "montage_used": 36,
+  "montage_used": 37,
   "remix_ranges": [
    [
     321.72,
@@ -1173,6 +1177,10 @@
    [
     153.56,
     155.64
+   ],
+   [
+    120.78095705099508,
+    122.90753040485107
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2981,6 +2989,7 @@
   "montage_exhausted": true,
   "montage_used": 32,
   "no_video_until": "2026-11-18",
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     2.92,
@@ -3270,7 +3279,7 @@
  "hamdan bin mohammed attends dubai forum for government best practices": {
   "last_short": "2026-11-22",
   "long": "2026-10-31",
-  "montage_used": 22,
+  "montage_used": 23,
   "remix_ranges": [
    [
     199.21437450345937,
@@ -3295,6 +3304,10 @@
    [
     150.9787365075574,
     152.40242894753655
+   ],
+   [
+    15.6697300852939,
+    18.018853038399126
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3630,6 +3643,7 @@
   "long": "2026-10-22",
   "montage_exhausted": true,
   "montage_used": 34,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     93.41739919554406,
@@ -4329,6 +4343,7 @@
   "long": "2026-10-14",
   "montage_exhausted": true,
   "montage_used": 21,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     193.14324482816696,
@@ -5469,6 +5484,7 @@
   "long": "2026-10-30",
   "montage_exhausted": true,
   "montage_used": 23,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     100.98462020886136,
@@ -6477,7 +6493,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 28,
+  "montage_used": 29,
   "remix_ranges": [
    [
     107.48779104831378,
@@ -6506,6 +6522,10 @@
    [
     89.14413230516182,
     91.1028434536544
+   ],
+   [
+    50.879999999999995,
+    53.080000000000005
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6693,6 +6713,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 27,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     16.33302972290008,
@@ -6799,7 +6820,7 @@
  "hamdan bin mohammed honours mbr creative sports award winners": {
   "last_short": "2026-11-22",
   "long": "2026-10-18",
-  "montage_used": 31,
+  "montage_used": 32,
   "remix_ranges": [
    [
     658.7792960623468,
@@ -6828,6 +6849,10 @@
    [
     377.60110360902655,
     380.06027831673987
+   ],
+   [
+    75.24309129583465,
+    77.46066266266
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -7881,7 +7906,7 @@
  "hamdan bin mohammed launches 26 dubai 10x projects issues directive to implement them within 24 months": {
   "last_short": "2026-11-22",
   "long": "2026-10-31",
-  "montage_used": 23,
+  "montage_used": 24,
   "remix_ranges": [
    [
     53.879999999999995,
@@ -7910,6 +7935,10 @@
    [
     20.894775584623034,
     23.237574462866352
+   ],
+   [
+    84.48,
+    86.72
    ]
   ],
   "remix_reset": "2026-11-20",

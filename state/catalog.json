@@ -2634,7 +2634,19 @@
  },
  "hamdan bin mohammed approves new targets for dubai ai campus to attract more than 1 000 companies and create over 5 000 jobs": {
   "fails": 1,
+  "last_short": "2026-11-23",
   "long": "2026-10-30",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    6.086666666666666,
+    8.33
+   ],
+   [
+    12.053333333333333,
+    13.963333333333333
+   ]
+  ],
   "video_exhausted": true,
   "video_len": 38
  },
@@ -3252,6 +3264,7 @@
     44.49666666666667
    ]
   ],
+  "video_exhausted": true,
   "video_len": 63
  },
  "hamdan bin mohammed attends dubai future week 2026 approves city ai agent initiative": {
@@ -3267,6 +3280,7 @@
     51.03000000000001
    ]
   ],
+  "video_exhausted": true,
   "video_len": 63
  },
  "hamdan bin mohammed attends dubai international health tourism forum": {
@@ -6803,6 +6817,7 @@
     52.263333333333335
    ]
   ],
+  "video_exhausted": true,
   "video_len": 60
  },
  "hamdan bin mohammed honours winners of the 6th arab hope makers initiative in dubai": {
@@ -15132,6 +15147,7 @@
  "ig:dubaimediaoffice:18110645801219055": {
   "fails": 1,
   "last_short": "2026-11-20",
+  "no_hamdan": true,
   "shorts_made": 1,
   "shot_ranges": [
    [
@@ -15147,6 +15163,7 @@
     56.330000000000005
    ]
   ],
+  "video_exhausted": true,
   "video_len": 61
  },
  "ig:dubaimediaoffice:18114266015142739": {

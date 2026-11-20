@@ -305,7 +305,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 37,
+  "montage_used": 38,
   "remix_ranges": [
    [
     316.5598655911052,
@@ -326,6 +326,10 @@
    [
     125.94668682314558,
     127.9736154136932
+   ],
+   [
+    247.98625456054558,
+    250.02158671269348
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1135,7 +1139,7 @@
  "dubai crown prince visits dubai municipality": {
   "last_short": "2026-11-22",
   "long": "2026-11-02",
-  "montage_used": 34,
+  "montage_used": 35,
   "remix_ranges": [
    [
     321.72,
@@ -1152,6 +1156,10 @@
    [
     83.96508715171784,
     86.549329641498
+   ],
+   [
+    41.421061729017495,
+    42.59635569889342
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1442,7 +1450,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 28,
+  "montage_used": 29,
   "no_video_until": "2026-11-02",
   "remix_ranges": [
    [
@@ -1480,6 +1488,10 @@
    [
     93.05046230198987,
     94.46668155268098
+   ],
+   [
+    6.0200000000000005,
+    7.88
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2950,7 +2962,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 30,
+  "montage_used": 31,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -3048,6 +3060,10 @@
    [
     89.52651172688222,
     91.21189217544502
+   ],
+   [
+    306.6838250036742,
+    308.40957344618107
    ]
   ],
   "shorts_made": 3,
@@ -4291,7 +4307,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     193.14324482816696,
@@ -4324,6 +4340,10 @@
    [
     209.662928508829,
     211.25144972075984
+   ],
+   [
+    202.03909707795117,
+    203.9118001924695
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4933,7 +4953,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 31,
+  "montage_used": 32,
   "remix_ranges": [
    [
     167.6806468932527,
@@ -4954,6 +4974,10 @@
    [
     472.62276606385694,
     474.4563958859028
+   ],
+   [
+    485.4338301318043,
+    487.36380259877944
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5415,7 +5439,7 @@
   "last_short": "2026-11-22",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 22,
+  "montage_used": 23,
   "remix_ranges": [
    [
     100.98462020886136,
@@ -5448,6 +5472,10 @@
    [
     44.4759202450319,
     46.95707913739105
+   ],
+   [
+    21.76,
+    23.919999999999998
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6519,10 +6547,10 @@
   "video_len": 385
  },
  "hamdan bin mohammed honors winners of dubai appreciation award for community service": {
-  "last_short": "2026-11-21",
+  "last_short": "2026-11-22",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 30,
+  "montage_used": 31,
   "remix_ranges": [
    [
     91.53469075790515,
@@ -6555,6 +6583,10 @@
    [
     186.4013081061492,
     188.67063171450775
+   ],
+   [
+    80.21880367319275,
+    81.90975352716859
    ]
   ],
   "remix_reset": "2026-11-20",

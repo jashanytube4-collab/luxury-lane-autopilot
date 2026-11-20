@@ -299,9 +299,9 @@
   "long": "2026-10-17"
  },
  "dubai crown prince attends graduation of dubai police academy": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-18",
   "long": "2026-10-31",
-  "montage_used": 32,
+  "montage_used": 31,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -466,10 +466,6 @@
    [
     628.2,
     630.24
-   ],
-   [
-    656.64,
-    658.8
    ]
   ],
   "video_exhausted": true,
@@ -1692,9 +1688,9 @@
   "video_len": 68
  },
  "hamdan approves medical tourism strategy": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-18",
   "long": "2026-10-30",
-  "montage_used": 15,
+  "montage_used": 14,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -1754,10 +1750,6 @@
    [
     29.153333333333336,
     31.48
-   ],
-   [
-    24.853333333333335,
-    27.013333333333332
    ]
   ],
   "video_exhausted": true,
@@ -1815,9 +1807,9 @@
   "long": "2026-10-13"
  },
  "hamdan attends dubai smart city first meeting": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-19",
   "long": "2026-10-31",
-  "montage_used": 22,
+  "montage_used": 20,
   "no_video_until": "2026-11-03",
   "remix_exhausted": true,
   "remix_ranges": [
@@ -1902,14 +1894,6 @@
    [
     71.61666666666666,
     73.31666666666669
-   ],
-   [
-    61.75333333333333,
-    63.913333333333334
-   ],
-   [
-    93.38666666666667,
-    95.71333333333332
    ]
   ],
   "video_exhausted": true,
@@ -2012,9 +1996,7 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed affirms that public wellbeing remains top priority for every investment in dubai s future": {
-  "long": "2026-10-30",
-  "video_exhausted": true,
-  "video_len": 44
+  "long": "2026-10-30"
  },
  "hamdan bin mohammed and india s minister of commerce and industry witness signing of 8 mous": {
   "fails": 1,
@@ -2827,21 +2809,7 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed approves new targets for dubai ai campus to attract more than 1 000 companies and create over 5 000 jobs": {
-  "last_short": "2026-11-20",
-  "long": "2026-10-30",
-  "shorts_made": 1,
-  "shot_ranges": [
-   [
-    6.086666666666666,
-    8.33
-   ],
-   [
-    12.053333333333333,
-    13.963333333333333
-   ]
-  ],
-  "video_exhausted": true,
-  "video_len": 38
+  "long": "2026-10-30"
  },
  "hamdan bin mohammed approves new urban planning model for residential areas in dubai": {
   "no_hamdan": true,
@@ -3183,9 +3151,9 @@
   "video_len": 65
  },
  "hamdan bin mohammed attends closing ceremony of 3rd dubai future accelerators program": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-11",
   "long": "2026-10-30",
-  "montage_used": 24,
+  "montage_used": 23,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -3259,10 +3227,6 @@
    [
     42.00173804542305,
     43.562486286095535
-   ],
-   [
-    265.4588054861218,
-    268.03137462289897
    ]
   ],
   "shorts_made": 3,
@@ -3520,22 +3484,7 @@
   "shorts_made": 1,
   "shot_ranges": []
  },
- "hamdan bin mohammed attends dubai future week 2026": {
-  "last_short": "2026-11-20",
-  "shorts_made": 1,
-  "shot_ranges": [
-   [
-    42.95333333333333,
-    44.49666666666667
-   ],
-   [
-    48.32,
-    51.03000000000001
-   ]
-  ],
-  "video_exhausted": true,
-  "video_len": 63
- },
+ "hamdan bin mohammed attends dubai future week 2026": {},
  "hamdan bin mohammed attends dubai future week 2026 approves city ai agent initiative": {
   "last_short": "2026-11-20",
   "shorts_made": 1,
@@ -3639,22 +3588,11 @@
   "video_len": 58
  },
  "hamdan bin mohammed attends dubai police academy graduation ceremony": {
-  "last_short": "2026-11-20",
-  "long": "2026-10-30",
-  "montage_used": 1,
-  "remix_ranges": [
-   [
-    103.45333333333333,
-    105.78
-   ]
-  ],
-  "video_exhausted": true,
-  "video_len": 165
+  "long": "2026-10-30"
  },
  "hamdan bin mohammed attends dubai police graduation ceremony": {
   "last_short": "2026-11-18",
   "long": "2026-10-30",
-  "montage_exhausted": true,
   "montage_used": 17,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -4381,9 +4319,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends hct graduation": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-17",
   "long": "2026-10-31",
-  "montage_used": 33,
+  "montage_used": 32,
   "remix_ranges": [
    [
     45.8,
@@ -4484,10 +4422,6 @@
    [
     256.91618520943825,
     259.0701610827053
-   ],
-   [
-    1.544541694563319,
-    3.603515615792248
    ]
   ],
   "shorts_made": 1,
@@ -5451,7 +5385,6 @@
  "hamdan bin mohammed attends wedding": {
   "last_short": "2026-11-17",
   "long": "2026-10-15",
-  "montage_exhausted": true,
   "montage_used": 8,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -6010,10 +5943,7 @@
   "shorts_made": 1,
   "shot_ranges": []
  },
- "hamdan bin mohammed chairs the executive council meeting and approves major public projects in dubai worth over aed11 billion": {
-  "video_exhausted": true,
-  "video_len": 39
- },
+ "hamdan bin mohammed chairs the executive council meeting and approves major public projects in dubai worth over aed11 billion": {},
  "hamdan bin mohammed chairs third defence council meeting of 2025": {
   "long": "2026-10-30",
   "video_exhausted": true
@@ -7389,10 +7319,7 @@
   "video_exhausted": true,
   "video_len": 268
  },
- "hamdan bin mohammed honours winners of inaugural dubai it award": {
-  "video_exhausted": true,
-  "video_len": 60
- },
+ "hamdan bin mohammed honours winners of inaugural dubai it award": {},
  "hamdan bin mohammed honours winners of the 6th arab hope makers initiative in dubai": {
   "no_hamdan": true
  },
@@ -7914,8 +7841,8 @@
   "video_len": 451
  },
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
-  "last_short": "2026-11-20",
-  "montage_used": 25,
+  "last_short": "2026-11-19",
+  "montage_used": 23,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -8044,14 +7971,6 @@
    [
     170.12,
     172.56
-   ],
-   [
-    159.8,
-    161.92
-   ],
-   [
-    185.32,
-    187.4
    ]
   ],
   "video_exhausted": true,
@@ -8089,10 +8008,10 @@
   "video_len": 227
  },
  "hamdan bin mohammed inspects rta s autonomous mobility and ai projects": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-06",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 21,
+  "montage_used": 20,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -8158,10 +8077,6 @@
    [
     35.839999999999996,
     38.24
-   ],
-   [
-    141.50787006945757,
-    143.50623521202593
    ]
   ],
   "shorts_made": 2,
@@ -8375,9 +8290,7 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed launches create ai agents championship to inspire transformative ideas for global good": {
-  "long": "2026-10-30",
-  "video_exhausted": true,
-  "video_len": 52
+  "long": "2026-10-30"
  },
  "hamdan bin mohammed launches day for dubai encourages residents to volunteer": {
   "last_short": "2026-11-17",
@@ -8744,7 +8657,6 @@
  "hamdan bin mohammed launches sports initiatives": {
   "last_short": "2026-11-17",
   "long": "2026-10-18",
-  "montage_exhausted": true,
   "montage_used": 22,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -9548,9 +9460,9 @@
   "video_len": 99
  },
  "hamdan bin mohammed meets students of dubai schools": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-18",
   "long": "2026-10-17",
-  "montage_used": 32,
+  "montage_used": 30,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -9699,14 +9611,6 @@
    [
     64.12,
     66.28
-   ],
-   [
-    23.720000000000002,
-    27.68
-   ],
-   [
-    318.53999999999996,
-    323.53999999999996
    ]
   ],
   "video_len": 371
@@ -10462,7 +10366,6 @@
  "hamdan bin mohammed meets with participants of retail summit in dubai": {
   "last_short": "2026-11-17",
   "long": "2026-10-31",
-  "montage_exhausted": true,
   "montage_used": 20,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -11426,9 +11329,9 @@
   "long": "2026-10-28"
  },
  "hamdan bin mohammed officially opens gitex 2018": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-18",
   "long": "2026-11-02",
-  "montage_used": 29,
+  "montage_used": 27,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -11502,10 +11405,6 @@
    [
     211.72,
     213.56
-   ],
-   [
-    37.98063722164466,
-    40.400709810311376
    ]
   ],
   "shorts_made": 1,
@@ -11565,10 +11464,6 @@
    [
     185.72,
     187.76
-   ],
-   [
-    87.92,
-    90.03999999999999
    ]
   ],
   "video_exhausted": true,
@@ -11622,8 +11517,8 @@
   "video_len": 281
  },
  "hamdan bin mohammed opens cityscape global 2017": {
-  "last_short": "2026-11-20",
-  "montage_used": 29,
+  "last_short": "2026-11-18",
+  "montage_used": 27,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -11709,10 +11604,6 @@
    [
     70.0,
     71.67999999999999
-   ],
-   [
-    268.39383672440795,
-    270.0271892685001
    ]
   ],
   "shorts_made": 1,
@@ -11752,18 +11643,14 @@
    [
     65.28,
     67.52
-   ],
-   [
-    15.0,
-    17.959999999999997
    ]
   ],
   "video_exhausted": true,
   "video_len": 279
  },
  "hamdan bin mohammed opens cityscape global 2018": {
-  "last_short": "2026-11-20",
-  "montage_used": 28,
+  "last_short": "2026-11-04",
+  "montage_used": 26,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -11916,14 +11803,6 @@
    [
     317.35999999999996,
     318.99999999999994
-   ],
-   [
-    365.12,
-    367.48
-   ],
-   [
-    190.84,
-    193.0
    ]
   ],
   "video_exhausted": true,
@@ -15417,8 +15296,8 @@
   "video_len": 196
  },
  "hamdan bin mohammed visits department of economic development": {
-  "last_short": "2026-11-20",
-  "montage_used": 16,
+  "last_short": "2026-11-13",
+  "montage_used": 15,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -15482,19 +15361,15 @@
    [
     180.6,
     184.35999999999999
-   ],
-   [
-    186.96,
-    189.72
    ]
   ],
   "video_exhausted": true,
   "video_len": 206
  },
  "hamdan bin mohammed visits dewa s moro": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-18",
   "long": "2026-11-01",
-  "montage_used": 32,
+  "montage_used": 30,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -15651,14 +15526,6 @@
    [
     43.44,
     45.480000000000004
-   ],
-   [
-    123.52000000000001,
-    125.96
-   ],
-   [
-    68.92,
-    71.08
    ]
   ],
   "video_len": 401
@@ -17452,9 +17319,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits the dubai future foundation headquarters and reviews 10x projects": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-17",
   "long": "2026-10-30",
-  "montage_used": 18,
+  "montage_used": 17,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -17543,10 +17410,6 @@
    [
     52.0,
     54.760000000000005
-   ],
-   [
-    3.8649999999999762,
-    6.495000000000023
    ]
   ],
   "video_exhausted": true,
@@ -17782,7 +17645,6 @@
  "hamdan bin mohammed visits youth hub in emirates towers": {
   "last_short": "2026-11-12",
   "long": "2026-10-31",
-  "montage_exhausted": true,
   "montage_used": 4,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -20101,9 +19963,9 @@
   "video_exhausted": true
  },
  "in presence of dubai crown prince meraas signs agreement with dubai municipality to manage dubai safari": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-18",
   "long": "2026-10-31",
-  "montage_used": 11,
+  "montage_used": 10,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -20147,10 +20009,6 @@
    [
     32.48,
     35.6
-   ],
-   [
-    0.7133333333333232,
-    2.0466666666666766
    ]
   ],
   "video_exhausted": true,

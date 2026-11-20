@@ -221,10 +221,15 @@
   "long": "2026-10-17"
  },
  "dubai crown prince attends graduation of dubai police academy": {
-  "last_short": "2026-11-18",
+  "last_short": "2026-11-20",
   "long": "2026-10-31",
-  "montage_used": 31,
-  "remix_ranges": [],
+  "montage_used": 32,
+  "remix_ranges": [
+   [
+    316.5598655911052,
+    318.83859871583405
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 2,
   "shot_ranges": [
@@ -794,10 +799,15 @@
   "video_len": 345
  },
  "dubai crown prince visits emirates nbd head office": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-20",
   "montage_exhausted": true,
-  "montage_used": 12,
-  "remix_ranges": [],
+  "montage_used": 13,
+  "remix_ranges": [
+   [
+    150.28730135626125,
+    152.3470876560911
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -1153,11 +1163,16 @@
   "long": "2026-10-27"
  },
  "hamdan attends wedding reception": {
-  "last_short": "2026-11-17",
+  "last_short": "2026-11-20",
   "long": "2026-10-15",
   "montage_exhausted": true,
-  "montage_used": 6,
-  "remix_ranges": [],
+  "montage_used": 7,
+  "remix_ranges": [
+   [
+    19.018162111987653,
+    20.58363790511784
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -1285,11 +1300,16 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed and maktoum bin mohammed review dubai municipality s key strategic projects following corporate restructuring": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-20",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 10,
-  "remix_ranges": [],
+  "montage_used": 11,
+  "remix_ranges": [
+   [
+    60.683582239329986,
+    62.66006832755944
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -1763,11 +1783,16 @@
  },
  "hamdan bin mohammed approves next phase of dubai future solutions initiative": {
   "fails": 1,
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-20",
   "long": "2026-10-11",
   "montage_exhausted": true,
-  "montage_used": 2,
-  "remix_ranges": [],
+  "montage_used": 3,
+  "remix_ranges": [
+   [
+    25.750160494429192,
+    27.95168654202805
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -3677,6 +3702,7 @@
   "fails": 1,
   "long": "2026-10-18",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "video_exhausted": true,
@@ -4500,11 +4526,16 @@
   "long": "2026-10-17"
  },
  "hamdan bin mohammed follows up the work mechanisms of dubai future councils": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-11-20",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 2,
-  "remix_ranges": [],
+  "montage_used": 3,
+  "remix_ranges": [
+   [
+    9.424498157764402,
+    11.440964407233821
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -4751,11 +4782,16 @@
   "long": "2026-10-21"
  },
  "hamdan bin mohammed honours arab contributors to entrepreneurial development": {
-  "last_short": "2026-11-15",
+  "last_short": "2026-11-20",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 15,
-  "remix_ranges": [],
+  "montage_used": 16,
+  "remix_ranges": [
+   [
+    16.33302972290008,
+    17.767751519456905
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 2,
   "shot_ranges": [

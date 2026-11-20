@@ -5421,10 +5421,10 @@
   "video_len": 78
  },
  "hamdan bin mohammed chairs executive council meeting approves series of economic stimulus policies": {
-  "last_short": "2026-11-22",
+  "last_short": "2026-11-23",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     67.34768501082806,
@@ -5445,6 +5445,10 @@
    [
     43.0,
     45.120000000000005
+   ],
+   [
+    111.4,
+    113.03999999999999
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -7711,10 +7715,10 @@
   "video_len": 52
  },
  "hamdan bin mohammed launches day for dubai encourages residents to volunteer": {
-  "last_short": "2026-11-22",
+  "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     135.3528267576151,
@@ -7735,6 +7739,10 @@
    [
     80.57217525694871,
     82.39943279851067
+   ],
+   [
+    111.99314983787723,
+    113.7214325113156
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8283,6 +8291,7 @@
   "last_short": "2026-10-11",
   "long": "2026-10-30",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
@@ -8435,11 +8444,16 @@
   "video_len": 216
  },
  "hamdan bin mohammed meets graduates of one million arab coders": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-11-23",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 6,
-  "remix_ranges": [],
+  "montage_used": 7,
+  "remix_ranges": [
+   [
+    53.9493408689339,
+    55.75368852093286
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -9744,11 +9758,16 @@
   "video_len": 118
  },
  "hamdan bin mohammed offers condolences to family of martyr khalid al shehi": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-23",
   "long": "2026-10-25",
   "montage_exhausted": true,
-  "montage_used": 5,
-  "remix_ranges": [],
+  "montage_used": 6,
+  "remix_ranges": [
+   [
+    83.58291392845342,
+    85.69820076452133
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -10493,11 +10512,16 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed receives afc president": {
-  "last_short": "2026-11-07",
+  "last_short": "2026-11-23",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 7,
-  "remix_ranges": [],
+  "montage_used": 8,
+  "remix_ranges": [
+   [
+    57.24011872282919,
+    59.37402098373469
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -10965,10 +10989,15 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed reviews final preparations as hope probe enters the most critical phase of its journey": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-11-23",
   "montage_exhausted": true,
-  "montage_used": 5,
-  "remix_ranges": [],
+  "montage_used": 6,
+  "remix_ranges": [
+   [
+    79.29802385146678,
+    80.72769200756602
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -11827,11 +11856,16 @@
   "video_len": 181
  },
  "hamdan bin mohammed unveils 5 star plaque at hatta gdrfa centre": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-23",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 10,
-  "remix_ranges": [],
+  "montage_used": 11,
+  "remix_ranges": [
+   [
+    74.62743576497552,
+    76.94168138180069
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 2,
   "shot_ranges": [
@@ -12666,11 +12700,16 @@
   "video_len": 79
  },
  "hamdan bin mohammed visits dubai autism center": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 19,
-  "remix_ranges": [],
+  "montage_used": 20,
+  "remix_ranges": [
+   [
+    184.4,
+    186.51999999999998
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 3,
   "shot_ranges": [

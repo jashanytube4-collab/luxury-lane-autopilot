@@ -3485,7 +3485,21 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed attends dubai future week 2026": {},
- "hamdan bin mohammed attends dubai future week 2026 approves city ai agent initiative": {},
+ "hamdan bin mohammed attends dubai future week 2026 approves city ai agent initiative": {
+  "last_short": "2026-11-20",
+  "shorts_made": 1,
+  "shot_ranges": [
+   [
+    42.95333333333333,
+    44.49666666666667
+   ],
+   [
+    48.32,
+    51.03000000000001
+   ]
+  ],
+  "video_len": 63
+ },
  "hamdan bin mohammed attends dubai international health tourism forum": {
   "last_short": "2026-11-02",
   "long": "2026-10-31",

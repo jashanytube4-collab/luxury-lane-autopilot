@@ -273,8 +273,13 @@
   },
   {
    "at": "2026-11-24T02:11:41+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "One city, one prince, endless possibilities. 🤍 #youtubeshorts #ytshorts",
+   "type": "short",
+   "video_id": "Ir1W-n1q7TM",
+   "voiced": true
   },
   {
    "at": "2026-11-24T02:59:33+04:00",

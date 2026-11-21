@@ -4980,7 +4980,7 @@
   "last_short": "2026-11-23",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 29,
+  "montage_used": 30,
   "remix_ranges": [
    [
     307.72823911856494,
@@ -5029,6 +5029,10 @@
    [
     119.88938302943245,
     121.4404419266361
+   ],
+   [
+    128.8049843491277,
+    131.38078872258095
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5817,7 +5821,7 @@
   "last_short": "2026-11-23",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     90.8459171690852,
@@ -5830,6 +5834,10 @@
    [
     26.657446321312083,
     28.071602451508834
+   ],
+   [
+    79.92872290213194,
+    81.37021294182746
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -7496,7 +7504,7 @@
  },
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
   "last_short": "2026-11-23",
-  "montage_used": 35,
+  "montage_used": 36,
   "remix_ranges": [
    [
     86.51501862110607,
@@ -7541,6 +7549,10 @@
    [
     190.5702633229583,
     192.02750237009317
+   ],
+   [
+    25.601842886458726,
+    27.902719092846805
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8908,11 +8920,15 @@
   "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     86.95333333333333,
     88.94666666666666
+   ],
+   [
+    81.92941811508524,
+    83.61134316555098
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9262,11 +9278,16 @@
  },
  "hamdan bin mohammed meets with india s minister of commerce and industry": {
   "fails": 1,
-  "last_short": "2026-10-27",
+  "last_short": "2026-11-23",
   "long": "2026-10-15",
   "montage_exhausted": true,
-  "montage_used": 1,
-  "remix_ranges": [],
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    2.2427984080005747,
+    3.686490179785114
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "video_exhausted": true,
   "video_len": 18
@@ -9633,11 +9654,16 @@
   "video_len": 27
  },
  "hamdan bin mohammed meets with the mayor of miami at expo 2020 dubai": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-11-23",
   "long": "2026-10-20",
   "montage_exhausted": true,
-  "montage_used": 5,
-  "remix_ranges": [],
+  "montage_used": 6,
+  "remix_ranges": [
+   [
+    3.8979864482299194,
+    5.7821090497117495
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -9834,11 +9860,16 @@
   "long": "2026-10-21"
  },
  "hamdan bin mohammed offers condolences on death of abdullah mohamed al masoud": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-11-23",
   "long": "2026-10-16",
   "montage_exhausted": true,
-  "montage_used": 4,
-  "remix_ranges": [],
+  "montage_used": 5,
+  "remix_ranges": [
+   [
+    19.78167332622468,
+    21.934712279252846
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -13352,7 +13383,7 @@
   "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 21,
+  "montage_used": 22,
   "remix_ranges": [
    [
     184.4,
@@ -13361,6 +13392,10 @@
    [
     74.13971777393307,
     75.81317610194014
+   ],
+   [
+    163.47178452934372,
+    164.99220645695303
    ]
   ],
   "remix_reset": "2026-11-20",

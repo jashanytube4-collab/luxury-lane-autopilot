@@ -1201,7 +1201,7 @@
  "dubai crown prince visits dubai municipality": {
   "last_short": "2026-11-24",
   "long": "2026-11-02",
-  "montage_used": 44,
+  "montage_used": 45,
   "remix_ranges": [
    [
     321.72,
@@ -1246,6 +1246,10 @@
    [
     329.0965860825136,
     330.6485917235267
+   ],
+   [
+    160.87436442491807,
+    163.14459803162367
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3302,9 +3306,9 @@
   "video_len": 60
  },
  "hamdan bin mohammed attends dubai forum for government best practices": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-31",
-  "montage_used": 27,
+  "montage_used": 28,
   "remix_ranges": [
    [
     199.21437450345937,
@@ -3341,6 +3345,10 @@
    [
     155.4036262738565,
     156.93142502740596
+   ],
+   [
+    102.9148371120421,
+    104.94956795738298
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3535,7 +3543,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 29,
+  "montage_used": 30,
   "remix_ranges": [
    [
     214.5336373953238,
@@ -3584,6 +3592,10 @@
    [
     230.48221579776697,
     232.14436773796893
+   ],
+   [
+    166.25010139672756,
+    167.65607138690697
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6288,7 +6300,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     58.30116845702413,
@@ -6317,6 +6329,10 @@
    [
     73.08128681196987,
     74.96529630611592
+   ],
+   [
+    66.26350403794714,
+    68.24027780841949
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8623,6 +8639,7 @@
   "long": "2026-10-16",
   "montage_exhausted": true,
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     21.202933404700982,
@@ -10008,7 +10025,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-21",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     30.294825772194937,
@@ -10017,6 +10034,10 @@
    [
     14.524908108033443,
     16.042638888163935
+   ],
+   [
+    41.00540210700612,
+    43.1464648944787
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11241,10 +11262,10 @@
   "video_len": 223
  },
  "hamdan bin mohammed opens the race to excellence": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-12",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "no_video_until": "2026-11-02",
   "remix_ranges": [
    [
@@ -11254,6 +11275,10 @@
    [
     22.84703958969938,
     24.30913247292973
+   ],
+   [
+    12.766983749510883,
+    14.763951489644018
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12849,9 +12874,9 @@
   "video_len": 214
  },
  "hamdan bin mohammed unveils 5 star plaque at dubai chamber of commerce and industry": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     86.10332430465824,
@@ -12860,6 +12885,10 @@
    [
     68.48467311280095,
     69.68400143784804
+   ],
+   [
+    53.264929951808796,
+    55.48647250842621
    ]
   ],
   "remix_reset": "2026-11-20",

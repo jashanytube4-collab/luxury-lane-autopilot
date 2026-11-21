@@ -208,8 +208,13 @@
   },
   {
    "at": "2026-11-23T21:00:00+04:00",
-   "status": "open",
-   "type": "members"
+   "event": "montage",
+   "kind": "montage",
+   "status": "scheduled",
+   "title": "He walks in the footsteps of giants and leaves his own. 👑 #fazza #youtubeshorts #youtube",
+   "type": "members",
+   "video_id": "6LMb1l7E9Qc",
+   "voiced": true
   },
   {
    "at": "2026-11-23T21:38:05+04:00",

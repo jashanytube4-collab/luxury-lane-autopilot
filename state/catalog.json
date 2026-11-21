@@ -632,9 +632,9 @@
   "video_len": 232
  },
  "dubai crown prince holds minute s silence to honour martyrs on commemoration day": {
-  "last_short": "2026-11-22",
+  "last_short": "2026-11-23",
   "long": "2026-10-31",
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -691,6 +691,10 @@
    [
     20.36,
     23.08
+   ],
+   [
+    57.16,
+    59.760000000000005
    ]
   ],
   "video_exhausted": true,
@@ -1617,7 +1621,7 @@
  "hamdan approves medical tourism strategy": {
   "last_short": "2026-11-23",
   "long": "2026-10-30",
-  "montage_used": 26,
+  "montage_used": 27,
   "remix_ranges": [
    [
     37.810954235443916,
@@ -1681,6 +1685,10 @@
    [
     37.419999999999995,
     40.480000000000004
+   ],
+   [
+    19.845000000000017,
+    22.254999999999985
    ]
   ],
   "video_exhausted": true,
@@ -8839,7 +8847,7 @@
  "hamdan bin mohammed meets students of dubai schools": {
   "last_short": "2026-11-23",
   "long": "2026-10-17",
-  "montage_used": 34,
+  "montage_used": 35,
   "remix_ranges": [
    [
     202.24325973382153,
@@ -8916,6 +8924,10 @@
    [
     320.25,
     321.83
+   ],
+   [
+    11.879999999999999,
+    15.0
    ]
   ],
   "video_len": 371
@@ -10755,7 +10767,7 @@
  "hamdan bin mohammed opens gitex tech week 2017": {
   "last_short": "2026-11-23",
   "long": "2026-10-14",
-  "montage_used": 31,
+  "montage_used": 32,
   "remix_ranges": [
    [
     332.64461795604365,
@@ -10836,6 +10848,10 @@
    [
     156.16,
     159.44
+   ],
+   [
+    469.52,
+    471.6
    ]
   ],
   "video_exhausted": true,
@@ -13221,7 +13237,7 @@
  },
  "hamdan bin mohammed visits department of economic development": {
   "last_short": "2026-11-23",
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     162.32,
@@ -13245,6 +13261,10 @@
    [
     186.96,
     189.72
+   ],
+   [
+    124.72,
+    127.16
    ]
   ],
   "video_exhausted": true,
@@ -13436,7 +13456,7 @@
  "hamdan bin mohammed visits dubai airshow 2017": {
   "last_short": "2026-11-23",
   "long": "2026-11-02",
-  "montage_used": 22,
+  "montage_used": 23,
   "remix_ranges": [
    [
     152.68800146802988,
@@ -13480,6 +13500,10 @@
    [
     129.20000000000002,
     131.92
+   ],
+   [
+    181.56,
+    183.64
    ]
   ],
   "video_exhausted": true,

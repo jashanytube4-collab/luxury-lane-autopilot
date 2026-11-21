@@ -5,6 +5,19 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 STAGES = ["profile", "style", "voice", "engine", "thumb", "topics", "scripts", "test_video", "upload"]
 ENGINES_DONE = {"docu"}            # formats whose scene engine exists in core.py (update as engines are built)
+TOPICS_MIN = 20                    # owner: 20 topics per channel bank
+
+
+def n_topics(path: Path) -> int:
+    """Topic entries in a bank; accepts '- title:' lines and '- id:' items with a nested 'title:'."""
+    if not path.exists():
+        return 0
+    n = 0
+    for ln in path.read_text(encoding="utf-8").splitlines():
+        t = ln.strip()
+        if t.startswith("- title:") or (t.startswith("title:") and not ln.startswith("title:")):
+            n += 1
+    return n
 
 
 def check(ch):
@@ -18,7 +31,7 @@ def check(ch):
         "voice": (f / "samples" / f"{k}.mp3").exists(),
         "engine": ch["engine"] in ENGINES_DONE,
         "thumb": (f / "thumb_templates" / f"{k}.json").exists(),
-        "topics": (f / "topics" / f"{k}.yaml").exists() and (f / "topics" / f"{k}.yaml").read_text(encoding="utf-8").count("- title:") >= 10,
+        "topics": n_topics(f / "topics" / f"{k}.yaml") >= TOPICS_MIN,
         "scripts": len(list((f / "scripts" / k).glob("*.json"))) >= 3 if (f / "scripts" / k).exists() else False,
         "test_video": any((f / "out" / k).glob("*/CHECKED.txt")) if (f / "out" / k).exists() else False,
         "upload": (f / "upload_ok" / f"{k}.txt").exists(),

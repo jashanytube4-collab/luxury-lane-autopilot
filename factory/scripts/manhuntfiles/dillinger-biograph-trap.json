@@ -1,0 +1,1230 @@
+{
+"channel": "manhuntfiles",
+"slug": "dillinger-biograph-trap",
+"title": "How The FBI Set The Trap For John Dillinger At The Biograph Theater",
+"thumb": {
+"badge": "DAY 141",
+"words": "THE TRAP",
+"face_q": "John Dillinger"
+},
+"sources": [
+"FBI.gov History, Famous Cases & Criminals: John Dillinger",
+"FBI Records: The Vault - John Dillinger",
+"Wikipedia: John Dillinger; Biograph Theater; Ana Cumpanas; Little Bohemia Lodge; Melvin Purvis; Crime Control Act 1934",
+"Hedged in script: wooden gun origin (Dillinger's own claim), the reach for a pistol (agents' account), Sage's promise (disputed)"
+],
+"beats": [
+{
+"text": "A hot summer night in Chicago. A movie lets out, and a crowd spills onto Lincoln Avenue.",
+"v": [
+{
+"t": "video",
+"q": "Chicago 1930s street night",
+"alt": "Biograph Theater"
+},
+{
+"t": "photo",
+"q": "Biograph Theater"
+}
+]
+},
+{
+"text": "In that crowd is the most wanted man in America. And a team of federal agents is waiting for him.",
+"v": [
+{
+"t": "video",
+"q": "1930s crowd street newsreel",
+"alt": "John Dillinger"
+},
+{
+"t": "big",
+"big": "141 DAYS",
+"small": "on the run"
+}
+]
+},
+{
+"text": "One of them holds an unlit cigar. When he lights it, the manhunt ends.",
+"v": [
+{
+"t": "photo",
+"q": "Melvin Purvis"
+},
+{
+"t": "video",
+"q": "1930s Chicago night street",
+"alt": "Lincoln Avenue Chicago"
+}
+]
+},
+{
+"text": "This is John Dillinger. He is thirty-one years old, and he has just watched his last film.",
+"v": [
+{
+"t": "photo",
+"q": "John Dillinger"
+},
+{
+"t": "photo",
+"q": "Manhattan Melodrama"
+}
+]
+},
+{
+"text": "To understand how the trap was set, we have to go back four months, to a jail they called escape-proof.",
+"v": [
+{
+"t": "photo",
+"q": "Old Lake County Jail Crown Point"
+},
+{
+"t": "big",
+"big": "4 MONTHS",
+"small": "earlier"
+}
+]
+},
+{
+"text": "Crown Point, Indiana. March 1934.",
+"v": [
+{
+"t": "video",
+"q": "1930s small town Indiana",
+"alt": "Crown Point Indiana courthouse"
+}
+]
+},
+{
+"text": "Dillinger is waiting for trial for the murder of a police officer, shot during a bank robbery in East Chicago.",
+"v": [
+{
+"t": "photo",
+"q": "John Dillinger Crown Point"
+},
+{
+"t": "video",
+"q": "1930s bank newsreel",
+"alt": "East Chicago Indiana"
+}
+]
+},
+{
+"text": "Reporters crowd into the jail. In one famous photo, he leans on the prosecutor's shoulder and grins.",
+"v": [
+{
+"t": "photo",
+"q": "Dillinger Estill Crown Point"
+},
+{
+"t": "video",
+"q": "1930s press photographers newsreel",
+"alt": "Robert Estill"
+}
+]
+},
+{
+"text": "The sheriff, Lillian Holley, is sure this prisoner is going nowhere.",
+"v": [
+{
+"t": "photo",
+"q": "Lillian Holley"
+},
+{
+"t": "photo",
+"q": "Old Lake County Jail"
+}
+]
+},
+{
+"text": "On the morning of March third, Dillinger pulls a pistol on a guard.",
+"v": [
+{
+"t": "video",
+"q": "1930s jail newsreel",
+"alt": "jail cell 1930s"
+},
+{
+"t": "big",
+"big": "MARCH 3",
+"small": "1934"
+}
+]
+},
+{
+"text": "The pistol is fake. Dillinger later claimed he carved it from wood and blackened it with shoe polish.",
+"v": [
+{
+"t": "photo",
+"q": "Dillinger wooden gun"
+},
+{
+"t": "card",
+"text": "A FAKE GUN"
+}
+]
+},
+{
+"text": "He locks guards into cells, grabs two real machine guns, and walks out.",
+"v": [
+{
+"t": "video",
+"q": "Thompson submachine gun 1930s",
+"alt": "Thompson submachine gun"
+}
+]
+},
+{
+"text": "Then he takes the sheriff's own Ford and drives west, toward Illinois.",
+"v": [
+{
+"t": "video",
+"q": "1934 Ford V8 driving",
+"alt": "Ford Model 40"
+},
+{
+"t": "photo",
+"q": "Ford V8 1934"
+}
+]
+},
+{
+"text": "That one decision changes everything. Driving a stolen car across a state line is a federal crime.",
+"v": [
+{
+"t": "video",
+"q": "1930s highway car newsreel",
+"alt": "National Motor Vehicle Theft Act"
+},
+{
+"t": "card",
+"text": "FEDERAL CRIME"
+}
+]
+},
+{
+"text": "Now he belongs to a small Justice Department agency called the Bureau of Investigation.",
+"v": [
+{
+"t": "photo",
+"q": "J. Edgar Hoover 1930s"
+},
+{
+"t": "video",
+"q": "1930s Washington DC newsreel",
+"alt": "United States Department of Justice building"
+}
+]
+},
+{
+"text": "Its director is a thirty-nine-year-old named J. Edgar Hoover, and he wants this case badly.",
+"v": [
+{
+"t": "photo",
+"q": "J. Edgar Hoover"
+},
+{
+"t": "big",
+"big": "DAY 1",
+"small": "the hunt begins"
+}
+]
+},
+{
+"text": "But his agents have a problem. In early 1934, their power to make arrests and carry guns is very limited.",
+"v": [
+{
+"t": "video",
+"q": "1930s FBI agents training",
+"alt": "Bureau of Investigation agents 1930s"
+},
+{
+"t": "photo",
+"q": "Bureau of Investigation badge"
+}
+]
+},
+{
+"text": "Dillinger, meanwhile, rejoins his gang and keeps robbing banks across the Midwest.",
+"v": [
+{
+"t": "video",
+"q": "1930s bank robbery newsreel",
+"alt": "Dillinger gang"
+},
+{
+"t": "photo",
+"q": "Dillinger gang wanted poster"
+}
+]
+},
+{
+"text": "He has done this before. Paroled in 1933 after more than eight years in prison, he robbed bank after bank that summer.",
+"v": [
+{
+"t": "photo",
+"q": "Indiana State Prison"
+},
+{
+"t": "video",
+"q": "1930s bank exterior",
+"alt": "bank 1930s"
+}
+]
+},
+{
+"text": "Arrested in Ohio, he was broken out of the Lima jail by his friends, and the sheriff there was killed.",
+"v": [
+{
+"t": "photo",
+"q": "Lima Ohio Allen County jail"
+},
+{
+"t": "card",
+"text": "BROKEN OUT"
+}
+]
+},
+{
+"text": "Then in Tucson, a hotel fire gave the gang away. Firefighters recognised two of them from a detective magazine.",
+"v": [
+{
+"t": "photo",
+"q": "Hotel Congress Tucson"
+},
+{
+"t": "video",
+"q": "1930s fire engine newsreel",
+"alt": "Tucson Arizona 1930s"
+}
+]
+},
+{
+"text": "Every time he is caught, he slips away. So the Bureau needs more than luck.",
+"v": [
+{
+"t": "photo",
+"q": "John Dillinger mugshot"
+},
+{
+"t": "card",
+"text": "HE ALWAYS SLIPS AWAY"
+}
+]
+},
+{
+"text": "April 1934. A tip arrives. The gang is hiding at a resort lodge in the woods of northern Wisconsin.",
+"v": [
+{
+"t": "video",
+"q": "Wisconsin northwoods lake",
+"alt": "Little Bohemia Lodge"
+},
+{
+"t": "big",
+"big": "DAY 50",
+"small": "Wisconsin"
+}
+]
+},
+{
+"text": "The lodge is called Little Bohemia. Agents fly in and race toward it in borrowed cars at night.",
+"v": [
+{
+"t": "photo",
+"q": "Little Bohemia Lodge"
+},
+{
+"t": "video",
+"q": "1930s airplane landing newsreel",
+"alt": "Rhinelander Wisconsin"
+}
+]
+},
+{
+"text": "Then the dogs start barking.",
+"v": [
+{
+"t": "video",
+"q": "forest night",
+"alt": "Manitowish Waters Wisconsin"
+}
+]
+},
+{
+"text": "Three men leave the lodge in a car. The agents think they are gangsters and open fire.",
+"v": [
+{
+"t": "video",
+"q": "1930s car night",
+"alt": "Little Bohemia Lodge bullet holes"
+},
+{
+"t": "card",
+"text": "WRONG CAR"
+}
+]
+},
+{
+"text": "They are not. They are local workers. One of them, Eugene Boisoneau, is killed.",
+"v": [
+{
+"t": "photo",
+"q": "Little Bohemia Lodge 1934"
+},
+{
+"t": "video",
+"q": "candle memorial dark",
+"alt": "Little Bohemia"
+}
+]
+},
+{
+"text": "In the chaos, Dillinger and his men climb out of the back windows and vanish into the trees.",
+"v": [
+{
+"t": "video",
+"q": "dark forest running",
+"alt": "Wisconsin forest"
+},
+{
+"t": "photo",
+"q": "Little Bohemia Lodge window"
+}
+]
+},
+{
+"text": "Nearby, the gangster Baby Face Nelson shoots three lawmen. Agent W. Carter Baum dies.",
+"v": [
+{
+"t": "photo",
+"q": "Baby Face Nelson"
+},
+{
+"t": "photo",
+"q": "W. Carter Baum"
+}
+]
+},
+{
+"text": "For the Bureau, it is a disaster. Newspapers mock them. Some call for Hoover to go.",
+"v": [
+{
+"t": "video",
+"q": "1930s newspaper printing press",
+"alt": "newspaper headline 1934"
+},
+{
+"t": "card",
+"text": "A DISASTER"
+}
+]
+},
+{
+"text": "But Washington reacts. In May and June 1934, Congress passes new federal crime laws.",
+"v": [
+{
+"t": "video",
+"q": "United States Capitol 1930s newsreel",
+"alt": "United States Capitol 1934"
+},
+{
+"t": "photo",
+"q": "Homer Cummings"
+}
+]
+},
+{
+"text": "Robbing a national bank becomes a federal crime. And federal agents can now carry guns and make arrests.",
+"v": [
+{
+"t": "list",
+"title": "NEW POWERS 1934",
+"lines": [
+"Bank robbery = federal",
+"Agents carry guns",
+"Agents make arrests"
+]
+},
+{
+"t": "video",
+"q": "1930s FBI firearms training",
+"alt": "FBI firearms training"
+}
+]
+},
+{
+"text": "Hoover puts one man at the centre of the Chicago hunt. His name is Melvin Purvis.",
+"v": [
+{
+"t": "photo",
+"q": "Melvin Purvis"
+},
+{
+"t": "video",
+"q": "1930s Chicago skyline",
+"alt": "Chicago 1934"
+}
+]
+},
+{
+"text": "And by Dillinger's thirty-first birthday in June, the papers have a new name for him: Public Enemy Number One.",
+"v": [
+{
+"t": "card",
+"text": "PUBLIC ENEMY No. 1"
+},
+{
+"t": "photo",
+"q": "John Dillinger wanted poster"
+}
+]
+},
+{
+"text": "The government offers ten thousand dollars for his capture, and five thousand for information.",
+"v": [
+{
+"t": "big",
+"big": "$10,000",
+"small": "for his capture"
+},
+{
+"t": "photo",
+"q": "Dillinger reward poster"
+}
+]
+},
+{
+"text": "Dillinger knows his face is everywhere. So he tries to change it.",
+"v": [
+{
+"t": "photo",
+"q": "John Dillinger"
+},
+{
+"t": "video",
+"q": "1930s newsreel crowd newspaper",
+"alt": "Dillinger newspaper"
+}
+]
+},
+{
+"text": "In late May, he pays for plastic surgery in a Chicago home and uses acid to try to burn off his fingerprints.",
+"v": [
+{
+"t": "video",
+"q": "1930s doctor surgery",
+"alt": "vintage medical instruments"
+},
+{
+"t": "card",
+"text": "NEW FACE"
+}
+]
+},
+{
+"text": "It does not work very well. His face is scarred, but still recognisable. And the fingerprints grow back.",
+"v": [
+{
+"t": "photo",
+"q": "Dillinger fingerprints"
+},
+{
+"t": "photo",
+"q": "Dillinger death mask"
+}
+]
+},
+{
+"text": "He starts living in Chicago under a fake name, Jimmy Lawrence, and dating a waitress named Polly Hamilton.",
+"v": [
+{
+"t": "video",
+"q": "1930s Chicago neighborhood",
+"alt": "Chicago apartment 1930s"
+},
+{
+"t": "photo",
+"q": "Polly Hamilton"
+}
+]
+},
+{
+"text": "Polly is staying with a friend, a woman named Ana Cumpanas. In America she goes by Anna Sage.",
+"v": [
+{
+"t": "photo",
+"q": "Anna Sage"
+},
+{
+"t": "video",
+"q": "1930s Chicago street women",
+"alt": "Chicago 1930s"
+}
+]
+},
+{
+"text": "Anna has a problem of her own. She has run brothels, and the government is trying to deport her to Romania.",
+"v": [
+{
+"t": "card",
+"text": "DEPORTATION"
+},
+{
+"t": "photo",
+"q": "Anna Sage 1934"
+}
+]
+},
+{
+"text": "She realises who her friend's boyfriend really is. And she sees a way out.",
+"v": [
+{
+"t": "photo",
+"q": "Anna Sage"
+},
+{
+"t": "big",
+"big": "DAY 135",
+"small": "the deal"
+}
+]
+},
+{
+"text": "Mid-July. Anna contacts a police sergeant she knows in East Chicago, Martin Zarkovich.",
+"v": [
+{
+"t": "photo",
+"q": "East Chicago Indiana"
+},
+{
+"t": "video",
+"q": "1930s police telephone",
+"alt": "1930s telephone"
+}
+]
+},
+{
+"text": "Zarkovich takes her to Melvin Purvis. They meet in a parked car on a Chicago street.",
+"v": [
+{
+"t": "video",
+"q": "1930s parked car night",
+"alt": "Chicago 1934 street"
+},
+{
+"t": "photo",
+"q": "Melvin Purvis"
+}
+]
+},
+{
+"text": "She makes an offer. She will tell them where Dillinger will be. In return, she wants the reward, and help with her deportation.",
+"v": [
+{
+"t": "quote",
+"text": "I will tell you where he will be.",
+"by": "the offer, in short"
+},
+{
+"t": "photo",
+"q": "Anna Sage"
+}
+]
+},
+{
+"text": "Purvis agrees to put in a word for her. He says he cannot promise more.",
+"v": [
+{
+"t": "photo",
+"q": "Melvin Purvis desk"
+},
+{
+"t": "card",
+"text": "NO PROMISE"
+}
+]
+},
+{
+"text": "Then she gives them the detail that makes the trap possible.",
+"v": [
+{
+"t": "video",
+"q": "1930s movie theater marquee",
+"alt": "movie theater 1930s"
+}
+]
+},
+{
+"text": "On the night of July 22nd, Dillinger plans to take her and Polly to the movies.",
+"v": [
+{
+"t": "big",
+"big": "JULY 22",
+"small": "1934"
+},
+{
+"t": "video",
+"q": "1930s movie theater crowd",
+"alt": "Biograph Theater"
+}
+]
+},
+{
+"text": "She is not sure which cinema. It will be the Marbro, or the Biograph.",
+"v": [
+{
+"t": "photo",
+"q": "Biograph Theater"
+},
+{
+"t": "photo",
+"q": "Marbro Theater Chicago"
+}
+]
+},
+{
+"text": "And she will wear orange, so the agents can spot her in the crowd.",
+"v": [
+{
+"t": "card",
+"text": "ORANGE DRESS"
+},
+{
+"t": "video",
+"q": "1930s woman dress street",
+"alt": "Anna Sage"
+}
+]
+},
+{
+"text": "Under the theater lights it looks red. The newspapers will call her the Woman in Red.",
+"v": [
+{
+"t": "photo",
+"q": "Anna Sage woman in red"
+},
+{
+"t": "video",
+"q": "neon lights night",
+"alt": "Biograph Theater night"
+}
+]
+},
+{
+"text": "Sunday, July 22nd, 1934. Chicago is sweltering in a summer heat wave.",
+"v": [
+{
+"t": "video",
+"q": "1930s Chicago summer heat",
+"alt": "Chicago 1934"
+},
+{
+"t": "big",
+"big": "DAY 141",
+"small": "Chicago"
+}
+]
+},
+{
+"text": "Anna calls in the evening. They are going out soon. She still does not know which theater.",
+"v": [
+{
+"t": "video",
+"q": "1930s telephone call",
+"alt": "1930s telephone"
+},
+{
+"t": "photo",
+"q": "Anna Sage"
+}
+]
+},
+{
+"text": "Purvis splits his men. Some go to the Marbro. Others wait near the Biograph on Lincoln Avenue.",
+"v": [
+{
+"t": "video",
+"q": "1930s men hats street",
+"alt": "Lincoln Avenue Chicago"
+},
+{
+"t": "photo",
+"q": "Marbro Theater Chicago"
+}
+]
+},
+{
+"text": "At the Biograph, a banner promises the theater is cool inside. Air conditioning is still a novelty.",
+"v": [
+{
+"t": "photo",
+"q": "Biograph Theater"
+},
+{
+"t": "card",
+"text": "COOL INSIDE"
+}
+]
+},
+{
+"text": "Around half past eight, three people walk up to the ticket booth.",
+"v": [
+{
+"t": "video",
+"q": "1930s ticket booth theater",
+"alt": "Biograph Theater entrance"
+}
+]
+},
+{
+"text": "A man in a straw hat and glasses. Polly Hamilton. And a woman in orange.",
+"v": [
+{
+"t": "photo",
+"q": "John Dillinger"
+},
+{
+"t": "photo",
+"q": "Polly Hamilton"
+}
+]
+},
+{
+"text": "Purvis sees them. He is sure. It is Dillinger.",
+"v": [
+{
+"t": "photo",
+"q": "Melvin Purvis"
+},
+{
+"t": "card",
+"text": "IT IS HIM"
+}
+]
+},
+{
+"text": "The film is Manhattan Melodrama, starring Clark Gable as a gangster who goes to the electric chair.",
+"v": [
+{
+"t": "photo",
+"q": "Manhattan Melodrama"
+},
+{
+"t": "photo",
+"q": "Clark Gable 1934"
+}
+]
+},
+{
+"text": "Purvis calls the Marbro team over. Now every way out is covered.",
+"v": [
+{
+"t": "video",
+"q": "1930s cars street chicago",
+"alt": "Chicago street 1930s"
+},
+{
+"t": "list",
+"title": "THE TRAP",
+"lines": [
+"Agents on both sides",
+"Every exit watched",
+"One signal: the cigar"
+]
+}
+]
+},
+{
+"text": "The plan is simple. When Dillinger walks out, Purvis will light his cigar. That is the signal to close in.",
+"v": [
+{
+"t": "photo",
+"q": "Melvin Purvis"
+},
+{
+"t": "card",
+"text": "THE CIGAR"
+}
+]
+},
+{
+"text": "Then they wait. The film runs for more than an hour and a half.",
+"v": [
+{
+"t": "video",
+"q": "vintage clock ticking",
+"alt": "clock 1930s"
+},
+{
+"t": "video",
+"q": "1930s movie theater interior",
+"alt": "theater interior"
+}
+]
+},
+{
+"text": "Inside, Dillinger is watching a movie gangster walk calmly to his own execution.",
+"v": [
+{
+"t": "photo",
+"q": "Manhattan Melodrama 1934"
+},
+{
+"t": "video",
+"q": "old film projector",
+"alt": "film projector"
+}
+]
+},
+{
+"text": "Outside, the theater staff notice strange men hanging around. Someone calls the local police, fearing a robbery.",
+"v": [
+{
+"t": "photo",
+"q": "Biograph Theater"
+},
+{
+"t": "video",
+"q": "1930s police car",
+"alt": "Chicago police 1930s"
+}
+]
+},
+{
+"text": "Officers arrive. Agents have to quietly wave them off before the crowd notices.",
+"v": [
+{
+"t": "video",
+"q": "1930s police officers street",
+"alt": "Chicago police 1934"
+},
+{
+"t": "card",
+"text": "ALMOST BLOWN"
+}
+]
+},
+{
+"text": "At about 10:30, the doors open. The crowd comes out into the heat.",
+"v": [
+{
+"t": "video",
+"q": "1930s crowd leaving theater",
+"alt": "Biograph Theater"
+},
+{
+"t": "big",
+"big": "10:30 PM",
+"small": "the doors open"
+}
+]
+},
+{
+"text": "Dillinger walks out between the two women and turns down the sidewalk.",
+"v": [
+{
+"t": "photo",
+"q": "Biograph Theater Lincoln Avenue"
+},
+{
+"t": "video",
+"q": "1930s sidewalk walking",
+"alt": "Lincoln Avenue"
+}
+]
+},
+{
+"text": "Purvis lights his cigar.",
+"v": [
+{
+"t": "card",
+"text": "THE SIGNAL"
+},
+{
+"t": "photo",
+"q": "Melvin Purvis"
+}
+]
+},
+{
+"text": "Dillinger seems to sense it. He glances back, and moves toward an alley.",
+"v": [
+{
+"t": "video",
+"q": "1930s alley chicago",
+"alt": "Biograph Theater alley"
+},
+{
+"t": "photo",
+"q": "Biograph Theater alley"
+}
+]
+},
+{
+"text": "Agents later said he reached for a pistol. Three of them fire.",
+"v": [
+{
+"t": "video",
+"q": "old revolver",
+"alt": "Colt pistol 1930s"
+},
+{
+"t": "card",
+"text": "THREE AGENTS FIRE"
+}
+]
+},
+{
+"text": "Dillinger falls at the mouth of the alley. Two women in the crowd are wounded by stray bullets.",
+"v": [
+{
+"t": "photo",
+"q": "Biograph Theater alley 1934"
+},
+{
+"t": "video",
+"q": "1930s crowd newsreel",
+"alt": "crowd 1934"
+}
+]
+},
+{
+"text": "He is taken to a nearby hospital, where he is pronounced dead.",
+"v": [
+{
+"t": "video",
+"q": "1930s ambulance",
+"alt": "Alexian Brothers Hospital Chicago"
+},
+{
+"t": "big",
+"big": "141 DAYS",
+"small": "the hunt is over"
+}
+]
+},
+{
+"text": "Within minutes, a crowd swarms the alley. Some people dip handkerchiefs in the blood on the pavement as souvenirs.",
+"v": [
+{
+"t": "video",
+"q": "1930s crowd newsreel chicago",
+"alt": "Biograph Theater crowd"
+},
+{
+"t": "card",
+"text": "SOUVENIRS"
+}
+]
+},
+{
+"text": "Thousands line up at the Cook County morgue to see the body.",
+"v": [
+{
+"t": "photo",
+"q": "Dillinger morgue"
+},
+{
+"t": "video",
+"q": "1930s long line people",
+"alt": "Cook County morgue"
+}
+]
+},
+{
+"text": "The fingerprints are checked. Despite the acid, they match.",
+"v": [
+{
+"t": "photo",
+"q": "Dillinger fingerprints"
+},
+{
+"t": "card",
+"text": "A MATCH"
+}
+]
+},
+{
+"text": "The 141-day manhunt is over. But the story is not.",
+"v": [
+{
+"t": "video",
+"q": "1930s newsreel headlines",
+"alt": "newspaper Dillinger dead"
+},
+{
+"t": "big",
+"big": "DAY 141",
+"small": "the end"
+}
+]
+},
+{
+"text": "Anna Sage gets part of the reward, five thousand dollars.",
+"v": [
+{
+"t": "big",
+"big": "$5,000",
+"small": "her reward"
+},
+{
+"t": "photo",
+"q": "Anna Sage"
+}
+]
+},
+{
+"text": "But the deportation goes ahead. In 1936 she is sent back to Romania, where she dies more than a decade later.",
+"v": [
+{
+"t": "photo",
+"q": "Anna Sage 1936"
+},
+{
+"t": "video",
+"q": "1930s ship departing",
+"alt": "ocean liner 1930s"
+}
+]
+},
+{
+"text": "Melvin Purvis becomes the most famous lawman in America. Within a year, he leaves the Bureau.",
+"v": [
+{
+"t": "photo",
+"q": "Melvin Purvis"
+},
+{
+"t": "card",
+"text": "FAMOUS, THEN GONE"
+}
+]
+},
+{
+"text": "Many believed Hoover resented sharing the spotlight. Purvis said little about it in public.",
+"v": [
+{
+"t": "photo",
+"q": "J. Edgar Hoover"
+},
+{
+"t": "photo",
+"q": "Melvin Purvis 1935"
+}
+]
+},
+{
+"text": "And the agency that set the trap? In 1935 it gets a new name: the Federal Bureau of Investigation.",
+"v": [
+{
+"t": "photo",
+"q": "Federal Bureau of Investigation seal"
+},
+{
+"t": "video",
+"q": "FBI 1930s newsreel",
+"alt": "J. Edgar Hoover 1935"
+}
+]
+},
+{
+"text": "The Dillinger case helped turn it from a small office into the most powerful police agency in the country.",
+"v": [
+{
+"t": "video",
+"q": "1930s FBI headquarters",
+"alt": "Department of Justice building 1930s"
+},
+{
+"t": "list",
+"title": "WHAT CHANGED",
+"lines": [
+"New federal crime laws",
+"Armed federal agents",
+"A new name: FBI"
+]
+}
+]
+},
+{
+"text": "One part of the story still starts arguments: what exactly Anna Sage was promised.",
+"v": [
+{
+"t": "photo",
+"q": "Anna Sage"
+},
+{
+"t": "card",
+"text": "WHAT WAS PROMISED?"
+}
+]
+},
+{
+"text": "She said she was led to believe she could stay in America. Purvis said he had only promised to help.",
+"v": [
+{
+"t": "photo",
+"q": "Anna Sage 1934"
+},
+{
+"t": "photo",
+"q": "Melvin Purvis"
+}
+]
+},
+{
+"text": "Either way, the most wanted man in America was not stopped by a fingerprint, a car, or a gunfight in the woods.",
+"v": [
+{
+"t": "photo",
+"q": "Little Bohemia Lodge"
+},
+{
+"t": "photo",
+"q": "Old Lake County Jail"
+}
+]
+},
+{
+"text": "He was found because he wanted to see a movie on a hot night, and trusted the wrong friend.",
+"v": [
+{
+"t": "photo",
+"q": "Biograph Theater"
+},
+{
+"t": "card",
+"text": "THE WRONG FRIEND"
+}
+]
+},
+{
+"text": "The Biograph Theater still stands on Lincoln Avenue today.",
+"v": [
+{
+"t": "photo",
+"q": "Biograph Theater"
+},
+{
+"t": "video",
+"q": "Lincoln Avenue Chicago street",
+"alt": "Biograph Theater Chicago"
+}
+]
+},
+{
+"text": "And the alley next to it is exactly where the hunt for Public Enemy Number One ended.",
+"v": [
+{
+"t": "photo",
+"q": "Biograph Theater alley"
+},
+{
+"t": "big",
+"big": "141 DAYS",
+"small": "one cigar"
+}
+]
+}
+]
+}

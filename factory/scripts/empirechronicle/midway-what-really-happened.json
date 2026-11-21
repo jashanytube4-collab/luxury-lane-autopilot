@@ -1,0 +1,1133 @@
+{
+"channel": "empirechronicle",
+"slug": "midway-what-really-happened",
+"title": "What Really Happened At Midway: The Battle That Changed The Pacific War",
+"thumb": {
+"strip": "THE TRUE STORY",
+"words": "MIDWAY",
+"face_q": "Japanese aircraft carrier Hiryu burning 1942"
+},
+"sources": [
+"Naval History and Heritage Command (history.navy.mil): Battle of Midway; Recollections of Lt. George Gay (oral history)",
+"NAVSEA: Battle of Midway (Yorktown restored in 72 hours); Britannica: Battle of Midway",
+"Parshall & Tully, Shattered Sword (2005) on the 'five minutes' claim; Fuchida's postwar account",
+"USNI Naval History Jun 2017 'Torpedo Eight's Celebrated Survivor' (Gay = only survivor of the 30 who flew from Hornet)",
+"Footage: The Battle of Midway (1942, John Ford, US Navy, public domain); NHHC photos (US Navy, public domain)",
+"Hedged in script: codebreakers read 'only pieces'; casualties 'about' 3,000 / 300; Best's bomb 'very likely'; Ford wounded by a fragment (his account)"
+],
+"beats": [
+{
+"text": "On the morning of June the fourth, 1942, four Japanese aircraft carriers were sailing toward a tiny island in the middle of the Pacific.",
+"v": [
+{
+"t": "video",
+"q": "The Battle of Midway 1942 John Ford",
+"alt": "Battle of Midway 1942"
+},
+{
+"t": "big",
+"big": "4 JUNE 1942",
+"small": "the Pacific"
+}
+]
+},
+{
+"text": "By that evening, all four were burning.",
+"v": [
+{
+"t": "photo",
+"q": "Japanese aircraft carrier Hiryu burning 1942"
+},
+{
+"t": "card",
+"text": "ALL FOUR"
+}
+]
+},
+{
+"text": "The films tell it as a miracle. A lucky dive at the perfect second, five minutes before Japan would have won.",
+"v": [
+{
+"t": "video",
+"q": "SBD Dauntless dive bomber 1942",
+"alt": "dive bomber"
+},
+{
+"t": "card",
+"text": "THE MIRACLE?"
+}
+]
+},
+{
+"text": "The real story is stranger. It was won by a fake message about drinking water, a ship that should not have been there, and a pilot who followed a single wake across the sea.",
+"v": [
+{
+"t": "video",
+"q": "Midway Atoll 1942",
+"alt": "Midway island"
+},
+{
+"t": "card",
+"text": "THE REAL STORY"
+}
+]
+},
+{
+"text": "Six months earlier, Japan had struck Pearl Harbor. Since then, it had not lost a single major battle.",
+"v": [
+{
+"t": "video",
+"q": "Pearl Harbor attack 1941 footage",
+"alt": "Pearl Harbor 1941"
+},
+{
+"t": "photo",
+"q": "USS Arizona burning Pearl Harbor"
+}
+]
+},
+{
+"text": "Admiral Isoroku Yamamoto wanted to finish the job. He would take Midway and lure the surviving American carriers out to be destroyed.",
+"v": [
+{
+"t": "photo",
+"q": "Isoroku Yamamoto"
+},
+{
+"t": "video",
+"q": "Japanese navy fleet 1942",
+"alt": "Imperial Japanese Navy"
+}
+]
+},
+{
+"text": "Midway was a small atoll, two little islands and a lagoon, about thirteen hundred miles from Hawaii.",
+"v": [
+{
+"t": "photo",
+"q": "Midway Atoll aerial 1941"
+},
+{
+"t": "big",
+"big": "1,300 MILES",
+"small": "from Hawaii"
+}
+]
+},
+{
+"text": "But it was the last American outpost before Pearl Harbor itself.",
+"v": [
+{
+"t": "video",
+"q": "Midway island 1942 film",
+"alt": "Midway Atoll"
+},
+{
+"t": "photo",
+"q": "Sand Island Midway 1941"
+}
+]
+},
+{
+"text": "Yamamoto sent a huge force. Carriers, battleships, transports, and a strike at Alaska to pull eyes away.",
+"v": [
+{
+"t": "video",
+"q": "Japanese battleship 1942",
+"alt": "battleship"
+},
+{
+"t": "list",
+"title": "OPERATION MI",
+"lines": [
+"4 fleet carriers",
+"battleships",
+"invasion transports",
+"a raid on Alaska"
+]
+}
+]
+},
+{
+"text": "At the heart of it were four carriers under Admiral Chuichi Nagumo. Akagi, Kaga, Soryu and Hiryu. Four of the six that had hit Pearl Harbor.",
+"v": [
+{
+"t": "photo",
+"q": "Chuichi Nagumo"
+},
+{
+"t": "photo",
+"q": "Japanese aircraft carrier Akagi"
+}
+]
+},
+{
+"text": "He expected to surprise the Americans. Instead, the Americans were waiting for him.",
+"v": [
+{
+"t": "video",
+"q": "US Navy aircraft carrier 1942",
+"alt": "aircraft carrier"
+},
+{
+"t": "card",
+"text": "THEY WERE WAITING"
+}
+]
+},
+{
+"text": "In a windowless basement at Pearl Harbor, a team of codebreakers worked around the clock. Their leader was Commander Joseph Rochefort.",
+"v": [
+{
+"t": "photo",
+"q": "Joseph Rochefort"
+},
+{
+"t": "video",
+"q": "Navy radio intelligence 1940s",
+"alt": "cryptography 1940s"
+}
+]
+},
+{
+"text": "Films often show them reading Japan's plans like a newspaper. In reality, they could read only pieces of each message.",
+"v": [
+{
+"t": "video",
+"q": "teletype machine 1940s",
+"alt": "teletype"
+},
+{
+"t": "card",
+"text": "ONLY PIECES"
+}
+]
+},
+{
+"text": "And one piece kept coming back. The next target was called AF. But where was AF?",
+"v": [
+{
+"t": "big",
+"big": "AF",
+"small": "the target"
+},
+{
+"t": "photo",
+"q": "Pacific Ocean map 1942"
+}
+]
+},
+{
+"text": "Rochefort was sure AF meant Midway. Some officers in Washington were not. A wrong guess could lose the war in the Pacific.",
+"v": [
+{
+"t": "photo",
+"q": "Joseph Rochefort"
+},
+{
+"t": "video",
+"q": "Washington DC 1942",
+"alt": "Washington 1940s"
+}
+]
+},
+{
+"text": "So his team set a trap. Midway was told to send a message in plain language, saying its water plant had broken down.",
+"v": [
+{
+"t": "video",
+"q": "Midway island 1942",
+"alt": "Midway Atoll"
+},
+{
+"t": "card",
+"text": "OUR WATER PLANT HAS BROKEN DOWN"
+}
+]
+},
+{
+"text": "Soon the codebreakers picked up a Japanese report. AF, it said, was short of water.",
+"v": [
+{
+"t": "video",
+"q": "radio operator 1942",
+"alt": "radio operator"
+},
+{
+"t": "quote",
+"text": "AF is short of water.",
+"by": "Japanese report, May 1942"
+}
+]
+},
+{
+"text": "Now Admiral Chester Nimitz knew where. And from the pieces, roughly when.",
+"v": [
+{
+"t": "photo",
+"q": "Chester Nimitz"
+},
+{
+"t": "video",
+"q": "Pearl Harbor 1942",
+"alt": "Pearl Harbor"
+}
+]
+},
+{
+"text": "But knowing was not enough. He had only three carriers to bring. And one of them was badly damaged.",
+"v": [
+{
+"t": "video",
+"q": "aircraft carrier at sea 1942",
+"alt": "aircraft carrier"
+},
+{
+"t": "big",
+"big": "3 vs 4",
+"small": "carriers"
+}
+]
+},
+{
+"text": "USS Yorktown had been hit a month earlier in the Coral Sea. Repairs were expected to take weeks.",
+"v": [
+{
+"t": "photo",
+"q": "USS Yorktown CV-5"
+},
+{
+"t": "photo",
+"q": "USS Yorktown dry dock Pearl Harbor May 1942"
+}
+]
+},
+{
+"text": "Nimitz gave the yard three days. Workers swarmed her day and night, and in about seventy-two hours, Yorktown sailed.",
+"v": [
+{
+"t": "video",
+"q": "shipyard workers welding 1940s",
+"alt": "shipyard"
+},
+{
+"t": "big",
+"big": "72 HOURS",
+"small": "to sail again"
+}
+]
+},
+{
+"text": "Japan believed Yorktown was out of the war. That was the ship that should not have been there.",
+"v": [
+{
+"t": "photo",
+"q": "USS Yorktown CV-5"
+},
+{
+"t": "card",
+"text": "THE SHIP THAT SHOULDN'T BE THERE"
+}
+]
+},
+{
+"text": "There was one more problem. Admiral Halsey, the most famous carrier commander, was in hospital with a painful skin disease.",
+"v": [
+{
+"t": "photo",
+"q": "William Halsey"
+},
+{
+"t": "card",
+"text": "HALSEY IS OUT"
+}
+]
+},
+{
+"text": "He picked a quiet cruiser admiral to replace him. Raymond Spruance had never commanded carriers in battle.",
+"v": [
+{
+"t": "photo",
+"q": "Raymond Spruance"
+},
+{
+"t": "video",
+"q": "US Navy cruiser 1942",
+"alt": "cruiser"
+}
+]
+},
+{
+"text": "On the island, a Hollywood director was waiting too. Commander John Ford of the Navy had come with a small film camera.",
+"v": [
+{
+"t": "photo",
+"q": "John Ford director Navy"
+},
+{
+"t": "video",
+"q": "The Battle of Midway 1942 John Ford",
+"alt": "Battle of Midway film"
+}
+]
+},
+{
+"text": "Before dawn on June the fourth, a patrol plane found the Japanese fleet.",
+"v": [
+{
+"t": "photo",
+"q": "PBY Catalina"
+},
+{
+"t": "video",
+"q": "PBY Catalina flying boat",
+"alt": "PBY Catalina"
+}
+]
+},
+{
+"text": "At six thirty, more than a hundred Japanese planes hit Midway.",
+"v": [
+{
+"t": "video",
+"q": "The Battle of Midway 1942 John Ford",
+"alt": "Midway attack 1942"
+},
+{
+"t": "big",
+"big": "6:30 AM",
+"small": "Midway is hit"
+}
+]
+},
+{
+"text": "Ford kept filming as bombs fell. He was hit in the arm by a fragment and kept going. Some of that shaking film is what you are seeing now.",
+"v": [
+{
+"t": "video",
+"q": "The Battle of Midway 1942 John Ford",
+"alt": "Midway 1942 film"
+},
+{
+"t": "card",
+"text": "JOHN FORD'S CAMERA"
+}
+]
+},
+{
+"text": "Midway's own fighters were old and outclassed. Most of them were shot down or wrecked.",
+"v": [
+{
+"t": "photo",
+"q": "Brewster F2A Buffalo"
+},
+{
+"t": "video",
+"q": "Midway fighter planes 1942",
+"alt": "fighter planes 1942"
+}
+]
+},
+{
+"text": "Bombers from the island attacked the carriers next. They scored no hits. But they kept Nagumo under pressure all morning.",
+"v": [
+{
+"t": "photo",
+"q": "B-26 Marauder Midway"
+},
+{
+"t": "video",
+"q": "B-17 bombers 1942",
+"alt": "B-17"
+}
+]
+},
+{
+"text": "Then his strike leader radioed. Midway needed a second attack.",
+"v": [
+{
+"t": "video",
+"q": "Japanese aircraft 1942",
+"alt": "Zero fighter"
+},
+{
+"t": "card",
+"text": "A SECOND STRIKE"
+}
+]
+},
+{
+"text": "Nagumo had planes waiting, armed with torpedoes in case American ships appeared. He ordered them switched to bombs for the island.",
+"v": [
+{
+"t": "photo",
+"q": "Chuichi Nagumo"
+},
+{
+"t": "card",
+"text": "TORPEDOES OUT, BOMBS IN"
+}
+]
+},
+{
+"text": "Then a late scout plane reported something he did not expect. American ships. Then, an American carrier.",
+"v": [
+{
+"t": "video",
+"q": "aircraft carrier from the air 1942",
+"alt": "carrier at sea"
+},
+{
+"t": "big",
+"big": "A CARRIER",
+"small": "where none should be"
+}
+]
+},
+{
+"text": "Now he had to recover his returning planes, rearm again, and fight. All at once.",
+"v": [
+{
+"t": "photo",
+"q": "Japanese aircraft carrier Kaga"
+},
+{
+"t": "card",
+"text": "ALL AT ONCE"
+}
+]
+},
+{
+"text": "Spruance, meanwhile, made the boldest call of the day. He launched early, at long range, to catch the Japanese with planes on deck.",
+"v": [
+{
+"t": "photo",
+"q": "Raymond Spruance"
+},
+{
+"t": "video",
+"q": "aircraft carrier launch 1942",
+"alt": "carrier takeoff"
+}
+]
+},
+{
+"text": "The first Americans to arrive were the slow torpedo bombers.",
+"v": [
+{
+"t": "photo",
+"q": "TBD Devastator"
+},
+{
+"t": "video",
+"q": "torpedo bomber 1942",
+"alt": "Devastator"
+}
+]
+},
+{
+"text": "Torpedo Squadron Eight, from Hornet, found the carriers alone. Fifteen planes, no fighter cover.",
+"v": [
+{
+"t": "photo",
+"q": "Torpedo Squadron 8 1942"
+},
+{
+"t": "big",
+"big": "15 PLANES",
+"small": "no fighters"
+}
+]
+},
+{
+"text": "Japanese fighters cut them down one after another. Not one torpedo hit.",
+"v": [
+{
+"t": "video",
+"q": "anti aircraft fire 1942",
+"alt": "anti-aircraft fire"
+},
+{
+"t": "card",
+"text": "NOT ONE HIT"
+}
+]
+},
+{
+"text": "Of the thirty men who flew, only one lived. Ensign George Gay, floating in the sea, hiding under a seat cushion.",
+"v": [
+{
+"t": "photo",
+"q": "George Gay Torpedo Squadron 8"
+},
+{
+"t": "big",
+"big": "1 OF 30",
+"small": "survived"
+}
+]
+},
+{
+"text": "More torpedo squadrons came in and were shot to pieces too.",
+"v": [
+{
+"t": "photo",
+"q": "TBD Devastator Midway"
+},
+{
+"t": "video",
+"q": "torpedo planes 1942",
+"alt": "torpedo bomber"
+}
+]
+},
+{
+"text": "Their sacrifice was real. Their attacks pulled Japanese fighters down to sea level, and kept the carriers turning and busy.",
+"v": [
+{
+"t": "video",
+"q": "Zero fighter 1942",
+"alt": "Japanese fighter"
+},
+{
+"t": "card",
+"text": "THE PRICE"
+}
+]
+},
+{
+"text": "High above, almost no one was watching the sky.",
+"v": [
+{
+"t": "video",
+"q": "dive bombers in flight 1942",
+"alt": "SBD Dauntless"
+},
+{
+"t": "card",
+"text": "LOOK UP"
+}
+]
+},
+{
+"text": "Lieutenant Commander Wade McClusky was leading Enterprise's dive bombers. He had searched past the point where the fleet should be. Fuel was running low.",
+"v": [
+{
+"t": "photo",
+"q": "Wade McClusky"
+},
+{
+"t": "photo",
+"q": "SBD Dauntless"
+}
+]
+},
+{
+"text": "Then he saw a lone Japanese destroyer, racing north at full speed.",
+"v": [
+{
+"t": "photo",
+"q": "Japanese destroyer Arashi"
+},
+{
+"t": "video",
+"q": "destroyer at sea 1940s",
+"alt": "destroyer"
+}
+]
+},
+{
+"text": "It had stayed behind to hunt an American submarine. Now it was running to catch up with the fleet.",
+"v": [
+{
+"t": "video",
+"q": "submarine 1942",
+"alt": "submarine"
+},
+{
+"t": "card",
+"text": "A SINGLE WAKE"
+}
+]
+},
+{
+"text": "McClusky followed its wake. It led him straight to the carriers.",
+"v": [
+{
+"t": "video",
+"q": "ship wake from the air",
+"alt": "ship wake"
+},
+{
+"t": "big",
+"big": "FOUND",
+"small": "the carriers"
+}
+]
+},
+{
+"text": "At about twenty past ten, his bombers tipped over and dived.",
+"v": [
+{
+"t": "video",
+"q": "SBD Dauntless dive bombing",
+"alt": "dive bomber"
+},
+{
+"t": "big",
+"big": "10:20 AM",
+"small": "the dive"
+}
+]
+},
+{
+"text": "At almost the same moment, Yorktown's dive bombers arrived from another direction. Nobody had planned it to the minute.",
+"v": [
+{
+"t": "photo",
+"q": "USS Yorktown CV-5"
+},
+{
+"t": "card",
+"text": "TWO SQUADRONS, ONE MOMENT"
+}
+]
+},
+{
+"text": "Kaga took several bombs. Soryu was hit by Yorktown's planes and was soon an inferno.",
+"v": [
+{
+"t": "photo",
+"q": "Japanese aircraft carrier Soryu"
+},
+{
+"t": "video",
+"q": "ship on fire 1940s",
+"alt": "burning ship"
+}
+]
+},
+{
+"text": "Lieutenant Dick Best and two wingmen went for Akagi, Nagumo's flagship.",
+"v": [
+{
+"t": "photo",
+"q": "Richard Halsey Best"
+},
+{
+"t": "photo",
+"q": "Japanese aircraft carrier Akagi"
+}
+]
+},
+{
+"text": "One bomb, very likely Best's own, smashed into the hangar, among fuelled and armed planes.",
+"v": [
+{
+"t": "video",
+"q": "explosion fire 1940s",
+"alt": "fire"
+},
+{
+"t": "card",
+"text": "ONE BOMB"
+}
+]
+},
+{
+"text": "In about six minutes, three of Japan's best carriers were finished.",
+"v": [
+{
+"t": "big",
+"big": "6 MINUTES",
+"small": "3 carriers"
+},
+{
+"t": "video",
+"q": "smoke over the sea 1942",
+"alt": "burning ships"
+}
+]
+},
+{
+"text": "Here the films usually add their famous line. Five more minutes, and Japan's planes would have launched.",
+"v": [
+{
+"t": "video",
+"q": "The Battle of Midway 1942 John Ford",
+"alt": "Midway 1942"
+},
+{
+"t": "card",
+"text": "'FIVE MORE MINUTES'"
+}
+]
+},
+{
+"text": "That came from Mitsuo Fuchida, a Japanese officer on Akagi, who wrote it after the war.",
+"v": [
+{
+"t": "photo",
+"q": "Mitsuo Fuchida"
+},
+{
+"t": "card",
+"text": "THE FILM SAYS: FIVE MINUTES"
+}
+]
+},
+{
+"text": "Historians Jonathan Parshall and Anthony Tully checked the Japanese records. The strike was nowhere near ready. Decks were busy with fighters.",
+"v": [
+{
+"t": "photo",
+"q": "Japanese carrier flight deck 1942"
+},
+{
+"t": "card",
+"text": "HISTORY SAYS: NOT EVEN CLOSE"
+}
+]
+},
+{
+"text": "So it was not five minutes of luck. Japan was already losing the race, because of choices made hours earlier.",
+"v": [
+{
+"t": "video",
+"q": "aircraft carrier flight deck 1942",
+"alt": "carrier deck"
+},
+{
+"t": "card",
+"text": "NOT LUCK"
+}
+]
+},
+{
+"text": "One Japanese carrier was still untouched. Hiryu.",
+"v": [
+{
+"t": "photo",
+"q": "Japanese aircraft carrier Hiryu"
+},
+{
+"t": "card",
+"text": "ONE LEFT"
+}
+]
+},
+{
+"text": "Her admiral, Tamon Yamaguchi, struck back fast. Her dive bombers followed the Americans home and found Yorktown.",
+"v": [
+{
+"t": "photo",
+"q": "Tamon Yamaguchi"
+},
+{
+"t": "video",
+"q": "anti aircraft fire carrier 1942",
+"alt": "anti-aircraft"
+}
+]
+},
+{
+"text": "Three bombs hit. Fires broke out. Yet within hours, Yorktown's crew had her moving again.",
+"v": [
+{
+"t": "photo",
+"q": "USS Yorktown hit Midway"
+},
+{
+"t": "video",
+"q": "damage control crew 1942",
+"alt": "sailors fire"
+}
+]
+},
+{
+"text": "So when Hiryu's torpedo planes came, they thought she was a second, undamaged carrier.",
+"v": [
+{
+"t": "photo",
+"q": "Japanese torpedo bomber"
+},
+{
+"t": "card",
+"text": "A 'SECOND' CARRIER"
+}
+]
+},
+{
+"text": "Two torpedoes hit. Yorktown rolled over to one side, and the crew was ordered to abandon ship.",
+"v": [
+{
+"t": "photo",
+"q": "USS Yorktown listing Midway"
+},
+{
+"t": "video",
+"q": "sailors abandon ship 1942",
+"alt": "rescue at sea"
+}
+]
+},
+{
+"text": "That afternoon, American dive bombers found Hiryu. Four bombs, and the last carrier was burning.",
+"v": [
+{
+"t": "video",
+"q": "SBD Dauntless dive bombing",
+"alt": "dive bomber"
+},
+{
+"t": "photo",
+"q": "Japanese aircraft carrier Hiryu burning 1942"
+}
+]
+},
+{
+"text": "Yamaguchi chose to stay aboard. He went down with his ship.",
+"v": [
+{
+"t": "photo",
+"q": "Tamon Yamaguchi"
+},
+{
+"t": "card",
+"text": "HE STAYED"
+}
+]
+},
+{
+"text": "That night, Spruance made his second great choice. He turned his carriers away, instead of chasing into the dark.",
+"v": [
+{
+"t": "photo",
+"q": "Raymond Spruance"
+},
+{
+"t": "video",
+"q": "ocean at night",
+"alt": "sea at night"
+}
+]
+},
+{
+"text": "Yamamoto's battleships were out there, hoping for a night fight the Americans would have lost. The trap closed on empty sea.",
+"v": [
+{
+"t": "photo",
+"q": "Japanese battleship Yamato"
+},
+{
+"t": "card",
+"text": "THE TRAP MISSED"
+}
+]
+},
+{
+"text": "Yorktown did not give up easily. She stayed afloat for two more days, until a Japanese submarine finished her.",
+"v": [
+{
+"t": "photo",
+"q": "USS Yorktown sinking 1942"
+},
+{
+"t": "video",
+"q": "submarine periscope",
+"alt": "submarine"
+}
+]
+},
+{
+"text": "By then the cruiser Mikuma had also been sunk, and Yamamoto had called the invasion off.",
+"v": [
+{
+"t": "photo",
+"q": "Japanese cruiser Mikuma wreck"
+},
+{
+"t": "card",
+"text": "INVASION CANCELLED"
+}
+]
+},
+{
+"text": "The cost was heavy on both sides. Japan lost four carriers and about three thousand men. America lost Yorktown, a destroyer, and about three hundred men.",
+"v": [
+{
+"t": "list",
+"title": "THE COST",
+"lines": [
+"Japan: 4 carriers, ~3,000 men",
+"US: Yorktown + 1 destroyer",
+"US: ~300 men"
+]
+},
+{
+"t": "video",
+"q": "The Battle of Midway 1942 John Ford",
+"alt": "Midway 1942"
+}
+]
+},
+{
+"text": "Japan would never again choose where the war in the Pacific was fought.",
+"v": [
+{
+"t": "video",
+"q": "Pacific Ocean aerial",
+"alt": "Pacific Ocean"
+},
+{
+"t": "big",
+"big": "THE TURN",
+"small": "of the Pacific war"
+}
+]
+},
+{
+"text": "So what happened to them after?",
+"v": [
+{
+"t": "video",
+"q": "The Battle of Midway 1942 John Ford",
+"alt": "Midway 1942"
+},
+{
+"t": "card",
+"text": "WHAT HAPPENED AFTER"
+}
+]
+},
+{
+"text": "George Gay spent hours in the water and was picked up by a patrol plane the next day. He lived to tell the story for the rest of his life.",
+"v": [
+{
+"t": "photo",
+"q": "George Gay Torpedo Squadron 8"
+},
+{
+"t": "photo",
+"q": "PBY Catalina"
+}
+]
+},
+{
+"text": "Dick Best never flew in combat again. A faulty oxygen system made him sick, and doctors found tuberculosis.",
+"v": [
+{
+"t": "photo",
+"q": "Richard Halsey Best"
+},
+{
+"t": "card",
+"text": "HE NEVER FLEW AGAIN"
+}
+]
+},
+{
+"text": "Joseph Rochefort was moved away from codebreaking after quarrels in Washington. He was sent to run a floating dry dock.",
+"v": [
+{
+"t": "photo",
+"q": "Joseph Rochefort"
+},
+{
+"t": "card",
+"text": "SENT AWAY"
+}
+]
+},
+{
+"text": "He got his medal only in 1986, long after his death.",
+"v": [
+{
+"t": "photo",
+"q": "Joseph Rochefort"
+},
+{
+"t": "big",
+"big": "1986",
+"small": "his medal"
+}
+]
+},
+{
+"text": "And Yamamoto? Less than a year later, American codebreakers read his travel plans. His plane was shot down over the jungle.",
+"v": [
+{
+"t": "photo",
+"q": "Isoroku Yamamoto"
+},
+{
+"t": "video",
+"q": "P-38 Lightning",
+"alt": "P-38 Lightning"
+}
+]
+},
+{
+"text": "John Ford turned his footage into a short Navy film. It won an Oscar.",
+"v": [
+{
+"t": "photo",
+"q": "John Ford director Navy"
+},
+{
+"t": "video",
+"q": "The Battle of Midway 1942 John Ford",
+"alt": "Battle of Midway film"
+}
+]
+},
+{
+"text": "So how true is the movie version? The courage is true. The sacrifice is true. The timing really was razor thin.",
+"v": [
+{
+"t": "video",
+"q": "SBD Dauntless dive bomber 1942",
+"alt": "dive bomber"
+},
+{
+"t": "card",
+"text": "THE VERDICT"
+}
+]
+},
+{
+"text": "But Midway was not a miracle. It was a codebreaker's trap, a ship repaired in three days, and a pilot who trusted a single wake.",
+"v": [
+{
+"t": "list",
+"title": "WHAT REALLY WON IT",
+"lines": [
+"the water-plant trap",
+"Yorktown in 72 hours",
+"McClusky's wake",
+"Spruance's choices"
+]
+},
+{
+"t": "video",
+"q": "Midway Atoll 1942",
+"alt": "Midway"
+}
+]
+},
+{
+"text": "If you want the true story behind the next big war film, subscribe. The real history is always stranger.",
+"v": [
+{
+"t": "video",
+"q": "The Battle of Midway 1942 John Ford",
+"alt": "Midway 1942"
+},
+{
+"t": "card",
+"text": "THE TRUE STORY"
+}
+]
+}
+]
+}

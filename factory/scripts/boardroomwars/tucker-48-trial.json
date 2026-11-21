@@ -1,0 +1,944 @@
+{
+"channel": "boardroomwars",
+"slug": "tucker-48-trial",
+"title": "The Car Detroit Feared: Why Preston Tucker Went On Trial Over 51 Cars",
+"thumb": {
+"strip": "THE TUCKER TRIAL",
+"words": "HE WON. HE LOST.",
+"face_q": "Preston Tucker"
+},
+"sources": [
+"The Henry Ford, 'The Tucker 48: The Car You Have Been Waiting For': 51 cars built before money ran out and bad publicity closed the company",
+"Hagerty, '75 Years Ago, Tucker's Dream Officially Died': 50 production cars plus the Tin Goose prototype; assets sold",
+"Wikipedia 'Preston Tucker' / 'Tucker 48': indictment 10 Jun 1949 (Tucker + 7 associates, 31 counts: 25 mail fraud, 5 SEC, 1 conspiracy); trial opened Oct 1949, prosecution built on the Tin Goose; acquittal 22 Jan 1950 after ~17.5 h deliberation; 'good faith is a complete defense' instruction; assets sold for ~18 cents on the dollar; Dodge Chicago plant lease from War Assets Administration; Tin Goose unveiling June 1947; Tucker died 26 Dec 1956 (lung cancer), Carioca project in Brazil",
+"Time magazine archive (1949-50) coverage of the Tucker case; Christian Science Monitor 1988 'Debate lingers over real Tucker' (conspiracy unproven)",
+"Footage/photos: Wikimedia Commons photos of surviving Tucker 48s (CC BY / CC BY-SA, credit in description), PD US-government/press photos, PD 1940s industrial films (archive.org Prelinger). No clips from the 1988 film.",
+"Hedged in script: turret described generally (no claim it was widely used), witnesses 'many admitted' kept general, stock raise 'roughly fifteen million', accessories 'about two million', unveiling troubles 'the story goes', SEC report leak 'reportedly', 18 cents 'reportedly', jury instruction 'as reported', conspiracy stated as unproven"
+],
+"beats": [
+{
+"text": "Chicago. January 1950. A jury files back into a federal courtroom.",
+"v": [
+{
+"t": "photo",
+"q": "Chicago Federal Building"
+},
+{
+"t": "big",
+"big": "CHICAGO",
+"small": "January 1950"
+}
+]
+},
+{
+"text": "At the defence table sits a car maker named Preston Tucker. He is charged with fraud, and he could go to prison.",
+"v": [
+{
+"t": "photo",
+"q": "Preston Tucker"
+},
+{
+"t": "card",
+"text": "CHARGED WITH FRAUD"
+}
+]
+},
+{
+"text": "The government says his car was a fake. A dream sold to thousands of people who would never get one.",
+"v": [
+{
+"t": "photo",
+"q": "Tucker 48 prototype Tin Goose"
+},
+{
+"t": "card",
+"text": "'A FAKE'"
+}
+]
+},
+{
+"text": "But parked outside are real Tucker cars. Built, driven and working.",
+"v": [
+{
+"t": "photo",
+"q": "Tucker 48"
+},
+{
+"t": "card",
+"text": "THE CARS ARE REAL"
+}
+]
+},
+{
+"text": "In a few minutes the jury will say not guilty on every count.",
+"v": [
+{
+"t": "photo",
+"q": "Chicago Federal Building"
+},
+{
+"t": "big",
+"big": "NOT GUILTY",
+"small": "every count"
+}
+]
+},
+{
+"text": "And it will not matter. Because his company is already gone.",
+"v": [
+{
+"t": "photo",
+"q": "Dodge Chicago Plant"
+},
+{
+"t": "card",
+"text": "ALREADY GONE"
+}
+]
+},
+{
+"text": "This is the story of the car that promised to change Detroit, and the trial that killed it, even though he won.",
+"v": [
+{
+"t": "video",
+"q": "1940s automobile assembly line film",
+"alt": "1940s car factory film"
+},
+{
+"t": "card",
+"text": "HE WON. HE LOST."
+}
+]
+},
+{
+"text": "Preston Tucker grew up around cars in Michigan. As a teenager he was already buying, fixing and selling them.",
+"v": [
+{
+"t": "photo",
+"q": "Preston Tucker young"
+},
+{
+"t": "big",
+"big": "PRESTON TUCKER",
+"small": "Michigan"
+}
+]
+},
+{
+"text": "He sold cars, worked on race cars at Indianapolis, and in the late 1930s helped build an armoured combat car for the army.",
+"v": [
+{
+"t": "photo",
+"q": "Tucker Combat Car"
+},
+{
+"t": "photo",
+"q": "Indianapolis Motor Speedway 1930s"
+}
+]
+},
+{
+"text": "The army did not buy the car. But Tucker learned one thing. He could sell an idea before it existed.",
+"v": [
+{
+"t": "photo",
+"q": "Preston Tucker"
+},
+{
+"t": "card",
+"text": "SELL THE IDEA FIRST"
+}
+]
+},
+{
+"text": "During the war he also designed a fast gun turret for aircraft and boats. It made his name known in Washington, and gave him his first taste of big government contracts.",
+"v": [
+{
+"t": "photo",
+"q": "Tucker turret"
+},
+{
+"t": "card",
+"text": "A NAME IN WASHINGTON"
+}
+]
+},
+{
+"text": "Then the war ends. And America is desperate for new cars.",
+"v": [
+{
+"t": "video",
+"q": "Chicago 1940s street film",
+"alt": "1940s American street film"
+},
+{
+"t": "card",
+"text": "1945"
+}
+]
+},
+{
+"text": "For almost four years, the big car makers built tanks and planes instead. Most of their new models are just pre-war designs.",
+"v": [
+{
+"t": "video",
+"q": "1940s automobile assembly line film",
+"alt": "Detroit factory 1940s"
+},
+{
+"t": "list",
+"title": "1945",
+"lines": [
+"no new cars for years",
+"pre-war designs",
+"long waiting lists"
+]
+}
+]
+},
+{
+"text": "Tucker says he will build something completely new. The car of tomorrow, today.",
+"v": [
+{
+"t": "photo",
+"q": "Tucker Torpedo drawing"
+},
+{
+"t": "card",
+"text": "THE CAR OF TOMORROW"
+}
+]
+},
+{
+"text": "His car would become the Tucker 48. And on paper it was years ahead of anything coming out of Detroit.",
+"v": [
+{
+"t": "photo",
+"q": "Tucker 48"
+},
+{
+"t": "big",
+"big": "TUCKER 48",
+"small": "the car of tomorrow"
+}
+]
+},
+{
+"text": "A third headlight in the middle that turned with the steering wheel, to light up corners.",
+"v": [
+{
+"t": "photo",
+"q": "Tucker 48 center headlight"
+},
+{
+"t": "card",
+"text": "THE CYCLOPS EYE"
+}
+]
+},
+{
+"text": "A padded dashboard. A windshield made to pop out in a crash. A space under the dash where the passenger could duck.",
+"v": [
+{
+"t": "photo",
+"q": "Tucker 48 interior dashboard"
+},
+{
+"t": "list",
+"title": "SAFETY FIRST",
+"lines": [
+"padded dashboard",
+"pop-out windshield",
+"crash space"
+]
+}
+]
+},
+{
+"text": "And the engine was in the back, like a race car.",
+"v": [
+{
+"t": "photo",
+"q": "Tucker 48 rear engine"
+},
+{
+"t": "card",
+"text": "ENGINE IN THE BACK"
+}
+]
+},
+{
+"text": "Safety was not a selling point in the 1940s. Tucker made it the whole pitch.",
+"v": [
+{
+"t": "photo",
+"q": "Tucker 48 front view"
+},
+{
+"t": "card",
+"text": "SAFETY AS THE PITCH"
+}
+]
+},
+{
+"text": "Magazines ran drawings of it. Letters poured in. Thousands of people wanted to know one thing. When can I buy one?",
+"v": [
+{
+"t": "photo",
+"q": "Tucker 48 advertisement"
+},
+{
+"t": "card",
+"text": "WHEN CAN I BUY ONE?"
+}
+]
+},
+{
+"text": "There was one problem. The car in the drawings did not exist yet. Not even one.",
+"v": [
+{
+"t": "photo",
+"q": "Tucker Torpedo drawing"
+},
+{
+"t": "card",
+"text": "IT DID NOT EXIST YET"
+}
+]
+},
+{
+"text": "To build it, he needed a factory. He got one of the biggest in the country.",
+"v": [
+{
+"t": "photo",
+"q": "Dodge Chicago Plant"
+},
+{
+"t": "card",
+"text": "A GIANT FACTORY"
+}
+]
+},
+{
+"text": "The government leased him a huge wartime aircraft engine plant on the south side of Chicago, built by Dodge during the war.",
+"v": [
+{
+"t": "photo",
+"q": "Dodge Chicago plant aerial"
+},
+{
+"t": "big",
+"big": "CHICAGO",
+"small": "wartime engine plant"
+}
+]
+},
+{
+"text": "Now he needed money. A lot of it. And he found new ways to raise it.",
+"v": [
+{
+"t": "photo",
+"q": "Preston Tucker"
+},
+{
+"t": "card",
+"text": "HE NEEDS MONEY"
+}
+]
+},
+{
+"text": "He sold dealer franchises across the country, for a car that was not yet in production.",
+"v": [
+{
+"t": "photo",
+"q": "1940s car dealership"
+},
+{
+"t": "card",
+"text": "DEALERS FIRST"
+}
+]
+},
+{
+"text": "In 1947, he sold stock to the public and raised roughly fifteen million dollars.",
+"v": [
+{
+"t": "photo",
+"q": "Tucker Corporation stock certificate"
+},
+{
+"t": "big",
+"big": "~$15 MILLION",
+"small": "public stock, 1947"
+}
+]
+},
+{
+"text": "Then came his boldest idea. He sold accessories, like radios and seat covers, to people who did not own a Tucker yet.",
+"v": [
+{
+"t": "photo",
+"q": "1940s car radio"
+},
+{
+"t": "card",
+"text": "ACCESSORIES FOR A CAR YOU DON'T HAVE"
+}
+]
+},
+{
+"text": "Buy the radio now, and you get a place in line for the car. It brought in about two million dollars more.",
+"v": [
+{
+"t": "photo",
+"q": "1940s advertisement automobile"
+},
+{
+"t": "big",
+"big": "~$2 MILLION",
+"small": "accessories"
+}
+]
+},
+{
+"text": "Clever, or dangerous? That question would end up in court.",
+"v": [
+{
+"t": "photo",
+"q": "Chicago Federal Building"
+},
+{
+"t": "card",
+"text": "CLEVER OR DANGEROUS?"
+}
+]
+},
+{
+"text": "Because to the people paying, it felt like buying the car. To the government, it would look like taking money for a product that might never come.",
+"v": [
+{
+"t": "photo",
+"q": "1940s car radio"
+},
+{
+"t": "list",
+"title": "TWO VIEWS",
+"lines": [
+"buyers: a place in line",
+"government: money for nothing?"
+]
+}
+]
+},
+{
+"text": "In June 1947, Tucker unveiled his first car in front of a crowd of thousands at the Chicago plant.",
+"v": [
+{
+"t": "photo",
+"q": "Tucker Tin Goose"
+},
+{
+"t": "big",
+"big": "JUNE 1947",
+"small": "the unveiling"
+}
+]
+},
+{
+"text": "Behind the curtain, the story goes, it was a near disaster. The prototype had been hand-built in a rush, and parts kept failing.",
+"v": [
+{
+"t": "photo",
+"q": "Tucker 48 prototype Tin Goose"
+},
+{
+"t": "card",
+"text": "BEHIND THE CURTAIN"
+}
+]
+},
+{
+"text": "Workers called it the Tin Goose. It was a real car, but it was a one-off, not a car ready for the factory.",
+"v": [
+{
+"t": "photo",
+"q": "Tin Goose Tucker"
+},
+{
+"t": "card",
+"text": "'THE TIN GOOSE'"
+}
+]
+},
+{
+"text": "Some of the big ideas had to go. Tucker's own giant engine was swapped for a converted helicopter engine, still in the back. Fenders that turned with the wheels were dropped.",
+"v": [
+{
+"t": "photo",
+"q": "Tucker 48 engine Franklin"
+},
+{
+"t": "list",
+"title": "CHANGES",
+"lines": [
+"new engine",
+"simpler design",
+"more cost"
+]
+}
+]
+},
+{
+"text": "None of that is unusual for a first car. But it gave his enemies something to point at.",
+"v": [
+{
+"t": "photo",
+"q": "Preston Tucker"
+},
+{
+"t": "card",
+"text": "SOMETHING TO POINT AT"
+}
+]
+},
+{
+"text": "And costs were climbing. Every change, every delay, burned through the money from investors faster.",
+"v": [
+{
+"t": "video",
+"q": "1940s automobile assembly line film",
+"alt": "1940s factory film"
+},
+{
+"t": "card",
+"text": "THE MONEY BURNS"
+}
+]
+},
+{
+"text": "In 1948, the Securities and Exchange Commission opened an investigation into how Tucker was raising money.",
+"v": [
+{
+"t": "photo",
+"q": "Securities and Exchange Commission building"
+},
+{
+"t": "big",
+"big": "1948",
+"small": "the SEC moves in"
+}
+]
+},
+{
+"text": "The headlines came fast. Investors panicked. Dealers worried. The stock fell.",
+"v": [
+{
+"t": "photo",
+"q": "1940s newspaper headline"
+},
+{
+"t": "card",
+"text": "PANIC"
+}
+]
+},
+{
+"text": "Then a copy of the SEC's report reportedly reached the press before Tucker had even been charged.",
+"v": [
+{
+"t": "photo",
+"q": "Chicago newspaper 1949"
+},
+{
+"t": "card",
+"text": "LEAKED"
+}
+]
+},
+{
+"text": "Tucker bought newspaper ads to fight back. He wrote an open letter saying the attacks were killing his company.",
+"v": [
+{
+"t": "photo",
+"q": "Tucker 48 advertisement"
+},
+{
+"t": "card",
+"text": "HE FIGHTS BACK"
+}
+]
+},
+{
+"text": "Meanwhile, the factory was building real cars. By the end, about fifty production cars were finished, plus the Tin Goose.",
+"v": [
+{
+"t": "video",
+"q": "1940s automobile assembly line film",
+"alt": "1940s car assembly line"
+},
+{
+"t": "big",
+"big": "51 CARS",
+"small": "50 + the Tin Goose"
+}
+]
+},
+{
+"text": "But in early 1949, the plant shut down. The company went into the hands of a court-appointed trustee.",
+"v": [
+{
+"t": "photo",
+"q": "Dodge Chicago Plant"
+},
+{
+"t": "card",
+"text": "THE PLANT SHUTS"
+}
+]
+},
+{
+"text": "In June 1949, a grand jury indicted Tucker and seven of his associates.",
+"v": [
+{
+"t": "photo",
+"q": "Chicago Federal Building"
+},
+{
+"t": "big",
+"big": "JUNE 1949",
+"small": "the indictment"
+}
+]
+},
+{
+"text": "Thirty-one counts. Twenty-five of mail fraud. Five of breaking SEC rules. And one of conspiracy.",
+"v": [
+{
+"t": "photo",
+"q": "1949 indictment document"
+},
+{
+"t": "list",
+"title": "31 COUNTS",
+"lines": [
+"25 mail fraud",
+"5 SEC violations",
+"1 conspiracy"
+]
+}
+]
+},
+{
+"text": "If convicted, he faced years in prison and huge fines.",
+"v": [
+{
+"t": "photo",
+"q": "Preston Tucker"
+},
+{
+"t": "card",
+"text": "YEARS IN PRISON"
+}
+]
+},
+{
+"text": "The trial opened in October 1949. The prosecution's case leaned heavily on the Tin Goose.",
+"v": [
+{
+"t": "photo",
+"q": "Chicago Federal Building"
+},
+{
+"t": "big",
+"big": "OCTOBER 1949",
+"small": "the trial opens"
+}
+]
+},
+{
+"text": "They said it proved there was never a real car, only a promise to collect money.",
+"v": [
+{
+"t": "photo",
+"q": "Tucker Tin Goose"
+},
+{
+"t": "card",
+"text": "'ONLY A PROMISE'"
+}
+]
+},
+{
+"text": "Over months, the government called dozens of witnesses. Former employees, dealers, investors. Some said they were misled.",
+"v": [
+{
+"t": "photo",
+"q": "Chicago Federal Building"
+},
+{
+"t": "card",
+"text": "DOZENS OF WITNESSES"
+}
+]
+},
+{
+"text": "But under questioning, many admitted they had seen real progress, and that the company had been trying to build cars.",
+"v": [
+{
+"t": "photo",
+"q": "Tucker 48 side view"
+},
+{
+"t": "card",
+"text": "REAL PROGRESS"
+}
+]
+},
+{
+"text": "The defence had a simple answer. Look outside. The cars exist.",
+"v": [
+{
+"t": "photo",
+"q": "Tucker 48"
+},
+{
+"t": "card",
+"text": "LOOK OUTSIDE"
+}
+]
+},
+{
+"text": "Tucker cars were driven to court, and the factory kept building cars while the trial went on.",
+"v": [
+{
+"t": "photo",
+"q": "Tucker 48 rear view"
+},
+{
+"t": "card",
+"text": "STILL BUILDING"
+}
+]
+},
+{
+"text": "Then, his lawyers did something almost unheard of. They rested without calling a single witness.",
+"v": [
+{
+"t": "photo",
+"q": "Chicago Federal Building"
+},
+{
+"t": "card",
+"text": "NO WITNESSES"
+}
+]
+},
+{
+"text": "Their argument: the government had not proved any fraud, so there was nothing to answer.",
+"v": [
+{
+"t": "photo",
+"q": "Preston Tucker 1949"
+},
+{
+"t": "card",
+"text": "NOTHING TO ANSWER"
+}
+]
+},
+{
+"text": "The judge told the jury that good faith is a complete defence, even when a company fails.",
+"v": [
+{
+"t": "quote",
+"text": "Good faith is a complete defense.",
+"by": "jury instruction, as reported"
+},
+{
+"t": "photo",
+"q": "Chicago Federal Building"
+}
+]
+},
+{
+"text": "In January 1950, after about seventeen hours of deliberation, the verdict came in. Not guilty. Every defendant, every count.",
+"v": [
+{
+"t": "photo",
+"q": "Chicago Federal Building"
+},
+{
+"t": "big",
+"big": "NOT GUILTY",
+"small": "22 January 1950"
+}
+]
+},
+{
+"text": "Tucker walked out a free man. But he could not walk back into his factory.",
+"v": [
+{
+"t": "photo",
+"q": "Dodge Chicago Plant"
+},
+{
+"t": "card",
+"text": "A FREE MAN"
+}
+]
+},
+{
+"text": "His company's assets were sold off, reportedly for about eighteen cents on the dollar.",
+"v": [
+{
+"t": "photo",
+"q": "Tucker Corporation"
+},
+{
+"t": "big",
+"big": "18 CENTS",
+"small": "on the dollar"
+}
+]
+},
+{
+"text": "Was it a Detroit conspiracy? Tucker's fans have said so for decades. But no one has ever proved the big car makers were behind it.",
+"v": [
+{
+"t": "photo",
+"q": "Tucker 48"
+},
+{
+"t": "card",
+"text": "CONSPIRACY?"
+}
+]
+},
+{
+"text": "Historians point to simpler reasons too. Huge costs, risky ways of raising money, and a car that was not ready on time.",
+"v": [
+{
+"t": "photo",
+"q": "Tucker 48 side view"
+},
+{
+"t": "list",
+"title": "THE SIMPLER STORY",
+"lines": [
+"huge costs",
+"risky fundraising",
+"late car"
+]
+}
+]
+},
+{
+"text": "The truth is probably both. Tucker made mistakes. And the attacks made sure he never got the chance to fix them.",
+"v": [
+{
+"t": "photo",
+"q": "Preston Tucker"
+},
+{
+"t": "card",
+"text": "BOTH"
+}
+]
+},
+{
+"text": "Tucker never gave up. He was working on a new small car in Brazil when he died of lung cancer in December 1956. He was fifty-three.",
+"v": [
+{
+"t": "photo",
+"q": "Preston Tucker portrait"
+},
+{
+"t": "big",
+"big": "DECEMBER 1956",
+"small": "age 53"
+}
+]
+},
+{
+"text": "Within twenty years, the safety ideas people had laughed at were becoming normal. Padded dashboards. Safety glass. Seat belts.",
+"v": [
+{
+"t": "video",
+"q": "1940s automobile assembly line film",
+"alt": "1960s car factory film"
+},
+{
+"t": "card",
+"text": "HE WAS RIGHT"
+}
+]
+},
+{
+"text": "Of the fifty-one cars, most still survive. Today a Tucker 48 can sell at auction for millions of dollars.",
+"v": [
+{
+"t": "photo",
+"q": "Tucker 48"
+},
+{
+"t": "big",
+"big": "MILLIONS",
+"small": "at auction"
+}
+]
+},
+{
+"text": "The government said the car was a fraud. The jury said it was not. And the cars themselves are still the best evidence.",
+"v": [
+{
+"t": "photo",
+"q": "Tucker 48 front view"
+},
+{
+"t": "card",
+"text": "THE CARS ARE THE EVIDENCE"
+}
+]
+},
+{
+"text": "Tucker won his trial and lost his company. Sometimes in business, being found innocent comes too late.",
+"v": [
+{
+"t": "photo",
+"q": "Preston Tucker"
+},
+{
+"t": "card",
+"text": "TOO LATE"
+}
+]
+},
+{
+"text": "Decades later, Hollywood turned his story into a film, and the Tucker 48 became a legend far bigger than the company ever was.",
+"v": [
+{
+"t": "photo",
+"q": "Tucker 48 front view"
+},
+{
+"t": "card",
+"text": "A LEGEND"
+}
+]
+},
+{
+"text": "If you like true business wars from history, subscribe. Next time, the soda boss who was offered Coca-Cola and said no.",
+"v": [
+{
+"t": "video",
+"q": "Chicago 1940s street film",
+"alt": "1940s American street film"
+},
+{
+"t": "card",
+"text": "SUBSCRIBE"
+}
+]
+}
+]
+}

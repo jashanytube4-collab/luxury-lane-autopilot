@@ -1,0 +1,963 @@
+{
+"channel": "manhuntfiles",
+"slug": "bulger-santa-monica",
+"title": "How The FBI Hunted A Mob Boss For 16 Years With A TV Ad Aimed At His Girlfriend",
+"thumb": {
+"badge": "DAY 6,026",
+"words": "THE AD",
+"face_q": "Whitey Bulger"
+},
+"sources": [
+"FBI.gov: Top Ten Fugitive James 'Whitey' Bulger Arrested (23 Jun 2011); FBI Los Angeles: Most Wanted Fugitive Bulger Captured in Santa Monica",
+"History.com This Day in History 22 Jun (Greig PSA aired 20 Jun 2011); NPR 23 Jun 2011",
+"US v. Bulger trial record 2013 (31 counts, 11 murders found); Wikipedia: Whitey Bulger; Catherine Greig; John Connolly (FBI); Stephen Flemmi",
+"Hedged in script: LSD tests (Bulger's own claim), Connolly as tip source (court testimony), storage-locker lure (agents' account), Iceland tipster + reward (later reports), London box (investigators' belief); Connolly's later Florida case not detailed"
+],
+"beats": [
+{
+"text": "Santa Monica, California. A quiet apartment building three blocks from the ocean.",
+"v": [
+{
+"t": "video",
+"q": "Santa Monica beach aerial",
+"alt": "Santa Monica California"
+},
+{
+"t": "photo",
+"q": "Santa Monica Third Street"
+}
+]
+},
+{
+"text": "An old man with a white beard and a white hat walks down to the garage. He has been told his storage locker was broken into.",
+"v": [
+{
+"t": "video",
+"q": "apartment garage underground",
+"alt": "parking garage"
+},
+{
+"t": "card",
+"text": "A STORAGE LOCKER"
+}
+]
+},
+{
+"text": "He is eighty-one years old. Neighbours know him as Charlie Gasko, a polite retired man who walks on the beach with his wife.",
+"v": [
+{
+"t": "photo",
+"q": "James Whitey Bulger 2011"
+},
+{
+"t": "card",
+"text": "CHARLIE GASKO"
+}
+]
+},
+{
+"text": "But the people waiting for him in that garage are federal agents.",
+"v": [
+{
+"t": "video",
+"q": "FBI agents raid jackets",
+"alt": "FBI agents"
+},
+{
+"t": "big",
+"big": "DAY 6,026",
+"small": "of the hunt"
+}
+]
+},
+{
+"text": "And the old man is James Bulger. Whitey. For sixteen years, one of the most wanted men in America.",
+"v": [
+{
+"t": "photo",
+"q": "Whitey Bulger FBI wanted poster"
+},
+{
+"t": "big",
+"big": "16 YEARS",
+"small": "on the run"
+}
+]
+},
+{
+"text": "What found him was not a wiretap or a fingerprint. It was a daytime TV ad. And it was not about him at all.",
+"v": [
+{
+"t": "video",
+"q": "vintage television screen",
+"alt": "television"
+},
+{
+"t": "card",
+"text": "A TV AD"
+}
+]
+},
+{
+"text": "To see why, we go back to Boston, to the neighbourhood that made him.",
+"v": [
+{
+"t": "video",
+"q": "Boston skyline aerial",
+"alt": "Boston"
+},
+{
+"t": "photo",
+"q": "South Boston"
+}
+]
+},
+{
+"text": "Bulger was born in 1929 and grew up in a housing project in South Boston.",
+"v": [
+{
+"t": "photo",
+"q": "Old Harbor Village South Boston"
+},
+{
+"t": "photo",
+"q": "South Boston 1940s"
+}
+]
+},
+{
+"text": "As a young man he robbed banks, and in 1956 he was sent to federal prison.",
+"v": [
+{
+"t": "photo",
+"q": "Whitey Bulger mugshot 1953"
+},
+{
+"t": "video",
+"q": "1950s prison newsreel",
+"alt": "federal penitentiary"
+}
+]
+},
+{
+"text": "He served time in Atlanta, at Leavenworth, and at Alcatraz. By his own account, in Atlanta he volunteered for secret government LSD tests.",
+"v": [
+{
+"t": "photo",
+"q": "Alcatraz Island"
+},
+{
+"t": "card",
+"text": "HIS CLAIM: LSD TESTS"
+}
+]
+},
+{
+"text": "He came home in 1965. His younger brother William was starting a career in politics. He would one day lead the Massachusetts State Senate.",
+"v": [
+{
+"t": "photo",
+"q": "William Bulger"
+},
+{
+"t": "photo",
+"q": "Massachusetts State House"
+}
+]
+},
+{
+"text": "Whitey went the other way. By the late 1970s he and his partner Stephen Flemmi ran the Winter Hill Gang.",
+"v": [
+{
+"t": "photo",
+"q": "Stephen Flemmi"
+},
+{
+"t": "card",
+"text": "WINTER HILL GANG"
+}
+]
+},
+{
+"text": "Prosecutors would later say they ran loan sharking, gambling, drug dealing and extortion, and that they killed people who got in the way.",
+"v": [
+{
+"t": "list",
+"title": "THE CHARGES",
+"lines": [
+"Extortion",
+"Gambling",
+"Drugs",
+"Murder"
+]
+},
+{
+"t": "photo",
+"q": "Boston 1980s street"
+}
+]
+},
+{
+"text": "So why did nobody stop them? Because Whitey Bulger had a secret.",
+"v": [
+{
+"t": "photo",
+"q": "Whitey Bulger 1980s"
+},
+{
+"t": "card",
+"text": "A SECRET"
+}
+]
+},
+{
+"text": "Since 1975 he had been an informant for the FBI.",
+"v": [
+{
+"t": "photo",
+"q": "FBI Boston field office"
+},
+{
+"t": "big",
+"big": "1975",
+"small": "the deal"
+}
+]
+},
+{
+"text": "His handler was an agent named John Connolly, who grew up in the same projects.",
+"v": [
+{
+"t": "photo",
+"q": "John Connolly FBI agent"
+},
+{
+"t": "card",
+"text": "THE HANDLER"
+}
+]
+},
+{
+"text": "The official idea was to use Bulger against the Italian Mafia in Boston. And the Mafia did take heavy blows.",
+"v": [
+{
+"t": "photo",
+"q": "Federal Bureau of Investigation seal"
+},
+{
+"t": "card",
+"text": "TARGET: THE MAFIA"
+}
+]
+},
+{
+"text": "But in court, years later, it came out that the protection ran both ways. Agents leaked secrets to Bulger and looked away from his crimes.",
+"v": [
+{
+"t": "photo",
+"q": "John Joseph Moakley Federal Courthouse"
+},
+{
+"t": "card",
+"text": "BOTH WAYS"
+}
+]
+},
+{
+"text": "Connolly retired in 1990. He was later convicted and sent to prison for what he did.",
+"v": [
+{
+"t": "photo",
+"q": "John Connolly FBI agent"
+},
+{
+"t": "card",
+"text": "CONVICTED"
+}
+]
+},
+{
+"text": "By 1994, a team of state police, the DEA and federal prosecutors was building a racketeering case that the Boston FBI office did not control.",
+"v": [
+{
+"t": "video",
+"q": "police cars night lights",
+"alt": "Massachusetts State Police"
+},
+{
+"t": "card",
+"text": "A NEW CASE"
+}
+]
+},
+{
+"text": "In December, Bulger got the warning. Indictments were coming. Court testimony later named Connolly as the source.",
+"v": [
+{
+"t": "photo",
+"q": "John Connolly FBI agent"
+},
+{
+"t": "card",
+"text": "THE TIP-OFF"
+}
+]
+},
+{
+"text": "On December twenty-third, 1994, he left Boston with his girlfriend Theresa Stanley. This is day one.",
+"v": [
+{
+"t": "video",
+"q": "highway night driving",
+"alt": "highway night"
+},
+{
+"t": "big",
+"big": "DAY 1",
+"small": "he leaves Boston"
+}
+]
+},
+{
+"text": "Within weeks Stanley wanted to go home. So he drove back, dropped her off, and picked up a different woman.",
+"v": [
+{
+"t": "video",
+"q": "car driving winter road",
+"alt": "winter road"
+},
+{
+"t": "card",
+"text": "THE SWAP"
+}
+]
+},
+{
+"text": "Her name was Catherine Greig. A dental hygienist, about twenty years younger, who had loved him for years.",
+"v": [
+{
+"t": "photo",
+"q": "Catherine Greig"
+},
+{
+"t": "card",
+"text": "CATHERINE GREIG"
+}
+]
+},
+{
+"text": "On January fifth, 1995, police arrested Flemmi in Boston. Whitey was already gone. Day fourteen.",
+"v": [
+{
+"t": "photo",
+"q": "Stephen Flemmi"
+},
+{
+"t": "big",
+"big": "DAY 14",
+"small": "Flemmi arrested"
+}
+]
+},
+{
+"text": "Later Flemmi learned his partner had been an informant all along. And in time, he started telling the government everything.",
+"v": [
+{
+"t": "photo",
+"q": "Stephen Flemmi"
+},
+{
+"t": "card",
+"text": "BETRAYED"
+}
+]
+},
+{
+"text": "Bulger had planned for this for years. He carried fake identities and kept cash hidden in different places.",
+"v": [
+{
+"t": "video",
+"q": "money cash stacks",
+"alt": "cash"
+},
+{
+"t": "card",
+"text": "A READY ESCAPE"
+}
+]
+},
+{
+"text": "In August 1999 he was added to the FBI's Ten Most Wanted list. Day 1,701.",
+"v": [
+{
+"t": "photo",
+"q": "FBI Ten Most Wanted Fugitives poster"
+},
+{
+"t": "big",
+"big": "DAY 1,701",
+"small": "Top Ten"
+}
+]
+},
+{
+"text": "The reward climbed to one million dollars, and later two million. For years only Osama bin Laden ranked above him on that list.",
+"v": [
+{
+"t": "photo",
+"q": "Whitey Bulger FBI wanted poster"
+},
+{
+"t": "big",
+"big": "$2 MILLION",
+"small": "reward"
+}
+]
+},
+{
+"text": "Tips poured in from all over the world. People saw him in Europe, in Mexico, in small towns all over America.",
+"v": [
+{
+"t": "photo",
+"q": "world map"
+},
+{
+"t": "list",
+"title": "SIGHTINGS",
+"lines": [
+"Europe",
+"Mexico",
+"Across America"
+]
+}
+]
+},
+{
+"text": "In 2002 investigators believed he had been in London, and they traced a safe deposit box there.",
+"v": [
+{
+"t": "video",
+"q": "London Piccadilly Circus",
+"alt": "London"
+},
+{
+"t": "card",
+"text": "A BOX IN LONDON"
+}
+]
+},
+{
+"text": "But the trail went cold, year after year.",
+"v": [
+{
+"t": "video",
+"q": "empty street night rain",
+"alt": "rain night"
+},
+{
+"t": "card",
+"text": "COLD"
+}
+]
+},
+{
+"text": "The FBI's own history with him made it worse. Critics asked if the Bureau really wanted to find the man who could embarrass it.",
+"v": [
+{
+"t": "photo",
+"q": "FBI Boston field office"
+},
+{
+"t": "card",
+"text": "DID THEY WANT HIM?"
+}
+]
+},
+{
+"text": "Then a new fugitive task force took over the hunt and tried something different.",
+"v": [
+{
+"t": "video",
+"q": "office meeting table",
+"alt": "FBI office"
+},
+{
+"t": "card",
+"text": "A NEW IDEA"
+}
+]
+},
+{
+"text": "Bulger had spent sixteen years hiding his own face. So stop chasing his face. Chase hers.",
+"v": [
+{
+"t": "photo",
+"q": "Catherine Greig"
+},
+{
+"t": "card",
+"text": "CHASE HER"
+}
+]
+},
+{
+"text": "Greig had habits a man on the run could not control. She was careful about her teeth and her looks, and she loved animals.",
+"v": [
+{
+"t": "video",
+"q": "dental clinic chair",
+"alt": "dentist office"
+},
+{
+"t": "video",
+"q": "woman walking dog",
+"alt": "dog"
+}
+]
+},
+{
+"text": "The people who might meet her were dentists, hair salons, vets, and the women who watch daytime TV.",
+"v": [
+{
+"t": "list",
+"title": "WHO MIGHT SEE HER",
+"lines": [
+"Dentists",
+"Salons",
+"Vets",
+"Daytime TV"
+]
+},
+{
+"t": "video",
+"q": "hair salon interior",
+"alt": "beauty salon"
+}
+]
+},
+{
+"text": "So the FBI made a short public service ad about Catherine Greig, and on June twentieth, 2011, it started running in cities across the country. Day 6,024.",
+"v": [
+{
+"t": "video",
+"q": "vintage television screen",
+"alt": "television"
+},
+{
+"t": "big",
+"big": "DAY 6,024",
+"small": "the ad airs"
+}
+]
+},
+{
+"text": "It ran during daytime shows. The message was simple: this woman is with a fugitive. Have you seen her?",
+"v": [
+{
+"t": "photo",
+"q": "Catherine Greig FBI"
+},
+{
+"t": "card",
+"text": "HAVE YOU SEEN HER?"
+}
+]
+},
+{
+"text": "The next evening, just after eight o'clock, a tip reached the FBI's Los Angeles office. Day 6,025.",
+"v": [
+{
+"t": "video",
+"q": "telephone ringing office",
+"alt": "telephone"
+},
+{
+"t": "big",
+"big": "DAY 6,025",
+"small": "the call"
+}
+]
+},
+{
+"text": "By later reports, the tip came from a woman who had seen the story far away, in Iceland.",
+"v": [
+{
+"t": "video",
+"q": "Reykjavik Iceland aerial",
+"alt": "Reykjavik"
+},
+{
+"t": "photo",
+"q": "Reykjavik"
+}
+]
+},
+{
+"text": "She had once lived in Santa Monica and knew the couple from the neighbourhood, and the stray cat they fed.",
+"v": [
+{
+"t": "video",
+"q": "Santa Monica street palm trees",
+"alt": "Santa Monica California"
+},
+{
+"t": "card",
+"text": "THE NEIGHBOUR"
+}
+]
+},
+{
+"text": "She was later reported to have received the two million dollar reward.",
+"v": [
+{
+"t": "big",
+"big": "$2 MILLION",
+"small": "reportedly paid"
+},
+{
+"t": "photo",
+"q": "Iceland"
+}
+]
+},
+{
+"text": "Agents moved fast. The address was an apartment block on Third Street called the Princess Eugenia.",
+"v": [
+{
+"t": "photo",
+"q": "Princess Eugenia apartments Santa Monica"
+},
+{
+"t": "card",
+"text": "APARTMENT 303"
+}
+]
+},
+{
+"text": "The couple had lived there since around 1996, almost the whole time Boston was looking for them.",
+"v": [
+{
+"t": "video",
+"q": "Santa Monica beach sunset",
+"alt": "Santa Monica beach"
+},
+{
+"t": "card",
+"text": "15 YEARS IN ONE PLACE"
+}
+]
+},
+{
+"text": "Agents did not want to storm an apartment where a gangster might be armed. So they asked the manager to help.",
+"v": [
+{
+"t": "video",
+"q": "apartment building exterior",
+"alt": "apartment building"
+},
+{
+"t": "card",
+"text": "NO STORMING IN"
+}
+]
+},
+{
+"text": "According to the agents' account, he was told his storage locker had been broken into. He came down to the garage.",
+"v": [
+{
+"t": "video",
+"q": "parking garage",
+"alt": "underground parking"
+},
+{
+"t": "card",
+"text": "THE LURE"
+}
+]
+},
+{
+"text": "June twenty-second, 2011. Day 6,026. The agents surrounded him, and Whitey Bulger was arrested without a shot.",
+"v": [
+{
+"t": "photo",
+"q": "Whitey Bulger 2011 arrest"
+},
+{
+"t": "big",
+"big": "DAY 6,026",
+"small": "captured"
+}
+]
+},
+{
+"text": "Greig was arrested inside the apartment.",
+"v": [
+{
+"t": "photo",
+"q": "Catherine Greig 2011"
+},
+{
+"t": "card",
+"text": "BOTH ARRESTED"
+}
+]
+},
+{
+"text": "Then came the search. Hidden in the walls, agents found more than eight hundred thousand dollars in cash.",
+"v": [
+{
+"t": "video",
+"q": "money cash stacks",
+"alt": "cash"
+},
+{
+"t": "big",
+"big": "$800,000+",
+"small": "in the walls"
+}
+]
+},
+{
+"text": "And about thirty guns. Fake IDs. Disguises. Sixteen years of planning, in one small apartment.",
+"v": [
+{
+"t": "list",
+"title": "IN THE WALLS",
+"lines": [
+"$800,000+ cash",
+"About 30 guns",
+"Fake IDs",
+"Disguises"
+]
+},
+{
+"t": "photo",
+"q": "Princess Eugenia apartments Santa Monica"
+}
+]
+},
+{
+"text": "So how did a man that careful live so openly? He was not hiding in a forest. He was in plain sight, in a nice beach town.",
+"v": [
+{
+"t": "video",
+"q": "Santa Monica pier",
+"alt": "Santa Monica Pier"
+},
+{
+"t": "card",
+"text": "IN PLAIN SIGHT"
+}
+]
+},
+{
+"text": "He walked every day, he was polite, and he never stood out. The disguise was being boring.",
+"v": [
+{
+"t": "video",
+"q": "old man walking beach",
+"alt": "beach walk"
+},
+{
+"t": "card",
+"text": "BORING"
+}
+]
+},
+{
+"text": "But Greig was the part he could not disguise. A face people remembered from the street, from the neighbourhood, from feeding a stray cat.",
+"v": [
+{
+"t": "photo",
+"q": "Catherine Greig"
+},
+{
+"t": "card",
+"text": "THE WEAK LINK"
+}
+]
+},
+{
+"text": "He was flown back to Boston, and in 2013 his trial began in the federal courthouse on the harbour.",
+"v": [
+{
+"t": "photo",
+"q": "John Joseph Moakley Federal Courthouse"
+},
+{
+"t": "video",
+"q": "Boston harbor",
+"alt": "Boston Harbor"
+}
+]
+},
+{
+"text": "Flemmi and other former partners testified against him.",
+"v": [
+{
+"t": "photo",
+"q": "Stephen Flemmi"
+},
+{
+"t": "card",
+"text": "FORMER PARTNERS"
+}
+]
+},
+{
+"text": "Bulger said he had never been an informant. The FBI's own file said otherwise.",
+"v": [
+{
+"t": "photo",
+"q": "FBI Boston field office"
+},
+{
+"t": "card",
+"text": "DENIED"
+}
+]
+},
+{
+"text": "In August 2013 the jury found him guilty on thirty-one counts, and found that he took part in eleven murders.",
+"v": [
+{
+"t": "big",
+"big": "31 COUNTS",
+"small": "guilty"
+},
+{
+"t": "photo",
+"q": "John Joseph Moakley Federal Courthouse Boston"
+}
+]
+},
+{
+"text": "He was sentenced to two life terms plus five years.",
+"v": [
+{
+"t": "big",
+"big": "LIFE",
+"small": "two terms"
+},
+{
+"t": "photo",
+"q": "John Joseph Moakley Federal Courthouse"
+}
+]
+},
+{
+"text": "Catherine Greig pleaded guilty to helping him hide and was sentenced to eight years in prison.",
+"v": [
+{
+"t": "photo",
+"q": "Catherine Greig"
+},
+{
+"t": "big",
+"big": "8 YEARS",
+"small": "for Greig"
+}
+]
+},
+{
+"text": "In 2018, at eighty-nine, Bulger was killed in a federal prison in West Virginia, soon after he was moved there.",
+"v": [
+{
+"t": "photo",
+"q": "United States Penitentiary Hazelton"
+},
+{
+"t": "card",
+"text": "THE END"
+}
+]
+},
+{
+"text": "His story led to hearings, lawsuits, and a long hard look at how the FBI handles informants.",
+"v": [
+{
+"t": "photo",
+"q": "United States Capitol"
+},
+{
+"t": "card",
+"text": "THE FALLOUT"
+}
+]
+},
+{
+"text": "So what really caught Whitey Bulger?",
+"v": [
+{
+"t": "photo",
+"q": "Whitey Bulger FBI wanted poster"
+},
+{
+"t": "card",
+"text": "WHAT CAUGHT HIM?"
+}
+]
+},
+{
+"text": "Not the reward. Not the sightings. Not his own face.",
+"v": [
+{
+"t": "list",
+"title": "NOT",
+"lines": [
+"The reward",
+"The sightings",
+"His face"
+]
+},
+{
+"t": "photo",
+"q": "Whitey Bulger"
+}
+]
+},
+{
+"text": "A short ad aimed at the woman next to him, and a neighbour thousands of miles away who happened to be watching.",
+"v": [
+{
+"t": "video",
+"q": "vintage television screen",
+"alt": "television"
+},
+{
+"t": "video",
+"q": "Reykjavik Iceland aerial",
+"alt": "Reykjavik"
+}
+]
+},
+{
+"text": "Sixteen years. Six thousand and twenty-six days. And barely two days once they changed the question.",
+"v": [
+{
+"t": "big",
+"big": "6,026 DAYS",
+"small": "then 2 days"
+},
+{
+"t": "photo",
+"q": "Whitey Bulger mugshot 2011"
+}
+]
+},
+{
+"text": "Next time on Manhunt Files: a bomber vanishes into the mountains for five years, and a rookie cop finds him behind a grocery store.",
+"v": [
+{
+"t": "video",
+"q": "Appalachian mountains forest aerial",
+"alt": "Appalachian Mountains"
+},
+{
+"t": "card",
+"text": "NEXT: 5 YEARS"
+}
+]
+}
+]
+}

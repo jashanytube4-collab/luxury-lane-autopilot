@@ -3052,12 +3052,17 @@
   "video_len": 65
  },
  "hamdan bin mohammed attends closing ceremony of 3rd dubai future accelerators program": {
-  "last_short": "2026-11-22",
+  "last_short": "2026-11-23",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 32,
+  "montage_used": 33,
   "no_video_until": "2026-11-18",
-  "remix_ranges": [],
+  "remix_ranges": [
+   [
+    123.79464390364072,
+    125.98650194024606
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 3,
   "shot_ranges": [
@@ -6851,6 +6856,7 @@
   "long": "2026-10-30",
   "montage_exhausted": true,
   "montage_used": 35,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     154.96962970092923,
@@ -8281,7 +8287,7 @@
  "hamdan bin mohammed launches the government games initiative": {
   "last_short": "2026-11-23",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     152.44500151607716,
@@ -8290,6 +8296,10 @@
    [
     188.63193433513356,
     190.21300026866052
+   ],
+   [
+    174.2012754983279,
+    175.99337500071107
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8690,6 +8700,7 @@
   "long": "2026-10-30",
   "montage_exhausted": true,
   "montage_used": 11,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     53.9493408689339,
@@ -9719,11 +9730,16 @@
   "video_len": 63
  },
  "hamdan bin mohammed meets with top performing school and university graduates": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-23",
   "long": "2026-10-17",
   "montage_exhausted": true,
-  "montage_used": 10,
-  "remix_ranges": [],
+  "montage_used": 11,
+  "remix_ranges": [
+   [
+    56.360072324467,
+    58.183944659134
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -9857,7 +9873,7 @@
  "hamdan bin mohammed names mansour bin mohammed as chairman of shabab al ahli s football club company": {
   "last_short": "2026-11-23",
   "montage_exhausted": true,
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     17.936387894508506,
@@ -9866,6 +9882,10 @@
    [
     10.882907080317697,
     12.650948536161348
+   ],
+   [
+    2.2208268810809852,
+    4.305138749786022
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10136,11 +10156,15 @@
   "last_short": "2026-11-23",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     63.93917455125275,
     66.14229968696368
+   ],
+   [
+    70.3081684605841,
+    71.95957631439656
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10500,11 +10524,15 @@
  },
  "hamdan bin mohammed opens cityscape global 2018": {
   "last_short": "2026-11-23",
-  "montage_used": 30,
+  "montage_used": 31,
   "remix_ranges": [
    [
     317.08,
     319.28
+   ],
+   [
+    323.8,
+    325.84
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11222,7 +11250,7 @@
   "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 22,
+  "montage_used": 23,
   "remix_ranges": [
    [
     298.95723771608766,
@@ -11231,6 +11259,10 @@
    [
     395.84292749284504,
     397.7760621468674
+   ],
+   [
+    378.92,
+    380.64
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11428,7 +11460,7 @@
  "hamdan bin mohammed receives victory team xcat": {
   "last_short": "2026-11-23",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     61.99092501489006,
@@ -11437,6 +11469,10 @@
    [
     49.919999999999995,
     51.68
+   ],
+   [
+    28.258445843930023,
+    30.717059724819663
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11821,6 +11857,7 @@
  "hamdan bin mohammed reviews preparations and protocols at dubai airport": {
   "long": "2026-10-31",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "video_exhausted": true,
@@ -12830,6 +12867,7 @@
   "last_short": "2026-11-23",
   "montage_exhausted": true,
   "montage_used": 6,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     133.17353424649173,

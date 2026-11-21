@@ -90,7 +90,10 @@ def main() -> None:
         d = duration(p)
         # The RAM guard kills this run every few minutes on a busy laptop; keep each finished second of the
         # current clip so the next run carries on instead of restarting the same clip forever.
-        part = json.loads(PARTIAL.read_text(encoding="utf-8")) if PARTIAL.exists() else {}
+        try:
+            part = json.loads(PARTIAL.read_text(encoding="utf-8")) if PARTIAL.exists() else {}
+        except ValueError:      # the RAM guard killed a run mid-write: a broken partial file must not stop all tagging
+            part = {}
         secs = part["sec"] if part.get("tok") == tok else []
         for s in range(secs[-1]["t"] + 1 if secs else 0, max(1, int(d))):
             t = min(s + 0.5, max(d - 0.05, 0))
@@ -103,7 +106,9 @@ def main() -> None:
             secs.append({"t": s, "desc": str(j.get("desc", ""))[:300], "tags": sorted({str(x).lower().strip() for x in j.get("tags", [])}),
                          "person": str(j.get("person", ""))[:120], "action": str(j.get("action", ""))[:80],
                          "shot": str(j.get("shot", ""))[:30], "quality": str(j.get("quality", ""))[:30]})
-            PARTIAL.write_text(json.dumps({"tok": tok, "sec": secs}), encoding="utf-8")
+            _tmp = PARTIAL.with_suffix(".tmp")
+            _tmp.write_text(json.dumps({"tok": tok, "sec": secs}), encoding="utf-8")
+            _tmp.replace(PARTIAL)       # atomic: a kill mid-write can no longer leave a broken file
         if secs:
             data[tok] = {"dur": round(d, 1), "sec": secs}
             OUT.write_text(yaml.safe_dump(data, sort_keys=True, allow_unicode=True, width=200), encoding="utf-8")

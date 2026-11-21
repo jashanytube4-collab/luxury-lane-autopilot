@@ -305,7 +305,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 46,
+  "montage_used": 47,
   "remix_ranges": [
    [
     316.5598655911052,
@@ -362,6 +362,10 @@
    [
     561.84,
     563.52
+   ],
+   [
+    131.57783346867305,
+    133.06111097791862
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2288,6 +2292,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 23,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     101.08052694620307,
@@ -2436,7 +2441,7 @@
  "hamdan bin mohammed approves dff s three year strategic plan": {
   "last_short": "2026-11-24",
   "montage_exhausted": true,
-  "montage_used": 28,
+  "montage_used": 29,
   "remix_ranges": [
    [
     132.68279953235296,
@@ -2465,6 +2470,10 @@
    [
     50.74922997692628,
     52.60184231978319
+   ],
+   [
+    14.627483540013053,
+    17.011367896733383
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9059,7 +9068,7 @@
  "hamdan bin mohammed meets students of dubai schools": {
   "last_short": "2026-11-24",
   "long": "2026-10-17",
-  "montage_used": 37,
+  "montage_used": 38,
   "remix_ranges": [
    [
     202.24325973382153,
@@ -9072,6 +9081,10 @@
    [
     85.13263599760806,
     86.85696298064781
+   ],
+   [
+    321.11808562897664,
+    323.37176448550474
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10881,7 +10894,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2018": {
   "last_short": "2026-11-24",
-  "montage_used": 33,
+  "montage_used": 34,
   "remix_ranges": [
    [
     317.08,
@@ -10898,6 +10911,10 @@
    [
     252.68,
     254.84
+   ],
+   [
+    354.4585883017283,
+    356.91248596811886
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11334,7 +11351,7 @@
  "hamdan bin mohammed opens smart police station at la mer": {
   "last_short": "2026-11-24",
   "montage_exhausted": true,
-  "montage_used": 21,
+  "montage_used": 22,
   "remix_ranges": [
    [
     62.11021807184426,
@@ -11359,6 +11376,10 @@
    [
     36.62325376134094,
     38.4148371800222
+   ],
+   [
+    210.32,
+    212.16
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13706,14 +13727,18 @@
   "video_len": 43
  },
  "hamdan bin mohammed visits dental exhibition in dubai": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     30.26795915214033,
     32.47642445356116
+   ],
+   [
+    93.57794228485712,
+    95.8510116403996
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14102,7 +14127,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 24,
+  "montage_used": 25,
   "remix_ranges": [
    [
     184.4,
@@ -14123,6 +14148,10 @@
    [
     17.238247494758355,
     18.717871547403217
+   ],
+   [
+    100.37490123411713,
+    101.94478735234645
    ]
   ],
   "remix_reset": "2026-11-20",

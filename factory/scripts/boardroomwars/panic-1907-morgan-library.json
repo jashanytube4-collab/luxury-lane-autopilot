@@ -1,0 +1,1037 @@
+{
+"channel": "boardroomwars",
+"slug": "panic-1907-morgan-library",
+"title": "The Night J.P. Morgan Locked Bankers In His Library To Stop The Panic Of 1907",
+"thumb": {
+"strip": "THE PANIC OF 1907",
+"words": "LOCKED IN",
+"face_q": "J. P. Morgan"
+},
+"sources": [
+"The Morgan Library & Museum, 'Panic of 1907' (Morgan summoned trust presidents to his library and locked the doors)",
+"Federal Reserve History / Boston Fed 'Panic of 1907' (United Copper corner, Knickerbocker run 22 Oct, Trust Company of America, $23.6M pledged by 14 banks on 24 Oct, Cortelyou ~$25M, TC&I purchase, Aldrich-Vreeland Act, National Monetary Commission)",
+"Bruner & Carr, The Panic of 1907 (excerpt via NPR): 4:45 a.m. signatures, $25M trust pool; Edward King of Union Trust",
+"Library of Congress Inside Adams blog: United Copper and the Panic of 1907",
+"Pujo Committee testimony, Dec 1912 ('the first thing is character'); Federal Reserve Act signed 23 Dec 1913",
+"Footage/photos: Library of Congress, Wikimedia Commons (public domain pre-1928 images); early New York films (Edison/Biograph, public domain)",
+"Hedged in script: 'this is the place to stop the trouble' (usual telling); locked-door attempt to leave + key in pocket (one account); 'here's the place, King' (one account); cheering on the floor (it was said); copper price ~$60 -> ~$10; ~$8M paid out; ~$30M city bonds"
+],
+"beats": [
+{
+"text": "New York. A Saturday night in November 1907. Snow-cold air on Madison Avenue.",
+"v": [
+{
+"t": "photo",
+"q": "Morgan Library exterior 1900s"
+},
+{
+"t": "big",
+"big": "NEW YORK",
+"small": "November 1907"
+}
+]
+},
+{
+"text": "Inside a marble library, the most powerful bankers in America are waiting.",
+"v": [
+{
+"t": "photo",
+"q": "Morgan Library East Room"
+},
+{
+"t": "card",
+"text": "THE LIBRARY"
+}
+]
+},
+{
+"text": "In the next room, a seventy-year-old man is playing cards by himself.",
+"v": [
+{
+"t": "photo",
+"q": "J. P. Morgan West Room study"
+},
+{
+"t": "photo",
+"q": "J. P. Morgan"
+}
+]
+},
+{
+"text": "His name is John Pierpont Morgan, and tonight he holds the country's money system in his hands.",
+"v": [
+{
+"t": "photo",
+"q": "John Pierpont Morgan portrait"
+},
+{
+"t": "big",
+"big": "J.P. MORGAN",
+"small": "age 70"
+}
+]
+},
+{
+"text": "The bankers think they can go home whenever they like. They are wrong. The front door has been locked.",
+"v": [
+{
+"t": "photo",
+"q": "Morgan Library bronze doors"
+},
+{
+"t": "card",
+"text": "THE DOOR IS LOCKED"
+}
+]
+},
+{
+"text": "This is the story of how one banker stopped a crash with a locked door, and why America decided no one man should ever do that again.",
+"v": [
+{
+"t": "video",
+"q": "Wall Street 1907",
+"alt": "Wall Street crowd 1900s"
+},
+{
+"t": "card",
+"text": "ONE MAN. ONE NIGHT."
+}
+]
+},
+{
+"text": "To see why that door mattered, go back four weeks. It starts with a bet on copper.",
+"v": [
+{
+"t": "photo",
+"q": "United Copper stock certificate"
+},
+{
+"t": "card",
+"text": "FOUR WEEKS EARLIER"
+}
+]
+},
+{
+"text": "In October 1907, a mining millionaire named Augustus Heinze and his brother Otto tried to corner the shares of their own company, United Copper.",
+"v": [
+{
+"t": "photo",
+"q": "F. Augustus Heinze"
+},
+{
+"t": "big",
+"big": "UNITED COPPER",
+"small": "October 1907"
+}
+]
+},
+{
+"text": "The plan was simple. Buy up the shares, squeeze the traders who had bet against them, and force the price up.",
+"v": [
+{
+"t": "list",
+"title": "THE SQUEEZE",
+"lines": [
+"buy every share",
+"trap the short sellers",
+"name your price"
+]
+},
+{
+"t": "video",
+"q": "stock exchange floor 1900s",
+"alt": "New York Stock Exchange 1900s"
+}
+]
+},
+{
+"text": "For one day it worked. Then the traders found shares somewhere else, and the price collapsed.",
+"v": [
+{
+"t": "photo",
+"q": "New York Stock Exchange 1907"
+},
+{
+"t": "card",
+"text": "THE CORNER FAILS"
+}
+]
+},
+{
+"text": "In a few days the stock fell from around sixty dollars to around ten.",
+"v": [
+{
+"t": "big",
+"big": "$60 -> $10",
+"small": "in days"
+},
+{
+"t": "photo",
+"q": "newspaper headline copper stock 1907"
+}
+]
+},
+{
+"text": "A copper deal gone wrong should have been a small story. But the Heinze brothers were tied to banks.",
+"v": [
+{
+"t": "video",
+"q": "Wall Street 1907",
+"alt": "Wall Street 1900s"
+},
+{
+"t": "card",
+"text": "THE BANKS"
+}
+]
+},
+{
+"text": "And in 1907 there was no central bank. No Federal Reserve. No lender of last resort.",
+"v": [
+{
+"t": "photo",
+"q": "US Treasury building 1900s"
+},
+{
+"t": "list",
+"title": "IN 1907 THERE WAS NO",
+"lines": [
+"central bank",
+"Federal Reserve",
+"deposit insurance"
+]
+}
+]
+},
+{
+"text": "If people panicked and wanted their cash back, nobody had to save them.",
+"v": [
+{
+"t": "video",
+"q": "crowd outside bank 1900s",
+"alt": "crowd New York 1907"
+},
+{
+"t": "card",
+"text": "NO SAFETY NET"
+}
+]
+},
+{
+"text": "The fear jumped from copper to the trust companies. These were lightly regulated banks that paid high interest and kept little cash.",
+"v": [
+{
+"t": "photo",
+"q": "Knickerbocker Trust Company building"
+},
+{
+"t": "card",
+"text": "THE TRUST COMPANIES"
+}
+]
+},
+{
+"text": "The third biggest in New York was the Knickerbocker Trust, a marble temple on Fifth Avenue.",
+"v": [
+{
+"t": "photo",
+"q": "Knickerbocker Trust Company Fifth Avenue"
+},
+{
+"t": "big",
+"big": "KNICKERBOCKER",
+"small": "Fifth Avenue"
+}
+]
+},
+{
+"text": "Its president, Charles Barney, had business links to the men behind the copper corner.",
+"v": [
+{
+"t": "photo",
+"q": "Charles T. Barney"
+},
+{
+"t": "card",
+"text": "THE LINK"
+}
+]
+},
+{
+"text": "On the twenty-first of October, a big bank said it would no longer clear the Knickerbocker's cheques. The news was out by morning.",
+"v": [
+{
+"t": "photo",
+"q": "New York Times October 1907 Knickerbocker"
+},
+{
+"t": "big",
+"big": "21 OCTOBER",
+"small": "the warning"
+}
+]
+},
+{
+"text": "Morgan had just come back from a church meeting in Virginia. His men studied the Knickerbocker's books through the night.",
+"v": [
+{
+"t": "photo",
+"q": "J. P. Morgan"
+},
+{
+"t": "card",
+"text": "ALL-NIGHT AUDIT"
+}
+]
+},
+{
+"text": "Their answer was cold. They could not be sure the Knickerbocker was solid. Morgan decided not to save it.",
+"v": [
+{
+"t": "photo",
+"q": "J. P. Morgan 1900s"
+},
+{
+"t": "card",
+"text": "NO RESCUE"
+}
+]
+},
+{
+"text": "On the twenty-second of October, the line outside the Knickerbocker stretched down the street.",
+"v": [
+{
+"t": "video",
+"q": "bank run 1907",
+"alt": "crowd outside bank 1900s"
+},
+{
+"t": "big",
+"big": "22 OCTOBER",
+"small": "the run"
+}
+]
+},
+{
+"text": "Clerks paid out about eight million dollars in less than three hours. Then, around noon, the doors closed.",
+"v": [
+{
+"t": "big",
+"big": "$8 MILLION",
+"small": "in under 3 hours"
+},
+{
+"t": "photo",
+"q": "Knickerbocker Trust Company run 1907"
+}
+]
+},
+{
+"text": "Charles Barney never recovered. He died a few weeks later.",
+"v": [
+{
+"t": "photo",
+"q": "Charles T. Barney"
+},
+{
+"t": "card",
+"text": "THE COST"
+}
+]
+},
+{
+"text": "Now every depositor in New York asked the same question. Is my bank next?",
+"v": [
+{
+"t": "video",
+"q": "New York City 1900s street film",
+"alt": "New York 1900s"
+},
+{
+"t": "card",
+"text": "IS MY BANK NEXT?"
+}
+]
+},
+{
+"text": "The next target was the Trust Company of America. People lined up before dawn.",
+"v": [
+{
+"t": "photo",
+"q": "Trust Company of America 1907"
+},
+{
+"t": "video",
+"q": "crowd Wall Street 1907",
+"alt": "crowd 1900s"
+}
+]
+},
+{
+"text": "Morgan sent a young banker named Benjamin Strong to check its books. Strong reported it was in trouble, but basically sound.",
+"v": [
+{
+"t": "photo",
+"q": "Benjamin Strong"
+},
+{
+"t": "card",
+"text": "SOUND?"
+}
+]
+},
+{
+"text": "By the usual telling, Morgan said: this, then, is the place to stop the trouble.",
+"v": [
+{
+"t": "quote",
+"text": "This is the place to stop the trouble.",
+"by": "J.P. Morgan, as reported"
+},
+{
+"t": "photo",
+"q": "J. P. Morgan"
+}
+]
+},
+{
+"text": "Cash was carried in through the crowds. The Trust Company of America survived the day.",
+"v": [
+{
+"t": "video",
+"q": "Wall Street 1907",
+"alt": "Wall Street 1900s"
+},
+{
+"t": "card",
+"text": "IT SURVIVES"
+}
+]
+},
+{
+"text": "Washington moved too. Treasury Secretary George Cortelyou came to New York and put about twenty-five million dollars of government money into the banks.",
+"v": [
+{
+"t": "photo",
+"q": "George B. Cortelyou"
+},
+{
+"t": "big",
+"big": "$25 MILLION",
+"small": "from the Treasury"
+}
+]
+},
+{
+"text": "But the government was not running the rescue. Morgan was.",
+"v": [
+{
+"t": "photo",
+"q": "John Pierpont Morgan portrait"
+},
+{
+"t": "card",
+"text": "MORGAN IN CHARGE"
+}
+]
+},
+{
+"text": "On the twenty-fourth of October, the president of the Stock Exchange walked across the street to Morgan's office.",
+"v": [
+{
+"t": "photo",
+"q": "New York Stock Exchange building 1900s"
+},
+{
+"t": "big",
+"big": "24 OCTOBER",
+"small": "the exchange"
+}
+]
+},
+{
+"text": "Brokers could not borrow money at any price. The interest rate on overnight loans had shot up to one hundred percent.",
+"v": [
+{
+"t": "big",
+"big": "100%",
+"small": "overnight interest"
+},
+{
+"t": "photo",
+"q": "New York Stock Exchange trading floor 1900s"
+}
+]
+},
+{
+"text": "He said the Exchange might have to close early. Morgan told him it would not close.",
+"v": [
+{
+"t": "photo",
+"q": "New York Stock Exchange 1907"
+},
+{
+"t": "card",
+"text": "IT WILL NOT CLOSE"
+}
+]
+},
+{
+"text": "Morgan called the bank presidents into his office. Within minutes they pledged more than twenty-three million dollars.",
+"v": [
+{
+"t": "photo",
+"q": "J.P. Morgan and Co. building Wall Street"
+},
+{
+"t": "big",
+"big": "$23.6 MILLION",
+"small": "in minutes"
+}
+]
+},
+{
+"text": "When the money reached the trading floor, it was said the brokers' cheering could be heard outside.",
+"v": [
+{
+"t": "video",
+"q": "stock exchange floor 1900s",
+"alt": "traders 1900s"
+},
+{
+"t": "card",
+"text": "THE CHEER"
+}
+]
+},
+{
+"text": "Days later, the City of New York itself was running short. Morgan's group agreed to buy about thirty million dollars of city bonds.",
+"v": [
+{
+"t": "photo",
+"q": "New York City Hall 1900s"
+},
+{
+"t": "big",
+"big": "$30 MILLION",
+"small": "for the city"
+}
+]
+},
+{
+"text": "On Sunday, churches across the city were asked to preach calm from the pulpit.",
+"v": [
+{
+"t": "photo",
+"q": "New York church 1900s"
+},
+{
+"t": "card",
+"text": "KEEP CALM"
+}
+]
+},
+{
+"text": "Each day, Morgan stopped one fire. And each night, a new one started.",
+"v": [
+{
+"t": "video",
+"q": "New York City 1900s street film",
+"alt": "New York 1900s"
+},
+{
+"t": "card",
+"text": "EVERY NIGHT A NEW FIRE"
+}
+]
+},
+{
+"text": "By the first week of November, two fires were burning at once.",
+"v": [
+{
+"t": "photo",
+"q": "J. P. Morgan"
+},
+{
+"t": "card",
+"text": "TWO FIRES"
+}
+]
+},
+{
+"text": "Fire one: the trust companies were still bleeding cash, and the strong ones refused to help the weak ones.",
+"v": [
+{
+"t": "photo",
+"q": "Trust Company of America 1907"
+},
+{
+"t": "card",
+"text": "FIRE ONE"
+}
+]
+},
+{
+"text": "Fire two: a big brokerage firm, Moore and Schley, was about to fail.",
+"v": [
+{
+"t": "photo",
+"q": "Wall Street 1907 photograph"
+},
+{
+"t": "card",
+"text": "FIRE TWO"
+}
+]
+},
+{
+"text": "Its loans were backed by shares in a southern steel company, Tennessee Coal, Iron and Railroad.",
+"v": [
+{
+"t": "photo",
+"q": "Tennessee Coal Iron and Railroad Company"
+},
+{
+"t": "big",
+"big": "TC&I",
+"small": "the collateral"
+}
+]
+},
+{
+"text": "If that firm went down, the whole market could go with it.",
+"v": [
+{
+"t": "video",
+"q": "Wall Street 1907",
+"alt": "Wall Street 1900s"
+},
+{
+"t": "card",
+"text": "THE DOMINOES"
+}
+]
+},
+{
+"text": "So on Saturday, the second of November, Morgan called everyone to his private library on Thirty-Sixth Street.",
+"v": [
+{
+"t": "photo",
+"q": "Morgan Library 36th Street"
+},
+{
+"t": "big",
+"big": "2 NOVEMBER",
+"small": "the library"
+}
+]
+},
+{
+"text": "The trust company presidents sat in one room. Morgan's own bankers sat in another.",
+"v": [
+{
+"t": "photo",
+"q": "Morgan Library East Room"
+},
+{
+"t": "photo",
+"q": "Morgan Library West Room"
+}
+]
+},
+{
+"text": "Morgan sat alone in his study, under his paintings, playing patience with a deck of cards.",
+"v": [
+{
+"t": "photo",
+"q": "Morgan Library West Room study"
+},
+{
+"t": "card",
+"text": "PATIENCE"
+}
+]
+},
+{
+"text": "Hours passed. Midnight passed. The trust presidents argued and would not agree.",
+"v": [
+{
+"t": "photo",
+"q": "Morgan Library East Room"
+},
+{
+"t": "card",
+"text": "MIDNIGHT"
+}
+]
+},
+{
+"text": "Then, by one account, some of them decided to leave. They found the front door locked. The key was in Morgan's pocket.",
+"v": [
+{
+"t": "photo",
+"q": "Morgan Library bronze doors"
+},
+{
+"t": "card",
+"text": "THE KEY"
+}
+]
+},
+{
+"text": "Morgan's demand was simple. The trust companies would raise twenty-five million dollars together to protect the weaker ones.",
+"v": [
+{
+"t": "big",
+"big": "$25 MILLION",
+"small": "or nobody leaves"
+},
+{
+"t": "photo",
+"q": "J. P. Morgan"
+}
+]
+},
+{
+"text": "Around a quarter to five in the morning, Morgan walked in with a paper and a pen.",
+"v": [
+{
+"t": "photo",
+"q": "Morgan Library East Room"
+},
+{
+"t": "big",
+"big": "4:45 AM",
+"small": "Sunday"
+}
+]
+},
+{
+"text": "By one account, he handed the pen to Edward King, the leader of the trust presidents, and said: here's the place, King.",
+"v": [
+{
+"t": "quote",
+"text": "Here's the place, King.",
+"by": "J.P. Morgan, by one account"
+},
+{
+"t": "photo",
+"q": "Edward King Union Trust Company"
+}
+]
+},
+{
+"text": "King signed. The others followed. Then the door was opened.",
+"v": [
+{
+"t": "photo",
+"q": "Morgan Library bronze doors"
+},
+{
+"t": "card",
+"text": "THE DOOR OPENS"
+}
+]
+},
+{
+"text": "That still left fire two. Morgan's answer was to have U.S. Steel buy the Tennessee company, so the brokerage firm's shares would be worth something again.",
+"v": [
+{
+"t": "photo",
+"q": "United States Steel 1900s"
+},
+{
+"t": "list",
+"title": "THE STEEL DEAL",
+"lines": [
+"U.S. Steel buys TC&I",
+"the broker is saved",
+"the market holds"
+]
+}
+]
+},
+{
+"text": "There was one problem. U.S. Steel was already huge, and President Theodore Roosevelt was attacking big trusts.",
+"v": [
+{
+"t": "photo",
+"q": "Theodore Roosevelt 1907"
+},
+{
+"t": "card",
+"text": "THE ANTITRUST PROBLEM"
+}
+]
+},
+{
+"text": "So two U.S. Steel men, Henry Clay Frick and Elbert Gary, took a night train to Washington.",
+"v": [
+{
+"t": "photo",
+"q": "Henry Clay Frick"
+},
+{
+"t": "photo",
+"q": "Elbert H. Gary"
+}
+]
+},
+{
+"text": "On Monday morning, before the market opened, they saw Roosevelt at the White House.",
+"v": [
+{
+"t": "photo",
+"q": "White House 1900s"
+},
+{
+"t": "big",
+"big": "MONDAY",
+"small": "before the bell"
+}
+]
+},
+{
+"text": "Roosevelt said he would not object. The deal went through, and the market held.",
+"v": [
+{
+"t": "photo",
+"q": "Theodore Roosevelt"
+},
+{
+"t": "card",
+"text": "THE MARKET HOLDS"
+}
+]
+},
+{
+"text": "Critics later said Morgan's company got a rich prize very cheaply in the middle of a panic. The government's later antitrust case against U.S. Steel raised that deal again.",
+"v": [
+{
+"t": "photo",
+"q": "U.S. Steel antitrust 1911"
+},
+{
+"t": "card",
+"text": "A BARGAIN?"
+}
+]
+},
+{
+"text": "The panic ended. Morgan was called the man who saved Wall Street.",
+"v": [
+{
+"t": "video",
+"q": "Wall Street 1907",
+"alt": "Wall Street 1900s"
+},
+{
+"t": "card",
+"text": "THE HERO"
+}
+]
+},
+{
+"text": "But the same story frightened a lot of people. One private banker had just decided which banks lived and which banks died.",
+"v": [
+{
+"t": "photo",
+"q": "John Pierpont Morgan portrait"
+},
+{
+"t": "card",
+"text": "WHO DECIDES?"
+}
+]
+},
+{
+"text": "The Knickerbocker was allowed to fall. The Trust Company of America was saved. Morgan made that call in his own offices.",
+"v": [
+{
+"t": "list",
+"title": "ONE MAN DECIDED",
+"lines": [
+"Knickerbocker: let fall",
+"Trust Co. of America: saved",
+"U.S. Steel: got TC&I"
+]
+},
+{
+"t": "photo",
+"q": "J. P. Morgan"
+}
+]
+},
+{
+"text": "And Morgan was seventy. What would happen in the next panic, when he was gone?",
+"v": [
+{
+"t": "photo",
+"q": "J. P. Morgan 1910"
+},
+{
+"t": "card",
+"text": "NEXT TIME?"
+}
+]
+},
+{
+"text": "In 1908, Congress passed an emergency currency law and set up a National Monetary Commission to study the problem.",
+"v": [
+{
+"t": "photo",
+"q": "United States Capitol 1908"
+},
+{
+"t": "big",
+"big": "1908",
+"small": "the commission"
+}
+]
+},
+{
+"text": "In 1910, a few senators and bankers met in secret at Jekyll Island in Georgia to draft a plan.",
+"v": [
+{
+"t": "photo",
+"q": "Jekyll Island Club"
+},
+{
+"t": "big",
+"big": "JEKYLL ISLAND",
+"small": "1910"
+}
+]
+},
+{
+"text": "In 1912, Morgan was called before Congress. Asked if credit was based on money or property, he answered: the first thing is character.",
+"v": [
+{
+"t": "quote",
+"text": "The first thing is character.",
+"by": "J.P. Morgan, Pujo hearing, 1912"
+},
+{
+"t": "photo",
+"q": "J. P. Morgan Pujo Committee"
+}
+]
+},
+{
+"text": "He died in Rome in March 1913.",
+"v": [
+{
+"t": "photo",
+"q": "J. P. Morgan funeral 1913"
+},
+{
+"t": "card",
+"text": "MARCH 1913"
+}
+]
+},
+{
+"text": "Nine months later, President Woodrow Wilson signed the Federal Reserve Act.",
+"v": [
+{
+"t": "photo",
+"q": "Woodrow Wilson signing Federal Reserve Act"
+},
+{
+"t": "big",
+"big": "FEDERAL RESERVE",
+"small": "December 1913"
+}
+]
+},
+{
+"text": "From then on, the job Morgan did that night would belong to a public central bank, not a private man with a key.",
+"v": [
+{
+"t": "photo",
+"q": "Federal Reserve Board 1914"
+},
+{
+"t": "card",
+"text": "NO MORE ONE MAN"
+}
+]
+},
+{
+"text": "So who won the Panic of 1907? The Heinze brothers lost their corner. Barney lost everything. The Knickerbocker lost its doors.",
+"v": [
+{
+"t": "list",
+"title": "WHO LOST",
+"lines": [
+"the Heinze brothers",
+"Charles Barney",
+"the Knickerbocker"
+]
+},
+{
+"t": "photo",
+"q": "Knickerbocker Trust Company building"
+}
+]
+},
+{
+"text": "Morgan won the week, and U.S. Steel won a steel company.",
+"v": [
+{
+"t": "list",
+"title": "WHO WON",
+"lines": [
+"Morgan: the week",
+"U.S. Steel: TC&I",
+"the market: survived"
+]
+},
+{
+"t": "photo",
+"q": "J. P. Morgan"
+}
+]
+},
+{
+"text": "But in the long run, the real winner was the idea that the system should never again depend on one man.",
+"v": [
+{
+"t": "photo",
+"q": "Federal Reserve Board 1914"
+},
+{
+"t": "card",
+"text": "THE REAL WINNER"
+}
+]
+},
+{
+"text": "Morgan stopped the crash by locking the door. America answered by building a bank that would not need him.",
+"v": [
+{
+"t": "photo",
+"q": "Morgan Library bronze doors"
+},
+{
+"t": "card",
+"text": "THE LOCKED DOOR"
+}
+]
+},
+{
+"text": "If you like true business wars from the history books, subscribe. Next time, it's another boardroom where someone does not get to leave.",
+"v": [
+{
+"t": "video",
+"q": "Wall Street 1907",
+"alt": "Wall Street 1900s"
+},
+{
+"t": "card",
+"text": "SUBSCRIBE"
+}
+]
+}
+]
+}

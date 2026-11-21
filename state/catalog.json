@@ -1172,7 +1172,7 @@
  "dubai crown prince visits dubai municipality": {
   "last_short": "2026-11-23",
   "long": "2026-11-02",
-  "montage_used": 38,
+  "montage_used": 39,
   "remix_ranges": [
    [
     321.72,
@@ -1201,6 +1201,10 @@
    [
     120.78095705099508,
     122.90753040485107
+   ],
+   [
+    179.11634932070996,
+    181.2304624027302
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5852,10 +5856,10 @@
   "video_len": 116
  },
  "hamdan bin mohammed concludes official visit to uzbekistan": {
-  "last_short": "2026-11-22",
+  "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     140.32574025403827,
@@ -5868,6 +5872,10 @@
    [
     92.95333333333333,
     94.81333333333333
+   ],
+   [
+    144.28666666666666,
+    146.21333333333334
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -7472,7 +7480,7 @@
  },
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
   "last_short": "2026-11-23",
-  "montage_used": 34,
+  "montage_used": 35,
   "remix_ranges": [
    [
     86.51501862110607,
@@ -7513,6 +7521,10 @@
    [
     92.82392592299863,
     94.58510329802861
+   ],
+   [
+    190.5702633229583,
+    192.02750237009317
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8617,7 +8629,7 @@
   "last_short": "2026-11-23",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     53.9493408689339,
@@ -8630,6 +8642,10 @@
    [
     38.32,
     40.04
+   ],
+   [
+    9.239999999999998,
+    11.120000000000001
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8716,11 +8732,15 @@
  "hamdan bin mohammed meets promising leaders from various dubai government entities": {
   "last_short": "2026-11-23",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     22.972803243625428,
     24.564352354930815
+   ],
+   [
+    16.04,
+    17.64
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8740,11 +8760,15 @@
  "hamdan bin mohammed meets students of dubai schools": {
   "last_short": "2026-11-23",
   "long": "2026-10-17",
-  "montage_used": 33,
+  "montage_used": 34,
   "remix_ranges": [
    [
     202.24325973382153,
     204.32202293269674
+   ],
+   [
+    140.05365046518529,
+    141.77776671106136
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9162,6 +9186,7 @@
   "long": "2026-10-14",
   "montage_exhausted": true,
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     29.76624027751384,
@@ -11196,11 +11221,15 @@
  "hamdan bin mohammed receives speaker of kyrgyz parliament": {
   "last_short": "2026-11-23",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     6.37768238943519,
     8.736089586568141
+   ],
+   [
+    60.48722571380767,
+    62.32102556573696
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12624,7 +12653,7 @@
   "video_len": 172
  },
  "hamdan bin mohammed visits amazon s new corporate office in dubai": {
-  "fails": 1,
+  "fails": 2,
   "last_short": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -12737,11 +12766,15 @@
   "last_short": "2026-11-23",
   "long": "2026-10-13",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     97.26657852612965,
     98.71597852024226
+   ],
+   [
+    43.16254215071056,
+    44.719635985803436
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -17090,6 +17123,11 @@
  "ig:faz3:18116157631125382": {
   "no_hamdan": true,
   "video_exhausted": true
+ },
+ "ig:faz3:18118098692100364": {
+  "no_hamdan": true,
+  "video_exhausted": true,
+  "video_len": 15
  },
  "ig:faz3:18119709691134876": {
   "no_hamdan": true,

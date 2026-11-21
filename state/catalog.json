@@ -5955,10 +5955,10 @@
   "video_len": 116
  },
  "hamdan bin mohammed concludes official visit to uzbekistan": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     140.32574025403827,
@@ -5975,6 +5975,10 @@
    [
     144.28666666666666,
     146.21333333333334
+   ],
+   [
+    49.88666666666666,
+    52.04666666666667
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6284,7 +6288,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     58.30116845702413,
@@ -6309,6 +6313,10 @@
    [
     107.61003505529858,
     109.31007234298184
+   ],
+   [
+    73.08128681196987,
+    74.96529630611592
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9638,11 +9646,16 @@
   "video_len": 60
  },
  "hamdan bin mohammed meets with minister of defence of uzbekistan": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-11-24",
   "long": "2026-10-16",
   "montage_exhausted": true,
-  "montage_used": 5,
-  "remix_ranges": [],
+  "montage_used": 6,
+  "remix_ranges": [
+   [
+    30.155718933046103,
+    32.01248252077489
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -9995,11 +10008,15 @@
   "last_short": "2026-11-24",
   "long": "2026-10-21",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     30.294825772194937,
     32.274320489997436
+   ],
+   [
+    14.524908108033443,
+    16.042638888163935
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11277,10 +11294,10 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed receives afc president": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     57.24011872282919,
@@ -11289,6 +11306,10 @@
    [
     34.180425682721285,
     36.39451566854399
+   ],
+   [
+    0.1837147158437229,
+    2.4531447007766305
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12861,10 +12882,10 @@
   "video_len": 181
  },
  "hamdan bin mohammed unveils 5 star plaque at hatta gdrfa centre": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     74.62743576497552,
@@ -12877,6 +12898,10 @@
    [
     59.885658941542935,
     62.127755211927095
+   ],
+   [
+    87.9289597453538,
+    89.40137530019557
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12913,11 +12938,15 @@
  "hamdan bin mohammed unveils 5 star plaque at sheikh zayed housing programme in dubai": {
   "last_short": "2026-11-24",
   "montage_exhausted": true,
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     104.84181508997926,
     106.76030442611169
+   ],
+   [
+    134.86322362661613,
+    137.09545760395753
    ]
   ],
   "remix_reset": "2026-11-20",

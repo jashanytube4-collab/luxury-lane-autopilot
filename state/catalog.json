@@ -713,6 +713,7 @@
   "long": "2026-10-30",
   "montage_exhausted": true,
   "montage_used": 24,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     221.18549172617395,
@@ -1783,10 +1784,10 @@
   "long": "2026-10-13"
  },
  "hamdan attends dubai smart city first meeting": {
-  "last_short": "2026-11-22",
+  "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 30,
+  "montage_used": 31,
   "no_video_until": "2026-11-03",
   "remix_ranges": [
    [
@@ -1820,6 +1821,10 @@
    [
     40.10496376483291,
     42.447530936586645
+   ],
+   [
+    31.45890705635603,
+    33.065631843622235
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6596,7 +6601,7 @@
   "last_short": "2026-11-24",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 33,
+  "montage_used": 34,
   "remix_ranges": [
    [
     91.53469075790515,
@@ -6641,6 +6646,10 @@
    [
     107.43818528087385,
     109.93045193284206
+   ],
+   [
+    112.38939025947695,
+    113.82706621412738
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6821,6 +6830,7 @@
  "hamdan bin mohammed honours mbr creative sports award winners": {
   "last_short": "2026-11-23",
   "long": "2026-10-18",
+  "montage_exhausted": true,
   "montage_used": 33,
   "remix_ranges": [
    [
@@ -8726,11 +8736,16 @@
   "video_len": 191
  },
  "hamdan bin mohammed meets government team behind uae s progress in world bank s ease of doing business ranking": {
-  "last_short": "2026-11-07",
+  "last_short": "2026-11-24",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 19,
-  "remix_ranges": [],
+  "montage_used": 20,
+  "remix_ranges": [
+   [
+    46.8,
+    49.24
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 2,
   "shot_ranges": [
@@ -9028,11 +9043,16 @@
   "video_len": 371
  },
  "hamdan bin mohammed meets teams at the forefront of implementing preventive measures against covid 19": {
-  "last_short": "2026-10-24",
+  "last_short": "2026-11-24",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 2,
-  "remix_ranges": [],
+  "montage_used": 3,
+  "remix_ranges": [
+   [
+    42.280471949895535,
+    44.033244873071006
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -9447,6 +9467,7 @@
   "long": "2026-10-10",
   "montage_exhausted": true,
   "montage_used": 6,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     22.52,
@@ -9913,14 +9934,18 @@
   "video_len": 63
  },
  "hamdan bin mohammed meets with uae diplomatic mission in india commends ministry of foreign affairs efforts": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     1.5837444810877725,
     3.7064503195643526
+   ],
+   [
+    24.00004272210265,
+    25.436207723994002
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11452,7 +11477,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 25,
+  "montage_used": 26,
   "remix_ranges": [
    [
     298.95723771608766,
@@ -11473,6 +11498,10 @@
    [
     224.72731604052873,
     226.18501693980502
+   ],
+   [
+    353.2421206408749,
+    354.92750355250354
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12078,6 +12107,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "photo_short": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "shorts_made": 2,
@@ -12756,11 +12786,16 @@
   "video_len": 91
  },
  "hamdan bin mohammed unveils 5 star plaque at dewa head office": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-24",
   "long": "2026-11-01",
   "montage_exhausted": true,
-  "montage_used": 12,
-  "remix_ranges": [],
+  "montage_used": 13,
+  "remix_ranges": [
+   [
+    112.85109569671269,
+    115.07628470592152
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -13005,6 +13040,7 @@
   "long": "2026-10-25",
   "montage_exhausted": true,
   "montage_used": 8,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     46.85816298295142,
@@ -13242,10 +13278,10 @@
   "video_len": 57
  },
  "hamdan bin mohammed visits area 2071 reviews dubai 10x initiative projects": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     140.89915446020242,
@@ -13254,6 +13290,10 @@
    [
     15.74783185894007,
     17.423971823849058
+   ],
+   [
+    53.2033765582077,
+    54.749576081010396
    ]
   ],
   "remix_reset": "2026-11-20",

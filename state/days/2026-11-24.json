@@ -133,8 +133,13 @@
   },
   {
    "at": "2026-11-24T18:36:58+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Where there is purpose, there is Fazza. 👑 #youtubeshorts #ytshorts",
+   "type": "short",
+   "video_id": "2vrMfyOQCYI",
+   "voiced": true
   },
   {
    "at": "2026-11-24T19:20:28+04:00",

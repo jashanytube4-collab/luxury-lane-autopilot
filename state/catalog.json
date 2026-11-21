@@ -305,7 +305,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 43,
+  "montage_used": 44,
   "remix_ranges": [
    [
     316.5598655911052,
@@ -350,6 +350,10 @@
    [
     511.4843086880041,
     513.155926193843
+   ],
+   [
+    951.0761651509563,
+    953.5702264015574
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1201,7 +1205,7 @@
  "dubai crown prince visits dubai municipality": {
   "last_short": "2026-11-24",
   "long": "2026-11-02",
-  "montage_used": 45,
+  "montage_used": 46,
   "remix_ranges": [
    [
     321.72,
@@ -1250,6 +1254,10 @@
    [
     160.87436442491807,
     163.14459803162367
+   ],
+   [
+    59.094471429456185,
+    60.99728252921238
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -7625,8 +7633,8 @@
   "video_len": 451
  },
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
-  "last_short": "2026-11-23",
-  "montage_used": 36,
+  "last_short": "2026-11-24",
+  "montage_used": 37,
   "remix_ranges": [
    [
     86.51501862110607,
@@ -7675,6 +7683,10 @@
    [
     25.601842886458726,
     27.902719092846805
+   ],
+   [
+    69.64,
+    71.47999999999999
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9072,6 +9084,7 @@
   "long": "2026-11-02",
   "montage_exhausted": true,
   "montage_used": 3,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     42.280471949895535,
@@ -9746,14 +9759,18 @@
   "video_len": 63
  },
  "hamdan bin mohammed meets with participants of retail summit in dubai": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 21,
+  "montage_used": 22,
   "remix_ranges": [
    [
     17.44,
     19.32
+   ],
+   [
+    139.92782543697564,
+    141.4024466397572
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10112,7 +10129,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-16",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     19.78167332622468,
@@ -10121,6 +10138,10 @@
    [
     28.091337375411637,
     29.85315593703525
+   ],
+   [
+    36.35696653577911,
+    38.694750381596585
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10763,7 +10784,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2018": {
   "last_short": "2026-11-24",
-  "montage_used": 32,
+  "montage_used": 33,
   "remix_ranges": [
    [
     317.08,
@@ -10776,6 +10797,10 @@
    [
     347.175100403327,
     348.6275840897025
+   ],
+   [
+    252.68,
+    254.84
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12476,11 +12501,15 @@
   "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     47.85333333333333,
     49.94666666666667
+   ],
+   [
+    13.160280967940876,
+    14.706316425356356
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13339,7 +13368,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     140.89915446020242,
@@ -13352,6 +13381,10 @@
    [
     53.2033765582077,
     54.749576081010396
+   ],
+   [
+    41.578830858298694,
+    42.58351800192693
    ]
   ],
   "remix_reset": "2026-11-20",

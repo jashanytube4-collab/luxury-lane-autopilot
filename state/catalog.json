@@ -8909,7 +8909,7 @@
  "hamdan bin mohammed meets students of dubai schools": {
   "last_short": "2026-11-24",
   "long": "2026-10-17",
-  "montage_used": 36,
+  "montage_used": 37,
   "remix_ranges": [
    [
     202.24325973382153,
@@ -8918,6 +8918,10 @@
    [
     140.05365046518529,
     141.77776671106136
+   ],
+   [
+    85.13263599760806,
+    86.85696298064781
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11282,10 +11286,15 @@
   "video_len": 103
  },
  "hamdan bin mohammed receives chairman of wccd": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-24",
   "montage_exhausted": true,
-  "montage_used": 4,
-  "remix_ranges": [],
+  "montage_used": 5,
+  "remix_ranges": [
+   [
+    29.91925750690768,
+    31.697790773277536
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -11397,7 +11406,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 24,
+  "montage_used": 25,
   "remix_ranges": [
    [
     298.95723771608766,
@@ -11414,6 +11423,10 @@
    [
     90.26657957180711,
     92.28296660515213
+   ],
+   [
+    224.72731604052873,
+    226.18501693980502
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11716,7 +11729,7 @@
  "hamdan bin mohammed reviews dubai future foundation s 2018 plan and projects": {
   "last_short": "2026-11-24",
   "long": "2026-10-30",
-  "montage_used": 21,
+  "montage_used": 22,
   "remix_ranges": [
    [
     40.994186600963694,
@@ -11729,6 +11742,10 @@
    [
     68.0961824394585,
     69.80360487481049
+   ],
+   [
+    97.62280621632603,
+    99.52177449499965
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12225,6 +12242,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 3,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     43.88803651890827,
@@ -12804,10 +12822,15 @@
   "video_len": 189
  },
  "hamdan bin mohammed unveils 5 star plaque at sheikh zayed housing programme in dubai": {
-  "last_short": "2026-11-12",
+  "last_short": "2026-11-24",
   "montage_exhausted": true,
-  "montage_used": 17,
-  "remix_ranges": [],
+  "montage_used": 18,
+  "remix_ranges": [
+   [
+    104.84181508997926,
+    106.76030442611169
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 3,
   "shot_ranges": [
@@ -12868,10 +12891,15 @@
   "video_len": 234
  },
  "hamdan bin mohammed unveils 5 star plaques at three customer happiness centres in dubai": {
-  "last_short": "2026-11-19",
+  "last_short": "2026-11-24",
   "montage_exhausted": true,
-  "montage_used": 23,
-  "remix_ranges": [],
+  "montage_used": 24,
+  "remix_ranges": [
+   [
+    140.09584732465112,
+    142.1469486554751
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -13403,12 +13431,16 @@
   "video_len": 196
  },
  "hamdan bin mohammed visits department of economic development": {
-  "last_short": "2026-11-23",
-  "montage_used": 18,
+  "last_short": "2026-11-24",
+  "montage_used": 19,
   "remix_ranges": [
    [
     162.32,
     164.48
+   ],
+   [
+    187.123812421541,
+    188.96236994621526
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13640,7 +13672,7 @@
  "hamdan bin mohammed visits dubai airshow 2017": {
   "last_short": "2026-11-24",
   "long": "2026-11-02",
-  "montage_used": 24,
+  "montage_used": 25,
   "remix_ranges": [
    [
     152.68800146802988,
@@ -13649,6 +13681,10 @@
    [
     136.03064578078266,
     137.32993247493656
+   ],
+   [
+    82.04329018682267,
+    83.94360291377116
    ]
   ],
   "remix_reset": "2026-11-20",

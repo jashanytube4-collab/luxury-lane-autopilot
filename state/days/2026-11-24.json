@@ -98,8 +98,13 @@
   },
   {
    "at": "2026-11-24T15:31:03+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "A crown prince who still walks with his people. #youtubeshorts #ytshorts",
+   "type": "short",
+   "video_id": "u_scsdPqeRo",
+   "voiced": true
   },
   {
    "at": "2026-11-24T16:18:12+04:00",

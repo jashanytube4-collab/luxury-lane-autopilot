@@ -8453,11 +8453,15 @@
   "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     50.73435098048448,
     53.19136226344722
+   ],
+   [
+    21.593118402780046,
+    23.844146228078742
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8998,11 +9002,15 @@
   "last_short": "2026-11-23",
   "long": "2026-10-20",
   "montage_exhausted": true,
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     79.21597670964616,
     80.84690873911713
+   ],
+   [
+    20.61305879475227,
+    22.805735882165926
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9571,11 +9579,16 @@
   "video_len": 63
  },
  "hamdan bin mohammed meets with participants of retail summit in dubai": {
-  "last_short": "2026-11-17",
+  "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 20,
-  "remix_ranges": [],
+  "montage_used": 21,
+  "remix_ranges": [
+   [
+    17.44,
+    19.32
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -9874,6 +9887,7 @@
   "last_short": "2026-11-23",
   "montage_exhausted": true,
   "montage_used": 5,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     17.936387894508506,
@@ -10236,11 +10250,16 @@
   "long": "2026-10-17"
  },
  "hamdan bin mohammed offers condolences to family of martyr saeed alhajri": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-23",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 8,
-  "remix_ranges": [],
+  "montage_used": 9,
+  "remix_ranges": [
+   [
+    109.75884718947057,
+    111.63588359025336
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -10683,6 +10702,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 3,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     64.50962398447788,
@@ -10943,7 +10963,7 @@
  "hamdan bin mohammed opens smart police station at la mer": {
   "last_short": "2026-11-23",
   "montage_exhausted": true,
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     62.11021807184426,
@@ -10960,6 +10980,10 @@
    [
     128.946432930425,
     130.77991740600106
+   ],
+   [
+    105.72,
+    107.83999999999999
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12524,11 +12548,15 @@
  "hamdan bin mohammed unveils 5 star plaque at dubai chamber of commerce and industry": {
   "last_short": "2026-11-23",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     86.10332430465824,
     87.8373114981511
+   ],
+   [
+    68.48467311280095,
+    69.68400143784804
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12719,11 +12747,15 @@
   "last_short": "2026-11-23",
   "long": "2026-10-25",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     46.85816298295142,
     48.3809052774756
+   ],
+   [
+    25.435641693581523,
+    27.7655720550393
    ]
   ],
   "remix_reset": "2026-11-20",

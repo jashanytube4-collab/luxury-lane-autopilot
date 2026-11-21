@@ -305,7 +305,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 42,
+  "montage_used": 43,
   "remix_ranges": [
    [
     316.5598655911052,
@@ -346,6 +346,10 @@
    [
     628.2,
     630.24
+   ],
+   [
+    511.4843086880041,
+    513.155926193843
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1196,7 +1200,7 @@
  "dubai crown prince visits dubai municipality": {
   "last_short": "2026-11-24",
   "long": "2026-11-02",
-  "montage_used": 43,
+  "montage_used": 44,
   "remix_ranges": [
    [
     321.72,
@@ -1237,6 +1241,10 @@
    [
     18.26797424510849,
     20.373556043448634
+   ],
+   [
+    329.0965860825136,
+    330.6485917235267
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3519,10 +3527,10 @@
   "video_len": 165
  },
  "hamdan bin mohammed attends dubai police graduation ceremony": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 28,
+  "montage_used": 29,
   "remix_ranges": [
    [
     214.5336373953238,
@@ -3567,6 +3575,10 @@
    [
     48.26689513573238,
     50.83766336177854
+   ],
+   [
+    230.48221579776697,
+    232.14436773796893
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8167,6 +8179,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 5,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     11.148252215522165,
@@ -9804,14 +9817,18 @@
   "video_len": 27
  },
  "hamdan bin mohammed meets with the mayor of miami at expo 2020 dubai": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-20",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     3.8979864482299194,
     5.7821090497117495
+   ],
+   [
+    25.628473603251184,
+    27.778356426956716
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9950,11 +9967,16 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed mohammed bin rashid places the highest priority on supporting youth and developing their skills": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-24",
   "long": "2026-10-21",
   "montage_exhausted": true,
-  "montage_used": 9,
-  "remix_ranges": [],
+  "montage_used": 10,
+  "remix_ranges": [
+   [
+    30.294825772194937,
+    32.274320489997436
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -10156,7 +10178,7 @@
  "hamdan bin mohammed offers condolences to al falahi family": {
   "last_short": "2026-11-24",
   "long": "2026-10-16",
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     40.36954099792474,
@@ -10173,6 +10195,10 @@
    [
     57.60471872110453,
     59.90891219972171
+   ],
+   [
+    88.12091134067308,
+    89.58017524715825
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10890,7 +10916,7 @@
  "hamdan bin mohammed opens gitex tech week 2017": {
   "last_short": "2026-11-24",
   "long": "2026-10-14",
-  "montage_used": 33,
+  "montage_used": 34,
   "remix_ranges": [
    [
     332.64461795604365,
@@ -10903,6 +10929,10 @@
    [
     228.35379773784072,
     230.3476177830283
+   ],
+   [
+    469.69612307761173,
+    471.5192355691761
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11500,11 +11530,15 @@
   "fails": 1,
   "last_short": "2026-11-24",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     59.199999999999996,
     61.2
+   ],
+   [
+    38.78267048644324,
+    40.20478144150581
    ]
   ],
   "remix_reset": "2026-11-20",

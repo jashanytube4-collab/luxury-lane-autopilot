@@ -1188,7 +1188,7 @@
  "dubai crown prince visits dubai municipality": {
   "last_short": "2026-11-24",
   "long": "2026-11-02",
-  "montage_used": 40,
+  "montage_used": 41,
   "remix_ranges": [
    [
     321.72,
@@ -1225,6 +1225,10 @@
    [
     241.0559122666963,
     242.8430493875035
+   ],
+   [
+    18.26797424510849,
+    20.373556043448634
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2218,7 +2222,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 22,
+  "montage_used": 23,
   "remix_ranges": [
    [
     101.08052694620307,
@@ -2255,6 +2259,10 @@
    [
     298.53914625445975,
     299.18386693055584
+   ],
+   [
+    190.13051036439907,
+    191.6827778184931
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9415,10 +9423,10 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed meets with local dignitaries and senior officials at nad al sheba majlis": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-05",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     48.919999999999995,
@@ -9427,6 +9435,10 @@
    [
     20.158556172563923,
     22.59242780178071
+   ],
+   [
+    54.78666666666666,
+    56.413333333333334
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10501,8 +10513,8 @@
   "video_len": 281
  },
  "hamdan bin mohammed opens cityscape global 2017": {
-  "last_short": "2026-11-23",
-  "montage_used": 35,
+  "last_short": "2026-11-24",
+  "montage_used": 36,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -10512,6 +10524,10 @@
    [
     41.839999999999996,
     43.92
+   ],
+   [
+    106.16000000000001,
+    107.88
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10574,8 +10590,8 @@
   "video_len": 279
  },
  "hamdan bin mohammed opens cityscape global 2018": {
-  "last_short": "2026-11-23",
-  "montage_used": 31,
+  "last_short": "2026-11-24",
+  "montage_used": 32,
   "remix_ranges": [
    [
     317.08,
@@ -10584,6 +10600,10 @@
    [
     323.8,
     325.84
+   ],
+   [
+    347.175100403327,
+    348.6275840897025
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11988,14 +12008,18 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed reviews strategic plans of dubai civil defense": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     59.31669790827004,
     61.911056037287864
+   ],
+   [
+    42.35333333333333,
+    44.24666666666667
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12410,11 +12434,15 @@
  "hamdan bin mohammed tours gitex global 2022 on its concluding day": {
   "last_short": "2026-11-24",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     90.4439944497751,
     92.0887569179768
+   ],
+   [
+    26.12,
+    27.88
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13089,10 +13117,10 @@
   "video_len": 159
  },
  "hamdan bin mohammed visits art dubai": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-13",
   "montage_exhausted": true,
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     97.26657852612965,
@@ -13101,6 +13129,10 @@
    [
     43.16254215071056,
     44.719635985803436
+   ],
+   [
+    151.0820480558568,
+    153.62947707329943
    ]
   ],
   "remix_reset": "2026-11-20",

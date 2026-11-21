@@ -1217,7 +1217,7 @@
  "dubai crown prince visits dubai municipality": {
   "last_short": "2026-11-24",
   "long": "2026-11-02",
-  "montage_used": 46,
+  "montage_used": 47,
   "remix_ranges": [
    [
     321.72,
@@ -1270,6 +1270,10 @@
    [
     59.094471429456185,
     60.99728252921238
+   ],
+   [
+    74.15379469536695,
+    76.65900580349393
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2430,9 +2434,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed approves dff s three year strategic plan": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "montage_exhausted": true,
-  "montage_used": 27,
+  "montage_used": 28,
   "remix_ranges": [
    [
     132.68279953235296,
@@ -2457,6 +2461,10 @@
    [
     229.20619249656139,
     230.71205152780982
+   ],
+   [
+    50.74922997692628,
+    52.60184231978319
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4271,7 +4279,7 @@
  "hamdan bin mohammed attends hct graduation": {
   "last_short": "2026-11-24",
   "long": "2026-10-31",
-  "montage_used": 40,
+  "montage_used": 41,
   "remix_ranges": [
    [
     219.49568300016466,
@@ -4280,6 +4288,10 @@
    [
     169.59670139889403,
     171.76046698551136
+   ],
+   [
+    215.84,
+    217.79999999999998
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8594,7 +8606,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-24",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     92.88000000000001,
@@ -8607,6 +8619,10 @@
    [
     105.73625675176463,
     108.04745939906572
+   ],
+   [
+    86.55675113131048,
+    88.04287759368933
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10780,7 +10796,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2017": {
   "last_short": "2026-11-24",
-  "montage_used": 37,
+  "montage_used": 38,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -10794,6 +10810,10 @@
    [
     106.16000000000001,
     107.88
+   ],
+   [
+    50.64,
+    52.480000000000004
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10954,11 +10974,15 @@
  "hamdan bin mohammed opens crime prevention international conference": {
   "last_short": "2026-11-24",
   "montage_exhausted": true,
-  "montage_used": 21,
+  "montage_used": 22,
   "remix_ranges": [
    [
     20.13502281199993,
     22.2615366880285
+   ],
+   [
+    37.33325819682585,
+    38.81748171005098
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12820,7 +12844,7 @@
  "hamdan bin mohammed tours gitex global 2022 on its concluding day": {
   "last_short": "2026-11-24",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     90.4439944497751,
@@ -12833,6 +12857,10 @@
    [
     85.71073175327294,
     87.72442874288718
+   ],
+   [
+    119.02481233039305,
+    121.13811703029667
    ]
   ],
   "remix_reset": "2026-11-20",

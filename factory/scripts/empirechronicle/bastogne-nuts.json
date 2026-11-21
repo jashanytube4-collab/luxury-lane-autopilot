@@ -1,0 +1,1121 @@
+{
+"channel": "empirechronicle",
+"slug": "bastogne-nuts",
+"title": "What Really Happened At Bastogne: 'Nuts!' And The Siege Of The 101st",
+"thumb": {
+"strip": "THE TRUE STORY",
+"words": "NUTS!",
+"face_q": "Anthony McAuliffe"
+},
+"sources": [
+"US Army Center of Military History: Cole, The Ardennes: Battle of the Bulge (US Army in WWII); army.mil 101st Airborne / Bastogne histories",
+"Ultimatum text and 'NUTS!' reply (22 Dec 1944) and McAuliffe's Christmas message (24 Dec 1944) as published by the US Army",
+"army.mil: 'Cobra King led 4th Armored Division column that relieved Bastogne' (Lt Charles Boggess, C Co 37th Tank Bn, met A Co 326th Airborne Engineers, 26 Dec 1944)",
+"Time magazine 1945: Distinguished Unit Citation never before awarded to an entire Army division",
+"Footage: US Army Signal Corps / NARA (public domain); US Army photos (public domain)",
+"Hedged in script: 'something like' Aw nuts (staff recollection); Harper 'go to hell' (his account); Manteuffel 'reportedly' furious; ~100 miles; ~19,000 dead; no exact clock time for the link-up"
+],
+"beats": [
+{
+"text": "In December 1944, a small Belgian town called Bastogne was surrounded by the German army.",
+"v": [
+{
+"t": "video",
+"q": "Battle of the Bulge 1944 footage",
+"alt": "Battle of the Bulge"
+},
+{
+"t": "big",
+"big": "BASTOGNE",
+"small": "surrounded"
+}
+]
+},
+{
+"text": "Inside were American paratroopers with little ammunition, no winter coats, and no way out.",
+"v": [
+{
+"t": "video",
+"q": "101st Airborne Bastogne 1944",
+"alt": "paratroopers 1944"
+},
+{
+"t": "card",
+"text": "NO WAY OUT"
+}
+]
+},
+{
+"text": "Then the Germans sent a letter asking them to surrender. The American general answered with one word.",
+"v": [
+{
+"t": "photo",
+"q": "German surrender ultimatum Bastogne 1944"
+},
+{
+"t": "card",
+"text": "ONE WORD"
+}
+]
+},
+{
+"text": "The films make it look like a perfect Hollywood line. The real story is messier, colder, and a lot more surprising.",
+"v": [
+{
+"t": "video",
+"q": "Bastogne snow 1944",
+"alt": "snow soldiers 1944"
+},
+{
+"t": "card",
+"text": "THE REAL STORY"
+}
+]
+},
+{
+"text": "By late 1944, most people thought the war in the West was almost over. Paris was free. German forces had been pushed back to their own border.",
+"v": [
+{
+"t": "video",
+"q": "liberation of Paris 1944",
+"alt": "Paris 1944"
+},
+{
+"t": "photo",
+"q": "Allied front line map September 1944"
+}
+]
+},
+{
+"text": "The Ardennes forest in Belgium was treated as a quiet place. Tired units were sent there to rest. New units were sent there to learn.",
+"v": [
+{
+"t": "video",
+"q": "Ardennes forest winter",
+"alt": "Ardennes"
+},
+{
+"t": "card",
+"text": "THE QUIET SECTOR"
+}
+]
+},
+{
+"text": "Hitler chose exactly that place for his last great gamble.",
+"v": [
+{
+"t": "photo",
+"q": "Adolf Hitler 1944"
+},
+{
+"t": "card",
+"text": "THE LAST GAMBLE"
+}
+]
+},
+{
+"text": "On the sixteenth of December, in fog and snow, more than two hundred thousand German soldiers attacked.",
+"v": [
+{
+"t": "video",
+"q": "German offensive Ardennes 1944 footage",
+"alt": "German tanks 1944"
+},
+{
+"t": "big",
+"big": "16 DECEMBER 1944",
+"small": "the attack"
+}
+]
+},
+{
+"text": "The plan was to split the Allies in two and race all the way to the port of Antwerp.",
+"v": [
+{
+"t": "photo",
+"q": "Battle of the Bulge map"
+},
+{
+"t": "list",
+"title": "HITLER'S PLAN",
+"lines": [
+"break through the Ardennes",
+"cross the Meuse",
+"take Antwerp",
+"split the Allies"
+]
+}
+]
+},
+{
+"text": "The bad weather was part of the plan. Allied planes could not fly in it.",
+"v": [
+{
+"t": "video",
+"q": "fog winter forest 1944",
+"alt": "fog"
+},
+{
+"t": "card",
+"text": "NO PLANES"
+}
+]
+},
+{
+"text": "As the German attack pushed forward, the American line bent backward into a huge bulge on the map. That is how the battle got its name.",
+"v": [
+{
+"t": "photo",
+"q": "Battle of the Bulge map December 1944"
+},
+{
+"t": "card",
+"text": "THE BULGE"
+}
+]
+},
+{
+"text": "And in the middle of that bulge sat Bastogne.",
+"v": [
+{
+"t": "photo",
+"q": "Bastogne aerial 1944"
+},
+{
+"t": "big",
+"big": "BASTOGNE",
+"small": "Belgium"
+}
+]
+},
+{
+"text": "It was not a big town. But seven main roads met there. Whoever held Bastogne controlled the roads through the Ardennes.",
+"v": [
+{
+"t": "video",
+"q": "Bastogne 1944",
+"alt": "Belgian town 1944"
+},
+{
+"t": "big",
+"big": "7 ROADS",
+"small": "one town"
+}
+]
+},
+{
+"text": "There was no fresh army nearby to hold it. So the Allies sent the only reserve they had.",
+"v": [
+{
+"t": "video",
+"q": "US Army trucks convoy 1944",
+"alt": "army convoy"
+},
+{
+"t": "card",
+"text": "SEND THE RESERVE"
+}
+]
+},
+{
+"text": "The 101st Airborne Division was resting in France after months of fighting in Holland. Many of its men were on leave in Paris.",
+"v": [
+{
+"t": "photo",
+"q": "101st Airborne Division 1944"
+},
+{
+"t": "video",
+"q": "Mourmelon 1944",
+"alt": "US paratroopers 1944"
+}
+]
+},
+{
+"text": "They were loaded onto open trucks and driven north through the night, about a hundred miles, many without proper winter clothing.",
+"v": [
+{
+"t": "video",
+"q": "US Army trucks winter 1944",
+"alt": "trucks snow 1944"
+},
+{
+"t": "big",
+"big": "~100 MILES",
+"small": "in open trucks"
+}
+]
+},
+{
+"text": "Even their commander was missing. General Maxwell Taylor was in the United States.",
+"v": [
+{
+"t": "photo",
+"q": "Maxwell D. Taylor"
+},
+{
+"t": "card",
+"text": "NO COMMANDER"
+}
+]
+},
+{
+"text": "So the division was led by its artillery chief, Brigadier General Anthony McAuliffe.",
+"v": [
+{
+"t": "photo",
+"q": "Anthony McAuliffe"
+},
+{
+"t": "big",
+"big": "McAULIFFE",
+"small": "acting commander"
+}
+]
+},
+{
+"text": "They were not alone. Tank crews of the 10th Armored Division had already raced in, and the tank destroyers of the 705th followed.",
+"v": [
+{
+"t": "video",
+"q": "Sherman tank snow 1944",
+"alt": "Sherman tank winter"
+},
+{
+"t": "list",
+"title": "THE DEFENDERS",
+"lines": [
+"101st Airborne",
+"10th Armored, Combat Command B",
+"705th Tank Destroyers",
+"stragglers from broken units"
+]
+}
+]
+},
+{
+"text": "Small teams of tanks were pushed out to villages around the town to slow the enemy down. At Noville, one team held for almost two days.",
+"v": [
+{
+"t": "video",
+"q": "tank battle snow 1944",
+"alt": "tanks 1944"
+},
+{
+"t": "photo",
+"q": "Noville Belgium 1944"
+}
+]
+},
+{
+"text": "Those hours gave the paratroopers time to dig in.",
+"v": [
+{
+"t": "video",
+"q": "soldiers digging foxholes snow 1944",
+"alt": "foxhole"
+},
+{
+"t": "card",
+"text": "TIME TO DIG IN"
+}
+]
+},
+{
+"text": "By the twenty first of December, every road out of Bastogne was cut.",
+"v": [
+{
+"t": "photo",
+"q": "Bastogne encirclement map"
+},
+{
+"t": "big",
+"big": "21 DECEMBER",
+"small": "surrounded"
+}
+]
+},
+{
+"text": "The paratroopers liked to joke that they were used to being surrounded. Dropping behind enemy lines was their job.",
+"v": [
+{
+"t": "video",
+"q": "101st Airborne paratroopers 1944",
+"alt": "paratroopers"
+},
+{
+"t": "card",
+"text": "USED TO IT"
+}
+]
+},
+{
+"text": "But being used to it did not make it easier.",
+"v": [
+{
+"t": "video",
+"q": "wounded soldiers 1944 aid station",
+"alt": "field hospital 1944"
+},
+{
+"t": "card",
+"text": "THE COST"
+}
+]
+},
+{
+"text": "The cold was brutal. Men slept in frozen holes in the ground. Some lined their boots with newspaper.",
+"v": [
+{
+"t": "video",
+"q": "soldiers snow winter 1944 Ardennes",
+"alt": "snow soldiers"
+},
+{
+"t": "card",
+"text": "FROZEN FOXHOLES"
+}
+]
+},
+{
+"text": "Ammunition ran so low that some guns were limited to a handful of shells a day.",
+"v": [
+{
+"t": "video",
+"q": "artillery firing winter 1944",
+"alt": "howitzer 1944"
+},
+{
+"t": "card",
+"text": "A HANDFUL A DAY"
+}
+]
+},
+{
+"text": "Medical supplies ran low too. The division's field hospital had been captured early in the battle.",
+"v": [
+{
+"t": "video",
+"q": "army medics 1944",
+"alt": "medics"
+},
+{
+"t": "card",
+"text": "HOSPITAL LOST"
+}
+]
+},
+{
+"text": "Then, on the twenty second of December, four German soldiers walked up the road under a white flag.",
+"v": [
+{
+"t": "video",
+"q": "white flag soldiers 1944",
+"alt": "white flag"
+},
+{
+"t": "big",
+"big": "22 DECEMBER",
+"small": "white flag"
+}
+]
+},
+{
+"text": "They were met by men of the 327th Glider Infantry, and the two officers were taken, blindfolded, to a command post.",
+"v": [
+{
+"t": "photo",
+"q": "327th Glider Infantry Regiment"
+},
+{
+"t": "card",
+"text": "BLINDFOLDED"
+}
+]
+},
+{
+"text": "They carried a typed letter from a German general.",
+"v": [
+{
+"t": "photo",
+"q": "German ultimatum Bastogne 1944 letter"
+},
+{
+"t": "card",
+"text": "THE LETTER"
+}
+]
+},
+{
+"text": "It said the fortune of war was changing. It offered the Americans one way to avoid total destruction.",
+"v": [
+{
+"t": "quote",
+"text": "the honorable surrender of the encircled town",
+"by": "German ultimatum, 22 Dec 1944"
+},
+{
+"t": "photo",
+"q": "German surrender demand Bastogne"
+}
+]
+},
+{
+"text": "They had two hours to decide. If they refused, German artillery would wipe them out.",
+"v": [
+{
+"t": "big",
+"big": "2 HOURS",
+"small": "to decide"
+},
+{
+"t": "video",
+"q": "German artillery 1944",
+"alt": "artillery"
+}
+]
+},
+{
+"text": "The letter was carried to McAuliffe, who had been asleep.",
+"v": [
+{
+"t": "photo",
+"q": "Anthony McAuliffe"
+},
+{
+"t": "card",
+"text": "WAKE UP"
+}
+]
+},
+{
+"text": "According to the officers in the room, he read it and said something like, us surrender? Aw, nuts.",
+"v": [
+{
+"t": "photo",
+"q": "Anthony McAuliffe Bastogne"
+},
+{
+"t": "quote",
+"text": "Aw, nuts!",
+"by": "McAuliffe, as recalled by his staff"
+}
+]
+},
+{
+"text": "Then he had to send a formal reply, and he did not know what to write.",
+"v": [
+{
+"t": "card",
+"text": "WHAT TO WRITE?"
+},
+{
+"t": "photo",
+"q": "Bastogne command post 1944"
+}
+]
+},
+{
+"text": "One of his officers, Lieutenant Colonel Harry Kinnard, pointed out that what he had just said would be hard to beat.",
+"v": [
+{
+"t": "photo",
+"q": "Harry Kinnard"
+},
+{
+"t": "card",
+"text": "HARD TO BEAT"
+}
+]
+},
+{
+"text": "So the reply was typed on a sheet of paper. To the German commander. Nuts. The American commander.",
+"v": [
+{
+"t": "photo",
+"q": "McAuliffe Nuts reply 1944"
+},
+{
+"t": "big",
+"big": "NUTS!",
+"small": "The American Commander"
+}
+]
+},
+{
+"text": "Colonel Joseph Harper took it back to the Germans waiting on the road.",
+"v": [
+{
+"t": "photo",
+"q": "Joseph Harper 327th"
+},
+{
+"t": "video",
+"q": "winter road Belgium 1944",
+"alt": "snow road"
+}
+]
+},
+{
+"text": "The German officers did not understand it. Was this a yes or a no?",
+"v": [
+{
+"t": "card",
+"text": "YES OR NO?"
+},
+{
+"t": "video",
+"q": "German officers 1944",
+"alt": "German officers"
+}
+]
+},
+{
+"text": "Harper explained. In plain English, he said, it means go to hell.",
+"v": [
+{
+"t": "quote",
+"text": "In plain English, it is the same as go to hell.",
+"by": "Col. Joseph Harper (his account)"
+},
+{
+"t": "photo",
+"q": "Joseph Harper 327th Glider Infantry"
+}
+]
+},
+{
+"text": "Here is the twist the films leave out. The German army commander, Hasso von Manteuffel, was reportedly furious that the letter had been sent at all.",
+"v": [
+{
+"t": "photo",
+"q": "Hasso von Manteuffel"
+},
+{
+"t": "card",
+"text": "THE TWIST"
+}
+]
+},
+{
+"text": "He did not have the artillery to carry out the threat. The Germans had promised something they could not deliver.",
+"v": [
+{
+"t": "video",
+"q": "German soldiers snow 1944",
+"alt": "German troops winter"
+},
+{
+"t": "card",
+"text": "AN EMPTY THREAT"
+}
+]
+},
+{
+"text": "The great bombardment never came the way the letter promised. Instead came bombers.",
+"v": [
+{
+"t": "video",
+"q": "bombing night 1944",
+"alt": "air raid"
+},
+{
+"t": "card",
+"text": "INSTEAD: BOMBERS"
+}
+]
+},
+{
+"text": "But first, the sky changed.",
+"v": [
+{
+"t": "video",
+"q": "clear winter sky",
+"alt": "blue sky"
+},
+{
+"t": "card",
+"text": "THE SKY CHANGED"
+}
+]
+},
+{
+"text": "For days, fog had kept almost every Allied plane on the ground. On the twenty third of December, the skies cleared.",
+"v": [
+{
+"t": "video",
+"q": "C-47 aircraft 1944",
+"alt": "C-47 Skytrain"
+},
+{
+"t": "big",
+"big": "23 DECEMBER",
+"small": "clear skies"
+}
+]
+},
+{
+"text": "General George Patton had even had a prayer for good weather printed for his troops. Whether you call it luck or prayer, the weather finally broke.",
+"v": [
+{
+"t": "photo",
+"q": "George S. Patton"
+},
+{
+"t": "card",
+"text": "THE WEATHER PRAYER"
+}
+]
+},
+{
+"text": "Pathfinders jumped in first to guide the planes. Then the cargo planes came, wave after wave.",
+"v": [
+{
+"t": "video",
+"q": "supply drop parachutes 1944",
+"alt": "airdrop 1944"
+},
+{
+"t": "card",
+"text": "WAVE AFTER WAVE"
+}
+]
+},
+{
+"text": "Parachutes filled the sky over Bastogne. Ammunition, food, medicine.",
+"v": [
+{
+"t": "video",
+"q": "C-47 supply drop Bastogne",
+"alt": "parachute supply drop"
+},
+{
+"t": "list",
+"title": "FROM THE SKY",
+"lines": [
+"ammunition",
+"food",
+"medicine",
+"blood plasma"
+]
+}
+]
+},
+{
+"text": "Fighter bombers attacked German tanks around the town. For the first time in days, the defenders could hit back from the air.",
+"v": [
+{
+"t": "video",
+"q": "P-47 Thunderbolt 1944",
+"alt": "P-47 Thunderbolt"
+},
+{
+"t": "card",
+"text": "HIT BACK"
+}
+]
+},
+{
+"text": "On Christmas Eve, McAuliffe sent his men a message. It printed the German letter and his reply.",
+"v": [
+{
+"t": "photo",
+"q": "McAuliffe Christmas message 1944"
+},
+{
+"t": "card",
+"text": "CHRISTMAS EVE"
+}
+]
+},
+{
+"text": "It said, we have stopped cold everything that has been thrown at us.",
+"v": [
+{
+"t": "quote",
+"text": "We have stopped cold everything that has been thrown at us.",
+"by": "McAuliffe, Christmas message 1944"
+},
+{
+"t": "video",
+"q": "101st Airborne Bastogne",
+"alt": "paratroopers"
+}
+]
+},
+{
+"text": "That same night, German bombers hit the town. One bomb struck an aid station full of wounded men.",
+"v": [
+{
+"t": "video",
+"q": "bombed town ruins 1944",
+"alt": "ruins 1944"
+},
+{
+"t": "card",
+"text": "THE AID STATION"
+}
+]
+},
+{
+"text": "A Belgian nurse, Renée Lemaire, was killed. Another, Augusta Chiwy, kept treating the wounded through the siege.",
+"v": [
+{
+"t": "photo",
+"q": "Augusta Chiwy"
+},
+{
+"t": "list",
+"title": "THE NURSES",
+"lines": [
+"Renée Lemaire, killed",
+"Augusta Chiwy, kept working"
+]
+}
+]
+},
+{
+"text": "On Christmas morning, German tanks and infantry attacked from the west. Some broke through the outer line.",
+"v": [
+{
+"t": "video",
+"q": "tank attack snow 1944",
+"alt": "tanks winter"
+},
+{
+"t": "big",
+"big": "25 DECEMBER",
+"small": "the big attack"
+}
+]
+},
+{
+"text": "Paratroopers and tank destroyers stopped them. The line held.",
+"v": [
+{
+"t": "video",
+"q": "US soldiers rifle snow 1944",
+"alt": "soldiers firing 1944"
+},
+{
+"t": "card",
+"text": "THE LINE HELD"
+}
+]
+},
+{
+"text": "Meanwhile, the rescue was already on its way. And that part of the story starts days earlier, in a cold room in Verdun.",
+"v": [
+{
+"t": "photo",
+"q": "Verdun 1944 conference"
+},
+{
+"t": "card",
+"text": "MEANWHILE"
+}
+]
+},
+{
+"text": "On the nineteenth of December, General Eisenhower met his commanders. He asked how soon anyone could attack north.",
+"v": [
+{
+"t": "photo",
+"q": "Dwight D. Eisenhower 1944"
+},
+{
+"t": "big",
+"big": "19 DECEMBER",
+"small": "Verdun"
+}
+]
+},
+{
+"text": "Patton said he could attack in about two days, with three divisions. Some in the room thought he was joking.",
+"v": [
+{
+"t": "photo",
+"q": "George S. Patton 1944"
+},
+{
+"t": "card",
+"text": "TWO DAYS?"
+}
+]
+},
+{
+"text": "He was not. His staff had already drawn up plans in case it happened.",
+"v": [
+{
+"t": "video",
+"q": "Third Army tanks 1944",
+"alt": "Third Army"
+},
+{
+"t": "card",
+"text": "ALREADY PLANNED"
+}
+]
+},
+{
+"text": "Tens of thousands of men and vehicles turned ninety degrees and drove north through snow and ice.",
+"v": [
+{
+"t": "video",
+"q": "US Army convoy snow 1944",
+"alt": "convoy winter"
+},
+{
+"t": "big",
+"big": "90°",
+"small": "turn north"
+}
+]
+},
+{
+"text": "At the front of it was the 4th Armored Division. In its lead tank battalion was Lieutenant Colonel Creighton Abrams.",
+"v": [
+{
+"t": "photo",
+"q": "Creighton Abrams"
+},
+{
+"t": "video",
+"q": "4th Armored Division 1944",
+"alt": "Sherman tanks"
+}
+]
+},
+{
+"text": "On the twenty sixth of December, they fought through the village of Assenois, just south of Bastogne.",
+"v": [
+{
+"t": "photo",
+"q": "Assenois Belgium"
+},
+{
+"t": "big",
+"big": "26 DECEMBER",
+"small": "Assenois"
+}
+]
+},
+{
+"text": "The lead tank was a Sherman called Cobra King, commanded by Lieutenant Charles Boggess.",
+"v": [
+{
+"t": "photo",
+"q": "Cobra King tank"
+},
+{
+"t": "big",
+"big": "COBRA KING",
+"small": "the lead tank"
+}
+]
+},
+{
+"text": "Late that afternoon, Cobra King reached a line of American foxholes. They belonged to the engineers of the 101st.",
+"v": [
+{
+"t": "video",
+"q": "Sherman tank 1944",
+"alt": "tank"
+},
+{
+"t": "card",
+"text": "THE CORRIDOR"
+}
+]
+},
+{
+"text": "The siege was broken. Supplies and ambulances began moving into the town.",
+"v": [
+{
+"t": "video",
+"q": "ambulances convoy 1944",
+"alt": "army ambulance 1944"
+},
+{
+"t": "card",
+"text": "THE SIEGE IS BROKEN"
+}
+]
+},
+{
+"text": "Now here is the part that started an argument that lasted for decades. Did the 101st need to be rescued?",
+"v": [
+{
+"t": "card",
+"text": "RESCUED?"
+},
+{
+"t": "video",
+"q": "101st Airborne Bastogne",
+"alt": "paratroopers"
+}
+]
+},
+{
+"text": "Many of the paratroopers always said no. They said they were holding fine on their own.",
+"v": [
+{
+"t": "video",
+"q": "paratroopers 1944",
+"alt": "101st Airborne"
+},
+{
+"t": "quote",
+"text": "We didn't need rescuing.",
+"by": "a common line among 101st veterans"
+}
+]
+},
+{
+"text": "The tank crews said they had fought hard to reach them. Both were true.",
+"v": [
+{
+"t": "video",
+"q": "tank crew 1944",
+"alt": "tank crew"
+},
+{
+"t": "card",
+"text": "BOTH WERE TRUE"
+}
+]
+},
+{
+"text": "And the fighting was not over. Some of the hardest battles around Bastogne came in January, in the woods outside the town.",
+"v": [
+{
+"t": "video",
+"q": "forest fighting snow 1945",
+"alt": "winter forest war"
+},
+{
+"t": "big",
+"big": "JANUARY 1945",
+"small": "still fighting"
+}
+]
+},
+{
+"text": "By the end, the Battle of the Bulge had cost the United States about nineteen thousand dead. It was the largest battle the US Army fought in the war.",
+"v": [
+{
+"t": "photo",
+"q": "Battle of the Bulge memorial"
+},
+{
+"t": "big",
+"big": "~19,000",
+"small": "American dead"
+}
+]
+},
+{
+"text": "Hitler's gamble failed. It used up tanks and men that Germany could never replace.",
+"v": [
+{
+"t": "video",
+"q": "destroyed German tank 1944",
+"alt": "destroyed tank"
+},
+{
+"t": "card",
+"text": "THE GAMBLE FAILED"
+}
+]
+},
+{
+"text": "The 101st Airborne received the Distinguished Unit Citation. It was the first time the award went to an entire division.",
+"v": [
+{
+"t": "photo",
+"q": "101st Airborne Distinguished Unit Citation 1945"
+},
+{
+"t": "card",
+"text": "THE WHOLE DIVISION"
+}
+]
+},
+{
+"text": "McAuliffe's one word reply became one of the most famous lines of the war.",
+"v": [
+{
+"t": "photo",
+"q": "Anthony McAuliffe"
+},
+{
+"t": "big",
+"big": "NUTS!",
+"small": "one word"
+}
+]
+},
+{
+"text": "Today, Bastogne has a square named after him, with an American tank parked in it. And every December, the town holds a Nuts weekend.",
+"v": [
+{
+"t": "photo",
+"q": "McAuliffe Square Bastogne"
+},
+{
+"t": "photo",
+"q": "Mardasson Memorial Bastogne"
+}
+]
+},
+{
+"text": "So how true is the famous version? The courage is true. The cold is true. The reply really was one word.",
+"v": [
+{
+"t": "video",
+"q": "Bastogne 1944",
+"alt": "Bastogne"
+},
+{
+"t": "card",
+"text": "THE VERDICT"
+}
+]
+},
+{
+"text": "But the full story is bigger. A quiet sector, a hundred miles in open trucks, an empty threat, a clear sky, and a tank called Cobra King.",
+"v": [
+{
+"t": "list",
+"title": "WHAT REALLY HAPPENED",
+"lines": [
+"the trucks from France",
+"the empty threat",
+"the sky cleared",
+"Patton turned north",
+"Cobra King"
+]
+},
+{
+"t": "video",
+"q": "Battle of the Bulge 1944 footage",
+"alt": "Battle of the Bulge"
+}
+]
+},
+{
+"text": "If you want the true story behind the next big war film, subscribe. The real history is always stranger.",
+"v": [
+{
+"t": "video",
+"q": "101st Airborne Bastogne",
+"alt": "Bastogne"
+},
+{
+"t": "card",
+"text": "THE TRUE STORY"
+}
+]
+}
+]
+}

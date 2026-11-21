@@ -305,7 +305,7 @@
   "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 40,
+  "montage_used": 41,
   "remix_ranges": [
    [
     316.5598655911052,
@@ -338,6 +338,10 @@
    [
     167.19116127339674,
     169.55191491682658
+   ],
+   [
+    531.96,
+    533.6
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -696,7 +700,7 @@
   "last_short": "2026-11-23",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 22,
+  "montage_used": 23,
   "remix_ranges": [
    [
     221.18549172617395,
@@ -733,6 +737,10 @@
    [
     206.45738060032963,
     208.52810462927403
+   ],
+   [
+    143.60589735817643,
+    145.20328608459022
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8395,11 +8403,16 @@
   "video_len": 101
  },
  "hamdan bin mohammed launches world s largest arabic audio library": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-23",
   "long": "2026-10-24",
   "montage_exhausted": true,
-  "montage_used": 7,
-  "remix_ranges": [],
+  "montage_used": 8,
+  "remix_ranges": [
+   [
+    92.88000000000001,
+    94.64
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -10274,7 +10287,7 @@
   "last_short": "2026-11-23",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 34,
+  "montage_used": 35,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -10284,6 +10297,10 @@
    [
     116.34413393596749,
     117.85313479888835
+   ],
+   [
+    197.57407498915688,
+    199.17614187751843
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11013,11 +11030,15 @@
   "last_short": "2026-11-23",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     57.24011872282919,
     59.37402098373469
+   ],
+   [
+    34.180425682721285,
+    36.39451566854399
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11865,11 +11886,16 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed reviews strategic plans of dubai civil defense": {
-  "last_short": "2026-11-12",
+  "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 8,
-  "remix_ranges": [],
+  "montage_used": 9,
+  "remix_ranges": [
+   [
+    59.31669790827004,
+    61.911056037287864
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -12491,7 +12517,7 @@
   "last_short": "2026-11-23",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     74.62743576497552,
@@ -12500,6 +12526,10 @@
    [
     115.31056851753584,
     117.40347255709234
+   ],
+   [
+    59.885658941542935,
+    62.127755211927095
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13121,8 +13151,13 @@
  },
  "hamdan bin mohammed visits department of economic development": {
   "last_short": "2026-11-23",
-  "montage_used": 16,
-  "remix_ranges": [],
+  "montage_used": 17,
+  "remix_ranges": [
+   [
+    162.32,
+    164.48
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -13549,6 +13584,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 13,
+  "no_video_until": "2026-11-24",
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,

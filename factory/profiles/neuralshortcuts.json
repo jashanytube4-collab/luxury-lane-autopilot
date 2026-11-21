@@ -1,0 +1,32 @@
+{
+ "key": "neuralshortcuts",
+ "name": "Neural Shortcuts",
+ "ref": "local_optima",
+ "channel_id": "UC9cQtxymuSl2turA2W7UlIw",
+ "account": 1,
+ "engine": "tech",
+ "voice": "en-US-AndrewNeural",
+ "rate": "+4%",
+ "pitch": "+0Hz",
+ "structure": [
+  "hook: number result + proof test + catch",
+  "experiment with on-screen tally",
+  "objection then harder test",
+  "mechanism diagram",
+  "recap card of steps"
+ ],
+ "cadence_per_week": 2,
+ "kind": "new",
+ "pace_max": 3.8,
+ "accent": "#7c5cff",
+ "grade": "eq=contrast=1.08:saturation=1.05:gamma_b=1.03,vignette=PI/5",
+ "music": [
+  "Laser Groove",
+  "Inspired",
+  "The Complex"
+ ],
+ "title_formula": "<Task> in <N> Minutes With <AI tool> | Stop <habit>",
+ "thumb": {
+  "style": "dark bg, one huge glowing time number pair (40 MIN -> 6 MIN), UI fragment, mint+violet accent, no faces"
+ }
+}

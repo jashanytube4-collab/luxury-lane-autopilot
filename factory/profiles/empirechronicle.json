@@ -1,0 +1,37 @@
+{
+ "key": "empirechronicle",
+ "name": "Empire Chronicle",
+ "ref": "history_buffs",
+ "channel_id": "UCzxru0fc1EJCRBRB33qcqqQ",
+ "account": 2,
+ "engine": "docu",
+ "voice": "en-GB-RyanNeural",
+ "rate": "+0%",
+ "pitch": "-2Hz",
+ "pace_max": 4.5,
+ "accent": "#d4a24c",
+ "grade": "eq=contrast=1.07:saturation=0.82:gamma_r=1.04:gamma_b=0.94,vignette=PI/4.5",
+ "music": [
+  "Heroic Age",
+  "Our Story Begins",
+  "Undaunted"
+ ],
+ "structure": [
+  "date + dramatic event in sentence 1",
+  "myth (the film) vs reality pivot every 60-90 s",
+  "what happened to them after",
+  "verdict + one CTA at the end"
+ ],
+ "title_formula": "The True Story Behind <film/series> | What Really Happened At <event>",
+ "thumb": {
+  "strip": "THE TRUE STORY",
+  "style": "real PD archive photo/painting, huge serif gold/red event word, dark vignette, never actors"
+ },
+ "sources_first": [
+  "archive.org US gov WWII/Cold War film (PD)",
+  "Wikimedia Commons video",
+  "PD paintings + maps"
+ ],
+ "cadence_per_week": 2,
+ "kind": "new"
+}

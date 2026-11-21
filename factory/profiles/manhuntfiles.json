@@ -1,0 +1,41 @@
+{
+ "key": "manhuntfiles",
+ "name": "Manhunt Files",
+ "ref": "dr_insanity",
+ "channel_id": "UCKVUBuj8zdzRJYwzXOHG8YA",
+ "account": 1,
+ "engine": "docu",
+ "voice": "en-US-ChristopherNeural",
+ "rate": "-2%",
+ "pitch": "-2Hz",
+ "pace_max": 4.0,
+ "accent": "#b91c1c",
+ "grade": "eq=contrast=1.08:saturation=0.9:gamma_b=1.04:gamma_r=0.98,vignette=PI/5",
+ "music": [
+  "Hiding Your Reality",
+  "The Complex",
+  "Rising Tide"
+ ],
+ "structure": [
+  "cold open: the capture moment + 'This is <name>. For <N> days he is the most wanted man in <place>'",
+  "open loop: the small detail that finally gives him away",
+  "day-counter chapters, present tense",
+  "foreshadow line every 3-4 min",
+  "false lead / wrong suspect mid-video",
+  "piece-by-piece evidence stack",
+  "capture as the last scene + one-line aftermath + one CTA"
+ ],
+ "title_formula": "How The FBI Finally Caught <name/alias> | The <N>-Day Manhunt For <...> | How One <detail> Ended A <N>-Year Manhunt",
+ "thumb": {
+  "strip": "DAY <N>",
+  "style": "real PD/federal frame or wanted-poster face inside REC camcorder viewfinder overlay, red DAY counter badge + map pin, max 2 words, bright, no gore"
+ },
+ "sources_first": [
+  "FBI.gov / FBI Vault / USMS / ATF videos + photos (US federal public domain)",
+  "archive.org PD newsreels for historic manhunts",
+  "own dark pursuit map with route line + day counter",
+  "official agency bodycam releases (max ~20%, Last Clue list)"
+ ],
+ "cadence_per_week": 2,
+ "kind": "new"
+}

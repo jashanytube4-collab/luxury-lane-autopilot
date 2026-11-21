@@ -1,0 +1,17 @@
+{
+ "key": "thelastclue",
+ "name": "The Last Clue",
+ "ref": "solved_files",
+ "channel_id": "UCRAkjJz3S1mPgcEmxdP6XBg",
+ "account": 1,
+ "engine": "docu",
+ "voice": "en-US-DavisNeural",
+ "rate": "-6%",
+ "pitch": "-3Hz",
+ "structure": [
+  "case timeline",
+  "one overlooked detail reveal"
+ ],
+ "cadence_per_week": 2,
+ "kind": "new"
+}

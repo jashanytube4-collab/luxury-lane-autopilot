@@ -1,0 +1,89 @@
+name: Factory render
+
+# Renders ONE factory video with tools.factory (same code + ffmpeg settings as the laptop).
+# Dispatched by tools/factory/queue.py. Never publishes anything. Needs no secrets.
+run-name: "factory ${{ inputs.channel }} ${{ inputs.slug }}"
+
+on:
+  workflow_dispatch:
+    inputs:
+      channel:
+        description: "Channel key (factory/registry.json), e.g. empirechronicle"
+        required: true
+      slug:
+        description: "Script slug"
+        required: true
+      pack_b64:
+        description: "Script pack JSON, gzip + base64 (sent by queue.py; scripts only, no secrets)"
+        required: true
+
+concurrency:
+  # one lane per channel+slug, so different videos render in parallel
+  group: factory-${{ inputs.channel }}-${{ inputs.slug }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  render:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: .github/workflows/factory_render.yml
+
+      - name: System packages
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+
+      - name: Python packages
+        run: pip install "edge-tts>=7.3.1" "pillow==11.3.0" "requests>=2.31" PyYAML
+
+      - name: Cache downloaded footage and photos
+        uses: actions/cache@v6
+        with:
+          path: factory/cache
+          key: factory-cache-${{ inputs.channel }}-${{ github.run_id }}
+          restore-keys: factory-cache-${{ inputs.channel }}-
+
+      - name: Unpack script
+        env:
+          PACK_B64: ${{ inputs.pack_b64 }}
+          CHANNEL: ${{ inputs.channel }}
+          SLUG: ${{ inputs.slug }}
+        run: |
+          python - <<'PY'
+          import base64, gzip, json, os, re
+          ch, slug = os.environ["CHANNEL"], os.environ["SLUG"]
+          assert re.fullmatch(r"[a-z0-9_]+", ch) and re.fullmatch(r"[A-Za-z0-9_.-]+", slug), "bad channel/slug"
+          pack = json.loads(gzip.decompress(base64.b64decode(os.environ["PACK_B64"])))
+          assert pack["channel"] == ch, "pack channel differs from input"
+          pack["slug"] = pack.get("slug") or slug
+          open("pack.json", "w", encoding="utf-8").write(json.dumps(pack))
+          open(os.environ["GITHUB_ENV"], "a").write(f"OUT=factory/out/{pack['channel']}/{pack['slug']}\n")
+          PY
+
+      - name: Render (same code as the laptop)
+        run: python -m tools.factory.run pack.json
+
+      - name: Contact sheet
+        run: |
+          D=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$OUT/final.mp4")
+          N=$(python -c "import math;print(max(1,min(40,math.ceil($D/8))))")
+          ffmpeg -y -loglevel error -i "$OUT/final.mp4" -vf "fps=$N/$D,scale=480:-1,tile=5x$(( (N+4)/5 ))" -frames:v 1 -update 1 "$OUT/contact.jpg"
+
+      - name: Upload result
+        uses: actions/upload-artifact@v7
+        with:
+          name: factory-${{ inputs.channel }}-${{ inputs.slug }}
+          path: |
+            ${{ env.OUT }}/final.mp4
+            ${{ env.OUT }}/credits.txt
+            ${{ env.OUT }}/contact.jpg
+          retention-days: 3
+          if-no-files-found: error

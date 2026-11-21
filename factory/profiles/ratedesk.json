@@ -1,0 +1,8 @@
+{
+ "key": "ratedesk",
+ "name": "Rate Desk",
+ "ref": null,
+ "engine": "charts",
+ "kind": "existing",
+ "pipeline": "work/evergreen/engine.py - same engine"
+}

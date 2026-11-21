@@ -1,0 +1,256 @@
+[
+ {
+  "key": "abyssarchive",
+  "name": "Abyss Archive",
+  "ref": "depth_theory",
+  "channel_id": "UC8iaWYkOZmDSkHB9VWSMC2g",
+  "account": 1,
+  "engine": "flat",
+  "voice": "en-US-GuyNeural",
+  "rate": "-6%",
+  "pitch": "-4Hz",
+  "structure": [
+   "hook:second-person scene",
+   "myth->correction",
+   "rule of 3 facts"
+  ],
+  "cadence_per_week": 2,
+  "kind": "new"
+ },
+ {
+  "key": "thelastclue",
+  "name": "The Last Clue",
+  "ref": "solved_files",
+  "channel_id": "UCRAkjJz3S1mPgcEmxdP6XBg",
+  "account": 1,
+  "engine": "docu",
+  "voice": "en-US-DavisNeural",
+  "rate": "-6%",
+  "pitch": "-3Hz",
+  "structure": [
+   "case timeline",
+   "one overlooked detail reveal"
+  ],
+  "cadence_per_week": 2,
+  "kind": "new"
+ },
+ {
+  "key": "neuralshortcuts",
+  "name": "Neural Shortcuts",
+  "ref": "local_optima",
+  "channel_id": "UC9cQtxymuSl2turA2W7UlIw",
+  "account": 1,
+  "engine": "tech",
+  "voice": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "+0Hz",
+  "structure": [
+   "tool demo graphics",
+   "before/after time saved"
+  ],
+  "cadence_per_week": 2,
+  "kind": "new"
+ },
+ {
+  "key": "mindforgearc",
+  "name": "Mindforge Arc",
+  "ref": "shonen_growth",
+  "channel_id": "UCDIHRnxxBkwQ75Jcof0PahQ",
+  "account": 1,
+  "engine": "mind",
+  "voice": "en-US-GuyNeural",
+  "rate": "-4%",
+  "pitch": "-2Hz",
+  "structure": [
+   "discipline rules",
+   "story of a habit"
+  ],
+  "cadence_per_week": 2,
+  "kind": "new"
+ },
+ {
+  "key": "frontlineatlas",
+  "name": "Frontline Atlas",
+  "ref": "strabo",
+  "channel_id": "UCPocXwLGXo6fDhAiHNXD4Ug",
+  "account": 1,
+  "engine": "maps",
+  "voice": "en-GB-ThomasNeural",
+  "rate": "-4%",
+  "pitch": "+0Hz",
+  "structure": [
+   "map-led geopolitics",
+   "why question"
+  ],
+  "cadence_per_week": 2,
+  "kind": "new"
+ },
+ {
+  "key": "byteodyssey",
+  "name": "Byte Odyssey",
+  "ref": "epic_programmer",
+  "channel_id": "UC6Nix5eeDtcv7MZDspfnAVA",
+  "account": 2,
+  "engine": "tech",
+  "voice": "en-US-BrianNeural",
+  "rate": "-2%",
+  "pitch": "+0Hz",
+  "structure": [
+   "big question",
+   "tech history timeline"
+  ],
+  "cadence_per_week": 2,
+  "kind": "new"
+ },
+ {
+  "key": "pageremedy",
+  "name": "Page Remedy",
+  "ref": "antidote",
+  "channel_id": "UCA6uMuwn_MqFvQoet6h7WXg",
+  "account": 1,
+  "engine": "docu",
+  "voice": "en-US-AriaNeural",
+  "rate": "-2%",
+  "pitch": "+0Hz",
+  "structure": [
+   "book idea per chapter",
+   "problem->fix"
+  ],
+  "cadence_per_week": 2,
+  "kind": "new"
+ },
+ {
+  "key": "hiddenmarkets",
+  "name": "Hidden Markets",
+  "ref": "invisible_hand",
+  "channel_id": "UCN0y3Y4iyAQMwLmlgtOsfQQ",
+  "account": 1,
+  "engine": "charts",
+  "voice": "en-US-ChristopherNeural",
+  "rate": "-3%",
+  "pitch": "+0Hz",
+  "structure": [
+   "chart + map",
+   "how it really works"
+  ],
+  "cadence_per_week": 2,
+  "kind": "new"
+ },
+ {
+  "key": "leviathanlore",
+  "name": "Leviathan Lore",
+  "ref": "apex_morph",
+  "channel_id": "UC_dmocaNZk0D1QSsf58N5bA",
+  "account": 1,
+  "engine": "flat",
+  "voice": "en-GB-RyanNeural",
+  "rate": "-5%",
+  "pitch": "-2Hz",
+  "structure": [
+   "giant scale comparisons",
+   "creature profile"
+  ],
+  "cadence_per_week": 2,
+  "kind": "new"
+ },
+ {
+  "key": "empirechronicle",
+  "name": "Empire Chronicle",
+  "ref": "history_buffs",
+  "channel_id": "UCzxru0fc1EJCRBRB33qcqqQ",
+  "account": 2,
+  "engine": "docu",
+  "voice": "en-GB-RyanNeural",
+  "rate": "-6%",
+  "pitch": "-3Hz",
+  "structure": [
+   "rise/fall arc",
+   "paintings + maps"
+  ],
+  "cadence_per_week": 2,
+  "kind": "new"
+ },
+ {
+  "key": "boardroomwars",
+  "name": "Boardroom Wars",
+  "ref": "paper_billions",
+  "channel_id": "UCUg4_3YNR-iSyOyb56u2y2g",
+  "account": 1,
+  "engine": "docu",
+  "voice": "en-US-DavisNeural",
+  "rate": "-3%",
+  "pitch": "-1Hz",
+  "structure": [
+   "rivalry arc",
+   "betrayal reveal"
+  ],
+  "cadence_per_week": 2,
+  "kind": "new"
+ },
+ {
+  "key": "manhuntfiles",
+  "name": "Manhunt Files",
+  "ref": "dr_insanity",
+  "channel_id": "UCKVUBuj8zdzRJYwzXOHG8YA",
+  "account": 1,
+  "engine": "docu",
+  "voice": "en-US-ChristopherNeural",
+  "rate": "-4%",
+  "pitch": "-2Hz",
+  "structure": [
+   "investigation steps",
+   "chase timeline"
+  ],
+  "cadence_per_week": 2,
+  "kind": "new"
+ },
+ {
+  "key": "scamautopsy",
+  "name": "Scam Autopsy",
+  "ref": "penguin",
+  "channel_id": "UCY8FSg_WGPTXRraltSbTdag",
+  "account": 2,
+  "engine": "docu",
+  "voice": "en-US-EricNeural",
+  "rate": "-2%",
+  "pitch": "+0Hz",
+  "structure": [
+   "how it worked step by step",
+   "who fell for it"
+  ],
+  "cadence_per_week": 2,
+  "kind": "new"
+ },
+ {
+  "key": "luxurylane",
+  "name": "The Luxury Lane",
+  "ref": null,
+  "engine": "lane",
+  "kind": "existing",
+  "pipeline": "own autopilot (lane/) - running"
+ },
+ {
+  "key": "deepspace",
+  "name": "Deep Space Files",
+  "ref": null,
+  "engine": "cosmos",
+  "kind": "existing",
+  "pipeline": "own pipeline D:/Jashan/Desktop/cosmic_mysteries_channel - running"
+ },
+ {
+  "key": "barrelbrief",
+  "name": "Barrel Brief",
+  "ref": null,
+  "engine": "charts",
+  "kind": "existing",
+  "pipeline": "work/evergreen/engine.py - ep1 render bug"
+ },
+ {
+  "key": "ratedesk",
+  "name": "Rate Desk",
+  "ref": null,
+  "engine": "charts",
+  "kind": "existing",
+  "pipeline": "work/evergreen/engine.py - same engine"
+ }
+]

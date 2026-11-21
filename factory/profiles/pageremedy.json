@@ -1,0 +1,32 @@
+{
+ "key": "pageremedy",
+ "name": "Page Remedy",
+ "ref": "antidote",
+ "channel_id": "UCA6uMuwn_MqFvQoet6h7WXg",
+ "account": 1,
+ "engine": "docu",
+ "voice": "en-US-AriaNeural",
+ "rate": "+4%",
+ "pitch": "+0Hz",
+ "structure": [
+  "hook: pain sentence + promise + N fixes by 15 s",
+  "chapter = symptom -> dose (fix) -> try tonight, prescription card",
+  "phase labels top-right",
+  "30-day plan + closing quote"
+ ],
+ "cadence_per_week": 2,
+ "kind": "new",
+ "pace_max": 4.2,
+ "accent": "#2fb8a6",
+ "grade": "eq=contrast=1.05:saturation=1.08:gamma_r=1.02,vignette=PI/6",
+ "music": [
+  "Inspired",
+  "Our Story Begins",
+  "Hidden Wonders"
+ ],
+ "title_formula": "<Public-domain classic or idea> in N Minutes | <N> Fixes For <pain>",
+ "thumb": {
+  "strip": "PAGE REMEDY",
+  "style": "antique title page / PD author portrait, 2-4 white bold words, one word in teal box, no modern covers"
+ }
+}

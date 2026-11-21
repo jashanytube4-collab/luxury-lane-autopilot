@@ -1,0 +1,32 @@
+{
+ "key": "frontlineatlas",
+ "name": "Frontline Atlas",
+ "ref": "strabo",
+ "channel_id": "UCPocXwLGXo6fDhAiHNXD4Ug",
+ "account": 1,
+ "engine": "maps",
+ "voice": "en-GB-ThomasNeural",
+ "rate": "-2%",
+ "pitch": "-1Hz",
+ "structure": [
+  "hook: number fact + consequence + numbered promise card",
+  "myth struck by data",
+  "3 reasons each with own map segment",
+  "counter-view both sides",
+  "what is changing + last distinction"
+ ],
+ "cadence_per_week": 2,
+ "kind": "new",
+ "pace_max": 3.8,
+ "accent": "#c9a227",
+ "grade": "eq=contrast=1.08:saturation=0.9:gamma_b=1.02,vignette=PI/5",
+ "music": [
+  "Rising Tide",
+  "The Complex",
+  "Tabuk"
+ ],
+ "title_formula": "Why <place> <surprising state>? | <Place> Could <consequence> Without <expected cause>",
+ "thumb": {
+  "style": "full-frame dark relief map, one saturated red zone, one metaphor object, black label bars, 2-word caption, gold accent"
+ }
+}

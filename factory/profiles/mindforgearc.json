@@ -1,0 +1,31 @@
+{
+ "key": "mindforgearc",
+ "name": "Mindforge Arc",
+ "ref": "shonen_growth",
+ "channel_id": "UCDIHRnxxBkwQ75Jcof0PahQ",
+ "account": 1,
+ "engine": "mind",
+ "voice": "en-US-GuyNeural",
+ "rate": "+2%",
+ "pitch": "-4Hz",
+ "structure": [
+  "3 negation slams then credential",
+  "numbered list with name + rule + story + try-tonight",
+  "escalating open loop before each item",
+  "twist then moral + recap card"
+ ],
+ "cadence_per_week": 2,
+ "kind": "new",
+ "pace_max": 3.2,
+ "accent": "#ff8a00",
+ "grade": "eq=contrast=1.14:saturation=0.78:gamma_r=1.03,vignette=PI/3.8",
+ "music": [
+  "Pyro Flow",
+  "Urban Gauntlet",
+  "Reawakening"
+ ],
+ "title_formula": "I Studied <N high performers>. Here's What I Learned | How <trait> People <do thing> (sourced, no false 'banned')",
+ "thumb": {
+  "style": "orange/black duotone silhouette with glow, 2-3 big italic serif words, one symbol (eye/chess/flame), no anime"
+ }
+}

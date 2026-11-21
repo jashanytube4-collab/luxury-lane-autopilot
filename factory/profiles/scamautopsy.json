@@ -1,0 +1,17 @@
+{
+ "key": "scamautopsy",
+ "name": "Scam Autopsy",
+ "ref": "penguin",
+ "channel_id": "UCY8FSg_WGPTXRraltSbTdag",
+ "account": 2,
+ "engine": "docu",
+ "voice": "en-US-EricNeural",
+ "rate": "-2%",
+ "pitch": "+0Hz",
+ "structure": [
+  "how it worked step by step",
+  "who fell for it"
+ ],
+ "cadence_per_week": 2,
+ "kind": "new"
+}

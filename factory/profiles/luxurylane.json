@@ -1,0 +1,8 @@
+{
+ "key": "luxurylane",
+ "name": "The Luxury Lane",
+ "ref": null,
+ "engine": "lane",
+ "kind": "existing",
+ "pipeline": "own autopilot (lane/) - running"
+}

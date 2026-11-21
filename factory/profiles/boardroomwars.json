@@ -1,0 +1,33 @@
+{
+ "key": "boardroomwars",
+ "name": "Boardroom Wars",
+ "ref": "paper_billions",
+ "channel_id": "UCUg4_3YNR-iSyOyb56u2y2g",
+ "account": 1,
+ "engine": "docu",
+ "voice": "en-US-DavisNeural",
+ "rate": "+6%",
+ "pitch": "-1Hz",
+ "structure": [
+  "cold open scene: place + stakes + dramatic irony by sentence 5",
+  "this is the story of how by 25 s",
+  "acts with place/date tags each ending on a turn",
+  "money counter graphics",
+  "aftermath + dry closing line"
+ ],
+ "cadence_per_week": 2,
+ "kind": "new",
+ "pace_max": 3.5,
+ "accent": "#c9a227",
+ "grade": "eq=contrast=1.12:saturation=0.88:gamma_r=1.03:gamma_b=0.96,vignette=PI/4",
+ "music": [
+  "Urban Gauntlet",
+  "The Complex",
+  "Pyro Flow"
+ ],
+ "title_formula": "How <company A> Beat <company B> | Why <company> Lost $<N> Billion | The <Boardroom> War That ...",
+ "thumb": {
+  "strip": "BOARDROOM WARS",
+  "style": "dark boardroom, ONE plot prop (gavel/torn contract), top line statement + red -$N BILLION, gold vs crimson, silhouettes or PD portraits, never living-person caricature"
+ }
+}

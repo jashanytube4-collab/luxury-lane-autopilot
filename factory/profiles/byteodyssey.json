@@ -1,0 +1,32 @@
+{
+ "key": "byteodyssey",
+ "name": "Byte Odyssey",
+ "ref": "epic_programmer",
+ "channel_id": "UC6Nix5eeDtcv7MZDspfnAVA",
+ "account": 2,
+ "engine": "tech",
+ "voice": "en-US-BrianNeural",
+ "rate": "-3%",
+ "pitch": "-1Hz",
+ "structure": [
+  "hook: concrete mystery image + question",
+  "named pioneer + primary document by 20 s",
+  "evidence chain (survey/study/forecast)",
+  "counter-argument",
+  "closing reframe + question"
+ ],
+ "cadence_per_week": 2,
+ "kind": "new",
+ "pace_max": 4.5,
+ "accent": "#2ee6d6",
+ "grade": "eq=contrast=1.1:saturation=0.9:gamma_b=1.03,vignette=PI/4.5",
+ "music": [
+  "Hidden Wonders",
+  "Eternity",
+  "Hiding Your Reality"
+ ],
+ "title_formula": "<Technology/AI> Might Be Why <big mystery> | The One Thing <X> Still Can't Do",
+ "thumb": {
+  "style": "near-black bg, ONE concept visual (curve/chip/animal), 2-3 giant bold sans words with one cyan word, no faces"
+ }
+}

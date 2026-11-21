@@ -1,0 +1,33 @@
+{
+ "key": "leviathanlore",
+ "name": "Leviathan Lore",
+ "ref": "apex_morph",
+ "channel_id": "UC_dmocaNZk0D1QSsf58N5bA",
+ "account": 1,
+ "engine": "flat",
+ "voice": "en-GB-RyanNeural",
+ "rate": "+0%",
+ "pitch": "-3Hz",
+ "structure": [
+  "hook: 2nd-person scene, reversal by 18 s, 3 mystery cards by 28 s",
+  "expectation debunked with scale numbers",
+  "list of 3 with dated real incident each",
+  "twist",
+  "scale-shock beat every 90 s",
+  "who really rules?"
+ ],
+ "cadence_per_week": 2,
+ "kind": "new",
+ "pace_max": 3.6,
+ "accent": "#e0452b",
+ "grade": "eq=contrast=1.12:saturation=0.85:gamma_b=1.05,vignette=PI/3.8",
+ "music": [
+  "Rising Tide",
+  "Hiding Your Reality",
+  "Ice Flow"
+ ],
+ "title_formula": "The Only Animals That Make <apex> Run Away | Why <apex> Is Terrified Of <X>",
+ "thumb": {
+  "style": "black bg, ONE detailed real-animal illustration w/ red/ember glow eye, 2-word condensed caps white+red, red arrow, real animals only"
+ }
+}

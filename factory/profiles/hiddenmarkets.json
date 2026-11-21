@@ -1,0 +1,32 @@
+{
+ "key": "hiddenmarkets",
+ "name": "Hidden Markets",
+ "ref": "invisible_hand",
+ "channel_id": "UCN0y3Y4iyAQMwLmlgtOsfQQ",
+ "account": 1,
+ "engine": "charts",
+ "voice": "en-US-ChristopherNeural",
+ "rate": "+10%",
+ "pitch": "-1Hz",
+ "structure": [
+  "hook: news anomaly + 3 numbers/proofs + why?",
+  "mechanism chapters each with chart + example country",
+  "second-order effects",
+  "counter-argument + source footers",
+  "scenario + CTA"
+ ],
+ "cadence_per_week": 2,
+ "kind": "new",
+ "pace_max": 3.5,
+ "accent": "#18a999",
+ "grade": "eq=contrast=1.1:saturation=0.95:gamma_b=1.03,vignette=PI/5.5",
+ "music": [
+  "The Complex",
+  "At Launch",
+  "Laser Groove"
+ ],
+ "title_formula": "Why <thing everyone sees> ...? | How <hidden mechanism> Really Works | What Happens If <scary event>",
+ "thumb": {
+  "style": "dark navy map, glowing gold trade arcs, one red-fill country, 2-3 white caps words in black bar, no politician faces"
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "key": "abyssarchive",
+ "name": "Abyss Archive",
+ "ref": "depth_theory",
+ "channel_id": "UC8iaWYkOZmDSkHB9VWSMC2g",
+ "account": 1,
+ "engine": "flat",
+ "voice": "en-US-GuyNeural",
+ "rate": "-6%",
+ "pitch": "-4Hz",
+ "structure": [
+  "hook:second-person scene",
+  "myth->correction",
+  "rule of 3 facts"
+ ],
+ "cadence_per_week": 2,
+ "kind": "new"
+}

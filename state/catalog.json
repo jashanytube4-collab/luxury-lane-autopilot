@@ -9821,14 +9821,18 @@
   "video_len": 63
  },
  "hamdan bin mohammed meets with top performing school and university graduates": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-17",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     56.360072324467,
     58.183944659134
+   ],
+   [
+    36.33415815941719,
+    38.887293460470666
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9995,14 +9999,18 @@
   "long": "2026-10-21"
  },
  "hamdan bin mohammed offers condolences on death of abdullah mohamed al masoud": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-16",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     19.78167332622468,
     21.934712279252846
+   ],
+   [
+    28.091337375411637,
+    29.85315593703525
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10409,10 +10417,10 @@
   "long": "2026-10-28"
  },
  "hamdan bin mohammed officially opens gitex 2018": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 35,
+  "montage_used": 36,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -10426,6 +10434,10 @@
    [
     197.57407498915688,
     199.17614187751843
+   ],
+   [
+    130.77779263674944,
+    132.6501083082561
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11440,10 +11452,15 @@
  },
  "hamdan bin mohammed receives ramadan well wishers": {
   "fails": 1,
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-24",
   "montage_exhausted": true,
-  "montage_used": 5,
-  "remix_ranges": [],
+  "montage_used": 6,
+  "remix_ranges": [
+   [
+    59.199999999999996,
+    61.2
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 5,
   "shot_ranges": [
@@ -11584,9 +11601,9 @@
   "long": "2026-10-31"
  },
  "hamdan bin mohammed receives victory team xcat": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     61.99092501489006,
@@ -11599,6 +11616,10 @@
    [
     28.258445843930023,
     30.717059724819663
+   ],
+   [
+    67.5416856561523,
+    69.55931167721238
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13596,13 +13617,17 @@
   "video_len": 311
  },
  "hamdan bin mohammed visits dubai airshow 2017": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-11-02",
-  "montage_used": 23,
+  "montage_used": 24,
   "remix_ranges": [
    [
     152.68800146802988,
     154.47083282346654
+   ],
+   [
+    136.03064578078266,
+    137.32993247493656
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13934,7 +13959,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     79.64,
@@ -13951,6 +13976,10 @@
    [
     103.67013197257013,
     105.1754643968556
+   ],
+   [
+    41.56900236718133,
+    44.06482011778358
    ]
   ],
   "remix_reset": "2026-11-20",

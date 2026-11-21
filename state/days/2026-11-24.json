@@ -33,8 +33,13 @@
   },
   {
    "at": "2026-11-24T09:31:20+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "The quiet strength behind a shining city. #youtube #youtubeshorts",
+   "type": "short",
+   "video_id": "9hdv8wgECWQ",
+   "voiced": true
   },
   {
    "at": "2026-11-24T10:14:03+04:00",

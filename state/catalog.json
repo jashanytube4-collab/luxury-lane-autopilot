@@ -302,10 +302,10 @@
   "long": "2026-10-17"
  },
  "dubai crown prince attends graduation of dubai police academy": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 41,
+  "montage_used": 42,
   "remix_ranges": [
    [
     316.5598655911052,
@@ -342,6 +342,10 @@
    [
     531.96,
     533.6
+   ],
+   [
+    628.2,
+    630.24
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8172,11 +8176,16 @@
   "video_len": 60
  },
  "hamdan bin mohammed launches new phase of dubai s happiness agenda": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-11-24",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 8,
-  "remix_ranges": [],
+  "montage_used": 9,
+  "remix_ranges": [
+   [
+    75.10752198135069,
+    77.15728258308638
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 2,
   "shot_ranges": [
@@ -10294,14 +10303,18 @@
   "long": "2026-10-17"
  },
  "hamdan bin mohammed offers condolences to family of martyr saeed alhajri": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     109.75884718947057,
     111.63588359025336
+   ],
+   [
+    87.11666443662338,
+    89.55507297868488
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11490,9 +11503,9 @@
   "video_len": 76
  },
  "hamdan bin mohammed receives speaker of kyrgyz parliament": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     6.37768238943519,
@@ -11501,6 +11514,10 @@
    [
     60.48722571380767,
     62.32102556573696
+   ],
+   [
+    88.60640898981667,
+    90.76239460175321
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12233,11 +12250,16 @@
   "video_len": 75
  },
  "hamdan bin mohammed tours arabian travel market 2024": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 11,
-  "remix_ranges": [],
+  "montage_used": 12,
+  "remix_ranges": [
+   [
+    47.85333333333333,
+    49.94666666666667
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -13337,13 +13359,17 @@
   "video_len": 206
  },
  "hamdan bin mohammed visits dewa s moro": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-11-01",
-  "montage_used": 33,
+  "montage_used": 34,
   "remix_ranges": [
    [
     85.28,
     87.44
+   ],
+   [
+    393.9825995026494,
+    395.77535276875307
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13474,14 +13500,18 @@
   "video_len": 62
  },
  "hamdan bin mohammed visits dp world s facilities inspects operations of jebel ali port": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     227.25091329983198,
     228.78768525663025
+   ],
+   [
+    132.16,
+    133.96
    ]
   ],
   "remix_reset": "2026-11-20",

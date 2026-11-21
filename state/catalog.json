@@ -1581,7 +1581,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 31,
+  "montage_used": 32,
   "no_video_until": "2026-11-02",
   "remix_ranges": [
    [
@@ -1631,6 +1631,10 @@
    [
     23.453333333333333,
     25.746666666666666
+   ],
+   [
+    156.27687889831503,
+    157.78260050324616
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -7686,7 +7690,7 @@
  },
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
   "last_short": "2026-11-24",
-  "montage_used": 40,
+  "montage_used": 41,
   "remix_ranges": [
    [
     86.51501862110607,
@@ -7751,6 +7755,10 @@
    [
     185.3348876483757,
     187.394258681459
+   ],
+   [
+    159.95762177248935,
+    161.8549660807597
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8873,7 +8881,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 22,
+  "montage_used": 23,
   "remix_ranges": [
    [
     46.8,
@@ -8886,6 +8894,10 @@
    [
     152.42066709254965,
     154.48590702863564
+   ],
+   [
+    97.2,
+    99.44
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10404,7 +10416,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-16",
   "montage_exhausted": true,
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     40.36954099792474,
@@ -10425,6 +10437,10 @@
    [
     88.12091134067308,
     89.58017524715825
+   ],
+   [
+    67.84839041132815,
+    69.65703331858867
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11943,7 +11959,7 @@
  "hamdan bin mohammed receives speaker of kyrgyz parliament": {
   "last_short": "2026-11-24",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     6.37768238943519,
@@ -11956,6 +11972,10 @@
    [
     88.60640898981667,
     90.76239460175321
+   ],
+   [
+    0.15562462297810664,
+    1.78553687671087
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14046,11 +14066,15 @@
   "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     49.2798958061194,
     51.57520452759067
+   ],
+   [
+    33.32,
+    35.36
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14096,7 +14120,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     227.25091329983198,
@@ -14105,6 +14129,10 @@
    [
     132.16,
     133.96
+   ],
+   [
+    196.87736050765224,
+    198.74082210264393
    ]
   ],
   "remix_reset": "2026-11-20",

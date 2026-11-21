@@ -7417,6 +7417,7 @@
   "long": "2026-10-22",
   "montage_exhausted": true,
   "montage_used": 27,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     247.78626092144114,
@@ -9062,11 +9063,16 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed meets with dubai gov t second line of leadership": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 12,
-  "remix_ranges": [],
+  "montage_used": 13,
+  "remix_ranges": [
+   [
+    1.929348642583168,
+    4.229863862350977
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 3,
   "shot_ranges": [
@@ -9402,11 +9408,15 @@
   "last_short": "2026-11-23",
   "long": "2026-10-20",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     21.486666666666668,
     23.946666666666665
+   ],
+   [
+    15.890807604163143,
+    17.497621056665302
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9901,11 +9911,15 @@
   "last_short": "2026-11-23",
   "long": "2026-10-20",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     36.04,
     38.0
+   ],
+   [
+    43.850609716330155,
+    46.39043225240606
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10222,6 +10236,7 @@
   "long": "2026-10-16",
   "montage_exhausted": true,
   "montage_used": 6,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     54.56280225539918,
@@ -10259,12 +10274,16 @@
   "last_short": "2026-11-23",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 33,
+  "montage_used": 34,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
     63.226043815293394,
     64.9882973810404
+   ],
+   [
+    116.34413393596749,
+    117.85313479888835
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10671,7 +10690,7 @@
  "hamdan bin mohammed opens gitex tech week 2017": {
   "last_short": "2026-11-23",
   "long": "2026-10-14",
-  "montage_used": 30,
+  "montage_used": 31,
   "remix_ranges": [
    [
     332.64461795604365,
@@ -10680,6 +10699,10 @@
    [
     70.79273328407176,
     72.93773854501555
+   ],
+   [
+    228.35379773784072,
+    230.3476177830283
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11414,11 +11437,16 @@
   "video_len": 70
  },
  "hamdan bin mohammed receives winners of hackathon competition": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 12,
-  "remix_ranges": [],
+  "montage_used": 13,
+  "remix_ranges": [
+   [
+    51.559999999999995,
+    53.64
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 3,
   "shot_ranges": [
@@ -13630,7 +13658,7 @@
   "last_short": "2026-11-23",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     79.64,
@@ -13639,6 +13667,10 @@
    [
     16.28,
     18.279999999999998
+   ],
+   [
+    226.46937516859896,
+    228.44940305214462
    ]
   ],
   "remix_reset": "2026-11-20",

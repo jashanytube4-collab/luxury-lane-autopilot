@@ -558,6 +558,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 26,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     60.155932025090266,
@@ -8781,10 +8782,10 @@
   "video_len": 40
  },
  "hamdan bin mohammed meets first batch of female cadets graduating from dubai police academy": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     98.4840092909426,
@@ -8793,6 +8794,10 @@
    [
     110.27803991021345,
     112.10875384309463
+   ],
+   [
+    146.32873823319827,
+    148.42777931300193
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8846,7 +8851,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 21,
+  "montage_used": 22,
   "remix_ranges": [
    [
     46.8,
@@ -8855,6 +8860,10 @@
    [
     21.11674709852934,
     22.080154944686655
+   ],
+   [
+    152.42066709254965,
+    154.48590702863564
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9506,6 +9515,7 @@
   "long": "2026-10-15",
   "montage_exhausted": true,
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     13.239999999999998,
@@ -9576,6 +9586,7 @@
   "long": "2026-10-15",
   "montage_exhausted": true,
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     2.2427984080005747,
@@ -9811,6 +9822,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 5,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     46.1614258270347,
@@ -11258,7 +11270,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 31,
+  "montage_used": 32,
   "remix_ranges": [
    [
     44.48273041474908,
@@ -11279,6 +11291,10 @@
    [
     17.48,
     19.279999999999998
+   ],
+   [
+    130.16990614866825,
+    132.68673232155973
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11691,7 +11707,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 27,
+  "montage_used": 28,
   "remix_ranges": [
    [
     298.95723771608766,
@@ -11720,6 +11736,10 @@
    [
     272.1698226268033,
     274.2492559738447
+   ],
+   [
+    467.58280280939357,
+    468.58949069591927
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12422,7 +12442,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     59.31669790827004,
@@ -12431,6 +12451,10 @@
    [
     42.35333333333333,
     44.24666666666667
+   ],
+   [
+    28.07510509320887,
+    29.48450291599842
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12607,11 +12631,15 @@
   "last_short": "2026-11-24",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     11.490406074718507,
     13.240981014960168
+   ],
+   [
+    61.8996594819046,
+    64.36877010213149
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13071,6 +13099,7 @@
   "last_short": "2026-11-24",
   "montage_exhausted": true,
   "montage_used": 7,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     86.10332430465824,
@@ -13730,7 +13759,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     30.26795915214033,
@@ -13739,6 +13768,10 @@
    [
     93.57794228485712,
     95.8510116403996
+   ],
+   [
+    119.50373219765326,
+    121.59138742826985
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13794,7 +13827,7 @@
  },
  "hamdan bin mohammed visits department of economic development": {
   "last_short": "2026-11-24",
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     162.32,
@@ -13803,6 +13836,10 @@
    [
     187.123812421541,
     188.96236994621526
+   ],
+   [
+    47.6454246753046,
+    49.14146592636474
    ]
   ],
   "remix_reset": "2026-11-20",

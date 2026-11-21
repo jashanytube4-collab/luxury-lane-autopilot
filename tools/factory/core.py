@@ -95,7 +95,7 @@ def card_image(v, prof, path: Path, seed=0):
     elif t == "quote":
         txt = _wrap(d, '"' + v["text"] + '"', _font("Cinzel-Bold.ttf", 76), 1500)
         d.multiline_text((W // 2, 470), txt, font=_font("Cinzel-Bold.ttf", 76), fill="#f2f2f2", anchor="mm", align="center", spacing=18)
-        d.text((W // 2, 800), "â€” " + v.get("by", ""), font=_font("Montserrat-ExtraBold.ttf", 44), fill=acc, anchor="mm")
+        d.text((W // 2, 800), "— " + v.get("by", ""), font=_font("Montserrat-ExtraBold.ttf", 44), fill=acc, anchor="mm")
     elif t == "list":
         d.text((200, 190), v.get("title", "").upper(), font=_font("Anton-Regular.ttf", 100), fill=acc)
         for i, ln in enumerate(v["lines"][:6]):
@@ -120,6 +120,14 @@ def _wrap(d, text, font, maxw):
 
 
 # ----------------------------------------------------------------------------- shots
+# Moving clips first (cut 2.5-5.8 s windows straight from the source url), photos rare (Ken Burns), never two photos in a row,
+# no clip/window reused inside one video, transitions by mood (cut / dip / sparing light flash), SFX events returned for the mixer.
+TENSE = re.compile(r"\b(war|death|dead|killed|kill|massacre|betray\w*|murder\w*|fire|burn\w*|blood\w*|siege|attack\w*|collaps\w*|fell|crash\w*|execut\w*|doomed|never|disaster|explo\w*)\b", re.I)
+REVEAL = re.compile(r"\b(then|until|suddenly|but|truth|secret|discovered|finally|revealed|instead|except)\b", re.I)
+CARD_MAX, CLIP_MAX, CHUNK = 3.2, 5.8, 4.2
+IA_UA = "VideoFactory/1.0 (documentary tool; honest client)"
+
+
 def photo_pool(q, n, used: set):
     """n distinct photos for query q, trying shorter queries if the search is thin."""
     words = q.split()
@@ -134,7 +142,7 @@ def photo_pool(q, n, used: set):
     return got[:n]
 
 
-def kenburns(img_path, d, out: Path, prof, idx):
+def kenburns(img_path, d, out: Path, prof, idx, trans=None):
     """Photo -> graded moving shot of d seconds (slow zoom/pan, direction varies by idx)."""
     n = max(2, int(round(d * FPS)))
     im = Image.open(img_path).convert("RGB")
@@ -158,83 +166,276 @@ def kenburns(img_path, d, out: Path, prof, idx):
     py = ["(ih-ih/zoom)/2", "(ih-ih/zoom)/2", "0"][idx % 3]
     zexpr = f"{z0}+({z1}-{z0})*on/{n}"
     vf = (f"zoompan=z='{zexpr}':x='{px}':y='{py}':d={n}:s={W}x{H}:fps={FPS},{prof['grade']},"
-          f"noise=alls=3:allf=t,format=yuv420p")
+          f"noise=alls=3:allf=t{_fade(trans)},format=yuv420p")
     run([FF, "-y", "-loglevel", "error", "-i", tmp, "-vf", vf, "-t", f"{d:.3f}", "-c:v", "libx264", "-preset", "veryfast",
-         "-crf", "20", "-pix_fmt", "yuv420p", "-threads", "6", out])
+         "-crf", "20", "-pix_fmt", "yuv420p", "-threads", "3", out])
     tmp.unlink(missing_ok=True)
 
 
-def still(png, d, out: Path, prof):
+def _fade(trans):
+    if trans == "flash":
+        return ",fade=t=in:st=0:d=0.16:color=white"
+    if trans == "dip":
+        return ",fade=t=in:st=0:d=0.22"
+    return ""
+
+
+def still(png, d, out: Path, prof, trans=None):
     n = int(d * FPS)
     vf = (f"zoompan=z='1+0.05*on/{n}':x='(iw-iw/zoom)/2':y='(ih-ih/zoom)/2':d={n}:s={W}x{H}:fps={FPS},"
-          f"noise=alls=4:allf=t,format=yuv420p")
+          f"noise=alls=4:allf=t{_fade(trans)},format=yuv420p")
     run([FF, "-y", "-loglevel", "error", "-i", png, "-vf", vf, "-t", f"{d:.3f}", "-c:v", "libx264", "-preset", "veryfast",
-         "-crf", "20", "-pix_fmt", "yuv420p", "-threads", "6", out])
+         "-crf", "20", "-pix_fmt", "yuv420p", "-threads", "3", out])
 
 
-def plan_shots(beats, timing, prof, work: Path):
-    """Return list of shots (path, dur, credit) covering every beat exactly; no photo reused in the video."""
-    used, shots, credits = set(), [], []
+def probe(src):
+    """(w, h, duration) of a clip source, cached by url."""
+    f = assets.CACHE / ("pr_" + hashlib.md5(src.encode()).hexdigest()[:12] + ".json")
+    if f.exists():
+        return tuple(json.loads(f.read_text()))
+    try:
+        o = run(["ffprobe", "-v", "error", "-user_agent", IA_UA, "-select_streams", "v:0", "-show_entries", "stream=width,height:format=duration",
+                 "-of", "csv=p=0:s=,", src]).split()
+        w, h = o[0].split(",")[:2]
+        v = (int(w), int(h), float(o[1].split(",")[0]) if len(o) > 1 else 0.0)
+    except Exception as e:  # noqa: BLE001
+        print("probe failed", " ".join(str(e)[-200:].split()))
+        return (0, 0, 0.0)
+    f.write_text(json.dumps(v))
+    return v
+
+
+def detect_crop(src, start, http):
+    """Baked-in black bars (pillarbox/letterbox inside the file) -> 'crop=w:h:x:y' or None."""
+    r = subprocess.run([FF, "-hide_banner", *http, "-ss", f"{start:.2f}", "-i", str(src), "-t", "2", "-vf", "cropdetect=30:2:0", "-f", "null", "-"],
+                       capture_output=True, text=True).stderr
+    m = re.findall(r"crop=(\d+):(\d+):(\d+):(\d+)", r)
+    return tuple(map(int, m[-1])) if m else None
+
+
+def cut_clip(src, start, d, out: Path, prof, trans, aspect):
+    """Cut [start, start+d) from src (url or file), crop baked-in bars, scale/crop to 1080p, grade, optional fade. Very narrow sources get a blurred fill."""
+    grade = prof["grade"]
+    http = ["-user_agent", IA_UA, "-rw_timeout", "40000000"] if str(src).startswith("http") else []
+    pre = ""
+    cr = detect_crop(src, start, http)
+    if cr and cr[0] >= 200 and cr[1] >= 200:
+        aspect = cr[0] / cr[1]
+        pre = f"crop={cr[0] // 2 * 2}:{cr[1] // 2 * 2}:{cr[2]}:{cr[3]},"
+        if cr[1] < 300:
+            raise RuntimeError("source too small after crop")
+    if aspect < 1.2:
+        fc = (f"[0:v]{pre.rstrip(',') or 'null'},split[a][b];[a]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},boxblur=40:6,eq=brightness=-0.18[bg];"
+              f"[b]scale=-2:{H}[fg];[bg][fg]overlay=(W-w)/2:0,{grade},noise=alls=3:allf=t{_fade(trans)},format=yuv420p[o]")
+        vf = ["-filter_complex", fc, "-map", "[o]"]
+    else:
+        vf = ["-vf", f"{pre}scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},{grade},noise=alls=3:allf=t{_fade(trans)},format=yuv420p"]
+    run([FF, "-y", "-loglevel", "error", *http, "-ss", f"{start:.2f}", "-i", src, "-t", f"{d:.3f}", *vf, "-r", FPS, "-an",
+         "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p", "-threads", "3", out])
+
+
+def shot_ok(path):
+    """Reject black, blown-out or static (title card / freeze) cuts."""
+    try:
+        r = subprocess.run([FF, "-v", "error", "-i", str(path), "-vf", "fps=4,scale=96:54,signalstats,metadata=print:file=-", "-f", "null", "-"],
+                           capture_output=True, text=True).stdout
+    except Exception:  # noqa: BLE001
+        return True
+    ya = [float(x) for x in re.findall(r"YAVG=([\d.]+)", r)]
+    yd = [float(x) for x in re.findall(r"YDIF=([\d.]+)", r)]
+    if not ya:
+        return False
+    avg = sum(ya) / len(ya)
+    if avg < 22 or avg > 232:
+        return False
+    return not (yd and sum(yd) / len(yd) < 0.35)
+
+
+class Picker:
+    """Chooses unique moving-clip windows for a video; remembers every window used."""
+
+    def __init__(self, prof, work: Path, broll):
+        self.prof, self.work, self.broll = prof, work, list(broll)
+        self.win = {}          # source id -> [(start, end)]
+        self.credits = []
+        self.avoid = re.compile("|".join(prof.get("avoid", [])) or r"(?!x)x", re.I)
+        self.n = 0
+
+    def _windows(self, src, length, d):
+        used = self.win.get(src["id"], [])
+        rng = random.Random(src["id"])
+        lo, hi = (0.0, max(length - d, 0)) if length < 60 else (length * 0.06, max(length * 0.94 - d, length * 0.06))
+        cand = [lo + (hi - lo) * i / 11 for i in range(12)]
+        rng.shuffle(cand)
+        return [c for c in cand if all(c + d + 2 < u0 or c > u1 + 2 for u0, u1 in used)]
+
+    def clip(self, queries, d, out: Path, trans):
+        seen = set()
+        for q in queries:
+            if not q or q in seen:
+                continue
+            seen.add(q)
+            srcs = [s for s in assets.search_clips(q, 4) if len(self.win.get(s["id"], [])) < 3 and not self.avoid.search(s["credit"])]
+            srcs.sort(key=lambda s: len(self.win.get(s["id"], [])))     # unused sources first = more variety
+            for s in srcs[:6]:
+                loc = assets.localize(s)
+                if not loc:
+                    continue
+                w, h, ln = probe(loc)
+                if not w:
+                    continue
+                length = ln or s.get("length") or 0
+                if h < 360 or length < d + 0.5:             # skip postage-stamp sources: upscaled mush
+                    continue
+                for st in self._windows(s, length, d)[:2]:
+                    self.win.setdefault(s["id"], []).append((st, st + d))
+                    try:
+                        cut_clip(loc, st, d, out, self.prof, trans, w / max(h, 1))
+                    except RuntimeError as e:
+                        print("cut failed", s["id"], str(e)[-120:]); break
+                    if shot_ok(out):
+                        self.credits.append(s["credit"])
+                        return True
+        return False
+
+
+def mood(text):
+    if TENSE.search(text):
+        return "tense"
+    if REVEAL.search(text):
+        return "reveal"
+    return "calm"
+
+
+def plan_shots(beats, timing, prof, work: Path, broll=()):
+    """Return (shots, credits, events). shots = [(path, dur)], events = [(time_s, 'whoosh'|'impact')]. Every beat covered exactly."""
+    used_photos, shots, events = set(), [], []
     (work / "shots").mkdir(exist_ok=True)
+    pk = Picker(prof, work, list(broll) + list(prof.get("broll", [])))
+    prev, since_photo, since_flash, photo_t, t = "none", 99, 99, 0.0, 0.0
+    credits = []
+    total = sum(tm["dur"] for tm in timing)
     for bi, (b, tm) in enumerate(zip(beats, timing)):
         D = tm["dur"]
         vis = b.get("v") or [{"t": "photo", "q": b.get("q", "")}]
-        # split the beat across its visuals; photo visuals expand so no shot exceeds pace_max
+        isc = lambda v: v["t"] in ("big", "quote", "list", "card")
+        ncard = sum(1 for v in vis if isc(v))
+        nmed = len(vis) - ncard
+        cd = min(CARD_MAX, D / len(vis)) if nmed else D / max(ncard, 1)
+        rest = max(D - cd * ncard, 0.0)
+        mood_b = mood(b["text"])
+        # slots: (visual, duration)
         slots = []
         for v in vis:
-            slots.append(v)
-        CARD_MAX = 3.2
-        is_card = [v["t"] in ("big", "quote", "list", "card") for v in slots]
-        fixed = sum(min(CARD_MAX, D / len(slots)) for c in is_card if c)
-        rest = max(D - fixed, 0.5)
-        n_other = max(sum(1 for c in is_card if not c), 1)
-        dur_of = [min(CARD_MAX, D / len(slots)) if c else rest / n_other for c in is_card]
-        if all(is_card):                                   # only cards: split the whole beat, never hold a card longer than needed
-            dur_of = [D / len(slots)] * len(slots)
-        out_slots = []
-        for v, per in zip(slots, dur_of):
-            if v["t"] == "photo" and per > prof["pace_max"]:
-                k = int(per // prof["pace_max"]) + 1
-                out_slots += [dict(v, _n=k, _per=per)] + [dict(v, _skip=True)] * (k - 1)
+            if isc(v):
+                slots.append((v, cd))
             else:
-                out_slots.append(dict(v, _per=per))
-        # materialise
-        i = 0
-        per = D / max(len(out_slots), 1)
-        while i < len(out_slots):
-            v = out_slots[i]
-            if v["t"] == "photo":
-                k = v.get("_n", 1)
-                pool = photo_pool(v["q"], k, used)
-                span = v.get("_per", per)
-                sd = span / k
-                for j in range(k):
-                    sp = work / "shots" / f"b{bi:03d}_{i}_{j}.mp4"
-                    if j < len(pool):
-                        used.add(pool[j]["id"]); credits.append(pool[j]["credit"])
-                        kenburns(pool[j]["path"], sd, sp, prof, bi + j)
-                    else:                                    # not enough photos: a styled card, never a repeat
-                        png = work / "shots" / f"b{bi:03d}_{i}_{j}.png"
-                        card_image(dict(t="card", text=_keyword(b["text"])), prof, png, bi + j); still(png, sd, sp, prof)
-                    shots.append((sp, sd))
-                i += k
-            else:
-                sp = work / "shots" / f"b{bi:03d}_{i}.mp4"
+                span = rest / nmed
+                k = max(1, int(-(-span // CLIP_MAX)), int(round(span / CHUNK)))
+                slots += [(v, span / k)] * k
+        for si, (v, sd) in enumerate(slots):
+            first = si == 0
+            trans = "cut"
+            if first and bi > 0:
+                if mood_b == "reveal" and since_flash >= 6 and sd >= 2:
+                    trans = "flash"
+                elif mood_b == "calm" and bi % 2 == 0:
+                    trans = "dip"
+            sp = work / "shots" / f"b{bi:03d}_{si}.mp4"
+            if isc(v):
                 png = sp.with_suffix(".png")
-                per = v.get("_per", per)
-                if v["t"] == "clip":
-                    run([FF, "-y", "-loglevel", "error", "-i", v["path"], "-t", f"{per:.3f}", "-vf",
-                         f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},{prof['grade']},format=yuv420p", "-r", FPS,
-                         "-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", sp])
-                else:
-                    card_image(v, prof, png, bi); still(png, per, sp, prof)
-                shots.append((sp, per)); i += 1
-    return shots, sorted(set(credits))
+                card_image(v, prof, png, bi + si); still(png, sd, sp, prof, trans)
+                kind = "card"
+                if v["t"] == "big":
+                    events.append((t, "impact"))
+            else:
+                alts = v["q"] if isinstance(v.get("q"), list) else [x.strip() for x in (v.get("q") or _keyword(b["text"])).split("|")]
+                q = alts[0]
+                words = q.split()
+                qs = alts + [" ".join(words[:k]) for k in (3, 2) if len(words) > k]
+                kind = None
+                want_photo = (v["t"] == "photo" and prev != "photo" and since_photo >= 4 and photo_t < 0.18 * max(t, 20) and bi > 0
+                              and any(x[0].isupper() for x in words))
+                if want_photo:
+                    pool = photo_pool(q, 1, used_photos)
+                    if pool:
+                        used_photos.add(pool[0]["id"]); credits.append(pool[0]["credit"])
+                        kenburns(pool[0]["path"], min(sd, 4.6), sp.with_name(sp.stem + "_p.mp4"), prof, bi + si, trans)
+                        sp = sp.with_name(sp.stem + "_p.mp4"); kind = "photo"
+                if kind is None and v["t"] != "clip" and pk.clip(qs, sd, sp, trans):
+                    kind = "clip"
+                if kind is None and v["t"] == "clip":
+                    cut_clip(v["path"], 0, sd, sp, prof, trans, 1.78); kind = "clip"
+                if kind is None:
+                    if pk.clip(pk.broll, sd, sp, trans):                    # themed b-roll keeps it moving
+                        kind = "clip"
+                if kind is None and prev != "photo":
+                    pool = photo_pool(q, 1, used_photos)
+                    if pool:
+                        used_photos.add(pool[0]["id"]); credits.append(pool[0]["credit"])
+                        sp = sp.with_name(sp.stem + "_p.mp4")
+                        kenburns(pool[0]["path"], sd, sp, prof, bi + si, trans); kind = "photo"
+                if kind is None:                                            # last resort: styled keyword card, never a repeat
+                    png = sp.with_suffix(".png")
+                    card_image(dict(t="card", text=_keyword(b["text"])), prof, png, bi + si); still(png, sd, sp, prof, trans); kind = "card"
+            if kind == "photo":
+                since_photo, photo_t = 0, photo_t + sd
+            else:
+                since_photo += 1
+            if trans == "flash":
+                since_flash = 0; events.append((max(t - 0.12, 0), "whoosh"))
+            else:
+                since_flash += 1
+                if trans == "dip" and bi % 4 == 0:
+                    events.append((max(t - 0.1, 0), "whoosh"))
+            if first and bi > 0 and mood_b == "tense" and kind != "card" and sum(1 for e in events if e[1] == "impact" and t - e[0] < 12) == 0:
+                events.append((t, "impact"))
+            prev = kind
+            shots.append((sp, sd)); t += sd
+    credits += pk.credits
+    return shots, sorted(set(credits)), events
 
 
 def _keyword(text):
     ws = [w.strip(".,;:!?\"'").upper() for w in text.split() if len(w) > 4]
     return " ".join(ws[:2]) or "WATCH"
+
+
+# ----------------------------------------------------------------------------- synthesized SFX (no samples, no licences)
+def synth_sfx(events, total, path: Path, sr=48000):
+    import numpy as np
+    import wave
+    rng = np.random.default_rng(7)
+    out = np.zeros(int((total + 2) * sr), dtype=np.float32)
+
+    def whoosh(d=0.75):
+        n = int(d * sr)
+        x = rng.standard_normal(n).astype(np.float32)
+        env = np.sin(np.linspace(0, np.pi, n)) ** 2 * np.linspace(0.6, 1.0, n)
+        a = np.linspace(0.02, 0.45, n)                      # rising low-pass sweep
+        y, s = np.empty(n, np.float32), 0.0
+        for i in range(n):
+            s += a[i] * (x[i] - s); y[i] = s
+        y = y * env
+        return 0.55 * y / (np.abs(y).max() + 1e-6)
+
+    def impact(d=1.5):
+        n = int(d * sr)
+        tt = np.arange(n) / sr
+        f = 34 + 40 * np.exp(-tt * 9)
+        y = np.sin(2 * np.pi * np.cumsum(f) / sr) * np.exp(-tt * 3.2)
+        nz = rng.standard_normal(n).astype(np.float32) * np.exp(-tt * 28) * 0.4
+        y = y + np.convolve(nz, np.ones(24) / 24, "same")
+        return 0.8 * y.astype(np.float32) / (np.abs(y).max() + 1e-6)
+
+    bank = {"whoosh": whoosh(), "impact": impact()}
+    for tm, kind in events:
+        s = bank[kind]; i = int(max(tm, 0) * sr)
+        out[i:i + len(s)] += s[:len(out) - i]
+    out = np.clip(out, -1, 1)
+    with wave.open(str(path), "wb") as w:
+        w.setnchannels(1); w.setsampwidth(2); w.setframerate(sr)
+        w.writeframes((out * 32000).astype("<i2").tobytes())
 
 
 # ----------------------------------------------------------------------------- subtitles / audio
@@ -294,7 +495,8 @@ def build(pack_path, preview=0):
     run([FF, "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", lst, "-af", "loudnorm=I=-16:TP=-1.5:LRA=11", "-ar", "48000", work / "voice.wav"])
     total = t0
     # 2 shots
-    shots, credits = plan_shots(beats, timing, prof, work)
+    shots, credits, events = plan_shots(beats, timing, prof, work, pack.get("broll", []))
+    synth_sfx(events, total, work / "sfx.wav")
     sl = work / "shots" / "list.txt"
     sl.write_text("\n".join(f"file '{Path(p).as_posix()}'" for p, _ in shots))
     # 3 subtitles
@@ -306,17 +508,21 @@ def build(pack_path, preview=0):
     fonts = FONTS.as_posix().replace(":", r"\:")
     vf = f"subtitles='{ass.as_posix().replace(':', chr(92) + ':')}':fontsdir='{fonts}'"
     cmd = [FF, "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", sl, "-i", work / "voice.wav"]
+    cmd += ["-i", work / "sfx.wav"]
     if music:
         cmd += ["-stream_loop", "-1", "-i", music]
-        af = ("[1:a]asplit=2[v][sc];[2:a]volume=0.55[m];[m][sc]sidechaincompress=threshold=0.03:ratio=9:attack=15:release=450[d];"
-              "[v][d]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.95[a]")
+        af = ("[1:a]asplit=3[v][sc1][sc2];[3:a]volume=0.55[m];[m][sc1]sidechaincompress=threshold=0.03:ratio=9:attack=15:release=450[d];"
+              "[2:a]volume=0.9[x];[x][sc2]sidechaincompress=threshold=0.06:ratio=3:attack=10:release=250[dx];"
+              "[v][d][dx]amix=inputs=3:duration=first:normalize=0,alimiter=limit=0.95[a]")
         cmd += ["-filter_complex", f"[0:v]{vf}[vv];{af}", "-map", "[vv]", "-map", "[a]"]
     else:
-        cmd += ["-vf", vf, "-map", "0:v", "-map", "1:a"]
+        af = ("[1:a]asplit=2[v][sc];[2:a]volume=0.9[x];[x][sc]sidechaincompress=threshold=0.06:ratio=3:attack=10:release=250[dx];"
+              "[v][dx]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.95[a]")
+        cmd += ["-filter_complex", f"[0:v]{vf}[vv];{af}", "-map", "[vv]", "-map", "[a]"]
     cmd += ["-t", f"{total:.3f}", "-r", FPS, "-c:v", "libx264", "-preset", "veryfast", "-crf", "19", "-pix_fmt", "yuv420p",
             "-threads", "6", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", out]
     run(cmd)
     (work / "credits.txt").write_text("\n".join(credits), encoding="utf-8")
-    print(f"ok {out} {total / 60:.2f} min, {len(shots)} shots, {len(credits)} credited photos")
+    print(f"ok {out} {total / 60:.2f} min, {len(shots)} shots, {len(credits)} credits")
     return out
 

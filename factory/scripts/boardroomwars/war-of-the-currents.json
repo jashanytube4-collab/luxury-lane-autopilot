@@ -1,0 +1,928 @@
+{
+"channel": "boardroomwars",
+"slug": "war-of-the-currents",
+"title": "How Edison Lost The War Of The Currents To Westinghouse And Tesla",
+"thumb": {
+"strip": "THE WAR OF THE CURRENTS",
+"words": "EDISON LOST",
+"face_q": "Thomas Edison"
+},
+"sources": [
+"Smithsonian / Library of Congress: Pearl Street Station opened 4 Sep 1882 (~400 lamps); DC range about a mile",
+"PBS American Experience 'Tesla' / Smithsonian Magazine: Tesla arrived 1884, left Edison after ~6 months ($50,000 claim is Tesla's account); AC patents 1888; Westinghouse licence (~$60,000 + $2.50/hp royalty, reported); later buyout ~$216,000 (W. Bernard Carlson, Tesla: Inventor of the Electrical Age)",
+"Edison letter to Edward Johnson, Nov 1886 ('Just as certain as death...'), Thomas A. Edison Papers, Rutgers",
+"Harold P. Brown: Evening Post letter June 1888, Columbia demonstrations July 1888, letters published by The Sun 25 Aug 1889; Kemmler executed 6 Aug 1890 Auburn (two shocks); Westinghouse 'axe' remark as reported (Jill Jonnes, Empires of Light; Tom McNichol, AC/DC)",
+"John Feeks death on overhead wires, lower Manhattan, 11 Oct 1889 (New York Times archive)",
+"General Electric formed 1892 (Edison General Electric + Thomson-Houston; Coffin president); 1893 Chicago Exposition lit by Westinghouse AC; Niagara (Adams plant) power to Buffalo Nov 1896 (IEEE Milestone)",
+"Westinghouse lost control of his company after the Panic of 1907; Tesla died Jan 1943, Hotel New Yorker; Con Edison ended last DC service 14 Nov 2007 (NYT)",
+"Topsy (Luna Park, 4 Jan 1903): film by Edison Manufacturing Co.; no evidence Edison was involved (Smithsonian)",
+"Footage/photos: Library of Congress (Westinghouse Works 1904 films, PD), Wikimedia Commons public-domain pre-1928 images, Edison films (PD)",
+"Hedged in script: $50,000 promise (Tesla's account), licence price 'reported', axe remark 'reported', royalty tear-up 'the story goes', Niagara distance '20+ miles', fair lamps 'tens of thousands'"
+],
+"beats": [
+{
+"text": "New York. October 1889. Lunchtime on a busy street in lower Manhattan.",
+"v": [
+{
+"t": "photo",
+"q": "New York overhead electric wires 1880s"
+},
+{
+"t": "big",
+"big": "NEW YORK",
+"small": "October 1889"
+}
+]
+},
+{
+"text": "High above the crowd, a lineman named John Feeks is working in a tangle of wires.",
+"v": [
+{
+"t": "photo",
+"q": "tangle of overhead wires New York 1888"
+},
+{
+"t": "card",
+"text": "ABOVE THE CROWD"
+}
+]
+},
+{
+"text": "He touches the wrong one. And the people below look up and watch him die.",
+"v": [
+{
+"t": "photo",
+"q": "New York street crowd 1889"
+},
+{
+"t": "card",
+"text": "IN FRONT OF EVERYONE"
+}
+]
+},
+{
+"text": "For one inventor's camp, this is proof of what they have been saying for months. Alternating current kills.",
+"v": [
+{
+"t": "photo",
+"q": "New York newspaper 1889 front page"
+},
+{
+"t": "photo",
+"q": "Thomas Edison"
+}
+]
+},
+{
+"text": "That inventor is the most famous man in America. Thomas Edison.",
+"v": [
+{
+"t": "photo",
+"q": "Thomas Edison portrait 1880s"
+},
+{
+"t": "big",
+"big": "THOMAS EDISON",
+"small": "the Wizard of Menlo Park"
+}
+]
+},
+{
+"text": "And he is losing a business war he started, to a rival who never wanted a war at all.",
+"v": [
+{
+"t": "photo",
+"q": "George Westinghouse"
+},
+{
+"t": "card",
+"text": "THE WAR OF THE CURRENTS"
+}
+]
+},
+{
+"text": "This is how the greatest inventor of his age fought dirty, lost anyway, and was pushed out of his own company.",
+"v": [
+{
+"t": "video",
+"q": "New York City 1890s street film",
+"alt": "New York 1890s"
+},
+{
+"t": "card",
+"text": "HE LOST ANYWAY"
+}
+]
+},
+{
+"text": "Go back to September 1882. Edison opens the Pearl Street power station in Manhattan.",
+"v": [
+{
+"t": "photo",
+"q": "Pearl Street Station"
+},
+{
+"t": "big",
+"big": "PEARL STREET",
+"small": "September 1882"
+}
+]
+},
+{
+"text": "On the first day it lights about four hundred lamps. Electric light, sold like gas or water.",
+"v": [
+{
+"t": "photo",
+"q": "Edison light bulb 1880s"
+},
+{
+"t": "big",
+"big": "400 LAMPS",
+"small": "day one"
+}
+]
+},
+{
+"text": "Edison's system uses direct current, or DC. The power flows one way, at low voltage. It is safe and it works.",
+"v": [
+{
+"t": "photo",
+"q": "Edison dynamo Jumbo"
+},
+{
+"t": "list",
+"title": "EDISON'S DC",
+"lines": [
+"flows one way",
+"low voltage",
+"proven and safe"
+]
+}
+]
+},
+{
+"text": "But DC has one big weakness. It cannot travel far. Edison needs a power station about every mile.",
+"v": [
+{
+"t": "photo",
+"q": "Edison Pearl Street station map"
+},
+{
+"t": "card",
+"text": "ONLY ABOUT A MILE"
+}
+]
+},
+{
+"text": "For a city, that is fine. For a whole country, it means thousands of stations, and a fortune in thick copper wire.",
+"v": [
+{
+"t": "photo",
+"q": "copper wire cable 1880s"
+},
+{
+"t": "card",
+"text": "A FORTUNE IN COPPER"
+}
+]
+},
+{
+"text": "Edison does not see a problem. He owns the patents, the factories and the name.",
+"v": [
+{
+"t": "photo",
+"q": "Edison Machine Works Schenectady"
+},
+{
+"t": "card",
+"text": "HE OWNS IT ALL"
+}
+]
+},
+{
+"text": "In 1884, a tall young engineer from what is now Croatia arrives in New York to work for him.",
+"v": [
+{
+"t": "photo",
+"q": "Nikola Tesla young 1880s"
+},
+{
+"t": "big",
+"big": "NIKOLA TESLA",
+"small": "arrives 1884"
+}
+]
+},
+{
+"text": "His name is Nikola Tesla. He has an idea in his head for a motor that runs on alternating current.",
+"v": [
+{
+"t": "photo",
+"q": "Nikola Tesla"
+},
+{
+"t": "card",
+"text": "ALTERNATING CURRENT"
+}
+]
+},
+{
+"text": "Alternating current, or AC, flips direction many times a second. With a transformer, it can be pushed to high voltage and sent for miles.",
+"v": [
+{
+"t": "photo",
+"q": "Tesla induction motor"
+},
+{
+"t": "list",
+"title": "AC",
+"lines": [
+"flips direction",
+"high voltage",
+"travels for miles"
+]
+}
+]
+},
+{
+"text": "Edison is not interested. Tesla later said he was promised fifty thousand dollars to improve Edison's machines, and was told it was a joke.",
+"v": [
+{
+"t": "photo",
+"q": "Thomas Edison 1880s"
+},
+{
+"t": "big",
+"big": "$50,000?",
+"small": "Tesla's account"
+}
+]
+},
+{
+"text": "That is Tesla's side of the story. What we know for sure is that he quit after about six months.",
+"v": [
+{
+"t": "photo",
+"q": "Nikola Tesla 1890"
+},
+{
+"t": "card",
+"text": "HE QUITS"
+}
+]
+},
+{
+"text": "For a while, he digs ditches to survive. Then, in 1888, his AC motor patents are granted.",
+"v": [
+{
+"t": "photo",
+"q": "Tesla patent drawing electro-magnetic motor"
+},
+{
+"t": "big",
+"big": "1888",
+"small": "Tesla's patents"
+}
+]
+},
+{
+"text": "One man reads them and sees the future. George Westinghouse, a Pittsburgh millionaire who made his money on train air brakes.",
+"v": [
+{
+"t": "photo",
+"q": "George Westinghouse"
+},
+{
+"t": "big",
+"big": "GEORGE WESTINGHOUSE",
+"small": "Pittsburgh"
+}
+]
+},
+{
+"text": "Westinghouse has already bought rights to a European transformer design, and his engineer William Stanley has lit up a street with AC in Great Barrington, Massachusetts.",
+"v": [
+{
+"t": "photo",
+"q": "William Stanley Jr. engineer"
+},
+{
+"t": "photo",
+"q": "Stanley transformer 1886"
+}
+]
+},
+{
+"text": "Now he buys Tesla's patents. The deal is reported at about sixty thousand dollars, plus a royalty for every horsepower sold.",
+"v": [
+{
+"t": "photo",
+"q": "Westinghouse Electric Company 1888"
+},
+{
+"t": "big",
+"big": "$60,000",
+"small": "plus royalties"
+}
+]
+},
+{
+"text": "AC is cheaper. It needs fewer stations and thinner wire. Towns start choosing Westinghouse.",
+"v": [
+{
+"t": "video",
+"q": "Westinghouse Works 1904 film",
+"alt": "Westinghouse factory 1900s"
+},
+{
+"t": "card",
+"text": "CHEAPER"
+}
+]
+},
+{
+"text": "Edison sees his business at risk. And he decides the way to win is to make people afraid.",
+"v": [
+{
+"t": "photo",
+"q": "Thomas Edison"
+},
+{
+"t": "card",
+"text": "FEAR"
+}
+]
+},
+{
+"text": "In a private letter, he had already written that just as certain as death, Westinghouse would kill a customer within six months.",
+"v": [
+{
+"t": "quote",
+"text": "Just as certain as death Westinghouse will kill a customer within six months.",
+"by": "Edison, private letter, 1886"
+},
+{
+"t": "photo",
+"q": "Thomas Edison"
+}
+]
+},
+{
+"text": "In June 1888, a little-known electrician named Harold Brown writes to a New York paper. He says AC is deadly and should be limited by law.",
+"v": [
+{
+"t": "photo",
+"q": "Harold P. Brown electrician"
+},
+{
+"t": "big",
+"big": "HAROLD BROWN",
+"small": "June 1888"
+}
+]
+},
+{
+"text": "That summer, Brown gives public shows at Columbia College, using high-voltage AC on animals to prove his point.",
+"v": [
+{
+"t": "photo",
+"q": "Columbia College 1880s"
+},
+{
+"t": "card",
+"text": "PUBLIC DEMONSTRATIONS"
+}
+]
+},
+{
+"text": "It is ugly, and it works. The newspapers love it.",
+"v": [
+{
+"t": "photo",
+"q": "New York newspaper 1888"
+},
+{
+"t": "card",
+"text": "THE PRESS LOVES IT"
+}
+]
+},
+{
+"text": "Brown says he is an independent expert. He is not. He has been given help and space at Edison's laboratory in West Orange, New Jersey.",
+"v": [
+{
+"t": "photo",
+"q": "Edison laboratory West Orange"
+},
+{
+"t": "card",
+"text": "NOT INDEPENDENT"
+}
+]
+},
+{
+"text": "Then the campaign finds a bigger stage. New York State is looking for a new way to carry out executions.",
+"v": [
+{
+"t": "photo",
+"q": "Auburn Prison"
+},
+{
+"t": "card",
+"text": "A BIGGER STAGE"
+}
+]
+},
+{
+"text": "Edison backs electricity, and he points officials to alternating current. He even testifies that AC would kill a man instantly.",
+"v": [
+{
+"t": "photo",
+"q": "Thomas Edison 1889"
+},
+{
+"t": "card",
+"text": "HE TESTIFIES"
+}
+]
+},
+{
+"text": "Behind the scenes, Brown gets hold of Westinghouse generators for the electric chair, even though Westinghouse refuses to sell them for that.",
+"v": [
+{
+"t": "photo",
+"q": "Westinghouse alternator 1880s"
+},
+{
+"t": "card",
+"text": "THE GENERATORS"
+}
+]
+},
+{
+"text": "The point is clear. If the chair runs on Westinghouse power, every family will fear a Westinghouse wire in their home.",
+"v": [
+{
+"t": "photo",
+"q": "electric light in home 1890s"
+},
+{
+"t": "card",
+"text": "THE REAL TARGET"
+}
+]
+},
+{
+"text": "In August 1889, the New York Sun prints Brown's stolen letters. They show he has been working with Edison's side all along.",
+"v": [
+{
+"t": "photo",
+"q": "The Sun New York newspaper 1889"
+},
+{
+"t": "quote",
+"text": "For Shame, Brown!",
+"by": "headline, The Sun, 1889"
+}
+]
+},
+{
+"text": "But the plan keeps moving. In August 1890, at Auburn Prison, William Kemmler becomes the first person executed with electricity.",
+"v": [
+{
+"t": "photo",
+"q": "William Kemmler"
+},
+{
+"t": "big",
+"big": "6 AUGUST 1890",
+"small": "Auburn Prison"
+}
+]
+},
+{
+"text": "The first shock does not kill him. Witnesses are horrified. It takes a second, longer shock.",
+"v": [
+{
+"t": "photo",
+"q": "Auburn Prison 1890s"
+},
+{
+"t": "card",
+"text": "IT GOES WRONG"
+}
+]
+},
+{
+"text": "Westinghouse is reported to have said they would have done better using an axe.",
+"v": [
+{
+"t": "quote",
+"text": "They would have done better using an axe.",
+"by": "George Westinghouse, as reported"
+},
+{
+"t": "photo",
+"q": "George Westinghouse"
+}
+]
+},
+{
+"text": "Edison's side even pushed the word 'Westinghoused' to mean electrocuted. It never caught on.",
+"v": [
+{
+"t": "photo",
+"q": "Thomas Edison"
+},
+{
+"t": "card",
+"text": "'WESTINGHOUSED'"
+}
+]
+},
+{
+"text": "The fear campaign makes headlines. But it does not change the maths. AC keeps winning contracts.",
+"v": [
+{
+"t": "video",
+"q": "Westinghouse Works 1904 film",
+"alt": "Westinghouse factory 1904"
+},
+{
+"t": "card",
+"text": "THE MATHS WINS"
+}
+]
+},
+{
+"text": "And Edison has a bigger problem. His company needs money, and the money belongs to bankers like J. P. Morgan.",
+"v": [
+{
+"t": "photo",
+"q": "J. P. Morgan"
+},
+{
+"t": "card",
+"text": "THE BANKERS"
+}
+]
+},
+{
+"text": "In 1892, Edison General Electric is merged with its rival Thomson-Houston. The new company is called General Electric.",
+"v": [
+{
+"t": "photo",
+"q": "General Electric logo 1890s"
+},
+{
+"t": "big",
+"big": "1892",
+"small": "General Electric"
+}
+]
+},
+{
+"text": "Edison's name is gone from the company. The boss is Thomson-Houston's Charles Coffin. And the new company sells AC too.",
+"v": [
+{
+"t": "photo",
+"q": "Charles A. Coffin"
+},
+{
+"t": "card",
+"text": "HIS NAME IS GONE"
+}
+]
+},
+{
+"text": "The man who started the war has been taken out of it by his own investors.",
+"v": [
+{
+"t": "photo",
+"q": "Thomas Edison 1890s"
+},
+{
+"t": "card",
+"text": "PUSHED OUT"
+}
+]
+},
+{
+"text": "The war is settled in public. Chicago, 1893. The World's Columbian Exposition.",
+"v": [
+{
+"t": "video",
+"q": "Chicago World's Fair 1893",
+"alt": "World's Columbian Exposition 1893"
+},
+{
+"t": "big",
+"big": "CHICAGO",
+"small": "1893"
+}
+]
+},
+{
+"text": "Westinghouse bids to light the whole fair, far below General Electric's price, and wins.",
+"v": [
+{
+"t": "photo",
+"q": "World's Columbian Exposition Westinghouse"
+},
+{
+"t": "card",
+"text": "HE UNDERBIDS GE"
+}
+]
+},
+{
+"text": "On opening day, the President presses a button, and the fairground comes alive.",
+"v": [
+{
+"t": "photo",
+"q": "Grover Cleveland opening Columbian Exposition"
+},
+{
+"t": "card",
+"text": "THE BUTTON"
+}
+]
+},
+{
+"text": "At night, tens of thousands of lamps glow over the White City. All of it running on AC.",
+"v": [
+{
+"t": "photo",
+"q": "Court of Honor Columbian Exposition night"
+},
+{
+"t": "big",
+"big": "THE WHITE CITY",
+"small": "lit by AC"
+}
+]
+},
+{
+"text": "Millions of visitors see it with their own eyes. AC is not a killer. It is the future.",
+"v": [
+{
+"t": "photo",
+"q": "World's Columbian Exposition 1893"
+},
+{
+"t": "card",
+"text": "SEEING IS BELIEVING"
+}
+]
+},
+{
+"text": "Then comes the biggest prize of all. Niagara Falls.",
+"v": [
+{
+"t": "video",
+"q": "Niagara Falls 1896 film",
+"alt": "Niagara Falls"
+},
+{
+"t": "card",
+"text": "NIAGARA FALLS"
+}
+]
+},
+{
+"text": "The power company picks Westinghouse and Tesla's system to turn the falls into electricity.",
+"v": [
+{
+"t": "photo",
+"q": "Adams Power Plant Niagara"
+},
+{
+"t": "card",
+"text": "THE CONTRACT"
+}
+]
+},
+{
+"text": "In November 1896, power from Niagara reaches Buffalo, more than twenty miles away. Edison's DC could never do that.",
+"v": [
+{
+"t": "photo",
+"q": "Niagara Falls power plant generators 1890s"
+},
+{
+"t": "big",
+"big": "NIAGARA -> BUFFALO",
+"small": "20+ miles"
+}
+]
+},
+{
+"text": "The war of the currents is over. AC has won.",
+"v": [
+{
+"t": "video",
+"q": "power lines",
+"alt": "electric transmission line"
+},
+{
+"t": "card",
+"text": "AC WINS"
+}
+]
+},
+{
+"text": "But here is the twist. Not one of the three men got the ending he deserved.",
+"v": [
+{
+"t": "photo",
+"q": "Nikola Tesla"
+},
+{
+"t": "card",
+"text": "THE TWIST"
+}
+]
+},
+{
+"text": "Westinghouse's company was hit by money trouble in the early 1890s. The story goes that Tesla tore up his royalty contract to save it.",
+"v": [
+{
+"t": "photo",
+"q": "Nikola Tesla 1890s"
+},
+{
+"t": "card",
+"text": "THE STORY GOES"
+}
+]
+},
+{
+"text": "Records show Westinghouse later bought the patents outright, for about two hundred and sixteen thousand dollars. Tesla lost the royalties that could have made him rich.",
+"v": [
+{
+"t": "photo",
+"q": "Tesla patent"
+},
+{
+"t": "big",
+"big": "$216,000",
+"small": "the buyout"
+}
+]
+},
+{
+"text": "Tesla died alone in a New York hotel room in January 1943, in debt.",
+"v": [
+{
+"t": "photo",
+"q": "Hotel New Yorker"
+},
+{
+"t": "card",
+"text": "ALONE"
+}
+]
+},
+{
+"text": "Westinghouse lost control of his own company after another crash, the Panic of 1907.",
+"v": [
+{
+"t": "photo",
+"q": "George Westinghouse 1900s"
+},
+{
+"t": "big",
+"big": "1907",
+"small": "he loses control"
+}
+]
+},
+{
+"text": "And Edison? He moved on to film, sound and other inventions. He stayed rich and famous. But he never ran the power business again.",
+"v": [
+{
+"t": "photo",
+"q": "Thomas Edison phonograph"
+},
+{
+"t": "card",
+"text": "HE MOVED ON"
+}
+]
+},
+{
+"text": "There is also a famous myth. People say Edison electrocuted Topsy the elephant in 1903 to attack AC.",
+"v": [
+{
+"t": "photo",
+"q": "Luna Park Coney Island 1903"
+},
+{
+"t": "card",
+"text": "THE MYTH"
+}
+]
+},
+{
+"text": "The war was over a decade before that. A film company with Edison's name recorded it, but historians find no sign he was involved.",
+"v": [
+{
+"t": "photo",
+"q": "Edison Manufacturing Company"
+},
+{
+"t": "card",
+"text": "NOT EDISON"
+}
+]
+},
+{
+"text": "And here is the strangest part. Edison's direct current never fully died.",
+"v": [
+{
+"t": "photo",
+"q": "Pearl Street Station"
+},
+{
+"t": "card",
+"text": "IT NEVER DIED"
+}
+]
+},
+{
+"text": "In New York, Con Edison kept DC customers in Manhattan for more than a century. The last one was cut off in November 2007.",
+"v": [
+{
+"t": "video",
+"q": "New York City 1890s street film",
+"alt": "New York 1900s"
+},
+{
+"t": "big",
+"big": "2007",
+"small": "last DC customer"
+}
+]
+},
+{
+"text": "And today, your phone, your laptop and every solar panel and battery run on DC. Giant DC lines now carry power across countries.",
+"v": [
+{
+"t": "video",
+"q": "solar panels",
+"alt": "electric transmission line"
+},
+{
+"t": "list",
+"title": "DC TODAY",
+"lines": [
+"phones",
+"laptops",
+"solar and batteries"
+]
+}
+]
+},
+{
+"text": "AC won the grid. DC won the gadgets.",
+"v": [
+{
+"t": "video",
+"q": "power lines",
+"alt": "electric transmission line"
+},
+{
+"t": "card",
+"text": "BOTH WON"
+}
+]
+},
+{
+"text": "Edison fought dirty to protect one business, and lost. The real winner was the company built by bankers, General Electric.",
+"v": [
+{
+"t": "photo",
+"q": "General Electric Schenectady works"
+},
+{
+"t": "card",
+"text": "THE REAL WINNER"
+}
+]
+},
+{
+"text": "If you like true business wars from history, subscribe. Next time, a car that scared Detroit, and the trial that ended it.",
+"v": [
+{
+"t": "video",
+"q": "Westinghouse Works 1904 film",
+"alt": "Westinghouse factory 1904"
+},
+{
+"t": "card",
+"text": "SUBSCRIBE"
+}
+]
+}
+]
+}

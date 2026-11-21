@@ -15,7 +15,8 @@ CACHE.mkdir(parents=True, exist_ok=True)
 UA = {"User-Agent": "VideoFactory/1.0 (documentary video tool, low-rate, honours Retry-After)"}
 OK_LIC = re.compile(r"public domain|pd|cc0|cc[- ]by(?![- ]nc)|cc[- ]by-sa|attribution|no known copyright", re.I)
 BAD_LIC = re.compile(r"\bnc\b|non-?commercial|noderiv|\bnd\b|fair use|copyrighted|all rights", re.I)
-BAD_NAME = re.compile(r"banknote|TL|stamp|coin|signature|autograph|poster|flag|seal of|emblem|\.(svg|gif|tif|tiff|pdf|djvu|webm|ogv|ogg|mp3|wav)$|logo|flag of|coat of arms|map of|locator|diagram|icon", re.I)
+
+BAD_NAME = re.compile(r"banknote|\bTL\b|stamp|coin|signature|autograph|poster|flag|seal of|emblem|\.(svg|gif|tif|tiff|pdf|djvu|webm|ogv|ogg|mp3|wav)$|logo|flag of|coat of arms|map of|locator|diagram|icon", re.I)
 
 
 _last = [0.0]
@@ -119,6 +120,26 @@ def nasa(query: str, n: int = 6) -> list:
             break
     return out
 
+BAD_PHOTO = re.compile(r"obama|trump|biden|bush|president|diver|snorkel|pmnm|noaa|visitor|tourist|today|modern|premiere|actor|actress|cast of|film still|movie|\bISS\d|astronaut|expedition \d|starr-|fws |albatross|wildlife|laysan|(?<!\d)\d{6}-N-\d|\b(grave|tomb|gravestone|cemetery|memorial|monument|statue|museum|replica|model|cosplay|reenact\w*|stamp|banknote|coin)\b", re.I)
+
+_PH_YEAR = re.compile(r"(?<!\d)(19[5-9]\d|20[0-3]\d)(?!\d)")
+
+
+def _photo_bad(x):
+
+    t = _title(x.get("credit", ""))
+
+    return bool(BAD_PHOTO.search(t) or _PH_YEAR.search(t))
+
+
+def photo_relevant(query: str, item: dict) -> bool:
+    """Photo title must share a real keyword (prefix-matched) with the query; stops random modern pictures sneaking in as fallback."""
+    words = [w.lower() for w in re.findall(r"[A-Za-z']{4,}", query) if w.lower() not in STOP and w.lower() not in GENERIC][:4]
+    t = _title(item.get("credit", "")).lower()
+    cr = item.get("credit", "")
+    pd_ = bool(re.search(r"public domain|cc0|no known", cr, re.I)) or bool(re.search(r"(?<!\d)(1[0-8]\d\d|19[0-4]\d)(?!\d)", t))
+    return pd_ and (not words or any(w[:5] in t for w in words))      # period picture (PD / dated before 1950) that names the subject
+
 
 def search_images(query: str, n: int = 6, sources=("wikipedia", "wikimedia")) -> list:
     """Download (cached) up to n images for the query; returns dicts with local path."""
@@ -126,7 +147,8 @@ def search_images(query: str, n: int = 6, sources=("wikipedia", "wikimedia")) ->
     idx = CACHE / f"q_{key}.json"
     if idx.exists():
         res = json.loads(idx.read_text(encoding="utf-8"))
-        res = [x for x in res if Path(x["path"]).exists()]
+
+        res = [x for x in res if Path(x["path"]).exists() and not _photo_bad(x)]
         if res:
             return res[:n]
     res = []
@@ -153,7 +175,8 @@ def search_images(query: str, n: int = 6, sources=("wikipedia", "wikimedia")) ->
             res.append(it)
     if res:
         idx.write_text(json.dumps(res, ensure_ascii=False), encoding="utf-8")
-    return res[:n]
+
+    return [x for x in res if not _photo_bad(x)][:n]
 
 
 # ============================================================================= MOVING VIDEO (free / legal, keyless)
@@ -166,13 +189,79 @@ IA_OK_LIC = re.compile(r"publicdomain|/zero/|cc0|/by/|/by-sa/", re.I)
 IA_BAD_TITLE = re.compile(r"castle films|teaser|lecture|interview|conference|tutorial|webinar|presentation|speech|trailer|full movie|episode|season|porn|sex|nude|erotic", re.I)
 # footage that carries its own logo / captions / AI-slop, or is modern politics: never usable as documentary b-roll
 BAD_CLIP = re.compile(r"terra x|zdf|bilderfest|bartholomai|messter|thessaloniki 1911|monde en vid|road to liberty|haptic lab|kite|protest|demonstrat|water cannon|snow cannon|rally|election|campaign|tiktok|screen ?recording|slideshow|"
-                      r"gameplay|minecraft|animation test|logo|intro|outro|karaoke|lyrics|AI generated", re.I)
+
+                      r"gameplay|minecraft|animation test|logo|intro|outro|karaoke|lyrics|\bAI\b generated", re.I)
 STOP = set("the of and a an in on at to for with from by is was were history story true what why how real".split())
 
 
 def _kw(q, k=4):
     ws = [w for w in re.findall(r"[A-Za-z0-9']{3,}", q) if w.lower() not in STOP]
     return ws[:k]
+
+# --- automatic rejection rules for historical documentary b-roll (title/description based; frame-based checks live in core.frame_ok)
+
+BAD_MODERN = re.compile(r"x-47|f-35|f-22|f/a-18|uav|ucav|unmanned|jet\b|osprey|nimitz|cvn|lcs|arrested landing|helicopter|sand art|music|official|song|lyric|sheeran|feat\.|day in the life|explained|how to|navy history|operation .* (ex|exercise)|albatross|bird|wildlife|animal|fish|coral|sand dollar|cilia|plant|flower|insect|whale|dolphin|turtle|seal\b|interview|press conference|meeting with|talk show|panel|webinar|vlog|reaction|covid|corona|pandemic|\bmask|drone|4k|uhd|hdr|gopro|timelapse|time-lapse|"
+
+                        r"selfie|tourist|walking tour|dashcam|livestream|news report|prime minister|president|patriarch|synagogue service|prayer|mass in|concert|"
+
+                        r"double exposure|overlay|superimpos|dissolve|montage|collage|slideshow|ai[- ]generated|simulation|render(ing)?\b|3d|360", re.I)
+
+BAD_AERIAL = re.compile(r"aerial|from above|bird'?s? eye|flyover|fly-over|overflight|helicopter view|satellite", re.I)
+
+YEAR = re.compile(r"(?<!\d)(19[89]\d|20[0-3]\d)(?!\d)")
+
+GENERIC = set("footage film video clip clips newsreel documentary history historical view scene scenes old vintage archive archival movie 1930s 1940s".split())
+
+
+def _title(cr):
+
+    """File title inside a credit string ('<title>.ext - artist - licence - source' or '<title> - Internet Archive ...')."""
+
+    m = re.match(r"(.*?\.(?:webm|ogv|mp4|mpg|jpe?g|png|tiff?))", cr, re.I)
+
+    return m.group(1) if m else cr.split(" - ")[0]
+
+
+def clip_ok(query: str, src: dict, ctx: str = "") -> bool:
+
+    """False for footage that cannot be period documentary b-roll: logos/politics (BAD_CLIP), modern or talking-head/double-exposure files (BAD_MODERN),
+
+    aerial/drone shots nobody asked for, files dated 1980+ unless the query names that year, and anything whose title shares no real
+
+    keyword with the query (relevance: >= half of the query's meaningful words, prefix-matched, must appear in the clip title)."""
+
+    cr = src.get("credit", "")
+
+    title = _title(cr)
+
+    if BAD_CLIP.search(cr) or BAD_MODERN.search(title):
+
+        return False
+
+    if BAD_AERIAL.search(title) and not BAD_AERIAL.search(query):
+
+        return False
+
+    if any(y not in query for y in YEAR.findall(title)) or re.search(r"(?<!\d)20[0-3]\d[01]\d[0-3]\d(?!\d)", title):
+
+        return False
+
+    nat = re.findall(r"german|japanese|british|american|soviet|russian|italian|french|chinese", title, re.I)
+    if nat and any(n.lower() not in (query + " " + ctx).lower() for n in nat):
+        return False                                   # wrong side/country (e.g. a German battleship for a Japanese one)
+    words = [w.lower() for w in re.findall(r"[A-Za-z']{4,}", query) if w.lower() not in STOP and w.lower() not in GENERIC][:4]
+
+    if not words:
+
+        return True
+
+    tl = title.lower()
+
+    hit = sum(1 for w in words if w[:5] in tl)
+
+    if ctx == "*":                                      # themed b-roll queries: any one real keyword is enough
+        return hit >= 1
+    return hit >= (len(words) if len(words) <= 2 else -(-len(words) * 3 // 5))
 
 
 def _cached_json(name, fn):
@@ -313,7 +402,7 @@ def stock_video(query: str, n: int = 4) -> list:
     return out[:n]
 
 
-def search_clips(query: str, n: int = 4, sources=("wikimedia_video", "archive", "nasa_video", "stock")) -> list:
+def search_clips(query: str, n: int = 4, sources=("wikimedia_video", "archive", "nasa_video", "stock"), ctx: str = "") -> list:
     """Cached list of cuttable moving-video sources for a query (cheapest relevance first)."""
     fns = {"archive": archive_video, "wikimedia_video": wikimedia_video, "nasa_video": nasa_video, "stock": stock_video}
     key = hashlib.md5((query + "|" + ",".join(sources)).encode()).hexdigest()[:12]
@@ -326,7 +415,8 @@ def search_clips(query: str, n: int = 4, sources=("wikimedia_video", "archive", 
             except Exception as e:  # noqa: BLE001
                 print("clip source failed", s, e)
         return res
-    return [x for x in _cached_json("vq_" + key, go) if not BAD_CLIP.search(x["credit"])][: max(n, 1) * 2]
+
+    return [x for x in _cached_json("vq_" + key, go) if clip_ok(query, x, ctx)][: max(n, 1) * 2]
 
 
 def _curl():

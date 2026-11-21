@@ -14,7 +14,7 @@ import subprocess
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
-from . import assets
+from . import assets, graphics
 
 ROOT = Path(__file__).resolve().parents[2]
 FF, FPS, W, H = "ffmpeg", 30, 1920, 1080
@@ -128,6 +128,29 @@ CARD_MAX, CLIP_MAX, CHUNK = 3.2, 5.8, 4.2
 IA_UA = "VideoFactory/1.0 (documentary tool; honest client)"
 
 
+_AH = []
+
+
+def _ahash(path):
+    try:
+        im = Image.open(path).convert("L").resize((8, 8), Image.BILINEAR)
+        px = list(im.getdata()); m = sum(px) / 64
+        return sum(1 << i for i, v in enumerate(px) if v > m)
+    except Exception:  # noqa: BLE001
+        return None
+
+
+def _dupe(path):
+    """True if this picture (any file name) looks like one already used in the video: 8x8 average-hash within 6 bits."""
+    h = _ahash(path)
+    if h is None:
+        return False
+    if any(bin(h ^ o).count("1") <= 6 for o in _AH):
+        return True
+    _AH.append(h)
+    return False
+
+
 def photo_pool(q, n, used: set):
     """n distinct photos for query q, trying shorter queries if the search is thin."""
     words = q.split()
@@ -135,7 +158,10 @@ def photo_pool(q, n, used: set):
     got = []
     for t in tries:
         for it in assets.search_images(t, 8):
-            if it["id"] not in used and it["id"] not in [g["id"] for g in got]:
+            tt = assets._title(it.get("credit", ""))
+            if it["id"] not in used and tt not in used and it["id"] not in [g["id"] for g in got]:
+                if not assets.photo_relevant(q, it) or _dupe(it["path"]):
+                    continue
                 got.append(it)
         if len(got) >= n:
             break
@@ -251,6 +277,49 @@ def shot_ok(path):
     return not (yd and sum(yd) / len(yd) < 0.35)
 
 
+_FACE = [None]
+YUNET = "https://github.com/opencv/opencv_zoo/raw/main/models/face_detection_yunet/face_detection_yunet_2023mar.onnx"      # Apache-2.0
+
+
+def _face_det():
+    if _FACE[0] is None:
+        import cv2
+        m = ROOT / "factory" / "models" / "yunet.onnx"
+        if not m.exists() or m.stat().st_size < 100000:
+            m.parent.mkdir(parents=True, exist_ok=True)
+            r = assets._get(YUNET)
+            if not r:
+                _FACE[0] = False
+                return False
+            m.write_bytes(r.content)
+        _FACE[0] = cv2.FaceDetectorYN.create(str(m), "", (640, 360), 0.75)
+    return _FACE[0]
+
+
+def frame_ok(path):
+    """Frame-level reject: talking-head / interview look = a large face (>=15% of frame height) in >=2 of 4 sampled frames (YuNet via OpenCV)."""
+    try:
+        import cv2
+        det = _face_det()
+    except Exception:  # noqa: BLE001
+        return True
+    if not det:
+        return True
+    cap = cv2.VideoCapture(str(path))
+    n = int(cap.get(cv2.CAP_PROP_FRAME_COUNT) or 0)
+    big = 0
+    for k in range(4):
+        cap.set(cv2.CAP_PROP_POS_FRAMES, int(n * (k + 0.5) / 4))
+        ok, fr = cap.read()
+        if not ok:
+            continue
+        _, fs = det.detect(cv2.resize(fr, (640, 360)))
+        if fs is not None and any(f[3] > 360 * 0.15 for f in fs):
+            big += 1
+    cap.release()
+    return big < 2
+
+
 class Picker:
     """Chooses unique moving-clip windows for a video; remembers every window used."""
 
@@ -269,13 +338,13 @@ class Picker:
         rng.shuffle(cand)
         return [c for c in cand if all(c + d + 2 < u0 or c > u1 + 2 for u0, u1 in used)]
 
-    def clip(self, queries, d, out: Path, trans):
+    def clip(self, queries, d, out: Path, trans, loose=False):
         seen = set()
         for q in queries:
             if not q or q in seen:
                 continue
             seen.add(q)
-            srcs = [s for s in assets.search_clips(q, 4) if len(self.win.get(s["id"], [])) < 3 and not self.avoid.search(s["credit"])]
+            srcs = [s for s in assets.search_clips(q, 4, ctx="*" if loose else " ".join(queries)) if len(self.win.get(s["id"], [])) < 3 and not self.avoid.search(s["credit"])]
             srcs.sort(key=lambda s: len(self.win.get(s["id"], [])))     # unused sources first = more variety
             for s in srcs[:6]:
                 loc = assets.localize(s)
@@ -293,7 +362,7 @@ class Picker:
                         cut_clip(loc, st, d, out, self.prof, trans, w / max(h, 1))
                     except RuntimeError as e:
                         print("cut failed", s["id"], str(e)[-120:]); break
-                    if shot_ok(out):
+                    if shot_ok(out) and frame_ok(out):
                         self.credits.append(s["credit"])
                         return True
         return False
@@ -310,6 +379,7 @@ def mood(text):
 def plan_shots(beats, timing, prof, work: Path, broll=()):
     """Return (shots, credits, events). shots = [(path, dur)], events = [(time_s, 'whoosh'|'impact')]. Every beat covered exactly."""
     used_photos, shots, events = set(), [], []
+    _AH.clear()
     (work / "shots").mkdir(exist_ok=True)
     pk = Picker(prof, work, list(broll) + list(prof.get("broll", [])))
     prev, since_photo, since_flash, photo_t, t = "none", 99, 99, 0.0, 0.0
@@ -318,17 +388,21 @@ def plan_shots(beats, timing, prof, work: Path, broll=()):
     for bi, (b, tm) in enumerate(zip(beats, timing)):
         D = tm["dur"]
         vis = b.get("v") or [{"t": "photo", "q": b.get("q", "")}]
-        isc = lambda v: v["t"] in ("big", "quote", "list", "card")
+        if b.get("graphic"):                                   # locally drawn map / timeline / document shot leads the beat
+            vis = [{"t": "graphic", "g": b["graphic"]}] + [v for v in vis if v["t"] not in ("big", "quote", "list", "card", "graphic")][:1]
+        isc = lambda v: v["t"] in ("big", "quote", "list", "card", "graphic")
         ncard = sum(1 for v in vis if isc(v))
         nmed = len(vis) - ncard
         cd = min(CARD_MAX, D / len(vis)) if nmed else D / max(ncard, 1)
-        rest = max(D - cd * ncard, 0.0)
+        gd = min(6.0, max(cd, D / len(vis) if nmed else D / max(ncard, 1)))
+        dd = lambda v: gd if v["t"] == "graphic" else cd
+        rest = max(D - sum(dd(v) for v in vis if isc(v)), 0.0)
         mood_b = mood(b["text"])
         # slots: (visual, duration)
         slots = []
         for v in vis:
             if isc(v):
-                slots.append((v, cd))
+                slots.append((v, dd(v)))
             else:
                 span = rest / nmed
                 k = max(1, int(-(-span // CLIP_MAX)), int(round(span / CHUNK)))
@@ -342,7 +416,14 @@ def plan_shots(beats, timing, prof, work: Path, broll=()):
                 elif mood_b == "calm" and bi % 2 == 0:
                     trans = "dip"
             sp = work / "shots" / f"b{bi:03d}_{si}.mp4"
-            if isc(v):
+            if v["t"] == "graphic":
+                try:
+                    graphics.render(v["g"], prof, sd, sp); kind = "graphic"
+                except Exception as e:  # noqa: BLE001
+                    print("graphic failed, card instead:", str(e)[-150:])
+                    png = sp.with_suffix(".png")
+                    card_image(dict(t="card", text=v["g"].get("label") or v["g"].get("headline") or "THE ROUTE"), prof, png, bi + si); still(png, sd, sp, prof, trans); kind = "card"
+            elif isc(v):
                 png = sp.with_suffix(".png")
                 card_image(v, prof, png, bi + si); still(png, sd, sp, prof, trans)
                 kind = "card"
@@ -350,6 +431,8 @@ def plan_shots(beats, timing, prof, work: Path, broll=()):
                     events.append((t, "impact"))
             else:
                 alts = v["q"] if isinstance(v.get("q"), list) else [x.strip() for x in (v.get("q") or _keyword(b["text"])).split("|")]
+                if v.get("alt"):
+                    alts = alts + [x.strip() for x in str(v["alt"]).split("|")]
                 q = alts[0]
                 words = q.split()
                 qs = alts + [" ".join(words[:k]) for k in (3, 2) if len(words) > k]
@@ -359,7 +442,7 @@ def plan_shots(beats, timing, prof, work: Path, broll=()):
                 if want_photo:
                     pool = photo_pool(q, 1, used_photos)
                     if pool:
-                        used_photos.add(pool[0]["id"]); credits.append(pool[0]["credit"])
+                        used_photos.update((pool[0]["id"], assets._title(pool[0].get("credit", "")))); credits.append(pool[0]["credit"])
                         kenburns(pool[0]["path"], min(sd, 4.6), sp.with_name(sp.stem + "_p.mp4"), prof, bi + si, trans)
                         sp = sp.with_name(sp.stem + "_p.mp4"); kind = "photo"
                 if kind is None and v["t"] != "clip" and pk.clip(qs, sd, sp, trans):
@@ -369,10 +452,10 @@ def plan_shots(beats, timing, prof, work: Path, broll=()):
                 if kind is None:
                     if pk.clip(pk.broll, sd, sp, trans):                    # themed b-roll keeps it moving
                         kind = "clip"
-                if kind is None and prev != "photo":
+                if kind is None:
                     pool = photo_pool(q, 1, used_photos)
                     if pool:
-                        used_photos.add(pool[0]["id"]); credits.append(pool[0]["credit"])
+                        used_photos.update((pool[0]["id"], assets._title(pool[0].get("credit", "")))); credits.append(pool[0]["credit"])
                         sp = sp.with_name(sp.stem + "_p.mp4")
                         kenburns(pool[0]["path"], sd, sp, prof, bi + si, trans); kind = "photo"
                 if kind is None:                                            # last resort: styled keyword card, never a repeat

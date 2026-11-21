@@ -1,0 +1,191 @@
+{
+ "channel": "empirechronicle",
+ "slug": "midway60",
+ "title": "What Really Happened At Midway: The Battle That Changed The Pacific War",
+ "thumb": {
+  "strip": "THE TRUE STORY",
+  "words": "MIDWAY",
+  "face_q": "Japanese aircraft carrier Hiryu burning 1942"
+ },
+ "sources": [
+  "Naval History and Heritage Command (history.navy.mil): Battle of Midway; Recollections of Lt. George Gay (oral history)",
+  "NAVSEA: Battle of Midway (Yorktown restored in 72 hours); Britannica: Battle of Midway",
+  "Parshall & Tully, Shattered Sword (2005) on the 'five minutes' claim; Fuchida's postwar account",
+  "USNI Naval History Jun 2017 'Torpedo Eight's Celebrated Survivor' (Gay = only survivor of the 30 who flew from Hornet)",
+  "Footage: The Battle of Midway (1942, John Ford, US Navy, public domain); NHHC photos (US Navy, public domain)",
+  "Hedged in script: codebreakers read 'only pieces'; casualties 'about' 3,000 / 300; Best's bomb 'very likely'; Ford wounded by a fragment (his account)"
+ ],
+ "beats": [
+  {
+   "text": "On the morning of June the fourth, 1942, four Japanese aircraft carriers were sailing toward a tiny island in the middle of the Pacific.",
+   "v": [
+    {
+     "t": "video",
+     "q": "The Battle of Midway 1942 John Ford",
+     "alt": "Battle of Midway 1942"
+    },
+    {
+     "t": "big",
+     "big": "4 JUNE 1942",
+     "small": "the Pacific"
+    }
+   ]
+  },
+  {
+   "text": "By that evening, all four were burning.",
+   "v": [
+    {
+     "t": "photo",
+     "q": "Japanese aircraft carrier Hiryu burning 1942"
+    },
+    {
+     "t": "card",
+     "text": "ALL FOUR"
+    }
+   ]
+  },
+  {
+   "text": "The films tell it as a miracle. A lucky dive at the perfect second, five minutes before Japan would have won.",
+   "v": [
+    {
+     "t": "video",
+     "q": "SBD Dauntless dive bomber 1942",
+     "alt": "dive bomber"
+    },
+    {
+     "t": "card",
+     "text": "THE MIRACLE?"
+    }
+   ]
+  },
+  {
+   "text": "The real story is stranger. It was won by a fake message about drinking water, a ship that should not have been there, and a pilot who followed a single wake across the sea.",
+   "v": [
+    {
+     "t": "video",
+     "q": "Midway Atoll 1942",
+     "alt": "Midway island"
+    },
+    {
+     "t": "card",
+     "text": "THE REAL STORY"
+    }
+   ]
+  },
+  {
+   "text": "Six months earlier, Japan had struck Pearl Harbor. Since then, it had not lost a single major battle.",
+   "v": [
+    {
+     "t": "video",
+     "q": "Pearl Harbor attack 1941 footage",
+     "alt": "Pearl Harbor 1941"
+    },
+    {
+     "t": "photo",
+     "q": "USS Arizona burning Pearl Harbor"
+    }
+   ],
+   "graphic": {
+    "type": "timeline",
+    "title": "Six months of war",
+    "events": [
+     {
+      "date": "7 DEC 1941",
+      "label": "Pearl Harbor"
+     },
+     {
+      "date": "18 APR 1942",
+      "label": "Doolittle Raid"
+     },
+     {
+      "date": "4 JUN 1942",
+      "label": "Midway"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Admiral Isoroku Yamamoto wanted to finish the job. He would take Midway and lure the surviving American carriers out to be destroyed.",
+   "v": [
+    {
+     "t": "photo",
+     "q": "Isoroku Yamamoto"
+    },
+    {
+     "t": "video",
+     "q": "Japanese navy fleet 1942",
+     "alt": "Imperial Japanese Navy"
+    }
+   ]
+  },
+  {
+   "text": "Midway was a small atoll, two little islands and a lagoon, about thirteen hundred miles from Hawaii.",
+   "v": [
+    {
+     "t": "photo",
+     "q": "Midway Atoll aerial 1941"
+    },
+    {
+     "t": "big",
+     "big": "1,300 MILES",
+     "small": "from Hawaii"
+    }
+   ],
+   "graphic": {
+    "type": "map",
+    "from": {
+     "name": "Pearl Harbor",
+     "lat": 21.35,
+     "lon": -157.95
+    },
+    "to": {
+     "name": "Midway",
+     "lat": 28.2,
+     "lon": -177.4
+    },
+    "label": "1,300 miles"
+   }
+  },
+  {
+   "text": "But it was the last American outpost before Pearl Harbor itself.",
+   "v": [
+    {
+     "t": "video",
+     "q": "Midway island 1942 film",
+     "alt": "Midway Atoll"
+    },
+    {
+     "t": "photo",
+     "q": "Sand Island Midway 1941"
+    }
+   ]
+  },
+  {
+   "text": "Yamamoto sent a huge force. Carriers, battleships, transports, and a strike at Alaska to pull eyes away.",
+   "v": [
+    {
+     "t": "video",
+     "q": "Japanese battleship 1942",
+     "alt": "battleship"
+    },
+    {
+     "t": "list",
+     "title": "OPERATION MI",
+     "lines": [
+      "4 fleet carriers",
+      "battleships",
+      "invasion transports",
+      "a raid on Alaska"
+     ]
+    }
+   ]
+  }
+ ],
+ "broll": [
+  "US Navy ships Pacific 1942",
+  "aircraft carrier flight deck 1942",
+  "naval warfare World War II",
+  "US Navy sailors 1942",
+  "Pacific Ocean fleet"
+ ]
+}

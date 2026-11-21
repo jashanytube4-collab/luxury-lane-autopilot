@@ -305,7 +305,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 44,
+  "montage_used": 45,
   "remix_ranges": [
    [
     316.5598655911052,
@@ -354,6 +354,10 @@
    [
     951.0761651509563,
     953.5702264015574
+   ],
+   [
+    526.32,
+    528.2
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9582,7 +9586,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-05",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     48.919999999999995,
@@ -9595,6 +9599,10 @@
    [
     54.78666666666666,
     56.413333333333334
+   ],
+   [
+    43.18589896004106,
+    44.884074698630094
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10900,10 +10908,15 @@
   "video_len": 375
  },
  "hamdan bin mohammed opens crime prevention international conference": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-24",
   "montage_exhausted": true,
-  "montage_used": 20,
-  "remix_ranges": [],
+  "montage_used": 21,
+  "remix_ranges": [
+   [
+    20.13502281199993,
+    22.2615366880285
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 3,
   "shot_ranges": [
@@ -11251,9 +11264,9 @@
   "video_len": 226
  },
  "hamdan bin mohammed opens smart police station at la mer": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "montage_exhausted": true,
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     62.11021807184426,
@@ -11274,6 +11287,10 @@
    [
     105.72,
     107.83999999999999
+   ],
+   [
+    36.62325376134094,
+    38.4148371800222
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11459,11 +11476,15 @@
  "hamdan bin mohammed receives chairman of wccd": {
   "last_short": "2026-11-24",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     29.91925750690768,
     31.697790773277536
+   ],
+   [
+    43.697885875617104,
+    45.64981158393296
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12486,11 +12507,16 @@
   "video_len": 43
  },
  "hamdan bin mohammed the uae has taken strides in energy sustainability": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-24",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 8,
-  "remix_ranges": [],
+  "montage_used": 9,
+  "remix_ranges": [
+   [
+    11.490406074718507,
+    13.240981014960168
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 2,
   "shot_ranges": [
@@ -12698,6 +12724,7 @@
   "long": "2026-10-05",
   "montage_exhausted": true,
   "photo_short": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
@@ -13191,15 +13218,19 @@
  },
  "hamdan bin mohammed visits abu dhabi international hunting and equestrian exhibition 2026": {
   "fails": 1,
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "photo_short": true,
   "remix_ranges": [
    [
     65.85333333333334,
     68.14666666666666
+   ],
+   [
+    75.96597580673817,
+    77.79764773175836
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13983,7 +14014,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 23,
+  "montage_used": 24,
   "remix_ranges": [
    [
     184.4,
@@ -14000,6 +14031,10 @@
    [
     12.319999999999999,
     14.24
+   ],
+   [
+    17.238247494758355,
+    18.717871547403217
    ]
   ],
   "remix_reset": "2026-11-20",

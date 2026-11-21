@@ -1196,7 +1196,7 @@
  "dubai crown prince visits dubai municipality": {
   "last_short": "2026-11-24",
   "long": "2026-11-02",
-  "montage_used": 42,
+  "montage_used": 43,
   "remix_ranges": [
    [
     321.72,
@@ -1293,6 +1293,10 @@
    [
     160.76,
     163.24
+   ],
+   [
+    112.48,
+    114.64
    ]
   ],
   "video_exhausted": true,
@@ -4212,9 +4216,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends hct graduation": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-31",
-  "montage_used": 39,
+  "montage_used": 40,
   "remix_ranges": [
    [
     219.49568300016466,
@@ -4267,6 +4271,10 @@
    [
     192.52,
     195.84
+   ],
+   [
+    241.36,
+    244.72
    ]
   ],
   "video_exhausted": true,
@@ -7861,9 +7869,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed launches 26 dubai 10x projects issues directive to implement them within 24 months": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-31",
-  "montage_used": 27,
+  "montage_used": 28,
   "remix_ranges": [
    [
     53.879999999999995,
@@ -7935,6 +7943,10 @@
    [
     53.879999999999995,
     56.04
+   ],
+   [
+    84.48,
+    86.72
    ]
   ],
   "video_exhausted": true,
@@ -10876,9 +10888,9 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed opens gitex tech week 2017": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-14",
-  "montage_used": 32,
+  "montage_used": 33,
   "remix_ranges": [
    [
     332.64461795604365,
@@ -10963,6 +10975,10 @@
    [
     469.52,
     471.6
+   ],
+   [
+    523.12,
+    525.8
    ]
   ],
   "video_exhausted": true,
@@ -11729,7 +11745,7 @@
  "hamdan bin mohammed reviews dubai future foundation s 2018 plan and projects": {
   "last_short": "2026-11-24",
   "long": "2026-10-30",
-  "montage_used": 22,
+  "montage_used": 23,
   "remix_ranges": [
    [
     40.994186600963694,
@@ -11781,6 +11797,10 @@
    [
     49.879999999999995,
     53.080000000000005
+   ],
+   [
+    133.8,
+    136.12
    ]
   ],
   "video_exhausted": true,
@@ -13672,6 +13692,7 @@
  "hamdan bin mohammed visits dubai airshow 2017": {
   "last_short": "2026-11-24",
   "long": "2026-11-02",
+  "montage_exhausted": true,
   "montage_used": 25,
   "remix_ranges": [
    [

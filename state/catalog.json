@@ -6556,10 +6556,10 @@
   "video_len": 385
  },
  "hamdan bin mohammed honors winners of dubai appreciation award for community service": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 32,
+  "montage_used": 33,
   "remix_ranges": [
    [
     91.53469075790515,
@@ -6600,6 +6600,10 @@
    [
     41.49974348965921,
     43.22392856191082
+   ],
+   [
+    107.43818528087385,
+    109.93045193284206
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9052,6 +9056,7 @@
   "long": "2026-10-20",
   "montage_exhausted": true,
   "montage_used": 5,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     79.21597670964616,
@@ -9144,14 +9149,18 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed meets with dubai gov t second line of leadership": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     1.929348642583168,
     4.229863862350977
+   ],
+   [
+    135.2892285425119,
+    137.79883629614278
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11649,7 +11658,7 @@
  "hamdan bin mohammed reviews dubai future foundation s 2018 plan and projects": {
   "last_short": "2026-11-24",
   "long": "2026-10-30",
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     40.994186600963694,
@@ -11658,6 +11667,10 @@
    [
     133.9974792218585,
     136.0566619172633
+   ],
+   [
+    68.0961824394585,
+    69.80360487481049
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11969,14 +11982,18 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed reviews progress of dewa s hydroelectric project in hatta": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     50.88666666666666,
     52.68
+   ],
+   [
+    61.984642590351804,
+    64.29989072747836
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13455,11 +13472,16 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed visits display of origin autonomous vehicle on the sidelines of the world government summit 2022": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 5,
-  "remix_ranges": [],
+  "montage_used": 6,
+  "remix_ranges": [
+   [
+    49.2798958061194,
+    51.57520452759067
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 2,
   "shot_ranges": [
@@ -13947,10 +13969,10 @@
   "video_len": 263
  },
  "hamdan bin mohammed visits dubai sports council": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     110.28976119537938,
@@ -13959,6 +13981,10 @@
    [
     88.73478389240172,
     90.13906482853541
+   ],
+   [
+    54.63850708279671,
+    56.17331299297321
    ]
   ],
   "remix_reset": "2026-11-20",

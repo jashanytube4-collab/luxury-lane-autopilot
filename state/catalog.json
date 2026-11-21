@@ -8389,11 +8389,16 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed leads f3 team to gov games finals": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 6,
-  "remix_ranges": [],
+  "montage_used": 7,
+  "remix_ranges": [
+   [
+    50.73435098048448,
+    53.19136226344722
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 2,
   "shot_ranges": [
@@ -9909,7 +9914,7 @@
  "hamdan bin mohammed offers condolences to al falahi family": {
   "last_short": "2026-11-23",
   "long": "2026-10-16",
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     40.36954099792474,
@@ -9922,6 +9927,10 @@
    [
     13.721962678723182,
     15.321413200170408
+   ],
+   [
+    57.60471872110453,
+    59.90891219972171
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10142,11 +10151,15 @@
   "last_short": "2026-11-23",
   "long": "2026-10-16",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     54.56280225539918,
     57.11894544130094
+   ],
+   [
+    109.30716394996708,
+    111.66445867131445
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10308,12 +10321,16 @@
  },
  "hamdan bin mohammed opens cityscape global 2017": {
   "last_short": "2026-11-23",
-  "montage_used": 34,
+  "montage_used": 35,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
     188.56,
     190.44
+   ],
+   [
+    41.839999999999996,
+    43.92
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10584,11 +10601,15 @@
  "hamdan bin mohammed opens gitex tech week 2017": {
   "last_short": "2026-11-23",
   "long": "2026-10-14",
-  "montage_used": 29,
+  "montage_used": 30,
   "remix_ranges": [
    [
     332.64461795604365,
     334.7148975087575
+   ],
+   [
+    70.79273328407176,
+    72.93773854501555
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12509,11 +12530,16 @@
   "long": "2026-10-13"
  },
  "hamdan bin mohammed visit family who lost seven children in house fire": {
-  "last_short": "2026-11-13",
+  "last_short": "2026-11-23",
   "long": "2026-10-25",
   "montage_exhausted": true,
-  "montage_used": 5,
-  "remix_ranges": [],
+  "montage_used": 6,
+  "remix_ranges": [
+   [
+    46.85816298295142,
+    48.3809052774756
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [
@@ -12739,11 +12765,15 @@
   "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     140.89915446020242,
     142.41598264844242
+   ],
+   [
+    15.74783185894007,
+    17.423971823849058
    ]
   ],
   "remix_reset": "2026-11-20",

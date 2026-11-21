@@ -1196,7 +1196,7 @@
  "dubai crown prince visits dubai municipality": {
   "last_short": "2026-11-24",
   "long": "2026-11-02",
-  "montage_used": 41,
+  "montage_used": 42,
   "remix_ranges": [
    [
     321.72,
@@ -1289,6 +1289,10 @@
    [
     120.56,
     123.08
+   ],
+   [
+    160.76,
+    163.24
    ]
   ],
   "video_exhausted": true,
@@ -3480,6 +3484,7 @@
  "hamdan bin mohammed attends dubai police academy graduation ceremony": {
   "last_short": "2026-11-23",
   "long": "2026-10-30",
+  "montage_exhausted": true,
   "montage_used": 9,
   "remix_ranges": [
    [
@@ -8902,9 +8907,9 @@
   "video_len": 99
  },
  "hamdan bin mohammed meets students of dubai schools": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-17",
-  "montage_used": 35,
+  "montage_used": 36,
   "remix_ranges": [
    [
     202.24325973382153,
@@ -8985,6 +8990,10 @@
    [
     11.879999999999999,
     15.0
+   ],
+   [
+    267.84000000000003,
+    271.92
    ]
   ],
   "video_len": 371
@@ -10129,9 +10138,9 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed offers condolences to al falahi family": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-16",
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     40.36954099792474,
@@ -10184,6 +10193,10 @@
    [
     73.16000000000001,
     75.64
+   ],
+   [
+    62.839999999999996,
+    64.47999999999999
    ]
   ],
   "video_exhausted": true,
@@ -10564,7 +10577,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2017": {
   "last_short": "2026-11-24",
-  "montage_used": 36,
+  "montage_used": 37,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -10634,6 +10647,10 @@
    [
     74.68,
     77.52
+   ],
+   [
+    54.8,
+    57.64
    ]
   ],
   "video_exhausted": true,
@@ -13423,7 +13440,7 @@
  "hamdan bin mohammed visits dewa s moro": {
   "last_short": "2026-11-24",
   "long": "2026-11-01",
-  "montage_used": 34,
+  "montage_used": 35,
   "remix_ranges": [
    [
     85.28,
@@ -13504,6 +13521,10 @@
    [
     68.92,
     71.08
+   ],
+   [
+    94.84,
+    97.0
    ]
   ],
   "video_exhausted": true,

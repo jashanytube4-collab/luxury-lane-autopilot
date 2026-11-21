@@ -1,0 +1,176 @@
+{
+ "date": "2026-11-24",
+ "slots": [
+  {
+   "at": "2026-11-24T06:11:32+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-24T06:55:56+04:00",
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Strength, humility and elegance in one man. 👑 #youtubeshorts #youtube",
+   "type": "short",
+   "video_id": "A7b6taHVw7M",
+   "voiced": true
+  },
+  {
+   "at": "2026-11-24T07:48:37+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-24T08:42:39+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-24T09:31:20+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-24T10:14:03+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-24T11:02:07+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-24T11:55:39+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-24T12:35:28+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-24T13:26:05+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-24T14:05:24+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-24T14:47:16+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-24T15:31:03+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-24T16:18:12+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-24T17:10:56+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-24T17:51:31+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-24T18:36:58+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-24T19:20:28+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-24T19:46:19+04:00",
+   "status": "open",
+   "type": "long"
+  },
+  {
+   "at": "2026-11-24T20:10:48+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-24T20:59:03+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-24T21:00:00+04:00",
+   "status": "open",
+   "type": "members"
+  },
+  {
+   "at": "2026-11-24T21:51:56+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-24T22:43:38+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-24T23:33:54+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-25T00:27:31+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-25T01:12:30+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-25T01:54:17+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-25T02:47:12+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-25T03:32:59+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-25T04:11:28+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-25T04:57:20+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-25T05:41:31+04:00",
+   "status": "open",
+   "type": "short"
+  }
+ ],
+ "timezone": "Asia/Dubai"
+}

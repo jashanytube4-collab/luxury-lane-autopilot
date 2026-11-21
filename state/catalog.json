@@ -1186,9 +1186,9 @@
   "video_len": 78
  },
  "dubai crown prince visits dubai municipality": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-11-02",
-  "montage_used": 39,
+  "montage_used": 40,
   "remix_ranges": [
    [
     321.72,
@@ -1221,6 +1221,10 @@
    [
     179.11634932070996,
     181.2304624027302
+   ],
+   [
+    241.0559122666963,
+    242.8430493875035
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2211,10 +2215,10 @@
   "long": "2026-10-21"
  },
  "hamdan bin mohammed and mohammed bin salman visit headquarters of expo 2020 dubai": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 21,
+  "montage_used": 22,
   "remix_ranges": [
    [
     101.08052694620307,
@@ -2247,6 +2251,10 @@
    [
     292.9878394785234,
     295.43375579343274
+   ],
+   [
+    298.53914625445975,
+    299.18386693055584
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6223,10 +6231,10 @@
   "video_len": 73
  },
  "hamdan bin mohammed extends condolences to families of pilots": {
-  "last_short": "2026-11-22",
+  "last_short": "2026-11-24",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     58.30116845702413,
@@ -6247,6 +6255,10 @@
    [
     44.078715100536485,
     46.120697618610414
+   ],
+   [
+    107.61003505529858,
+    109.31007234298184
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8106,14 +8118,18 @@
   "video_len": 73
  },
  "hamdan bin mohammed launches middle east s first of its kind drone delivery system at dubai silicon oasis": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     11.148252215522165,
     13.006884742898606
+   ],
+   [
+    51.75333333333333,
+    53.88
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8421,14 +8437,18 @@
   "video_len": 101
  },
  "hamdan bin mohammed launches world s largest arabic audio library": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-24",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     92.88000000000001,
     94.64
+   ],
+   [
+    110.7325634243377,
+    113.0700835863296
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11590,13 +11610,17 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed reviews dubai future foundation s 2018 plan and projects": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-30",
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     40.994186600963694,
     42.697270016016624
+   ],
+   [
+    133.9974792218585,
+    136.0566619172633
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11647,6 +11671,7 @@
   "last_short": "2026-11-23",
   "montage_exhausted": true,
   "montage_used": 8,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     79.29802385146678,
@@ -12235,10 +12260,10 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed tours bustanica the world s largest vertical farm in dubai": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     137.733928641976,
@@ -12251,6 +12276,10 @@
    [
     48.639164661814846,
     50.51033730993644
+   ],
+   [
+    15.448435260431156,
+    17.73840818357953
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12379,10 +12408,15 @@
   "video_len": 75
  },
  "hamdan bin mohammed tours gitex global 2022 on its concluding day": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-24",
   "montage_exhausted": true,
-  "montage_used": 7,
-  "remix_ranges": [],
+  "montage_used": 8,
+  "remix_ranges": [
+   [
+    90.4439944497751,
+    92.0887569179768
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [

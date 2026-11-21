@@ -4160,11 +4160,15 @@
  "hamdan bin mohammed attends hct graduation": {
   "last_short": "2026-11-23",
   "long": "2026-10-31",
-  "montage_used": 38,
+  "montage_used": 39,
   "remix_ranges": [
    [
     219.49568300016466,
     220.90323792315945
+   ],
+   [
+    169.59670139889403,
+    171.76046698551136
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6830,7 +6834,7 @@
   "last_short": "2026-11-23",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 34,
+  "montage_used": 35,
   "remix_ranges": [
    [
     154.96962970092923,
@@ -6879,6 +6883,10 @@
    [
     210.4628738997746,
     212.0970332861776
+   ],
+   [
+    239.66298093695337,
+    241.83982865046448
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8063,11 +8071,16 @@
   "video_len": 73
  },
  "hamdan bin mohammed launches middle east s first of its kind drone delivery system at dubai silicon oasis": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 3,
-  "remix_ranges": [],
+  "montage_used": 4,
+  "remix_ranges": [
+   [
+    11.148252215522165,
+    13.006884742898606
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -9795,11 +9808,15 @@
  "hamdan bin mohammed names mansour bin mohammed as chairman of shabab al ahli s football club company": {
   "last_short": "2026-11-23",
   "montage_exhausted": true,
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     17.936387894508506,
     20.085223617912824
+   ],
+   [
+    10.882907080317697,
+    12.650948536161348
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12059,7 +12076,7 @@
   "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     137.733928641976,
@@ -12068,6 +12085,10 @@
    [
     44.10833176400888,
     45.709039886525275
+   ],
+   [
+    48.639164661814846,
+    50.51033730993644
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12170,11 +12191,15 @@
   "last_short": "2026-11-23",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     28.17750851335637,
     30.040557377040347
+   ],
+   [
+    23.353333333333335,
+    25.346666666666664
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13400,7 +13425,7 @@
  "hamdan bin mohammed visits dubai chamber of commerce and industry": {
   "last_short": "2026-11-23",
   "montage_exhausted": true,
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     1.5047652305267265,
@@ -13413,6 +13438,10 @@
    [
     7.04,
     8.72
+   ],
+   [
+    65.24811405713277,
+    66.61632079232933
    ]
   ],
   "remix_reset": "2026-11-20",

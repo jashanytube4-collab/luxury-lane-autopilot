@@ -6348,6 +6348,7 @@
   "long": "2026-10-14",
   "montage_exhausted": true,
   "montage_used": 20,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     58.30116845702413,
@@ -7677,7 +7678,7 @@
  },
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
   "last_short": "2026-11-24",
-  "montage_used": 39,
+  "montage_used": 40,
   "remix_ranges": [
    [
     86.51501862110607,
@@ -7738,6 +7739,10 @@
    [
     115.36,
     117.19999999999999
+   ],
+   [
+    185.3348876483757,
+    187.394258681459
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9655,6 +9660,7 @@
   "long": "2026-10-05",
   "montage_exhausted": true,
   "montage_used": 8,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     48.919999999999995,
@@ -11139,7 +11145,7 @@
  "hamdan bin mohammed opens gitex tech week 2017": {
   "last_short": "2026-11-24",
   "long": "2026-10-14",
-  "montage_used": 34,
+  "montage_used": 35,
   "remix_ranges": [
    [
     332.64461795604365,
@@ -11156,6 +11162,10 @@
    [
     469.69612307761173,
     471.5192355691761
+   ],
+   [
+    82.32725326442906,
+    84.2175405905932
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11499,6 +11509,7 @@
   "long": "2026-10-14",
   "montage_exhausted": true,
   "montage_used": 11,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     57.24011872282919,
@@ -12631,7 +12642,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     11.490406074718507,
@@ -12640,6 +12651,10 @@
    [
     61.8996594819046,
     64.36877010213149
+   ],
+   [
+    44.05727182794133,
+    45.70517090430028
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13190,7 +13205,7 @@
  "hamdan bin mohammed unveils 5 star plaque at sheikh zayed housing programme in dubai": {
   "last_short": "2026-11-24",
   "montage_exhausted": true,
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     104.84181508997926,
@@ -13199,6 +13214,10 @@
    [
     134.86322362661613,
     137.09545760395753
+   ],
+   [
+    128.5397832258712,
+    130.27981422685562
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13429,14 +13448,18 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed visits al dhafra air base in abu dhabi": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-20",
   "montage_exhausted": true,
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     16.153333333333336,
     17.779999999999998
+   ],
+   [
+    26.472831917774375,
+    28.908315771421023
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13759,7 +13782,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     30.26795915214033,
@@ -13772,6 +13795,10 @@
    [
     119.50373219765326,
     121.59138742826985
+   ],
+   [
+    153.907628609626,
+    155.63081649213132
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14164,7 +14191,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 25,
+  "montage_used": 26,
   "remix_ranges": [
    [
     184.4,
@@ -14189,6 +14216,10 @@
    [
     100.37490123411713,
     101.94478735234645
+   ],
+   [
+    5.963287713659245,
+    7.417027540916429
    ]
   ],
   "remix_reset": "2026-11-20",

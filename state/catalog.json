@@ -7942,7 +7942,7 @@
  "hamdan bin mohammed launches 26 dubai 10x projects issues directive to implement them within 24 months": {
   "last_short": "2026-11-24",
   "long": "2026-10-31",
-  "montage_used": 28,
+  "montage_used": 29,
   "remix_ranges": [
    [
     53.879999999999995,
@@ -7979,6 +7979,10 @@
    [
     113.56948142178652,
     115.64155603393468
+   ],
+   [
+    212.04,
+    214.24
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8380,7 +8384,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 25,
+  "montage_used": 26,
   "remix_ranges": [
    [
     87.58143717853224,
@@ -8393,6 +8397,10 @@
    [
     212.67856155593398,
     214.62881305828492
+   ],
+   [
+    250.24,
+    251.92
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8983,7 +8991,7 @@
  "hamdan bin mohammed meets promising leaders from various dubai government entities": {
   "last_short": "2026-11-24",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     22.972803243625428,
@@ -8996,6 +9004,10 @@
    [
     48.16,
     49.760000000000005
+   ],
+   [
+    55.58390627024161,
+    56.88449096985329
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9967,7 +9979,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-17",
   "montage_exhausted": true,
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     56.360072324467,
@@ -9976,6 +9988,10 @@
    [
     36.33415815941719,
     38.887293460470666
+   ],
+   [
+    26.32,
+    28.18
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10511,7 +10527,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     109.75884718947057,
@@ -10520,6 +10536,10 @@
    [
     87.11666443662338,
     89.55507297868488
+   ],
+   [
+    103.94725664742542,
+    105.58835722570495
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12616,7 +12636,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     137.733928641976,
@@ -12633,6 +12653,10 @@
    [
     15.448435260431156,
     17.73840818357953
+   ],
+   [
+    22.384881734376812,
+    24.970280979247043
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13498,7 +13522,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-13",
   "montage_exhausted": true,
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     97.26657852612965,
@@ -13511,6 +13535,10 @@
    [
     151.0820480558568,
     153.62947707329943
+   ],
+   [
+    246.1774037238312,
+    248.20031920106976
    ]
   ],
   "remix_reset": "2026-11-20",

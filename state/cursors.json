@@ -4,7 +4,7 @@
   "term:championship": "2026-11-03"
  },
  "ig_status": {
-  "date": "2026-11-20",
+  "date": "2026-11-21",
   "ok": true
  },
  "lines_used": {
@@ -1044,7 +1044,10 @@
   "ll21481dc7df",
   "ll364e5f3fc4",
   "ll5aac92e795",
-  "llbdf03bd807"
+  "llbdf03bd807",
+  "ll6d2d070f07",
+  "ll662d299a08",
+  "lld490062c14"
  ],
  "quotes": [
   {
@@ -1203,7 +1206,6 @@
   }
  ],
  "recent_hooks": [
-  "PURE CLASS | Leading from the front, always. 👑 #youtubeshorts #youtube #fazza",
   "STILL SO HUMBLE | He is proof that humility and greatness can live together. ✨ #youtubeshorts #ytshorts",
   "DUBAI'S FAVOURITE PRINCE | Loyalty, faith and vision. 👑 #youtubeshorts #youtube #fazza",
   "ALWAYS RESPECTFUL | A leader who never stops learning from life. 🤍 #youtubeshorts #youtube #fazza",
@@ -1262,10 +1264,10 @@
   "THE MAN BEHIND THE TITLE | He doesn't just inspire. He shows the way. ✨ #princehamdan #youtubeshorts #youtube",
   "SIMPLE. STRONG. FAZZA. | Dubai's pride, Hamdan's legacy. ✨ #princehamdan #youtubeshorts #youtube",
   "REAL MOMENTS. REAL FAZZA. | Hope wears a white kandura. #youtubeshorts #youtube",
-  "THE FUTURE RULER OF DUBAI | He makes kindness look powerful. 🤍 #youtubeshorts #youtube #fazza"
+  "THE FUTURE RULER OF DUBAI | He makes kindness look powerful. 🤍 #youtubeshorts #youtube #fazza",
+  "CROWN PRINCE ENERGY | The crown prince with the people's heart. #youtubeshorts #youtube"
  ],
  "recent_titles": [
-  "He never forgets where he comes from. 🤍 #princehamdan #youtubeshorts #youtube",
   "The world sees royalty; we see Fazza's heart. #youtubeshorts #ytshorts",
   "Royal by birth. Humble by choice. ❤️ #youtubeshorts #youtube",
   "Dubai grows, Hamdan inspires. ❤️ #princehamdan #youtubeshorts #youtube",
@@ -1564,12 +1566,13 @@
   "He doesn't just inspire. He shows the way. ✨ #princehamdan #youtubeshorts #youtube",
   "Dubai's pride, Hamdan's legacy. ✨ #princehamdan #youtubeshorts #youtube",
   "Hope wears a white kandura. #youtubeshorts #youtube",
-  "He makes kindness look powerful. 🤍 #youtubeshorts #youtube #fazza"
+  "He makes kindness look powerful. 🤍 #youtubeshorts #youtube #fazza",
+  "The crown prince with the people's heart. #youtubeshorts #youtube"
  ],
  "shorts_supply": {
-  "date": "2026-11-20",
-  "days": 3.3,
-  "events": 103
+  "date": "2026-11-21",
+  "days": 3.2,
+  "events": 100
  },
  "stories_done": [
   "flydubai-hero",

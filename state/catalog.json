@@ -9158,11 +9158,16 @@
   "video_len": 31
  },
  "hamdan bin mohammed meets with india s external affairs minister": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-11-23",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 1,
-  "remix_ranges": [],
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    29.76624027751384,
+    31.466544125930426
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -9518,6 +9523,7 @@
  "hamdan bin mohammed meets with the chief minister of kerala at the uae pavilion at expo 2020 dubai": {
   "last_short": "2026-10-11",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
@@ -9806,11 +9812,16 @@
   "long": "2026-10-28"
  },
  "hamdan bin mohammed offers condolences on death of moza bint ali al weri": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-23",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 10,
-  "remix_ranges": [],
+  "montage_used": 11,
+  "remix_ranges": [
+   [
+    73.66873288634743,
+    75.70127404358364
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -9859,7 +9870,7 @@
  "hamdan bin mohammed offers condolences to al falahi family": {
   "last_short": "2026-11-23",
   "long": "2026-10-16",
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     40.36954099792474,
@@ -9868,6 +9879,10 @@
    [
     49.77330746088433,
     51.2616042606131
+   ],
+   [
+    13.721962678723182,
+    15.321413200170408
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10636,7 +10651,7 @@
   "last_short": "2026-11-23",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 29,
+  "montage_used": 30,
   "remix_ranges": [
    [
     44.48273041474908,
@@ -10649,6 +10664,10 @@
    [
     166.71640540528304,
     168.94277226355624
+   ],
+   [
+    181.69320648457256,
+    183.51204733724674
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11019,11 +11038,16 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed receives mourners on death of mansour bin ahmed": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 20,
-  "remix_ranges": [],
+  "montage_used": 21,
+  "remix_ranges": [
+   [
+    298.95723771608766,
+    300.95265380348434
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 2,
   "shot_ranges": [
@@ -12238,10 +12262,15 @@
   "video_len": 214
  },
  "hamdan bin mohammed unveils 5 star plaque at dubai chamber of commerce and industry": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-23",
   "montage_exhausted": true,
-  "montage_used": 4,
-  "remix_ranges": [],
+  "montage_used": 5,
+  "remix_ranges": [
+   [
+    86.10332430465824,
+    87.8373114981511
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -12265,11 +12294,15 @@
   "last_short": "2026-11-23",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     74.62743576497552,
     76.94168138180069
+   ],
+   [
+    115.31056851753584,
+    117.40347255709234
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12590,6 +12623,7 @@
   "video_len": 172
  },
  "hamdan bin mohammed visits amazon s new corporate office in dubai": {
+  "fails": 1,
   "last_short": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -13087,8 +13121,13 @@
  "hamdan bin mohammed visits dubai airshow 2017": {
   "last_short": "2026-11-23",
   "long": "2026-11-02",
-  "montage_used": 21,
-  "remix_ranges": [],
+  "montage_used": 22,
+  "remix_ranges": [
+   [
+    152.68800146802988,
+    154.47083282346654
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shot_ranges": [
    [

@@ -1,0 +1,878 @@
+{
+"channel": "thelastclue",
+"slug": "capone-ledger",
+"title": "The Tax Agent Who Found A Forgotten Ledger: How One Notebook Took Down Al Capone",
+"thumb": {
+"strip": "CAPONE CASE FILE",
+"words": "ONE NOTEBOOK",
+"face_q": "Al Capone mugshot"
+},
+"sources": [
+"IRS.gov 'Historical Documents relating to Alphonse (Al) Capone, Chicago' incl. SA Frank Wilson summary report (21 Dec 1933): Hawthorne Smoke Shop ledger as evidence, 1924-26 profits, Shumway testimony",
+"Wikipedia 'Frank J. Wilson' / 'Al Capone': 1926 raid ledgers, handwriting comparison (deposit slips, voter registers, bail bonds), Shumway found in Miami at a dog track, Fred Ries, June 1931 indictment, plea deal rejected by Judge Wilkerson, jury swap, guilty 18 Oct 1931 on 5 counts, 11-year sentence, Atlanta 1932, Alcatraz 1934, released 1939, died Jan 1947 age 48; Wilson later Secret Service chief",
+"History.com 'Frank Wilson'; The Mob Museum 'Prohibition mob bosses tripped by tax laws' (US v. Sullivan 1927; Ralph Capone and Jake Guzik tax convictions 1930); Grant Thornton 'The accountant and Al Capone'",
+"Footage/photos: PD US-government photos (Capone 1931 mugshot, FBI/IRS/NARA), LoC Chicago Daily News photos (PD), Wikimedia Commons, archive.org Prelinger/US-gov Prohibition film. No clips from 'The Untouchables' films/TV.",
+"Hedged in script: storage-room discovery 'the story goes', Hoover question 'the story goes', income 'estimates', 'more than half a million' profits over 'about three years', Shumway at dog track 'accounts say', plea sentence 'about two and a half years'. No gore: 1929 massacre named only, no victim images (street photo only)."
+],
+"beats": [
+{
+"text": "Chicago, 1930. Late at night, a federal tax agent named Frank Wilson is digging through an old storage room.",
+"v": [
+{
+"t": "photo",
+"q": "Frank J. Wilson"
+},
+{
+"t": "big",
+"big": "CHICAGO",
+"small": "1930"
+}
+]
+},
+{
+"text": "He has spent months trying to prove one thing. That the most famous gangster in America has an income.",
+"v": [
+{
+"t": "photo",
+"q": "Al Capone mugshot 1931"
+},
+{
+"t": "card",
+"text": "PROVE ONE THING"
+}
+]
+},
+{
+"text": "It sounds easy. Everyone knows Al Capone is rich. But on paper, he owns almost nothing.",
+"v": [
+{
+"t": "photo",
+"q": "Al Capone"
+},
+{
+"t": "card",
+"text": "ON PAPER: NOTHING"
+}
+]
+},
+{
+"text": "No bank account in his name. No property. No signed cheques. Everything paid in cash, through other people.",
+"v": [
+{
+"t": "photo",
+"q": "1920s cash money"
+},
+{
+"t": "list",
+"title": "NO PAPER TRAIL",
+"lines": [
+"no bank account",
+"no property",
+"no cheques",
+"only cash"
+]
+}
+]
+},
+{
+"text": "Then, the story goes, Wilson finds a package of old files nobody had looked at in years.",
+"v": [
+{
+"t": "photo",
+"q": "old filing cabinet archive"
+},
+{
+"t": "card",
+"text": "A FORGOTTEN PACKAGE"
+}
+]
+},
+{
+"text": "Inside is a set of black ledgers. And in the columns of money, a name. Just two letters. Al.",
+"v": [
+{
+"t": "photo",
+"q": "1920s accounting ledger"
+},
+{
+"t": "card",
+"text": "'AL'"
+}
+]
+},
+{
+"text": "That notebook will do what bullets, raids and murder trials never could. It will put Al Capone in prison.",
+"v": [
+{
+"t": "photo",
+"q": "Al Capone mugshot 1931"
+},
+{
+"t": "card",
+"text": "THE LAST CLUE"
+}
+]
+},
+{
+"text": "To understand why a notebook mattered, you have to understand how untouchable Capone was.",
+"v": [
+{
+"t": "video",
+"q": "Chicago 1920s street film",
+"alt": "1920s American city street film"
+},
+{
+"t": "card",
+"text": "UNTOUCHABLE"
+}
+]
+},
+{
+"text": "Prohibition had made alcohol illegal across America in 1920. And illegal alcohol made gangs very, very rich.",
+"v": [
+{
+"t": "video",
+"q": "Prohibition raid 1920s",
+"alt": "Prohibition alcohol destroyed film"
+},
+{
+"t": "big",
+"big": "1920",
+"small": "Prohibition begins"
+}
+]
+},
+{
+"text": "By the late 1920s, Capone ran a huge network of breweries, speakeasies, gambling halls and protection rackets around Chicago.",
+"v": [
+{
+"t": "photo",
+"q": "speakeasy 1920s"
+},
+{
+"t": "list",
+"title": "THE OUTFIT",
+"lines": [
+"breweries",
+"speakeasies",
+"gambling",
+"protection"
+]
+}
+]
+},
+{
+"text": "Estimates of his income ran into the tens of millions of dollars a year. Nobody could prove a single cent.",
+"v": [
+{
+"t": "photo",
+"q": "Al Capone"
+},
+{
+"t": "big",
+"big": "$ MILLIONS",
+"small": "a year, estimated"
+}
+]
+},
+{
+"text": "Police were paid off. Witnesses vanished or forgot what they saw. Murder cases went nowhere.",
+"v": [
+{
+"t": "photo",
+"q": "Chicago police 1920s"
+},
+{
+"t": "card",
+"text": "NOBODY TALKS"
+}
+]
+},
+{
+"text": "In 1929, seven men were shot dead in a garage on Valentine's Day. The public blamed Capone, but he was never charged.",
+"v": [
+{
+"t": "photo",
+"q": "Chicago 1929 Lincoln Park North Clark Street"
+},
+{
+"t": "big",
+"big": "1929",
+"small": "never charged"
+}
+]
+},
+{
+"text": "By 1930, the Chicago Crime Commission had named him Public Enemy Number One. And Washington wanted him gone.",
+"v": [
+{
+"t": "photo",
+"q": "Chicago Crime Commission public enemy"
+},
+{
+"t": "card",
+"text": "PUBLIC ENEMY No. 1"
+}
+]
+},
+{
+"text": "President Herbert Hoover, the story goes, kept asking his Treasury Secretary the same question. Have you got that fellow Capone yet?",
+"v": [
+{
+"t": "photo",
+"q": "Herbert Hoover"
+},
+{
+"t": "photo",
+"q": "Andrew Mellon"
+},
+{
+"t": "card",
+"text": "'HAVE YOU GOT HIM YET?'"
+}
+]
+},
+{
+"text": "The answer came from a Supreme Court ruling most people have never heard of.",
+"v": [
+{
+"t": "photo",
+"q": "United States Supreme Court building"
+},
+{
+"t": "card",
+"text": "A QUIET RULING"
+}
+]
+},
+{
+"text": "In 1927, in a case about a bootlegger named Manley Sullivan, the court said income from crime is still income. And it can be taxed.",
+"v": [
+{
+"t": "photo",
+"q": "United States Supreme Court 1920s"
+},
+{
+"t": "big",
+"big": "1927",
+"small": "crime income is taxable"
+}
+]
+},
+{
+"text": "A bootlegger could not refuse to file a tax return just because the money was illegal.",
+"v": [
+{
+"t": "photo",
+"q": "1920s tax return form"
+},
+{
+"t": "card",
+"text": "NO EXCUSE"
+}
+]
+},
+{
+"text": "So the government changed its plan. Forget proving murder. Prove he earned money, and never paid tax on it.",
+"v": [
+{
+"t": "photo",
+"q": "Internal Revenue Service history"
+},
+{
+"t": "card",
+"text": "FOLLOW THE MONEY"
+}
+]
+},
+{
+"text": "The job went to a small team in the Treasury's Special Intelligence Unit, led by Elmer Irey.",
+"v": [
+{
+"t": "photo",
+"q": "Elmer Irey"
+},
+{
+"t": "big",
+"big": "SPECIAL INTELLIGENCE",
+"small": "US Treasury"
+}
+]
+},
+{
+"text": "They tried it first on the people around him. In 1930, Capone's brother Ralph was convicted of tax evasion. So was the gang's money man, Jake Guzik.",
+"v": [
+{
+"t": "photo",
+"q": "Ralph Capone"
+},
+{
+"t": "photo",
+"q": "Jake Guzik"
+},
+{
+"t": "card",
+"text": "TWO DOWN"
+}
+]
+},
+{
+"text": "Now they wanted the boss. And the agent on his trail was Frank Wilson.",
+"v": [
+{
+"t": "photo",
+"q": "Frank J. Wilson"
+},
+{
+"t": "card",
+"text": "THE ACCOUNTANT"
+}
+]
+},
+{
+"text": "Wilson was not a gunfighter. He was a careful, quiet investigator who read bank records the way detectives read crime scenes.",
+"v": [
+{
+"t": "photo",
+"q": "Frank J. Wilson"
+},
+{
+"t": "card",
+"text": "PAPER, NOT GUNS"
+}
+]
+},
+{
+"text": "He went through bank deposits, property records, phone bills and hotel bills, looking for any money with Capone's fingerprints on it.",
+"v": [
+{
+"t": "photo",
+"q": "1920s bank interior"
+},
+{
+"t": "list",
+"title": "THE SEARCH",
+"lines": [
+"bank deposits",
+"property records",
+"hotel bills",
+"phone bills"
+]
+}
+]
+},
+{
+"text": "He found spending. Expensive suits, fine furniture, a mansion in Florida. But the money was always in someone else's name.",
+"v": [
+{
+"t": "photo",
+"q": "Capone Palm Island house Miami"
+},
+{
+"t": "card",
+"text": "ALWAYS SOMEONE ELSE"
+}
+]
+},
+{
+"text": "Months went by. Some in Washington began to think the case could never be made.",
+"v": [
+{
+"t": "photo",
+"q": "Chicago Federal Building"
+},
+{
+"t": "card",
+"text": "DEAD END?"
+}
+]
+},
+{
+"text": "Then came that night in the storage room.",
+"v": [
+{
+"t": "photo",
+"q": "old filing cabinet archive"
+},
+{
+"t": "card",
+"text": "THAT NIGHT"
+}
+]
+},
+{
+"text": "The ledgers had been seized years earlier, in a 1926 raid on a gambling house in Cicero called the Hawthorne Smoke Shop.",
+"v": [
+{
+"t": "photo",
+"q": "Cicero Illinois 1920s"
+},
+{
+"t": "big",
+"big": "1926",
+"small": "Hawthorne Smoke Shop"
+}
+]
+},
+{
+"text": "It was one of the gang's biggest casinos. After the raid, the books were simply filed away.",
+"v": [
+{
+"t": "video",
+"q": "Prohibition raid 1920s",
+"alt": "1920s police raid film"
+},
+{
+"t": "card",
+"text": "FILED AND FORGOTTEN"
+}
+]
+},
+{
+"text": "Wilson saw what nobody else had seen. Page after page of daily profits, most of it written in one neat hand.",
+"v": [
+{
+"t": "photo",
+"q": "1920s accounting ledger"
+},
+{
+"t": "card",
+"text": "ONE HANDWRITING"
+}
+]
+},
+{
+"text": "Over about three years, the books showed profits of more than half a million dollars, and money being split between partners, including someone called Al.",
+"v": [
+{
+"t": "photo",
+"q": "1920s accounting ledger"
+},
+{
+"t": "big",
+"big": "$500,000+",
+"small": "profits in the books"
+}
+]
+},
+{
+"text": "But a notebook proves nothing on its own. A jury would ask one question. Who wrote it?",
+"v": [
+{
+"t": "photo",
+"q": "Chicago Federal Building"
+},
+{
+"t": "card",
+"text": "WHO WROTE IT?"
+}
+]
+},
+{
+"text": "So Wilson did something painstaking. He started collecting handwriting.",
+"v": [
+{
+"t": "photo",
+"q": "handwriting sample 1920s"
+},
+{
+"t": "card",
+"text": "COLLECT HANDWRITING"
+}
+]
+},
+{
+"text": "Bank deposit slips. Voter registration cards. Bail bond papers. Anything a Capone man might have signed.",
+"v": [
+{
+"t": "photo",
+"q": "1920s bank deposit slip"
+},
+{
+"t": "list",
+"title": "SAMPLES",
+"lines": [
+"deposit slips",
+"voter cards",
+"bail bonds"
+]
+}
+]
+},
+{
+"text": "For weeks, he compared letters and loops, page by page, against the writing in the ledger.",
+"v": [
+{
+"t": "photo",
+"q": "magnifying glass handwriting"
+},
+{
+"t": "card",
+"text": "LETTER BY LETTER"
+}
+]
+},
+{
+"text": "Then he found a match. A deposit slip written by a man named Leslie Shumway.",
+"v": [
+{
+"t": "photo",
+"q": "1920s bank deposit slip"
+},
+{
+"t": "card",
+"text": "A MATCH"
+}
+]
+},
+{
+"text": "Shumway had worked as a bookkeeper at the Hawthorne Smoke Shop. And he had left Chicago.",
+"v": [
+{
+"t": "photo",
+"q": "Cicero Illinois 1920s"
+},
+{
+"t": "card",
+"text": "THE BOOKKEEPER"
+}
+]
+},
+{
+"text": "Agents tracked him to Miami, where, accounts say, he was working at a dog track.",
+"v": [
+{
+"t": "photo",
+"q": "Miami 1930"
+},
+{
+"t": "big",
+"big": "MIAMI",
+"small": "the bookkeeper found"
+}
+]
+},
+{
+"text": "Shumway was terrified. Testifying against Capone could get him killed. But the choice was simple. Help the government, or face charges himself.",
+"v": [
+{
+"t": "photo",
+"q": "1930s courtroom witness"
+},
+{
+"t": "card",
+"text": "TALK OR BE CHARGED"
+}
+]
+},
+{
+"text": "He agreed to testify. The government kept him hidden and guarded until the trial.",
+"v": [
+{
+"t": "photo",
+"q": "Frank J. Wilson"
+},
+{
+"t": "card",
+"text": "THE WITNESS"
+}
+]
+},
+{
+"text": "A second cashier, Fred Ries, was also found and pressured into talking about where the money went.",
+"v": [
+{
+"t": "photo",
+"q": "1930s Illinois jail"
+},
+{
+"t": "card",
+"text": "A SECOND VOICE"
+}
+]
+},
+{
+"text": "In June 1931, a federal grand jury indicted Al Capone for income tax evasion.",
+"v": [
+{
+"t": "photo",
+"q": "Al Capone mugshot 1931"
+},
+{
+"t": "big",
+"big": "JUNE 1931",
+"small": "indicted"
+}
+]
+},
+{
+"text": "Capone's lawyers made a deal. He would plead guilty, and in return he expected a light sentence, about two and a half years.",
+"v": [
+{
+"t": "photo",
+"q": "Al Capone"
+},
+{
+"t": "card",
+"text": "THE DEAL"
+}
+]
+},
+{
+"text": "But Judge James Wilkerson refused to be bound by it. Capone withdrew his plea. Now there would be a trial.",
+"v": [
+{
+"t": "photo",
+"q": "Judge James H. Wilkerson"
+},
+{
+"t": "card",
+"text": "NO DEAL"
+}
+]
+},
+{
+"text": "On the first day, in October 1931, there was one more surprise. The judge swapped the entire jury with the panel from another courtroom.",
+"v": [
+{
+"t": "photo",
+"q": "Chicago Federal Building"
+},
+{
+"t": "big",
+"big": "OCTOBER 1931",
+"small": "the jury switch"
+}
+]
+},
+{
+"text": "He had been warned that Capone's men might have reached the original jurors. With the switch, any bribes were wasted.",
+"v": [
+{
+"t": "photo",
+"q": "1930s jury box"
+},
+{
+"t": "card",
+"text": "THE SWITCH"
+}
+]
+},
+{
+"text": "In court, Shumway took the stand and explained the books, line by line.",
+"v": [
+{
+"t": "photo",
+"q": "1920s accounting ledger"
+},
+{
+"t": "card",
+"text": "LINE BY LINE"
+}
+]
+},
+{
+"text": "The defence argued Capone was a gambler who lost as much as he won. The jury did not buy it.",
+"v": [
+{
+"t": "photo",
+"q": "Al Capone"
+},
+{
+"t": "card",
+"text": "'HE LOST IT ALL'"
+}
+]
+},
+{
+"text": "On the eighteenth of October, 1931, the verdict came in. Guilty on five counts of tax crimes.",
+"v": [
+{
+"t": "photo",
+"q": "1931 newspaper Capone guilty"
+},
+{
+"t": "big",
+"big": "GUILTY",
+"small": "five counts"
+}
+]
+},
+{
+"text": "The sentence was eleven years, one of the longest ever given for tax crimes at the time, plus heavy fines and costs.",
+"v": [
+{
+"t": "photo",
+"q": "Al Capone mugshot 1931"
+},
+{
+"t": "big",
+"big": "11 YEARS",
+"small": "for taxes"
+}
+]
+},
+{
+"text": "Now here is the part most people get wrong. Ask who took down Al Capone, and most people will say Eliot Ness.",
+"v": [
+{
+"t": "photo",
+"q": "Eliot Ness"
+},
+{
+"t": "card",
+"text": "ELIOT NESS?"
+}
+]
+},
+{
+"text": "Ness and his team, the Untouchables, were real. They raided breweries and cost the gang a fortune.",
+"v": [
+{
+"t": "video",
+"q": "Prohibition raid 1920s",
+"alt": "Prohibition brewery raid film"
+},
+{
+"t": "card",
+"text": "THE UNTOUCHABLES"
+}
+]
+},
+{
+"text": "But the Prohibition charges built from that work were never tried. It was the tax case that sent Capone to prison.",
+"v": [
+{
+"t": "photo",
+"q": "Chicago Federal Building"
+},
+{
+"t": "card",
+"text": "NEVER TRIED"
+}
+]
+},
+{
+"text": "The man who really caught Capone was a quiet accountant with a ledger, a pile of deposit slips and a lot of patience.",
+"v": [
+{
+"t": "photo",
+"q": "Frank J. Wilson"
+},
+{
+"t": "card",
+"text": "THE REAL HERO"
+}
+]
+},
+{
+"text": "Capone went to the federal prison in Atlanta in 1932. In 1934 he was moved to the new island prison of Alcatraz.",
+"v": [
+{
+"t": "photo",
+"q": "Alcatraz Island"
+},
+{
+"t": "big",
+"big": "ALCATRAZ",
+"small": "1934"
+}
+]
+},
+{
+"text": "There, the most powerful man in Chicago was just another prisoner. His empire moved on without him.",
+"v": [
+{
+"t": "video",
+"q": "Alcatraz island film",
+"alt": "San Francisco bay film"
+},
+{
+"t": "card",
+"text": "JUST A PRISONER"
+}
+]
+},
+{
+"text": "Already ill with a disease he had caught years earlier, he was released in 1939, his mind failing.",
+"v": [
+{
+"t": "photo",
+"q": "Alcatraz cell house"
+},
+{
+"t": "big",
+"big": "1939",
+"small": "released"
+}
+]
+},
+{
+"text": "He died at his Florida home in January 1947. He was forty-eight.",
+"v": [
+{
+"t": "photo",
+"q": "Capone Palm Island house Miami"
+},
+{
+"t": "big",
+"big": "1947",
+"small": "age 48"
+}
+]
+},
+{
+"text": "Frank Wilson went on to become chief of the US Secret Service.",
+"v": [
+{
+"t": "photo",
+"q": "Frank J. Wilson"
+},
+{
+"t": "card",
+"text": "SECRET SERVICE CHIEF"
+}
+]
+},
+{
+"text": "And his method became a rule that still catches criminals today. When you cannot prove the crime, follow the money.",
+"v": [
+{
+"t": "photo",
+"q": "Internal Revenue Service history"
+},
+{
+"t": "card",
+"text": "FOLLOW THE MONEY"
+}
+]
+},
+{
+"text": "Capone survived gunfights, raids and murder investigations. What he could not survive was his own bookkeeping.",
+"v": [
+{
+"t": "photo",
+"q": "1920s accounting ledger"
+},
+{
+"t": "card",
+"text": "THE LAST CLUE"
+}
+]
+},
+{
+"text": "If you like cases cracked by one tiny detail, subscribe. Next time, the wooden ladder that solved the Lindbergh kidnapping.",
+"v": [
+{
+"t": "video",
+"q": "Chicago 1920s street film",
+"alt": "1930s American city film"
+},
+{
+"t": "card",
+"text": "SUBSCRIBE"
+}
+]
+}
+]
+}

@@ -1,0 +1,124 @@
+# Empire Chronicle - 12 topics (2026-11-21). Formula: 'The True Story Behind <film/series>' / 'What Really Happened At <event>'. Film names in titles only; NO film clips/stills/posters.
+channel: empirechronicle
+topics:
+  - id: niland-private-ryan
+    title: "The True Story Behind Saving Private Ryan: The Niland Brothers"
+    angle: "Four brothers served in WWII; the army believed three had died by D-Day.\nHow Fritz Niland was pulled from the line, and what really happened to his brothers."
+    why_viral: "Film-name search demand; D-Day footage is free."
+    sources: ["US Army/NARA Niland records", "Stephen Ambrose D-Day (leads)", "US Army Center of Military History"]
+    footage_check: "EXCELLENT. US Coast Guard/Army D-Day footage (PD) on archive.org/NARA, Wikimedia."
+  - id: great-escape-stalag-luft-iii
+    title: "The True Story Behind The Great Escape"
+    angle: "In March 1944, 76 Allied airmen escaped Stalag Luft III through a tunnel named Harry.\nOnly three reached safety; 50 were executed after capture."
+    why_viral: "Classic film search; real story differs."
+    sources: ["UK National Archives escape files", "Imperial War Museum (non-commercial; credit)", "Wikimedia"]
+    footage_check: "MEDIUM-GOOD. NARA/USAAF PD POW camp photos and film, Wikimedia, Pexels pine-forest footage. Avoid IWM film."
+  - id: midway-what-really-happened
+    title: "What Really Happened At Midway: The Battle That Changed The Pacific War"
+    angle: "Code-breakers learned 'AF' meant Midway; carriers and dive-bombers did the rest.\nJohn Ford's own 16mm camera recorded real attacks."
+    why_viral: "Big film demand; footage is the real 1942 film."
+    sources: ["US Navy Combat Narrative: Midway", "Naval History and Heritage Command", "Japanese record Senshi Sosho"]
+    footage_check: "EXCELLENT. John Ford's The Battle of Midway (1942, US Navy, PD on archive.org), NHHC photos."
+  - id: commodus-gladiator
+    title: "The True Story Behind Gladiator: Commodus And The Fall Of Marcus Aurelius' Empire"
+    angle: "Commodus fought in the arena; he was not killed there.\nWhat Cassius Dio and the Historia Augusta actually say."
+    why_viral: "Film search plus Roman history."
+    sources: ["Cassius Dio (Loeb PD translation)", "Herodian", "Historia Augusta"]
+    footage_check: "GOOD. Wikimedia busts, coins, mosaics, Colosseum Pexels/Pixabay footage, PD paintings."
+  - id: napoleon-josephine
+    title: "The True Story Behind Napoleon: Josephine, Waterloo And Saint Helena"
+    angle: "The film compresses 25 years; many scenes never happened.\nWhat Napoleon's own letters say about Josephine."
+    why_viral: "Film-triggered traffic; huge evergreen."
+    sources: ["Correspondance de Napoleon (PD)", "French National Archives", "Wellington despatches (PD)"]
+    footage_check: "GOOD. PD paintings (Louvre/Wikimedia), maps, Pexels Paris/Waterloo stock."
+  - id: romanovs-1918
+    title: "What Really Happened To The Romanov Family: The Last Tsar's Final Months"
+    angle: "From the 1917 abdication to the 1918 Yekaterinburg cellar; what the records show.\nDNA and the 1991 grave solved the question."
+    why_viral: "Anastasia myth; film-recognition."
+    sources: ["Sokolov investigation (PD)", "2007-2009 DNA studies", "Wikimedia/Commons tsar archive"]
+    footage_check: "GOOD. 1913 Romanov Tercentenary and 1910s Russian footage on archive.org/Wikimedia (PD), Wikimedia photos. No grave imagery."
+  - id: cuban-missile-crisis
+    title: "The True Story Behind Thirteen Days: What Really Happened In The Cuban Missile Crisis"
+    angle: "Kennedy's secret recordings show who wanted war and who wanted a trade.\nThe Jupiter missiles in Turkey deal stayed secret for decades."
+    why_viral: "Film search, new revelations, JFK library recordings."
+    sources: ["JFK Presidential Library recordings (PD)", "National Security Archive", "Kennedy-Khrushchev letters"]
+    footage_check: "EXCELLENT. US Navy/Air Force film (PD), JFK Library, NARA U-2 photos, archive.org."
+  - id: battle-of-atlantic-uboat
+    title: "The True Story Behind Das Boot: What U-Boat Life Was Really Like"
+    angle: "Four in five U-boat men did not return; the 1943 crisis flipped the war.\nHow Allied codebreaking and escorts won."
+    why_viral: "Film search plus naval fascination."
+    sources: ["US Navy NHHC", "uboat.net casualty database", "Admiral Doenitz war diary (NARA)"]
+    footage_check: "GOOD. US Navy/Coast Guard Atlantic film (PD), NHHC photos, Wikimedia, Pexels sea footage."
+  - id: bastogne-nuts
+    title: "What Really Happened At Bastogne: 'Nuts!' And The Siege Of The 101st"
+    angle: "Surrounded in December 1944, the 101st Airborne held a crossroads.\nWhat McAuliffe actually replied and how the 4th Armored broke through."
+    why_viral: "Band of Brothers demand."
+    sources: ["US Army Center of Military History: The Ardennes", "101st Airborne records (NARA)", "McAuliffe reply documented at the time"]
+    footage_check: "EXCELLENT. US Army Signal Corps winter footage (PD) on archive.org/NARA."
+  - id: iwo-jima-flag-raising
+    title: "The True Story Behind Flags Of Our Fathers: The Two Flags Of Iwo Jima"
+    angle: "Two flags went up on Suribachi on the same day.\nHow a photo became propaganda and changed the men's lives."
+    why_viral: "Film search, myth-vs-reality."
+    sources: ["USMC history division", "NARA Marine Corps film", "National Archives photo records"]
+    footage_check: "GOOD. USMC film of the first flag by Lou Lowery (PD). WARNING: Rosenthal photo is AP copyrighted - do not use; use USMC/NARA only."
+  - id: bounty-bligh
+    title: "The True Story Behind Mutiny On The Bounty: Was Bligh Really A Tyrant?"
+    angle: "The crew mutinied in 1789; Bligh sailed 3,600 miles in an open boat.\nThe myth: monster. The records: complicated."
+    why_viral: "Classic film search plus survival story."
+    sources: ["Bligh's log (NLA/Wikimedia)", "Court-martial record 1792", "Fletcher Christian studies"]
+    footage_check: "MEDIUM-GOOD. PD paintings (Cleveley, Dodd), Wikimedia maps, Pexels ocean/island footage."
+  - id: rorkes-drift
+    title: "The True Story Behind Zulu: The Real Defence Of Rorke's Drift"
+    angle: "About 150 British soldiers faced thousands of Zulu warriors in 1879.\nWhat the Victoria Cross citations and Zulu accounts say."
+    why_viral: "Zulu film demand."
+    sources: ["London Gazette VC citations (PD)", "Zulu War records", "Wikimedia/Commons"]
+    footage_check: "MEDIUM. PD Victorian photographs and paintings, Wikimedia maps, Pexels African landscape stock. No film clips."
+  # --- top-up to 20 (2026-11-21 keepbusy). Only events with US-gov / Crown-expired PD FILM. Web-verify numbers before scripting.
+  - id: pearl-harbor-tora
+    title: "The True Story Behind Tora! Tora! Tora!: The Warnings Before Pearl Harbor"
+    angle: "A radar station on Oahu saw the incoming planes almost an hour early and was told not to worry.\nThe missed warnings, the attack on 7 December 1941, and what the inquiries found."
+    why_viral: "Evergreen, huge search; 'what the film got right' angle."
+    sources: ["US Navy History and Heritage Command", "Congressional Pearl Harbor inquiry 1946 (PD)", "NARA"]
+    footage_check: "GOOD. US Navy/NARA PD film and photos, PD maps."
+  - id: d-day-omaha-longest-day
+    title: "The True Story Behind The Longest Day: What Really Happened On Omaha Beach"
+    angle: "The bombing missed, most of the swimming tanks sank, and the first waves were pinned down.\nHow small groups climbed the bluffs by midday on 6 June 1944."
+    why_viral: "D-Day evergreen; film vs history."
+    sources: ["US Army Center of Military History 'Omaha Beachhead' (PD)", "NARA", "Eisenhower Library"]
+    footage_check: "GOOD. US Army Signal Corps/Coast Guard PD film, NARA photos (skip Capa photos - not PD)."
+  - id: patton-slap
+    title: "The True Story Behind Patton: The Slaps That Nearly Ended His War"
+    angle: "In August 1943 in Sicily Patton struck two soldiers in hospital tents.\nEisenhower kept him but benched him - then used him as the face of a fake army before D-Day."
+    why_viral: "Oscar film; scandal + decoy twist (Operation Fortitude)."
+    sources: ["US Army CMH Sicily volume (PD)", "Eisenhower papers", "NARA"]
+    footage_check: "GOOD. Signal Corps PD film of Patton and Sicily, NARA photos, PD maps."
+  - id: apollo-13-real
+    title: "The True Story Behind Apollo 13: What Really Happened In Those 87 Hours"
+    angle: "An oxygen tank blew about 56 hours into the flight on 13 April 1970.\nThe lifeboat lander, the CO2 filter fix, and the review board's real cause."
+    why_viral: "Huge film audience; NASA footage is abundant and PD. Verify mission duration wording."
+    sources: ["NASA Apollo 13 Review Board report (PD)", "NASA History Office", "Mission transcripts"]
+    footage_check: "GOOD. NASA PD film, audio, photos."
+  - id: hacksaw-ridge-doss
+    title: "The True Story Behind Hacksaw Ridge: The Medic Who Refused To Carry A Rifle"
+    angle: "Desmond Doss lowered wounded men off the Maeda Escarpment on Okinawa in May 1945.\nWhat his Medal of Honor citation says versus the film."
+    why_viral: "Popular film, inspiring true story; family-safe."
+    sources: ["Medal of Honor citation (PD)", "US Army CMH 'Okinawa: The Last Battle' (PD)", "NARA"]
+    footage_check: "GOOD. US Army/USMC PD Okinawa film, Truman MoH ceremony photo (PD), PD maps."
+  - id: market-garden-bridge
+    title: "The True Story Behind A Bridge Too Far: Why Operation Market Garden Failed"
+    angle: "The biggest airborne drop in history in September 1944 aimed to end the war by Christmas.\nOne road, one bridge at Arnhem, and the warnings that were ignored."
+    why_viral: "Film + Band of Brothers audience; clear 'why it failed' payoff."
+    sources: ["US Army CMH 'The Siegfried Line Campaign' (PD)", "NARA", "IWM (Crown copyright expired items only)"]
+    footage_check: "GOOD. Signal Corps PD airborne-drop film, NARA photos, PD maps."
+  - id: memphis-belle-25
+    title: "The True Story Behind Memphis Belle: The Bomber Crew That Had To Survive 25 Missions"
+    angle: "In 1943 many bomber crews over Europe did not survive a full tour.\nThe Belle's crew was filmed by William Wyler for the Army - the real footage behind the film."
+    why_viral: "Film + real 1944 documentary footage most viewers never saw."
+    sources: ["Wyler 'The Memphis Belle' 1944 (US gov, PD)", "National Museum of the US Air Force", "NARA"]
+    footage_check: "GOOD. The 1944 PD documentary itself + USAAF PD film and photos."
+  - id: dunkirk-dynamo
+    title: "The True Story Behind Dunkirk: How 338,000 Soldiers Got Off The Beaches"
+    angle: "In late May 1940 the British Army was trapped and planners hoped to save about 45,000.\nNine days of Operation Dynamo, the little ships, and the halt order that is still debated."
+    why_viral: "Nolan film audience; 'miracle' number hook. Verify the evacuation total."
+    sources: ["UK National Archives Operation Dynamo files", "Admiralty report (Crown copyright expired)", "US Army CMH summaries"]
+    footage_check: "MEDIUM. IWM/Ministry of Information film made before 1970 = Crown copyright expired (check each item's licence page); NO British Pathe; PD maps."

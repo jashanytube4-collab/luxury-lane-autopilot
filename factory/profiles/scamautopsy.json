@@ -7,11 +7,27 @@
  "engine": "docu",
  "voice": "en-US-EricNeural",
  "rate": "-2%",
- "pitch": "+0Hz",
+ "pitch": "-2Hz",
  "structure": [
-  "how it worked step by step",
-  "who fell for it"
+  "hook: present-tense scene with place/time/numbers, spark by sentence 6",
+  "how it worked step by step with timestamps",
+  "autopsy card with the red flag every 90-120 s",
+  "who fell for it (no faces)",
+  "what the victims missed + one quiet closing line"
  ],
  "cadence_per_week": 2,
- "kind": "new"
+ "kind": "new",
+ "pace_max": 4.5,
+ "accent": "#c8102e",
+ "grade": "eq=contrast=1.1:saturation=0.82:gamma_r=1.02,vignette=PI/4.2",
+ "music": [
+  "Hiding Your Reality",
+  "The Complex",
+  "Eternity"
+ ],
+ "title_formula": "How <scam> Took $<N> From <N> People | The <N>-Step Con Behind <event> | Why Nobody Stopped <Ponzi>",
+ "thumb": {
+  "strip": "AUTOPSY",
+  "style": "grainy real-footage frame or PD portrait, 1-2 giant condensed red/white words, logo bottom-left, no borders, no victim faces"
+ }
 }

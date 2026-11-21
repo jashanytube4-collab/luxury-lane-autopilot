@@ -1,0 +1,124 @@
+# Manhunt Files - 12 topics (2026-11-21). Formula: 'How The FBI Finally Caught <name>' / 'The <N>-Day Manhunt For <...>'. Ad-safe, no gore, DAY counter thumbs. FBI/DoD/NARA = US gov PD.
+channel: manhuntfiles
+topics:
+  - id: rudolph-5-years-appalachia
+    title: "The 5-Year Manhunt For The Olympic Park Bomber: How A Dumpster Behind A Grocery Store Ended It"
+    angle: "Eric Rudolph vanished into the North Carolina mountains in 1998 with hundreds of agents searching.\nA young Murphy, NC officer found him behind a Save-A-Lot in 2003."
+    why_viral: "Huge search story with an ironic ending."
+    sources: ["FBI.gov Ten Most Wanted history #454", "Rudolph plea agreement 2005", "UPI/ABC 31 May 2003 (reports differ on timing and who first suspected; say so)"]
+    footage_check: "GOOD. FBI photos/video (PD), Pexels Appalachian forest footage, Wikimedia, FBI wanted posters."
+  - id: bulger-iceland-ad
+    title: "How The FBI Hunted A Mob Boss For 16 Years With A TV Ad Aimed At His Girlfriend"
+    angle: "Whitey Bulger fled Boston in 1994 and became a top-ten fugitive.\nThe FBI shifted to a campaign about Catherine Greig; a tip from Iceland led to Santa Monica."
+    why_viral: "Strange strategy, huge name."
+    sources: ["FBI.gov Bulger capture release June 2011", "US v. Bulger 2013 record", "FBI PSA video (PD)"]
+    footage_check: "GOOD. FBI Vault and PSA video (US gov), Pexels Boston/Santa Monica stock. Subject deceased 2018."
+  - id: john-list-18-years
+    title: "He Disappeared For 18 Years: How A Clay Bust Led The FBI To John List"
+    angle: "John List vanished in 1971 after his family's deaths; the case went cold.\nA forensic sculptor's age-progressed bust shown on TV in 1989 got a Virginia neighbour to call."
+    why_viral: "Classic fugitive with a sculptural clue. Sensitive: no crime-scene detail."
+    sources: ["State v. List (NJ 1990)", "FBI case history", "Frank Bender profiles"]
+    footage_check: "MEDIUM. US gov photos, Wikimedia mugshot/bust photos, Pexels suburban stock. No news clips. Keep only with >=8 verified frames."
+  - id: beltway-23-days
+    title: "The 23 Days Of Fear: How Police Found The Beltway Sniper Car"
+    angle: "In October 2002 random shootings froze the Washington suburbs for 23 days.\nA phone call and a fingerprint from Alabama tied two men to a blue Caprice."
+    why_viral: "DAY counter format, big public memory. Strictly no victim imagery."
+    sources: ["Virginia v. Muhammad/Malvo records", "FBI summary of the case", "Official press conferences"]
+    footage_check: "MEDIUM. FBI/ATF photos (PD), highway Pexels stock, map graphics. Keep only with >=8 safe visuals, else DROP."
+  - id: saddam-spider-hole
+    title: "How U.S. Troops Found Saddam Hussein After 8 Months In A Hole Near A Farmhouse"
+    angle: "Operation Red Dawn used family-network intelligence to narrow the search near Tikrit.\nSoldiers lifted a plug and found a man in a small hole."
+    why_viral: "Global memory; the how is rarely explained."
+    sources: ["US Army 4th Infantry Division records", "DoD press conference Dec 2003 (PD)", "Cross-check Operation Red Dawn timeline"]
+    footage_check: "GOOD. DoD/DVIDS imagery and press video (US gov PD), Wikimedia maps, archive.org PD."
+  - id: dillinger-lady-in-red
+    title: "How The FBI Set The Trap For John Dillinger At The Biograph Theater"
+    angle: "Dillinger escaped jails and robbed banks across the Midwest in 1933-34.\nA brothel owner facing deportation told agents which night he planned to see a film."
+    why_viral: "Gangster-era name, trap structure."
+    sources: ["FBI history: John Dillinger", "FBI Vault Dillinger files", "Chicago newspapers July 1934"]
+    footage_check: "EXCELLENT. FBI Vault photos and 1930s newsreels on archive.org (verify), LoC, Wikimedia."
+  - id: mccoy-db-cooper-copycat
+    title: "The Hijacker Who Copied D.B. Cooper And Was Caught In 2 Days"
+    angle: "Richard McCoy hijacked a United jet in 1972, took $500,000 and parachuted out.\nA palm print on a magazine and a lead from a helicopter pilot ended it in Utah."
+    why_viral: "Rides the Cooper search interest; a solved version is rare."
+    sources: ["FBI 'D.B. Cooper' history incl. McCoy", "US v. McCoy 1972 record", "FBI Vault"]
+    footage_check: "MEDIUM-GOOD. FBI Vault, 1970s PD aviation footage on archive.org, Pexels aircraft stock, NARA photos. Confirm the print and helicopter details before scripting."
+  - id: holden-top-ten-first
+    title: "The Fugitive That Made The FBI Create The Ten Most Wanted List"
+    angle: "A 1949 press conversation led to the list launching in 1950.\nThomas Holden, early on the list, was caught after a civilian tip in Oregon."
+    why_viral: "Origin story of a famous list."
+    sources: ["FBI.gov Ten Most Wanted history", "FBI Vault Holden", "Hoover 1950 statements - confirm Holden's number and details first"]
+    footage_check: "GOOD. FBI Vault, archive.org 1950 newsreel items (verify), US gov photos."
+  - id: karpis-hoover-arrest
+    title: "Public Enemy Number One: How The FBI Cornered Alvin Karpis In 1936"
+    angle: "Karpis led the Barker-Karpis gang after Dillinger fell.\nAgents closed in at New Orleans; Hoover took credit with a famous arrest."
+    why_viral: "Rival to Dillinger; disputed who arrested whom adds mystery."
+    sources: ["FBI history: Alvin Karpis", "FBI Vault Karpis files"]
+    footage_check: "GOOD. FBI PD photos/newsreels, LoC, Wikimedia."
+  - id: eichmann-buenos-aires
+    title: "How Israeli Agents Tracked Adolf Eichmann Across Two Continents To A Buenos Aires Bus Stop"
+    angle: "A German prosecutor passed on a tip about 'Ricardo Klement' in Argentina.\nAgents confirmed identity and seized him in 1960."
+    why_viral: "Nazi hunt spy story with high demand."
+    sources: ["Eichmann trial records (Israel State Archives)", "Fritz Bauer Institut", "Hoover Institution holdings"]
+    footage_check: "MEDIUM. Wikimedia photos, archive.org PD items, Pexels Buenos Aires stock; AVOID trial TV footage unless PD confirmed. Drop if fewer than 8 free visuals."
+  - id: ames-jaguar-mole
+    title: "How A Jaguar And A Cash Spree Exposed The CIA Mole For Moscow"
+    angle: "Aldrich Ames' lifestyle did not fit his government salary.\nA joint CIA-FBI task force traced deposits and arrested him in 1994."
+    why_viral: "Spy thriller built on a simple lifestyle detail."
+    sources: ["FBI.gov Ames history", "Senate Intelligence Committee report 1994", "US v. Ames plea"]
+    footage_check: "GOOD. FBI/CIA PD photos, Cold War US gov film on archive.org, Pexels DC stock."
+  - id: hanssen-foxstone-park
+    title: "The Dead Drop Under A Footbridge: How The FBI Caught Its Own Spy"
+    angle: "Robert Hanssen sold secrets to Moscow for decades.\nA KGB file and a trash bag led agents to his drop site at Foxstone Park."
+    why_viral: "Worst spy in FBI history; the arrest scene."
+    sources: ["FBI.gov Hanssen case page", "DOJ Inspector General report 2003 (PD)", "US v. Hanssen plea 2001"]
+    footage_check: "GOOD. FBI video/photos (PD), DOJ OIG report visuals, Pexels suburban park stock."
+  # --- top-up to 20 (2026-11-21 keepbusy). Facts from model knowledge: web-verify dates/numbers before scripting.
+  - id: booth-12-days
+    title: "The 12-Day Manhunt For John Wilkes Booth: How Cavalry Found Him In A Tobacco Barn"
+    angle: "Booth escaped Ford's Theatre on 14 April 1865 with a broken leg and crossed into Virginia.\nOn DAY 12 the 16th New York Cavalry surrounded the Garrett farm barn."
+    why_viral: "Most famous manhunt in US history; DAY counter fits perfectly."
+    sources: ["Library of Congress Lincoln assassination collection", "War Department $100,000 reward poster (PD)", "NPS Ford's Theatre history"]
+    footage_check: "GOOD. LoC/NARA PD photos, the reward poster, Gardner portraits, period maps. No moving film (1865) -> pursuit map + photo moves."
+  - id: bonnie-clyde-hamer
+    title: "The 102-Day Hunt For Bonnie And Clyde: How Frank Hamer Planned The Louisiana Ambush"
+    angle: "Texas hired retired Ranger Frank Hamer in February 1934 after the Eastham prison break.\nHe studied their habits for months and set the trap near Gibsland on 23 May 1934."
+    why_viral: "Huge name; the hunter's side is less known. Ad-safe: no close-ups of the bodies or car interior."
+    sources: ["FBI.gov Bonnie and Clyde famous case", "FBI Vault Barrow gang file", "Texas Ranger Hall of Fame Hamer bio"]
+    footage_check: "GOOD. FBI Vault + 1933 Joplin photos (published, PD), FBI wanted notices, PD 1934 newsreel frames on archive.org (check each)."
+  - id: machine-gun-kelly-urschel
+    title: "The Kidnapped Oilman Who Memorised The Sky: How The FBI Found Machine Gun Kelly"
+    angle: "Charles Urschel was held blindfolded in 1933 but noted planes passing overhead and the weather.\nAgents matched it to a farm in Paradise, Texas; Kelly was caught in Memphis in September 1933."
+    why_viral: "A victim's clue cracks the case; origin of the 'G-Men' legend (hedge it as legend)."
+    sources: ["FBI.gov Machine Gun Kelly famous case", "FBI Vault Urschel kidnapping file", "1933 federal trial record"]
+    footage_check: "GOOD. FBI Vault photos/posters (PD), archive.org PD 1930s newsreels, PD maps."
+  - id: alcatraz-1962-open-case
+    title: "The Alcatraz Escape The U.S. Marshals Still Haven't Closed"
+    angle: "On 11 June 1962 Frank Morris and the Anglin brothers left dummy heads in their beds and rafted into the bay.\nThe FBI closed its file in 1979; the U.S. Marshals still hunt them."
+    why_viral: "Evergreen mystery with a live open case."
+    sources: ["FBI.gov Alcatraz escape famous case + Vault file", "U.S. Marshals Service case page", "NPS Alcatraz history"]
+    footage_check: "GOOD. FBI Vault photos of dummy heads/raft (PD), NPS photos, USMS posters, Pexels San Francisco bay stock."
+  - id: unabomber-brother-call
+    title: "The 17-Year Hunt For The Unabomber Ended With A Phone Call From His Brother"
+    angle: "The FBI's longest, costliest hunt had almost no evidence for years.\nAfter the 1995 manifesto was published, David Kaczynski recognised the writing; agents reached a Montana cabin on 3 April 1996."
+    why_viral: "Huge case, family-loyalty twist. Ad-safe: no injury detail."
+    sources: ["FBI.gov Unabomber famous case", "FBI Vault Unabomber file", "DOJ 1998 plea record"]
+    footage_check: "GOOD. FBI photos of the cabin (PD), FBI sketch poster, Pexels Montana forest stock."
+  - id: boyce-falcon-usms
+    title: "The Spy Who Escaped Prison And Robbed Banks: How The Marshals Caught 'The Falcon'"
+    angle: "Christopher Boyce sold satellite secrets to the Soviets, then escaped Lompoc prison in January 1980.\nU.S. Marshals traced him to Port Angeles, Washington and arrested him in August 1981."
+    why_viral: "Spy + jailbreak + bank robber in one man. Verify bank count and dates. Subject is living: public-record facts only."
+    sources: ["U.S. Marshals Service history page on Boyce", "FBI.gov Falcon and Snowman case", "Federal court records"]
+    footage_check: "MEDIUM. USMS/FBI PD photos, wanted poster, Pexels Pacific Northwest stock. Keep only with >=8 safe visuals."
+  - id: pretty-boy-floyd-ohio
+    title: "After Dillinger Died, The FBI Hunted The Next Public Enemy Number One: Pretty Boy Floyd"
+    angle: "Charles Arthur Floyd was named Public Enemy No. 1 in 1934 after Dillinger's death.\nThree months later agents and local police caught up with him in a field near East Liverpool, Ohio."
+    why_viral: "Direct sequel to the Dillinger video (series binge). Accounts of the end differ - say so."
+    sources: ["FBI.gov Pretty Boy Floyd famous case", "FBI Vault Floyd file", "Ohio newspaper reports Oct 1934"]
+    footage_check: "GOOD. FBI Vault posters/photos (PD), PD 1930s newsreel frames, PD maps."
+  - id: sutton-subway
+    title: "The Bank Robber Who Broke Out Of Prison Again And Again Was Caught By A Salesman On The Subway"
+    angle: "Willie Sutton escaped prisons repeatedly and joined the FBI's Ten Most Wanted in 1950.\nIn February 1952 a young clothing salesman recognised him from a poster in Brooklyn."
+    why_viral: "Ordinary person spots fugitive. Verify escape count; Sutton denied the 'that's where the money is' quote - say so."
+    sources: ["FBI.gov Willie Sutton famous case", "FBI Ten Most Wanted history", "NYPD 1952 reports"]
+    footage_check: "GOOD. FBI wanted posters/photos (PD), PD 1950s newsreels, Pexels NYC subway stock."

@@ -1,0 +1,124 @@
+# Page Remedy - 12 topics (2026-11-21). Formula: '<Public-domain classic> in N Minutes' / '<N> Fixes For <pain>'. ONLY public-domain books (Gutenberg/Standard Ebooks); no modern covers; chapter = symptom, dose, try tonight.
+channel: pageremedy
+topics:
+  - id: meditations-anxiety
+    title: "Marcus Aurelius' Meditations In 25 Minutes: 7 Fixes For A Racing Mind"
+    angle: "A Roman emperor's private notes turn into a daily-practice course on control and perspective.\nEach chapter = one symptom plus one Stoic dose."
+    why_viral: "Huge Stoicism demand, evergreen, anxiety pain."
+    sources: ["George Long translation (1862, PD)", "Project Gutenberg", "Standard Ebooks"]
+    footage_check: "GOOD. Pexels/Pixabay nature footage, Wikimedia Roman busts and ruins, PD paintings."
+  - id: art-of-war-sun-tzu
+    title: "The Art Of War In 20 Minutes: 9 Fixes For Fighting The Wrong Battles"
+    angle: "Sun Tzu's rule of winning without fighting applied to work and relationships.\nEach chapter = one mistake and one strategic move."
+    why_viral: "Perennial top search."
+    sources: ["Lionel Giles 1910 translation (PD)", "Project Gutenberg"]
+    footage_check: "GOOD. Pexels chess/mountain footage, Wikimedia Chinese art (PD), PD maps."
+  - id: the-prince-machiavelli
+    title: "The Prince In 20 Minutes: What Machiavelli Actually Says About Power"
+    angle: "A 1513 handbook for rulers that readers confuse with a how-to for villains.\nWhat it says and what it warns."
+    why_viral: "Power-psychology audience."
+    sources: ["W.K. Marriott translation (PD)", "Project Gutenberg"]
+    footage_check: "GOOD. Wikimedia Renaissance paintings and Florence photos, Pexels Italy stock."
+  - id: richest-man-babylon
+    title: "The Richest Man In Babylon In 25 Minutes: 7 Fixes For A Broken Budget"
+    angle: "Seven 'cures for a lean purse' told as parables.\nEach chapter = money symptom, one rule, try tonight."
+    why_viral: "Big money-book search. COPYRIGHT: use ONLY the original 1926 text; later 1930+ editions may still be protected - verify before scripting."
+    sources: ["Original 1926 Clason pamphlet text (archive.org)", "Duke Public Domain Day 2022 list"]
+    footage_check: "GOOD. Pexels/Pixabay coins/desert/city stock, Wikimedia Babylon ruins, PD art."
+  - id: as-a-man-thinketh
+    title: "As A Man Thinketh In 15 Minutes: How Thoughts Build Your Life"
+    angle: "James Allen's 1903 short essay on thought and character.\nChapters = habits of thought with a daily exercise."
+    why_viral: "Short, popular, classic."
+    sources: ["Project Gutenberg As a Man Thinketh (PD)", "Standard Ebooks"]
+    footage_check: "GOOD. Pexels nature/sunrise footage, PD art."
+  - id: letters-from-a-stoic
+    title: "Seneca's Letters From A Stoic In 25 Minutes: 8 Fixes For Wasting Your Life"
+    angle: "Seneca writes to Lucilius on time, fear, friendship and death.\nEach chapter = symptom plus dose."
+    why_viral: "Stoic audience, 'time' angle sells."
+    sources: ["Gummere translation 1917 (PD)", "Project Gutenberg / Wikisource"]
+    footage_check: "GOOD. Wikimedia busts/ruins, Pexels clocks/time footage."
+  - id: enchiridion-epictetus
+    title: "Epictetus' Enchiridion In 12 Minutes: The Handbook For Things You Can't Control"
+    angle: "A freed slave's 53-chapter handbook: what is up to us and what isn't.\nOne dose per section."
+    why_viral: "Concise Stoic classic."
+    sources: ["Elizabeth Carter translation (PD)", "Project Gutenberg"]
+    footage_check: "GOOD. Pexels storm/sea/nature footage, Wikimedia art."
+  - id: self-reliance-emerson
+    title: "Emerson's Self-Reliance In 18 Minutes: 6 Fixes For Living To Please Everyone"
+    angle: "The 1841 essay 'trust thyself' on conformity.\nSymptom of people-pleasing, dose of independence."
+    why_viral: "Anti-conformity message, high search."
+    sources: ["Essays: First Series (PD)", "Project Gutenberg"]
+    footage_check: "GOOD. Pexels forest/crowd footage, Wikimedia."
+  - id: walden-thoreau
+    title: "Walden In 25 Minutes: 7 Fixes For A Life That Feels Too Busy"
+    angle: "Thoreau's two years by a pond about simplicity and time.\nPrescription card: the one thing to cut tonight."
+    why_viral: "Digital-detox / minimalism audience."
+    sources: ["Project Gutenberg Walden (PD)", "Concord Free Public Library"]
+    footage_check: "EXCELLENT. Pexels/Pixabay pond, forest, cabin footage."
+  - id: science-of-getting-rich
+    title: "The Science Of Getting Rich In 20 Minutes: What Wattles Actually Said"
+    angle: "A 1910 book behind modern manifestation advice.\nWhat the book says and which parts are untested."
+    why_viral: "Money/success demand."
+    sources: ["Wallace Wattles 1910 (PD)", "Project Gutenberg"]
+    footage_check: "GOOD. Pexels city/money/sunrise footage, PD art."
+  - id: franklin-13-virtues
+    title: "Benjamin Franklin's 13 Virtues In 15 Minutes: His Habit-Tracking System"
+    angle: "Franklin's weekly chart to work on one virtue at a time.\nStep-by-step version for your own week."
+    why_viral: "Habit-system search."
+    sources: ["Autobiography of Benjamin Franklin (PD)", "Founders Online"]
+    footage_check: "GOOD. LoC/Wikimedia Franklin portraits, Pexels notebook/journal footage."
+  - id: art-of-worldly-wisdom
+    title: "The Art Of Worldly Wisdom In 20 Minutes: 12 Rules From A 17th-Century Jesuit"
+    angle: "Baltasar Gracian's 300 maxims about reputation, silence and timing.\nSymptom of getting overlooked, dose of tact."
+    why_viral: "Robert Greene/Power audience; the original source."
+    sources: ["Joseph Jacobs translation 1892 (PD)", "Project Gutenberg"]
+    footage_check: "GOOD. Wikimedia Baroque art, Pexels chess/office footage."
+  # --- top-up to 20 (2026-11-21 keepbusy). Public-domain originals/translations only.
+  - id: book-of-five-rings
+    title: "The Book Of Five Rings In 20 Minutes: 7 Fixes From Musashi For Losing Focus"
+    angle: "Miyamoto Musashi wrote it around 1645 after 60 duels.\nSymptom of scattered effort, dose of one-way practice."
+    why_viral: "Huge strategy/self-improvement search; samurai visuals."
+    sources: ["Original text 1645 (PD); use own paraphrase or a pre-1929 translation", "Wikimedia Edo-period art"]
+    footage_check: "GOOD. PD ukiyo-e prints of Musashi, Wikimedia, Pexels Japan stock."
+  - id: tao-te-ching
+    title: "The Tao Te Ching In 20 Minutes: 8 Fixes For Trying Too Hard"
+    angle: "81 short chapters about water, softness and doing less.\nSymptom of burnout from forcing everything, dose of wu wei."
+    why_viral: "Evergreen calm-mind audience."
+    sources: ["James Legge translation 1891 (PD)", "Project Gutenberg"]
+    footage_check: "GOOD. PD Chinese landscape paintings (Wikimedia), Pexels water/mountain stock."
+  - id: self-help-smiles
+    title: "Self-Help In 18 Minutes: The 1859 Book That Started The Whole Genre"
+    angle: "Samuel Smiles collected stories of ordinary people who built skill through patience.\nSymptom of waiting for luck, dose of daily perseverance."
+    why_viral: "Origin of the genre hook."
+    sources: ["Samuel Smiles 'Self-Help' 1859 (PD)", "Project Gutenberg"]
+    footage_check: "GOOD. PD Victorian portraits/engravings, Pexels workshop stock."
+  - id: how-to-live-24-hours
+    title: "How To Live On 24 Hours A Day In 15 Minutes: Arnold Bennett's Fix For No Free Time"
+    angle: "Bennett's 1908 book says everyone gets the same 24 hours and most waste the evening.\nSymptom of 'no time', dose of the 90-minute evening plan."
+    why_viral: "Productivity evergreen, short book = tight video."
+    sources: ["Arnold Bennett 1908 (PD)", "Project Gutenberg"]
+    footage_check: "GOOD. PD Edwardian London photos, Pexels clock/commute stock."
+  - id: william-james-habit
+    title: "William James On Habit In 15 Minutes: The 1890 Chapter Behind Every Habit Book"
+    angle: "James argued habit is the 'enormous flywheel of society' and gave rules for building new ones.\nSymptom of failed restarts, dose of no exceptions."
+    why_viral: "Atomic Habits audience; the original source."
+    sources: ["The Principles of Psychology 1890, ch. IV 'Habit' (PD)", "Project Gutenberg"]
+    footage_check: "GOOD. PD James portraits, Pexels routine stock."
+  - id: schopenhauer-wisdom-of-life
+    title: "Schopenhauer's Wisdom Of Life In 20 Minutes: 7 Fixes For Chasing Other People's Opinion"
+    angle: "He split happiness into what you are, what you have and what others think of you.\nSymptom of status anxiety, dose of valuing what you are."
+    why_viral: "Dark-philosopher audience, very shareable quotes."
+    sources: ["T. Bailey Saunders translation 1890 (PD)", "Project Gutenberg"]
+    footage_check: "GOOD. PD portraits, PD 19th-century paintings, Pexels stock."
+  - id: nicomachean-ethics
+    title: "Aristotle's Ethics In 25 Minutes: 7 Fixes For A Life Without Purpose"
+    angle: "Aristotle's answer to 'what is a good life': virtue as a habit and the golden mean.\nSymptom of drifting, dose of practising the middle way."
+    why_viral: "Big-name classic, purpose angle."
+    sources: ["W.D. Ross translation 1908 (PD)", "Project Gutenberg / MIT Classics"]
+    footage_check: "GOOD. PD Greek sculpture photos (Wikimedia), Raphael's School of Athens (PD), Pexels stock."
+  - id: socrates-apology
+    title: "Socrates' Apology In 15 Minutes: The Speech Of A Man Who Would Not Back Down"
+    angle: "On trial in 399 BC, Socrates refused to beg and explained why an unexamined life is not worth living.\nSymptom of living on autopilot, dose of honest questions."
+    why_viral: "Famous quote, courtroom drama."
+    sources: ["Plato 'Apology', Benjamin Jowett translation (PD)", "Project Gutenberg"]
+    footage_check: "GOOD. David's 'Death of Socrates' (PD), Wikimedia Athens photos, PD busts."

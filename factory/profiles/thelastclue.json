@@ -5,7 +5,7 @@
  "channel_id": "UCRAkjJz3S1mPgcEmxdP6XBg",
  "account": 1,
  "engine": "docu",
- "voice": "en-US-DavisNeural",
+ "voice": "en-US-RogerNeural",
  "rate": "-6%",
  "pitch": "-3Hz",
  "structure": [

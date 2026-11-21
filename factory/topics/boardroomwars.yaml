@@ -1,0 +1,124 @@
+# Boardroom Wars - 12 topics (2026-11-21). Formula: 'How <A> Beat <B>' / 'The <Boardroom> War That ...'. Historic (PD) stories so free footage exists. Living people avoided; education only, not financial advice.
+channel: boardroomwars
+topics:
+  - id: war-of-the-currents
+    title: "How Edison Lost The War Of The Currents To Westinghouse And Tesla"
+    angle: "Edison backed DC and attacked AC as lethal; Westinghouse won Niagara.\nThe dirty tricks and the 1893 Chicago World's Fair lightbulb contract."
+    why_viral: "Business rivalry with known names, footage plenty."
+    sources: ["Edison Papers (Rutgers)", "Westinghouse company records", "Niagara Falls Power Company"]
+    footage_check: "EXCELLENT. Edison films (LoC, PD), 1893 World's Fair photos, Niagara Falls footage on archive.org."
+  - id: homestead-carnegie-frick
+    title: "The Boardroom Betrayal Behind The Homestead Strike"
+    angle: "Carnegie left for Scotland while Frick locked out workers in 1892.\nHow a friend turned into an enemy for life."
+    why_viral: "Betrayal narrative."
+    sources: ["Carnegie letters", "Senate report on Homestead 1892", "LoC"]
+    footage_check: "GOOD. LoC photographs and early steel-mill footage on archive.org, Wikimedia."
+  - id: dodge-v-ford
+    title: "The Lawsuit That Forced Henry Ford To Pay His Investors"
+    angle: "Ford cut dividends to cut prices and fund a giant plant.\nThe Dodge brothers sued and won in the Michigan Supreme Court in 1919."
+    why_viral: "Court-documented; shareholder primacy debate."
+    sources: ["Dodge v. Ford Motor Co. (Mich. 1919)", "Ford Archive", "Prelinger archive.org Ford films"]
+    footage_check: "EXCELLENT. Ford Motor Company 1910s-20s films on archive.org (PD), LoC Highland Park photos."
+  - id: standard-oil-breakup
+    title: "How Standard Oil Was Broken Into 34 Companies"
+    angle: "Rockefeller's rebate deals crushed rivals until Ida Tarbell's reporting and a federal suit.\nThe 1911 Supreme Court ruling split the trust."
+    why_viral: "Famous monopoly; ties to current tech-monopoly debates."
+    sources: ["Standard Oil v. United States (1911)", "Tarbell's McClure's articles (PD)", "LoC Rockefeller"]
+    footage_check: "EXCELLENT. 1910s oil-field film on archive.org/LoC (PD), Wikimedia photos, cartoons (PD)."
+  - id: hughes-vs-pan-am
+    title: "The Bribery Showdown: How Howard Hughes Beat A Senator And Pan Am In 1947"
+    angle: "A Senate committee investigated Hughes' war contracts as a front for Pan Am's monopoly bid.\nHughes' counter-attack in the hearing room turned the room."
+    why_viral: "Famous name, courtroom drama."
+    sources: ["Senate Special Committee hearing transcripts (PD)", "Civil Aeronautics Board records", "Hughes Aircraft history"]
+    footage_check: "GOOD. US gov hearing film and 1940s aviation footage on archive.org (verify PD), LoC photos."
+  - id: edison-patent-trust
+    title: "How Thomas Edison's Film Trust Chased Hollywood Into California"
+    angle: "The Motion Picture Patents Company licensed cameras in 1908 and used enforcers against rivals.\nIndependents fled to Los Angeles; an antitrust suit ended the trust in 1915."
+    why_viral: "Origin of Hollywood; antitrust."
+    sources: ["US v. Motion Picture Patents Co. (1915)", "LoC early cinema", "Edison Papers"]
+    footage_check: "EXCELLENT. Early 1900s Edison and independent films on LoC/archive.org (PD)."
+  - id: panic-1907-morgan
+    title: "The Night J.P. Morgan Locked Bankers In His Library To Stop The Panic Of 1907"
+    angle: "Trust runs spread across New York; Morgan forced a rescue deal.\nIt led directly to the Federal Reserve."
+    why_viral: "Money-system origin story."
+    sources: ["Morgan Library records", "National Monetary Commission (1910)", "NY Times Oct-Nov 1907"]
+    footage_check: "GOOD. 1900s NYC footage (Edison/Biograph, PD), LoC photos, Wikimedia."
+  - id: armstrong-vs-rca
+    title: "The Inventor Who Beat Radio's Giants And Then Lost To Them: Armstrong Vs RCA"
+    angle: "Edwin Armstrong invented FM; RCA's David Sarnoff favoured television.\nA 20-year patent war left Armstrong broken in 1954. Handle with care."
+    why_viral: "Tragic business war."
+    sources: ["Armstrong patents (PD)", "Columbia University Armstrong Papers", "Court rulings"]
+    footage_check: "GOOD. RCA/AT&T industrial films on archive.org (verify), LoC photos, Wikimedia."
+  - id: wright-vs-curtiss
+    title: "How The Wright Brothers' Patent War Slowed American Aviation"
+    angle: "The Wrights sued Curtiss and others from 1909.\nWWI forced a patent pool; the lawsuits lingered."
+    why_viral: "Heroes as litigants, surprising."
+    sources: ["Wright v. Herring-Curtiss (court)", "LoC Wright Papers", "Smithsonian Air and Space"]
+    footage_check: "EXCELLENT. 1908-10 Wright flight film and Curtiss footage on LoC/archive.org (PD)."
+  - id: erie-war-gould
+    title: "The Erie War: How Vanderbilt Lost To Jay Gould's Printing Press"
+    angle: "Gould and Drew printed shares to outpace Vanderbilt's buying.\nThey fled to New Jersey and bribed the New York legislature."
+    why_viral: "Market-war trope; early stock manipulation."
+    sources: ["NY legislature records 1868-69", "Charles Francis Adams Chapters of Erie (1871)", "LoC"]
+    footage_check: "MEDIUM. PD paintings/cartoons (Harper's), Wikimedia, railroad archival film. Needs >=8 visuals - verify."
+  - id: singer-sewing-war
+    title: "The Sewing Machine War That Created The Patent Pool"
+    angle: "Singer, Howe and others sued each other in the 1850s.\nOrlando Potter's patent pool was the first of its kind."
+    why_viral: "Business inventions, pools; underused."
+    sources: ["Howe v. Singer court records", "Smithsonian Singer collection", "US Patent Office"]
+    footage_check: "MEDIUM. PD photos/ads, Pexels sewing footage, Wikimedia. Keep only if >=8 visuals."
+  - id: marconi-vs-tesla-1943
+    title: "How The Supreme Court Ruled Tesla, Not Marconi, Held The Radio Patent"
+    angle: "Marconi sued for infringement, but the 1943 US Supreme Court case invalidated key Marconi patents.\nThe real ruling is narrower than the myth."
+    why_viral: "Popular myth; true story."
+    sources: ["Marconi Wireless Telegraph Co. v. United States (1943)", "Tesla patents (PD)", "Supreme Court records"]
+    footage_check: "GOOD. Wikimedia photos, LoC, archive.org early-radio films (PD)."
+  # --- top-up to 20 (2026-11-21 keepbusy). Resolved public-record cases, PD-era visuals. Web-verify figures before scripting.
+  - id: pepsi-offered-to-coke
+    title: "Pepsi Went Bankrupt And Offered Itself To Coca-Cola. Coke Said No"
+    angle: "Sugar prices wrecked Pepsi after World War I and the brand went bankrupt in the 1920s.\nIn the Depression its new owner reportedly offered it to Coca-Cola, which declined; the 5-cent 12-ounce bottle saved it."
+    why_viral: "Biggest 'what if' in branding. Verify the offer story (reported, hedge) and the bankruptcy years."
+    sources: ["PepsiCo corporate history", "Loft Inc. v. Guth (Delaware 1939) court record", "Library of Congress ads"]
+    footage_check: "GOOD. PD pre-1929 ads and photos (LoC/Wikimedia), Prelinger PD soda/industrial films."
+  - id: durant-gm-twice
+    title: "The Man Who Founded General Motors Lost It Twice And Ended Up Running A Bowling Alley"
+    angle: "William Durant built GM from Buick in 1908, lost control to bankers in 1910, won it back with Chevrolet shares.\nIn 1920 the stock crash and du Pont took it again; he died almost broke in 1947."
+    why_viral: "Rise-fall-rise-fall; strong ending image."
+    sources: ["GM Heritage Center", "Library of Congress Durant photos", "Flint Sloan Museum records"]
+    footage_check: "GOOD. PD photos, PD early-auto factory films (Prelinger/NARA)."
+  - id: tucker-48-trial
+    title: "The Car Detroit Feared: Why Preston Tucker Went On Trial Over 51 Cars"
+    angle: "The Tucker 48 promised safety features years ahead of its time.\nThe SEC and a fraud trial in 1949-50 sank the company even though the jury acquitted him."
+    why_viral: "Famous underdog, film audience. Verify car count and trial dates; avoid unproven 'Big Three conspiracy' as fact."
+    sources: ["US v. Tucker 1950 trial reports", "SEC records", "Tucker Automobile Club archive"]
+    footage_check: "MEDIUM. PD 1940s newsreels (check), Wikimedia CC photos of surviving cars, PD press photos."
+  - id: northern-pacific-corner-1901
+    title: "The Stock That Jumped To $1,000 In A Day: The Northern Pacific Corner Of 1901"
+    angle: "Harriman secretly bought Northern Pacific to beat James Hill and J.P. Morgan.\nShort sellers were trapped on 9 May 1901 and the market crashed while the share price exploded."
+    why_viral: "Insane number hook, two titans. Verify peak price."
+    sources: ["New York Times archive May 1901", "Northern Securities Co. v. United States (1904)", "LoC photos"]
+    footage_check: "GOOD. PD photos/cartoons (Puck), LoC railway photos, PD maps."
+  - id: goodyear-rubber-war
+    title: "The Rubber Patent War That Was Daniel Webster's Last Big Case"
+    angle: "Charles Goodyear found vulcanisation in 1839 but copiers stole it on both sides of the Atlantic.\nThe 1852 Trenton case won his patent - yet he died in debt and never founded the tyre company."
+    why_viral: "Name everyone knows, unknown story."
+    sources: ["Goodyear v. Day (1852) record", "Smithsonian Lemelson Center", "LoC portraits"]
+    footage_check: "MEDIUM. PD portraits, engravings, patent drawings, PD factory photos."
+  - id: bell-gray-same-day
+    title: "Two Inventors Filed For The Telephone On The Same Day. Lawyers Decided The Rest"
+    angle: "On 14 February 1876 Alexander Graham Bell's application and Elisha Gray's caveat reached the patent office hours apart.\nYears of lawsuits followed; the Supreme Court upheld Bell in 1888."
+    why_viral: "Classic 'who really invented it' fight. Present disputes fairly."
+    sources: ["The Telephone Cases, 126 U.S. 1 (1888)", "LoC Bell papers", "USPTO records"]
+    footage_check: "GOOD. LoC Bell papers + photos (PD), patent drawings, PD early-telephone films."
+  - id: selden-patent-ford
+    title: "The Patent That Tried To Own Every Car In America - And How Henry Ford Broke It"
+    angle: "George Selden's 1895 road-engine patent let a group collect royalties from almost every carmaker.\nFord refused to pay and won on appeal in 1911."
+    why_viral: "David vs Goliath, patent trolling origin story."
+    sources: ["Columbia Motor Car Co. v. C.A. Duerr & Co. (2d Cir. 1911)", "The Henry Ford museum", "LoC photos"]
+    footage_check: "GOOD. PD patent drawings, PD early-auto photos and films."
+  - id: att-breakup-1984
+    title: "How The U.S. Government Broke The Biggest Company On Earth Into 8 Pieces"
+    angle: "AT&T ran almost every phone line in America until a 1974 antitrust suit.\nThe 1982 settlement split it into seven regional Baby Bells and a smaller AT&T on 1 January 1984."
+    why_viral: "Breakup topic is live today (big tech). Provisional: visuals are harder."
+    sources: ["United States v. AT&T consent decree 1982", "DOJ Antitrust Division history", "FCC records"]
+    footage_check: "MEDIUM-WEAK. PD gov docs, Wikimedia CC photos, AT&T Archives films on archive.org (check licence). Keep only with >=8 free visuals (provisional)."

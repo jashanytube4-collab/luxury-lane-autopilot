@@ -1,0 +1,125 @@
+# The Last Clue - 12 topics (2026-11-21). Formula (style.md): <Human role> + Realizes/Discovers + <overlooked object>; 'How One <detail> Cracked <case>'.
+# Rules: true, court/public record, no gore, no minors, no recent bodycam. Footage = archive.org / LoC / NARA / Wikimedia / Pexels.
+channel: thelastclue
+topics:
+  - id: lindbergh-ladder
+    title: "How A Carpenter's Ladder And One Attic Board Cracked The Lindbergh Kidnapping"
+    angle: "Wood expert Arthur Koehler traced the ransom ladder's rail to one lumber mill and one attic floorboard.\nThe tree rings and nail holes matched; a gold-certificate ransom note sealed it."
+    why_viral: "Famous case, overlooked forensic detail (first big wood-science trial), human-role hook."
+    sources: ["NJ State Police Lindbergh case files", "FBI Vault: Lindbergh Kidnapping", "USDA Forest Products Lab Koehler records", "1935 trial transcript (State v. Hauptmann)"]
+    footage_check: "GOOD. archive.org 1930s newsreels (verify each item), FBI Vault photos (PD), LoC photos, Wikimedia ladder/trial photos, Pexels forest/sawmill footage."
+  - id: crippen-wireless
+    title: "The Captain Who Noticed A 'Boy' Holding Hands: How Wireless Telegraph Caught Dr Crippen"
+    angle: "A ship captain noticed a disguised couple on a transatlantic liner and radioed Scotland Yard.\nInspector Dew overtook them on a faster ship and made the arrest in Canada."
+    why_viral: "First criminal caught by wireless telegraph; chase across the Atlantic; public domain era."
+    sources: ["UK National Archives (MEPO / DPP files)", "Old Bailey Proceedings 1910 (oldbaileyonline.org)", "Capt. Kendall's account"]
+    footage_check: "MEDIUM-GOOD. Wikimedia/LoC 1910 photos of Crippen and SS Montrose, archive.org 1910s ocean-liner and London street film, Pexels ocean footage, PD maps."
+  - id: pitchfork-first-dna
+    title: "The Pub Confession That Led To The World's First DNA Manhunt"
+    angle: "Alec Jeffreys' new DNA fingerprinting cleared an innocent teen, then police tested thousands of local men.\nA bakery worker paid a friend to give blood in his place; the friend talked in a pub."
+    why_viral: "Birth of forensic DNA; twist that the first use freed an innocent man."
+    sources: ["Court record R v Pitchfork 1988", "Jeffreys 1985 Nature papers", "Leicestershire Police history page"]
+    footage_check: "MEDIUM. Wikimedia CC photos (Jeffreys/Leicester, credit), Pexels/Pixabay lab and DNA gel footage, English village stock. No news clips. Living convict: public record only."
+  - id: mona-lisa-peruggia
+    title: "The Fingerprint Police Couldn't Match: How The Mona Lisa Vanished For Two Years"
+    angle: "Vincenzo Peruggia walked out of the Louvre in a workman's smock in 1911.\nA print on the frame existed but Paris files held only certain prints; he was caught selling it in Florence."
+    why_viral: "Everybody knows the painting, nobody knows the thief; classic 'one overlooked detail'."
+    sources: ["Louvre/French police reports 1911", "Italian court records Florence 1914", "Smithsonian Magazine - VERIFY the fingerprint-system detail before scripting"]
+    footage_check: "GOOD. Wikimedia Commons 1911 Louvre/press photos (PD), Mona Lisa (PD), archive.org early-1900s Paris street film, Pexels Louvre exterior."
+  - id: leopold-loeb-glasses
+    title: "The Pair Of Glasses With A Rare Hinge That Broke The 'Perfect Crime' Of 1924"
+    angle: "Spectacles found near the scene had an unusual hinge sold to only three buyers in Chicago.\nOne belonged to Nathan Leopold, whose alibi collapsed under questioning."
+    why_viral: "Clue-led, famous trial (Clarence Darrow), PD era. Keep victim details restrained, no gore."
+    sources: ["Illinois v. Leopold and Loeb 1924 court record", "Darrow's closing statement (PD transcript)", "Chicago newspapers 1924 (cite only)"]
+    footage_check: "GOOD. 1920s Chicago footage on archive.org, LoC Chicago Daily News photos (PD), Wikimedia."
+  - id: brinks-1950-countdown
+    title: "11 Days Before The Clock Ran Out: How The FBI Caught The Great Brink's Robbers"
+    angle: "Eleven men took about $2.7M in Boston in 1950 and left almost no trace for six years.\nThe statute of limitations had days left when a gang member talked."
+    why_viral: "Perfect heist, a built-in countdown ending."
+    sources: ["FBI Vault: Brink's Robbery", "FBI history page 'The Great Brink's Robbery'", "Massachusetts trial records"]
+    footage_check: "GOOD. FBI Vault photos/film (US gov = PD), archive.org 1950s Boston newsreels (verify), Wikimedia Boston photos."
+  - id: antwerp-diamond-sandwich
+    title: "The Half-Eaten Sandwich That Unravelled The Heist Of The Century"
+    angle: "Thieves emptied 100+ vaults in Antwerp's diamond district in 2003 without tripping an alarm.\nDiscarded rubbish gave Belgian police DNA and a path to the gang."
+    why_viral: "Heist-of-the-century curiosity plus a mundane clue; diamonds are visually rich."
+    sources: ["Belgian court judgment 2005 (as reported)", "Wired 'Heist of the Century' (Joshua Davis, 2009)", "National Geographic 2013 feature - sources differ on who bought the sandwich; script only court-supported facts"]
+    footage_check: "MEDIUM. Pexels/Pixabay diamond/vault footage, Antwerp city stock, Wikimedia photos. No Netflix/film clips. Convicted living people: public record only; do not state Notarbartolo's disputed claims as fact."
+  - id: btk-floppy-disk
+    title: "The Floppy Disk That Told Police Exactly Who Sent It"
+    angle: "After years of silence, BTK mailed police a floppy disk in 2005.\nHidden metadata named a Lutheran church and 'Dennis'; a church website led to one man."
+    why_viral: "Digital-forensics twist; fully court-documented."
+    sources: ["Sedgwick County court record State v. Rader 2005", "Wichita PD/FBI press conference transcripts", "FBI.gov summary"]
+    footage_check: "MEDIUM. FBI photos (PD), Pexels/Pixabay floppy disk and computer footage, Wichita stock. Rule: no victim photos, no graphic detail; focus on metadata. Keep only if >=8 free visuals."
+  - id: capone-ledger
+    title: "How An Accountant's Notebook Put Al Capone Behind Bars"
+    angle: "Capone dodged murder charges, but agents found ledgers showing unreported income.\nA tax case built in secret ended in an 11-year sentence."
+    why_viral: "Gangster name plus underdog accountant; evergreen search."
+    sources: ["IRS history: Capone case", "US v. Capone 1931 (NARA Chicago)", "FBI Vault: Al Capone"]
+    footage_check: "EXCELLENT. 1920s-30s newsreels on archive.org (verify), LoC photos, NARA/IRS photos, Wikimedia mugshots (PD)."
+  - id: hiss-typewriter
+    title: "The Typewriter That Decided The Spy Trial Of The Century"
+    angle: "Investigators located the Woodstock typewriter once owned by Alger Hiss.\nTyped copies of State Department papers matched its letter flaws; two trials followed."
+    why_viral: "Cold War spy thriller built on a single object."
+    sources: ["FBI Vault: Hiss/Chambers", "US v. Hiss 1949-50 court record", "NARA typewriter documentation"]
+    footage_check: "GOOD. US gov hearing film and Cold War newsreels on archive.org (PD), LoC/NARA photos, FBI Vault documents."
+  - id: mad-bomber-metesky
+    title: "The 'F.P.' Letters: How A Psychiatrist's Profile Ended New York's 16-Year Bomb Hunt"
+    angle: "A bomber terrorised New York from 1940 to 1956 with notes signed 'F.P.'.\nA profile predicted his clothes, and a clerk found an old Con Edison complaint file."
+    why_viral: "Birth of criminal profiling."
+    sources: ["NYPD/FBI case history", "Dr James Brussel's own account (self-reported, label it)", "NY Times Jan 1957 coverage (cite)"]
+    footage_check: "GOOD. 1950s NYC film/newsreels on archive.org (verify), LoC photos, Pexels NYC stock. Check casualty facts before scripting."
+  - id: great-train-robbery-monopoly
+    title: "The Monopoly Game And Ketchup Bottle That Betrayed The Great Train Robbers"
+    angle: "The 1963 gang hid at Leatherslade Farm and left fingerprints on a Monopoly set and a bottle.\nForensic prints identified most of the gang within weeks."
+    why_viral: "Everyone knows the robbery; the clue is fresh."
+    sources: ["UK National Archives", "Thames Valley Police history page", "1964 Aylesbury trial reports"]
+    footage_check: "WEAK-MEDIUM. British Pathe is copyrighted (do not use). Wikimedia photos, Pexels train/farm stock. Keep only if >=6 verified free visuals, otherwise DROP (provisional)."
+  # --- top-up to 20 (2026-11-21 keepbusy). Clue-first forensic history; no gore. Web-verify before scripting.
+  - id: two-will-wests
+    title: "Two Prisoners, Same Face, Same Name: The Case That Made Fingerprints King"
+    angle: "In 1903 at Leavenworth a new prisoner, Will West, matched another inmate's Bertillon measurements.\nOnly fingerprints told them apart (later research questions parts of the story - say so)."
+    why_viral: "Doppelganger hook + origin of fingerprinting."
+    sources: ["Leavenworth records / NARA", "FBI fingerprint history", "Simon Cole 'Suspect Identities'"]
+    footage_check: "GOOD. PD mugshot cards of both men (NARA/Wikimedia), PD Bertillon charts."
+  - id: rojas-bloody-print
+    title: "The Thumbprint On A Door That Solved The First Fingerprint Case In History"
+    angle: "In Necochea, Argentina in 1892 a mother blamed a neighbour for her children's deaths.\nJuan Vucetich's method matched a print on the door to her."
+    why_viral: "World-first moment; twist culprit. Keep deaths off-screen."
+    sources: ["Vucetich papers (La Plata museum)", "FBI/NIST fingerprint history", "Wikimedia"]
+    footage_check: "MEDIUM. PD Vucetich portraits, PD fingerprint cards, PD maps."
+  - id: stratton-cash-box
+    title: "One Thumbprint On A Cash Box: Britain's First Fingerprint Murder Trial"
+    angle: "In 1905 two shopkeepers in Deptford were killed and a cash box left a greasy thumbprint.\nScotland Yard matched it to Alfred Stratton; the jury had to decide if fingerprints were science."
+    why_viral: "Courtroom first; science on trial."
+    sources: ["Old Bailey Proceedings May 1905", "Metropolitan Police history", "UK National Archives"]
+    footage_check: "MEDIUM. PD period photos, Old Bailey text, PD fingerprint cards, Pexels London stock."
+  - id: brides-in-the-bath
+    title: "Three Brides, Three Baths: How A Newspaper Reader Spotted The Pattern"
+    angle: "In 1915 a father noticed a report about a bride dying in a bath that matched his daughter's death.\nPathologist Bernard Spilsbury showed how it could be done - with a test in a bath."
+    why_viral: "Ordinary reader + pattern clue. Tasteful: no death imagery."
+    sources: ["Old Bailey trial 1915 (R v Smith)", "Metropolitan Police history", "UK National Archives"]
+    footage_check: "MEDIUM. PD press photos, PD newspaper pages, Spilsbury portraits (PD)."
+  - id: marie-lafarge-marsh-test
+    title: "The Arsenic Test That Put Science On Trial In 1840"
+    angle: "When Marie Lafarge's husband died, local chemists found no poison.\nMathieu Orfila repeated the new Marsh test in court and found arsenic."
+    why_viral: "First great forensic toxicology trial; still debated."
+    sources: ["Lafarge trial reports 1840", "Royal Society of Chemistry history", "Wikimedia PD images"]
+    footage_check: "GOOD. PD lithographs of the trial, PD portraits, PD Marsh apparatus drawings."
+  - id: locard-face-powder
+    title: "The Face Powder Under His Fingernails: How Edmond Locard Broke A Perfect Alibi"
+    angle: "In Lyon in 1912 Emile Gourbin had a solid alibi for his girlfriend's death.\nLocard found pink cosmetic powder under his nails - the start of 'every contact leaves a trace'."
+    why_viral: "Origin of the most famous rule in forensics. Verify details (sources vary)."
+    sources: ["Locard writings (Lyon police lab)", "Forensic history texts", "Wikimedia"]
+    footage_check: "MEDIUM-WEAK. PD Locard photos, PD Lyon photos, microscope stock. Provisional: keep only with >=8 free visuals."
+  - id: markov-umbrella
+    title: "A Pellet Smaller Than A Pinhead: The Umbrella Case On Waterloo Bridge"
+    angle: "In September 1978 Bulgarian dissident Georgi Markov felt a sting on Waterloo Bridge.\nScientists found a tiny drilled pellet in his leg and worked out what had been in it."
+    why_viral: "Spy-thriller clue; Cold War."
+    sources: ["Metropolitan Police statements", "UK inquest reports", "Porton Down analysis (reported)"]
+    footage_check: "MEDIUM. Wikimedia CC Waterloo Bridge and pellet replica photos, Pexels London stock. Provisional."
+  - id: phantom-of-heilbronn
+    title: "Police Hunted A Phantom For 16 Years. The DNA Came From The Cotton Swabs"
+    angle: "The same female DNA turned up at dozens of crime scenes across Europe from 1993.\nIn 2009 investigators traced it to a worker at the factory that packed the swabs."
+    why_viral: "Brilliant twist; forensic limits. No victim detail."
+    sources: ["German police statements 2009", "Der Spiegel / BBC 2009 reports", "Forensic journals on contamination"]
+    footage_check: "MEDIUM. Wikimedia CC Heilbronn photos, lab stock (Pexels), DNA graphics. Provisional."

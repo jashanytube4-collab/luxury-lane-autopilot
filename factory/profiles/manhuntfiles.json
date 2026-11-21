@@ -6,7 +6,7 @@
  "account": 1,
  "engine": "docu",
  "voice": "en-US-ChristopherNeural",
- "rate": "-2%",
+ "rate": "+2%",
  "pitch": "-2Hz",
  "pace_max": 4.0,
  "accent": "#b91c1c",
@@ -23,7 +23,9 @@
   "foreshadow line every 3-4 min",
   "false lead / wrong suspect mid-video",
   "piece-by-piece evidence stack",
-  "capture as the last scene + one-line aftermath + one CTA"
+  "capture as the last scene + one-line aftermath + one CTA",
+  "evidence piece every 90-120 s; footage take max 8 s then graphic",
+  "colour-coded subtitle boxes quoting speech (cyan police / white civilians)"
  ],
  "title_formula": "How The FBI Finally Caught <name/alias> | The <N>-Day Manhunt For <...> | How One <detail> Ended A <N>-Year Manhunt",
  "thumb": {

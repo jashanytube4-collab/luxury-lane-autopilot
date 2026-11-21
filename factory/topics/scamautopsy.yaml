@@ -1,0 +1,124 @@
+# Scam Autopsy - 12 topics (2026-11-21). Formula: 'How <scam> Took $<N> From <N> People' / 'The <N>-Step Con Behind <event>'. Red-flag autopsy cards. No victim faces.
+channel: scamautopsy
+topics:
+  - id: ponzi-reply-coupons
+    title: "How Charles Ponzi Turned Postage Stamps Into $15 Million In 8 Months"
+    angle: "Ponzi found a real price gap in international reply coupons, then could not scale it.\nHe paid early investors with new money until the Boston Post asked questions."
+    why_viral: "Namesake of all Ponzi schemes; the mechanism is rarely explained."
+    sources: ["US v. Ponzi 1920 record", "Boston Post July 1920", "NARA Ponzi case file"]
+    footage_check: "EXCELLENT. 1920s Boston footage and LoC photos on archive.org/Wikimedia (PD)."
+  - id: lustig-eiffel-tower
+    title: "The Con Man Who Sold The Eiffel Tower Twice"
+    angle: "In 1925 Victor Lustig invited scrap-metal dealers to a hotel as a government official.\nHe collected a bribe and payment; the victim was too embarrassed to report it."
+    why_viral: "Absurd and famous; red flags obvious in hindsight."
+    sources: ["US Secret Service/FBI Lustig files", "French press 1925 via Gallica", "Smithsonian/Eiffel Tower history"]
+    footage_check: "EXCELLENT. Gallica/Wikimedia 1925 Paris photos, archive.org 1920s Paris films."
+  - id: great-moon-hoax-1835
+    title: "How A Newspaper Made America Believe There Were Bat-Men On The Moon"
+    angle: "The New York Sun serialised 'discoveries' attributed to astronomer John Herschel that he never made.\nCirculation soared; the paper never fully admitted it."
+    why_viral: "First fake-news mega-hoax; NASA moon footage is free."
+    sources: ["The Sun, Aug 1835 (LoC Chronicling America)", "Smithsonian Magazine", "Herschel letters"]
+    footage_check: "EXCELLENT. NASA Apollo/LRO moon footage (PD), LoC newspaper pages, period engravings."
+  - id: bre-x-gold-salting
+    title: "The Jungle Gold Mine That Never Existed: How Bre-X Fooled The Stock Market"
+    angle: "Core samples from Busang in Borneo showed enormous gold; independent tests found it had been salted.\nA multi-billion-dollar market bubble burst in 1997."
+    why_viral: "One-fact scandal, court-documented."
+    sources: ["Ontario Securities Commission decisions", "Ontario court judgments", "Freeport-McMoRan due diligence record"]
+    footage_check: "MEDIUM. Pexels/Pixabay jungle, mining and gold stock, Wikimedia Borneo map, chart graphics. Avoid news clips."
+  - id: brooklyn-bridge-parker
+    title: "The Man Who Sold The Brooklyn Bridge Twice A Week"
+    angle: "George C. Parker produced fake deeds for New York landmarks around the turn of the century.\nHe targeted immigrants and out-of-towners with believable paperwork."
+    why_viral: "Idiom origin; 'sold the Brooklyn Bridge' is everyday speech."
+    sources: ["NYC Municipal Archives", "NYT on Parker's Sing Sing sentence (verify year)", "Smithsonian"]
+    footage_check: "EXCELLENT. LoC/Edison films of Brooklyn Bridge and NYC (PD), Wikimedia photos."
+  - id: salad-oil-de-angelis
+    title: "The $175 Million Scam Hidden Inside Tanks Of Salad Oil"
+    angle: "Tino De Angelis used storage tanks that were mostly water with oil on top.\nInspectors sampled the top; American Express and brokerages took heavy losses in 1963."
+    why_viral: "Simple physical trick; obscure so fresh."
+    sources: ["SEC release 1964", "US v. De Angelis 1965 (verify loss figure)", "Norman Miller book (leads only)"]
+    footage_check: "MEDIUM. PD oil-tank/refinery footage on archive.org, Wikimedia NJ photos. Drop if <8 PD frames."
+  - id: diamond-hoax-1872
+    title: "The 1872 Diamond Hoax That Fooled Tiffany, Bankers And A General"
+    angle: "Two prospectors salted a remote mesa with uncut gems.\nGeologist Clarence King found the same gems in the wrong rocks and exposed it."
+    why_viral: "Western con with famous victims."
+    sources: ["USGS Clarence King records", "Public records on Arnold and Slack", "Smithsonian/BLM"]
+    footage_check: "GOOD. USGS/NPS landscape footage and PD photos, LoC engravings, Pexels desert stock."
+  - id: equity-funding-1973
+    title: "The Insurance Company That Invented 64,000 Customers On A Computer"
+    angle: "Equity Funding created fake policies to inflate profits in the early 1970s.\nA fired employee's tip to a Wall Street analyst unravelled it."
+    why_viral: "Early digital fraud that echoes modern audits."
+    sources: ["SEC v. Equity Funding", "US v. Weiner 1974", "Congressional hearings"]
+    footage_check: "MEDIUM. archive.org 1970s mainframe films (verify PD), LoC/Wikimedia photos, Pexels data-centre stock."
+  - id: tipton-hot-lotto
+    title: "The Lottery Insider Who Programmed The Winning Numbers"
+    angle: "Eddie Tipton, a lottery security director, installed code that predicted draws on certain days.\nA 2010 Iowa ticket and a gas-station camera exposed the plan."
+    why_viral: "Insider fraud on the lottery."
+    sources: ["State v. Tipton, Iowa district court", "Iowa DCI reports", "Iowa Supreme Court rulings"]
+    footage_check: "MEDIUM. Pexels/Pixabay lottery/gas-station stock, Wikimedia. No news clips. Convicted living: public record only."
+  - id: operation-bernhard
+    title: "The Nazi Plan To Collapse Britain's Economy With Fake Pound Notes"
+    angle: "Prisoners were forced to forge millions of pounds in notes during WWII.\nThe notes fooled experts; crates were dumped in an Austrian lake."
+    why_viral: "WWII plus counterfeiting plus a hidden lake of crates."
+    sources: ["US Army CIC reports (NARA)", "Bank of England Museum", "Survivor testimony with context"]
+    footage_check: "GOOD. US Army Signal Corps films (PD), NARA photos, Wikimedia banknote images. Camp imagery restrained, no gore."
+  - id: alves-dos-reis-1925
+    title: "The Forger Who Printed Portugal's Money With The Central Bank's Own Printer"
+    angle: "In 1925 Alves dos Reis convinced a London printer he had authority to print Portuguese banknotes.\nThe bank found duplicate serial numbers; the scandal shook the government."
+    why_viral: "Untold, grand-scale paper fraud."
+    sources: ["Bank of Portugal records", "Waterlow and Sons court record", "Portuguese parliamentary inquiry"]
+    footage_check: "MEDIUM. Wikimedia Lisbon 1920s photos, archive.org PD 1920s film, Pexels Lisbon stock."
+  - id: kreuger-match-king
+    title: "The Match King Who Fooled Wall Street And Left A $250 Million Hole"
+    angle: "Ivar Kreuger lent governments money and took match monopolies in return.\nAuditors found forged Italian bonds after his 1932 death."
+    why_viral: "Peak 1920s fraud with accounting trick. Verify the loss figure."
+    sources: ["Swedish government commission", "Price Waterhouse reports", "LoC Kreuger photos"]
+    footage_check: "MEDIUM. LoC/Wikimedia 1920s photos, archive.org Prelinger 1920s industrial films."
+  # --- top-up to 20 (2026-11-21 keepbusy). Web-verify figures before scripting; living people = court-record facts only.
+  - id: cardiff-giant
+    title: "The 10-Foot Stone Giant That Fooled America - And The Fake Of The Fake"
+    angle: "In 1869 workers 'found' a giant in a New York farm; a cigar maker had carved it to win an argument.\nP.T. Barnum copied it, and the copy drew bigger crowds."
+    why_viral: "Absurd, family-safe, a twist ending."
+    sources: ["Farmers' Museum Cooperstown", "New York State Historical Association", "LoC photos"]
+    footage_check: "GOOD. PD photos and engravings, Wikimedia photos of the giant today."
+  - id: piltdown-man
+    title: "The Fake Fossil That Fooled Science For 40 Years"
+    angle: "In 1912 a 'missing link' skull was announced in Sussex.\nIn 1953 tests showed a human skull and an orangutan jaw, stained and filed down."
+    why_viral: "Science scam with a lab-test reveal."
+    sources: ["Natural History Museum London Piltdown page", "Weiner, Oakley & Le Gros Clark 1953 (Bulletin BM)", "Wikimedia"]
+    footage_check: "GOOD. PD 1915 group painting, NHM photos (check licence), Wikimedia CC images."
+  - id: poyais-country
+    title: "The Con Man Who Invented An Entire Country And Sold Land In It"
+    angle: "Gregor MacGregor returned to London in 1822 as 'Cazique of Poyais' and sold bonds and land.\nSettlers sailed to Central America and found jungle."
+    why_viral: "Most audacious scam ever; red-flag autopsy fits."
+    sources: ["UK National Archives", "Contemporary London newspapers 1823", "Wikimedia PD portrait and bond images"]
+    footage_check: "MEDIUM. PD portrait, Poyais banknote images, PD maps, Pexels jungle/ship stock."
+  - id: south-sea-bubble-newton
+    title: "The South Sea Bubble: How A Company With Almost No Trade Burned Isaac Newton"
+    angle: "In 1720 South Sea Company shares rose about tenfold on promises of trade it barely had.\nThe crash ruined thousands; Newton reportedly lost a fortune (hedge the amount)."
+    why_viral: "Famous genius loses money = strong hook; bubble lesson is evergreen."
+    sources: ["Parliamentary inquiry 1721", "Bank of England museum", "Hogarth 'The South Sea Scheme' (PD)"]
+    footage_check: "GOOD. Hogarth and other PD prints, PD playing-card satires, PD charts."
+  - id: van-meegeren-goring
+    title: "The Forger Who Sold A Fake Vermeer To Hermann Goring"
+    angle: "After the war Han van Meegeren was charged with selling a national treasure to the Nazis.\nTo prove it was fake, he painted another 'Vermeer' in front of witnesses."
+    why_viral: "Courtroom twist: confessing to forgery to escape treason."
+    sources: ["Rijksmuseum / Museum Boijmans records", "1947 Amsterdam trial reports", "Wikimedia PD photos"]
+    footage_check: "MEDIUM. PD-era press photos (check), Vermeer originals (PD), the forgeries' photos on Wikimedia."
+  - id: cassie-chadwick
+    title: "The Woman Who Borrowed Millions By Claiming To Be Andrew Carnegie's Daughter"
+    angle: "Cassie Chadwick dropped a forged Carnegie note in front of a lawyer in 1897 and banks lined up to lend.\nIn 1904 one loan was called in and a bank collapsed."
+    why_viral: "Bold, simple trick; red-flag autopsy."
+    sources: ["US v. Chadwick 1905", "Cleveland newspapers 1904", "LoC photos"]
+    footage_check: "GOOD. PD photos, newspaper clippings, LoC Carnegie portraits."
+  - id: fox-sisters-rapping
+    title: "Two Sisters Started A Religion With Cracking Toe Joints - Then Confessed 40 Years Later"
+    angle: "In 1848 the Fox sisters' 'spirit rapping' launched Spiritualism.\nIn 1888 Margaret showed a New York audience how she made the sounds."
+    why_viral: "Spooky + reveal. Note: she later retracted the confession - say so."
+    sources: ["New York World 21 Oct 1888", "Hydesville records", "LoC photos"]
+    footage_check: "GOOD. PD photos and engravings, PD seance photos."
+  - id: madoff-split-strike
+    title: "Bernie Madoff's $65 Billion Lie: The Red Flags Everyone Missed"
+    angle: "Madoff reported steady returns for decades; an analyst told the SEC it was impossible in 2000-2005.\nHe confessed to his sons in December 2008."
+    why_viral: "Largest Ponzi ever; red-flag cards fit perfectly. Provisional: visuals."
+    sources: ["SEC OIG report 2009 (PD)", "US v. Madoff plea 2009", "Markopolos SEC submission 2005"]
+    footage_check: "MEDIUM-WEAK. PD gov docs/mugshot (DOJ), Wikimedia CC NYC photos, Pexels Wall Street stock. Keep only with >=8 free visuals (provisional)."

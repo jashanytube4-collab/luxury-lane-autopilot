@@ -529,7 +529,7 @@
   "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 24,
+  "montage_used": 25,
   "remix_ranges": [
    [
     60.155932025090266,
@@ -566,6 +566,10 @@
    [
     41.69503435357267,
     43.917210762093084
+   ],
+   [
+    135.1748291929952,
+    137.3234541473117
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -7996,11 +8000,15 @@
  "hamdan bin mohammed launches integrated housing plan to provide 15 800 homes for nationals in dubai over the next four years": {
   "last_short": "2026-11-23",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     68.66353712110394,
     70.38955653388713
+   ],
+   [
+    60.16602713809089,
+    61.687496784367326
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8239,11 +8247,15 @@
  "hamdan bin mohammed launches the government games initiative": {
   "last_short": "2026-11-23",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     152.44500151607716,
     154.4844126698627
+   ],
+   [
+    188.63193433513356,
+    190.21300026866052
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9449,11 +9461,16 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed meets with participants of dubai leadership camp": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 3,
-  "remix_ranges": [],
+  "montage_used": 4,
+  "remix_ranges": [
+   [
+    46.1614258270347,
+    47.772187292170635
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -9681,11 +9698,16 @@
   "video_len": 63
  },
  "hamdan bin mohammed meets with uae diplomatic mission in india commends ministry of foreign affairs efforts": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 3,
-  "remix_ranges": [],
+  "montage_used": 4,
+  "remix_ranges": [
+   [
+    1.5837444810877725,
+    3.7064503195643526
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -11076,6 +11098,7 @@
   "last_short": "2026-11-23",
   "montage_exhausted": true,
   "montage_used": 7,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     13.23563367599619,
@@ -11107,11 +11130,15 @@
   "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 21,
+  "montage_used": 22,
   "remix_ranges": [
    [
     298.95723771608766,
     300.95265380348434
+   ],
+   [
+    395.84292749284504,
+    397.7760621468674
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11309,11 +11336,15 @@
  "hamdan bin mohammed receives victory team xcat": {
   "last_short": "2026-11-23",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     61.99092501489006,
     63.961461744065005
+   ],
+   [
+    49.919999999999995,
+    51.68
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11442,7 +11473,7 @@
  "hamdan bin mohammed reviews final preparations as hope probe enters the most critical phase of its journey": {
   "last_short": "2026-11-23",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     79.29802385146678,
@@ -11451,6 +11482,10 @@
    [
     53.813393065136616,
     56.04598096606046
+   ],
+   [
+    82.87454472513723,
+    84.37678223338243
    ]
   ],
   "remix_reset": "2026-11-20",

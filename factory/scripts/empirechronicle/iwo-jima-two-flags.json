@@ -1,0 +1,1152 @@
+{
+"channel": "empirechronicle",
+"slug": "iwo-jima-two-flags",
+"title": "The True Story Behind Flags Of Our Fathers: The Two Flags Of Iwo Jima",
+"thumb": {
+"strip": "THE TRUE STORY",
+"words": "FLAG #2",
+"face_q": "Raising the Flag on Iwo Jima"
+},
+"sources": [
+"marines.mil press releases: 'Marine Corps updates its official records of first flag raising over Iwo Jima' (2016) and 'Correction to the Identity of Marines in Photograph of the Flag Raising on Mount Suribachi' (2019, Keller for Gagnon)",
+"NPR 2016: 'Marines confirm decades-old case of mistaken identity in Iwo Jima photo' (Schultz for Bradley)",
+"Joe Rosenthal / Associated Press accounts of the second raising; Bill Genaust colour film (USMC, public domain)",
+"Footage: USMC / US Navy / NARA films incl. 'To the Shores of Iwo Jima' (1945, public domain); USMC and US Navy photos (public domain). Rosenthal's AP photo shown as a historic news image - check licence before upload; fallback Lowery/Genaust USMC images",
+"Hedged in script: 'the story goes' (Johnson's second flag order), 'about' 750 mi / 8 sq mi / 550 ft / 8-ft flag / 2 days to print, 'roughly' 20,000 defenders, 'almost' 7,000 US dead, 'as reported' mother's words, 'almost never' Schultz silence; '27 MoH' = 'one of the highest numbers'"
+],
+"beats": [
+{
+"text": "It is the most famous photograph of the Second World War. Six men pushing a flag pole into the sky on top of a volcano.",
+"v": [
+{
+"t": "photo",
+"q": "Raising the Flag on Iwo Jima"
+},
+{
+"t": "card",
+"text": "THE PHOTO"
+}
+]
+},
+{
+"text": "But it was not the first flag. Another flag had already been flying on that mountain for about two hours.",
+"v": [
+{
+"t": "photo",
+"q": "First flag raising Iwo Jima Lowery"
+},
+{
+"t": "big",
+"big": "FLAG #2",
+"small": "not the first"
+}
+]
+},
+{
+"text": "And for seventy four years, the United States Marine Corps had the names of the men in the picture wrong.",
+"v": [
+{
+"t": "photo",
+"q": "Raising the Flag on Iwo Jima"
+},
+{
+"t": "big",
+"big": "74 YEARS",
+"small": "wrong names"
+}
+]
+},
+{
+"text": "The film Flags of Our Fathers told part of this story. The real story is stranger, and a lot sadder.",
+"v": [
+{
+"t": "video",
+"q": "Battle of Iwo Jima 1945 footage",
+"alt": "Iwo Jima 1945"
+},
+{
+"t": "card",
+"text": "THE REAL STORY"
+}
+]
+},
+{
+"text": "Iwo Jima is a tiny island in the Pacific, about seven hundred and fifty miles south of Tokyo. It is only about eight square miles.",
+"v": [
+{
+"t": "photo",
+"q": "Iwo Jima aerial photograph"
+},
+{
+"t": "big",
+"big": "8 SQ MILES",
+"small": "of volcanic rock"
+}
+]
+},
+{
+"text": "It had almost no water, no trees and no towns worth taking. What it had was airfields.",
+"v": [
+{
+"t": "photo",
+"q": "Iwo Jima airfield 1945"
+},
+{
+"t": "card",
+"text": "THE AIRFIELDS"
+}
+]
+},
+{
+"text": "American bombers flying from the Mariana Islands to Japan passed right over it. Japanese fighters and radar on Iwo Jima warned the mainland and attacked the bombers.",
+"v": [
+{
+"t": "video",
+"q": "B-29 Superfortress 1945 footage",
+"alt": "B-29 bomber"
+},
+{
+"t": "photo",
+"q": "Iwo Jima map 1945"
+}
+]
+},
+{
+"text": "If America took the island, damaged bombers would have a place to land halfway home.",
+"v": [
+{
+"t": "video",
+"q": "B-29 landing 1945",
+"alt": "B-29 bomber landing"
+},
+{
+"t": "card",
+"text": "HALFWAY HOME"
+}
+]
+},
+{
+"text": "At the southern tip stood a dead volcano, Mount Suribachi, about five hundred and fifty feet high. From the top, you could see the whole island.",
+"v": [
+{
+"t": "photo",
+"q": "Mount Suribachi"
+},
+{
+"t": "big",
+"big": "SURIBACHI",
+"small": "550 feet"
+}
+]
+},
+{
+"text": "The Japanese commander, General Tadamichi Kuribayashi, knew he could not win. So he planned to make the battle as costly as possible.",
+"v": [
+{
+"t": "photo",
+"q": "Tadamichi Kuribayashi"
+},
+{
+"t": "big",
+"big": "KURIBAYASHI",
+"small": "the commander"
+}
+]
+},
+{
+"text": "He did not defend the beaches. He put his roughly twenty thousand men underground.",
+"v": [
+{
+"t": "photo",
+"q": "Iwo Jima Japanese bunker"
+},
+{
+"t": "big",
+"big": "~20,000",
+"small": "men underground"
+}
+]
+},
+{
+"text": "They dug miles of tunnels, caves and bunkers through the soft volcanic rock, and they were ordered to kill ten Americans each before they died.",
+"v": [
+{
+"t": "photo",
+"q": "Iwo Jima cave tunnel 1945"
+},
+{
+"t": "card",
+"text": "TEN EACH"
+}
+]
+},
+{
+"text": "For months American planes bombed the island, and for three days before the landing the navy shelled it. Most of the defenders simply waited below.",
+"v": [
+{
+"t": "video",
+"q": "naval bombardment Iwo Jima 1945",
+"alt": "battleship firing 1945"
+},
+{
+"t": "card",
+"text": "THEY WAITED"
+}
+]
+},
+{
+"text": "On the nineteenth of February 1945, the Marines landed.",
+"v": [
+{
+"t": "video",
+"q": "Iwo Jima landing 1945 footage",
+"alt": "amphibious landing 1945"
+},
+{
+"t": "big",
+"big": "19 FEBRUARY 1945",
+"small": "D-Day on Iwo Jima"
+}
+]
+},
+{
+"text": "The black volcanic sand was so soft that men sank to their ankles and vehicles got stuck on the beach.",
+"v": [
+{
+"t": "video",
+"q": "Iwo Jima beach black sand 1945",
+"alt": "Marines beach 1945"
+},
+{
+"t": "card",
+"text": "BLACK SAND"
+}
+]
+},
+{
+"text": "Then, once the beach was crowded, the hidden guns opened fire.",
+"v": [
+{
+"t": "video",
+"q": "Iwo Jima combat 1945 footage",
+"alt": "Marines combat 1945"
+},
+{
+"t": "card",
+"text": "THE TRAP"
+}
+]
+},
+{
+"text": "By the end of the first day, about thirty thousand Marines were ashore, and more than two thousand of them were dead or wounded.",
+"v": [
+{
+"t": "video",
+"q": "Marines Iwo Jima first day",
+"alt": "Marines 1945"
+},
+{
+"t": "big",
+"big": "2,000+",
+"small": "casualties on day one"
+}
+]
+},
+{
+"text": "The first job was to cut off Suribachi. The 28th Marine Regiment fought its way across the narrow neck of the island and then turned toward the mountain.",
+"v": [
+{
+"t": "photo",
+"q": "Iwo Jima map Suribachi 28th Marines"
+},
+{
+"t": "big",
+"big": "28TH MARINES",
+"small": "toward the volcano"
+}
+]
+},
+{
+"text": "For four days they attacked its slopes, cave by cave.",
+"v": [
+{
+"t": "video",
+"q": "flamethrower Iwo Jima 1945",
+"alt": "flamethrower 1945"
+},
+{
+"t": "card",
+"text": "CAVE BY CAVE"
+}
+]
+},
+{
+"text": "On the morning of the twenty third of February, a patrol of about forty men from Easy Company was sent up to the summit.",
+"v": [
+{
+"t": "video",
+"q": "Marines climbing Suribachi",
+"alt": "Marines patrol 1945"
+},
+{
+"t": "big",
+"big": "23 FEBRUARY",
+"small": "the patrol"
+}
+]
+},
+{
+"text": "They were led by First Lieutenant Harold Schrier. In his pack was a small American flag, taken from a navy transport ship.",
+"v": [
+{
+"t": "photo",
+"q": "Harold Schrier"
+},
+{
+"t": "card",
+"text": "A SMALL FLAG"
+}
+]
+},
+{
+"text": "They expected a fight at the top. Instead it was quiet.",
+"v": [
+{
+"t": "photo",
+"q": "Mount Suribachi summit"
+},
+{
+"t": "card",
+"text": "QUIET"
+}
+]
+},
+{
+"text": "The men found a length of iron pipe, tied the flag to it, and pushed it into the ground on the rim of the crater.",
+"v": [
+{
+"t": "photo",
+"q": "First flag raising Iwo Jima Lowery"
+},
+{
+"t": "big",
+"big": "FLAG #1",
+"small": "about 10:20 am"
+}
+]
+},
+{
+"text": "A Marine photographer, Sergeant Louis Lowery, took pictures of the moment.",
+"v": [
+{
+"t": "photo",
+"q": "Louis R. Lowery Iwo Jima"
+},
+{
+"t": "card",
+"text": "THE FIRST PHOTO"
+}
+]
+},
+{
+"text": "Down on the beaches, men saw the tiny flag. They cheered. Ships offshore blew their horns.",
+"v": [
+{
+"t": "video",
+"q": "Iwo Jima ships offshore 1945",
+"alt": "navy ships 1945"
+},
+{
+"t": "card",
+"text": "THE CHEER"
+}
+]
+},
+{
+"text": "Then Japanese soldiers came out of a cave and attacked the patrol. Lowery dove away and broke his camera, but his film survived.",
+"v": [
+{
+"t": "video",
+"q": "Iwo Jima combat 1945",
+"alt": "Marines firing 1945"
+},
+{
+"t": "card",
+"text": "THE FILM SURVIVED"
+}
+]
+},
+{
+"text": "On the beach, the Secretary of the Navy, James Forrestal, had just come ashore.",
+"v": [
+{
+"t": "photo",
+"q": "James Forrestal"
+},
+{
+"t": "big",
+"big": "FORRESTAL",
+"small": "Secretary of the Navy"
+}
+]
+},
+{
+"text": "He turned to the Marine general Holland Smith and said this.",
+"v": [
+{
+"t": "photo",
+"q": "Holland Smith general"
+},
+{
+"t": "card",
+"text": "HE SAID"
+}
+]
+},
+{
+"text": "The raising of that flag on Suribachi means a Marine Corps for the next five hundred years.",
+"v": [
+{
+"t": "quote",
+"text": "The raising of that flag on Suribachi means a Marine Corps for the next 500 years.",
+"by": "James Forrestal, 23 Feb 1945"
+},
+{
+"t": "photo",
+"q": "Mount Suribachi flag 1945"
+}
+]
+},
+{
+"text": "And then Forrestal said he wanted that flag as a souvenir.",
+"v": [
+{
+"t": "photo",
+"q": "James Forrestal 1945"
+},
+{
+"t": "card",
+"text": "THE SOUVENIR"
+}
+]
+},
+{
+"text": "The battalion commander, Lieutenant Colonel Chandler Johnson, did not like that at all. The flag belonged to his men.",
+"v": [
+{
+"t": "photo",
+"q": "Chandler W. Johnson"
+},
+{
+"t": "card",
+"text": "NOT A CHANCE"
+}
+]
+},
+{
+"text": "So, the story goes, he ordered a second, bigger flag to be taken up the mountain, so the first one could come down and stay with the battalion.",
+"v": [
+{
+"t": "photo",
+"q": "LST-779"
+},
+{
+"t": "big",
+"big": "FLAG #2",
+"small": "a bigger one"
+}
+]
+},
+{
+"text": "The bigger flag, about eight feet long, came from a landing ship on the beach.",
+"v": [
+{
+"t": "video",
+"q": "LST landing ship Iwo Jima 1945",
+"alt": "landing ship 1945"
+},
+{
+"t": "big",
+"big": "~8 FEET",
+"small": "long"
+}
+]
+},
+{
+"text": "A young runner named Rene Gagnon carried it up the slope, along with fresh radio batteries.",
+"v": [
+{
+"t": "photo",
+"q": "Rene Gagnon"
+},
+{
+"t": "big",
+"big": "GAGNON",
+"small": "the runner"
+}
+]
+},
+{
+"text": "With him went a small team led by Sergeant Michael Strank, who had been sent up to lay a telephone wire.",
+"v": [
+{
+"t": "photo",
+"q": "Michael Strank"
+},
+{
+"t": "big",
+"big": "STRANK",
+"small": "the sergeant"
+}
+]
+},
+{
+"text": "Behind them, three combat photographers were climbing too. One of them was Joe Rosenthal of the Associated Press.",
+"v": [
+{
+"t": "photo",
+"q": "Joe Rosenthal"
+},
+{
+"t": "big",
+"big": "ROSENTHAL",
+"small": "Associated Press"
+}
+]
+},
+{
+"text": "Rosenthal almost did not go up. On the way, he met Lowery coming down, who told him the flag was already raised.",
+"v": [
+{
+"t": "photo",
+"q": "Mount Suribachi slope 1945"
+},
+{
+"t": "card",
+"text": "TOO LATE?"
+}
+]
+},
+{
+"text": "He climbed anyway, because the view from the top might still make a good picture.",
+"v": [
+{
+"t": "photo",
+"q": "view from Mount Suribachi"
+},
+{
+"t": "card",
+"text": "HE CLIMBED ANYWAY"
+}
+]
+},
+{
+"text": "At the top, Rosenthal saw a group of Marines tying the big flag to a heavy pipe. The old flag was about to come down.",
+"v": [
+{
+"t": "photo",
+"q": "Mount Suribachi summit 1945"
+},
+{
+"t": "card",
+"text": "THE SWAP"
+}
+]
+},
+{
+"text": "He was short, so he piled up some stones and sandbags to stand on.",
+"v": [
+{
+"t": "photo",
+"q": "Speed Graphic camera"
+},
+{
+"t": "card",
+"text": "STANDING ON ROCKS"
+}
+]
+},
+{
+"text": "Right next to him, Marine Sergeant Bill Genaust was holding a movie camera loaded with colour film.",
+"v": [
+{
+"t": "photo",
+"q": "Bill Genaust"
+},
+{
+"t": "big",
+"big": "GENAUST",
+"small": "colour movie film"
+}
+]
+},
+{
+"text": "Out of the corner of his eye Rosenthal saw the pole start to rise. He swung his camera up and pressed the button without looking through the viewfinder properly.",
+"v": [
+{
+"t": "video",
+"q": "Iwo Jima flag raising film Genaust",
+"alt": "flag raising 1945"
+},
+{
+"t": "card",
+"text": "ONE CLICK"
+}
+]
+},
+{
+"text": "It took a fraction of a second. He had no idea if he had even caught it.",
+"v": [
+{
+"t": "photo",
+"q": "Raising the Flag on Iwo Jima"
+},
+{
+"t": "big",
+"big": "1/400 SEC",
+"small": "one frame"
+}
+]
+},
+{
+"text": "Then, to be safe, he asked a group of Marines to gather and wave under the flag. He called it his gung-ho shot.",
+"v": [
+{
+"t": "photo",
+"q": "Gung Ho photo Iwo Jima Rosenthal"
+},
+{
+"t": "card",
+"text": "THE SECOND SHOT"
+}
+]
+},
+{
+"text": "That second picture would cause him trouble for the rest of his life.",
+"v": [
+{
+"t": "photo",
+"q": "Joe Rosenthal 1945"
+},
+{
+"t": "card",
+"text": "THE TROUBLE"
+}
+]
+},
+{
+"text": "His film was flown to Guam to be developed. When the editor saw the flag picture, he knew at once what it was.",
+"v": [
+{
+"t": "photo",
+"q": "Guam 1945"
+},
+{
+"t": "card",
+"text": "GUAM"
+}
+]
+},
+{
+"text": "Within about two days it was on the front pages of newspapers all over America.",
+"v": [
+{
+"t": "photo",
+"q": "Iwo Jima newspaper front page 1945"
+},
+{
+"t": "big",
+"big": "FRONT PAGE",
+"small": "across America"
+}
+]
+},
+{
+"text": "Weeks later a journalist asked Rosenthal if the photo was posed. He thought they meant the gung-ho group shot, and said sure.",
+"v": [
+{
+"t": "photo",
+"q": "Joe Rosenthal portrait"
+},
+{
+"t": "quote",
+"text": "Sure.",
+"by": "Joe Rosenthal, asked if it was posed"
+}
+]
+},
+{
+"text": "A rumour started that the famous flag raising was staged. Rosenthal spent decades denying it.",
+"v": [
+{
+"t": "photo",
+"q": "Raising the Flag on Iwo Jima"
+},
+{
+"t": "card",
+"text": "STAGED?"
+}
+]
+},
+{
+"text": "The proof was in Genaust's colour film, which shows the flag going up from almost the same spot, in one real movement.",
+"v": [
+{
+"t": "video",
+"q": "Iwo Jima flag raising film Genaust",
+"alt": "flag raising 1945"
+},
+{
+"t": "card",
+"text": "THE PROOF"
+}
+]
+},
+{
+"text": "Genaust never got to defend his own film. About ten days later he was killed in a cave on the island. His body was never found.",
+"v": [
+{
+"t": "photo",
+"q": "Bill Genaust"
+},
+{
+"t": "card",
+"text": "NEVER FOUND"
+}
+]
+},
+{
+"text": "Back home, the photo became a symbol overnight, and the president wanted the men in it sent home.",
+"v": [
+{
+"t": "photo",
+"q": "Franklin D. Roosevelt 1945"
+},
+{
+"t": "card",
+"text": "BRING THEM HOME"
+}
+]
+},
+{
+"text": "The government wanted them for a war bond tour. America needed money to finish the war.",
+"v": [
+{
+"t": "photo",
+"q": "Seventh War Loan poster"
+},
+{
+"t": "big",
+"big": "WAR BONDS",
+"small": "the 7th War Loan"
+}
+]
+},
+{
+"text": "But there was a problem. In the photo you cannot see a single face clearly. So who were they?",
+"v": [
+{
+"t": "photo",
+"q": "Raising the Flag on Iwo Jima"
+},
+{
+"t": "card",
+"text": "WHO WERE THEY?"
+}
+]
+},
+{
+"text": "By then, some of them were already dead.",
+"v": [
+{
+"t": "video",
+"q": "Iwo Jima combat 1945",
+"alt": "Marines 1945"
+},
+{
+"t": "card",
+"text": "ALREADY GONE"
+}
+]
+},
+{
+"text": "Sergeant Michael Strank and Corporal Harlon Block were killed on the first of March. Private Franklin Sousley was killed three weeks later.",
+"v": [
+{
+"t": "list",
+"title": "KILLED ON IWO JIMA",
+"lines": [
+"Sgt Michael Strank",
+"Cpl Harlon Block",
+"Pfc Franklin Sousley"
+]
+},
+{
+"t": "photo",
+"q": "Iwo Jima cemetery 1945"
+}
+]
+},
+{
+"text": "Rene Gagnon was asked to name the men. He named Harlon Block's place in the photo as Henry Hansen, a man who was actually in the first flag raising.",
+"v": [
+{
+"t": "photo",
+"q": "Rene Gagnon"
+},
+{
+"t": "card",
+"text": "THE FIRST MISTAKE"
+}
+]
+},
+{
+"text": "Harlon Block's mother looked at the picture and said that was her son. Almost nobody listened to her.",
+"v": [
+{
+"t": "photo",
+"q": "Harlon Block"
+},
+{
+"t": "quote",
+"text": "That's Harlon.",
+"by": "his mother, as reported"
+}
+]
+},
+{
+"text": "It was Ira Hayes, a Pima Marine from Arizona, who finally backed her up. In 1947 the Marine Corps corrected the record.",
+"v": [
+{
+"t": "photo",
+"q": "Ira Hayes"
+},
+{
+"t": "big",
+"big": "1947",
+"small": "first correction"
+}
+]
+},
+{
+"text": "Three of the men were sent on the bond tour: Gagnon, Hayes, and a navy medic named John Bradley.",
+"v": [
+{
+"t": "photo",
+"q": "Ira Hayes Rene Gagnon John Bradley 1945"
+},
+{
+"t": "list",
+"title": "THE BOND TOUR",
+"lines": [
+"Rene Gagnon",
+"Ira Hayes",
+"John Bradley"
+]
+}
+]
+},
+{
+"text": "The Seventh War Loan raised more than twenty six billion dollars.",
+"v": [
+{
+"t": "photo",
+"q": "Seventh War Loan poster 1945"
+},
+{
+"t": "big",
+"big": "$26 BILLION",
+"small": "raised"
+}
+]
+},
+{
+"text": "Ira Hayes hated being called a hero while his friends lay buried on the island. He struggled with drinking, and he died in 1955 at just thirty two.",
+"v": [
+{
+"t": "photo",
+"q": "Ira Hayes"
+},
+{
+"t": "card",
+"text": "NOT A HERO"
+}
+]
+},
+{
+"text": "John Bradley went home, became a funeral director, and almost never talked about it.",
+"v": [
+{
+"t": "photo",
+"q": "John Bradley Navy corpsman"
+},
+{
+"t": "card",
+"text": "HE NEVER TALKED"
+}
+]
+},
+{
+"text": "After he died, his son James wrote the book Flags of Our Fathers. Clint Eastwood turned it into the film.",
+"v": [
+{
+"t": "photo",
+"q": "Flags of Our Fathers book"
+},
+{
+"t": "card",
+"text": "THE BOOK"
+}
+]
+},
+{
+"text": "And here is the twist. Years after the film, amateur historians studied the photos frame by frame, and spotted something.",
+"v": [
+{
+"t": "photo",
+"q": "Raising the Flag on Iwo Jima"
+},
+{
+"t": "card",
+"text": "THE TWIST"
+}
+]
+},
+{
+"text": "The man everyone thought was John Bradley was wearing different gear from what Bradley wore that day.",
+"v": [
+{
+"t": "photo",
+"q": "Raising the Flag on Iwo Jima detail"
+},
+{
+"t": "card",
+"text": "WRONG GEAR"
+}
+]
+},
+{
+"text": "In 2016 the Marine Corps agreed. John Bradley was in the first flag raising, but not in the famous photo. The man was Private Harold Schultz.",
+"v": [
+{
+"t": "photo",
+"q": "Harold Schultz Marine"
+},
+{
+"t": "big",
+"big": "2016",
+"small": "Bradley out, Schultz in"
+}
+]
+},
+{
+"text": "Schultz almost never spoke about it, and he died in 1995 without ever going public.",
+"v": [
+{
+"t": "photo",
+"q": "Harold Schultz"
+},
+{
+"t": "card",
+"text": "HE NEVER SAID"
+}
+]
+},
+{
+"text": "Then in 2019 came a second correction. Rene Gagnon, the runner who carried the flag up the mountain, is not in the photo either. The man was Corporal Harold Keller.",
+"v": [
+{
+"t": "photo",
+"q": "Harold Keller Marine"
+},
+{
+"t": "big",
+"big": "2019",
+"small": "Gagnon out, Keller in"
+}
+]
+},
+{
+"text": "So the man who brought the famous flag to the top was not in the famous picture, and he spent his life on stage as one of its heroes.",
+"v": [
+{
+"t": "photo",
+"q": "Rene Gagnon"
+},
+{
+"t": "card",
+"text": "HE BROUGHT THE FLAG"
+}
+]
+},
+{
+"text": "Today the six men are listed as Strank, Block, Sousley, Hayes, Schultz and Keller.",
+"v": [
+{
+"t": "list",
+"title": "THE SIX MEN, AS NOW LISTED",
+"lines": [
+"Michael Strank",
+"Harlon Block",
+"Franklin Sousley",
+"Ira Hayes",
+"Harold Schultz",
+"Harold Keller"
+]
+},
+{
+"t": "photo",
+"q": "Raising the Flag on Iwo Jima"
+}
+]
+},
+{
+"text": "And the battle? When the second flag went up, it was only day five. The fighting went on for more than a month.",
+"v": [
+{
+"t": "video",
+"q": "Battle of Iwo Jima 1945 footage",
+"alt": "Iwo Jima 1945"
+},
+{
+"t": "big",
+"big": "DAY 5",
+"small": "of 36"
+}
+]
+},
+{
+"text": "Almost seven thousand Americans were killed. Of the roughly twenty thousand Japanese defenders, only a few hundred were taken alive.",
+"v": [
+{
+"t": "video",
+"q": "Iwo Jima cemetery 1945",
+"alt": "military cemetery"
+},
+{
+"t": "list",
+"title": "THE COST",
+"lines": [
+"~7,000 Americans killed",
+"~26,000 US casualties",
+"only a few hundred Japanese captured"
+]
+}
+]
+},
+{
+"text": "It was one of the very few Pacific battles where American casualties were higher than Japanese ones.",
+"v": [
+{
+"t": "video",
+"q": "Marines Iwo Jima 1945",
+"alt": "Marines 1945"
+},
+{
+"t": "card",
+"text": "THE PRICE"
+}
+]
+},
+{
+"text": "Twenty seven Medals of Honor were awarded for Iwo Jima, one of the highest numbers for any single battle in American history.",
+"v": [
+{
+"t": "photo",
+"q": "Medal of Honor"
+},
+{
+"t": "big",
+"big": "27",
+"small": "Medals of Honor"
+}
+]
+},
+{
+"text": "General Kuribayashi died in the last days of the fighting. His body was never identified.",
+"v": [
+{
+"t": "photo",
+"q": "Tadamichi Kuribayashi"
+},
+{
+"t": "card",
+"text": "NEVER IDENTIFIED"
+}
+]
+},
+{
+"text": "And the damaged bombers did use the island. Thousands of crewmen landed safely on Iwo Jima before the war ended.",
+"v": [
+{
+"t": "video",
+"q": "B-29 Iwo Jima landing 1945",
+"alt": "B-29 bomber"
+},
+{
+"t": "card",
+"text": "THEY LANDED"
+}
+]
+},
+{
+"text": "Both flags survive. They hang today in the National Museum of the Marine Corps in Virginia.",
+"v": [
+{
+"t": "photo",
+"q": "National Museum of the Marine Corps"
+},
+{
+"t": "card",
+"text": "BOTH FLAGS"
+}
+]
+},
+{
+"text": "So how true is the famous version? The flag raising was real. It was not staged.",
+"v": [
+{
+"t": "photo",
+"q": "Raising the Flag on Iwo Jima"
+},
+{
+"t": "card",
+"text": "THE VERDICT"
+}
+]
+},
+{
+"text": "But it was the second flag, raised by a mix of men no one could name for seventy four years, and three of them never came home.",
+"v": [
+{
+"t": "list",
+"title": "WHAT REALLY HAPPENED",
+"lines": [
+"the first flag came down",
+"the photo was not staged",
+"the names were wrong",
+"three never came home"
+]
+},
+{
+"t": "photo",
+"q": "Raising the Flag on Iwo Jima"
+}
+]
+},
+{
+"text": "If you want the true story behind the next big war film, subscribe. The real history is always stranger.",
+"v": [
+{
+"t": "video",
+"q": "Battle of Iwo Jima 1945 footage",
+"alt": "Iwo Jima 1945"
+},
+{
+"t": "card",
+"text": "THE TRUE STORY"
+}
+]
+}
+]
+}

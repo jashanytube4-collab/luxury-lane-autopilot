@@ -23,8 +23,13 @@
   },
   {
    "at": "2026-11-23T07:30:18+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Nothing fake. Just Fazza. #youtube #youtubeshorts",
+   "type": "short",
+   "video_id": "XmlHoPCm1Zs",
+   "voiced": true
   },
   {
    "at": "2026-11-23T08:08:19+04:00",

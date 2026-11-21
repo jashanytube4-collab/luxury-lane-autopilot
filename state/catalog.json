@@ -3427,11 +3427,15 @@
  "hamdan bin mohammed attends dubai police academy graduation ceremony": {
   "last_short": "2026-11-23",
   "long": "2026-10-30",
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     10.986666666666666,
     13.013333333333334
+   ],
+   [
+    133.4884150005956,
+    135.45176795921515
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8629,7 +8633,7 @@
   "last_short": "2026-11-23",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     53.9493408689339,
@@ -8646,6 +8650,10 @@
    [
     9.239999999999998,
     11.120000000000001
+   ],
+   [
+    0.8669293376428027,
+    2.878895849618467
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8963,6 +8971,7 @@
   "long": "2026-10-30",
   "montage_exhausted": true,
   "photo_short": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
@@ -9153,11 +9162,16 @@
   "video_len": 37
  },
  "hamdan bin mohammed meets with india s defence minister": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-11-23",
   "long": "2026-10-15",
   "montage_exhausted": true,
-  "montage_used": 1,
-  "remix_ranges": [],
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    13.239999999999998,
+    15.32
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -10570,8 +10584,13 @@
  "hamdan bin mohammed opens gitex tech week 2017": {
   "last_short": "2026-11-23",
   "long": "2026-10-14",
-  "montage_used": 28,
-  "remix_ranges": [],
+  "montage_used": 29,
+  "remix_ranges": [
+   [
+    332.64461795604365,
+    334.7148975087575
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 3,
   "shot_ranges": [
@@ -12037,7 +12056,7 @@
  "hamdan bin mohammed tours dubai airshow 2023": {
   "last_short": "2026-11-23",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     9.751827196072886,
@@ -12046,6 +12065,10 @@
    [
     44.05333333333333,
     45.88
+   ],
+   [
+    64.65333333333334,
+    66.91333333333333
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12156,11 +12179,15 @@
   "last_short": "2026-11-23",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     55.02960752090558,
     56.4739142352065
+   ],
+   [
+    41.57360443710666,
+    43.58005009259985
    ]
   ],
   "remix_reset": "2026-11-20",

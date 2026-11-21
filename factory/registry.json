@@ -14,8 +14,9 @@
    "myth->correction",
    "rule of 3 facts"
   ],
-  "cadence_per_week": 2,
-  "kind": "new"
+  "cadence_per_week": 1,
+  "kind": "new",
+  "cadence_max_per_week": 2
  },
  {
   "key": "thelastclue",
@@ -31,8 +32,9 @@
    "case timeline",
    "one overlooked detail reveal"
   ],
-  "cadence_per_week": 2,
-  "kind": "new"
+  "cadence_per_week": 1,
+  "kind": "new",
+  "cadence_max_per_week": 2
  },
  {
   "key": "neuralshortcuts",
@@ -48,8 +50,9 @@
    "tool demo graphics",
    "before/after time saved"
   ],
-  "cadence_per_week": 2,
-  "kind": "new"
+  "cadence_per_week": 1,
+  "kind": "new",
+  "cadence_max_per_week": 2
  },
  {
   "key": "mindforgearc",
@@ -65,8 +68,9 @@
    "discipline rules",
    "story of a habit"
   ],
-  "cadence_per_week": 2,
-  "kind": "new"
+  "cadence_per_week": 1,
+  "kind": "new",
+  "cadence_max_per_week": 2
  },
  {
   "key": "frontlineatlas",
@@ -82,8 +86,9 @@
    "map-led geopolitics",
    "why question"
   ],
-  "cadence_per_week": 2,
-  "kind": "new"
+  "cadence_per_week": 1,
+  "kind": "new",
+  "cadence_max_per_week": 2
  },
  {
   "key": "byteodyssey",
@@ -99,8 +104,9 @@
    "big question",
    "tech history timeline"
   ],
-  "cadence_per_week": 2,
-  "kind": "new"
+  "cadence_per_week": 1,
+  "kind": "new",
+  "cadence_max_per_week": 2
  },
  {
   "key": "pageremedy",
@@ -116,8 +122,9 @@
    "book idea per chapter",
    "problem->fix"
   ],
-  "cadence_per_week": 2,
-  "kind": "new"
+  "cadence_per_week": 1,
+  "kind": "new",
+  "cadence_max_per_week": 2
  },
  {
   "key": "hiddenmarkets",
@@ -133,8 +140,9 @@
    "chart + map",
    "how it really works"
   ],
-  "cadence_per_week": 2,
-  "kind": "new"
+  "cadence_per_week": 1,
+  "kind": "new",
+  "cadence_max_per_week": 2
  },
  {
   "key": "leviathanlore",
@@ -150,8 +158,9 @@
    "giant scale comparisons",
    "creature profile"
   ],
-  "cadence_per_week": 2,
-  "kind": "new"
+  "cadence_per_week": 1,
+  "kind": "new",
+  "cadence_max_per_week": 2
  },
  {
   "key": "empirechronicle",
@@ -167,8 +176,9 @@
    "rise/fall arc",
    "paintings + maps"
   ],
-  "cadence_per_week": 2,
-  "kind": "new"
+  "cadence_per_week": 1,
+  "kind": "new",
+  "cadence_max_per_week": 2
  },
  {
   "key": "boardroomwars",
@@ -184,8 +194,9 @@
    "rivalry arc",
    "betrayal reveal"
   ],
-  "cadence_per_week": 2,
-  "kind": "new"
+  "cadence_per_week": 1,
+  "kind": "new",
+  "cadence_max_per_week": 2
  },
  {
   "key": "manhuntfiles",
@@ -201,8 +212,9 @@
    "investigation steps",
    "chase timeline"
   ],
-  "cadence_per_week": 2,
-  "kind": "new"
+  "cadence_per_week": 1,
+  "kind": "new",
+  "cadence_max_per_week": 2
  },
  {
   "key": "scamautopsy",
@@ -218,8 +230,9 @@
    "how it worked step by step",
    "who fell for it"
   ],
-  "cadence_per_week": 2,
-  "kind": "new"
+  "cadence_per_week": 1,
+  "kind": "new",
+  "cadence_max_per_week": 2
  },
  {
   "key": "luxurylane",
@@ -227,7 +240,9 @@
   "ref": null,
   "engine": "lane",
   "kind": "existing",
-  "pipeline": "own autopilot (lane/) - running"
+  "pipeline": "own autopilot (lane/) - running",
+  "cadence_per_week": 7,
+  "cadence_max_per_week": 7
  },
  {
   "key": "deepspace",
@@ -235,7 +250,9 @@
   "ref": null,
   "engine": "cosmos",
   "kind": "existing",
-  "pipeline": "own pipeline D:/Jashan/Desktop/cosmic_mysteries_channel - running"
+  "pipeline": "own pipeline D:/Jashan/Desktop/cosmic_mysteries_channel - running",
+  "cadence_per_week": 1,
+  "cadence_max_per_week": 2
  },
  {
   "key": "barrelbrief",
@@ -243,7 +260,9 @@
   "ref": null,
   "engine": "charts",
   "kind": "existing",
-  "pipeline": "work/evergreen/engine.py - ep1 render bug"
+  "pipeline": "work/evergreen/engine.py - ep1 render bug",
+  "cadence_per_week": 1,
+  "cadence_max_per_week": 2
  },
  {
   "key": "ratedesk",
@@ -251,6 +270,8 @@
   "ref": null,
   "engine": "charts",
   "kind": "existing",
-  "pipeline": "work/evergreen/engine.py - same engine"
+  "pipeline": "work/evergreen/engine.py - same engine",
+  "cadence_per_week": 1,
+  "cadence_max_per_week": 2
  }
 ]

@@ -1,0 +1,1052 @@
+{
+"channel": "manhuntfiles",
+"slug": "karpis-canal-street",
+"title": "The 836-Day Hunt For Alvin Karpis, The Last Public Enemy",
+"thumb": {
+"badge": "DAY 836",
+"words": "NO CUFFS",
+"face_q": "Alvin Karpis"
+},
+"sources": [
+"FBI.gov History, Famous Cases & Criminals: Barker/Karpis Gang",
+"FBI.gov New Orleans field office history; 'A Byte Out of History' (May 2012)",
+"Wikipedia: Alvin Karpis; Barker-Karpis Gang; Ma Barker; Doc Barker; Ocklawaha, Florida",
+"Hedged in script: Ma Barker's role (Karpis's claim), Old Joe (FBI history), Hoover's role in the arrest (disputed), necktie owner (disputed), Manson guitar (Karpis's account)"
+],
+"beats": [
+{
+"text": "New Orleans. A spring evening. A man walks out of an apartment on Canal Street and gets into a new Plymouth.",
+"v": [
+{
+"t": "video",
+"q": "1930s New Orleans street newsreel",
+"alt": "Canal Street New Orleans 1930s"
+},
+{
+"t": "photo",
+"q": "Canal Street New Orleans"
+}
+]
+},
+{
+"text": "He has no idea that federal agents are hiding all around the block.",
+"v": [
+{
+"t": "video",
+"q": "1930s men in hats street",
+"alt": "FBI agents 1930s"
+},
+{
+"t": "big",
+"big": "DAY 836",
+"small": "of the hunt"
+}
+]
+},
+{
+"text": "And one of them is the most famous lawman in America, a man who has never arrested anyone in his life.",
+"v": [
+{
+"t": "photo",
+"q": "J. Edgar Hoover 1936"
+},
+{
+"t": "card",
+"text": "NEVER MADE AN ARREST"
+}
+]
+},
+{
+"text": "This is Alvin Karpis. They call him Creepy, because of his cold, thin smile.",
+"v": [
+{
+"t": "photo",
+"q": "Alvin Karpis"
+},
+{
+"t": "photo",
+"q": "Alvin Karpis mugshot"
+}
+]
+},
+{
+"text": "He is Public Enemy Number One. And tonight, his hunt ends in a way nobody expected.",
+"v": [
+{
+"t": "photo",
+"q": "Alvin Karpis wanted poster"
+},
+{
+"t": "big",
+"big": "PUBLIC ENEMY",
+"small": "number one"
+}
+]
+},
+{
+"text": "To understand how it got here, we go back more than two years, to a cold morning in Saint Paul, Minnesota.",
+"v": [
+{
+"t": "video",
+"q": "1930s Saint Paul Minnesota winter",
+"alt": "Saint Paul Minnesota 1930s"
+},
+{
+"t": "big",
+"big": "2 YEARS",
+"small": "earlier"
+}
+]
+},
+{
+"text": "January 1934. A banker named Edward Bremer drops his daughter at school and stops at a corner.",
+"v": [
+{
+"t": "photo",
+"q": "Edward Bremer"
+},
+{
+"t": "video",
+"q": "1930s car winter street",
+"alt": "Saint Paul Minnesota"
+}
+]
+},
+{
+"text": "A car blocks his path. Men with guns pull him out, hit him, and drive him away.",
+"v": [
+{
+"t": "video",
+"q": "1930s car chase newsreel",
+"alt": "kidnapping 1930s"
+},
+{
+"t": "big",
+"big": "DAY 1",
+"small": "Bremer is taken"
+}
+]
+},
+{
+"text": "The ransom demand is two hundred thousand dollars. One of the biggest in American history at the time.",
+"v": [
+{
+"t": "card",
+"text": "$200,000 RANSOM"
+},
+{
+"t": "photo",
+"q": "Bremer kidnapping ransom note"
+}
+]
+},
+{
+"text": "The men behind it are the Barker-Karpis gang, the same crew that kidnapped the brewer William Hamm the summer before.",
+"v": [
+{
+"t": "photo",
+"q": "Barker-Karpis gang"
+},
+{
+"t": "photo",
+"q": "William Hamm Jr."
+}
+]
+},
+{
+"text": "That job paid a hundred thousand dollars. Hamm was released unharmed in Wisconsin, and the gang got away clean.",
+"v": [
+{
+"t": "photo",
+"q": "Hamm's Brewery Saint Paul"
+},
+{
+"t": "big",
+"big": "$100,000",
+"small": "the Hamm job"
+}
+]
+},
+{
+"text": "Why Saint Paul? For years the city ran an unwritten deal. Check in with the police, commit no crimes in town, and you could hide there in peace.",
+"v": [
+{
+"t": "video",
+"q": "1930s Saint Paul Minnesota street",
+"alt": "Saint Paul Minnesota 1930s"
+},
+{
+"t": "card",
+"text": "A SAFE HAVEN"
+}
+]
+},
+{
+"text": "By 1934 that deal was breaking down. And the gang was now hitting the city's own rich families.",
+"v": [
+{
+"t": "photo",
+"q": "Saint Paul Minnesota 1934"
+},
+{
+"t": "card",
+"text": "THE DEAL IS OVER"
+}
+]
+},
+{
+"text": "Karpis met Fred Barker in a Kansas prison. When they got out, they became partners.",
+"v": [
+{
+"t": "photo",
+"q": "Kansas State Penitentiary Lansing"
+},
+{
+"t": "photo",
+"q": "Fred Barker"
+}
+]
+},
+{
+"text": "He was born in Montreal to Lithuanian parents and grew up in Topeka, Kansas. He was stealing before he was a teenager.",
+"v": [
+{
+"t": "photo",
+"q": "Topeka Kansas 1920s"
+},
+{
+"t": "photo",
+"q": "Alvin Karpis young"
+}
+]
+},
+{
+"text": "Fred's mother, Kate, travelled with them. The press would call her Ma Barker.",
+"v": [
+{
+"t": "photo",
+"q": "Ma Barker"
+},
+{
+"t": "video",
+"q": "1930s newspaper printing press",
+"alt": "Ma Barker"
+}
+]
+},
+{
+"text": "For decades, newspapers painted her as the gang's evil brain. Karpis later insisted she never planned a single crime.",
+"v": [
+{
+"t": "photo",
+"q": "Ma Barker 1930s"
+},
+{
+"t": "card",
+"text": "BRAIN OR BYSTANDER?"
+}
+]
+},
+{
+"text": "After three weeks, the family pays. Bremer is released alive near Rochester, Minnesota.",
+"v": [
+{
+"t": "video",
+"q": "1930s cash money newsreel",
+"alt": "ransom money 1930s"
+},
+{
+"t": "photo",
+"q": "Edward Bremer 1934"
+}
+]
+},
+{
+"text": "Now the case belongs to the Bureau of Investigation, and its young director, J. Edgar Hoover.",
+"v": [
+{
+"t": "photo",
+"q": "J. Edgar Hoover"
+},
+{
+"t": "video",
+"q": "1930s Washington DC newsreel",
+"alt": "United States Department of Justice building"
+}
+]
+},
+{
+"text": "And in 1934, Congress finally gives its agents the power to carry guns and make arrests across the country. The hunt has real teeth now.",
+"v": [
+{
+"t": "video",
+"q": "1930s FBI agents shooting range",
+"alt": "FBI agents training 1930s"
+},
+{
+"t": "card",
+"text": "NEW POWERS"
+}
+]
+},
+{
+"text": "Agents go back over every step. They question Bremer about every sound and smell from his days blindfolded.",
+"v": [
+{
+"t": "video",
+"q": "1930s FBI agents office",
+"alt": "Bureau of Investigation 1930s"
+},
+{
+"t": "card",
+"text": "EVERY DETAIL"
+}
+]
+},
+{
+"text": "And they find fingerprints. Prints that point straight at Fred's brother, Arthur, known as Doc Barker.",
+"v": [
+{
+"t": "photo",
+"q": "FBI fingerprint 1930s"
+},
+{
+"t": "photo",
+"q": "Doc Barker"
+}
+]
+},
+{
+"text": "The gang knows its faces and fingers are now its biggest weakness.",
+"v": [
+{
+"t": "photo",
+"q": "Alvin Karpis mugshot"
+},
+{
+"t": "card",
+"text": "THE WEAK POINT"
+}
+]
+},
+{
+"text": "So Karpis and Fred Barker pay a crooked Chicago doctor named Joseph Moran to change them.",
+"v": [
+{
+"t": "video",
+"q": "1930s Chicago street",
+"alt": "Chicago 1934"
+},
+{
+"t": "photo",
+"q": "Joseph Moran doctor"
+}
+]
+},
+{
+"text": "He cuts into their faces and tries to burn away their fingerprints.",
+"v": [
+{
+"t": "video",
+"q": "1930s hospital operating room",
+"alt": "surgery 1930s"
+},
+{
+"t": "card",
+"text": "BURNED FINGERTIPS"
+}
+]
+},
+{
+"text": "It is agony. And it does not work. The prints grow back.",
+"v": [
+{
+"t": "photo",
+"q": "fingerprint card FBI"
+},
+{
+"t": "big",
+"big": "IT FAILED",
+"small": "the prints grew back"
+}
+]
+},
+{
+"text": "Not long after, Doctor Moran disappears. His body is never found. Many believe the gang silenced him.",
+"v": [
+{
+"t": "video",
+"q": "1930s lake dark water",
+"alt": "Lake Erie"
+},
+{
+"t": "card",
+"text": "NEVER FOUND"
+}
+]
+},
+{
+"text": "The money is a problem too. Ransom bills have their serial numbers written down. Every one is a trail.",
+"v": [
+{
+"t": "video",
+"q": "1930s bank teller cash",
+"alt": "ransom bills 1930s"
+},
+{
+"t": "card",
+"text": "MARKED MONEY"
+}
+]
+},
+{
+"text": "Across the country, people who swap the hot bills for clean money start getting arrested.",
+"v": [
+{
+"t": "video",
+"q": "1930s newspaper printing press",
+"alt": "newspaper headline 1934"
+},
+{
+"t": "photo",
+"q": "Bremer ransom money"
+}
+]
+},
+{
+"text": "All through 1934, the net tightens. Dillinger is shot dead in Chicago. Baby Face Nelson is killed in November.",
+"v": [
+{
+"t": "photo",
+"q": "John Dillinger"
+},
+{
+"t": "photo",
+"q": "Baby Face Nelson"
+}
+]
+},
+{
+"text": "One by one, the big names fall. But Karpis is still out there.",
+"v": [
+{
+"t": "photo",
+"q": "Alvin Karpis"
+},
+{
+"t": "big",
+"big": "STILL FREE",
+"small": "end of 1934"
+}
+]
+},
+{
+"text": "January eighth, 1935. Agents surround Doc Barker outside an apartment in Chicago and arrest him without a shot.",
+"v": [
+{
+"t": "video",
+"q": "1930s Chicago night street",
+"alt": "Chicago apartment 1930s"
+},
+{
+"t": "big",
+"big": "DAY 357",
+"small": "Doc is caught"
+}
+]
+},
+{
+"text": "With him they find a map of Florida. A lake is circled on it.",
+"v": [
+{
+"t": "photo",
+"q": "Lake Weir Florida"
+},
+{
+"t": "photo",
+"q": "Florida map 1930s"
+}
+]
+},
+{
+"text": "According to the FBI's own history, a letter mentioned a famous local alligator, called Old Joe.",
+"v": [
+{
+"t": "video",
+"q": "alligator swimming Florida",
+"alt": "American alligator"
+},
+{
+"t": "card",
+"text": "OLD JOE"
+}
+]
+},
+{
+"text": "Agents ask around. And they find a lakeside house at Ocklawaha, rented by a quiet mother and her son.",
+"v": [
+{
+"t": "photo",
+"q": "Ma Barker house Ocklawaha"
+},
+{
+"t": "video",
+"q": "Florida lake shore",
+"alt": "Lake Weir"
+}
+]
+},
+{
+"text": "January sixteenth. At dawn, agents surround the house and call for the Barkers to come out.",
+"v": [
+{
+"t": "video",
+"q": "Florida lake dawn",
+"alt": "Lake Weir Florida"
+},
+{
+"t": "big",
+"big": "DAY 365",
+"small": "Lake Weir"
+}
+]
+},
+{
+"text": "The answer is gunfire. The shootout lasts for hours.",
+"v": [
+{
+"t": "video",
+"q": "1930s Thompson submachine gun firing",
+"alt": "Thompson submachine gun"
+},
+{
+"t": "card",
+"text": "HOURS OF GUNFIRE"
+}
+]
+},
+{
+"text": "When it ends, Fred Barker and Ma Barker are both dead inside.",
+"v": [
+{
+"t": "photo",
+"q": "Ma Barker house bullet holes"
+},
+{
+"t": "photo",
+"q": "Fred Barker"
+}
+]
+},
+{
+"text": "Karpis is not there. He is a thousand miles away, in Atlantic City.",
+"v": [
+{
+"t": "video",
+"q": "1930s Atlantic City boardwalk",
+"alt": "Atlantic City 1930s"
+},
+{
+"t": "photo",
+"q": "Atlantic City boardwalk"
+}
+]
+},
+{
+"text": "Four days later, police knock on his hotel door there. Karpis shoots his way out into the night.",
+"v": [
+{
+"t": "video",
+"q": "1930s police car newsreel",
+"alt": "Atlantic City hotel 1930s"
+},
+{
+"t": "big",
+"big": "DAY 369",
+"small": "Atlantic City"
+}
+]
+},
+{
+"text": "He leaves behind his girlfriend, Dolores Delaney, who is pregnant. She is arrested.",
+"v": [
+{
+"t": "photo",
+"q": "Dolores Delaney"
+},
+{
+"t": "card",
+"text": "LEFT BEHIND"
+}
+]
+},
+{
+"text": "With the Barkers gone, Karpis is now the top name on the list. Public Enemy Number One.",
+"v": [
+{
+"t": "photo",
+"q": "Alvin Karpis wanted poster"
+},
+{
+"t": "big",
+"big": "NUMBER ONE",
+"small": "the last of them"
+}
+]
+},
+{
+"text": "And he does not hide quietly. In November 1935, his crew stops a mail train at Garrettsville, Ohio.",
+"v": [
+{
+"t": "video",
+"q": "1930s steam train",
+"alt": "Erie Railroad train"
+},
+{
+"t": "big",
+"big": "DAY 660",
+"small": "Garrettsville"
+}
+]
+},
+{
+"text": "They walk off with tens of thousands of dollars. Then he vanishes again, to Hot Springs, Arkansas.",
+"v": [
+{
+"t": "video",
+"q": "1930s mail bags train",
+"alt": "mail train 1930s"
+},
+{
+"t": "photo",
+"q": "Hot Springs Arkansas 1930s"
+}
+]
+},
+{
+"text": "Meanwhile in Washington, the hunt turns personal.",
+"v": [
+{
+"t": "video",
+"q": "1930s US Capitol newsreel",
+"alt": "United States Capitol 1930s"
+}
+]
+},
+{
+"text": "April 1936. At a Senate hearing on his budget, Senator Kenneth McKellar asks Hoover a simple question.",
+"v": [
+{
+"t": "photo",
+"q": "Kenneth McKellar"
+},
+{
+"t": "big",
+"big": "APRIL 1936",
+"small": "the Senate"
+}
+]
+},
+{
+"text": "Have you ever personally arrested anyone?",
+"v": [
+{
+"t": "quote",
+"text": "Did you ever make an arrest?",
+"by": "Sen. McKellar, in substance"
+},
+{
+"t": "photo",
+"q": "J. Edgar Hoover 1936"
+}
+]
+},
+{
+"text": "Hoover has to admit it. No. He has run the Bureau for more than ten years, but never made an arrest himself.",
+"v": [
+{
+"t": "photo",
+"q": "J. Edgar Hoover"
+},
+{
+"t": "card",
+"text": "THE ANSWER IS NO"
+}
+]
+},
+{
+"text": "The story goes that he leaves the hearing with one promise. When Karpis is found, he will be there.",
+"v": [
+{
+"t": "photo",
+"q": "J. Edgar Hoover desk"
+},
+{
+"t": "card",
+"text": "A PERSONAL PROMISE"
+}
+]
+},
+{
+"text": "Agents work the girlfriends, the bars, the doctors, the money. In Hot Springs, Karpis slips away again.",
+"v": [
+{
+"t": "video",
+"q": "1930s Hot Springs Arkansas",
+"alt": "Hot Springs Arkansas"
+},
+{
+"t": "card",
+"text": "GONE AGAIN"
+}
+]
+},
+{
+"text": "Then a tip comes in. He is in New Orleans, in an apartment on Canal Street.",
+"v": [
+{
+"t": "photo",
+"q": "Canal Street New Orleans"
+},
+{
+"t": "video",
+"q": "1930s New Orleans streetcar",
+"alt": "New Orleans 1930s"
+}
+]
+},
+{
+"text": "Agents stake out the building. Hoover flies south to join them.",
+"v": [
+{
+"t": "video",
+"q": "1930s airplane landing newsreel",
+"alt": "Douglas DC-2"
+},
+{
+"t": "big",
+"big": "DAY 836",
+"small": "New Orleans"
+}
+]
+},
+{
+"text": "May first, 1936. Karpis and his partner Fred Hunter walk out and get into their car.",
+"v": [
+{
+"t": "video",
+"q": "1930s car parked street",
+"alt": "Plymouth 1936"
+},
+{
+"t": "photo",
+"q": "Plymouth 1936 sedan"
+}
+]
+},
+{
+"text": "Agents rush in from both sides. Before Karpis can reach the rifle on the back seat, a hand is on him.",
+"v": [
+{
+"t": "video",
+"q": "1930s men running street newsreel",
+"alt": "FBI agents arrest 1930s"
+},
+{
+"t": "card",
+"text": "SURROUNDED"
+}
+]
+},
+{
+"text": "Hoover's version: the director himself grabs the most wanted man in America.",
+"v": [
+{
+"t": "photo",
+"q": "J. Edgar Hoover 1936"
+},
+{
+"t": "quote",
+"text": "I made the arrest.",
+"by": "Hoover's account, in substance"
+}
+]
+},
+{
+"text": "Karpis tells it very differently. He later said Hoover hid behind a building until agents had him, and only then stepped out.",
+"v": [
+{
+"t": "photo",
+"q": "Alvin Karpis 1936"
+},
+{
+"t": "card",
+"text": "TWO STORIES"
+}
+]
+},
+{
+"text": "And then the strangest detail. The story goes that nobody had brought handcuffs.",
+"v": [
+{
+"t": "video",
+"q": "1930s handcuffs",
+"alt": "handcuffs"
+},
+{
+"t": "card",
+"text": "NO HANDCUFFS"
+}
+]
+},
+{
+"text": "So they tie his hands with a necktie. Even today, at least four different men have been named as the owner of that tie.",
+"v": [
+{
+"t": "photo",
+"q": "necktie 1930s"
+},
+{
+"t": "big",
+"big": "4 MEN",
+"small": "claim the tie"
+}
+]
+},
+{
+"text": "Whoever owned it, the headlines the next day are all about one man. Hoover.",
+"v": [
+{
+"t": "video",
+"q": "1930s newspaper printing press",
+"alt": "newspaper headline 1936"
+},
+{
+"t": "photo",
+"q": "J. Edgar Hoover"
+}
+]
+},
+{
+"text": "It is a turning point. The Bureau's agents become the G-Men, heroes of radio and film.",
+"v": [
+{
+"t": "video",
+"q": "1930s radio newsreel",
+"alt": "G-Men 1935"
+},
+{
+"t": "card",
+"text": "THE G-MEN"
+}
+]
+},
+{
+"text": "The Bureau already had a new name by then: the Federal Bureau of Investigation. After New Orleans, the whole country knew it.",
+"v": [
+{
+"t": "photo",
+"q": "FBI seal 1930s"
+},
+{
+"t": "card",
+"text": "THE FBI"
+}
+]
+},
+{
+"text": "Karpis is flown to Saint Paul. He pleads guilty to the Hamm kidnapping and gets life in prison.",
+"v": [
+{
+"t": "video",
+"q": "1930s airplane newsreel",
+"alt": "Saint Paul Minnesota"
+},
+{
+"t": "big",
+"big": "LIFE",
+"small": "in prison"
+}
+]
+},
+{
+"text": "That summer he is sent to a new federal prison on an island in San Francisco Bay. Alcatraz.",
+"v": [
+{
+"t": "video",
+"q": "Alcatraz island aerial",
+"alt": "Alcatraz Island"
+},
+{
+"t": "photo",
+"q": "Alcatraz Island"
+}
+]
+},
+{
+"text": "He stays there longer than any other prisoner in its history. About twenty-six years.",
+"v": [
+{
+"t": "photo",
+"q": "Alcatraz cell block"
+},
+{
+"t": "big",
+"big": "26 YEARS",
+"small": "on the Rock"
+}
+]
+},
+{
+"text": "Doc Barker is there too. In 1939 he is shot dead trying to escape.",
+"v": [
+{
+"t": "photo",
+"q": "Doc Barker"
+},
+{
+"t": "video",
+"q": "Alcatraz shoreline",
+"alt": "Alcatraz Island rocks"
+}
+]
+},
+{
+"text": "When Alcatraz begins to close, Karpis is moved to McNeil Island in Washington State.",
+"v": [
+{
+"t": "photo",
+"q": "McNeil Island Corrections Center"
+},
+{
+"t": "video",
+"q": "Puget Sound island",
+"alt": "McNeil Island"
+}
+]
+},
+{
+"text": "By his own account, there he taught a young inmate to play the steel guitar. The inmate's name was Charles Manson.",
+"v": [
+{
+"t": "photo",
+"q": "McNeil Island"
+},
+{
+"t": "card",
+"text": "A STRANGE STUDENT"
+}
+]
+},
+{
+"text": "In 1969 he is paroled and deported to Canada, where he was born.",
+"v": [
+{
+"t": "video",
+"q": "1960s airport newsreel",
+"alt": "Montreal 1960s"
+},
+{
+"t": "big",
+"big": "1969",
+"small": "free"
+}
+]
+},
+{
+"text": "He writes books about his life, and he never stops telling his version of the night in New Orleans.",
+"v": [
+{
+"t": "photo",
+"q": "Alvin Karpis 1970s"
+},
+{
+"t": "card",
+"text": "HIS VERSION"
+}
+]
+},
+{
+"text": "In his memoir, he calls the arrest a show, staged so the director could finally say he caught someone.",
+"v": [
+{
+"t": "photo",
+"q": "Alvin Karpis 1970s book"
+},
+{
+"t": "card",
+"text": "A SHOW?"
+}
+]
+},
+{
+"text": "He dies in Spain in 1979.",
+"v": [
+{
+"t": "video",
+"q": "Spanish coast",
+"alt": "Torremolinos"
+}
+]
+},
+{
+"text": "So who really caught Alvin Karpis?",
+"v": [
+{
+"t": "photo",
+"q": "Alvin Karpis"
+},
+{
+"t": "card",
+"text": "WHO CAUGHT HIM?"
+}
+]
+},
+{
+"text": "Not one man. A fingerprint, a circled lake, an alligator named Old Joe, and marked bills changing hands across the country.",
+"v": [
+{
+"t": "list",
+"title": "THE TRAIL",
+"lines": [
+"Fingerprints",
+"A circled map",
+"Old Joe",
+"Marked bills"
+]
+},
+{
+"t": "photo",
+"q": "FBI fingerprint 1930s"
+}
+]
+},
+{
+"text": "Piece by piece, eight hundred and thirty-six days of work.",
+"v": [
+{
+"t": "big",
+"big": "836 DAYS",
+"small": "piece by piece"
+},
+{
+"t": "photo",
+"q": "Alvin Karpis wanted poster"
+}
+]
+},
+{
+"text": "And at the very end, a necktie, and a question in a Senate hearing room that Hoover never forgot.",
+"v": [
+{
+"t": "photo",
+"q": "J. Edgar Hoover"
+},
+{
+"t": "photo",
+"q": "Alvin Karpis mugshot"
+}
+]
+}
+]
+}

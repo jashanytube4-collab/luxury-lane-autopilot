@@ -3350,7 +3350,7 @@
  "hamdan bin mohammed attends dubai forum for government best practices": {
   "last_short": "2026-11-24",
   "long": "2026-10-31",
-  "montage_used": 28,
+  "montage_used": 29,
   "remix_ranges": [
    [
     199.21437450345937,
@@ -3391,6 +3391,10 @@
    [
     102.9148371120421,
     104.94956795738298
+   ],
+   [
+    172.3714325214246,
+    174.72841513421164
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6673,7 +6677,7 @@
   "last_short": "2026-11-24",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 35,
+  "montage_used": 36,
   "remix_ranges": [
    [
     91.53469075790515,
@@ -6726,6 +6730,10 @@
    [
     168.11581880167168,
     170.38108704382887
+   ],
+   [
+    74.34021036219278,
+    75.94189418930154
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11163,7 +11171,7 @@
  "hamdan bin mohammed opens gitex tech week 2017": {
   "last_short": "2026-11-24",
   "long": "2026-10-14",
-  "montage_used": 35,
+  "montage_used": 36,
   "remix_ranges": [
    [
     332.64461795604365,
@@ -11184,6 +11192,10 @@
    [
     82.32725326442906,
     84.2175405905932
+   ],
+   [
+    222.6,
+    224.68
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11395,7 +11407,7 @@
  "hamdan bin mohammed opens smart police station at la mer": {
   "last_short": "2026-11-24",
   "montage_exhausted": true,
-  "montage_used": 22,
+  "montage_used": 23,
   "remix_ranges": [
    [
     62.11021807184426,
@@ -11424,6 +11436,10 @@
    [
     210.32,
     212.16
+   ],
+   [
+    31.591325528417762,
+    33.8796778479328
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12714,7 +12730,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     47.85333333333333,
@@ -12723,6 +12739,10 @@
    [
     13.160280967940876,
     14.706316425356356
+   ],
+   [
+    55.01459666559458,
+    57.588063134862104
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12841,9 +12861,9 @@
   "video_len": 149
  },
  "hamdan bin mohammed tours dubai airshow 2023": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     9.751827196072886,
@@ -12856,6 +12876,10 @@
    [
     64.65333333333334,
     66.91333333333333
+   ],
+   [
+    37.46628464095488,
+    39.06579941227651
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12931,6 +12955,7 @@
   "last_short": "2026-11-24",
   "montage_exhausted": true,
   "montage_used": 11,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     90.4439944497751,
@@ -14477,7 +14502,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     79.64,
@@ -14502,6 +14527,10 @@
    [
     10.05130372909916,
     12.593195012706435
+   ],
+   [
+    47.72,
+    49.6
    ]
   ],
   "remix_reset": "2026-11-20",

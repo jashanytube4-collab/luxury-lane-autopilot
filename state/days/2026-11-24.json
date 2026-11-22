@@ -128,8 +128,13 @@
   },
   {
    "at": "2026-11-24T16:18:12+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "The world sees royalty; we see Fazza's heart. ✨ #fazza #youtubeshorts #youtube",
+   "type": "short",
+   "video_id": "WgRN2teet2o",
+   "voiced": true
   },
   {
    "at": "2026-11-24T17:10:56+04:00",

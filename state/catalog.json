@@ -6698,7 +6698,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 33,
+  "montage_used": 34,
   "remix_ranges": [
    [
     107.48779104831378,
@@ -6747,6 +6747,10 @@
    [
     198.63415742697086,
     200.91932118355416
+   ],
+   [
+    172.42614709454423,
+    174.58379790403694
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8027,7 +8031,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 26,
+  "montage_used": 27,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -8045,6 +8049,10 @@
    [
     35.84227813628582,
     38.22619568640437
+   ],
+   [
+    100.14998351997754,
+    102.36509886729117
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8413,6 +8421,7 @@
   "last_short": "2026-11-24",
   "montage_exhausted": true,
   "montage_used": 10,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     68.66353712110394,
@@ -9676,7 +9685,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     1.929348642583168,
@@ -9689,6 +9698,10 @@
    [
     102.09632443147488,
     104.53557802011149
+   ],
+   [
+    61.04836923419392,
+    62.61397542389631
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10385,6 +10398,7 @@
   "long": "2026-10-17",
   "montage_exhausted": true,
   "montage_used": 17,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     56.360072324467,
@@ -10700,7 +10714,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     73.66873288634743,
@@ -10717,6 +10731,10 @@
    [
     42.31480001066635,
     44.143334282242265
+   ],
+   [
+    28.456349449157248,
+    30.93964865087256
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11342,8 +11360,8 @@
   "video_len": 279
  },
  "hamdan bin mohammed opens cityscape global 2018": {
-  "last_short": "2026-11-24",
-  "montage_used": 34,
+  "last_short": "2026-11-25",
+  "montage_used": 35,
   "remix_ranges": [
    [
     317.08,
@@ -11364,6 +11382,10 @@
    [
     354.4585883017283,
     356.91248596811886
+   ],
+   [
+    175.80907623133464,
+    177.23094253100297
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11440,7 +11462,7 @@
  "hamdan bin mohammed opens crime prevention international conference": {
   "last_short": "2026-11-25",
   "montage_exhausted": true,
-  "montage_used": 25,
+  "montage_used": 26,
   "remix_ranges": [
    [
     20.13502281199993,
@@ -11461,6 +11483,10 @@
    [
     110.93727405502845,
     112.5928861909267
+   ],
+   [
+    60.54041417972603,
+    62.0233383663508
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12419,6 +12445,7 @@
   "last_short": "2026-11-25",
   "montage_exhausted": true,
   "montage_used": 12,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     6.37768238943519,
@@ -14571,7 +14598,7 @@
  "hamdan bin mohammed visits dewa s moro": {
   "last_short": "2026-11-25",
   "long": "2026-11-01",
-  "montage_used": 36,
+  "montage_used": 37,
   "remix_ranges": [
    [
     85.28,
@@ -14584,6 +14611,10 @@
    [
     135.41493136518923,
     137.51133399655723
+   ],
+   [
+    390.68,
+    392.52
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -15025,7 +15056,7 @@
  "hamdan bin mohammed visits dubai chamber of commerce and industry": {
   "last_short": "2026-11-25",
   "montage_exhausted": true,
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     1.5047652305267265,
@@ -15058,6 +15089,10 @@
    [
     42.818444390963286,
     44.88103901018215
+   ],
+   [
+    103.78714818783136,
+    105.1893405137774
    ]
   ],
   "remix_reset": "2026-11-20",

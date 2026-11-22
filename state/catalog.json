@@ -8630,7 +8630,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     75.10752198135069,
@@ -8655,6 +8655,10 @@
    [
     22.448280423202444,
     24.679421591739235
+   ],
+   [
+    65.86669695889046,
+    67.95698554621647
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9155,6 +9159,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 19,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     98.4840092909426,
@@ -9802,7 +9807,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     1.929348642583168,
@@ -9823,6 +9828,10 @@
    [
     20.04618001710475,
     22.525620914547176
+   ],
+   [
+    70.70842522632584,
+    72.52222884579118
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11784,7 +11793,7 @@
  "hamdan bin mohammed opens gitex tech week 2017": {
   "last_short": "2026-11-25",
   "long": "2026-10-14",
-  "montage_used": 41,
+  "montage_used": 42,
   "remix_ranges": [
    [
     332.64461795604365,
@@ -11829,6 +11838,10 @@
    [
     362.27967003943934,
     363.7806825354057
+   ],
+   [
+    42.050111948027826,
+    43.465028898802174
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12813,7 +12826,7 @@
  "hamdan bin mohammed reviews dubai future foundation s 2018 plan and projects": {
   "last_short": "2026-11-25",
   "long": "2026-10-30",
-  "montage_used": 25,
+  "montage_used": 26,
   "remix_ranges": [
    [
     40.994186600963694,
@@ -12838,6 +12851,10 @@
    [
     50.46012145380238,
     52.982064639244214
+   ],
+   [
+    113.15902398012608,
+    114.84874715470467
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13238,7 +13255,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     59.31669790827004,
@@ -13263,6 +13280,10 @@
    [
     46.75333333333333,
     48.64666666666667
+   ],
+   [
+    32.21378457547035,
+    34.692446674826044
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14109,7 +14130,7 @@
  "hamdan bin mohammed unveils 5 star plaque at sheikh zayed housing programme in dubai": {
   "last_short": "2026-11-25",
   "montage_exhausted": true,
-  "montage_used": 25,
+  "montage_used": 26,
   "remix_ranges": [
    [
     104.84181508997926,
@@ -14142,6 +14163,10 @@
    [
     25.533202217740545,
     28.109554238157465
+   ],
+   [
+    209.92065656159693,
+    212.08684668126935
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14609,7 +14634,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-13",
   "montage_exhausted": true,
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     97.26657852612965,
@@ -14638,6 +14663,10 @@
    [
     300.4654695382716,
     302.7893899609044
+   ],
+   [
+    57.66112982194244,
+    60.157545270770036
    ]
   ],
   "remix_reset": "2026-11-20",

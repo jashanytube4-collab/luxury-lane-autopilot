@@ -1,0 +1,96 @@
+name: Factory batch render
+
+# Works while the owner's laptop is OFF: every 3 hours renders up to 3 script packs from factory/scripts/<channel>/<slug>.json
+# that have no marker file factory/rendered/<channel>__<slug>.txt yet, in parallel on GitHub runners (same code as the laptop).
+# Results = artifacts (kept 14 days) for the laptop/Rocky to download and frame-check later. Never publishes anything. No secrets.
+on:
+  schedule:
+    - cron: "17 */3 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: factory-batch
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  plan:
+    runs-on: ubuntu-24.04
+    outputs:
+      matrix: ${{ steps.pick.outputs.matrix }}
+      count: ${{ steps.pick.outputs.count }}
+    steps:
+      - uses: actions/checkout@v7
+      - id: pick
+        run: |
+          python3 - <<'PY'
+          import glob, json, os
+          todo = []
+          for p in sorted(glob.glob("factory/scripts/*/*.json")):
+              ch, slug = p.split("/")[-2], os.path.basename(p)[:-5]
+              if ch.startswith("_") or slug.startswith("_"):
+                  continue
+              if not os.path.exists(f"factory/rendered/{ch}__{slug}.txt"):
+                  todo.append({"channel": ch, "slug": slug, "path": p})
+          pick = todo[:3]
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write("matrix=" + json.dumps({"include": pick}) + "\n")
+              f.write(f"count={len(pick)}\n")
+          print("to render:", pick)
+          PY
+
+  render:
+    needs: plan
+    if: needs.plan.outputs.count != '0'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJson(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+      - name: System packages
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Python packages
+        run: pip install "edge-tts>=7.3.1" "pillow==11.3.0" "requests>=2.31" PyYAML numpy opencv-python-headless
+      - name: Cache downloaded footage and photos
+        uses: actions/cache@v6
+        with:
+          path: factory/cache
+          key: factory-cache-${{ matrix.channel }}-${{ github.run_id }}
+          restore-keys: factory-cache-${{ matrix.channel }}-
+      - name: Render
+        run: |
+          python3 - <<'PY'
+          import json, os
+          pack = json.load(open("${{ matrix.path }}", encoding="utf-8"))
+          pack["slug"] = pack.get("slug") or "${{ matrix.slug }}"
+          json.dump(pack, open("pack.json", "w", encoding="utf-8"))
+          open(os.environ["GITHUB_ENV"], "a").write(f"OUT=factory/out/{pack['channel']}/{pack['slug']}\n")
+          PY
+          python -m tools.factory.run pack.json
+      - name: Contact sheet
+        run: |
+          D=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$OUT/final.mp4")
+          N=$(python -c "import math;print(max(1,min(40,math.ceil($D/8))))")
+          ffmpeg -y -loglevel error -i "$OUT/final.mp4" -vf "fps=$N/$D,scale=480:-1,tile=5x$(( (N+4)/5 ))" -frames:v 1 -update 1 "$OUT/contact.jpg"
+      - uses: actions/upload-artifact@v7
+        with:
+          name: factory-${{ matrix.channel }}-${{ matrix.slug }}
+          path: |
+            ${{ env.OUT }}/final.mp4
+            ${{ env.OUT }}/credits.txt
+            ${{ env.OUT }}/contact.jpg
+          retention-days: 14
+          if-no-files-found: error
+      - name: Mark as rendered
+        run: |
+          git config user.name "factory-batch"; git config user.email "factory-batch@users.noreply.github.com"
+          echo "rendered $(date -u +%FT%TZ) run ${{ github.run_id }}" > "factory/rendered/${{ matrix.channel }}__${{ matrix.slug }}.txt"
+          git add factory/rendered
+          for i in 1 2 3 4; do git commit -q -m "factory batch: ${{ matrix.channel }} ${{ matrix.slug }} rendered" && git pull -q --rebase && git push -q && break || sleep 5; done

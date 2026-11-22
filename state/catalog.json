@@ -3193,7 +3193,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 36,
+  "montage_used": 37,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -3211,6 +3211,10 @@
    [
     65.48646946487673,
     66.89104048085782
+   ],
+   [
+    35.4091201535192,
+    37.70085129313844
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3640,7 +3644,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 31,
+  "montage_used": 32,
   "remix_ranges": [
    [
     214.5336373953238,
@@ -3697,6 +3701,10 @@
    [
     204.76,
     206.48
+   ],
+   [
+    63.970936906754865,
+    66.32785816239351
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8761,10 +8769,10 @@
   "video_len": 101
  },
  "hamdan bin mohammed launches world s largest arabic audio library": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "long": "2026-10-24",
   "montage_exhausted": true,
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     92.88000000000001,
@@ -8785,6 +8793,10 @@
    [
     21.217256627260085,
     22.835584741037046
+   ],
+   [
+    98.96000000000001,
+    100.6
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9012,10 +9024,10 @@
   "video_len": 191
  },
  "hamdan bin mohammed meets government team behind uae s progress in world bank s ease of doing business ranking": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 26,
+  "montage_used": 27,
   "remix_ranges": [
    [
     46.8,
@@ -9044,6 +9056,10 @@
    [
     60.48,
     62.68
+   ],
+   [
+    81.197235856429,
+    83.70211323558544
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12633,9 +12649,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed reviews outcomes of farmers souq initiative": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "montage_exhausted": true,
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     25.287802896479974,
@@ -12648,6 +12664,10 @@
    [
     52.47703417044865,
     54.11515389709411
+   ],
+   [
+    29.186666666666667,
+    31.48
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13116,10 +13136,10 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed tours bustanica the world s largest vertical farm in dubai": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     137.733928641976,
@@ -13144,6 +13164,10 @@
    [
     95.38532782889106,
     97.86059108860856
+   ],
+   [
+    83.6336061698606,
+    85.26495483769763
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14755,7 +14779,7 @@
  "hamdan bin mohammed visits dubai chamber of commerce and industry": {
   "last_short": "2026-11-25",
   "montage_exhausted": true,
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     1.5047652305267265,
@@ -14780,6 +14804,10 @@
    [
     89.36,
     91.32
+   ],
+   [
+    53.72338273419872,
+    56.155170958614036
    ]
   ],
   "remix_reset": "2026-11-20",

@@ -1221,9 +1221,9 @@
   "video_len": 78
  },
  "dubai crown prince visits dubai municipality": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "long": "2026-11-02",
-  "montage_used": 48,
+  "montage_used": 49,
   "remix_ranges": [
    [
     321.72,
@@ -1280,6 +1280,10 @@
    [
     74.15379469536695,
     76.65900580349393
+   ],
+   [
+    172.1314363932804,
+    173.95804189674584
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8413,10 +8417,10 @@
   "video_len": 60
  },
  "hamdan bin mohammed launches new phase of dubai s happiness agenda": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     75.10752198135069,
@@ -8429,6 +8433,10 @@
    [
     37.82398609741157,
     39.99941803814691
+   ],
+   [
+    50.44473914650784,
+    51.85163004046008
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8583,9 +8591,9 @@
   "video_len": 268
  },
  "hamdan bin mohammed launches the government games initiative": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "montage_exhausted": true,
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     152.44500151607716,
@@ -8602,6 +8610,10 @@
    [
     36.28504471460643,
     38.81034090620868
+   ],
+   [
+    5.8959233861362215,
+    7.900823675991542
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10850,10 +10862,10 @@
   "long": "2026-10-28"
  },
  "hamdan bin mohammed officially opens gitex 2018": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 38,
+  "montage_used": 39,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -10879,6 +10891,10 @@
    [
     97.13143275255474,
     98.99760290967762
+   ],
+   [
+    126.17356522150602,
+    126.73761023198499
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12290,9 +12306,9 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed reviews dubai future foundation s 2018 plan and projects": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "long": "2026-10-30",
-  "montage_used": 23,
+  "montage_used": 24,
   "remix_ranges": [
    [
     40.994186600963694,
@@ -12309,6 +12325,10 @@
    [
     97.62280621632603,
     99.52177449499965
+   ],
+   [
+    121.76571225294121,
+    124.29578390952733
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13660,10 +13680,10 @@
  },
  "hamdan bin mohammed visits abu dhabi international hunting and equestrian exhibition 2026": {
   "fails": 1,
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "photo_short": true,
   "remix_ranges": [
    [
@@ -13673,6 +13693,10 @@
    [
     75.96597580673817,
     77.79764773175836
+   ],
+   [
+    42.394236876115855,
+    43.911811204406334
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14402,10 +14426,10 @@
   "video_len": 311
  },
  "hamdan bin mohammed visits dubai airshow 2017": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 26,
+  "montage_used": 27,
   "remix_ranges": [
    [
     152.68800146802988,
@@ -14422,6 +14446,10 @@
    [
     51.600850065393274,
     53.527309763042126
+   ],
+   [
+    76.80459830080162,
+    79.19451061817308
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14602,7 +14630,7 @@
  "hamdan bin mohammed visits dubai chamber of commerce and industry": {
   "last_short": "2026-11-25",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     1.5047652305267265,
@@ -14623,6 +14651,10 @@
    [
     69.4875942083406,
     71.27879094658351
+   ],
+   [
+    89.36,
+    91.32
    ]
   ],
   "remix_reset": "2026-11-20",

@@ -3184,7 +3184,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 34,
+  "montage_used": 35,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -3194,6 +3194,10 @@
    [
     252.37662281129457,
     254.65336216180364
+   ],
+   [
+    14.327704555648207,
+    15.750896690564044
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -7907,15 +7911,19 @@
   "video_len": 227
  },
  "hamdan bin mohammed inspects rta s autonomous mobility and ai projects": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 23,
+  "montage_used": 24,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
     26.231332227013592,
     27.10682514620582
+   ],
+   [
+    177.59669230685122,
+    179.15793319770825
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8283,7 +8291,7 @@
  "hamdan bin mohammed launches integrated housing plan to provide 15 800 homes for nationals in dubai over the next four years": {
   "last_short": "2026-11-24",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     68.66353712110394,
@@ -8296,6 +8304,10 @@
    [
     16.008518073326375,
     18.238410436495812
+   ],
+   [
+    29.885407875641498,
+    31.40240099588122
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8949,7 +8961,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 25,
+  "montage_used": 26,
   "remix_ranges": [
    [
     46.8,
@@ -8974,6 +8986,10 @@
    [
     131.94428411966894,
     134.3793540570588
+   ],
+   [
+    60.48,
+    62.68
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9833,10 +9849,10 @@
   "video_len": 60
  },
  "hamdan bin mohammed meets with local dignitaries and senior officials at za abeel majlis": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-20",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     21.486666666666668,
@@ -9845,6 +9861,10 @@
    [
     15.890807604163143,
     17.497621056665302
+   ],
+   [
+    12.052983459215245,
+    13.756848325859956
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9900,11 +9920,15 @@
   "last_short": "2026-11-24",
   "long": "2026-10-16",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     30.155718933046103,
     32.01248252077489
+   ],
+   [
+    12.350619943699787,
+    14.86603983405292
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10820,7 +10844,7 @@
   "last_short": "2026-11-24",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 37,
+  "montage_used": 38,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -10842,6 +10866,10 @@
    [
     103.07656914885516,
     104.53736772849444
+   ],
+   [
+    97.13143275255474,
+    98.99760290967762
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12396,6 +12424,9 @@
   "shorts_made": 1,
   "shot_ranges": []
  },
+ "hamdan bin mohammed reviews new metro train design rail inspection initiatives and blue line progress": {
+  "video_exhausted": true
+ },
  "hamdan bin mohammed reviews newly completed air taxi station near dubai international airport the first facility of its kind in the world": {
   "fails": 1,
   "last_short": "2026-10-15",
@@ -13179,10 +13210,10 @@
   "video_len": 138
  },
  "hamdan bin mohammed tours gulfood 2023": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     55.02960752090558,
@@ -13191,6 +13222,10 @@
    [
     41.57360443710666,
     43.58005009259985
+   ],
+   [
+    27.32079776553987,
+    29.082458454189535
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -17276,6 +17311,11 @@
   "video_exhausted": true,
   "video_len": 77
  },
+ "ig:dubaimediaoffice:18434264368149905": {
+  "no_hamdan": true,
+  "video_exhausted": true,
+  "video_len": 65
+ },
  "ig:dubaimediaoffice:18445505212189984": {
   "video_exhausted": true,
   "video_len": 42
@@ -18203,6 +18243,11 @@
  "ig:faz3:17968229216578746": {
   "long": "2026-11-03",
   "no_hamdan": true
+ },
+ "ig:faz3:17968821411237776": {
+  "no_hamdan": true,
+  "video_exhausted": true,
+  "video_len": 30
  },
  "ig:faz3:17970792520067899": {
   "long": "2026-10-23",

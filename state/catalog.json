@@ -1834,7 +1834,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 32,
+  "montage_used": 33,
   "no_video_until": "2026-11-03",
   "remix_ranges": [
    [
@@ -1876,6 +1876,10 @@
    [
     119.26905427996284,
     121.2971895618701
+   ],
+   [
+    3.621841545404679,
+    5.86090179525034
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2456,7 +2460,7 @@
  "hamdan bin mohammed approves dff s three year strategic plan": {
   "last_short": "2026-11-24",
   "montage_exhausted": true,
-  "montage_used": 29,
+  "montage_used": 30,
   "remix_ranges": [
    [
     132.68279953235296,
@@ -2489,6 +2493,10 @@
    [
     14.627483540013053,
     17.011367896733383
+   ],
+   [
+    97.16054279130876,
+    99.54602725156238
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8026,6 +8034,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 29,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     53.879999999999995,
@@ -8669,7 +8678,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-24",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     92.88000000000001,
@@ -8686,6 +8695,10 @@
    [
     86.55675113131048,
     88.04287759368933
+   ],
+   [
+    21.217256627260085,
+    22.835584741037046
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10070,6 +10083,7 @@
   "long": "2026-10-20",
   "montage_exhausted": true,
   "montage_used": 8,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     3.8979864482299194,
@@ -10235,7 +10249,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-21",
   "montage_exhausted": true,
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     30.294825772194937,
@@ -10248,6 +10262,10 @@
    [
     41.00540210700612,
     43.1464648944787
+   ],
+   [
+    22.8,
+    24.56
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11826,7 +11844,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 28,
+  "montage_used": 29,
   "remix_ranges": [
    [
     298.95723771608766,
@@ -11859,6 +11877,10 @@
    [
     467.58280280939357,
     468.58949069591927
+   ],
+   [
+    191.97111603901575,
+    194.0040612036685
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12820,7 +12842,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     47.85333333333333,
@@ -12833,6 +12855,10 @@
    [
     55.01459666559458,
     57.588063134862104
+   ],
+   [
+    9.586666666666666,
+    11.313333333333334
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13294,7 +13320,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     74.62743576497552,
@@ -13315,6 +13341,10 @@
    [
     108.94898245654397,
     109.83149514067603
+   ],
+   [
+    132.75740572203435,
+    133.30115129665947
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13351,7 +13381,7 @@
  "hamdan bin mohammed unveils 5 star plaque at sheikh zayed housing programme in dubai": {
   "last_short": "2026-11-24",
   "montage_exhausted": true,
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     104.84181508997926,
@@ -13364,6 +13394,10 @@
    [
     128.5397832258712,
     130.27981422685562
+   ],
+   [
+    78.22072214414602,
+    80.19449191432524
    ]
   ],
   "remix_reset": "2026-11-20",

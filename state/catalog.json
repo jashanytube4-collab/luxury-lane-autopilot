@@ -3675,7 +3675,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 32,
+  "montage_used": 33,
   "remix_ranges": [
    [
     214.5336373953238,
@@ -3736,6 +3736,10 @@
    [
     63.970936906754865,
     66.32785816239351
+   ],
+   [
+    159.76,
+    161.44
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10142,6 +10146,7 @@
   "long": "2026-10-16",
   "montage_exhausted": true,
   "montage_used": 8,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     30.155718933046103,
@@ -13068,7 +13073,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     59.31669790827004,
@@ -13085,6 +13090,10 @@
    [
     7.7759805380773255,
     10.313420009624302
+   ],
+   [
+    54.086666666666666,
+    55.88
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13119,10 +13128,15 @@
   "video_len": 68
  },
  "hamdan bin mohammed reviews the latest technologies and energy solutions at wetex 2019": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-25",
   "montage_exhausted": true,
-  "montage_used": 16,
-  "remix_ranges": [],
+  "montage_used": 17,
+  "remix_ranges": [
+   [
+    200.37999249206516,
+    201.9019385449857
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 3,
   "shot_ranges": [
@@ -13323,7 +13337,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     47.85333333333333,
@@ -13344,6 +13358,10 @@
    [
     59.614826940392156,
     61.39964734503319
+   ],
+   [
+    40.88666666666666,
+    43.04666666666667
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14319,7 +14337,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     140.89915446020242,
@@ -14340,6 +14358,10 @@
    [
     1.2817124501252168,
     2.8297681741312752
+   ],
+   [
+    106.13358385471906,
+    107.62355243137569
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14520,7 +14542,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     30.26795915214033,
@@ -14549,6 +14571,10 @@
    [
     16.537584237369934,
     18.113278191690398
+   ],
+   [
+    132.93792368961635,
+    134.92829369432596
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14656,7 +14682,7 @@
  "hamdan bin mohammed visits dewa s moro": {
   "last_short": "2026-11-25",
   "long": "2026-11-01",
-  "montage_used": 37,
+  "montage_used": 38,
   "remix_ranges": [
    [
     85.28,
@@ -14673,6 +14699,10 @@
    [
     390.68,
     392.52
+   ],
+   [
+    23.003214614239333,
+    24.78850934589341
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -15119,6 +15149,7 @@
   "last_short": "2026-11-25",
   "montage_exhausted": true,
   "montage_used": 18,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     1.5047652305267265,
@@ -15248,7 +15279,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     31.609601684534905,
@@ -15261,6 +15292,10 @@
    [
     38.84042346061062,
     40.741887036345474
+   ],
+   [
+    21.6264531542119,
+    23.57554045493772
    ]
   ],
   "remix_reset": "2026-11-20",

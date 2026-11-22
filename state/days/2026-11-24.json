@@ -3,8 +3,13 @@
  "slots": [
   {
    "at": "2026-11-24T06:11:32+04:00",
-   "status": "skipped",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Every step, a lesson in leadership. 👑 #youtubeshorts #ytshorts",
+   "type": "short",
+   "video_id": "ANb_qW1ng34",
+   "voiced": true
   },
   {
    "at": "2026-11-24T06:55:56+04:00",
@@ -43,7 +48,7 @@
   },
   {
    "at": "2026-11-24T10:14:03+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   },
   {
@@ -118,7 +123,7 @@
   },
   {
    "at": "2026-11-24T16:18:12+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   },
   {
@@ -203,12 +208,12 @@
   },
   {
    "at": "2026-11-24T22:43:38+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   },
   {
    "at": "2026-11-24T23:33:54+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   },
   {

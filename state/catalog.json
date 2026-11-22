@@ -1584,6 +1584,7 @@
   "montage_exhausted": true,
   "montage_used": 32,
   "no_video_until": "2026-11-02",
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     151.99170839989952,
@@ -3160,15 +3161,19 @@
   "video_len": 65
  },
  "hamdan bin mohammed attends closing ceremony of 3rd dubai future accelerators program": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 33,
+  "montage_used": 34,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
     123.79464390364072,
     125.98650194024606
+   ],
+   [
+    252.37662281129457,
+    254.65336216180364
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6917,10 +6922,10 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed honours mbr creative sports award winners": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 33,
+  "montage_used": 34,
   "remix_ranges": [
    [
     658.7792960623468,
@@ -6953,6 +6958,10 @@
    [
     75.24309129583465,
     77.46066266266
+   ],
+   [
+    303.06121545374526,
+    304.66369503511805
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8353,11 +8362,15 @@
   "last_short": "2026-11-24",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     75.10752198135069,
     77.15728258308638
+   ],
+   [
+    59.839999999999996,
+    61.6
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9077,6 +9090,7 @@
   "last_short": "2026-11-24",
   "montage_exhausted": true,
   "montage_used": 10,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     22.972803243625428,
@@ -11052,7 +11066,7 @@
  "hamdan bin mohammed opens crime prevention international conference": {
   "last_short": "2026-11-24",
   "montage_exhausted": true,
-  "montage_used": 22,
+  "montage_used": 23,
   "remix_ranges": [
    [
     20.13502281199993,
@@ -11061,6 +11075,10 @@
    [
     37.33325819682585,
     38.81748171005098
+   ],
+   [
+    103.78950255575626,
+    106.28366845745143
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12944,10 +12962,10 @@
   "video_len": 53
  },
  "hamdan bin mohammed tours gitex 2013": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     28.17750851335637,
@@ -12956,6 +12974,10 @@
    [
     23.353333333333335,
     25.346666666666664
+   ],
+   [
+    15.994599284382241,
+    18.27620812250246
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14121,7 +14143,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     227.25091329983198,
@@ -14134,6 +14156,10 @@
    [
     196.87736050765224,
     198.74082210264393
+   ],
+   [
+    246.8080283922678,
+    248.66975305743347
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14175,7 +14201,7 @@
   "last_short": "2026-11-24",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 25,
+  "montage_used": 26,
   "remix_ranges": [
    [
     152.68800146802988,
@@ -14188,6 +14214,10 @@
    [
     82.04329018682267,
     83.94360291377116
+   ],
+   [
+    51.600850065393274,
+    53.527309763042126
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14467,11 +14497,16 @@
   "video_len": 154
  },
  "hamdan bin mohammed visits dubai hospital": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-24",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 17,
-  "remix_ranges": [],
+  "montage_used": 18,
+  "remix_ranges": [
+   [
+    31.609601684534905,
+    33.72642365002311
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 3,
   "shot_ranges": [

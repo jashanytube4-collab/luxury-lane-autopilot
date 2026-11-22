@@ -4,7 +4,7 @@
   "term:championship": "2026-11-03"
  },
  "ig_status": {
-  "date": "2026-11-21",
+  "date": "2026-11-22",
   "ok": true
  },
  "lines_used": {
@@ -1087,7 +1087,9 @@
   "ll156da68029",
   "ll9e8f609861",
   "ll384b06f648",
-  "lld10e38cb2c"
+  "lld10e38cb2c",
+  "lld2e424bbaa",
+  "lldbd9e5553b"
  ],
  "quotes": [
   {
@@ -1246,7 +1248,6 @@
   }
  ],
  "recent_hooks": [
-  "THE PRESENCE OF A LEADER | Respect, discipline and heart. ✨ #youtubeshorts #youtube",
   "SIMPLE. STRONG. FAZZA. | Fearless in the sky, gentle on the ground. #fazza #youtubeshorts #youtube",
   "THE CROWN PRINCE, UP CLOSE | One look, a thousand stories. ✨ #youtubeshorts #ytshorts",
   "FAZZA'S NEW TARGET | Fazza Sets The Future: 1,000 Companies 🤍",
@@ -1305,10 +1306,10 @@
   "THE PRINCE OF DUBAI | Royalty that touches hearts. 👑 #youtubeshorts #youtube",
   "THE CROWN PRINCE, UP CLOSE | Leadership is service, and he lives it. 👑 #youtubeshorts #youtube",
   "DUBAI'S FAVOURITE PRINCE | Humble in power. Strong in heart. ❤️ #princehamdan #youtubeshorts #youtube",
-  "WATCH HOW HE CARRIES HIMSELF | Courage looks good on him. ✨ #youtubeshorts #ytshorts"
+  "WATCH HOW HE CARRIES HIMSELF | Courage looks good on him. ✨ #youtubeshorts #ytshorts",
+  "FAZZA, AS HIS FANS SEE HIM | Every step, a lesson in leadership. 👑 #youtubeshorts #ytshorts"
  ],
  "recent_titles": [
-  "Royal in name, humble in heart. 👑 #fazza #youtubeshorts #youtube",
   "Where he goes, respect follows. #youtubeshorts #ytshorts",
   "Patience of the desert. Speed of the future. #youtubeshorts #ytshorts",
   "Grace under pressure. Kindness without limits. ✨ #youtubeshorts #ytshorts",
@@ -1607,10 +1608,11 @@
   "Royalty that touches hearts. 👑 #youtubeshorts #youtube",
   "Leadership is service, and he lives it. 👑 #youtubeshorts #youtube",
   "Humble in power. Strong in heart. ❤️ #princehamdan #youtubeshorts #youtube",
-  "Courage looks good on him. ✨ #youtubeshorts #ytshorts"
+  "Courage looks good on him. ✨ #youtubeshorts #ytshorts",
+  "Every step, a lesson in leadership. 👑 #youtubeshorts #ytshorts"
  ],
  "shorts_supply": {
-  "date": "2026-11-21",
+  "date": "2026-11-22",
   "days": 2.3,
   "events": 72
  },

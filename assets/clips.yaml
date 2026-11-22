@@ -173,47 +173,56 @@ clips:
     crop: [0.0, 0.0, 1.0, 0.84]
     credit: DD India, prayers for Captain Smit (2026)
   smit-bedside:
+    match: 'hospital|medals|himself|chose'
     yt: xEnbfqlHN3g
     parts: [[20.6, 22.6]]
     crop: [0.1146, 0.0, 0.8854, 0.787]
     credit: DD India, Sheikh Hamdan at Captain Smit Machchhar's bedside (2026)
   # ---- flydubai FZ1073 / Captain Smit (story flydubai-truth): real footage only, each clip used once ----
   fz-visit-hand:
+    match: 'hand|captain|Fazza'
     yt: EoswAtT6xc0
     parts: [[0.3, 13.2]]
     crop: [0.02, 0.09, 0.70, 0.77]
     credit: Sheikh Hamdan at Captain Smit Machchhar's bedside, official photos via DNA India (2026)
   fz-visit-lean:
+    match: 'photos|moment|world|shared'
     yt: EoswAtT6xc0
     parts: [[13.8, 26.0]]
     crop: [0.24, 0.1, 0.92, 0.77]
     credit: Sheikh Hamdan at Captain Smit Machchhar's bedside, official photos via DNA India (2026)
   fz-visit-doctor:
+    match: 'hospital|captain|Days later|Abu Dhabi'
     yt: EoswAtT6xc0
     parts: [[26.6, 38.6]]
     crop: [0.12, 0.09, 0.80, 0.77]
     credit: Sheikh Hamdan at Captain Smit Machchhar's bedside, official photos via DNA India (2026)
   fz-visit-shoulder:
+    match: 'shoulder|warmly|hand'
     yt: EoswAtT6xc0
     parts: [[39.2, 51.8]]
     crop: [0.24, 0.09, 0.92, 0.77]
     credit: Sheikh Hamdan at Captain Smit Machchhar's bedside, official photos via DNA India (2026)
   fz-visit-portrait:
+    match: 'reply|Crown Prince|himself'
     yt: kBWsaf6o0j8
     parts: [[0.3, 4.0]]
     crop: [0.0, 0.07, 1.0, 0.5]
     credit: Sheikh Hamdan visits Captain Smit Machchhar, official photos via Moneycontrol (2026)
   fz-visit-monitor:
+    match: 'reply|Crown Prince|himself|hospital'
     yt: kBWsaf6o0j8
     parts: [[10.4, 14.5]]
     crop: [0.0, 0.07, 1.0, 0.5]
     credit: Sheikh Hamdan visits Captain Smit Machchhar, official photos via Moneycontrol (2026)
   fz-visit-seated:
+    match: 'nation|compassion|peace|life'
     yt: 5fI4mIRmpWY
     parts: [[1.0, 12.0]]
     crop: [0.0, 0.55, 1.0, 0.99]
     credit: Sheikh Hamdan visits Captain Smit Machchhar, via India Today (2026)
   fz-telaviv-window:
+    match: 'Tel Aviv|families|flown|passengers'
     yt: uL5rZv77ptc
     parts: [[12.4, 16.0]]
     crop: [0.0, 0.1, 1.0, 1.0]
@@ -229,6 +238,7 @@ clips:
     crop: [0.0, 0.06, 0.87, 0.885]
     credit: Passengers of flight FZ1073 arrive in Tel Aviv, via CNA (2026)
   fz-reunion-hug:
+    match: 'remember|getting closer'
     yt: 7Tqv7qJkXTo
     parts: [[36.4, 40.1]]
     crop: [0.0, 0.06, 0.87, 0.885]
@@ -239,56 +249,67 @@ clips:
     crop: [0.0, 0.06, 0.87, 0.885]
     credit: Passengers of flight FZ1073 reunited with their families, via CNA (2026)
   fz-reunion-kiss:
+    match: 'remember|getting closer'
     yt: 7Tqv7qJkXTo
     parts: [[45.1, 48.7]]
     crop: [0.0, 0.06, 0.87, 0.885]
     credit: Passengers of flight FZ1073 reunited with their families, via CNA (2026)
   fz-arrive-walk:
+    match: 'passengers|okay|message|ground'
     yt: 7Tqv7qJkXTo
     parts: [[49.1, 53.7]]
     crop: [0.0, 0.06, 0.87, 0.885]
     credit: Passengers of flight FZ1073 arrive in Tel Aviv, via CNA (2026)
   fz-passenger-arrivals:
+    match: 'passenger|found|told|other side'
     yt: 7Tqv7qJkXTo
     parts: [[54.2, 62.0]]
     crop: [0.0, 0.06, 0.87, 0.885]
     credit: A passenger of flight FZ1073 speaks on arrival, via CNA (2026)
   fz-smit-selfie:
+    match: 'captain|hit|head|hand|broken|bleeding'
     yt: 7Tqv7qJkXTo
     parts: [[68.0, 75.0]]
     crop: [0.0, 0.06, 0.86, 0.885]
     credit: Captain Smit Machchhar's own photo, via CNA (2026)
   fz-tabuk-landed:
+    match: 'passenger|arrested|Tabuk|saved'
     yt: 7Tqv7qJkXTo
     parts: [[89.8, 92.5]]
     crop: [0.0, 0.06, 0.87, 0.885]
     credit: Flight FZ1073 on the ground in Tabuk, passenger video via CNA (2026)
   fz-tabuk-stairs:
+    match: 'passenger|arrested|Tabuk|saved'
     yt: 7Tqv7qJkXTo
     parts: [[93.0, 95.7]]
     crop: [0.225, 0.06, 0.775, 0.885]
     credit: Flight FZ1073 on the ground in Tabuk, passenger video via CNA (2026)
   fz-tabuk-walk:
+    match: 'saved|decision|passengers|Tabuk'
     yt: 7Tqv7qJkXTo
     parts: [[96.1, 98.9]]
     crop: [0.0, 0.06, 0.87, 0.885]
     credit: Flight FZ1073 on the ground in Tabuk, passenger video via CNA (2026)
   fz-tabuk-wide:
+    match: 'touched down|Tabuk|landed|jet'
     yt: 7Tqv7qJkXTo
     parts: [[99.3, 102.8]]
     crop: [0.085, 0.06, 0.915, 0.885]
     credit: Flight FZ1073 on the ground in Tabuk, passenger video via CNA (2026)
   fz-tabuk-window:
+    match: 'Tabuk|ground|message|passengers'
     yt: 7Tqv7qJkXTo
     parts: [[103.3, 110.2]]
     crop: [0.34, 0.06, 0.66, 0.885]
     credit: Flight FZ1073 on the ground in Tabuk, passenger video via CNA (2026)
   fz-cabin-call:
+    match: 'passenger|message|inside|cabin'
     yt: 7Tqv7qJkXTo
     parts: [[110.8, 113.6]]
     crop: [0.36, 0.06, 0.635, 0.8]
     credit: Passenger video from inside flight FZ1073, via CNA (2026)
   fz-yaniv:
+    match: 'Yaniv|passenger|door|reporters'
     yt: 7Tqv7qJkXTo
     parts: [[165.0, 172.0]]
     crop: [0.0, 0.06, 0.87, 0.8]
@@ -309,21 +330,25 @@ clips:
     crop: [0.31, 0.0, 0.69, 1.0]
     credit: Flight path of FZ1073, via The Business Standard (2026)
   fz-bs-cockpit:
+    match: 'cockpit|door|pilot|crew|trap|inside|threat'
     yt: hW-TQGVxres
     parts: [[42.5, 49.1]]
     crop: [0.2, 0.1, 0.8, 0.9]
     credit: flydubai pilots, via The Business Standard (2026)
   fz-cabin-aisle:
+    match: 'cockpit|attack|cabin|passenger|on board|plane|inside'
     yt: hW-TQGVxres
     parts: [[56.0, 65.6]]
     crop: [0.0, 0.1, 1.0, 1.0]
     credit: Passenger video from inside flight FZ1073, via The Business Standard (2026)
   fz-cabin-seats:
+    match: 'prosecutors|co-pilot|assaulted|cabin|passenger|plane|seize'
     yt: hW-TQGVxres
     parts: [[76.0, 78.5]]
     crop: [0.0, 0.1, 1.0, 1.0]
     credit: Passenger video from inside flight FZ1073, via The Business Standard (2026)
   fz-arrivals-hall:
+    match: 'Tel Aviv|arrive|families|passengers'
     yt: hW-TQGVxres
     parts: [[97.5, 108.6]]
     crop: [0.0, 0.1, 1.0, 1.0]
@@ -339,41 +364,49 @@ clips:
     crop: [0.3, 0.1, 0.98, 0.97]
     credit: Families of flight FZ1073 passengers, via The Business Standard (2026)
   fz-plane-night:
+    match: 'Attorney General|on board the plane'
     yt: uL5rZv77ptc
     parts: [[20.4, 25.6]]
     crop: [0.0, 0.1, 1.0, 1.0]
     credit: flydubai flight FZ1073 in Tel Aviv, via The Hindu (2026)
   fz-disembark:
+    match: 'passenger|seat|frozen|honest'
     yt: uL5rZv77ptc
     parts: [[73.8, 79.5]]
     crop: [0.0, 0.1, 1.0, 1.0]
     credit: Passengers leave flight FZ1073, via The Hindu (2026)
   fz-ambulance:
+    match: 'ambulance|surgeons'
     yt: uL5rZv77ptc
     parts: [[105.3, 110.8]]
     crop: [0.0, 0.1, 1.0, 1.0]
     credit: Emergency services after flight FZ1073, via The Hindu (2026)
   fz-almog:
+    match: 'passenger|message|Tel Aviv|families'
     yt: uL5rZv77ptc
     parts: [[152.0, 160.0]]
     crop: [0.33, 0.1, 0.67, 1.0]
     credit: Almog Italie, a passenger of flight FZ1073, via The Hindu (2026)
   fz-flags:
+    match: 'Tel Aviv|families|flags|balloons|tears|passengers'
     yt: uL5rZv77ptc
     parts: [[245.2, 248.4]]
     crop: [0.0, 0.1, 1.0, 1.0]
     credit: Passengers of flight FZ1073 welcomed in Tel Aviv, via The Hindu (2026)
   fz-arrive-family:
+    match: 'Tel Aviv|families|flags|balloons|tears|passengers'
     yt: uL5rZv77ptc
     parts: [[248.8, 252.3]]
     crop: [0.0, 0.1, 1.0, 1.0]
     credit: Passengers of flight FZ1073 welcomed in Tel Aviv, via The Hindu (2026)
   fz-plane-gate:
+    match: 'not a fight|colleagues|plane|flight'
     yt: uL5rZv77ptc
     parts: [[258.0, 262.6]]
     crop: [0.0, 0.1, 1.0, 1.0]
     credit: flydubai flight FZ1073 in Tel Aviv, via The Hindu (2026)
   fz-reuters-arrive:
+    match: 'news agencies|reported|sources|Oman'
     yt: iOXY4_1SCos
     parts: [[39.9, 48.8]]
     crop: [0.0, 0.08, 0.94, 0.8]
@@ -384,21 +417,25 @@ clips:
     crop: [0.0, 0.08, 1.0, 0.8]
     credit: Prime Minister Narendra Modi's post about Captain Smit Machchhar, via ANI (2026)
   fz-i24-passenger:
+    match: 'reports|investigation|officials|confirmed|cockpit'
     yt: l4bzl4gKFfg
     parts: [[73.0, 80.0]]
     crop: [0.32, 0.1, 0.68, 0.86]
     credit: A passenger of flight FZ1073, via i24NEWS (2026)
   fz-smit-call:
+    match: 'Modi|idol|called'
     yt: o-8lfWUz9DA
     parts: [[46.6, 54.0]]
     crop: [0.0, 0.0, 0.49, 1.0]
     credit: Captain Smit Machchhar's video call with Prime Minister Modi, via Times Now (2026)
   fz-smit-call2:
+    match: 'hospital bed|bandaged|fighting for his life'
     yt: o-8lfWUz9DA
     parts: [[75.0, 83.0]]
     crop: [0.0, 0.0, 0.49, 1.0]
     credit: Captain Smit Machchhar's video call with Prime Minister Modi, via Times Now (2026)
   fz-smit-selfie2:
+    match: 'captain|man in charge|experienced'
     yt: xt5G1OW70F8
     parts: [[6.2, 10.4]]
     crop: [0.0, 0.64, 1.0, 1.0]
@@ -409,6 +446,7 @@ clips:
     crop: [0.0, 0.64, 1.0, 1.0]
     credit: Map of flight FZ1073, via Khaleej Times (2026)
   fz-kt-city:
+    match: 'Dubai|Tel Aviv|flight|on board'
     yt: xt5G1OW70F8
     parts: [[14.3, 18.4]]
     crop: [0.0, 0.64, 1.0, 1.0]
@@ -419,11 +457,13 @@ clips:
     crop: [0.0, 0.64, 1.0, 1.0]
     credit: India's ambassador to the UAE, via Khaleej Times (2026)
   fz-couple-suit:
+    match: 'Sonal|wife|stable|confirmed'
     yt: Y742XQ6Imi8
     parts: [[3.2, 5.8]]
     crop: [0.495, 0.12, 1.0, 0.78]
     credit: Captain Smit Machchhar and his wife Sonal, via CNN-News18 (2026)
   fz-couple-selfie:
+    match: 'Sonal|wife|stable|confirmed'
     yt: Y742XQ6Imi8
     parts: [[99.0, 101.4]]
     crop: [0.495, 0.12, 1.0, 0.46]
@@ -434,26 +474,31 @@ clips:
     crop: [0.07, 0.08, 0.93, 1.0]
     credit: Kishore Machchhar, Captain Smit's uncle, ANI via ET (2026)
   fz-aunt:
+    match: 'trained|SpiceJet|flying|joined flydubai|whole life|family'
     yt: 2m4Im6TZd-A
     parts: [[265.0, 272.0]]
     crop: [0.07, 0.08, 0.93, 1.0]
     credit: Captain Smit's family in Mumbai, ANI via ET (2026)
   fz-sonal:
+    match: 'Sonal|wife|shattered'
     yt: Y742XQ6Imi8
     parts: [[150.0, 160.0]]
     crop: [0.245, 0.17, 0.485, 0.66]
     credit: Sonal Machchhar, Captain Smit's wife, via CNN-News18 (2026)
   fz-modi-call:
+    match: 'Modi|video call|phone rang'
     yt: o-8lfWUz9DA
     parts: [[60.0, 68.0]]
     crop: [0.51, 0.21, 0.93, 1.0]
     credit: Prime Minister Modi on a video call with Captain Smit Machchhar, via Times Now (2026)
   fz-smit-call3:
+    match: 'Smit told him|lives were in his hands|could have died'
     yt: o-8lfWUz9DA
     parts: [[110.0, 118.0]]
     crop: [0.0, 0.0, 0.49, 1.0]
     credit: Captain Smit Machchhar's video call with Prime Minister Modi, via Times Now (2026)
   fz-smit-call4:
+    match: 'Hanuman|biggest idol'
     yt: o-8lfWUz9DA
     parts: [[160.0, 168.0]]
     crop: [0.0, 0.0, 0.49, 1.0]
@@ -1789,14 +1834,14 @@ clips:
     note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
     credit: Arrival in New Delhi, via Business Standard
   in-door:
-    match: ''
+    match: 'hamdan|fazza|crown prince|himself|chose|he added|he wrote|our team|nation|answer|moment|honoured|crew|subscribe|comments|message|stories|stay with me|getting closer'
     yt: RzBCeUMVYks
     parts:
     - [0.3, 5.8]
     note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
     credit: Arrival in New Delhi, via The Brief Media
   in-stairs:
-    match: ''
+    match: 'indian|families|workers|hamdan|fazza|crown prince|himself|chose|he added|he wrote|our team|nation|answer|moment|honoured|crew|subscribe|comments|message|stories|stay with me|getting closer'
     yt: RzBCeUMVYks
     parts:
     - [6.2, 11.6]
@@ -1810,7 +1855,7 @@ clips:
     note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
     credit: Arrival in New Delhi, via The Brief Media
   in-officer:
-    match: ''
+    match: 'hamdan|fazza|crown prince|himself|chose|he added|he wrote|our team|nation|answer|moment|honoured|crew|subscribe|comments|message|stories|stay with me|getting closer'
     yt: RzBCeUMVYks
     parts:
     - [23.0, 28.6]
@@ -1824,14 +1869,14 @@ clips:
     note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
     credit: Arrival in New Delhi, via The Brief Media
   in-gopi-2:
-    match: ''
+    match: 'hamdan|fazza|crown prince|himself|chose|he added|he wrote|our team|nation|answer|moment|honoured|crew|subscribe|comments|message|stories|stay with me|getting closer'
     yt: RzBCeUMVYks
     parts:
     - [42.0, 44.8]
     note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
     credit: Arrival in New Delhi, via The Brief Media
   in-carpet-back:
-    match: ''
+    match: 'hamdan|fazza|crown prince|himself|chose|he added|he wrote|our team|nation|answer|moment|honoured|crew|subscribe|comments|message|stories|stay with me|getting closer'
     yt: RzBCeUMVYks
     parts:
     - [49.5, 52.3]
@@ -1880,14 +1925,14 @@ clips:
     note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
     credit: Arrival in New Delhi, via The Brief Media
   in-inspect-far:
-    match: ''
+    match: 'hamdan|fazza|crown prince|himself|chose|he added|he wrote|our team|nation|answer|moment|honoured|crew|subscribe|comments|message|stories|stay with me|getting closer'
     yt: RzBCeUMVYks
     parts:
     - [160.0, 167.5]
     note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
     credit: Arrival in New Delhi, via The Brief Media
   in-inspect-close:
-    match: ''
+    match: 'hamdan|fazza|crown prince|himself|chose|he added|he wrote|our team|nation|answer|moment|honoured|crew|subscribe|comments|message|stories|stay with me|getting closer'
     yt: RzBCeUMVYks
     parts:
     - [179.0, 184.5]
@@ -1901,7 +1946,7 @@ clips:
     note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
     credit: Arrival in New Delhi, via The Brief Media
   in-line-greet:
-    match: ''
+    match: 'hamdan|fazza|crown prince|himself|chose|he added|he wrote|our team|nation|answer|moment|honoured|crew|subscribe|comments|message|stories|stay with me|getting closer'
     yt: RzBCeUMVYks
     parts:
     - [213.5, 221.0]
@@ -2401,7 +2446,7 @@ clips:
     note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
     credit: Arrival in New Delhi, via Business Standard
   inx-mia1-10:
-    match: ''
+    match: 'hamdan|fazza|crown prince|himself|chose|he added|he wrote|our team|nation|answer|moment|honoured|crew|subscribe|comments|message|stories|stay with me|getting closer'
     yt: mIA1bDzd2xU
     parts:
     - [52.71, 55.05]
@@ -2842,7 +2887,7 @@ clips:
     note: India visit story r07, cut + every scene checked by Rocky 2026-11-03
     credit: Dubai Media Office
   dmo-dprt-07:
-    match: ''
+    match: 'hamdan|fazza|crown prince|himself|chose|he added|he wrote|our team|nation|answer|moment|honoured|crew|subscribe|comments|message|stories|stay with me|getting closer'
     yt: dPrTbyrt3oI
     parts:
     - [22.55, 24.43]
@@ -3070,7 +3115,7 @@ clips:
     credit: Arrival in New Delhi, via The Free Press Journal
   # ---- India visit story r07 (keepbusy 2026-11-03) ----
   dmo-erds-36:
-    match: ''
+    match: 'hamdan|fazza|crown prince|courage|choice|pilots|nightmare|captain|bleeding|himself'
     yt: ErDSTdQP8_0
     parts:
     - [44.12, 47.48]
@@ -3085,7 +3130,7 @@ clips:
     credit: Dubai Media Office
   # ---- r07 v8 cuts (keepbusy 2026-11-19) ----
   dmo-la1w-c1:
-    match: ''
+    match: 'hamdan|fazza|crown prince|courage|choice|pilots|nightmare|captain|bleeding|himself'
     yt: La1WEUV2r-0
     parts:
     - - 16.25
@@ -3158,7 +3203,7 @@ clips:
     note: India visit story r07, cut inside one shot + frames checked by Rocky 2026-11-19
     credit: Dubai Media Office
   dmo-epmv-c1:
-    match: ''
+    match: 'hamdan|fazza|crown prince|himself|chose|he added|he wrote|our team|nation|answer|moment|honoured|crew|subscribe|comments|message|stories|stay with me|getting closer'
     yt: EpMvcF8dqlc
     parts:
     - - 16.85
@@ -3206,7 +3251,7 @@ clips:
     note: India visit story r07, cut inside one shot + frames checked by Rocky 2026-11-19
     credit: Prime Minister Narendra Modi's official channel
   ihkr-c3:
-    match: ''
+    match: 'hamdan|fazza|crown prince|himself|chose|he added|he wrote|our team|nation|answer|moment|honoured|crew|subscribe|comments|message|stories|stay with me|getting closer'
     yt: iHKrgTnh6j8
     parts:
     - - 45.25
@@ -3222,3 +3267,712 @@ clips:
       - 15.3
     note: India visit story r07, cut inside one shot + frames checked by Rocky 2026-11-19
     credit: Dubai Media Office
+  fz-oz-hug:
+    match: 'hug|embrace|president|Mohamed bin Zayed'
+    yt: K7Z17wuIxso
+    parts:
+    - - 0.2
+      - 4.0
+    note: flydubai-truth v3 Order of Zayed ceremony, cut from contact sheet by Rocky 2026-11-21
+    credit: UAE Presidential Court ceremony footage, Order of Zayed II for the flydubai crew, via DeshGujarat
+  fz-oz-greet:
+    match: 'president|crew|greet|shook|hands'
+    yt: K7Z17wuIxso
+    parts:
+    - - 4.0
+      - 13.5
+    note: flydubai-truth v3 Order of Zayed ceremony, cut from contact sheet by Rocky 2026-11-21
+    credit: UAE Presidential Court ceremony footage, Order of Zayed II for the flydubai crew, via DeshGujarat
+  fz-oz-crewline:
+    match: 'crew|line|stood|waited'
+    yt: K7Z17wuIxso
+    parts:
+    - - 13.6
+      - 16.0
+    note: flydubai-truth v3 Order of Zayed ceremony, cut from contact sheet by Rocky 2026-11-21
+    credit: UAE Presidential Court ceremony footage, Order of Zayed II for the flydubai crew, via DeshGujarat
+  fz-oz-leaders:
+    match: 'leaders|sheikhs|rulers|watched|room'
+    yt: K7Z17wuIxso
+    parts:
+    - - 16.0
+      - 21.8
+    note: flydubai-truth v3 Order of Zayed ceremony, cut from contact sheet by Rocky 2026-11-21
+    credit: UAE Presidential Court ceremony footage, Order of Zayed II for the flydubai crew, via DeshGujarat
+  fz-oz-medal:
+    match: 'medal|order|zayed|honour|award'
+    yt: K7Z17wuIxso
+    parts:
+    - - 21.8
+      - 24.0
+    note: flydubai-truth v3 Order of Zayed ceremony, cut from contact sheet by Rocky 2026-11-21
+    credit: UAE Presidential Court ceremony footage, Order of Zayed II for the flydubai crew, via DeshGujarat
+  fz-oz-lineup:
+    match: 'crew|line|stood|whole|team'
+    yt: K7Z17wuIxso
+    parts:
+    - - 24.0
+      - 28.0
+    note: flydubai-truth v3 Order of Zayed ceremony, cut from contact sheet by Rocky 2026-11-21
+    credit: UAE Presidential Court ceremony footage, Order of Zayed II for the flydubai crew, via DeshGujarat
+  fz-oz-wings:
+    match: 'wings|uniform|pilot|badge'
+    yt: K7Z17wuIxso
+    parts:
+    - - 28.0
+      - 30.0
+    note: flydubai-truth v3 Order of Zayed ceremony, cut from contact sheet by Rocky 2026-11-21
+    credit: UAE Presidential Court ceremony footage, Order of Zayed II for the flydubai crew, via DeshGujarat
+  fz-oz-crewface:
+    match: 'crew|faces|proud|nervous'
+    yt: K7Z17wuIxso
+    parts:
+    - - 30.0
+      - 34.0
+    note: flydubai-truth v3 Order of Zayed ceremony, cut from contact sheet by Rocky 2026-11-21
+    credit: UAE Presidential Court ceremony footage, Order of Zayed II for the flydubai crew, via DeshGujarat
+  fz-oz-hamdan:
+    match: 'hamdan|fazza|crown prince|waited|stood'
+    yt: K7Z17wuIxso
+    parts:
+    - - 33.8
+      - 36.2
+    note: flydubai-truth v3 Order of Zayed ceremony, cut from contact sheet by Rocky 2026-11-21
+    credit: UAE Presidential Court ceremony footage, Order of Zayed II for the flydubai crew, via DeshGujarat
+  fz-oz-sheikhs:
+    match: 'sheikh|ahmed bin saeed|theyab|officials|leaders|sheikh|watch'
+    yt: K7Z17wuIxso
+    parts:
+    - - 36.0
+      - 40.0
+    note: flydubai-truth v3 Order of Zayed ceremony, cut from contact sheet by Rocky 2026-11-21
+    credit: UAE Presidential Court ceremony footage, Order of Zayed II for the flydubai crew, via DeshGujarat
+  fz-oz-smit:
+    match: 'smit|captain|medal|hand'
+    yt: K7Z17wuIxso
+    parts:
+    - - 40.0
+      - 44.0
+    note: flydubai-truth v3 Order of Zayed ceremony, cut from contact sheet by Rocky 2026-11-21
+    credit: UAE Presidential Court ceremony footage, Order of Zayed II for the flydubai crew, via DeshGujarat
+  fz-oz-guard:
+    match: 'hamdan|fazza|crown prince|medal|guard'
+    yt: K7Z17wuIxso
+    parts:
+    - - 44.0
+      - 48.0
+    note: flydubai-truth v3 Order of Zayed ceremony, cut from contact sheet by Rocky 2026-11-21
+    credit: UAE Presidential Court ceremony footage, Order of Zayed II for the flydubai crew, via DeshGujarat
+  fz-oz-cap:
+    match: 'hamdan|fazza|medal|turn|one by one'
+    yt: K7Z17wuIxso
+    parts:
+    - - 48.0
+      - 52.0
+    note: flydubai-truth v3 Order of Zayed ceremony, cut from contact sheet by Rocky 2026-11-21
+    credit: UAE Presidential Court ceremony footage, Order of Zayed II for the flydubai crew, via DeshGujarat
+  fz-oz-pilot2:
+    match: 'pilot|relief|medal|took the controls'
+    yt: K7Z17wuIxso
+    parts:
+    - - 52.0
+      - 54.2
+    note: flydubai-truth v3 Order of Zayed ceremony, cut from contact sheet by Rocky 2026-11-21
+    credit: UAE Presidential Court ceremony footage, Order of Zayed II for the flydubai crew, via DeshGujarat
+  fz-oz-blue1:
+    match: 'crew|cabin|medal|one by one|each'
+    yt: K7Z17wuIxso
+    parts:
+    - - 54.2
+      - 60.0
+    note: flydubai-truth v3 Order of Zayed ceremony, cut from contact sheet by Rocky 2026-11-21
+    credit: UAE Presidential Court ceremony footage, Order of Zayed II for the flydubai crew, via DeshGujarat
+  fz-oz-blue2:
+    match: 'crew|cabin|medal|each|shook'
+    yt: K7Z17wuIxso
+    parts:
+    - - 60.0
+      - 64.0
+    note: flydubai-truth v3 Order of Zayed ceremony, cut from contact sheet by Rocky 2026-11-21
+    credit: UAE Presidential Court ceremony footage, Order of Zayed II for the flydubai crew, via DeshGujarat
+  fz-oz-blue3:
+    match: 'crew|cabin|medal|each|young'
+    yt: K7Z17wuIxso
+    parts:
+    - - 64.0
+      - 71.5
+    note: flydubai-truth v3 Order of Zayed ceremony, cut from contact sheet by Rocky 2026-11-21
+    credit: UAE Presidential Court ceremony footage, Order of Zayed II for the flydubai crew, via DeshGujarat
+  fz-oz-chat:
+    match: 'spoke|talk|chat|thank|listened|words'
+    yt: K7Z17wuIxso
+    parts:
+    - - 71.5
+      - 80.0
+    note: flydubai-truth v3 Order of Zayed ceremony, cut from contact sheet by Rocky 2026-11-21
+    credit: UAE Presidential Court ceremony footage, Order of Zayed II for the flydubai crew, via DeshGujarat
+  fz-oz-talk:
+    match: 'hamdan|fazza|crown prince|spoke|listened'
+    yt: K7Z17wuIxso
+    parts:
+    - - 80.0
+      - 82.2
+    note: flydubai-truth v3 Order of Zayed ceremony, cut from contact sheet by Rocky 2026-11-21
+    credit: UAE Presidential Court ceremony footage, Order of Zayed II for the flydubai crew, via DeshGujarat
+  fz-oz-group:
+    match: 'crew|team|together|all'
+    yt: K7Z17wuIxso
+    parts:
+    - - 82.2
+      - 84.4
+    note: flydubai-truth v3 Order of Zayed ceremony, cut from contact sheet by Rocky 2026-11-21
+    credit: UAE Presidential Court ceremony footage, Order of Zayed II for the flydubai crew, via DeshGujarat
+  fz-oz-greet-a:
+    match: 'president|crew|greet|shook|hands'
+    yt: K7Z17wuIxso
+    parts:
+    - - 4.0
+      - 8.6
+    note: half of fz-oz-greet (flydubai-truth v3), Rocky 2026-11-21
+    credit: UAE Presidential Court ceremony footage, Order of Zayed II for the flydubai crew, via DeshGujarat
+  fz-oz-greet-b:
+    match: 'president|crew|greet|shook|hands'
+    yt: K7Z17wuIxso
+    parts:
+    - - 8.6
+      - 13.5
+    note: half of fz-oz-greet (flydubai-truth v3), Rocky 2026-11-21
+    credit: UAE Presidential Court ceremony footage, Order of Zayed II for the flydubai crew, via DeshGujarat
+  fz-oz-blue3-a:
+    match: 'crew|cabin|medal|each|young'
+    yt: K7Z17wuIxso
+    parts:
+    - - 64.0
+      - 67.8
+    note: half of fz-oz-blue3 (flydubai-truth v3), Rocky 2026-11-21
+    credit: UAE Presidential Court ceremony footage, Order of Zayed II for the flydubai crew, via DeshGujarat
+  fz-oz-blue3-b:
+    match: 'crew|cabin|medal|each|young'
+    yt: K7Z17wuIxso
+    parts:
+    - - 67.8
+      - 71.5
+    note: half of fz-oz-blue3 (flydubai-truth v3), Rocky 2026-11-21
+    credit: UAE Presidential Court ceremony footage, Order of Zayed II for the flydubai crew, via DeshGujarat
+  fz-oz-chat-a:
+    match: 'spoke|talk|chat|thank|listened|words'
+    yt: K7Z17wuIxso
+    parts:
+    - - 71.5
+      - 75.8
+    note: half of fz-oz-chat (flydubai-truth v3), Rocky 2026-11-21
+    credit: UAE Presidential Court ceremony footage, Order of Zayed II for the flydubai crew, via DeshGujarat
+  fz-oz-chat-b:
+    match: 'spoke|talk|chat|thank|listened|words'
+    yt: K7Z17wuIxso
+    parts:
+    - - 75.8
+      - 80.0
+    note: half of fz-oz-chat (flydubai-truth v3), Rocky 2026-11-21
+    credit: UAE Presidential Court ceremony footage, Order of Zayed II for the flydubai crew, via DeshGujarat
+  fz-oz-leaders-a:
+    match: 'leaders|sheikhs|rulers|watched|room|sheikh|watch'
+    yt: K7Z17wuIxso
+    parts:
+    - - 16.0
+      - 18.8
+    note: half of fz-oz-leaders (flydubai-truth v3), Rocky 2026-11-21
+    credit: UAE Presidential Court ceremony footage, Order of Zayed II for the flydubai crew, via DeshGujarat
+  fz-oz-leaders-b:
+    match: 'leaders|sheikhs|rulers|watched|room'
+    yt: K7Z17wuIxso
+    parts:
+    - - 18.8
+      - 21.8
+    note: half of fz-oz-leaders (flydubai-truth v3), Rocky 2026-11-21
+    credit: UAE Presidential Court ceremony footage, Order of Zayed II for the flydubai crew, via DeshGujarat
+  fz-oz-blue1-a:
+    match: 'crew|cabin|medal|one by one|each'
+    yt: K7Z17wuIxso
+    parts:
+    - - 54.2
+      - 57.1
+    note: half of fz-oz-blue1 (flydubai-truth v3), Rocky 2026-11-21
+    credit: UAE Presidential Court ceremony footage, Order of Zayed II for the flydubai crew, via DeshGujarat
+  fz-oz-blue1-b:
+    match: 'crew|cabin|medal|one by one|each'
+    yt: K7Z17wuIxso
+    parts:
+    - - 57.1
+      - 60.0
+    note: half of fz-oz-blue1 (flydubai-truth v3), Rocky 2026-11-21
+    credit: UAE Presidential Court ceremony footage, Order of Zayed II for the flydubai crew, via DeshGujarat
+  as23-walk:
+    match: 'crown prince|hamdan|fazza|honour|crew|pilot|captain|cabin|plane|flight|aviation|airline|airport|never forgot|why|choice|passenger|shocking|truths|begin'
+    yt: OgZM6VPYdi4
+    parts:
+    - - 9.0
+      - 11.9
+    note: flydubai-truth v4, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Dubai Airshow 2023, Hamdan bin Mohammed official video
+  as23-point:
+    match: 'crown prince|hamdan|fazza|honour|crew|pilot|captain|cabin|plane|flight|aviation|airline|airport|never forgot|why|choice|passenger|shocking|truths|begin'
+    yt: OgZM6VPYdi4
+    parts:
+    - - 18.0
+      - 21.0
+    note: flydubai-truth v4, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Dubai Airshow 2023, Hamdan bin Mohammed official video
+  as23-group:
+    match: 'crown prince|hamdan|fazza|honour|crew|pilot|captain|cabin|plane|flight|aviation|airline|airport|never forgot|why|choice|passenger|shocking|truths|begin'
+    yt: OgZM6VPYdi4
+    parts:
+    - - 30.0
+      - 32.4
+    note: flydubai-truth v4, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Dubai Airshow 2023, Hamdan bin Mohammed official video
+  as23-close:
+    match: 'crown prince|hamdan|fazza|honour|crew|pilot|captain|cabin|plane|flight|aviation|airline|airport|never forgot|why|choice|passenger|shocking|truths|begin'
+    yt: OgZM6VPYdi4
+    parts:
+    - - 37.4
+      - 39.4
+    note: flydubai-truth v4, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Dubai Airshow 2023, Hamdan bin Mohammed official video
+  as23-close2:
+    match: 'crown prince|hamdan|fazza|honour|crew|pilot|captain|cabin|plane|flight|aviation|airline|airport|never forgot|why|choice|passenger|shocking|truths|begin'
+    yt: OgZM6VPYdi4
+    parts:
+    - - 41.9
+      - 43.9
+    note: flydubai-truth v4, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Dubai Airshow 2023, Hamdan bin Mohammed official video
+  as23-walk3:
+    match: 'crown prince|hamdan|fazza|honour|crew|pilot|captain|cabin|plane|flight|aviation|airline|airport|never forgot|why|choice|passenger|shocking|truths|begin'
+    yt: OgZM6VPYdi4
+    parts:
+    - - 64.4
+      - 67.4
+    note: flydubai-truth v4, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Dubai Airshow 2023, Hamdan bin Mohammed official video
+  as23-planes:
+    match: 'plane|jet|flight|clouds|sky|aircraft|airline|pilot|captain|nightmare|engine|bleeding'
+    yt: OgZM6VPYdi4
+    parts:
+    - - 3.0
+      - 7.4
+    note: flydubai-truth v4, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Dubai Airshow 2023, Hamdan bin Mohammed official video
+  as23-engine:
+    match: 'plane|jet|flight|clouds|sky|aircraft|airline|pilot|captain|nightmare|engine|bleeding'
+    yt: OgZM6VPYdi4
+    parts:
+    - - 27.0
+      - 30.0
+    note: flydubai-truth v4, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Dubai Airshow 2023, Hamdan bin Mohammed official video
+  taxi-fly:
+    match: 'plane|jet|flight|clouds|sky|aircraft|airline|pilot|captain|nightmare|engine|bleeding|fly|flying|passenger|alive'
+    yt: Cpt8CGUz-3A
+    parts:
+    - - 4.5
+      - 7.4
+    note: flydubai-truth v4, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Hamdan bin Mohammed reviews the air taxi station, official video
+  taxi-profile:
+    match: 'crown prince|hamdan|fazza|honour|crew|pilot|captain|cabin|plane|flight|aviation|airline|airport|never forgot|why|choice|passenger|shocking|truths|begin|stay|end'
+    yt: Cpt8CGUz-3A
+    parts:
+    - - 12.0
+      - 14.4
+    note: flydubai-truth v4, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Hamdan bin Mohammed reviews the air taxi station, official video
+  taxi-screen:
+    match: 'crown prince|hamdan|fazza|honour|crew|pilot|captain|cabin|plane|flight|aviation|airline|airport|never forgot|why|choice|passenger|shocking|truths|begin'
+    yt: Cpt8CGUz-3A
+    parts:
+    - - 19.5
+      - 22.3
+    note: flydubai-truth v4, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Hamdan bin Mohammed reviews the air taxi station, official video
+  taxi-close:
+    match: 'crown prince|hamdan|fazza|honour|crew|pilot|captain|cabin|plane|flight|aviation|airline|airport|never forgot|why|choice|passenger|shocking|truths|begin|stay|end'
+    yt: Cpt8CGUz-3A
+    parts:
+    - - 22.4
+      - 24.2
+    note: flydubai-truth v4, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Hamdan bin Mohammed reviews the air taxi station, official video
+  taxi-shake:
+    match: 'crown prince|hamdan|fazza|honour|crew|pilot|captain|cabin|plane|flight|aviation|airline|airport|never forgot|why|choice|passenger|shocking|truths|begin'
+    yt: Cpt8CGUz-3A
+    parts:
+    - - 40.4
+      - 43.3
+    note: flydubai-truth v4, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Hamdan bin Mohammed reviews the air taxi station, official video
+  taxi-craft:
+    match: 'crown prince|hamdan|fazza|honour|crew|pilot|captain|cabin|plane|flight|aviation|airline|airport|never forgot|why|choice|passenger|shocking|truths|begin'
+    yt: Cpt8CGUz-3A
+    parts:
+    - - 43.4
+      - 46.4
+    note: flydubai-truth v4, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Hamdan bin Mohammed reviews the air taxi station, official video
+  taxi-walk:
+    match: 'crown prince|hamdan|fazza|honour|crew|pilot|captain|cabin|plane|flight|aviation|airline|airport|never forgot|why|choice|passenger|shocking|truths|begin'
+    yt: Cpt8CGUz-3A
+    parts:
+    - - 57.0
+      - 60.0
+    note: flydubai-truth v4, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Hamdan bin Mohammed reviews the air taxi station, official video
+  gx-a380:
+    match: 'plane|jet|flight|airline|airport|ordinary|aircraft|runway|dubai'
+    yt: GXi-8mZf1kk
+    parts:
+    - - 3.0
+      - 6.0
+    note: flydubai-truth v4, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Hamdan bin Mohammed reviews operations of Dubai International Airport and Emirates, official video
+  gx-group:
+    match: 'airline|airport|flydubai|destinations|operations|hamdan|dubai'
+    yt: GXi-8mZf1kk
+    parts:
+    - - 25.5
+      - 28.4
+    note: flydubai-truth v4, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Hamdan bin Mohammed reviews operations of Dubai International Airport and Emirates, official video
+  gx-hamdan:
+    match: 'airline|airport|operations|hamdan|inspected|himself'
+    yt: GXi-8mZf1kk
+    parts:
+    - - 15.0
+      - 17.6
+    note: flydubai-truth v4, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Hamdan bin Mohammed reviews operations of Dubai International Airport and Emirates, official video
+  gx-close:
+    match: 'airline|airport|operations|hamdan|inspected|himself'
+    yt: GXi-8mZf1kk
+    parts:
+    - - 28.4
+      - 31.4
+    note: flydubai-truth v4, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Hamdan bin Mohammed reviews operations of Dubai International Airport and Emirates, official video
+  df-medals:
+    match: 'defence|minister|deputy|prime minister|soldiers|armed forces|hamdan|crown prince'
+    yt: 1DCwn3XZa4o
+    parts:
+    - - 46.4
+      - 50.9
+    note: flydubai-truth v4, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Hamdan bin Mohammed at the UAE Armed Forces Unification Day ceremony, official video
+  df-group:
+    match: 'defence|minister|deputy|prime minister|soldiers|armed forces|hamdan|crown prince'
+    yt: 1DCwn3XZa4o
+    parts:
+    - - 60.0
+      - 63.9
+    note: flydubai-truth v4, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Hamdan bin Mohammed at the UAE Armed Forces Unification Day ceremony, official video
+  ek-walk:
+    match: 'emirates|aviation|airline|chairman|ahmed bin saeed|with him|hamdan|airport'
+    yt: rh1sW1Whgjk
+    parts:
+    - - 21.6
+      - 26.4
+    note: flydubai-truth v4, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Hamdan bin Mohammed and Maktoum bin Mohammed visit Emirates Group headquarters, official video
+  ek-balcony:
+    match: 'emirates|aviation|airline|chairman|ahmed bin saeed|with him|hamdan|airport'
+    yt: rh1sW1Whgjk
+    parts:
+    - - 70.2
+      - 75.0
+    note: flydubai-truth v4, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Hamdan bin Mohammed and Maktoum bin Mohammed visit Emirates Group headquarters, official video
+  s17-walk:
+    match: 'courage|responsibility|wrote|pilot|proud|team|hamdan|fazza|crown prince|nation|compassion|peace'
+    yt: 42Kwg3k_k6I
+    parts:
+    - - 49.2
+      - 53.2
+    note: flydubai-truth v4, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Dubai Media Office, Hamdan bin Mohammed visits Dubai Airshow
+  s17-close:
+    match: 'courage|responsibility|wrote|pilot|proud|team|hamdan|fazza|crown prince|nation|compassion|peace'
+    yt: 42Kwg3k_k6I
+    parts:
+    - - 82.0
+      - 86.0
+    note: flydubai-truth v4, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Dubai Media Office, Hamdan bin Mohammed visits Dubai Airshow
+  s17-point:
+    match: 'courage|responsibility|wrote|pilot|proud|team|hamdan|fazza|crown prince|nation|compassion|peace'
+    yt: 42Kwg3k_k6I
+    parts:
+    - - 102.5
+      - 106.5
+    note: flydubai-truth v4, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Dubai Media Office, Hamdan bin Mohammed visits Dubai Airshow
+  ck-shah:
+    match: 'india|indian|cricket|community|nationalities|millions|workers|families|stars|meant everything'
+    yt: 2ErNqV7nNek
+    parts:
+    - - 0.0
+      - 2.0
+    note: flydubai-truth v4, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Hamdan bin Mohammed meets the ICC chairman and Indian cricket stars, official video
+  ck-players:
+    match: 'india|indian|cricket|community|nationalities|millions|workers|families|stars|meant everything'
+    yt: 2ErNqV7nNek
+    parts:
+    - - 2.0
+      - 4.0
+    note: flydubai-truth v4, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Hamdan bin Mohammed meets the ICC chairman and Indian cricket stars, official video
+  ck-talk:
+    match: 'india|indian|cricket|community|nationalities|millions|workers|families|stars|meant everything'
+    yt: 2ErNqV7nNek
+    parts:
+    - - 4.0
+      - 8.0
+    note: flydubai-truth v4, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Hamdan bin Mohammed meets the ICC chairman and Indian cricket stars, official video
+  ck-group:
+    match: 'india|indian|cricket|community|nationalities|millions|workers|families|stars|meant everything'
+    yt: 2ErNqV7nNek
+    parts:
+    - - 12.9
+      - 15.4
+    note: flydubai-truth v4, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Hamdan bin Mohammed meets the ICC chairman and Indian cricket stars, official video
+  cat-walk:
+    match: 'hamdan|fazza|crown prince|hospital|medals|himself|chose|habit|visited|workers|crew|cabin|team|subscribe|comments|message|stories|thank|cook'
+    yt: CekbQReJUxQ
+    parts:
+    - - 37.4
+      - 40.4
+    note: flydubai-truth v4, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Hamdan bin Mohammed visits Emirates Flight Catering, official video
+  cat-talk:
+    match: 'hamdan|fazza|crown prince|hospital|medals|himself|chose|habit|visited|workers|crew|cabin|team|subscribe|comments|message|stories|thank|cook'
+    yt: CekbQReJUxQ
+    parts:
+    - - 40.4
+      - 43.6
+    note: flydubai-truth v4, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Hamdan bin Mohammed visits Emirates Flight Catering, official video
+  cat-crew:
+    match: 'hamdan|fazza|crown prince|hospital|medals|himself|chose|habit|visited|workers|crew|cabin|team|subscribe|comments|message|stories|thank|cook'
+    yt: CekbQReJUxQ
+    parts:
+    - - 48.0
+      - 54.0
+    note: flydubai-truth v4, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Hamdan bin Mohammed visits Emirates Flight Catering, official video
+  cat-group:
+    match: 'hamdan|fazza|crown prince|hospital|medals|himself|chose|habit|visited|workers|crew|cabin|team|subscribe|comments|message|stories|thank|cook'
+    yt: CekbQReJUxQ
+    parts:
+    - - 53.9
+      - 57.3
+    note: flydubai-truth v4, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Hamdan bin Mohammed visits Emirates Flight Catering, official video
+  as23-aircraft:
+    match: 'crown prince|hamdan|fazza|honour|crew|pilot|captain|cabin|plane|flight|aviation|airline|airport|never forgot|why|choice|passenger|shocking|truths|begin'
+    yt: OgZM6VPYdi4
+    parts:
+    - - 58.5
+      - 61.4
+    note: flydubai-truth v5, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Dubai Airshow 2023, Hamdan bin Mohammed official video
+  taxi-tour:
+    match: 'crown prince|hamdan|fazza|honour|crew|pilot|captain|cabin|plane|flight|aviation|airline|airport|never forgot|why|choice|passenger|shocking|truths|begin'
+    yt: Cpt8CGUz-3A
+    parts:
+    - - 25.5
+      - 28.4
+    note: flydubai-truth v5, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Hamdan bin Mohammed reviews the air taxi station, official video
+  ck-trophy:
+    match: 'india|indian|cricket|community|nationalities|millions|workers|families|stars|meant everything'
+    yt: 2ErNqV7nNek
+    parts:
+    - - 10.6
+      - 12.9
+    note: flydubai-truth v5, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Hamdan bin Mohammed meets the ICC chairman and Indian cricket stars, official video
+  cat-hall:
+    match: 'hamdan|fazza|crown prince|hospital|medals|himself|chose|habit|visited|workers|crew|cabin|team|subscribe|comments|message|stories|thank|cook'
+    yt: CekbQReJUxQ
+    parts:
+    - - 21.0
+      - 24.0
+    note: flydubai-truth v5, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Hamdan bin Mohammed visits Emirates Flight Catering, official video
+  cat-tour:
+    match: 'hamdan|fazza|crown prince|hospital|medals|himself|chose|habit|visited|workers|crew|cabin|team|subscribe|comments|message|stories|thank|cook'
+    yt: CekbQReJUxQ
+    parts:
+    - - 24.0
+      - 27.0
+    note: flydubai-truth v5, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Hamdan bin Mohammed visits Emirates Flight Catering, official video
+  cat-kitchen:
+    match: 'hamdan|fazza|crown prince|hospital|medals|himself|chose|habit|visited|workers|crew|cabin|team|subscribe|comments|message|stories|thank|cook'
+    yt: CekbQReJUxQ
+    parts:
+    - - 33.0
+      - 36.0
+    note: flydubai-truth v5, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Hamdan bin Mohammed visits Emirates Flight Catering, official video
+  gx-crew:
+    match: 'pilots|cabin crew|crew|met|face to face|airport'
+    yt: GXi-8mZf1kk
+    parts:
+    - - 48.0
+      - 51.0
+    note: flydubai-truth v5, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Hamdan bin Mohammed reviews operations of Dubai International Airport and Emirates, official video
+  gx-walk2:
+    match: 'airline|airport|flydubai|millions|fly|destinations|hamdan|dubai'
+    yt: GXi-8mZf1kk
+    parts:
+    - - 57.0
+      - 59.9
+    note: flydubai-truth v5, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Hamdan bin Mohammed reviews operations of Dubai International Airport and Emirates, official video
+  cat-arrive:
+    match: 'hamdan|fazza|crown prince|hospital|medals|himself|chose|habit|visited|workers|crew|cabin|team|subscribe|comments|message|stories|thank|cook'
+    yt: CekbQReJUxQ
+    parts:
+    - - 9.0
+      - 12.0
+    note: flydubai-truth v5, official event footage cut from contact sheet by Rocky 2026-11-22
+    credit: Hamdan bin Mohammed visits Emirates Flight Catering, official video
+  fz-takeoff:
+    match: 'flight|flying|flown|took off|airliner|aircraft|ordinary|plane'
+    yt: hW-TQGVxres
+    parts:
+    - - 3.2
+      - 6.4
+    note: flydubai-truth v6 (keepbusy 2026-11-22)
+    credit: flydubai flight FZ1073, via The Business Standard (2026)
+  fz-cabin-back:
+    match: 'cabin|door|locked|unlocked|inside|seconds|passengers'
+    yt: hW-TQGVxres
+    parts:
+    - - 146.5
+      - 150.0
+    note: flydubai-truth v6 (keepbusy 2026-11-22)
+    credit: flydubai flight FZ1073, via The Business Standard (2026)
+  fz-cabin-back2:
+    match: 'cabin|door|locked|unlocked|inside|seconds|passengers'
+    yt: hW-TQGVxres
+    parts:
+    - - 150.3
+      - 153.6
+    note: flydubai-truth v6 (keepbusy 2026-11-22)
+    credit: flydubai flight FZ1073, via The Business Standard (2026)
+  s17h-m1:
+    match: 'crown prince|hamdan|fazza|honour|crew|pilot|captain|cabin|plane|flight|aviation|airline|airport|never forgot|why|choice|passenger|shocking|truths|begin|courage|wrote|proud|team|nation|unseen|answer|moment'
+    yt: 42Kwg3k_k6I
+    parts:
+    - - 22.68
+      - 26.92
+    note: mined by tools.hamdan_miner (face verified)
+    credit: Dubai Media Office, Hamdan bin Mohammed visits Dubai Airshow
+  s17h-m2:
+    match: 'crown prince|hamdan|fazza|honour|crew|pilot|captain|cabin|plane|flight|aviation|airline|airport|never forgot|why|choice|passenger|shocking|truths|begin|courage|wrote|proud|team|nation|unseen|answer|moment'
+    yt: 42Kwg3k_k6I
+    parts:
+    - - 33.0
+      - 35.76
+    note: mined by tools.hamdan_miner (face verified)
+    credit: Dubai Media Office, Hamdan bin Mohammed visits Dubai Airshow
+  s17h-m3:
+    match: 'crown prince|hamdan|fazza|honour|crew|pilot|captain|cabin|plane|flight|aviation|airline|airport|never forgot|why|choice|passenger|shocking|truths|begin|courage|wrote|proud|team|nation|unseen|answer|moment'
+    yt: 42Kwg3k_k6I
+    parts:
+    - - 71.28
+      - 73.88
+    note: mined by tools.hamdan_miner (face verified)
+    credit: Dubai Media Office, Hamdan bin Mohammed visits Dubai Airshow
+  s17h-m4:
+    match: 'crown prince|hamdan|fazza|honour|crew|pilot|captain|cabin|plane|flight|aviation|airline|airport|never forgot|why|choice|passenger|shocking|truths|begin|courage|wrote|proud|team|nation|unseen|answer|moment'
+    yt: 42Kwg3k_k6I
+    parts:
+    - - 76.68
+      - 79.36
+    note: mined by tools.hamdan_miner (face verified)
+    credit: Dubai Media Office, Hamdan bin Mohammed visits Dubai Airshow
+  s17h-m5:
+    match: 'crown prince|hamdan|fazza|honour|crew|pilot|captain|cabin|plane|flight|aviation|airline|airport|never forgot|why|choice|passenger|shocking|truths|begin|courage|wrote|proud|team|nation|unseen|answer|moment'
+    yt: 42Kwg3k_k6I
+    parts:
+    - - 152.24
+      - 154.48
+    note: mined by tools.hamdan_miner (face verified)
+    credit: Dubai Media Office, Hamdan bin Mohammed visits Dubai Airshow
+  ekh-m1:
+    match: 'crown prince|hamdan|fazza|honour|crew|pilot|captain|cabin|plane|flight|aviation|airline|airport|never forgot|why|choice|passenger|shocking|truths|begin|courage|wrote|proud|team|nation|unseen|answer|moment|emirates|chairman|ahmed bin saeed|with him'
+    yt: rh1sW1Whgjk
+    parts:
+    - - 42.79
+      - 45.21
+    note: mined by tools.hamdan_miner (face verified)
+    credit: Hamdan bin Mohammed and Maktoum bin Mohammed visit Emirates Group headquarters, official video
+  fz-tabuk-dusk:
+    match: 'plane|jet|fly|flying|Tabuk|ground|landed'
+    yt: 7Tqv7qJkXTo
+    parts: [[184.6, 188.6]]
+    crop: [0.06, 0.0, 0.94, 0.885]
+    note: flydubai-truth v7 (keepbusy 2026-11-22)
+    credit: Passengers of flight FZ1073 in Tabuk, via CNA (2026)
+  fz-window-wing:
+    match: 'door|trap|cockpit|cabin|plane|inside'
+    yt: 7Tqv7qJkXTo
+    parts: [[189.2, 192.8]]
+    crop: [0.06, 0.0, 0.94, 0.885]
+    note: flydubai-truth v7 (keepbusy 2026-11-22)
+    credit: Passengers of flight FZ1073 in Tabuk, via CNA (2026)
+  fz-i24-passenger2:
+    match: 'Attorney General|terrorist|investigators|on board|investigation|history|cockpit|officials'
+    yt: l4bzl4gKFfg
+    parts: [[95.0, 100.0]]
+    crop: [0.32, 0.1, 0.68, 0.86]
+    note: flydubai-truth v7 (keepbusy 2026-11-22)
+    credit: A passenger of flight FZ1073, via i24NEWS (2026)
+  visitx-m1:
+    match: 'he wrote|wrote|courage|responsibility|care|team|nation|compassion|peace|life|hamdan|fazza|crown prince|hospital|captain|proud'
+    yt: EoswAtT6xc0
+    parts:
+    - - 116.94
+      - 120.57
+    note: mined by tools.hamdan_miner (face verified)
+    credit: Sheikh Hamdan at Captain Smit Machchhar's bedside, official photos via DNA India (2026)
+  ttido-m1:
+    match: 'crown prince|hamdan|fazza|honour|crew|pilot|captain|cabin|plane|flight|aviation|airline|airport|never forgot|why|choice|passenger|shocking|truths|begin|courage|nightmare|bleeding|alive'
+    yt: TTidoMuILjM
+    parts:
+    - - 40.32
+      - 42.65
+    note: mined by tools.hamdan_miner (face verified)
+    credit: Dubai Media Office (official YouTube channel)
+  ttido-m2:
+    match: 'crown prince|hamdan|fazza|honour|crew|pilot|captain|cabin|plane|flight|aviation|airline|airport|never forgot|why|choice|passenger|shocking|truths|begin|courage|nightmare|bleeding|alive'
+    yt: TTidoMuILjM
+    parts:
+    - - 63.39
+      - 65.78
+    note: mined by tools.hamdan_miner (face verified)
+    credit: Dubai Media Office (official YouTube channel)
+  hxm-m1:
+    match: 'crown prince|hamdan|fazza|honour|crew|pilot|captain|cabin|plane|flight|aviation|airline|airport|never forgot|why|choice|passenger|shocking|truths|begin|courage|nightmare|bleeding|alive'
+    yt: HXmMv6EpQig
+    parts:
+    - - 12.72
+      - 16.68
+    note: mined by tools.hamdan_miner (face verified)
+    credit: Dubai Media Office (official YouTube channel)

@@ -1,3 +1,111 @@
+clip:as23-aircraft:
+  arab_people: true
+  desc: Prince Hamdan is shown an aircraft cabin at the airshow
+  hamdan: 0.67
+  people: true
+  tags:
+  - hamdan
+  - aircraft
+  - airshow
+  - aviation
+  - kandura
+  text_graphic: false
+clip:as23-close:
+  arab_people: true
+  desc: Close-up of Prince Hamdan listening at the airshow
+  hamdan: 1.0
+  people: true
+  tags:
+  - hamdan
+  - face
+  - airshow
+  - kandura
+  - ghutra
+  text_graphic: false
+clip:as23-close2:
+  arab_people: true
+  desc: Prince Hamdan looks at an aviation exhibit, close-up
+  hamdan: 1.0
+  people: true
+  tags:
+  - hamdan
+  - face
+  - airshow
+  - aviation
+  - ghutra
+  text_graphic: false
+clip:as23-engine:
+  arab_people: false
+  desc: Close-up of a jet engine on an airliner
+  hamdan: 0.17
+  people: false
+  tags:
+  - plane
+  - jet
+  - engine
+  - aircraft
+  text_graphic: false
+clip:as23-group:
+  arab_people: true
+  desc: Prince Hamdan and officials walk past aircraft at the airshow
+  hamdan: 0.0
+  people: true
+  tags:
+  - hamdan
+  - airshow
+  - aircraft
+  - kandura
+  - walk
+  text_graphic: false
+clip:as23-planes:
+  arab_people: false
+  desc: Airliners and a jet engine at the Dubai Airshow
+  hamdan: 0.0
+  people: false
+  tags:
+  - plane
+  - jet
+  - engine
+  - aircraft
+  - sky
+  - airshow
+  text_graphic: false
+clip:as23-point:
+  arab_people: true
+  desc: Prince Hamdan points at an exhibit at the Dubai Airshow
+  hamdan: 1.0
+  people: true
+  tags:
+  - hamdan
+  - airshow
+  - aviation
+  - kandura
+  - officials
+  text_graphic: false
+clip:as23-walk:
+  arab_people: true
+  desc: Prince Hamdan walks through the Dubai Airshow with officials
+  hamdan: 0.67
+  people: true
+  tags:
+  - hamdan
+  - airshow
+  - aviation
+  - kandura
+  - walk
+  text_graphic: false
+clip:as23-walk3:
+  arab_people: true
+  desc: Prince Hamdan walks through an airshow hall
+  hamdan: 1.0
+  people: true
+  tags:
+  - hamdan
+  - airshow
+  - kandura
+  - walk
+  - hall
+  text_graphic: false
 clip:auto-26labls02ae-0:
   arab_people: null
   desc: Dubai skyline at sunset over water
@@ -1068,6 +1176,102 @@ clip:car-falcon-camel:
   - travel
   - vehicle
   text_graphic: false
+clip:cat-arrive:
+  arab_people: true
+  desc: Prince Hamdan arrives at Emirates Flight Catering
+  hamdan: 1.0
+  people: true
+  tags:
+  - hamdan
+  - staff
+  - visit
+  - kandura
+  - walk
+  text_graphic: false
+clip:cat-crew:
+  arab_people: true
+  desc: Prince Hamdan meets Emirates cabin crew
+  hamdan: 1.0
+  people: true
+  tags:
+  - hamdan
+  - crew
+  - cabin crew
+  - airline
+  - uniform
+  text_graphic: false
+clip:cat-group:
+  arab_people: true
+  desc: Prince Hamdan with the whole team for a group photo
+  hamdan: 0.0
+  people: true
+  tags:
+  - hamdan
+  - team
+  - group
+  - staff
+  - workers
+  text_graphic: false
+clip:cat-hall:
+  arab_people: true
+  desc: Prince Hamdan with chefs at Emirates Flight Catering
+  hamdan: 0.67
+  people: true
+  tags:
+  - hamdan
+  - kitchen
+  - chef
+  - workers
+  - staff
+  text_graphic: false
+clip:cat-kitchen:
+  arab_people: true
+  desc: Prince Hamdan watches workers prepare meals
+  hamdan: 0.67
+  people: true
+  tags:
+  - hamdan
+  - kitchen
+  - workers
+  - food
+  - staff
+  text_graphic: false
+clip:cat-talk:
+  arab_people: true
+  desc: Prince Hamdan talks with Emirates Flight Catering staff
+  hamdan: 0.83
+  people: true
+  tags:
+  - hamdan
+  - staff
+  - workers
+  - visit
+  - kandura
+  text_graphic: false
+clip:cat-tour:
+  arab_people: true
+  desc: Prince Hamdan tours the catering plant with staff
+  hamdan: 0.33
+  people: true
+  tags:
+  - hamdan
+  - staff
+  - workers
+  - truck
+  - visit
+  text_graphic: false
+clip:cat-walk:
+  arab_people: true
+  desc: Prince Hamdan walks through Emirates Flight Catering
+  hamdan: 0.67
+  people: true
+  tags:
+  - hamdan
+  - kitchen
+  - staff
+  - visit
+  - kandura
+  text_graphic: false
 clip:child-horse:
   arab_people: false
   desc: Man holds child near horse
@@ -1087,6 +1291,64 @@ clip:child-horse:
   - sky
   - stable
   text_graphic: false
+clip:ck-group:
+  arab_people: true
+  desc: Prince Hamdan poses with Indian cricket stars
+  hamdan: 1.0
+  people: true
+  tags:
+  - hamdan
+  - india
+  - cricket
+  - players
+  - group
+  text_graphic: false
+clip:ck-players:
+  arab_people: false
+  desc: Indian cricket stars at the meeting with Prince Hamdan
+  hamdan: 0.0
+  people: true
+  tags:
+  - india
+  - cricket
+  - players
+  - team
+  text_graphic: false
+clip:ck-shah:
+  arab_people: true
+  desc: Prince Hamdan meets the ICC chairman
+  hamdan: 0.5
+  people: true
+  tags:
+  - hamdan
+  - india
+  - cricket
+  - meeting
+  - suit
+  text_graphic: false
+clip:ck-talk:
+  arab_people: true
+  desc: Prince Hamdan talks with India's cricket team
+  hamdan: 0.17
+  people: true
+  tags:
+  - hamdan
+  - india
+  - cricket
+  - players
+  - meeting
+  text_graphic: false
+clip:ck-trophy:
+  arab_people: true
+  desc: Prince Hamdan receives a trophy from the ICC chairman
+  hamdan: 0.67
+  people: true
+  tags:
+  - hamdan
+  - india
+  - cricket
+  - trophy
+  text_graphic: false
 clip:deepdive:
   arab_people: true
   desc: Prince Hamdan underwater diving
@@ -1104,6 +1366,1046 @@ clip:deepdive:
   - underwater
   - water
   text_graphic: false
+clip:df-group:
+  arab_people: true
+  desc: Prince Hamdan stands with honoured officers
+  hamdan: 0.33
+  people: true
+  tags:
+  - hamdan
+  - officers
+  - uniform
+  - armed forces
+  - ceremony
+  text_graphic: false
+clip:df-medals:
+  arab_people: true
+  desc: Prince Hamdan honours soldiers at an armed forces ceremony
+  hamdan: 0.67
+  people: true
+  tags:
+  - hamdan
+  - soldiers
+  - uniform
+  - medal
+  - armed forces
+  - ceremony
+  text_graphic: false
+clip:dmo-5r9t-00:
+  arab_people: true
+  desc: Prince Hamdan shakes hands with the staff of the UAE embassy in India
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - embassy
+  - handshake
+  - staff
+  - team
+  text_graphic: false
+clip:dmo-5r9t-02:
+  arab_people: true
+  desc: Prince Hamdan greets the women of the UAE embassy team
+  hamdan: 0.6
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - embassy
+  - greeting
+  - team
+  text_graphic: false
+clip:dmo-5r9t-03:
+  arab_people: true
+  desc: Prince Hamdan stands in front of the embassy team
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - embassy
+  - smile
+  - team
+  text_graphic: false
+clip:dmo-5r9t-07:
+  arab_people: true
+  desc: Group photo of Prince Hamdan with the UAE embassy team in India
+  hamdan: 0.3
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - embassy
+  - group
+  - photo
+  - team
+  text_graphic: false
+clip:dmo-5r9t-c1:
+  arab_people: true
+  desc: Prince Hamdan shakes hands one by one with the embassy staff, women in abayas
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - embassy
+  - handshake
+  - member
+  - staff
+  - team
+  - women
+  text_graphic: false
+clip:dmo-62tu-12:
+  arab_people: true
+  desc: Prince Hamdan and his team meet Piyush Goyal and Indian officials
+  hamdan: 0.5
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - commerce
+  - meeting
+  - minister
+  - officials
+  text_graphic: false
+clip:dmo-62tu-c1:
+  arab_people: true
+  desc: Close shot of Prince Hamdan talking with his hand raised in a meeting room
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - face
+  - hand
+  - meeting
+  - talks
+  text_graphic: false
+clip:dmo-62tu-c2:
+  arab_people: true
+  desc: The Dubai and Indian teams seated facing each other in a meeting room
+  hamdan: 0.3
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - delegation
+  - meeting
+  - talks
+  - teams
+  text_graphic: false
+clip:dmo-dprt-00:
+  arab_people: true
+  desc: Narendra Modi hugs Prince Hamdan under the portico
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - hug
+  - modi
+  - portico
+  - welcome
+  text_graphic: false
+clip:dmo-dprt-01:
+  arab_people: true
+  desc: Prince Hamdan and Narendra Modi shake hands in front of the white screen
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - handshake
+  - minister
+  - modi
+  - prime
+  text_graphic: false
+clip:dmo-dprt-03:
+  arab_people: true
+  desc: Close shot of Prince Hamdan listening
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - face
+  - listening
+  - talks
+  text_graphic: false
+clip:dmo-dprt-05:
+  arab_people: false
+  desc: Narendra Modi talks with his hands, the silver horse beside him
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - horse
+  - modi
+  - talks
+  text_graphic: false
+clip:dmo-dprt-07:
+  arab_people: true
+  desc: Prince Hamdan seated, the silver horse on the side table
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - horse
+  - seated
+  - talks
+  text_graphic: false
+clip:dmo-dprt-10:
+  arab_people: true
+  desc: Prince Hamdan and Narendra Modi walk along the flags
+  hamdan: 0.9
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: false
+  tags:
+  - flags
+  - modi
+  - walk
+  text_graphic: false
+clip:dmo-dprt-11:
+  arab_people: false
+  desc: The Indian flag above the trees
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - flag
+  - india
+  - trees
+  text_graphic: false
+clip:dmo-dprt-c1:
+  arab_people: true
+  desc: Narendra Modi gestures with his hands as Prince Hamdan listens, silver horse on the table
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - hands
+  - horse
+  - modi
+  - table
+  - talks
+  text_graphic: false
+clip:dmo-epmv-02:
+  arab_people: true
+  desc: Prince Hamdan and S Jaishankar walk along a colonnade
+  hamdan: 0.8
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - colonnade
+  - minister
+  - walk
+  text_graphic: false
+clip:dmo-epmv-03:
+  arab_people: true
+  desc: Prince Hamdan shakes hands with S Jaishankar in front of the flags
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: false
+  tags:
+  - flags
+  - foreign
+  - handshake
+  - minister
+  text_graphic: false
+clip:dmo-epmv-04:
+  arab_people: true
+  desc: The two delegations seated in a grand wooden hall
+  hamdan: 0.4
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - delegations
+  - hall
+  - talks
+  text_graphic: false
+clip:dmo-epmv-14:
+  arab_people: true
+  desc: S Jaishankar walks and talks with Prince Hamdan
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - foreign
+  - minister
+  - talk
+  - walk
+  text_graphic: false
+clip:dmo-epmv-15:
+  arab_people: false
+  desc: Hyderabad House, the grand government guest house in New Delhi
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - building
+  - delhi
+  - house
+  - lawn
+  text_graphic: false
+clip:dmo-epmv-16:
+  arab_people: false
+  desc: A row of flags of India and the Emirates
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: false
+  tags:
+  - emirates
+  - flags
+  - india
+  - row
+  text_graphic: false
+clip:dmo-epmv-c1:
+  arab_people: true
+  desc: Prince Hamdan and S Jaishankar seated side by side in a wood panelled hall
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - hall
+  - jaishankar
+  - minister
+  - seated
+  - talks
+  - wooden
+  text_graphic: false
+clip:dmo-epmv-c2:
+  arab_people: false
+  desc: The Dubai delegation seated along one side of the hall
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - delegation
+  - hall
+  - officials
+  - side
+  - team
+  text_graphic: false
+clip:dmo-epmv-c3:
+  arab_people: false
+  desc: Wide view of the hall, Dubai team on one side and Indian officials on the other
+  hamdan: 0.2
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - delegation
+  - hall
+  - officials
+  - room
+  - side
+  - team
+  text_graphic: false
+clip:dmo-erds-22:
+  arab_people: true
+  desc: Prince Hamdan is greeted at the foot of the plane
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - airplane
+  - arrival
+  - greeting
+  - officer
+  text_graphic: false
+clip:dmo-erds-26:
+  arab_people: true
+  desc: Prince Hamdan under the red canopy at the guard of honour
+  hamdan: 0.5
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - canopy
+  - ceremony
+  - guard
+  - honour
+  text_graphic: false
+clip:dmo-erds-30:
+  arab_people: true
+  desc: Prince Hamdan walks the red carpet past the guard of honour
+  hamdan: 0.6
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - carpet
+  - guard
+  - honour
+  - red
+  - walk
+  text_graphic: false
+clip:dmo-erds-31:
+  arab_people: false
+  desc: Sailors and soldiers of the guard of honour
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - guard
+  - honour
+  - sailors
+  - soldiers
+  text_graphic: false
+clip:dmo-erds-36:
+  arab_people: true
+  desc: Prince Hamdan with Suresh Gopi beside the welcome drummers
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - drummers
+  - minister
+  - smile
+  - welcome
+  text_graphic: false
+clip:dmo-erds-38:
+  arab_people: true
+  desc: Narendra Modi welcomes Prince Hamdan under the portico
+  hamdan: 0.8
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - minister
+  - modi
+  - portico
+  - prime
+  - welcome
+  text_graphic: false
+clip:dmo-erds-39:
+  arab_people: true
+  desc: Prince Hamdan and Narendra Modi pose in front of the flags
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: false
+  tags:
+  - flags
+  - minister
+  - modi
+  - pose
+  - prime
+  text_graphic: false
+clip:dmo-erds-41:
+  arab_people: false
+  desc: Close up of the silver horse statue on the table
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: false
+  tags:
+  - horse
+  - silver
+  - statue
+  - table
+  text_graphic: false
+clip:dmo-erds-44:
+  arab_people: true
+  desc: Prince Hamdan and Narendra Modi seated for talks
+  hamdan: 0.8
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - minister
+  - modi
+  - prime
+  - seated
+  - talks
+  text_graphic: false
+clip:dmo-erds-45:
+  arab_people: true
+  desc: Close shot of Prince Hamdan seated beside the silver horse
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - horse
+  - seated
+  - talks
+  text_graphic: false
+clip:dmo-erds-48:
+  arab_people: true
+  desc: Prince Hamdan talks with an Indian official
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - minister
+  - official
+  - talks
+  text_graphic: false
+clip:dmo-erds-55:
+  arab_people: true
+  desc: Close shot of Prince Hamdan at a meeting table
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - meeting
+  - minister
+  - table
+  - talks
+  text_graphic: false
+clip:dmo-erds-65:
+  arab_people: true
+  desc: Prince Hamdan seated beside S Jaishankar in front of the flags
+  hamdan: 0.8
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: false
+  tags:
+  - flags
+  - minister
+  - seated
+  - talks
+  text_graphic: false
+clip:dmo-la1w-00:
+  arab_people: false
+  desc: The Bombay Stock Exchange tower with a giant welcome screen for Prince Hamdan
+  hamdan: 0.1
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - building
+  - exchange
+  - screen
+  - stock
+  - tower
+  - welcome
+  text_graphic: false
+clip:dmo-la1w-01:
+  arab_people: true
+  desc: Prince Hamdan arrives on foot at the Bombay Stock Exchange
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - arrival
+  - exchange
+  - stock
+  - walk
+  text_graphic: false
+clip:dmo-la1w-02:
+  arab_people: true
+  desc: Prince Hamdan rings the opening bell of the Bombay Stock Exchange
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - bell
+  - clock
+  - exchange
+  - gong
+  - stock
+  text_graphic: false
+clip:dmo-la1w-17:
+  arab_people: false
+  desc: An old black-and-white photograph in the exchange
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - history
+  - old
+  - photo
+  text_graphic: false
+clip:dmo-la1w-19:
+  arab_people: false
+  desc: An old share certificate for two thousand five hundred rupees
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - certificate
+  - history
+  - rupees
+  - share
+  text_graphic: false
+clip:dmo-la1w-c1:
+  arab_people: true
+  desc: Prince Hamdan looks at the wall of old clocks as a BSE official points
+  hamdan: 0.8
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - clocks
+  - exchange
+  - history
+  - official
+  - wall
+  text_graphic: false
+clip:dmo-la1w-c2:
+  arab_people: true
+  desc: Close shot of Prince Hamdan smiling inside the stock exchange
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - exchange
+  - face
+  - smile
+  text_graphic: false
+clip:dmo-la1w-c3:
+  arab_people: true
+  desc: Prince Hamdan walks past easels of historic photographs at the BSE
+  hamdan: 0.8
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - easels
+  - exchange
+  - history
+  - photographs
+  - walk
+  text_graphic: false
+clip:dmo-oof8-12:
+  arab_people: true
+  desc: Prince Hamdan with India's commerce minister Piyush Goyal at the signing
+  hamdan: 0.9
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - agreements
+  - commerce
+  - minister
+  - signing
+  text_graphic: false
+clip:dmo-oof8-14:
+  arab_people: true
+  desc: Prince Hamdan watches officials exchange a signed agreement
+  hamdan: 0.8
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - agreements
+  - documents
+  - exchange
+  - signing
+  text_graphic: false
+clip:dmo-oof8-15:
+  arab_people: true
+  desc: Wide shot of an agreement exchange on stage with Prince Hamdan and Piyush Goyal
+  hamdan: 0.4
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - agreements
+  - flags
+  - signing
+  - stage
+  text_graphic: false
+clip:dmo-oof8-17:
+  arab_people: true
+  desc: Prince Hamdan beside Piyush Goyal as another agreement is exchanged
+  hamdan: 0.8
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - agreements
+  - exchange
+  - minister
+  text_graphic: false
+clip:dmo-oof8-18:
+  arab_people: true
+  desc: All the officials line up with Prince Hamdan after signing the agreements
+  hamdan: 0.4
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - agreements
+  - group
+  - officials
+  - stage
+  text_graphic: false
+clip:dmo-s6id-24:
+  arab_people: false
+  desc: Indian business leaders in the audience
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - audience
+  - business
+  - leaders
+  text_graphic: false
+clip:dmo-s6id-25:
+  arab_people: true
+  desc: Emirati officials in the front row of the business meeting
+  hamdan: 0.3
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - audience
+  - business
+  - meeting
+  - officials
+  text_graphic: false
+clip:dmo-s6id-33:
+  arab_people: false
+  desc: A giant screen with ships on stage at the Dubai Chambers meeting
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - business
+  - screen
+  - ships
+  - stage
+  text_graphic: false
+clip:dmo-s6id-37:
+  arab_people: false
+  desc: A speaker at the Dubai Chambers podium
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - business
+  - chambers
+  - podium
+  - speaker
+  text_graphic: false
+clip:dmo-s6id-38:
+  arab_people: false
+  desc: Wide view of the Dubai Chambers business meeting hall
+  hamdan: 0.1
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - business
+  - hall
+  - meeting
+  - stage
+  text_graphic: false
+clip:dmo-s6id-40:
+  arab_people: true
+  desc: Big group photo of Prince Hamdan with the business leaders
+  hamdan: 0.3
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - business
+  - group
+  - leaders
+  - photo
+  text_graphic: false
+clip:dmo-s6id-c1:
+  arab_people: true
+  desc: Prince Hamdan seated in the front row beside Piyush Goyal at the Dubai Chambers forum
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - business
+  - forum
+  - goyal
+  - minister
+  - row
+  - seated
+  text_graphic: false
+clip:dmo-s6id-c2:
+  arab_people: false
+  desc: Business leaders in the audience of the forum, Prince Hamdan far away in the front row
+  hamdan: 0.2
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - audience
+  - business
+  - forum
+  - leaders
+  - room
+  - row
+  text_graphic: false
+clip:dmo-s6id-c3:
+  arab_people: true
+  desc: Prince Hamdan seated next to DP World chairman Sultan bin Sulayem
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - business
+  - forum
+  - row
+  - seated
+  text_graphic: false
+clip:dmo-sseg-00:
+  arab_people: false
+  desc: The royal jet parked behind the red canopy at Delhi airport
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: false
+  tags:
+  - airplane
+  - airport
+  - canopy
+  - jet
+  text_graphic: false
+clip:dmo-sseg-01:
+  arab_people: false
+  desc: Flags of India and the Emirates on the nose of the royal jet
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: false
+  tags:
+  - airplane
+  - flags
+  - jet
+  - nose
+  text_graphic: false
+clip:dmo-sseg-02:
+  arab_people: true
+  desc: Prince Hamdan walks down the aircraft stairs in Delhi
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - aircraft
+  - airplane
+  - arrival
+  - stairs
+  text_graphic: false
+clip:dmo-sseg-05:
+  arab_people: true
+  desc: Prince Hamdan shakes hands with the welcoming officials at the plane
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - airplane
+  - handshake
+  - officials
+  - welcome
+  text_graphic: false
+clip:dmo-sseg-06:
+  arab_people: true
+  desc: Prince Hamdan walks across the tarmac
+  hamdan: 0.5
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - carpet
+  - red
+  - tarmac
+  - walk
+  text_graphic: false
+clip:dmo-sseg-08:
+  arab_people: true
+  desc: Prince Hamdan on the saluting stand under the red canopy, the jet behind
+  hamdan: 0.4
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: false
+  tags:
+  - canopy
+  - jet
+  - saluting
+  - stand
+  text_graphic: false
+clip:dmo-sseg-09:
+  arab_people: false
+  desc: The Indian Air Force guard of honour in rows by the red carpet
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - air
+  - carpet
+  - force
+  - guard
+  - honour
+  text_graphic: false
+clip:dmo-sseg-10:
+  arab_people: true
+  desc: Soldiers in front of the red canopy during the anthems
+  hamdan: 0.3
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - anthems
+  - canopy
+  - ceremony
+  - soldiers
+  text_graphic: false
+clip:dmo-sseg-12:
+  arab_people: false
+  desc: Flags of India and the Emirates above the guard of honour
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - flags
+  - guard
+  - honour
+  - trees
+  text_graphic: false
+clip:dmo-sseg-13:
+  arab_people: true
+  desc: Sailors in white facing the canopy
+  hamdan: 0.3
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - canopy
+  - sailors
+  - uniforms
+  - white
+  text_graphic: false
+clip:dmo-sseg-14:
+  arab_people: false
+  desc: The long line of the guard of honour beside the red carpet
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - carpet
+  - guard
+  - honour
+  - line
+  text_graphic: false
+clip:dmo-sseg-15:
+  arab_people: false
+  desc: Sailors and soldiers of the guard marching
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - march
+  - sailors
+  - soldiers
+  - uniforms
+  text_graphic: false
+clip:dmo-sseg-17:
+  arab_people: true
+  desc: Prince Hamdan walks across the tarmac with officials
+  hamdan: 0.7
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - officials
+  - tarmac
+  - walk
+  text_graphic: false
+clip:dmo-sseg-18:
+  arab_people: false
+  desc: Flags of India and the Emirates waving together
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - emirates
+  - flags
+  - india
+  - waving
+  text_graphic: false
+clip:dmo-uaxf-00:
+  arab_people: false
+  desc: The domed government building in New Delhi
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - building
+  - delhi
+  - dome
+  - government
+  text_graphic: false
+clip:dmo-uaxf-01:
+  arab_people: true
+  desc: Rajnath Singh greets Prince Hamdan at his car
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - car
+  - defence
+  - minister
+  - welcome
+  text_graphic: false
+clip:dmo-uaxf-03:
+  arab_people: false
+  desc: Flags of India and the Emirates side by side
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - emirates
+  - flags
+  - india
+  text_graphic: false
+clip:dmo-uaxf-05:
+  arab_people: true
+  desc: Prince Hamdan seated at the long meeting table with India defence ministry
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - defence
+  - minister
+  - meeting
+  - table
+  - talks
+  - delegation
+  - office
+  text_graphic: false
+clip:dmo-uaxf-06:
+  arab_people: true
+  desc: Prince Hamdan and the delegations at the defence talks table
+  hamdan: 0.5
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - defence
+  - delegation
+  - meeting
+  - table
+  text_graphic: false
+clip:dmo-uaxf-07:
+  arab_people: false
+  desc: Rajnath Singh and Indian officers at the meeting table
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - defence
+  - meeting
+  - officers
+  - table
+  text_graphic: false
+clip:dmo-uaxf-10:
+  arab_people: true
+  desc: Prince Hamdan walks beside Rajnath Singh past the Indian Army banners
+  hamdan: 0.9
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - army
+  - banners
+  - minister
+  - walk
+  text_graphic: false
+clip:dmo-uaxf-11:
+  arab_people: false
+  desc: Red Indian Army banners outside the defence ministry
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - army
+  - banners
+  - building
+  text_graphic: false
+clip:dmo-uaxf-12:
+  arab_people: false
+  desc: The long sandstone government building in New Delhi
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - building
+  - delhi
+  - government
+  text_graphic: false
+clip:dmo-uaxf-c1:
+  arab_people: true
+  desc: Prince Hamdan seated at the long defence meeting table
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - defence
+  - meeting
+  - minister
+  - table
+  - talks
+  text_graphic: false
 clip:dubairun:
   arab_people: false
   desc: A large crowd of runners in a race.
@@ -1120,6 +2422,42 @@ clip:dubairun:
   - runners
   - sport
   - track
+  text_graphic: false
+clip:ek-balcony:
+  arab_people: true
+  desc: Prince Hamdan with Emirates leaders overlooking Dubai airport
+  hamdan: 1.0
+  people: true
+  tags:
+  - hamdan
+  - emirates
+  - airport
+  - leaders
+  - kandura
+  text_graphic: false
+clip:ek-walk:
+  arab_people: true
+  desc: Prince Hamdan visits Emirates Group headquarters
+  hamdan: 0.83
+  people: true
+  tags:
+  - hamdan
+  - emirates
+  - airline
+  - office
+  - kandura
+  text_graphic: false
+clip:ekh-m1:
+  arab_people: true
+  desc: Prince Hamdan at Emirates Group headquarters (wide shot)
+  hamdan: 0.83
+  people: true
+  tags:
+  - hamdan
+  - emirates
+  - airline
+  - kandura
+  - ghutra
   text_graphic: false
 clip:falcon-hunt:
   arab_people: null
@@ -1202,7 +2540,7 @@ clip:fz-ambulance:
   text_graphic: false
 clip:fz-arrivals-hall:
   arab_people: false
-  desc: Prince Hamdan pushes luggage cart in airport.
+  desc: Passengers of flight FZ1073 arrive in Tel Aviv with luggage carts
   hamdan: 0.0
   people: true
   tags:
@@ -1365,6 +2703,30 @@ clip:fz-cabin-aisle:
   - travel
   - window
   text_graphic: false
+clip:fz-cabin-back:
+  arab_people: false
+  desc: Passengers inside the cabin of the flydubai jet
+  hamdan: 0.0
+  people: true
+  tags:
+  - cabin
+  - passengers
+  - seats
+  - plane
+  - door
+  text_graphic: false
+clip:fz-cabin-back2:
+  arab_people: false
+  desc: Rows of seats in the cabin of the flydubai jet
+  hamdan: 0.0
+  people: true
+  tags:
+  - cabin
+  - passengers
+  - seats
+  - plane
+  - door
+  text_graphic: false
 clip:fz-cabin-call:
   arab_people: false
   desc: Fazza on a plane with a friend
@@ -1485,6 +2847,17 @@ clip:fz-i24-passenger:
   - skin
   - window
   text_graphic: false
+clip:fz-i24-passenger2:
+  arab_people: false
+  desc: A passenger of the flight describes the attack
+  hamdan: 0.0
+  people: true
+  tags:
+  - passenger
+  - man
+  - face
+  - plane
+  text_graphic: false
 clip:fz-kt-city:
   arab_people: null
   desc: Aerial view of Dubai city
@@ -1564,6 +2937,316 @@ clip:fz-modi-post:
   - pm modi
   - twitter post
   text_graphic: true
+clip:fz-oz-blue1:
+  arab_people: true
+  desc: Prince Hamdan presents a medal to a cabin crew member
+  people: true
+  tags: &id001
+  - hamdan
+  - crew
+  - medal
+  - frame
+  - uniform
+  - ceremony
+  text_graphic: false
+clip:fz-oz-blue1-a:
+  arab_people: true
+  desc: Prince Hamdan presents a medal to a cabin crew member
+  hamdan: 1.0
+  people: true
+  tags: *id001
+  text_graphic: false
+clip:fz-oz-blue1-b:
+  arab_people: true
+  desc: Prince Hamdan presents a medal to a cabin crew member
+  hamdan: 1.0
+  people: true
+  tags: *id001
+  text_graphic: false
+clip:fz-oz-blue2:
+  arab_people: true
+  desc: Prince Hamdan shakes hands with a crew member
+  hamdan: 1.0
+  people: true
+  tags:
+  - hamdan
+  - crew
+  - handshake
+  - medal
+  - ceremony
+  text_graphic: false
+clip:fz-oz-blue3:
+  arab_people: true
+  desc: A young crew member receives his medal from Prince Hamdan
+  people: true
+  tags: &id002
+  - hamdan
+  - crew
+  - medal
+  - frame
+  - uniform
+  - ceremony
+  text_graphic: false
+clip:fz-oz-blue3-a:
+  arab_people: true
+  desc: A young crew member receives his medal from Prince Hamdan
+  hamdan: 0.83
+  people: true
+  tags: *id002
+  text_graphic: false
+clip:fz-oz-blue3-b:
+  arab_people: true
+  desc: A young crew member receives his medal from Prince Hamdan
+  hamdan: 1.0
+  people: true
+  tags: *id002
+  text_graphic: false
+clip:fz-oz-cap:
+  arab_people: true
+  desc: Prince Hamdan waits as an officer brings the medal
+  hamdan: 0.0
+  people: true
+  tags:
+  - hamdan
+  - officer
+  - cap
+  - palace
+  - ceremony
+  text_graphic: false
+clip:fz-oz-chat:
+  arab_people: true
+  desc: Prince Hamdan talks with the pilots after the medals
+  people: true
+  tags: &id003
+  - hamdan
+  - pilot
+  - talk
+  - crew
+  - palace
+  text_graphic: false
+clip:fz-oz-chat-a:
+  arab_people: true
+  desc: Prince Hamdan talks with the pilots after the medals
+  hamdan: 0.33
+  people: true
+  tags: *id003
+  text_graphic: false
+clip:fz-oz-chat-b:
+  arab_people: true
+  desc: Prince Hamdan talks with the pilots after the medals
+  hamdan: 0.17
+  people: true
+  tags: *id003
+  text_graphic: false
+clip:fz-oz-crewface:
+  arab_people: false
+  desc: flydubai crew members waiting their turn
+  hamdan: 0.17
+  people: true
+  tags:
+  - crew
+  - pilot
+  - uniform
+  - faces
+  text_graphic: false
+clip:fz-oz-crewline:
+  arab_people: false
+  desc: flydubai crew in blue uniforms stand in line
+  hamdan: 0.0
+  people: true
+  tags:
+  - crew
+  - uniform
+  - line
+  - palace
+  - ceremony
+  text_graphic: false
+clip:fz-oz-greet:
+  arab_people: true
+  desc: UAE President greets the flydubai pilots
+  people: true
+  tags: &id004
+  - president
+  - pilot
+  - crew
+  - handshake
+  - palace
+  - flag
+  - ceremony
+  text_graphic: false
+clip:fz-oz-greet-a:
+  arab_people: true
+  desc: UAE President greets the flydubai pilots
+  hamdan: 0.0
+  people: true
+  tags: *id004
+  text_graphic: false
+clip:fz-oz-greet-b:
+  arab_people: true
+  desc: UAE President greets the flydubai pilots
+  hamdan: 0.0
+  people: true
+  tags: *id004
+  text_graphic: false
+clip:fz-oz-group:
+  arab_people: true
+  desc: The crew together with Prince Hamdan after the ceremony
+  hamdan: 0.17
+  people: true
+  tags:
+  - hamdan
+  - crew
+  - team
+  - palace
+  - ceremony
+  text_graphic: false
+clip:fz-oz-guard:
+  arab_people: true
+  desc: Prince Hamdan with an honour guard at the ceremony
+  hamdan: 0.17
+  people: true
+  tags:
+  - hamdan
+  - guard
+  - uniform
+  - palace
+  - ceremony
+  text_graphic: false
+clip:fz-oz-hamdan:
+  arab_people: true
+  desc: Prince Hamdan stands ready to present medals
+  hamdan: 1.0
+  people: true
+  tags:
+  - hamdan
+  - kandura
+  - ghutra
+  - palace
+  - flag
+  text_graphic: false
+clip:fz-oz-hug:
+  arab_people: true
+  desc: UAE President hugs Captain Smit at the medal ceremony
+  hamdan: 0.0
+  people: true
+  tags:
+  - hug
+  - president
+  - pilot
+  - palace
+  - flag
+  - ceremony
+  text_graphic: false
+clip:fz-oz-leaders:
+  arab_people: true
+  desc: Prince Hamdan with UAE leaders in the ceremony hall
+  people: true
+  tags: &id005
+  - leaders
+  - sheikhs
+  - kandura
+  - ghutra
+  - palace
+  - ceremony
+  text_graphic: false
+clip:fz-oz-leaders-a:
+  arab_people: true
+  desc: Prince Hamdan with UAE leaders in the ceremony hall
+  hamdan: 0.67
+  people: true
+  tags: *id005
+  text_graphic: false
+clip:fz-oz-leaders-b:
+  arab_people: true
+  desc: Prince Hamdan with UAE leaders in the ceremony hall
+  hamdan: 0.83
+  people: true
+  tags: *id005
+  text_graphic: false
+clip:fz-oz-lineup:
+  arab_people: false
+  desc: The whole flydubai crew lined up in the palace
+  hamdan: 0.0
+  people: true
+  tags:
+  - crew
+  - pilot
+  - uniform
+  - line
+  - palace
+  - team
+  text_graphic: false
+clip:fz-oz-medal:
+  arab_people: false
+  desc: Close-up of the Order of Zayed II medal
+  hamdan: 0.0
+  people: true
+  tags:
+  - medal
+  - order
+  - ribbon
+  - award
+  - honour
+  text_graphic: false
+clip:fz-oz-pilot2:
+  arab_people: true
+  desc: Prince Hamdan hands a framed medal to a pilot
+  hamdan: 0.83
+  people: true
+  tags:
+  - hamdan
+  - pilot
+  - medal
+  - frame
+  - ceremony
+  text_graphic: false
+clip:fz-oz-sheikhs:
+  arab_people: true
+  desc: Sheikhs and officials attend the ceremony
+  hamdan: 0.33
+  people: true
+  tags:
+  - sheikhs
+  - officials
+  - kandura
+  - ghutra
+  - palace
+  text_graphic: false
+clip:fz-oz-smit:
+  arab_people: true
+  desc: Prince Hamdan presents the medal to Captain Smit
+  hamdan: 1.0
+  people: true
+  tags:
+  - hamdan
+  - captain
+  - pilot
+  - medal
+  - frame
+  - ceremony
+  text_graphic: false
+clip:fz-oz-talk:
+  arab_people: true
+  desc: Prince Hamdan in conversation with the crew
+  hamdan: 1.0
+  people: true
+  tags:
+  - hamdan
+  - talk
+  - crew
+  - palace
+  text_graphic: false
+clip:fz-oz-wings:
+  arab_people: false
+  desc: Close-up of pilot wings on a white uniform
+  hamdan: 0.0
+  people: true
+  tags:
+  - wings
+  - badge
+  - uniform
+  - pilot
+  text_graphic: false
 clip:fz-passenger-arrivals:
   arab_people: false
   desc: Man speaking in airport
@@ -1812,6 +3495,18 @@ clip:fz-sonal:
   - smile
   - woman
   text_graphic: false
+clip:fz-tabuk-dusk:
+  arab_people: false
+  desc: The flydubai jet on the ground with its stairs down
+  hamdan: 0.0
+  people: false
+  tags:
+  - plane
+  - jet
+  - stairs
+  - tarmac
+  - airport
+  text_graphic: false
 clip:fz-tabuk-landed:
   arab_people: false
   desc: Passengers board a plane on tarmac.
@@ -1898,6 +3593,18 @@ clip:fz-tabuk-window:
   - stairs
   - tail
   - tarmac
+  text_graphic: false
+clip:fz-takeoff:
+  arab_people: false
+  desc: A flydubai jet takes off
+  hamdan: 0.0
+  people: false
+  tags:
+  - plane
+  - flydubai
+  - takeoff
+  - runway
+  - aircraft
   text_graphic: false
 clip:fz-tears:
   arab_people: false
@@ -2094,6 +3801,18 @@ clip:fz-visit-shoulder:
   - medical equipment
   - wall
   text_graphic: false
+clip:fz-window-wing:
+  arab_people: false
+  desc: View from a passenger window of the jet's wing on the ground
+  hamdan: 0.0
+  people: false
+  tags:
+  - plane
+  - wing
+  - window
+  - tarmac
+  - cabin
+  text_graphic: false
 clip:fz-yaniv:
   arab_people: false
   desc: Man surrounded by microphones
@@ -2110,6 +3829,75 @@ clip:fz-yaniv:
   - noise
   - phones
   - recording
+  text_graphic: false
+clip:gx-a380:
+  arab_people: false
+  desc: An airliner taxis at Dubai International Airport
+  hamdan: 0.0
+  people: false
+  tags:
+  - plane
+  - jet
+  - airport
+  - runway
+  - airline
+  text_graphic: false
+clip:gx-close:
+  arab_people: true
+  desc: Prince Hamdan listens to a briefing at the airport
+  hamdan: 0.33
+  people: true
+  tags:
+  - hamdan
+  - airport
+  - face
+  - briefing
+  text_graphic: false
+clip:gx-crew:
+  arab_people: true
+  desc: Prince Hamdan meets pilots and cabin crew at Emirates
+  hamdan: 0.5
+  people: true
+  tags:
+  - hamdan
+  - pilots
+  - cabin crew
+  - airline
+  - uniform
+  text_graphic: false
+clip:gx-group:
+  arab_people: true
+  desc: Prince Hamdan with airline managers at Dubai airport
+  hamdan: 0.33
+  people: true
+  tags:
+  - hamdan
+  - airport
+  - airline
+  - officials
+  - kandura
+  text_graphic: false
+clip:gx-hamdan:
+  arab_people: true
+  desc: Prince Hamdan inspects operations at Dubai International Airport
+  hamdan: 0.67
+  people: true
+  tags:
+  - hamdan
+  - airport
+  - officers
+  - kandura
+  - inspection
+  text_graphic: false
+clip:gx-walk2:
+  arab_people: true
+  desc: Prince Hamdan with officials at the airline headquarters
+  people: true
+  tags:
+  - hamdan
+  - airline
+  - officials
+  - kandura
   text_graphic: false
 clip:hamdan-post:
   arab_people: null
@@ -2184,6 +3972,17 @@ clip:horses:
   - skyline
   - water
   - white horse
+  text_graphic: false
+clip:hxm-m1:
+  arab_people: true
+  desc: Prince Hamdan on his official visit to India (medium shot)
+  hamdan: 1.0
+  people: true
+  tags:
+  - hamdan
+  - kandura
+  - ghutra
+  - visit
   text_graphic: false
 clip:ig-abra-a:
   arab_people: true
@@ -4602,6 +6401,1397 @@ clip:ig-youth-table:
   - wall
   - woman
   text_graphic: false
+clip:ihkr-c1:
+  arab_people: true
+  desc: Narendra Modi points along a corridor as Prince Hamdan looks
+  hamdan: 0.8
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - corridor
+  - modi
+  - pointing
+  text_graphic: false
+clip:ihkr-c2:
+  arab_people: true
+  desc: Narendra Modi shows Prince Hamdan a tall peacock sculpture
+  hamdan: 0.8
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - bird
+  - modi
+  - peacock
+  - sculpture
+  text_graphic: false
+clip:ihkr-c3:
+  arab_people: true
+  desc: Narendra Modi and Prince Hamdan stand together in a sitting room with an aide
+  hamdan: 0.8
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - aide
+  - modi
+  - room
+  - sitting
+  text_graphic: false
+clip:in-billboard:
+  arab_people: true
+  desc: Welcome billboard with portraits of Prince Hamdan and Narendra Modi, text in Hindi and Arabic
+  hamdan: 0.3
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - arabic
+  - billboard
+  - hindi
+  - modi
+  - portrait
+  - welcome
+  text_graphic: true
+clip:in-bse-banner:
+  arab_people: true
+  desc: Prince Hamdan at the Bombay Stock Exchange with the BSE bull statue
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - stock
+  - exchange
+  - bse
+  - bull
+  - mumbai
+  - visit
+  - market
+  text_graphic: false
+clip:in-bse-bell:
+  arab_people: true
+  desc: Prince Hamdan rings the opening bell of the Bombay Stock Exchange
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - bell
+  - clock
+  - exchange
+  - gong
+  - stock
+  text_graphic: false
+clip:in-bse-building:
+  arab_people: false
+  desc: A giant welcome screen with Prince Hamdan's photo on the exchange building
+  hamdan: 0.2
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - building
+  - screen
+  - welcome
+  text_graphic: true
+clip:in-bse-face:
+  arab_people: false
+  desc: Historic photographs of the Bombay Stock Exchange building on the wall
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: false
+  tags:
+  - building
+  - history
+  - photo
+  text_graphic: false
+clip:in-bse-gallery:
+  arab_people: true
+  desc: Prince Hamdan studies the framed history on the walls of the exchange
+  hamdan: 0.8
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - gallery
+  - history
+  - wall
+  text_graphic: false
+clip:in-bse-look:
+  arab_people: false
+  desc: The Glimpses of the Past wall of framed old documents
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - frames
+  - history
+  - wall
+  text_graphic: false
+clip:in-bse-oldphoto:
+  arab_people: false
+  desc: Old black-and-white photographs from the history of the Bombay Stock Exchange
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: false
+  tags:
+  - history
+  - old
+  - photo
+  text_graphic: false
+clip:in-bse-photos:
+  arab_people: true
+  desc: Prince Hamdan is shown historic photographs on the wall of the exchange
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: false
+  tags:
+  - gallery
+  - history
+  - photos
+  - wall
+  text_graphic: false
+clip:in-bse-walk:
+  arab_people: true
+  desc: Prince Hamdan walks along the history gallery of the exchange
+  hamdan: 0.9
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - gallery
+  - photos
+  - walk
+  text_graphic: false
+clip:in-canopy:
+  arab_people: true
+  desc: Prince Hamdan under the red canopy, officers saluting in front
+  hamdan: 0.6
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - canopy
+  - ceremony
+  - salute
+  text_graphic: false
+clip:in-car-delhi:
+  arab_people: false
+  desc: The black Mercedes waits by the plane to drive him into the city
+  hamdan: 0.1
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - airplane
+  - car
+  - mercedes
+  text_graphic: false
+clip:in-carpet-back:
+  arab_people: true
+  desc: Prince Hamdan walks away along the red carpet on the tarmac
+  hamdan: 0.7
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - carpet
+  - red
+  - tarmac
+  - walk
+  text_graphic: false
+clip:in-cric-memento:
+  arab_people: false
+  desc: A golden memento presented by ICC chairman Jay Shah
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: false
+  tags:
+  - icc
+  - memento
+  - trophy
+  text_graphic: false
+clip:in-cric-rohit:
+  arab_people: true
+  desc: Prince Hamdan talks with ICC chairman Jay Shah on a sofa
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - jay
+  - shah
+  - sofa
+  - talk
+  text_graphic: false
+clip:in-cric-shake:
+  arab_people: true
+  desc: Prince Hamdan shakes hands with Rohit Sharma and Suryakumar Yadav
+  hamdan: 0.9
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - cricket
+  - handshake
+  - players
+  - rohit
+  - sharma
+  text_graphic: false
+clip:in-cric-sign:
+  arab_people: true
+  desc: Prince Hamdan signs a Team India jersey held by Rohit Sharma
+  hamdan: 0.8
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: false
+  tags:
+  - cricket
+  - jersey
+  - rohit
+  - sharma
+  - sign
+  text_graphic: false
+clip:in-defence-table:
+  arab_people: true
+  desc: Prince Hamdan at the defence talks table beside his delegation
+  hamdan: 0.6
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - defence
+  - meeting
+  - table
+  text_graphic: false
+clip:in-door:
+  arab_people: true
+  desc: Prince Hamdan appears at the door of his plane and starts down the stairs
+  hamdan: 0.9
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - airplane
+  - arrival
+  - ghutra
+  - kandura
+  - stairs
+  text_graphic: false
+clip:in-drums:
+  arab_people: false
+  desc: Traditional drummers in white and pink play a welcome on a red carpet
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - culture
+  - dance
+  - drummers
+  - drums
+  - welcome
+  text_graphic: false
+clip:in-flags-trees:
+  arab_people: false
+  desc: Indian and UAE flags side by side among trees
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: false
+  tags:
+  - flag
+  - india
+  - trees
+  - uae
+  text_graphic: false
+clip:in-gopi:
+  arab_people: true
+  desc: Prince Hamdan is welcomed by Indian minister Suresh Gopi at the plane
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - airplane
+  - handshake
+  - minister
+  - welcome
+  text_graphic: false
+clip:in-gopi-2:
+  arab_people: true
+  desc: Prince Hamdan greets the welcoming officials beside the aircraft
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - airplane
+  - handshake
+  - officials
+  text_graphic: false
+clip:in-guard-rows:
+  arab_people: false
+  desc: Rows of the Indian guard of honour in white
+  hamdan: 0.1
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - guard
+  - honour
+  - of
+  - parade
+  - uniform
+  text_graphic: false
+clip:in-guard-wide:
+  arab_people: false
+  desc: Indian Navy guard of honour in white uniforms in front of the saluting stand
+  hamdan: 0.2
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - guard
+  - honour
+  - navy
+  - of
+  - parade
+  - uniform
+  text_graphic: false
+clip:in-inspect-close:
+  arab_people: true
+  desc: Prince Hamdan walks along the red carpet toward the camera between the guards
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - carpet
+  - guard
+  - honour
+  - of
+  - officer
+  - red
+  - walk
+  text_graphic: false
+clip:in-inspect-far:
+  arab_people: true
+  desc: Prince Hamdan inspects the guard of honour along the red carpet
+  hamdan: 0.6
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - carpet
+  - guard
+  - honour
+  - inspect
+  - of
+  - red
+  text_graphic: false
+clip:in-inspect-line:
+  arab_people: true
+  desc: Prince Hamdan walks the long red carpet past the guard line
+  hamdan: 0.6
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - carpet
+  - guard
+  - honour
+  - of
+  - red
+  - walk
+  text_graphic: false
+clip:in-jai-seated:
+  arab_people: true
+  desc: Prince Hamdan and S Jaishankar seated for talks
+  hamdan: 0.8
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - flowers
+  - minister
+  - seated
+  - talks
+  text_graphic: false
+clip:in-jaishankar:
+  arab_people: true
+  desc: Prince Hamdan shakes hands with India's foreign minister S Jaishankar
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - flags
+  - handshake
+  - minister
+  text_graphic: false
+clip:in-line-greet:
+  arab_people: true
+  desc: Prince Hamdan greets the line of officials at the foot of the stairs
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - handshake
+  - officials
+  - welcome
+  text_graphic: false
+clip:in-line-greet-2:
+  arab_people: true
+  desc: Prince Hamdan shakes hands with the waiting officials
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - handshake
+  - officials
+  text_graphic: false
+clip:in-officer:
+  arab_people: true
+  desc: Prince Hamdan shakes hands with an Indian Air Force officer at the plane
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - airplane
+  - handshake
+  - officer
+  - uniform
+  text_graphic: false
+clip:in-phone:
+  arab_people: true
+  desc: Prince Hamdan films the welcome on his own phone, standing beside Suresh Gopi
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - filming
+  - minister
+  - phone
+  - smile
+  text_graphic: false
+clip:in-plane-flags:
+  arab_people: false
+  desc: Indian and UAE flags on the nose of the royal jet
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: false
+  tags:
+  - airplane
+  - flag
+  - india
+  - uae
+  text_graphic: false
+clip:in-pm-car:
+  arab_people: false
+  desc: His black Mercedes pulls up under the white portico
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - car
+  - mercedes
+  - portico
+  text_graphic: false
+clip:in-pm-close:
+  arab_people: true
+  desc: Close shot of Narendra Modi and Prince Hamdan talking
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - flags
+  - modi
+  - smile
+  - talk
+  text_graphic: false
+clip:in-pm-corridor:
+  arab_people: true
+  desc: Prince Hamdan and Narendra Modi walk down a white corridor
+  hamdan: 0.7
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - corridor
+  - modi
+  - walk
+  text_graphic: false
+clip:in-pm-delegation:
+  arab_people: true
+  desc: Narendra Modi greets the Dubai delegation of Prince Hamdan
+  hamdan: 0.6
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - delegation
+  - handshake
+  - modi
+  text_graphic: false
+clip:in-pm-farewell:
+  arab_people: true
+  desc: Narendra Modi says goodbye to Prince Hamdan under the portico
+  hamdan: 0.8
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - goodbye
+  - handshake
+  - modi
+  - portico
+  text_graphic: false
+clip:in-pm-garden:
+  arab_people: true
+  desc: Narendra Modi and Prince Hamdan look at a framed display in the garden
+  hamdan: 0.8
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - display
+  - frame
+  - garden
+  - modi
+  text_graphic: false
+clip:in-pm-gazebo:
+  arab_people: true
+  desc: Narendra Modi points out a carved wooden pavilion to Prince Hamdan
+  hamdan: 0.8
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - garden
+  - modi
+  - pavilion
+  - wood
+  text_graphic: false
+clip:in-pm-greet:
+  arab_people: true
+  desc: Narendra Modi greets Prince Hamdan under the portico with a handshake
+  hamdan: 0.9
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - handshake
+  - modi
+  - portico
+  - welcome
+  text_graphic: false
+clip:in-pm-group:
+  arab_people: true
+  desc: Group photo of Prince Hamdan, Narendra Modi and both delegations
+  hamdan: 0.5
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - delegation
+  - flags
+  - group
+  - photo
+  text_graphic: false
+clip:in-pm-horse:
+  arab_people: false
+  desc: A silver horse statue on the table in the drawing room
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: false
+  tags:
+  - horse
+  - silver
+  - statue
+  - table
+  text_graphic: false
+clip:in-pm-lawn:
+  arab_people: true
+  desc: Prince Hamdan and Narendra Modi stand together on the lawn
+  hamdan: 0.7
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - garden
+  - lawn
+  - modi
+  text_graphic: false
+clip:in-pm-peacock:
+  arab_people: true
+  desc: Prince Hamdan and Narendra Modi beside a tall peacock sculpture
+  hamdan: 0.8
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - modi
+  - peacock
+  - sculpture
+  text_graphic: false
+clip:in-pm-photo:
+  arab_people: false
+  desc: An old black-and-white photograph shown in the garden display
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - and
+  - black
+  - old
+  - photo
+  - white
+  text_graphic: false
+clip:in-pm-pose:
+  arab_people: true
+  desc: Prince Hamdan and Narendra Modi shake hands for the cameras
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - handshake
+  - modi
+  - pose
+  text_graphic: false
+clip:in-pm-room:
+  arab_people: true
+  desc: Prince Hamdan and Narendra Modi stand together in the drawing room
+  hamdan: 0.9
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - modi
+  - pose
+  - room
+  - sofa
+  text_graphic: false
+clip:in-pm-shake:
+  arab_people: true
+  desc: Prince Hamdan and Narendra Modi shake hands in the garden
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - garden
+  - handshake
+  - modi
+  - smile
+  text_graphic: false
+clip:in-pm-sofa:
+  arab_people: true
+  desc: Prince Hamdan and Narendra Modi with an aide in the drawing room
+  hamdan: 0.7
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - modi
+  - room
+  - sofa
+  text_graphic: false
+clip:in-pm-talk:
+  arab_people: true
+  desc: Prince Hamdan talks with Narendra Modi in the drawing room
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - modi
+  - room
+  - talk
+  text_graphic: false
+clip:in-pm-walk:
+  arab_people: true
+  desc: Prince Hamdan and Narendra Modi walk in past the flags
+  hamdan: 0.8
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: false
+  tags:
+  - flags
+  - modi
+  - walk
+  text_graphic: false
+clip:in-rajnath:
+  arab_people: true
+  desc: India's defence minister Rajnath Singh welcomes Prince Hamdan
+  hamdan: 0.6
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - defence
+  - minister
+  - welcome
+  text_graphic: false
+clip:in-rajnath-car:
+  arab_people: true
+  desc: Rajnath Singh greets Prince Hamdan at his car
+  hamdan: 0.8
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - car
+  - defence
+  - minister
+  - welcome
+  text_graphic: false
+clip:in-salute-close:
+  arab_people: true
+  desc: Close shot of Prince Hamdan at attention, an officer saluting beside him
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - ceremony
+  - ghutra
+  - officer
+  - salute
+  text_graphic: false
+clip:in-salute-stand:
+  arab_people: true
+  desc: Prince Hamdan stands on the saluting stand as the anthems play
+  hamdan: 0.9
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - anthem
+  - ceremony
+  - kandura
+  - saluting
+  - stand
+  text_graphic: false
+clip:in-stairs:
+  arab_people: true
+  desc: Prince Hamdan walks down the aircraft stairs in Delhi
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - airplane
+  - arrival
+  - kandura
+  - stairs
+  text_graphic: false
+clip:in-stairs-close:
+  arab_people: true
+  desc: Close shot of Prince Hamdan at the foot of the aircraft stairs
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - arrival
+  - ghutra
+  - kandura
+  - stairs
+  text_graphic: false
+clip:in-talks:
+  arab_people: true
+  desc: The UAE and Indian delegations at the long meeting table
+  hamdan: 0.4
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - delegation
+  - meeting
+  - table
+  text_graphic: false
+clip:in-team-jersey:
+  arab_people: true
+  desc: Rohit Sharma holds the DUBAI 11 jersey beside Prince Hamdan and Jay Shah on the hotel stairs
+  hamdan: 0.8
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: false
+  tags:
+  - jersey
+  - players
+  - rohit
+  - sharma
+  - stairs
+  text_graphic: false
+clip:in-team-lobby:
+  arab_people: false
+  desc: Close up of the blue Team India jersey printed DUBAI and number 11
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: false
+  tags:
+  - '11'
+  - cricket
+  - dubai
+  - jersey
+  text_graphic: false
+clip:in-team-players:
+  arab_people: false
+  desc: Hardik Pandya and Suryakumar Yadav listen to Prince Hamdan
+  hamdan: 0.2
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - cricket
+  - players
+  - sofa
+  text_graphic: false
+clip:in-team-rohit:
+  arab_people: true
+  desc: Close shot of Prince Hamdan and Jay Shah in the hotel lobby
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - jay
+  - lobby
+  - shah
+  - smile
+  text_graphic: false
+clip:in-team-shah:
+  arab_people: true
+  desc: Prince Hamdan with ICC chairman Jay Shah on hotel stairs
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - jay
+  - shah
+  - chairman
+  - icc
+  - cricket
+  - meeting
+  - stairs
+  text_graphic: false
+clip:in-team-sofa:
+  arab_people: true
+  desc: Prince Hamdan sits and talks with Jay Shah
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - jay
+  - shah
+  - sofa
+  - talk
+  text_graphic: false
+clip:in-team-talk:
+  arab_people: false
+  desc: Team India cricketers Hardik Pandya and Suryakumar Yadav on a sofa
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - cricket
+  - stars
+  - players
+  - team
+  - india
+  - sofa
+  - talk
+  text_graphic: false
+clip:in-walk-officer:
+  arab_people: true
+  desc: Prince Hamdan walks across the tarmac with an Indian officer
+  hamdan: 0.8
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - officer
+  - tarmac
+  - walk
+  text_graphic: false
+clip:inf-00:
+  arab_people: true
+  desc: Prince Hamdan walks down the aircraft stairs
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - aircraft
+  - airplane
+  - arrival
+  - stairs
+  text_graphic: false
+clip:inf-01:
+  arab_people: true
+  desc: Prince Hamdan shakes hands with an Indian Air Force officer at the plane
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - air
+  - airplane
+  - force
+  - handshake
+  - officer
+  text_graphic: false
+clip:inf-03:
+  arab_people: true
+  desc: Prince Hamdan is welcomed by Indian minister Suresh Gopi
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - handshake
+  - minister
+  - welcome
+  text_graphic: false
+clip:inf-10:
+  arab_people: true
+  desc: Prince Hamdan walks away along the red carpet
+  hamdan: 0.7
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - carpet
+  - red
+  - tarmac
+  - walk
+  text_graphic: false
+clip:inf-11:
+  arab_people: true
+  desc: Sailors of the guard of honour in front of the saluting stand
+  hamdan: 0.3
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - guard
+  - honour
+  - sailors
+  - stand
+  text_graphic: false
+clip:inf-12:
+  arab_people: true
+  desc: Prince Hamdan at the saluting stand, then stepping down
+  hamdan: 0.7
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - anthems
+  - canopy
+  - saluting
+  - stand
+  text_graphic: false
+clip:inf-13:
+  arab_people: true
+  desc: Prince Hamdan walks the red carpet between officers
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - carpet
+  - guard
+  - officers
+  - red
+  - walk
+  text_graphic: false
+clip:inf-14:
+  arab_people: true
+  desc: Prince Hamdan inspects the long guard line along the red carpet
+  hamdan: 0.6
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - carpet
+  - guard
+  - inspect
+  - line
+  text_graphic: false
+clip:inf-15:
+  arab_people: true
+  desc: Prince Hamdan greets the line of officials at the stairs
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - handshake
+  - line
+  - officials
+  - stairs
+  text_graphic: false
+clip:inf-25:
+  arab_people: false
+  desc: Close shot of the traditional drummers
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - drummers
+  - drums
+  - welcome
+  text_graphic: false
+clip:inx-brmz-18:
+  arab_people: false
+  desc: An old black-and-white photograph in the Bombay Stock Exchange gallery
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - history
+  - old
+  - photo
+  text_graphic: false
+clip:inx-brmz-20:
+  arab_people: false
+  desc: An old share certificate for two thousand five hundred rupees
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - certificate
+  - history
+  - rupees
+  text_graphic: false
+clip:inx-ihkr-102:
+  arab_people: true
+  desc: Narendra Modi greets an officer of the delegation beside Prince Hamdan
+  hamdan: 0.6
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - handshake
+  - modi
+  - officer
+  text_graphic: false
+clip:inx-ihkr-114:
+  arab_people: true
+  desc: Prince Hamdan and Narendra Modi walk out under the white portico
+  hamdan: 0.5
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - flags
+  - portico
+  - walk
+  text_graphic: false
+clip:inx-ihkr-124:
+  arab_people: false
+  desc: Narendra Modi waves as the Mercedes leaves the portico
+  hamdan: 0.1
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - car
+  - goodbye
+  - modi
+  text_graphic: false
+clip:inx-ihkr-52:
+  arab_people: true
+  desc: Prince Hamdan and Narendra Modi in the garden with an aide
+  hamdan: 0.8
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - garden
+  - modi
+  - talk
+  text_graphic: false
+clip:inx-ihkr-54:
+  arab_people: true
+  desc: Narendra Modi explains the garden display to Prince Hamdan
+  hamdan: 0.8
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - display
+  - garden
+  - modi
+  text_graphic: false
+clip:inx-ihkr-65:
+  arab_people: false
+  desc: A carved wooden pavilion in the Prime Minister's garden
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - garden
+  - pavilion
+  - wood
+  text_graphic: false
+clip:inx-ihkr-69:
+  arab_people: true
+  desc: Prince Hamdan seen through the pillars of the wooden pavilion
+  hamdan: 0.9
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - garden
+  - pavilion
+  - pillars
+  text_graphic: false
+clip:inx-ihkr-70:
+  arab_people: false
+  desc: Narendra Modi gestures beside the wooden pavilion
+  hamdan: 0.1
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - garden
+  - modi
+  - pavilion
+  text_graphic: false
+clip:inx-ihkr-92:
+  arab_people: true
+  desc: Prince Hamdan and Narendra Modi walk down the red carpet between the flags
+  hamdan: 0.8
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: false
+  tags:
+  - carpet
+  - flags
+  - modi
+  - red
+  - walk
+  text_graphic: false
+clip:inx-ihkr-98:
+  arab_people: true
+  desc: Narendra Modi greets a minister of the Dubai delegation
+  hamdan: 0.3
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - delegation
+  - greeting
+  - modi
+  text_graphic: false
+clip:inx-mia1-10:
+  arab_people: true
+  desc: Close shot of Prince Hamdan during the talks
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - face
+  - ghutra
+  - talks
+  text_graphic: false
+clip:inx-mia1-12:
+  arab_people: true
+  desc: The UAE and Indian delegations seated face to face
+  hamdan: 0.6
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - delegation
+  - flags
+  - meeting
+  text_graphic: false
+clip:inx-mia1-16:
+  arab_people: false
+  desc: Container cranes at a busy port
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - containers
+  - cranes
+  - port
+  - trade
+  text_graphic: false
+clip:inx-mia1-17:
+  arab_people: false
+  desc: A cargo ship at sea
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - cargo
+  - sea
+  - ship
+  - trade
+  text_graphic: false
+clip:inx-mia1-18:
+  arab_people: false
+  desc: Oil storage tanks at a coastal terminal
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - oil
+  - tanks
+  - terminal
+  text_graphic: false
+clip:inx-nyvz-00:
+  arab_people: true
+  desc: Close shot of Prince Hamdan with Jay Shah
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - jay
+  - shah
+  - suit
+  - talk
+  text_graphic: false
+clip:inx-nyvz-04:
+  arab_people: true
+  desc: Prince Hamdan, Jay Shah and the players on the sofas
+  hamdan: 0.8
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - jay
+  - players
+  - shah
+  - sofa
+  text_graphic: false
+clip:inx-nyvz-11:
+  arab_people: true
+  desc: Prince Hamdan receives a memento from Jay Shah
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: false
+  tags:
+  - jay
+  - memento
+  - shah
+  - trophy
+  text_graphic: false
+clip:inx-nyvz-14:
+  arab_people: true
+  desc: Prince Hamdan and Jay Shah line up with the Indian cricketers
+  hamdan: 0.7
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - group
+  - players
+  - stairs
+  text_graphic: false
+clip:inx-nyvz-18:
+  arab_people: false
+  desc: Rohit Sharma, Hardik Pandya, Suryakumar Yadav and Jay Shah smile for a photo
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - photo
+  - players
+  - smile
+  text_graphic: false
+clip:inx-yqpe-01:
+  arab_people: false
+  desc: Indian Air Force guard of honour marching
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - air
+  - force
+  - guard
+  - march
+  text_graphic: false
+clip:inx-yqpe-02:
+  arab_people: false
+  desc: Indian Army guard of honour marching in black uniforms
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - army
+  - guard
+  - march
+  text_graphic: false
+clip:inx-yqpe-03:
+  arab_people: false
+  desc: An officer inspects the guard of honour line beside the red carpet
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - carpet
+  - guard
+  - officer
+  - red
+  text_graphic: false
+clip:inx-yqpe-04:
+  arab_people: false
+  desc: Close shot of the guard of honour standing to attention
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - attention
+  - guard
+  - uniform
+  text_graphic: false
+clip:inx-yqpe-08:
+  arab_people: false
+  desc: The royal Dubai jet on the tarmac in Delhi
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: false
+  tags:
+  - airplane
+  - jet
+  - tarmac
+  text_graphic: false
+clip:inx-yqpe-10:
+  arab_people: true
+  desc: Prince Hamdan walks down the aircraft stairs past the engine
+  hamdan: 0.9
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - airplane
+  - engine
+  - stairs
+  text_graphic: false
+clip:inx-yqpe-11:
+  arab_people: true
+  desc: Prince Hamdan walks along the red carpet with officials
+  hamdan: 0.9
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - carpet
+  - officials
+  - red
+  - walk
+  text_graphic: false
+clip:inx-yqpe-13:
+  arab_people: true
+  desc: Prince Hamdan walks past the camera at the saluting stand
+  hamdan: 0.9
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - officer
+  - saluting
+  - stand
+  - walk
+  text_graphic: false
+clip:inx-yqpe-14:
+  arab_people: true
+  desc: Prince Hamdan stands at attention on the saluting stand
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - attention
+  - ceremony
+  - officer
+  text_graphic: false
+clip:inx-yqpe-18:
+  arab_people: true
+  desc: Prince Hamdan with Suresh Gopi and the welcoming officials
+  hamdan: 1.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - minister
+  - officials
+  - welcome
+  text_graphic: false
+clip:inx-yqpe-27:
+  arab_people: false
+  desc: His convoy drives away from the plane
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - car
+  - convoy
+  - tarmac
+  text_graphic: false
+clip:inx-zofz-04:
+  arab_people: false
+  desc: The Indian side of the defence talks with Rajnath Singh
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - defence
+  - meeting
+  - table
+  text_graphic: false
+clip:inx-zofz-39:
+  arab_people: false
+  desc: Indian and Emirati soldiers in a joint exercise
+  hamdan: 0.0
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - army
+  - exercise
+  - soldiers
+  text_graphic: false
+clip:inx-zofz-48:
+  arab_people: true
+  desc: Prince Hamdan at the head of his delegation in the defence talks
+  hamdan: 0.6
+  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
+  people: true
+  tags:
+  - defence
+  - delegation
+  - meeting
+  text_graphic: false
 clip:jetpack-rescue:
   arab_people: false
   desc: A group of men in wetsuits in the water.
@@ -4800,6 +7990,103 @@ clip:rider-meet:
   - smile
   - window
   text_graphic: false
+clip:s17-close:
+  arab_people: true
+  desc: Prince Hamdan listens at an aviation stand, close-up
+  hamdan: 0.33
+  people: true
+  tags:
+  - hamdan
+  - face
+  - airshow
+  - aviation
+  - ghutra
+  text_graphic: false
+clip:s17-point:
+  arab_people: true
+  desc: Prince Hamdan points to an aircraft model
+  hamdan: 0.0
+  people: true
+  tags:
+  - hamdan
+  - aircraft
+  - model
+  - airshow
+  - kandura
+  text_graphic: false
+clip:s17-walk:
+  arab_people: true
+  desc: Prince Hamdan with officials at the Dubai Airshow
+  hamdan: 0.5
+  people: true
+  tags:
+  - hamdan
+  - airshow
+  - officials
+  - kandura
+  - aviation
+  text_graphic: false
+clip:s17h-m1:
+  arab_people: true
+  desc: Prince Hamdan at the Dubai Airshow (medium shot)
+  hamdan: 0.83
+  people: true
+  tags:
+  - hamdan
+  - airshow
+  - aviation
+  - kandura
+  - ghutra
+  text_graphic: false
+clip:s17h-m2:
+  arab_people: true
+  desc: Prince Hamdan at the Dubai Airshow (medium shot)
+  hamdan: 1.0
+  people: true
+  tags:
+  - hamdan
+  - airshow
+  - aviation
+  - kandura
+  - ghutra
+  text_graphic: false
+clip:s17h-m3:
+  arab_people: true
+  desc: Prince Hamdan at the Dubai Airshow (medium shot)
+  hamdan: 1.0
+  people: true
+  tags:
+  - hamdan
+  - airshow
+  - aviation
+  - kandura
+  - ghutra
+  text_graphic: false
+clip:s17h-m4:
+  arab_people: true
+  desc: Prince Hamdan at the Dubai Airshow (medium shot)
+  hamdan: 0.67
+  people: true
+  tags:
+  - hamdan
+  - airshow
+  - aviation
+  - kandura
+  - ghutra
+  text_graphic: false
+clip:s17h-m5:
+  arab_people: true
+  desc: Prince Hamdan at the Dubai Airshow (close-up)
+  hamdan: 1.0
+  people: true
+  tags:
+  - hamdan
+  - airshow
+  - aviation
+  - kandura
+  - ghutra
+  - face
+  text_graphic: false
 clip:sharks:
   arab_people: false
   desc: A man freediving underwater
@@ -4925,6 +8212,123 @@ clip:son-walk:
   - path
   - sky
   text_graphic: false
+clip:taxi-close:
+  arab_people: true
+  desc: Close-up of Prince Hamdan at the air taxi station
+  hamdan: 0.83
+  people: true
+  tags:
+  - hamdan
+  - face
+  - ghutra
+  - aviation
+  text_graphic: false
+clip:taxi-craft:
+  arab_people: true
+  desc: Prince Hamdan beside the aircraft on the helipad
+  hamdan: 0.0
+  people: true
+  tags:
+  - hamdan
+  - aircraft
+  - helipad
+  - aviation
+  - kandura
+  text_graphic: false
+clip:taxi-fly:
+  arab_people: false
+  desc: An aircraft flies over Dubai
+  hamdan: 0.0
+  people: false
+  tags:
+  - aircraft
+  - sky
+  - flight
+  - dubai
+  - city
+  text_graphic: false
+clip:taxi-profile:
+  arab_people: true
+  desc: Prince Hamdan in profile at the Dubai air taxi station
+  hamdan: 0.0
+  people: true
+  tags:
+  - hamdan
+  - kandura
+  - ghutra
+  - aviation
+  - station
+  text_graphic: false
+clip:taxi-screen:
+  arab_people: true
+  desc: Prince Hamdan is briefed at a screen at the air taxi station
+  hamdan: 0.17
+  people: true
+  tags:
+  - hamdan
+  - screen
+  - aviation
+  - kandura
+  - briefing
+  text_graphic: false
+clip:taxi-shake:
+  arab_people: true
+  desc: Prince Hamdan shakes hands on the helipad beside an aircraft
+  hamdan: 0.0
+  people: true
+  tags:
+  - hamdan
+  - handshake
+  - aircraft
+  - helipad
+  - aviation
+  text_graphic: false
+clip:taxi-tour:
+  arab_people: true
+  desc: Prince Hamdan tours the air taxi station hall
+  hamdan: 0.0
+  people: true
+  tags:
+  - hamdan
+  - station
+  - aviation
+  - officials
+  - kandura
+  text_graphic: false
+clip:taxi-walk:
+  arab_people: true
+  desc: Prince Hamdan walks out of the air taxi station
+  hamdan: 0.17
+  people: true
+  tags:
+  - hamdan
+  - walk
+  - kandura
+  - station
+  - aviation
+  text_graphic: false
+clip:ttido-m1:
+  arab_people: true
+  desc: Prince Hamdan at a government meeting (wide shot)
+  people: true
+  tags:
+  - hamdan
+  - kandura
+  - ghutra
+  - meeting
+  text_graphic: false
+clip:ttido-m2:
+  arab_people: true
+  desc: Prince Hamdan at a government meeting (close-up)
+  hamdan: 0.83
+  people: true
+  tags:
+  - hamdan
+  - kandura
+  - ghutra
+  - meeting
+  - face
+  text_graphic: false
 clip:twins-stroller:
   arab_people: true
   desc: Prince Hamdan rides bike with two kids.
@@ -4943,6 +8347,18 @@ clip:twins-stroller:
   - pink
   - seat
   - trees
+  text_graphic: false
+clip:visitx-m1:
+  arab_people: true
+  desc: Prince Hamdan at Captain Smit's hospital bedside (medium shot)
+  hamdan: 1.0
+  people: true
+  tags:
+  - hamdan
+  - hospital
+  - bed
+  - kandura
+  - ghutra
   text_graphic: false
 clip:white-horse:
   arab_people: true
@@ -4981,6 +8397,17 @@ clip:windsor-stand:
   - tie
   - wall
   - window
+  text_graphic: false
+sb-10257510:
+  arab_people: null
+  desc: Gold necklaces and bracelets in the window of a jewellery shop
+  people: false
+  tags:
+  - gold
+  - jewellery
+  - necklaces
+  - shop
+  - shops
   text_graphic: false
 sb-10491210:
   arab_people: null
@@ -5031,6 +8458,18 @@ sb-10523802:
   - room
   - seats
   - space
+  text_graphic: false
+sb-10828523:
+  arab_people: null
+  desc: Aerial view of a container ship being loaded at a port
+  people: false
+  tags:
+  - cargo
+  - container
+  - cranes
+  - port
+  - ports
+  - ships
   text_graphic: false
 sb-10836835:
   arab_people: null
@@ -5155,6 +8594,26 @@ sb-10951590:
   - oil
   - shirt
   - water
+  text_graphic: false
+sb-10966388:
+  arab_people: null
+  desc: Indian rupee notes falling onto a pile
+  people: false
+  tags:
+  - cash
+  - money
+  - notes
+  - rupee
+  text_graphic: false
+sb-10971663:
+  arab_people: null
+  desc: Old Indian rupee coins falling onto a pile
+  people: false
+  tags:
+  - coins
+  - money
+  - old
+  - rupee
   text_graphic: false
 sb-10987349:
   arab_people: null
@@ -5463,6 +8922,17 @@ sb-111207:
   - silhouette
   - sky
   text_graphic: false
+sb-111435:
+  arab_people: false
+  desc: Airliner wing above the clouds
+  people: false
+  tags:
+  - plane
+  - wing
+  - clouds
+  - sky
+  - flight
+  text_graphic: false
 sb-11182157:
   arab_people: null
   desc: The video captures the powerful legs of a horse galloping across dusty ground, kicking up clouds of earth with every stride.
@@ -5495,6 +8965,30 @@ sb-1214149:
   - texture
   - underwater
   text_graphic: false
+sb-121987:
+  arab_people: null
+  desc: India Gate war memorial and its empty canopy on the lawns of New Delhi
+  people: false
+  tags:
+  - delhi
+  - gate
+  - india
+  - landmark
+  - memorial
+  - monument
+  - war
+  text_graphic: false
+sb-121988:
+  arab_people: null
+  desc: The India Gate monument in New Delhi with visitors walking
+  people: true
+  tags:
+  - delhi
+  - gate
+  - india gate
+  - monument
+  - people
+  text_graphic: false
 sb-122628:
   arab_people: false
   desc: Boats on a river with city buildings in the background.
@@ -5510,6 +9004,29 @@ sb-122628:
   - skyline
   - urban
   - water
+  text_graphic: false
+sb-1428417:
+  arab_people: null
+  desc: Colourful spices and tea for sale at an Indian market
+  people: false
+  tags:
+  - colourful
+  - market
+  - sacks
+  - spices
+  - tea
+  text_graphic: false
+sb-1574719:
+  arab_people: null
+  desc: Empty airplane cabin seats by the windows
+  people: false
+  tags:
+  - plane
+  - cabin
+  - seats
+  - window
+  - passenger
+  - flight
   text_graphic: false
 sb-1713718:
   arab_people: null
@@ -5545,6 +9062,17 @@ sb-1958092:
   - time
   - watch
   text_graphic: false
+sb-2230856:
+  arab_people: null
+  desc: Passenger jet landing over runway lights
+  people: false
+  tags:
+  - plane
+  - jet
+  - runway
+  - landing
+  - airport
+  text_graphic: false
 sb-2440591:
   arab_people: null
   desc: Stock market numbers scrolling on a screen
@@ -5576,6 +9104,17 @@ sb-2859623:
   - table
   - wedding
   - wood
+  text_graphic: false
+sb-313147:
+  arab_people: null
+  desc: Flashing emergency lights at night
+  people: false
+  tags:
+  - emergency
+  - lights
+  - night
+  - police
+  - alarm
   text_graphic: false
 sb-341778:
   arab_people: null
@@ -5753,6 +9292,16 @@ sb-346720205:
   - window
   - woman
   text_graphic: false
+sb-346728802:
+  arab_people: null
+  desc: The Indian national flag waving in the wind, seen from below
+  people: false
+  tags:
+  - flag
+  - india
+  - indian
+  - wind
+  text_graphic: false
 sb-346750383:
   arab_people: false
   desc: Woman in hijab works at desk
@@ -5785,6 +9334,62 @@ sb-346780211:
   - water
   - waves
   text_graphic: false
+sb-346803249:
+  arab_people: null
+  desc: Green stock market ticker numbers on a building
+  people: false
+  tags:
+  - companies
+  - exchange
+  - market
+  - numbers
+  - stock
+  - ticker
+  text_graphic: false
+sb-346822753:
+  arab_people: null
+  desc: Hospital corridor with doors
+  people: false
+  tags:
+  - hospital
+  - corridor
+  - hallway
+  - doors
+  - medical
+  text_graphic: false
+sb-347023546:
+  arab_people: null
+  desc: Clean empty hospital hallway
+  people: false
+  tags:
+  - hospital
+  - corridor
+  - clinic
+  - hallway
+  - medical
+  text_graphic: false
+sb-347031249:
+  arab_people: null
+  desc: Passenger plane flying in the blue sky
+  people: false
+  tags:
+  - plane
+  - jet
+  - sky
+  - flight
+  - passenger
+  text_graphic: false
+sb-347046224:
+  arab_people: null
+  desc: Airplane flying high in a blue sky
+  people: false
+  tags:
+  - plane
+  - jet
+  - sky
+  - flight
+  - flying
+  text_graphic: false
 sb-347082689:
   arab_people: null
   desc: A falcon perched against a green background.
@@ -5816,6 +9421,17 @@ sb-347086234:
   - surface
   - water
   - waves
+  text_graphic: false
+sb-347092385:
+  arab_people: null
+  desc: Empty white hospital corridor
+  people: false
+  tags:
+  - hospital
+  - corridor
+  - clinic
+  - doors
+  - medical
   text_graphic: false
 sb-347179641:
   arab_people: null
@@ -5913,6 +9529,17 @@ sb-347330327:
   - underwater
   - water
   text_graphic: false
+sb-347372015:
+  arab_people: null
+  desc: Empty airplane cabin seat by the window in flight
+  people: false
+  tags:
+  - plane
+  - cabin
+  - seat
+  - window
+  - flight
+  text_graphic: false
 sb-347396525:
   arab_people: null
   desc: Red Ferrari on cobblestone street
@@ -5945,6 +9572,17 @@ sb-347446633:
   - paper
   - text
   - uae
+  text_graphic: false
+sb-347462199:
+  arab_people: false
+  desc: View from an airliner window above the clouds
+  people: false
+  tags:
+  - plane
+  - wing
+  - clouds
+  - sky
+  - flight
   text_graphic: false
 sb-347538938:
   arab_people: null
@@ -6092,6 +9730,17 @@ sb-347732374:
   - trees
   - water
   text_graphic: false
+sb-347739689:
+  arab_people: false
+  desc: A passenger plane comes in to land under a cloudy sky
+  people: false
+  tags:
+  - plane
+  - landing
+  - sky
+  - clouds
+  - flight
+  text_graphic: false
 sb-347794102:
   arab_people: null
   desc: Colorful coral reef underwater
@@ -6230,6 +9879,29 @@ sb-348460476:
   - underwater
   - water
   text_graphic: false
+sb-348481046:
+  arab_people: null
+  desc: Diwali oil lamps glowing among marigold flowers, the festival of lights
+  people: false
+  tags:
+  - candles
+  - diwali
+  - festival
+  - indian
+  - lamps
+  - lights
+  text_graphic: false
+sb-348498441:
+  arab_people: null
+  desc: A stadium light tower at night above the empty stands
+  people: false
+  tags:
+  - cricket
+  - lights
+  - night
+  - stadium
+  - stands
+  text_graphic: false
 sb-348542842:
   arab_people: false
   desc: A small child's hand in a fist
@@ -6275,6 +9947,17 @@ sb-348586848:
   - trees
   - uae
   text_graphic: false
+sb-348696260:
+  arab_people: null
+  desc: Aerial view of highways, traffic and a metro line in New Delhi
+  people: false
+  tags:
+  - aerial
+  - city
+  - delhi
+  - highway
+  - traffic
+  text_graphic: false
 sb-348705571:
   arab_people: true
   desc: 'Stock model: Arab man in red ghutra smiling at his smartphone, studio backdrop (NOT Hamdan)'
@@ -6290,6 +9973,40 @@ sb-348705571:
   - phone
   - screen
   - smile
+  text_graphic: false
+sb-348716618:
+  arab_people: null
+  desc: Aerial view of Mumbai at night with traffic and city lights
+  people: false
+  tags:
+  - city
+  - lights
+  - mumbai
+  - night
+  - traffic
+  text_graphic: false
+sb-348745233:
+  arab_people: null
+  desc: Aerial view of the Bandra Worli Sea Link bridge and the Mumbai skyline in the morning
+  people: false
+  tags:
+  - aerial
+  - bridge
+  - city
+  - mumbai
+  - sea
+  - skyline
+  text_graphic: false
+sb-348758474:
+  arab_people: null
+  desc: Passenger jet coming in to land
+  people: false
+  tags:
+  - plane
+  - jet
+  - landing
+  - airport
+  - sky
   text_graphic: false
 sb-348873802:
   arab_people: null
@@ -6356,6 +10073,17 @@ sb-348917002:
   - sky
   - structure
   - water
+  text_graphic: false
+sb-348945074:
+  arab_people: null
+  desc: Airport runway lights at night with planes
+  people: false
+  tags:
+  - plane
+  - airport
+  - runway
+  - night
+  - lights
   text_graphic: false
 sb-349001918:
   arab_people: null
@@ -6485,6 +10213,17 @@ sb-349114643:
   - underwater
   - water
   text_graphic: false
+sb-349216218:
+  arab_people: null
+  desc: Emergency vehicle lights flashing at night
+  people: false
+  tags:
+  - ambulance
+  - emergency
+  - lights
+  - night
+  - rescue
+  text_graphic: false
 sb-349220424:
   arab_people: null
   desc: Close-up of a white horse's nose and bridle.
@@ -6535,6 +10274,17 @@ sb-349236471:
   - thobe
   - white
   text_graphic: false
+sb-349321098:
+  arab_people: null
+  desc: A passenger plane taking off from a runway in the evening
+  people: false
+  tags:
+  - airplane
+  - flights
+  - plane
+  - runway
+  - takeoff
+  text_graphic: false
 sb-349387659:
   arab_people: null
   desc: Aerial view of calm ocean water
@@ -6550,6 +10300,19 @@ sb-349387659:
   - teal
   - water
   - waves
+  text_graphic: false
+sb-351663949:
+  arab_people: null
+  desc: Aerial view of a big container ship crossing the sea
+  people: false
+  tags:
+  - cargo
+  - container
+  - goods
+  - sea
+  - ship
+  - ships
+  - trade
   text_graphic: false
 sb-351748706:
   arab_people: null
@@ -6693,6 +10456,17 @@ sb-351922312:
   - traffic
   - urban
   text_graphic: false
+sb-351934906:
+  arab_people: null
+  desc: A traditional wooden dhow with a red sail at sea
+  people: false
+  tags:
+  - boat
+  - dhow
+  - sail
+  - sea
+  - wooden
+  text_graphic: false
 sb-351940819:
   arab_people: null
   desc: Fish swim near coral in shallow water.
@@ -6805,6 +10579,16 @@ sb-352044780:
   - underwater
   - water
   text_graphic: false
+sb-352070480:
+  arab_people: null
+  desc: A cricket team playing on a green field
+  people: true
+  tags:
+  - cricket
+  - field
+  - match
+  - players
+  text_graphic: false
 sb-352084852:
   arab_people: null
   desc: A sea turtle swims over coral.
@@ -6916,6 +10700,9 @@ sb-352186488:
   - screen
   - text
   - yellow paper
+  - investigation
+  - search
+  - reports
   text_graphic: true
 sb-352257484:
   arab_people: null
@@ -6932,6 +10719,18 @@ sb-352257484:
   - spot
   - swim
   - underwater
+  text_graphic: false
+sb-352280220:
+  arab_people: null
+  desc: Passenger plane landing at night, lights on
+  people: false
+  tags:
+  - plane
+  - jet
+  - landing
+  - night
+  - lights
+  - airport
   text_graphic: false
 sb-352296885:
   arab_people: null
@@ -7106,6 +10905,20 @@ sb-352507384:
   - whiskers
   - wood
   text_graphic: false
+sb-352535688:
+  arab_people: null
+  desc: 'Indian dishes served on a restaurant table: curries, bread and chutneys'
+  people: false
+  tags:
+  - bread
+  - chai
+  - curries
+  - curry
+  - food
+  - indian
+  - restaurant
+  - table
+  text_graphic: false
 sb-352540690:
   arab_people: null
   desc: A white speedboat cuts turquoise water.
@@ -7186,6 +10999,14 @@ sb-352678101:
   - underwater
   - water
   text_graphic: false
+sb-352708709:
+  arab_people: null
+  desc: A red cricket ball rolling across a white surface
+  people: false
+  tags:
+  - ball
+  - cricket
+  text_graphic: false
 sb-352715053:
   arab_people: null
   desc: The interior of a private jet cabin with cream-colored leather seats and large oval windows.
@@ -7202,6 +11023,53 @@ sb-352715053:
   - windows
   - wood
   text_graphic: false
+sb-352731073:
+  arab_people: null
+  desc: A street cook frying snacks in a big pan, Indian street food
+  people: false
+  tags:
+  - cook
+  - food
+  - frying
+  - indian
+  - pan
+  - snacks
+  - street
+  text_graphic: false
+sb-352743321:
+  arab_people: null
+  desc: Aerial view of the Qutub Minar tower in New Delhi
+  people: false
+  tags:
+  - aerial
+  - delhi
+  - history
+  - minar
+  - monument
+  - tower
+  text_graphic: false
+sb-352743358:
+  arab_people: null
+  desc: Aerial view of the white Lotus Temple in New Delhi
+  people: false
+  tags:
+  - aerial
+  - delhi
+  - lotus
+  - monument
+  - temple
+  text_graphic: false
+sb-352748614:
+  arab_people: null
+  desc: Aerial view of Safdarjung's Tomb among the trees of New Delhi
+  people: false
+  tags:
+  - aerial
+  - delhi
+  - history
+  - monument
+  - tomb
+  text_graphic: false
 sb-352758734:
   arab_people: null
   desc: A sleek silver private jet taxis along the runway with its cockpit windows reflecting the sky.
@@ -7217,6 +11085,18 @@ sb-352758734:
   - tarmac
   - wheels
   - windows
+  text_graphic: false
+sb-352763546:
+  arab_people: null
+  desc: Passenger plane landing at night with lights on
+  people: false
+  tags:
+  - plane
+  - jet
+  - landing
+  - night
+  - lights
+  - airport
   text_graphic: false
 sb-352764916:
   arab_people: null
@@ -7250,6 +11130,17 @@ sb-352767003:
   - trees
   - woman
   text_graphic: false
+sb-352772845:
+  arab_people: null
+  desc: Small plane on a desert airport runway
+  people: false
+  tags:
+  - plane
+  - airport
+  - runway
+  - desert
+  - sand
+  text_graphic: false
 sb-352777031:
   arab_people: null
   desc: Fish swimming in coral reef
@@ -7281,6 +11172,16 @@ sb-352782708:
   - skyline
   - vest
   - water
+  text_graphic: false
+sb-352791457:
+  arab_people: null
+  desc: The Indian flag on a pole waving in the wind
+  people: false
+  tags:
+  - flag
+  - india
+  - pole
+  - wind
   text_graphic: false
 sb-352806569:
   arab_people: null
@@ -7740,6 +11641,55 @@ sb-353434767:
   - underwater
   - water
   text_graphic: false
+sb-353492055:
+  arab_people: null
+  desc: Spices poured into a steaming pot of Indian curry
+  people: false
+  tags:
+  - cooking
+  - curry
+  - food
+  - indian
+  - pot
+  - spices
+  text_graphic: false
+sb-353495571:
+  arab_people: null
+  desc: The Taj Mahal Palace hotel in Mumbai seen across the harbour with boats
+  people: false
+  tags:
+  - boats
+  - harbour
+  - hotel
+  - mumbai
+  - palace
+  - taj
+  text_graphic: false
+sb-353495689:
+  arab_people: null
+  desc: Marine Drive curving along the sea in Mumbai with traffic, the Queen's Necklace
+  people: false
+  tags:
+  - bay
+  - drive
+  - marine
+  - mumbai
+  - necklace
+  - road
+  - sea
+  - traffic
+  text_graphic: false
+sb-353495850:
+  arab_people: null
+  desc: Boats waiting on the water off Mumbai at sunrise
+  people: false
+  tags:
+  - boats
+  - harbour
+  - mumbai
+  - sunrise
+  - water
+  text_graphic: false
 sb-353543458:
   arab_people: null
   desc: Camels grazing in the desert
@@ -7770,6 +11720,17 @@ sb-353633803:
   - shadow
   - silhouette
   - smartphone
+  text_graphic: false
+sb-353660967:
+  arab_people: null
+  desc: Ambulance with emergency lights at night
+  people: false
+  tags:
+  - ambulance
+  - emergency
+  - lights
+  - night
+  - street
   text_graphic: false
 sb-353681405:
   arab_people: null
@@ -7923,6 +11884,39 @@ sb-353735881:
   - swimming
   - underwater
   text_graphic: false
+sb-353738795:
+  arab_people: null
+  desc: Airplane cockpit dashboard during a turn in the sky
+  people: false
+  tags:
+  - plane
+  - cockpit
+  - dashboard
+  - sky
+  - flight
+  text_graphic: false
+sb-353739250:
+  arab_people: null
+  desc: Flight deck with active avionics screens
+  people: false
+  tags:
+  - plane
+  - cockpit
+  - screens
+  - controls
+  - flight
+  text_graphic: false
+sb-353739428:
+  arab_people: null
+  desc: Airliner cockpit instrument panel and screens
+  people: false
+  tags:
+  - plane
+  - cockpit
+  - instruments
+  - dashboard
+  - flight
+  text_graphic: false
 sb-353761339:
   arab_people: null
   desc: Underwater coral reef with tropical fish
@@ -8029,6 +12023,17 @@ sb-353922600:
   - texture
   - water
   - waves
+  text_graphic: false
+sb-353937785:
+  arab_people: null
+  desc: Aircraft cockpit gauges and controls
+  people: false
+  tags:
+  - plane
+  - cockpit
+  - gauges
+  - instruments
+  - controls
   text_graphic: false
 sb-353951670:
   arab_people: null
@@ -8171,6 +12176,18 @@ sb-354015626:
   - sea
   - underwater
   text_graphic: false
+sb-354020041:
+  arab_people: null
+  desc: Empty airplane window seats in the cabin
+  people: false
+  tags:
+  - plane
+  - cabin
+  - seats
+  - window
+  - passenger
+  - flight
+  text_graphic: false
 sb-354132842:
   arab_people: null
   desc: Falcon perched on a wooden perch
@@ -8298,6 +12315,19 @@ sb-354144467:
   - screen
   - window
   - women
+  text_graphic: false
+sb-354160142:
+  arab_people: null
+  desc: The Victorian Gothic railway station of Mumbai, Chhatrapati Shivaji Terminus, with traffic
+  people: false
+  tags:
+  - building
+  - heritage
+  - mumbai
+  - railway
+  - station
+  - terminus
+  - traffic
   text_graphic: false
 sb-354181918:
   arab_people: null
@@ -8631,6 +12661,29 @@ sb-354540780:
   - structure
   - tower
   text_graphic: false
+sb-354565921:
+  arab_people: null
+  desc: Abra boats in front of the old quarter of Dubai
+  people: false
+  tags:
+  - abra
+  - boats
+  - creek
+  - dubai
+  - old
+  - quarter
+  text_graphic: false
+sb-354566802:
+  arab_people: null
+  desc: Dubai Creek with abra boats and the old waterfront
+  people: false
+  tags:
+  - abra
+  - boats
+  - creek
+  - dubai
+  - water
+  text_graphic: false
 sb-354566948:
   arab_people: null
   desc: A calm waterfront scene in Dubai featuring a red navigational buoy in the foreground, a white boat docked at the pier, and modern buildings lining the shore und
@@ -8679,6 +12732,17 @@ sb-354568401:
   - skyline
   - trees
   text_graphic: false
+sb-354568469:
+  arab_people: null
+  desc: Abra boats on Dubai Creek at sunset
+  people: false
+  tags:
+  - abra
+  - boats
+  - creek
+  - dubai
+  - sunset
+  text_graphic: false
 sb-354571730:
   arab_people: null
   desc: The Dubai skyline at sunset with the Burj Khalifa standing tall against an orange sky.
@@ -8711,6 +12775,18 @@ sb-354573172:
   - sunset
   - traffic
   text_graphic: false
+sb-354636279:
+  arab_people: null
+  desc: A social media app on a phone screen with like reactions and comments
+  people: false
+  tags:
+  - app
+  - comments
+  - likes
+  - media
+  - phone
+  - social
+  text_graphic: false
 sb-354653909:
   arab_people: null
   desc: Red sand dunes under a pale sky
@@ -8721,6 +12797,30 @@ sb-354653909:
   - horizon
   - sand
   - sky
+  text_graphic: false
+sb-354670117:
+  arab_people: null
+  desc: Aerial view of the coastal road and Haji Ali in Mumbai at dusk
+  people: false
+  tags:
+  - aerial
+  - city
+  - coast
+  - dusk
+  - mumbai
+  - road
+  text_graphic: false
+sb-354676794:
+  arab_people: null
+  desc: Empty economy cabin seats with screens
+  people: false
+  tags:
+  - plane
+  - cabin
+  - seats
+  - screens
+  - passenger
+  - flight
   text_graphic: false
 sb-354677012:
   arab_people: null
@@ -8868,6 +12968,28 @@ sb-354793153:
   - tower
   - water
   text_graphic: false
+sb-354811310:
+  arab_people: null
+  desc: An Indian batsman plays cricket on a floodlit field at night
+  people: true
+  tags:
+  - batsman
+  - cricket
+  - field
+  - floodlights
+  - night
+  text_graphic: false
+sb-354811803:
+  arab_people: null
+  desc: Young cricket players bat and bowl in a green park
+  people: false
+  tags:
+  - cricket
+  - game
+  - india
+  - park
+  - players
+  text_graphic: false
 sb-354821268:
   arab_people: null
   desc: Dubai skyline with Burj Khalifa
@@ -8901,6 +13023,29 @@ sb-354855352:
   - terrain
   - texture
   - wind
+  text_graphic: false
+sb-354876423:
+  arab_people: null
+  desc: Aerial view of the Mumbai skyline glittering at night
+  people: false
+  tags:
+  - city
+  - lights
+  - mumbai
+  - night
+  - skyline
+  text_graphic: false
+sb-354876745:
+  arab_people: null
+  desc: Aerial night view of Mumbai's high-rise towers glowing with city lights
+  people: false
+  tags:
+  - city
+  - lights
+  - mumbai
+  - night
+  - skyline
+  - towers
   text_graphic: false
 sb-354878696:
   arab_people: null
@@ -9066,6 +13211,28 @@ sb-355019686:
   - sunlight
   - underwater
   text_graphic: false
+sb-355064889:
+  arab_people: null
+  desc: Indian curry bowls on a thali with bread, hands reaching in
+  people: true
+  tags:
+  - curry
+  - food
+  - indian
+  - restaurant
+  - thali
+  text_graphic: false
+sb-355075646:
+  arab_people: null
+  desc: A traditional Indian thali platter served at a restaurant table
+  people: false
+  tags:
+  - food
+  - indian
+  - restaurant
+  - table
+  - thali
+  text_graphic: false
 sb-355090632:
   arab_people: null
   desc: Sunlit sand dunes under blue sky
@@ -9081,6 +13248,18 @@ sb-355090632:
   - sand
   - sky
   - sun
+  text_graphic: false
+sb-355116256:
+  arab_people: null
+  desc: Empty airliner cabin with rows of seats
+  people: false
+  tags:
+  - plane
+  - cabin
+  - seats
+  - aisle
+  - passenger
+  - flight
   text_graphic: false
 sb-355197436:
   arab_people: null
@@ -9178,6 +13357,18 @@ sb-355430794:
   - sand
   - tank
   - water
+  text_graphic: false
+sb-355447849:
+  arab_people: null
+  desc: Airliner approaching the runway at sunset
+  people: false
+  tags:
+  - plane
+  - jet
+  - runway
+  - landing
+  - sunset
+  - sky
   text_graphic: false
 sb-355479235:
   arab_people: null
@@ -9301,6 +13492,17 @@ sb-358145229:
   - underwater
   - water
   text_graphic: false
+sb-358209527:
+  arab_people: false
+  desc: Airliner cockpit at night with glowing instruments
+  people: false
+  tags:
+  - cockpit
+  - plane
+  - instruments
+  - night
+  - controls
+  text_graphic: false
 sb-358220525:
   arab_people: null
   desc: A majestic falcon in flight
@@ -9396,6 +13598,17 @@ sb-358534621:
   - white
   - yacht
   text_graphic: false
+sb-3666285:
+  arab_people: null
+  desc: The red sandstone walls of the Red Fort in Delhi
+  people: false
+  tags:
+  - delhi
+  - fort
+  - history
+  - red fort
+  - walls
+  text_graphic: false
 sb-440038:
   arab_people: null
   desc: A falcon soars against the sky.
@@ -9413,6 +13626,28 @@ sb-440038:
   - skyline
   - wildlife
   - wings
+  text_graphic: false
+sb-4508037:
+  arab_people: null
+  desc: Long empty hospital corridor with doors
+  people: false
+  tags:
+  - hospital
+  - corridor
+  - hallway
+  - doors
+  - medical
+  text_graphic: false
+sb-488209:
+  arab_people: null
+  desc: Stadium floodlights shining against a dark blue evening sky
+  people: false
+  tags:
+  - cricket
+  - floodlights
+  - lights
+  - night
+  - stadium
   text_graphic: false
 sb-5172520:
   arab_people: null
@@ -9478,6 +13713,52 @@ sb-56334:
   - underwater
   - water
   text_graphic: false
+sb-566336:
+  arab_people: null
+  desc: Traffic passing on a street in Mumbai
+  people: false
+  tags:
+  - city
+  - mumbai
+  - street
+  - traffic
+  - truck
+  text_graphic: false
+sb-566345:
+  arab_people: null
+  desc: A busy crossroads in Mumbai with yellow taxis and a red bus
+  people: false
+  tags:
+  - bus
+  - city
+  - mumbai
+  - street
+  - taxis
+  - traffic
+  text_graphic: false
+sb-566916:
+  arab_people: null
+  desc: The Gateway of India seen across the water with boats
+  people: false
+  tags:
+  - boats
+  - gateway
+  - monument
+  - mumbai
+  - sea
+  text_graphic: false
+sb-567261:
+  arab_people: null
+  desc: A chai seller making tea at a street stall in Mumbai
+  people: false
+  tags:
+  - chai
+  - mumbai
+  - seller
+  - stall
+  - street
+  - tea
+  text_graphic: false
 sb-59411:
   arab_people: null
   desc: rusty anchor on a boat
@@ -9504,6 +13785,28 @@ sb-6235864:
   - wall
   - white dress
   - woman
+  text_graphic: false
+sb-6340186:
+  arab_people: false
+  desc: Locked cockpit door marked Crew Only inside an airliner
+  people: false
+  tags:
+  - cockpit
+  - door
+  - lock
+  - plane
+  - crew
+  text_graphic: false
+sb-6340321:
+  arab_people: false
+  desc: Cockpit door with a keypad lock inside an airliner
+  people: false
+  tags:
+  - cockpit
+  - door
+  - lock
+  - keypad
+  - plane
   text_graphic: false
 sb-6803751:
   arab_people: false
@@ -9617,6 +13920,29 @@ sb-7285221:
   - waves
   - white
   text_graphic: false
+sb-74562:
+  arab_people: null
+  desc: Crowds of people walking on a busy market street in Mumbai
+  people: true
+  tags:
+  - busy
+  - crowd
+  - market
+  - mumbai
+  - people
+  - street
+  - streets
+  text_graphic: false
+sb-74608:
+  arab_people: null
+  desc: The Gateway of India monument in Mumbai behind trees
+  people: false
+  tags:
+  - gateway
+  - landmark
+  - monument
+  - mumbai
+  text_graphic: false
 sb-7505805:
   arab_people: null
   desc: Modern architecture and manicured gardens.
@@ -9632,6 +13958,18 @@ sb-7505805:
   - pathway
   - skyline
   - trees
+  text_graphic: false
+sb-766239:
+  arab_people: null
+  desc: Spinning film reels of an old cinema projector
+  people: false
+  tags:
+  - bollywood
+  - cinema
+  - film
+  - films
+  - movies
+  - reels
   text_graphic: false
 sb-7721934:
   arab_people: null
@@ -9679,6 +14017,17 @@ sb-7923907:
   - sky
   - sun
   text_graphic: false
+sb-8219222:
+  arab_people: null
+  desc: Fans waving small Indian flags in the air
+  people: false
+  tags:
+  - celebration
+  - fans
+  - flags
+  - india
+  - indian
+  text_graphic: false
 sb-9002809:
   arab_people: null
   desc: A workboat moves across turquoise water.
@@ -9723,2992 +14072,4 @@ sb-9849919:
   - metal
   - storage
   - wealth
-  text_graphic: false
-clip:in-billboard:
-  arab_people: true
-  desc: Welcome billboard with portraits of Prince Hamdan and Narendra Modi, text in Hindi and Arabic
-  hamdan: 0.3
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - arabic
-  - billboard
-  - hindi
-  - modi
-  - portrait
-  - welcome
-  text_graphic: true
-clip:in-flags-trees:
-  arab_people: false
-  desc: Indian and UAE flags side by side among trees
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: false
-  tags:
-  - flag
-  - india
-  - trees
-  - uae
-  text_graphic: false
-clip:in-plane-flags:
-  arab_people: false
-  desc: Indian and UAE flags on the nose of the royal jet
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: false
-  tags:
-  - airplane
-  - flag
-  - india
-  - uae
-  text_graphic: false
-clip:in-door:
-  arab_people: true
-  desc: Prince Hamdan appears at the door of his plane and starts down the stairs
-  hamdan: 0.9
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - airplane
-  - arrival
-  - ghutra
-  - kandura
-  - stairs
-  text_graphic: false
-clip:in-stairs:
-  arab_people: true
-  desc: Prince Hamdan walks down the aircraft stairs in Delhi
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - airplane
-  - arrival
-  - kandura
-  - stairs
-  text_graphic: false
-clip:in-stairs-close:
-  arab_people: true
-  desc: Close shot of Prince Hamdan at the foot of the aircraft stairs
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - arrival
-  - ghutra
-  - kandura
-  - stairs
-  text_graphic: false
-clip:in-officer:
-  arab_people: true
-  desc: Prince Hamdan shakes hands with an Indian Air Force officer at the plane
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - airplane
-  - handshake
-  - officer
-  - uniform
-  text_graphic: false
-clip:in-gopi:
-  arab_people: true
-  desc: Prince Hamdan is welcomed by Indian minister Suresh Gopi at the plane
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - airplane
-  - handshake
-  - minister
-  - welcome
-  text_graphic: false
-clip:in-gopi-2:
-  arab_people: true
-  desc: Prince Hamdan greets the welcoming officials beside the aircraft
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - airplane
-  - handshake
-  - officials
-  text_graphic: false
-clip:in-carpet-back:
-  arab_people: true
-  desc: Prince Hamdan walks away along the red carpet on the tarmac
-  hamdan: 0.7
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - carpet
-  - red
-  - tarmac
-  - walk
-  text_graphic: false
-clip:in-guard-wide:
-  arab_people: false
-  desc: Indian Navy guard of honour in white uniforms in front of the saluting stand
-  hamdan: 0.2
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - guard
-  - honour
-  - navy
-  - of
-  - parade
-  - uniform
-  text_graphic: false
-clip:in-salute-stand:
-  arab_people: true
-  desc: Prince Hamdan stands on the saluting stand as the anthems play
-  hamdan: 0.9
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - anthem
-  - ceremony
-  - kandura
-  - saluting
-  - stand
-  text_graphic: false
-clip:in-salute-close:
-  arab_people: true
-  desc: Close shot of Prince Hamdan at attention, an officer saluting beside him
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - ceremony
-  - ghutra
-  - officer
-  - salute
-  text_graphic: false
-clip:in-guard-rows:
-  arab_people: false
-  desc: Rows of the Indian guard of honour in white
-  hamdan: 0.1
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - guard
-  - honour
-  - of
-  - parade
-  - uniform
-  text_graphic: false
-clip:in-canopy:
-  arab_people: true
-  desc: Prince Hamdan under the red canopy, officers saluting in front
-  hamdan: 0.6
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - canopy
-  - ceremony
-  - salute
-  text_graphic: false
-clip:in-walk-officer:
-  arab_people: true
-  desc: Prince Hamdan walks across the tarmac with an Indian officer
-  hamdan: 0.8
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - officer
-  - tarmac
-  - walk
-  text_graphic: false
-clip:in-inspect-far:
-  arab_people: true
-  desc: Prince Hamdan inspects the guard of honour along the red carpet
-  hamdan: 0.6
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - carpet
-  - guard
-  - honour
-  - inspect
-  - of
-  - red
-  text_graphic: false
-clip:in-inspect-close:
-  arab_people: true
-  desc: Prince Hamdan walks along the red carpet toward the camera between the guards
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - carpet
-  - guard
-  - honour
-  - of
-  - officer
-  - red
-  - walk
-  text_graphic: false
-clip:in-inspect-line:
-  arab_people: true
-  desc: Prince Hamdan walks the long red carpet past the guard line
-  hamdan: 0.6
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - carpet
-  - guard
-  - honour
-  - of
-  - red
-  - walk
-  text_graphic: false
-clip:in-line-greet:
-  arab_people: true
-  desc: Prince Hamdan greets the line of officials at the foot of the stairs
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - handshake
-  - officials
-  - welcome
-  text_graphic: false
-clip:in-line-greet-2:
-  arab_people: true
-  desc: Prince Hamdan shakes hands with the waiting officials
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - handshake
-  - officials
-  text_graphic: false
-clip:in-phone:
-  arab_people: true
-  desc: Prince Hamdan films the welcome on his own phone, standing beside Suresh Gopi
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - filming
-  - minister
-  - phone
-  - smile
-  text_graphic: false
-clip:in-drums:
-  arab_people: false
-  desc: Traditional drummers in white and pink play a welcome on a red carpet
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - culture
-  - dance
-  - drummers
-  - drums
-  - welcome
-  text_graphic: false
-clip:in-car-delhi:
-  arab_people: false
-  desc: The black Mercedes waits by the plane to drive him into the city
-  hamdan: 0.1
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - airplane
-  - car
-  - mercedes
-  text_graphic: false
-clip:in-pm-car:
-  arab_people: false
-  desc: His black Mercedes pulls up under the white portico
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - car
-  - mercedes
-  - portico
-  text_graphic: false
-clip:in-pm-greet:
-  arab_people: true
-  desc: Narendra Modi greets Prince Hamdan under the portico with a handshake
-  hamdan: 0.9
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - handshake
-  - modi
-  - portico
-  - welcome
-  text_graphic: false
-clip:in-pm-close:
-  arab_people: true
-  desc: Close shot of Narendra Modi and Prince Hamdan talking
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - flags
-  - modi
-  - smile
-  - talk
-  text_graphic: false
-clip:in-pm-pose:
-  arab_people: true
-  desc: Prince Hamdan and Narendra Modi shake hands for the cameras
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - handshake
-  - modi
-  - pose
-  text_graphic: false
-clip:in-pm-walk:
-  arab_people: true
-  desc: Prince Hamdan and Narendra Modi walk in past the flags
-  hamdan: 0.8
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: false
-  tags:
-  - flags
-  - modi
-  - walk
-  text_graphic: false
-clip:in-pm-room:
-  arab_people: true
-  desc: Prince Hamdan and Narendra Modi stand together in the drawing room
-  hamdan: 0.9
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - modi
-  - pose
-  - room
-  - sofa
-  text_graphic: false
-clip:in-pm-horse:
-  arab_people: false
-  desc: A silver horse statue on the table in the drawing room
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: false
-  tags:
-  - horse
-  - silver
-  - statue
-  - table
-  text_graphic: false
-clip:in-pm-talk:
-  arab_people: true
-  desc: Prince Hamdan talks with Narendra Modi in the drawing room
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - modi
-  - room
-  - talk
-  text_graphic: false
-clip:in-pm-sofa:
-  arab_people: true
-  desc: Prince Hamdan and Narendra Modi with an aide in the drawing room
-  hamdan: 0.7
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - modi
-  - room
-  - sofa
-  text_graphic: false
-clip:in-pm-garden:
-  arab_people: true
-  desc: Narendra Modi and Prince Hamdan look at a framed display in the garden
-  hamdan: 0.8
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - display
-  - frame
-  - garden
-  - modi
-  text_graphic: false
-clip:in-pm-photo:
-  arab_people: false
-  desc: An old black-and-white photograph shown in the garden display
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - and
-  - black
-  - old
-  - photo
-  - white
-  text_graphic: false
-clip:in-pm-shake:
-  arab_people: true
-  desc: Prince Hamdan and Narendra Modi shake hands in the garden
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - garden
-  - handshake
-  - modi
-  - smile
-  text_graphic: false
-clip:in-pm-gazebo:
-  arab_people: true
-  desc: Narendra Modi points out a carved wooden pavilion to Prince Hamdan
-  hamdan: 0.8
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - garden
-  - modi
-  - pavilion
-  - wood
-  text_graphic: false
-clip:in-pm-lawn:
-  arab_people: true
-  desc: Prince Hamdan and Narendra Modi stand together on the lawn
-  hamdan: 0.7
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - garden
-  - lawn
-  - modi
-  text_graphic: false
-clip:in-pm-corridor:
-  arab_people: true
-  desc: Prince Hamdan and Narendra Modi walk down a white corridor
-  hamdan: 0.7
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - corridor
-  - modi
-  - walk
-  text_graphic: false
-clip:in-pm-peacock:
-  arab_people: true
-  desc: Prince Hamdan and Narendra Modi beside a tall peacock sculpture
-  hamdan: 0.8
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - modi
-  - peacock
-  - sculpture
-  text_graphic: false
-clip:in-pm-delegation:
-  arab_people: true
-  desc: Narendra Modi greets the Dubai delegation of Prince Hamdan
-  hamdan: 0.6
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - delegation
-  - handshake
-  - modi
-  text_graphic: false
-clip:in-pm-group:
-  arab_people: true
-  desc: Group photo of Prince Hamdan, Narendra Modi and both delegations
-  hamdan: 0.5
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - delegation
-  - flags
-  - group
-  - photo
-  text_graphic: false
-clip:in-pm-farewell:
-  arab_people: true
-  desc: Narendra Modi says goodbye to Prince Hamdan under the portico
-  hamdan: 0.8
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - goodbye
-  - handshake
-  - modi
-  - portico
-  text_graphic: false
-clip:in-jaishankar:
-  arab_people: true
-  desc: Prince Hamdan shakes hands with India's foreign minister S Jaishankar
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - flags
-  - handshake
-  - minister
-  text_graphic: false
-clip:in-jai-seated:
-  arab_people: true
-  desc: Prince Hamdan and S Jaishankar seated for talks
-  hamdan: 0.8
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - flowers
-  - minister
-  - seated
-  - talks
-  text_graphic: false
-clip:in-rajnath:
-  arab_people: true
-  desc: India's defence minister Rajnath Singh welcomes Prince Hamdan
-  hamdan: 0.6
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - defence
-  - minister
-  - welcome
-  text_graphic: false
-clip:in-talks:
-  arab_people: true
-  desc: The UAE and Indian delegations at the long meeting table
-  hamdan: 0.4
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - delegation
-  - meeting
-  - table
-  text_graphic: false
-clip:in-defence-table:
-  arab_people: true
-  desc: Prince Hamdan at the defence talks table beside his delegation
-  hamdan: 0.6
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - defence
-  - meeting
-  - table
-  text_graphic: false
-clip:in-rajnath-car:
-  arab_people: true
-  desc: Rajnath Singh greets Prince Hamdan at his car
-  hamdan: 0.8
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - car
-  - defence
-  - minister
-  - welcome
-  text_graphic: false
-clip:in-bse-bell:
-  arab_people: true
-  desc: Prince Hamdan rings the opening bell of the Bombay Stock Exchange
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - bell
-  - clock
-  - exchange
-  - gong
-  - stock
-  text_graphic: false
-clip:in-bse-face:
-  arab_people: false
-  desc: Historic photographs of the Bombay Stock Exchange building on the wall
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: false
-  tags:
-  - building
-  - history
-  - photo
-  text_graphic: false
-clip:in-bse-photos:
-  arab_people: true
-  desc: Prince Hamdan is shown historic photographs on the wall of the exchange
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: false
-  tags:
-  - gallery
-  - history
-  - photos
-  - wall
-  text_graphic: false
-clip:in-bse-look:
-  arab_people: false
-  desc: The Glimpses of the Past wall of framed old documents
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - frames
-  - history
-  - wall
-  text_graphic: false
-clip:in-bse-walk:
-  arab_people: true
-  desc: Prince Hamdan walks along the history gallery of the exchange
-  hamdan: 0.9
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - gallery
-  - photos
-  - walk
-  text_graphic: false
-clip:in-bse-oldphoto:
-  arab_people: false
-  desc: Old black-and-white photographs from the history of the Bombay Stock Exchange
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: false
-  tags:
-  - history
-  - old
-  - photo
-  text_graphic: false
-clip:in-bse-gallery:
-  arab_people: true
-  desc: Prince Hamdan studies the framed history on the walls of the exchange
-  hamdan: 0.8
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - gallery
-  - history
-  - wall
-  text_graphic: false
-clip:in-bse-building:
-  arab_people: false
-  desc: A giant welcome screen with Prince Hamdan's photo on the exchange building
-  hamdan: 0.2
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - building
-  - screen
-  - welcome
-  text_graphic: true
-clip:in-cric-shake:
-  arab_people: true
-  desc: Prince Hamdan shakes hands with Rohit Sharma and Suryakumar Yadav
-  hamdan: 0.9
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - cricket
-  - handshake
-  - players
-  - rohit
-  - sharma
-  text_graphic: false
-clip:in-cric-rohit:
-  arab_people: true
-  desc: Prince Hamdan talks with ICC chairman Jay Shah on a sofa
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - jay
-  - shah
-  - sofa
-  - talk
-  text_graphic: false
-clip:in-cric-sign:
-  arab_people: true
-  desc: Prince Hamdan signs a Team India jersey held by Rohit Sharma
-  hamdan: 0.8
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: false
-  tags:
-  - cricket
-  - jersey
-  - rohit
-  - sharma
-  - sign
-  text_graphic: false
-clip:in-cric-memento:
-  arab_people: false
-  desc: A golden memento presented by ICC chairman Jay Shah
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: false
-  tags:
-  - icc
-  - memento
-  - trophy
-  text_graphic: false
-clip:in-team-sofa:
-  arab_people: true
-  desc: Prince Hamdan sits and talks with Jay Shah
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - jay
-  - shah
-  - sofa
-  - talk
-  text_graphic: false
-clip:in-team-players:
-  arab_people: false
-  desc: Hardik Pandya and Suryakumar Yadav listen to Prince Hamdan
-  hamdan: 0.2
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - cricket
-  - players
-  - sofa
-  text_graphic: false
-clip:in-team-lobby:
-  arab_people: false
-  desc: Close up of the blue Team India jersey printed DUBAI and number 11
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: false
-  tags:
-  - '11'
-  - cricket
-  - dubai
-  - jersey
-  text_graphic: false
-clip:in-team-jersey:
-  arab_people: true
-  desc: Rohit Sharma holds the DUBAI 11 jersey beside Prince Hamdan and Jay Shah on the hotel stairs
-  hamdan: 0.8
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: false
-  tags:
-  - jersey
-  - players
-  - rohit
-  - sharma
-  - stairs
-  text_graphic: false
-clip:in-team-rohit:
-  arab_people: true
-  desc: Close shot of Prince Hamdan and Jay Shah in the hotel lobby
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - jay
-  - lobby
-  - shah
-  - smile
-  text_graphic: false
-clip:inx-ihkr-52:
-  arab_people: true
-  desc: Prince Hamdan and Narendra Modi in the garden with an aide
-  hamdan: 0.8
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - garden
-  - modi
-  - talk
-  text_graphic: false
-clip:inx-ihkr-54:
-  arab_people: true
-  desc: Narendra Modi explains the garden display to Prince Hamdan
-  hamdan: 0.8
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - display
-  - garden
-  - modi
-  text_graphic: false
-clip:inx-ihkr-65:
-  arab_people: false
-  desc: A carved wooden pavilion in the Prime Minister's garden
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - garden
-  - pavilion
-  - wood
-  text_graphic: false
-clip:inx-ihkr-69:
-  arab_people: true
-  desc: Prince Hamdan seen through the pillars of the wooden pavilion
-  hamdan: 0.9
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - garden
-  - pavilion
-  - pillars
-  text_graphic: false
-clip:inx-ihkr-70:
-  arab_people: false
-  desc: Narendra Modi gestures beside the wooden pavilion
-  hamdan: 0.1
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - garden
-  - modi
-  - pavilion
-  text_graphic: false
-clip:inx-ihkr-92:
-  arab_people: true
-  desc: Prince Hamdan and Narendra Modi walk down the red carpet between the flags
-  hamdan: 0.8
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: false
-  tags:
-  - carpet
-  - flags
-  - modi
-  - red
-  - walk
-  text_graphic: false
-clip:inx-ihkr-98:
-  arab_people: true
-  desc: Narendra Modi greets a minister of the Dubai delegation
-  hamdan: 0.3
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - delegation
-  - greeting
-  - modi
-  text_graphic: false
-clip:inx-ihkr-102:
-  arab_people: true
-  desc: Narendra Modi greets an officer of the delegation beside Prince Hamdan
-  hamdan: 0.6
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - handshake
-  - modi
-  - officer
-  text_graphic: false
-clip:inx-ihkr-114:
-  arab_people: true
-  desc: Prince Hamdan and Narendra Modi walk out under the white portico
-  hamdan: 0.5
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - flags
-  - portico
-  - walk
-  text_graphic: false
-clip:inx-ihkr-124:
-  arab_people: false
-  desc: Narendra Modi waves as the Mercedes leaves the portico
-  hamdan: 0.1
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - car
-  - goodbye
-  - modi
-  text_graphic: false
-clip:inx-yqpe-01:
-  arab_people: false
-  desc: Indian Air Force guard of honour marching
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - air
-  - force
-  - guard
-  - march
-  text_graphic: false
-clip:inx-yqpe-02:
-  arab_people: false
-  desc: Indian Army guard of honour marching in black uniforms
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - army
-  - guard
-  - march
-  text_graphic: false
-clip:inx-yqpe-03:
-  arab_people: false
-  desc: An officer inspects the guard of honour line beside the red carpet
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - carpet
-  - guard
-  - officer
-  - red
-  text_graphic: false
-clip:inx-yqpe-04:
-  arab_people: false
-  desc: Close shot of the guard of honour standing to attention
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - attention
-  - guard
-  - uniform
-  text_graphic: false
-clip:inx-yqpe-08:
-  arab_people: false
-  desc: The royal Dubai jet on the tarmac in Delhi
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: false
-  tags:
-  - airplane
-  - jet
-  - tarmac
-  text_graphic: false
-clip:inx-yqpe-10:
-  arab_people: true
-  desc: Prince Hamdan walks down the aircraft stairs past the engine
-  hamdan: 0.9
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - airplane
-  - engine
-  - stairs
-  text_graphic: false
-clip:inx-yqpe-11:
-  arab_people: true
-  desc: Prince Hamdan walks along the red carpet with officials
-  hamdan: 0.9
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - carpet
-  - officials
-  - red
-  - walk
-  text_graphic: false
-clip:inx-yqpe-13:
-  arab_people: true
-  desc: Prince Hamdan walks past the camera at the saluting stand
-  hamdan: 0.9
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - officer
-  - saluting
-  - stand
-  - walk
-  text_graphic: false
-clip:inx-yqpe-14:
-  arab_people: true
-  desc: Prince Hamdan stands at attention on the saluting stand
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - attention
-  - ceremony
-  - officer
-  text_graphic: false
-clip:inx-yqpe-18:
-  arab_people: true
-  desc: Prince Hamdan with Suresh Gopi and the welcoming officials
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - minister
-  - officials
-  - welcome
-  text_graphic: false
-clip:inx-yqpe-27:
-  arab_people: false
-  desc: His convoy drives away from the plane
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - car
-  - convoy
-  - tarmac
-  text_graphic: false
-clip:inx-mia1-10:
-  arab_people: true
-  desc: Close shot of Prince Hamdan during the talks
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - face
-  - ghutra
-  - talks
-  text_graphic: false
-clip:inx-mia1-12:
-  arab_people: true
-  desc: The UAE and Indian delegations seated face to face
-  hamdan: 0.6
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - delegation
-  - flags
-  - meeting
-  text_graphic: false
-clip:inx-mia1-16:
-  arab_people: false
-  desc: Container cranes at a busy port
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - containers
-  - cranes
-  - port
-  - trade
-  text_graphic: false
-clip:inx-mia1-17:
-  arab_people: false
-  desc: A cargo ship at sea
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - cargo
-  - sea
-  - ship
-  - trade
-  text_graphic: false
-clip:inx-mia1-18:
-  arab_people: false
-  desc: Oil storage tanks at a coastal terminal
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - oil
-  - tanks
-  - terminal
-  text_graphic: false
-clip:inx-zofz-04:
-  arab_people: false
-  desc: The Indian side of the defence talks with Rajnath Singh
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - defence
-  - meeting
-  - table
-  text_graphic: false
-clip:inx-zofz-39:
-  arab_people: false
-  desc: Indian and Emirati soldiers in a joint exercise
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - army
-  - exercise
-  - soldiers
-  text_graphic: false
-clip:inx-zofz-48:
-  arab_people: true
-  desc: Prince Hamdan at the head of his delegation in the defence talks
-  hamdan: 0.6
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - defence
-  - delegation
-  - meeting
-  text_graphic: false
-clip:inx-brmz-18:
-  arab_people: false
-  desc: An old black-and-white photograph in the Bombay Stock Exchange gallery
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - history
-  - old
-  - photo
-  text_graphic: false
-clip:inx-brmz-20:
-  arab_people: false
-  desc: An old share certificate for two thousand five hundred rupees
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - certificate
-  - history
-  - rupees
-  text_graphic: false
-clip:inx-nyvz-00:
-  arab_people: true
-  desc: Close shot of Prince Hamdan with Jay Shah
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - jay
-  - shah
-  - suit
-  - talk
-  text_graphic: false
-clip:inx-nyvz-04:
-  arab_people: true
-  desc: Prince Hamdan, Jay Shah and the players on the sofas
-  hamdan: 0.8
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - jay
-  - players
-  - shah
-  - sofa
-  text_graphic: false
-clip:inx-nyvz-11:
-  arab_people: true
-  desc: Prince Hamdan receives a memento from Jay Shah
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: false
-  tags:
-  - jay
-  - memento
-  - shah
-  - trophy
-  text_graphic: false
-clip:inx-nyvz-14:
-  arab_people: true
-  desc: Prince Hamdan and Jay Shah line up with the Indian cricketers
-  hamdan: 0.7
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - group
-  - players
-  - stairs
-  text_graphic: false
-clip:inx-nyvz-18:
-  arab_people: false
-  desc: Rohit Sharma, Hardik Pandya, Suryakumar Yadav and Jay Shah smile for a photo
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - photo
-  - players
-  - smile
-  text_graphic: false
-sb-348745233:
-  arab_people: null
-  desc: Aerial view of the Bandra Worli Sea Link bridge and the Mumbai skyline in the morning
-  people: false
-  tags:
-  - aerial
-  - bridge
-  - city
-  - mumbai
-  - sea
-  - skyline
-  text_graphic: false
-sb-354670117:
-  arab_people: null
-  desc: Aerial view of the coastal road and Haji Ali in Mumbai at dusk
-  people: false
-  tags:
-  - aerial
-  - city
-  - coast
-  - dusk
-  - mumbai
-  - road
-  text_graphic: false
-sb-121988:
-  arab_people: null
-  desc: The India Gate monument in New Delhi with visitors walking
-  people: true
-  tags:
-  - delhi
-  - gate
-  - india gate
-  - monument
-  - people
-  text_graphic: false
-sb-3666285:
-  arab_people: null
-  desc: The red sandstone walls of the Red Fort in Delhi
-  people: false
-  tags:
-  - delhi
-  - fort
-  - history
-  - red fort
-  - walls
-  text_graphic: false
-sb-348696260:
-  arab_people: null
-  desc: Aerial view of highways, traffic and a metro line in New Delhi
-  people: false
-  tags:
-  - aerial
-  - city
-  - delhi
-  - highway
-  - traffic
-  text_graphic: false
-sb-355075646:
-  arab_people: null
-  desc: A traditional Indian thali platter served at a restaurant table
-  people: false
-  tags:
-  - food
-  - indian
-  - restaurant
-  - table
-  - thali
-  text_graphic: false
-sb-355064889:
-  arab_people: null
-  desc: Indian curry bowls on a thali with bread, hands reaching in
-  people: true
-  tags:
-  - curry
-  - food
-  - indian
-  - restaurant
-  - thali
-  text_graphic: false
-sb-10971663:
-  arab_people: null
-  desc: Old Indian rupee coins falling onto a pile
-  people: false
-  tags:
-  - coins
-  - money
-  - old
-  - rupee
-  text_graphic: false
-sb-351934906:
-  arab_people: null
-  desc: A traditional wooden dhow with a red sail at sea
-  people: false
-  tags:
-  - boat
-  - dhow
-  - sail
-  - sea
-  - wooden
-  text_graphic: false
-sb-352070480:
-  arab_people: null
-  desc: A cricket team playing on a green field
-  people: true
-  tags:
-  - cricket
-  - field
-  - match
-  - players
-  text_graphic: false
-sb-346803249:
-  arab_people: null
-  desc: Green stock market ticker numbers on a building
-  people: false
-  tags:
-  - companies
-  - exchange
-  - market
-  - numbers
-  - stock
-  - ticker
-  text_graphic: false
-sb-74608:
-  arab_people: null
-  desc: The Gateway of India monument in Mumbai behind trees
-  people: false
-  tags:
-  - gateway
-  - landmark
-  - monument
-  - mumbai
-  text_graphic: false
-sb-566916:
-  arab_people: null
-  desc: The Gateway of India seen across the water with boats
-  people: false
-  tags:
-  - boats
-  - gateway
-  - monument
-  - mumbai
-  - sea
-  text_graphic: false
-sb-352791457:
-  arab_people: null
-  desc: The Indian flag on a pole waving in the wind
-  people: false
-  tags:
-  - flag
-  - india
-  - pole
-  - wind
-  text_graphic: false
-sb-566345:
-  arab_people: null
-  desc: A busy crossroads in Mumbai with yellow taxis and a red bus
-  people: false
-  tags:
-  - bus
-  - city
-  - mumbai
-  - street
-  - taxis
-  - traffic
-  text_graphic: false
-sb-566336:
-  arab_people: null
-  desc: Traffic passing on a street in Mumbai
-  people: false
-  tags:
-  - city
-  - mumbai
-  - street
-  - traffic
-  - truck
-  text_graphic: false
-sb-1428417:
-  arab_people: null
-  desc: Colourful spices and tea for sale at an Indian market
-  people: false
-  tags:
-  - colourful
-  - market
-  - sacks
-  - spices
-  - tea
-  text_graphic: false
-sb-354811310:
-  arab_people: null
-  desc: An Indian batsman plays cricket on a floodlit field at night
-  people: true
-  tags:
-  - batsman
-  - cricket
-  - field
-  - floodlights
-  - night
-  text_graphic: false
-clip:dmo-5r9t-00:
-  arab_people: true
-  desc: Prince Hamdan shakes hands with the staff of the UAE embassy in India
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - embassy
-  - handshake
-  - staff
-  - team
-  text_graphic: false
-clip:dmo-5r9t-02:
-  arab_people: true
-  desc: Prince Hamdan greets the women of the UAE embassy team
-  hamdan: 0.6
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - embassy
-  - greeting
-  - team
-  text_graphic: false
-clip:dmo-5r9t-03:
-  arab_people: true
-  desc: Prince Hamdan stands in front of the embassy team
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - embassy
-  - smile
-  - team
-  text_graphic: false
-clip:dmo-5r9t-07:
-  arab_people: true
-  desc: Group photo of Prince Hamdan with the UAE embassy team in India
-  hamdan: 0.3
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - embassy
-  - group
-  - photo
-  - team
-  text_graphic: false
-clip:dmo-oof8-12:
-  arab_people: true
-  desc: Prince Hamdan with India's commerce minister Piyush Goyal at the signing
-  hamdan: 0.9
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - agreements
-  - commerce
-  - minister
-  - signing
-  text_graphic: false
-clip:dmo-oof8-14:
-  arab_people: true
-  desc: Prince Hamdan watches officials exchange a signed agreement
-  hamdan: 0.8
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - agreements
-  - documents
-  - exchange
-  - signing
-  text_graphic: false
-clip:dmo-oof8-15:
-  arab_people: true
-  desc: Wide shot of an agreement exchange on stage with Prince Hamdan and Piyush Goyal
-  hamdan: 0.4
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - agreements
-  - flags
-  - signing
-  - stage
-  text_graphic: false
-clip:dmo-oof8-17:
-  arab_people: true
-  desc: Prince Hamdan beside Piyush Goyal as another agreement is exchanged
-  hamdan: 0.8
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - agreements
-  - exchange
-  - minister
-  text_graphic: false
-clip:dmo-oof8-18:
-  arab_people: true
-  desc: All the officials line up with Prince Hamdan after signing the agreements
-  hamdan: 0.4
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - agreements
-  - group
-  - officials
-  - stage
-  text_graphic: false
-clip:dmo-uaxf-00:
-  arab_people: false
-  desc: The domed government building in New Delhi
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - building
-  - delhi
-  - dome
-  - government
-  text_graphic: false
-clip:dmo-uaxf-01:
-  arab_people: true
-  desc: Rajnath Singh greets Prince Hamdan at his car
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - car
-  - defence
-  - minister
-  - welcome
-  text_graphic: false
-clip:dmo-uaxf-03:
-  arab_people: false
-  desc: Flags of India and the Emirates side by side
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - emirates
-  - flags
-  - india
-  text_graphic: false
-clip:dmo-uaxf-06:
-  arab_people: true
-  desc: Prince Hamdan and the delegations at the defence talks table
-  hamdan: 0.5
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - defence
-  - delegation
-  - meeting
-  - table
-  text_graphic: false
-clip:dmo-uaxf-07:
-  arab_people: false
-  desc: Rajnath Singh and Indian officers at the meeting table
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - defence
-  - meeting
-  - officers
-  - table
-  text_graphic: false
-clip:dmo-uaxf-10:
-  arab_people: true
-  desc: Prince Hamdan walks beside Rajnath Singh past the Indian Army banners
-  hamdan: 0.9
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - army
-  - banners
-  - minister
-  - walk
-  text_graphic: false
-clip:dmo-uaxf-11:
-  arab_people: false
-  desc: Red Indian Army banners outside the defence ministry
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - army
-  - banners
-  - building
-  text_graphic: false
-clip:dmo-uaxf-12:
-  arab_people: false
-  desc: The long sandstone government building in New Delhi
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - building
-  - delhi
-  - government
-  text_graphic: false
-clip:dmo-erds-22:
-  arab_people: true
-  desc: Prince Hamdan is greeted at the foot of the plane
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - airplane
-  - arrival
-  - greeting
-  - officer
-  text_graphic: false
-clip:dmo-erds-26:
-  arab_people: true
-  desc: Prince Hamdan under the red canopy at the guard of honour
-  hamdan: 0.5
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - canopy
-  - ceremony
-  - guard
-  - honour
-  text_graphic: false
-clip:dmo-erds-30:
-  arab_people: true
-  desc: Prince Hamdan walks the red carpet past the guard of honour
-  hamdan: 0.6
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - carpet
-  - guard
-  - honour
-  - red
-  - walk
-  text_graphic: false
-clip:dmo-erds-38:
-  arab_people: true
-  desc: Narendra Modi welcomes Prince Hamdan under the portico
-  hamdan: 0.8
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - minister
-  - modi
-  - portico
-  - prime
-  - welcome
-  text_graphic: false
-clip:dmo-erds-39:
-  arab_people: true
-  desc: Prince Hamdan and Narendra Modi pose in front of the flags
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: false
-  tags:
-  - flags
-  - minister
-  - modi
-  - pose
-  - prime
-  text_graphic: false
-clip:dmo-erds-41:
-  arab_people: false
-  desc: Close up of the silver horse statue on the table
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: false
-  tags:
-  - horse
-  - silver
-  - statue
-  - table
-  text_graphic: false
-clip:dmo-erds-44:
-  arab_people: true
-  desc: Prince Hamdan and Narendra Modi seated for talks
-  hamdan: 0.8
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - minister
-  - modi
-  - prime
-  - seated
-  - talks
-  text_graphic: false
-clip:dmo-erds-45:
-  arab_people: true
-  desc: Close shot of Prince Hamdan seated beside the silver horse
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - horse
-  - seated
-  - talks
-  text_graphic: false
-clip:dmo-erds-48:
-  arab_people: true
-  desc: Prince Hamdan talks with an Indian official
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - minister
-  - official
-  - talks
-  text_graphic: false
-clip:dmo-erds-55:
-  arab_people: true
-  desc: Close shot of Prince Hamdan at a meeting table
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - meeting
-  - minister
-  - table
-  - talks
-  text_graphic: false
-clip:dmo-erds-65:
-  arab_people: true
-  desc: Prince Hamdan seated beside S Jaishankar in front of the flags
-  hamdan: 0.8
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: false
-  tags:
-  - flags
-  - minister
-  - seated
-  - talks
-  text_graphic: false
-clip:dmo-sseg-00:
-  arab_people: false
-  desc: The royal jet parked behind the red canopy at Delhi airport
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: false
-  tags:
-  - airplane
-  - airport
-  - canopy
-  - jet
-  text_graphic: false
-clip:dmo-sseg-01:
-  arab_people: false
-  desc: Flags of India and the Emirates on the nose of the royal jet
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: false
-  tags:
-  - airplane
-  - flags
-  - jet
-  - nose
-  text_graphic: false
-clip:dmo-sseg-02:
-  arab_people: true
-  desc: Prince Hamdan walks down the aircraft stairs in Delhi
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - aircraft
-  - airplane
-  - arrival
-  - stairs
-  text_graphic: false
-clip:dmo-sseg-05:
-  arab_people: true
-  desc: Prince Hamdan shakes hands with the welcoming officials at the plane
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - airplane
-  - handshake
-  - officials
-  - welcome
-  text_graphic: false
-clip:dmo-sseg-06:
-  arab_people: true
-  desc: Prince Hamdan walks across the tarmac
-  hamdan: 0.5
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - carpet
-  - red
-  - tarmac
-  - walk
-  text_graphic: false
-clip:dmo-sseg-08:
-  arab_people: true
-  desc: Prince Hamdan on the saluting stand under the red canopy, the jet behind
-  hamdan: 0.4
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: false
-  tags:
-  - canopy
-  - jet
-  - saluting
-  - stand
-  text_graphic: false
-clip:dmo-sseg-09:
-  arab_people: false
-  desc: The Indian Air Force guard of honour in rows by the red carpet
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - air
-  - carpet
-  - force
-  - guard
-  - honour
-  text_graphic: false
-clip:dmo-sseg-10:
-  arab_people: true
-  desc: Soldiers in front of the red canopy during the anthems
-  hamdan: 0.3
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - anthems
-  - canopy
-  - ceremony
-  - soldiers
-  text_graphic: false
-clip:dmo-sseg-12:
-  arab_people: false
-  desc: Flags of India and the Emirates above the guard of honour
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - flags
-  - guard
-  - honour
-  - trees
-  text_graphic: false
-clip:dmo-sseg-13:
-  arab_people: true
-  desc: Sailors in white facing the canopy
-  hamdan: 0.3
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - canopy
-  - sailors
-  - uniforms
-  - white
-  text_graphic: false
-clip:dmo-sseg-14:
-  arab_people: false
-  desc: The long line of the guard of honour beside the red carpet
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - carpet
-  - guard
-  - honour
-  - line
-  text_graphic: false
-clip:dmo-sseg-15:
-  arab_people: false
-  desc: Sailors and soldiers of the guard marching
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - march
-  - sailors
-  - soldiers
-  - uniforms
-  text_graphic: false
-clip:dmo-sseg-17:
-  arab_people: true
-  desc: Prince Hamdan walks across the tarmac with officials
-  hamdan: 0.7
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - officials
-  - tarmac
-  - walk
-  text_graphic: false
-clip:dmo-sseg-18:
-  arab_people: false
-  desc: Flags of India and the Emirates waving together
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - emirates
-  - flags
-  - india
-  - waving
-  text_graphic: false
-clip:dmo-dprt-00:
-  arab_people: true
-  desc: Narendra Modi hugs Prince Hamdan under the portico
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - hug
-  - modi
-  - portico
-  - welcome
-  text_graphic: false
-clip:dmo-dprt-01:
-  arab_people: true
-  desc: Prince Hamdan and Narendra Modi shake hands in front of the white screen
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - handshake
-  - minister
-  - modi
-  - prime
-  text_graphic: false
-clip:dmo-dprt-03:
-  arab_people: true
-  desc: Close shot of Prince Hamdan listening
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - face
-  - listening
-  - talks
-  text_graphic: false
-clip:dmo-dprt-05:
-  arab_people: false
-  desc: Narendra Modi talks with his hands, the silver horse beside him
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - horse
-  - modi
-  - talks
-  text_graphic: false
-clip:dmo-dprt-07:
-  arab_people: true
-  desc: Prince Hamdan seated, the silver horse on the side table
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - horse
-  - seated
-  - talks
-  text_graphic: false
-clip:dmo-dprt-10:
-  arab_people: true
-  desc: Prince Hamdan and Narendra Modi walk along the flags
-  hamdan: 0.9
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: false
-  tags:
-  - flags
-  - modi
-  - walk
-  text_graphic: false
-clip:dmo-dprt-11:
-  arab_people: false
-  desc: The Indian flag above the trees
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - flag
-  - india
-  - trees
-  text_graphic: false
-clip:dmo-la1w-00:
-  arab_people: false
-  desc: The Bombay Stock Exchange tower with a giant welcome screen for Prince Hamdan
-  hamdan: 0.1
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - building
-  - exchange
-  - screen
-  - stock
-  - tower
-  - welcome
-  text_graphic: false
-clip:dmo-la1w-01:
-  arab_people: true
-  desc: Prince Hamdan arrives on foot at the Bombay Stock Exchange
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - arrival
-  - exchange
-  - stock
-  - walk
-  text_graphic: false
-clip:dmo-la1w-02:
-  arab_people: true
-  desc: Prince Hamdan rings the opening bell of the Bombay Stock Exchange
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - bell
-  - clock
-  - exchange
-  - gong
-  - stock
-  text_graphic: false
-clip:dmo-la1w-17:
-  arab_people: false
-  desc: An old black-and-white photograph in the exchange
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - history
-  - old
-  - photo
-  text_graphic: false
-clip:dmo-la1w-19:
-  arab_people: false
-  desc: An old share certificate for two thousand five hundred rupees
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - certificate
-  - history
-  - rupees
-  - share
-  text_graphic: false
-clip:dmo-epmv-02:
-  arab_people: true
-  desc: Prince Hamdan and S Jaishankar walk along a colonnade
-  hamdan: 0.8
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - colonnade
-  - minister
-  - walk
-  text_graphic: false
-clip:dmo-epmv-03:
-  arab_people: true
-  desc: Prince Hamdan shakes hands with S Jaishankar in front of the flags
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: false
-  tags:
-  - flags
-  - foreign
-  - handshake
-  - minister
-  text_graphic: false
-clip:dmo-epmv-04:
-  arab_people: true
-  desc: The two delegations seated in a grand wooden hall
-  hamdan: 0.4
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - delegations
-  - hall
-  - talks
-  text_graphic: false
-clip:dmo-epmv-14:
-  arab_people: true
-  desc: S Jaishankar walks and talks with Prince Hamdan
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - foreign
-  - minister
-  - talk
-  - walk
-  text_graphic: false
-clip:dmo-epmv-15:
-  arab_people: false
-  desc: Hyderabad House, the grand government guest house in New Delhi
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - building
-  - delhi
-  - house
-  - lawn
-  text_graphic: false
-clip:dmo-epmv-16:
-  arab_people: false
-  desc: A row of flags of India and the Emirates
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: false
-  tags:
-  - emirates
-  - flags
-  - india
-  - row
-  text_graphic: false
-clip:dmo-s6id-24:
-  arab_people: false
-  desc: Indian business leaders in the audience
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - audience
-  - business
-  - leaders
-  text_graphic: false
-clip:dmo-s6id-25:
-  arab_people: true
-  desc: Emirati officials in the front row of the business meeting
-  hamdan: 0.3
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - audience
-  - business
-  - meeting
-  - officials
-  text_graphic: false
-clip:dmo-s6id-33:
-  arab_people: false
-  desc: A giant screen with ships on stage at the Dubai Chambers meeting
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - business
-  - screen
-  - ships
-  - stage
-  text_graphic: false
-clip:dmo-s6id-37:
-  arab_people: false
-  desc: A speaker at the Dubai Chambers podium
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - business
-  - chambers
-  - podium
-  - speaker
-  text_graphic: false
-clip:dmo-s6id-38:
-  arab_people: false
-  desc: Wide view of the Dubai Chambers business meeting hall
-  hamdan: 0.1
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - business
-  - hall
-  - meeting
-  - stage
-  text_graphic: false
-clip:dmo-s6id-40:
-  arab_people: true
-  desc: Big group photo of Prince Hamdan with the business leaders
-  hamdan: 0.3
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - business
-  - group
-  - leaders
-  - photo
-  text_graphic: false
-clip:dmo-62tu-12:
-  arab_people: true
-  desc: Prince Hamdan and his team meet Piyush Goyal and Indian officials
-  hamdan: 0.5
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - commerce
-  - meeting
-  - minister
-  - officials
-  text_graphic: false
-clip:inf-00:
-  arab_people: true
-  desc: Prince Hamdan walks down the aircraft stairs
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - aircraft
-  - airplane
-  - arrival
-  - stairs
-  text_graphic: false
-clip:inf-01:
-  arab_people: true
-  desc: Prince Hamdan shakes hands with an Indian Air Force officer at the plane
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - air
-  - airplane
-  - force
-  - handshake
-  - officer
-  text_graphic: false
-clip:inf-03:
-  arab_people: true
-  desc: Prince Hamdan is welcomed by Indian minister Suresh Gopi
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - handshake
-  - minister
-  - welcome
-  text_graphic: false
-clip:inf-10:
-  arab_people: true
-  desc: Prince Hamdan walks away along the red carpet
-  hamdan: 0.7
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - carpet
-  - red
-  - tarmac
-  - walk
-  text_graphic: false
-clip:inf-11:
-  arab_people: true
-  desc: Sailors of the guard of honour in front of the saluting stand
-  hamdan: 0.3
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - guard
-  - honour
-  - sailors
-  - stand
-  text_graphic: false
-clip:inf-12:
-  arab_people: true
-  desc: Prince Hamdan at the saluting stand, then stepping down
-  hamdan: 0.7
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - anthems
-  - canopy
-  - saluting
-  - stand
-  text_graphic: false
-clip:inf-13:
-  arab_people: true
-  desc: Prince Hamdan walks the red carpet between officers
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - carpet
-  - guard
-  - officers
-  - red
-  - walk
-  text_graphic: false
-clip:inf-14:
-  arab_people: true
-  desc: Prince Hamdan inspects the long guard line along the red carpet
-  hamdan: 0.6
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - carpet
-  - guard
-  - inspect
-  - line
-  text_graphic: false
-clip:inf-15:
-  arab_people: true
-  desc: Prince Hamdan greets the line of officials at the stairs
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - handshake
-  - line
-  - officials
-  - stairs
-  text_graphic: false
-clip:inf-25:
-  arab_people: false
-  desc: Close shot of the traditional drummers
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - drummers
-  - drums
-  - welcome
-  text_graphic: false
-sb-354876745:
-  arab_people: null
-  desc: Aerial night view of Mumbai's high-rise towers glowing with city lights
-  people: false
-  tags:
-  - city
-  - lights
-  - mumbai
-  - night
-  - skyline
-  - towers
-  text_graphic: false
-sb-348716618:
-  arab_people: null
-  desc: Aerial view of Mumbai at night with traffic and city lights
-  people: false
-  tags:
-  - city
-  - lights
-  - mumbai
-  - night
-  - traffic
-  text_graphic: false
-sb-352748614:
-  arab_people: null
-  desc: Aerial view of Safdarjung's Tomb among the trees of New Delhi
-  people: false
-  tags:
-  - aerial
-  - delhi
-  - history
-  - monument
-  - tomb
-  text_graphic: false
-sb-354566802:
-  arab_people: null
-  desc: Dubai Creek with abra boats and the old waterfront
-  people: false
-  tags:
-  - abra
-  - boats
-  - creek
-  - dubai
-  - water
-  text_graphic: false
-sb-354568469:
-  arab_people: null
-  desc: Abra boats on Dubai Creek at sunset
-  people: false
-  tags:
-  - abra
-  - boats
-  - creek
-  - dubai
-  - sunset
-  text_graphic: false
-sb-354565921:
-  arab_people: null
-  desc: Abra boats in front of the old quarter of Dubai
-  people: false
-  tags:
-  - abra
-  - boats
-  - creek
-  - dubai
-  - old
-  - quarter
-  text_graphic: false
-clip:dmo-erds-36:
-  arab_people: true
-  desc: Prince Hamdan with Suresh Gopi beside the welcome drummers
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - drummers
-  - minister
-  - smile
-  - welcome
-  text_graphic: false
-clip:dmo-erds-31:
-  arab_people: false
-  desc: Sailors and soldiers of the guard of honour
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-03 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - guard
-  - honour
-  - sailors
-  - soldiers
-  text_graphic: false
-sb-352743358:
-  arab_people: null
-  desc: Aerial view of the white Lotus Temple in New Delhi
-  people: false
-  tags:
-  - aerial
-  - delhi
-  - lotus
-  - monument
-  - temple
-  text_graphic: false
-sb-352743321:
-  arab_people: null
-  desc: Aerial view of the Qutub Minar tower in New Delhi
-  people: false
-  tags:
-  - aerial
-  - delhi
-  - history
-  - minar
-  - monument
-  - tower
-  text_graphic: false
-sb-353495850:
-  arab_people: null
-  desc: Boats waiting on the water off Mumbai at sunrise
-  people: false
-  tags:
-  - boats
-  - harbour
-  - mumbai
-  - sunrise
-  - water
-  text_graphic: false
-sb-10966388:
-  arab_people: null
-  desc: Indian rupee notes falling onto a pile
-  people: false
-  tags:
-  - cash
-  - money
-  - notes
-  - rupee
-  text_graphic: false
-sb-354876423:
-  arab_people: null
-  desc: Aerial view of the Mumbai skyline glittering at night
-  people: false
-  tags:
-  - city
-  - lights
-  - mumbai
-  - night
-  - skyline
-  text_graphic: false
-sb-354636279:
-  arab_people: null
-  desc: A social media app on a phone screen with like reactions and comments
-  people: false
-  tags:
-  - app
-  - comments
-  - likes
-  - media
-  - phone
-  - social
-  text_graphic: false
-sb-352731073:
-  arab_people: null
-  desc: A street cook frying snacks in a big pan, Indian street food
-  people: false
-  tags:
-  - cook
-  - food
-  - frying
-  - indian
-  - pan
-  - snacks
-  - street
-  text_graphic: false
-sb-567261:
-  arab_people: null
-  desc: A chai seller making tea at a street stall in Mumbai
-  people: false
-  tags:
-  - chai
-  - mumbai
-  - seller
-  - stall
-  - street
-  - tea
-  text_graphic: false
-sb-354811803:
-  arab_people: null
-  desc: Young cricket players bat and bowl in a green park
-  people: false
-  tags:
-  - cricket
-  - game
-  - india
-  - park
-  - players
-  text_graphic: false
-sb-10828523:
-  arab_people: null
-  desc: Aerial view of a container ship being loaded at a port
-  people: false
-  tags:
-  - cargo
-  - container
-  - cranes
-  - port
-  - ports
-  - ships
-  text_graphic: false
-sb-8219222:
-  arab_people: null
-  desc: Fans waving small Indian flags in the air
-  people: false
-  tags:
-  - celebration
-  - fans
-  - flags
-  - india
-  - indian
-  text_graphic: false
-sb-74562:
-  arab_people: null
-  desc: Crowds of people walking on a busy market street in Mumbai
-  people: true
-  tags:
-  - busy
-  - crowd
-  - market
-  - mumbai
-  - people
-  - street
-  - streets
-  text_graphic: false
-sb-348481046:
-  arab_people: null
-  desc: Diwali oil lamps glowing among marigold flowers, the festival of lights
-  people: false
-  tags:
-  - candles
-  - diwali
-  - festival
-  - indian
-  - lamps
-  - lights
-  text_graphic: false
-sb-352708709:
-  arab_people: null
-  desc: A red cricket ball rolling across a white surface
-  people: false
-  tags:
-  - ball
-  - cricket
-  text_graphic: false
-sb-353492055:
-  arab_people: null
-  desc: Spices poured into a steaming pot of Indian curry
-  people: false
-  tags:
-  - cooking
-  - curry
-  - food
-  - indian
-  - pot
-  - spices
-  text_graphic: false
-sb-352535688:
-  arab_people: null
-  desc: 'Indian dishes served on a restaurant table: curries, bread and chutneys'
-  people: false
-  tags:
-  - bread
-  - chai
-  - curries
-  - curry
-  - food
-  - indian
-  - restaurant
-  - table
-  text_graphic: false
-sb-346728802:
-  arab_people: null
-  desc: The Indian national flag waving in the wind, seen from below
-  people: false
-  tags:
-  - flag
-  - india
-  - indian
-  - wind
-  text_graphic: false
-sb-488209:
-  arab_people: null
-  desc: Stadium floodlights shining against a dark blue evening sky
-  people: false
-  tags:
-  - cricket
-  - floodlights
-  - lights
-  - night
-  - stadium
-  text_graphic: false
-sb-348498441:
-  arab_people: null
-  desc: A stadium light tower at night above the empty stands
-  people: false
-  tags:
-  - cricket
-  - lights
-  - night
-  - stadium
-  - stands
-  text_graphic: false
-sb-349321098:
-  arab_people: null
-  desc: A passenger plane taking off from a runway in the evening
-  people: false
-  tags:
-  - airplane
-  - flights
-  - plane
-  - runway
-  - takeoff
-  text_graphic: false
-sb-10257510:
-  arab_people: null
-  desc: Gold necklaces and bracelets in the window of a jewellery shop
-  people: false
-  tags:
-  - gold
-  - jewellery
-  - necklaces
-  - shop
-  - shops
-  text_graphic: false
-sb-766239:
-  arab_people: null
-  desc: Spinning film reels of an old cinema projector
-  people: false
-  tags:
-  - bollywood
-  - cinema
-  - film
-  - films
-  - movies
-  - reels
-  text_graphic: false
-sb-351663949:
-  arab_people: null
-  desc: Aerial view of a big container ship crossing the sea
-  people: false
-  tags:
-  - cargo
-  - container
-  - goods
-  - sea
-  - ship
-  - ships
-  - trade
-  text_graphic: false
-sb-353495571:
-  arab_people: null
-  desc: The Taj Mahal Palace hotel in Mumbai seen across the harbour with boats
-  people: false
-  tags:
-  - boats
-  - harbour
-  - hotel
-  - mumbai
-  - palace
-  - taj
-  text_graphic: false
-sb-121987:
-  arab_people: null
-  desc: India Gate war memorial and its empty canopy on the lawns of New Delhi
-  people: false
-  tags:
-  - delhi
-  - gate
-  - india
-  - landmark
-  - memorial
-  - monument
-  - war
-  text_graphic: false
-sb-353495689:
-  arab_people: null
-  desc: Marine Drive curving along the sea in Mumbai with traffic, the Queen's Necklace
-  people: false
-  tags:
-  - bay
-  - drive
-  - marine
-  - mumbai
-  - necklace
-  - road
-  - sea
-  - traffic
-  text_graphic: false
-sb-354160142:
-  arab_people: null
-  desc: The Victorian Gothic railway station of Mumbai, Chhatrapati Shivaji Terminus, with traffic
-  people: false
-  tags:
-  - building
-  - heritage
-  - mumbai
-  - railway
-  - station
-  - terminus
-  - traffic
-  text_graphic: false
-clip:dmo-uaxf-05:
-  arab_people: true
-  desc: Prince Hamdan seated at the long meeting table with India defence ministry
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - defence
-  - minister
-  - meeting
-  - table
-  - talks
-  - delegation
-  - office
-  text_graphic: false
-clip:in-bse-banner:
-  arab_people: true
-  desc: Prince Hamdan at the Bombay Stock Exchange with the BSE bull statue
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - stock
-  - exchange
-  - bse
-  - bull
-  - mumbai
-  - visit
-  - market
-  text_graphic: false
-clip:in-team-shah:
-  arab_people: true
-  desc: Prince Hamdan with ICC chairman Jay Shah on hotel stairs
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - jay
-  - shah
-  - chairman
-  - icc
-  - cricket
-  - meeting
-  - stairs
-  text_graphic: false
-clip:in-team-talk:
-  arab_people: false
-  desc: Team India cricketers Hardik Pandya and Suryakumar Yadav on a sofa
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - cricket
-  - stars
-  - players
-  - team
-  - india
-  - sofa
-  - talk
-  text_graphic: false
-clip:dmo-la1w-c1:
-  arab_people: true
-  desc: Prince Hamdan looks at the wall of old clocks as a BSE official points
-  hamdan: 0.8
-  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - clocks
-  - exchange
-  - history
-  - official
-  - wall
-  text_graphic: false
-clip:dmo-la1w-c2:
-  arab_people: true
-  desc: Close shot of Prince Hamdan smiling inside the stock exchange
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - exchange
-  - face
-  - smile
-  text_graphic: false
-clip:dmo-la1w-c3:
-  arab_people: true
-  desc: Prince Hamdan walks past easels of historic photographs at the BSE
-  hamdan: 0.8
-  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - easels
-  - exchange
-  - history
-  - photographs
-  - walk
-  text_graphic: false
-clip:dmo-s6id-c1:
-  arab_people: true
-  desc: Prince Hamdan seated in the front row beside Piyush Goyal at the Dubai Chambers forum
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - business
-  - forum
-  - goyal
-  - minister
-  - row
-  - seated
-  text_graphic: false
-clip:dmo-s6id-c2:
-  arab_people: false
-  desc: Business leaders in the audience of the forum, Prince Hamdan far away in the front row
-  hamdan: 0.2
-  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - audience
-  - business
-  - forum
-  - leaders
-  - room
-  - row
-  text_graphic: false
-clip:dmo-s6id-c3:
-  arab_people: true
-  desc: Prince Hamdan seated next to DP World chairman Sultan bin Sulayem
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - business
-  - forum
-  - row
-  - seated
-  text_graphic: false
-clip:dmo-62tu-c1:
-  arab_people: true
-  desc: Close shot of Prince Hamdan talking with his hand raised in a meeting room
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - face
-  - hand
-  - meeting
-  - talks
-  text_graphic: false
-clip:dmo-62tu-c2:
-  arab_people: true
-  desc: The Dubai and Indian teams seated facing each other in a meeting room
-  hamdan: 0.3
-  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - delegation
-  - meeting
-  - talks
-  - teams
-  text_graphic: false
-clip:dmo-5r9t-c1:
-  arab_people: true
-  desc: Prince Hamdan shakes hands one by one with the embassy staff, women in abayas
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - embassy
-  - handshake
-  - member
-  - staff
-  - team
-  - women
-  text_graphic: false
-clip:dmo-epmv-c1:
-  arab_people: true
-  desc: Prince Hamdan and S Jaishankar seated side by side in a wood panelled hall
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - hall
-  - jaishankar
-  - minister
-  - seated
-  - talks
-  - wooden
-  text_graphic: false
-clip:dmo-epmv-c2:
-  arab_people: false
-  desc: The Dubai delegation seated along one side of the hall
-  hamdan: 0.0
-  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - delegation
-  - hall
-  - officials
-  - side
-  - team
-  text_graphic: false
-clip:dmo-epmv-c3:
-  arab_people: false
-  desc: Wide view of the hall, Dubai team on one side and Indian officials on the other
-  hamdan: 0.2
-  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - delegation
-  - hall
-  - officials
-  - room
-  - side
-  - team
-  text_graphic: false
-clip:dmo-dprt-c1:
-  arab_people: true
-  desc: Narendra Modi gestures with his hands as Prince Hamdan listens, silver horse on the table
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - hands
-  - horse
-  - modi
-  - table
-  - talks
-  text_graphic: false
-clip:ihkr-c1:
-  arab_people: true
-  desc: Narendra Modi points along a corridor as Prince Hamdan looks
-  hamdan: 0.8
-  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - corridor
-  - modi
-  - pointing
-  text_graphic: false
-clip:ihkr-c2:
-  arab_people: true
-  desc: Narendra Modi shows Prince Hamdan a tall peacock sculpture
-  hamdan: 0.8
-  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - bird
-  - modi
-  - peacock
-  - sculpture
-  text_graphic: false
-clip:ihkr-c3:
-  arab_people: true
-  desc: Narendra Modi and Prince Hamdan stand together in a sitting room with an aide
-  hamdan: 0.8
-  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - aide
-  - modi
-  - room
-  - sitting
-  text_graphic: false
-clip:dmo-uaxf-c1:
-  arab_people: true
-  desc: Prince Hamdan seated at the long defence meeting table
-  hamdan: 1.0
-  hamdan_note: set by Rocky 2026-11-19 after looking at the frames (India visit footage)
-  people: true
-  tags:
-  - defence
-  - meeting
-  - minister
-  - table
-  - talks
   text_graphic: false

@@ -4356,7 +4356,7 @@
  "hamdan bin mohammed attends hct graduation": {
   "last_short": "2026-11-25",
   "long": "2026-10-31",
-  "montage_used": 43,
+  "montage_used": 44,
   "remix_ranges": [
    [
     219.49568300016466,
@@ -4373,6 +4373,10 @@
    [
     162.6236104363409,
     164.3820811722905
+   ],
+   [
+    251.94387167357422,
+    254.4473352869125
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8841,7 +8845,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     50.73435098048448,
@@ -8858,6 +8862,10 @@
    [
     14.346148444024012,
     16.11345640445277
+   ],
+   [
+    77.71200449068779,
+    79.5536456124042
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9291,7 +9299,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-17",
   "montage_exhausted": true,
-  "montage_used": 40,
+  "montage_used": 41,
   "remix_ranges": [
    [
     202.24325973382153,
@@ -9312,6 +9320,10 @@
    [
     331.3286806797204,
     333.5507244155279
+   ],
+   [
+    95.6935296453826,
+    97.9258515774242
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9428,10 +9440,10 @@
   "video_len": 154
  },
  "hamdan bin mohammed meets with astronaut sultan al neyadi and zayed ambition 2 team": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     86.95333333333333,
@@ -9444,6 +9456,10 @@
    [
     46.0805256400438,
     48.56463278410567
+   ],
+   [
+    64.21210362636154,
+    65.81280475797466
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10289,7 +10305,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-17",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     56.360072324467,
@@ -10306,6 +10322,10 @@
    [
     30.801428943399692,
     32.230647776928365
+   ],
+   [
+    17.686151128535204,
+    19.538920929176353
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10824,6 +10844,7 @@
   "long": "2026-10-25",
   "montage_exhausted": true,
   "montage_used": 9,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     83.58291392845342,
@@ -11791,6 +11812,7 @@
   "montage_exhausted": true,
   "montage_used": 7,
   "no_video_until": "2026-11-02",
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     2.4225680931886022,
@@ -12428,7 +12450,7 @@
  "hamdan bin mohammed reviews dubai future foundation s 2018 plan and projects": {
   "last_short": "2026-11-25",
   "long": "2026-10-30",
-  "montage_used": 24,
+  "montage_used": 25,
   "remix_ranges": [
    [
     40.994186600963694,
@@ -12449,6 +12471,10 @@
    [
     121.76571225294121,
     124.29578390952733
+   ],
+   [
+    50.46012145380238,
+    52.982064639244214
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13833,7 +13859,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "photo_short": true,
   "remix_ranges": [
    [
@@ -13851,6 +13877,10 @@
    [
     16.95869350150254,
     18.379395293221233
+   ],
+   [
+    36.82,
+    38.88
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14599,7 +14629,7 @@
   "last_short": "2026-11-25",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 28,
+  "montage_used": 29,
   "remix_ranges": [
    [
     152.68800146802988,
@@ -14624,6 +14654,10 @@
    [
     181.56,
     183.64
+   ],
+   [
+    129.3570751924039,
+    131.0842344076115
    ]
   ],
   "remix_reset": "2026-11-20",

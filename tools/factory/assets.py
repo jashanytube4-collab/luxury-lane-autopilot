@@ -65,7 +65,8 @@ def wikimedia(query: str, n: int = 6, min_w: int = 1400) -> list:
         if not lic or BAD_LIC.search(lic) or not OK_LIC.search(lic):
             continue
         who = _strip((md.get("Artist") or {}).get("value"))[:80] or "Wikimedia Commons"
-        out.append(dict(title=p["title"], ow=ii.get("width", 0), url=ii["thumburl"], credit=f"{p['title'][5:]} - {who} - {lic} - Wikimedia Commons", source="wikimedia",
+        desc = _strip((md.get("ImageDescription") or {}).get("value"))[:400]
+        out.append(dict(title=p["title"], desc=desc, ow=ii.get("width", 0), url=ii["thumburl"], credit=f"{p['title'][5:]} - {who} - {lic} - Wikimedia Commons", source="wikimedia",
                         w=ii.get("thumbwidth"), h=ii.get("thumbheight"), id="wm" + str(p.get("pageid"))))
         if len(out) >= n:
             break
@@ -132,13 +133,32 @@ def _photo_bad(x):
     return bool(BAD_PHOTO.search(t) or _PH_YEAR.search(t))
 
 
+ERA = [None, None]       # (lo, hi) years the current pack is about; set by core.build
+PACK_TEXT = [""]         # whole pack text (lower case): places/names the script itself mentions
+BAD_PLACES = "honolulu london paris berlin moscow tokyo rome new york washington chicago los angeles san francisco sydney manila shanghai istanbul vienna".split()
+
+
 def photo_relevant(query: str, item: dict) -> bool:
-    """Photo title must share a real keyword (prefix-matched) with the query; stops random modern pictures sneaking in as fallback."""
+    """Photo caption (title + Wikimedia description) must contain a real query word, carry no year outside the pack's era,
+    not be a map unless a map was asked for, and not name a city the script never mentions."""
     words = [w.lower() for w in re.findall(r"[A-Za-z']{4,}", query) if w.lower() not in STOP and w.lower() not in GENERIC][:4]
     t = _title(item.get("credit", "")).lower()
+    full = (t + " " + (item.get("desc") or "")).lower()
     cr = item.get("credit", "")
     pd_ = bool(re.search(r"public domain|cc0|no known", cr, re.I)) or bool(re.search(r"(?<!\d)(1[0-8]\d\d|19[0-4]\d)(?!\d)", t))
-    return pd_ and (not words or any(w[:5] in t for w in words))      # period picture (PD / dated before 1950) that names the subject
+    if not pd_ or (words and not any(w[:5] in full for w in words)):
+        return False
+    if re.search(r"maps?|chart of|plan of", full) and not re.search(r"maps?", query, re.I):
+        return False
+    lo, hi = ERA
+    if lo:
+        ys = [int(y) for y in re.findall(r"(?<!\d)(1[0-9]\d\d|20[0-2]\d)(?!\d)", full)]
+        if ys and not any(lo - 8 <= y <= hi + 8 for y in ys):
+            return False
+    for pl in BAD_PLACES:
+        if pl in full and pl not in query.lower() and pl not in PACK_TEXT[0]:
+            return False
+    return True
 
 
 def search_images(query: str, n: int = 6, sources=("wikipedia", "wikimedia")) -> list:
@@ -404,6 +424,13 @@ def stock_video(query: str, n: int = 4) -> list:
 
 def search_clips(query: str, n: int = 4, sources=("wikimedia_video", "archive", "nasa_video", "stock"), ctx: str = "") -> list:
     """Cached list of cuttable moving-video sources for a query (cheapest relevance first)."""
+    if query.startswith("ia:"):                          # pinned archive.org item picked by hand in the script's broll list (US gov / Prelinger only)
+        ident = query[3:].strip()
+        f = _ia_files(ident)
+        if f and {str(c).lower() for c in f.get("coll", [])} & {"usgovfilms", "prelinger", "nasa"}:
+            return [dict(id="ia_" + ident, ref=ident, url=f"https://archive.org/download/{ident}/{f['name']}", length=f["length"],
+                         credit=f"{f['title']} - Internet Archive ({ident}) - Public Domain / US government", source="archive")]
+        return []
     fns = {"archive": archive_video, "wikimedia_video": wikimedia_video, "nasa_video": nasa_video, "stock": stock_video}
     key = hashlib.md5((query + "|" + ",".join(sources)).encode()).hexdigest()[:12]
 

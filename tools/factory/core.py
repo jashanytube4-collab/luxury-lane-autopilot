@@ -124,7 +124,7 @@ def _wrap(d, text, font, maxw):
 # no clip/window reused inside one video, transitions by mood (cut / dip / sparing light flash), SFX events returned for the mixer.
 TENSE = re.compile(r"\b(war|death|dead|killed|kill|massacre|betray\w*|murder\w*|fire|burn\w*|blood\w*|siege|attack\w*|collaps\w*|fell|crash\w*|execut\w*|doomed|never|disaster|explo\w*)\b", re.I)
 REVEAL = re.compile(r"\b(then|until|suddenly|but|truth|secret|discovered|finally|revealed|instead|except)\b", re.I)
-CARD_MAX, CLIP_MAX, CHUNK = 3.2, 5.8, 4.2
+CARD_MAX, CLIP_MAX, CHUNK = 2.6, 5.8, 4.2
 IA_UA = "VideoFactory/1.0 (documentary tool; honest client)"
 
 
@@ -151,6 +151,16 @@ def _dupe(path):
     return False
 
 
+def _flat_img(path):
+    """True when a photo is mostly empty (blank sky/fog): low contrast or almost no edges after downscale."""
+    try:
+        import cv2
+        g = cv2.GaussianBlur(cv2.cvtColor(cv2.resize(cv2.imread(str(path)), (640, 360)), cv2.COLOR_BGR2GRAY), (5, 5), 0)
+        return float(g.std()) < 30 or float((cv2.Canny(g, 40, 120) > 0).mean()) < 0.02
+    except Exception:  # noqa: BLE001
+        return False
+
+
 def photo_pool(q, n, used: set):
     """n distinct photos for query q, trying shorter queries if the search is thin."""
     words = q.split()
@@ -160,7 +170,7 @@ def photo_pool(q, n, used: set):
         for it in assets.search_images(t, 8):
             tt = assets._title(it.get("credit", ""))
             if it["id"] not in used and tt not in used and it["id"] not in [g["id"] for g in got]:
-                if not assets.photo_relevant(q, it) or _dupe(it["path"]):
+                if not assets.photo_relevant(q, it) or _flat_img(it["path"]) or _dupe(it["path"]):
                     continue
                 got.append(it)
         if len(got) >= n:
@@ -303,21 +313,24 @@ def frame_ok(path):
         det = _face_det()
     except Exception:  # noqa: BLE001
         return True
-    if not det:
-        return True
     cap = cv2.VideoCapture(str(path))
     n = int(cap.get(cv2.CAP_PROP_FRAME_COUNT) or 0)
-    big = 0
+    big = flat = 0
     for k in range(4):
         cap.set(cv2.CAP_PROP_POS_FRAMES, int(n * (k + 0.5) / 4))
         ok, fr = cap.read()
         if not ok:
             continue
-        _, fs = det.detect(cv2.resize(fr, (640, 360)))
-        if fs is not None and any(f[3] > 360 * 0.15 for f in fs):
-            big += 1
+        sm = cv2.resize(fr, (640, 360))
+        g = cv2.GaussianBlur(cv2.cvtColor(sm, cv2.COLOR_BGR2GRAY), (5, 5), 0)
+        if float(g.std()) < 26 or float((cv2.Canny(g, 40, 120) > 0).mean()) < 0.012:      # blank sky / leader / fog: nothing to look at
+            flat += 1
+        if det:
+            _, fs = det.detect(sm)
+            if fs is not None and any(f[3] > 360 * 0.15 for f in fs):
+                big += 1
     cap.release()
-    return big < 2
+    return big < 2 and flat < 2
 
 
 class Picker:
@@ -329,9 +342,10 @@ class Picker:
         self.credits = []
         self.avoid = re.compile("|".join(prof.get("avoid", [])) or r"(?!x)x", re.I)
         self.n = 0
+        self.reuse = False
 
     def _windows(self, src, length, d):
-        used = self.win.get(src["id"], [])
+        used = [] if self.reuse else self.win.get(src["id"], [])
         rng = random.Random(src["id"])
         lo, hi = (0.0, max(length - d, 0)) if length < 60 else (length * 0.06, max(length * 0.94 - d, length * 0.06))
         cand = [lo + (hi - lo) * i / 11 for i in range(12)]
@@ -344,7 +358,7 @@ class Picker:
             if not q or q in seen:
                 continue
             seen.add(q)
-            srcs = [s for s in assets.search_clips(q, 4, ctx="*" if loose else " ".join(queries)) if len(self.win.get(s["id"], [])) < 3 and not self.avoid.search(s["credit"])]
+            srcs = [s for s in assets.search_clips(q, 4, ctx="*" if loose else " ".join(queries)) if len(self.win.get(s["id"], [])) < (8 if self.reuse else 3) and not self.avoid.search(s["credit"])]
             srcs.sort(key=lambda s: len(self.win.get(s["id"], [])))     # unused sources first = more variety
             for s in srcs[:6]:
                 loc = assets.localize(s)
@@ -420,10 +434,9 @@ def plan_shots(beats, timing, prof, work: Path, broll=()):
                 try:
                     graphics.render(v["g"], prof, sd, sp); kind = "graphic"
                 except Exception as e:  # noqa: BLE001
-                    print("graphic failed, card instead:", str(e)[-150:])
-                    png = sp.with_suffix(".png")
-                    card_image(dict(t="card", text=v["g"].get("label") or v["g"].get("headline") or "THE ROUTE"), prof, png, bi + si); still(png, sd, sp, prof, trans); kind = "card"
-            elif isc(v):
+                    print("graphic failed, document instead:", str(e)[-150:])
+                    graphics.render(dict(type="document", masthead=prof.get("name", "THE CHRONICLE"), headline=str(v["g"].get("label") or v["g"].get("headline") or v["g"].get("title") or "THE RECORD").upper()), prof, sd, sp); kind = "graphic"
+            elif isc(v) and not (v["t"] != "graphic" and prev == "card"):
                 png = sp.with_suffix(".png")
                 card_image(v, prof, png, bi + si); still(png, sd, sp, prof, trans)
                 kind = "card"
@@ -458,9 +471,16 @@ def plan_shots(beats, timing, prof, work: Path, broll=()):
                         used_photos.update((pool[0]["id"], assets._title(pool[0].get("credit", "")))); credits.append(pool[0]["credit"])
                         sp = sp.with_name(sp.stem + "_p.mp4")
                         kenburns(pool[0]["path"], sd, sp, prof, bi + si, trans); kind = "photo"
-                if kind is None:                                            # last resort: styled keyword card, never a repeat
-                    png = sp.with_suffix(".png")
-                    card_image(dict(t="card", text=_keyword(b["text"])), prof, png, bi + si); still(png, sd, sp, prof, trans); kind = "card"
+                if kind is None:                                            # era-safe broll clip again (different window), never a text card
+                    pk.reuse = True
+                    try:
+                        if pk.clip(pk.broll, sd, sp, trans, loose=True):
+                            kind = "clip"
+                    finally:
+                        pk.reuse = False
+                if kind is None:                                            # channel-style graphic shot (document page, no invented facts)
+                    graphics.render(dict(type="document", masthead=prof.get("name", "THE CHRONICLE"), headline=_keyword(b["text"]),
+                                         highlight=_keyword(b["text"]).split()[0]), prof, sd, sp); kind = "graphic"
             if kind == "photo":
                 since_photo, photo_t = 0, photo_t + sd
             else:
@@ -512,6 +532,16 @@ def synth_sfx(events, total, path: Path, sr=48000):
         return 0.8 * y.astype(np.float32) / (np.abs(y).max() + 1e-6)
 
     bank = {"whoosh": whoosh(), "impact": impact()}
+    try:
+        from . import tech
+        bank.update(tech.sfx_bank(sr))
+    except Exception:  # noqa: BLE001
+        pass
+    try:
+        from . import charts
+        bank.update(charts.sfx_bank(sr))
+    except Exception:  # noqa: BLE001
+        pass
     for tm, kind in events:
         s = bank[kind]; i = int(max(tm, 0) * sr)
         out[i:i + len(s)] += s[:len(out) - i]
@@ -532,16 +562,6 @@ def ass_from_words(all_words, path: Path, prof):
             f"Style: Default,Montserrat ExtraBold,72,{'&H00B0E035,&H00FFFFFF' if prof.get('engine') == 'tech' else '&H00FFFFFF,&H00FFFFFF' if prof.get('engine') == 'charts' else '&H00FFFFFF,&H00' + bgr},&H00101010,&H80000000,1,0,0,0,100,100,0,0,1,5,1,2,120,120,70,1\n"
             "[Events]\nFormat: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text\n")
     lines = []
-    try:
-        from . import tech
-        bank.update(tech.sfx_bank(sr))
-    except Exception:  # noqa: BLE001
-        pass
-    try:
-        from . import charts
-        bank.update(charts.sfx_bank(sr))
-    except Exception:  # noqa: BLE001
-        pass
     for beat in all_words:                      # all_words = list of per-beat word lists: never group across beats
         grp = []
         for w in beat:
@@ -551,9 +571,14 @@ def ass_from_words(all_words, path: Path, prof):
         if grp:
             lines.append(grp)
     ev = []
-    for g in lines:
+    for gi, g in enumerate(lines):
         s, e = g[0][1], g[-1][2] + 0.05
+        if gi + 1 < len(lines):
+            e = min(e, lines[gi + 1][0][1] - 0.01)
         txt = " ".join(x[0] for x in g).upper()
+        if prof.get("engine") == "tech":                       # kinetic: pop-in, words light up as spoken
+            txt = "{\\fad(70,50)\\fscx88\\fscy88\\t(0,140,\\fscx100\\fscy100)}" + " ".join(
+                "{\\k%d}%s" % (max(int(round((x[2] - x[1]) * 100)), 8), x[0].upper()) for x in g)
         ev.append(f"Dialogue: 0,{t(s)},{t(e)},Default,,0,0,0,,{txt}")
     path.write_text(head + "\n".join(ev), encoding="utf-8")
 
@@ -571,6 +596,10 @@ def build(pack_path, preview=0):
     work = ROOT / "factory" / "out" / pack["channel"] / pack["slug"]
     (work / "tts").mkdir(parents=True, exist_ok=True)
     beats = pack["beats"][:preview] if preview else pack["beats"]
+    blob = json.dumps(pack, ensure_ascii=False)
+    ys = [int(y) for y in re.findall(r"(?<!\d)(1[0-9]\d\d|20[0-2]\d)(?!\d)", blob)]
+    assets.ERA[:] = [min(ys), max(ys)] if ys else [None, None]
+    assets.PACK_TEXT[0] = blob.lower()
     # 1 voice
     wavs, timing, allw, t0 = [], [], [], 0.0
     gap = work / "tts" / "gap.wav"

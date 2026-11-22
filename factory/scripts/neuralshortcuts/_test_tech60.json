@@ -1,0 +1,233 @@
+{
+ "channel": "neuralshortcuts",
+ "slug": "_test_tech60",
+ "title": "The 4-Part Prompt That Ends Vague AI Answers",
+ "description": "Role, context, task, format.",
+ "tags": [
+  "ai",
+  "prompts"
+ ],
+ "thumb": {
+  "text": "4 PARTS"
+ },
+ "beats": [
+  {
+   "text": "Most people talk to AI like they are texting a friend. Then they wonder why the answer is so vague.",
+   "scene": {
+    "kind": "chat",
+    "title": "Assistant",
+    "msgs": [
+     {
+      "role": "user",
+      "text": "write something about our launch"
+     },
+     {
+      "role": "ai",
+      "text": "Sure! Here is a *generic* paragraph about product launches in general..."
+     }
+    ]
+   }
+  },
+  {
+   "text": "There is a simple fix. Four parts, in this order. Role, context, task, and format.",
+   "scene": [
+    {
+     "kind": "text",
+     "text": "One prompt. *Four* parts.",
+     "w": 0.8
+    },
+    {
+     "kind": "flow",
+     "title": "The four-part prompt",
+     "nodes": [
+      {
+       "label": "Role",
+       "sub": "who answers"
+      },
+      {
+       "label": "Context",
+       "sub": "what it needs"
+      },
+      {
+       "label": "Task",
+       "sub": "one clear job"
+      },
+      {
+       "label": "Format",
+       "sub": "what you get"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Part one is the role. Tell the model who to be. An editor answers very differently than a salesperson.",
+   "scene": {
+    "kind": "code",
+    "lang": "prompt",
+    "title": "prompt.txt",
+    "lines": [
+     "Role: You are a senior editor at a tech magazine.",
+     "",
+     "You value short sentences, plain words,",
+     "and claims you can check."
+    ],
+    "hl": [
+     1
+    ]
+   }
+  },
+  {
+   "text": "Part two is context. Give it the facts it cannot guess. Who will read this, and what do they already know?",
+   "scene": {
+    "kind": "code",
+    "lang": "prompt",
+    "title": "prompt.txt",
+    "lines": [
+     "Role: You are a senior editor at a tech magazine.",
+     "Context: The reader is a [busy manager].",
+     "They know the product, not the new feature.",
+     "The launch email goes out on Friday."
+    ],
+    "hl": [
+     3,
+     4
+    ]
+   }
+  },
+  {
+   "text": "Part three is the task. One clear verb, one clear job. Summarise, compare, or rewrite. Not all three at once.",
+   "scene": {
+    "kind": "bullets",
+    "title": "One verb per prompt",
+    "items": [
+     "*Summarise* the meeting notes",
+     "*Compare* two options side by side",
+     "*Rewrite* it for a new reader"
+    ]
+   }
+  },
+  {
+   "text": "Part four is the format. Say exactly what you want back. A table, five bullets, or a short email.",
+   "scene": {
+    "kind": "code",
+    "lang": "json",
+    "title": "format.json",
+    "lines": [
+     "{",
+     "  \"output\": \"short email\",",
+     "  \"length\": \"under 120 words\",",
+     "  \"tone\": \"friendly\",",
+     "  \"end_with\": \"one clear next step\"",
+     "}"
+    ]
+   }
+  },
+  {
+   "text": "Put it together, and the same request becomes a complete brief. Now look at the reply.",
+   "scene": {
+    "kind": "chat",
+    "title": "Assistant",
+    "msgs": [
+     {
+      "role": "user",
+      "text": "Role: senior editor. Context: busy manager. Task: *rewrite* these notes. Format: email, under 120 words."
+     },
+     {
+      "role": "ai",
+      "text": "Subject: What changes on Friday. Hi team, three things to know before the launch..."
+     }
+    ]
+   }
+  },
+  {
+   "text": "The difference shows up in the rewrites. A one-line prompt often needs several rounds. A full brief usually needs fewer.",
+   "scene": {
+    "kind": "compare",
+    "title": "Same task, two prompts",
+    "left": {
+     "label": "ONE-LINE PROMPT",
+     "value": 3,
+     "unit": "rewrites (example)",
+     "items": [
+      "Vague first answer",
+      "Wrong tone",
+      "Missing the point"
+     ]
+    },
+    "right": {
+     "label": "FOUR-PART PROMPT",
+     "value": 1,
+     "unit": "rewrite (example)",
+     "items": [
+      "Right reader",
+      "Right length",
+      "Ready to send"
+     ]
+    }
+   }
+  },
+  {
+   "text": "This is also why longer prompts win. Not because length matters, but because every part removes one guess.",
+   "scene": {
+    "kind": "bars",
+    "title": "Words in the prompt (example)",
+    "unit": "words",
+    "best": "high",
+    "bars": [
+     {
+      "label": "Texting style",
+      "value": 8
+     },
+     {
+      "label": "Role added",
+      "value": 22
+     },
+     {
+      "label": "Role + context",
+      "value": 41
+     },
+     {
+      "label": "Full four parts",
+      "value": 64
+     }
+    ],
+    "note": "Illustrative example, not a measurement"
+   }
+  },
+  {
+   "text": "Two habits make it even stronger. Ask the model to check its answer against your facts. And always read it before you send.",
+   "scene": {
+    "kind": "bullets",
+    "title": "Two habits",
+    "check": true,
+    "items": [
+     "*Check* the answer against your facts",
+     "*Read* it yourself before you send"
+    ]
+   }
+  },
+  {
+   "text": "So here is the checklist to save: role, context, task, and format.",
+   "scene": {
+    "kind": "bullets",
+    "title": "The four-part checklist",
+    "check": true,
+    "items": [
+     "*Role*: who should answer",
+     "*Context*: what it cannot guess",
+     "*Task*: one clear verb",
+     "*Format*: exactly what you want back"
+    ]
+   }
+  },
+  {
+   "text": "Try it on your next email, and see how many guesses disappear.",
+   "scene": {
+    "kind": "stat",
+    "new": "4 parts",
+    "caption": "fewer guesses, *better* answers"
+   }
+  }
+ ]
+}

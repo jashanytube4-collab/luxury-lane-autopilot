@@ -37,6 +37,12 @@ def candidates(yt: str, clips: dict) -> list[tuple[float, float, float, float]]:
     if not src.exists():
         print(f"{yt}: no local source {src}")
         return []
+    import subprocess
+    wh = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height",
+                         "-of", "csv=p=0", str(src)], capture_output=True, text=True).stdout.strip().split(",")
+    if len(wh) >= 2 and wh[0].isdigit() and int(wh[0]) / max(1, int(wh[1])) < 1.7:
+        print(f"{yt}: {wh[0]}x{wh[1]} is not 16:9 (the first 30 s and most slots need 16:9), skipped")
+        return []
     fid = FaceID()
     tl = fid.scan(src, every=0.5)
     taken = used_ranges(clips, yt)

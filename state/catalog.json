@@ -1697,7 +1697,7 @@
  "hamdan approves medical tourism strategy": {
   "last_short": "2026-11-24",
   "long": "2026-10-30",
-  "montage_used": 28,
+  "montage_used": 29,
   "remix_ranges": [
    [
     37.810954235443916,
@@ -1734,6 +1734,10 @@
    [
     29.4144080649139,
     31.16302434162765
+   ],
+   [
+    68.08666666666667,
+    69.74666666666666
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1830,7 +1834,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 31,
+  "montage_used": 32,
   "no_video_until": "2026-11-03",
   "remix_ranges": [
    [
@@ -1868,6 +1872,10 @@
    [
     31.45890705635603,
     33.065631843622235
+   ],
+   [
+    119.26905427996284,
+    121.2971895618701
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5970,10 +5978,10 @@
   "video_len": 58
  },
  "hamdan bin mohammed concludes official visit to kuwait": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     90.8459171690852,
@@ -5990,6 +5998,10 @@
    [
     79.92872290213194,
     81.37021294182746
+   ],
+   [
+    109.70707034360652,
+    112.07100166705311
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -7701,6 +7713,7 @@
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
   "last_short": "2026-11-24",
   "montage_used": 41,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     86.51501862110607,
@@ -8895,7 +8908,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 23,
+  "montage_used": 24,
   "remix_ranges": [
    [
     46.8,
@@ -8912,6 +8925,10 @@
    [
     97.2,
     99.44
+   ],
+   [
+    125.33577045635825,
+    127.01501393313443
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10740,7 +10757,7 @@
   "last_short": "2026-11-24",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 36,
+  "montage_used": 37,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -10758,6 +10775,10 @@
    [
     130.77779263674944,
     132.6501083082561
+   ],
+   [
+    103.07656914885516,
+    104.53736772849444
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12072,14 +12093,18 @@
   "video_len": 70
  },
  "hamdan bin mohammed receives winners of hackathon competition": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     51.559999999999995,
     53.64
+   ],
+   [
+    128.84712398702905,
+    130.7379817221186
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12903,6 +12928,7 @@
   "last_short": "2026-11-24",
   "montage_exhausted": true,
   "montage_used": 8,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     9.751827196072886,
@@ -13542,6 +13568,7 @@
   "long": "2026-10-20",
   "montage_exhausted": true,
   "montage_used": 4,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     16.153333333333336,
@@ -14297,7 +14324,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 26,
+  "montage_used": 27,
   "remix_ranges": [
    [
     184.4,
@@ -14326,6 +14353,10 @@
    [
     5.963287713659245,
     7.417027540916429
+   ],
+   [
+    81.84855309299482,
+    84.37558669613595
    ]
   ],
   "remix_reset": "2026-11-20",

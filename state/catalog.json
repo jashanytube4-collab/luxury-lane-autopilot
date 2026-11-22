@@ -2499,7 +2499,7 @@
  "hamdan bin mohammed approves dff s three year strategic plan": {
   "last_short": "2026-11-25",
   "montage_exhausted": true,
-  "montage_used": 31,
+  "montage_used": 32,
   "remix_ranges": [
    [
     132.68279953235296,
@@ -2540,6 +2540,10 @@
    [
     191.88382302235553,
     193.91640913099732
+   ],
+   [
+    197.68645632630768,
+    199.24965490669877
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3971,7 +3975,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 35,
+  "montage_used": 36,
   "remix_ranges": [
    [
     48.36,
@@ -4028,6 +4032,10 @@
    [
     20.76,
     22.599999999999998
+   ],
+   [
+    198.05076691467048,
+    199.93397481587778
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9794,7 +9802,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     1.929348642583168,
@@ -9811,6 +9819,10 @@
    [
     61.04836923419392,
     62.61397542389631
+   ],
+   [
+    20.04618001710475,
+    22.525620914547176
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10824,7 +10836,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     73.66873288634743,
@@ -10849,6 +10861,10 @@
    [
     17.118711591925894,
     19.190494412109313
+   ],
+   [
+    54.879999999999995,
+    57.04
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11049,7 +11065,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     63.93917455125275,
@@ -11070,6 +11086,10 @@
    [
     52.89186224604383,
     55.09451044155449
+   ],
+   [
+    34.359647713988565,
+    35.88365133733572
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11238,7 +11258,7 @@
   "last_short": "2026-11-25",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 40,
+  "montage_used": 41,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -11272,6 +11292,10 @@
    [
     139.56,
     141.4
+   ],
+   [
+    119.8517323293208,
+    121.48666065682053
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13037,7 +13061,7 @@
  "hamdan bin mohammed reviews outcomes of farmers souq initiative": {
   "last_short": "2026-11-25",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     25.287802896479974,
@@ -13058,6 +13082,10 @@
    [
     47.38666666666666,
     49.080000000000005
+   ],
+   [
+    21.10768292715629,
+    22.832903597268604
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14721,6 +14749,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 22,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     30.26795915214033,

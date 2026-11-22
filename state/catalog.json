@@ -1227,7 +1227,7 @@
  "dubai crown prince visits dubai municipality": {
   "last_short": "2026-11-25",
   "long": "2026-11-02",
-  "montage_used": 50,
+  "montage_used": 51,
   "remix_ranges": [
    [
     321.72,
@@ -1292,6 +1292,10 @@
    [
     287.659944630713,
     290.0757845697843
+   ],
+   [
+    132.0475463729952,
+    133.6545066128763
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3933,10 +3937,10 @@
   "video_len": 292
  },
  "hamdan bin mohammed attends global islamic economy summit": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-25",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 33,
+  "montage_used": 34,
   "remix_ranges": [
    [
     48.36,
@@ -3985,6 +3989,10 @@
    [
     130.85516339942683,
     132.7037648953102
+   ],
+   [
+    2.391036290904615,
+    4.970574208907869
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6135,7 +6143,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     140.32574025403827,
@@ -6160,6 +6168,10 @@
    [
     136.65333333333334,
     138.61333333333332
+   ],
+   [
+    41.6780375535812,
+    43.50733556329532
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9489,7 +9501,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     86.95333333333333,
@@ -9506,6 +9518,10 @@
    [
     64.21210362636154,
     65.81280475797466
+   ],
+   [
+    102.5562155443822,
+    104.7477232735914
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10631,6 +10647,7 @@
   "long": "2026-10-20",
   "montage_exhausted": true,
   "montage_used": 8,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     36.04,
@@ -10666,7 +10683,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     73.66873288634743,
@@ -10679,6 +10696,10 @@
    [
     3.0642594378210317,
     4.6665763141523815
+   ],
+   [
+    42.31480001066635,
+    44.143334282242265
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12378,9 +12399,9 @@
   "video_len": 76
  },
  "hamdan bin mohammed receives speaker of kyrgyz parliament": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     6.37768238943519,
@@ -12401,6 +12422,10 @@
    [
     81.36878551538165,
     83.75328507660537
+   ],
+   [
+    21.55889288805487,
+    22.686833692206534
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12793,7 +12818,7 @@
  "hamdan bin mohammed reviews outcomes of farmers souq initiative": {
   "last_short": "2026-11-25",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     25.287802896479974,
@@ -12810,6 +12835,10 @@
    [
     29.186666666666667,
     31.48
+   ],
+   [
+    47.38666666666666,
+    49.080000000000005
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14388,7 +14417,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     30.26795915214033,
@@ -14409,6 +14438,10 @@
    [
     142.67040054422912,
     144.29886816684228
+   ],
+   [
+    108.79544401526441,
+    110.91833170939582
    ]
   ],
   "remix_reset": "2026-11-20",

@@ -103,8 +103,13 @@
   },
   {
    "at": "2026-11-25T14:44:04+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Lead quietly. Achieve loudly. ✨ #youtube #youtubeshorts",
+   "type": "short",
+   "video_id": "fNN5hp6qfOE",
+   "voiced": true
   },
   {
    "at": "2026-11-25T15:27:29+04:00",

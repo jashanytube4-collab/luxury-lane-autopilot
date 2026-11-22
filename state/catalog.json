@@ -1725,6 +1725,7 @@
  "hamdan approves medical tourism strategy": {
   "last_short": "2026-11-24",
   "long": "2026-10-30",
+  "montage_exhausted": true,
   "montage_used": 29,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -6731,7 +6732,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 36,
+  "montage_used": 37,
   "remix_ranges": [
    [
     107.48779104831378,
@@ -6792,6 +6793,10 @@
    [
     251.24,
     253.07999999999998
+   ],
+   [
+    155.0229003940121,
+    157.03097612281
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -7910,6 +7915,7 @@
  },
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
   "last_short": "2026-11-24",
+  "montage_exhausted": true,
   "montage_used": 42,
   "remix_exhausted": true,
   "remix_ranges": [
@@ -11872,7 +11878,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 34,
+  "montage_used": 35,
   "remix_ranges": [
    [
     44.48273041474908,
@@ -11905,6 +11911,10 @@
    [
     65.0864186526347,
     67.52053096634272
+   ],
+   [
+    187.25255749917173,
+    188.80554911696743
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12456,9 +12466,9 @@
  },
  "hamdan bin mohammed receives ramadan well wishers": {
   "fails": 1,
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     59.199999999999996,
@@ -12467,6 +12477,10 @@
    [
     38.78267048644324,
     40.20478144150581
+   ],
+   [
+    52.139704306520585,
+    54.72230959680317
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13940,6 +13954,7 @@
   "long": "2026-10-14",
   "montage_exhausted": true,
   "montage_used": 21,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     74.62743576497552,
@@ -14020,7 +14035,7 @@
  "hamdan bin mohammed unveils 5 star plaque at sheikh zayed housing programme in dubai": {
   "last_short": "2026-11-25",
   "montage_exhausted": true,
-  "montage_used": 24,
+  "montage_used": 25,
   "remix_ranges": [
    [
     104.84181508997926,
@@ -14049,6 +14064,10 @@
    [
     151.27091206513458,
     153.39581246692308
+   ],
+   [
+    25.533202217740545,
+    28.109554238157465
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14512,7 +14531,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-13",
   "montage_exhausted": true,
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     97.26657852612965,
@@ -14537,6 +14556,10 @@
    [
     11.76,
     13.72
+   ],
+   [
+    300.4654695382716,
+    302.7893899609044
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14647,7 +14670,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     30.26795915214033,
@@ -14680,6 +14703,10 @@
    [
     132.93792368961635,
     134.92829369432596
+   ],
+   [
+    2.3684950439028536,
+    4.904549963976976
    ]
   ],
   "remix_reset": "2026-11-20",

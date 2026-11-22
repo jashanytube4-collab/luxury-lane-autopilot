@@ -529,9 +529,19 @@ def ass_from_words(all_words, path: Path, prof):
     bgr = acc[4:6] + acc[2:4] + acc[0:2]
     head = ("[Script Info]\nScriptType: v4.00+\nPlayResX: 1920\nPlayResY: 1080\n[V4+ Styles]\n"
             "Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding\n"
-            f"Style: Default,Montserrat ExtraBold,72,&H00FFFFFF,&H00{bgr},&H00101010,&H80000000,1,0,0,0,100,100,0,0,1,5,1,2,120,120,70,1\n"
+            f"Style: Default,Montserrat ExtraBold,72,{'&H00B0E035,&H00FFFFFF' if prof.get('engine') == 'tech' else '&H00FFFFFF,&H00FFFFFF' if prof.get('engine') == 'charts' else '&H00FFFFFF,&H00' + bgr},&H00101010,&H80000000,1,0,0,0,100,100,0,0,1,5,1,2,120,120,70,1\n"
             "[Events]\nFormat: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text\n")
     lines = []
+    try:
+        from . import tech
+        bank.update(tech.sfx_bank(sr))
+    except Exception:  # noqa: BLE001
+        pass
+    try:
+        from . import charts
+        bank.update(charts.sfx_bank(sr))
+    except Exception:  # noqa: BLE001
+        pass
     for beat in all_words:                      # all_words = list of per-beat word lists: never group across beats
         grp = []
         for w in beat:
@@ -578,7 +588,14 @@ def build(pack_path, preview=0):
     run([FF, "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", lst, "-af", "loudnorm=I=-16:TP=-1.5:LRA=11", "-ar", "48000", work / "voice.wav"])
     total = t0
     # 2 shots
-    shots, credits, events = plan_shots(beats, timing, prof, work, pack.get("broll", []))
+    if prof.get("engine") == "charts":
+        from . import charts
+        shots, credits, events = charts.plan_shots(beats, timing, prof, work, pack.get("broll", []))
+    elif prof.get("engine") == "tech":
+        from . import tech
+        shots, credits, events = tech.plan_shots(beats, timing, prof, work, pack.get("broll", []))
+    else:
+        shots, credits, events = plan_shots(beats, timing, prof, work, pack.get("broll", []))
     synth_sfx(events, total, work / "sfx.wav")
     sl = work / "shots" / "list.txt"
     sl.write_text("\n".join(f"file '{Path(p).as_posix()}'" for p, _ in shots))

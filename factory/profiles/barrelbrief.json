@@ -4,5 +4,14 @@
  "ref": null,
  "engine": "charts",
  "kind": "existing",
- "pipeline": "work/evergreen/engine.py - ep1 render bug"
+ "pipeline": "work/evergreen/engine.py - ep1 render bug",
+ "voice": "en-US-AndrewNeural",
+ "rate": "-3%",
+ "pitch": "+0Hz",
+ "accent": "#e08a00",
+ "music": [
+  "The Complex",
+  "At Launch"
+ ],
+ "pace_max": 4.0
 }

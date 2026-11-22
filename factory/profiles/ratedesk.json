@@ -4,5 +4,14 @@
  "ref": null,
  "engine": "charts",
  "kind": "existing",
- "pipeline": "work/evergreen/engine.py - same engine"
+ "pipeline": "work/evergreen/engine.py - same engine",
+ "voice": "en-US-ChristopherNeural",
+ "rate": "-2%",
+ "pitch": "+0Hz",
+ "accent": "#12a594",
+ "music": [
+  "The Complex",
+  "At Launch"
+ ],
+ "pace_max": 4.0
 }

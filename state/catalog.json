@@ -1223,7 +1223,7 @@
  "dubai crown prince visits dubai municipality": {
   "last_short": "2026-11-24",
   "long": "2026-11-02",
-  "montage_used": 47,
+  "montage_used": 48,
   "remix_ranges": [
    [
     321.72,
@@ -1340,6 +1340,10 @@
    [
     112.48,
     114.64
+   ],
+   [
+    287.36,
+    290.4
    ]
   ],
   "video_exhausted": true,
@@ -4319,7 +4323,7 @@
  "hamdan bin mohammed attends hct graduation": {
   "last_short": "2026-11-24",
   "long": "2026-10-31",
-  "montage_used": 41,
+  "montage_used": 42,
   "remix_ranges": [
    [
     219.49568300016466,
@@ -4380,6 +4384,10 @@
    [
     241.36,
     244.72
+   ],
+   [
+    182.32,
+    185.35999999999999
    ]
   ],
   "video_exhausted": true,
@@ -7724,7 +7732,7 @@
  },
  "hamdan bin mohammed initiates 3 year countdown for dubai government s transition to fully digital paperless services": {
   "last_short": "2026-11-24",
-  "montage_used": 41,
+  "montage_used": 42,
   "remix_exhausted": true,
   "remix_ranges": [
    [
@@ -7858,6 +7866,10 @@
    [
     159.8,
     161.92
+   ],
+   [
+    185.32,
+    187.4
    ]
   ],
   "video_exhausted": true,
@@ -9176,7 +9188,7 @@
  "hamdan bin mohammed meets students of dubai schools": {
   "last_short": "2026-11-24",
   "long": "2026-10-17",
-  "montage_used": 38,
+  "montage_used": 39,
   "remix_ranges": [
    [
     202.24325973382153,
@@ -9269,6 +9281,10 @@
    [
     267.84000000000003,
     271.92
+   ],
+   [
+    163.48000000000002,
+    165.96
    ]
   ],
   "video_len": 371
@@ -10952,7 +10968,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2017": {
   "last_short": "2026-11-24",
-  "montage_used": 38,
+  "montage_used": 39,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -11030,6 +11046,10 @@
    [
     54.8,
     57.64
+   ],
+   [
+    41.839999999999996,
+    43.92
    ]
   ],
   "video_exhausted": true,

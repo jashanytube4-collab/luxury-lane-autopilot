@@ -168,8 +168,13 @@
   },
   {
    "at": "2026-11-25T20:38:46+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "A true son of Dubai. 🤍 #youtubeshorts #ytshorts",
+   "type": "short",
+   "video_id": "SCxsXvHS5UA",
+   "voiced": true
   },
   {
    "at": "2026-11-25T21:00:00+04:00",

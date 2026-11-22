@@ -1718,6 +1718,7 @@
   "last_short": "2026-11-24",
   "long": "2026-10-30",
   "montage_used": 29,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     37.810954235443916,
@@ -3205,7 +3206,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 37,
+  "montage_used": 38,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -3227,6 +3228,10 @@
    [
     35.4091201535192,
     37.70085129313844
+   ],
+   [
+    256.16,
+    258.0
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5120,7 +5125,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 35,
+  "montage_used": 36,
   "remix_ranges": [
    [
     167.6806468932527,
@@ -5157,6 +5162,10 @@
    [
     382.8322715013995,
     384.26803513975307
+   ],
+   [
+    116.17296077880059,
+    118.23666830202792
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6812,10 +6821,10 @@
   "video_len": 385
  },
  "hamdan bin mohammed honors winners of dubai appreciation award for community service": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 36,
+  "montage_used": 37,
   "remix_ranges": [
    [
     91.53469075790515,
@@ -6872,6 +6881,10 @@
    [
     74.34021036219278,
     75.94189418930154
+   ],
+   [
+    212.7658810006015,
+    214.8217610450572
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10501,10 +10514,10 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed mohammed bin rashid places the highest priority on supporting youth and developing their skills": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "long": "2026-10-21",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     30.294825772194937,
@@ -10521,6 +10534,10 @@
    [
     22.8,
     24.56
+   ],
+   [
+    63.78209118098059,
+    65.27050877428249
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13239,10 +13256,10 @@
   "video_len": 75
  },
  "hamdan bin mohammed tours arabian travel market 2024": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     47.85333333333333,
@@ -13259,6 +13276,10 @@
    [
     9.586666666666666,
     11.313333333333334
+   ],
+   [
+    59.614826940392156,
+    61.39964734503319
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13540,6 +13561,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 10,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     55.02960752090558,
@@ -14651,10 +14673,10 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed visits display of origin autonomous vehicle on the sidelines of the world government summit 2022": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     49.2798958061194,
@@ -14663,6 +14685,10 @@
    [
     33.32,
     35.36
+   ],
+   [
+    40.86793508101537,
+    42.78635893072674
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14999,7 +15025,7 @@
  "hamdan bin mohammed visits dubai chamber of commerce and industry": {
   "last_short": "2026-11-25",
   "montage_exhausted": true,
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     1.5047652305267265,
@@ -15028,6 +15054,10 @@
    [
     53.72338273419872,
     56.155170958614036
+   ],
+   [
+    42.818444390963286,
+    44.88103901018215
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -15191,7 +15221,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 22,
+  "montage_used": 23,
   "remix_ranges": [
    [
     79.64,
@@ -15224,6 +15254,10 @@
    [
     68.87970020143,
     70.33865353834516
+   ],
+   [
+    213.83551179548533,
+    215.45614098285176
    ]
   ],
   "remix_reset": "2026-11-20",

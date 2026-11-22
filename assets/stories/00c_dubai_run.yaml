@@ -1,0 +1,446 @@
+# dubai-run v3 (keepbusy 2026-11-22): built by work/runfix/build3.py (gate-aware allocation)
+id: dubai-run
+title: He Stopped at the Start Line for One Boy — The True Story Behind Prince Hamdan's Dubai Run
+thumbnail:
+  text: HE STOPPED
+  tag: DUBAI RUN
+  scene: clip:dr-h-ys2-k@0.5
+mood: epic
+ready: true
+commons: false
+footage: run|runners|chair|road
+description: How one small idea from Prince Hamdan, Crown Prince of Dubai, thirty minutes of activity a day for thirty days,
+  became the Dubai Run, when Sheikh Zayed Road closes to cars and hundreds of thousands of people run together. And the true
+  story of Rio Watson of Team Angel Wolf, the boy in the racing chair the Prince greeted at the start line and later pushed
+  along the road. Numbers from the Dubai Media Office and the Prince's own posts; Rio's story from The National and Khaleej
+  Times. Stock footage of runners is for atmosphere.
+tags:
+- Dubai Run
+- Sheikh Hamdan Dubai Run
+- Fazza Dubai Run
+- Dubai Fitness Challenge
+- Team Angel Wolf
+- Rio Watson
+- Sheikh Zayed Road run
+- Crown Prince of Dubai
+- Fazza kindness
+- Dubai 30x30
+- Sheikh Hamdan wheelchair
+- Prince Hamdan
+sections:
+- beats:
+  - say: Why did the Crown Prince of Dubai stop at the start line of the Dubai Run, in front of a huge crowd of runners, and
+      bend down beside one boy in a racing chair? Stay to the end, and I will show you.
+    show:
+    - clip:dr-h-ys1-k2
+    - clip:dr-h-ys2-k
+    - clip:dr-h-ys3-k
+    - clip:dr-ys-push-k
+    - clip:dr-h-ys4-k
+    sfx: whoosh
+  - say: Who was that boy? And why did Prince Hamdan keep coming back to him?
+    show:
+    - clip:dr-h-ys5-k
+    - clip:dr-h-ys6-k
+    sfx: impact
+  - say: 'Because what he did for that boy, in front of the whole crowd, is something most leaders would never do. This weekend,
+      Sheikh Zayed Road closed to cars once more for the Dubai Run. So let me tell you the real story behind it: the idea,
+      the numbers, and the boy.'
+    show:
+    - clip:dr-sc-h2
+    - clip:dr-sc-h5
+    - clip:dr-sc-h6
+    - clip:dr-sc-h8
+    - clip:dr-h-ys7-k
+    - clip:dr-h-gj25
+    - sb-354766892
+    sfx: riser
+- beats:
+  - say: It all started with a very small idea.
+    show:
+    - clip:dr-h-gj0
+    - clip:dr-h-gj8
+    sfx: whoosh
+    fx: flash
+  - say: 'Prince Hamdan launched the Dubai Fitness Challenge, and he asked every person in the city for one simple thing:
+      thirty minutes of activity a day, for thirty days.'
+    show:
+    - clip:dr-h-gj34
+    - sb-347154784
+    - clip:dr-gj-bike
+  - say: Not a marathon. Not an expensive gym. Not a strict diet. Just thirty minutes.
+    show:
+    - clip:dr-gj-crowd1
+    - sb-5921125
+  - say: Think about how clever that is. Most health campaigns ask for too much, and people give up on the first day.
+    show:
+    - clip:dr-gj-aero
+    - clip:dr-gj-push
+    - clip:dr-gj-group45
+    - clip:dr-gj-white
+    sfx: impact
+  - say: Thirty minutes is a promise almost anyone can keep. And thirty days is long enough to turn it into a habit.
+    show:
+    - sb-351997801
+    - clip:dr-gj-tug
+    - clip:dr-gj-field
+    fx: flash
+  - say: And you choose the sport. Walking, swimming, football, yoga, cycling. The challenge only asks you to move.
+    show:
+    - sb-11118269
+    - clip:dr-h-gj38
+    - clip:dr-gj-kids
+    - clip:dr-h-gj67
+  - say: Every year, for one month, the city fills with free classes, free workouts and free events in parks and on beaches.
+    show:
+    - sb-7042551
+    - clip:dr-gj-s28
+    - clip:dr-gj-s37
+    - clip:dr-gj-s26
+    sfx: riser
+  - say: And the biggest event of that month happens on a road that never sleeps.
+    show:
+    - sb-11084664
+- beats:
+  - say: Sheikh Zayed Road. Fourteen lanes, glass towers on both sides, and normally, a wall of traffic, day and night.
+    show:
+    - clip:dr-h-lz1
+    - sb-351922312
+    - clip:dr-lz-a
+    - sb-351921964
+    - clip:dr-lz-b
+    sfx: whoosh
+    fx: flash
+  - say: For the very first Dubai Run, that road was closed to cars and turned into a running track, for the first time ever.
+    show:
+    - clip:dr-lz-c
+    - sb-352348339
+  - say: The Dubai Media Office said about seventy thousand people took part.
+    show:
+    - clip:dr-lz-e
+    - clip:dr-lz-d
+    - clip:dr-lz-f
+  - say: And the Crown Prince did not watch from a stage or a balcony. He ran, right in the middle of the crowd, and he has
+      run at every Dubai Run since, with people taking selfies all around him.
+    show:
+    - clip:dr-wx-h1
+    - sb-347203500
+    - clip:dr-wx-h2
+    - clip:dr-wx-h3
+    sfx: impact
+  - say: 'There were two routes: a five kilometre fun run for families, and a ten kilometre route for faster runners.'
+    show:
+    - sb-348467411
+    - clip:dr-wx-h4
+    - clip:dr-wx-h5
+    fx: flash
+  - say: Seventy thousand people on a motorway, before breakfast? It sounded impossible. And it worked.
+    show:
+    - clip:dr-wx-c1
+    - sb-354573172
+  - say: But the most important moment of that morning happened before anyone started running.
+    show:
+    - clip:dr-wx-c2
+    - clip:dr-wx-c3
+    - clip:dr-wx-c4
+    sfx: riser
+- beats:
+  - say: At the start line, one family was waiting with a very special chair.
+    show:
+    - clip:dr-ys-burj-k
+    - clip:dr-rio-door-k
+    - sb-347765991
+    sfx: whoosh
+  - say: The boy in that chair was Rio Watson. He was sixteen years old.
+    show:
+    - clip:dr-rio-stairs-k
+    - clip:dr-rio-close-k
+    fx: flash
+  - say: Rio has a very rare chromosome disorder. It affects his speech and his movement, so he cannot run on his own.
+    show:
+    - clip:dr-rio-e-k
+    - sb-10951085
+  - say: So his father, Nick, runs for him, pushing Rio in a racing chair, through running races, cycling races and even triathlons.
+    show:
+    - clip:dr-rio-wheel-k
+    - sb-358904454
+    - clip:dr-rio-path-k
+  - say: Together, the family is known as Team Angel Wolf.
+    show:
+    - sb-352777944
+    sfx: impact
+  - say: Nick said Rio had already covered around six thousand kilometres of running, cycling and swimming, in about five
+      years.
+    show:
+    - clip:dr-rio-f-k
+    - clip:dr-rio-g-k
+    - clip:dr-ys-sea2-k
+    - sb-358879525
+    fx: flash
+  - say: And that Dubai Run was not just any race. It was Rio's two hundredth race.
+    show:
+    - clip:dr-rio-bike-k
+    - clip:dr-rio-desert-k
+    - clip:dr-rio-rain-k
+  - say: Before the start, the Crown Prince came over to the chair. He bent down, greeted Rio, and spoke with the family.
+    show:
+    - clip:dr-rio-swim-k
+    - clip:dr-rio-beach-k
+    - clip:dr-rio-pb-k
+  - say: 'Nick said the Prince told him: Mashallah. And he said the Prince was very happy.'
+    show:
+    - clip:dr-ys-shoes-k
+    - clip:dr-rio-end-k
+    - clip:dr-ys-sofa2-k
+    sfx: riser
+  - say: And a news video from that morning says the Prince even pushed Rio's racing chair for part of the race.
+    show:
+    - clip:dr-ys-tia1-k
+    - sb-347509013
+    fx: flash
+  - say: Rio cannot talk the way you and I do. But anyone watching that video can see how much the moment meant to the whole
+      family.
+    show:
+    - clip:dr-ys-tia3-k
+    - clip:dr-ys-pool-k
+    - clip:dr-rio-sea-k
+    - clip:dr-ys-sea3-k
+  - say: It was not their first meeting. Nick said that at the races where Rio takes part, the Prince always comes over to
+      say hello.
+    show:
+    - clip:dr-ys-tia2-k
+    - clip:dr-rio-t1-k
+    - sb-355098187
+  - say: Remember that chair. Because it comes back.
+    show:
+    - clip:dr-rio-t2-k
+    sfx: whoosh
+- beats:
+  - say: After that first morning, the Dubai Run became a tradition, and the crowd kept getting bigger.
+    show:
+    - sb-354348327
+    - clip:dr-ko-a
+    sfx: impact
+    fx: flash
+  - say: When the pandemic came, the run did not simply stop. It was moved onto different routes, so that people could keep
+      their distance.
+    show:
+    - sb-11084678
+    - clip:dr-ko-b
+    - clip:dr-ko-c
+  - say: Then the big road opened again, and the Dubai Media Office reported one hundred and forty six thousand runners. It
+      called it the largest run in the world.
+    show:
+    - sb-11080496
+    - clip:dr-ko-d
+    - sb-346956929
+    - clip:dr-ko-e
+  - say: Look at who is there. Families with strollers, children on their parents' shoulders, grandparents walking side by
+      side.
+    show:
+    - clip:dr-ko-f
+    - clip:dr-ko-g
+    - sb-352943838
+    sfx: riser
+  - say: Some people run fast. Most people simply enjoy walking on a road they normally only see through a windscreen.
+    show:
+    - clip:dr-ko-h
+    - clip:dr-ko-i
+    - clip:dr-ko-j
+    fx: flash
+  - say: The route was the same, but the mood was different. So many people had waited a long time to be together in a crowd
+      again.
+    show:
+    - clip:dr-ko-k
+    - clip:dr-ko-l
+    - clip:dr-ko-m
+    - clip:dr-ko-n
+- beats:
+  - say: And the numbers kept climbing. How high?
+    show:
+    - clip:dr-ah-a
+    - clip:dr-ah-b
+    sfx: whoosh
+  - say: At the next run, more than one hundred and ninety three thousand people took part, according to the Prince's own
+      post.
+    show:
+    - clip:dr-ah-c
+    - clip:dr-ah-d
+    - clip:dr-ah-e
+  - say: The next time, two hundred and twenty six thousand.
+    show:
+    - clip:dr-ah-f
+    - clip:dr-ah-g
+    fx: flash
+  - say: Then two hundred and seventy eight thousand, as the Dubai Media Office reported.
+    show:
+    - clip:dr-ah-h
+    - clip:dr-ah-i
+  - say: And at the last run before this one, a record three hundred and seven thousand runners.
+    show:
+    - clip:dr-ah-j
+    - sb-347528116
+  - say: 'The Prince thanked them himself, in his own words: Dubai never stops inspiring.'
+    show:
+    - clip:dr-ah-k
+    - clip:dr-ah-l
+    sfx: impact
+  - say: From seventy thousand to three hundred and seven thousand, on the same road. That is more than four times as many
+      people.
+    show:
+    - clip:dr-ah-v1
+    - clip:dr-ah-v2
+    - clip:dr-ah-v3
+    - clip:dr-ah-v4
+    fx: flash
+  - say: To picture it, imagine the biggest football stadium in the world. Now fill it almost three times, and send everyone
+      down one road.
+    show:
+    - sb-11014802
+    - clip:dr-ah-v5
+    - sb-3712714
+  - say: But remember the boy in the racing chair? Stay with me, because his story is not over, and it is even better than
+      the numbers.
+    show:
+    - clip:dr-ah-v6
+    - clip:dr-ah-v7
+    - clip:dr-ah-m1
+    sfx: riser
+- beats:
+  - say: So why do so many people get up before sunrise on a weekend, just to run on a motorway?
+    show:
+    - sb-354112264
+    - clip:dr-wa-tow1
+    sfx: whoosh
+  - say: First, it is free. A price tag keeps people away. Free brings everyone.
+    show:
+    - sb-11062821
+    - clip:dr-wa-mus3
+    fx: flash
+  - say: Second, the route is spectacular. You start near the Museum of the Future, and you run between the towers, towards
+      Dubai Mall and the Burj Khalifa.
+    show:
+    - sb-354565636
+    - clip:dr-wa-n1
+  - say: Third, nobody has to be fast. Children, beginners, grandparents, people in wheelchairs, everyone is welcome.
+    show:
+    - clip:dr-wa-mus1
+    - sb-10036179
+    sfx: impact
+  - say: And fourth, the person at the front. People like to run with a leader who runs, and not one who only gives speeches.
+    show:
+    - clip:dr-wa-tow2
+    - clip:dr-wa-n2
+  - say: When the Crown Prince is out there in sports clothes, sweating in the same crowd, ordinary people feel that they
+      belong.
+    show:
+    - clip:dr-wa-mus4
+    - clip:dr-wa-c1
+    fx: flash
+  - say: And fifth, the timing. The run starts early in the morning, in the cooler weeks of the year, when the weather in
+      Dubai is at its best.
+    show:
+    - clip:dr-wa-tow3
+    - sb-354386405
+    sfx: riser
+- beats:
+  - say: Of course, there is another side to his job.
+    show:
+    - clip:dr-sc-h1
+    - clip:dr-sc-b1
+    sfx: whoosh
+  - say: He is the Deputy Prime Minister and the Minister of Defence of the UAE. He chairs the Executive Council of Dubai,
+      and signs decisions about roads, schools and hospitals.
+    show:
+    - clip:dr-sc-h3
+    - sb-351909990
+    - clip:dr-sc-h4
+    - sb-352965901
+    - clip:dr-sc-b2
+  - say: But a city that wants to be one of the best places in the world to live needs healthy people, not just tall towers.
+    show:
+    - sb-354540780
+    - clip:dr-sc-b3
+    - sb-349001918
+    fx: flash
+  - say: And sometimes the strongest message is not a new law. It is one small action, done in front of everyone. Which brings
+      me back to Rio, and the answer I promised you.
+    show:
+    - clip:dr-sc-h7
+    - clip:dr-sc-x1
+    - clip:dr-sc-x3
+    - clip:dr-sc-x4
+    sfx: impact
+- beats:
+  - say: At another Dubai Run, Rio was back at the front of the crowd. He was eighteen now, and his sister Tia was with him.
+    show:
+    - clip:dr-dw-rio1
+    - sb-348483272
+    sfx: riser
+  - say: 'The Prince spotted them. And Tia asked him a simple question: would you like to push Rio?'
+    show:
+    - clip:dr-dw-rio2
+    - sb-353709650
+  - say: He said yes. Again.
+    show:
+    - clip:dr-dw-rio3
+    fx: flash
+  - say: The Crown Prince of Dubai took the handles of the racing chair, and pushed Rio along Sheikh Zayed Road, with thousands
+      of runners all around them.
+    show:
+    - clip:dr-dw-rio4
+    - sb-347725326
+    - clip:dr-dw-rio5
+    - sb-354775394
+  - say: Nick said the Prince was doing the ten kilometre run that morning, and he called him a humble, inspirational leader.
+    show:
+    - clip:dr-dw-go
+    - sb-354138843
+    sfx: whoosh
+  - say: 'Later he wrote on Instagram: This was a special moment that Rio and Tia will always remember, be honoured and grateful
+      for.'
+    show:
+    - clip:dr-dw-u
+    - clip:dr-dw-v
+    - clip:dr-dw-w
+    - clip:dr-dw-x
+  - say: Be honest. How many leaders would stop in the middle of a race, to push someone else's chair?
+    show:
+    - clip:dr-dw-a
+    - clip:dr-dw-b
+    - clip:dr-dw-c
+    fx: flash
+  - say: So here is the picture to remember.
+    show:
+    - sb-10995966
+    sfx: impact
+  - say: Sheikh Zayed Road, silent in the early morning light, and a sea of runners in the lanes where cars normally roar.
+    show:
+    - clip:dr-dw-d
+    - clip:dr-dw-e
+    - sb-349101770
+  - say: 'At the front, the man who started it all with one small request: thirty minutes a day, for thirty days.'
+    show:
+    - clip:dr-dw-f
+    - clip:dr-dw-g
+    - clip:dr-dw-h
+  - say: And next to him, a boy in a racing chair, who never let his body decide what he could do.
+    show:
+    - clip:dr-dw-i
+    - clip:dr-dw-j
+    - clip:dr-dw-k
+    fx: flash
+  - say: Rio's story shows something simple. Kindness is not a speech. It is a small action, done in public, when nobody asked
+      you to do it.
+    show:
+    - clip:dr-dw-y
+    - clip:dr-dw-z
+    - clip:dr-dw-aa
+    - clip:dr-dw-ab
+    sfx: riser
+  - say: If you would run in the Dubai Run, write Dubai in the comments. And subscribe, so you do not miss the next true story
+      of Prince Hamdan.
+    show:
+    - clip:dr-dw-start1
+    - clip:dr-dw-start2
+    - clip:dr-dw-start3

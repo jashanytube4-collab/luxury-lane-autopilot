@@ -2406,6 +2406,3121 @@ clip:dmo-uaxf-c1:
   - table
   - talks
   text_graphic: false
+clip:dr-ah-a:
+  arab_people: false
+  desc: Runners gather under the Museum of the Future
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - crowd
+  - museum
+  - road
+  text_graphic: false
+clip:dr-ah-b:
+  arab_people: false
+  desc: Thousands of runners in red shirts by the Museum of the Future
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - crowd
+  - thousand
+  - museum
+  text_graphic: false
+clip:dr-ah-c:
+  arab_people: false
+  desc: Crowd before dawn under the glowing Museum of the Future
+  hamdan: 0.0
+  people: true
+  tags:
+  - crowd
+  - people
+  - museum
+  - night
+  text_graphic: false
+clip:dr-ah-d:
+  arab_people: false
+  desc: A packed road as far as the eye can see
+  hamdan: 0.0
+  people: true
+  tags:
+  - crowd
+  - road
+  - runners
+  - record
+  text_graphic: false
+clip:dr-ah-e:
+  arab_people: false
+  desc: Runners pour through the start arch
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - start
+  - crowd
+  text_graphic: false
+clip:dr-ah-f:
+  arab_people: false
+  desc: A sea of red shirts on Sheikh Zayed Road
+  hamdan: 0.0
+  people: true
+  tags:
+  - crowd
+  - road
+  - runners
+  text_graphic: false
+clip:dr-ah-g:
+  arab_people: false
+  desc: The crowd fills every lane of the road
+  hamdan: 0.0
+  people: true
+  tags:
+  - crowd
+  - road
+  - people
+  text_graphic: false
+clip:dr-ah-h:
+  arab_people: false
+  desc: Runners pass the start arch at sunrise
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - start
+  - sunrise
+  text_graphic: false
+clip:dr-ah-h1:
+  arab_people: false
+  desc: Runners squeeze through the start arch of the Dubai Run
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - start
+  - crowd
+  - road
+  text_graphic: false
+clip:dr-ah-h2:
+  arab_people: false
+  desc: Runners in orange shirts packed at the start
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - crowd
+  - start
+  text_graphic: false
+clip:dr-ah-h3:
+  arab_people: false
+  desc: Dawn over Sheikh Zayed Road before the run
+  hamdan: 0.0
+  people: true
+  tags:
+  - road
+  - morning
+  - crowd
+  text_graphic: false
+clip:dr-ah-i:
+  arab_people: false
+  desc: Thousands of runners on the road
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - road
+  - thousand
+  text_graphic: false
+clip:dr-ah-j:
+  arab_people: false
+  desc: Runners spread across all the lanes between towers
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - road
+  - towers
+  text_graphic: false
+clip:dr-ah-k:
+  arab_people: false
+  desc: Long view of the crowd on Sheikh Zayed Road
+  hamdan: 0.0
+  people: true
+  tags:
+  - crowd
+  - road
+  - people
+  text_graphic: false
+clip:dr-ah-l:
+  arab_people: false
+  desc: Wide view of a road full of runners
+  hamdan: 0.0
+  people: true
+  tags:
+  - road
+  - runners
+  - crowd
+  text_graphic: false
+clip:dr-ah-m:
+  arab_people: false
+  desc: Runners wait in the early morning dark
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - morning
+  - crowd
+  text_graphic: false
+clip:dr-ah-m1:
+  arab_people: false
+  desc: Runners crowd under the Museum of the Future before the start
+  hamdan: 0.0
+  people: true
+  tags:
+  - crowd
+  - runners
+  - people
+  - museum
+  text_graphic: false
+clip:dr-ah-m2:
+  arab_people: false
+  desc: Runners take selfies in the start crowd
+  people: true
+  tags:
+  - crowd
+  - people
+  - runners
+  text_graphic: false
+clip:dr-ah-n:
+  arab_people: false
+  desc: Runners pass between the towers of Sheikh Zayed Road
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - towers
+  - road
+  text_graphic: false
+clip:dr-ah-o:
+  arab_people: false
+  desc: Beginners and families walking on the road
+  hamdan: 0.0
+  people: true
+  tags:
+  - families
+  - walking
+  - road
+  - beginners
+  text_graphic: false
+clip:dr-ah-p:
+  arab_people: false
+  desc: Runners of all ages together on the road
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - people
+  - road
+  text_graphic: false
+clip:dr-ah-q:
+  arab_people: false
+  desc: Morning light over the runners and towers
+  hamdan: 0.0
+  people: true
+  tags:
+  - morning
+  - runners
+  - towers
+  text_graphic: false
+clip:dr-ah-r:
+  arab_people: false
+  desc: Runners in sports clothes enjoying the road
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - sport
+  - road
+  text_graphic: false
+clip:dr-ah-r1:
+  arab_people: false
+  desc: Thousands of runners on Sheikh Zayed Road between the towers
+  people: true
+  tags:
+  - runners
+  - road
+  - crowd
+  - thousand
+  text_graphic: false
+clip:dr-ah-r2:
+  arab_people: false
+  desc: Runners on the open motorway
+  people: true
+  tags:
+  - runners
+  - road
+  - people
+  text_graphic: false
+clip:dr-ah-r3:
+  arab_people: false
+  desc: Runners and walkers along the towers
+  people: true
+  tags:
+  - runners
+  - road
+  - people
+  - crowd
+  text_graphic: false
+clip:dr-ah-r4:
+  arab_people: false
+  desc: A sea of runners fills the road
+  people: true
+  tags:
+  - runners
+  - road
+  - crowd
+  - record
+  text_graphic: false
+clip:dr-ah-s:
+  arab_people: false
+  desc: Sheikh Zayed Road before dawn, waiting for the runners
+  hamdan: 0.0
+  people: true
+  tags:
+  - road
+  - morning
+  - light
+  - silent
+  text_graphic: false
+clip:dr-ah-t:
+  arab_people: false
+  desc: Runners fill the lanes where cars normally drive
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - road
+  - cars
+  - lanes
+  text_graphic: false
+clip:dr-ah-u:
+  arab_people: false
+  desc: Runners stream past in the morning light
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - morning
+  - light
+  - road
+  text_graphic: false
+clip:dr-ah-v1:
+  arab_people: false
+  desc: Runners crowd the road by the towers
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - crowd
+  - road
+  text_graphic: false
+clip:dr-ah-v2:
+  arab_people: false
+  desc: Thousands of runners at the start area
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - thousand
+  - crowd
+  text_graphic: false
+clip:dr-ah-v3:
+  arab_people: false
+  desc: The crowd pours through the arch
+  hamdan: 0.0
+  people: true
+  tags:
+  - crowd
+  - runners
+  - people
+  text_graphic: false
+clip:dr-ah-v4:
+  arab_people: false
+  desc: A record crowd on Sheikh Zayed Road
+  hamdan: 0.0
+  people: true
+  tags:
+  - record
+  - crowd
+  - road
+  text_graphic: false
+clip:dr-ah-v5:
+  arab_people: false
+  desc: Runners stream down the road
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - road
+  - people
+  text_graphic: false
+clip:dr-ah-v6:
+  arab_people: false
+  desc: People fill the lanes of the road
+  hamdan: 0.0
+  people: true
+  tags:
+  - people
+  - road
+  - crowd
+  text_graphic: false
+clip:dr-ah-v7:
+  arab_people: false
+  desc: A huge crowd running between towers
+  hamdan: 0.0
+  people: true
+  tags:
+  - crowd
+  - runners
+  - times
+  text_graphic: false
+clip:dr-ah-w1:
+  arab_people: false
+  desc: Runners waiting at the start before sunrise
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - sunrise
+  - morning
+  - weekend
+  text_graphic: false
+clip:dr-ah-w2:
+  arab_people: false
+  desc: Runners near the start before the run
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - run
+  - start
+  text_graphic: false
+clip:dr-ah-w3:
+  arab_people: false
+  desc: Friends getting ready to run
+  hamdan: 0.0
+  people: true
+  tags:
+  - people
+  - run
+  - beginners
+  text_graphic: false
+clip:dr-ah-w4:
+  arab_people: false
+  desc: Runners pass the towers
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - towers
+  - route
+  text_graphic: false
+clip:dr-ah-w5:
+  arab_people: false
+  desc: Runners in sports clothes on the route
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - sports clothes
+  - route
+  text_graphic: false
+clip:dr-ah-w6:
+  arab_people: false
+  desc: Walkers enjoy the morning on the road
+  hamdan: 0.0
+  people: true
+  tags:
+  - walking
+  - morning
+  - people
+  - crowd
+  text_graphic: false
+clip:dr-ah-w7:
+  arab_people: false
+  desc: The road full of people in the morning light
+  hamdan: 0.0
+  people: true
+  tags:
+  - people
+  - morning
+  - crowd
+  - road
+  text_graphic: false
+clip:dr-ah-z1:
+  arab_people: false
+  desc: Runners in the dark before the start
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - morning
+  - road
+  text_graphic: false
+clip:dr-ah-z2:
+  arab_people: false
+  desc: The start area fills with runners
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - road
+  - front
+  text_graphic: false
+clip:dr-ah-z3:
+  arab_people: false
+  desc: Runners near the Museum of the Future at first light
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - light
+  - morning
+  text_graphic: false
+clip:dr-ah-z4:
+  arab_people: false
+  desc: A sea of runners where cars normally drive
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - road
+  - cars
+  text_graphic: false
+clip:dr-ah-z5:
+  arab_people: false
+  desc: Runners set off down the road
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - run
+  - road
+  text_graphic: false
+clip:dr-ah-z6:
+  arab_people: false
+  desc: The crowd on Sheikh Zayed Road
+  hamdan: 0.0
+  people: true
+  tags:
+  - crowd
+  - road
+  - runners
+  text_graphic: false
+clip:dr-ah-z7:
+  arab_people: false
+  desc: Runners on the road in the morning
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - morning
+  - road
+  text_graphic: false
+clip:dr-ah-z8:
+  arab_people: false
+  desc: The road full of runners
+  hamdan: 0.0
+  people: true
+  tags:
+  - road
+  - runners
+  - crowd
+  text_graphic: false
+clip:dr-dw-a:
+  arab_people: false
+  desc: Families run on Sheikh Zayed Road
+  hamdan: 0.0
+  people: true
+  tags:
+  - families
+  - runners
+  - road
+  - run
+  text_graphic: false
+clip:dr-dw-aa:
+  arab_people: false
+  desc: Children walking with parents on the road
+  hamdan: 0.0
+  people: true
+  tags:
+  - children
+  - boy
+  - road
+  - families
+  text_graphic: false
+clip:dr-dw-ab:
+  arab_people: false
+  desc: The road full of people
+  hamdan: 0.0
+  people: true
+  tags:
+  - road
+  - people
+  - crowd
+  text_graphic: false
+clip:dr-dw-b:
+  arab_people: false
+  desc: A parent carries a child on the run
+  hamdan: 0.0
+  people: true
+  tags:
+  - child
+  - family
+  - run
+  - people
+  text_graphic: false
+clip:dr-dw-c:
+  arab_people: false
+  desc: Runners in blue shirts fill the road
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - crowd
+  - road
+  text_graphic: false
+clip:dr-dw-d:
+  arab_people: false
+  desc: People walking on the closed road between towers
+  hamdan: 0.0
+  people: true
+  tags:
+  - people
+  - walking
+  - road
+  - towers
+  text_graphic: false
+clip:dr-dw-e:
+  arab_people: false
+  desc: A sea of runners on Sheikh Zayed Road
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - crowd
+  - road
+  text_graphic: false
+clip:dr-dw-f:
+  arab_people: false
+  desc: Walkers of every age on the motorway
+  hamdan: 0.0
+  people: true
+  tags:
+  - walking
+  - people
+  - road
+  - families
+  text_graphic: false
+clip:dr-dw-g:
+  arab_people: false
+  desc: Runners and walkers with strollers
+  hamdan: 0.0
+  people: true
+  tags:
+  - strollers
+  - families
+  - walking
+  - road
+  text_graphic: false
+clip:dr-dw-go:
+  arab_people: false
+  desc: 'The run starts: a wall of runners on Sheikh Zayed Road'
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - road
+  - crowd
+  - run
+  text_graphic: false
+clip:dr-dw-h:
+  arab_people: false
+  desc: Crowd walking past the towers
+  hamdan: 0.0
+  people: true
+  tags:
+  - crowd
+  - walking
+  - towers
+  - road
+  text_graphic: false
+clip:dr-dw-i:
+  arab_people: false
+  desc: Runners on the closed road
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - road
+  - run
+  text_graphic: false
+clip:dr-dw-j:
+  arab_people: false
+  desc: Families walking together on the road
+  hamdan: 0.0
+  people: true
+  tags:
+  - families
+  - walking
+  - road
+  - together
+  text_graphic: false
+clip:dr-dw-k:
+  arab_people: false
+  desc: People in the same shirts walking together
+  hamdan: 0.0
+  people: true
+  tags:
+  - people
+  - walking
+  - together
+  - road
+  text_graphic: false
+clip:dr-dw-l:
+  arab_people: false
+  desc: A child walks with the crowd
+  people: true
+  tags:
+  - children
+  - crowd
+  - walking
+  - boy
+  text_graphic: false
+clip:dr-dw-m:
+  arab_people: false
+  desc: Runners under a road sign on the motorway
+  people: true
+  tags:
+  - runners
+  - road
+  - sign
+  text_graphic: false
+clip:dr-dw-n:
+  arab_people: false
+  desc: Runners and walkers on the closed motorway
+  people: true
+  tags:
+  - runners
+  - walking
+  - road
+  text_graphic: false
+clip:dr-dw-o:
+  arab_people: false
+  desc: People run past the towers
+  people: true
+  tags:
+  - people
+  - run
+  - towers
+  - road
+  text_graphic: false
+clip:dr-dw-p:
+  arab_people: false
+  desc: A family walks together on the road
+  people: true
+  tags:
+  - family
+  - walking
+  - road
+  - together
+  text_graphic: false
+clip:dr-dw-q:
+  arab_people: false
+  desc: Crowd moving down Sheikh Zayed Road
+  people: true
+  tags:
+  - crowd
+  - road
+  - people
+  text_graphic: false
+clip:dr-dw-r:
+  arab_people: false
+  desc: Walkers in matching shirts
+  people: true
+  tags:
+  - walking
+  - people
+  - together
+  text_graphic: false
+clip:dr-dw-rio1:
+  arab_people: true
+  desc: Prince Hamdan crouches beside Rio in his racing chair
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - boy
+  - chair
+  text_graphic: false
+clip:dr-dw-rio2:
+  arab_people: true
+  desc: Prince Hamdan with Rio and Nick in the crowd
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - chair
+  - father
+  - crowd
+  text_graphic: false
+clip:dr-dw-rio3:
+  arab_people: true
+  desc: Nick Watson thanks Prince Hamdan, hand on his heart
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - father
+  - crowd
+  text_graphic: false
+clip:dr-dw-rio4:
+  arab_people: true
+  desc: Prince Hamdan beside the Watson family before the run
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - family
+  - chair
+  text_graphic: false
+clip:dr-dw-rio5:
+  arab_people: true
+  desc: Prince Hamdan ready to set off with the family
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - family
+  - start
+  text_graphic: false
+clip:dr-dw-s:
+  arab_people: false
+  desc: Runners of all ages on the road
+  people: true
+  tags:
+  - runners
+  - road
+  - children
+  text_graphic: false
+clip:dr-dw-start1:
+  arab_people: true
+  desc: Prince Hamdan at the front of the crowd at the start
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - crowd
+  - start
+  - runners
+  - front
+  text_graphic: false
+clip:dr-dw-start2:
+  arab_people: true
+  desc: Prince Hamdan waits with the runners on Sheikh Zayed Road
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - runners
+  - road
+  text_graphic: false
+clip:dr-dw-start3:
+  arab_people: true
+  desc: Prince Hamdan among the runners at the start
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - runners
+  - start
+  text_graphic: false
+clip:dr-dw-t:
+  arab_people: false
+  desc: Runners near the finish
+  people: true
+  tags:
+  - runners
+  - road
+  - run
+  text_graphic: false
+clip:dr-dw-u:
+  arab_people: false
+  desc: Runners and walkers set off in the morning sun
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - morning
+  - light
+  - road
+  text_graphic: false
+clip:dr-dw-v:
+  arab_people: false
+  desc: Families on the road in the morning light
+  hamdan: 0.0
+  people: true
+  tags:
+  - families
+  - morning
+  - light
+  - road
+  text_graphic: false
+clip:dr-dw-w:
+  arab_people: false
+  desc: Runners in a big group
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - crowd
+  - front
+  text_graphic: false
+clip:dr-dw-x:
+  arab_people: false
+  desc: People enjoying the run
+  hamdan: 0.0
+  people: true
+  tags:
+  - people
+  - run
+  - kindness
+  text_graphic: false
+clip:dr-dw-y:
+  arab_people: false
+  desc: A crowd on the closed road
+  hamdan: 0.0
+  people: true
+  tags:
+  - crowd
+  - road
+  - cars
+  text_graphic: false
+clip:dr-dw-z:
+  arab_people: false
+  desc: Walkers and runners together
+  hamdan: 0.0
+  people: true
+  tags:
+  - walking
+  - runners
+  - together
+  text_graphic: false
+clip:dr-fk-c1:
+  arab_people: false
+  desc: A sea of runners on Sheikh Zayed Road at the first Dubai Run
+  people: true
+  tags:
+  - crowd
+  - runners
+  - road
+  - people
+  text_graphic: false
+clip:dr-fk-c2:
+  arab_people: false
+  desc: Runners from behind on the closed road
+  people: true
+  tags:
+  - runners
+  - road
+  - run
+  - morning
+  text_graphic: false
+clip:dr-fk-c3:
+  arab_people: false
+  desc: Runners of all ages at the first Dubai Run
+  people: true
+  tags:
+  - runners
+  - people
+  - children
+  - beginners
+  - run
+  text_graphic: false
+clip:dr-fk-c4:
+  arab_people: false
+  desc: Runners set off together on Sheikh Zayed Road
+  people: true
+  tags:
+  - runners
+  - crowd
+  - road
+  - start
+  - people
+  text_graphic: false
+clip:dr-fk-c5:
+  arab_people: false
+  desc: Runners at the front of the first Dubai Run
+  people: true
+  tags:
+  - runners
+  - front
+  - road
+  - crowd
+  text_graphic: false
+clip:dr-fk-c6:
+  arab_people: false
+  desc: A wide wave of runners on the motorway
+  people: true
+  tags:
+  - runners
+  - road
+  - motorway
+  - crowd
+  text_graphic: false
+clip:dr-fk-h:
+  arab_people: true
+  desc: Prince Hamdan running in sports clothes in the crowd at the first Dubai Run
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - crowd
+  - runners
+  - sport
+  - front
+  text_graphic: false
+clip:dr-gj-aerial:
+  arab_people: false
+  desc: A packed park during the fitness month
+  people: true
+  tags:
+  - crowd
+  - park
+  - city
+  - event
+  text_graphic: false
+clip:dr-gj-aero:
+  arab_people: false
+  desc: A free aerobics class on stage
+  hamdan: 0.0
+  people: true
+  tags:
+  - class
+  - workout
+  - fitness
+  - aerobics
+  - free
+  - classes
+  text_graphic: false
+clip:dr-gj-air1:
+  arab_people: false
+  desc: Aerial view of a park by the water during the Dubai Fitness Challenge
+  people: true
+  tags:
+  - park
+  - city
+  - event
+  - aerial
+  text_graphic: false
+clip:dr-gj-air2:
+  arab_people: false
+  desc: Aerial view of a fitness village in a park
+  people: true
+  tags:
+  - park
+  - event
+  - city
+  - aerial
+  text_graphic: false
+clip:dr-gj-bike:
+  arab_people: false
+  desc: A child rides a bicycle as residents walk by
+  hamdan: 0.0
+  people: true
+  tags:
+  - child
+  - bicycle
+  - cycling
+  - park
+  - families
+  text_graphic: false
+clip:dr-gj-crowd1:
+  arab_people: false
+  desc: A big crowd of residents at the fitness village
+  hamdan: 0.0
+  people: true
+  tags:
+  - crowd
+  - people
+  - fitness
+  - park
+  text_graphic: false
+clip:dr-gj-end:
+  arab_people: false
+  desc: Residents at the opening of the fitness month
+  hamdan: 0.0
+  people: true
+  tags:
+  - people
+  - crowd
+  - fitness
+  text_graphic: false
+clip:dr-gj-field:
+  arab_people: false
+  desc: Hundreds of people exercise together on a field
+  hamdan: 0.0
+  people: true
+  tags:
+  - crowd
+  - exercise
+  - field
+  - fitness
+  text_graphic: false
+clip:dr-gj-g28:
+  arab_people: false
+  desc: Residents gather at the fitness event
+  hamdan: 0.0
+  people: true
+  tags:
+  - people
+  - crowd
+  - city
+  text_graphic: false
+clip:dr-gj-group45:
+  arab_people: false
+  desc: Residents and children together at the fitness event
+  hamdan: 0.0
+  people: true
+  tags:
+  - families
+  - children
+  - crowd
+  - fitness
+  text_graphic: false
+clip:dr-gj-kids:
+  arab_people: false
+  desc: Children and parents at a free outdoor activity
+  hamdan: 0.0
+  people: true
+  tags:
+  - children
+  - families
+  - activity
+  - free
+  text_graphic: false
+clip:dr-gj-push:
+  arab_people: false
+  desc: Men doing push-ups at an outdoor workout
+  hamdan: 0.0
+  people: true
+  tags:
+  - workout
+  - fitness
+  - exercise
+  - sport
+  - workouts
+  text_graphic: false
+clip:dr-gj-s10:
+  arab_people: false
+  desc: A crowd of residents of every age at the fitness village
+  people: true
+  tags:
+  - crowd
+  - people
+  - fitness
+  - city
+  text_graphic: false
+clip:dr-gj-s12:
+  arab_people: false
+  desc: Residents walking through the park
+  people: true
+  tags:
+  - people
+  - walking
+  - park
+  text_graphic: false
+clip:dr-gj-s21:
+  arab_people: false
+  desc: People queue for a free activity
+  hamdan: 0.0
+  people: true
+  tags:
+  - people
+  - free
+  - activity
+  - crowd
+  text_graphic: false
+clip:dr-gj-s22:
+  arab_people: false
+  desc: Families at the fitness village
+  hamdan: 0.0
+  people: true
+  tags:
+  - families
+  - crowd
+  - fitness
+  text_graphic: false
+clip:dr-gj-s26:
+  arab_people: false
+  desc: Hundreds of people on the grass of a park
+  hamdan: 0.0
+  people: true
+  tags:
+  - park
+  - people
+  - crowd
+  - month
+  text_graphic: false
+clip:dr-gj-s28:
+  arab_people: false
+  desc: Runners in a park during the fitness month
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - park
+  - sport
+  - workouts
+  text_graphic: false
+clip:dr-gj-s30:
+  arab_people: false
+  desc: Residents at a city fitness event
+  hamdan: 0.0
+  people: true
+  tags:
+  - people
+  - city
+  - healthy
+  text_graphic: false
+clip:dr-gj-s37:
+  arab_people: false
+  desc: A crowd in front of a workout stage
+  hamdan: 0.0
+  people: true
+  tags:
+  - crowd
+  - workouts
+  - classes
+  - stage
+  text_graphic: false
+clip:dr-gj-s39:
+  arab_people: false
+  desc: Residents gather for a free workout
+  hamdan: 0.0
+  people: true
+  tags:
+  - people
+  - workout
+  - free
+  - crowd
+  text_graphic: false
+clip:dr-gj-s43:
+  arab_people: false
+  desc: A big crowd at the fitness village
+  hamdan: 0.0
+  people: true
+  tags:
+  - crowd
+  - people
+  - fitness
+  - event
+  text_graphic: false
+clip:dr-gj-sky:
+  arab_people: false
+  desc: Skydivers fly a flag over the fitness event
+  people: true
+  tags:
+  - sky
+  - flag
+  - event
+  - sport
+  text_graphic: false
+clip:dr-gj-tug:
+  arab_people: false
+  desc: Families play tug of war on the grass
+  hamdan: 0.0
+  people: true
+  tags:
+  - families
+  - game
+  - park
+  - activity
+  text_graphic: false
+clip:dr-gj-walk1:
+  arab_people: false
+  desc: Residents in sports clothes walk through a park
+  hamdan: 0.0
+  people: true
+  tags:
+  - people
+  - walking
+  - park
+  - sport
+  text_graphic: false
+clip:dr-gj-white:
+  arab_people: false
+  desc: Runners in white shirts warm up together
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - workout
+  - group
+  - sport
+  text_graphic: false
+clip:dr-h-gj0:
+  arab_people: true
+  desc: Prince Hamdan walks with families at the Dubai Fitness Challenge
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - crowd
+  - families
+  - fitness
+  - park
+  text_graphic: false
+clip:dr-h-gj25:
+  arab_people: true
+  desc: Prince Hamdan walks at the front of a crowd
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - crowd
+  - front
+  - people
+  text_graphic: false
+clip:dr-h-gj34:
+  arab_people: true
+  desc: Prince Hamdan among residents at the fitness event
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - crowd
+  - people
+  - fitness
+  text_graphic: false
+clip:dr-h-gj38:
+  arab_people: true
+  desc: Prince Hamdan walks with residents in sports clothes
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - crowd
+  - sport
+  - people
+  text_graphic: false
+clip:dr-h-gj63:
+  arab_people: true
+  desc: Prince Hamdan with families and children
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - families
+  - children
+  - crowd
+  text_graphic: false
+clip:dr-h-gj67:
+  arab_people: true
+  desc: Prince Hamdan in a sports shirt in the crowd
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - crowd
+  - sport
+  - people
+  text_graphic: false
+clip:dr-h-gj8:
+  arab_people: true
+  desc: Close-up of Prince Hamdan in a cap at the fitness event
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - crowd
+  - cap
+  - fitness
+  text_graphic: false
+clip:dr-h-lz1:
+  arab_people: true
+  desc: Prince Hamdan in the crowd at the first Dubai Run
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - run
+  - crowd
+  - runners
+  - road
+  text_graphic: false
+clip:dr-h-ys1:
+  arab_people: true
+  desc: Prince Hamdan bends down beside Rio in his racing chair at the start line
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - boy
+  - chair
+  - start
+  - runners
+  text_graphic: false
+clip:dr-h-ys1-k:
+  arab_people: true
+  desc: Prince Hamdan bends down beside Rio in his racing chair at the start line
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - boy
+  - chair
+  - start
+  - runners
+  text_graphic: false
+clip:dr-h-ys2:
+  arab_people: true
+  desc: Prince Hamdan greets Rio and his father Nick before the run
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - boy
+  - chair
+  - father
+  - runners
+  text_graphic: false
+clip:dr-h-ys2-k:
+  arab_people: true
+  desc: Prince Hamdan greets Rio and his father Nick before the run
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - boy
+  - chair
+  - father
+  - runners
+  text_graphic: false
+clip:dr-h-ys3:
+  arab_people: true
+  desc: Prince Hamdan crouches next to the racing chair, runners all around
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - chair
+  - runners
+  - crowd
+  - start
+  text_graphic: false
+clip:dr-h-ys3-k:
+  arab_people: true
+  desc: Prince Hamdan crouches next to the racing chair, runners all around
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - chair
+  - runners
+  - crowd
+  - start
+  text_graphic: false
+clip:dr-h-ys4:
+  arab_people: true
+  desc: Prince Hamdan talks with the Watson family at the start
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - family
+  - chair
+  - runners
+  text_graphic: false
+clip:dr-h-ys4-k:
+  arab_people: true
+  desc: Prince Hamdan talks with the Watson family at the start
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - family
+  - chair
+  - runners
+  text_graphic: false
+clip:dr-h-ys5:
+  arab_people: true
+  desc: Prince Hamdan smiles at Rio at the front of the run
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - boy
+  - chair
+  - front
+  - runners
+  text_graphic: false
+clip:dr-h-ys5-k:
+  arab_people: true
+  desc: Prince Hamdan smiles at Rio at the front of the run
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - boy
+  - chair
+  - front
+  - runners
+  text_graphic: false
+clip:dr-h-ys6:
+  arab_people: true
+  desc: Prince Hamdan with Rio and Nick, the crowd waiting behind
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - boy
+  - chair
+  - crowd
+  text_graphic: false
+clip:dr-h-ys6-k:
+  arab_people: true
+  desc: Prince Hamdan with Rio and Nick, the crowd waiting behind
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - boy
+  - chair
+  - crowd
+  text_graphic: false
+clip:dr-h-ys7:
+  arab_people: true
+  desc: Prince Hamdan stands with the runners at the front
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - runners
+  - front
+  - crowd
+  text_graphic: false
+clip:dr-h-ys7-k:
+  arab_people: true
+  desc: Prince Hamdan stands with the runners at the front
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - runners
+  - front
+  - crowd
+  text_graphic: false
+clip:dr-ko-a:
+  arab_people: false
+  desc: The start arch of the Dubai Run before dawn
+  hamdan: 0.0
+  people: true
+  tags:
+  - start
+  - run
+  - road
+  - morning
+  text_graphic: false
+clip:dr-ko-b:
+  arab_people: false
+  desc: Runners at the start in the early morning
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - road
+  - start
+  - crowd
+  text_graphic: false
+clip:dr-ko-c:
+  arab_people: false
+  desc: Runners surge forward from the start
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - crowd
+  - run
+  text_graphic: false
+clip:dr-ko-crowd:
+  arab_people: false
+  desc: Grandparents and families walking together
+  people: true
+  tags:
+  - grandparents
+  - families
+  - walking
+  - together
+  text_graphic: false
+clip:dr-ko-d:
+  arab_people: false
+  desc: Aerial view of runners filling the road
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - road
+  - crowd
+  - largest
+  text_graphic: false
+clip:dr-ko-e:
+  arab_people: false
+  desc: Runners cheer as they set off
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - crowd
+  - together
+  text_graphic: false
+clip:dr-ko-f:
+  arab_people: false
+  desc: The start area packed with people
+  hamdan: 0.0
+  people: true
+  tags:
+  - crowd
+  - people
+  - start
+  text_graphic: false
+clip:dr-ko-g:
+  arab_people: false
+  desc: Sheikh Zayed Road between towers, closed to cars
+  hamdan: 0.0
+  people: true
+  tags:
+  - road
+  - towers
+  - cars
+  - windscreen
+  text_graphic: false
+clip:dr-ko-h:
+  arab_people: false
+  desc: Families walking in the crowd
+  hamdan: 0.0
+  people: true
+  tags:
+  - families
+  - walking
+  - crowd
+  text_graphic: false
+clip:dr-ko-i:
+  arab_people: false
+  desc: Runners stream down the road
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - road
+  - run
+  text_graphic: false
+clip:dr-ko-j:
+  arab_people: false
+  desc: A crowd of runners in yellow shirts
+  hamdan: 0.0
+  people: true
+  tags:
+  - crowd
+  - runners
+  - people
+  text_graphic: false
+clip:dr-ko-k:
+  arab_people: false
+  desc: Runners under the trees beside the road
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - road
+  - people
+  text_graphic: false
+clip:dr-ko-kids:
+  arab_people: false
+  desc: Children run along Sheikh Zayed Road
+  people: true
+  tags:
+  - children
+  - run
+  - road
+  - runners
+  text_graphic: false
+clip:dr-ko-l:
+  arab_people: false
+  desc: Parents with strollers and children on the run
+  hamdan: 0.0
+  people: true
+  tags:
+  - strollers
+  - children
+  - families
+  - parents
+  text_graphic: false
+clip:dr-ko-m:
+  arab_people: false
+  desc: A crowd crossing the road
+  hamdan: 0.0
+  people: true
+  tags:
+  - crowd
+  - road
+  - walking
+  text_graphic: false
+clip:dr-ko-n:
+  arab_people: false
+  desc: Happy runners taking selfies
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - people
+  - mood
+  text_graphic: false
+clip:dr-ko-o:
+  arab_people: false
+  desc: A child on a parent's shoulders in the crowd
+  people: true
+  tags:
+  - children
+  - shoulders
+  - crowd
+  - parents
+  text_graphic: false
+clip:dr-ko-p:
+  arab_people: false
+  desc: Runners of all ages on the road
+  people: true
+  tags:
+  - runners
+  - road
+  - people
+  text_graphic: false
+clip:dr-ko-q:
+  arab_people: false
+  desc: A runner smiles at the camera
+  people: true
+  tags:
+  - runners
+  - mood
+  - people
+  text_graphic: false
+clip:dr-ko-r:
+  arab_people: false
+  desc: The UAE flag over the crowd of runners
+  people: true
+  tags:
+  - flag
+  - crowd
+  - runners
+  text_graphic: false
+clip:dr-lz-a:
+  arab_people: false
+  desc: Runners fill Sheikh Zayed Road at the first Dubai Run
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - road
+  - crowd
+  - run
+  text_graphic: false
+clip:dr-lz-b:
+  arab_people: false
+  desc: Thousands of runners on the closed motorway
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - road
+  - crowd
+  - motorway
+  text_graphic: false
+clip:dr-lz-c:
+  arab_people: false
+  desc: Runners in blue shirts at the first Dubai Run
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - run
+  - people
+  - road
+  text_graphic: false
+clip:dr-lz-d:
+  arab_people: false
+  desc: Families and runners of all ages at the start
+  hamdan: 0.0
+  people: true
+  tags:
+  - families
+  - runners
+  - crowd
+  - start
+  text_graphic: false
+clip:dr-lz-e:
+  arab_people: false
+  desc: Runners take selfies as they run
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - selfies
+  - people
+  - run
+  text_graphic: false
+clip:dr-lz-f:
+  arab_people: false
+  desc: A wave of runners comes down Sheikh Zayed Road
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - road
+  - crowd
+  - morning
+  text_graphic: false
+clip:dr-rio-a:
+  arab_people: false
+  desc: Rio in his racing chair on the Dubai Run route
+  hamdan: 0.0
+  people: true
+  tags:
+  - boy
+  - chair
+  - race
+  - road
+  text_graphic: false
+clip:dr-rio-a-k:
+  arab_people: false
+  desc: Rio in his racing chair on the Dubai Run route
+  hamdan: 0.0
+  people: true
+  tags:
+  - boy
+  - chair
+  - race
+  - road
+  text_graphic: false
+clip:dr-rio-beach:
+  arab_people: false
+  desc: Nick carries Rio out of the sea
+  hamdan: 0.0
+  people: true
+  tags:
+  - beach
+  - sea
+  - father
+  - boy
+  text_graphic: false
+clip:dr-rio-beach-k:
+  arab_people: false
+  desc: Nick carries Rio out of the sea
+  hamdan: 0.0
+  people: true
+  tags:
+  - beach
+  - sea
+  - father
+  - boy
+  text_graphic: false
+clip:dr-rio-bike:
+  arab_people: false
+  desc: Rio rides in front of his father on a bike
+  hamdan: 0.0
+  people: true
+  tags:
+  - cycling
+  - bike
+  - boy
+  - father
+  - race
+  text_graphic: false
+clip:dr-rio-bike-k:
+  arab_people: false
+  desc: Rio rides in front of his father on a bike
+  hamdan: 0.0
+  people: true
+  tags:
+  - cycling
+  - bike
+  - boy
+  - father
+  - race
+  text_graphic: false
+clip:dr-rio-c:
+  arab_people: false
+  desc: Rio and his father outside their home
+  hamdan: 0.0
+  people: true
+  tags:
+  - boy
+  - father
+  - family
+  text_graphic: false
+clip:dr-rio-close:
+  arab_people: false
+  desc: Nick and Rio side by side, smiling
+  hamdan: 0.0
+  people: true
+  tags:
+  - father
+  - boy
+  - family
+  text_graphic: false
+clip:dr-rio-close-k:
+  arab_people: false
+  desc: Nick and Rio side by side, smiling
+  hamdan: 0.0
+  people: true
+  tags:
+  - father
+  - boy
+  - family
+  text_graphic: false
+clip:dr-rio-d:
+  arab_people: false
+  desc: Rio settles into the racing chair
+  hamdan: 0.0
+  people: true
+  tags:
+  - boy
+  - chair
+  - race
+  text_graphic: false
+clip:dr-rio-desert:
+  arab_people: false
+  desc: Team Angel Wolf pull the chair through the desert at sunset
+  hamdan: 0.0
+  people: true
+  tags:
+  - desert
+  - race
+  - chair
+  - sunset
+  text_graphic: false
+clip:dr-rio-desert-k:
+  arab_people: false
+  desc: Team Angel Wolf pull the chair through the desert at sunset
+  hamdan: 0.0
+  people: true
+  tags:
+  - desert
+  - race
+  - chair
+  - sunset
+  text_graphic: false
+clip:dr-rio-door:
+  arab_people: false
+  desc: Nick Watson at the family home
+  hamdan: 0.0
+  people: true
+  tags:
+  - father
+  - family
+  - home
+  text_graphic: false
+clip:dr-rio-door-k:
+  arab_people: false
+  desc: Nick Watson at the family home
+  hamdan: 0.0
+  people: true
+  tags:
+  - father
+  - family
+  - home
+  text_graphic: false
+clip:dr-rio-e:
+  arab_people: false
+  desc: Nick talks to Rio before training
+  hamdan: 0.0
+  people: true
+  tags:
+  - father
+  - boy
+  - family
+  text_graphic: false
+clip:dr-rio-e-k:
+  arab_people: false
+  desc: Nick talks to Rio before training
+  hamdan: 0.0
+  people: true
+  tags:
+  - father
+  - boy
+  - family
+  text_graphic: false
+clip:dr-rio-end:
+  arab_people: false
+  desc: Rio smiles in his racing chair
+  hamdan: 0.0
+  people: true
+  tags:
+  - boy
+  - chair
+  - smile
+  - happy
+  text_graphic: false
+clip:dr-rio-end-k:
+  arab_people: false
+  desc: Rio smiles in his racing chair
+  hamdan: 0.0
+  people: true
+  tags:
+  - boy
+  - chair
+  - smile
+  - happy
+  text_graphic: false
+clip:dr-rio-end2:
+  arab_people: false
+  desc: Rio and his father at home
+  hamdan: 0.0
+  people: true
+  tags:
+  - boy
+  - father
+  - family
+  text_graphic: false
+clip:dr-rio-f:
+  arab_people: false
+  desc: Nick pushes the racing chair along the path
+  hamdan: 0.0
+  people: true
+  tags:
+  - father
+  - running
+  - chair
+  text_graphic: false
+clip:dr-rio-f-k:
+  arab_people: false
+  desc: Nick pushes the racing chair along the path
+  hamdan: 0.0
+  people: true
+  tags:
+  - father
+  - running
+  - chair
+  text_graphic: false
+clip:dr-rio-g:
+  arab_people: false
+  desc: Rio laughs in his racing chair
+  hamdan: 0.0
+  people: true
+  tags:
+  - boy
+  - chair
+  - happy
+  text_graphic: false
+clip:dr-rio-g-k:
+  arab_people: false
+  desc: Rio laughs in his racing chair
+  hamdan: 0.0
+  people: true
+  tags:
+  - boy
+  - chair
+  - happy
+  text_graphic: false
+clip:dr-rio-h1:
+  arab_people: false
+  desc: Rio and his father Nick at home
+  hamdan: 0.0
+  people: true
+  tags:
+  - rio
+  - father
+  - family
+  - home
+  text_graphic: false
+clip:dr-rio-h2:
+  arab_people: false
+  desc: Nick helps Rio at home
+  hamdan: 0.0
+  people: true
+  tags:
+  - rio
+  - father
+  - family
+  - chair
+  text_graphic: false
+clip:dr-rio-h3:
+  arab_people: false
+  desc: Nick and Rio get ready together
+  hamdan: 0.0
+  people: true
+  tags:
+  - rio
+  - father
+  - family
+  - chair
+  text_graphic: false
+clip:dr-rio-int:
+  arab_people: false
+  desc: Nick and Rio Watson on the sofa
+  hamdan: 0.0
+  people: true
+  tags:
+  - rio
+  - father
+  - family
+  text_graphic: false
+clip:dr-rio-lift:
+  arab_people: false
+  desc: Nick lifts Rio into his racing chair
+  hamdan: 0.0
+  people: true
+  tags:
+  - father
+  - boy
+  - chair
+  text_graphic: false
+clip:dr-rio-path:
+  arab_people: false
+  desc: Nick runs along a path pushing Rio
+  hamdan: 0.0
+  people: true
+  tags:
+  - father
+  - running
+  - chair
+  - path
+  text_graphic: false
+clip:dr-rio-path-k:
+  arab_people: false
+  desc: Nick runs along a path pushing Rio
+  hamdan: 0.0
+  people: true
+  tags:
+  - father
+  - running
+  - chair
+  - path
+  text_graphic: false
+clip:dr-rio-pb:
+  arab_people: false
+  desc: Nick carries Rio on his back
+  people: true
+  tags:
+  - nick
+  - rio
+  - father
+  - family
+  text_graphic: false
+clip:dr-rio-pb-k:
+  arab_people: false
+  desc: Nick carries Rio on his back
+  hamdan: 0.0
+  people: true
+  tags:
+  - nick
+  - rio
+  - father
+  - family
+  text_graphic: false
+clip:dr-rio-pb2:
+  arab_people: false
+  desc: Rio holds on to his father
+  people: true
+  tags:
+  - rio
+  - father
+  - family
+  text_graphic: false
+clip:dr-rio-rain:
+  arab_people: false
+  desc: Team Angel Wolf in a cycling race
+  hamdan: 0.0
+  people: true
+  tags:
+  - cycling
+  - race
+  - team
+  text_graphic: false
+clip:dr-rio-rain-k:
+  arab_people: false
+  desc: Team Angel Wolf in a cycling race
+  hamdan: 0.0
+  people: true
+  tags:
+  - cycling
+  - race
+  - team
+  text_graphic: false
+clip:dr-rio-sea:
+  arab_people: false
+  desc: Nick swims in the sea during a triathlon
+  hamdan: 0.0
+  people: true
+  tags:
+  - swimming
+  - sea
+  - triathlon
+  - race
+  text_graphic: false
+clip:dr-rio-sea-k:
+  arab_people: false
+  desc: Nick swims in the sea during a triathlon
+  hamdan: 0.0
+  people: true
+  tags:
+  - swimming
+  - sea
+  - triathlon
+  - race
+  text_graphic: false
+clip:dr-rio-sofa:
+  arab_people: false
+  desc: Rio and his father Nick on the sofa at home
+  hamdan: 0.0
+  people: true
+  tags:
+  - boy
+  - father
+  - family
+  - home
+  text_graphic: false
+clip:dr-rio-sofa-k:
+  arab_people: false
+  desc: Rio and his father Nick on the sofa at home
+  hamdan: 0.0
+  people: true
+  tags:
+  - boy
+  - father
+  - family
+  - home
+  text_graphic: false
+clip:dr-rio-stairs:
+  arab_people: false
+  desc: Nick helps Rio down the steps at home
+  hamdan: 0.0
+  people: true
+  tags:
+  - father
+  - boy
+  - family
+  - home
+  text_graphic: false
+clip:dr-rio-stairs-k:
+  arab_people: false
+  desc: Nick helps Rio down the steps at home
+  hamdan: 0.0
+  people: true
+  tags:
+  - father
+  - boy
+  - family
+  - home
+  text_graphic: false
+clip:dr-rio-swim:
+  arab_people: false
+  desc: Nick pulls Rio through the water in a triathlon
+  hamdan: 0.0
+  people: true
+  tags:
+  - swimming
+  - triathlon
+  - water
+  - race
+  text_graphic: false
+clip:dr-rio-swim-k:
+  arab_people: false
+  desc: Nick pulls Rio through the water in a triathlon
+  hamdan: 0.0
+  people: true
+  tags:
+  - swimming
+  - triathlon
+  - water
+  - race
+  text_graphic: false
+clip:dr-rio-t1:
+  arab_people: false
+  desc: Rio and Nick at a table, smiling
+  hamdan: 0.0
+  people: true
+  tags:
+  - rio
+  - father
+  - family
+  - happy
+  text_graphic: false
+clip:dr-rio-t1-k:
+  arab_people: false
+  desc: Rio and Nick at a table, smiling
+  hamdan: 0.0
+  people: true
+  tags:
+  - rio
+  - father
+  - family
+  - happy
+  text_graphic: false
+clip:dr-rio-t2:
+  arab_people: false
+  desc: Rio and Nick look at a race map together
+  hamdan: 0.0
+  people: true
+  tags:
+  - rio
+  - father
+  - race
+  - map
+  text_graphic: false
+clip:dr-rio-t2-k:
+  arab_people: false
+  desc: Rio and Nick look at a race map together
+  hamdan: 0.0
+  people: true
+  tags:
+  - rio
+  - father
+  - race
+  - map
+  text_graphic: false
+clip:dr-rio-t3:
+  arab_people: false
+  desc: Rio laughs with his father
+  hamdan: 0.0
+  people: true
+  tags:
+  - rio
+  - father
+  - happy
+  - family
+  text_graphic: false
+clip:dr-rio-t3-k:
+  arab_people: false
+  desc: Rio laughs with his father
+  hamdan: 0.0
+  people: true
+  tags:
+  - rio
+  - father
+  - happy
+  - family
+  text_graphic: false
+clip:dr-rio-t4:
+  arab_people: false
+  desc: Nick Watson smiles at his son
+  people: true
+  tags:
+  - nick
+  - father
+  - family
+  text_graphic: false
+clip:dr-rio-t5:
+  arab_people: false
+  desc: Rio Watson smiles
+  people: true
+  tags:
+  - rio
+  - boy
+  - happy
+  text_graphic: false
+clip:dr-rio-w1:
+  arab_people: false
+  desc: The racing chair wheel with the Team Angel Wolf logo
+  people: true
+  tags:
+  - chair
+  - team angel wolf
+  - race
+  text_graphic: false
+clip:dr-rio-w2:
+  arab_people: false
+  desc: Nick with the racing chair
+  people: true
+  tags:
+  - nick
+  - chair
+  - father
+  text_graphic: false
+clip:dr-rio-wheel:
+  arab_people: false
+  desc: The wheel of the racing chair
+  hamdan: 0.0
+  people: true
+  tags:
+  - chair
+  - wheel
+  - race
+  text_graphic: false
+clip:dr-rio-wheel-k:
+  arab_people: false
+  desc: The wheel of the racing chair
+  hamdan: 0.0
+  people: true
+  tags:
+  - chair
+  - wheel
+  - race
+  text_graphic: false
+clip:dr-sc-b1:
+  arab_people: false
+  desc: Students exercise on a school sports pitch
+  hamdan: 0.0
+  people: true
+  tags:
+  - schools
+  - children
+  - exercise
+  - healthy
+  text_graphic: false
+clip:dr-sc-b2:
+  arab_people: false
+  desc: Students practise judo at school
+  hamdan: 0.0
+  people: true
+  tags:
+  - schools
+  - children
+  - sport
+  - healthy
+  text_graphic: false
+clip:dr-sc-b3:
+  arab_people: false
+  desc: Children play football at school
+  hamdan: 0.0
+  people: true
+  tags:
+  - schools
+  - children
+  - football
+  - healthy
+  text_graphic: false
+clip:dr-sc-h1:
+  arab_people: true
+  desc: Prince Hamdan arrives at a school
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - schools
+  - visit
+  text_graphic: false
+clip:dr-sc-h2:
+  arab_people: true
+  desc: Prince Hamdan with students at a school sports day
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - schools
+  - children
+  - sport
+  text_graphic: false
+clip:dr-sc-h3:
+  arab_people: true
+  desc: Prince Hamdan cheers on a student
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - schools
+  - children
+  text_graphic: false
+clip:dr-sc-h4:
+  arab_people: true
+  desc: Close-up of Prince Hamdan at the school
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - schools
+  text_graphic: false
+clip:dr-sc-h5:
+  arab_people: true
+  desc: Prince Hamdan talks with students and teachers
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - schools
+  - children
+  - people
+  text_graphic: false
+clip:dr-sc-h6:
+  arab_people: true
+  desc: Prince Hamdan listens to a teacher
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - schools
+  - people
+  text_graphic: false
+clip:dr-sc-h7:
+  arab_people: true
+  desc: Prince Hamdan with parents and teachers
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - schools
+  - people
+  - city
+  text_graphic: false
+clip:dr-sc-h8:
+  arab_people: true
+  desc: Prince Hamdan on the school pitch
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - schools
+  - sport
+  text_graphic: false
+clip:dr-sc-h9:
+  arab_people: true
+  desc: Prince Hamdan poses with students
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - schools
+  - children
+  text_graphic: false
+clip:dr-sc-x1:
+  arab_people: true
+  desc: Prince Hamdan shakes hands at a school
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - schools
+  - people
+  text_graphic: false
+clip:dr-sc-x2:
+  arab_people: true
+  desc: Prince Hamdan with pupils at a school sports day
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - schools
+  - children
+  - people
+  text_graphic: false
+clip:dr-sc-x3:
+  arab_people: false
+  desc: Pupils exercise on mats at school
+  hamdan: 0.0
+  people: true
+  tags:
+  - schools
+  - children
+  - healthy
+  text_graphic: false
+clip:dr-sc-x4:
+  arab_people: true
+  desc: Prince Hamdan talks with teachers
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - schools
+  - people
+  text_graphic: false
+clip:dr-sc-x5:
+  arab_people: true
+  desc: Prince Hamdan in a group photo with the school
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - schools
+  - children
+  - people
+  text_graphic: false
+clip:dr-wa-c1:
+  arab_people: false
+  desc: Families and friends in the start crowd
+  hamdan: 0.0
+  people: true
+  tags:
+  - crowd
+  - families
+  - people
+  - beginners
+  - children
+  text_graphic: false
+clip:dr-wa-mus1:
+  arab_people: false
+  desc: Crowd at the start near the Museum of the Future
+  hamdan: 0.0
+  people: true
+  tags:
+  - museum
+  - crowd
+  - start
+  - route
+  - people
+  text_graphic: false
+clip:dr-wa-mus3:
+  arab_people: false
+  desc: The Museum of the Future above the crowd at the Dubai Run start
+  hamdan: 0.0
+  people: true
+  tags:
+  - museum
+  - route
+  - crowd
+  - start
+  - towers
+  text_graphic: false
+clip:dr-wa-mus4:
+  arab_people: false
+  desc: The Museum of the Future over the runners on Sheikh Zayed Road
+  hamdan: 0.0
+  people: true
+  tags:
+  - museum
+  - route
+  - crowd
+  - runners
+  text_graphic: false
+clip:dr-wa-mus5:
+  arab_people: false
+  desc: The Museum of the Future, close up, on the run route
+  people: true
+  tags:
+  - museum
+  - route
+  - towers
+  text_graphic: false
+clip:dr-wa-n1:
+  arab_people: false
+  desc: Runners gather under the Museum of the Future before sunrise
+  hamdan: 0.0
+  people: true
+  tags:
+  - museum
+  - crowd
+  - sunrise
+  - morning
+  - runners
+  text_graphic: false
+clip:dr-wa-n2:
+  arab_people: false
+  desc: The crowd moves off along the motorway in the early light
+  hamdan: 0.0
+  people: true
+  tags:
+  - crowd
+  - runners
+  - motorway
+  - morning
+  - road
+  text_graphic: false
+clip:dr-wa-tow1:
+  arab_people: false
+  desc: Runners fill Sheikh Zayed Road between the towers at sunrise
+  hamdan: 0.0
+  people: true
+  tags:
+  - crowd
+  - runners
+  - road
+  - towers
+  - morning
+  text_graphic: false
+clip:dr-wa-tow2:
+  arab_people: false
+  desc: Thousands of runners walk and jog between the towers
+  hamdan: 0.0
+  people: true
+  tags:
+  - crowd
+  - runners
+  - towers
+  - road
+  - people
+  text_graphic: false
+clip:dr-wa-tow3:
+  arab_people: false
+  desc: Runners take phone pictures among the towers
+  hamdan: 0.0
+  people: true
+  tags:
+  - crowd
+  - towers
+  - people
+  - phone
+  - morning
+  text_graphic: false
+clip:dr-wx-c1:
+  arab_people: false
+  desc: Runners stream along Sheikh Zayed Road
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - road
+  - crowd
+  - morning
+  text_graphic: false
+clip:dr-wx-c2:
+  arab_people: false
+  desc: The closed motorway full of runners
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - road
+  - motorway
+  - crowd
+  text_graphic: false
+clip:dr-wx-c3:
+  arab_people: false
+  desc: Runners in the morning crowd on Sheikh Zayed Road
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - crowd
+  - morning
+  - road
+  text_graphic: false
+clip:dr-wx-c4:
+  arab_people: false
+  desc: People running together in the morning
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - people
+  - morning
+  - crowd
+  text_graphic: false
+clip:dr-wx-c5:
+  arab_people: false
+  desc: Runners on the road in the morning light
+  people: true
+  tags:
+  - runners
+  - road
+  - morning
+  - running
+  text_graphic: false
+clip:dr-wx-h1:
+  arab_people: true
+  desc: Prince Hamdan running in the middle of the crowd at a Dubai Run
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - crowd
+  - runners
+  - run
+  - selfies
+  text_graphic: false
+clip:dr-wx-h2:
+  arab_people: true
+  desc: Prince Hamdan runs with the crowd on Sheikh Zayed Road
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - crowd
+  - runners
+  - road
+  text_graphic: false
+clip:dr-wx-h3:
+  arab_people: true
+  desc: Runners around Prince Hamdan hold up their phones
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - crowd
+  - selfies
+  - people
+  text_graphic: false
+clip:dr-wx-h4:
+  arab_people: true
+  desc: Prince Hamdan in the crowd of runners
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - crowd
+  - runners
+  text_graphic: false
+clip:dr-wx-h5:
+  arab_people: true
+  desc: Prince Hamdan keeps running among the people
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - crowd
+  - people
+  - run
+  text_graphic: false
+clip:dr-ys-bikes:
+  arab_people: false
+  desc: Team Angel Wolf on the bike leg of a race
+  hamdan: 0.0
+  people: true
+  tags:
+  - cycling
+  - race
+  - team
+  text_graphic: false
+clip:dr-ys-burj:
+  arab_people: false
+  desc: Running past the Burj Khalifa with the racing chair
+  hamdan: 0.0
+  people: true
+  tags:
+  - running
+  - race
+  - chair
+  - burj
+  text_graphic: false
+clip:dr-ys-burj-k:
+  arab_people: false
+  desc: Running past the Burj Khalifa with the racing chair
+  hamdan: 0.0
+  people: true
+  tags:
+  - running
+  - race
+  - chair
+  - burj
+  text_graphic: false
+clip:dr-ys-hand:
+  arab_people: true
+  desc: Prince Hamdan reaches out to Rio
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - boy
+  - chair
+  text_graphic: false
+clip:dr-ys-hand-k:
+  arab_people: true
+  desc: Prince Hamdan reaches out to Rio
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - boy
+  - chair
+  text_graphic: false
+clip:dr-ys-pool:
+  arab_people: false
+  desc: A triathlon venue by the water
+  hamdan: 0.0
+  people: true
+  tags:
+  - triathlon
+  - water
+  - race
+  text_graphic: false
+clip:dr-ys-pool-k:
+  arab_people: false
+  desc: A triathlon venue by the water
+  hamdan: 0.0
+  people: true
+  tags:
+  - triathlon
+  - water
+  - race
+  text_graphic: false
+clip:dr-ys-push:
+  arab_people: true
+  desc: Prince Hamdan beside Rio's racing chair on Sheikh Zayed Road
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - chair
+  - boy
+  - road
+  text_graphic: false
+clip:dr-ys-push-k:
+  arab_people: true
+  desc: Prince Hamdan beside Rio's racing chair on Sheikh Zayed Road
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - chair
+  - boy
+  - road
+  text_graphic: false
+clip:dr-ys-run:
+  arab_people: false
+  desc: Runners set off on the Dubai Run
+  hamdan: 0.0
+  people: true
+  tags:
+  - runners
+  - race
+  - running
+  - start
+  text_graphic: false
+clip:dr-ys-sea2:
+  arab_people: false
+  desc: Open-water swim in the sea
+  hamdan: 0.0
+  people: true
+  tags:
+  - swimming
+  - sea
+  - triathlon
+  text_graphic: false
+clip:dr-ys-sea2-k:
+  arab_people: false
+  desc: Open-water swim in the sea
+  hamdan: 0.0
+  people: true
+  tags:
+  - swimming
+  - sea
+  - triathlon
+  text_graphic: false
+clip:dr-ys-sea3:
+  arab_people: false
+  desc: A swimmer far out at sea
+  hamdan: 0.0
+  people: true
+  tags:
+  - swimming
+  - sea
+  - race
+  text_graphic: false
+clip:dr-ys-sea3-k:
+  arab_people: false
+  desc: A swimmer far out at sea
+  hamdan: 0.0
+  people: true
+  tags:
+  - swimming
+  - sea
+  - race
+  text_graphic: false
+clip:dr-ys-shoes:
+  arab_people: false
+  desc: Running shoes ready for the next race
+  hamdan: 0.0
+  people: true
+  tags:
+  - running
+  - shoes
+  - race
+  text_graphic: false
+clip:dr-ys-shoes-k:
+  arab_people: false
+  desc: Running shoes ready for the next race
+  hamdan: 0.0
+  people: true
+  tags:
+  - running
+  - shoes
+  - race
+  text_graphic: false
+clip:dr-ys-sofa2:
+  arab_people: false
+  desc: Nick talks about Rio's races
+  hamdan: 0.0
+  people: true
+  tags:
+  - father
+  - family
+  - race
+  text_graphic: false
+clip:dr-ys-sofa2-k:
+  arab_people: false
+  desc: Nick talks about Rio's races
+  hamdan: 0.0
+  people: true
+  tags:
+  - father
+  - family
+  - race
+  text_graphic: false
+clip:dr-ys-st1:
+  arab_people: true
+  desc: Prince Hamdan comes over to Rio's racing chair before the start
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - chair
+  - boy
+  - start
+  text_graphic: false
+clip:dr-ys-st1-k:
+  arab_people: true
+  desc: Prince Hamdan comes over to Rio's racing chair before the start
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - chair
+  - boy
+  - start
+  text_graphic: false
+clip:dr-ys-st2:
+  arab_people: true
+  desc: Prince Hamdan greets Rio at the start line
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - boy
+  - chair
+  - start
+  text_graphic: false
+clip:dr-ys-st2-k:
+  arab_people: true
+  desc: Prince Hamdan greets Rio at the start line
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - boy
+  - chair
+  - start
+  text_graphic: false
+clip:dr-ys-st3:
+  arab_people: true
+  desc: Prince Hamdan with the Watson family among the runners
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - family
+  - runners
+  - crowd
+  text_graphic: false
+clip:dr-ys-st3-k:
+  arab_people: true
+  desc: Prince Hamdan with the Watson family among the runners
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - family
+  - runners
+  - crowd
+  text_graphic: false
+clip:dr-ys-st4:
+  arab_people: true
+  desc: Prince Hamdan smiles as he talks with the family
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - family
+  - crowd
+  text_graphic: false
+clip:dr-ys-st4-k:
+  arab_people: true
+  desc: Prince Hamdan smiles as he talks with the family
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - family
+  - crowd
+  text_graphic: false
+clip:dr-ys-st5:
+  arab_people: true
+  desc: Prince Hamdan and Nick shake hands before the run
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - father
+  - crowd
+  - start
+  text_graphic: false
+clip:dr-ys-st5-k:
+  arab_people: true
+  desc: Prince Hamdan and Nick shake hands before the run
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - father
+  - crowd
+  - start
+  text_graphic: false
+clip:dr-ys-tia1:
+  arab_people: false
+  desc: Rio's sister Tia smiles
+  hamdan: 0.0
+  people: true
+  tags:
+  - sister
+  - family
+  - happy
+  text_graphic: false
+clip:dr-ys-tia1-k:
+  arab_people: false
+  desc: Rio's sister Tia smiles
+  hamdan: 0.0
+  people: true
+  tags:
+  - sister
+  - family
+  - happy
+  text_graphic: false
+clip:dr-ys-tia2:
+  arab_people: false
+  desc: Tia laughs at home
+  hamdan: 0.0
+  people: true
+  tags:
+  - sister
+  - family
+  - happy
+  text_graphic: false
+clip:dr-ys-tia2-k:
+  arab_people: false
+  desc: Tia laughs at home
+  hamdan: 0.0
+  people: true
+  tags:
+  - sister
+  - family
+  - happy
+  text_graphic: false
+clip:dr-ys-tia3:
+  arab_people: false
+  desc: Rio's sister Tia at home
+  hamdan: 0.0
+  people: true
+  tags:
+  - sister
+  - family
+  - home
+  text_graphic: false
+clip:dr-ys-tia3-k:
+  arab_people: false
+  desc: Rio's sister Tia at home
+  hamdan: 0.0
+  people: true
+  tags:
+  - sister
+  - family
+  - home
+  text_graphic: false
 clip:dubairun:
   arab_people: false
   desc: A large crowd of runners in a race.
@@ -8605,6 +11720,26 @@ clip:windsor-stand:
   - wall
   - window
   text_graphic: false
+sb-10036179:
+  arab_people: null
+  desc: Feet of runners on a city road
+  faces: false
+  people: true
+  tags:
+  - beginners
+  - children
+  - fast
+  - feet
+  - fitness
+  - grandparents
+  - legs
+  - marathon
+  - road
+  - run
+  - runners
+  - sport
+  - welcome
+  text_graphic: false
 sb-10257510:
   arab_people: null
   desc: Gold necklaces and bracelets in the window of a jewellery shop
@@ -8786,6 +11921,18 @@ sb-10907554:
   - structure
   - underwater
   text_graphic: false
+sb-10951085:
+  arab_people: null
+  desc: A hand on the wheel of a wheelchair
+  faces: false
+  people: true
+  tags:
+  - chair
+  - wheelchair
+  - movement
+  - hand
+  - people
+  text_graphic: false
 sb-10951590:
   arab_people: false
   desc: Hands placing food items in a box
@@ -8828,6 +11975,7 @@ sb-10987349:
   people: false
   tags:
   - bay
+  - best
   - boat
   - bridge
   - buildings
@@ -8836,9 +11984,12 @@ sb-10987349:
   - dunes
   - horizon
   - land
+  - morning
   - sand
   - skyline
+  - timing
   - water
+  - weather
   text_graphic: false
 sb-10995966:
   arab_people: null
@@ -8851,9 +12002,13 @@ sb-10995966:
   - city
   - dusk
   - horizon
+  - picture
   - reflection
   - skyline
+  - story
+  - subscribe
   - sun
+  - sunset
   - water
   text_graphic: false
 sb-11009803:
@@ -8865,6 +12020,17 @@ sb-11009803:
   - sea
   - turtle
   - water
+  text_graphic: false
+sb-11014802:
+  arab_people: null
+  desc: Aerial top view of a football stadium
+  people: false
+  tags:
+  - stadium
+  - football
+  - aerial
+  - biggest
+  - world
   text_graphic: false
 sb-11019133:
   arab_people: null
@@ -8878,7 +12044,10 @@ sb-11019133:
   - furniture
   - palm trees
   - promenade
+  - race
+  - sea
   - skyline
+  - swimming
   - umbrellas
   - water
   text_graphic: false
@@ -8966,6 +12135,18 @@ sb-11058820:
   - storefront
   - woman
   text_graphic: false
+sb-11062821:
+  arab_people: null
+  desc: A wheelchair user rolling along a path, seen from behind
+  faces: false
+  people: true
+  tags:
+  - wheelchair
+  - wheelchairs
+  - welcome
+  - everyone
+  - people
+  text_graphic: false
 sb-11064084:
   arab_people: null
   desc: A falcon soars against a blue sky.
@@ -8981,6 +12162,19 @@ sb-11064084:
   - skyline
   - soaring
   - wildlife
+  text_graphic: false
+sb-11080496:
+  arab_people: null
+  desc: Aerial view of Sheikh Zayed Road by day, the Museum of the Future beside it
+  people: false
+  tags:
+  - road
+  - lanes
+  - towers
+  - traffic
+  - cars
+  - museum
+  - big
   text_graphic: false
 sb-11081347:
   arab_people: true
@@ -9029,6 +12223,30 @@ sb-11084370:
   - sand
   - silhouette
   - travel
+  text_graphic: false
+sb-11084664:
+  arab_people: null
+  desc: Sheikh Zayed Road at night, a river of car lights between the towers
+  people: false
+  tags:
+  - road
+  - lanes
+  - cars
+  - traffic
+  - night
+  - towers
+  - roar
+  text_graphic: false
+sb-11084678:
+  arab_people: null
+  desc: Aerial view of cars on the Sheikh Zayed Road interchange
+  people: false
+  tags:
+  - road
+  - traffic
+  - cars
+  - motorway
+  - routes
   text_graphic: false
 sb-11087451:
   arab_people: null
@@ -9112,6 +12330,19 @@ sb-11113070:
   - sofa
   - table
   - woman
+  text_graphic: false
+sb-11118269:
+  arab_people: null
+  desc: A swimmer training in open water
+  faces: false
+  people: true
+  tags:
+  - swimming
+  - swim
+  - sport
+  - water
+  - move
+  - people
   text_graphic: false
 sb-111207:
   arab_people: null
@@ -9564,6 +12795,21 @@ sb-346822753:
   - doors
   - medical
   text_graphic: false
+sb-346956929:
+  arab_people: null
+  desc: Legs of a man and woman running on a city road
+  faces: false
+  people: true
+  tags:
+  - leader
+  - legs
+  - people
+  - race
+  - road
+  - run
+  - runners
+  - speeches
+  text_graphic: false
 sb-347023546:
   arab_people: null
   desc: Clean empty hospital hallway
@@ -9640,6 +12886,20 @@ sb-347092385:
   - doors
   - medical
   text_graphic: false
+sb-347154784:
+  arab_people: null
+  desc: Women in an outdoor fitness class in a park in the morning
+  people: false
+  tags:
+  - fitness
+  - class
+  - park
+  - workout
+  - free
+  - exercise
+  - activity
+  - yoga
+  text_graphic: false
 sb-347179641:
   arab_people: null
   desc: Dubai skyline at night from above
@@ -9687,6 +12947,19 @@ sb-347201677:
   - structure
   - trees
   - white
+  text_graphic: false
+sb-347203500:
+  arab_people: null
+  desc: Aerial top-down view of a crowd of runners and their shadows
+  faces: false
+  people: true
+  tags:
+  - crowd
+  - runners
+  - road
+  - aerial
+  - people
+  - thousand
   text_graphic: false
 sb-347211169:
   arab_people: null
@@ -9791,6 +13064,33 @@ sb-347462199:
   - sky
   - flight
   text_graphic: false
+sb-347509013:
+  arab_people: null
+  desc: Close-up of a road cyclist pedalling
+  faces: false
+  people: true
+  tags:
+  - cycling
+  - races
+  - race
+  - road
+  - kilometres
+  - sport
+  - people
+  text_graphic: false
+sb-347528116:
+  arab_people: null
+  desc: Aerial top-down view of race runners on a road
+  faces: false
+  people: true
+  tags:
+  - runners
+  - road
+  - crowd
+  - aerial
+  - record
+  - people
+  text_graphic: false
 sb-347538938:
   arab_people: null
   desc: Close-up of colorful coral underwater.
@@ -9852,6 +13152,8 @@ sb-347651741:
   - sea
   - skyline
   - sunlight
+  - swimming
+  - triathlons
   - water
   - waves
   text_graphic: false
@@ -9903,7 +13205,10 @@ sb-347725320:
   - sea
   - skyline
   - sun
+  - sunset
+  - towers
   - water
+  - weekend
   text_graphic: false
 sb-347725326:
   arab_people: null
@@ -9913,8 +13218,13 @@ sb-347725326:
   - beach
   - buildings
   - cars
+  - city
+  - light
+  - morning
   - people
+  - picture
   - pools
+  - remember
   - sand
   - skyline
   - sun
@@ -9947,6 +13257,18 @@ sb-347739689:
   - sky
   - clouds
   - flight
+  text_graphic: false
+sb-347765991:
+  arab_people: null
+  desc: Hands on the wheels of a sports wheelchair
+  faces: false
+  people: true
+  tags:
+  - chair
+  - wheelchair
+  - movement
+  - sport
+  - people
   text_graphic: false
 sb-347793151:
   arab_people: false
@@ -10097,6 +13419,20 @@ sb-348460476:
   - underwater
   - water
   text_graphic: false
+sb-348467411:
+  arab_people: null
+  desc: Group of runners crossing the start line of a city race
+  faces: false
+  people: true
+  tags:
+  - runners
+  - start
+  - race
+  - crowd
+  - kilometre
+  - routes
+  - breakfast
+  text_graphic: false
 sb-348481046:
   arab_people: null
   desc: Diwali oil lamps glowing among marigold flowers, the festival of lights
@@ -10108,6 +13444,19 @@ sb-348481046:
   - indian
   - lamps
   - lights
+  text_graphic: false
+sb-348483272:
+  arab_people: null
+  desc: Blurred silhouettes of people walking together at sunset
+  faces: false
+  people: true
+  tags:
+  - crowd
+  - people
+  - walking
+  - together
+  - front
+  - people
   text_graphic: false
 sb-348498441:
   arab_people: null
@@ -10357,11 +13706,16 @@ sb-349101766:
   people: false
   tags:
   - burj khalifa
+  - cars
   - city
   - dubai
   - highways
+  - lanes
+  - light
   - lights
   - night
+  - road
+  - silent
   - skyline
   - skyscrapers
   - traffic
@@ -10374,13 +13728,16 @@ sb-349101770:
   tags:
   - bridge
   - buildings
+  - burj
   - burj khalifa
   - city
   - dubai
   - lights
   - night
   - road
+  - route
   - skyline
+  - towers
   - water
   text_graphic: false
 sb-349101814:
@@ -10623,12 +13980,16 @@ sb-351909990:
   people: true
   tags:
   - coffee
+  - council
+  - decisions
   - desk
   - ghutra
   - hands
+  - job
   - kandura
   - khimyar
   - laptop
+  - minister
   - office
   - papers
   - plant
@@ -10652,6 +14013,18 @@ sb-351921952:
   - sunset
   - white
   - wind
+  text_graphic: false
+sb-351921964:
+  arab_people: null
+  desc: The Museum of the Future in Dubai by day, with a metro train
+  people: false
+  tags:
+  - museum
+  - dubai
+  - road
+  - city
+  - towers
+  - track
   text_graphic: false
 sb-351922236:
   arab_people: null
@@ -10677,11 +14050,14 @@ sb-351922312:
   - bridge
   - cars
   - city
+  - glass
   - highway
+  - lanes
   - road
   - skyline
   - skyscrapers
   - street
+  - towers
   - traffic
   - urban
   text_graphic: false
@@ -10743,6 +14119,18 @@ sb-351941112:
   - sweater
   - wall
   - woman
+  text_graphic: false
+sb-351997801:
+  arab_people: null
+  desc: Setting a timer on a smartwatch
+  faces: false
+  people: true
+  tags:
+  - minutes
+  - timer
+  - days
+  - habit
+  - people
   text_graphic: false
 sb-352008772:
   arab_people: null
@@ -11046,6 +14434,20 @@ sb-352328686:
   - water
   - yellow fish
   text_graphic: false
+sb-352348339:
+  arab_people: null
+  desc: Urban race runners on a city road, slow motion
+  faces: false
+  people: true
+  tags:
+  - runners
+  - road
+  - race
+  - run
+  - crowd
+  - routes
+  - kilometre
+  text_graphic: false
 sb-352360950:
   arab_people: null
   desc: Close-up of a white car's red taillights.
@@ -11165,12 +14567,15 @@ sb-352540690:
   tags:
   - coastline
   - greenery
+  - kilometres
   - ocean
   - rocky
   - sea
   - shore
   - skyline
   - speedboat
+  - swimming
+  - triathlons
   - wake
   - water
   text_graphic: false
@@ -11396,6 +14801,19 @@ sb-352777031:
   - water
   - yellow
   text_graphic: false
+sb-352777944:
+  arab_people: null
+  desc: Silhouette of a father playing with his son at sunset
+  faces: false
+  people: true
+  tags:
+  - father
+  - son
+  - family
+  - happy
+  - moment
+  - people
+  text_graphic: false
 sb-352782708:
   arab_people: false
   desc: A man in a green vest stands on a wooden boat.
@@ -11590,12 +15008,15 @@ sb-352835520:
   - building
   - city
   - dubai
+  - first
   - lights
   - night
+  - road
   - skyline
   - skyscraper
   - street
   - tower
+  - towers
   - urban
   text_graphic: false
 sb-352867715:
@@ -11712,6 +15133,19 @@ sb-352940869:
   - table
   - wood
   text_graphic: false
+sb-352943838:
+  arab_people: null
+  desc: A child on his father shoulders watching the sunset, from behind
+  faces: false
+  people: true
+  tags:
+  - shoulders
+  - children
+  - parents
+  - family
+  - father
+  - people
+  text_graphic: false
 sb-352958539:
   arab_people: null
   desc: Golden sand dunes ripple under the sun's warm light, revealing faint tracks that hint at a journey through the desert.
@@ -11736,10 +15170,14 @@ sb-352965901:
   - book
   - building
   - computer
+  - council
+  - decisions
   - desk
   - gulf
   - hand
+  - job
   - kandura
+  - minister
   - office
   - paper
   - skyline
@@ -11792,13 +15230,17 @@ sb-353304362:
   - bridge
   - buildings
   - city
+  - healthy
   - horizon
   - land
+  - place
   - sea
   - skyline
   - structure
+  - towers
   - view
   - water
+  - world
   text_graphic: false
 sb-353304412:
   arab_people: null
@@ -11806,14 +15248,19 @@ sb-353304412:
   people: false
   tags:
   - buildings
+  - burj
   - burj khalifa
+  - city
   - city lights
   - dubai
   - dusk
   - horizon
+  - leader
   - night
   - skyline
+  - speeches
   - tower
+  - towers
   - urban
   text_graphic: false
 sb-353338222:
@@ -12002,6 +15449,19 @@ sb-353692272:
   - hands
   - money
   - patterned cloth
+  text_graphic: false
+sb-353709650:
+  arab_people: null
+  desc: A hand pushes the wheel of a wheelchair along the pavement
+  faces: false
+  people: true
+  tags:
+  - chair
+  - wheelchair
+  - push
+  - body
+  - racing
+  - people
   text_graphic: false
 sb-353710591:
   arab_people: null
@@ -12427,6 +15887,24 @@ sb-354020041:
   - passenger
   - flight
   text_graphic: false
+sb-354112264:
+  arab_people: null
+  desc: Silhouettes of people running at sunset
+  faces: false
+  people: true
+  tags:
+  - free
+  - leaders
+  - moment
+  - motorway
+  - people
+  - price
+  - run
+  - runners
+  - sunrise
+  - sunset
+  - weekend
+  text_graphic: false
 sb-354132842:
   arab_people: null
   desc: Falcon perched on a wooden perch
@@ -12522,6 +16000,19 @@ sb-354132877:
   - sky
   - wildlife
   - wings
+  text_graphic: false
+sb-354138843:
+  arab_people: null
+  desc: Silhouettes of race runners at sunrise
+  faces: false
+  people: true
+  tags:
+  - runners
+  - sunrise
+  - run
+  - morning
+  - weekend
+  - motorway
   text_graphic: false
 sb-354144458:
   arab_people: false
@@ -12736,6 +16227,22 @@ sb-354338561:
   - sky
   - trees
   text_graphic: false
+sb-354348327:
+  arab_people: null
+  desc: People jogging on a city street
+  faces: false
+  people: true
+  tags:
+  - people
+  - jogging
+  - running
+  - city
+  - street
+  - road
+  - crowd
+  - pandemic
+  - distance
+  text_graphic: false
 sb-354385089:
   arab_people: null
   desc: Close-up of a horse's eye
@@ -12790,14 +16297,18 @@ sb-354386405:
   people: false
   tags:
   - beach
+  - beaches
   - buildings
   - city
   - dunes
   - marina
+  - morning
   - sand
   - skyline
   - sunrise
+  - timing
   - water
+  - weather
   - yachts
   text_graphic: false
 sb-354420882:
@@ -12893,12 +16404,27 @@ sb-354540780:
   - construction
   - crane
   - dubai
+  - hospitals
   - metal
+  - roads
+  - schools
   - skyline
   - skyscraper
   - steel
   - structure
   - tower
+  - towers
+  text_graphic: false
+sb-354565636:
+  arab_people: null
+  desc: The Museum of the Future in Dubai
+  people: false
+  tags:
+  - museum
+  - route
+  - dubai
+  - city
+  - start
   text_graphic: false
 sb-354565921:
   arab_people: null
@@ -12950,10 +16476,13 @@ sb-354567891:
   - dubai
   - glass
   - harbour
+  - healthy
   - modern
+  - place
   - skyline
   - skyscraper
   - towers
+  - world
   text_graphic: false
 sb-354568401:
   arab_people: null
@@ -12988,15 +16517,19 @@ sb-354571730:
   people: false
   tags:
   - buildings
+  - burj
   - burj khalifa
   - city
   - dubai
   - dusk
   - horizon
+  - morning
   - silhouette
   - skyline
   - sunset
+  - timing
   - water
+  - weather
   text_graphic: false
 sb-354573172:
   arab_people: null
@@ -13008,7 +16541,9 @@ sb-354573172:
   - city
   - dubai
   - highway
+  - motorway
   - road
+  - routes
   - skyline
   - skyscraper
   - sunset
@@ -13087,10 +16622,14 @@ sb-354766892:
   - bridge
   - city
   - highways
+  - lanes
   - road
   - skyline
   - skyscrapers
   - sunlight
+  - towers
+  - track
+  - traffic
   - urban
   text_graphic: false
 sb-354773916:
@@ -13121,9 +16660,14 @@ sb-354774717:
   - dunes
   - horizon
   - minaret
+  - morning
   - sea
   - skyline
+  - timing
   - water
+  - weather
+  - weeks
+  - year
   text_graphic: false
 sb-354774774:
   arab_people: null
@@ -13157,6 +16701,18 @@ sb-354774885:
   - skyscraper
   - structure
   text_graphic: false
+sb-354775394:
+  arab_people: null
+  desc: Top view of a quiet Sheikh Zayed Road in the haze
+  people: false
+  tags:
+  - road
+  - lanes
+  - silent
+  - light
+  - motorway
+  - morning
+  text_graphic: false
 sb-354776114:
   arab_people: null
   desc: A night view of the Dubai skyline featuring illuminated skyscrapers and a construction crane.
@@ -13164,13 +16720,17 @@ sb-354776114:
   tags:
   - building
   - city
+  - construction
   - crane
   - dubai
+  - law
   - lights
   - night
+  - roads
   - skyline
   - skyscraper
   - structure
+  - towers
   - urban
   text_graphic: false
 sb-354777004:
@@ -13182,12 +16742,16 @@ sb-354777004:
   - car
   - city
   - dubai
+  - event
   - highway
   - lights
   - night
+  - road
   - skyline
   - skyscraper
+  - sleeps
   - street
+  - traffic
   text_graphic: false
 sb-354793153:
   arab_people: null
@@ -13198,6 +16762,7 @@ sb-354793153:
   - buildings
   - car
   - city
+  - lanes
   - lights
   - neon
   - night
@@ -13205,6 +16770,8 @@ sb-354793153:
   - sky
   - street
   - tower
+  - towers
+  - traffic
   - water
   text_graphic: false
 sb-354811310:
@@ -13235,11 +16802,14 @@ sb-354821268:
   people: false
   tags:
   - architecture
+  - burj
   - burj khalifa
   - city
   - clouds
+  - dubai mall
   - glass
   - horizon
+  - route
   - sky
   - skyscrapers
   - steel
@@ -13326,20 +16896,16 @@ sb-354971579:
   - yacht
   text_graphic: false
 sb-354985879:
-  arab_people: false
-  desc: Hand holding a small black object
+  arab_people: null
+  desc: Someone scrolls a social media feed on a phone
+  faces: false
   people: true
   tags:
-  - arm
-  - clothing
-  - fabric
-  - fingers
-  - hand
-  - object
-  - palm
-  - skin
-  - thumb
-  - wrist
+  - phone
+  - instagram
+  - post
+  - social
+  - people
   text_graphic: false
 sb-354987983:
   arab_people: null
@@ -13487,6 +17053,18 @@ sb-355090632:
   - sand
   - sky
   - sun
+  text_graphic: false
+sb-355098187:
+  arab_people: null
+  desc: Sports wheelchair wheels in motion
+  faces: false
+  people: true
+  tags:
+  - chair
+  - wheelchair
+  - movement
+  - racing
+  - people
   text_graphic: false
 sb-355116256:
   arab_people: null
@@ -13837,6 +17415,44 @@ sb-358534621:
   - white
   - yacht
   text_graphic: false
+sb-358879518:
+  arab_people: null
+  desc: Blurred runners from above on dark asphalt
+  faces: false
+  people: true
+  tags:
+  - runners
+  - road
+  - crowd
+  - run
+  - distance
+  text_graphic: false
+sb-358879525:
+  arab_people: null
+  desc: Blurred top-down shot of runners crossing the asphalt
+  faces: false
+  people: true
+  tags:
+  - runners
+  - road
+  - race
+  - kilometres
+  - running
+  text_graphic: false
+sb-358904454:
+  arab_people: null
+  desc: Open-water swimmers in a triathlon at sunrise
+  faces: false
+  people: true
+  tags:
+  - swimming
+  - triathlon
+  - triathlons
+  - race
+  - sunrise
+  - water
+  - people
+  text_graphic: false
 sb-3666285:
   arab_people: null
   desc: The red sandstone walls of the Red Fort in Delhi
@@ -13847,6 +17463,16 @@ sb-3666285:
   - history
   - red fort
   - walls
+  text_graphic: false
+sb-3712714:
+  arab_people: null
+  desc: Aerial shot moving down onto a football stadium pitch
+  people: false
+  tags:
+  - stadium
+  - football
+  - aerial
+  - fill
   text_graphic: false
 sb-440038:
   arab_people: null
@@ -13998,6 +17624,20 @@ sb-567261:
   - street
   - tea
   text_graphic: false
+sb-5921125:
+  arab_people: null
+  desc: A runner starts the timer on his smartwatch
+  faces: false
+  people: true
+  tags:
+  - minutes
+  - timer
+  - health
+  - habit
+  - run
+  - day
+  - people
+  text_graphic: false
 sb-59411:
   arab_people: null
   desc: rusty anchor on a boat
@@ -14114,6 +17754,39 @@ sb-6852421:
   - sunset
   - wing
   - woman
+  text_graphic: false
+sb-7042551:
+  arab_people: null
+  desc: Legs of runners in a city race, slow motion
+  faces: false
+  people: true
+  tags:
+  - belong
+  - crowd
+  - leader
+  - legs
+  - marathon
+  - race
+  - road
+  - run
+  - runners
+  - sports clothes
+  text_graphic: false
+sb-7042764:
+  arab_people: null
+  desc: Runners legs in a city race, slow motion
+  faces: false
+  people: true
+  tags:
+  - belong
+  - fast
+  - kilometre
+  - legs
+  - people
+  - race
+  - road
+  - run
+  - runners
   text_graphic: false
 sb-7066785:
   arab_people: null
@@ -14323,4 +17996,26 @@ sb-9849919:
   - metal
   - storage
   - wealth
+  text_graphic: false
+clip:dr-ys-hand-k2:
+  arab_people: true
+  desc: Prince Hamdan reaches out to Rio
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - boy
+  - chair
+  text_graphic: false
+clip:dr-h-ys1-k2:
+  arab_people: true
+  desc: Prince Hamdan bends down beside Rio in his racing chair at the start line
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - boy
+  - chair
+  - start
+  - runners
   text_graphic: false

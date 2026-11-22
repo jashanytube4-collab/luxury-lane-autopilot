@@ -4144,3 +4144,2499 @@ clips:
     crop: [0.12, 0.16, 0.74, 0.78]
     note: cropped copy of oztr-m401 without channel logo/caption (keepbusy 2026-11-22)
     credit: Order of Zayed II ceremony for the flydubai crew, via The Tribune (2026)
+  dr-h-lz1:
+    match: 'crown prince|runners|road|boy|chair|start|front|bent|stopped|crowd|dubai run|story|numbers|idea|leaders|prince'
+    yt: 'LZxSDl8DsGM'
+    parts:
+    - - 1.1
+      - 2.9
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: The first Dubai Run on Sheikh Zayed Road, Dubai Media Office
+  dr-h-gj0:
+    match: 'crown prince|runners|road|boy|chair|start|front|bent|stopped|crowd|dubai run|story|numbers|idea|leaders|prince'
+    yt: 'GJIQrwJQHj4'
+    parts:
+    - - 0.2
+      - 3.3
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Fitness Challenge opening day, Dubai Media Office
+  dr-h-gj8:
+    match: 'crown prince|runners|road|boy|chair|start|front|bent|stopped|crowd|dubai run|story|numbers|idea|leaders|prince'
+    yt: 'GJIQrwJQHj4'
+    parts:
+    - - 32.2
+      - 34.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Fitness Challenge opening day, Dubai Media Office
+  dr-h-ys1:
+    match: 'crown prince|runners|road|boy|chair|start|front|bent|stopped|crowd|dubai run|story|numbers|idea|leaders|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 11.0
+      - 14.0
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-h-ys2:
+    match: 'crown prince|runners|road|boy|chair|start|front|bent|stopped|crowd|dubai run|story|numbers|idea|leaders|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 14.3
+      - 17.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-h-ys3:
+    match: 'crown prince|runners|road|boy|chair|start|front|bent|stopped|crowd|dubai run|story|numbers|idea|leaders|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 17.8
+      - 21.0
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-h-ys4:
+    match: 'crown prince|runners|road|boy|chair|start|front|bent|stopped|crowd|dubai run|story|numbers|idea|leaders|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 21.3
+      - 24.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-h-ys5:
+    match: 'crown prince|runners|road|boy|chair|start|front|bent|stopped|crowd|dubai run|story|numbers|idea|leaders|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 24.8
+      - 28.0
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-h-gj25:
+    match: 'crown prince|runners|road|boy|chair|start|front|bent|stopped|crowd|dubai run|story|numbers|idea|leaders|prince'
+    yt: 'GJIQrwJQHj4'
+    parts:
+    - - 88.8
+      - 92.2
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Fitness Challenge opening day, Dubai Media Office
+  dr-h-ys6:
+    match: 'crown prince|runners|road|boy|chair|start|front|bent|stopped|crowd|dubai run|story|numbers|idea|leaders|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 28.3
+      - 31.4
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-h-gj34:
+    match: 'crown prince|runners|road|boy|chair|start|front|bent|stopped|crowd|dubai run|story|numbers|idea|leaders|prince'
+    yt: 'GJIQrwJQHj4'
+    parts:
+    - - 124.3
+      - 127.4
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Fitness Challenge opening day, Dubai Media Office
+  dr-h-gj38:
+    match: 'crown prince|runners|road|boy|chair|start|front|bent|stopped|crowd|dubai run|story|numbers|idea|leaders|prince'
+    yt: 'GJIQrwJQHj4'
+    parts:
+    - - 135.9
+      - 138.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Fitness Challenge opening day, Dubai Media Office
+  dr-h-gj63:
+    match: 'crown prince|runners|road|boy|chair|start|front|bent|stopped|crowd|dubai run|story|numbers|idea|leaders|prince'
+    yt: 'GJIQrwJQHj4'
+    parts:
+    - - 204.2
+      - 207.2
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Fitness Challenge opening day, Dubai Media Office
+  dr-h-gj67:
+    match: 'crown prince|runners|road|boy|chair|start|front|bent|stopped|crowd|dubai run|story|numbers|idea|leaders|prince'
+    yt: 'GJIQrwJQHj4'
+    parts:
+    - - 217.2
+      - 219.6
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Fitness Challenge opening day, Dubai Media Office
+  dr-gj-bike:
+    match: 'idea|thirty|minutes|days|challenge|fitness|activity|health|habit|sport|walking|swimming|football|yoga|cycling|free|classes|workouts|parks|beaches|city|event|month|campaign|marathon|gym|diet|move'
+    yt: 'GJIQrwJQHj4'
+    parts:
+    - - 16.4
+      - 20.3
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Fitness Challenge opening day, Dubai Media Office
+  dr-gj-crowd1:
+    match: 'idea|thirty|minutes|days|challenge|fitness|activity|health|habit|sport|walking|swimming|football|yoga|cycling|free|classes|workouts|parks|beaches|city|event|month|campaign|marathon|gym|diet|move'
+    yt: 'GJIQrwJQHj4'
+    parts:
+    - - 35.0
+      - 38.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Fitness Challenge opening day, Dubai Media Office
+  dr-gj-walk1:
+    match: 'idea|thirty|minutes|days|challenge|fitness|activity|health|habit|sport|walking|swimming|football|yoga|cycling|free|classes|workouts|parks|beaches|city|event|month|campaign|marathon|gym|diet|move'
+    yt: 'GJIQrwJQHj4'
+    parts:
+    - - 74.9
+      - 77.9
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Fitness Challenge opening day, Dubai Media Office
+  dr-gj-aero:
+    match: 'idea|thirty|minutes|days|challenge|fitness|activity|health|habit|sport|walking|swimming|football|yoga|cycling|free|classes|workouts|parks|beaches|city|event|month|campaign|marathon|gym|diet|move'
+    yt: 'GJIQrwJQHj4'
+    parts:
+    - - 131.0
+      - 133.3
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Fitness Challenge opening day, Dubai Media Office
+  dr-gj-push:
+    match: 'idea|thirty|minutes|days|challenge|fitness|activity|health|habit|sport|walking|swimming|football|yoga|cycling|free|classes|workouts|parks|beaches|city|event|month|campaign|marathon|gym|diet|move'
+    yt: 'GJIQrwJQHj4'
+    parts:
+    - - 147.3
+      - 150.1
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Fitness Challenge opening day, Dubai Media Office
+  dr-gj-group45:
+    match: 'idea|thirty|minutes|days|challenge|fitness|activity|health|habit|sport|walking|swimming|football|yoga|cycling|free|classes|workouts|parks|beaches|city|event|month|campaign|marathon|gym|diet|move'
+    yt: 'GJIQrwJQHj4'
+    parts:
+    - - 153.5
+      - 155.4
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Fitness Challenge opening day, Dubai Media Office
+  dr-gj-white:
+    match: 'idea|thirty|minutes|days|challenge|fitness|activity|health|habit|sport|walking|swimming|football|yoga|cycling|free|classes|workouts|parks|beaches|city|event|month|campaign|marathon|gym|diet|move'
+    yt: 'GJIQrwJQHj4'
+    parts:
+    - - 186.1
+      - 187.9
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Fitness Challenge opening day, Dubai Media Office
+  dr-gj-tug:
+    match: 'idea|thirty|minutes|days|challenge|fitness|activity|health|habit|sport|walking|swimming|football|yoga|cycling|free|classes|workouts|parks|beaches|city|event|month|campaign|marathon|gym|diet|move'
+    yt: 'GJIQrwJQHj4'
+    parts:
+    - - 207.5
+      - 209.6
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Fitness Challenge opening day, Dubai Media Office
+  dr-gj-field:
+    match: 'idea|thirty|minutes|days|challenge|fitness|activity|health|habit|sport|walking|swimming|football|yoga|cycling|free|classes|workouts|parks|beaches|city|event|month|campaign|marathon|gym|diet|move'
+    yt: 'GJIQrwJQHj4'
+    parts:
+    - - 212.4
+      - 214.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Fitness Challenge opening day, Dubai Media Office
+  dr-gj-kids:
+    match: 'idea|thirty|minutes|days|challenge|fitness|activity|health|habit|sport|walking|swimming|football|yoga|cycling|free|classes|workouts|parks|beaches|city|event|month|campaign|marathon|gym|diet|move'
+    yt: 'GJIQrwJQHj4'
+    parts:
+    - - 222.6
+      - 224.7
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Fitness Challenge opening day, Dubai Media Office
+  dr-gj-aerial:
+    match: 'idea|thirty|minutes|days|challenge|fitness|activity|health|habit|sport|walking|swimming|football|yoga|cycling|free|classes|workouts|parks|beaches|city|event|month|campaign|marathon|gym|diet|move'
+    yt: 'GJIQrwJQHj4'
+    parts:
+    - - 240.9
+      - 243.8
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Fitness Challenge opening day, Dubai Media Office
+  dr-lz-a:
+    match: 'road|lanes|towers|traffic|track|running|ran|crowd|people|seventy thousand|routes|kilometre|families|runners|motorway|breakfast|selfies|morning|first|dubai run|prince'
+    yt: 'LZxSDl8DsGM'
+    parts:
+    - - 7.1
+      - 9.2
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: The first Dubai Run on Sheikh Zayed Road, Dubai Media Office
+  dr-lz-b:
+    match: 'road|lanes|towers|traffic|track|running|ran|crowd|people|seventy thousand|routes|kilometre|families|runners|motorway|breakfast|selfies|morning|first|dubai run|prince'
+    yt: 'LZxSDl8DsGM'
+    parts:
+    - - 9.5
+      - 12.4
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: The first Dubai Run on Sheikh Zayed Road, Dubai Media Office
+  dr-lz-c:
+    match: 'road|lanes|towers|traffic|track|running|ran|crowd|people|seventy thousand|routes|kilometre|families|runners|motorway|breakfast|selfies|morning|first|dubai run|prince'
+    yt: 'LZxSDl8DsGM'
+    parts:
+    - - 20.0
+      - 23.3
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: The first Dubai Run on Sheikh Zayed Road, Dubai Media Office
+  dr-lz-d:
+    match: 'road|lanes|towers|traffic|track|running|ran|crowd|people|seventy thousand|routes|kilometre|families|runners|motorway|breakfast|selfies|morning|first|dubai run|prince'
+    yt: 'LZxSDl8DsGM'
+    parts:
+    - - 29.3
+      - 31.6
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: The first Dubai Run on Sheikh Zayed Road, Dubai Media Office
+  dr-lz-e:
+    match: 'road|lanes|towers|traffic|track|running|ran|crowd|people|seventy thousand|routes|kilometre|families|runners|motorway|breakfast|selfies|morning|first|dubai run|prince'
+    yt: 'LZxSDl8DsGM'
+    parts:
+    - - 31.9
+      - 34.2
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: The first Dubai Run on Sheikh Zayed Road, Dubai Media Office
+  dr-lz-f:
+    match: 'road|lanes|towers|traffic|track|running|ran|crowd|people|seventy thousand|routes|kilometre|families|runners|motorway|breakfast|selfies|morning|first|dubai run|prince'
+    yt: 'LZxSDl8DsGM'
+    parts:
+    - - 44.0
+      - 47.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: The first Dubai Run on Sheikh Zayed Road, Dubai Media Office
+  dr-rio-a:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 51.5
+      - 54.6
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-door:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 87.0
+      - 90.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-stairs:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 91.0
+      - 94.0
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-c:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 94.4
+      - 97.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-lift:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 97.7
+      - 100.8
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-d:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 100.9
+      - 104.0
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-close:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 104.4
+      - 107.9
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-e:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 108.0
+      - 111.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-wheel:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 111.7
+      - 115.2
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-path:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 119.5
+      - 122.8
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-f:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 129.2
+      - 131.3
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-g:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 131.6
+      - 134.3
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-sofa:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 188.0
+      - 191.0
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-sea:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 200.0
+      - 203.0
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-bike:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 212.0
+      - 215.0
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-desert:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 215.5
+      - 218.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-rain:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 218.8
+      - 221.8
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-swim:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 221.9
+      - 224.8
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-beach:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 225.0
+      - 227.8
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-dw-a:
+    match: 'crowd|tradition|bigger|pandemic|routes|distance|road|runners|largest|run|families|strollers|children|shoulders|grandparents|walking|windscreen|people|mood|together|chair|front'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 126.0
+      - 129.0
+    crop: [0, 0.09, 0.91, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-dw-b:
+    match: 'crowd|tradition|bigger|pandemic|routes|distance|road|runners|largest|run|families|strollers|children|shoulders|grandparents|walking|windscreen|people|mood|together|chair|front'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 140.5
+      - 143.5
+    crop: [0, 0.09, 0.91, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-dw-c:
+    match: 'crowd|tradition|bigger|pandemic|routes|distance|road|runners|largest|run|families|strollers|children|shoulders|grandparents|walking|windscreen|people|mood|together|chair|front'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 154.0
+      - 157.0
+    crop: [0, 0.09, 0.91, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-dw-d:
+    match: 'crowd|tradition|bigger|pandemic|routes|distance|road|runners|largest|run|families|strollers|children|shoulders|grandparents|walking|windscreen|people|mood|together|chair|front'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 168.0
+      - 171.0
+    crop: [0, 0.09, 0.91, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-dw-e:
+    match: 'crowd|tradition|bigger|pandemic|routes|distance|road|runners|largest|run|families|strollers|children|shoulders|grandparents|walking|windscreen|people|mood|together|chair|front'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 196.0
+      - 199.0
+    crop: [0, 0.09, 0.91, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-dw-f:
+    match: 'crowd|tradition|bigger|pandemic|routes|distance|road|runners|largest|run|families|strollers|children|shoulders|grandparents|walking|windscreen|people|mood|together|chair|front'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 224.0
+      - 227.0
+    crop: [0, 0.09, 0.91, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-dw-g:
+    match: 'crowd|tradition|bigger|pandemic|routes|distance|road|runners|largest|run|families|strollers|children|shoulders|grandparents|walking|windscreen|people|mood|together|chair|front'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 238.0
+      - 241.0
+    crop: [0, 0.09, 0.91, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-dw-h:
+    match: 'crowd|tradition|bigger|pandemic|routes|distance|road|runners|largest|run|families|strollers|children|shoulders|grandparents|walking|windscreen|people|mood|together|chair|front'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 266.0
+      - 269.0
+    crop: [0, 0.09, 0.91, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-dw-i:
+    match: 'crowd|tradition|bigger|pandemic|routes|distance|road|runners|largest|run|families|strollers|children|shoulders|grandparents|walking|windscreen|people|mood|together|chair|front'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 294.0
+      - 297.0
+    crop: [0, 0.09, 0.91, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-dw-j:
+    match: 'crowd|tradition|bigger|pandemic|routes|distance|road|runners|largest|run|families|strollers|children|shoulders|grandparents|walking|windscreen|people|mood|together|chair|front'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 322.0
+      - 325.0
+    crop: [0, 0.09, 0.91, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-dw-k:
+    match: 'crowd|tradition|bigger|pandemic|routes|distance|road|runners|largest|run|families|strollers|children|shoulders|grandparents|walking|windscreen|people|mood|together|chair|front'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 350.0
+      - 353.0
+    crop: [0, 0.09, 0.91, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-dw-l:
+    match: 'crowd|tradition|bigger|pandemic|routes|distance|road|runners|largest|run|families|strollers|children|shoulders|grandparents|walking|windscreen|people|mood|together|chair|front'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 378.0
+      - 381.0
+    crop: [0, 0.09, 0.91, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-dw-m:
+    match: 'crowd|tradition|bigger|pandemic|routes|distance|road|runners|largest|run|families|strollers|children|shoulders|grandparents|walking|windscreen|people|mood|together|chair|front'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 476.0
+      - 479.0
+    crop: [0, 0.09, 0.91, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-dw-start1:
+    match: 'rio|tia|sister|push|chair|handles|prince|crown prince|road|runners|kilometre|run|leader|humble|instagram|moment|race|honest|comments|spotted|asked|yes'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 60.0
+      - 63.5
+    crop: [0.4, 0, 1, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-dw-start2:
+    match: 'rio|tia|sister|push|chair|handles|prince|crown prince|road|runners|kilometre|run|leader|humble|instagram|moment|race|honest|comments|spotted|asked|yes'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 64.0
+      - 67.5
+    crop: [0.4, 0, 1, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-dw-rio1:
+    match: 'rio|tia|sister|push|chair|handles|prince|crown prince|road|runners|kilometre|run|leader|humble|instagram|moment|race|honest|comments|spotted|asked|yes'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 74.0
+      - 77.8
+    crop: [0.4, 0, 1, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-dw-rio2:
+    match: 'rio|tia|sister|push|chair|handles|prince|crown prince|road|runners|kilometre|run|leader|humble|instagram|moment|race|honest|comments|spotted|asked|yes'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 78.0
+      - 81.5
+    crop: [0.38, 0, 1, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-dw-rio3:
+    match: 'rio|tia|sister|push|chair|handles|prince|crown prince|road|runners|kilometre|run|leader|humble|instagram|moment|race|honest|comments|spotted|asked|yes'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 81.7
+      - 84.6
+    crop: [0.36, 0, 1, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-dw-rio4:
+    match: 'rio|tia|sister|push|chair|handles|prince|crown prince|road|runners|kilometre|run|leader|humble|instagram|moment|race|honest|comments|spotted|asked|yes'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 85.0
+      - 88.0
+    crop: [0.36, 0, 1, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-dw-rio5:
+    match: 'rio|tia|sister|push|chair|handles|prince|crown prince|road|runners|kilometre|run|leader|humble|instagram|moment|race|honest|comments|spotted|asked|yes'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 88.2
+      - 91.5
+    crop: [0.36, 0, 1, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-dw-go:
+    match: 'rio|tia|sister|push|chair|handles|prince|crown prince|road|runners|kilometre|run|leader|humble|instagram|moment|race|honest|comments|spotted|asked|yes'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 96.0
+      - 99.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-ah-a:
+    match: 'numbers|climbing|thousand|people|runners|record|road|crowd|post|stadium|thanked|inspiring|times|seventy'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 28.5
+      - 32.0
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-b:
+    match: 'numbers|climbing|thousand|people|runners|record|road|crowd|post|stadium|thanked|inspiring|times|seventy'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 42.5
+      - 45.0
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-c:
+    match: 'numbers|climbing|thousand|people|runners|record|road|crowd|post|stadium|thanked|inspiring|times|seventy'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 84.0
+      - 87.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-d:
+    match: 'numbers|climbing|thousand|people|runners|record|road|crowd|post|stadium|thanked|inspiring|times|seventy'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 245.5
+      - 248.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-e:
+    match: 'numbers|climbing|thousand|people|runners|record|road|crowd|post|stadium|thanked|inspiring|times|seventy'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 340.0
+      - 343.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-f:
+    match: 'numbers|climbing|thousand|people|runners|record|road|crowd|post|stadium|thanked|inspiring|times|seventy'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 365.0
+      - 368.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-g:
+    match: 'numbers|climbing|thousand|people|runners|record|road|crowd|post|stadium|thanked|inspiring|times|seventy'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 393.0
+      - 396.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-h:
+    match: 'numbers|climbing|thousand|people|runners|record|road|crowd|post|stadium|thanked|inspiring|times|seventy'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 430.0
+      - 433.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-i:
+    match: 'numbers|climbing|thousand|people|runners|record|road|crowd|post|stadium|thanked|inspiring|times|seventy'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 490.0
+      - 493.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-j:
+    match: 'numbers|climbing|thousand|people|runners|record|road|crowd|post|stadium|thanked|inspiring|times|seventy'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 530.0
+      - 533.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-k:
+    match: 'numbers|climbing|thousand|people|runners|record|road|crowd|post|stadium|thanked|inspiring|times|seventy'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 620.0
+      - 623.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-l:
+    match: 'numbers|climbing|thousand|people|runners|record|road|crowd|post|stadium|thanked|inspiring|times|seventy'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 640.0
+      - 643.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-m:
+    match: 'sunrise|weekend|motorway|run|free|price|route|museum|towers|dubai mall|burj|fast|children|beginners|grandparents|wheelchairs|welcome|leader|speeches|sports clothes|crowd|morning|weather|timing|belong|people'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 100.0
+      - 103.0
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-n:
+    match: 'sunrise|weekend|motorway|run|free|price|route|museum|towers|dubai mall|burj|fast|children|beginners|grandparents|wheelchairs|welcome|leader|speeches|sports clothes|crowd|morning|weather|timing|belong|people'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 266.0
+      - 269.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-o:
+    match: 'sunrise|weekend|motorway|run|free|price|route|museum|towers|dubai mall|burj|fast|children|beginners|grandparents|wheelchairs|welcome|leader|speeches|sports clothes|crowd|morning|weather|timing|belong|people'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 560.0
+      - 563.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-p:
+    match: 'sunrise|weekend|motorway|run|free|price|route|museum|towers|dubai mall|burj|fast|children|beginners|grandparents|wheelchairs|welcome|leader|speeches|sports clothes|crowd|morning|weather|timing|belong|people'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 296.0
+      - 299.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-q:
+    match: 'sunrise|weekend|motorway|run|free|price|route|museum|towers|dubai mall|burj|fast|children|beginners|grandparents|wheelchairs|welcome|leader|speeches|sports clothes|crowd|morning|weather|timing|belong|people'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 600.0
+      - 603.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-r:
+    match: 'sunrise|weekend|motorway|run|free|price|route|museum|towers|dubai mall|burj|fast|children|beginners|grandparents|wheelchairs|welcome|leader|speeches|sports clothes|crowd|morning|weather|timing|belong|people'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 503.0
+      - 506.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-gj-g28:
+    match: 'job|deputy|minister|defence|council|decisions|roads|schools|hospitals|city|healthy|towers|law|chair|road|prince'
+    yt: 'GJIQrwJQHj4'
+    parts:
+    - - 99.0
+      - 102.0
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Fitness Challenge opening day, Dubai Media Office
+  dr-ys-push:
+    match: 'job|deputy|minister|defence|council|decisions|roads|schools|hospitals|city|healthy|towers|law|chair|road|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 173.5
+      - 176.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-ah-s:
+    match: 'picture|road|silent|morning|light|runners|cars|front|request|thirty|boy|chair|kindness|action|run|comments|subscribe|story|prince'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 70.0
+      - 73.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-t:
+    match: 'picture|road|silent|morning|light|runners|cars|front|request|thirty|boy|chair|kindness|action|run|comments|subscribe|story|prince'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 252.8
+      - 256.0
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-gj-end:
+    match: 'picture|road|silent|morning|light|runners|cars|front|request|thirty|boy|chair|kindness|action|run|comments|subscribe|story|prince'
+    yt: 'GJIQrwJQHj4'
+    parts:
+    - - 141.2
+      - 143.8
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Fitness Challenge opening day, Dubai Media Office
+  dr-rio-end:
+    match: 'picture|road|silent|morning|light|runners|cars|front|request|thirty|boy|chair|kindness|action|run|comments|subscribe|story|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 140.2
+      - 143.0
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-end2:
+    match: 'picture|road|silent|morning|light|runners|cars|front|request|thirty|boy|chair|kindness|action|run|comments|subscribe|story|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 194.0
+      - 197.0
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-ah-u:
+    match: 'picture|road|silent|morning|light|runners|cars|front|request|thirty|boy|chair|kindness|action|run|comments|subscribe|story|prince'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 445.0
+      - 448.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-h1:
+    match: 'crown prince|runners|road|boy|chair|start|front|bent|stopped|crowd|dubai run|story|numbers|idea|leaders|prince'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 14.0
+      - 17.4
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-h2:
+    match: 'crown prince|runners|road|boy|chair|start|front|bent|stopped|crowd|dubai run|story|numbers|idea|leaders|prince'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 3.4
+      - 6.8
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-h3:
+    match: 'crown prince|runners|road|boy|chair|start|front|bent|stopped|crowd|dubai run|story|numbers|idea|leaders|prince'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 56.5
+      - 59.9
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-gj-s10:
+    match: 'idea|thirty|minutes|days|challenge|fitness|activity|health|habit|sport|walking|swimming|football|yoga|cycling|free|classes|workouts|parks|beaches|city|event|month|campaign|marathon|gym|diet|move'
+    yt: 'GJIQrwJQHj4'
+    parts:
+    - - 41.3
+      - 44.1
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Fitness Challenge opening day, Dubai Media Office
+  dr-gj-s12:
+    match: 'idea|thirty|minutes|days|challenge|fitness|activity|health|habit|sport|walking|swimming|football|yoga|cycling|free|classes|workouts|parks|beaches|city|event|month|campaign|marathon|gym|diet|move'
+    yt: 'GJIQrwJQHj4'
+    parts:
+    - - 46.9
+      - 48.8
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Fitness Challenge opening day, Dubai Media Office
+  dr-gj-s21:
+    match: 'idea|thirty|minutes|days|challenge|fitness|activity|health|habit|sport|walking|swimming|football|yoga|cycling|free|classes|workouts|parks|beaches|city|event|month|campaign|marathon|gym|diet|move'
+    yt: 'GJIQrwJQHj4'
+    parts:
+    - - 80.8
+      - 82.8
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Fitness Challenge opening day, Dubai Media Office
+  dr-gj-s22:
+    match: 'idea|thirty|minutes|days|challenge|fitness|activity|health|habit|sport|walking|swimming|football|yoga|cycling|free|classes|workouts|parks|beaches|city|event|month|campaign|marathon|gym|diet|move'
+    yt: 'GJIQrwJQHj4'
+    parts:
+    - - 83.2
+      - 85.4
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Fitness Challenge opening day, Dubai Media Office
+  dr-gj-s26:
+    match: 'idea|thirty|minutes|days|challenge|fitness|activity|health|habit|sport|walking|swimming|football|yoga|cycling|free|classes|workouts|parks|beaches|city|event|month|campaign|marathon|gym|diet|move'
+    yt: 'GJIQrwJQHj4'
+    parts:
+    - - 96.5
+      - 98.7
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Fitness Challenge opening day, Dubai Media Office
+  dr-gj-s28:
+    match: 'idea|thirty|minutes|days|challenge|fitness|activity|health|habit|sport|walking|swimming|football|yoga|cycling|free|classes|workouts|parks|beaches|city|event|month|campaign|marathon|gym|diet|move'
+    yt: 'GJIQrwJQHj4'
+    parts:
+    - - 102.3
+      - 105.6
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Fitness Challenge opening day, Dubai Media Office
+  dr-gj-s37:
+    match: 'idea|thirty|minutes|days|challenge|fitness|activity|health|habit|sport|walking|swimming|football|yoga|cycling|free|classes|workouts|parks|beaches|city|event|month|campaign|marathon|gym|diet|move'
+    yt: 'GJIQrwJQHj4'
+    parts:
+    - - 133.7
+      - 135.6
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Fitness Challenge opening day, Dubai Media Office
+  dr-gj-s39:
+    match: 'idea|thirty|minutes|days|challenge|fitness|activity|health|habit|sport|walking|swimming|football|yoga|cycling|free|classes|workouts|parks|beaches|city|event|month|campaign|marathon|gym|diet|move'
+    yt: 'GJIQrwJQHj4'
+    parts:
+    - - 138.9
+      - 140.9
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Fitness Challenge opening day, Dubai Media Office
+  dr-gj-s43:
+    match: 'idea|thirty|minutes|days|challenge|fitness|activity|health|habit|sport|walking|swimming|football|yoga|cycling|free|classes|workouts|parks|beaches|city|event|month|campaign|marathon|gym|diet|move'
+    yt: 'GJIQrwJQHj4'
+    parts:
+    - - 150.5
+      - 153.1
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Fitness Challenge opening day, Dubai Media Office
+  dr-gj-sky:
+    match: 'idea|thirty|minutes|days|challenge|fitness|activity|health|habit|sport|walking|swimming|football|yoga|cycling|free|classes|workouts|parks|beaches|city|event|month|campaign|marathon|gym|diet|move'
+    yt: 'GJIQrwJQHj4'
+    parts:
+    - - 61.5
+      - 64.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Fitness Challenge opening day, Dubai Media Office
+  dr-ko-a:
+    match: 'road|lanes|towers|traffic|track|running|ran|crowd|people|seventy thousand|routes|kilometre|families|runners|motorway|breakfast|selfies|morning|first|dubai run|prince'
+    yt: 'kOn0pLpweOA'
+    parts:
+    - - 30.0
+      - 33.0
+    crop: [0.06, 0, 0.94, 0.88]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Akhbar Al Emarat
+  dr-ko-b:
+    match: 'road|lanes|towers|traffic|track|running|ran|crowd|people|seventy thousand|routes|kilometre|families|runners|motorway|breakfast|selfies|morning|first|dubai run|prince'
+    yt: 'kOn0pLpweOA'
+    parts:
+    - - 40.0
+      - 43.0
+    crop: [0.06, 0, 0.94, 0.88]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Akhbar Al Emarat
+  dr-ko-c:
+    match: 'road|lanes|towers|traffic|track|running|ran|crowd|people|seventy thousand|routes|kilometre|families|runners|motorway|breakfast|selfies|morning|first|dubai run|prince'
+    yt: 'kOn0pLpweOA'
+    parts:
+    - - 25.0
+      - 28.0
+    crop: [0.06, 0, 0.94, 0.88]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Akhbar Al Emarat
+  dr-ys-st1:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 167.0
+      - 170.0
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-ys-st2:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 170.2
+      - 173.2
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-ys-st3:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 176.6
+      - 179.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-ys-st4:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 179.6
+      - 182.6
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-ys-st5:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 182.8
+      - 185.8
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-ys-run:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 143.5
+      - 146.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-ys-sofa2:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 191.2
+      - 194.0
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-ys-sea2:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 203.2
+      - 206.0
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-ys-sea3:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 209.2
+      - 212.0
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-ys-burj:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 54.7
+      - 56.8
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-ys-bikes:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 74.6
+      - 76.6
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-ys-hand:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 185.9
+      - 187.9
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-ys-pool:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 228.0
+      - 230.8
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-ys-shoes:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 251.2
+      - 254.0
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-dw-n:
+    match: 'crowd|tradition|bigger|pandemic|routes|distance|road|runners|largest|run|families|strollers|children|shoulders|grandparents|walking|windscreen|people|mood|together|chair|front'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 210.0
+      - 213.0
+    crop: [0, 0.09, 0.91, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-dw-o:
+    match: 'crowd|tradition|bigger|pandemic|routes|distance|road|runners|largest|run|families|strollers|children|shoulders|grandparents|walking|windscreen|people|mood|together|chair|front'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 252.0
+      - 255.0
+    crop: [0, 0.09, 0.91, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-dw-p:
+    match: 'crowd|tradition|bigger|pandemic|routes|distance|road|runners|largest|run|families|strollers|children|shoulders|grandparents|walking|windscreen|people|mood|together|chair|front'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 280.0
+      - 283.0
+    crop: [0, 0.09, 0.91, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-dw-q:
+    match: 'crowd|tradition|bigger|pandemic|routes|distance|road|runners|largest|run|families|strollers|children|shoulders|grandparents|walking|windscreen|people|mood|together|chair|front'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 308.0
+      - 311.0
+    crop: [0, 0.09, 0.91, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-dw-r:
+    match: 'crowd|tradition|bigger|pandemic|routes|distance|road|runners|largest|run|families|strollers|children|shoulders|grandparents|walking|windscreen|people|mood|together|chair|front'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 336.0
+      - 339.0
+    crop: [0, 0.09, 0.91, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-dw-s:
+    match: 'crowd|tradition|bigger|pandemic|routes|distance|road|runners|largest|run|families|strollers|children|shoulders|grandparents|walking|windscreen|people|mood|together|chair|front'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 364.0
+      - 367.0
+    crop: [0, 0.09, 0.91, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-dw-t:
+    match: 'crowd|tradition|bigger|pandemic|routes|distance|road|runners|largest|run|families|strollers|children|shoulders|grandparents|walking|windscreen|people|mood|together|chair|front'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 490.0
+      - 493.0
+    crop: [0, 0.09, 0.91, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-ys-tia1:
+    match: 'rio|tia|sister|push|chair|handles|prince|crown prince|road|runners|kilometre|run|leader|humble|instagram|moment|race|honest|comments|spotted|asked|yes'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 242.0
+      - 245.0
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-ys-tia2:
+    match: 'rio|tia|sister|push|chair|handles|prince|crown prince|road|runners|kilometre|run|leader|humble|instagram|moment|race|honest|comments|spotted|asked|yes'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 245.5
+      - 248.0
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-dw-start3:
+    match: 'rio|tia|sister|push|chair|handles|prince|crown prince|road|runners|kilometre|run|leader|humble|instagram|moment|race|honest|comments|spotted|asked|yes'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 68.0
+      - 71.5
+    crop: [0.4, 0, 1, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-ko-kids:
+    match: 'rio|tia|sister|push|chair|handles|prince|crown prince|road|runners|kilometre|run|leader|humble|instagram|moment|race|honest|comments|spotted|asked|yes'
+    yt: 'kOn0pLpweOA'
+    parts:
+    - - 85.5
+      - 88.5
+    crop: [0.06, 0, 0.94, 0.88]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Akhbar Al Emarat
+  dr-ko-crowd:
+    match: 'rio|tia|sister|push|chair|handles|prince|crown prince|road|runners|kilometre|run|leader|humble|instagram|moment|race|honest|comments|spotted|asked|yes'
+    yt: 'kOn0pLpweOA'
+    parts:
+    - - 92.5
+      - 95.5
+    crop: [0.06, 0, 0.94, 0.88]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Akhbar Al Emarat
+  dr-ah-v1:
+    match: 'numbers|climbing|thousand|people|runners|record|road|crowd|post|stadium|thanked|inspiring|times|seventy'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 323.0
+      - 326.4
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-v2:
+    match: 'numbers|climbing|thousand|people|runners|record|road|crowd|post|stadium|thanked|inspiring|times|seventy'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 406.0
+      - 409.4
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-v3:
+    match: 'numbers|climbing|thousand|people|runners|record|road|crowd|post|stadium|thanked|inspiring|times|seventy'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 420.0
+      - 423.4
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-v4:
+    match: 'numbers|climbing|thousand|people|runners|record|road|crowd|post|stadium|thanked|inspiring|times|seventy'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 462.0
+      - 465.4
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-v5:
+    match: 'numbers|climbing|thousand|people|runners|record|road|crowd|post|stadium|thanked|inspiring|times|seventy'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 476.0
+      - 479.4
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-v6:
+    match: 'numbers|climbing|thousand|people|runners|record|road|crowd|post|stadium|thanked|inspiring|times|seventy'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 517.0
+      - 520.4
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-v7:
+    match: 'numbers|climbing|thousand|people|runners|record|road|crowd|post|stadium|thanked|inspiring|times|seventy'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 545.0
+      - 548.4
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-w1:
+    match: 'sunrise|weekend|motorway|run|free|price|route|museum|towers|dubai mall|burj|fast|children|beginners|grandparents|wheelchairs|welcome|leader|speeches|sports clothes|crowd|morning|weather|timing|belong|people'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 136.0
+      - 139.4
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-w2:
+    match: 'sunrise|weekend|motorway|run|free|price|route|museum|towers|dubai mall|burj|fast|children|beginners|grandparents|wheelchairs|welcome|leader|speeches|sports clothes|crowd|morning|weather|timing|belong|people'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 182.0
+      - 185.4
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-w3:
+    match: 'sunrise|weekend|motorway|run|free|price|route|museum|towers|dubai mall|burj|fast|children|beginners|grandparents|wheelchairs|welcome|leader|speeches|sports clothes|crowd|morning|weather|timing|belong|people'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 220.0
+      - 223.4
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-w4:
+    match: 'sunrise|weekend|motorway|run|free|price|route|museum|towers|dubai mall|burj|fast|children|beginners|grandparents|wheelchairs|welcome|leader|speeches|sports clothes|crowd|morning|weather|timing|belong|people'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 286.0
+      - 289.4
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-w5:
+    match: 'sunrise|weekend|motorway|run|free|price|route|museum|towers|dubai mall|burj|fast|children|beginners|grandparents|wheelchairs|welcome|leader|speeches|sports clothes|crowd|morning|weather|timing|belong|people'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 310.0
+      - 313.4
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-w6:
+    match: 'sunrise|weekend|motorway|run|free|price|route|museum|towers|dubai mall|burj|fast|children|beginners|grandparents|wheelchairs|welcome|leader|speeches|sports clothes|crowd|morning|weather|timing|belong|people'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 580.0
+      - 583.4
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-w7:
+    match: 'sunrise|weekend|motorway|run|free|price|route|museum|towers|dubai mall|burj|fast|children|beginners|grandparents|wheelchairs|welcome|leader|speeches|sports clothes|crowd|morning|weather|timing|belong|people'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 655.0
+      - 658.4
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-gj-s30:
+    match: 'job|deputy|minister|defence|council|decisions|roads|schools|hospitals|city|healthy|towers|law|chair|road|prince'
+    yt: 'GJIQrwJQHj4'
+    parts:
+    - - 109.3
+      - 112.6
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Fitness Challenge opening day, Dubai Media Office
+  dr-ah-z1:
+    match: 'picture|road|silent|morning|light|runners|cars|front|request|thirty|boy|chair|kindness|action|run|comments|subscribe|story|prince'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 76.0
+      - 79.4
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-z2:
+    match: 'picture|road|silent|morning|light|runners|cars|front|request|thirty|boy|chair|kindness|action|run|comments|subscribe|story|prince'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 130.0
+      - 133.4
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-z3:
+    match: 'picture|road|silent|morning|light|runners|cars|front|request|thirty|boy|chair|kindness|action|run|comments|subscribe|story|prince'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 154.7
+      - 158.1
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-z4:
+    match: 'picture|road|silent|morning|light|runners|cars|front|request|thirty|boy|chair|kindness|action|run|comments|subscribe|story|prince'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 171.7
+      - 175.1
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-z5:
+    match: 'picture|road|silent|morning|light|runners|cars|front|request|thirty|boy|chair|kindness|action|run|comments|subscribe|story|prince'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 198.0
+      - 201.4
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-z6:
+    match: 'picture|road|silent|morning|light|runners|cars|front|request|thirty|boy|chair|kindness|action|run|comments|subscribe|story|prince'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 230.0
+      - 233.4
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-z7:
+    match: 'picture|road|silent|morning|light|runners|cars|front|request|thirty|boy|chair|kindness|action|run|comments|subscribe|story|prince'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 590.0
+      - 593.4
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-z8:
+    match: 'picture|road|silent|morning|light|runners|cars|front|request|thirty|boy|chair|kindness|action|run|comments|subscribe|story|prince'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 610.0
+      - 613.4
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-r1:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 120.0
+      - 123.4
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-r2:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 162.0
+      - 165.4
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-r3:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 236.5
+      - 239.9
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-h-ys7:
+    match: 'crown prince|runners|road|boy|chair|start|front|bent|stopped|crowd|dubai run|story|numbers|idea|leaders|prince|weekend|cars'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 31.8
+      - 35.2
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-ys-tia3:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince|talk'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 248.2
+      - 251.0
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-ko-d:
+    match: 'crowd|tradition|bigger|pandemic|routes|distance|road|runners|largest|run|families|strollers|children|shoulders|grandparents|walking|windscreen|people|mood|together|media office'
+    yt: 'kOn0pLpweOA'
+    parts:
+    - - 50.2
+      - 52.8
+    crop: [0.06, 0, 0.94, 0.88]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Akhbar Al Emarat
+  dr-ko-e:
+    match: 'crowd|tradition|bigger|pandemic|routes|distance|road|runners|largest|run|families|strollers|children|shoulders|grandparents|walking|windscreen|people|mood|together|media office'
+    yt: 'kOn0pLpweOA'
+    parts:
+    - - 53.1
+      - 55.9
+    crop: [0.06, 0, 0.94, 0.88]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Akhbar Al Emarat
+  dr-ko-f:
+    match: 'crowd|tradition|bigger|pandemic|routes|distance|road|runners|largest|run|families|strollers|children|shoulders|grandparents|walking|windscreen|people|mood|together|media office'
+    yt: 'kOn0pLpweOA'
+    parts:
+    - - 56.3
+      - 60.0
+    crop: [0.06, 0, 0.94, 0.88]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Akhbar Al Emarat
+  dr-ko-g:
+    match: 'crowd|tradition|bigger|pandemic|routes|distance|road|runners|largest|run|families|strollers|children|shoulders|grandparents|walking|windscreen|people|mood|together|media office'
+    yt: 'kOn0pLpweOA'
+    parts:
+    - - 61.1
+      - 64.4
+    crop: [0.06, 0, 0.94, 0.88]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Akhbar Al Emarat
+  dr-ko-h:
+    match: 'crowd|tradition|bigger|pandemic|routes|distance|road|runners|largest|run|families|strollers|children|shoulders|grandparents|walking|windscreen|people|mood|together|media office'
+    yt: 'kOn0pLpweOA'
+    parts:
+    - - 64.8
+      - 67.1
+    crop: [0.06, 0, 0.94, 0.88]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Akhbar Al Emarat
+  dr-ko-i:
+    match: 'crowd|tradition|bigger|pandemic|routes|distance|road|runners|largest|run|families|strollers|children|shoulders|grandparents|walking|windscreen|people|mood|together|media office'
+    yt: 'kOn0pLpweOA'
+    parts:
+    - - 67.4
+      - 70.3
+    crop: [0.06, 0, 0.94, 0.88]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Akhbar Al Emarat
+  dr-ko-j:
+    match: 'crowd|tradition|bigger|pandemic|routes|distance|road|runners|largest|run|families|strollers|children|shoulders|grandparents|walking|windscreen|people|mood|together|media office'
+    yt: 'kOn0pLpweOA'
+    parts:
+    - - 70.7
+      - 73.8
+    crop: [0.06, 0, 0.94, 0.88]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Akhbar Al Emarat
+  dr-ko-k:
+    match: 'crowd|tradition|bigger|pandemic|routes|distance|road|runners|largest|run|families|strollers|children|shoulders|grandparents|walking|windscreen|people|mood|together|media office'
+    yt: 'kOn0pLpweOA'
+    parts:
+    - - 75.9
+      - 79.2
+    crop: [0.06, 0, 0.94, 0.88]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Akhbar Al Emarat
+  dr-ko-l:
+    match: 'crowd|tradition|bigger|pandemic|routes|distance|road|runners|largest|run|families|strollers|children|shoulders|grandparents|walking|windscreen|people|mood|together|media office'
+    yt: 'kOn0pLpweOA'
+    parts:
+    - - 79.6
+      - 82.0
+    crop: [0.06, 0, 0.94, 0.88]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Akhbar Al Emarat
+  dr-ko-m:
+    match: 'crowd|tradition|bigger|pandemic|routes|distance|road|runners|largest|run|families|strollers|children|shoulders|grandparents|walking|windscreen|people|mood|together|media office'
+    yt: 'kOn0pLpweOA'
+    parts:
+    - - 82.3
+      - 84.1
+    crop: [0.06, 0, 0.94, 0.88]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Akhbar Al Emarat
+  dr-ko-n:
+    match: 'crowd|tradition|bigger|pandemic|routes|distance|road|runners|largest|run|families|strollers|children|shoulders|grandparents|walking|windscreen|people|mood|together|media office'
+    yt: 'kOn0pLpweOA'
+    parts:
+    - - 90.0
+      - 92.2
+    crop: [0.06, 0, 0.94, 0.88]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Akhbar Al Emarat
+  dr-ko-o:
+    match: 'crowd|tradition|bigger|pandemic|routes|distance|road|runners|largest|run|families|strollers|children|shoulders|grandparents|walking|windscreen|people|mood|together|media office'
+    yt: 'kOn0pLpweOA'
+    parts:
+    - - 98.0
+      - 100.7
+    crop: [0.06, 0, 0.94, 0.88]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Akhbar Al Emarat
+  dr-ko-p:
+    match: 'crowd|tradition|bigger|pandemic|routes|distance|road|runners|largest|run|families|strollers|children|shoulders|grandparents|walking|windscreen|people|mood|together|media office'
+    yt: 'kOn0pLpweOA'
+    parts:
+    - - 101.1
+      - 104.0
+    crop: [0.06, 0, 0.94, 0.88]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Akhbar Al Emarat
+  dr-ko-q:
+    match: 'crowd|tradition|bigger|pandemic|routes|distance|road|runners|largest|run|families|strollers|children|shoulders|grandparents|walking|windscreen|people|mood|together|media office'
+    yt: 'kOn0pLpweOA'
+    parts:
+    - - 107.1
+      - 109.6
+    crop: [0.06, 0, 0.94, 0.88]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Akhbar Al Emarat
+  dr-ko-r:
+    match: 'crowd|tradition|bigger|pandemic|routes|distance|road|runners|largest|run|families|strollers|children|shoulders|grandparents|walking|windscreen|people|mood|together|media office'
+    yt: 'kOn0pLpweOA'
+    parts:
+    - - 113.5
+      - 117.0
+    crop: [0.06, 0, 0.94, 0.88]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Akhbar Al Emarat
+  dr-sc-h1:
+    match: 'job|deputy|minister|defence|council|decisions|roads|schools|hospitals|city|healthy|towers|law|action|rio|prince|people'
+    yt: '1I5nCjycbjo'
+    parts:
+    - - 3.4
+      - 6.4
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Prince Hamdan visits a school preparing for the Dubai Fitness Challenge, Dubai Media Office
+  dr-sc-h2:
+    match: 'job|deputy|minister|defence|council|decisions|roads|schools|hospitals|city|healthy|towers|law|action|rio|prince|people'
+    yt: '1I5nCjycbjo'
+    parts:
+    - - 18.8
+      - 21.2
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Prince Hamdan visits a school preparing for the Dubai Fitness Challenge, Dubai Media Office
+  dr-sc-b1:
+    match: 'job|deputy|minister|defence|council|decisions|roads|schools|hospitals|city|healthy|towers|law|action|rio|prince|people'
+    yt: '1I5nCjycbjo'
+    parts:
+    - - 23.4
+      - 26.6
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Prince Hamdan visits a school preparing for the Dubai Fitness Challenge, Dubai Media Office
+  dr-sc-h3:
+    match: 'job|deputy|minister|defence|council|decisions|roads|schools|hospitals|city|healthy|towers|law|action|rio|prince|people'
+    yt: '1I5nCjycbjo'
+    parts:
+    - - 29.2
+      - 32.4
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Prince Hamdan visits a school preparing for the Dubai Fitness Challenge, Dubai Media Office
+  dr-sc-h4:
+    match: 'job|deputy|minister|defence|council|decisions|roads|schools|hospitals|city|healthy|towers|law|action|rio|prince|people'
+    yt: '1I5nCjycbjo'
+    parts:
+    - - 43.9
+      - 46.2
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Prince Hamdan visits a school preparing for the Dubai Fitness Challenge, Dubai Media Office
+  dr-sc-b2:
+    match: 'job|deputy|minister|defence|council|decisions|roads|schools|hospitals|city|healthy|towers|law|action|rio|prince|people'
+    yt: '1I5nCjycbjo'
+    parts:
+    - - 61.5
+      - 64.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Prince Hamdan visits a school preparing for the Dubai Fitness Challenge, Dubai Media Office
+  dr-sc-h5:
+    match: 'job|deputy|minister|defence|council|decisions|roads|schools|hospitals|city|healthy|towers|law|action|rio|prince|people'
+    yt: '1I5nCjycbjo'
+    parts:
+    - - 76.9
+      - 80.0
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Prince Hamdan visits a school preparing for the Dubai Fitness Challenge, Dubai Media Office
+  dr-sc-b3:
+    match: 'job|deputy|minister|defence|council|decisions|roads|schools|hospitals|city|healthy|towers|law|action|rio|prince|people'
+    yt: '1I5nCjycbjo'
+    parts:
+    - - 82.6
+      - 85.3
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Prince Hamdan visits a school preparing for the Dubai Fitness Challenge, Dubai Media Office
+  dr-sc-h6:
+    match: 'job|deputy|minister|defence|council|decisions|roads|schools|hospitals|city|healthy|towers|law|action|rio|prince|people'
+    yt: '1I5nCjycbjo'
+    parts:
+    - - 88.4
+      - 91.1
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Prince Hamdan visits a school preparing for the Dubai Fitness Challenge, Dubai Media Office
+  dr-sc-h7:
+    match: 'job|deputy|minister|defence|council|decisions|roads|schools|hospitals|city|healthy|towers|law|action|rio|prince|people'
+    yt: '1I5nCjycbjo'
+    parts:
+    - - 120.2
+      - 123.3
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Prince Hamdan visits a school preparing for the Dubai Fitness Challenge, Dubai Media Office
+  dr-sc-h8:
+    match: 'job|deputy|minister|defence|council|decisions|roads|schools|hospitals|city|healthy|towers|law|action|rio|prince|people'
+    yt: '1I5nCjycbjo'
+    parts:
+    - - 128.2
+      - 131.1
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Prince Hamdan visits a school preparing for the Dubai Fitness Challenge, Dubai Media Office
+  dr-sc-h9:
+    match: 'job|deputy|minister|defence|council|decisions|roads|schools|hospitals|city|healthy|towers|law|action|rio|prince|people'
+    yt: '1I5nCjycbjo'
+    parts:
+    - - 145.6
+      - 147.9
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Prince Hamdan visits a school preparing for the Dubai Fitness Challenge, Dubai Media Office
+  dr-dw-u:
+    match: 'rio|tia|sister|push|chair|handles|prince|crown prince|road|runners|kilometre|run|leader|humble|instagram|moment|race|honest|spotted|asked|yes|picture|silent|morning|light|cars|front|request|thirty|boy|kindness|action|comments|subscribe|story|crowd|eighteen'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 133.0
+      - 136.0
+    crop: [0, 0.09, 0.91, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-dw-v:
+    match: 'rio|tia|sister|push|chair|handles|prince|crown prince|road|runners|kilometre|run|leader|humble|instagram|moment|race|honest|spotted|asked|yes|picture|silent|morning|light|cars|front|request|thirty|boy|kindness|action|comments|subscribe|story|crowd|eighteen'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 147.0
+      - 150.0
+    crop: [0, 0.09, 0.91, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-dw-w:
+    match: 'rio|tia|sister|push|chair|handles|prince|crown prince|road|runners|kilometre|run|leader|humble|instagram|moment|race|honest|spotted|asked|yes|picture|silent|morning|light|cars|front|request|thirty|boy|kindness|action|comments|subscribe|story|crowd|eighteen'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 161.0
+      - 164.0
+    crop: [0, 0.09, 0.91, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-dw-x:
+    match: 'rio|tia|sister|push|chair|handles|prince|crown prince|road|runners|kilometre|run|leader|humble|instagram|moment|race|honest|spotted|asked|yes|picture|silent|morning|light|cars|front|request|thirty|boy|kindness|action|comments|subscribe|story|crowd|eighteen'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 189.0
+      - 192.0
+    crop: [0, 0.09, 0.91, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-dw-y:
+    match: 'rio|tia|sister|push|chair|handles|prince|crown prince|road|runners|kilometre|run|leader|humble|instagram|moment|race|honest|spotted|asked|yes|picture|silent|morning|light|cars|front|request|thirty|boy|kindness|action|comments|subscribe|story|crowd|eighteen'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 203.0
+      - 206.0
+    crop: [0, 0.09, 0.91, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-dw-z:
+    match: 'rio|tia|sister|push|chair|handles|prince|crown prince|road|runners|kilometre|run|leader|humble|instagram|moment|race|honest|spotted|asked|yes|picture|silent|morning|light|cars|front|request|thirty|boy|kindness|action|comments|subscribe|story|crowd|eighteen'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 217.0
+      - 220.0
+    crop: [0, 0.09, 0.91, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-dw-aa:
+    match: 'rio|tia|sister|push|chair|handles|prince|crown prince|road|runners|kilometre|run|leader|humble|instagram|moment|race|honest|spotted|asked|yes|picture|silent|morning|light|cars|front|request|thirty|boy|kindness|action|comments|subscribe|story|crowd|eighteen'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 231.0
+      - 234.0
+    crop: [0, 0.09, 0.91, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-dw-ab:
+    match: 'rio|tia|sister|push|chair|handles|prince|crown prince|road|runners|kilometre|run|leader|humble|instagram|moment|race|honest|spotted|asked|yes|picture|silent|morning|light|cars|front|request|thirty|boy|kindness|action|comments|subscribe|story|crowd|eighteen'
+    yt: '-aHPwk_ug0E'
+    parts:
+    - - 259.0
+      - 262.0
+    crop: [0, 0.09, 0.91, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via DennyWise TV
+  dr-wa-tow1:
+    match: 'sunrise|weekend|motorway|run|free|price|route|museum|towers|dubai mall|burj|fast|children|beginners|grandparents|wheelchairs|welcome|leader|speeches|sports clothes|crowd|morning|weather|timing|belong|people|crown prince|sports clothes|sweating|same crowd|ordinary|leader|front'
+    yt: '7wAoc-L7UzU'
+    parts:
+    - - 568.5
+      - 575.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Ganesh Utekar from DUBAI
+  dr-fk-c1:
+    match: 'sunrise|weekend|motorway|run|free|price|route|museum|towers|dubai mall|burj|fast|children|beginners|grandparents|wheelchairs|welcome|leader|speeches|sports clothes|crowd|morning|weather|timing|belong|people|crown prince|sports clothes|sweating|same crowd|ordinary|leader|front'
+    yt: 'FaKfMgDgHYo'
+    parts:
+    - - 7.1
+      - 9.0
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: The first Dubai Run, Dubai Media Office
+  dr-wa-mus3:
+    match: 'sunrise|weekend|motorway|run|free|price|route|museum|towers|dubai mall|burj|fast|children|beginners|grandparents|wheelchairs|welcome|leader|speeches|sports clothes|crowd|morning|weather|timing|belong|people|crown prince|sports clothes|sweating|same crowd|ordinary|leader|front'
+    yt: '7wAoc-L7UzU'
+    parts:
+    - - 540.5
+      - 547.0
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Ganesh Utekar from DUBAI
+  dr-fk-c3:
+    match: 'sunrise|weekend|motorway|run|free|price|route|museum|towers|dubai mall|burj|fast|children|beginners|grandparents|wheelchairs|welcome|leader|speeches|sports clothes|crowd|morning|weather|timing|belong|people|crown prince|sports clothes|sweating|same crowd|ordinary|leader|front'
+    yt: 'FaKfMgDgHYo'
+    parts:
+    - - 20.1
+      - 23.9
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: The first Dubai Run, Dubai Media Office
+  dr-wa-mus1:
+    match: 'sunrise|weekend|motorway|run|free|price|route|museum|towers|dubai mall|burj|fast|children|beginners|grandparents|wheelchairs|welcome|leader|speeches|sports clothes|crowd|morning|weather|timing|belong|people|crown prince|sports clothes|sweating|same crowd|ordinary|leader|front'
+    yt: '7wAoc-L7UzU'
+    parts:
+    - - 528.0
+      - 533.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Ganesh Utekar from DUBAI
+  dr-fk-h:
+    match: 'sunrise|weekend|motorway|run|free|price|route|museum|towers|dubai mall|burj|fast|children|beginners|grandparents|wheelchairs|welcome|leader|speeches|sports clothes|crowd|morning|weather|timing|belong|people|crown prince|sports clothes|sweating|same crowd|ordinary|leader|front'
+    yt: 'FaKfMgDgHYo'
+    parts:
+    - - 1.0
+      - 2.95
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: The first Dubai Run, Dubai Media Office
+  dr-fk-c4:
+    match: 'sunrise|weekend|motorway|run|free|price|route|museum|towers|dubai mall|burj|fast|children|beginners|grandparents|wheelchairs|welcome|leader|speeches|sports clothes|crowd|morning|weather|timing|belong|people|crown prince|sports clothes|sweating|same crowd|ordinary|leader|front'
+    yt: 'FaKfMgDgHYo'
+    parts:
+    - - 29.1
+      - 33.9
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: The first Dubai Run, Dubai Media Office
+  dr-wa-tow2:
+    match: 'sunrise|weekend|motorway|run|free|price|route|museum|towers|dubai mall|burj|fast|children|beginners|grandparents|wheelchairs|welcome|leader|speeches|sports clothes|crowd|morning|weather|timing|belong|people|crown prince|sports clothes|sweating|same crowd|ordinary|leader|front'
+    yt: '7wAoc-L7UzU'
+    parts:
+    - - 576.0
+      - 583.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Ganesh Utekar from DUBAI
+  dr-fk-c6:
+    match: 'sunrise|weekend|motorway|run|free|price|route|museum|towers|dubai mall|burj|fast|children|beginners|grandparents|wheelchairs|welcome|leader|speeches|sports clothes|crowd|morning|weather|timing|belong|people|crown prince|sports clothes|sweating|same crowd|ordinary|leader|front'
+    yt: 'FaKfMgDgHYo'
+    parts:
+    - - 44.1
+      - 48.9
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: The first Dubai Run, Dubai Media Office
+  dr-wa-mus4:
+    match: 'sunrise|weekend|motorway|run|free|price|route|museum|towers|dubai mall|burj|fast|children|beginners|grandparents|wheelchairs|welcome|leader|speeches|sports clothes|crowd|morning|weather|timing|belong|people|crown prince|sports clothes|sweating|same crowd|ordinary|leader|front'
+    yt: '7wAoc-L7UzU'
+    parts:
+    - - 548.5
+      - 556.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Ganesh Utekar from DUBAI
+  dr-fk-c2:
+    match: 'sunrise|weekend|motorway|run|free|price|route|museum|towers|dubai mall|burj|fast|children|beginners|grandparents|wheelchairs|welcome|leader|speeches|sports clothes|crowd|morning|weather|timing|belong|people|crown prince|sports clothes|sweating|same crowd|ordinary|leader|front'
+    yt: 'FaKfMgDgHYo'
+    parts:
+    - - 9.1
+      - 12.9
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: The first Dubai Run, Dubai Media Office
+  dr-wa-tow3:
+    match: 'sunrise|weekend|motorway|run|free|price|route|museum|towers|dubai mall|burj|fast|children|beginners|grandparents|wheelchairs|welcome|leader|speeches|sports clothes|crowd|morning|weather|timing|belong|people|crown prince|sports clothes|sweating|same crowd|ordinary|leader|front'
+    yt: '7wAoc-L7UzU'
+    parts:
+    - - 602.5
+      - 610.0
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Ganesh Utekar from DUBAI
+  dr-fk-c5:
+    match: 'sunrise|weekend|motorway|run|free|price|route|museum|towers|dubai mall|burj|fast|children|beginners|grandparents|wheelchairs|welcome|leader|speeches|sports clothes|crowd|morning|weather|timing|belong|people|crown prince|sports clothes|sweating|same crowd|ordinary|leader|front'
+    yt: 'FaKfMgDgHYo'
+    parts:
+    - - 34.0
+      - 35.9
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: The first Dubai Run, Dubai Media Office
+  dr-wa-mus5:
+    match: 'sunrise|weekend|motorway|run|free|price|route|museum|towers|dubai mall|burj|fast|children|beginners|grandparents|wheelchairs|welcome|leader|speeches|sports clothes|crowd|morning|weather|timing|belong|people|crown prince|sports clothes|sweating|same crowd|ordinary|leader|front'
+    yt: '7wAoc-L7UzU'
+    parts:
+    - - 557.5
+      - 563.0
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Ganesh Utekar from DUBAI
+  dr-gj-air1:
+    match: 'idea|thirty|minutes|days|challenge|fitness|activity|health|habit|sport|walking|swimming|football|yoga|cycling|free|classes|workouts|parks|beaches|city|event|month|campaign|marathon|gym|diet|move|prince|road'
+    yt: 'GJIQrwJQHj4'
+    parts:
+    - - 10.6
+      - 13.8
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Fitness Challenge opening day, Dubai Media Office
+  dr-gj-air2:
+    match: 'idea|thirty|minutes|days|challenge|fitness|activity|health|habit|sport|walking|swimming|football|yoga|cycling|free|classes|workouts|parks|beaches|city|event|month|campaign|marathon|gym|diet|move|prince|road'
+    yt: 'GJIQrwJQHj4'
+    parts:
+    - - 20.9
+      - 24.2
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Fitness Challenge opening day, Dubai Media Office
+  dr-wx-h1:
+    match: 'road|lanes|towers|traffic|track|running|ran|crowd|people|seventy thousand|routes|kilometre|families|runners|motorway|breakfast|selfies|morning|first|dubai run|prince|stage|balcony'
+    yt: 'wxQMlZ3mEzk'
+    parts:
+    - - 57.5
+      - 60.5
+    crop: [0.52, 0.09, 1, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run, video @DubaiSC via DubaiOFW
+  dr-wx-h2:
+    match: 'road|lanes|towers|traffic|track|running|ran|crowd|people|seventy thousand|routes|kilometre|families|runners|motorway|breakfast|selfies|morning|first|dubai run|prince|stage|balcony'
+    yt: 'wxQMlZ3mEzk'
+    parts:
+    - - 61.0
+      - 64.0
+    crop: [0.52, 0.09, 1, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run, video @DubaiSC via DubaiOFW
+  dr-wx-h3:
+    match: 'road|lanes|towers|traffic|track|running|ran|crowd|people|seventy thousand|routes|kilometre|families|runners|motorway|breakfast|selfies|morning|first|dubai run|prince|stage|balcony'
+    yt: 'wxQMlZ3mEzk'
+    parts:
+    - - 70.3
+      - 73.3
+    crop: [0.52, 0.09, 1, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run, video @DubaiSC via DubaiOFW
+  dr-wx-h4:
+    match: 'road|lanes|towers|traffic|track|running|ran|crowd|people|seventy thousand|routes|kilometre|families|runners|motorway|breakfast|selfies|morning|first|dubai run|prince|stage|balcony'
+    yt: 'wxQMlZ3mEzk'
+    parts:
+    - - 76.7
+      - 79.7
+    crop: [0.52, 0.09, 1, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run, video @DubaiSC via DubaiOFW
+  dr-wx-h5:
+    match: 'road|lanes|towers|traffic|track|running|ran|crowd|people|seventy thousand|routes|kilometre|families|runners|motorway|breakfast|selfies|morning|first|dubai run|prince|stage|balcony'
+    yt: 'wxQMlZ3mEzk'
+    parts:
+    - - 83.1
+      - 86.1
+    crop: [0.52, 0.09, 1, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run, video @DubaiSC via DubaiOFW
+  dr-wx-c1:
+    match: 'road|lanes|towers|traffic|track|running|ran|crowd|people|seventy thousand|routes|kilometre|families|runners|motorway|breakfast|selfies|morning|first|dubai run|prince|stage|balcony'
+    yt: 'wxQMlZ3mEzk'
+    parts:
+    - - 117.5
+      - 120.5
+    crop: [0.52, 0.09, 1, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run, video @DubaiSC via DubaiOFW
+  dr-wx-c2:
+    match: 'road|lanes|towers|traffic|track|running|ran|crowd|people|seventy thousand|routes|kilometre|families|runners|motorway|breakfast|selfies|morning|first|dubai run|prince|stage|balcony'
+    yt: 'wxQMlZ3mEzk'
+    parts:
+    - - 123.0
+      - 126.0
+    crop: [0.52, 0.09, 1, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run, video @DubaiSC via DubaiOFW
+  dr-rio-h1:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince|talk'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 94.2
+      - 97.0
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-h2:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince|talk'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 97.2
+      - 100.2
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-h3:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince|talk'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 100.4
+      - 104.2
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-int:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince|talk'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 84.4
+      - 86.9
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-t1:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince|talk'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 288.2
+      - 293.6
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-t2:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince|talk'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 294.0
+      - 299.6
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-t3:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince|talk'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 300.0
+      - 305.6
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-t4:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince|talk'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 306.0
+      - 308.8
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-t5:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince|talk'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 309.0
+      - 311.8
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-w1:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince|talk'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 314.8
+      - 317.6
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-w2:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince|talk'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 318.0
+      - 320.8
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-pb:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince|talk'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 324.0
+      - 329.6
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-pb2:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince|talk'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 329.8
+      - 332.8
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-ah-m1:
+    match: 'numbers|climbing|thousand|people|runners|record|road|crowd|post|stadium|thanked|inspiring|times|seventy|run'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 96.0
+      - 99.4
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-m2:
+    match: 'numbers|climbing|thousand|people|runners|record|road|crowd|post|stadium|thanked|inspiring|times|seventy|run'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 110.0
+      - 113.4
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-ah-r4:
+    match: 'numbers|climbing|thousand|people|runners|record|road|crowd|post|stadium|thanked|inspiring|times|seventy|run'
+    yt: '2g8jv7AO87U'
+    parts:
+    - - 652.0
+      - 655.4
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Adobong HaloHalo
+  dr-wa-n1:
+    match: 'sunrise|weekend|motorway|run|free|price|route|museum|towers|dubai mall|burj|fast|children|beginners|grandparents|wheelchairs|welcome|leader|speeches|sports clothes|crowd|morning|weather|timing|belong|people|crown prince|sports clothes|sweating|same crowd|ordinary|leader|front'
+    yt: '7wAoc-L7UzU'
+    parts:
+    - - 360.5
+      - 365.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Ganesh Utekar from DUBAI
+  dr-wa-n2:
+    match: 'sunrise|weekend|motorway|run|free|price|route|museum|towers|dubai mall|burj|fast|children|beginners|grandparents|wheelchairs|welcome|leader|speeches|sports clothes|crowd|morning|weather|timing|belong|people|crown prince|sports clothes|sweating|same crowd|ordinary|leader|front'
+    yt: '7wAoc-L7UzU'
+    parts:
+    - - 460.5
+      - 465.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Ganesh Utekar from DUBAI
+  dr-wa-c1:
+    match: 'sunrise|weekend|motorway|run|free|price|route|museum|towers|dubai mall|burj|fast|children|beginners|grandparents|wheelchairs|welcome|leader|speeches|sports clothes|crowd|morning|weather|timing|belong|people|crown prince|sports clothes|sweating|same crowd|ordinary|leader|front'
+    yt: '7wAoc-L7UzU'
+    parts:
+    - - 520.0
+      - 525.5
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run on Sheikh Zayed Road, via Ganesh Utekar from DUBAI
+  dr-sc-x1:
+    match: 'job|deputy|minister|defence|council|decisions|roads|schools|hospitals|city|healthy|towers|law|action|rio|prince|people'
+    yt: '1I5nCjycbjo'
+    parts:
+    - - 6.6
+      - 9.6
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Prince Hamdan visits a school preparing for the Dubai Fitness Challenge, Dubai Media Office
+  dr-sc-x2:
+    match: 'job|deputy|minister|defence|council|decisions|roads|schools|hospitals|city|healthy|towers|law|action|rio|prince|people'
+    yt: '1I5nCjycbjo'
+    parts:
+    - - 32.9
+      - 36.9
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Prince Hamdan visits a school preparing for the Dubai Fitness Challenge, Dubai Media Office
+  dr-sc-x3:
+    match: 'job|deputy|minister|defence|council|decisions|roads|schools|hospitals|city|healthy|towers|law|action|rio|prince|people'
+    yt: '1I5nCjycbjo'
+    parts:
+    - - 49.5
+      - 54.1
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Prince Hamdan visits a school preparing for the Dubai Fitness Challenge, Dubai Media Office
+  dr-sc-x4:
+    match: 'job|deputy|minister|defence|council|decisions|roads|schools|hospitals|city|healthy|towers|law|action|rio|prince|people'
+    yt: '1I5nCjycbjo'
+    parts:
+    - - 114.2
+      - 116.9
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Prince Hamdan visits a school preparing for the Dubai Fitness Challenge, Dubai Media Office
+  dr-sc-x5:
+    match: 'job|deputy|minister|defence|council|decisions|roads|schools|hospitals|city|healthy|towers|law|action|rio|prince|people'
+    yt: '1I5nCjycbjo'
+    parts:
+    - - 150.6
+      - 153.2
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Prince Hamdan visits a school preparing for the Dubai Fitness Challenge, Dubai Media Office
+  dr-wx-c3:
+    match: 'road|lanes|towers|traffic|track|running|ran|crowd|people|seventy thousand|routes|kilometre|families|runners|motorway|breakfast|selfies|morning|first|dubai run|prince|stage|balcony'
+    yt: 'wxQMlZ3mEzk'
+    parts:
+    - - 96.5
+      - 99.5
+    crop: [0.52, 0.09, 1, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run, video @DubaiSC via DubaiOFW
+  dr-wx-c4:
+    match: 'road|lanes|towers|traffic|track|running|ran|crowd|people|seventy thousand|routes|kilometre|families|runners|motorway|breakfast|selfies|morning|first|dubai run|prince|stage|balcony'
+    yt: 'wxQMlZ3mEzk'
+    parts:
+    - - 100.0
+      - 103.0
+    crop: [0.52, 0.09, 1, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run, video @DubaiSC via DubaiOFW
+  dr-wx-c5:
+    match: 'road|lanes|towers|traffic|track|running|ran|crowd|people|seventy thousand|routes|kilometre|families|runners|motorway|breakfast|selfies|morning|first|dubai run|prince|stage|balcony'
+    yt: 'wxQMlZ3mEzk'
+    parts:
+    - - 104.0
+      - 107.0
+    crop: [0.52, 0.09, 1, 1]
+    note: dubai-run story, cut from contact sheets by Rocky 2026-11-22
+    credit: Dubai Run, video @DubaiSC via DubaiOFW
+  dr-h-ys1-k:
+    match: 'crown prince|runners|road|boy|chair|start|front|bent|stopped|crowd|dubai run|story|numbers|idea|leaders|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 11.0
+      - 14.0
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-h-ys1) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-h-ys2-k:
+    match: 'crown prince|runners|road|boy|chair|start|front|bent|stopped|crowd|dubai run|story|numbers|idea|leaders|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 14.3
+      - 17.5
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-h-ys2) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-h-ys3-k:
+    match: 'crown prince|runners|road|boy|chair|start|front|bent|stopped|crowd|dubai run|story|numbers|idea|leaders|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 17.8
+      - 21.0
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-h-ys3) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-h-ys4-k:
+    match: 'crown prince|runners|road|boy|chair|start|front|bent|stopped|crowd|dubai run|story|numbers|idea|leaders|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 21.3
+      - 24.5
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-h-ys4) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-h-ys5-k:
+    match: 'crown prince|runners|road|boy|chair|start|front|bent|stopped|crowd|dubai run|story|numbers|idea|leaders|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 24.8
+      - 28.0
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-h-ys5) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-h-ys6-k:
+    match: 'crown prince|runners|road|boy|chair|start|front|bent|stopped|crowd|dubai run|story|numbers|idea|leaders|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 28.3
+      - 31.4
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-h-ys6) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-h-ys7-k:
+    match: 'crown prince|runners|road|boy|chair|start|front|bent|stopped|crowd|dubai run|story|numbers|idea|leaders|prince|weekend|cars'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 31.8
+      - 35.2
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-h-ys7) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-bike-k:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 212.0
+      - 215.0
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-rio-bike) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-close-k:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 104.4
+      - 107.9
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-rio-close) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-desert-k:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 215.5
+      - 218.5
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-rio-desert) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-door-k:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 87.0
+      - 90.5
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-rio-door) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-e-k:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 108.0
+      - 111.5
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-rio-e) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-f-k:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 129.2
+      - 131.3
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-rio-f) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-g-k:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 131.6
+      - 134.3
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-rio-g) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-path-k:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 119.5
+      - 122.8
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-rio-path) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-rain-k:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 218.8
+      - 221.8
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-rio-rain) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-sea-k:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 200.0
+      - 203.0
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-rio-sea) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-sofa-k:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 188.0
+      - 191.0
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-rio-sofa) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-stairs-k:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 91.0
+      - 94.0
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-rio-stairs) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-t1-k:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince|talk'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 288.2
+      - 293.6
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-rio-t1) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-t2-k:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince|talk'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 294.0
+      - 299.6
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-rio-t2) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-wheel-k:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 111.7
+      - 115.2
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-rio-wheel) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-ys-burj-k:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 54.7
+      - 56.8
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-ys-burj) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-ys-hand-k:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 185.9
+      - 187.9
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-ys-hand) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-ys-pool-k:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 228.0
+      - 230.8
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-ys-pool) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-ys-push-k:
+    match: 'job|deputy|minister|defence|council|decisions|roads|schools|hospitals|city|healthy|towers|law|chair|road|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 173.5
+      - 176.5
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-ys-push) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-ys-sea2-k:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 203.2
+      - 206.0
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-ys-sea2) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-ys-sea3-k:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 209.2
+      - 212.0
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-ys-sea3) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-ys-sofa2-k:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 191.2
+      - 194.0
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-ys-sofa2) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-ys-st1-k:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 167.0
+      - 170.0
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-ys-st1) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-ys-st2-k:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 170.2
+      - 173.2
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-ys-st2) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-ys-st3-k:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 176.6
+      - 179.5
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-ys-st3) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-ys-st4-k:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 179.6
+      - 182.6
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-ys-st4) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-ys-st5-k:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 182.8
+      - 185.8
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-ys-st5) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-ys-tia2-k:
+    match: 'rio|tia|sister|push|chair|handles|prince|crown prince|road|runners|kilometre|run|leader|humble|instagram|moment|race|honest|comments|spotted|asked|yes'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 245.5
+      - 248.0
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-ys-tia2) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-ys-tia3-k:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince|talk'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 248.2
+      - 251.0
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-ys-tia3) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-a-k:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 51.5
+      - 54.6
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-rio-a) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-t3-k:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince|talk'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 300.0
+      - 305.6
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-rio-t3) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-beach-k:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 225.0
+      - 227.8
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-rio-beach) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-end-k:
+    match: 'picture|road|silent|morning|light|runners|cars|front|request|thirty|boy|chair|kindness|action|run|comments|subscribe|story|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 140.2
+      - 143.0
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-rio-end) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-swim-k:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 221.9
+      - 224.8
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-rio-swim) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-ys-shoes-k:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 251.2
+      - 254.0
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-ys-shoes) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-ys-tia1-k:
+    match: 'rio|tia|sister|push|chair|handles|prince|crown prince|road|runners|kilometre|run|leader|humble|instagram|moment|race|honest|comments|spotted|asked|yes'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 242.0
+      - 245.0
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-ys-tia1) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-rio-pb-k:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince|talk'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 324.0
+      - 329.6
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out (copy of dr-rio-pb) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-ys-hand-k2:
+    match: 'rio|chair|nick|father|family|team angel wolf|race|kilometres|disorder|speech|movement|sixteen|boy|swimming|cycling|triathlon|running|hello|meeting|greeted|mashallah|happy|video|moment|start|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 185.6
+      - 188.4
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out, 2.8 s (copy of dr-ys-hand) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  dr-h-ys1-k2:
+    match: 'crown prince|runners|road|boy|chair|start|front|bent|stopped|crowd|dubai run|story|numbers|idea|leaders|prince'
+    yt: 'YsoymRRHh4U'
+    parts:
+    - - 10.8
+      - 14.0
+    crop: [0.13, 0, 1, 0.87]
+    note: dubai-run, KT logo cropped out, 3.2 s (copy of dr-h-ys1) by Rocky 2026-11-22
+    credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times

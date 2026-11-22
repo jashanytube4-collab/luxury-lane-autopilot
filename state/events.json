@@ -7331,6 +7331,15 @@
   "title": "Hamdan bin Mohammed directs activation of Dubai's first AI-powered platform for urban planning within a month",
   "video": null
  },
+ "hamdan bin mohammed directs dubai future week 2027 to be held from 17 to 21 november": {
+  "date": "2026-11-21",
+  "news_id": "6027",
+  "photos": [
+   "https://asset.hamdan.ae/CPDAssets/News/2026/6027/22112026202911712.jpg"
+  ],
+  "title": "Hamdan bin Mohammed directs Dubai Future Week 2027 to be held from 17 to 21 November",
+  "video": null
+ },
  "hamdan bin mohammed directs dubai future week invite to 500 professionals from 5 key sectors to chart path ahead for emirate": {
   "date": "2026-10-21",
   "news_id": "5965",
@@ -13490,7 +13499,10 @@
    "https://asset.hamdan.ae/CPDAssets/News/2026/6030/2211202615124967.jpg"
   ],
   "title": "Hamdan bin Mohammed reviews new metro train design, rail inspection initiatives and Blue Line progress",
-  "video": null
+  "video": {
+   "kind": "youtube",
+   "ref": "QsSJ5n_fi7Y"
+  }
  },
  "hamdan bin mohammed reviews newly completed air taxi station near dubai international airport the first facility of its kind in the world": {
   "date": "2026-04-16",

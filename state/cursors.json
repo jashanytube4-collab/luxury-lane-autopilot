@@ -1626,7 +1626,7 @@
  "shorts_supply": {
   "date": "2026-11-22",
   "days": 2.3,
-  "events": 71
+  "events": 72
  },
  "stories_done": [
   "flydubai-hero",
@@ -1650,7 +1650,8 @@
   "dreams",
   "auto-2026-11-03",
   "r06-fazza-falcons",
-  "r07-fazza-india"
+  "r07-fazza-india",
+  "dubai-run"
  ],
  "topics_used": {
   "horseman": "2026-10-12",

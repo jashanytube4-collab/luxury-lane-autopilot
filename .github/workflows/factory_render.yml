@@ -42,7 +42,7 @@ jobs:
         run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
 
       - name: Python packages
-        run: pip install "edge-tts>=7.3.1" "pillow==11.3.0" "requests>=2.31" PyYAML
+        run: pip install "edge-tts>=7.3.1" "pillow==11.3.0" "requests>=2.31" PyYAML numpy opencv-python-headless
 
       - name: Cache downloaded footage and photos
         uses: actions/cache@v6

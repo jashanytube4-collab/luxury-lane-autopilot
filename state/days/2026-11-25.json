@@ -43,8 +43,13 @@
   },
   {
    "at": "2026-11-25T09:42:26+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "The heart of Dubai beats in him. #fazza #youtubeshorts #youtube",
+   "type": "short",
+   "video_id": "5t3UgXOU4BE",
+   "voiced": true
   },
   {
    "at": "2026-11-25T10:37:18+04:00",

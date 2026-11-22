@@ -3600,10 +3600,10 @@
   "video_len": 58
  },
  "hamdan bin mohammed attends dubai police academy graduation ceremony": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-25",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     10.986666666666666,
@@ -3612,6 +3612,10 @@
    [
     133.4884150005956,
     135.45176795921515
+   ],
+   [
+    103.58217699114391,
+    105.72452307279428
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6023,6 +6027,7 @@
   "long": "2026-11-02",
   "montage_exhausted": true,
   "montage_used": 13,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     90.8459171690852,
@@ -8805,10 +8810,10 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed leads f3 team to gov games finals": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     50.73435098048448,
@@ -8821,6 +8826,10 @@
    [
     5.0793282061029155,
     7.440749514087828
+   ],
+   [
+    14.346148444024012,
+    16.11345640445277
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9245,6 +9254,7 @@
  "hamdan bin mohammed meets students of dubai schools": {
   "last_short": "2026-11-24",
   "long": "2026-10-17",
+  "montage_exhausted": true,
   "montage_used": 39,
   "remix_ranges": [
    [
@@ -11244,7 +11254,7 @@
  "hamdan bin mohammed opens crime prevention international conference": {
   "last_short": "2026-11-25",
   "montage_exhausted": true,
-  "montage_used": 24,
+  "montage_used": 25,
   "remix_ranges": [
    [
     20.13502281199993,
@@ -11261,6 +11271,10 @@
    [
     157.3673838810078,
     159.52719990599368
+   ],
+   [
+    110.93727405502845,
+    112.5928861909267
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11386,9 +11400,9 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed opens gitex tech week 2017": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "long": "2026-10-14",
-  "montage_used": 37,
+  "montage_used": 38,
   "remix_ranges": [
    [
     332.64461795604365,
@@ -11417,6 +11431,10 @@
    [
     126.07719718413996,
     127.80139857214346
+   ],
+   [
+    375.1308659668615,
+    377.1416872147763
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11986,7 +12004,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 31,
+  "montage_used": 32,
   "remix_ranges": [
    [
     298.95723771608766,
@@ -12031,6 +12049,10 @@
    [
     423.22225250462753,
     424.7471137976106
+   ],
+   [
+    112.8428238062528,
+    115.07035451443282
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12698,6 +12720,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 5,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     50.88666666666666,
@@ -13294,10 +13317,10 @@
   "video_len": 138
  },
  "hamdan bin mohammed tours gulfood 2023": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     55.02960752090558,
@@ -13310,6 +13333,10 @@
    [
     27.32079776553987,
     29.082458454189535
+   ],
+   [
+    36.72,
+    38.980000000000004
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13488,10 +13515,10 @@
   "video_len": 181
  },
  "hamdan bin mohammed unveils 5 star plaque at hatta gdrfa centre": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     74.62743576497552,
@@ -13516,6 +13543,10 @@
    [
     132.75740572203435,
     133.30115129665947
+   ],
+   [
+    99.15446139987841,
+    100.7224272753922
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13733,7 +13764,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "photo_short": true,
   "remix_ranges": [
    [
@@ -13747,6 +13778,10 @@
    [
     42.394236876115855,
     43.911811204406334
+   ],
+   [
+    16.95869350150254,
+    18.379395293221233
    ]
   ],
   "remix_reset": "2026-11-20",

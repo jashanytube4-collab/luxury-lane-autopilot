@@ -203,8 +203,13 @@
   },
   {
    "at": "2026-11-25T23:33:08+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "A prince of the desert, a leader of the world. #fazza #youtubeshorts #youtube",
+   "type": "short",
+   "video_id": "0czWn0zrlYg",
+   "voiced": true
   },
   {
    "at": "2026-11-26T00:23:01+04:00",

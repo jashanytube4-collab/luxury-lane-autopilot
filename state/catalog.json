@@ -4360,7 +4360,7 @@
  "hamdan bin mohammed attends hct graduation": {
   "last_short": "2026-11-25",
   "long": "2026-10-31",
-  "montage_used": 44,
+  "montage_used": 45,
   "remix_ranges": [
    [
     219.49568300016466,
@@ -4381,6 +4381,10 @@
    [
     251.94387167357422,
     254.4473352869125
+   ],
+   [
+    1.52,
+    3.6399999999999997
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5090,7 +5094,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 34,
+  "montage_used": 35,
   "remix_ranges": [
    [
     167.6806468932527,
@@ -5123,6 +5127,10 @@
    [
     130.88006322750482,
     132.8598351513074
+   ],
+   [
+    382.8322715013995,
+    384.26803513975307
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10133,10 +10141,10 @@
   "video_len": 63
  },
  "hamdan bin mohammed meets with participants of retail summit in dubai": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 22,
+  "montage_used": 23,
   "remix_ranges": [
    [
     17.44,
@@ -10145,6 +10153,10 @@
    [
     139.92782543697564,
     141.4024466397572
+   ],
+   [
+    76.60000000000001,
+    78.96
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10313,7 +10325,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-17",
   "montage_exhausted": true,
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     56.360072324467,
@@ -10334,6 +10346,10 @@
    [
     17.686151128535204,
     19.538920929176353
+   ],
+   [
+    7.3533333333333335,
+    9.146666666666668
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11154,7 +11170,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2017": {
   "last_short": "2026-11-25",
-  "montage_used": 40,
+  "montage_used": 41,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -11176,6 +11192,10 @@
    [
     268.28000000000003,
     270.2
+   ],
+   [
+    239.6958967443711,
+    242.058140759779
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11640,10 +11660,10 @@
   "video_len": 119
  },
  "hamdan bin mohammed opens salem medical fitness smart centre": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 33,
+  "montage_used": 34,
   "remix_ranges": [
    [
     44.48273041474908,
@@ -11672,6 +11692,10 @@
    [
     73.06433195643388,
     74.93311026524385
+   ],
+   [
+    65.0864186526347,
+    67.52053096634272
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13634,7 +13658,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     74.62743576497552,
@@ -13667,6 +13691,10 @@
    [
     66.72,
     68.44
+   ],
+   [
+    134.99560001287205,
+    136.72967630077957
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14658,7 +14686,7 @@
   "last_short": "2026-11-25",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 29,
+  "montage_used": 30,
   "remix_ranges": [
    [
     152.68800146802988,
@@ -14687,6 +14715,10 @@
    [
     129.3570751924039,
     131.0842344076115
+   ],
+   [
+    23.862050001581007,
+    25.846794123862363
    ]
   ],
   "remix_reset": "2026-11-20",

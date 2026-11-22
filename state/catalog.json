@@ -3621,6 +3621,7 @@
   "long": "2026-10-30",
   "montage_exhausted": true,
   "montage_used": 11,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     10.986666666666666,
@@ -8688,7 +8689,7 @@
  "hamdan bin mohammed launches the government games initiative": {
   "last_short": "2026-11-25",
   "montage_exhausted": true,
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     152.44500151607716,
@@ -8709,6 +8710,10 @@
    [
     5.8959233861362215,
     7.900823675991542
+   ],
+   [
+    1.1502673141678863,
+    3.4909005252467105
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9088,7 +9093,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 27,
+  "montage_used": 28,
   "remix_ranges": [
    [
     46.8,
@@ -9121,6 +9126,10 @@
    [
     81.197235856429,
     83.70211323558544
+   ],
+   [
+    187.93044979943028,
+    189.86892631861895
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10346,7 +10355,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-17",
   "montage_exhausted": true,
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     56.360072324467,
@@ -10371,6 +10380,10 @@
    [
     7.3533333333333335,
     9.146666666666668
+   ],
+   [
+    13.529694838587812,
+    15.558608321910746
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10653,7 +10666,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     73.66873288634743,
@@ -10662,6 +10675,10 @@
    [
     33.61504910473783,
     35.7365934460164
+   ],
+   [
+    3.0642594378210317,
+    4.6665763141523815
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12462,10 +12479,10 @@
   "video_len": 70
  },
  "hamdan bin mohammed receives winners of hackathon competition": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     51.559999999999995,
@@ -12474,6 +12491,10 @@
    [
     128.84712398702905,
     130.7379817221186
+   ],
+   [
+    105.6341629158734,
+    108.13186552295534
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14364,10 +14385,10 @@
   "video_len": 43
  },
  "hamdan bin mohammed visits dental exhibition in dubai": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     30.26795915214033,
@@ -14384,6 +14405,10 @@
    [
     153.907628609626,
     155.63081649213132
+   ],
+   [
+    142.67040054422912,
+    144.29886816684228
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14828,7 +14853,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 30,
+  "montage_used": 31,
   "remix_ranges": [
    [
     184.4,
@@ -14873,6 +14898,10 @@
    [
     131.66135415643728,
     133.57775595561293
+   ],
+   [
+    119.95004555293383,
+    122.12353523331697
    ]
   ],
   "remix_reset": "2026-11-20",

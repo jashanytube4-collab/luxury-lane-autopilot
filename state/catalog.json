@@ -1243,7 +1243,7 @@
  "dubai crown prince visits dubai municipality": {
   "last_short": "2026-11-25",
   "long": "2026-11-02",
-  "montage_used": 52,
+  "montage_used": 53,
   "remix_ranges": [
    [
     321.72,
@@ -1380,6 +1380,10 @@
    [
     287.36,
     290.4
+   ],
+   [
+    64.60000000000001,
+    68.11999999999999
    ]
   ],
   "video_exhausted": true,
@@ -11467,6 +11471,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2017": {
   "last_short": "2026-11-25",
+  "montage_exhausted": true,
   "montage_used": 45,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
@@ -11580,7 +11585,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2018": {
   "last_short": "2026-11-25",
-  "montage_used": 36,
+  "montage_used": 37,
   "remix_ranges": [
    [
     317.08,
@@ -11677,6 +11682,10 @@
    [
     61.239999999999995,
     63.32
+   ],
+   [
+    253.45499999999996,
+    254.065
    ]
   ],
   "video_exhausted": true,
@@ -11837,7 +11846,7 @@
  "hamdan bin mohammed opens gitex tech week 2017": {
   "last_short": "2026-11-25",
   "long": "2026-10-14",
-  "montage_used": 42,
+  "montage_used": 43,
   "remix_ranges": [
    [
     332.64461795604365,
@@ -11962,6 +11971,10 @@
    [
     523.12,
     525.8
+   ],
+   [
+    361.92,
+    364.32
    ]
   ],
   "video_exhausted": true,
@@ -12875,7 +12888,7 @@
  "hamdan bin mohammed reviews dubai future foundation s 2018 plan and projects": {
   "last_short": "2026-11-25",
   "long": "2026-10-30",
-  "montage_used": 26,
+  "montage_used": 27,
   "remix_ranges": [
    [
     40.994186600963694,
@@ -12943,6 +12956,10 @@
    [
     133.8,
     136.12
+   ],
+   [
+    62.04,
+    64.36
    ]
   ],
   "video_exhausted": true,
@@ -14948,7 +14965,7 @@
  },
  "hamdan bin mohammed visits department of economic development": {
   "last_short": "2026-11-25",
-  "montage_used": 25,
+  "montage_used": 26,
   "remix_ranges": [
    [
     162.32,
@@ -15004,6 +15021,10 @@
    [
     124.72,
     127.16
+   ],
+   [
+    138.84,
+    140.88
    ]
   ],
   "video_exhausted": true,
@@ -15012,7 +15033,7 @@
  "hamdan bin mohammed visits dewa s moro": {
   "last_short": "2026-11-25",
   "long": "2026-11-01",
-  "montage_used": 39,
+  "montage_used": 40,
   "remix_ranges": [
    [
     85.28,
@@ -15113,6 +15134,10 @@
    [
     94.84,
     97.0
+   ],
+   [
+    85.28,
+    87.44
    ]
   ],
   "video_exhausted": true,

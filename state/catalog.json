@@ -3399,9 +3399,9 @@
   "video_len": 60
  },
  "hamdan bin mohammed attends dubai forum for government best practices": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "long": "2026-10-31",
-  "montage_used": 29,
+  "montage_used": 30,
   "remix_ranges": [
    [
     199.21437450345937,
@@ -3446,6 +3446,10 @@
    [
     172.3714325214246,
     174.72841513421164
+   ],
+   [
+    80.96363010877214,
+    82.86078085236396
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -7968,7 +7972,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 25,
+  "montage_used": 26,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -7982,6 +7986,10 @@
    [
     60.249879800688625,
     61.69120564842494
+   ],
+   [
+    35.84227813628582,
+    38.22619568640437
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10605,14 +10613,18 @@
   "long": "2026-10-28"
  },
  "hamdan bin mohammed offers condolences on death of moza bint ali al weri": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-25",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     73.66873288634743,
     75.70127404358364
+   ],
+   [
+    33.61504910473783,
+    35.7365934460164
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10801,7 +10813,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     63.93917455125275,
@@ -10814,6 +10826,10 @@
    [
     80.23445618656207,
     82.57358549622091
+   ],
+   [
+    41.07654694388749,
+    43.03554742206194
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10890,10 +10906,10 @@
   "long": "2026-10-17"
  },
  "hamdan bin mohammed offers condolences to family of martyr saeed alhajri": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     109.75884718947057,
@@ -10906,6 +10922,10 @@
    [
     103.94725664742542,
     105.58835722570495
+   ],
+   [
+    28.289425029171188,
+    29.925489023935427
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12351,6 +12371,7 @@
   "last_short": "2026-11-24",
   "montage_exhausted": true,
   "montage_used": 11,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     61.99092501489006,
@@ -13613,7 +13634,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     74.62743576497552,
@@ -13642,6 +13663,10 @@
    [
     99.15446139987841,
     100.7224272753922
+   ],
+   [
+    66.72,
+    68.44
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14150,10 +14175,10 @@
   "video_len": 159
  },
  "hamdan bin mohammed visits art dubai": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "long": "2026-10-13",
   "montage_exhausted": true,
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     97.26657852612965,
@@ -14170,6 +14195,10 @@
    [
     246.1774037238312,
     248.20031920106976
+   ],
+   [
+    73.0620324925101,
+    75.05699560355247
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14737,7 +14766,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 29,
+  "montage_used": 30,
   "remix_ranges": [
    [
     184.4,
@@ -14778,6 +14807,10 @@
    [
     44.59860505726036,
     47.161711081410616
+   ],
+   [
+    131.66135415643728,
+    133.57775595561293
    ]
   ],
   "remix_reset": "2026-11-20",

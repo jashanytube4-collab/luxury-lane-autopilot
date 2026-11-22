@@ -3983,7 +3983,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 36,
+  "montage_used": 37,
   "remix_ranges": [
    [
     48.36,
@@ -4044,6 +4044,10 @@
    [
     198.05076691467048,
     199.93397481587778
+   ],
+   [
+    64.4,
+    66.16
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8131,7 +8135,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 27,
+  "montage_used": 28,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -8153,6 +8157,10 @@
    [
     100.14998351997754,
     102.36509886729117
+   ],
+   [
+    272.24,
+    274.36
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9038,7 +9046,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     50.73435098048448,
@@ -9059,6 +9067,10 @@
    [
     77.71200449068779,
     79.5536456124042
+   ],
+   [
+    37.86840164428787,
+    39.75706620280044
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9253,7 +9265,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 30,
+  "montage_used": 31,
   "remix_ranges": [
    [
     46.8,
@@ -9298,6 +9310,10 @@
    [
     13.937191673514057,
     16.40676812378987
+   ],
+   [
+    107.52000000000001,
+    109.44
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11451,7 +11467,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2017": {
   "last_short": "2026-11-25",
-  "montage_used": 44,
+  "montage_used": 45,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -11489,6 +11505,10 @@
    [
     123.83379763868679,
     125.0944174709901
+   ],
+   [
+    204.2021779497817,
+    206.12527810054365
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12572,7 +12592,7 @@
   "fails": 1,
   "last_short": "2026-11-25",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     59.199999999999996,
@@ -12585,6 +12605,10 @@
    [
     52.139704306520585,
     54.72230959680317
+   ],
+   [
+    7.153222048739064,
+    9.160775865541508
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14924,7 +14948,7 @@
  },
  "hamdan bin mohammed visits department of economic development": {
   "last_short": "2026-11-25",
-  "montage_used": 24,
+  "montage_used": 25,
   "remix_ranges": [
    [
     162.32,
@@ -14953,6 +14977,10 @@
    [
     152.32054003826386,
     154.22734104469924
+   ],
+   [
+    170.88,
+    172.84
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -15225,7 +15253,7 @@
   "last_short": "2026-11-25",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 32,
+  "montage_used": 33,
   "remix_ranges": [
    [
     152.68800146802988,
@@ -15266,6 +15294,10 @@
    [
     33.57401432770629,
     35.65512765418599
+   ],
+   [
+    165.68,
+    167.51999999999998
    ]
   ],
   "remix_reset": "2026-11-20",

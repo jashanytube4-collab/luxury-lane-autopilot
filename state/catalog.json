@@ -6060,10 +6060,10 @@
   "video_len": 116
  },
  "hamdan bin mohammed concludes official visit to uzbekistan": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     140.32574025403827,
@@ -6084,6 +6084,10 @@
    [
     49.88666666666666,
     52.04666666666667
+   ],
+   [
+    136.65333333333334,
+    138.61333333333332
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9491,10 +9495,10 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed meets with dubai gov t second line of leadership": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     1.929348642583168,
@@ -9503,6 +9507,10 @@
    [
     135.2892285425119,
     137.79883629614278
+   ],
+   [
+    102.09632443147488,
+    104.53557802011149
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9853,6 +9861,7 @@
   "long": "2026-10-20",
   "montage_exhausted": true,
   "montage_used": 7,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     21.486666666666668,
@@ -11564,9 +11573,9 @@
   "video_len": 226
  },
  "hamdan bin mohammed opens smart police station at la mer": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "montage_exhausted": true,
-  "montage_used": 24,
+  "montage_used": 25,
   "remix_ranges": [
    [
     62.11021807184426,
@@ -11603,6 +11612,10 @@
    [
     110.76,
     112.67999999999999
+   ],
+   [
+    100.42252218558627,
+    101.95787611508713
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11913,10 +11926,10 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed receives mourners on death of mansour bin ahmed": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 30,
+  "montage_used": 31,
   "remix_ranges": [
    [
     298.95723771608766,
@@ -11957,6 +11970,10 @@
    [
     459.57387115763083,
     461.75611431979405
+   ],
+   [
+    423.22225250462753,
+    424.7471137976106
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12425,6 +12442,7 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed reviews new metro train design rail inspection initiatives and blue line progress": {
+  "no_video_until": "2026-11-25",
   "video_exhausted": true
  },
  "hamdan bin mohammed reviews newly completed air taxi station near dubai international airport the first facility of its kind in the world": {
@@ -13320,14 +13338,18 @@
   "video_len": 91
  },
  "hamdan bin mohammed unveils 5 star plaque at dewa head office": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "long": "2026-11-01",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     112.85109569671269,
     115.07628470592152
+   ],
+   [
+    153.0358355438959,
+    154.46185800820237
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13543,13 +13565,17 @@
   "video_len": 234
  },
  "hamdan bin mohammed unveils 5 star plaques at three customer happiness centres in dubai": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "montage_exhausted": true,
-  "montage_used": 24,
+  "montage_used": 25,
   "remix_ranges": [
    [
     140.09584732465112,
     142.1469486554751
+   ],
+   [
+    203.48000000000002,
+    205.4
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14472,10 +14498,10 @@
   "video_len": 79
  },
  "hamdan bin mohammed visits dubai autism center": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 27,
+  "montage_used": 28,
   "remix_ranges": [
    [
     184.4,
@@ -14508,6 +14534,10 @@
    [
     81.84855309299482,
     84.37558669613595
+   ],
+   [
+    22.34697556946775,
+    23.8470201378163
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14570,9 +14600,9 @@
   "video_len": 191
  },
  "hamdan bin mohammed visits dubai chamber of commerce and industry": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-25",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     1.5047652305267265,
@@ -14589,6 +14619,10 @@
    [
     65.24811405713277,
     66.61632079232933
+   ],
+   [
+    69.4875942083406,
+    71.27879094658351
    ]
   ],
   "remix_reset": "2026-11-20",

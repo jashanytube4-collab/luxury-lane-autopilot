@@ -6161,6 +6161,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 16,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     140.32574025403827,
@@ -8659,10 +8660,10 @@
   "video_len": 69
  },
  "hamdan bin mohammed launches sports initiatives": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 27,
+  "montage_used": 28,
   "remix_ranges": [
    [
     87.58143717853224,
@@ -8683,6 +8684,10 @@
    [
     119.80000000000001,
     121.6
+   ],
+   [
+    198.04,
+    199.72
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8731,7 +8736,7 @@
  "hamdan bin mohammed launches the government games initiative": {
   "last_short": "2026-11-25",
   "montage_exhausted": true,
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     152.44500151607716,
@@ -8756,6 +8761,10 @@
    [
     1.1502673141678863,
     3.4909005252467105
+   ],
+   [
+    74.05303331649598,
+    76.59916336196127
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9061,7 +9070,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     98.4840092909426,
@@ -9082,6 +9091,10 @@
    [
     82.76,
     84.52
+   ],
+   [
+    30.62175188964988,
+    32.21086091517223
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11626,7 +11639,7 @@
  "hamdan bin mohammed opens gitex tech week 2017": {
   "last_short": "2026-11-25",
   "long": "2026-10-14",
-  "montage_used": 40,
+  "montage_used": 41,
   "remix_ranges": [
    [
     332.64461795604365,
@@ -11667,6 +11680,10 @@
    [
     304.18823400638877,
     305.6311609086626
+   ],
+   [
+    362.27967003943934,
+    363.7806825354057
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12245,7 +12262,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 33,
+  "montage_used": 34,
   "remix_ranges": [
    [
     298.95723771608766,
@@ -12298,6 +12315,10 @@
    [
     306.0641408742132,
     306.7647871153331
+   ],
+   [
+    155.63484363368823,
+    157.81880426527024
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13240,7 +13261,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 12,
+  "montage_used": 13,
   "remix_ranges": [
    [
     11.490406074718507,
@@ -13257,6 +13278,10 @@
    [
     54.46225716988206,
     56.23059530062783
+   ],
+   [
+    21.020587741724288,
+    22.833218013132957
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14495,7 +14520,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     30.26795915214033,
@@ -14520,6 +14545,10 @@
    [
     108.79544401526441,
     110.91833170939582
+   ],
+   [
+    16.537584237369934,
+    18.113278191690398
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -15219,7 +15248,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     31.609601684534905,
@@ -15228,6 +15257,10 @@
    [
     214.12,
     216.32
+   ],
+   [
+    38.84042346061062,
+    40.741887036345474
    ]
   ],
   "remix_reset": "2026-11-20",

@@ -128,8 +128,13 @@
   },
   {
    "at": "2026-11-25T17:48:25+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Some people light up a room. He lights up a nation. #youtubeshorts #ytshorts",
+   "type": "short",
+   "video_id": "osPFPTrH2io",
+   "voiced": true
   },
   {
    "at": "2026-11-25T18:27:32+04:00",

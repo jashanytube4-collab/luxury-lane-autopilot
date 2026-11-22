@@ -302,10 +302,10 @@
   "long": "2026-10-17"
  },
  "dubai crown prince attends graduation of dubai police academy": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 47,
+  "montage_used": 48,
   "remix_ranges": [
    [
     316.5598655911052,
@@ -366,6 +366,10 @@
    [
     131.57783346867305,
     133.06111097791862
+   ],
+   [
+    173.5253745699644,
+    174.96216593233882
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -2471,9 +2475,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed approves dff s three year strategic plan": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "montage_exhausted": true,
-  "montage_used": 30,
+  "montage_used": 31,
   "remix_ranges": [
    [
     132.68279953235296,
@@ -2510,6 +2514,10 @@
    [
     97.16054279130876,
     99.54602725156238
+   ],
+   [
+    191.88382302235553,
+    193.91640913099732
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3402,6 +3410,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-31",
   "montage_used": 30,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     199.21437450345937,
@@ -3611,7 +3620,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     10.986666666666666,
@@ -3624,6 +3633,10 @@
    [
     103.58217699114391,
     105.72452307279428
+   ],
+   [
+    140.55333333333334,
+    142.41333333333333
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4360,7 +4373,7 @@
  "hamdan bin mohammed attends hct graduation": {
   "last_short": "2026-11-25",
   "long": "2026-10-31",
-  "montage_used": 45,
+  "montage_used": 46,
   "remix_ranges": [
    [
     219.49568300016466,
@@ -4385,6 +4398,10 @@
    [
     1.52,
     3.6399999999999997
+   ],
+   [
+    188.82493931996353,
+    190.26747119009022
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6659,7 +6676,7 @@
   "last_short": "2026-11-25",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 32,
+  "montage_used": 33,
   "remix_ranges": [
    [
     107.48779104831378,
@@ -6704,6 +6721,10 @@
    [
     281.83059822859525,
     283.7361351421816
+   ],
+   [
+    198.63415742697086,
+    200.91932118355416
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11512,7 +11533,7 @@
  "hamdan bin mohammed opens gitex tech week 2017": {
   "last_short": "2026-11-25",
   "long": "2026-10-14",
-  "montage_used": 39,
+  "montage_used": 40,
   "remix_ranges": [
    [
     332.64461795604365,
@@ -11549,6 +11570,10 @@
    [
     443.6164845630051,
     445.06444670589633
+   ],
+   [
+    304.18823400638877,
+    305.6311609086626
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11768,7 +11793,7 @@
  "hamdan bin mohammed opens smart police station at la mer": {
   "last_short": "2026-11-25",
   "montage_exhausted": true,
-  "montage_used": 25,
+  "montage_used": 26,
   "remix_ranges": [
    [
     62.11021807184426,
@@ -11809,6 +11834,10 @@
    [
     100.42252218558627,
     101.95787611508713
+   ],
+   [
+    121.4,
+    123.16
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13914,6 +13943,7 @@
   "montage_exhausted": true,
   "montage_used": 10,
   "photo_short": true,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     65.85333333333334,
@@ -15026,14 +15056,18 @@
   "video_len": 154
  },
  "hamdan bin mohammed visits dubai hospital": {
-  "last_short": "2026-11-24",
+  "last_short": "2026-11-25",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     31.609601684534905,
     33.72642365002311
+   ],
+   [
+    214.12,
+    216.32
    ]
   ],
   "remix_reset": "2026-11-20",

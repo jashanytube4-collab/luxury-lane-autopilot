@@ -1243,7 +1243,7 @@
  "dubai crown prince visits dubai municipality": {
   "last_short": "2026-11-26",
   "long": "2026-11-02",
-  "montage_used": 54,
+  "montage_used": 55,
   "remix_ranges": [
    [
     321.72,
@@ -1320,6 +1320,10 @@
    [
     296.0096492899081,
     297.6661316628795
+   ],
+   [
+    46.08,
+    48.04
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5221,7 +5225,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 41,
+  "montage_used": 42,
   "remix_ranges": [
    [
     167.6806468932527,
@@ -5282,6 +5286,10 @@
    [
     443.2243470232071,
     445.1771404139812
+   ],
+   [
+    248.39180314885857,
+    250.40794130203633
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8819,7 +8827,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 30,
+  "montage_used": 31,
   "remix_ranges": [
    [
     87.58143717853224,
@@ -8852,6 +8860,10 @@
    [
     10.337032056506457,
     12.450313531875631
+   ],
+   [
+    70.29685859503648,
+    72.1844657783427
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8901,6 +8913,7 @@
   "last_short": "2026-11-26",
   "montage_exhausted": true,
   "montage_used": 23,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     152.44500151607716,
@@ -11080,10 +11093,10 @@
   "long": "2026-10-20"
  },
  "hamdan bin mohammed offers condolences to al falahi family": {
-  "last_short": "2026-11-25",
+  "last_short": "2026-11-26",
   "long": "2026-10-16",
   "montage_exhausted": true,
-  "montage_used": 22,
+  "montage_used": 23,
   "remix_ranges": [
    [
     40.36954099792474,
@@ -11112,6 +11125,10 @@
    [
     6.633045423407456,
     8.267579384899143
+   ],
+   [
+    62.70204464083613,
+    64.69056097597483
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13589,7 +13606,7 @@
  "hamdan bin mohammed reviews the latest technologies and energy solutions at wetex 2019": {
   "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     200.37999249206516,
@@ -13606,6 +13623,10 @@
    [
     41.571811693942074,
     43.11537192813707
+   ],
+   [
+    257.00976089941133,
+    258.5387598935159
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14957,7 +14978,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-13",
   "montage_exhausted": true,
-  "montage_used": 22,
+  "montage_used": 23,
   "remix_ranges": [
    [
     97.26657852612965,
@@ -14994,6 +15015,10 @@
    [
     49.68,
     51.56
+   ],
+   [
+    252.0021507745855,
+    253.42441447384647
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -15552,6 +15577,7 @@
   "long": "2026-11-02",
   "montage_exhausted": true,
   "montage_used": 34,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     152.68800146802988,
@@ -15923,7 +15949,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 26,
+  "montage_used": 27,
   "remix_ranges": [
    [
     31.609601684534905,
@@ -15960,6 +15986,10 @@
    [
     141.96,
     143.79999999999998
+   ],
+   [
+    204.48000000000002,
+    206.56
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -16117,10 +16147,10 @@
   "video_len": 263
  },
  "hamdan bin mohammed visits dubai sports council": {
-  "last_short": "2026-11-25",
+  "last_short": "2026-11-26",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     110.28976119537938,
@@ -16141,6 +16171,10 @@
    [
     19.040000000000003,
     20.8
+   ],
+   [
+    147.824279799026,
+    149.84298407456168
    ]
   ],
   "remix_reset": "2026-11-20",

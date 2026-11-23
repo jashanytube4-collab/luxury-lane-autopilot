@@ -1248,6 +1248,7 @@
   "last_short": "2026-11-26",
   "long": "2026-11-02",
   "montage_used": 57,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     321.72,
@@ -4483,7 +4484,7 @@
  "hamdan bin mohammed attends hct graduation": {
   "last_short": "2026-11-26",
   "long": "2026-10-31",
-  "montage_used": 50,
+  "montage_used": 51,
   "remix_ranges": [
    [
     219.49568300016466,
@@ -4528,6 +4529,10 @@
    [
     33.913734549116334,
     35.901004106835686
+   ],
+   [
+    193.85522759075968,
+    195.28962252116204
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11212,6 +11217,7 @@
   "long": "2026-10-27",
   "montage_exhausted": true,
   "montage_used": 21,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     41.16052104638739,
@@ -11656,7 +11662,7 @@
  "hamdan bin mohammed opens cityscape global 2017": {
   "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 51,
+  "montage_used": 52,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -11722,6 +11728,10 @@
    [
     148.35409548049398,
     149.6899502709988
+   ],
+   [
+    70.0,
+    71.67999999999999
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11902,7 +11912,7 @@
  "hamdan bin mohammed opens crime prevention international conference": {
   "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 27,
+  "montage_used": 28,
   "remix_ranges": [
    [
     20.13502281199993,
@@ -11931,6 +11941,10 @@
    [
     143.13901805041178,
     145.35783709740852
+   ],
+   [
+    44.7700613956384,
+    47.076734135099635
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12059,7 +12073,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 45,
+  "montage_used": 46,
   "remix_ranges": [
    [
     332.64461795604365,
@@ -12116,6 +12130,10 @@
    [
     523.1658949180127,
     524.7821792152241
+   ],
+   [
+    504.17383073442636,
+    506.7329091516192
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13055,7 +13073,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     51.559999999999995,
@@ -13088,6 +13106,10 @@
    [
     82.42549280427306,
     84.14375197288913
+   ],
+   [
+    62.345714723023214,
+    64.19978618432104
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -15031,7 +15053,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-13",
   "montage_exhausted": true,
-  "montage_used": 23,
+  "montage_used": 24,
   "remix_ranges": [
    [
     97.26657852612965,
@@ -15072,6 +15094,10 @@
    [
     252.0021507745855,
     253.42441447384647
+   ],
+   [
+    6.28,
+    8.680000000000001
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -15755,10 +15781,10 @@
   "video_len": 79
  },
  "hamdan bin mohammed visits dubai autism center": {
-  "last_short": "2026-11-25",
+  "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 31,
+  "montage_used": 32,
   "remix_ranges": [
    [
     184.4,
@@ -15807,6 +15833,10 @@
    [
     119.95004555293383,
     122.12353523331697
+   ],
+   [
+    29.131196108785467,
+    31.38730483286651
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -16002,7 +16032,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 28,
+  "montage_used": 29,
   "remix_ranges": [
    [
     31.609601684534905,
@@ -16047,6 +16077,10 @@
    [
     50.104748637326125,
     50.68377864130878
+   ],
+   [
+    79.34346714757613,
+    80.71314087514085
    ]
   ],
   "remix_reset": "2026-11-20",

@@ -3252,7 +3252,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 40,
+  "montage_used": 41,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -3286,6 +3286,10 @@
    [
     194.11119541066876,
     195.98081112784806
+   ],
+   [
+    96.42424873825976,
+    98.79766542320013
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8896,7 +8900,7 @@
  "hamdan bin mohammed launches the government games initiative": {
   "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 22,
+  "montage_used": 23,
   "remix_ranges": [
    [
     152.44500151607716,
@@ -8937,6 +8941,10 @@
    [
     196.88118895612803,
     199.38396654653053
+   ],
+   [
+    88.92707569408634,
+    90.6419356038118
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9935,7 +9943,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     1.929348642583168,
@@ -9964,6 +9972,10 @@
    [
     128.62713328482133,
     130.0336378552055
+   ],
+   [
+    120.15917569924338,
+    121.65713840579804
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11158,7 +11170,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     41.16052104638739,
@@ -11179,6 +11191,10 @@
    [
     1.5367548678873426,
     2.9535115735315034
+   ],
+   [
+    18.844836087506398,
+    20.6439457751401
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13062,6 +13078,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-30",
   "montage_used": 30,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     40.994186600963694,
@@ -14408,7 +14425,7 @@
  "hamdan bin mohammed unveils 5 star plaque at sheikh zayed housing programme in dubai": {
   "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 28,
+  "montage_used": 29,
   "remix_ranges": [
    [
     104.84181508997926,
@@ -14453,6 +14470,10 @@
    [
     118.28371195969244,
     120.12497846428326
+   ],
+   [
+    196.63304752099626,
+    198.75163737889628
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14517,7 +14538,7 @@
  "hamdan bin mohammed unveils 5 star plaques at three customer happiness centres in dubai": {
   "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 27,
+  "montage_used": 28,
   "remix_ranges": [
    [
     140.09584732465112,
@@ -14534,6 +14555,10 @@
    [
     131.4,
     133.4
+   ],
+   [
+    234.4454817125974,
+    236.84364449141788
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -15444,7 +15469,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 25,
+  "montage_used": 26,
   "remix_ranges": [
    [
     227.25091329983198,
@@ -15481,6 +15506,10 @@
    [
     137.32872383347183,
     138.73681381384742
+   ],
+   [
+    23.25171458143493,
+    25.36961295586026
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -15993,6 +16022,7 @@
   "long": "2026-10-14",
   "montage_exhausted": true,
   "montage_used": 25,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     79.64,

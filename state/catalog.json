@@ -305,7 +305,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 53,
+  "montage_used": 54,
   "remix_ranges": [
    [
     316.5598655911052,
@@ -390,6 +390,10 @@
    [
     177.4717873808497,
     179.29468948649568
+   ],
+   [
+    494.30297593844205,
+    495.9740296917353
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8868,7 +8872,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 33,
+  "montage_used": 34,
   "remix_ranges": [
    [
     87.58143717853224,
@@ -8913,6 +8917,10 @@
    [
     30.77810904796663,
     32.53912439627859
+   ],
+   [
+    260.8693257102806,
+    262.35876576476454
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11162,7 +11170,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-16",
   "montage_exhausted": true,
-  "montage_used": 23,
+  "montage_used": 24,
   "remix_ranges": [
    [
     40.36954099792474,
@@ -11195,6 +11203,10 @@
    [
     62.70204464083613,
     64.69056097597483
+   ],
+   [
+    73.16000000000001,
+    75.64
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11843,8 +11855,8 @@
   "video_len": 279
  },
  "hamdan bin mohammed opens cityscape global 2018": {
-  "last_short": "2026-11-25",
-  "montage_used": 37,
+  "last_short": "2026-11-26",
+  "montage_used": 38,
   "remix_ranges": [
    [
     317.08,
@@ -11873,6 +11885,10 @@
    [
     300.44966917563056,
     302.1055070306163
+   ],
+   [
+    166.67313334544704,
+    168.51549675797162
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12114,7 +12130,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 46,
+  "montage_used": 47,
   "remix_ranges": [
    [
     332.64461795604365,
@@ -12175,6 +12191,10 @@
    [
     504.17383073442636,
     506.7329091516192
+   ],
+   [
+    481.28000000000003,
+    483.15999999999997
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13114,7 +13134,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 21,
+  "montage_used": 22,
   "remix_ranges": [
    [
     51.559999999999995,
@@ -13151,6 +13171,10 @@
    [
     62.345714723023214,
     64.19978618432104
+   ],
+   [
+    33.9269129935269,
+    36.056140546268885
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14381,6 +14405,7 @@
   "long": "2026-11-01",
   "montage_exhausted": true,
   "montage_used": 19,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     112.85109569671269,
@@ -15021,7 +15046,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 24,
+  "montage_used": 25,
   "remix_ranges": [
    [
     140.89915446020242,
@@ -15058,6 +15083,10 @@
    [
     100.73715171198846,
     102.478880616112
+   ],
+   [
+    60.525407797663235,
+    62.1947356329693
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -15108,6 +15137,7 @@
   "long": "2026-10-13",
   "montage_exhausted": true,
   "montage_used": 24,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     97.26657852612965,
@@ -15431,7 +15461,7 @@
  "hamdan bin mohammed visits dewa s moro": {
   "last_short": "2026-11-26",
   "long": "2026-11-01",
-  "montage_used": 43,
+  "montage_used": 44,
   "remix_ranges": [
    [
     85.28,
@@ -15468,6 +15498,10 @@
    [
     318.5575053020147,
     319.6350069115704
+   ],
+   [
+    94.84,
+    97.0
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -16091,6 +16125,7 @@
   "long": "2026-10-14",
   "montage_exhausted": true,
   "montage_used": 31,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     31.609601684534905,

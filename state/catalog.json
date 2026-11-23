@@ -3278,7 +3278,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 43,
+  "montage_used": 44,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -3324,6 +3324,10 @@
    [
     23.01934212189592,
     25.06487457635761
+   ],
+   [
+    189.36,
+    191.0
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4501,7 +4505,7 @@
  "hamdan bin mohammed attends hct graduation": {
   "last_short": "2026-11-26",
   "long": "2026-10-31",
-  "montage_used": 53,
+  "montage_used": 54,
   "remix_ranges": [
    [
     219.49568300016466,
@@ -4558,6 +4562,10 @@
    [
     227.96575652732633,
     230.44047004308564
+   ],
+   [
+    100.44,
+    102.56
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8890,6 +8898,7 @@
   "long": "2026-10-18",
   "montage_exhausted": true,
   "montage_used": 37,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     87.58143717853224,
@@ -11596,7 +11605,7 @@
   "last_short": "2026-11-26",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 44,
+  "montage_used": 45,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -11646,6 +11655,10 @@
    [
     38.2496849868618,
     40.51269306008922
+   ],
+   [
+    262.6381871682562,
+    264.2566942790713
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11773,7 +11786,7 @@
  "hamdan bin mohammed opens cityscape global 2017": {
   "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 54,
+  "montage_used": 55,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -11851,6 +11864,10 @@
    [
     74.71407062151685,
     77.21948130333836
+   ],
+   [
+    171.45520228444462,
+    173.2488075527179
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11922,7 +11939,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2018": {
   "last_short": "2026-11-26",
-  "montage_used": 39,
+  "montage_used": 40,
   "remix_ranges": [
    [
     317.08,
@@ -11959,6 +11976,10 @@
    [
     56.266109275677195,
     57.910792518535324
+   ],
+   [
+    169.77815157333075,
+    171.6125450608364
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12039,7 +12060,7 @@
  "hamdan bin mohammed opens crime prevention international conference": {
   "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 30,
+  "montage_used": 31,
   "remix_ranges": [
    [
     20.13502281199993,
@@ -12080,6 +12101,10 @@
    [
     76.98897488550868,
     79.44663616317168
+   ],
+   [
+    118.17127142621722,
+    120.04992511210622
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13221,6 +13246,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 23,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     51.559999999999995,
@@ -14795,7 +14821,7 @@
  "hamdan bin mohammed unveils 5 star plaques at three customer happiness centres in dubai": {
   "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 31,
+  "montage_used": 32,
   "remix_ranges": [
    [
     140.09584732465112,
@@ -14828,6 +14854,10 @@
    [
     211.4,
     213.07999999999998
+   ],
+   [
+    266.0457148328851,
+    268.4316518978457
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -15983,7 +16013,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 33,
+  "montage_used": 34,
   "remix_ranges": [
    [
     184.4,
@@ -16040,6 +16070,10 @@
    [
     53.95351345072729,
     56.08280942260704
+   ],
+   [
+    175.40008140726314,
+    176.83898478981945
    ]
   ],
   "remix_reset": "2026-11-20",

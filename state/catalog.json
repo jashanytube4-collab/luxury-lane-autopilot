@@ -4501,7 +4501,7 @@
  "hamdan bin mohammed attends hct graduation": {
   "last_short": "2026-11-26",
   "long": "2026-10-31",
-  "montage_used": 52,
+  "montage_used": 53,
   "remix_ranges": [
    [
     219.49568300016466,
@@ -4554,6 +4554,10 @@
    [
     9.715864494172845,
     12.248598045239198
+   ],
+   [
+    227.96575652732633,
+    230.44047004308564
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8885,7 +8889,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 36,
+  "montage_used": 37,
   "remix_ranges": [
    [
     87.58143717853224,
@@ -8942,6 +8946,10 @@
    [
     146.04,
     147.84
+   ],
+   [
+    0.18517768104639254,
+    2.153101063888367
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11487,6 +11495,7 @@
   "long": "2026-10-27",
   "montage_exhausted": true,
   "montage_used": 15,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     109.75884718947057,
@@ -11764,7 +11773,7 @@
  "hamdan bin mohammed opens cityscape global 2017": {
   "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 53,
+  "montage_used": 54,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -11838,6 +11847,10 @@
    [
     65.56150624523362,
     67.22495373585696
+   ],
+   [
+    74.71407062151685,
+    77.21948130333836
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11909,7 +11922,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2018": {
   "last_short": "2026-11-26",
-  "montage_used": 38,
+  "montage_used": 39,
   "remix_ranges": [
    [
     317.08,
@@ -11942,6 +11955,10 @@
    [
     166.67313334544704,
     168.51549675797162
+   ],
+   [
+    56.266109275677195,
+    57.910792518535324
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12022,7 +12039,7 @@
  "hamdan bin mohammed opens crime prevention international conference": {
   "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 29,
+  "montage_used": 30,
   "remix_ranges": [
    [
     20.13502281199993,
@@ -12059,6 +12076,10 @@
    [
     198.41281411195436,
     200.3881795368218
+   ],
+   [
+    76.98897488550868,
+    79.44663616317168
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12370,7 +12391,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 39,
+  "montage_used": 40,
   "remix_ranges": [
    [
     44.48273041474908,
@@ -12423,6 +12444,10 @@
    [
     32.22233802809918,
     34.18092315730318
+   ],
+   [
+    9.134939438150607,
+    11.534547337206735
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14770,7 +14795,7 @@
  "hamdan bin mohammed unveils 5 star plaques at three customer happiness centres in dubai": {
   "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 30,
+  "montage_used": 31,
   "remix_ranges": [
    [
     140.09584732465112,
@@ -14799,6 +14824,10 @@
    [
     198.72040025085423,
     200.51556253438451
+   ],
+   [
+    211.4,
+    213.07999999999998
    ]
   ],
   "remix_reset": "2026-11-20",

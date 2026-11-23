@@ -3237,10 +3237,10 @@
   "video_len": 65
  },
  "hamdan bin mohammed attends closing ceremony of 3rd dubai future accelerators program": {
-  "last_short": "2026-11-25",
+  "last_short": "2026-11-26",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 39,
+  "montage_used": 40,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -3270,6 +3270,10 @@
    [
     238.08,
     240.07999999999998
+   ],
+   [
+    194.11119541066876,
+    195.98081112784806
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8846,9 +8850,9 @@
   "video_len": 268
  },
  "hamdan bin mohammed launches the government games initiative": {
-  "last_short": "2026-11-25",
+  "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     152.44500151607716,
@@ -8877,6 +8881,10 @@
    [
     74.05303331649598,
     76.59916336196127
+   ],
+   [
+    115.21848543186157,
+    117.15688647751522
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9052,6 +9060,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 12,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     50.73435098048448,
@@ -10883,10 +10892,10 @@
   "long": "2026-10-28"
  },
  "hamdan bin mohammed offers condolences on death of moza bint ali al weri": {
-  "last_short": "2026-11-25",
+  "last_short": "2026-11-26",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     73.66873288634743,
@@ -10915,6 +10924,10 @@
    [
     54.879999999999995,
     57.04
+   ],
+   [
+    67.70798203264293,
+    70.14222312204036
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11471,9 +11484,9 @@
   "video_len": 281
  },
  "hamdan bin mohammed opens cityscape global 2017": {
-  "last_short": "2026-11-25",
+  "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 45,
+  "montage_used": 46,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -11515,6 +11528,10 @@
    [
     204.2021779497817,
     206.12527810054365
+   ],
+   [
+    102.27172608101917,
+    104.02977415966646
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13323,6 +13340,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 15,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     59.31669790827004,
@@ -15032,9 +15050,9 @@
   "video_len": 206
  },
  "hamdan bin mohammed visits dewa s moro": {
-  "last_short": "2026-11-25",
+  "last_short": "2026-11-26",
   "long": "2026-11-01",
-  "montage_used": 40,
+  "montage_used": 41,
   "remix_ranges": [
    [
     85.28,
@@ -15059,6 +15077,10 @@
    [
     234.62776227141296,
     236.5677144969552
+   ],
+   [
+    254.58767990522554,
+    256.3953228634962
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -15152,10 +15174,10 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed visits display of origin autonomous vehicle on the sidelines of the world government summit 2022": {
-  "last_short": "2026-11-25",
+  "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     49.2798958061194,
@@ -15168,6 +15190,10 @@
    [
     40.86793508101537,
     42.78635893072674
+   ],
+   [
+    59.73306030953092,
+    62.16052401333055
    ]
   ],
   "remix_reset": "2026-11-20",

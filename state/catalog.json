@@ -2511,7 +2511,7 @@
  "hamdan bin mohammed approves dff s three year strategic plan": {
   "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 34,
+  "montage_used": 35,
   "remix_ranges": [
    [
     132.68279953235296,
@@ -2564,6 +2564,10 @@
    [
     25.023420974400928,
     27.13088989307728
+   ],
+   [
+    45.1597733691854,
+    46.83961488478019
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5205,10 +5209,10 @@
   "video_len": 164
  },
  "hamdan bin mohammed attends the knowledge summit 2018": {
-  "last_short": "2026-11-25",
+  "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 40,
+  "montage_used": 41,
   "remix_ranges": [
    [
     167.6806468932527,
@@ -5265,6 +5269,10 @@
    [
     409.8359743700981,
     412.1957637152672
+   ],
+   [
+    443.2243470232071,
+    445.1771404139812
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8879,7 +8887,7 @@
  "hamdan bin mohammed launches the government games initiative": {
   "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 21,
+  "montage_used": 22,
   "remix_ranges": [
    [
     152.44500151607716,
@@ -8916,6 +8924,10 @@
    [
     83.5396963942676,
     85.61160736960838
+   ],
+   [
+    196.88118895612803,
+    199.38396654653053
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9023,6 +9035,7 @@
   "long": "2026-11-01",
   "montage_exhausted": true,
   "no_video_until": "2026-11-23",
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-20",
   "video_exhausted": true,
@@ -11571,7 +11584,7 @@
  "hamdan bin mohammed opens cityscape global 2017": {
   "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 48,
+  "montage_used": 49,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -11625,6 +11638,10 @@
    [
     255.45061945541968,
     257.1801639442451
+   ],
+   [
+    15.954504940604789,
+    17.94477585623611
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11962,7 +11979,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 44,
+  "montage_used": 45,
   "remix_ranges": [
    [
     332.64461795604365,
@@ -12015,6 +12032,10 @@
    [
     484.72490432881557,
     486.3099518197972
+   ],
+   [
+    523.1658949180127,
+    524.7821792152241
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12946,10 +12967,10 @@
   "video_len": 70
  },
  "hamdan bin mohammed receives winners of hackathon competition": {
-  "last_short": "2026-11-25",
+  "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     51.559999999999995,
@@ -12966,6 +12987,10 @@
    [
     77.49373780165995,
     79.3826581235911
+   ],
+   [
+    69.36052119630939,
+    70.86072879278676
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -15321,6 +15346,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 9,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     49.2798958061194,
@@ -15382,7 +15408,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 24,
+  "montage_used": 25,
   "remix_ranges": [
    [
     227.25091329983198,
@@ -15415,6 +15441,10 @@
    [
     303.8,
     305.6
+   ],
+   [
+    137.32872383347183,
+    138.73681381384742
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -15828,7 +15858,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 25,
+  "montage_used": 26,
   "remix_ranges": [
    [
     31.609601684534905,
@@ -15861,6 +15891,10 @@
    [
     135.2266427593259,
     136.48658282351272
+   ],
+   [
+    141.96,
+    143.79999999999998
    ]
   ],
   "remix_reset": "2026-11-20",

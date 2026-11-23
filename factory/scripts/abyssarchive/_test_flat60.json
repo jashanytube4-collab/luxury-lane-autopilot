@@ -1,0 +1,204 @@
+{
+ "channel": "abyssarchive",
+ "slug": "_test_flat60",
+ "title": "Why You'd Never Want To Meet A Blue Whale",
+ "description": "Facts: blue whale up to ~30 m, heart ~180 kg (est.), krill up to ~4 t/day; great white up to ~6 m; sperm whale dives >2,000 m; Challenger Deep ~10,900 m; orcas prey on great whites. All animal art drawn procedurally, nothing to credit.",
+ "tags": [
+  "ocean",
+  "whale",
+  "orca"
+ ],
+ "thumb": {
+  "text": "BLUE WHALE",
+  "query": "blue whale"
+ },
+ "beats": [
+  {
+   "text": "Picture this. You're floating in open water, and something enormous glides past.",
+   "scene": {
+    "kind": "ocean",
+    "animal": "blue_whale",
+    "len": 0.74,
+    "y": 0.58,
+    "diver": true,
+    "cap": "YOU ARE *SMALL*",
+    "label": "BLUE WHALE",
+    "sub": "UP TO 30 M",
+    "depth": 0.3
+   }
+  },
+  {
+   "text": "A blue whale reaches thirty metres. That is longer than two city buses, and the biggest animal ever known.",
+   "scene": {
+    "kind": "scale",
+    "title": "HOW *BIG* IS BIG",
+    "items": [
+     {
+      "animal": "blue_whale",
+      "m": 30,
+      "label": "BLUE WHALE",
+      "hl": true
+     },
+     {
+      "animal": "bus",
+      "m": 12,
+      "label": "CITY BUS"
+     },
+     {
+      "animal": "diver",
+      "m": 1.8,
+      "label": "YOU"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Its heart alone weighs about one hundred and eighty kilograms.",
+   "scene": {
+    "kind": "big",
+    "big": 180,
+    "suffix": " KG",
+    "caption": "THE WEIGHT OF ITS *HEART*",
+    "animal": "blue_whale",
+    "depth": 0.55
+   }
+  },
+  {
+   "text": "Yet it eats animals the size of your finger. Krill. Up to four tonnes a day.",
+   "scene": {
+    "kind": "ocean",
+    "animal": "blue_whale",
+    "len": 0.5,
+    "y": 0.62,
+    "dir": -1,
+    "school": true,
+    "cap": "IT EATS *KRILL*",
+    "depth": 0.35
+   }
+  },
+  {
+   "text": "Most people think the ocean's biggest hunter is a shark. That is the myth.",
+   "scene": {
+    "kind": "text",
+    "text": "The biggest hunter is a *shark*. Or is it?",
+    "depth": 0.5
+   }
+  },
+  {
+   "text": "A great white reaches about six metres, and can sprint at around fifty kilometres an hour.",
+   "scene": {
+    "kind": "ocean",
+    "animal": "shark",
+    "len": 0.6,
+    "y": 0.56,
+    "label": "GREAT WHITE",
+    "sub": "UP TO ~6 M",
+    "depth": 0.45,
+    "glow": true
+   }
+  },
+  {
+   "text": "Next to the giants, it is small. A sperm whale is sixteen metres. An orca is around eight.",
+   "scene": {
+    "kind": "bars",
+    "title": "LENGTH IN *METRES*",
+    "unit": "M",
+    "hl": [
+     3
+    ],
+    "items": [
+     {
+      "label": "Blue whale",
+      "value": 30
+     },
+     {
+      "label": "Sperm whale",
+      "value": 16
+     },
+     {
+      "label": "Orca",
+      "value": 8
+     },
+     {
+      "label": "Great white",
+      "value": 6
+     }
+    ]
+   }
+  },
+  {
+   "text": "And a sperm whale will dive past two thousand metres, far below where sunlight reaches, to hunt in total darkness.",
+   "scene": {
+    "kind": "depth",
+    "to": 2000,
+    "marks": [
+     {
+      "d": 200,
+      "t": "SUNLIGHT FADES"
+     },
+     {
+      "d": 1000,
+      "t": "TOTAL DARKNESS"
+     }
+    ],
+    "animal": "sperm_whale",
+    "label": "SPERM WHALE"
+   }
+  },
+  {
+   "text": "The deepest point on Earth, the Mariana Trench, is nearly eleven thousand metres down. No whale goes there.",
+   "scene": {
+    "kind": "pin",
+    "title": "THE *MARIANA* TRENCH",
+    "region": [
+     100,
+     -30,
+     200,
+     45
+    ],
+    "pins": [
+     {
+      "lon": 142.2,
+      "lat": 11.4,
+      "label": "CHALLENGER DEEP  ~10,900 M"
+     }
+    ]
+   }
+  },
+  {
+   "text": "So who really rules? The orca. Pods of orcas have been filmed hunting great whites.",
+   "scene": {
+    "kind": "ocean",
+    "animal": "orca",
+    "len": 0.62,
+    "y": 0.54,
+    "glow": true,
+    "cap": "THE REAL *APEX* HUNTER",
+    "label": "ORCA",
+    "depth": 0.4
+   }
+  },
+  {
+   "text": "Three hunters. One rule. In open water, you are never at the top.",
+   "scene": {
+    "kind": "cards",
+    "title": "WHO *RULES* THE OCEAN",
+    "hl": 2,
+    "cards": [
+     {
+      "animal": "shark",
+      "label": "Great white"
+     },
+     {
+      "animal": "sperm_whale",
+      "label": "Sperm whale"
+     },
+     {
+      "animal": "orca",
+      "label": "Orca"
+     }
+    ]
+   }
+  }
+ ]
+}

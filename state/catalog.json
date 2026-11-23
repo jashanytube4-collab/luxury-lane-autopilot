@@ -4005,6 +4005,7 @@
   "long": "2026-10-30",
   "montage_exhausted": true,
   "montage_used": 38,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     48.36,
@@ -4462,7 +4463,7 @@
  "hamdan bin mohammed attends hct graduation": {
   "last_short": "2026-11-26",
   "long": "2026-10-31",
-  "montage_used": 49,
+  "montage_used": 50,
   "remix_ranges": [
    [
     219.49568300016466,
@@ -4503,6 +4504,10 @@
    [
     45.8,
     47.52
+   ],
+   [
+    33.913734549116334,
+    35.901004106835686
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8807,10 +8812,10 @@
   "video_len": 69
  },
  "hamdan bin mohammed launches sports initiatives": {
-  "last_short": "2026-11-25",
+  "last_short": "2026-11-26",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 29,
+  "montage_used": 30,
   "remix_ranges": [
    [
     87.58143717853224,
@@ -8839,6 +8844,10 @@
    [
     242.23726089361872,
     244.19905321807357
+   ],
+   [
+    10.337032056506457,
+    12.450313531875631
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9752,6 +9761,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 19,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     86.95333333333333,
@@ -10793,6 +10803,7 @@
   "long": "2026-10-21",
   "montage_exhausted": true,
   "montage_used": 14,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     30.294825772194937,
@@ -11584,7 +11595,7 @@
  "hamdan bin mohammed opens cityscape global 2017": {
   "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 49,
+  "montage_used": 50,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -11642,6 +11653,10 @@
    [
     15.954504940604789,
     17.94477585623611
+   ],
+   [
+    55.96919288711727,
+    57.56593346340948
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12755,6 +12770,7 @@
   "last_short": "2026-11-25",
   "montage_exhausted": true,
   "montage_used": 9,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     59.199999999999996,
@@ -12970,7 +12986,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     51.559999999999995,
@@ -12991,6 +13007,10 @@
    [
     69.36052119630939,
     70.86072879278676
+   ],
+   [
+    91.2790982167476,
+    93.77453381430374
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13041,7 +13061,7 @@
  "hamdan bin mohammed reviews dubai future foundation s 2018 plan and projects": {
   "last_short": "2026-11-26",
   "long": "2026-10-30",
-  "montage_used": 29,
+  "montage_used": 30,
   "remix_ranges": [
    [
     40.994186600963694,
@@ -13078,6 +13098,10 @@
    [
     62.04,
     64.36
+   ],
+   [
+    140.29127728537568,
+    141.71748823468815
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13546,9 +13570,9 @@
   "video_len": 68
  },
  "hamdan bin mohammed reviews the latest technologies and energy solutions at wetex 2019": {
-  "last_short": "2026-11-25",
+  "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     200.37999249206516,
@@ -13561,6 +13585,10 @@
    [
     214.89325798720154,
     216.67933955955587
+   ],
+   [
+    41.571811693942074,
+    43.11537192813707
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14901,10 +14929,10 @@
   "video_len": 159
  },
  "hamdan bin mohammed visits art dubai": {
-  "last_short": "2026-11-25",
+  "last_short": "2026-11-26",
   "long": "2026-10-13",
   "montage_exhausted": true,
-  "montage_used": 21,
+  "montage_used": 22,
   "remix_ranges": [
    [
     97.26657852612965,
@@ -14937,6 +14965,10 @@
    [
     57.66112982194244,
     60.157545270770036
+   ],
+   [
+    49.68,
+    51.56
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -15216,7 +15248,7 @@
  "hamdan bin mohammed visits dewa s moro": {
   "last_short": "2026-11-26",
   "long": "2026-11-01",
-  "montage_used": 42,
+  "montage_used": 43,
   "remix_ranges": [
    [
     85.28,
@@ -15249,6 +15281,10 @@
    [
     112.9720975540064,
     114.52097513748646
+   ],
+   [
+    318.5575053020147,
+    319.6350069115704
    ]
   ],
   "remix_reset": "2026-11-20",

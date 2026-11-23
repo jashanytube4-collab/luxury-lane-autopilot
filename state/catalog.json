@@ -1247,7 +1247,7 @@
  "dubai crown prince visits dubai municipality": {
   "last_short": "2026-11-26",
   "long": "2026-11-02",
-  "montage_used": 56,
+  "montage_used": 57,
   "remix_ranges": [
    [
     321.72,
@@ -1332,6 +1332,10 @@
    [
     65.55634794250797,
     68.03569985555083
+   ],
+   [
+    33.66513787386358,
+    35.828853556862626
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8835,7 +8839,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 31,
+  "montage_used": 32,
   "remix_ranges": [
    [
     87.58143717853224,
@@ -8872,6 +8876,10 @@
    [
     70.29685859503648,
     72.1844657783427
+   ],
+   [
+    79.57769907598704,
+    81.55926378413362
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9633,7 +9641,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-17",
   "montage_exhausted": true,
-  "montage_used": 44,
+  "montage_used": 45,
   "remix_ranges": [
    [
     202.24325973382153,
@@ -9670,6 +9678,10 @@
    [
     257.39559615838374,
     258.8870341570845
+   ],
+   [
+    89.5240727326494,
+    91.01922402348552
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11199,7 +11211,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     41.16052104638739,
@@ -11224,6 +11236,10 @@
    [
     18.844836087506398,
     20.6439457751401
+   ],
+   [
+    33.41865339800693,
+    35.53377507359111
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11640,7 +11656,7 @@
  "hamdan bin mohammed opens cityscape global 2017": {
   "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 50,
+  "montage_used": 51,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -11702,6 +11718,10 @@
    [
     55.96919288711727,
     57.56593346340948
+   ],
+   [
+    148.35409548049398,
+    149.6899502709988
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13035,7 +13055,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     51.559999999999995,
@@ -13064,6 +13084,10 @@
    [
     96.99121450554473,
     99.01737141866631
+   ],
+   [
+    82.42549280427306,
+    84.14375197288913
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13381,9 +13405,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed reviews outcomes of farmers souq initiative": {
-  "last_short": "2026-11-25",
+  "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     25.287802896479974,
@@ -13408,6 +13432,10 @@
    [
     21.10768292715629,
     22.832903597268604
+   ],
+   [
+    57.53451014482793,
+    59.26484282814112
    ]
   ],
   "remix_reset": "2026-11-20",

@@ -1,0 +1,159 @@
+{
+ "channel": "mindforgearc",
+ "slug": "_test_mind60",
+ "title": "3 Habit Rules Backed By Psychology",
+ "description": "Cue-routine-reward, implementation intentions, friction.",
+ "tags": [
+  "habits",
+  "psychology"
+ ],
+ "thumb": {
+  "text": "3 RULES"
+ },
+ "beats": [
+  {
+   "text": "You are not lazy. You are not weak. You are not broken.",
+   "scene": {
+    "kind": "slam",
+    "text": "NOT *LAZY*. NOT WEAK. NOT BROKEN.",
+    "pose": "stand",
+    "side": "r"
+   }
+  },
+  {
+   "text": "You are running a brain built to save energy. And once you see how it works, you can use it.",
+   "scene": {
+    "kind": "hero",
+    "text": "A brain built to *save energy*",
+    "pose": "think",
+    "pose2": "stand",
+    "side": "r",
+    "eye": true
+   }
+  },
+  {
+   "text": "I read the research on habits so you do not have to. Here are three rules that hold up.",
+   "scene": {
+    "kind": "text",
+    "text": "Three *rules* that hold up"
+   }
+  },
+  {
+   "text": "Rule one. Habits run on a loop. A cue, a routine, and a reward. Change the cue, and the whole loop changes.",
+   "scene": [
+    {
+     "kind": "rule",
+     "n": 1,
+     "title": "Find the *loop*",
+     "sub": "Every habit has a cue, a routine and a reward.",
+     "try": "Write down your cue tonight.",
+     "w": 0.8
+    },
+    {
+     "kind": "loop",
+     "title": "The habit loop",
+     "nodes": [
+      {
+       "label": "Cue",
+       "sub": "phone buzzes"
+      },
+      {
+       "label": "Routine",
+       "sub": "scroll"
+      },
+      {
+       "label": "Reward",
+       "sub": "relief"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Rule two. Decide in advance. Researchers call it an implementation intention. If it is seven a.m., then I put on my shoes.",
+   "scene": [
+    {
+     "kind": "rule",
+     "n": 2,
+     "title": "Decide *before*",
+     "sub": "If it is 7 am, then I put on my shoes.",
+     "try": "Write one if-then plan.",
+     "w": 0.8
+    },
+    {
+     "kind": "brain",
+     "text": "A plan made *ahead* removes the daily debate",
+     "labels": [
+      "If",
+      "Then",
+      "Done"
+     ]
+    }
+   ]
+  },
+  {
+   "text": "People who plan like this follow through far more often than people who only set a goal.",
+   "scene": {
+    "kind": "hero",
+    "text": "Plan it. *Then* it runs.",
+    "pose": "walk",
+    "side": "l"
+   }
+  },
+  {
+   "text": "Rule three. Make it easy. Every extra step is a place to quit. Cut the friction, and starting gets lighter.",
+   "scene": {
+    "kind": "before_after",
+    "left": {
+     "label": "Before",
+     "items": [
+      "Shoes in the closet",
+      "Gym across town",
+      "Big goal, big dread"
+     ]
+    },
+    "right": {
+     "label": "After",
+     "items": [
+      "Shoes by the bed",
+      "Ten minute walk",
+      "Tiny start, easy win"
+     ]
+    }
+   }
+  },
+  {
+   "text": "And be patient. A University College London study found it took about two months on average. Some people took far longer.",
+   "scene": {
+    "kind": "streak",
+    "days": 28,
+    "caption": "Slow days still count"
+   }
+  },
+  {
+   "text": "Missing one day did not ruin it. The people who kept going were the ones who came back.",
+   "scene": {
+    "kind": "quote",
+    "text": "Missing once changes *nothing*. Missing twice starts a *new habit*.",
+    "by": "A common habit rule"
+   }
+  },
+  {
+   "text": "So tonight, do one thing. Write your cue, write your if-then plan, and make the first step small.",
+   "scene": {
+    "kind": "hero",
+    "text": "Cue. Plan. *Small start.*",
+    "pose": "up",
+    "pose2": "point",
+    "side": "r"
+   }
+  },
+  {
+   "text": "Start small, repeat it, and let the loop work for you. That is how real change is built.",
+   "scene": {
+    "kind": "text",
+    "text": "Small. Repeated. *Unstoppable*."
+   }
+  }
+ ]
+}

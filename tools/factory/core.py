@@ -59,11 +59,14 @@ def tts_beat(text, prof, out: Path):
                     elif ch["type"] == "WordBoundary":
                         words.append((ch["text"], ch["offset"] / 1e7, (ch["offset"] + ch["duration"]) / 1e7))
             js.write_text(json.dumps(words), encoding="utf-8")
-        for i in range(4):
+        for i in range(8):
             try:
                 asyncio.run(go()); break
             except Exception as e:  # noqa: BLE001
-                print("tts retry", e); asyncio.run(asyncio.sleep(3))
+                print("tts retry", e); mp3.unlink(missing_ok=True)
+                asyncio.run(asyncio.sleep(3 + 4 * i))
+        if not js.exists():
+            raise RuntimeError("edge-tts failed after retries: " + text[:60])
     return mp3, json.loads(js.read_text(encoding="utf-8"))
 
 

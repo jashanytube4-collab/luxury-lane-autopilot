@@ -18019,3 +18019,1061 @@ clip:dr-h-ys1-k2:
   - start
   - runners
   text_graphic: false
+clip:rf-an-sea1:
+  arab_people: null
+  desc: Calm open sea surface
+  hamdan: 0.0
+  people: false
+  tags:
+  - blue
+  - ocean
+  - sea
+  - water
+  - waves
+clip:rf-an-horizon:
+  arab_people: null
+  desc: Open sea to the horizon
+  hamdan: 0.0
+  people: false
+  tags:
+  - horizon
+  - ocean
+  - sea
+  - water
+clip:rf-an-burj:
+  arab_people: null
+  desc: Aerial view of the Burj Al Arab and the beach
+  hamdan: 0.0
+  people: false
+  tags:
+  - beach
+  - burj
+  - coast
+  - dubai
+  - hotel
+  - sea
+  - water
+clip:rf-an-waves:
+  arab_people: null
+  desc: Waves breaking on the open sea
+  hamdan: 0.0
+  people: false
+  tags:
+  - foam
+  - ocean
+  - sea
+  - water
+  - waves
+clip:rf-an-sun:
+  arab_people: null
+  desc: Sun shining over the sea
+  hamdan: 0.0
+  people: false
+  tags:
+  - ocean
+  - sea
+  - sun
+  - water
+  - waves
+clip:rf-an-phases:
+  arab_people: null
+  desc: Animated map of the planned reef zones off the Dubai coast
+  hamdan: 0.0
+  people: false
+  tags:
+  - coast
+  - islands
+  - map
+  - palm
+  - reef
+  - sea
+  - water
+clip:rf-an-pitch1:
+  arab_people: null
+  desc: 'Animation: one football pitch on a block of sea'
+  hamdan: 0.0
+  people: false
+  tags:
+  - field
+  - football
+  - grass
+  - pitch
+  - sea
+  - water
+clip:rf-an-pitch2:
+  arab_people: null
+  desc: 'Animation: 85,000 football fields over the sea'
+  hamdan: 0.0
+  people: false
+  tags:
+  - fields
+  - football
+  - reef
+  - sea
+  - water
+clip:rf-an-pitch3:
+  arab_people: null
+  desc: 'Animation: grid of football fields laid over the reef area'
+  hamdan: 0.0
+  people: false
+  tags:
+  - fields
+  - football
+  - grass
+  - sea
+  - water
+clip:rf-an-20k:
+  arab_people: null
+  desc: 'Animation: 20,000 reef modules spread on the sea floor'
+  hamdan: 0.0
+  people: false
+  tags:
+  - boats
+  - floor
+  - reef
+  - sea
+  - thousands
+  - water
+clip:rf-an-fishmod:
+  arab_people: null
+  desc: Animated reef module with fish moving in
+  hamdan: 0.0
+  people: false
+  tags:
+  - concrete
+  - fish
+  - frame
+  - reef
+clip:rf-an-grid:
+  arab_people: null
+  desc: Animated rows of reef modules, turtles swim by
+  hamdan: 0.0
+  people: false
+  tags:
+  - concrete
+  - frames
+  - reef
+  - turtles
+clip:rf-an-fishschool:
+  arab_people: null
+  desc: School of fish underwater
+  hamdan: 0.0
+  people: false
+  tags:
+  - fish
+  - ocean
+  - sea
+  - underwater
+  - water
+clip:rf-an-turtle-uw:
+  arab_people: null
+  desc: Sea turtle resting on the sea floor
+  hamdan: 0.0
+  people: false
+  tags:
+  - floor
+  - ocean
+  - sea
+  - turtle
+  - underwater
+clip:rf-an-hatch1:
+  arab_people: null
+  desc: Young turtles crawling on the sand
+  hamdan: 0.0
+  people: false
+  tags:
+  - baby
+  - beach
+  - sand
+  - turtles
+clip:rf-an-hatch2:
+  arab_people: null
+  desc: Young turtle on the beach heading for the sea
+  hamdan: 0.0
+  people: false
+  tags:
+  - beach
+  - sand
+  - sea
+  - turtles
+clip:rf-dm-yard:
+  arab_people: null
+  desc: Aerial view of reef modules in a yard
+  hamdan: 0.0
+  people: false
+  tags:
+  - aerial
+  - concrete
+  - reef
+clip:rf-dm-boats:
+  arab_people: null
+  desc: Boats and a barge on the open sea
+  hamdan: 0.0
+  people: false
+  tags:
+  - boats
+  - sea
+  - ship
+  - water
+clip:rf-dm-skyline:
+  arab_people: null
+  desc: Dubai skyline seen from the sea
+  hamdan: 0.0
+  people: false
+  tags:
+  - city
+  - coast
+  - dubai
+  - sea
+  - skyline
+  - towers
+  - water
+clip:rf-dm-team:
+  arab_people: true
+  desc: Sheikh Hamdan with Ray Dalio and divers on a boat
+  hamdan: 0.8
+  people: true
+  tags:
+  - boat
+  - deck
+  - divers
+  - prince
+  - sea
+  - team
+  - wetsuit
+clip:rf-dm-worker:
+  arab_people: false
+  desc: Worker on top of a giant reef module
+  hamdan: 0.0
+  people: true
+  tags:
+  - concrete
+  - crane
+  - reef
+  - worker
+clip:rf-dm-barge:
+  arab_people: null
+  desc: Barge loaded with reef modules
+  hamdan: 0.0
+  people: false
+  tags:
+  - boat
+  - reef
+  - sea
+clip:rf-dm-hang:
+  arab_people: null
+  desc: Reef module hanging over the sea beside a barge
+  hamdan: 0.0
+  people: false
+  tags:
+  - crane
+  - sea
+clip:rf-dm-aerial:
+  arab_people: null
+  desc: 'Aerial: barge lowering modules at sea'
+  hamdan: 0.0
+  people: false
+  tags:
+  - aerial
+  - boat
+  - crane
+  - sea
+clip:rf-dm-crane:
+  arab_people: null
+  desc: Crane ship and speedboat at sea
+  hamdan: 0.0
+  people: false
+  tags:
+  - boat
+  - crane
+  - sea
+  - ship
+  - speedboat
+clip:rf-dm-talk:
+  arab_people: true
+  desc: Sheikh Hamdan in a wetsuit talks with Ray Dalio on the boat
+  hamdan: 0.8
+  people: true
+  tags:
+  - boat
+  - deck
+  - divers
+  - prince
+  - sea
+  - wetsuit
+clip:rf-dm-lower:
+  arab_people: null
+  desc: Reef module lowered into the sea
+  hamdan: 0.0
+  people: false
+  tags:
+  - crane
+  - reef
+  - sea
+  - water
+clip:rf-dm-wave:
+  arab_people: null
+  desc: Crane barge seen over the waves
+  hamdan: 0.0
+  people: false
+  tags:
+  - crane
+  - sea
+  - water
+  - waves
+clip:rf-dm-splash:
+  arab_people: null
+  desc: Reef module splashes into the water
+  hamdan: 0.0
+  people: false
+  tags:
+  - sea
+  - water
+clip:rf-dm-sink:
+  arab_people: null
+  desc: Module sinking through blue water
+  hamdan: 0.0
+  people: false
+  tags:
+  - sea
+  - underwater
+  - water
+clip:rf-dm-bubbles:
+  arab_people: null
+  desc: Divers drop into the water in a cloud of bubbles
+  hamdan: 0.0
+  people: false
+  tags:
+  - bubbles
+  - divers
+  - sea
+  - underwater
+  - water
+clip:rf-dm-uw1:
+  arab_people: null
+  desc: Reef module resting on the sea floor
+  hamdan: 0.0
+  people: false
+  tags:
+  - floor
+  - sand
+  - sea
+  - underwater
+clip:rf-dm-twodivers:
+  arab_people: false
+  desc: Two divers swim down to the reef
+  hamdan: 0.0
+  people: true
+  tags:
+  - divers
+  - scuba
+  - sea
+  - underwater
+clip:rf-dm-uw2:
+  arab_people: null
+  desc: Reef module on the sandy sea floor
+  hamdan: 0.0
+  people: false
+  tags:
+  - floor
+  - sand
+  - sea
+  - underwater
+clip:rf-dm-growth:
+  arab_people: null
+  desc: Coral growing on an old reef module
+  hamdan: 0.0
+  people: false
+  tags:
+  - coral
+  - fish
+  - reef
+  - underwater
+clip:rf-dm-divers:
+  arab_people: false
+  desc: Divers swim by a coral-covered module
+  hamdan: 0.0
+  people: true
+  tags:
+  - coral
+  - divers
+  - reef
+  - underwater
+clip:rf-dm-diver2:
+  arab_people: false
+  desc: Diver swims along the reef module
+  hamdan: 0.0
+  people: true
+  tags:
+  - diver
+  - reef
+  - underwater
+clip:rf-dm-hdive:
+  arab_people: true
+  desc: Sheikh Hamdan in scuba gear underwater by the reef
+  hamdan: 0.5
+  people: true
+  tags:
+  - diver
+  - prince
+  - reef
+  - scuba
+  - underwater
+clip:rf-dm-coral:
+  arab_people: null
+  desc: Coral and fish on a reef module
+  hamdan: 0.0
+  people: false
+  tags:
+  - coral
+  - fish
+  - reef
+  - sea
+  - underwater
+clip:rf-dm-speedboat:
+  arab_people: null
+  desc: Aerial view of a speedboat on the sea
+  hamdan: 0.0
+  people: false
+  tags:
+  - aerial
+  - boat
+  - sea
+  - speedboat
+  - water
+clip:rf-dm-gaze:
+  arab_people: true
+  desc: Sheikh Hamdan on the boat looks out at the sea
+  hamdan: 0.9
+  people: true
+  tags:
+  - boat
+  - deck
+  - prince
+  - sea
+  - water
+clip:rf-dm-boat2:
+  arab_people: null
+  desc: Speedboat cruising on a calm sea
+  hamdan: 0.0
+  people: false
+  tags:
+  - boat
+  - sea
+  - speedboat
+  - water
+clip:rf-tv-barge1:
+  arab_people: null
+  desc: Barge carrying reef modules at sea
+  hamdan: 0.0
+  people: false
+  tags:
+  - boat
+  - sea
+clip:rf-tv-aerial:
+  arab_people: null
+  desc: 'Aerial: tug pulls a barge of reef modules'
+  hamdan: 0.0
+  people: false
+  tags:
+  - aerial
+  - boat
+  - sea
+clip:rf-tv-side:
+  arab_people: null
+  desc: Barge with reef modules and a Dubai Reef banner
+  hamdan: 0.0
+  people: false
+  tags:
+  - banner
+  - crane
+  - sea
+clip:rf-tv-tilt:
+  arab_people: null
+  desc: Crane barge loaded with modules
+  hamdan: 0.0
+  people: false
+  tags:
+  - crane
+  - sea
+clip:rf-tv-skyline:
+  arab_people: null
+  desc: Reef barge at sea with the Dubai skyline behind
+  hamdan: 0.0
+  people: false
+  tags:
+  - city
+  - dubai
+  - sea
+  - skyline
+  - towers
+clip:rf-tv-banner:
+  arab_people: null
+  desc: Barge side with modules and banner
+  hamdan: 0.0
+  people: false
+  tags:
+  - banner
+  - sea
+clip:rf-tv-deck:
+  arab_people: null
+  desc: Reef modules on a barge deck seen from above
+  hamdan: 0.0
+  people: false
+  tags:
+  - concrete
+  - deck
+  - reef
+clip:rf-tv-barge2:
+  arab_people: null
+  desc: Barge full of reef modules on the sea
+  hamdan: 0.0
+  people: false
+  tags:
+  - sea
+clip:rf-tv-crane:
+  arab_people: null
+  desc: Crane barge with modules at sea
+  hamdan: 0.0
+  people: false
+  tags:
+  - crane
+  - sea
+clip:rf-tv-water:
+  arab_people: null
+  desc: Crane barge seen from the water
+  hamdan: 0.0
+  people: false
+  tags:
+  - crane
+  - sea
+  - water
+clip:rf-tv-swing:
+  arab_people: null
+  desc: Reef module hanging over the sea
+  hamdan: 0.0
+  people: false
+  tags:
+  - crane
+  - sea
+  - water
+clip:rf-tv-lower:
+  arab_people: null
+  desc: Module lowered beside the barge
+  hamdan: 0.0
+  people: false
+  tags:
+  - crane
+  - sea
+clip:rf-tv-drop:
+  arab_people: null
+  desc: Reef module lowered into the sea
+  hamdan: 0.0
+  people: false
+  tags:
+  - crane
+  - sea
+  - water
+clip:rf-wa-grid:
+  arab_people: null
+  desc: Thousands of reef modules in rows, from above
+  hamdan: 0.0
+  people: false
+  tags:
+  - concrete
+  - reef
+  - thousands
+clip:rf-wa-mod:
+  arab_people: null
+  desc: A reef module standing on the sand
+  hamdan: 0.0
+  people: false
+  tags:
+  - concrete
+  - reef
+  - sand
+clip:rf-wa-yard:
+  arab_people: null
+  desc: Reef modules loaded at the quay
+  hamdan: 0.0
+  people: false
+  tags:
+  - crane
+  - port
+clip:rf-wa-port:
+  arab_people: null
+  desc: Port crane loading reef modules
+  hamdan: 0.0
+  people: false
+  tags:
+  - crane
+  - port
+  - ship
+clip:rf-wa-barge:
+  arab_people: null
+  desc: Crane barge heading out to sea
+  hamdan: 0.0
+  people: false
+  tags:
+  - boat
+  - crane
+  - sea
+clip:rf-wa-sink:
+  arab_people: null
+  desc: Reef module sinks under the surface
+  hamdan: 0.0
+  people: false
+  tags:
+  - sea
+  - underwater
+  - water
+clip:rf-wa-uw1:
+  arab_people: null
+  desc: Reef modules on the sea floor
+  hamdan: 0.0
+  people: false
+  tags:
+  - floor
+  - reef
+  - sand
+  - sea
+  - underwater
+clip:rf-wa-uw2:
+  arab_people: null
+  desc: Bare reef modules on the sand
+  hamdan: 0.0
+  people: false
+  tags:
+  - floor
+  - reef
+  - sand
+  - sea
+  - underwater
+clip:rf-wa-grown:
+  arab_people: null
+  desc: Reef module covered in coral years later
+  hamdan: 0.0
+  people: false
+  tags:
+  - coral
+  - reef
+  - underwater
+clip:rf-gb-diver:
+  arab_people: false
+  desc: Diver checks the reef and gives an OK sign
+  hamdan: 0.0
+  people: true
+  tags:
+  - coral
+  - diver
+  - fish
+  - reef
+  - underwater
+clip:rf-gb-angel:
+  arab_people: null
+  desc: Angelfish by the coral-covered reef
+  hamdan: 0.0
+  people: false
+  tags:
+  - coral
+  - fish
+  - reef
+  - underwater
+clip:rf-gb-frame:
+  arab_people: null
+  desc: Fish swim around a coral-covered frame
+  hamdan: 0.0
+  people: false
+  tags:
+  - coral
+  - fish
+  - reef
+  - underwater
+clip:rf-gb-school:
+  arab_people: null
+  desc: School of fish over the reef
+  hamdan: 0.0
+  people: false
+  tags:
+  - coral
+  - fish
+  - reef
+  - underwater
+clip:rf-gb-orange:
+  arab_people: null
+  desc: Orange coral covering the reef
+  hamdan: 0.0
+  people: false
+  tags:
+  - coral
+  - reef
+  - underwater
+clip:rf-gb-fish2:
+  arab_people: null
+  desc: Fish among the corals
+  hamdan: 0.0
+  people: false
+  tags:
+  - coral
+  - fish
+  - reef
+  - underwater
+clip:rf-sun-beach:
+  arab_people: null
+  desc: Rescued turtle crawls over wet sand to the sea
+  hamdan: 0.0
+  people: false
+  tags:
+  - beach
+  - sand
+  - sea
+  - turtle
+  - water
+clip:rf-sun-sand:
+  arab_people: null
+  desc: Rescued turtle crawls on the sand
+  hamdan: 0.0
+  people: false
+  tags:
+  - beach
+  - sand
+  - turtle
+clip:rf-sun-wave:
+  arab_people: null
+  desc: Turtle swims out into the surf
+  hamdan: 0.0
+  people: false
+  tags:
+  - beach
+  - sea
+  - turtle
+  - water
+  - waves
+clip:rf-sun-box:
+  arab_people: null
+  desc: Rescued turtle in a release crate on the sand
+  hamdan: 0.0
+  people: false
+  tags:
+  - beach
+  - sand
+  - turtle
+clip:rf-sun-shell:
+  arab_people: null
+  desc: Close-up of a sea turtle shell
+  hamdan: 0.0
+  people: false
+  tags:
+  - shell
+  - turtle
+clip:rf-sun-pool:
+  arab_people: false
+  desc: Carers tend turtles at a rehab pool
+  hamdan: 0.0
+  people: true
+  tags:
+  - pool
+  - tank
+  - turtle
+  - water
+clip:rf-sun-pool2:
+  arab_people: false
+  desc: Carer feeds turtles in a rehab pool
+  hamdan: 0.0
+  people: true
+  tags:
+  - pool
+  - tank
+  - turtle
+  - water
+clip:rf-sun-tanks:
+  arab_people: false
+  desc: Rows of turtle rehab tanks
+  hamdan: 0.0
+  people: true
+  tags:
+  - pool
+  - tanks
+  - turtle
+  - water
+clip:rf-sun-measure:
+  arab_people: null
+  desc: Vet measures a rescued turtle
+  hamdan: 0.0
+  people: false
+  tags:
+  - turtle
+clip:rf-sun-scale:
+  arab_people: null
+  desc: Young turtle weighed on a scale
+  hamdan: 0.0
+  people: false
+  tags:
+  - turtle
+clip:rf-sun-hold:
+  arab_people: null
+  desc: Vet holds a young turtle
+  hamdan: 0.0
+  people: false
+  tags:
+  - hands
+  - turtle
+clip:rf-sun-tank1:
+  arab_people: null
+  desc: Turtle swims in a rehab tank
+  hamdan: 0.0
+  people: false
+  tags:
+  - swimming
+  - tank
+  - turtle
+  - water
+clip:rf-sun-tank2:
+  arab_people: null
+  desc: Turtles swimming in a recovery tank
+  hamdan: 0.0
+  people: false
+  tags:
+  - swimming
+  - tank
+  - turtle
+  - water
+clip:rf-sun-port:
+  arab_people: null
+  desc: Turtle seen through a tank porthole
+  hamdan: 0.0
+  people: false
+  tags:
+  - tank
+  - turtle
+clip:rf-cl-shore:
+  arab_people: false
+  desc: Divers and volunteers at the waterfront before a sea clean-up
+  hamdan: 0.0
+  people: true
+  tags:
+  - crowd
+  - divers
+  - marina
+  - sea
+  - water
+clip:rf-cl-dive:
+  arab_people: false
+  desc: Diver searching the murky sea floor for rubbish
+  hamdan: 0.0
+  people: true
+  tags:
+  - diver
+  - floor
+  - sea
+  - underwater
+clip:rf-cl-mask:
+  arab_people: false
+  desc: Clean-up diver underwater
+  hamdan: 0.0
+  people: true
+  tags:
+  - diver
+  - scuba
+  - sea
+  - underwater
+clip:rf-cl-trash:
+  arab_people: false
+  desc: Diver stuffs rubbish from the sea floor into a net bag
+  hamdan: 0.0
+  people: true
+  tags:
+  - bag
+  - diver
+  - sea
+  - trash
+  - underwater
+clip:rf-cl-bags:
+  arab_people: false
+  desc: Divers hand up bags of rubbish pulled from the sea
+  hamdan: 0.0
+  people: true
+  tags:
+  - bags
+  - divers
+  - sea
+  - trash
+  - water
+clip:rf-gs-coastbeach:
+  arab_people: null
+  desc: Waves on a Dubai beach, then the Dubai skyline from the sea
+  hamdan: 0.0
+  people: false
+  tags:
+  - beach
+  - city
+  - coast
+  - dubai
+  - sea
+  - skyline
+  - water
+  - waves
+clip:rf-gs-lab:
+  arab_people: null
+  desc: Coral growing in a lab tank in Dubai
+  hamdan: 0.0
+  people: false
+  tags:
+  - coral
+  - reef
+  - tank
+clip:rf-gs-table:
+  arab_people: null
+  desc: Table corals on a reef
+  hamdan: 0.0
+  people: false
+  tags:
+  - coral
+  - reef
+  - sea
+  - underwater
+clip:rf-gs-bleach:
+  arab_people: null
+  desc: Pale, bleached-looking branching coral
+  hamdan: 0.0
+  people: false
+  tags:
+  - coral
+  - reef
+  - underwater
+clip:rf-gs-pink:
+  arab_people: null
+  desc: Healthy pink coral with fish
+  hamdan: 0.0
+  people: false
+  tags:
+  - coral
+  - fish
+  - reef
+  - underwater
+clip:rf-gs-zoa:
+  arab_people: null
+  desc: Close-up of colourful coral polyps
+  hamdan: 0.0
+  people: false
+  tags:
+  - coral
+  - reef
+clip:rf-pb-pier:
+  arab_people: null
+  desc: An old ocean liner at the pier before becoming an artificial reef
+  hamdan: 0.0
+  people: false
+  tags:
+  - pier
+  - port
+  - ship
+clip:rf-pb-tow:
+  arab_people: null
+  desc: Tugs tow the old liner out to be sunk as a reef
+  hamdan: 0.0
+  people: false
+  tags:
+  - boat
+  - port
+  - ship
+clip:rf-pb-hulk:
+  arab_people: null
+  desc: The stripped hull of the old liner
+  hamdan: 0.0
+  people: false
+  tags:
+  - ship
+clip:rf-pb-inside:
+  arab_people: null
+  desc: Inside the empty hull of the old ship
+  hamdan: 0.0
+  people: false
+  tags:
+  - metal
+  - ship
+clip:rf-pb-sink:
+  arab_people: null
+  desc: The old ship sinks to become an artificial reef
+  hamdan: 0.0
+  people: false
+  tags:
+  - sea
+  - ship
+clip:rf-pb-uw:
+  arab_people: null
+  desc: Fish gather under a sunken ledge
+  hamdan: 0.0
+  people: false
+  tags:
+  - fish
+  - reef
+  - underwater
+clip:rf-dd-walk:
+  arab_people: false
+  desc: Visitors walk beside the pool at Deep Dive Dubai
+  hamdan: 0.0
+  people: true
+  tags:
+  - pool
+clip:rf-dd-talk:
+  arab_people: false
+  desc: A tour of the Deep Dive Dubai control room
+  hamdan: 0.0
+  people: true
+  tags:
+  - pool
+clip:rf-dm-floor:
+  arab_people: null
+  desc: New reef modules standing on the sea floor
+  hamdan: 0.0
+  people: false
+  tags:
+  - floor
+  - sand
+  - sea
+  - underwater
+clip:rf-pb-reef1:
+  arab_people: null
+  desc: Fish over a rocky reef
+  hamdan: 0.0
+  people: false
+  tags:
+  - coral
+  - fish
+  - reef
+  - underwater
+clip:rf-pb-reef2:
+  arab_people: null
+  desc: Parrotfish among corals
+  hamdan: 0.0
+  people: false
+  tags:
+  - coral
+  - fish
+  - reef
+  - underwater
+clip:rf-pb-reef3:
+  arab_people: null
+  desc: Fish swim around branching coral
+  hamdan: 0.0
+  people: false
+  tags:
+  - coral
+  - fish
+  - reef
+  - underwater
+clip:rf-dm-skywalk:
+  arab_people: true
+  desc: Dubai skyline from the sea, then Sheikh Hamdan walks with Ray Dalio and the reef team
+  hamdan: 0.5
+  people: true
+  tags:
+  - city
+  - dubai
+  - hamdan
+  - prince
+  - sea
+  - skyline
+  - walk
+  - walking

@@ -9457,6 +9457,522 @@ sb-11084363:
     - sand
     - sky
     - waves
+sb-11084370:
+  dur: 32.5
+  sec:
+  - action: riding horses across dunes
+    desc: A group of people on horseback traverses golden sand dunes under bright sunlight, casting long shadows across the undulating desert landscape.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 0
+    tags:
+    - desert
+    - dunes
+    - horizon
+    - horses
+    - landscape
+    - riders
+    - sand
+    - shadows
+    - silhouette
+    - sunlight
+  - action: caravan moves across dunes
+    desc: A caravan of camels and riders traverses golden sand dunes under warm sunlight, casting long shadows across the undulating desert landscape.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 1
+    tags:
+    - camels
+    - desert
+    - dunes
+    - horizon
+    - light
+    - riders
+    - sand
+    - shadows
+  - action: riding horses across dunes
+    desc: A group of people on horseback traverses golden sand dunes under warm sunlight, their shadows stretching across the undulating terrain.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 2
+    tags:
+    - desert
+    - dunes
+    - horizon
+    - horses
+    - riders
+    - sand
+    - shadows
+    - sunlight
+  - action: riding horses across dunes
+    desc: A group of people on horseback traverses golden sand dunes under warm sunlight, casting long shadows across the undulating desert landscape.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 3
+    tags:
+    - desert
+    - dunes
+    - horizon
+    - horses
+    - riders
+    - sand
+    - shadows
+    - sunlight
+  - action: camel caravan moves across dunes
+    desc: A group of people on camels traverses golden dunes under warm sunlight, casting long shadows across the undulating sand.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 4
+    tags:
+    - camels
+    - desert
+    - dunes
+    - horizon
+    - people
+    - sand
+    - shadows
+    - sunlight
+  - action: caravan moves across dunes
+    desc: A high-angle shot shows a caravan of camels and riders moving across golden sand dunes under bright sunlight, casting long shadows.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 5
+    tags:
+    - camels
+    - caravan
+    - desert
+    - dunes
+    - horizon
+    - landscape
+    - riders
+    - sand
+    - shadows
+    - sunlight
+  - action: caravan moves across dunes
+    desc: A wide aerial shot shows a caravan of camels and riders traversing golden sand dunes under bright sunlight, casting long shadows across the undulating desert landscape.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 6
+    tags:
+    - camels
+    - caravan
+    - desert
+    - dunes
+    - horizon
+    - landscape
+    - riders
+    - sand
+    - shadows
+    - sunlight
+  - action: camels walk across dunes
+    desc: A group of camels and riders traverses golden sand dunes under warm sunlight, casting long shadows across the undulating desert landscape.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 7
+    tags:
+    - camels
+    - desert
+    - dunes
+    - golden hour
+    - horizon
+    - landscape
+    - movement
+    - riders
+    - sand
+    - shadows
+    - silhouette
+    - sunlight
+  - action: caravan moves across dunes
+    desc: A caravan of camels and riders traverses golden sand dunes under warm sunlight, casting long shadows across the undulating desert landscape.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 8
+    tags:
+    - camels
+    - caravan
+    - desert
+    - horizon
+    - riders
+    - sand dunes
+    - shadows
+    - sunlight
+  - action: caravan moves across dunes
+    desc: A high-angle shot shows a caravan of camels and riders moving across golden sand dunes under bright sunlight, casting long shadows. The scene is cinematic and serene, with no people clearly identifiable
+      or named.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 9
+    tags:
+    - camels
+    - caravan
+    - desert
+    - dunes
+    - horizon
+    - landscape
+    - riders
+    - sand
+    - shadows
+    - sunlight
+  - action: caravan moves across dunes
+    desc: A high-angle shot shows a caravan of camels and riders moving across golden sand dunes under bright sunlight, casting long shadows across the undulating desert landscape.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 10
+    tags:
+    - camels
+    - caravan
+    - desert
+    - dunes
+    - horizon
+    - landscape
+    - riders
+    - sand
+    - shadows
+    - sunlight
+  - action: caravan moves across dunes
+    desc: A caravan of camels and riders traverses golden sand dunes under warm sunlight, casting long shadows across the undulating desert landscape.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 11
+    tags:
+    - camels
+    - desert
+    - dunes
+    - horizon
+    - light
+    - riders
+    - sand
+    - shadows
+  - action: camels walk across dunes
+    desc: A caravan of camels and riders traverses golden sand dunes under warm sunlight, casting long shadows across the undulating desert landscape.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 12
+    tags:
+    - camels
+    - caravan
+    - desert
+    - dunes
+    - horizon
+    - journey
+    - landscape
+    - light
+    - movement
+    - riders
+    - sand
+    - shadows
+  - action: caravan moves across dunes
+    desc: A caravan of camels and riders traverses golden sand dunes under warm sunlight, casting long shadows across the undulating desert landscape.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 13
+    tags:
+    - camels
+    - desert
+    - dunes
+    - horizon
+    - riders
+    - sand
+    - shadows
+    - sunlight
+  - action: camels walk across dunes
+    desc: A caravan of camels and riders traverses golden dunes under warm sunlight, casting long shadows across the undulating desert landscape.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 14
+    tags:
+    - camels
+    - caravan
+    - desert
+    - dunes
+    - horizon
+    - riders
+    - sand
+    - shadows
+    - silhouette
+    - sunlight
+  - action: caravan moves across dunes
+    desc: A caravan of camels and riders traverses golden sand dunes under bright sunlight, casting long shadows across the undulating desert landscape.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 15
+    tags:
+    - camels
+    - desert
+    - dunes
+    - horizon
+    - riders
+    - sand
+    - shadows
+    - sunlight
+  - action: caravan moves across dunes
+    desc: A caravan of camels and riders traverses golden sand dunes under warm sunlight, casting long shadows across the undulating desert landscape.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 16
+    tags:
+    - camels
+    - caravan
+    - desert
+    - dunes
+    - horizon
+    - landscape
+    - riders
+    - sand
+    - shadows
+    - sunlight
+  - action: camels walk across dunes
+    desc: A caravan of camels traverses the golden dunes under a vast, sunlit sky.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 17
+    tags:
+    - adventure
+    - camels
+    - caravan
+    - desert
+    - dunes
+    - horizon
+    - landscape
+    - nature
+    - sand
+    - shadows
+    - sky
+    - travel
+  - action: caravan moves across dunes
+    desc: A caravan of camels and riders traverses golden sand dunes under warm sunlight, casting long shadows across the undulating desert landscape.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 18
+    tags:
+    - camels
+    - desert
+    - dunes
+    - horizon
+    - riders
+    - sand
+    - shadows
+    - sunlight
+  - action: caravan moves across dunes
+    desc: A caravan of camels and riders traverses golden sand dunes under warm sunlight, casting long shadows across the undulating desert landscape.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 19
+    tags:
+    - camels
+    - desert
+    - dunes
+    - horizon
+    - riders
+    - sand
+    - shadows
+    - sunlight
+  - action: caravan moves across dunes
+    desc: A caravan of camels and riders traverses golden sand dunes under warm sunlight, casting long shadows across the undulating desert landscape.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 20
+    tags:
+    - camels
+    - caravan
+    - desert
+    - dunes
+    - horizon
+    - landscape
+    - riders
+    - sand
+    - shadows
+    - sunlight
+  - action: caravan moves across dunes
+    desc: A caravan of camels and riders traverses golden sand dunes under warm sunlight, casting long shadows across the undulating desert landscape.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 21
+    tags:
+    - camels
+    - caravan
+    - desert
+    - dunes
+    - horizon
+    - riders
+    - sand
+    - shadows
+  - action: caravan moves across dunes
+    desc: A caravan of camels and riders traverses golden sand dunes under warm sunlight, casting long shadows across the undulating desert landscape.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 22
+    tags:
+    - camels
+    - desert
+    - dunes
+    - horizon
+    - riders
+    - sand
+    - shadows
+    - sunlight
+  - action: camels walking across dunes
+    desc: A line of camels walks across golden sand dunes under warm sunlight, casting long shadows; no people are visible in this frame.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 23
+    tags:
+    - camels
+    - desert
+    - dunes
+    - horizon
+    - sand
+    - shadows
+    - silhouette
+    - sunlight
+  - action: camels walking in line
+    desc: A caravan of camels walks in a single file line across golden sand dunes under bright sunlight, casting long shadows.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 24
+    tags:
+    - camels
+    - caravan
+    - desert
+    - dunes
+    - horizon
+    - sand
+    - shadows
+    - sunlight
+  - action: camels walking across dunes
+    desc: A caravan of camels walks across golden sand dunes under warm sunlight, casting long shadows on the undulating desert landscape.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 25
+    tags:
+    - camels
+    - caravan
+    - desert
+    - dunes
+    - horizon
+    - sand
+    - shadows
+    - sunlight
+  - action: camels walking across desert
+    desc: A caravan of camels walks in a single file line across golden sand dunes under bright sunlight.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 26
+    tags:
+    - camels
+    - caravan
+    - desert
+    - horizon
+    - sand dunes
+    - shadows
+    - silhouette
+    - sunlight
+  - action: caravan moves across dunes
+    desc: A caravan of camels and riders traverses golden sand dunes under warm sunlight, casting long shadows across the undulating desert landscape.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 27
+    tags:
+    - camels
+    - caravan
+    - desert
+    - dunes
+    - horizon
+    - landscape
+    - riders
+    - sand
+    - shadows
+    - sunlight
+  - action: camels walk across dunes
+    desc: A caravan of camels and riders traverses golden sand dunes under warm sunlight, casting long shadows across the undulating desert landscape.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 28
+    tags:
+    - camels
+    - caravan
+    - desert
+    - dunes
+    - horizon
+    - riders
+    - sand
+    - shadows
+  - action: camels walk across dunes
+    desc: A caravan of camels and riders traverses golden sand dunes under warm sunlight, with no people or Prince Hamdan visible in this frame.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 29
+    tags:
+    - camels
+    - caravan
+    - desert
+    - dunes
+    - riders
+    - sand
+    - silhouette
+    - sunlight
+  - action: caravan moves across dunes
+    desc: A caravan of camels and riders traverses golden dunes under bright desert sun, casting long shadows across the rolling sand.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 30
+    tags:
+    - camels
+    - desert
+    - dunes
+    - horizon
+    - riders
+    - sand
+    - shadows
+    - sunlight
+  - action: caravan moves across dunes
+    desc: A caravan of camels and riders traverses golden sand dunes under warm sunlight, casting long shadows across the undulating desert landscape.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 31
+    tags:
+    - camels
+    - caravan
+    - desert
+    - dunes
+    - horizon
+    - landscape
+    - riders
+    - sand
+    - shadows
+    - sunlight
 sb-11087451:
   dur: 20.0
   sec:
@@ -11507,6 +12023,133 @@ sb-11113070:
     - white furniture
     - white kandura
     - young boy
+sb-111207:
+  dur: 8.9
+  sec:
+  - action: wind moves sand dunes
+    desc: A vast, golden desert landscape with rolling sand dunes stretching to the horizon under a pale sky.
+    person: none
+    quality: ok
+    shot: wide
+    t: 0
+    tags:
+    - beach
+    - desert
+    - dunes
+    - horizon
+    - landscape
+    - sand
+    - sky
+    - terrain
+  - action: scenic desert view
+    desc: A vast, golden desert landscape with rolling sand dunes stretching to the horizon under a clear sky.
+    person: none
+    quality: ok
+    shot: wide
+    t: 1
+    tags:
+    - beach
+    - desert
+    - dunes
+    - horizon
+    - landscape
+    - sand
+    - sky
+    - terrain
+  - action: wind blows across dunes
+    desc: A vast, golden desert landscape with rolling sand dunes stretching to the horizon under a clear sky.
+    person: none
+    quality: ok
+    shot: wide
+    t: 2
+    tags:
+    - desert
+    - dunes
+    - golden hour
+    - horizon
+    - landscape
+    - sand dunes
+    - silhouette
+    - sky
+  - action: wind blows across dunes
+    desc: A vast, golden desert landscape with rolling sand dunes stretching to the horizon under a clear sky.
+    person: none
+    quality: ok
+    shot: wide
+    t: 3
+    tags:
+    - desert
+    - dunes
+    - horizon
+    - landscape
+    - rubble
+    - sand
+    - sky
+    - terrain
+  - action: sand dunes stretch to horizon
+    desc: A sweeping view of golden sand dunes stretching to the horizon under a pale sky, with no people or objects visible.
+    person: none
+    quality: ok
+    shot: wide
+    t: 4
+    tags:
+    - beach
+    - desert
+    - dunes
+    - horizon
+    - landscape
+    - mountain
+    - oasis
+    - sand
+    - sky
+    - terrain
+  - action: camera pans over desert
+    desc: A vast, golden desert landscape with rolling sand dunes stretching to the horizon under a pale sky.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 5
+    tags:
+    - arid
+    - desert
+    - dune
+    - heat haze
+    - horizon
+    - landscape
+    - nature
+    - outdoor
+    - sand
+    - sand dunes
+    - sky
+    - terrain
+  - action: camera pans across desert landscape
+    desc: A sweeping view of the golden dunes of the Rub' al Khali desert under a clear sky, with no people or objects visible.
+    person: none
+    quality: ok
+    shot: wide
+    t: 6
+    tags:
+    - desert
+    - dunes
+    - horizon
+    - rub al khali
+    - sand
+    - sky
+  - action: scenic view of desert
+    desc: A vast, golden desert landscape with rolling sand dunes stretching to the horizon under a clear sky.
+    person: none
+    quality: ok
+    shot: wide
+    t: 7
+    tags:
+    - beach
+    - desert
+    - dunes
+    - horizon
+    - landscape
+    - sand
+    - sky
+    - terrain
 sb-11182157:
   dur: 34.3
   sec:
@@ -12305,6 +12948,506 @@ sb-121987:
     - tomb
     - trees
     - water
+sb-122628:
+  dur: 18.2
+  sec:
+  - action: boats moving on water
+    desc: A wide shot of a river in Dubai with several boats, including a small one with people and a larger one with a white roof, moving through the water. The background features buildings and a mosque
+      minaret.
+    person: none
+    quality: ok
+    shot: wide
+    t: 0
+    tags:
+    - boats
+    - buildings
+    - canal
+    - dubai
+    - minaret
+    - mosque
+    - river
+    - shoreline
+    - sky
+    - water
+  - action: boats moving on water
+    desc: A wide shot of a busy waterway in Dubai with several boats, including a small one with a yellow flag and a larger white boat, moving through the water near a cityscape with buildings and a minaret.
+    person: none
+    quality: ok
+    shot: wide
+    t: 1
+    tags:
+    - boats
+    - buildings
+    - city
+    - dubai
+    - flag
+    - harbor
+    - minaret
+    - river
+    - sky
+    - water
+  - action: boats moving on water
+    desc: A wide view of the Dubai Creek with traditional dhows and modern boats navigating the waterway, framed by buildings and a minaret in the background.
+    person: none
+    quality: ok
+    shot: wide
+    t: 2
+    tags:
+    - boats
+    - buildings
+    - canal
+    - dhows
+    - dubai creek
+    - harbor
+    - minaret
+    - river
+    - skyline
+    - water
+  - action: boats moving on water
+    desc: A wide shot of a busy waterway in Dubai with numerous traditional wooden boats docked along the shore and a few small motorboats moving through the water, set against a backdrop of modern buildings
+      and a distant minaret.
+    person: none
+    quality: ok
+    shot: wide
+    t: 3
+    tags:
+    - boats
+    - buildings
+    - canal
+    - docks
+    - dubai
+    - minaret
+    - river
+    - shore
+    - sky
+    - water
+  - action: small boats moving on water
+    desc: A wide shot of a river in Dubai with numerous traditional wooden boats docked along the banks and a few small motorboats moving through the water; buildings line the far shore under an overcast
+      sky.
+    person: none
+    quality: ok
+    shot: wide
+    t: 4
+    tags:
+    - boats
+    - buildings
+    - canal
+    - dock
+    - dubai
+    - fishing boat
+    - motorboat
+    - river
+    - shore
+    - sky
+    - water
+    - wooden boat
+  - action: boats floating on water
+    desc: A wide shot of the Dubai Creek with numerous traditional wooden dhows and modern boats moored along the banks, under a hazy sky.
+    person: none
+    quality: ok
+    shot: wide
+    t: 5
+    tags:
+    - boats
+    - buildings
+    - creek
+    - dhows
+    - dubai
+    - sky
+    - urban
+    - water
+  - action: boats moving on water
+    desc: A wide shot of a river in Dubai with numerous traditional wooden boats docked along the banks and several small motorboats moving through the water, set against a backdrop of city buildings under
+      an overcast sky.
+    person: none
+    quality: ok
+    shot: wide
+    t: 6
+    tags:
+    - boats
+    - buildings
+    - canopy
+    - dubai
+    - horizon
+    - motion
+    - people
+    - reflection
+    - river
+    - shore
+    - sky
+    - water
+  - action: boats floating on water
+    desc: A wide shot of a canal in Dubai filled with traditional wooden boats and colorful canopies, with modern buildings and a minaret visible in the background under an overcast sky.
+    person: none
+    quality: ok
+    shot: wide
+    t: 7
+    tags:
+    - architecture
+    - boats
+    - buildings
+    - canal
+    - canopies
+    - dubai
+    - minaret
+    - river
+    - shoreline
+    - sky
+    - urban
+    - water
+  - action: boats moving on water
+    desc: A wide shot of a river in Dubai with several small boats carrying people, colorful umbrellas on the boats, and buildings lining the riverbank under a hazy sky.
+    person: none
+    quality: ok
+    shot: wide
+    t: 8
+    tags:
+    - boats
+    - buildings
+    - canals
+    - dubai
+    - harbor
+    - people
+    - river
+    - sky
+    - umbrellas
+    - water
+  - action: boats moving on water
+    desc: A wide shot of a river in Dubai with several traditional wooden boats carrying passengers, set against a backdrop of city buildings and a minaret.
+    person: none
+    quality: ok
+    shot: wide
+    t: 9
+    tags:
+    - boats
+    - buildings
+    - city
+    - minaret
+    - passengers
+    - river
+    - sky
+    - water
+  - action: people in boats on water
+    desc: A wide shot of the Dubai Creek showing several traditional wooden boats with passengers, colorful umbrellas on the shore, and buildings in the background under a hazy sky.
+    person: crowd
+    quality: ok
+    shot: wide
+    t: 10
+    tags:
+    - boats
+    - buildings
+    - canals
+    - city
+    - creek
+    - dubai
+    - passengers
+    - shore
+    - sky
+    - umbrellas
+    - water
+    - wooden
+  - action: people in boats on river
+    desc: A wide shot of a river in Dubai with several traditional wooden boats carrying people, set against a backdrop of city buildings and a minaret.
+    person: crowd
+    quality: ok
+    shot: wide
+    t: 11
+    tags:
+    - boats
+    - buildings
+    - dubai
+    - minaret
+    - people
+    - river
+    - sky
+    - water
+  - action: people ride in boats on river
+    desc: A wide shot of a river in Dubai with several traditional wooden boats carrying people; the background shows city buildings and a minaret under an overcast sky.
+    person: crowd
+    quality: ok
+    shot: wide
+    t: 12
+    tags:
+    - boats
+    - buildings
+    - canal
+    - city
+    - dubai
+    - ferris-wheel
+    - minaret
+    - people
+    - river
+    - shadows
+    - sky
+    - water
+  - action: people in boats on water
+    desc: A wide shot of the Dubai Creek showing several traditional wooden boats with people on board, set against a backdrop of modern buildings and a mosque minaret.
+    person: crowd
+    quality: ok
+    shot: wide
+    t: 13
+    tags:
+    - boats
+    - buildings
+    - canopies
+    - creek
+    - dubai
+    - minaret
+    - people
+    - river
+    - shore
+    - sky
+    - water
+  - action: people ride boats on water
+    desc: A wide shot of the Dubai Creek showing several traditional wooden boats with passengers, colorful market stalls along the banks, and city buildings in the background under a hazy sky.
+    person: crowd
+    quality: ok
+    shot: wide
+    t: 14
+    tags:
+    - boats
+    - buildings
+    - canopies
+    - creek
+    - dubai
+    - dunes
+    - market
+    - passengers
+    - sky
+    - stalls
+    - trees
+    - water
+  - action: boats float on water
+    desc: A wide shot of the Dubai Creek showing several wooden boats with passengers, including a group in the foreground boat, against a backdrop of buildings and a minaret.
+    person: none
+    quality: ok
+    shot: wide
+    t: 15
+    tags:
+    - boats
+    - buildings
+    - city
+    - creek
+    - horizon
+    - minaret
+    - passengers
+    - people
+    - scene
+    - sky
+    - water
+  - action: people ride boats on water
+    desc: A wide shot of the Dubai Creek showing several traditional wooden boats with passengers, colorful umbrellas on the riverbank, and city buildings in the background under a hazy sky.
+    person: crowd
+    quality: ok
+    shot: wide
+    t: 16
+    tags:
+    - boats
+    - buildings
+    - creek
+    - dubai
+    - horizon
+    - passengers
+    - people
+    - riverbank
+    - sky
+    - umbrellas
+    - water
+  - action: people riding boats on water
+    desc: A wide shot of a river in Dubai with several traditional wooden boats carrying passengers; the background shows city buildings and a minaret under an overcast sky.
+    person: crowd
+    quality: ok
+    shot: wide
+    t: 17
+    tags:
+    - boats
+    - buildings
+    - canals
+    - daylight
+    - dubai
+    - minaret
+    - overcast
+    - passengers
+    - river
+    - sky
+    - urban
+    - water
+sb-1428417:
+  dur: 11.8
+  sec:
+  - action: tea and coffee displayed for sale
+    desc: A market stall displays large sacks of loose-leaf tea and coffee with pink price tags, under bright daylight.
+    person: none
+    quality: ok
+    shot: photo-still
+    t: 0
+    tags:
+    - baskets
+    - coffee
+    - market
+    - sacks
+    - signs
+    - spices
+    - stall
+    - tea
+  - action: static display
+    desc: A market stall displays large sacks of tea and coffee beans with pink price tags, under bright overhead lighting.
+    person: none
+    quality: ok
+    shot: photo-still
+    t: 1
+    tags:
+    - bags
+    - beans
+    - coffee
+    - market
+    - sacks
+    - signs
+    - stall
+    - tea
+  - action: coffee and tea displayed for sale
+    desc: Rows of large white sacks filled with coffee beans and tea leaves sit on a market table, each labeled with pink signs in English and Russian. The scene is brightly lit by overhead shop lights.
+    person: none
+    quality: ok
+    shot: photo-still
+    t: 2
+    tags:
+    - beans
+    - coffee
+    - leaves
+    - lighting
+    - market
+    - sacks
+    - shop
+    - signs
+    - table
+    - tea
+  - action: static display of goods
+    desc: A market stall displays large white tubs filled with coffee beans and other spices, each labeled with pink signs in English and Russian.
+    person: none
+    quality: ok
+    shot: medium
+    t: 3
+    tags:
+    - beans
+    - coffee
+    - display
+    - market
+    - signs
+    - spices
+    - stall
+    - tubs
+  - action: static display of goods
+    desc: A market stall displays large plastic bags filled with coffee beans and tea leaves, with pink signs labeling items like 'Coffee Beans' and 'Mix Fruit Tea'.
+    person: none
+    quality: ok
+    shot: photo-still
+    t: 4
+    tags:
+    - coffee beans
+    - containers
+    - market stall
+    - pink signs
+    - plastic bags
+    - spices
+    - table
+    - tea leaves
+  - action: tea displayed on stall
+    desc: A market stall displays open containers of loose tea leaves with pink signs labeling flavors like 'Pineapple Tea' and 'Dose Tea'.
+    person: none
+    quality: ok
+    shot: photo-still
+    t: 5
+    tags:
+    - containers
+    - display
+    - flavors
+    - leaves
+    - market
+    - signs
+    - stall
+    - tea
+  - action: spices displayed in bowls
+    desc: A close-up view of a market stall displaying various spices and teas in colorful plastic bowls, with pink signs labeling items like 'Pineapple Tea' and 'Star Anise'.
+    person: none
+    quality: ok
+    shot: close-up
+    t: 6
+    tags:
+    - bowls
+    - labels
+    - market
+    - peppercorns
+    - plastic
+    - powders
+    - signs
+    - spices
+    - stall
+    - star anise
+  - action: spices displayed in bowls
+    desc: A colorful market stall displays bowls of spices like cinnamon, cardamom, and turmeric with pink price tags in Arabic, under bright daylight.
+    person: none
+    quality: ok
+    shot: photo-still
+    t: 7
+    tags:
+    - arabic-text
+    - bowls
+    - cardamom
+    - cinnamon
+    - market
+    - price-tags
+    - spices
+    - stall
+    - sunlight
+    - turmeric
+  - action: spices displayed in bowls
+    desc: A colorful display of spices in blue and red bowls, with cinnamon sticks, cloves, turmeric, and other dried goods arranged neatly on a table.
+    person: none
+    quality: ok
+    shot: photo-still
+    t: 8
+    tags:
+    - bowls
+    - cinnamon
+    - cloves
+    - colors
+    - containers
+    - dried goods
+    - market
+    - spices
+    - table
+    - turmeric
+  - action: spices arranged in bowls
+    desc: A colorful display of spices in plastic bowls at a market stall, with no people visible in this frame.
+    person: none
+    quality: ok
+    shot: photo-still
+    t: 9
+    tags:
+    - bowls
+    - cumin
+    - market
+    - plastic
+    - spices
+    - stall
+    - table
+    - turmeric
+  - action: spices displayed in bowls
+    desc: A market stall displays colorful bowls of spices and grains under bright daylight, with plastic containers stacked in the background.
+    person: none
+    quality: ok
+    shot: photo-still
+    t: 10
+    tags:
+    - bowls
+    - colorful
+    - daylight
+    - grains
+    - market
+    - plastic
+    - spices
+    - stall
 sb-1713718:
   dur: 5.7
   sec:
@@ -14422,6 +15565,136 @@ sb-346637927:
     - stone
     - surface
     - texture
+    - water
+sb-346676185:
+  dur: 7.3
+  sec:
+  - action: sitting at stern of abra boat
+    desc: A man in a white kandura and ghutra sits at the stern of a wooden abra boat on calm water, with modern buildings lining the waterfront behind him under bright daylight.
+    person: young man in white kandura and ghutra
+    quality: ok
+    shot: wide
+    t: 0
+    tags:
+    - boat
+    - building
+    - canopy
+    - dock
+    - flag
+    - ghutra
+    - kandura
+    - man
+    - shore
+    - sky
+    - stern
+    - water
+  - action: sitting on a boat
+    desc: A man in a white kandura and ghutra sits alone on a traditional wooden dhow boat with a red canopy, floating on calm water near a modern waterfront city skyline.
+    person: young man in white kandura and ghutra
+    quality: ok
+    shot: photo-still
+    t: 1
+    tags:
+    - boat
+    - building
+    - canopy
+    - city
+    - dhow
+    - ghutra
+    - kandura
+    - man
+    - river
+    - shore
+    - skyline
+    - water
+  - action: steering a wooden boat
+    desc: A man in a white kandura and ghutra sits at the stern of a traditional wooden dhow boat, steering it across calm water with buildings and a UAE flag visible in the background.
+    person: young man in white kandura and ghutra
+    quality: ok
+    shot: wide
+    t: 2
+    tags:
+    - boat
+    - building
+    - dhow
+    - flag
+    - ghutra
+    - kandura
+    - man
+    - rudder
+    - sky
+    - water
+  - action: steering a wooden boat on water
+    desc: A man in a white kandura and ghutra sits at the stern of a traditional wooden dhow boat, steering it through calm water near a waterfront with modern buildings in the background.
+    person: young man in white kandura and ghutra
+    quality: ok
+    shot: wide
+    t: 3
+    tags:
+    - boat
+    - building
+    - canopy
+    - dock
+    - flag
+    - ghutra
+    - kandura
+    - man
+    - ocean
+    - rudder
+    - sky
+    - water
+  - action: sitting at the back of a boat
+    desc: A wooden dhow boat with a red canopy floats on calm water in front of modern buildings; a man in white traditional clothing sits at the stern, and an UAE flag flies from a pole behind him.
+    person: young man in white kandura and ghutra
+    quality: ok
+    shot: wide
+    t: 4
+    tags:
+    - boat
+    - building
+    - canopy
+    - dhow
+    - flag
+    - man
+    - shore
+    - sky
+    - uae
+    - water
+  - action: sitting at stern of dhow
+    desc: A man in a white kandura and ghutra sits at the stern of a traditional wooden dhow with a red canopy, navigating calm waters near modern buildings under bright daylight.
+    person: young man in white kandura and ghutra
+    quality: ok
+    shot: wide
+    t: 5
+    tags:
+    - boat
+    - building
+    - canopy
+    - city
+    - dhow
+    - flag
+    - ghutra
+    - kandura
+    - river
+    - sunlight
+    - water
+    - wooden
+  - action: sitting at the back of a boat
+    desc: A man in a white kandura and ghutra sits at the stern of a traditional wooden boat with a red canopy, navigating calm water near modern buildings.
+    person: young man in white kandura and ghutra
+    quality: ok
+    shot: wide
+    t: 6
+    tags:
+    - boat
+    - building
+    - canopy
+    - dock
+    - flag
+    - ghutra
+    - kandura
+    - man
+    - sky
     - water
 sb-346694537:
   dur: 29.8
@@ -16567,6 +17840,175 @@ sb-346750383:
     - screen
     - window
     - woman
+sb-346780211:
+  dur: 10.0
+  sec:
+  - action: water ripples gently
+    desc: A high-angle view of calm, deep blue water with gentle ripples and small white reflections from sunlight on the surface.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 0
+    tags:
+    - aerial
+    - blue
+    - calm
+    - ocean
+    - reflection
+    - ripples
+    - sea
+    - sunlight
+    - surface
+    - water
+  - action: water rippling gently
+    desc: A single frame shows only the deep blue-green surface of water with gentle ripples and a small splash or disturbance near the bottom right corner.
+    person: none
+    quality: ok
+    shot: close-up
+    t: 1
+    tags:
+    - blue
+    - calm
+    - depth
+    - green
+    - liquid
+    - reflection
+    - ripples
+    - splash
+    - surface
+    - water
+  - action: waves crashing on shore
+    desc: Aerial view of white sea foam crashing against dark blue water, no people or Prince Hamdan visible in this frame.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 2
+    tags:
+    - aerial
+    - blue
+    - foam
+    - nature
+    - ocean
+    - sea
+    - texture
+    - water
+    - waves
+    - white
+  - action: water rippling gently
+    desc: Aerial view of deep turquoise water with gentle ripples and small white foam patches near the bottom edge.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 3
+    tags:
+    - blue
+    - foam
+    - ocean
+    - ripples
+    - sea
+    - surface
+    - water
+    - waves
+  - action: sunlight on water surface
+    desc: A top-down view of deep turquoise water with sunlight shimmering on the surface in the bottom right corner.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 4
+    tags:
+    - blue
+    - ocean
+    - reflection
+    - sea
+    - shimmer
+    - sunlight
+    - surface
+    - water
+  - action: waves crashing on water
+    desc: White sea foam and spray crashing against deep teal water, captured from directly above.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 5
+    tags:
+    - foam
+    - ocean
+    - sea
+    - splash
+    - surface
+    - teal
+    - texture
+    - water
+    - waves
+    - white
+  - action: water splashing from boat
+    desc: A top-down view of turquoise water with white foam and splashes from a moving object, likely a boat or jet ski.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 6
+    tags:
+    - blue
+    - foam
+    - ocean
+    - sea
+    - splash
+    - surface
+    - water
+    - waves
+  - action: water rippling with foam
+    desc: Aerial view of turquoise water with white foam and ripples, no people or objects visible.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 7
+    tags:
+    - aerial
+    - blue
+    - calm
+    - foam
+    - nature
+    - ocean
+    - ripples
+    - sea
+    - surface
+    - texture
+    - water
+    - waves
+  - action: waves crashing on water
+    desc: White foamy water churns against dark teal sea surface in an overhead shot, with no people or objects visible.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 8
+    tags:
+    - foam
+    - ocean
+    - sea
+    - splash
+    - surface
+    - teal
+    - texture
+    - water
+    - waves
+    - white
+  - action: waves crashing on water surface
+    desc: Aerial view of white sea foam and splashing water against deep teal ocean, with no people or objects visible.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 9
+    tags:
+    - aerial
+    - blue
+    - foam
+    - nature
+    - ocean
+    - sea
+    - splash
+    - teal
+    - water
+    - waves
 sb-346803249:
   dur: 10.0
   sec:
@@ -16721,6 +18163,785 @@ sb-346803249:
     - glass
     - green numbers
     - sky
+sb-347082689:
+  dur: 26.0
+  sec:
+  - action: hawk stands alert
+    desc: A large hawk with dark brown and white speckled feathers stands in profile against a soft green background, its head turned slightly toward the viewer.
+    person: none
+    quality: ok
+    shot: close-up
+    t: 0
+    tags:
+    - beak
+    - bird
+    - eye
+    - feathers
+    - green
+    - hawk
+    - nature
+    - perch
+    - sky
+    - wing
+  - action: hawk stands in profile
+    desc: A large hawk with dark brown and white streaked feathers stands in profile against a soft green background, its head turned slightly upward.
+    person: none
+    quality: ok
+    shot: close-up
+    t: 1
+    tags:
+    - bird
+    - feathers
+    - green
+    - hawk
+    - head
+    - nature
+    - perched
+    - profile
+    - sky
+    - wildlife
+  - action: hawk stands alert
+    desc: A majestic hawk stands alert against a soft green background, its feathers detailed and striking.
+    person: none
+    quality: ok
+    shot: close-up
+    t: 2
+    tags:
+    - bird
+    - detail
+    - feathers
+    - focus
+    - green
+    - hawk
+    - nature
+    - outdoor
+    - perch
+    - sky
+    - still
+    - wildlife
+  - action: hawk stands alert
+    desc: A large hawk with mottled brown and white feathers stands in profile against a soft-focus green background, its head turned slightly toward the camera.
+    person: none
+    quality: ok
+    shot: close-up
+    t: 3
+    tags:
+    - beak
+    - bird
+    - eye
+    - feathers
+    - green
+    - hawk
+    - nature
+    - perch
+    - profile
+    - sky
+    - wildlife
+    - wing
+  - action: hawk stands alert
+    desc: A hawk stands in profile against a soft green background, its feathers detailed and alert.
+    person: none
+    quality: ok
+    shot: close-up
+    t: 4
+    tags:
+    - beak
+    - bird
+    - eye
+    - feathers
+    - green
+    - hawk
+    - nature
+    - perch
+    - sky
+    - tail
+    - wildlife
+    - wing
+  - action: hawk standing still
+    desc: A large hawk with dark brown and white speckled feathers stands in profile against a soft green background, its head turned slightly toward the camera.
+    person: none
+    quality: ok
+    shot: close-up
+    t: 5
+    tags:
+    - beak
+    - bird
+    - eye
+    - feathers
+    - green
+    - hawk
+    - profile
+    - wing
+  - action: falcon stands still
+    desc: A large falcon with dark brown and white speckled feathers stands in profile against a soft green background, its head turned slightly toward the camera.
+    person: none
+    quality: ok
+    shot: close-up
+    t: 6
+    tags:
+    - beak
+    - bird
+    - eye
+    - falcon
+    - feathers
+    - green
+    - nature
+    - perch
+    - sky
+    - wing
+  - action: hawk stands still
+    desc: A large hawk with dark brown and white speckled feathers stands in profile against a soft green background, its head turned slightly toward the camera.
+    person: none
+    quality: ok
+    shot: close-up
+    t: 7
+    tags:
+    - beak
+    - bird
+    - eye
+    - feathers
+    - flight
+    - green
+    - hawk
+    - nature
+    - perch
+    - sky
+    - wildlife
+    - wing
+  - action: hawk stands alert
+    desc: A large hawk with dark brown and white speckled feathers stands in profile against a soft-focus green background, its head turned slightly toward the camera.
+    person: none
+    quality: ok
+    shot: close-up
+    t: 8
+    tags:
+    - beak
+    - bird
+    - eye
+    - feathers
+    - green
+    - hawk
+    - nature
+    - outdoor
+    - perch
+    - sky
+    - wildlife
+    - wing
+  - action: hawk stands still
+    desc: A large hawk with dark brown and white speckled feathers stands in profile against a soft green background, its head turned slightly toward the camera.
+    person: none
+    quality: ok
+    shot: close-up
+    t: 9
+    tags:
+    - beak
+    - bird
+    - eye
+    - feathers
+    - green
+    - hawk
+    - nature
+    - perch
+    - sky
+    - wing
+  - action: falcon stands alert
+    desc: A falcon with dark brown and white speckled feathers stands in profile against a soft green background, its head turned slightly upward as if observing something above.
+    person: none
+    quality: ok
+    shot: close-up
+    t: 10
+    tags:
+    - bird
+    - bird-of-prey
+    - close-up
+    - falcon
+    - feathers
+    - green
+    - nature
+    - outdoor
+    - perch
+    - silhouette
+    - sky
+    - wildlife
+  - action: hawk stands in profile
+    desc: A large hawk with dark brown and white speckled feathers stands in profile against a soft green background, its head turned slightly upward.
+    person: none
+    quality: ok
+    shot: close-up
+    t: 11
+    tags:
+    - back
+    - beak
+    - bird
+    - eye
+    - feathers
+    - green
+    - hawk
+    - nature
+    - perch
+    - profile
+    - sky
+    - wing
+  - action: hawk stands alert
+    desc: A brown and white hawk stands in profile against a soft green background, its feathers detailed and alert.
+    person: none
+    quality: ok
+    shot: close-up
+    t: 12
+    tags:
+    - bird
+    - feathers
+    - green
+    - hawk
+    - nature
+    - profile
+  - action: falcon stands still
+    desc: A falcon with dark brown and white speckled feathers stands in profile against a soft green background, its head turned slightly toward the camera.
+    person: none
+    quality: ok
+    shot: close-up
+    t: 13
+    tags:
+    - beak
+    - bird
+    - eye
+    - falcon
+    - feathers
+    - green background
+    - tail
+    - wing
+  - action: falcon stands still
+    desc: A majestic falcon stands in profile against a soft green background, its feathers detailed and striking.
+    person: none
+    quality: ok
+    shot: close-up
+    t: 14
+    tags:
+    - bird
+    - falcon
+    - feathers
+    - green
+    - nature
+    - profile
+    - sky
+    - wildlife
+  - action: falcon stands alert
+    desc: A brown and white falcon stands in profile against a soft green background, its feathers detailed and alert.
+    person: none
+    quality: ok
+    shot: close-up
+    t: 15
+    tags:
+    - bird
+    - falcon
+    - feathers
+    - green
+    - nature
+    - profile
+    - sky
+    - wildlife
+  - action: falcon stands alert
+    desc: A majestic falcon with dark brown and white speckled feathers stands in profile against a soft green background, its sharp gaze fixed forward.
+    person: none
+    quality: ok
+    shot: close-up
+    t: 16
+    tags:
+    - beak
+    - bird
+    - eye
+    - falcon
+    - feathers
+    - green
+    - nature
+    - profile
+  - action: falcon stands in profile
+    desc: A falcon with mottled brown and white feathers stands in profile against a soft-focus green background, its head turned slightly to the right.
+    person: none
+    quality: ok
+    shot: close-up
+    t: 17
+    tags:
+    - beak
+    - bird
+    - eye
+    - falcon
+    - feathers
+    - green
+    - head
+    - nature
+    - profile
+    - wing
+  - action: falcon stands alert in profile
+    desc: A majestic falcon with dark brown and white speckled plumage stands in profile against a soft-focus green background, its head turned slightly to the right as if observing something in the distance.
+    person: none
+    quality: ok
+    shot: close-up
+    t: 18
+    tags:
+    - beak
+    - bird
+    - eye
+    - falcon
+    - feathers
+    - green background
+    - nature
+    - tail
+    - wildlife
+    - wing
+  - action: falcon stands in profile
+    desc: A falcon with dark brown and white speckled feathers stands in profile against a soft green background, its head turned slightly to the right.
+    person: none
+    quality: ok
+    shot: close-up
+    t: 19
+    tags:
+    - beak
+    - bird
+    - eye
+    - falcon
+    - feathers
+    - green background
+    - tail
+    - wing
+  - action: falcon standing still
+    desc: A falcon with dark brown and white speckled feathers stands in profile against a soft green background, its head turned slightly to the right.
+    person: none
+    quality: ok
+    shot: close-up
+    t: 20
+    tags:
+    - background
+    - beak
+    - bird
+    - eye
+    - falcon
+    - feathers
+    - profile
+    - wing
+  - action: falcon stands still
+    desc: A falcon with dark brown and white speckled feathers stands in profile against a soft green background, its head turned slightly to the right.
+    person: none
+    quality: ok
+    shot: close-up
+    t: 21
+    tags:
+    - beak
+    - bird
+    - eye
+    - falcon
+    - feathers
+    - green
+    - nature
+    - sky
+    - tail
+    - wing
+  - action: falcon stands still
+    desc: A falcon with brown and white speckled feathers stands in profile against a soft green background, its head turned slightly to the side.
+    person: none
+    quality: ok
+    shot: close-up
+    t: 22
+    tags:
+    - background
+    - beak
+    - bird
+    - eye
+    - falcon
+    - feathers
+    - profile
+    - wing
+  - action: falcon stands in profile
+    desc: A falcon with mottled brown and white feathers stands in profile against a soft-focus green background, its head turned slightly to the side.
+    person: none
+    quality: ok
+    shot: close-up
+    t: 23
+    tags:
+    - background
+    - beak
+    - bird
+    - eye
+    - falcon
+    - feathers
+    - nature
+    - tail
+    - wildlife
+    - wing
+  - action: falcon stands in profile
+    desc: A falcon with dark brown and white speckled feathers stands in profile against a soft green background, its head turned slightly to the side.
+    person: none
+    quality: ok
+    shot: close-up
+    t: 24
+    tags:
+    - beak
+    - bird
+    - eye
+    - falcon
+    - feathers
+    - green
+    - nature
+    - perch
+    - sky
+    - tail
+    - wildlife
+    - wing
+  - action: hawk stands still
+    desc: A hawk stands in profile against a soft-focus green background, its feathers detailed and textured.
+    person: none
+    quality: ok
+    shot: close-up
+    t: 25
+    tags:
+    - bird
+    - feathers
+    - green
+    - hawk
+    - nature
+    - perch
+    - profile
+    - sky
+sb-347086234:
+  dur: 21.4
+  sec:
+  - action: net floats on water
+    desc: A white fishing net floats on the surface of deep blue water, held in place by red buoys along its edge.
+    person: none
+    quality: ok
+    shot: photo-still
+    t: 0
+    tags:
+    - blue
+    - buoy
+    - float
+    - mesh
+    - net
+    - ocean
+    - red
+    - sea
+    - surface
+    - water
+  - action: net floats in water
+    desc: A white fishing net stretches across the frame against a deep blue ocean background, with small red and black buoys attached along its top edge.
+    person: none
+    quality: ok
+    shot: photo-still
+    t: 1
+    tags:
+    - blue
+    - buoy
+    - fishing
+    - marine
+    - net
+    - ocean
+    - sea
+    - water
+  - action: net floating on water
+    desc: A white fishing net with red floats stretches across a deep blue ocean surface, illuminated by bright sunlight.
+    person: none
+    quality: ok
+    shot: photo-still
+    t: 2
+    tags:
+    - blue
+    - floats
+    - horizon
+    - net
+    - ocean
+    - sea
+    - sunlight
+    - water
+  - action: net floats on water
+    desc: A white fishing net with red and black buoys stretches across deep blue water, floating gently in the sunlit sea.
+    person: none
+    quality: ok
+    shot: photo-still
+    t: 3
+    tags:
+    - black
+    - blue
+    - buoy
+    - net
+    - red
+    - sea
+    - water
+    - white
+  - action: net stretches across blue sky
+    desc: A white safety net with red floats stretches across a bright blue sky, likely marking the boundary of a beach or pool area.
+    person: none
+    quality: ok
+    shot: photo-still
+    t: 4
+    tags:
+    - barrier
+    - beach
+    - blue
+    - floats
+    - net
+    - ocean
+    - pool
+    - red
+    - sky
+    - white
+  - action: net floats on water
+    desc: A white fishing net with red floats stretches diagonally across a deep blue ocean, floating gently on the water's surface.
+    person: none
+    quality: ok
+    shot: photo-still
+    t: 5
+    tags:
+    - blue
+    - fishing
+    - floats
+    - net
+    - netting
+    - ocean
+    - red
+    - sea
+    - water
+    - white
+  - action: net floats in wind
+    desc: A white fishing net with red buoys floats against a deep blue sky, suggesting a coastal or maritime setting.
+    person: none
+    quality: ok
+    shot: photo-still
+    t: 6
+    tags:
+    - buoy
+    - coast
+    - horizon
+    - net
+    - ocean
+    - sea
+    - sky
+    - water
+  - action: net floats on water
+    desc: A white fishing net with red buoys stretches diagonally across a deep blue sea under bright sunlight.
+    person: none
+    quality: ok
+    shot: photo-still
+    t: 7
+    tags:
+    - blue
+    - buoy
+    - horizon
+    - net
+    - sea
+    - sky
+    - sunlight
+    - water
+  - action: net extends into distance
+    desc: A white fishing net with orange floats stretches diagonally across a deep blue sea, with a tiny dark figure visible at the far end.
+    person: none
+    quality: ok
+    shot: wide
+    t: 8
+    tags:
+    - blue
+    - floats
+    - horizon
+    - net
+    - ocean
+    - sea
+    - skyline
+    - water
+  - action: net floats on water
+    desc: A white fishing net with red buoys stretches diagonally across a deep blue ocean, with no people or Prince Hamdan visible in this frame.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 9
+    tags:
+    - blue
+    - buoy
+    - fishing
+    - line
+    - net
+    - ocean
+    - sea
+    - water
+  - action: net floats on water
+    desc: A white fishing net with orange buoys stretches diagonally across a clear blue sea, with no people or Prince Hamdan visible in this frame.
+    person: none
+    quality: ok
+    shot: wide
+    t: 10
+    tags:
+    - blue
+    - buoy
+    - fishing
+    - horizon
+    - net
+    - ocean
+    - sea
+    - water
+  - action: net floats on water
+    desc: A white fishing net with orange buoys stretches diagonally across a deep blue ocean, with no people or Prince Hamdan visible in this frame.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 11
+    tags:
+    - blue
+    - buoy
+    - fishing
+    - line
+    - net
+    - ocean
+    - sea
+    - water
+  - action: net floats on water
+    desc: A long fishing net stretches diagonally across a deep blue sea, with red buoys attached at intervals along its edge.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 12
+    tags:
+    - blue
+    - buoy
+    - depths
+    - fishing
+    - horizon
+    - line
+    - net
+    - ocean
+    - sea
+    - water
+  - action: net floats on water
+    desc: A long fishing net stretches across the deep blue sea, with small orange buoys attached at intervals along its length.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 13
+    tags:
+    - blue
+    - buoy
+    - fishing
+    - float
+    - horizon
+    - line
+    - net
+    - ocean
+    - sea
+    - water
+  - action: aerial view of coastline
+    desc: A long, narrow strip of land jutting into deep blue water, lined with small figures and bright orange buoys; the scene is bathed in bright sunlight.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 14
+    tags:
+    - beach
+    - buoys
+    - horizon
+    - island
+    - ocean
+    - people
+    - sand
+    - sky
+    - sunlight
+    - water
+  - action: aerial view of coastline
+    desc: A long, narrow strip of white sand stretches diagonally across a vast blue sea, lined with small red and white markers or flags along its edge.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 15
+    tags:
+    - beach
+    - flags
+    - horizon
+    - sand
+    - sea
+    - shoreline
+    - sky
+    - water
+  - action: standing in a line
+    desc: A long line of people stands in a single file on a narrow white path against a vast blue sky, with red spherical markers placed at intervals along the path.
+    person: crowd
+    quality: ok
+    shot: aerial
+    t: 16
+    tags:
+    - blue
+    - group
+    - horizon
+    - line
+    - markers
+    - path
+    - people
+    - red spheres
+    - sky
+    - white
+  - action: standing in a line
+    desc: A long line of people stands on a narrow white path stretching into the blue sky, with red circular markers spaced along the route.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 17
+    tags:
+    - blue background
+    - event
+    - horizon
+    - line
+    - markers
+    - outdoor
+    - path
+    - people
+    - red circles
+    - sky
+  - action: standing in a line on water
+    desc: A long line of people in white robes and red caps stands on a narrow path through deep blue water, with a single figure visible at the far end.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 18
+    tags:
+    - caps
+    - group
+    - horizon
+    - line
+    - ocean
+    - path
+    - people
+    - robes
+    - sky
+    - water
+  - action: jetty extends into water
+    desc: A long, narrow white jetty stretches into deep blue water, lined with small red and white markers; the scene is bathed in bright sunlight with clear sky above.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 19
+    tags:
+    - blue
+    - day
+    - jetty
+    - line
+    - markers
+    - ocean
+    - red
+    - shore
+    - sky
+    - sunlight
+    - water
+    - white
+  - action: divers swimming underwater
+    desc: An aerial view of a long line of divers swimming in the clear blue water, with a red and white buoy marking their path.
+    person: none
+    quality: ok
+    shot: aerial
+    t: 20
+    tags:
+    - blue
+    - buoy
+    - divers
+    - line
+    - sea
+    - swimming
+    - underwater
+    - water
 sb-347201112:
   dur: 16.0
   sec:
@@ -29978,6 +32199,296 @@ sb-354670117:
     - road
     - sea
     - sky
+sb-354811310:
+  dur: 16.3
+  sec:
+  - action: cricket batsman ready to face ball
+    desc: A batsman in white cricket whites and helmet stands ready at the crease, while a wicketkeeper crouches behind the stumps under bright floodlights on a dark night.
+    person: young man in white cricket whites and helmet / young man in white cricket whites crouching
+    quality: flash
+    shot: wide
+    t: 0
+    tags:
+    - bat
+    - batsman
+    - cricket
+    - floodlight
+    - grass
+    - helmet
+    - night
+    - stumps
+    - umpire
+    - wicketkeeper
+  - action: cricket player stands ready at crease
+    desc: A young man in a white cricket uniform and blue helmet stands at the crease holding his bat, while another player in white crouches behind the stumps; they are on a well-lit grass field at night
+      under stadium floodlights.
+    person: young man in white cricket uniform and blue helmet / woman in abaya / crowd ... (never name anyone)
+    quality: ok
+    shot: medium
+    t: 1
+    tags:
+    - bat
+    - cricket
+    - field
+    - floodlight
+    - grass
+    - helmet
+    - night
+    - pitch
+    - player
+    - stadium
+    - stump
+    - uniform
+  - action: batsman swings bat at ball
+    desc: A man in a white cricket uniform and helmet is mid-swing at a night match, while another player crouches behind the stumps under bright floodlights.
+    person: young man in white cricket uniform
+    quality: ok
+    shot: wide
+    t: 2
+    tags:
+    - bat
+    - cricket
+    - floodlight
+    - grass
+    - helmet
+    - night
+    - pitch
+    - stump
+    - trees
+    - uniform
+  - action: swings bat at night cricket match
+    desc: A man in a white cricket uniform swings a bat on a grass field at night under bright floodlights, while another man in white stands nearby holding a helmet.
+    person: young man in white cricket uniform
+    quality: ok
+    shot: medium
+    t: 3
+    tags:
+    - bat
+    - cricket
+    - field
+    - floodlight
+    - grass
+    - helmet
+    - man
+    - night
+    - sports
+    - uniform
+  - action: standing at wicket while player runs past
+    desc: A man in a white cricket uniform stands at the wicket on a grass field under bright floodlights, while another player runs past him in motion blur.
+    person: young man in white cricket uniform
+    quality: flash
+    shot: wide
+    t: 4
+    tags:
+    - cricket
+    - field
+    - floodlight
+    - grass
+    - motion
+    - night
+    - player
+    - stump
+    - uniform
+    - wicket
+  - action: preparing to hit cricket ball
+    desc: A man in a white kandura and ghutra stands on a cricket pitch at night, holding a cricket bat and ball, preparing to hit the ball. The scene is illuminated by bright stadium lights against a dark
+      background.
+    person: young man in white kandura and ghutra
+    quality: ok
+    shot: medium
+    t: 5
+    tags:
+    - ball
+    - bat
+    - cricket
+    - ghutra
+    - kandura
+    - lights
+    - man
+    - night
+    - pitch
+    - stadium
+  - action: standing on cricket pitch at night
+    desc: A man in a white cricket uniform stands on a well-lit grass pitch at night, holding a cricket ball and facing away from the camera toward a stumps.
+    person: young man in white kandura and ghutra
+    quality: ok
+    shot: medium
+    t: 6
+    tags:
+    - ball
+    - cricket
+    - field
+    - grass
+    - lights
+    - man
+    - night
+    - pitch
+    - stumps
+    - uniform
+  - action: two men playing cricket at night
+    desc: Two men in white cricket uniforms stand on a grass field at night under bright floodlights; one holds a bat, the other stands near a stumps. The scene is lit by artificial stadium lighting with
+      trees and lights in the background.
+    person: young man in white kandura and ghutra
+    quality: ok
+    shot: medium
+    t: 7
+    tags:
+    - bat
+    - cricket
+    - field
+    - floodlight
+    - grass
+    - night
+    - players
+    - stumps
+    - trees
+    - uniforms
+  - action: one man holds trophy, other walks beside
+    desc: Two men in white cricket uniforms stand on a grass field at night under bright floodlights; one holds up a trophy while the other walks beside him.
+    person: none
+    quality: ok
+    shot: medium
+    t: 8
+    tags:
+    - bat
+    - cricket
+    - field
+    - floodlight
+    - grass
+    - helmet
+    - night
+    - stump
+    - trophy
+    - uniform
+  - action: two men playing cricket at night
+    desc: Two men in white cricket uniforms stand on a grass field at night under bright floodlights; one holds a bat while the other gestures upward. The scene is lit by artificial stadium lights with
+      trees and dark sky in background.
+    person: young man in white kandura and ghutra
+    quality: ok
+    shot: medium
+    t: 9
+    tags:
+    - bat
+    - cricket
+    - field
+    - floodlight
+    - grass
+    - night
+    - players
+    - sky
+    - trees
+    - uniform
+  - action: standing at wicket holding bat
+    desc: A man in a white cricket uniform stands at the wicket on a well-lit night pitch, holding his bat and helmet; behind him, trees and stadium lights glow against the dark sky.
+    person: young man in white kandura and ghutra
+    quality: ok
+    shot: medium
+    t: 10
+    tags:
+    - bat
+    - cricket
+    - grass
+    - helmet
+    - lights
+    - night
+    - pitch
+    - player
+    - stadium
+    - trees
+    - uniform
+    - wicket
+  - action: standing on cricket field at night
+    desc: Two men in white cricket uniforms stand on a grass field at night under bright floodlights; one holds a bat, the other stands nearby near a stumps marker.
+    person: two men in white cricket uniforms
+    quality: ok
+    shot: wide
+    t: 11
+    tags:
+    - bat
+    - cricket
+    - dark sky
+    - field
+    - floodlight
+    - grass
+    - man
+    - night
+    - stumps
+    - trees
+    - white uniform
+  - action: standing on cricket field at night
+    desc: Two men in white cricket uniforms stand on a grass field at night under floodlights; one holds a bat, the other stands beside him near a stumps. They appear to be taking a break during a match.
+    person: two men in white cricket uniforms
+    quality: ok
+    shot: medium
+    t: 12
+    tags:
+    - bat
+    - break
+    - cricket
+    - field
+    - floodlight
+    - glove
+    - grass
+    - helmet
+    - match
+    - night
+    - stumps
+    - uniform
+  - action: cricketer stands ready at wicket
+    desc: A young man in a white cricket uniform and blue helmet stands at the wicket, holding a bat poised to strike the ball. The scene is lit by stadium floodlights against a dark night sky.
+    person: young man in white cricket uniform and blue helmet
+    quality: ok
+    shot: medium
+    t: 13
+    tags:
+    - ball
+    - bat
+    - cricket
+    - floodlight
+    - grass
+    - helmet
+    - night
+    - pitch
+    - stadium
+    - trees
+    - uniform
+    - wicket
+  - action: walking with cricket bat
+    desc: Two men in white cricket uniforms walk across a grassy field at night under bright floodlights; one holds a bat, the other walks beside him.
+    person: young man in white kandura and ghutra
+    quality: ok
+    shot: wide
+    t: 14
+    tags:
+    - bat
+    - cricket
+    - field
+    - floodlight
+    - glove
+    - grass
+    - helmet
+    - night
+    - path
+    - shadow
+    - trees
+    - uniform
+  - action: adjusting helmet on field
+    desc: A man in a white cricket uniform and helmet stands on a grass field at night, adjusting his helmet while another man in similar attire watches nearby under bright floodlights.
+    person: young man in white cricket uniform and helmet
+    quality: ok
+    shot: medium
+    t: 15
+    tags:
+    - cricket
+    - field
+    - floodlight
+    - grass
+    - helmet
+    - man
+    - night
+    - stick
+    - trees
+    - uniform
 sb-354811803:
   dur: 16.8
   sec:

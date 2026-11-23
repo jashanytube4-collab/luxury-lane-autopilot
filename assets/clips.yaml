@@ -1292,7 +1292,7 @@ clips:
     note: 16:9 cut of his vertical Instagram video, every second checked 2026-10-25
     credit: Sheikh Hamdan's Instagram (@faz3)
   ig-reef-banner:
-    match: ''
+    match: 'reef|grow|corals|life|reef|grow|corals|life'
     ig: '18006598649398953'
     parts: [[48.5, 52.0]]
     note: 16:9 cut of his vertical Instagram video, every second checked 2026-10-25
@@ -1633,7 +1633,7 @@ clips:
     note: '16:9 cut, frames checked 2026-11-01: two divers going down underwater (Hamdan in camouflage)'
     credit: Sheikh Hamdan's Instagram (@faz3)
   ig-reef-x:
-    match: 'fish|module|reef structure|apartments'
+    match: 'fish|module|reef structure|apartments|fish|hide|hunters|coral|fish|hide|hunters|coral'
     ig: '18006598649398953'
     parts: [[38.0, 40.0]]
     note: '16:9 cut, frames checked 2026-11-01: fish swimming through an X-shaped reef module underwater'
@@ -1693,7 +1693,7 @@ clips:
     note: '16:9 cut, frames checked 2026-11-01: Hamdan underwater holding the Dubai Reef banner'
     credit: Sheikh Hamdan's Instagram (@faz3)
   ig-reef-sink:
-    match: 'sink|sea floor|module'
+    match: 'sink|sea floor|module|lowered|modules?|water|homes|lowered|modules?|water|homes'
     ig: '18006598649398953'
     parts: [[12.2, 14.8]]
     note: '16:9 cut, frames checked 2026-11-01: a reef module standing in murky water on the sea floor'
@@ -6640,3 +6640,821 @@ clips:
     crop: [0.13, 0, 1, 0.87]
     note: dubai-run, KT logo cropped out, 3.2 s (copy of dr-h-ys1) by Rocky 2026-11-22
     credit: Rio Watson and Team Angel Wolf at the Dubai Run, via Khaleej Times
+  rf-an-sea1:
+    match: ''
+    yt: vhuB7ER8eHs
+    parts:
+    - [0.1, 2.9]
+    note: reef story, 2.8 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-an-horizon:
+    match: 'sea|give back|city'
+    yt: vhuB7ER8eHs
+    parts:
+    - [3.0, 4.4]
+    note: reef story, 1.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-an-burj:
+    match: ''
+    yt: vhuB7ER8eHs
+    parts:
+    - [4.5, 6.9]
+    note: reef story, 2.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-an-waves:
+    match: 'sea|coast|floor|waves'
+    yt: vhuB7ER8eHs
+    parts:
+    - [7.0, 8.9]
+    note: reef story, 1.9 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-an-sun:
+    match: ''
+    yt: vhuB7ER8eHs
+    parts:
+    - [9.0, 10.4]
+    note: reef story, 1.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-an-phases:
+    match: ''
+    yt: vhuB7ER8eHs
+    parts:
+    - [18.0, 22.3]
+    note: reef story, 4.3 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-an-pitch1:
+    match: ''
+    yt: vhuB7ER8eHs
+    parts:
+    - [24.4, 26.4]
+    note: reef story, 2.0 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-an-pitch2:
+    match: ''
+    yt: vhuB7ER8eHs
+    parts:
+    - [27.0, 29.5]
+    note: reef story, 2.5 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-an-pitch3:
+    match: ''
+    yt: vhuB7ER8eHs
+    parts:
+    - [29.8, 32.3]
+    note: reef story, 2.5 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-an-20k:
+    match: 'kilometres|square|land|zone|reef'
+    yt: vhuB7ER8eHs
+    parts:
+    - [39.2, 42.3]
+    note: reef story, 3.1 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-an-fishmod:
+    match: ''
+    yt: vhuB7ER8eHs
+    parts:
+    - [42.6, 45.4]
+    crop: [0, 0.15, 0.65, 0.8]
+    note: reef story, 2.8 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-an-grid:
+    match: ''
+    yt: vhuB7ER8eHs
+    parts:
+    - [46.0, 48.8]
+    crop: [0.05, 0.2, 0.7, 0.85]
+    note: reef story, 2.8 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-an-fishschool:
+    match: ''
+    yt: vhuB7ER8eHs
+    parts:
+    - [57.6, 59.4]
+    crop: [0.05, 0, 0.95, 0.9]
+    note: reef story, 1.8 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-an-turtle-uw:
+    match: ''
+    yt: vhuB7ER8eHs
+    parts:
+    - [59.5, 61.3]
+    crop: [0.05, 0, 0.95, 0.9]
+    note: reef story, 1.8 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-an-hatch1:
+    match: ''
+    yt: vhuB7ER8eHs
+    parts:
+    - [61.5, 63.9]
+    note: reef story, 2.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-an-hatch2:
+    match: ''
+    yt: vhuB7ER8eHs
+    parts:
+    - [64.0, 66.4]
+    note: reef story, 2.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-dm-yard:
+    match: 'reef|kilometres|planned'
+    yt: wb-B3LWNXxE
+    parts:
+    - [1.6, 5.2]
+    note: reef story, 3.6 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-dm-boats:
+    match: 'reef|idea|glitter|city|sea'
+    yt: wb-B3LWNXxE
+    parts:
+    - [5.5, 8.9]
+    note: reef story, 3.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-dm-skyline:
+    match: 'glitter|city|skyline|famous|idea'
+    yt: wb-B3LWNXxE
+    parts:
+    - [9.0, 10.4]
+    note: reef story, 1.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-dm-team:
+    match: 'reef|dive|divers|sea|ocean|plan'
+    yt: wb-B3LWNXxE
+    parts:
+    - [14.5, 16.9]
+    note: reef story, 2.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-dm-worker:
+    match: 'reef|idea|glitter|city'
+    yt: wb-B3LWNXxE
+    parts:
+    - [17.0, 19.4]
+    note: reef story, 2.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-dm-barge:
+    match: 'reef|idea|glitter|city'
+    yt: wb-B3LWNXxE
+    parts:
+    - [19.5, 21.4]
+    note: reef story, 1.9 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-dm-hang:
+    match: ''
+    yt: wb-B3LWNXxE
+    parts:
+    - [23.0, 24.4]
+    note: reef story, 1.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-dm-aerial:
+    match: 'reef|kilometres|planned'
+    yt: wb-B3LWNXxE
+    parts:
+    - [24.5, 27.3]
+    note: reef story, 2.8 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-dm-crane:
+    match: ''
+    yt: wb-B3LWNXxE
+    parts:
+    - [36.0, 37.4]
+    note: reef story, 1.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-dm-talk:
+    match: 'reef|dive|divers|sea|ocean|plan'
+    yt: wb-B3LWNXxE
+    parts:
+    - [37.5, 40.4]
+    note: reef story, 2.9 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-dm-lower:
+    match: 'reef|coral|fish|marine|water|sea|pilot|trial|study|description|headline|work'
+    yt: wb-B3LWNXxE
+    parts:
+    - [41.5, 43.4]
+    note: reef story, 1.9 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-dm-wave:
+    match: ''
+    yt: wb-B3LWNXxE
+    parts:
+    - [43.6, 45.9]
+    note: reef story, 2.3 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-dm-splash:
+    match: 'reef|coral|fish|marine|water|sea|pilot|trial|study|description|headline|work'
+    yt: wb-B3LWNXxE
+    parts:
+    - [46.0, 47.9]
+    note: reef story, 1.9 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-dm-sink:
+    match: ''
+    yt: wb-B3LWNXxE
+    parts:
+    - [48.0, 49.4]
+    note: reef story, 1.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-dm-bubbles:
+    match: 'reef|coral|fish|marine|water|sea|pilot|trial|study|description|headline|work'
+    yt: wb-B3LWNXxE
+    parts:
+    - [50.5, 52.4]
+    note: reef story, 1.9 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-dm-uw1:
+    match: ''
+    yt: wb-B3LWNXxE
+    parts:
+    - [52.5, 53.9]
+    note: reef story, 1.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-dm-twodivers:
+    match: 'reef|coral|fish|marine|water|sea|pilot|trial|study|description|headline|work'
+    yt: wb-B3LWNXxE
+    parts:
+    - [54.0, 55.4]
+    note: reef story, 1.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-dm-uw2:
+    match: ''
+    yt: wb-B3LWNXxE
+    parts:
+    - [55.5, 56.9]
+    note: reef story, 1.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-dm-growth:
+    match: 'reef|coral|fish|marine|water|sea|pilot|trial|study|description|headline|work'
+    yt: wb-B3LWNXxE
+    parts:
+    - [57.0, 58.9]
+    note: reef story, 1.9 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-dm-divers:
+    match: 'reef|coral|fish|marine|water|sea|pilot|trial|study|description|headline|work'
+    yt: wb-B3LWNXxE
+    parts:
+    - [59.0, 60.9]
+    note: reef story, 1.9 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-dm-diver2:
+    match: 'reef|coral|fish|marine|water|sea|pilot|trial|study|description|headline|work'
+    yt: wb-B3LWNXxE
+    parts:
+    - [61.0, 63.4]
+    note: reef story, 2.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-dm-hdive:
+    match: 'reef|coral|fish|marine|water|sea|pilot|trial|study|description|headline|work'
+    yt: wb-B3LWNXxE
+    parts:
+    - [63.5, 65.9]
+    note: reef story, 2.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-dm-coral:
+    match: 'reef|coral|fish|marine|water|sea|pilot|trial|study|description|headline|work'
+    yt: wb-B3LWNXxE
+    parts:
+    - [66.0, 68.4]
+    note: reef story, 2.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-dm-speedboat:
+    match: 'reef|idea|glitter|city|sea|far'
+    yt: wb-B3LWNXxE
+    parts:
+    - [71.0, 73.4]
+    note: reef story, 2.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-dm-gaze:
+    match: reef|sea|ocean|waves|answer|follow|subscribe|comments|city|dubai
+    yt: wb-B3LWNXxE
+    parts:
+    - [79.0, 81.4]
+    note: reef story, 2.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-dm-boat2:
+    match: ''
+    yt: wb-B3LWNXxE
+    parts:
+    - [81.5, 85.4]
+    note: reef story, 3.9 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-tv-barge1:
+    match: ''
+    yt: 34D257JZBUQ
+    parts:
+    - [32.5, 33.9]
+    crop: [0.08, 0.15, 0.92, 0.99]
+    note: reef story, 1.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai TV
+  rf-tv-aerial:
+    match: ''
+    yt: 34D257JZBUQ
+    parts:
+    - [35.0, 37.9]
+    crop: [0.08, 0.15, 0.92, 0.99]
+    note: reef story, 2.9 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai TV
+  rf-tv-side:
+    match: ''
+    yt: 34D257JZBUQ
+    parts:
+    - [38.0, 41.4]
+    crop: [0.08, 0.15, 0.92, 0.99]
+    note: reef story, 3.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai TV
+  rf-tv-tilt:
+    match: ''
+    yt: 34D257JZBUQ
+    parts:
+    - [41.5, 43.9]
+    crop: [0.08, 0.15, 0.92, 0.99]
+    note: reef story, 2.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai TV
+  rf-tv-skyline:
+    match: ''
+    yt: 34D257JZBUQ
+    parts:
+    - [44.0, 45.9]
+    crop: [0.08, 0.15, 0.92, 0.99]
+    note: reef story, 1.9 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai TV
+  rf-tv-banner:
+    match: 'dubai reef|project'
+    yt: 34D257JZBUQ
+    parts:
+    - [46.0, 48.4]
+    crop: [0.08, 0.15, 0.92, 0.99]
+    note: reef story, 2.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai TV
+  rf-tv-deck:
+    match: ''
+    yt: 34D257JZBUQ
+    parts:
+    - [48.5, 50.9]
+    crop: [0.08, 0.15, 0.92, 0.99]
+    note: reef story, 2.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai TV
+  rf-tv-barge2:
+    match: ''
+    yt: 34D257JZBUQ
+    parts:
+    - [51.0, 53.4]
+    crop: [0.08, 0.15, 0.92, 0.99]
+    note: reef story, 2.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai TV
+  rf-tv-crane:
+    match: 'campaign|bigger step|summit|dubai reef|project'
+    yt: 34D257JZBUQ
+    parts:
+    - [55.5, 58.4]
+    crop: [0.08, 0.15, 0.92, 0.99]
+    note: reef story, 2.9 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai TV
+  rf-tv-water:
+    match: ''
+    yt: 34D257JZBUQ
+    parts:
+    - [61.0, 63.4]
+    crop: [0.08, 0.15, 0.92, 0.99]
+    note: reef story, 2.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai TV
+  rf-tv-swing:
+    match: ''
+    yt: 34D257JZBUQ
+    parts:
+    - [64.5, 66.9]
+    crop: [0.08, 0.15, 0.92, 0.99]
+    note: reef story, 2.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai TV
+  rf-tv-lower:
+    match: ''
+    yt: 34D257JZBUQ
+    parts:
+    - [67.0, 68.9]
+    crop: [0.08, 0.15, 0.92, 0.99]
+    note: reef story, 1.9 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai TV
+  rf-tv-drop:
+    match: ''
+    yt: 34D257JZBUQ
+    parts:
+    - [72.0, 75.4]
+    crop: [0.08, 0.15, 0.92, 0.99]
+    note: reef story, 3.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai TV
+  rf-wa-grid:
+    match: ''
+    yt: JJuYXc8SC9M
+    parts:
+    - [2.5, 3.9]
+    crop: [0.13, 0, 0.88, 0.75]
+    note: reef story, 1.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Al Wahda News
+  rf-wa-mod:
+    match: 'homes|lowered|modules?|twenty thousand|fish'
+    yt: JJuYXc8SC9M
+    parts:
+    - [4.0, 5.9]
+    crop: [0.13, 0, 0.88, 0.75]
+    note: reef story, 1.9 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Al Wahda News
+  rf-wa-yard:
+    match: ''
+    yt: JJuYXc8SC9M
+    parts:
+    - [6.0, 7.4]
+    crop: [0.13, 0, 0.88, 0.75]
+    note: reef story, 1.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Al Wahda News
+  rf-wa-port:
+    match: ''
+    yt: JJuYXc8SC9M
+    parts:
+    - [7.5, 8.9]
+    crop: [0.13, 0, 0.88, 0.75]
+    note: reef story, 1.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Al Wahda News
+  rf-wa-barge:
+    match: ''
+    yt: JJuYXc8SC9M
+    parts:
+    - [9.0, 10.4]
+    crop: [0.13, 0, 0.88, 0.75]
+    note: reef story, 1.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Al Wahda News
+  rf-wa-sink:
+    match: ''
+    yt: JJuYXc8SC9M
+    parts:
+    - [15.0, 16.9]
+    crop: [0.13, 0, 0.88, 0.75]
+    note: reef story, 1.9 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Al Wahda News
+  rf-wa-uw1:
+    match: 'module|sand|sea floor|spot'
+    yt: JJuYXc8SC9M
+    parts:
+    - [17.0, 18.9]
+    crop: [0.13, 0, 0.88, 0.75]
+    note: reef story, 1.9 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Al Wahda News
+  rf-wa-uw2:
+    match: 'reef|back|sea|numbers|coral|rare'
+    yt: JJuYXc8SC9M
+    parts:
+    - [19.0, 20.9]
+    crop: [0.13, 0, 0.88, 0.75]
+    note: reef story, 1.9 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Al Wahda News
+  rf-wa-grown:
+    match: 'reef|back|sea|numbers|coral|rare'
+    yt: JJuYXc8SC9M
+    parts:
+    - [21.0, 22.9]
+    crop: [0.13, 0, 0.88, 0.75]
+    note: reef story, 1.9 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Al Wahda News
+  rf-gb-diver:
+    match: 'sea|seas|ocean|water|coral|corals|reef|reefs|fish|heat|scientists|biologist'
+    yt: kdBiGZWU1Ww
+    parts: [[27.0, 29.4]]
+    crop: [0.24, 0.02, 0.89, 0.67]
+    note: reef story, 2.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Gulf Business
+  rf-gb-angel:
+    match: 'sea|seas|ocean|water|coral|corals|reef|reefs|fish|heat|scientists|biologist'
+    yt: kdBiGZWU1Ww
+    parts: [[29.5, 31.9]]
+    crop: [0.24, 0.02, 0.89, 0.67]
+    note: reef story, 1.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Gulf Business
+  rf-gb-frame:
+    match: 'sea|seas|ocean|water|coral|corals|reef|reefs|fish|heat|scientists|biologist'
+    yt: kdBiGZWU1Ww
+    parts: [[32.0, 34.4]]
+    crop: [0.24, 0.02, 0.89, 0.67]
+    note: reef story, 1.9 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Gulf Business
+  rf-gb-school:
+    match: 'sea|seas|ocean|water|coral|corals|reef|reefs|fish|heat|scientists|biologist'
+    yt: kdBiGZWU1Ww
+    parts: [[34.5, 36.4]]
+    crop: [0.24, 0.02, 0.89, 0.67]
+    note: reef story, 1.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Gulf Business
+  rf-gb-orange:
+    match: 'sea|seas|ocean|water|coral|corals|reef|reefs|fish|heat|scientists|biologist'
+    yt: kdBiGZWU1Ww
+    parts: [[36.5, 38.9]]
+    crop: [0.24, 0.02, 0.89, 0.67]
+    note: reef story, 1.4 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Gulf Business
+  rf-gb-fish2:
+    match: 'sea|seas|ocean|water|coral|corals|reef|reefs|fish|heat|scientists|biologist'
+    yt: kdBiGZWU1Ww
+    parts: [[39.0, 41.9]]
+    crop: [0.24, 0.02, 0.89, 0.67]
+    note: reef story, 1.9 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Gulf Business
+  rf-sun-beach:
+    match: ''
+    yt: PhXsUfMYToM
+    parts:
+    - [9.5, 12.5]
+    crop: [0.02, 0.08, 0.82, 0.88]
+    note: reef story, 3.0 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: The Sun (turtle release and rehab in Dubai)
+  rf-sun-sand:
+    match: ''
+    yt: PhXsUfMYToM
+    parts:
+    - [60.0, 63.0]
+    crop: [0.02, 0.08, 0.82, 0.88]
+    note: reef story, 3.0 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: The Sun (turtle release and rehab in Dubai)
+  rf-sun-wave:
+    match: ''
+    yt: PhXsUfMYToM
+    parts:
+    - [65.0, 67.9]
+    crop: [0.02, 0.08, 0.82, 0.88]
+    note: reef story, 2.9 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: The Sun (turtle release and rehab in Dubai)
+  rf-sun-box:
+    match: ''
+    yt: PhXsUfMYToM
+    parts:
+    - [158.0, 161.0]
+    crop: [0.02, 0.08, 0.82, 0.88]
+    note: reef story, 3.0 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: The Sun (turtle release and rehab in Dubai)
+  rf-sun-shell:
+    match: ''
+    yt: PhXsUfMYToM
+    parts:
+    - [168.0, 171.5]
+    crop: [0.02, 0.08, 0.82, 0.88]
+    note: reef story, 3.5 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: The Sun (turtle release and rehab in Dubai)
+  rf-sun-pool:
+    match: ''
+    yt: PhXsUfMYToM
+    parts:
+    - [198.2, 201.5]
+    crop: [0.02, 0.08, 0.82, 0.88]
+    note: reef story, 3.3 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: The Sun (turtle release and rehab in Dubai)
+  rf-sun-pool2:
+    match: ''
+    yt: PhXsUfMYToM
+    parts:
+    - [202.0, 204.9]
+    crop: [0.02, 0.08, 0.82, 0.88]
+    note: reef story, 2.9 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: The Sun (turtle release and rehab in Dubai)
+  rf-sun-tanks:
+    match: ''
+    yt: PhXsUfMYToM
+    parts:
+    - [205.0, 208.9]
+    crop: [0.02, 0.08, 0.82, 0.88]
+    note: reef story, 3.9 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: The Sun (turtle release and rehab in Dubai)
+  rf-sun-measure:
+    match: ''
+    yt: PhXsUfMYToM
+    parts:
+    - [209.2, 210.9]
+    crop: [0.02, 0.08, 0.82, 0.88]
+    note: reef story, 1.7 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: The Sun (turtle release and rehab in Dubai)
+  rf-sun-scale:
+    match: ''
+    yt: PhXsUfMYToM
+    parts:
+    - [211.2, 214.8]
+    crop: [0.02, 0.08, 0.82, 0.88]
+    note: reef story, 3.6 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: The Sun (turtle release and rehab in Dubai)
+  rf-sun-hold:
+    match: ''
+    yt: PhXsUfMYToM
+    parts:
+    - [215.2, 218.8]
+    crop: [0.02, 0.08, 0.82, 0.88]
+    note: reef story, 3.6 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: The Sun (turtle release and rehab in Dubai)
+  rf-sun-tank1:
+    match: ''
+    yt: PhXsUfMYToM
+    parts:
+    - [219.2, 222.9]
+    crop: [0.02, 0.08, 0.82, 0.88]
+    note: reef story, 3.7 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: The Sun (turtle release and rehab in Dubai)
+  rf-sun-tank2:
+    match: ''
+    yt: PhXsUfMYToM
+    parts:
+    - [223.1, 226.8]
+    crop: [0.02, 0.08, 0.82, 0.88]
+    note: reef story, 3.7 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: The Sun (turtle release and rehab in Dubai)
+  rf-sun-port:
+    match: ''
+    yt: PhXsUfMYToM
+    parts:
+    - [227.1, 228.9]
+    crop: [0.02, 0.08, 0.82, 0.88]
+    note: reef story, 1.8 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: The Sun (turtle release and rehab in Dubai)
+  rf-cl-shore:
+    match: ''
+    yt: _5Sjl-T8e7g
+    parts:
+    - [43.0, 45.8]
+    crop: [0.05, 0, 0.95, 0.9]
+    note: reef story, 2.8 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Khalid Alrazooqi (Sheikh Hamdan marine clean-up dive, Dubai)
+  rf-cl-dive:
+    match: 'plastic|sea|fish|rubbish'
+    yt: _5Sjl-T8e7g
+    parts:
+    - [53.0, 55.8]
+    crop: [0.05, 0, 0.95, 0.9]
+    note: reef story, 2.8 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Khalid Alrazooqi (Sheikh Hamdan marine clean-up dive, Dubai)
+  rf-cl-mask:
+    match: 'plastic|bottles|campaign|habits'
+    yt: _5Sjl-T8e7g
+    parts:
+    - [59.2, 62.0]
+    crop: [0.05, 0, 0.95, 0.9]
+    note: reef story, 2.8 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Khalid Alrazooqi (Sheikh Hamdan marine clean-up dive, Dubai)
+  rf-cl-trash:
+    match: 'plastic|campaign|bottles|rubbish'
+    yt: _5Sjl-T8e7g
+    parts:
+    - [65.2, 68.8]
+    crop: [0.05, 0, 0.95, 0.9]
+    note: reef story, 3.6 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Khalid Alrazooqi (Sheikh Hamdan marine clean-up dive, Dubai)
+  rf-cl-bags:
+    match: ''
+    yt: _5Sjl-T8e7g
+    parts:
+    - [76.0, 79.8]
+    crop: [0.05, 0, 0.95, 0.9]
+    note: reef story, 3.8 s, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Khalid Alrazooqi (Sheikh Hamdan marine clean-up dive, Dubai)
+  rf-gs-coastbeach:
+    match: 'water|sea|boats|beach|city|pearls'
+    yt: 59Q9L_U9ALA
+    parts:
+    - [10.5, 12.4]
+    - [12.5, 13.9]
+    note: reef story v2, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Great Big Story / Museum of the Future
+  rf-gs-lab:
+    match: 'coral|physics|measure|scientists|reef'
+    yt: 59Q9L_U9ALA
+    parts:
+    - [49.0, 52.4]
+    crop: [0.05, 0, 0.8, 0.75]
+    note: reef story v2, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Great Big Story / Museum of the Future
+  rf-gs-table:
+    match: 'reef|coral|back|sea|numbers'
+    yt: 59Q9L_U9ALA
+    parts:
+    - [52.5, 56.4]
+    crop: [0.05, 0, 0.8, 0.75]
+    note: reef story v2, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Great Big Story / Museum of the Future
+  rf-gs-bleach:
+    match: 'coral|bleach|heat'
+    yt: 59Q9L_U9ALA
+    parts:
+    - [86.0, 88.9]
+    crop: [0.05, 0, 0.8, 0.75]
+    note: reef story v2, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Great Big Story / Museum of the Future
+  rf-gs-pink:
+    match: 'coral|reefs|fragile'
+    yt: 59Q9L_U9ALA
+    parts:
+    - [102.0, 105.4]
+    crop: [0.05, 0, 0.8, 0.75]
+    note: reef story v2, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Great Big Story / Museum of the Future
+  rf-gs-zoa:
+    match: 'coral|physics|measure|scientists|reef'
+    yt: 59Q9L_U9ALA
+    parts:
+    - [105.5, 108.9]
+    crop: [0.12, 0, 0.72, 0.6]
+    note: reef story v2, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Great Big Story / Museum of the Future
+  rf-pb-pier:
+    match: 'ships?|sink|purpose|offshore|fish|corals'
+    yt: wSZx-cBwTn0
+    parts:
+    - [30.5, 34.8]
+    crop: [0.1, 0.08, 0.9, 0.88]
+    note: reef story v2, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: PBS NewsHour
+  rf-pb-tow:
+    match: 'ships?|sink|purpose|offshore|fish|corals'
+    yt: wSZx-cBwTn0
+    parts:
+    - [37.0, 40.8]
+    crop: [0.1, 0.08, 0.9, 0.88]
+    note: reef story v2, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: PBS NewsHour
+  rf-pb-hulk:
+    match: 'shipwrecks?|ships?|reefs?'
+    yt: wSZx-cBwTn0
+    parts:
+    - [45.0, 47.8]
+    crop: [0.1, 0.08, 0.9, 0.88]
+    note: reef story v2, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: PBS NewsHour
+  rf-pb-inside:
+    match: 'hull|metal|fish|corals'
+    yt: wSZx-cBwTn0
+    parts:
+    - [48.0, 50.8]
+    crop: [0.1, 0.08, 0.9, 0.88]
+    note: reef story v2, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: PBS NewsHour
+  rf-pb-sink:
+    match: 'ships?|sink|purpose|offshore|fish|corals'
+    yt: wSZx-cBwTn0
+    parts:
+    - [55.0, 58.4]
+    crop: [0.1, 0.08, 0.9, 0.88]
+    note: reef story v2, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: PBS NewsHour
+  rf-pb-uw:
+    match: 'fish|gather|hide'
+    yt: wSZx-cBwTn0
+    parts:
+    - [64.0, 66.8]
+    crop: [0.1, 0.08, 0.9, 0.88]
+    note: reef story v2, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: PBS NewsHour
+  rf-dd-walk:
+    match: 'deep dive|deepest|pool|sea|ocean|his'
+    yt: _5RY_UvYN3Q
+    parts:
+    - [43.6, 49.6]
+    note: reef story v2, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Sheikh Hamdan at Deep Dive Dubai (2021), as shared online
+  rf-dd-talk:
+    match: 'deep dive|deepest|pool|sea|ocean|his'
+    yt: _5RY_UvYN3Q
+    parts:
+    - [50.0, 56.0]
+    note: reef story v2, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Sheikh Hamdan at Deep Dive Dubai (2021), as shared online
+  rf-dm-floor:
+    match: 'reef|coral|fish|marine|water|sea|pilot|trial|study|description|headline|work'
+    yt: wb-B3LWNXxE
+    parts:
+    - [52.5, 53.9]
+    - [55.5, 56.9]
+    note: reef story v2, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)
+  rf-pb-reef1:
+    match: fish|hide|hunters|sea creatures|corals|reef|grow|life
+    yt: wSZx-cBwTn0
+    parts:
+    - [240.6, 243.9]
+    crop: [0.1, 0.08, 0.9, 0.88]
+    note: reef story v2, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: PBS NewsHour
+  rf-pb-reef2:
+    match: fish|hide|hunters|sea creatures|corals|reef|grow|life
+    yt: wSZx-cBwTn0
+    parts:
+    - [244.0, 247.4]
+    crop: [0.1, 0.08, 0.9, 0.88]
+    note: reef story v2, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: PBS NewsHour
+  rf-pb-reef3:
+    match: fish|hide|hunters|sea creatures|corals|reef|grow|life
+    yt: wSZx-cBwTn0
+    parts:
+    - [247.6, 250.9]
+    crop: [0.1, 0.08, 0.9, 0.88]
+    note: reef story v2, frames checked (ffmpeg grid), logos/captions cropped, by Rocky 2026-11-23
+    credit: PBS NewsHour
+  rf-dm-skywalk:
+    match: glitter|city|skyline|famous|idea|far
+    yt: wb-B3LWNXxE
+    parts:
+    - [8.8, 10.6]
+    - [10.8, 13.1]
+    note: reef story v2, frames checked (ffmpeg grid), skyline + Hamdan walking, by Rocky 2026-11-23
+    credit: Dubai Media Office (official YouTube channel)

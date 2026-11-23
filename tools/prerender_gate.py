@@ -581,7 +581,9 @@ def run_gate(path: Path, use_voice: bool = True) -> tuple[list[str], list[str], 
             same_src = source_of(a) == source_of(b) and source_of(a) is not None
             shoot = a.startswith("sb-") and b.startswith("sb-") and abs(int(a[3:]) - int(b[3:])) < 5000
             dist = colour_dist(sigs[a], sigs[b])
-            if (same_src or shoot) and gap > 15 and dist < 40:
+            # one chapter (section) cutting through several moments of the same event is a continuous sequence,
+            # not a repeat; the rule is about the same footage coming back in a DIFFERENT part of the video
+            if (same_src or shoot) and gap > 15 and dist < 40 and ua["sec"] != ub["sec"]:
                 fails.append(f"[repeat: same scene again {dist:.0f}] {b} @{fmt(ub['t0'])} \"{ub['say'][:40]}\" ~ "
                              f"{a} @{fmt(ua['t0'])} \"{ua['say'][:40]}\" (another cut of the same video/shoot)")
             elif a.startswith("sb-") and b.startswith("sb-") and 0 <= gap < 12 and dist < 32:
@@ -651,7 +653,8 @@ def run_gate(path: Path, use_voice: bool = True) -> tuple[list[str], list[str], 
             fails.append(f"[clip belongs to another story ({cred[:50]}), off-topic here] {ref(sh_)}")
         if tg.get("not_hamdan") and not re.search(r"\b(president|mohamed bin zayed|sheikh mohamed)\b", sh_["say"], re.I):
             fails.append(f"[clip shows someone else ({tg.get('desc', '')[:60]}), the line is not about them] {ref(sh_)}")
-        if tok.startswith("sb-") and tg.get("people") and tg.get("arab_people") is not True:
+        # faces: false = looked at by eye, only legs/silhouettes/tiny aerial figures, nobody's look can be judged
+        if tok.startswith("sb-") and tg.get("people") and tg.get("arab_people") is not True and tg.get("faces") is not False:
             fails.append(f"[stock people do not look Emirati/Arab] {ref(sh_)}")
         verdict = relevance(tok, sh_["say"], tg, vocab)
         if verdict == "uncertain":

@@ -1241,9 +1241,9 @@
   "video_len": 78
  },
  "dubai crown prince visits dubai municipality": {
-  "last_short": "2026-11-25",
+  "last_short": "2026-11-26",
   "long": "2026-11-02",
-  "montage_used": 53,
+  "montage_used": 54,
   "remix_ranges": [
    [
     321.72,
@@ -1316,6 +1316,10 @@
    [
     107.55734089142733,
     109.21350215496304
+   ],
+   [
+    296.0096492899081,
+    297.6661316628795
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8875,7 +8879,7 @@
  "hamdan bin mohammed launches the government games initiative": {
   "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     152.44500151607716,
@@ -8908,6 +8912,10 @@
    [
     115.21848543186157,
     117.15688647751522
+   ],
+   [
+    83.5396963942676,
+    85.61160736960838
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9302,7 +9310,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 32,
+  "montage_used": 33,
   "remix_ranges": [
    [
     46.8,
@@ -9355,6 +9363,10 @@
    [
     177.13048408215678,
     178.661342752577
+   ],
+   [
+    39.12532092823432,
+    40.987909934757916
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10943,6 +10955,7 @@
   "long": "2026-10-14",
   "montage_exhausted": true,
   "montage_used": 18,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     73.66873288634743,
@@ -11113,7 +11126,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     41.16052104638739,
@@ -11130,6 +11143,10 @@
    [
     74.17256592929301,
     75.94813454744514
+   ],
+   [
+    1.5367548678873426,
+    2.9535115735315034
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11542,7 +11559,7 @@
  "hamdan bin mohammed opens cityscape global 2017": {
   "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 47,
+  "montage_used": 48,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -11592,6 +11609,10 @@
    [
     264.118181024319,
     265.89947750712645
+   ],
+   [
+    255.45061945541968,
+    257.1801639442451
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11770,9 +11791,9 @@
   "video_len": 375
  },
  "hamdan bin mohammed opens crime prevention international conference": {
-  "last_short": "2026-11-25",
+  "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 26,
+  "montage_used": 27,
   "remix_ranges": [
    [
     20.13502281199993,
@@ -11797,6 +11818,10 @@
    [
     60.54041417972603,
     62.0233383663508
+   ],
+   [
+    143.13901805041178,
+    145.35783709740852
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14413,9 +14438,9 @@
   "video_len": 234
  },
  "hamdan bin mohammed unveils 5 star plaques at three customer happiness centres in dubai": {
-  "last_short": "2026-11-25",
+  "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 26,
+  "montage_used": 27,
   "remix_ranges": [
    [
     140.09584732465112,
@@ -14428,6 +14453,10 @@
    [
     91.79082084475668,
     93.59366972554855
+   ],
+   [
+    131.4,
+    133.4
    ]
   ],
   "remix_reset": "2026-11-20",

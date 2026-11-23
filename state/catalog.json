@@ -306,6 +306,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 54,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     316.5598655911052,
@@ -8240,7 +8241,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 30,
+  "montage_used": 31,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -8274,6 +8275,10 @@
    [
     255.97894217732403,
     258.0459179407767
+   ],
+   [
+    75.32000000000001,
+    77.16
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8880,7 +8885,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 34,
+  "montage_used": 35,
   "remix_ranges": [
    [
     87.58143717853224,
@@ -8929,6 +8934,10 @@
    [
     260.8693257102806,
     262.35876576476454
+   ],
+   [
+    225.84,
+    228.24
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9691,7 +9700,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-17",
   "montage_exhausted": true,
-  "montage_used": 46,
+  "montage_used": 47,
   "remix_ranges": [
    [
     202.24325973382153,
@@ -9736,6 +9745,10 @@
    [
     163.78260465522078,
     165.7368591299011
+   ],
+   [
+    252.24026046465266,
+    254.36812028972906
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10030,7 +10043,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 21,
+  "montage_used": 22,
   "remix_ranges": [
    [
     1.929348642583168,
@@ -10067,6 +10080,10 @@
    [
     123.36,
     125.83999999999999
+   ],
+   [
+    93.34280413858443,
+    95.13961885878808
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10582,7 +10599,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 26,
+  "montage_used": 27,
   "remix_ranges": [
    [
     17.44,
@@ -10607,6 +10624,10 @@
    [
     150.4930866072557,
     152.85521657279534
+   ],
+   [
+    92.91861894575011,
+    94.57596382916034
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11554,7 +11575,7 @@
   "last_short": "2026-11-26",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 43,
+  "montage_used": 44,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -11600,6 +11621,10 @@
    [
     147.12,
     149.12
+   ],
+   [
+    38.2496849868618,
+    40.51269306008922
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -15067,6 +15092,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 25,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     140.89915446020242,

@@ -267,8 +267,8 @@ def scene_code(sc, ctx, bg):
     base = bg.convert("RGBA")
     cb = window(base, box, sc.get("title", "terminal" if term else "main.py"), ctx.acc, tag=None if term else lang.upper())
     cw, ch = cb[2] - cb[0] - 70, cb[3] - cb[1]
-    size = 56
-    while size > 24:
+    size = 64
+    while size > 28:
         f = font(MONO, size)
         cols = int(cw / f.getlength("M"))
         rows = wrap_code(raw, cols)
@@ -288,13 +288,13 @@ def scene_code(sc, ctx, bg):
         meta.append(ln_no if not cont else None)
     gut = f.getlength("00") + 26
     ty0 = cb[1] + max((ch - len(rows) * lh) / 2, 0)
-    t_start, t_end = 0.25, max(ctx.d * 0.72, 1.2)
+    t_start, t_end = 0.0, max(ctx.d * 0.65, 1.2)
     for k in range(0, total, 3 if total < 120 else 5):
         ctx.events.append((t_start + (t_end - t_start) * k / max(total, 1), "tick"))
 
     def frame(t, im):
         d = ImageDraw.Draw(im)
-        n = int(total * prog(t, t_start, t_end))
+        n = max(int(total * prog(t, t_start, t_end)), min(total, 14))
         used = 0
         cur = None
         for i, (txt, cont) in enumerate(rows):
@@ -463,7 +463,7 @@ def scene_compare(sc, ctx, bg):
         heading(base, sc["title"], ctx.acc)
     L, R = sc["left"], sc["right"]
     pw, gap = (W - 2 * MX - 80) / 2, 80
-    y0, y1 = (TOP + 130 if sc.get("title") else TOP + 40), BOT - 10
+    y0, y1 = (TOP + 165 if sc.get("title") else TOP + 80), BOT
     panels = []
     for i, (p, col) in enumerate(((L, CORAL), (R, MINT))):
         b = (MX + i * (pw + gap), y0, MX + i * (pw + gap) + pw, y1)
@@ -495,7 +495,7 @@ def scene_compare(sc, ctx, bg):
                 if t < 1.5 + k * 0.35:
                     continue
                 a = prog(t, 1.5 + k * 0.35, 1.8 + k * 0.35)
-                f, ls, lh = fit_rich(it, MONO, 42, 24, b[2] - b[0] - 150, 100, 1.25)
+                f, ls, lh = fit_rich(it, MONO, 50, 28, b[2] - b[0] - 150, 110, 1.25)
                 x = b[0] + 54 + (1 - a) * 30
                 if col == MINT:
                     d.line((x, iy + 20, x + 10, iy + 30, x + 28, iy + 8), fill=col, width=6, joint="curve")
@@ -691,8 +691,8 @@ def render_scene(sc, prof, idx, chap, d, out: Path, nframes, trans=None):
             t = i / FPS
             im = base.copy()
             frame(t, im)
-            if t < 0.3:                                            # content fades up out of the empty background
-                im = Image.blend(bg4, im, 0.4 + 0.6 * ease(t / 0.3))
+            if t < 0.12:                                           # short fade-up, never near-empty
+                im = Image.blend(bg4, im, 0.8 + 0.2 * ease(t / 0.12))
             ph = t * 0.35 + idx
             im.alpha_composite(blob, (int(W * (0.05 + 0.3 * (0.5 + 0.5 * math.sin(ph)))) - 350, int(H * (0.3 + 0.2 * math.cos(ph * 0.8))) - 450))
             im.alpha_composite(blob2, (int(W * (0.7 - 0.2 * (0.5 + 0.5 * math.sin(ph * 0.9)))) - 300, int(H * (0.7 + 0.15 * math.sin(ph * 0.7))) - 500))

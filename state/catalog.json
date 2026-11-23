@@ -302,10 +302,10 @@
   "long": "2026-10-17"
  },
  "dubai crown prince attends graduation of dubai police academy": {
-  "last_short": "2026-11-25",
+  "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 52,
+  "montage_used": 53,
   "remix_ranges": [
    [
     316.5598655911052,
@@ -386,6 +386,10 @@
    [
     850.0867800641721,
     851.5864221692354
+   ],
+   [
+    177.4717873808497,
+    179.29468948649568
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -1243,7 +1247,7 @@
  "dubai crown prince visits dubai municipality": {
   "last_short": "2026-11-26",
   "long": "2026-11-02",
-  "montage_used": 55,
+  "montage_used": 56,
   "remix_ranges": [
    [
     321.72,
@@ -1324,6 +1328,10 @@
    [
     46.08,
     48.04
+   ],
+   [
+    65.55634794250797,
+    68.03569985555083
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10504,7 +10512,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 25,
+  "montage_used": 26,
   "remix_ranges": [
    [
     17.44,
@@ -10525,6 +10533,10 @@
    [
     28.87443408822058,
     30.38969727718447
+   ],
+   [
+    150.4930866072557,
+    152.85521657279534
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12202,7 +12214,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 37,
+  "montage_used": 38,
   "remix_ranges": [
    [
     44.48273041474908,
@@ -12247,6 +12259,10 @@
    [
     145.18630653183104,
     147.71342542245358
+   ],
+   [
+    92.37945737748554,
+    93.96711702225151
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13019,7 +13035,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     51.559999999999995,
@@ -13044,6 +13060,10 @@
    [
     91.2790982167476,
     93.77453381430374
+   ],
+   [
+    96.99121450554473,
+    99.01737141866631
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14268,7 +14288,7 @@
   "last_short": "2026-11-26",
   "long": "2026-11-01",
   "montage_exhausted": true,
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     112.85109569671269,
@@ -14289,6 +14309,10 @@
    [
     65.44,
     67.75999999999999
+   ],
+   [
+    173.80806604612565,
+    175.60083550002693
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14447,6 +14471,7 @@
   "last_short": "2026-11-26",
   "montage_exhausted": true,
   "montage_used": 29,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     104.84181508997926,
@@ -15949,7 +15974,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 27,
+  "montage_used": 28,
   "remix_ranges": [
    [
     31.609601684534905,
@@ -15990,6 +16015,10 @@
    [
     204.48000000000002,
     206.56
+   ],
+   [
+    50.104748637326125,
+    50.68377864130878
    ]
   ],
   "remix_reset": "2026-11-20",

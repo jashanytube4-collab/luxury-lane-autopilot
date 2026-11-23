@@ -2870,9 +2870,10 @@
  },
  "hamdan bin mohammed approves new targets for dubai ai campus to attract more than 1 000 companies and create over 5 000 jobs": {
   "fails": 1,
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-26",
   "long": "2026-10-30",
-  "shorts_made": 1,
+  "photo_short": true,
+  "shorts_made": 2,
   "shot_ranges": [
    [
     6.086666666666666,

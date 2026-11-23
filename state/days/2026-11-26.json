@@ -1,0 +1,178 @@
+{
+ "date": "2026-11-26",
+ "slots": [
+  {
+   "at": "2026-11-26T06:02:51+04:00",
+   "event": "adopted",
+   "status": "scheduled",
+   "type": "short",
+   "video_id": "dIkBN9Hv-qU"
+  },
+  {
+   "at": "2026-11-26T06:43:36+04:00",
+   "event": "hamdan bin mohammed approves new targets for dubai ai campus to attract more than 1 000 companies and create over 5 000 jobs",
+   "kind": "narrated",
+   "status": "scheduled",
+   "title": "Prince Hamdan Wants 1000 Companies At Dubai 🤍",
+   "type": "short",
+   "video_id": "sX-wyjVnO2M",
+   "voiced": true
+  },
+  {
+   "at": "2026-11-26T07:22:49+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-26T08:03:05+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-26T08:56:09+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-26T09:43:28+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-26T10:23:48+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-26T11:14:42+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-26T12:08:06+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-26T12:57:22+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-26T13:39:21+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-26T14:25:49+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-26T15:17:17+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-26T16:10:05+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-26T16:56:21+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-26T17:36:03+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-26T18:21:00+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-26T19:06:42+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-26T19:30:54+04:00",
+   "status": "open",
+   "type": "long"
+  },
+  {
+   "at": "2026-11-26T19:59:27+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-26T20:50:40+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-26T21:00:00+04:00",
+   "status": "open",
+   "type": "members"
+  },
+  {
+   "at": "2026-11-26T21:32:18+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-26T22:20:06+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-26T23:10:23+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-26T23:53:20+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-27T00:44:37+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-27T01:28:47+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-27T02:14:52+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-27T03:01:25+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-27T03:52:14+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-27T04:41:28+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-27T05:32:51+04:00",
+   "status": "open",
+   "type": "short"
+  }
+ ],
+ "timezone": "Asia/Dubai"
+}

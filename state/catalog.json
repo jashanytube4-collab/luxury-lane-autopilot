@@ -4492,7 +4492,7 @@
  "hamdan bin mohammed attends hct graduation": {
   "last_short": "2026-11-26",
   "long": "2026-10-31",
-  "montage_used": 51,
+  "montage_used": 52,
   "remix_ranges": [
    [
     219.49568300016466,
@@ -4541,6 +4541,10 @@
    [
     193.85522759075968,
     195.28962252116204
+   ],
+   [
+    9.715864494172845,
+    12.248598045239198
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -5250,7 +5254,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 42,
+  "montage_used": 43,
   "remix_ranges": [
    [
     167.6806468932527,
@@ -5315,6 +5319,10 @@
    [
     248.39180314885857,
     250.40794130203633
+   ],
+   [
+    423.2469623541794,
+    424.7812078022679
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -7243,10 +7251,10 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed honours mbr creative sports award winners": {
-  "last_short": "2026-11-25",
+  "last_short": "2026-11-26",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 38,
+  "montage_used": 39,
   "remix_ranges": [
    [
     658.7792960623468,
@@ -7299,6 +7307,10 @@
    [
     457.1238736036164,
     458.55324722701675
+   ],
+   [
+    289.64,
+    292.0
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10002,7 +10014,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     1.929348642583168,
@@ -10035,6 +10047,10 @@
    [
     120.15917569924338,
     121.65713840579804
+   ],
+   [
+    123.36,
+    125.83999999999999
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11683,7 +11699,7 @@
  "hamdan bin mohammed opens cityscape global 2017": {
   "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 52,
+  "montage_used": 53,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -11753,6 +11769,10 @@
    [
     70.0,
     71.67999999999999
+   ],
+   [
+    65.56150624523362,
+    67.22495373585696
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14360,7 +14380,7 @@
   "last_short": "2026-11-26",
   "long": "2026-11-01",
   "montage_exhausted": true,
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     112.85109569671269,
@@ -14385,6 +14405,10 @@
    [
     173.80806604612565,
     175.60083550002693
+   ],
+   [
+    70.85825164324417,
+    71.74834252747114
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14994,10 +15018,10 @@
   "video_len": 57
  },
  "hamdan bin mohammed visits area 2071 reviews dubai 10x initiative projects": {
-  "last_short": "2026-11-25",
+  "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 23,
+  "montage_used": 24,
   "remix_ranges": [
    [
     140.89915446020242,
@@ -15030,6 +15054,10 @@
    [
     70.7166339077041,
     72.94780674178573
+   ],
+   [
+    100.73715171198846,
+    102.478880616112
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -16062,7 +16090,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 30,
+  "montage_used": 31,
   "remix_ranges": [
    [
     31.609601684534905,
@@ -16115,6 +16143,10 @@
    [
     209.28,
     211.72
+   ],
+   [
+    70.31644771214295,
+    72.65420143401425
    ]
   ],
   "remix_reset": "2026-11-20",

@@ -5276,6 +5276,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 44,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     167.6806468932527,
@@ -7279,7 +7280,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 39,
+  "montage_used": 40,
   "remix_ranges": [
    [
     658.7792960623468,
@@ -7336,6 +7337,10 @@
    [
     289.64,
     292.0
+   ],
+   [
+    497.76,
+    499.6
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9721,7 +9726,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-17",
   "montage_exhausted": true,
-  "montage_used": 47,
+  "montage_used": 48,
   "remix_ranges": [
    [
     202.24325973382153,
@@ -9770,6 +9775,10 @@
    [
     252.24026046465266,
     254.36812028972906
+   ],
+   [
+    301.1782361045356,
+    303.6192613894809
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10620,7 +10629,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 28,
+  "montage_used": 29,
   "remix_ranges": [
    [
     17.44,
@@ -10653,6 +10662,10 @@
    [
     62.592057173545456,
     64.26937321586982
+   ],
+   [
+    2.870606779988416,
+    5.184678020102025
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11786,7 +11799,7 @@
  "hamdan bin mohammed opens cityscape global 2017": {
   "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 55,
+  "montage_used": 56,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -11868,6 +11881,10 @@
    [
     171.45520228444462,
     173.2488075527179
+   ],
+   [
+    179.44104818899004,
+    181.81505578834117
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12233,7 +12250,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 47,
+  "montage_used": 48,
   "remix_ranges": [
    [
     332.64461795604365,
@@ -12298,6 +12315,10 @@
    [
     481.28000000000003,
     483.15999999999997
+   ],
+   [
+    120.04716786802726,
+    121.47557104883423
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13858,7 +13879,7 @@
  "hamdan bin mohammed reviews the latest technologies and energy solutions at wetex 2019": {
   "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 21,
+  "montage_used": 22,
   "remix_ranges": [
    [
     200.37999249206516,
@@ -13879,6 +13900,10 @@
    [
     257.00976089941133,
     258.5387598935159
+   ],
+   [
+    241.67749447075025,
+    243.93484386001407
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14821,7 +14846,7 @@
  "hamdan bin mohammed unveils 5 star plaques at three customer happiness centres in dubai": {
   "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 32,
+  "montage_used": 33,
   "remix_ranges": [
    [
     140.09584732465112,
@@ -14858,6 +14883,10 @@
    [
     266.0457148328851,
     268.4316518978457
+   ],
+   [
+    255.88,
+    257.56
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -15522,7 +15551,7 @@
  },
  "hamdan bin mohammed visits department of economic development": {
   "last_short": "2026-11-26",
-  "montage_used": 27,
+  "montage_used": 28,
   "remix_ranges": [
    [
     162.32,
@@ -15559,6 +15588,10 @@
    [
     181.74872311913663,
     183.55263475479376
+   ],
+   [
+    139.25853064846038,
+    140.83863985696124
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -16014,6 +16047,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 34,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     184.4,
@@ -16488,6 +16522,7 @@
   "long": "2026-10-18",
   "montage_exhausted": true,
   "montage_used": 18,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     110.28976119537938,

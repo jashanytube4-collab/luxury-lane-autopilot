@@ -4452,9 +4452,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends hct graduation": {
-  "last_short": "2026-11-25",
+  "last_short": "2026-11-26",
   "long": "2026-10-31",
-  "montage_used": 48,
+  "montage_used": 49,
   "remix_ranges": [
    [
     219.49568300016466,
@@ -4491,6 +4491,10 @@
    [
     232.38224451044107,
     234.7183117954265
+   ],
+   [
+    45.8,
+    47.52
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -6791,6 +6795,7 @@
   "long": "2026-10-18",
   "montage_exhausted": true,
   "montage_used": 38,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     107.48779104831378,
@@ -9717,7 +9722,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     86.95333333333333,
@@ -9746,6 +9751,10 @@
    [
     107.50959554617015,
     109.29402310087015
+   ],
+   [
+    91.10299361008401,
+    93.37761975231348
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10427,7 +10436,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 24,
+  "montage_used": 25,
   "remix_ranges": [
    [
     17.44,
@@ -10444,6 +10453,10 @@
    [
     53.72,
     55.96
+   ],
+   [
+    28.87443408822058,
+    30.38969727718447
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11529,7 +11542,7 @@
  "hamdan bin mohammed opens cityscape global 2017": {
   "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 46,
+  "montage_used": 47,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -11575,6 +11588,10 @@
    [
     102.27172608101917,
     104.02977415966646
+   ],
+   [
+    264.118181024319,
+    265.89947750712645
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11905,10 +11922,10 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed opens gitex tech week 2017": {
-  "last_short": "2026-11-25",
+  "last_short": "2026-11-26",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 43,
+  "montage_used": 44,
   "remix_ranges": [
    [
     332.64461795604365,
@@ -11957,6 +11974,10 @@
    [
     42.050111948027826,
     43.465028898802174
+   ],
+   [
+    484.72490432881557,
+    486.3099518197972
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14111,7 +14132,7 @@
   "last_short": "2026-11-26",
   "long": "2026-11-01",
   "montage_exhausted": true,
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     112.85109569671269,
@@ -14128,6 +14149,10 @@
    [
     135.22571784615585,
     136.93102469134476
+   ],
+   [
+    65.44,
+    67.75999999999999
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14283,9 +14308,9 @@
   "video_len": 189
  },
  "hamdan bin mohammed unveils 5 star plaque at sheikh zayed housing programme in dubai": {
-  "last_short": "2026-11-25",
+  "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 26,
+  "montage_used": 27,
   "remix_ranges": [
    [
     104.84181508997926,
@@ -14322,6 +14347,10 @@
    [
     209.92065656159693,
     212.08684668126935
+   ],
+   [
+    217.11151973588463,
+    218.83996430912487
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -15297,10 +15326,10 @@
   "video_len": 62
  },
  "hamdan bin mohammed visits dp world s facilities inspects operations of jebel ali port": {
-  "last_short": "2026-11-25",
+  "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 22,
+  "montage_used": 23,
   "remix_ranges": [
    [
     227.25091329983198,
@@ -15325,6 +15354,10 @@
    [
     94.94105450814301,
     97.0173169875973
+   ],
+   [
+    239.51638010357033,
+    241.7117022253476
    ]
   ],
   "remix_reset": "2026-11-20",

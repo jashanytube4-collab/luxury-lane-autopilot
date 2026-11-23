@@ -4,7 +4,7 @@
   "term:championship": "2026-11-03"
  },
  "ig_status": {
-  "date": "2026-11-22",
+  "date": "2026-11-23",
   "ok": true
  },
  "lines_used": {
@@ -1130,7 +1130,16 @@
   "ll84df8b9b4e",
   "llbd5411f603",
   "llc59735ebbd",
-  "ll7b256163c3"
+  "ll7b256163c3",
+  "ll9dffa9ab6a",
+  "llb3d6bac4a5",
+  "llc768953807",
+  "ll305dae1a76",
+  "ll6097d5b1f7",
+  "ll899db39534",
+  "ll70dbf0be04",
+  "lle7e35fc148",
+  "lld3439f6d2b"
  ],
  "quotes": [
   {
@@ -1653,9 +1662,9 @@
   "Where innovation meets tradition: Dubai and Hamdan. #fazza #youtubeshorts #youtube"
  ],
  "shorts_supply": {
-  "date": "2026-11-22",
-  "days": 2.3,
-  "events": 70
+  "date": "2026-11-23",
+  "days": 2.5,
+  "events": 77
  },
  "stories_done": [
   "flydubai-hero",

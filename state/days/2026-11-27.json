@@ -3,8 +3,13 @@
  "slots": [
   {
    "at": "2026-11-27T06:22:03+04:00",
-   "status": "skipped",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "A heart as wide as the desert. #fazza #youtubeshorts #youtube",
+   "type": "short",
+   "video_id": "FbZvHjtfFoY",
+   "voiced": true
   },
   {
    "at": "2026-11-27T07:14:43+04:00",
@@ -98,7 +103,7 @@
   },
   {
    "at": "2026-11-27T14:20:45+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   },
   {
@@ -178,7 +183,7 @@
   },
   {
    "at": "2026-11-27T20:34:44+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   },
   {
@@ -188,7 +193,7 @@
   },
   {
    "at": "2026-11-27T21:23:16+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   },
   {
@@ -263,17 +268,17 @@
   },
   {
    "at": "2026-11-28T03:41:50+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   },
   {
    "at": "2026-11-28T04:27:39+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   },
   {
    "at": "2026-11-28T05:05:47+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   },
   {

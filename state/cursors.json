@@ -1170,7 +1170,31 @@
   "ll843336bfe5",
   "lldf6f85af22",
   "llfc22943b2f",
-  "ll883622444f"
+  "ll883622444f",
+  "ll0fde9941dd",
+  "ll489ae1794a",
+  "llc1e1f380ac",
+  "ll4cb3829f79",
+  "ll002412acdc",
+  "ll0b894d47b6",
+  "llfcda8fda3d",
+  "ll2318e069f8",
+  "ll6a144c67f4",
+  "lla31b1850f9",
+  "ll9ee3675848",
+  "ll9ecd8a0d67",
+  "ll0b2e931c17",
+  "llc0d5d78da1",
+  "llf59a436376",
+  "llc8bfa4ac43",
+  "llb742cbca09",
+  "llc87c2c657c",
+  "ll255597032e",
+  "ll315473ac9c",
+  "ll1db78ecf59",
+  "lldc28dc3e8f",
+  "ll2502b1104c",
+  "llea92129e6e"
  ],
  "quotes": [
   {
@@ -1329,7 +1353,6 @@
   }
  ],
  "recent_hooks": [
-  "WATCH HOW HE CARRIES HIMSELF | Loyalty, faith and vision. ❤️ #youtubeshorts #youtube",
   "WATCH HOW HE CARRIES HIMSELF | A leader who never stops learning from life. 👑 #youtubeshorts #ytshorts",
   "THE MAN BEHIND THE TITLE | He never stops serving. 🤍 #princehamdan #youtubeshorts #youtube",
   "FAZZA, AS HIS FANS SEE HIM | Greatness begins with respect. ✨ #princehamdan #youtubeshorts #youtube",
@@ -1388,10 +1411,10 @@
   "THE PRESENCE OF A LEADER | Dubai's vision comes alive through Hamdan. 🤍 #youtubeshorts #youtube",
   "DUBAI'S FAVOURITE PRINCE | He respects everyone, and everyone respects him. #youtube #youtubeshorts",
   "WATCH HOW HE CARRIES HIMSELF | A leader the young look up to. #youtubeshorts #ytshorts",
-  "DUBAI'S FAVOURITE PRINCE | He is proof that humility and greatness can live together. #youtubeshorts #youtube #fazza"
+  "DUBAI'S FAVOURITE PRINCE | He is proof that humility and greatness can live together. #youtubeshorts #youtube #fazza",
+  "THE MOST LOVED PRINCE | A heart as wide as the desert. #fazza #youtubeshorts #youtube"
  ],
  "recent_titles": [
-  "Fazza's heart is bigger than his crown. 👑 #fazza #youtubeshorts #youtube",
   "Greatness is quiet. Just like him. 👑 #youtubeshorts #youtube",
   "From the sands of Dubai rises Hamdan's inspiration. ✨ #fazza #youtubeshorts #youtube",
   "Hamdan's vision keeps Dubai moving forward. ❤️ #princehamdan #youtubeshorts #youtube",
@@ -1690,12 +1713,13 @@
   "Dubai's vision comes alive through Hamdan. 🤍 #youtubeshorts #youtube",
   "He respects everyone, and everyone respects him. #youtube #youtubeshorts",
   "A leader the young look up to. #youtubeshorts #ytshorts",
-  "He is proof that humility and greatness can live together. #youtubeshorts #youtube #fazza"
+  "He is proof that humility and greatness can live together. #youtubeshorts #youtube #fazza",
+  "A heart as wide as the desert. #fazza #youtubeshorts #youtube"
  ],
  "shorts_supply": {
   "date": "2026-11-24",
-  "days": 2.6,
-  "events": 81
+  "days": 3.0,
+  "events": 94
  },
  "stories_done": [
   "flydubai-hero",

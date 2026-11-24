@@ -7297,10 +7297,10 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed honours mbr creative sports award winners": {
-  "last_short": "2026-11-26",
+  "last_short": "2026-11-27",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 41,
+  "montage_used": 42,
   "remix_ranges": [
    [
     658.7792960623468,
@@ -7365,6 +7365,10 @@
    [
     211.76,
     213.72
+   ],
+   [
+    420.7404282045823,
+    422.99234025715606
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11665,10 +11669,10 @@
   "long": "2026-10-28"
  },
  "hamdan bin mohammed officially opens gitex 2018": {
-  "last_short": "2026-11-26",
+  "last_short": "2026-11-27",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 45,
+  "montage_used": 46,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -11722,6 +11726,10 @@
    [
     262.6381871682562,
     264.2566942790713
+   ],
+   [
+    301.88,
+    303.64
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12009,8 +12017,8 @@
   "video_len": 279
  },
  "hamdan bin mohammed opens cityscape global 2018": {
-  "last_short": "2026-11-26",
-  "montage_used": 41,
+  "last_short": "2026-11-27",
+  "montage_used": 42,
   "remix_ranges": [
    [
     317.08,
@@ -12055,6 +12063,10 @@
    [
     114.91615926121244,
     116.55080946749159
+   ],
+   [
+    312.76,
+    314.56
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -17286,7 +17298,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     29.819963987224874,
@@ -17295,6 +17307,10 @@
    [
     98.3847688030722,
     99.67268095618323
+   ],
+   [
+    41.21714260608871,
+    42.269356180983365
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17328,11 +17344,15 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 24,
+  "montage_used": 25,
   "remix_ranges": [
    [
     50.922691941964224,
     52.73992346471919
+   ],
+   [
+    76.96444240399752,
+    78.74691692146556
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17406,7 +17426,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     16.96,
@@ -17415,6 +17435,10 @@
    [
     52.46416972558561,
     53.8925861175776
+   ],
+   [
+    177.47427272713384,
+    179.02100591553074
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17465,11 +17489,16 @@
   "video_len": 186
  },
  "hamdan bin mohammed visits the ministry of foreign affairs in abu dhabi": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-27",
   "long": "2026-10-23",
   "montage_exhausted": true,
-  "montage_used": 9,
-  "remix_ranges": [],
+  "montage_used": 10,
+  "remix_ranges": [
+   [
+    81.75333333333334,
+    83.44666666666666
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shorts_made": 2,
   "shot_ranges": [
@@ -18212,10 +18241,15 @@
   "long": "2026-10-17"
  },
  "hamdan provision of housing to emiratis paramount importance to leadership": {
-  "last_short": "2026-10-26",
+  "last_short": "2026-11-27",
   "montage_exhausted": true,
-  "montage_used": 1,
-  "remix_ranges": [],
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    3.42,
+    5.113333333333333
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "video_exhausted": true,
   "video_len": 71
@@ -20020,6 +20054,7 @@
   "long": "2026-10-27",
   "montage_exhausted": true,
   "montage_used": 4,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     61.562179577900416,

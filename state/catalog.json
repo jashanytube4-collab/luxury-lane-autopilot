@@ -7312,7 +7312,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 42,
+  "montage_used": 43,
   "remix_ranges": [
    [
     658.7792960623468,
@@ -7381,6 +7381,10 @@
    [
     420.7404282045823,
     422.99234025715606
+   ],
+   [
+    65.30452507887301,
+    65.89882219634396
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12055,7 +12059,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2018": {
   "last_short": "2026-11-27",
-  "montage_used": 43,
+  "montage_used": 44,
   "remix_ranges": [
    [
     317.08,
@@ -12108,6 +12112,10 @@
    [
     220.9744938525907,
     222.77950186908484
+   ],
+   [
+    270.7859868918578,
+    272.19036982108986
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12576,7 +12584,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 41,
+  "montage_used": 42,
   "remix_ranges": [
    [
     44.48273041474908,
@@ -12637,6 +12645,10 @@
    [
     54.24113215025137,
     56.61925651166481
+   ],
+   [
+    213.7033520894153,
+    215.92610216723344
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -16454,7 +16466,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 16,
+  "montage_used": 17,
   "no_video_until": "2026-11-24",
   "remix_ranges": [
    [
@@ -16468,6 +16480,10 @@
    [
     144.03865167866363,
     145.48958061333144
+   ],
+   [
+    50.13583490711053,
+    52.22533458336317
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -16826,7 +16842,7 @@
   "last_short": "2026-11-27",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     33.71721156620963,
@@ -16839,6 +16855,10 @@
    [
     18.16695562329434,
     20.118022490977154
+   ],
+   [
+    63.4141491977551,
+    65.79235000468623
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17389,7 +17409,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     29.819963987224874,
@@ -17406,6 +17426,10 @@
    [
     79.91601575402295,
     81.79701613023741
+   ],
+   [
+    74.11761892793544,
+    76.22451819255153
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17825,7 +17849,7 @@
  "hamdan bin mohammed watches the historic launch of zayed ambition 2": {
   "last_short": "2026-11-27",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     76.22986111613152,
@@ -17834,6 +17858,10 @@
    [
     70.55615605501926,
     72.13750255947707
+   ],
+   [
+    30.151343005931672,
+    32.57250079745116
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -18012,6 +18040,7 @@
   "montage_exhausted": true,
   "montage_used": 16,
   "no_video_until": "2026-10-29",
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     100.706877198243,
@@ -18353,6 +18382,7 @@
  "hamdan offers condolences on death of martyr tareq al shehi": {
   "long": "2026-10-20",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-24",
   "video_exhausted": true,
@@ -20188,11 +20218,15 @@
   "last_short": "2026-11-27",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     44.161915550720344,
     45.74978899940898
+   ],
+   [
+    48.23574697097625,
+    49.81855930713575
    ]
   ],
   "remix_reset": "2026-11-24",

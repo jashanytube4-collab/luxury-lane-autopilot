@@ -11700,7 +11700,7 @@
   "last_short": "2026-11-27",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 48,
+  "montage_used": 49,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -11766,6 +11766,10 @@
    [
     251.87890215174897,
     253.64033622789316
+   ],
+   [
+    143.16,
+    145.24
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -16969,10 +16973,10 @@
   "video_len": 213
  },
  "hamdan bin mohammed visits hazrat imam mosque in uzbekistan": {
-  "last_short": "2026-11-26",
+  "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     26.20537822515171,
@@ -16981,6 +16985,10 @@
    [
     32.83366357926175,
     34.538837455771024
+   ],
+   [
+    14.6,
+    16.279999999999998
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17167,7 +17175,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     45.96,
@@ -17184,6 +17192,10 @@
    [
     245.70279511531012,
     247.2078413331932
+   ],
+   [
+    189.12842369526672,
+    190.58686704359602
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -18232,12 +18244,16 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "no_video_until": "2026-10-29",
   "remix_ranges": [
    [
     85.62,
     87.67999999999999
+   ],
+   [
+    132.64601216763867,
+    134.60066584188112
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -18427,15 +18443,19 @@
   "long": "2026-10-17"
  },
  "hamdan officially opens 19th edition of dubai world cup": {
-  "last_short": "2026-11-26",
+  "last_short": "2026-11-27",
   "long": "2026-10-12",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "no_video_until": "2026-11-02",
   "remix_ranges": [
    [
     57.89966282387156,
     59.706372786313935
+   ],
+   [
+    6.419386038769827,
+    8.958311385625201
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -20094,7 +20114,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     32.730025117484985,
@@ -20115,6 +20135,10 @@
    [
     14.100164768484627,
     16.38309815032705
+   ],
+   [
+    21.812421878522404,
+    23.497975361421258
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -20830,7 +20854,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     45.601505429795935,
@@ -20839,6 +20863,10 @@
    [
     85.79004694116992,
     87.11323195149082
+   ],
+   [
+    92.80777036524047,
+    94.05019451291449
    ]
   ],
   "remix_reset": "2026-11-24",

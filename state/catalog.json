@@ -11704,7 +11704,7 @@
   "last_short": "2026-11-27",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 49,
+  "montage_used": 50,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -11774,6 +11774,10 @@
    [
     143.16,
     145.24
+   ],
+   [
+    211.72,
+    213.56
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14051,7 +14055,7 @@
  "hamdan bin mohammed reviews the latest technologies and energy solutions at wetex 2019": {
   "last_short": "2026-11-27",
   "montage_exhausted": true,
-  "montage_used": 27,
+  "montage_used": 28,
   "remix_ranges": [
    [
     200.37999249206516,
@@ -14096,6 +14100,10 @@
    [
     159.11411119945055,
     161.47429769881265
+   ],
+   [
+    317.38978896175973,
+    318.98116921961076
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -16486,7 +16494,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 17,
+  "montage_used": 18,
   "no_video_until": "2026-11-24",
   "remix_ranges": [
    [
@@ -16504,6 +16512,10 @@
    [
     50.13583490711053,
     52.22533458336317
+   ],
+   [
+    23.448855496985086,
+    25.063105061496856
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -16948,11 +16960,16 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed visits gulfood 2018": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 5,
-  "remix_ranges": [],
+  "montage_used": 6,
+  "remix_ranges": [
+   [
+    193.56071348002405,
+    195.81663145470606
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shorts_made": 1,
   "shot_ranges": [
@@ -17240,7 +17257,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     48.187120302427445,
@@ -17249,6 +17266,10 @@
    [
     69.09182288223279,
     70.72566953997884
+   ],
+   [
+    63.64455200594742,
+    65.67586378435678
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17307,7 +17328,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     64.01148561003217,
@@ -17324,6 +17345,10 @@
    [
     171.92000000000002,
     174.0
+   ],
+   [
+    41.414244536639735,
+    43.286330066927825
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -18042,11 +18067,15 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     57.205735740088784,
     59.4766856258753
+   ],
+   [
+    64.85162114743433,
+    66.99111729964302
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -18213,7 +18242,7 @@
  "hamdan chairs expo 2020 higher committee s first session": {
   "last_short": "2026-11-27",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     12.382730805497342,
@@ -18226,6 +18255,10 @@
    [
     67.79631959494782,
     69.22411453443617
+   ],
+   [
+    113.77144137999052,
+    115.29454260398346
    ]
   ],
   "remix_reset": "2026-11-24",

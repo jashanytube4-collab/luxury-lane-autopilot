@@ -12018,7 +12018,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2018": {
   "last_short": "2026-11-27",
-  "montage_used": 42,
+  "montage_used": 43,
   "remix_ranges": [
    [
     317.08,
@@ -12067,6 +12067,10 @@
    [
     312.76,
     314.56
+   ],
+   [
+    220.9744938525907,
+    222.77950186908484
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -16397,7 +16401,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 15,
+  "montage_used": 16,
   "no_video_until": "2026-11-24",
   "remix_ranges": [
    [
@@ -16407,6 +16411,10 @@
    [
     73.75230780418818,
     75.37648545084426
+   ],
+   [
+    144.03865167866363,
+    145.48958061333144
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -16762,10 +16770,10 @@
   "video_len": 58
  },
  "hamdan bin mohammed visits exhibition that tells story of uae s participation in world expos": {
-  "last_short": "2026-11-26",
+  "last_short": "2026-11-27",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     33.71721156620963,
@@ -16774,6 +16782,10 @@
    [
     107.46519979059391,
     108.91100025511703
+   ],
+   [
+    18.16695562329434,
+    20.118022490977154
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17220,7 +17232,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     199.87463990640111,
@@ -17229,6 +17241,10 @@
    [
     292.291023301695,
     293.84905027973133
+   ],
+   [
+    95.06905887691005,
+    97.07636106101394
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17426,7 +17442,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 21,
+  "montage_used": 22,
   "remix_ranges": [
    [
     16.96,
@@ -17439,6 +17455,10 @@
    [
     177.47427272713384,
     179.02100591553074
+   ],
+   [
+    105.62704181230863,
+    107.05664085225212
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -18068,11 +18088,16 @@
   "long": "2026-10-22"
  },
  "hamdan honors winners of mbr arabic language award": {
-  "last_short": "2026-11-05",
+  "last_short": "2026-11-27",
   "long": "2026-10-24",
   "montage_exhausted": true,
-  "montage_used": 2,
-  "remix_ranges": [],
+  "montage_used": 3,
+  "remix_ranges": [
+   [
+    280.8083864971979,
+    282.81465978949234
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shot_ranges": [
    [
@@ -19942,11 +19967,15 @@
   "last_short": "2026-11-27",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     144.3761125690069,
     145.98245975189116
+   ],
+   [
+    192.74270881625554,
+    194.40451393734466
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -20313,11 +20342,16 @@
   "video_exhausted": true
  },
  "mohammed bin rashid attends 29th dubai world cup": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-11-27",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 3,
-  "remix_ranges": [],
+  "montage_used": 4,
+  "remix_ranges": [
+   [
+    75.64999329299475,
+    77.81800983671904
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shorts_made": 1,
   "shot_ranges": [

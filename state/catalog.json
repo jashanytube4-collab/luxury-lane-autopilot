@@ -7338,6 +7338,7 @@
   "long": "2026-10-18",
   "montage_exhausted": true,
   "montage_used": 44,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     658.7792960623468,
@@ -9815,7 +9816,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-17",
   "montage_exhausted": true,
-  "montage_used": 52,
+  "montage_used": 53,
   "remix_ranges": [
    [
     202.24325973382153,
@@ -9884,6 +9885,10 @@
    [
     288.1395499810234,
     290.60500848713684
+   ],
+   [
+    132.81998456539668,
+    134.59675166004007
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -16565,7 +16570,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 18,
+  "montage_used": 19,
   "no_video_until": "2026-11-24",
   "remix_ranges": [
    [
@@ -16587,6 +16592,10 @@
    [
     23.448855496985086,
     25.063105061496856
+   ],
+   [
+    17.288639975705717,
+    18.977861694787325
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -17038,7 +17047,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     193.56071348002405,
@@ -17047,6 +17056,10 @@
    [
     43.13797655642323,
     45.53121931971884
+   ],
+   [
+    8.187256591164097,
+    10.031263876105207
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17490,7 +17503,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     199.87463990640111,
@@ -17519,6 +17532,10 @@
    [
     70.29670776123704,
     72.69111107874046
+   ],
+   [
+    277.7725036298324,
+    278.3081489539013
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17826,7 +17843,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-23",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     81.75333333333334,
@@ -17843,6 +17860,10 @@
    [
     32.006865526648646,
     34.202936480533275
+   ],
+   [
+    23.801535227022903,
+    25.830192246526604
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17997,14 +18018,18 @@
   "video_len": 96
  },
  "hamdan bin mohammed visits wipro s apmea headquarters in dubai": {
-  "last_short": "2026-11-26",
+  "last_short": "2026-11-27",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     24.411019717440077,
     26.316572311098106
+   ],
+   [
+    54.279999999999994,
+    55.88
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -18066,6 +18091,7 @@
   "last_short": "2026-11-27",
   "montage_exhausted": true,
   "montage_used": 11,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     76.22986111613152,
@@ -18849,7 +18875,7 @@
   "last_short": "2026-11-27",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     139.38666666666668,
@@ -18866,6 +18892,10 @@
    [
     187.739509163543,
     189.15519701551915
+   ],
+   [
+    172.32,
+    174.07999999999998
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -20806,6 +20836,7 @@
   "long": "2026-10-28",
   "montage_exhausted": true,
   "montage_used": 9,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     132.50736655374286,
@@ -20861,6 +20892,7 @@
   "long": "2026-10-28",
   "montage_exhausted": true,
   "montage_used": 5,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     75.64999329299475,
@@ -20999,7 +21031,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     65.4802155931682,
@@ -21012,6 +21044,10 @@
    [
     56.69962538094529,
     58.15913724781211
+   ],
+   [
+    80.40191986619686,
+    81.8276214239581
    ]
   ],
   "remix_reset": "2026-11-24",

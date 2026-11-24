@@ -12258,7 +12258,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 48,
+  "montage_used": 49,
   "remix_ranges": [
    [
     332.64461795604365,
@@ -12327,6 +12327,10 @@
    [
     120.04716786802726,
     121.47557104883423
+   ],
+   [
+    496.37978028976755,
+    498.3146091491642
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13888,7 +13892,7 @@
  "hamdan bin mohammed reviews the latest technologies and energy solutions at wetex 2019": {
   "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 22,
+  "montage_used": 23,
   "remix_ranges": [
    [
     200.37999249206516,
@@ -13913,6 +13917,10 @@
    [
     241.67749447075025,
     243.93484386001407
+   ],
+   [
+    144.23795075234915,
+    146.72046649394792
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -15640,7 +15648,7 @@
  "hamdan bin mohammed visits dewa s moro": {
   "last_short": "2026-11-26",
   "long": "2026-11-01",
-  "montage_used": 45,
+  "montage_used": 46,
   "remix_ranges": [
    [
     85.28,
@@ -15685,6 +15693,10 @@
    [
     105.97310768863609,
     107.66980671664783
+   ],
+   [
+    163.94166787571712,
+    166.01665495392797
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -15845,6 +15857,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 27,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     227.25091329983198,
@@ -16619,11 +16632,15 @@
   "last_short": "2026-11-26",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     33.71721156620963,
     36.28463887791936
+   ],
+   [
+    107.46519979059391,
+    108.91100025511703
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17398,11 +17415,16 @@
   "video_len": 96
  },
  "hamdan bin mohammed visits wipro s apmea headquarters in dubai": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-26",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 6,
-  "remix_ranges": [],
+  "montage_used": 7,
+  "remix_ranges": [
+   [
+    24.411019717440077,
+    26.316572311098106
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shot_ranges": [
    [
@@ -17776,12 +17798,17 @@
   "video_len": 551
  },
  "hamdan inaugurates makani smart app": {
-  "last_short": "2026-11-11",
+  "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "no_video_until": "2026-10-29",
-  "remix_ranges": [],
+  "remix_ranges": [
+   [
+    30.053361265388077,
+    32.44545226906509
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shot_ranges": [
    [
@@ -19668,11 +19695,16 @@
   "long": "2026-10-21"
  },
  "khaled bin mohamed bin zayed meets hamdan bin mohammed bin rashid on sidelines of uae government annual meetings": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-11-26",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 1,
-  "remix_ranges": [],
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    38.13682519530621,
+    39.79968137211138
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "video_exhausted": true,
   "video_len": 64
@@ -19681,11 +19713,16 @@
   "long": "2026-10-23"
  },
  "khalifasat launches successfully into orbit emphasising uae s leadership in developing satellites": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-26",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 16,
-  "remix_ranges": [],
+  "montage_used": 17,
+  "remix_ranges": [
+   [
+    69.8570571289648,
+    71.78250736150245
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shorts_made": 3,
   "shot_ranges": [

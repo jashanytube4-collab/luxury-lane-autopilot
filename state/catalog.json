@@ -11676,7 +11676,7 @@
   "last_short": "2026-11-27",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 46,
+  "montage_used": 47,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -11734,6 +11734,10 @@
    [
     301.88,
     303.64
+   ],
+   [
+    204.68,
+    206.68
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14963,9 +14967,9 @@
   "video_len": 234
  },
  "hamdan bin mohammed unveils 5 star plaques at three customer happiness centres in dubai": {
-  "last_short": "2026-11-26",
+  "last_short": "2026-11-27",
   "montage_exhausted": true,
-  "montage_used": 34,
+  "montage_used": 35,
   "remix_ranges": [
    [
     140.09584732465112,
@@ -15010,6 +15014,10 @@
    [
     229.96,
     231.76
+   ],
+   [
+    241.97617292835076,
+    243.52840513671183
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -16974,11 +16982,16 @@
   "video_len": 172
  },
  "hamdan bin mohammed visits innovation labs 2018": {
-  "last_short": "2026-11-13",
+  "last_short": "2026-11-27",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 11,
-  "remix_ranges": [],
+  "montage_used": 12,
+  "remix_ranges": [
+   [
+    149.87405594592894,
+    152.26067618062223
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shorts_made": 1,
   "shot_ranges": [
@@ -17925,7 +17938,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-15",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "no_video_until": "2026-10-29",
   "remix_ranges": [
    [
@@ -17939,6 +17952,10 @@
    [
     12.942453689949605,
     15.434572803356012
+   ],
+   [
+    71.3776610846937,
+    73.73178257308764
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -18129,7 +18146,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 12,
+  "montage_used": 13,
   "no_video_until": "2026-10-29",
   "remix_ranges": [
    [
@@ -18143,6 +18160,10 @@
    [
     18.13107777569284,
     18.681341691785626
+   ],
+   [
+    87.25950379962471,
+    88.8934338144334
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -18314,7 +18335,7 @@
  "hamdan receives unesco expert": {
   "last_short": "2026-11-27",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "no_video_until": "2026-11-01",
   "remix_ranges": [
    [
@@ -18324,6 +18345,10 @@
    [
     29.157621918799794,
     31.03344032133916
+   ],
+   [
+    34.50444268251109,
+    36.47198544053772
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -20502,14 +20527,18 @@
   "video_exhausted": true
  },
  "partnership between community government the foundation of enhancing government services hamdan bin mohammed": {
-  "last_short": "2026-11-26",
+  "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     65.4802155931682,
     67.33914290882277
+   ],
+   [
+    51.41959611013409,
+    53.44235224573596
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -20944,11 +20973,15 @@
   "last_short": "2026-11-27",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     22.886487305185618,
     24.947207959908994
+   ],
+   [
+    75.91574628662535,
+    78.18854344673986
    ]
   ],
   "remix_reset": "2026-11-24",

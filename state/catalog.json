@@ -8302,7 +8302,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 34,
+  "montage_used": 35,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -8352,6 +8352,10 @@
    [
     283.52,
     285.32
+   ],
+   [
+    141.51538725163937,
+    143.3982750001876
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11704,7 +11708,7 @@
   "last_short": "2026-11-27",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 50,
+  "montage_used": 51,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -11778,6 +11782,10 @@
    [
     211.72,
     213.56
+   ],
+   [
+    186.76119636734086,
+    187.45510974520357
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12071,7 +12079,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2018": {
   "last_short": "2026-11-27",
-  "montage_used": 44,
+  "montage_used": 45,
   "remix_ranges": [
    [
     317.08,
@@ -12128,6 +12136,10 @@
    [
     270.7859868918578,
     272.19036982108986
+   ],
+   [
+    342.88,
+    345.2
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12601,6 +12613,7 @@
   "long": "2026-10-18",
   "montage_exhausted": true,
   "montage_used": 43,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     44.48273041474908,
@@ -17533,7 +17546,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 27,
+  "montage_used": 28,
   "remix_ranges": [
    [
     50.922691941964224,
@@ -17550,6 +17563,10 @@
    [
     210.28,
     212.28
+   ],
+   [
+    185.88846218484912,
+    188.10345461577393
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -18359,7 +18376,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "no_video_until": "2026-10-29",
   "remix_ranges": [
    [
@@ -18377,6 +18394,10 @@
    [
     87.25950379962471,
     88.8934338144334
+   ],
+   [
+    37.85694238314724,
+    40.320465832834664
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -20514,11 +20535,16 @@
  },
  "king salman bin abdulaziz of saudi arabia receives dubai crown prince": {
   "fails": 1,
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 4,
-  "remix_ranges": [],
+  "montage_used": 5,
+  "remix_ranges": [
+   [
+    60.936714941637085,
+    63.14087207156973
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shorts_made": 1,
   "shot_ranges": [
@@ -21259,7 +21285,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     22.886487305185618,
@@ -21272,6 +21298,10 @@
    [
     57.178555972194786,
     59.36775443191439
+   ],
+   [
+    37.50492348192249,
+    39.175449344966694
    ]
   ],
   "remix_reset": "2026-11-24",

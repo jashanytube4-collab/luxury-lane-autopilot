@@ -2531,9 +2531,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed approves dff s three year strategic plan": {
-  "last_short": "2026-11-26",
+  "last_short": "2026-11-27",
   "montage_exhausted": true,
-  "montage_used": 37,
+  "montage_used": 38,
   "remix_ranges": [
    [
     132.68279953235296,
@@ -2598,6 +2598,10 @@
    [
     261.68,
     263.36
+   ],
+   [
+    220.88,
+    222.72
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -3282,7 +3286,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 46,
+  "montage_used": 47,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -3340,6 +3344,10 @@
    [
     2.92,
     4.88
+   ],
+   [
+    165.8,
+    167.64
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -16723,6 +16731,7 @@
    0,
    3
   ],
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     41.76113501567993,
@@ -17668,10 +17677,15 @@
   "video_len": 263
  },
  "hamdan bin mohammed watches the historic launch of zayed ambition 2": {
-  "last_short": "2026-10-31",
+  "last_short": "2026-11-27",
   "montage_exhausted": true,
-  "montage_used": 7,
-  "remix_ranges": [],
+  "montage_used": 8,
+  "remix_ranges": [
+   [
+    76.22986111613152,
+    77.9773441232645
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shorts_made": 1,
   "shot_ranges": [
@@ -17843,10 +17857,10 @@
   "long": "2026-10-09"
  },
  "hamdan celebrates al ahli s arabian gulf league winning": {
-  "last_short": "2026-11-26",
+  "last_short": "2026-11-27",
   "long": "2026-10-15",
   "montage_exhausted": true,
-  "montage_used": 12,
+  "montage_used": 13,
   "no_video_until": "2026-10-29",
   "remix_ranges": [
    [
@@ -17856,6 +17870,10 @@
    [
     0.7453260625674265,
     2.6691729051910285
+   ],
+   [
+    12.942453689949605,
+    15.434572803356012
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -18040,7 +18058,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "no_video_until": "2026-10-29",
   "remix_ranges": [
    [
@@ -18050,6 +18068,10 @@
    [
     48.086666666666666,
     49.980000000000004
+   ],
+   [
+    18.13107777569284,
+    18.681341691785626
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -18314,7 +18336,7 @@
   "last_short": "2026-11-27",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     139.38666666666668,
@@ -18323,6 +18345,10 @@
    [
     28.52779968534312,
     30.725833257415538
+   ],
+   [
+    19.713322451825004,
+    21.999076256553373
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -20652,7 +20678,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     73.04234616033636,
@@ -20665,6 +20691,10 @@
    [
     43.30645286577883,
     45.55291487015627
+   ],
+   [
+    52.685237738133644,
+    54.30889724204975
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -20808,11 +20838,16 @@
   "video_exhausted": true
  },
  "umm al qaiwain ruler performs funeral prayer on late sheikh mansour bin ahmad bin ali al thani": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-11-27",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 4,
-  "remix_ranges": [],
+  "montage_used": 5,
+  "remix_ranges": [
+   [
+    22.886487305185618,
+    24.947207959908994
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shorts_made": 1,
   "shot_ranges": [

@@ -2533,7 +2533,7 @@
  "hamdan bin mohammed approves dff s three year strategic plan": {
   "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 36,
+  "montage_used": 37,
   "remix_ranges": [
    [
     132.68279953235296,
@@ -2594,6 +2594,10 @@
    [
     186.20243884079684,
     187.74098560419566
+   ],
+   [
+    261.68,
+    263.36
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -15648,7 +15652,7 @@
  "hamdan bin mohammed visits dewa s moro": {
   "last_short": "2026-11-26",
   "long": "2026-11-01",
-  "montage_used": 46,
+  "montage_used": 47,
   "remix_ranges": [
    [
     85.28,
@@ -15697,6 +15701,10 @@
    [
     163.94166787571712,
     166.01665495392797
+   ],
+   [
+    302.8027766313277,
+    304.2425896946609
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -16276,12 +16284,17 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed visits dubai government hr department": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "no_video_until": "2026-11-24",
-  "remix_ranges": [],
+  "remix_ranges": [
+   [
+    99.54325340404844,
+    101.75387810711864
+   ]
+  ],
   "remix_reset": "2026-11-20",
   "shorts_made": 1,
   "shot_ranges": [
@@ -16742,11 +16755,16 @@
   "video_len": 213
  },
  "hamdan bin mohammed visits hazrat imam mosque in uzbekistan": {
-  "last_short": "2026-10-28",
+  "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 4,
-  "remix_ranges": [],
+  "montage_used": 5,
+  "remix_ranges": [
+   [
+    26.20537822515171,
+    28.159770275689798
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shorts_made": 1,
   "shot_ranges": [
@@ -17011,11 +17029,16 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits personal status court": {
-  "last_short": "2026-11-08",
+  "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 16,
-  "remix_ranges": [],
+  "montage_used": 17,
+  "remix_ranges": [
+   [
+    64.01148561003217,
+    66.39588359242617
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shot_ranges": [
    [
@@ -18017,11 +18040,16 @@
   "video_len": 65
  },
  "hamdan visits dubai world hospitality championship": {
-  "last_short": "2026-11-07",
+  "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 2,
-  "remix_ranges": [],
+  "montage_used": 3,
+  "remix_ranges": [
+   [
+    88.60551212573573,
+    90.52904324027163
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shot_ranges": [
    [
@@ -19870,11 +19898,15 @@
   "last_short": "2026-11-26",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     132.50736655374286,
     134.8697081969988
+   ],
+   [
+    165.4256073216541,
+    167.1293794920154
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -20260,11 +20292,15 @@
   "last_short": "2026-11-26",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     73.04234616033636,
     75.06841572740062
+   ],
+   [
+    27.11818496514186,
+    28.672501356420117
    ]
   ],
   "remix_reset": "2026-11-24",

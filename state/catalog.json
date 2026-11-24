@@ -12305,10 +12305,10 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed opens gitex tech week 2017": {
-  "last_short": "2026-11-26",
+  "last_short": "2026-11-27",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 51,
+  "montage_used": 52,
   "remix_ranges": [
    [
     332.64461795604365,
@@ -12389,6 +12389,10 @@
    [
     508.2020540595094,
     509.95472454499605
+   ],
+   [
+    236.94708750910183,
+    238.4395358851187
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -16804,6 +16808,7 @@
  },
  "hamdan bin mohammed visits field hospital in dwtc": {
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-24",
   "video_exhausted": true,
@@ -17145,7 +17150,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     64.01148561003217,
@@ -17154,6 +17159,10 @@
    [
     148.379808494418,
     150.63106778060924
+   ],
+   [
+    70.60032121027047,
+    72.31881480623989
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17564,6 +17573,7 @@
  "hamdan bin mohammed visits visa s new regional headquarters in dubai internet city": {
   "last_short": "2026-10-10",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-24",
   "shorts_made": 1,
@@ -17624,11 +17634,15 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     5.742968240043965,
     8.215522349826166
+   ],
+   [
+    30.831967470816156,
+    32.695651977410634
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -18060,14 +18074,18 @@
   "long": "2026-10-22"
  },
  "hamdan inspects al bayt studio": {
-  "last_short": "2026-11-26",
+  "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     110.1996762974453,
     112.15861019819243
+   ],
+   [
+    130.39157059222782,
+    132.3285048880769
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -18198,12 +18216,16 @@
  "hamdan receives unesco expert": {
   "last_short": "2026-11-27",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "no_video_until": "2026-11-01",
   "remix_ranges": [
    [
     61.79522244364664,
     63.672830095294984
+   ],
+   [
+    29.157621918799794,
+    31.03344032133916
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -19774,7 +19796,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     32.730025117484985,
@@ -19783,6 +19805,10 @@
    [
     39.16,
     40.96
+   ],
+   [
+    5.862117585354176,
+    7.300082551970366
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -19928,7 +19954,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-25",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     53.897569389444286,
@@ -19937,6 +19963,10 @@
    [
     25.554413449963995,
     27.190486478414954
+   ],
+   [
+    7.384270912595299,
+    8.918120656160278
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -20174,7 +20204,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     132.50736655374286,
@@ -20187,6 +20217,10 @@
    [
     56.31298259575146,
     57.950722780180826
+   ],
+   [
+    154.20000000000002,
+    155.88
    ]
   ],
   "remix_reset": "2026-11-24",

@@ -10655,10 +10655,10 @@
   "video_len": 63
  },
  "hamdan bin mohammed meets with participants of retail summit in dubai": {
-  "last_short": "2026-11-26",
+  "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 31,
+  "montage_used": 32,
   "remix_ranges": [
    [
     17.44,
@@ -10703,6 +10703,10 @@
    [
     11.9404035635055,
     13.800111127321685
+   ],
+   [
+    87.05591447346914,
+    89.33438317327999
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -16366,15 +16370,19 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits dubai government hr department": {
-  "last_short": "2026-11-26",
+  "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "no_video_until": "2026-11-24",
   "remix_ranges": [
    [
     99.54325340404844,
     101.75387810711864
+   ],
+   [
+    73.75230780418818,
+    75.37648545084426
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -17030,7 +17038,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     45.96,
@@ -17039,6 +17047,10 @@
    [
     184.92000000000002,
     187.2
+   ],
+   [
+    208.64255913783506,
+    210.71620626116638
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17114,6 +17126,7 @@
   "long": "2026-10-20",
   "montage_exhausted": true,
   "photo_short": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-24",
   "shorts_made": 1,
@@ -17608,11 +17621,16 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed visits youth hub in emirates towers": {
-  "last_short": "2026-11-12",
+  "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 4,
-  "remix_ranges": [],
+  "montage_used": 5,
+  "remix_ranges": [
+   [
+    5.742968240043965,
+    8.215522349826166
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shot_ranges": [
    [
@@ -18005,15 +18023,19 @@
   "video_len": 551
  },
  "hamdan inaugurates makani smart app": {
-  "last_short": "2026-11-26",
+  "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "no_video_until": "2026-10-29",
   "remix_ranges": [
    [
     30.053361265388077,
     32.44545226906509
+   ],
+   [
+    48.086666666666666,
+    49.980000000000004
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -18219,11 +18241,16 @@
   "video_len": 361
  },
  "hamdan reveals dubai government towards 2021 initiative": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 4,
-  "remix_ranges": [],
+  "montage_used": 5,
+  "remix_ranges": [
+   [
+    43.41878213863964,
+    45.116930971659265
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shorts_made": 1,
   "shot_ranges": [
@@ -20254,14 +20281,18 @@
   "video_len": 251
  },
  "mohammed bin rashid commends the dubai executive council s efforts over the past 15 years": {
-  "last_short": "2026-11-26",
+  "last_short": "2026-11-27",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     78.74593542258368,
     79.24735935926994
+   ],
+   [
+    84.11800233630875,
+    86.34142382217222
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -20348,6 +20379,7 @@
   "last_short": "2026-11-27",
   "montage_exhausted": true,
   "montage_used": 5,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     7.84,
@@ -20583,10 +20615,10 @@
   "video_len": 180
  },
  "the executive council of dubai approves the integrated waste management strategy 2021 2041 with a budget of aed74 5 billion": {
-  "last_short": "2026-11-26",
+  "last_short": "2026-11-27",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     73.04234616033636,
@@ -20595,6 +20627,10 @@
    [
     27.11818496514186,
     28.672501356420117
+   ],
+   [
+    43.30645286577883,
+    45.55291487015627
    ]
   ],
   "remix_reset": "2026-11-24",

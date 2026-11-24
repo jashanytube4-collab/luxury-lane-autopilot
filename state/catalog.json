@@ -4527,9 +4527,9 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed attends hct graduation": {
-  "last_short": "2026-11-26",
+  "last_short": "2026-11-27",
   "long": "2026-10-31",
-  "montage_used": 54,
+  "montage_used": 55,
   "remix_ranges": [
    [
     219.49568300016466,
@@ -4590,6 +4590,10 @@
    [
     100.44,
     102.56
+   ],
+   [
+    122.77445355619051,
+    124.47298941748129
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9767,10 +9771,10 @@
   "video_len": 99
  },
  "hamdan bin mohammed meets students of dubai schools": {
-  "last_short": "2026-11-26",
+  "last_short": "2026-11-27",
   "long": "2026-10-17",
   "montage_exhausted": true,
-  "montage_used": 48,
+  "montage_used": 49,
   "remix_ranges": [
    [
     202.24325973382153,
@@ -9823,6 +9827,10 @@
    [
     301.1782361045356,
     303.6192613894809
+   ],
+   [
+    64.12,
+    66.28
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11871,9 +11879,9 @@
   "video_len": 281
  },
  "hamdan bin mohammed opens cityscape global 2017": {
-  "last_short": "2026-11-26",
+  "last_short": "2026-11-27",
   "montage_exhausted": true,
-  "montage_used": 57,
+  "montage_used": 58,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -11963,6 +11971,10 @@
    [
     158.76,
     161.12
+   ],
+   [
+    35.11857779842101,
+    36.82618143266065
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -17791,11 +17803,15 @@
  "hamdan bin mohammed watches the historic launch of zayed ambition 2": {
   "last_short": "2026-11-27",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     76.22986111613152,
     77.9773441232645
+   ],
+   [
+    70.55615605501926,
+    72.13750255947707
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17972,7 +17988,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-15",
   "montage_exhausted": true,
-  "montage_used": 15,
+  "montage_used": 16,
   "no_video_until": "2026-10-29",
   "remix_ranges": [
    [
@@ -17994,6 +18010,10 @@
    [
     47.59721055005748,
     49.28417650155288
+   ],
+   [
+    114.82945152444329,
+    116.45752742260181
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -18239,7 +18259,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     110.1996762974453,
@@ -18248,6 +18268,10 @@
    [
     130.39157059222782,
     132.3285048880769
+   ],
+   [
+    19.72413106841536,
+    22.167951192187694
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -18355,6 +18379,7 @@
   "last_short": "2026-11-27",
   "montage_exhausted": true,
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     3.42,
@@ -19980,7 +20005,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     32.730025117484985,
@@ -19997,6 +20022,10 @@
    [
     0.26960989642036143,
     2.5417185153495745
+   ],
+   [
+    14.100164768484627,
+    16.38309815032705
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -20356,7 +20385,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-23",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     78.87154734244551,
@@ -20365,6 +20394,10 @@
    [
     239.34564952025679,
     241.45480159927635
+   ],
+   [
+    35.1590902335347,
+    36.63978975150926
    ]
   ],
   "remix_reset": "2026-11-24",

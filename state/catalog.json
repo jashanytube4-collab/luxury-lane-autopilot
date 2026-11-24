@@ -3282,7 +3282,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 45,
+  "montage_used": 46,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -3336,6 +3336,10 @@
    [
     218.8023858528205,
     220.32549900026913
+   ],
+   [
+    2.92,
+    4.88
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -17007,14 +17011,18 @@
   "video_len": 57
  },
  "hamdan bin mohammed visits knowledge and human development authority": {
-  "last_short": "2026-11-26",
+  "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     45.96,
     48.2
+   ],
+   [
+    184.92000000000002,
+    187.2
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17105,14 +17113,18 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits personal status court": {
-  "last_short": "2026-11-26",
+  "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     64.01148561003217,
     66.39588359242617
+   ],
+   [
+    148.379808494418,
+    150.63106778060924
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17205,6 +17217,7 @@
   "long": "2026-10-23",
   "montage_exhausted": true,
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     20.880000000000003,
@@ -17325,14 +17338,18 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits the dubai future foundation headquarters and reviews 10x projects": {
-  "last_short": "2026-11-26",
+  "last_short": "2026-11-27",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     16.96,
     19.32
+   ],
+   [
+    52.46416972558561,
+    53.8925861175776
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17630,6 +17647,7 @@
  "hamdan bin mohammed welcomes king of jordan as he arrives in the uae to participate in cop28": {
   "last_short": "2026-10-09",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-24",
   "shorts_made": 1,
@@ -17851,9 +17869,9 @@
   "video_len": 160
  },
  "hamdan chairs expo 2020 higher committee s first session": {
-  "last_short": "2026-11-26",
+  "last_short": "2026-11-27",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     12.382730805497342,
@@ -17862,6 +17880,10 @@
    [
     61.262632452874485,
     63.07027754207185
+   ],
+   [
+    67.79631959494782,
+    69.22411453443617
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -18102,6 +18124,7 @@
  "hamdan receives qatar ambassador": {
   "long": "2026-10-31",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-24",
   "video_exhausted": true,
@@ -19792,11 +19815,16 @@
  },
  "khaled bin mohamed bin zayed and hamdan bin mohammed bin rashid witness announcement of high speed train project linking abu dhabi dubai": {
   "fails": 1,
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-27",
   "long": "2026-10-27",
   "montage_exhausted": true,
-  "montage_used": 3,
-  "remix_ranges": [],
+  "montage_used": 4,
+  "remix_ranges": [
+   [
+    44.161915550720344,
+    45.74978899940898
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shot_ranges": [
    [
@@ -19808,14 +19836,18 @@
   "video_len": 64
  },
  "khaled bin mohamed bin zayed hamdan bin mohammed bin rashid attend world governments summit 2025": {
-  "last_short": "2026-11-26",
+  "last_short": "2026-11-27",
   "long": "2026-10-25",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     53.897569389444286,
     56.26664561917447
+   ],
+   [
+    25.554413449963995,
+    27.190486478414954
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -20128,11 +20160,15 @@
   "last_short": "2026-11-27",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     192.44850184350665,
     193.98126925820384
+   ],
+   [
+    234.76508765536724,
+    236.69737380027183
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -20289,6 +20325,7 @@
  "president receives hamdan and maktoum bin mohammed": {
   "long": "2026-10-27",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-24",
   "video_exhausted": true,
@@ -20434,6 +20471,7 @@
   "fails": 1,
   "long": "2026-10-31",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-24",
   "video_exhausted": true,

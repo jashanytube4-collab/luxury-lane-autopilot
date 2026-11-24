@@ -11820,7 +11820,7 @@
  "hamdan bin mohammed opens cityscape global 2017": {
   "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 56,
+  "montage_used": 57,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -11906,6 +11906,10 @@
    [
     179.44104818899004,
     181.81505578834117
+   ],
+   [
+    158.76,
+    161.12
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -15669,7 +15673,7 @@
  "hamdan bin mohammed visits dewa s moro": {
   "last_short": "2026-11-26",
   "long": "2026-11-01",
-  "montage_used": 47,
+  "montage_used": 48,
   "remix_ranges": [
    [
     85.28,
@@ -15722,6 +15726,10 @@
    [
     302.8027766313277,
     304.2425896946609
+   ],
+   [
+    15.973254883910178,
+    18.49350681533373
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -16637,16 +16645,21 @@
  },
  "hamdan bin mohammed visits emirates flight catering commends its role in advancing dubai s aviation ecosystem": {
   "fails": 1,
-  "last_short": "2026-10-26",
+  "last_short": "2026-11-26",
   "long": "2026-10-09",
   "montage_exhausted": true,
-  "montage_used": 2,
+  "montage_used": 3,
   "photo_short": true,
   "post_photos": [
    0,
    3
   ],
-  "remix_ranges": [],
+  "remix_ranges": [
+   [
+    41.76113501567993,
+    43.47972583690346
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shorts_made": 1,
   "shot_ranges": [
@@ -17596,6 +17609,7 @@
   "last_short": "2026-10-07",
   "long": "2026-10-31",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-24",
   "shorts_made": 1,
@@ -17679,12 +17693,17 @@
   "long": "2026-10-09"
  },
  "hamdan celebrates al ahli s arabian gulf league winning": {
-  "last_short": "2026-11-14",
+  "last_short": "2026-11-26",
   "long": "2026-10-15",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "no_video_until": "2026-10-29",
-  "remix_ranges": [],
+  "remix_ranges": [
+   [
+    100.706877198243,
+    102.54995285146833
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shorts_made": 1,
   "shot_ranges": [
@@ -17720,7 +17739,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     53.68666666666667,
@@ -17729,6 +17748,10 @@
    [
     14.241341186682181,
     15.679007520495244
+   ],
+   [
+    3.4823777884915756,
+    4.911031900548145
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -19699,11 +19722,16 @@
   "video_len": 64
  },
  "khaled bin mohamed bin zayed hamdan bin mohammed bin rashid attend world governments summit 2025": {
-  "last_short": "2026-11-13",
+  "last_short": "2026-11-26",
   "long": "2026-10-25",
   "montage_exhausted": true,
-  "montage_used": 4,
-  "remix_ranges": [],
+  "montage_used": 5,
+  "remix_ranges": [
+   [
+    53.897569389444286,
+    56.26664561917447
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shorts_made": 1,
   "shot_ranges": [
@@ -20027,11 +20055,16 @@
   "video_len": 251
  },
  "mohammed bin rashid commends the dubai executive council s efforts over the past 15 years": {
-  "last_short": "2026-11-17",
+  "last_short": "2026-11-26",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 12,
-  "remix_ranges": [],
+  "montage_used": 13,
+  "remix_ranges": [
+   [
+    78.74593542258368,
+    79.24735935926994
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shorts_made": 1,
   "shot_ranges": [
@@ -20080,11 +20113,16 @@
   "video_exhausted": true
  },
  "partnership between community government the foundation of enhancing government services hamdan bin mohammed": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 8,
-  "remix_ranges": [],
+  "montage_used": 9,
+  "remix_ranges": [
+   [
+    65.4802155931682,
+    67.33914290882277
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shot_ranges": [
    [

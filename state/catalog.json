@@ -10090,6 +10090,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 23,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     1.929348642583168,
@@ -10649,7 +10650,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 30,
+  "montage_used": 31,
   "remix_ranges": [
    [
     17.44,
@@ -10690,6 +10691,10 @@
    [
     145.33451328802875,
     147.25473410818668
+   ],
+   [
+    11.9404035635055,
+    13.800111127321685
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11985,7 +11990,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2018": {
   "last_short": "2026-11-26",
-  "montage_used": 40,
+  "montage_used": 41,
   "remix_ranges": [
    [
     317.08,
@@ -12026,6 +12031,10 @@
    [
     169.77815157333075,
     171.6125450608364
+   ],
+   [
+    114.91615926121244,
+    116.55080946749159
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -15605,7 +15614,7 @@
  },
  "hamdan bin mohammed visits department of economic development": {
   "last_short": "2026-11-26",
-  "montage_used": 29,
+  "montage_used": 30,
   "remix_ranges": [
    [
     162.32,
@@ -15650,6 +15659,10 @@
    [
     99.3244227656031,
     100.72983335641545
+   ],
+   [
+    103.64293648833312,
+    105.7053860542997
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -16800,11 +16813,15 @@
   "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     26.20537822515171,
     28.159770275689798
+   ],
+   [
+    32.83366357926175,
+    34.538837455771024
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17117,11 +17134,16 @@
   "video_len": 203
  },
  "hamdan bin mohammed visits public prosecution": {
-  "last_short": "2026-11-02",
+  "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 11,
-  "remix_ranges": [],
+  "montage_used": 12,
+  "remix_ranges": [
+   [
+    199.87463990640111,
+    202.35611925036216
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shorts_made": 2,
   "shot_ranges": [
@@ -17718,12 +17740,16 @@
   "last_short": "2026-11-26",
   "long": "2026-10-15",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "no_video_until": "2026-10-29",
   "remix_ranges": [
    [
     100.706877198243,
     102.54995285146833
+   ],
+   [
+    0.7453260625674265,
+    2.6691729051910285
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17801,6 +17827,7 @@
  "hamdan chairs dubai executive council meeting": {
   "long": "2026-10-30",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-24",
   "video_exhausted": true,
@@ -17929,11 +17956,16 @@
   "long": "2026-10-22"
  },
  "hamdan inspects al bayt studio": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 15,
-  "remix_ranges": [],
+  "montage_used": 16,
+  "remix_ranges": [
+   [
+    110.1996762974453,
+    112.15861019819243
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shot_ranges": [
    [
@@ -19821,6 +19853,7 @@
   "long": "2026-10-27",
   "montage_exhausted": true,
   "montage_used": 2,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     38.13682519530621,
@@ -20177,10 +20210,15 @@
   "video_len": 208
  },
  "president of uzbekistan meets with hamdan bin mohammed in tashkent": {
-  "last_short": "2026-10-29",
+  "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 3,
-  "remix_ranges": [],
+  "montage_used": 4,
+  "remix_ranges": [
+   [
+    7.84,
+    9.840000000000002
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shorts_made": 1,
   "shot_ranges": [

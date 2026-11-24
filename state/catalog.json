@@ -2533,7 +2533,7 @@
  "hamdan bin mohammed approves dff s three year strategic plan": {
   "last_short": "2026-11-27",
   "montage_exhausted": true,
-  "montage_used": 38,
+  "montage_used": 39,
   "remix_ranges": [
    [
     132.68279953235296,
@@ -2602,6 +2602,10 @@
    [
     220.88,
     222.72
+   ],
+   [
+    36.5278589246426,
+    38.50996132099965
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -17232,7 +17236,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     199.87463990640111,
@@ -17245,6 +17249,10 @@
    [
     95.06905887691005,
     97.07636106101394
+   ],
+   [
+    84.75248839033831,
+    86.65865947251788
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17360,7 +17368,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 25,
+  "montage_used": 26,
   "remix_ranges": [
    [
     50.922691941964224,
@@ -17369,6 +17377,10 @@
    [
     76.96444240399752,
     78.74691692146556
+   ],
+   [
+    237.8725656944754,
+    239.5156759419
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17512,11 +17524,15 @@
   "last_short": "2026-11-27",
   "long": "2026-10-23",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     81.75333333333334,
     83.44666666666666
+   ],
+   [
+    9.718807505300221,
+    11.415820495733138
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -18092,6 +18108,7 @@
   "long": "2026-10-24",
   "montage_exhausted": true,
   "montage_used": 3,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     280.8083864971979,
@@ -18328,11 +18345,16 @@
   "video_len": 71
  },
  "hamdan rename hbmeu to become hamdan bin mohammed smart university": {
-  "last_short": "2026-11-05",
+  "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 3,
-  "remix_ranges": [],
+  "montage_used": 4,
+  "remix_ranges": [
+   [
+    143.27093454843558,
+    144.68700549035472
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shot_ranges": [
    [
@@ -20132,14 +20154,18 @@
   "long": "2026-10-23"
  },
  "khalifasat launches successfully into orbit emphasising uae s leadership in developing satellites": {
-  "last_short": "2026-11-26",
+  "last_short": "2026-11-27",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     69.8570571289648,
     71.78250736150245
+   ],
+   [
+    14.939664891596907,
+    17.032860143943164
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -20248,11 +20274,15 @@
   "last_short": "2026-11-27",
   "long": "2026-10-23",
   "montage_exhausted": true,
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     78.87154734244551,
     80.94984018950841
+   ],
+   [
+    239.34564952025679,
+    241.45480159927635
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -20575,11 +20605,15 @@
   "last_short": "2026-11-27",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     45.601505429795935,
     47.8342088939509
+   ],
+   [
+    85.79004694116992,
+    87.11323195149082
    ]
   ],
   "remix_reset": "2026-11-24",

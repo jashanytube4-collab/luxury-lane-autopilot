@@ -12121,9 +12121,9 @@
   "video_len": 375
  },
  "hamdan bin mohammed opens crime prevention international conference": {
-  "last_short": "2026-11-26",
+  "last_short": "2026-11-27",
   "montage_exhausted": true,
-  "montage_used": 31,
+  "montage_used": 32,
   "remix_ranges": [
    [
     20.13502281199993,
@@ -12168,6 +12168,10 @@
    [
     118.17127142621722,
     120.04992511210622
+   ],
+   [
+    51.08442258657767,
+    52.97129252868342
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -15709,9 +15713,9 @@
   "video_len": 206
  },
  "hamdan bin mohammed visits dewa s moro": {
-  "last_short": "2026-11-26",
+  "last_short": "2026-11-27",
   "long": "2026-11-01",
-  "montage_used": 48,
+  "montage_used": 49,
   "remix_ranges": [
    [
     85.28,
@@ -15768,6 +15772,10 @@
    [
     15.973254883910178,
     18.49350681533373
+   ],
+   [
+    278.6831648097664,
+    280.41378166216094
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -17232,11 +17240,16 @@
   "no_hamdan": true
  },
  "hamdan bin mohammed visits smart dubai office launches dubai paperless strategy": {
-  "last_short": "2026-11-04",
+  "last_short": "2026-11-27",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 7,
-  "remix_ranges": [],
+  "montage_used": 8,
+  "remix_ranges": [
+   [
+    29.819963987224874,
+    32.3923073775781
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shorts_made": 1,
   "shot_ranges": [
@@ -17265,11 +17278,16 @@
   "video_len": 137
  },
  "hamdan bin mohammed visits stands of government entities at gitex2019": {
-  "last_short": "2026-11-18",
+  "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 23,
-  "remix_ranges": [],
+  "montage_used": 24,
+  "remix_ranges": [
+   [
+    50.922691941964224,
+    52.73992346471919
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shorts_made": 2,
   "shot_ranges": [
@@ -17728,11 +17746,16 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed witnesses the first test flight": {
-  "last_short": "2026-11-19",
+  "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 14,
-  "remix_ranges": [],
+  "montage_used": 15,
+  "remix_ranges": [
+   [
+    57.205735740088784,
+    59.4766856258753
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shot_ranges": [
    [
@@ -18131,11 +18154,16 @@
   "video_len": 44
  },
  "hamdan receives unesco expert": {
-  "last_short": "2026-11-17",
+  "last_short": "2026-11-27",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "no_video_until": "2026-11-01",
-  "remix_ranges": [],
+  "remix_ranges": [
+   [
+    61.79522244364664,
+    63.672830095294984
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shot_ranges": [
    [
@@ -18214,14 +18242,18 @@
   "video_len": 202
  },
  "hamdan visits government think tank": {
-  "last_short": "2026-11-26",
+  "last_short": "2026-11-27",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     139.38666666666668,
     141.78
+   ],
+   [
+    28.52779968534312,
+    30.725833257415538
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -18256,6 +18288,7 @@
  "hamdan witnesses launch of strategic plan to develop islamic economy sector": {
   "long": "2026-10-30",
   "montage_exhausted": true,
+  "remix_exhausted": true,
   "remix_ranges": [],
   "remix_reset": "2026-11-24",
   "video_exhausted": true,
@@ -19769,11 +19802,16 @@
   "video_len": 51
  },
  "international space station mission carrying first emirati astronaut launched successfully": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-11-27",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 9,
-  "remix_ranges": [],
+  "montage_used": 10,
+  "remix_ranges": [
+   [
+    144.3761125690069,
+    145.98245975189116
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shorts_made": 3,
   "shot_ranges": [

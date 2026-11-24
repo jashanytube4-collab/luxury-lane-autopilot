@@ -1,0 +1,176 @@
+{
+ "date": "2026-11-27",
+ "slots": [
+  {
+   "at": "2026-11-27T06:22:03+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-27T07:14:43+04:00",
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Kindness is his quiet superpower. ❤️ #princehamdan #youtubeshorts #youtube",
+   "type": "short",
+   "video_id": "Vgq01E7mhdo",
+   "voiced": true
+  },
+  {
+   "at": "2026-11-27T08:05:12+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-27T08:49:39+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-27T09:39:41+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-27T10:29:41+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-27T11:17:34+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-27T11:56:40+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-27T12:35:34+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-27T13:28:25+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-27T14:20:45+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-27T15:10:55+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-27T15:59:46+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-27T16:48:36+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-27T17:31:16+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-27T18:19:04+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-27T18:57:44+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-27T19:24:49+04:00",
+   "status": "open",
+   "type": "long"
+  },
+  {
+   "at": "2026-11-27T19:46:34+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-27T20:34:44+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-27T21:00:00+04:00",
+   "status": "open",
+   "type": "members"
+  },
+  {
+   "at": "2026-11-27T21:23:16+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-27T22:02:58+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-27T22:51:03+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-27T23:39:41+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-28T00:32:36+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-28T01:23:48+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-28T02:11:09+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-28T02:58:57+04:00",
+   "status": "open",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-28T03:41:50+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-28T04:27:39+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-28T05:05:47+04:00",
+   "status": "skipped",
+   "type": "short"
+  },
+  {
+   "at": "2026-11-28T05:52:03+04:00",
+   "status": "open",
+   "type": "short"
+  }
+ ],
+ "timezone": "Asia/Dubai"
+}

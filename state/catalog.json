@@ -3279,10 +3279,10 @@
   "video_len": 65
  },
  "hamdan bin mohammed attends closing ceremony of 3rd dubai future accelerators program": {
-  "last_short": "2026-11-26",
+  "last_short": "2026-11-27",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 44,
+  "montage_used": 45,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -3332,6 +3332,10 @@
    [
     189.36,
     191.0
+   ],
+   [
+    218.8023858528205,
+    220.32549900026913
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13928,9 +13932,9 @@
   "video_len": 68
  },
  "hamdan bin mohammed reviews the latest technologies and energy solutions at wetex 2019": {
-  "last_short": "2026-11-26",
+  "last_short": "2026-11-27",
   "montage_exhausted": true,
-  "montage_used": 24,
+  "montage_used": 25,
   "remix_ranges": [
    [
     200.37999249206516,
@@ -13963,6 +13967,10 @@
    [
     89.72538628360495,
     92.0789524051078
+   ],
+   [
+    24.13534183216461,
+    25.735810845173226
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -15615,6 +15623,7 @@
  "hamdan bin mohammed visits department of economic development": {
   "last_short": "2026-11-26",
   "montage_used": 30,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     162.32,
@@ -16332,6 +16341,9 @@
  },
  "hamdan bin mohammed visits dubai customs emphasises sustained efforts to reinforce dubai s status as a global trade hub": {
   "no_hamdan": true
+ },
+ "hamdan bin mohammed visits dubai founders hq and reviews its first year achievements": {
+  "video_exhausted": true
  },
  "hamdan bin mohammed visits dubai government hr department": {
   "last_short": "2026-11-26",
@@ -17189,11 +17201,16 @@
  },
  "hamdan bin mohammed visits reserve forces command in abu dhabi": {
   "fails": 1,
-  "last_short": "2026-10-25",
+  "last_short": "2026-11-27",
   "long": "2026-10-23",
   "montage_exhausted": true,
-  "montage_used": 1,
-  "remix_ranges": [],
+  "montage_used": 2,
+  "remix_ranges": [
+   [
+    20.880000000000003,
+    22.68
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "video_exhausted": true,
   "video_len": 33
@@ -18156,6 +18173,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 3,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     88.60551212573573,
@@ -19650,11 +19668,16 @@
   "video_exhausted": true
  },
  "in presence of dubai crown prince meraas signs agreement with dubai municipality to manage dubai safari": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 11,
-  "remix_ranges": [],
+  "montage_used": 12,
+  "remix_ranges": [
+   [
+    32.730025117484985,
+    34.83100097029454
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shot_ranges": [
    [
@@ -20022,10 +20045,10 @@
   "video_len": 287
  },
  "mohamed bin zayed offers condolences to hamdan bin mohammed on mansour bin ahmed al thani": {
-  "last_short": "2026-11-26",
+  "last_short": "2026-11-27",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     132.50736655374286,
@@ -20034,6 +20057,10 @@
    [
     165.4256073216541,
     167.1293794920154
+   ],
+   [
+    56.31298259575146,
+    57.950722780180826
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -20098,11 +20125,16 @@
   "video_len": 85
  },
  "mohammed bin rashid attends al marmoum heritage festival closing races": {
-  "last_short": "2026-10-30",
+  "last_short": "2026-11-27",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 2,
-  "remix_ranges": [],
+  "montage_used": 3,
+  "remix_ranges": [
+   [
+    192.44850184350665,
+    193.98126925820384
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shorts_made": 1,
   "shot_ranges": [
@@ -20210,13 +20242,17 @@
   "video_len": 208
  },
  "president of uzbekistan meets with hamdan bin mohammed in tashkent": {
-  "last_short": "2026-11-26",
+  "last_short": "2026-11-27",
   "montage_exhausted": true,
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     7.84,
     9.840000000000002
+   ],
+   [
+    34.75440900800921,
+    36.6839725282184
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -20320,11 +20356,16 @@
   "video_len": 120
  },
  "rulers of ajman fujairah and ras al khaimah offer condolences to sheikh hamdan on mansour bin ahmed": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-27",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 15,
-  "remix_ranges": [],
+  "montage_used": 16,
+  "remix_ranges": [
+   [
+    234.30383566880639,
+    235.7154095926303
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shorts_made": 3,
   "shot_ranges": [

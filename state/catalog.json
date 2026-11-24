@@ -2533,7 +2533,7 @@
  "hamdan bin mohammed approves dff s three year strategic plan": {
   "last_short": "2026-11-27",
   "montage_exhausted": true,
-  "montage_used": 39,
+  "montage_used": 40,
   "remix_ranges": [
    [
     132.68279953235296,
@@ -2606,6 +2606,10 @@
    [
     36.5278589246426,
     38.50996132099965
+   ],
+   [
+    238.2699556928293,
+    239.86347330918687
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11692,7 +11696,7 @@
   "last_short": "2026-11-27",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 47,
+  "montage_used": 48,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -11754,6 +11758,10 @@
    [
     204.68,
     206.68
+   ],
+   [
+    251.87890215174897,
+    253.64033622789316
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11883,6 +11891,7 @@
   "montage_exhausted": true,
   "montage_used": 58,
   "no_video_until": "2026-11-18",
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     188.56,
@@ -12179,7 +12188,7 @@
  "hamdan bin mohammed opens crime prevention international conference": {
   "last_short": "2026-11-27",
   "montage_exhausted": true,
-  "montage_used": 33,
+  "montage_used": 34,
   "remix_ranges": [
    [
     20.13502281199993,
@@ -12232,6 +12241,10 @@
    [
     127.16939333589293,
     128.82352329983743
+   ],
+   [
+    68.40215887229925,
+    70.23872342603688
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14010,7 +14023,7 @@
  "hamdan bin mohammed reviews the latest technologies and energy solutions at wetex 2019": {
   "last_short": "2026-11-27",
   "montage_exhausted": true,
-  "montage_used": 26,
+  "montage_used": 27,
   "remix_ranges": [
    [
     200.37999249206516,
@@ -14051,6 +14064,10 @@
    [
     300.08216043625526,
     302.5451695235888
+   ],
+   [
+    159.11411119945055,
+    161.47429769881265
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -17166,11 +17183,15 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     48.187120302427445,
     50.1487556754545
+   ],
+   [
+    69.09182288223279,
+    70.72566953997884
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17768,6 +17789,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 6,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     5.742968240043965,
@@ -18259,7 +18281,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     110.1996762974453,
@@ -18272,6 +18294,10 @@
    [
     19.72413106841536,
     22.167951192187694
+   ],
+   [
+    141.2085191270063,
+    142.00789231973283
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -18467,11 +18493,15 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 5,
+  "montage_used": 6,
   "remix_ranges": [
    [
     43.41878213863964,
     45.116930971659265
+   ],
+   [
+    33.8599961443511,
+    36.06008805936069
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -20099,7 +20129,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 11,
+  "montage_used": 12,
   "remix_ranges": [
    [
     144.3761125690069,
@@ -20108,6 +20138,10 @@
    [
     192.74270881625554,
     194.40451393734466
+   ],
+   [
+    80.66926088476636,
+    82.47424637368272
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -20910,6 +20944,7 @@
   "long": "2026-10-28",
   "montage_exhausted": true,
   "montage_used": 8,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     73.04234616033636,

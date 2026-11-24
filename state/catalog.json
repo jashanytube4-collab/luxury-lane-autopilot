@@ -8287,10 +8287,10 @@
   "video_len": 227
  },
  "hamdan bin mohammed inspects rta s autonomous mobility and ai projects": {
-  "last_short": "2026-11-26",
+  "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 33,
+  "montage_used": 34,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -8336,6 +8336,10 @@
    [
     147.55961748090104,
     149.46641460964327
+   ],
+   [
+    283.52,
+    285.32
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12544,10 +12548,10 @@
   "video_len": 119
  },
  "hamdan bin mohammed opens salem medical fitness smart centre": {
-  "last_short": "2026-11-26",
+  "last_short": "2026-11-27",
   "long": "2026-10-18",
   "montage_exhausted": true,
-  "montage_used": 40,
+  "montage_used": 41,
   "remix_ranges": [
    [
     44.48273041474908,
@@ -12604,6 +12608,10 @@
    [
     9.134939438150607,
     11.534547337206735
+   ],
+   [
+    54.24113215025137,
+    56.61925651166481
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -17258,7 +17266,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     199.87463990640111,
@@ -17275,6 +17283,10 @@
    [
     84.75248839033831,
     86.65865947251788
+   ],
+   [
+    303.2957119759904,
+    305.6178112852328
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17642,11 +17654,15 @@
   "last_short": "2026-11-27",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 3,
+  "montage_used": 4,
   "remix_ranges": [
    [
     56.030336363641794,
     58.301813042372316
+   ],
+   [
+    47.82,
+    49.68
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17956,7 +17972,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-15",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "no_video_until": "2026-10-29",
   "remix_ranges": [
    [
@@ -17974,6 +17990,10 @@
    [
     71.3776610846937,
     73.73178257308764
+   ],
+   [
+    47.59721055005748,
+    49.28417650155288
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -18012,6 +18032,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 14,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     53.68666666666667,
@@ -19959,7 +19980,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     32.730025117484985,
@@ -19972,6 +19993,10 @@
    [
     5.862117585354176,
     7.300082551970366
+   ],
+   [
+    0.26960989642036143,
+    2.5417185153495745
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -20436,11 +20461,15 @@
   "last_short": "2026-11-27",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     75.64999329299475,
     77.81800983671904
+   ],
+   [
+    14.454404758035048,
+    15.947915557838328
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -20475,6 +20504,7 @@
   "long": "2026-10-28",
   "montage_exhausted": true,
   "montage_used": 4,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     192.44850184350665,

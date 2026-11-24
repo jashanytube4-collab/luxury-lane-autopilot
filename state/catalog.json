@@ -2534,6 +2534,7 @@
   "last_short": "2026-11-27",
   "montage_exhausted": true,
   "montage_used": 40,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     132.68279953235296,
@@ -3294,7 +3295,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 49,
+  "montage_used": 50,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -3364,6 +3365,10 @@
    [
     60.82192825067227,
     62.68220156363335
+   ],
+   [
+    266.2105577726278,
+    268.2372832848395
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -4541,7 +4546,7 @@
  "hamdan bin mohammed attends hct graduation": {
   "last_short": "2026-11-27",
   "long": "2026-10-31",
-  "montage_used": 57,
+  "montage_used": 58,
   "remix_ranges": [
    [
     219.49568300016466,
@@ -4614,6 +4619,10 @@
    [
     278.76210924038725,
     281.1229057738348
+   ],
+   [
+    137.08,
+    138.76
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -16936,7 +16945,7 @@
   "last_short": "2026-11-27",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     33.71721156620963,
@@ -16953,6 +16962,10 @@
    [
     63.4141491977551,
     65.79235000468623
+   ],
+   [
+    201.61055201931637,
+    203.33996615427256
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17337,7 +17350,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     48.187120302427445,
@@ -17354,6 +17367,10 @@
    [
     18.337958066402333,
     20.234545725934993
+   ],
+   [
+    99.64,
+    101.64
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17731,7 +17748,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 23,
+  "montage_used": 24,
   "remix_ranges": [
    [
     16.96,
@@ -17752,6 +17769,10 @@
    [
     69.26077982771265,
     70.94934984934089
+   ],
+   [
+    98.59302864437063,
+    100.49620681853443
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -18044,7 +18065,7 @@
  "hamdan bin mohammed watches the historic launch of zayed ambition 2": {
   "last_short": "2026-11-27",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     76.22986111613152,
@@ -18057,6 +18078,10 @@
    [
     30.151343005931672,
     32.57250079745116
+   ],
+   [
+    39.076406022569,
+    41.157972151110506
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -18768,7 +18793,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "remix_ranges": [
    [
     43.41878213863964,
@@ -18777,6 +18802,10 @@
    [
     33.8599961443511,
     36.06008805936069
+   ],
+   [
+    51.61814817354697,
+    53.07292537549493
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -20662,6 +20691,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 8,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     60.936714941637085,
@@ -21077,7 +21107,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     45.601505429795935,
@@ -21098,6 +21128,10 @@
    [
     62.9468970743654,
     64.69706310705222
+   ],
+   [
+    51.82643996573649,
+    53.530778813915354
    ]
   ],
   "remix_reset": "2026-11-24",

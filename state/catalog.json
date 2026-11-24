@@ -4546,7 +4546,7 @@
  "hamdan bin mohammed attends hct graduation": {
   "last_short": "2026-11-27",
   "long": "2026-10-31",
-  "montage_used": 58,
+  "montage_used": 59,
   "remix_ranges": [
    [
     219.49568300016466,
@@ -4623,6 +4623,10 @@
    [
     137.08,
     138.76
+   ],
+   [
+    241.86129117654036,
+    244.27094957972145
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9816,7 +9820,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-17",
   "montage_exhausted": true,
-  "montage_used": 53,
+  "montage_used": 54,
   "remix_ranges": [
    [
     202.24325973382153,
@@ -9889,6 +9893,10 @@
    [
     132.81998456539668,
     134.59675166004007
+   ],
+   [
+    268.7307863536655,
+    270.99184574391046
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -10745,6 +10753,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 33,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     17.44,
@@ -12263,6 +12272,7 @@
   "last_short": "2026-11-27",
   "montage_exhausted": true,
   "montage_used": 35,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     20.13502281199993,
@@ -16570,7 +16580,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 19,
+  "montage_used": 20,
   "no_video_until": "2026-11-24",
   "remix_ranges": [
    [
@@ -16596,6 +16606,10 @@
    [
     17.288639975705717,
     18.977861694787325
+   ],
+   [
+    92.88494846512833,
+    95.39148513521188
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -17047,7 +17061,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     193.56071348002405,
@@ -17060,6 +17074,10 @@
    [
     8.187256591164097,
     10.031263876105207
+   ],
+   [
+    15.675858712933646,
+    17.62414919035456
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17186,7 +17204,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     149.87405594592894,
@@ -17199,6 +17217,10 @@
    [
     21.07901459970575,
     22.660380924061865
+   ],
+   [
+    270.80100423650384,
+    271.8043611902226
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17606,6 +17628,7 @@
   "long": "2026-10-30",
   "montage_exhausted": true,
   "montage_used": 13,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     29.819963987224874,
@@ -17765,7 +17788,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 24,
+  "montage_used": 25,
   "remix_ranges": [
    [
     16.96,
@@ -17790,6 +17813,10 @@
    [
     98.59302864437063,
     100.49620681853443
+   ],
+   [
+    3.8292825107250597,
+    5.713713949409132
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -18875,7 +18902,7 @@
   "last_short": "2026-11-27",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     139.38666666666668,
@@ -18896,6 +18923,10 @@
    [
     172.32,
     174.07999999999998
+   ],
+   [
+    133.22,
+    135.34666666666666
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -21508,6 +21539,7 @@
   "long": "2026-10-28",
   "montage_exhausted": true,
   "montage_used": 8,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     22.886487305185618,

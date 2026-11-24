@@ -10089,7 +10089,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 22,
+  "montage_used": 23,
   "remix_ranges": [
    [
     1.929348642583168,
@@ -10130,6 +10130,10 @@
    [
     93.34280413858443,
     95.13961885878808
+   ],
+   [
+    111.08864370850881,
+    113.15889111643912
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12275,7 +12279,7 @@
   "last_short": "2026-11-26",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 50,
+  "montage_used": 51,
   "remix_ranges": [
    [
     332.64461795604365,
@@ -12352,6 +12356,10 @@
    [
     388.6,
     390.28
+   ],
+   [
+    508.2020540595094,
+    509.95472454499605
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -13913,7 +13921,7 @@
  "hamdan bin mohammed reviews the latest technologies and energy solutions at wetex 2019": {
   "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 23,
+  "montage_used": 24,
   "remix_ranges": [
    [
     200.37999249206516,
@@ -13942,6 +13950,10 @@
    [
     144.23795075234915,
     146.72046649394792
+   ],
+   [
+    89.72538628360495,
+    92.0789524051078
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -16966,11 +16978,16 @@
   "video_len": 57
  },
  "hamdan bin mohammed visits knowledge and human development authority": {
-  "last_short": "2026-11-23",
+  "last_short": "2026-11-26",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 13,
-  "remix_ranges": [],
+  "montage_used": 14,
+  "remix_ranges": [
+   [
+    45.96,
+    48.2
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shot_ranges": [
    [
@@ -17269,11 +17286,16 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits the dubai future foundation headquarters and reviews 10x projects": {
-  "last_short": "2026-11-20",
+  "last_short": "2026-11-26",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 18,
-  "remix_ranges": [],
+  "montage_used": 19,
+  "remix_ranges": [
+   [
+    16.96,
+    19.32
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shorts_made": 1,
   "shot_ranges": [
@@ -17787,11 +17809,15 @@
  "hamdan chairs expo 2020 higher committee s first session": {
   "last_short": "2026-11-26",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     12.382730805497342,
     14.174934009608808
+   ],
+   [
+    61.262632452874485,
+    63.07027754207185
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17976,12 +18002,17 @@
   "long": "2026-10-17"
  },
  "hamdan officially opens 19th edition of dubai world cup": {
-  "last_short": "2026-11-03",
+  "last_short": "2026-11-26",
   "long": "2026-10-12",
   "montage_exhausted": true,
-  "montage_used": 4,
+  "montage_used": 5,
   "no_video_until": "2026-11-02",
-  "remix_ranges": [],
+  "remix_ranges": [
+   [
+    57.89966282387156,
+    59.706372786313935
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shorts_made": 1,
   "shot_ranges": [

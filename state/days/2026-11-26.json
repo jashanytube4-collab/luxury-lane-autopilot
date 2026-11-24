@@ -230,8 +230,13 @@
   },
   {
    "at": "2026-11-26T23:10:23+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Not just a title. A responsibility he carries with pride. ✨ #fazza #youtubeshorts #youtube",
+   "type": "short",
+   "video_id": "KapiDkfuD68",
+   "voiced": true
   },
   {
    "at": "2026-11-26T23:53:20+04:00",

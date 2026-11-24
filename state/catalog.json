@@ -10674,7 +10674,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 32,
+  "montage_used": 33,
   "remix_ranges": [
    [
     17.44,
@@ -10723,6 +10723,10 @@
    [
     87.05591447346914,
     89.33438317327999
+   ],
+   [
+    161.602002685174,
+    163.48849814973636
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -17139,11 +17143,16 @@
   "video_len": 275
  },
  "hamdan bin mohammed visits linkedin s regional headquarters in dubai": {
-  "last_short": "2026-11-01",
+  "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 9,
-  "remix_ranges": [],
+  "montage_used": 10,
+  "remix_ranges": [
+   [
+    48.187120302427445,
+    50.1487556754545
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shorts_made": 2,
   "shot_ranges": [
@@ -17335,7 +17344,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 10,
+  "montage_used": 11,
   "remix_ranges": [
    [
     29.819963987224874,
@@ -17348,6 +17357,10 @@
    [
     41.21714260608871,
     42.269356180983365
+   ],
+   [
+    79.91601575402295,
+    81.79701613023741
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17626,11 +17639,16 @@
   "video_len": 57
  },
  "hamdan bin mohammed visits thukhor social club for senior citizens": {
-  "last_short": "2026-10-27",
+  "last_short": "2026-11-27",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 2,
-  "remix_ranges": [],
+  "montage_used": 3,
+  "remix_ranges": [
+   [
+    56.030336363641794,
+    58.301813042372316
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shorts_made": 1,
   "shot_ranges": [
@@ -17993,7 +18011,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     53.68666666666667,
@@ -18010,6 +18028,10 @@
    [
     35.13181776293394,
     37.33774326929066
+   ],
+   [
+    59.93907105608478,
+    61.350279454574036
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -18090,12 +18112,17 @@
   "long": "2026-10-13"
  },
  "hamdan dubai s a global center for sukuk listing": {
-  "last_short": "2026-11-05",
+  "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 6,
+  "montage_used": 7,
   "no_video_until": "2026-10-29",
-  "remix_ranges": [],
+  "remix_ranges": [
+   [
+    85.62,
+    87.67999999999999
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shot_ranges": [
    [
@@ -18442,7 +18469,7 @@
   "last_short": "2026-11-27",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     139.38666666666668,
@@ -18455,6 +18482,10 @@
    [
     19.713322451825004,
     21.999076256553373
+   ],
+   [
+    187.739509163543,
+    189.15519701551915
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -20091,6 +20122,7 @@
   "long": "2026-10-25",
   "montage_exhausted": true,
   "montage_used": 7,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     53.897569389444286,
@@ -20349,7 +20381,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 8,
+  "montage_used": 9,
   "remix_ranges": [
    [
     132.50736655374286,
@@ -20366,6 +20398,10 @@
    [
     154.20000000000002,
     155.88
+   ],
+   [
+    128.2693953019706,
+    130.48811527406755
    ]
   ],
   "remix_reset": "2026-11-24",

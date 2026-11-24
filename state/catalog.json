@@ -4537,7 +4537,7 @@
  "hamdan bin mohammed attends hct graduation": {
   "last_short": "2026-11-27",
   "long": "2026-10-31",
-  "montage_used": 56,
+  "montage_used": 57,
   "remix_ranges": [
    [
     219.49568300016466,
@@ -4606,6 +4606,10 @@
    [
     236.76519120995872,
     239.33760868166155
+   ],
+   [
+    278.76210924038725,
+    281.1229057738348
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9794,7 +9798,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-17",
   "montage_exhausted": true,
-  "montage_used": 50,
+  "montage_used": 51,
   "remix_ranges": [
    [
     202.24325973382153,
@@ -9855,6 +9859,10 @@
    [
     213.96902703420196,
     216.34311314420006
+   ],
+   [
+    7.79848425942746,
+    9.792581688344619
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -15079,7 +15087,7 @@
  "hamdan bin mohammed unveils 5 star plaques at three customer happiness centres in dubai": {
   "last_short": "2026-11-27",
   "montage_exhausted": true,
-  "montage_used": 35,
+  "montage_used": 36,
   "remix_ranges": [
    [
     140.09584732465112,
@@ -15128,6 +15136,10 @@
    [
     241.97617292835076,
     243.52840513671183
+   ],
+   [
+    147.95505884205062,
+    149.4925736861415
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -15877,7 +15889,7 @@
  "hamdan bin mohammed visits dewa s moro": {
   "last_short": "2026-11-27",
   "long": "2026-11-01",
-  "montage_used": 50,
+  "montage_used": 51,
   "remix_ranges": [
    [
     85.28,
@@ -15942,6 +15954,10 @@
    [
     328.25140482544225,
     329.7831721751713
+   ],
+   [
+    43.63717417248821,
+    45.43878780414489
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -17035,6 +17051,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 7,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     26.20537822515171,
@@ -17126,7 +17143,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     149.87405594592894,
@@ -17135,6 +17152,10 @@
    [
     180.90758695795085,
     183.315626694908
+   ],
+   [
+    21.07901459970575,
+    22.660380924061865
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -18465,7 +18486,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 21,
+  "montage_used": 22,
   "remix_ranges": [
    [
     110.1996762974453,
@@ -18490,6 +18511,10 @@
    [
     62.18666666666667,
     64.38
+   ],
+   [
+    98.49506145027411,
+    100.43350447097244
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -20820,7 +20845,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     78.74593542258368,
@@ -20829,6 +20854,10 @@
    [
     84.11800233630875,
     86.34142382217222
+   ],
+   [
+    115.24000000000001,
+    117.6
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -21056,7 +21085,7 @@
   "last_short": "2026-11-27",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     234.30383566880639,
@@ -21065,6 +21094,10 @@
    [
     88.60734405500361,
     90.69021609035795
+   ],
+   [
+    128.83576647434467,
+    130.5877154878215
    ]
   ],
   "remix_reset": "2026-11-24",

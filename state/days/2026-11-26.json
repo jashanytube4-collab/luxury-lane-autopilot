@@ -30,8 +30,13 @@
   },
   {
    "at": "2026-11-26T08:03:05+04:00",
-   "status": "skipped",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Fearless in the sky, gentle on the ground. ❤️ #youtubeshorts #youtube #fazza",
+   "type": "short",
+   "video_id": "DhoMKREzYrY",
+   "voiced": true
   },
   {
    "at": "2026-11-26T08:56:09+04:00",
@@ -75,12 +80,12 @@
   },
   {
    "at": "2026-11-26T12:08:06+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   },
   {
    "at": "2026-11-26T12:57:22+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   },
   {
@@ -105,7 +110,7 @@
   },
   {
    "at": "2026-11-26T15:17:17+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   },
   {
@@ -200,12 +205,12 @@
   },
   {
    "at": "2026-11-26T22:20:06+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   },
   {
    "at": "2026-11-26T23:10:23+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   },
   {
@@ -220,7 +225,7 @@
   },
   {
    "at": "2026-11-27T00:44:37+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   },
   {

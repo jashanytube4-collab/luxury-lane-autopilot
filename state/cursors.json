@@ -4,7 +4,7 @@
   "term:championship": "2026-11-03"
  },
  "ig_status": {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "ok": true
  },
  "lines_used": {
@@ -1194,7 +1194,14 @@
   "ll1db78ecf59",
   "lldc28dc3e8f",
   "ll2502b1104c",
-  "llea92129e6e"
+  "llea92129e6e",
+  "ll3445a383e8",
+  "ll730fe04d87",
+  "ll8881a268f8",
+  "ll8bed52073c",
+  "ll628148875a",
+  "ll8b88540ea2",
+  "ll3d4e7e4230"
  ],
  "quotes": [
   {
@@ -1717,9 +1724,9 @@
   "He leads, the city follows. ✨ #youtube #youtubeshorts"
  ],
  "shorts_supply": {
-  "date": "2026-11-24",
-  "days": 3.0,
-  "events": 94
+  "date": "2026-11-25",
+  "days": 3.1,
+  "events": 95
  },
  "stories_done": [
   "flydubai-hero",

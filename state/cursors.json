@@ -1725,8 +1725,8 @@
  ],
  "shorts_supply": {
   "date": "2026-11-25",
-  "days": 3.1,
-  "events": 95
+  "days": 3.0,
+  "events": 94
  },
  "stories_done": [
   "flydubai-hero",
@@ -1752,7 +1752,8 @@
   "r06-fazza-falcons",
   "r07-fazza-india",
   "dubai-run",
-  "r02-dubai-reef"
+  "r02-dubai-reef",
+  "city-ai"
  ],
  "topics_used": {
   "horseman": "2026-10-12",

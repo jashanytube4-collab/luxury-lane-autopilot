@@ -3295,7 +3295,7 @@
   "last_short": "2026-11-28",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 54,
+  "montage_used": 55,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -3385,6 +3385,10 @@
    [
     85.28199623200479,
     87.43220983733617
+   ],
+   [
+    306.412408192618,
+    308.6378203207098
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -9864,7 +9868,7 @@
   "last_short": "2026-11-28",
   "long": "2026-10-17",
   "montage_exhausted": true,
-  "montage_used": 55,
+  "montage_used": 56,
   "remix_ranges": [
    [
     202.24325973382153,
@@ -9945,6 +9949,10 @@
    [
     24.454815540941574,
     26.815035593547563
+   ],
+   [
+    42.39586662411651,
+    44.86338021556928
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12183,7 +12191,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2018": {
   "last_short": "2026-11-28",
-  "montage_used": 48,
+  "montage_used": 49,
   "remix_ranges": [
    [
     317.08,
@@ -12256,6 +12264,10 @@
    [
     36.267277509427835,
     38.25990627732903
+   ],
+   [
+    61.70793790427465,
+    63.15099060138557
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14199,6 +14211,7 @@
   "last_short": "2026-11-28",
   "montage_exhausted": true,
   "montage_used": 31,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     200.37999249206516,
@@ -15202,6 +15215,7 @@
   "last_short": "2026-11-28",
   "montage_exhausted": true,
   "montage_used": 38,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     140.09584732465112,
@@ -17078,7 +17092,7 @@
   "last_short": "2026-11-28",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     33.71721156620963,
@@ -17111,6 +17125,10 @@
    [
     220.6989219153585,
     222.62831835043582
+   ],
+   [
+    196.31924779707632,
+    197.99404874456857
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17626,6 +17644,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 26,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     64.01148561003217,
@@ -17872,7 +17891,7 @@
   "last_short": "2026-11-28",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 34,
+  "montage_used": 35,
   "remix_ranges": [
    [
     50.922691941964224,
@@ -17917,6 +17936,10 @@
    [
     25.374440551729634,
     27.175962109297398
+   ],
+   [
+    159.28,
+    161.0
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17990,7 +18013,7 @@
   "last_short": "2026-11-28",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 28,
+  "montage_used": 29,
   "remix_ranges": [
    [
     16.96,
@@ -18031,6 +18054,10 @@
    [
     82.82535915714652,
     85.30056372977118
+   ],
+   [
+    25.744793022960113,
+    27.652711662415946
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -20983,7 +21010,7 @@
   "last_short": "2026-11-28",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     69.8570571289648,
@@ -20996,6 +21023,10 @@
    [
     119.66758778566874,
     121.38506905488096
+   ],
+   [
+    6.994440920732764,
+    9.265588939854084
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -21314,6 +21345,7 @@
   "long": "2026-10-28",
   "montage_exhausted": true,
   "montage_used": 20,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     78.74593542258368,
@@ -21599,7 +21631,7 @@
   "last_short": "2026-11-28",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     234.30383566880639,
@@ -21620,6 +21652,10 @@
    [
     107.86487729373988,
     109.81920815026469
+   ],
+   [
+    244.60457961365933,
+    246.48473359093438
    ]
   ],
   "remix_reset": "2026-11-24",

@@ -8357,6 +8357,7 @@
   "montage_exhausted": true,
   "montage_used": 39,
   "no_video_until": "2026-11-18",
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     26.231332227013592,
@@ -12169,7 +12170,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2018": {
   "last_short": "2026-11-28",
-  "montage_used": 47,
+  "montage_used": 48,
   "remix_ranges": [
    [
     317.08,
@@ -12238,6 +12239,10 @@
    [
     133.58391854823168,
     135.05320307284214
+   ],
+   [
+    36.267277509427835,
+    38.25990627732903
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -17418,6 +17423,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 20,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     45.96,
@@ -17646,7 +17652,7 @@
   "last_short": "2026-11-28",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     199.87463990640111,
@@ -17683,6 +17689,10 @@
    [
     74.85680139582722,
     77.33743477607966
+   ],
+   [
+    65.28534405141396,
+    67.5045554808858
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17811,7 +17821,7 @@
   "last_short": "2026-11-28",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 33,
+  "montage_used": 34,
   "remix_ranges": [
    [
     50.922691941964224,
@@ -17852,6 +17862,10 @@
    [
     37.72771834091794,
     39.144389995445565
+   ],
+   [
+    25.374440551729634,
+    27.175962109297398
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -18015,7 +18029,7 @@
   "last_short": "2026-11-28",
   "long": "2026-10-23",
   "montage_exhausted": true,
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     81.75333333333334,
@@ -18040,6 +18054,10 @@
    [
     49.67925844388159,
     52.0254184827994
+   ],
+   [
+    38.96386336647581,
+    40.43162494044802
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -18415,7 +18433,7 @@
   "last_short": "2026-11-28",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     57.205735740088784,
@@ -18432,6 +18450,10 @@
    [
     77.7255646171627,
     79.39522257282876
+   ],
+   [
+    88.37143090804867,
+    90.5431623315128
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -18949,9 +18971,9 @@
   "video_len": 44
  },
  "hamdan receives unesco expert": {
-  "last_short": "2026-11-27",
+  "last_short": "2026-11-28",
   "montage_exhausted": true,
-  "montage_used": 12,
+  "montage_used": 13,
   "no_video_until": "2026-11-01",
   "remix_ranges": [
    [
@@ -18969,6 +18991,10 @@
    [
     64.92,
     66.54666666666667
+   ],
+   [
+    52.35333333333333,
+    54.18
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -19020,6 +19046,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 8,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     43.41878213863964,
@@ -20760,6 +20787,7 @@
   "long": "2026-10-27",
   "montage_exhausted": true,
   "montage_used": 5,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     44.161915550720344,
@@ -21207,7 +21235,7 @@
   "last_short": "2026-11-28",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 17,
+  "montage_used": 18,
   "remix_ranges": [
    [
     78.74593542258368,
@@ -21228,6 +21256,10 @@
    [
     108.16532845882006,
     110.12740479976641
+   ],
+   [
+    47.89757556273454,
+    49.30372328716592
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -21480,7 +21512,7 @@
   "last_short": "2026-11-28",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     234.30383566880639,
@@ -21497,6 +21529,10 @@
    [
     190.44,
     192.12
+   ],
+   [
+    107.86487729373988,
+    109.81920815026469
    ]
   ],
   "remix_reset": "2026-11-24",

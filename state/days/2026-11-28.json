@@ -138,8 +138,13 @@
   },
   {
    "at": "2026-11-28T18:28:50+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Every champion was once a dreamer. ❤️ #youtube #youtubeshorts",
+   "type": "short",
+   "video_id": "A7chrfvn6og",
+   "voiced": true
   },
   {
    "at": "2026-11-28T19:16:01+04:00",

@@ -12140,8 +12140,8 @@
   "video_len": 279
  },
  "hamdan bin mohammed opens cityscape global 2018": {
-  "last_short": "2026-11-27",
-  "montage_used": 45,
+  "last_short": "2026-11-28",
+  "montage_used": 46,
   "remix_ranges": [
    [
     317.08,
@@ -12202,6 +12202,10 @@
    [
     342.88,
     345.2
+   ],
+   [
+    337.3071194497527,
+    338.8654972274026
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12473,6 +12477,7 @@
   "long": "2026-10-14",
   "montage_exhausted": true,
   "montage_used": 55,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     332.64461795604365,
@@ -16992,10 +16997,10 @@
   "video_len": 58
  },
  "hamdan bin mohammed visits exhibition that tells story of uae s participation in world expos": {
-  "last_short": "2026-11-27",
+  "last_short": "2026-11-28",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     33.71721156620963,
@@ -17020,6 +17025,10 @@
    [
     155.21970686474606,
     157.51794630427534
+   ],
+   [
+    119.25377620155189,
+    121.51415655248556
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17089,10 +17098,10 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed visits gulfood 2018": {
-  "last_short": "2026-11-27",
+  "last_short": "2026-11-28",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 9,
+  "montage_used": 10,
   "remix_ranges": [
    [
     193.56071348002405,
@@ -17109,6 +17118,10 @@
    [
     15.675858712933646,
     17.62414919035456
+   ],
+   [
+    22.906110105736236,
+    23.895734273847392
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17232,10 +17245,10 @@
   "video_len": 172
  },
  "hamdan bin mohammed visits innovation labs 2018": {
-  "last_short": "2026-11-27",
+  "last_short": "2026-11-28",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     149.87405594592894,
@@ -17252,6 +17265,10 @@
    [
     270.80100423650384,
     271.8043611902226
+   ],
+   [
+    320.787138512049,
+    322.39287719994485
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -18769,6 +18786,7 @@
   "montage_exhausted": true,
   "montage_used": 7,
   "no_video_until": "2026-11-02",
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     57.89966282387156,
@@ -18877,14 +18895,18 @@
   "video_len": 71
  },
  "hamdan rename hbmeu to become hamdan bin mohammed smart university": {
-  "last_short": "2026-11-27",
+  "last_short": "2026-11-28",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 4,
+  "montage_used": 5,
   "remix_ranges": [
    [
     143.27093454843558,
     144.68700549035472
+   ],
+   [
+    97.89211455101612,
+    100.36179111692424
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -18898,10 +18920,10 @@
   "video_len": 361
  },
  "hamdan reveals dubai government towards 2021 initiative": {
-  "last_short": "2026-11-27",
+  "last_short": "2026-11-28",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 7,
+  "montage_used": 8,
   "remix_ranges": [
    [
     43.41878213863964,
@@ -18914,6 +18936,10 @@
    [
     51.61814817354697,
     53.07292537549493
+   ],
+   [
+    27.42,
+    29.146666666666665
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -21130,6 +21156,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 12,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     65.4802155931682,
@@ -21238,10 +21265,10 @@
   "no_hamdan": true
  },
  "ruler of umm al quwain accepts condolences from hamdan bin mohammed": {
-  "last_short": "2026-11-27",
+  "last_short": "2026-11-28",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     45.601505429795935,
@@ -21266,6 +21293,10 @@
    [
     51.82643996573649,
     53.530778813915354
+   ],
+   [
+    39.4132120133061,
+    41.71274779614072
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -21312,10 +21343,10 @@
   "video_len": 120
  },
  "rulers of ajman fujairah and ras al khaimah offer condolences to sheikh hamdan on mansour bin ahmed": {
-  "last_short": "2026-11-27",
+  "last_short": "2026-11-28",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     234.30383566880639,
@@ -21328,6 +21359,10 @@
    [
     128.83576647434467,
     130.5877154878215
+   ],
+   [
+    190.44,
+    192.12
    ]
   ],
   "remix_reset": "2026-11-24",

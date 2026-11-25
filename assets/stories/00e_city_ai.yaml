@@ -1,0 +1,507 @@
+# Story 4 'city-ai' (keepbusy 2026-11-24): Dubai Future Week / City AI Agent / 93 AI agents / Seed of Hope / artist reply.
+# Built by work/s4/build.py - edit there, not here.
+id: city-ai
+title: Fazza's 93 AI Agents Will Do 812,000 Hours of Work — What Happens to the People?
+thumbnail:
+  text: AI CITY?
+  tag: FAZZA'S NEW PLAN
+  scene: clip:ai-r2-4@1.0
+mood: epic
+commons: false
+footage: .
+ready: true
+description: Prince Hamdan, Crown Prince of Dubai, approved the City AI Agent at Dubai Future Week and launched 93 government AI agents that officials expect to handle more than 34 million tasks a year
+  and save 812,000 working hours. What is really known, what is still only a plan, what it could mean for people's jobs, the Seed of Hope campaign for cancer patients, and the artist whose Instagram reel
+  he answered. Built from official Dubai Media Office videos and news reports (Gulf News, Gulf Today/WAM); all savings figures are official estimates, not results. Stock footage is for atmosphere only.
+tags:
+- Sheikh Hamdan AI
+- City AI Agent
+- Dubai Future Week
+- Fazza
+- Crown Prince of Dubai
+- Dubai AI agents
+- Dubai government AI
+- Seed of Hope
+- Prince Hamdan
+- Dubai future
+sections:
+- beats:
+  - say: What happens to people's jobs when Prince Hamdan's AI agents start doing the work? Stay to the end for the answer.
+    show:
+    - clip:ai-rt-3
+    - clip:ai-rt-13
+    - clip:ai-rt-5
+    - clip:ai-rt-14
+    sfx: impact
+  - say: He has just approved ninety-three of them.
+    show:
+    - clip:ai-rt-17
+    - clip:ai-r2-4
+  - say: Officially, they are built for thirty-four million tasks every single year.
+    show:
+    - clip:ai-rt-18
+    - clip:ai-r2-5
+    sfx: whoosh
+  - say: That is more than eight hundred thousand hours of human work.
+    show:
+    - clip:ai-r2-6
+    - clip:ai-rt-20
+    - clip:ai-r2-7
+  - say: So who loses?
+    show:
+    - clip:ai-rt-19
+    sfx: impact
+    fx: flash
+  - say: And what is the City AI Agent he approved the same day?
+    show:
+    - clip:ai-rt-12
+    - clip:ai-r2-2
+  - say: Stay with me. At the end, one tiny Instagram reply tells you more than every number.
+    show:
+    - clip:ai-rt-16
+    - clip:ai-r2-8
+    - clip:ai-r2-3
+    sfx: whoosh
+  - say: It happened at an AI retreat, on the very first day of Dubai Future Week, with top officials.
+    show:
+    - clip:ai-rt-2
+    - clip:ai-r2-1
+    - clip:ai-rt-8
+  - say: Ministers and tech experts sat in one big circle.
+    show:
+    - clip:ai-rt-4
+    - clip:ai-rt-11
+  - say: Prince Hamdan listened. Then he said yes.
+    show:
+    - clip:ai-rt-21
+    - clip:ai-rt-15
+    sfx: impact
+- beats:
+  - say: The plan has a simple name. The City AI Agent.
+    show:
+    - clip:ai-fw-6
+    - clip:ai-ex-1
+    sfx: whoosh
+    fx: flash
+  - say: Officially, it will understand people's needs.
+    show:
+    - clip:ai-ex-2
+    - clip:ai-fw-1
+  - say: It will do the tasks.
+    show:
+    - clip:ai-fw-2
+  - say: And it will join up the work of different government departments, so people get one single, seamless experience.
+    show:
+    - clip:ai-ex-5
+    - clip:ai-fw-7
+    - clip:ai-ex-4
+  - say: He called it a move to a government redesigned around AI.
+    show:
+    - clip:ai-fw-3
+    - clip:ai-ex-3
+  - say: More than twenty-five thousand people came to Future Week in just four days.
+    show:
+    - clip:ai-fw-5
+    - clip:ai-ex-6
+    sfx: impact
+  - say: So what could this mean for you, on your phone?
+    show:
+    - sb-348571898
+  - say: Today, moving house or starting a small business can mean papers for one office, then another office, then another one.
+    show:
+    - sb-346746299
+    - clip:ai-dc-3
+  - say: Different forms. Different screens. The same documents, typed in again, by you, every single time.
+    show:
+    - sb-352704086
+    - clip:ai-dc-18
+    fx: flash
+  - say: Many people already use government apps on their phone every day, for visas, bills and fines.
+    show:
+    - clip:ai-dc-15
+    - sb-11100822
+    sfx: whoosh
+  - say: But each app on your phone works on its own.
+    show:
+    - sb-347275426
+  - say: Separate logins. Separate waiting.
+    show:
+    - clip:ai-dc-6
+  - say: A city agent would understand what you need, talk to every department behind the scenes, and handle the steps for you.
+    show:
+    - clip:ai-ex-7
+    - clip:ai-fw-4
+    - clip:ai-dc-12
+  - say: One request on your phone. Not ten. Not twenty. Just one.
+    show:
+    - sb-347420163
+    sfx: impact
+  - say: But here is the honest part.
+    show:
+    - clip:ai-fw-8
+  - say: No launch date for residents has been announced yet. Not even a rough one.
+    show:
+    - clip:emarat-m1
+    - clip:hxm-m1
+  - say: Right now, it is only a plan, not an app on your phone.
+    show:
+    - sb-348705571
+    fx: flash
+- beats:
+  - say: The part that is already running is different.
+    show:
+    - clip:ai-cp-1
+    - clip:ai-cp-2
+    sfx: whoosh
+    fx: flash
+  - say: Ninety-three specialised AI agents. Not robots. Computer programs.
+    show:
+    - clip:ai-cp-3
+    - sb-11117370
+  - say: They live inside one shared computer system that the government uses for its own back office.
+    show:
+    - clip:ai-cp-5
+    - sb-8166728
+  - say: 'They handle the boring parts: staff, money and buying.'
+    show:
+    - sb-352806686
+    - clip:ai-cp-4
+  - say: Officially, thirty-four million tasks a year.
+    show:
+    - clip:ai-cp-6
+    - clip:ai-cp-7
+    sfx: impact
+  - say: That is in eighty-five government entities. Every office, every desk, every department in the city, from the biggest to the very smallest.
+    show:
+    - sb-351951501
+    - clip:in-gopi
+    - sb-358287455
+  - say: The same estimate says they save eight hundred and twelve thousand working hours a year.
+    show:
+    - clip:ck-trophy
+    - clip:inf-11
+    - clip:in-officer
+  - say: They cut costs by over one hundred and fifty-one million dirhams, it says.
+    show:
+    - sb-352806692
+  - say: These are expected figures, not results yet. Nobody can check them until the agents have worked for a while.
+    show:
+    - clip:in-inspect-line
+    sfx: impact
+    fx: flash
+- beats:
+  - say: Now, this is not a sudden idea for him. He has built towards it for years.
+    show:
+    - clip:ai-hc-1
+    - clip:ai-hc-41
+    sfx: whoosh
+  - say: Long before AI was in every headline, he walked into a new kind of government service centre in Dubai.
+    show:
+    - clip:ai-hc-2
+    - clip:ai-hc-3
+    - clip:ai-hc-6
+  - say: A small white robot welcomed visitors at the door. Everyone stopped to look.
+    show:
+    - clip:ai-hc-4
+    - clip:ai-hc-7
+    sfx: impact
+    fx: flash
+  - say: He stopped at every single screen.
+    show:
+    - clip:ai-hc-11
+  - say: Services without paper.
+    show:
+    - clip:ai-hc-13
+  - say: Officials walked him from desk to desk.
+    show:
+    - clip:ai-hc-17
+  - say: Ministers and directors crowded around him at every stop.
+    show:
+    - clip:ai-hc-18
+    - clip:ai-hc-19
+  - say: He tapped the screens himself, and asked how each one worked for a normal visitor.
+    show:
+    - clip:ai-hc-12
+    - clip:ai-hc-15
+  - say: Every service had its own screen, its own button, its own code, and its own rules.
+    show:
+    - clip:ai-hc-9
+    - clip:ai-hc-16
+    - clip:ai-hc-26
+    sfx: impact
+  - say: Live staff answered on video. Machines took payments, with no cashier and no queue.
+    show:
+    - clip:ai-hc-14
+    - clip:ai-hc-20
+    - clip:ai-hc-39
+    sfx: whoosh
+  - say: He listened, hand on his chin, the way he often does.
+    show:
+    - clip:ai-hc-21
+    - clip:ai-hc-22
+  - say: Then he talked with the team who built it, face to face.
+    show:
+    - clip:ai-hc-35
+    - clip:ai-hc-37
+    fx: flash
+  - say: So what is an AI agent, really?
+    show:
+    - clip:ai-hc-5
+    sfx: impact
+    fx: flash
+  - say: Imagine every screen in this centre, but invisible, and able to talk to each other.
+    show:
+    - clip:ai-hc-23
+    - clip:ai-hc-32
+    - clip:ai-hc-28
+  - say: You ask once. The agent finds the right department, fills in the details, checks the rules, and moves your request along. All by itself.
+    show:
+    - clip:ai-hc-30
+    - clip:ai-hc-25
+    - clip:ai-hc-27
+  - say: No robot with arms. Just software, working in the background.
+    show:
+    - clip:ai-hc-31
+    - clip:ai-hc-36
+  - say: Quiet. Fast. Always on.
+    show:
+    - clip:ai-hc-10
+    - clip:ai-hc-33
+    sfx: impact
+  - say: Some of what he saw that day is normal now. Back then, it was brand new. Almost science fiction.
+    show:
+    - clip:ai-hc-38
+    - clip:ai-hc-40
+  - say: That centre was a small test.
+    show:
+    - clip:ai-hc-24
+    sfx: impact
+    fx: flash
+  - say: The City AI Agent is the same idea, only much bigger. Not one building. A whole city of more than three million people.
+    show:
+    - clip:ai-hc-34
+    - clip:ai-hc-29
+    - clip:ai-hc-8
+- beats:
+  - say: He also knows who will build this future.
+    show:
+    - clip:ai-rb-1
+    - clip:ai-rb-4
+    sfx: whoosh
+    fx: flash
+  - say: At a world robotics competition for students in Dubai, he sat in a packed arena.
+    show:
+    - clip:ai-rb-6
+    - clip:ai-rb-12
+    - clip:ai-rb-18
+  - say: Teams carried their flags onto the stage.
+    show:
+    - clip:ai-rb-7
+  - say: He watched from the front row.
+    show:
+    - clip:ai-rb-44
+  - say: 'Speaker after speaker told the students the same thing: the future needs your ideas, and it needs them soon. Not later. Now.'
+    show:
+    - clip:ai-rb-50
+    - clip:ai-rb-5
+    - clip:ai-rb-24
+  - say: At an apps championship, he joined the young winners on stage.
+    show:
+    - clip:ai-ap-2
+    - clip:ai-ap-7
+    sfx: impact
+  - say: Young creators showed apps they built themselves.
+    show:
+    - clip:ai-ap-1
+    - clip:ai-ap-4
+  - say: Families and friends filled the hall to watch them.
+    show:
+    - clip:ai-ap-3
+    - clip:ai-ap-5
+  - say: Now the big question, for every office worker watching this.
+    show:
+    - sb-354040521
+    sfx: impact
+    fx: flash
+  - say: If his AI agents do eight hundred thousand hours of office work, what happens to the people at those desks?
+    show:
+    - sb-352371266
+    - clip:ai-rb-57
+    - sb-11125366
+  - say: Will a computer take your desk? Will it take mine?
+    show:
+    - sb-353825560
+    sfx: impact
+  - say: His government's official announcements do not say that any office worker will lose their job to a machine.
+    show:
+    - clip:ai-rb-49
+    - sb-351781511
+  - say: They also do not say what happens to that work. The students in that arena will find out first.
+    show:
+    - clip:ai-rb-53
+    - clip:ai-rb-22
+    - clip:ai-rb-47
+    sfx: whoosh
+  - say: What they do show is a push to teach people new skills on the computer. That part is real.
+    show:
+    - sb-347457118
+    - sb-10890754
+  - say: That same week, forty-eight senior officials in his government finished a six-month programme about the future.
+    show:
+    - clip:ai-rb-45
+    - sb-354281769
+    - clip:ai-rb-35
+    fx: flash
+  - say: And Prince Hamdan said technology must improve people's lives.
+    show:
+    - clip:ai-ap-6
+    - clip:ai-rb-8
+    sfx: whoosh
+- beats:
+  - say: And AI is only one part of the city he is planning for the next generation.
+    show:
+    - sb-354117656
+    - clip:ai-mt-3
+    sfx: whoosh
+    fx: flash
+  - say: In the old part of the city, wooden boats still cross the creek.
+    show:
+    - sb-354565921
+  - say: In the new part, driverless trains glide past the glass towers, day and night.
+    show:
+    - clip:ai-mt-5
+    - sb-354569647
+  - say: He has studied maps of new metro lines, stretching into new parts of the city.
+    show:
+    - clip:ai-mt-2
+    - sb-358097672
+  - say: He stepped inside a new carriage.
+    show:
+    - clip:ai-mt-4
+    sfx: impact
+  - say: Then the rail team lined up with him for a photo, in front of the new train.
+    show:
+    - clip:ai-mt-7
+    - clip:ai-mt-6
+  - say: Dubai has also tested drones that deliver parcels over the city.
+    show:
+    - sb-352369355
+    - clip:ai-dr-1
+  - say: 'Each project sounds small on its own. Together, they show the city he wants: machines doing the boring parts of life, so people have more time for the rest.'
+    show:
+    - sb-3500520
+    - clip:ai-mt-8
+    - sb-348543216
+    - clip:ai-mt-9
+    - sb-9697875
+    sfx: whoosh
+    fx: flash
+- beats:
+  - say: But at the same time, he did something very human.
+    show:
+    - clip:ig-recap-wave
+    - clip:ig-youth-table
+    sfx: whoosh
+    fx: flash
+  - say: Like a small plant, held in careful hands, so it can slowly grow.
+    show:
+    - sb-358988026
+  - say: He launched a campaign called Seed of Hope.
+    show:
+    - clip:s17-walk
+  - say: His campaign's official target is three hundred and twenty-five million dirhams for patients, raised from people and companies.
+    show:
+    - sb-352201487
+    - sb-349385062
+    - clip:dr-sc-x5
+    sfx: impact
+  - say: The money goes to an endowment for patients living with cancer, so it keeps helping, year after year.
+    show:
+    - sb-354129498
+    - sb-349087478
+- beats:
+  - say: And now, the reply I promised you, the one that matters most. It starts with a crowd of runners on the road at dawn.
+    show:
+    - clip:dr-ah-s
+    - clip:dr-ah-h3
+    - clip:dr-ah-p
+    sfx: whoosh
+    fx: flash
+  - say: A UAE resident, an artist, drew a portrait of Prince Hamdan by hand, on paper, line by careful line.
+    show:
+    - clip:dr-h-gj63
+    - sb-358770126
+    - clip:dr-ah-h2
+  - say: Every year, he carried that portrait to the Dubai Run, through the crowd of runners.
+    show:
+    - clip:dr-ah-h1
+    - clip:dr-ah-m
+  - say: He kept the paper portrait safe for years, and tried many ways to reach him.
+    show:
+    - sb-351997839
+    sfx: impact
+  - say: Nothing worked, year after year, run after run, on the same road.
+    show:
+    - clip:dr-dw-m
+    - clip:dr-ah-r
+  - say: So at this Dubai Run, he filmed a reel on the road, hoping it would go viral.
+    show:
+    - clip:dr-ah-n
+    - clip:dr-ah-t
+    sfx: impact
+  - say: Thousands of runners filled the road that morning, from small children to grandparents.
+    show:
+    - clip:dr-ah-v1
+    - clip:dr-ah-v2
+    fx: flash
+  - say: Sheikh Zayed Road, closed to cars, belonged to the runners.
+    show:
+    - clip:dr-ah-w4
+    - clip:dr-ah-w7
+    - clip:dr-ah-w5
+  - say: Dubai Run is part of the Dubai Fitness Challenge, which he started to get people moving.
+    show:
+    - clip:dr-ah-w1
+    - clip:dr-ah-w3
+    - clip:dr-ah-w6
+  - say: And this time, among all the runners on the road, Prince Hamdan saw it.
+    show:
+    - clip:dr-ah-u
+    - clip:dr-h-ys7
+    sfx: impact
+  - say: He replied with a folded hands emoji.
+    show:
+    - sb-354332628
+    sfx: impact
+  - say: One tiny emoji. For him, five Dubai Runs in the crowd, finally answered.
+    show:
+    - clip:dr-ah-q
+    - clip:dr-dw-l
+    - clip:dr-ah-g
+- beats:
+  - say: So here is the honest answer, in short.
+    show:
+    - clip:ig-falcon-white-g
+    sfx: whoosh
+    fx: flash
+  - say: The ninety-three agents are being rolled out now.
+    show:
+    - clip:ig-camels-car-b
+  - say: The City AI Agent is approved. But there is no phone app yet.
+    show:
+    - sb-347410062
+  - say: The savings are expected numbers, not results.
+    show:
+    - clip:ig-horse-stable-b
+  - say: And he keeps saying one thing. People first.
+    show:
+    - clip:ig-horse-stable-d
+    sfx: impact
+  - say: Would you trust an AI agent with your paperwork? Tell me in the comments, on your laptop.
+    show:
+    - sb-353875671
+    - sb-354965635
+  - say: Subscribe to see what Prince Hamdan builds next.
+    show:
+    - clip:ig-falcon-indoor-b
+    sfx: impact

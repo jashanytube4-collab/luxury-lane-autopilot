@@ -7458,3 +7458,1211 @@ clips:
     - [10.8, 13.1]
     note: reef story v2, frames checked (ffmpeg grid), skyline + Hamdan walking, by Rocky 2026-11-23
     credit: Dubai Media Office (official YouTube channel)
+  ai-fw-1:
+    match: 'officially|understand|needs'
+    yt: ebydnHYdHCs
+    parts:
+    - [16.19, 18.45]
+    crop: [0.03, 0.14, 0.97, 0.845]
+    note: city-ai story, 2.3 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-fw-2:
+    match: 'tasks'
+    yt: ebydnHYdHCs
+    parts:
+    - [18.69, 21.58]
+    crop: [0.03, 0.14, 0.97, 0.845]
+    note: city-ai story, 2.9 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-fw-3:
+    match: 'government|redesigned|called|around'
+    yt: ebydnHYdHCs
+    parts:
+    - [21.82, 24.71]
+    crop: [0.03, 0.14, 0.97, 0.845]
+    note: city-ai story, 2.9 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-fw-4:
+    match: 'department|understand|handle|behind'
+    yt: ebydnHYdHCs
+    parts:
+    - [33.65, 35.95]
+    crop: [0.03, 0.14, 0.97, 0.845]
+    note: city-ai story, 2.3 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-fw-5:
+    match: 'thousand|future|twenty|four'
+    yt: ebydnHYdHCs
+    parts:
+    - [36.19, 40.19]
+    crop: [0.03, 0.14, 0.97, 0.845]
+    note: city-ai story, 4.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-fw-6:
+    match: 'simple|agent|name|city'
+    yt: ebydnHYdHCs
+    parts:
+    - [48.22, 51.08]
+    crop: [0.03, 0.14, 0.97, 0.845]
+    note: city-ai story, 2.9 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-fw-7:
+    match: 'departments|experience|government|different'
+    yt: ebydnHYdHCs
+    parts:
+    - [52.72, 55.81]
+    crop: [0.03, 0.14, 0.97, 0.845]
+    note: city-ai story, 3.1 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-fw-8:
+    match: 'honest|here|part'
+    yt: ebydnHYdHCs
+    parts:
+    - [56.05, 60.05]
+    crop: [0.03, 0.14, 0.97, 0.845]
+    note: city-ai story, 4.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-ex-1:
+    match: 'simple|agent|name|city'
+    yt: z61zx5ms_SE
+    parts:
+    - [5.99, 8.38]
+    crop: [0.03, 0.14, 0.97, 0.845]
+    note: city-ai story, 2.4 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-ex-2:
+    match: 'officially|understand|needs'
+    yt: z61zx5ms_SE
+    parts:
+    - [8.62, 11.71]
+    crop: [0.03, 0.14, 0.97, 0.845]
+    note: city-ai story, 3.1 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-ex-3:
+    match: 'government|redesigned|called|around'
+    yt: z61zx5ms_SE
+    parts:
+    - [18.42, 20.85]
+    crop: [0.03, 0.14, 0.97, 0.845]
+    note: city-ai story, 2.4 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-ex-4:
+    match: 'departments|experience|government|different'
+    yt: z61zx5ms_SE
+    parts:
+    - [22.85, 26.05]
+    crop: [0.03, 0.14, 0.97, 0.845]
+    note: city-ai story, 3.2 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-ex-5:
+    match: 'departments|experience|government|different'
+    yt: z61zx5ms_SE
+    parts:
+    - [26.29, 29.41]
+    crop: [0.03, 0.14, 0.97, 0.845]
+    note: city-ai story, 3.1 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-ex-6:
+    match: 'thousand|future|twenty|four'
+    yt: z61zx5ms_SE
+    parts:
+    - [31.12, 33.55]
+    crop: [0.03, 0.14, 0.97, 0.845]
+    note: city-ai story, 2.4 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-ex-7:
+    match: 'department|understand|handle|behind'
+    yt: z61zx5ms_SE
+    parts:
+    - [33.79, 37.79]
+    crop: [0.03, 0.14, 0.97, 0.845]
+    note: city-ai story, 4.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rt-1:
+    match: 'thousand|hundred|hours|eight'
+    yt: BTBBySHMTck
+    parts:
+    - [0.12, 3.9]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 3.8 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rt-2:
+    match: 'officials|happened|retreat|future'
+    yt: BTBBySHMTck
+    parts:
+    - [4.14, 6.76]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 2.6 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rt-3:
+    match: 'happens|agents|answer|doing'
+    yt: BTBBySHMTck
+    parts:
+    - [7.0, 10.16]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 3.2 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rt-4:
+    match: 'ministers|experts|circle|tech'
+    yt: BTBBySHMTck
+    parts:
+    - [14.8, 17.54]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 2.7 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rt-5:
+    match: 'happens|agents|answer|doing'
+    yt: BTBBySHMTck
+    parts:
+    - [17.78, 20.56]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 2.8 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rt-7:
+    match: 'thousand|hundred|hours|eight'
+    yt: BTBBySHMTck
+    parts:
+    - [26.32, 28.94]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 2.6 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rt-8:
+    match: 'officials|happened|retreat|future'
+    yt: BTBBySHMTck
+    parts:
+    - [31.08, 33.52]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 2.4 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rt-9:
+    match: 'officially|million|single|thirty'
+    yt: BTBBySHMTck
+    parts:
+    - [33.76, 36.78]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 3.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rt-10:
+    match: 'instagram|number|tells|reply'
+    yt: BTBBySHMTck
+    parts:
+    - [40.8, 43.32]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 2.5 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rt-11:
+    match: 'ministers|experts|circle|tech'
+    yt: BTBBySHMTck
+    parts:
+    - [43.56, 45.9]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 2.3 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rt-12:
+    match: 'approved|agent|same|city'
+    yt: BTBBySHMTck
+    parts:
+    - [46.14, 48.54]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 2.4 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rt-13:
+    match: 'happens|agents|answer|doing'
+    yt: BTBBySHMTck
+    parts:
+    - [48.78, 51.52]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 2.7 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rt-14:
+    match: 'happens|agents|answer|doing'
+    yt: BTBBySHMTck
+    parts:
+    - [51.76, 54.9]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 3.1 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rt-15:
+    match: 'listened|said'
+    yt: BTBBySHMTck
+    parts:
+    - [55.14, 57.36]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 2.2 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rt-16:
+    match: 'instagram|number|reply|tells'
+    yt: BTBBySHMTck
+    parts:
+    - [63.94, 66.46]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 2.5 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rt-17:
+    match: 'approved|ninety|three'
+    yt: BTBBySHMTck
+    parts:
+    - [68.46, 70.72]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 2.3 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rt-18:
+    match: 'officially|million|single|thirty'
+    yt: BTBBySHMTck
+    parts:
+    - [75.32, 79.32]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 4.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rt-19:
+    match: 'loses'
+    yt: BTBBySHMTck
+    parts:
+    - [84.06, 87.0]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 2.9 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-dc-3:
+    match: 'business|starting|another|moving'
+    yt: hCEhlGIG8QA
+    parts:
+    - [13.16, 17.16]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 4.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-dc-8:
+    match: phone|documents|app
+    yt: hCEhlGIG8QA
+    parts:
+    - [47.72, 51.72]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 4.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-dc-15:
+    match: 'government|already|bills|visas'
+    yt: hCEhlGIG8QA
+    parts:
+    - [97.56, 100.64]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 3.1 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-dc-26:
+    match: 'works|each'
+    yt: hCEhlGIG8QA
+    parts:
+    - [153.56, 157.56]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 4.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-dc-1:
+    match: 'different|documents|screens|single'
+    yt: hCEhlGIG8QA
+    parts:
+    - [2.52, 6.52]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 4.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-dc-5:
+    match: honest|launch|announced
+    yt: hCEhlGIG8QA
+    parts:
+    - [23.48, 26.84]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 3.4 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-cp-1:
+    match: 'different|running|already|part'
+    yt: -QkBPR-qG6w
+    parts:
+    - [1.49, 3.88]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 2.4 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-cp-2:
+    match: 'different|running|already|part'
+    yt: -QkBPR-qG6w
+    parts:
+    - [4.12, 6.35]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 2.2 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-cp-3:
+    match: 'specialised|computer|programs|ninety'
+    yt: -QkBPR-qG6w
+    parts:
+    - [6.59, 9.51]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 2.9 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-cp-4:
+    match: 'boring|buying|handle|parts'
+    yt: -QkBPR-qG6w
+    parts:
+    - [12.75, 15.08]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 2.3 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-cp-5:
+    match: 'government|computer|system|office'
+    yt: -QkBPR-qG6w
+    parts:
+    - [20.95, 23.88]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 2.9 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-cp-6:
+    match: 'officially|million|thirty|tasks'
+    yt: -QkBPR-qG6w
+    parts:
+    - [28.65, 30.91]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 2.3 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-cp-7:
+    match: 'officially|million|thirty|tasks'
+    yt: -QkBPR-qG6w
+    parts:
+    - [31.15, 33.41]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 2.3 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-r2-1:
+    match: 'officials|happened|retreat|future'
+    yt: yeorow1zzyk
+    parts:
+    - [0.12, 3.61]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 3.5 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-r2-2:
+    match: 'approved|agent|same|city'
+    yt: yeorow1zzyk
+    parts:
+    - [23.62, 26.21]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 2.6 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-r2-3:
+    match: 'instagram|number|reply|tells'
+    yt: yeorow1zzyk
+    parts:
+    - [48.99, 52.43]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 3.4 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-1:
+    match: 'towards|sudden|built|years'
+    yt: qi3G9vWoOmM
+    parts:
+    - [1.64, 5.24]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 3.6 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-41:
+    match: 'towards|sudden|built|years'
+    yt: qi3G9vWoOmM
+    parts:
+    - [198.52, 201.17]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 2.6 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-2:
+    match: 'government|headline|service|walked'
+    yt: qi3G9vWoOmM
+    parts:
+    - [5.48, 7.76]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 2.3 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-3:
+    match: 'government|headline|service|walked'
+    yt: qi3G9vWoOmM
+    parts:
+    - [8.0, 12.0]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 4.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-4:
+    match: 'welcomed|visitors|everyone|stopped'
+    yt: qi3G9vWoOmM
+    parts:
+    - [13.44, 17.44]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 4.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-7:
+    match: 'welcomed|visitors|everyone|stopped'
+    yt: qi3G9vWoOmM
+    parts:
+    - [34.36, 36.76]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 2.4 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-11:
+    match: 'stopped|single|screen'
+    yt: qi3G9vWoOmM
+    parts:
+    - [48.52, 51.8]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 3.3 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-13:
+    match: 'services|without|paper'
+    yt: qi3G9vWoOmM
+    parts:
+    - [63.44, 66.48]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 3.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-14:
+    match: 'payments|machines|answered|cashier'
+    yt: qi3G9vWoOmM
+    parts:
+    - [66.72, 69.12]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 2.4 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-20:
+    match: 'payments|machines|answered|cashier'
+    yt: qi3G9vWoOmM
+    parts:
+    - [95.64, 99.12]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 3.5 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-34:
+    match: 'building|million|bigger|agent'
+    yt: qi3G9vWoOmM
+    parts:
+    - [166.08, 170.08]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 4.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-39:
+    match: 'payments|machines|answered|cashier'
+    yt: qi3G9vWoOmM
+    parts:
+    - [187.32, 189.84]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 2.5 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-21:
+    match: 'listened|often|does|hand'
+    yt: qi3G9vWoOmM
+    parts:
+    - [99.36, 102.16]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 2.8 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-22:
+    match: 'listened|often|does|hand'
+    yt: qi3G9vWoOmM
+    parts:
+    - [102.4, 104.88]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 2.5 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-24:
+    match: 'centre|small|test'
+    yt: qi3G9vWoOmM
+    parts:
+    - [110.44, 114.0]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 3.6 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-29:
+    match: 'building|million|bigger|agent'
+    yt: qi3G9vWoOmM
+    parts:
+    - [132.64, 136.08]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 3.4 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rb-1:
+    match: 'future|knows|build|also'
+    yt: 0NWonDkskvo
+    parts:
+    - [0.12, 2.4]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 2.3 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rb-4:
+    match: 'future|knows|build|also'
+    yt: 0NWonDkskvo
+    parts:
+    - [13.84, 16.4]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 2.6 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rb-6:
+    match: 'competition|students|robotics|packed'
+    yt: 0NWonDkskvo
+    parts:
+    - [20.44, 23.2]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 2.8 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rb-12:
+    match: 'competition|students|robotics|packed'
+    yt: 0NWonDkskvo
+    parts:
+    - [73.6, 75.84]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 2.2 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rb-18:
+    match: 'competition|students|robotics|packed'
+    yt: 0NWonDkskvo
+    parts:
+    - [114.48, 117.0]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 2.5 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rb-7:
+    match: 'carried|teams|flags|stage'
+    yt: 0NWonDkskvo
+    parts:
+    - [23.44, 27.44]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 4.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rb-8:
+    match: 'technology|improve|lives|said'
+    yt: 0NWonDkskvo
+    parts:
+    - [36.76, 40.76]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 4.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rb-27:
+    match: front row|officials|watched
+    yt: 0NWonDkskvo
+    parts:
+    - [171.04, 173.28]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 2.2 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rb-44:
+    match: 'watched|front'
+    yt: 0NWonDkskvo
+    parts:
+    - [275.48, 278.56]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 3.1 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-ap-2:
+    match: 'championship|winners|joined|stage'
+    yt: ej9FtoiX44o
+    parts:
+    - [13.62, 16.11]
+    crop: [0.03, 0.14, 0.97, 0.845]
+    note: city-ai story, 2.5 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-ap-6:
+    match: 'technology|improve|lives|said'
+    yt: ej9FtoiX44o
+    parts:
+    - [39.22, 41.88]
+    crop: [0.03, 0.14, 0.97, 0.845]
+    note: city-ai story, 2.7 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-ap-7:
+    match: 'championship|winners|joined|stage'
+    yt: ej9FtoiX44o
+    parts:
+    - [48.75, 52.12]
+    crop: [0.03, 0.14, 0.97, 0.845]
+    note: city-ai story, 3.4 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-mt-1:
+    match: 'wooden|creek|boats|cross'
+    yt: QsSJ5n_fi7Y
+    parts:
+    - [3.05, 5.68]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 2.6 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-mt-7:
+    match: 'front|train|photo|lined'
+    yt: QsSJ5n_fi7Y
+    parts:
+    - [61.15, 64.71]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 3.6 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-ap-3:
+    match: 'families|friends|filled|watch'
+    yt: ej9FtoiX44o
+    parts:
+    - [16.35, 18.91]
+    crop: [0.03, 0.14, 0.97, 0.845]
+    note: city-ai story, 2.6 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-ap-4:
+    match: 'themselves|creators|showed|built'
+    yt: ej9FtoiX44o
+    parts:
+    - [27.32, 29.95]
+    crop: [0.03, 0.14, 0.97, 0.845]
+    note: city-ai story, 2.6 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-ap-1:
+    match: 'themselves|creators|showed|built'
+    yt: ej9FtoiX44o
+    parts:
+    - [5.25, 7.68]
+    crop: [0.03, 0.14, 0.97, 0.845]
+    note: city-ai story, 2.4 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rb-24:
+    match: 'students|speaker|future|after'
+    yt: 0NWonDkskvo
+    parts:
+    - [152.24, 156.24]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 4.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rb-33:
+    match: arena|young|faces
+    yt: 0NWonDkskvo
+    parts:
+    - [211.92, 214.44]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 2.5 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rb-20:
+    match: 'thousand|machines|hundred|happens'
+    yt: 0NWonDkskvo
+    parts:
+    - [133.76, 136.88]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 3.1 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rb-14:
+    match: 'students|first|arena|find'
+    yt: 0NWonDkskvo
+    parts:
+    - [90.2, 93.8]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 3.6 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rb-10:
+    match: 'students|first|arena|find'
+    yt: 0NWonDkskvo
+    parts:
+    - [59.32, 61.88]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 2.6 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-37:
+    match: 'talked|built|face|team'
+    yt: qi3G9vWoOmM
+    parts:
+    - [178.96, 182.0]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 3.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-35:
+    match: 'talked|built|face|team'
+    yt: qi3G9vWoOmM
+    parts:
+    - [172.96, 175.84]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 2.9 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-10:
+    match: 'always|quiet|fast'
+    yt: qi3G9vWoOmM
+    parts:
+    - [45.88, 48.28]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 2.4 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-15:
+    match: 'himself|screens|visitor|tapped'
+    yt: qi3G9vWoOmM
+    parts:
+    - [69.36, 73.36]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 4.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-12:
+    match: 'himself|screens|visitor|tapped'
+    yt: qi3G9vWoOmM
+    parts:
+    - [52.04, 56.04]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 4.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-19:
+    match: 'ministers|directors|crowded|around'
+    yt: qi3G9vWoOmM
+    parts:
+    - [92.32, 95.4]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 3.1 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-17:
+    match: 'officials|walked|desk'
+    yt: qi3G9vWoOmM
+    parts:
+    - [79.84, 83.84]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 4.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-dc-10:
+    match: apps|visas|bills
+    yt: hCEhlGIG8QA
+    parts:
+    - [57.64, 61.0]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 3.4 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-dc-18:
+    match: 'different|documents|screens|single'
+    yt: hCEhlGIG8QA
+    parts:
+    - [112.72, 116.2]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 3.5 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-dc-12:
+    match: 'department|understand|handle|behind'
+    yt: hCEhlGIG8QA
+    parts:
+    - [72.04, 75.96]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 3.9 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-mt-2:
+    match: 'stretching|studied|lines|metro'
+    yt: QsSJ5n_fi7Y
+    parts:
+    - [23.12, 25.51]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 2.4 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-mt-4:
+    match: 'carriage|stepped|inside'
+    yt: QsSJ5n_fi7Y
+    parts:
+    - [38.72, 41.88]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 3.2 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-mt-5:
+    match: 'driverless|towers|trains|glide'
+    yt: QsSJ5n_fi7Y
+    parts:
+    - [42.12, 45.18]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 3.1 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-mt-6:
+    match: 'front|train|photo|lined'
+    yt: QsSJ5n_fi7Y
+    parts:
+    - [56.39, 60.39]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 4.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-mt-3:
+    match: 'generation|planning|next|city'
+    yt: QsSJ5n_fi7Y
+    parts:
+    - [34.35, 36.75]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 2.4 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-dr-1:
+    match: 'deliver|parcels|drones|tested'
+    yt: 8K3cbtND-AI
+    parts:
+    - [8.52, 10.75]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 2.2 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rt-6:
+    match: 'listened|said'
+    yt: BTBBySHMTck
+    parts:
+    - [20.8, 24.04]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 3.2 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-6:
+    match: 'government|headline|service|walked'
+    yt: qi3G9vWoOmM
+    parts:
+    - [23.52, 27.52]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 4.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rb-16:
+    match: 'centre|future|hopes|needs'
+    yt: 0NWonDkskvo
+    parts:
+    - [100.04, 102.8]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 2.8 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rb-9:
+    match: 'happens|also|work|know'
+    yt: 0NWonDkskvo
+    parts:
+    - [43.36, 47.36]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 4.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rb-47:
+    match: 'students|happens|first|arena'
+    yt: 0NWonDkskvo
+    parts:
+    - [291.6, 293.96]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 2.4 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rb-41:
+    match: 'computer|skills|teach|push'
+    yt: 0NWonDkskvo
+    parts:
+    - [259.24, 262.28]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 3.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rb-45:
+    match: 'government|programme|officials|finished'
+    yt: 0NWonDkskvo
+    parts:
+    - [278.8, 281.56]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 2.8 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rb-49:
+    match: 'announcements|government|official|machine'
+    yt: 0NWonDkskvo
+    parts:
+    - [300.6, 303.52]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 2.9 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rb-53:
+    match: 'students|happens|first|arena'
+    yt: 0NWonDkskvo
+    parts:
+    - [322.76, 325.84]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 3.1 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rb-29:
+    match: 'technology|improve|chances|create'
+    yt: 0NWonDkskvo
+    parts:
+    - [187.64, 191.24]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 3.6 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rb-2:
+    match: 'centre|future|needs|words'
+    yt: 0NWonDkskvo
+    parts:
+    - [4.8, 7.56]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 2.8 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rb-3:
+    match: 'technology|improve|chances|create'
+    yt: 0NWonDkskvo
+    parts:
+    - [8.76, 12.76]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 4.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-18:
+    match: 'ministers|directors|crowded|around'
+    yt: qi3G9vWoOmM
+    parts:
+    - [87.0, 90.16]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 3.2 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-9:
+    match: 'service|button|screen|rules'
+    yt: qi3G9vWoOmM
+    parts:
+    - [43.04, 45.64]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 2.6 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-16:
+    match: 'service|button|screen|rules'
+    yt: qi3G9vWoOmM
+    parts:
+    - [76.6, 79.6]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 3.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-26:
+    match: 'service|button|screen|rules'
+    yt: qi3G9vWoOmM
+    parts:
+    - [118.88, 121.6]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 2.7 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-5:
+    match: 'really|agent'
+    yt: qi3G9vWoOmM
+    parts:
+    - [19.28, 23.28]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 4.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-23:
+    match: 'invisible|imagine|centre|screen'
+    yt: qi3G9vWoOmM
+    parts:
+    - [106.36, 109.52]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 3.2 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-32:
+    match: 'invisible|imagine|centre|screen'
+    yt: qi3G9vWoOmM
+    parts:
+    - [158.6, 161.04]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 2.4 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-28:
+    match: 'invisible|imagine|centre|screen'
+    yt: qi3G9vWoOmM
+    parts:
+    - [130.04, 132.4]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 2.4 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-30:
+    match: 'department|details|request|checks'
+    yt: qi3G9vWoOmM
+    parts:
+    - [138.24, 142.24]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 4.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-25:
+    match: 'department|details|request|checks'
+    yt: qi3G9vWoOmM
+    parts:
+    - [114.24, 118.24]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 4.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-27:
+    match: 'department|details|request|checks'
+    yt: qi3G9vWoOmM
+    parts:
+    - [121.84, 125.32]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 3.5 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-31:
+    match: 'background|software|working|robot'
+    yt: qi3G9vWoOmM
+    parts:
+    - [154.52, 158.36]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 3.8 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-36:
+    match: 'background|software|working|robot'
+    yt: qi3G9vWoOmM
+    parts:
+    - [176.08, 178.72]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 2.6 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-38:
+    match: 'science|fiction|normal|almost'
+    yt: qi3G9vWoOmM
+    parts:
+    - [182.24, 186.24]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 4.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-40:
+    match: 'science|fiction|normal|almost'
+    yt: qi3G9vWoOmM
+    parts:
+    - [190.08, 194.08]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 4.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-8:
+    match: 'building|million|bigger|agent'
+    yt: qi3G9vWoOmM
+    parts:
+    - [39.24, 42.8]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 3.6 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rb-11:
+    match: 'students|speaker|future|thing'
+    yt: 0NWonDkskvo
+    parts:
+    - [64.08, 68.08]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 4.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rb-22:
+    match: 'students|happens|first|arena'
+    yt: 0NWonDkskvo
+    parts:
+    - [142.28, 145.24]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 3.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rb-5:
+    match: 'students|speaker|future|after'
+    yt: 0NWonDkskvo
+    parts:
+    - [16.64, 20.2]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 3.6 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-ap-5:
+    match: 'families|friends|filled|watch'
+    yt: ej9FtoiX44o
+    parts:
+    - [34.15, 36.95]
+    crop: [0.03, 0.14, 0.97, 0.845]
+    note: city-ai story, 2.8 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rb-31:
+    match: 'happens|also|work|know'
+    yt: 0NWonDkskvo
+    parts:
+    - [197.48, 200.24]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 2.8 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rb-35:
+    match: 'government|programme|officials|finished'
+    yt: 0NWonDkskvo
+    parts:
+    - [231.2, 234.32]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 3.1 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-dc-6:
+    match: 'separate|waiting|logins'
+    yt: hCEhlGIG8QA
+    parts:
+    - [29.44, 33.44]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 4.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-hc-33:
+    match: 'always|quiet|fast'
+    yt: qi3G9vWoOmM
+    parts:
+    - [161.28, 163.52]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 2.2 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rb-50:
+    match: 'students|speaker|future|after'
+    yt: 0NWonDkskvo
+    parts:
+    - [303.76, 307.76]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 4.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-r2-4:
+    match: 'approved|ninety|three'
+    yt: yeorow1zzyk
+    parts:
+    - [7.3, 9.35]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 2.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-r2-5:
+    match: 'officially|million|single|thirty'
+    yt: yeorow1zzyk
+    parts:
+    - [31.0, 32.8]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 1.8 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-r2-6:
+    match: 'thousand|hundred|hours|eight'
+    yt: yeorow1zzyk
+    parts:
+    - [34.3, 35.8]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 1.5 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-r2-7:
+    match: 'thousand|hundred|hours|eight'
+    yt: yeorow1zzyk
+    parts:
+    - [36.0, 37.3]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 1.3 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-r2-8:
+    match: 'instagram|number|reply|tells'
+    yt: yeorow1zzyk
+    parts:
+    - [47.0, 48.9]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 1.9 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rt-20:
+    match: 'thousand|hundred|hours|eight'
+    yt: BTBBySHMTck
+    parts:
+    - [24.3, 26.3]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 2.0 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rt-21:
+    match: 'listened|said'
+    yt: BTBBySHMTck
+    parts:
+    - [38.4, 40.9]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 2.5 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rb-57:
+    match: 'thousand|happens|hundred|office'
+    yt: 0NWonDkskvo
+    parts:
+    - [35.3, 37.4]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 2.1 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-rb-58:
+    match: 'announcements|government|official|worker'
+    yt: 0NWonDkskvo
+    parts:
+    - [62.6, 63.9]
+    crop: [0.07, 0.0, 0.93, 0.86]
+    note: city-ai story, 1.3 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-mt-8:
+    match: 'machines|together|project|boring'
+    yt: QsSJ5n_fi7Y
+    parts:
+    - [31.0, 32.8]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 1.8 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)
+  ai-mt-9:
+    match: 'machines|together|project|boring'
+    yt: QsSJ5n_fi7Y
+    parts:
+    - [29.0, 30.7]
+    crop: [0.05, 0.07, 0.95, 0.97]
+    note: city-ai story, 1.7 s, scan cut (work/s4/scan.py), logos cropped, by Rocky 2026-11-24
+    credit: Dubai Media Office (official YouTube channel)

@@ -1,3 +1,1107 @@
+clip:ai-ap-1:
+  arab_people: true
+  desc: Stands at the apps championship hall
+  hamdan: 0.0
+  people: true
+  tags:
+  - exhibition
+clip:ai-ap-2:
+  arab_people: true
+  desc: Prince Hamdan with young app creators
+  hamdan: 0.85
+  people: true
+  tags:
+  - people
+clip:ai-ap-3:
+  arab_people: true
+  desc: Families and friends watch in the hall
+  hamdan: 0.0
+  people: true
+  tags:
+  - audience
+  - crowd
+  - people
+clip:ai-ap-4:
+  arab_people: true
+  desc: A young creator speaks into a microphone
+  hamdan: 0.0
+  people: true
+  tags:
+  - people
+clip:ai-ap-5:
+  arab_people: true
+  desc: Scene at the apps championship hall
+  hamdan: 0.0
+  people: true
+  tags:
+  - crowd
+  - people
+clip:ai-ap-6:
+  arab_people: true
+  desc: Prince Hamdan applauds the young creators
+  hamdan: 0.85
+  people: true
+  tags:
+  - people
+clip:ai-ap-7:
+  arab_people: true
+  desc: Winners on stage at the apps championship
+  hamdan: 0.85
+  people: true
+  tags:
+  - award
+  - stage
+  - trophy
+clip:ai-cp-1:
+  arab_people: null
+  desc: The Dubai AI Campus building
+  hamdan: 0.0
+  people: false
+  tags:
+  - building
+clip:ai-cp-2:
+  arab_people: null
+  desc: Dubai AI Campus terrace and glass
+  hamdan: 0.0
+  people: false
+  tags:
+  - building
+clip:ai-cp-3:
+  arab_people: true
+  desc: Prince Hamdan tours the Dubai AI Campus
+  hamdan: 0.85
+  people: true
+  tags:
+  - building
+  - office
+clip:ai-cp-4:
+  arab_people: true
+  desc: Prince Hamdan in an AI Campus office
+  hamdan: 0.85
+  people: true
+  tags:
+  - office
+clip:ai-cp-5:
+  arab_people: null
+  desc: A pen signs on a white board at the AI Campus
+  hamdan: 0.0
+  people: false
+  tags:
+  - hand
+  - sign
+clip:ai-cp-6:
+  arab_people: true
+  desc: Prince Hamdan meets a tech founder at the AI Campus
+  hamdan: 1.0
+  people: true
+  tags:
+  - handshake
+  - meeting
+clip:ai-cp-7:
+  arab_people: true
+  desc: Prince Hamdan with founders at the AI Campus
+  hamdan: 0.85
+  people: true
+  tags:
+  - meeting
+  - office
+  - people
+clip:ai-dc-1:
+  arab_people: true
+  desc: Officials at the digital services signing
+  hamdan: 0.85
+  people: true
+  tags:
+  - desk
+  - people
+  - signing
+clip:ai-dc-10:
+  arab_people: true
+  desc: An official signs a digital agreement
+  hamdan: 0.0
+  people: true
+  tags:
+  - desk
+  - signing
+clip:ai-dc-12:
+  arab_people: true
+  desc: An official smiles at the digital services signing
+  hamdan: 0.0
+  people: true
+  tags:
+  - desk
+  - signing
+clip:ai-dc-15:
+  arab_people: null
+  desc: A hand places a phone on the signing desk
+  hamdan: 0.0
+  people: false
+  tags:
+  - desk
+  - hand
+  - phone
+clip:ai-dc-18:
+  arab_people: true
+  desc: An official at the signing desk
+  hamdan: 0.0
+  people: true
+  tags:
+  - desk
+clip:ai-dc-26:
+  arab_people: null
+  desc: A phone standing on the signing desk
+  hamdan: 0.0
+  people: false
+  tags:
+  - desk
+  - phone
+clip:ai-dc-3:
+  arab_people: null
+  desc: A phone showing a digital government service
+  hamdan: 0.0
+  people: false
+  tags:
+  - phone
+  - smartphone
+clip:ai-dc-5:
+  arab_people: true
+  desc: An official smiles at the digital services signing
+  hamdan: 0.0
+  people: true
+  tags:
+  - desk
+  - signing
+clip:ai-dc-6:
+  arab_people: true
+  desc: Scene at the digital services signing
+  hamdan: 0.0
+  people: true
+  tags:
+  - desk
+clip:ai-dc-8:
+  arab_people: null
+  desc: A phone held over a desk name card
+  hamdan: 0.0
+  people: false
+  tags:
+  - desk
+  - phone
+  - smartphone
+clip:ai-dr-1:
+  arab_people: true
+  desc: Prince Hamdan greets an official by the car
+  hamdan: 0.85
+  people: true
+  tags:
+  - car
+  - handshake
+clip:ai-ex-1:
+  arab_people: true
+  desc: Prince Hamdan talks with an exhibitor, close shot
+  hamdan: 1.0
+  people: true
+  tags:
+  - exhibition
+clip:ai-ex-2:
+  arab_people: true
+  desc: Prince Hamdan tours a technology exhibition
+  hamdan: 0.85
+  people: true
+  tags:
+  - exhibition
+  - model
+clip:ai-ex-3:
+  arab_people: true
+  desc: Prince Hamdan looks at a city model at the exhibition
+  hamdan: 0.85
+  people: true
+  tags:
+  - city
+  - exhibition
+  - model
+clip:ai-ex-4:
+  arab_people: true
+  desc: Prince Hamdan meets exhibitors at a stand
+  hamdan: 0.85
+  people: true
+  tags:
+  - exhibition
+  - people
+clip:ai-ex-5:
+  arab_people: true
+  desc: Prince Hamdan listens to a presenter at the exhibition
+  hamdan: 0.85
+  people: true
+  tags:
+  - exhibition
+  - people
+clip:ai-ex-6:
+  arab_people: true
+  desc: Prince Hamdan at a stand with a screen
+  hamdan: 0.85
+  people: true
+  tags:
+  - exhibition
+  - screen
+clip:ai-ex-7:
+  arab_people: null
+  desc: Tall exhibition sign at the AI festival
+  hamdan: 0.0
+  people: false
+  tags:
+  - exhibition
+  - sign
+clip:ai-fw-1:
+  arab_people: true
+  desc: Visitor in front of a big Dubai Future Week screen
+  hamdan: 0.0
+  people: true
+  tags:
+  - city
+  - future
+  - screen
+clip:ai-fw-2:
+  arab_people: true
+  desc: Prince Hamdan arrives at Dubai Future Week
+  hamdan: 0.85
+  people: true
+  tags:
+  - crowd
+  - future
+  - people
+clip:ai-fw-3:
+  arab_people: true
+  desc: Prince Hamdan walks through the Future Week hall
+  hamdan: 0.85
+  people: true
+  tags:
+  - crowd
+  - future
+  - hall
+  - people
+clip:ai-fw-4:
+  arab_people: true
+  desc: Prince Hamdan greets a visitor in a wheelchair at Future Week
+  hamdan: 0.85
+  people: true
+  tags:
+  - future
+  - people
+  - wheelchair
+clip:ai-fw-5:
+  arab_people: true
+  desc: Crowd at the Dubai Future Week opening
+  hamdan: 0.0
+  people: true
+  tags:
+  - crowd
+  - future
+  - people
+clip:ai-fw-6:
+  arab_people: true
+  desc: Prince Hamdan at a Future Week stand
+  hamdan: 1.0
+  people: true
+  tags:
+  - exhibition
+  - future
+clip:ai-fw-7:
+  arab_people: true
+  desc: Close side view of Prince Hamdan at Future Week
+  hamdan: 0.85
+  people: true
+  tags:
+  - future
+clip:ai-fw-8:
+  arab_people: null
+  desc: His black car arrives at Emirates Towers for Future Week
+  hamdan: 0.0
+  people: false
+  tags:
+  - car
+  - city
+clip:ai-hc-1:
+  arab_people: true
+  desc: Prince Hamdan walks into a new service centre
+  hamdan: 0.85
+  people: true
+  tags:
+  - people
+clip:ai-hc-10:
+  arab_people: true
+  desc: Prince Hamdan at a screen with an official
+  hamdan: 0.8
+  people: true
+  tags:
+  - people
+  - screen
+clip:ai-hc-11:
+  arab_people: null
+  desc: Screens on a white service desk
+  hamdan: 0.0
+  people: false
+  tags:
+  - computer
+  - desk
+  - screen
+  - screens
+clip:ai-hc-12:
+  arab_people: true
+  desc: Prince Hamdan walks past the service screens
+  hamdan: 1.0
+  people: true
+  tags:
+  - screen
+  - screens
+clip:ai-hc-13:
+  arab_people: true
+  desc: Prince Hamdan looks at a screen, close shot
+  hamdan: 1.0
+  people: true
+  tags:
+  - screen
+clip:ai-hc-14:
+  arab_people: null
+  desc: A screen with live staff on video
+  hamdan: 0.0
+  people: false
+  tags:
+  - computer
+  - screen
+clip:ai-hc-15:
+  arab_people: true
+  desc: Prince Hamdan tries a touch screen
+  hamdan: 0.75
+  people: true
+  tags:
+  - hand
+  - screen
+clip:ai-hc-16:
+  arab_people: true
+  desc: Scene at the new government service centre
+  hamdan: 0.0
+  people: true
+  tags:
+  - people
+  - screen
+clip:ai-hc-17:
+  arab_people: true
+  desc: Prince Hamdan is walked through the service centre
+  hamdan: 0.8
+  people: true
+  tags:
+  - desk
+  - people
+clip:ai-hc-18:
+  arab_people: true
+  desc: Prince Hamdan at the new government service centre
+  hamdan: 0.8
+  people: true
+  tags:
+  - people
+  - screen
+clip:ai-hc-19:
+  arab_people: true
+  desc: Officials explain a service to Prince Hamdan
+  hamdan: 0.8
+  people: true
+  tags:
+  - people
+clip:ai-hc-2:
+  arab_people: null
+  desc: Glass front of the service centre
+  hamdan: 0.0
+  people: false
+  tags:
+  - building
+clip:ai-hc-20:
+  arab_people: null
+  desc: A hand types on a payment keypad
+  hamdan: 0.0
+  people: false
+  tags:
+  - hand
+  - machine
+clip:ai-hc-21:
+  arab_people: true
+  desc: Prince Hamdan listens, hand on his chin
+  hamdan: 1.0
+  people: true
+  tags:
+  - hand
+clip:ai-hc-22:
+  arab_people: true
+  desc: Prince Hamdan listens to an official
+  hamdan: 0.8
+  people: true
+  tags:
+  - people
+clip:ai-hc-23:
+  arab_people: true
+  desc: Scene at the new government service centre
+  hamdan: 0.0
+  people: true
+  tags:
+  - people
+  - screen
+clip:ai-hc-24:
+  arab_people: true
+  desc: Prince Hamdan talks with officials at a desk
+  hamdan: 0.75
+  people: true
+  tags:
+  - desk
+  - people
+clip:ai-hc-25:
+  arab_people: true
+  desc: Scene at the new government service centre
+  hamdan: 0.0
+  people: true
+  tags:
+  - people
+  - screen
+clip:ai-hc-26:
+  arab_people: true
+  desc: Scene at the new government service centre
+  hamdan: 0.0
+  people: true
+  tags:
+  - people
+  - screen
+clip:ai-hc-27:
+  arab_people: true
+  desc: Scene at the new government service centre
+  hamdan: 0.0
+  people: true
+  tags:
+  - people
+  - screen
+clip:ai-hc-28:
+  arab_people: true
+  desc: Scene at the new government service centre
+  hamdan: 0.0
+  people: true
+  tags:
+  - people
+  - screen
+clip:ai-hc-29:
+  arab_people: true
+  desc: Prince Hamdan at a large touch screen
+  hamdan: 0.85
+  people: true
+  tags:
+  - screen
+clip:ai-hc-3:
+  arab_people: true
+  desc: Prince Hamdan and officials meet a small robot
+  hamdan: 0.85
+  people: true
+  tags:
+  - people
+clip:ai-hc-30:
+  arab_people: true
+  desc: Scene at the new government service centre
+  hamdan: 0.0
+  people: true
+  tags:
+  - people
+  - screen
+clip:ai-hc-31:
+  arab_people: true
+  desc: Scene at the new government service centre
+  hamdan: 0.0
+  people: true
+  tags:
+  - people
+  - screen
+clip:ai-hc-32:
+  arab_people: true
+  desc: Scene at the new government service centre
+  hamdan: 0.0
+  people: true
+  tags:
+  - people
+  - screen
+clip:ai-hc-33:
+  arab_people: true
+  desc: Scene at the new government service centre
+  hamdan: 0.0
+  people: true
+  tags:
+  - people
+  - screen
+clip:ai-hc-34:
+  arab_people: true
+  desc: Prince Hamdan at a payment machine
+  hamdan: 0.85
+  people: true
+  tags:
+  - machine
+clip:ai-hc-35:
+  arab_people: true
+  desc: Prince Hamdan talks with officials, close shot
+  hamdan: 1.0
+  people: true
+  tags:
+  - people
+clip:ai-hc-36:
+  arab_people: true
+  desc: Scene at the new government service centre
+  hamdan: 0.0
+  people: true
+  tags:
+  - people
+  - screen
+clip:ai-hc-37:
+  arab_people: true
+  desc: The service centre team listens to Prince Hamdan
+  hamdan: 0.8
+  people: true
+  tags:
+  - people
+clip:ai-hc-38:
+  arab_people: true
+  desc: Scene at the new government service centre
+  hamdan: 0.0
+  people: true
+  tags:
+  - people
+  - screen
+clip:ai-hc-39:
+  arab_people: true
+  desc: Prince Hamdan by the bill payment machines
+  hamdan: 1.0
+  people: true
+  tags:
+  - machine
+  - sign
+clip:ai-hc-4:
+  arab_people: true
+  desc: A small white robot by the entrance
+  hamdan: 0.85
+  people: true
+  tags:
+  - machine
+clip:ai-hc-40:
+  arab_people: true
+  desc: Scene at the new government service centre
+  hamdan: 0.0
+  people: true
+  tags:
+  - people
+  - screen
+clip:ai-hc-41:
+  arab_people: true
+  desc: Prince Hamdan arrives with officials
+  hamdan: 0.85
+  people: true
+  tags:
+  - people
+clip:ai-hc-5:
+  arab_people: true
+  desc: Prince Hamdan at the new government service centre
+  hamdan: 0.8
+  people: true
+  tags:
+  - people
+  - screen
+clip:ai-hc-6:
+  arab_people: true
+  desc: Prince Hamdan with officials inside the service centre
+  hamdan: 0.8
+  people: true
+  tags:
+  - people
+clip:ai-hc-7:
+  arab_people: true
+  desc: A small robot greets Prince Hamdan
+  hamdan: 0.8
+  people: true
+  tags:
+  - people
+clip:ai-hc-8:
+  arab_people: true
+  desc: Scene at the new government service centre
+  hamdan: 0.0
+  people: true
+  tags:
+  - people
+  - screen
+clip:ai-hc-9:
+  arab_people: true
+  desc: Scene at the new government service centre
+  hamdan: 0.0
+  people: true
+  tags:
+  - people
+  - screen
+clip:ai-mt-1:
+  arab_people: null
+  desc: Map of new rail lines
+  hamdan: 0.0
+  people: false
+  tags:
+  - map
+  - train
+clip:ai-mt-2:
+  arab_people: true
+  desc: Prince Hamdan at a rail project presentation
+  hamdan: 0.85
+  people: true
+  tags:
+  - train
+clip:ai-mt-3:
+  arab_people: null
+  desc: Dubai Creek with the skyline
+  hamdan: 0.0
+  people: false
+  tags:
+  - city
+  - skyline
+  - water
+clip:ai-mt-4:
+  arab_people: true
+  desc: Prince Hamdan inside a new metro carriage model
+  hamdan: 0.85
+  people: true
+  tags:
+  - train
+clip:ai-mt-5:
+  arab_people: null
+  desc: Model of a new metro train
+  hamdan: 0.0
+  people: false
+  tags:
+  - model
+  - train
+clip:ai-mt-6:
+  arab_people: true
+  desc: Prince Hamdan with the rail project team
+  hamdan: 0.85
+  people: true
+  tags:
+  - people
+  - train
+clip:ai-mt-7:
+  arab_people: true
+  desc: The rail team lines up in front of the new train
+  hamdan: 0.5
+  people: true
+  tags:
+  - people
+  - train
+clip:ai-r2-1:
+  arab_people: null
+  desc: The Museum of the Future
+  hamdan: 0.0
+  people: false
+  tags:
+  - building
+  - future
+  - museum
+clip:ai-r2-2:
+  arab_people: true
+  desc: Prince Hamdan looks up at a display
+  hamdan: 1.0
+  people: true
+  tags:
+  - museum
+clip:ai-r2-3:
+  arab_people: null
+  desc: Prince Hamdan drives his car
+  hamdan: 0.85
+  people: false
+  tags:
+  - car
+clip:ai-rb-1:
+  arab_people: true
+  desc: Prince Hamdan arrives at a world robotics competition
+  hamdan: 0.85
+  people: true
+  tags:
+  - people
+clip:ai-rb-10:
+  arab_people: true
+  desc: A speaker on the stage of the robotics competition
+  hamdan: 0.0
+  people: true
+  tags:
+  - podium
+  - speaker
+  - stage
+clip:ai-rb-11:
+  arab_people: true
+  desc: Scene at the world robotics competition arena
+  hamdan: 0.0
+  people: true
+  tags:
+  - audience
+  - stage
+clip:ai-rb-12:
+  arab_people: true
+  desc: Prince Hamdan seated in the front row
+  hamdan: 1.0
+  people: true
+  tags:
+  - audience
+clip:ai-rb-14:
+  arab_people: true
+  desc: Guests in the front rows listen
+  hamdan: 0.0
+  people: true
+  tags:
+  - audience
+clip:ai-rb-16:
+  arab_people: null
+  desc: The robotics competition logo on the arena screen
+  hamdan: 0.0
+  people: false
+  tags:
+  - hall
+  - stage
+clip:ai-rb-18:
+  arab_people: true
+  desc: Rows of students in team shirts
+  hamdan: 0.0
+  people: true
+  tags:
+  - audience
+  - crowd
+clip:ai-rb-2:
+  arab_people: true
+  desc: Prince Hamdan stands on the arena stage
+  hamdan: 0.83
+  people: true
+  tags:
+  - stage
+clip:ai-rb-20:
+  arab_people: true
+  desc: The arena seats packed under blue lights
+  hamdan: 0.0
+  people: true
+  tags:
+  - audience
+  - crowd
+  - hall
+clip:ai-rb-22:
+  arab_people: true
+  desc: Scene at the world robotics competition arena
+  hamdan: 0.0
+  people: true
+  tags:
+  - audience
+  - stage
+clip:ai-rb-24:
+  arab_people: true
+  desc: The arena with its glowing stage
+  hamdan: 0.0
+  people: true
+  tags:
+  - audience
+  - hall
+  - stage
+clip:ai-rb-27:
+  arab_people: true
+  desc: Prince Hamdan watches from the front row
+  hamdan: 1.0
+  people: true
+  tags:
+  - audience
+clip:ai-rb-29:
+  arab_people: true
+  desc: Front-row guests listen to a speech
+  hamdan: 0.0
+  people: true
+  tags:
+  - audience
+  - people
+clip:ai-rb-3:
+  arab_people: true
+  desc: Prince Hamdan on the stage, wide shot
+  hamdan: 0.8
+  people: true
+  tags:
+  - stage
+clip:ai-rb-31:
+  arab_people: true
+  desc: Scene at the world robotics competition arena
+  hamdan: 0.0
+  people: true
+  tags:
+  - audience
+  - stage
+clip:ai-rb-33:
+  arab_people: true
+  desc: Students in team shirts in the arena
+  hamdan: 0.0
+  people: true
+  tags:
+  - audience
+  - crowd
+clip:ai-rb-35:
+  arab_people: true
+  desc: Scene at the world robotics competition arena
+  hamdan: 0.0
+  people: true
+  tags:
+  - audience
+  - stage
+clip:ai-rb-4:
+  arab_people: true
+  desc: The big arena with the stage lights
+  hamdan: 0.0
+  people: true
+  tags:
+  - audience
+  - hall
+  - stage
+clip:ai-rb-41:
+  arab_people: true
+  desc: Guests in the front rows of the arena
+  hamdan: 0.0
+  people: true
+  tags:
+  - audience
+  - people
+clip:ai-rb-44:
+  arab_people: true
+  desc: Prince Hamdan talks quietly with an official
+  hamdan: 1.0
+  people: true
+  tags:
+  - audience
+clip:ai-rb-45:
+  arab_people: true
+  desc: Rows of the audience in the arena
+  hamdan: 0.0
+  people: true
+  tags:
+  - audience
+  - crowd
+clip:ai-rb-47:
+  arab_people: true
+  desc: The packed arena seen from the back
+  hamdan: 0.0
+  people: true
+  tags:
+  - audience
+  - crowd
+  - hall
+clip:ai-rb-49:
+  arab_people: true
+  desc: Prince Hamdan seated with an official
+  hamdan: 0.8
+  people: true
+  tags:
+  - audience
+clip:ai-rb-5:
+  arab_people: true
+  desc: Scene at the world robotics competition arena
+  hamdan: 0.0
+  people: true
+  tags:
+  - audience
+  - stage
+clip:ai-rb-50:
+  arab_people: true
+  desc: Scene at the world robotics competition arena
+  hamdan: 0.0
+  people: true
+  tags:
+  - audience
+  - stage
+clip:ai-rb-53:
+  arab_people: true
+  desc: Prince Hamdan among the front-row guests
+  hamdan: 0.83
+  people: true
+  tags:
+  - audience
+  - people
+clip:ai-rb-6:
+  arab_people: true
+  desc: Arena packed with students
+  hamdan: 0.0
+  people: true
+  tags:
+  - audience
+  - crowd
+  - hall
+clip:ai-rb-7:
+  arab_people: true
+  desc: A student team on stage with its flag
+  hamdan: 0.0
+  people: true
+  tags:
+  - flag
+  - stage
+clip:ai-rb-8:
+  arab_people: true
+  desc: The stage under blue lights
+  hamdan: 0.0
+  people: true
+  tags:
+  - stage
+clip:ai-rb-9:
+  arab_people: true
+  desc: The arena stage under red and blue lights
+  hamdan: 0.0
+  people: true
+  tags:
+  - audience
+  - hall
+  - stage
+clip:ai-rt-1:
+  arab_people: null
+  desc: AI Retreat welcome sign
+  hamdan: 0.0
+  people: false
+  tags:
+  - future
+  - museum
+  - sign
+clip:ai-rt-10:
+  arab_people: true
+  desc: Speakers seated on the retreat stage
+  hamdan: 0.0
+  people: true
+  tags:
+  - meeting
+  - speaker
+clip:ai-rt-11:
+  arab_people: true
+  desc: Wide view of the retreat session
+  hamdan: 0.0
+  people: true
+  tags:
+  - hall
+  - meeting
+  - people
+clip:ai-rt-12:
+  arab_people: true
+  desc: Prince Hamdan walks into the retreat session
+  hamdan: 0.85
+  people: true
+  tags:
+  - meeting
+  - people
+clip:ai-rt-13:
+  arab_people: true
+  desc: Prince Hamdan in conversation at the retreat
+  hamdan: 1.0
+  people: true
+  tags:
+  - meeting
+clip:ai-rt-14:
+  arab_people: true
+  desc: Prince Hamdan with officials, seen from behind
+  hamdan: 0.85
+  people: true
+  tags:
+  - meeting
+  - people
+clip:ai-rt-15:
+  arab_people: true
+  desc: Guests listening at the retreat
+  hamdan: 0.0
+  people: true
+  tags:
+  - meeting
+  - people
+clip:ai-rt-16:
+  arab_people: true
+  desc: Prince Hamdan talks with a guest at the retreat
+  hamdan: 0.85
+  people: true
+  tags:
+  - meeting
+clip:ai-rt-17:
+  arab_people: true
+  desc: Prince Hamdan with an official at the retreat
+  hamdan: 1.0
+  people: true
+  tags:
+  - meeting
+clip:ai-rt-18:
+  arab_people: true
+  desc: Signing at the retreat desk
+  hamdan: 0.85
+  people: true
+  tags:
+  - desk
+  - signing
+clip:ai-rt-19:
+  arab_people: true
+  desc: Prince Hamdan with officers and officials at the retreat
+  hamdan: 1.0
+  people: true
+  tags:
+  - meeting
+  - people
+clip:ai-rt-2:
+  arab_people: null
+  desc: Entrance of the AI Retreat venue
+  hamdan: 0.0
+  people: false
+  tags:
+  - building
+  - future
+  - sign
+clip:ai-rt-3:
+  arab_people: true
+  desc: Prince Hamdan seated at the AI Retreat
+  hamdan: 1.0
+  people: true
+  tags:
+  - council
+  - meeting
+clip:ai-rt-4:
+  arab_people: true
+  desc: Officials seated in a circle at the retreat
+  hamdan: 0.0
+  people: true
+  tags:
+  - meeting
+  - people
+clip:ai-rt-5:
+  arab_people: true
+  desc: Prince Hamdan speaks with an official at the retreat
+  hamdan: 0.85
+  people: true
+  tags:
+  - meeting
+clip:ai-rt-6:
+  arab_people: true
+  desc: A guest with headphones listens at the retreat
+  hamdan: 0.0
+  people: true
+  tags:
+  - meeting
+  - people
+clip:ai-rt-7:
+  arab_people: true
+  desc: The full retreat circle with the AI Retreat sign
+  hamdan: 0.0
+  people: true
+  tags:
+  - meeting
+  - people
+clip:ai-rt-8:
+  arab_people: true
+  desc: Retreat stage with the round platform
+  hamdan: 0.0
+  people: true
+  tags:
+  - hall
+  - meeting
+clip:ai-rt-9:
+  arab_people: true
+  desc: Government chiefs listen at the retreat
+  hamdan: 0.0
+  people: true
+  tags:
+  - meeting
+  - people
 clip:as23-aircraft:
   arab_people: true
   desc: Prince Hamdan is shown an aircraft cabin at the airshow
@@ -3090,6 +4194,7 @@ clip:dr-dw-k:
 clip:dr-dw-l:
   arab_people: false
   desc: A child walks with the crowd
+  hamdan: 0.0
   people: true
   tags:
   - children
@@ -3100,6 +4205,7 @@ clip:dr-dw-l:
 clip:dr-dw-m:
   arab_people: false
   desc: Runners under a road sign on the motorway
+  hamdan: 0.0
   people: true
   tags:
   - runners
@@ -3393,6 +4499,7 @@ clip:dr-fk-h:
 clip:dr-gj-aerial:
   arab_people: false
   desc: A packed park during the fitness month
+  hamdan: 0.0
   people: true
   tags:
   - crowd
@@ -3772,6 +4879,18 @@ clip:dr-h-ys1:
   - runners
   text_graphic: false
 clip:dr-h-ys1-k:
+  arab_people: true
+  desc: Prince Hamdan bends down beside Rio in his racing chair at the start line
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - boy
+  - chair
+  - start
+  - runners
+  text_graphic: false
+clip:dr-h-ys1-k2:
   arab_people: true
   desc: Prince Hamdan bends down beside Rio in his racing chair at the start line
   hamdan: 0.9
@@ -5211,6 +6330,16 @@ clip:dr-ys-hand:
   - chair
   text_graphic: false
 clip:dr-ys-hand-k:
+  arab_people: true
+  desc: Prince Hamdan reaches out to Rio
+  hamdan: 0.9
+  people: true
+  tags:
+  - hamdan
+  - boy
+  - chair
+  text_graphic: false
+clip:dr-ys-hand-k2:
   arab_people: true
   desc: Prince Hamdan reaches out to Rio
   hamdan: 0.9
@@ -11252,6 +12381,1064 @@ clip:rescue-b-wide:
   - truck
   - vehicle
   text_graphic: false
+clip:rf-an-20k:
+  arab_people: null
+  desc: 'Animation: 20,000 reef modules spread on the sea floor'
+  hamdan: 0.0
+  people: false
+  tags:
+  - boats
+  - floor
+  - reef
+  - sea
+  - thousands
+  - water
+clip:rf-an-burj:
+  arab_people: null
+  desc: Aerial view of the Burj Al Arab and the beach
+  hamdan: 0.0
+  people: false
+  tags:
+  - beach
+  - burj
+  - coast
+  - dubai
+  - hotel
+  - sea
+  - water
+clip:rf-an-fishmod:
+  arab_people: null
+  desc: Animated reef module with fish moving in
+  hamdan: 0.0
+  people: false
+  tags:
+  - concrete
+  - fish
+  - frame
+  - reef
+clip:rf-an-fishschool:
+  arab_people: null
+  desc: School of fish underwater
+  hamdan: 0.0
+  people: false
+  tags:
+  - fish
+  - ocean
+  - sea
+  - underwater
+  - water
+clip:rf-an-grid:
+  arab_people: null
+  desc: Animated rows of reef modules, turtles swim by
+  hamdan: 0.0
+  people: false
+  tags:
+  - concrete
+  - frames
+  - reef
+  - turtles
+clip:rf-an-hatch1:
+  arab_people: null
+  desc: Young turtles crawling on the sand
+  hamdan: 0.0
+  people: false
+  tags:
+  - baby
+  - beach
+  - sand
+  - turtles
+clip:rf-an-hatch2:
+  arab_people: null
+  desc: Young turtle on the beach heading for the sea
+  hamdan: 0.0
+  people: false
+  tags:
+  - beach
+  - sand
+  - sea
+  - turtles
+clip:rf-an-horizon:
+  arab_people: null
+  desc: Open sea to the horizon
+  hamdan: 0.0
+  people: false
+  tags:
+  - horizon
+  - ocean
+  - sea
+  - water
+clip:rf-an-phases:
+  arab_people: null
+  desc: Animated map of the planned reef zones off the Dubai coast
+  hamdan: 0.0
+  people: false
+  tags:
+  - coast
+  - islands
+  - map
+  - palm
+  - reef
+  - sea
+  - water
+clip:rf-an-pitch1:
+  arab_people: null
+  desc: 'Animation: one football pitch on a block of sea'
+  hamdan: 0.0
+  people: false
+  tags:
+  - field
+  - football
+  - grass
+  - pitch
+  - sea
+  - water
+clip:rf-an-pitch2:
+  arab_people: null
+  desc: 'Animation: 85,000 football fields over the sea'
+  hamdan: 0.0
+  people: false
+  tags:
+  - fields
+  - football
+  - reef
+  - sea
+  - water
+clip:rf-an-pitch3:
+  arab_people: null
+  desc: 'Animation: grid of football fields laid over the reef area'
+  hamdan: 0.0
+  people: false
+  tags:
+  - fields
+  - football
+  - grass
+  - sea
+  - water
+clip:rf-an-sea1:
+  arab_people: null
+  desc: Calm open sea surface
+  hamdan: 0.0
+  people: false
+  tags:
+  - blue
+  - ocean
+  - sea
+  - water
+  - waves
+clip:rf-an-sun:
+  arab_people: null
+  desc: Sun shining over the sea
+  hamdan: 0.0
+  people: false
+  tags:
+  - ocean
+  - sea
+  - sun
+  - water
+  - waves
+clip:rf-an-turtle-uw:
+  arab_people: null
+  desc: Sea turtle resting on the sea floor
+  hamdan: 0.0
+  people: false
+  tags:
+  - floor
+  - ocean
+  - sea
+  - turtle
+  - underwater
+clip:rf-an-waves:
+  arab_people: null
+  desc: Waves breaking on the open sea
+  hamdan: 0.0
+  people: false
+  tags:
+  - foam
+  - ocean
+  - sea
+  - water
+  - waves
+clip:rf-cl-bags:
+  arab_people: false
+  desc: Divers hand up bags of rubbish pulled from the sea
+  hamdan: 0.0
+  people: true
+  tags:
+  - bags
+  - divers
+  - sea
+  - trash
+  - water
+clip:rf-cl-dive:
+  arab_people: false
+  desc: Diver searching the murky sea floor for rubbish
+  hamdan: 0.0
+  people: true
+  tags:
+  - diver
+  - floor
+  - sea
+  - underwater
+clip:rf-cl-mask:
+  arab_people: false
+  desc: Clean-up diver underwater
+  hamdan: 0.0
+  people: true
+  tags:
+  - diver
+  - scuba
+  - sea
+  - underwater
+clip:rf-cl-shore:
+  arab_people: false
+  desc: Divers and volunteers at the waterfront before a sea clean-up
+  hamdan: 0.0
+  people: true
+  tags:
+  - crowd
+  - divers
+  - marina
+  - sea
+  - water
+clip:rf-cl-trash:
+  arab_people: false
+  desc: Diver stuffs rubbish from the sea floor into a net bag
+  hamdan: 0.0
+  people: true
+  tags:
+  - bag
+  - diver
+  - sea
+  - trash
+  - underwater
+clip:rf-dd-talk:
+  arab_people: false
+  desc: A tour of the Deep Dive Dubai control room
+  hamdan: 0.0
+  people: true
+  tags:
+  - pool
+clip:rf-dd-walk:
+  arab_people: false
+  desc: Visitors walk beside the pool at Deep Dive Dubai
+  hamdan: 0.0
+  people: true
+  tags:
+  - pool
+clip:rf-dm-aerial:
+  arab_people: null
+  desc: 'Aerial: barge lowering modules at sea'
+  hamdan: 0.0
+  people: false
+  tags:
+  - aerial
+  - boat
+  - crane
+  - sea
+clip:rf-dm-barge:
+  arab_people: null
+  desc: Barge loaded with reef modules
+  hamdan: 0.0
+  people: false
+  tags:
+  - boat
+  - reef
+  - sea
+clip:rf-dm-boat2:
+  arab_people: null
+  desc: Speedboat cruising on a calm sea
+  hamdan: 0.0
+  people: false
+  tags:
+  - boat
+  - sea
+  - speedboat
+  - water
+clip:rf-dm-boats:
+  arab_people: null
+  desc: Boats and a barge on the open sea
+  hamdan: 0.0
+  people: false
+  tags:
+  - boats
+  - sea
+  - ship
+  - water
+clip:rf-dm-bubbles:
+  arab_people: null
+  desc: Divers drop into the water in a cloud of bubbles
+  hamdan: 0.0
+  people: false
+  tags:
+  - bubbles
+  - divers
+  - sea
+  - underwater
+  - water
+clip:rf-dm-coral:
+  arab_people: null
+  desc: Coral and fish on a reef module
+  hamdan: 0.0
+  people: false
+  tags:
+  - coral
+  - fish
+  - reef
+  - sea
+  - underwater
+clip:rf-dm-crane:
+  arab_people: null
+  desc: Crane ship and speedboat at sea
+  hamdan: 0.0
+  people: false
+  tags:
+  - boat
+  - crane
+  - sea
+  - ship
+  - speedboat
+clip:rf-dm-diver2:
+  arab_people: false
+  desc: Diver swims along the reef module
+  hamdan: 0.0
+  people: true
+  tags:
+  - diver
+  - reef
+  - underwater
+clip:rf-dm-divers:
+  arab_people: false
+  desc: Divers swim by a coral-covered module
+  hamdan: 0.0
+  people: true
+  tags:
+  - coral
+  - divers
+  - reef
+  - underwater
+clip:rf-dm-floor:
+  arab_people: null
+  desc: New reef modules standing on the sea floor
+  hamdan: 0.0
+  people: false
+  tags:
+  - floor
+  - sand
+  - sea
+  - underwater
+clip:rf-dm-gaze:
+  arab_people: true
+  desc: Sheikh Hamdan on the boat looks out at the sea
+  hamdan: 0.9
+  people: true
+  tags:
+  - boat
+  - deck
+  - prince
+  - sea
+  - water
+clip:rf-dm-growth:
+  arab_people: null
+  desc: Coral growing on an old reef module
+  hamdan: 0.0
+  people: false
+  tags:
+  - coral
+  - fish
+  - reef
+  - underwater
+clip:rf-dm-hang:
+  arab_people: null
+  desc: Reef module hanging over the sea beside a barge
+  hamdan: 0.0
+  people: false
+  tags:
+  - crane
+  - sea
+clip:rf-dm-hdive:
+  arab_people: true
+  desc: Sheikh Hamdan in scuba gear underwater by the reef
+  hamdan: 0.5
+  people: true
+  tags:
+  - diver
+  - prince
+  - reef
+  - scuba
+  - underwater
+clip:rf-dm-lower:
+  arab_people: null
+  desc: Reef module lowered into the sea
+  hamdan: 0.0
+  people: false
+  tags:
+  - crane
+  - reef
+  - sea
+  - water
+clip:rf-dm-sink:
+  arab_people: null
+  desc: Module sinking through blue water
+  hamdan: 0.0
+  people: false
+  tags:
+  - sea
+  - underwater
+  - water
+clip:rf-dm-skyline:
+  arab_people: null
+  desc: Dubai skyline seen from the sea
+  hamdan: 0.0
+  people: false
+  tags:
+  - city
+  - coast
+  - dubai
+  - sea
+  - skyline
+  - towers
+  - water
+clip:rf-dm-skywalk:
+  arab_people: true
+  desc: Dubai skyline from the sea, then Sheikh Hamdan walks with Ray Dalio and the reef team
+  hamdan: 0.5
+  people: true
+  tags:
+  - city
+  - dubai
+  - hamdan
+  - prince
+  - sea
+  - skyline
+  - walk
+  - walking
+clip:rf-dm-speedboat:
+  arab_people: null
+  desc: Aerial view of a speedboat on the sea
+  hamdan: 0.0
+  people: false
+  tags:
+  - aerial
+  - boat
+  - sea
+  - speedboat
+  - water
+clip:rf-dm-splash:
+  arab_people: null
+  desc: Reef module splashes into the water
+  hamdan: 0.0
+  people: false
+  tags:
+  - sea
+  - water
+clip:rf-dm-talk:
+  arab_people: true
+  desc: Sheikh Hamdan in a wetsuit talks with Ray Dalio on the boat
+  hamdan: 0.8
+  people: true
+  tags:
+  - boat
+  - deck
+  - divers
+  - prince
+  - sea
+  - wetsuit
+clip:rf-dm-team:
+  arab_people: true
+  desc: Sheikh Hamdan with Ray Dalio and divers on a boat
+  hamdan: 0.8
+  people: true
+  tags:
+  - boat
+  - deck
+  - divers
+  - prince
+  - sea
+  - team
+  - wetsuit
+clip:rf-dm-twodivers:
+  arab_people: false
+  desc: Two divers swim down to the reef
+  hamdan: 0.0
+  people: true
+  tags:
+  - divers
+  - scuba
+  - sea
+  - underwater
+clip:rf-dm-uw1:
+  arab_people: null
+  desc: Reef module resting on the sea floor
+  hamdan: 0.0
+  people: false
+  tags:
+  - floor
+  - sand
+  - sea
+  - underwater
+clip:rf-dm-uw2:
+  arab_people: null
+  desc: Reef module on the sandy sea floor
+  hamdan: 0.0
+  people: false
+  tags:
+  - floor
+  - sand
+  - sea
+  - underwater
+clip:rf-dm-wave:
+  arab_people: null
+  desc: Crane barge seen over the waves
+  hamdan: 0.0
+  people: false
+  tags:
+  - crane
+  - sea
+  - water
+  - waves
+clip:rf-dm-worker:
+  arab_people: false
+  desc: Worker on top of a giant reef module
+  hamdan: 0.0
+  people: true
+  tags:
+  - concrete
+  - crane
+  - reef
+  - worker
+clip:rf-dm-yard:
+  arab_people: null
+  desc: Aerial view of reef modules in a yard
+  hamdan: 0.0
+  people: false
+  tags:
+  - aerial
+  - concrete
+  - reef
+clip:rf-gb-angel:
+  arab_people: null
+  desc: Angelfish by the coral-covered reef
+  hamdan: 0.0
+  people: false
+  tags:
+  - coral
+  - fish
+  - reef
+  - underwater
+clip:rf-gb-diver:
+  arab_people: false
+  desc: Diver checks the reef and gives an OK sign
+  hamdan: 0.0
+  people: true
+  tags:
+  - coral
+  - diver
+  - fish
+  - reef
+  - underwater
+clip:rf-gb-fish2:
+  arab_people: null
+  desc: Fish among the corals
+  hamdan: 0.0
+  people: false
+  tags:
+  - coral
+  - fish
+  - reef
+  - underwater
+clip:rf-gb-frame:
+  arab_people: null
+  desc: Fish swim around a coral-covered frame
+  hamdan: 0.0
+  people: false
+  tags:
+  - coral
+  - fish
+  - reef
+  - underwater
+clip:rf-gb-orange:
+  arab_people: null
+  desc: Orange coral covering the reef
+  hamdan: 0.0
+  people: false
+  tags:
+  - coral
+  - reef
+  - underwater
+clip:rf-gb-school:
+  arab_people: null
+  desc: School of fish over the reef
+  hamdan: 0.0
+  people: false
+  tags:
+  - coral
+  - fish
+  - reef
+  - underwater
+clip:rf-gs-bleach:
+  arab_people: null
+  desc: Pale, bleached-looking branching coral
+  hamdan: 0.0
+  people: false
+  tags:
+  - coral
+  - reef
+  - underwater
+clip:rf-gs-coastbeach:
+  arab_people: null
+  desc: Waves on a Dubai beach, then the Dubai skyline from the sea
+  hamdan: 0.0
+  people: false
+  tags:
+  - beach
+  - city
+  - coast
+  - dubai
+  - sea
+  - skyline
+  - water
+  - waves
+clip:rf-gs-lab:
+  arab_people: null
+  desc: Coral growing in a lab tank in Dubai
+  hamdan: 0.0
+  people: false
+  tags:
+  - coral
+  - reef
+  - tank
+clip:rf-gs-pink:
+  arab_people: null
+  desc: Healthy pink coral with fish
+  hamdan: 0.0
+  people: false
+  tags:
+  - coral
+  - fish
+  - reef
+  - underwater
+clip:rf-gs-table:
+  arab_people: null
+  desc: Table corals on a reef
+  hamdan: 0.0
+  people: false
+  tags:
+  - coral
+  - reef
+  - sea
+  - underwater
+clip:rf-gs-zoa:
+  arab_people: null
+  desc: Close-up of colourful coral polyps
+  hamdan: 0.0
+  people: false
+  tags:
+  - coral
+  - reef
+clip:rf-pb-hulk:
+  arab_people: null
+  desc: The stripped hull of the old liner
+  hamdan: 0.0
+  people: false
+  tags:
+  - ship
+clip:rf-pb-inside:
+  arab_people: null
+  desc: Inside the empty hull of the old ship
+  hamdan: 0.0
+  people: false
+  tags:
+  - metal
+  - ship
+clip:rf-pb-pier:
+  arab_people: null
+  desc: An old ocean liner at the pier before becoming an artificial reef
+  hamdan: 0.0
+  people: false
+  tags:
+  - pier
+  - port
+  - ship
+clip:rf-pb-reef1:
+  arab_people: null
+  desc: Fish over a rocky reef
+  hamdan: 0.0
+  people: false
+  tags:
+  - coral
+  - fish
+  - reef
+  - underwater
+clip:rf-pb-reef2:
+  arab_people: null
+  desc: Parrotfish among corals
+  hamdan: 0.0
+  people: false
+  tags:
+  - coral
+  - fish
+  - reef
+  - underwater
+clip:rf-pb-reef3:
+  arab_people: null
+  desc: Fish swim around branching coral
+  hamdan: 0.0
+  people: false
+  tags:
+  - coral
+  - fish
+  - reef
+  - underwater
+clip:rf-pb-sink:
+  arab_people: null
+  desc: The old ship sinks to become an artificial reef
+  hamdan: 0.0
+  people: false
+  tags:
+  - sea
+  - ship
+clip:rf-pb-tow:
+  arab_people: null
+  desc: Tugs tow the old liner out to be sunk as a reef
+  hamdan: 0.0
+  people: false
+  tags:
+  - boat
+  - port
+  - ship
+clip:rf-pb-uw:
+  arab_people: null
+  desc: Fish gather under a sunken ledge
+  hamdan: 0.0
+  people: false
+  tags:
+  - fish
+  - reef
+  - underwater
+clip:rf-sun-beach:
+  arab_people: null
+  desc: Rescued turtle crawls over wet sand to the sea
+  hamdan: 0.0
+  people: false
+  tags:
+  - beach
+  - sand
+  - sea
+  - turtle
+  - water
+clip:rf-sun-box:
+  arab_people: null
+  desc: Rescued turtle in a release crate on the sand
+  hamdan: 0.0
+  people: false
+  tags:
+  - beach
+  - sand
+  - turtle
+clip:rf-sun-hold:
+  arab_people: null
+  desc: Vet holds a young turtle
+  hamdan: 0.0
+  people: false
+  tags:
+  - hands
+  - turtle
+clip:rf-sun-measure:
+  arab_people: null
+  desc: Vet measures a rescued turtle
+  hamdan: 0.0
+  people: false
+  tags:
+  - turtle
+clip:rf-sun-pool:
+  arab_people: false
+  desc: Carers tend turtles at a rehab pool
+  hamdan: 0.0
+  people: true
+  tags:
+  - pool
+  - tank
+  - turtle
+  - water
+clip:rf-sun-pool2:
+  arab_people: false
+  desc: Carer feeds turtles in a rehab pool
+  hamdan: 0.0
+  people: true
+  tags:
+  - pool
+  - tank
+  - turtle
+  - water
+clip:rf-sun-port:
+  arab_people: null
+  desc: Turtle seen through a tank porthole
+  hamdan: 0.0
+  people: false
+  tags:
+  - tank
+  - turtle
+clip:rf-sun-sand:
+  arab_people: null
+  desc: Rescued turtle crawls on the sand
+  hamdan: 0.0
+  people: false
+  tags:
+  - beach
+  - sand
+  - turtle
+clip:rf-sun-scale:
+  arab_people: null
+  desc: Young turtle weighed on a scale
+  hamdan: 0.0
+  people: false
+  tags:
+  - turtle
+clip:rf-sun-shell:
+  arab_people: null
+  desc: Close-up of a sea turtle shell
+  hamdan: 0.0
+  people: false
+  tags:
+  - shell
+  - turtle
+clip:rf-sun-tank1:
+  arab_people: null
+  desc: Turtle swims in a rehab tank
+  hamdan: 0.0
+  people: false
+  tags:
+  - swimming
+  - tank
+  - turtle
+  - water
+clip:rf-sun-tank2:
+  arab_people: null
+  desc: Turtles swimming in a recovery tank
+  hamdan: 0.0
+  people: false
+  tags:
+  - swimming
+  - tank
+  - turtle
+  - water
+clip:rf-sun-tanks:
+  arab_people: false
+  desc: Rows of turtle rehab tanks
+  hamdan: 0.0
+  people: true
+  tags:
+  - pool
+  - tanks
+  - turtle
+  - water
+clip:rf-sun-wave:
+  arab_people: null
+  desc: Turtle swims out into the surf
+  hamdan: 0.0
+  people: false
+  tags:
+  - beach
+  - sea
+  - turtle
+  - water
+  - waves
+clip:rf-tv-aerial:
+  arab_people: null
+  desc: 'Aerial: tug pulls a barge of reef modules'
+  hamdan: 0.0
+  people: false
+  tags:
+  - aerial
+  - boat
+  - sea
+clip:rf-tv-banner:
+  arab_people: null
+  desc: Barge side with modules and banner
+  hamdan: 0.0
+  people: false
+  tags:
+  - banner
+  - sea
+clip:rf-tv-barge1:
+  arab_people: null
+  desc: Barge carrying reef modules at sea
+  hamdan: 0.0
+  people: false
+  tags:
+  - boat
+  - sea
+clip:rf-tv-barge2:
+  arab_people: null
+  desc: Barge full of reef modules on the sea
+  hamdan: 0.0
+  people: false
+  tags:
+  - sea
+clip:rf-tv-crane:
+  arab_people: null
+  desc: Crane barge with modules at sea
+  hamdan: 0.0
+  people: false
+  tags:
+  - crane
+  - sea
+clip:rf-tv-deck:
+  arab_people: null
+  desc: Reef modules on a barge deck seen from above
+  hamdan: 0.0
+  people: false
+  tags:
+  - concrete
+  - deck
+  - reef
+clip:rf-tv-drop:
+  arab_people: null
+  desc: Reef module lowered into the sea
+  hamdan: 0.0
+  people: false
+  tags:
+  - crane
+  - sea
+  - water
+clip:rf-tv-lower:
+  arab_people: null
+  desc: Module lowered beside the barge
+  hamdan: 0.0
+  people: false
+  tags:
+  - crane
+  - sea
+clip:rf-tv-side:
+  arab_people: null
+  desc: Barge with reef modules and a Dubai Reef banner
+  hamdan: 0.0
+  people: false
+  tags:
+  - banner
+  - crane
+  - sea
+clip:rf-tv-skyline:
+  arab_people: null
+  desc: Reef barge at sea with the Dubai skyline behind
+  hamdan: 0.0
+  people: false
+  tags:
+  - city
+  - dubai
+  - sea
+  - skyline
+  - towers
+clip:rf-tv-swing:
+  arab_people: null
+  desc: Reef module hanging over the sea
+  hamdan: 0.0
+  people: false
+  tags:
+  - crane
+  - sea
+  - water
+clip:rf-tv-tilt:
+  arab_people: null
+  desc: Crane barge loaded with modules
+  hamdan: 0.0
+  people: false
+  tags:
+  - crane
+  - sea
+clip:rf-tv-water:
+  arab_people: null
+  desc: Crane barge seen from the water
+  hamdan: 0.0
+  people: false
+  tags:
+  - crane
+  - sea
+  - water
+clip:rf-wa-barge:
+  arab_people: null
+  desc: Crane barge heading out to sea
+  hamdan: 0.0
+  people: false
+  tags:
+  - boat
+  - crane
+  - sea
+clip:rf-wa-grid:
+  arab_people: null
+  desc: Thousands of reef modules in rows, from above
+  hamdan: 0.0
+  people: false
+  tags:
+  - concrete
+  - reef
+  - thousands
+clip:rf-wa-grown:
+  arab_people: null
+  desc: Reef module covered in coral years later
+  hamdan: 0.0
+  people: false
+  tags:
+  - coral
+  - reef
+  - underwater
+clip:rf-wa-mod:
+  arab_people: null
+  desc: A reef module standing on the sand
+  hamdan: 0.0
+  people: false
+  tags:
+  - concrete
+  - reef
+  - sand
+clip:rf-wa-port:
+  arab_people: null
+  desc: Port crane loading reef modules
+  hamdan: 0.0
+  people: false
+  tags:
+  - crane
+  - port
+  - ship
+clip:rf-wa-sink:
+  arab_people: null
+  desc: Reef module sinks under the surface
+  hamdan: 0.0
+  people: false
+  tags:
+  - sea
+  - underwater
+  - water
+clip:rf-wa-uw1:
+  arab_people: null
+  desc: Reef modules on the sea floor
+  hamdan: 0.0
+  people: false
+  tags:
+  - floor
+  - reef
+  - sand
+  - sea
+  - underwater
+clip:rf-wa-uw2:
+  arab_people: null
+  desc: Bare reef modules on the sand
+  hamdan: 0.0
+  people: false
+  tags:
+  - floor
+  - reef
+  - sand
+  - sea
+  - underwater
+clip:rf-wa-yard:
+  arab_people: null
+  desc: Reef modules loaded at the quay
+  hamdan: 0.0
+  people: false
+  tags:
+  - crane
+  - port
 clip:rider:
   arab_people: false
   desc: A person in red walks across a street.
@@ -12267,6 +14454,16 @@ sb-11087451:
   - value
   - wealth
   text_graphic: false
+sb-11100822:
+  arab_people: true
+  desc: 'Stock: Gulf man in red ghutra uses his smartphone at home (NOT Hamdan)'
+  people: true
+  tags:
+  - home
+  - man
+  - phone
+  - smartphone
+  - smile
 sb-11101005:
   arab_people: true
   desc: Three women in traditional dress look at phones.
@@ -12331,6 +14528,15 @@ sb-11113070:
   - table
   - woman
   text_graphic: false
+sb-11117370:
+  arab_people: null
+  desc: 'Stock: long corridor of computer racks in a data centre'
+  people: false
+  tags:
+  - computer
+  - data
+  - machine
+  - office
 sb-11118269:
   arab_people: null
   desc: A swimmer training in open water
@@ -12360,6 +14566,26 @@ sb-111207:
   - silhouette
   - sky
   text_graphic: false
+sb-11125366:
+  arab_people: true
+  desc: 'Stock: Arab businesswoman works on a laptop'
+  people: true
+  tags:
+  - computer
+  - desk
+  - laptop
+  - office
+  - woman
+sb-11125426:
+  arab_people: true
+  desc: 'Stock: Emirati man works on a laptop in an office (NOT Hamdan)'
+  people: true
+  tags:
+  - computer
+  - desk
+  - laptop
+  - man
+  - office
 sb-111435:
   arab_people: false
   desc: Airliner wing above the clouds
@@ -12740,6 +14966,15 @@ sb-346728802:
   - indian
   - wind
   text_graphic: false
+sb-346746299:
+  arab_people: null
+  desc: 'Stock: stacks of paper files and folders'
+  people: false
+  tags:
+  - documents
+  - office
+  - paper
+  - papers
 sb-346750383:
   arab_people: false
   desc: Woman in hijab works at desk
@@ -13036,6 +15271,15 @@ sb-347396525:
   - trees
   - wall
   text_graphic: false
+sb-347420163:
+  arab_people: true
+  desc: 'Stock: Gulf man cheers at his smartphone (NOT Hamdan)'
+  people: true
+  tags:
+  - celebrating
+  - man
+  - phone
+  - smartphone
 sb-347446633:
   arab_people: null
   desc: A close-up view of several UAE Dirham banknotes fanned out on a surface.
@@ -13053,6 +15297,14 @@ sb-347446633:
   - text
   - uae
   text_graphic: false
+sb-347457118:
+  arab_people: true
+  desc: 'Stock: Arab student learns on a laptop'
+  people: true
+  tags:
+  - computer
+  - desk
+  - laptop
 sb-347462199:
   arab_people: false
   desc: View from an airliner window above the clouds
@@ -13123,6 +15375,15 @@ sb-347583666:
   - streets
   - urban
   text_graphic: false
+sb-347604792:
+  arab_people: null
+  desc: 'Stock: hands protect a young plant in the soil'
+  people: false
+  tags:
+  - hand
+  - hands
+  - plant
+  - tree
 sb-347615179:
   arab_people: false
   desc: Silhouette of a woman in a stone room
@@ -13482,6 +15743,16 @@ sb-348542842:
   - thumb
   - white surface
   text_graphic: false
+sb-348571898:
+  arab_people: true
+  desc: 'Stock: smiling Gulf man in ghutra reads his smartphone in an office (NOT Hamdan)'
+  people: true
+  tags:
+  - man
+  - office
+  - phone
+  - smartphone
+  - smile
 sb-348583414:
   arab_people: null
   desc: Luxury cars in a wooden garage
@@ -13700,6 +15971,15 @@ sb-349016837:
   - machine
   - money
   text_graphic: false
+sb-349087478:
+  arab_people: null
+  desc: 'Stock: a patient hand with an IV line in a hospital bed'
+  people: false
+  tags:
+  - hand
+  - hospital
+  - patient
+  - patients
 sb-349101766:
   arab_people: null
   desc: Dubai skyline at night with lights
@@ -13876,6 +16156,13 @@ sb-349387659:
   - water
   - waves
   text_graphic: false
+sb-3500520:
+  arab_people: null
+  desc: 'Stock: a small drone flying in a grey sky'
+  people: false
+  tags:
+  - machine
+  - sky
 sb-351663949:
   arab_people: null
   desc: Aerial view of a big container ship crossing the sea
@@ -13905,6 +16192,13 @@ sb-351748706:
   - shelf
   - wall
   text_graphic: false
+sb-351781511:
+  arab_people: null
+  desc: 'Stock: black robot hand on a white background'
+  people: false
+  tags:
+  - hand
+  - machine
 sb-351798932:
   arab_people: false
   desc: A newborn baby's tiny hand and face.
@@ -13996,6 +16290,13 @@ sb-351909990:
   - skyline
   - window
   text_graphic: false
+sb-351913356:
+  arab_people: null
+  desc: 'Stock: robot arm working in a laboratory'
+  people: false
+  tags:
+  - machine
+  - office
 sb-351921952:
   arab_people: null
   desc: The UAE flag waves proudly against a clear blue sky.
@@ -14132,6 +16433,14 @@ sb-351997801:
   - habit
   - people
   text_graphic: false
+sb-351997839:
+  arab_people: null
+  desc: 'Stock: an artist sketches with a pencil, close up'
+  people: false
+  tags:
+  - hand
+  - paper
+  - portrait
 sb-352008772:
   arab_people: null
   desc: Underwater shipwreck with fish
@@ -14331,6 +16640,15 @@ sb-352186488:
   - search
   - reports
   text_graphic: true
+sb-352201487:
+  arab_people: null
+  desc: 'Stock: hospital worker with a clipboard beside a patient'
+  people: false
+  tags:
+  - hospital
+  - paper
+  - patient
+  - patients
 sb-352257484:
   arab_people: null
   desc: A large spotted fish swims underwater.
@@ -14466,6 +16784,15 @@ sb-352360950:
   - taillight
   - white paint
   text_graphic: false
+sb-352369355:
+  arab_people: null
+  desc: 'Stock: delivery drone flies over city streets (aerial)'
+  people: false
+  tags:
+  - aerial
+  - cars
+  - city
+  - streets
 sb-352413798:
   arab_people: false
   desc: A white and blue Bugatti with two men standing nearby.
@@ -14643,6 +16970,16 @@ sb-352678101:
   - underwater
   - water
   text_graphic: false
+sb-352704086:
+  arab_people: null
+  desc: 'Stock: a tall stack of papers on an office desk'
+  people: false
+  tags:
+  - desk
+  - documents
+  - office
+  - paper
+  - papers
 sb-352708709:
   arab_people: null
   desc: A red cricket ball rolling across a white surface
@@ -15648,6 +17985,15 @@ sb-353788364:
   - underwater
   - water
   text_graphic: false
+sb-353825560:
+  arab_people: true
+  desc: 'Stock: Gulf man in keffiyeh and a colleague plan a project on a laptop'
+  people: true
+  tags:
+  - computer
+  - laptop
+  - office
+  - people
 sb-353860428:
   arab_people: null
   desc: Falcon perched on a log
@@ -15887,6 +18233,16 @@ sb-354020041:
   - passenger
   - flight
   text_graphic: false
+sb-354040521:
+  arab_people: true
+  desc: 'Stock: Gulf businessman in kandura works on a laptop in his office (NOT Hamdan)'
+  people: true
+  tags:
+  - computer
+  - desk
+  - laptop
+  - man
+  - office
 sb-354112264:
   arab_people: null
   desc: Silhouettes of people running at sunset
@@ -15905,6 +18261,25 @@ sb-354112264:
   - sunset
   - weekend
   text_graphic: false
+sb-354117656:
+  arab_people: null
+  desc: 'Stock: Dubai skyline at night across the water'
+  people: false
+  tags:
+  - city
+  - dubai
+  - night
+  - skyline
+  - water
+sb-354129498:
+  arab_people: null
+  desc: 'Stock: holding hands beside a hospital bed'
+  people: false
+  tags:
+  - hand
+  - hands
+  - hospital
+  - patient
 sb-354132842:
   arab_people: null
   desc: Falcon perched on a wooden perch
@@ -16511,6 +18886,14 @@ sb-354568469:
   - dubai
   - sunset
   text_graphic: false
+sb-354569647:
+  arab_people: null
+  desc: 'Stock: Dubai Metro line through the city'
+  people: false
+  tags:
+  - city
+  - skyline
+  - train
 sb-354571730:
   arab_people: null
   desc: The Dubai skyline at sunset with the Burj Khalifa standing tall against an orange sky.
@@ -16531,6 +18914,15 @@ sb-354571730:
   - water
   - weather
   text_graphic: false
+sb-354571885:
+  arab_people: null
+  desc: 'Stock: Dubai skyline at dusk'
+  people: false
+  tags:
+  - city
+  - dubai
+  - night
+  - skyline
 sb-354573172:
   arab_people: null
   desc: A sweeping aerial view of Dubai's intricate highway interchange and surrounding skyscrapers at sunset.
@@ -16879,6 +19271,15 @@ sb-354913396:
   - gold
   - metal
   text_graphic: false
+sb-354965635:
+  arab_people: true
+  desc: 'Stock: Arab architect studies a laptop beside plans'
+  people: true
+  tags:
+  - computer
+  - desk
+  - laptop
+  - office
 sb-354971579:
   arab_people: null
   desc: White yacht wake on blue sea
@@ -17229,6 +19630,15 @@ sb-356665485:
   - underwater
   - water
   text_graphic: false
+sb-358097672:
+  arab_people: null
+  desc: 'Stock: Dubai Metro train passes towers at night'
+  people: false
+  tags:
+  - city
+  - night
+  - skyline
+  - train
 sb-358120874:
   arab_people: null
   desc: A tall building under construction at night.
@@ -17415,6 +19825,21 @@ sb-358534621:
   - white
   - yacht
   text_graphic: false
+sb-358770063:
+  arab_people: null
+  desc: 'Stock: a pencil portrait face taking shape on paper'
+  people: false
+  tags:
+  - paper
+  - portrait
+sb-358770126:
+  arab_people: null
+  desc: 'Stock: a hand draws a pencil portrait on paper'
+  people: false
+  tags:
+  - hand
+  - paper
+  - portrait
 sb-358879518:
   arab_people: null
   desc: Blurred runners from above on dark asphalt
@@ -17453,6 +19878,14 @@ sb-358904454:
   - water
   - people
   text_graphic: false
+sb-358988026:
+  arab_people: null
+  desc: 'Stock: hands plant a young seedling in the soil'
+  people: false
+  tags:
+  - hand
+  - hands
+  - plant
 sb-3666285:
   arab_people: null
   desc: The red sandstone walls of the Red Fort in Delhi
@@ -17929,6 +20362,14 @@ sb-7923907:
   - sky
   - sun
   text_graphic: false
+sb-8166728:
+  arab_people: null
+  desc: 'Stock: computer server racks in a data centre'
+  people: false
+  tags:
+  - computer
+  - data
+  - machine
 sb-8219222:
   arab_people: null
   desc: Fans waving small Indian flags in the air
@@ -17986,6 +20427,13 @@ sb-9138795:
   - flight
   - window
   text_graphic: false
+sb-9697875:
+  arab_people: null
+  desc: 'Stock: white robot hand presses a button'
+  people: false
+  tags:
+  - hand
+  - machine
 sb-9849919:
   arab_people: null
   desc: Rows of gold bars are arranged in a grid pattern.
@@ -17997,1083 +20445,174 @@ sb-9849919:
   - storage
   - wealth
   text_graphic: false
-clip:dr-ys-hand-k2:
+sb-354281769:
   arab_people: true
-  desc: Prince Hamdan reaches out to Rio
-  hamdan: 0.9
+  desc: 'Stock: Emirati officials in kandura meet with colleagues over a laptop'
   people: true
   tags:
-  - hamdan
-  - boy
-  - chair
-  text_graphic: false
-clip:dr-h-ys1-k2:
+  - laptop
+  - meeting
+  - men
+  - office
+  - people
+sb-358287455:
   arab_people: true
-  desc: Prince Hamdan bends down beside Rio in his racing chair at the start line
-  hamdan: 0.9
+  desc: 'Stock: woman in hijab shows charts to office colleagues'
   people: true
   tags:
-  - hamdan
-  - boy
-  - chair
-  - start
-  - runners
-  text_graphic: false
-clip:rf-an-sea1:
+  - meeting
+  - office
+  - people
+  - women
+sb-351951501:
+  arab_people: true
+  desc: 'Stock: Arab man in keffiyeh types on a laptop'
+  people: true
+  tags:
+  - office
+  - computer
+  - laptop
+  - man
+sb-10890754:
+  arab_people: true
+  desc: 'Stock: young Arab student studies an online course on a laptop'
+  people: true
+  tags:
+  - computer
+  - laptop
+sb-349385062:
+  arab_people: true
+  desc: 'Stock: doctor in hijab examines a patient in hijab'
+  people: true
+  tags:
+  - hospital
+  - patient
+  - women
+sb-353207610:
   arab_people: null
-  desc: Calm open sea surface
-  hamdan: 0.0
+  desc: 'Stock: hand types figures on a calculator'
   people: false
   tags:
-  - blue
-  - ocean
-  - sea
-  - water
-  - waves
-clip:rf-an-horizon:
+  - numbers
+sb-347410062:
+  arab_people: true
+  desc: 'Stock: Emirati man in kandura uses a smartphone app'
+  people: true
+  tags:
+  - man
+  - phone
+  - smartphone
+sb-352371266:
   arab_people: null
-  desc: Open sea to the horizon
-  hamdan: 0.0
+  desc: 'Stock: office worker calculates accounts'
   people: false
   tags:
-  - horizon
-  - ocean
-  - sea
-  - water
-clip:rf-an-burj:
+  - desk
+  - office
+sb-348543216:
   arab_people: null
-  desc: Aerial view of the Burj Al Arab and the beach
-  hamdan: 0.0
-  people: false
-  tags:
-  - beach
-  - burj
-  - coast
-  - dubai
-  - hotel
-  - sea
-  - water
-clip:rf-an-waves:
-  arab_people: null
-  desc: Waves breaking on the open sea
-  hamdan: 0.0
-  people: false
-  tags:
-  - foam
-  - ocean
-  - sea
-  - water
-  - waves
-clip:rf-an-sun:
-  arab_people: null
-  desc: Sun shining over the sea
-  hamdan: 0.0
-  people: false
-  tags:
-  - ocean
-  - sea
-  - sun
-  - water
-  - waves
-clip:rf-an-phases:
-  arab_people: null
-  desc: Animated map of the planned reef zones off the Dubai coast
-  hamdan: 0.0
-  people: false
-  tags:
-  - coast
-  - islands
-  - map
-  - palm
-  - reef
-  - sea
-  - water
-clip:rf-an-pitch1:
-  arab_people: null
-  desc: 'Animation: one football pitch on a block of sea'
-  hamdan: 0.0
-  people: false
-  tags:
-  - field
-  - football
-  - grass
-  - pitch
-  - sea
-  - water
-clip:rf-an-pitch2:
-  arab_people: null
-  desc: 'Animation: 85,000 football fields over the sea'
-  hamdan: 0.0
-  people: false
-  tags:
-  - fields
-  - football
-  - reef
-  - sea
-  - water
-clip:rf-an-pitch3:
-  arab_people: null
-  desc: 'Animation: grid of football fields laid over the reef area'
-  hamdan: 0.0
-  people: false
-  tags:
-  - fields
-  - football
-  - grass
-  - sea
-  - water
-clip:rf-an-20k:
-  arab_people: null
-  desc: 'Animation: 20,000 reef modules spread on the sea floor'
-  hamdan: 0.0
-  people: false
-  tags:
-  - boats
-  - floor
-  - reef
-  - sea
-  - thousands
-  - water
-clip:rf-an-fishmod:
-  arab_people: null
-  desc: Animated reef module with fish moving in
-  hamdan: 0.0
-  people: false
-  tags:
-  - concrete
-  - fish
-  - frame
-  - reef
-clip:rf-an-grid:
-  arab_people: null
-  desc: Animated rows of reef modules, turtles swim by
-  hamdan: 0.0
-  people: false
-  tags:
-  - concrete
-  - frames
-  - reef
-  - turtles
-clip:rf-an-fishschool:
-  arab_people: null
-  desc: School of fish underwater
-  hamdan: 0.0
-  people: false
-  tags:
-  - fish
-  - ocean
-  - sea
-  - underwater
-  - water
-clip:rf-an-turtle-uw:
-  arab_people: null
-  desc: Sea turtle resting on the sea floor
-  hamdan: 0.0
+  desc: 'Stock: a robot vacuum cleaner cleans a home floor by itself'
   people: false
   tags:
   - floor
-  - ocean
-  - sea
-  - turtle
-  - underwater
-clip:rf-an-hatch1:
+  - machine
+clip:ai-r2-4:
+  arab_people: true
+  desc: Close-up of Prince Hamdan at the AI Retreat
+  hamdan: 1.0
+  people: true
+  tags:
+  - meeting
+  - people
+clip:ai-r2-5:
+  arab_people: true
+  desc: Prince Hamdan smiles among officials at the AI Retreat
+  hamdan: 1.0
+  people: true
+  tags:
+  - meeting
+  - people
+clip:ai-r2-6:
+  arab_people: true
+  desc: Prince Hamdan seated at an AI Retreat session
+  hamdan: 1.0
+  people: true
+  tags:
+  - meeting
+clip:ai-r2-7:
+  arab_people: true
+  desc: Prince Hamdan speaks at an AI Retreat session
+  hamdan: 1.0
+  people: true
+  tags:
+  - meeting
+clip:ai-r2-8:
+  arab_people: true
+  desc: Prince Hamdan listens at an AI Retreat session
+  hamdan: 1.0
+  people: true
+  tags:
+  - meeting
+clip:ai-rt-20:
+  arab_people: true
+  desc: Prince Hamdan listens in the AI Retreat circle
+  hamdan: 1.0
+  people: true
+  tags:
+  - meeting
+  - people
+clip:ai-rt-21:
+  arab_people: true
+  desc: Prince Hamdan listens with a translation headset
+  hamdan: 1.0
+  people: true
+  tags:
+  - meeting
+clip:ai-rb-57:
+  arab_people: true
+  desc: Prince Hamdan talks with an official at the robotics arena
+  hamdan: 1.0
+  people: true
+  tags:
+  - audience
+  - people
+clip:ai-rb-58:
+  arab_people: true
+  desc: Prince Hamdan in the front row of the robotics arena
+  hamdan: 1.0
+  people: true
+  tags:
+  - audience
+clip:ai-mt-8:
+  arab_people: true
+  desc: Prince Hamdan inside a new train carriage model
+  hamdan: 1.0
+  people: true
+  tags:
+  - train
+clip:ai-mt-9:
+  arab_people: true
+  desc: Prince Hamdan with the rail team at a screen
+  hamdan: 1.0
+  people: true
+  tags:
+  - people
+  - train
+sb-354386320:
   arab_people: null
-  desc: Young turtles crawling on the sand
-  hamdan: 0.0
+  desc: 'Stock: an abra boat crosses Dubai Creek past the old waterfront'
   people: false
   tags:
-  - baby
-  - beach
-  - sand
-  - turtles
-clip:rf-an-hatch2:
-  arab_people: null
-  desc: Young turtle on the beach heading for the sea
-  hamdan: 0.0
-  people: false
-  tags:
-  - beach
-  - sand
-  - sea
-  - turtles
-clip:rf-dm-yard:
-  arab_people: null
-  desc: Aerial view of reef modules in a yard
-  hamdan: 0.0
-  people: false
-  tags:
-  - aerial
-  - concrete
-  - reef
-clip:rf-dm-boats:
-  arab_people: null
-  desc: Boats and a barge on the open sea
-  hamdan: 0.0
-  people: false
-  tags:
-  - boats
-  - sea
-  - ship
-  - water
-clip:rf-dm-skyline:
-  arab_people: null
-  desc: Dubai skyline seen from the sea
-  hamdan: 0.0
-  people: false
-  tags:
+  - boat
   - city
-  - coast
-  - dubai
-  - sea
-  - skyline
-  - towers
+  - creek
   - water
-clip:rf-dm-team:
+sb-347275426:
   arab_people: true
-  desc: Sheikh Hamdan with Ray Dalio and divers on a boat
-  hamdan: 0.8
+  desc: 'Stock: Arab woman uses a banking app on her smartphone at home'
   people: true
   tags:
-  - boat
-  - deck
-  - divers
-  - prince
-  - sea
-  - team
-  - wetsuit
-clip:rf-dm-worker:
-  arab_people: false
-  desc: Worker on top of a giant reef module
-  hamdan: 0.0
-  people: true
-  tags:
-  - concrete
-  - crane
-  - reef
-  - worker
-clip:rf-dm-barge:
-  arab_people: null
-  desc: Barge loaded with reef modules
-  hamdan: 0.0
-  people: false
-  tags:
-  - boat
-  - reef
-  - sea
-clip:rf-dm-hang:
-  arab_people: null
-  desc: Reef module hanging over the sea beside a barge
-  hamdan: 0.0
-  people: false
-  tags:
-  - crane
-  - sea
-clip:rf-dm-aerial:
-  arab_people: null
-  desc: 'Aerial: barge lowering modules at sea'
-  hamdan: 0.0
-  people: false
-  tags:
-  - aerial
-  - boat
-  - crane
-  - sea
-clip:rf-dm-crane:
-  arab_people: null
-  desc: Crane ship and speedboat at sea
-  hamdan: 0.0
-  people: false
-  tags:
-  - boat
-  - crane
-  - sea
-  - ship
-  - speedboat
-clip:rf-dm-talk:
-  arab_people: true
-  desc: Sheikh Hamdan in a wetsuit talks with Ray Dalio on the boat
-  hamdan: 0.8
-  people: true
-  tags:
-  - boat
-  - deck
-  - divers
-  - prince
-  - sea
-  - wetsuit
-clip:rf-dm-lower:
-  arab_people: null
-  desc: Reef module lowered into the sea
-  hamdan: 0.0
-  people: false
-  tags:
-  - crane
-  - reef
-  - sea
-  - water
-clip:rf-dm-wave:
-  arab_people: null
-  desc: Crane barge seen over the waves
-  hamdan: 0.0
-  people: false
-  tags:
-  - crane
-  - sea
-  - water
-  - waves
-clip:rf-dm-splash:
-  arab_people: null
-  desc: Reef module splashes into the water
-  hamdan: 0.0
-  people: false
-  tags:
-  - sea
-  - water
-clip:rf-dm-sink:
-  arab_people: null
-  desc: Module sinking through blue water
-  hamdan: 0.0
-  people: false
-  tags:
-  - sea
-  - underwater
-  - water
-clip:rf-dm-bubbles:
-  arab_people: null
-  desc: Divers drop into the water in a cloud of bubbles
-  hamdan: 0.0
-  people: false
-  tags:
-  - bubbles
-  - divers
-  - sea
-  - underwater
-  - water
-clip:rf-dm-uw1:
-  arab_people: null
-  desc: Reef module resting on the sea floor
-  hamdan: 0.0
-  people: false
-  tags:
-  - floor
-  - sand
-  - sea
-  - underwater
-clip:rf-dm-twodivers:
-  arab_people: false
-  desc: Two divers swim down to the reef
-  hamdan: 0.0
-  people: true
-  tags:
-  - divers
-  - scuba
-  - sea
-  - underwater
-clip:rf-dm-uw2:
-  arab_people: null
-  desc: Reef module on the sandy sea floor
-  hamdan: 0.0
-  people: false
-  tags:
-  - floor
-  - sand
-  - sea
-  - underwater
-clip:rf-dm-growth:
-  arab_people: null
-  desc: Coral growing on an old reef module
-  hamdan: 0.0
-  people: false
-  tags:
-  - coral
-  - fish
-  - reef
-  - underwater
-clip:rf-dm-divers:
-  arab_people: false
-  desc: Divers swim by a coral-covered module
-  hamdan: 0.0
-  people: true
-  tags:
-  - coral
-  - divers
-  - reef
-  - underwater
-clip:rf-dm-diver2:
-  arab_people: false
-  desc: Diver swims along the reef module
-  hamdan: 0.0
-  people: true
-  tags:
-  - diver
-  - reef
-  - underwater
-clip:rf-dm-hdive:
-  arab_people: true
-  desc: Sheikh Hamdan in scuba gear underwater by the reef
-  hamdan: 0.5
-  people: true
-  tags:
-  - diver
-  - prince
-  - reef
-  - scuba
-  - underwater
-clip:rf-dm-coral:
-  arab_people: null
-  desc: Coral and fish on a reef module
-  hamdan: 0.0
-  people: false
-  tags:
-  - coral
-  - fish
-  - reef
-  - sea
-  - underwater
-clip:rf-dm-speedboat:
-  arab_people: null
-  desc: Aerial view of a speedboat on the sea
-  hamdan: 0.0
-  people: false
-  tags:
-  - aerial
-  - boat
-  - sea
-  - speedboat
-  - water
-clip:rf-dm-gaze:
-  arab_people: true
-  desc: Sheikh Hamdan on the boat looks out at the sea
-  hamdan: 0.9
-  people: true
-  tags:
-  - boat
-  - deck
-  - prince
-  - sea
-  - water
-clip:rf-dm-boat2:
-  arab_people: null
-  desc: Speedboat cruising on a calm sea
-  hamdan: 0.0
-  people: false
-  tags:
-  - boat
-  - sea
-  - speedboat
-  - water
-clip:rf-tv-barge1:
-  arab_people: null
-  desc: Barge carrying reef modules at sea
-  hamdan: 0.0
-  people: false
-  tags:
-  - boat
-  - sea
-clip:rf-tv-aerial:
-  arab_people: null
-  desc: 'Aerial: tug pulls a barge of reef modules'
-  hamdan: 0.0
-  people: false
-  tags:
-  - aerial
-  - boat
-  - sea
-clip:rf-tv-side:
-  arab_people: null
-  desc: Barge with reef modules and a Dubai Reef banner
-  hamdan: 0.0
-  people: false
-  tags:
-  - banner
-  - crane
-  - sea
-clip:rf-tv-tilt:
-  arab_people: null
-  desc: Crane barge loaded with modules
-  hamdan: 0.0
-  people: false
-  tags:
-  - crane
-  - sea
-clip:rf-tv-skyline:
-  arab_people: null
-  desc: Reef barge at sea with the Dubai skyline behind
-  hamdan: 0.0
-  people: false
-  tags:
-  - city
-  - dubai
-  - sea
-  - skyline
-  - towers
-clip:rf-tv-banner:
-  arab_people: null
-  desc: Barge side with modules and banner
-  hamdan: 0.0
-  people: false
-  tags:
-  - banner
-  - sea
-clip:rf-tv-deck:
-  arab_people: null
-  desc: Reef modules on a barge deck seen from above
-  hamdan: 0.0
-  people: false
-  tags:
-  - concrete
-  - deck
-  - reef
-clip:rf-tv-barge2:
-  arab_people: null
-  desc: Barge full of reef modules on the sea
-  hamdan: 0.0
-  people: false
-  tags:
-  - sea
-clip:rf-tv-crane:
-  arab_people: null
-  desc: Crane barge with modules at sea
-  hamdan: 0.0
-  people: false
-  tags:
-  - crane
-  - sea
-clip:rf-tv-water:
-  arab_people: null
-  desc: Crane barge seen from the water
-  hamdan: 0.0
-  people: false
-  tags:
-  - crane
-  - sea
-  - water
-clip:rf-tv-swing:
-  arab_people: null
-  desc: Reef module hanging over the sea
-  hamdan: 0.0
-  people: false
-  tags:
-  - crane
-  - sea
-  - water
-clip:rf-tv-lower:
-  arab_people: null
-  desc: Module lowered beside the barge
-  hamdan: 0.0
-  people: false
-  tags:
-  - crane
-  - sea
-clip:rf-tv-drop:
-  arab_people: null
-  desc: Reef module lowered into the sea
-  hamdan: 0.0
-  people: false
-  tags:
-  - crane
-  - sea
-  - water
-clip:rf-wa-grid:
-  arab_people: null
-  desc: Thousands of reef modules in rows, from above
-  hamdan: 0.0
-  people: false
-  tags:
-  - concrete
-  - reef
-  - thousands
-clip:rf-wa-mod:
-  arab_people: null
-  desc: A reef module standing on the sand
-  hamdan: 0.0
-  people: false
-  tags:
-  - concrete
-  - reef
-  - sand
-clip:rf-wa-yard:
-  arab_people: null
-  desc: Reef modules loaded at the quay
-  hamdan: 0.0
-  people: false
-  tags:
-  - crane
-  - port
-clip:rf-wa-port:
-  arab_people: null
-  desc: Port crane loading reef modules
-  hamdan: 0.0
-  people: false
-  tags:
-  - crane
-  - port
-  - ship
-clip:rf-wa-barge:
-  arab_people: null
-  desc: Crane barge heading out to sea
-  hamdan: 0.0
-  people: false
-  tags:
-  - boat
-  - crane
-  - sea
-clip:rf-wa-sink:
-  arab_people: null
-  desc: Reef module sinks under the surface
-  hamdan: 0.0
-  people: false
-  tags:
-  - sea
-  - underwater
-  - water
-clip:rf-wa-uw1:
-  arab_people: null
-  desc: Reef modules on the sea floor
-  hamdan: 0.0
-  people: false
-  tags:
-  - floor
-  - reef
-  - sand
-  - sea
-  - underwater
-clip:rf-wa-uw2:
-  arab_people: null
-  desc: Bare reef modules on the sand
-  hamdan: 0.0
-  people: false
-  tags:
-  - floor
-  - reef
-  - sand
-  - sea
-  - underwater
-clip:rf-wa-grown:
-  arab_people: null
-  desc: Reef module covered in coral years later
-  hamdan: 0.0
-  people: false
-  tags:
-  - coral
-  - reef
-  - underwater
-clip:rf-gb-diver:
-  arab_people: false
-  desc: Diver checks the reef and gives an OK sign
-  hamdan: 0.0
-  people: true
-  tags:
-  - coral
-  - diver
-  - fish
-  - reef
-  - underwater
-clip:rf-gb-angel:
-  arab_people: null
-  desc: Angelfish by the coral-covered reef
-  hamdan: 0.0
-  people: false
-  tags:
-  - coral
-  - fish
-  - reef
-  - underwater
-clip:rf-gb-frame:
-  arab_people: null
-  desc: Fish swim around a coral-covered frame
-  hamdan: 0.0
-  people: false
-  tags:
-  - coral
-  - fish
-  - reef
-  - underwater
-clip:rf-gb-school:
-  arab_people: null
-  desc: School of fish over the reef
-  hamdan: 0.0
-  people: false
-  tags:
-  - coral
-  - fish
-  - reef
-  - underwater
-clip:rf-gb-orange:
-  arab_people: null
-  desc: Orange coral covering the reef
-  hamdan: 0.0
-  people: false
-  tags:
-  - coral
-  - reef
-  - underwater
-clip:rf-gb-fish2:
-  arab_people: null
-  desc: Fish among the corals
-  hamdan: 0.0
-  people: false
-  tags:
-  - coral
-  - fish
-  - reef
-  - underwater
-clip:rf-sun-beach:
-  arab_people: null
-  desc: Rescued turtle crawls over wet sand to the sea
-  hamdan: 0.0
-  people: false
-  tags:
-  - beach
-  - sand
-  - sea
-  - turtle
-  - water
-clip:rf-sun-sand:
-  arab_people: null
-  desc: Rescued turtle crawls on the sand
-  hamdan: 0.0
-  people: false
-  tags:
-  - beach
-  - sand
-  - turtle
-clip:rf-sun-wave:
-  arab_people: null
-  desc: Turtle swims out into the surf
-  hamdan: 0.0
-  people: false
-  tags:
-  - beach
-  - sea
-  - turtle
-  - water
-  - waves
-clip:rf-sun-box:
-  arab_people: null
-  desc: Rescued turtle in a release crate on the sand
-  hamdan: 0.0
-  people: false
-  tags:
-  - beach
-  - sand
-  - turtle
-clip:rf-sun-shell:
-  arab_people: null
-  desc: Close-up of a sea turtle shell
-  hamdan: 0.0
-  people: false
-  tags:
-  - shell
-  - turtle
-clip:rf-sun-pool:
-  arab_people: false
-  desc: Carers tend turtles at a rehab pool
-  hamdan: 0.0
-  people: true
-  tags:
-  - pool
-  - tank
-  - turtle
-  - water
-clip:rf-sun-pool2:
-  arab_people: false
-  desc: Carer feeds turtles in a rehab pool
-  hamdan: 0.0
-  people: true
-  tags:
-  - pool
-  - tank
-  - turtle
-  - water
-clip:rf-sun-tanks:
-  arab_people: false
-  desc: Rows of turtle rehab tanks
-  hamdan: 0.0
-  people: true
-  tags:
-  - pool
-  - tanks
-  - turtle
-  - water
-clip:rf-sun-measure:
-  arab_people: null
-  desc: Vet measures a rescued turtle
-  hamdan: 0.0
-  people: false
-  tags:
-  - turtle
-clip:rf-sun-scale:
-  arab_people: null
-  desc: Young turtle weighed on a scale
-  hamdan: 0.0
-  people: false
-  tags:
-  - turtle
-clip:rf-sun-hold:
-  arab_people: null
-  desc: Vet holds a young turtle
-  hamdan: 0.0
-  people: false
-  tags:
-  - hands
-  - turtle
-clip:rf-sun-tank1:
-  arab_people: null
-  desc: Turtle swims in a rehab tank
-  hamdan: 0.0
-  people: false
-  tags:
-  - swimming
-  - tank
-  - turtle
-  - water
-clip:rf-sun-tank2:
-  arab_people: null
-  desc: Turtles swimming in a recovery tank
-  hamdan: 0.0
-  people: false
-  tags:
-  - swimming
-  - tank
-  - turtle
-  - water
-clip:rf-sun-port:
-  arab_people: null
-  desc: Turtle seen through a tank porthole
-  hamdan: 0.0
-  people: false
-  tags:
-  - tank
-  - turtle
-clip:rf-cl-shore:
-  arab_people: false
-  desc: Divers and volunteers at the waterfront before a sea clean-up
-  hamdan: 0.0
-  people: true
-  tags:
-  - crowd
-  - divers
-  - marina
-  - sea
-  - water
-clip:rf-cl-dive:
-  arab_people: false
-  desc: Diver searching the murky sea floor for rubbish
-  hamdan: 0.0
-  people: true
-  tags:
-  - diver
-  - floor
-  - sea
-  - underwater
-clip:rf-cl-mask:
-  arab_people: false
-  desc: Clean-up diver underwater
-  hamdan: 0.0
-  people: true
-  tags:
-  - diver
-  - scuba
-  - sea
-  - underwater
-clip:rf-cl-trash:
-  arab_people: false
-  desc: Diver stuffs rubbish from the sea floor into a net bag
-  hamdan: 0.0
-  people: true
-  tags:
-  - bag
-  - diver
-  - sea
-  - trash
-  - underwater
-clip:rf-cl-bags:
-  arab_people: false
-  desc: Divers hand up bags of rubbish pulled from the sea
-  hamdan: 0.0
-  people: true
-  tags:
-  - bags
-  - divers
-  - sea
-  - trash
-  - water
-clip:rf-gs-coastbeach:
-  arab_people: null
-  desc: Waves on a Dubai beach, then the Dubai skyline from the sea
-  hamdan: 0.0
-  people: false
-  tags:
-  - beach
-  - city
-  - coast
-  - dubai
-  - sea
-  - skyline
-  - water
-  - waves
-clip:rf-gs-lab:
-  arab_people: null
-  desc: Coral growing in a lab tank in Dubai
-  hamdan: 0.0
-  people: false
-  tags:
-  - coral
-  - reef
-  - tank
-clip:rf-gs-table:
-  arab_people: null
-  desc: Table corals on a reef
-  hamdan: 0.0
-  people: false
-  tags:
-  - coral
-  - reef
-  - sea
-  - underwater
-clip:rf-gs-bleach:
-  arab_people: null
-  desc: Pale, bleached-looking branching coral
-  hamdan: 0.0
-  people: false
-  tags:
-  - coral
-  - reef
-  - underwater
-clip:rf-gs-pink:
-  arab_people: null
-  desc: Healthy pink coral with fish
-  hamdan: 0.0
-  people: false
-  tags:
-  - coral
-  - fish
-  - reef
-  - underwater
-clip:rf-gs-zoa:
-  arab_people: null
-  desc: Close-up of colourful coral polyps
-  hamdan: 0.0
-  people: false
-  tags:
-  - coral
-  - reef
-clip:rf-pb-pier:
-  arab_people: null
-  desc: An old ocean liner at the pier before becoming an artificial reef
-  hamdan: 0.0
-  people: false
-  tags:
-  - pier
-  - port
-  - ship
-clip:rf-pb-tow:
-  arab_people: null
-  desc: Tugs tow the old liner out to be sunk as a reef
-  hamdan: 0.0
-  people: false
-  tags:
-  - boat
-  - port
-  - ship
-clip:rf-pb-hulk:
-  arab_people: null
-  desc: The stripped hull of the old liner
-  hamdan: 0.0
-  people: false
-  tags:
-  - ship
-clip:rf-pb-inside:
-  arab_people: null
-  desc: Inside the empty hull of the old ship
-  hamdan: 0.0
-  people: false
-  tags:
-  - metal
-  - ship
-clip:rf-pb-sink:
-  arab_people: null
-  desc: The old ship sinks to become an artificial reef
-  hamdan: 0.0
-  people: false
-  tags:
-  - sea
-  - ship
-clip:rf-pb-uw:
-  arab_people: null
-  desc: Fish gather under a sunken ledge
-  hamdan: 0.0
-  people: false
-  tags:
-  - fish
-  - reef
-  - underwater
-clip:rf-dd-walk:
-  arab_people: false
-  desc: Visitors walk beside the pool at Deep Dive Dubai
-  hamdan: 0.0
-  people: true
-  tags:
-  - pool
-clip:rf-dd-talk:
-  arab_people: false
-  desc: A tour of the Deep Dive Dubai control room
-  hamdan: 0.0
-  people: true
-  tags:
-  - pool
-clip:rf-dm-floor:
-  arab_people: null
-  desc: New reef modules standing on the sea floor
-  hamdan: 0.0
-  people: false
-  tags:
-  - floor
-  - sand
-  - sea
-  - underwater
-clip:rf-pb-reef1:
-  arab_people: null
-  desc: Fish over a rocky reef
-  hamdan: 0.0
-  people: false
-  tags:
-  - coral
-  - fish
-  - reef
-  - underwater
-clip:rf-pb-reef2:
-  arab_people: null
-  desc: Parrotfish among corals
-  hamdan: 0.0
-  people: false
-  tags:
-  - coral
-  - fish
-  - reef
-  - underwater
-clip:rf-pb-reef3:
-  arab_people: null
-  desc: Fish swim around branching coral
-  hamdan: 0.0
-  people: false
-  tags:
-  - coral
-  - fish
-  - reef
-  - underwater
-clip:rf-dm-skywalk:
-  arab_people: true
-  desc: Dubai skyline from the sea, then Sheikh Hamdan walks with Ray Dalio and the reef team
-  hamdan: 0.5
-  people: true
-  tags:
-  - city
-  - dubai
-  - hamdan
-  - prince
-  - sea
-  - skyline
-  - walk
-  - walking
+  - app
+  - phone
+  - smartphone
+  - woman

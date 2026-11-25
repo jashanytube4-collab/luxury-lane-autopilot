@@ -4565,7 +4565,7 @@
  "hamdan bin mohammed attends hct graduation": {
   "last_short": "2026-11-28",
   "long": "2026-10-31",
-  "montage_used": 60,
+  "montage_used": 61,
   "remix_ranges": [
    [
     219.49568300016466,
@@ -4650,6 +4650,10 @@
    [
     157.51848556006192,
     159.566009825409
+   ],
+   [
+    291.04291000475695,
+    293.0697256481949
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -14194,7 +14198,7 @@
  "hamdan bin mohammed reviews the latest technologies and energy solutions at wetex 2019": {
   "last_short": "2026-11-28",
   "montage_exhausted": true,
-  "montage_used": 30,
+  "montage_used": 31,
   "remix_ranges": [
    [
     200.37999249206516,
@@ -14251,6 +14255,10 @@
    [
     249.82642441244172,
     251.59514450676
+   ],
+   [
+    2.9765589105947985,
+    4.999301193431753
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -16004,7 +16012,7 @@
   "last_short": "2026-11-28",
   "long": "2026-11-01",
   "montage_exhausted": true,
-  "montage_used": 55,
+  "montage_used": 56,
   "remix_ranges": [
    [
     85.28,
@@ -16089,6 +16097,10 @@
    [
     123.5760663475877,
     125.78684394988328
+   ],
+   [
+    264.829876024416,
+    266.8822869321885
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -17319,7 +17331,7 @@
   "last_short": "2026-11-28",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     149.87405594592894,
@@ -17348,6 +17360,10 @@
    [
     63.887278521517665,
     66.02418451934898
+   ],
+   [
+    238.05607812841487,
+    239.54910689644265
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17609,7 +17625,7 @@
   "last_short": "2026-11-28",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 25,
+  "montage_used": 26,
   "remix_ranges": [
    [
     64.01148561003217,
@@ -17646,6 +17662,10 @@
    [
     30.56435530881238,
     32.758785252309636
+   ],
+   [
+    101.80000000000001,
+    103.75999999999999
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -18473,7 +18493,7 @@
   "last_short": "2026-11-28",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 20,
+  "montage_used": 21,
   "remix_ranges": [
    [
     57.205735740088784,
@@ -18498,6 +18518,10 @@
    [
     161.10812106818636,
     163.14610249910845
+   ],
+   [
+    35.8819996812179,
+    38.22700207914279
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -19019,6 +19043,7 @@
   "montage_exhausted": true,
   "montage_used": 13,
   "no_video_until": "2026-11-01",
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     61.79522244364664,
@@ -20756,6 +20781,7 @@
   "long": "2026-10-22",
   "montage_exhausted": true,
   "montage_used": 18,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     144.3761125690069,
@@ -21287,7 +21313,7 @@
   "last_short": "2026-11-28",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     78.74593542258368,
@@ -21316,6 +21342,10 @@
    [
     90.09909655001037,
     92.61873766955546
+   ],
+   [
+    53.64,
+    55.28
    ]
   ],
   "remix_reset": "2026-11-24",

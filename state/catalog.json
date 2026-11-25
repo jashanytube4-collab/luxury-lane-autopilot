@@ -3295,7 +3295,7 @@
   "last_short": "2026-11-28",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 53,
+  "montage_used": 54,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -3381,6 +3381,10 @@
    [
     293.181676608106,
     295.00775628328444
+   ],
+   [
+    85.28199623200479,
+    87.43220983733617
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11797,6 +11801,7 @@
   "montage_exhausted": true,
   "montage_used": 52,
   "no_video_until": "2026-11-18",
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     63.226043815293394,
@@ -15991,7 +15996,7 @@
   "last_short": "2026-11-28",
   "long": "2026-11-01",
   "montage_exhausted": true,
-  "montage_used": 54,
+  "montage_used": 55,
   "remix_ranges": [
    [
     85.28,
@@ -16072,6 +16077,10 @@
    [
     150.71390135799314,
     152.16542096288663
+   ],
+   [
+    123.5760663475877,
+    125.78684394988328
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -17298,7 +17307,7 @@
   "last_short": "2026-11-28",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     149.87405594592894,
@@ -17319,6 +17328,10 @@
    [
     320.787138512049,
     322.39287719994485
+   ],
+   [
+    69.29816809663545,
+    71.75522427086125
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17489,6 +17502,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 17,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     48.187120302427445,
@@ -17653,6 +17667,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 21,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     199.87463990640111,
@@ -18433,7 +18448,7 @@
   "last_short": "2026-11-28",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     57.205735740088784,
@@ -18454,6 +18469,10 @@
    [
     88.37143090804867,
     90.5431623315128
+   ],
+   [
+    161.10812106818636,
+    163.14610249910845
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -19103,10 +19122,10 @@
   "video_len": 202
  },
  "hamdan visits government think tank": {
-  "last_short": "2026-11-27",
+  "last_short": "2026-11-28",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     139.38666666666668,
@@ -19131,6 +19150,10 @@
    [
     133.22,
     135.34666666666666
+   ],
+   [
+    157.63170033166153,
+    159.2452613921389
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -21235,7 +21258,7 @@
   "last_short": "2026-11-28",
   "long": "2026-10-28",
   "montage_exhausted": true,
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     78.74593542258368,
@@ -21260,6 +21283,10 @@
    [
     47.89757556273454,
     49.30372328716592
+   ],
+   [
+    90.09909655001037,
+    92.61873766955546
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -21427,6 +21454,7 @@
   "long": "2026-10-28",
   "montage_exhausted": true,
   "montage_used": 22,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     45.601505429795935,

@@ -3295,7 +3295,7 @@
   "last_short": "2026-11-28",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 52,
+  "montage_used": 53,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -3377,6 +3377,10 @@
    [
     29.863314161462274,
     31.988994173323555
+   ],
+   [
+    293.181676608106,
+    295.00775628328444
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -11779,10 +11783,10 @@
   "long": "2026-10-28"
  },
  "hamdan bin mohammed officially opens gitex 2018": {
-  "last_short": "2026-11-27",
+  "last_short": "2026-11-28",
   "long": "2026-11-02",
   "montage_exhausted": true,
-  "montage_used": 51,
+  "montage_used": 52,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -11860,6 +11864,10 @@
    [
     186.76119636734086,
     187.45510974520357
+   ],
+   [
+    88.01661729243652,
+    89.967902791632
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -17459,10 +17467,10 @@
   "video_len": 275
  },
  "hamdan bin mohammed visits linkedin s regional headquarters in dubai": {
-  "last_short": "2026-11-27",
+  "last_short": "2026-11-28",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     48.187120302427445,
@@ -17487,6 +17495,10 @@
    [
     36.96739006072597,
     38.487936546085734
+   ],
+   [
+    116.57723641105481,
+    118.54012596953474
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17545,7 +17557,7 @@
   "last_short": "2026-11-28",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 23,
+  "montage_used": 24,
   "remix_ranges": [
    [
     64.01148561003217,
@@ -17574,6 +17586,10 @@
    [
     129.92000000000002,
     131.88
+   ],
+   [
+    153.52466347725775,
+    154.93837898117252
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17607,10 +17623,10 @@
   "video_len": 203
  },
  "hamdan bin mohammed visits public prosecution": {
-  "last_short": "2026-11-27",
+  "last_short": "2026-11-28",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 19,
+  "montage_used": 20,
   "remix_ranges": [
    [
     199.87463990640111,
@@ -17643,6 +17659,10 @@
    [
     277.7725036298324,
     278.3081489539013
+   ],
+   [
+    74.85680139582722,
+    77.33743477607966
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17878,10 +17898,10 @@
   "video_exhausted": true
  },
  "hamdan bin mohammed visits the dubai future foundation headquarters and reviews 10x projects": {
-  "last_short": "2026-11-27",
+  "last_short": "2026-11-28",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 26,
+  "montage_used": 27,
   "remix_ranges": [
    [
     16.96,
@@ -17914,6 +17934,10 @@
    [
     46.23320871247211,
     48.78920875899005
+   ],
+   [
+    32.148916612199976,
+    32.72367915400419
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -17964,10 +17988,10 @@
   "video_len": 186
  },
  "hamdan bin mohammed visits the ministry of foreign affairs in abu dhabi": {
-  "last_short": "2026-11-27",
+  "last_short": "2026-11-28",
   "long": "2026-10-23",
   "montage_exhausted": true,
-  "montage_used": 14,
+  "montage_used": 15,
   "remix_ranges": [
    [
     81.75333333333334,
@@ -17988,6 +18012,10 @@
    [
     23.801535227022903,
     25.830192246526604
+   ],
+   [
+    49.67925844388159,
+    52.0254184827994
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -18667,6 +18695,7 @@
   "montage_exhausted": true,
   "montage_used": 15,
   "no_video_until": "2026-10-29",
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     30.053361265388077,
@@ -20627,7 +20656,7 @@
   "last_short": "2026-11-28",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 15,
+  "montage_used": 16,
   "remix_ranges": [
    [
     144.3761125690069,
@@ -20652,6 +20681,10 @@
    [
     68.99798214576246,
     70.71923614481877
+   ],
+   [
+    0.27086995691220406,
+    2.505343759169079
    ]
   ],
   "remix_reset": "2026-11-24",

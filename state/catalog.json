@@ -3292,10 +3292,10 @@
   "video_len": 65
  },
  "hamdan bin mohammed attends closing ceremony of 3rd dubai future accelerators program": {
-  "last_short": "2026-11-27",
+  "last_short": "2026-11-28",
   "long": "2026-10-30",
   "montage_exhausted": true,
-  "montage_used": 51,
+  "montage_used": 52,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -3373,6 +3373,10 @@
    [
     41.942199590676395,
     43.39117432952528
+   ],
+   [
+    29.863314161462274,
+    31.988994173323555
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -8340,10 +8344,10 @@
   "video_len": 227
  },
  "hamdan bin mohammed inspects rta s autonomous mobility and ai projects": {
-  "last_short": "2026-11-27",
+  "last_short": "2026-11-28",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 36,
+  "montage_used": 37,
   "no_video_until": "2026-11-18",
   "remix_ranges": [
    [
@@ -8401,6 +8405,10 @@
    [
     326.96351554554565,
     327.7704251916932
+   ],
+   [
+    48.882660956485175,
+    50.753047838535
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -12141,7 +12149,7 @@
  },
  "hamdan bin mohammed opens cityscape global 2018": {
   "last_short": "2026-11-28",
-  "montage_used": 46,
+  "montage_used": 47,
   "remix_ranges": [
    [
     317.08,
@@ -12206,6 +12214,10 @@
    [
     337.3071194497527,
     338.8654972274026
+   ],
+   [
+    133.58391854823168,
+    135.05320307284214
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -15947,10 +15959,10 @@
   "video_len": 206
  },
  "hamdan bin mohammed visits dewa s moro": {
-  "last_short": "2026-11-27",
+  "last_short": "2026-11-28",
   "long": "2026-11-01",
   "montage_exhausted": true,
-  "montage_used": 52,
+  "montage_used": 53,
   "remix_ranges": [
    [
     85.28,
@@ -16023,6 +16035,10 @@
    [
     33.95027317194967,
     35.451099159896614
+   ],
+   [
+    69.2223015934207,
+    70.8629958084942
    ]
   ],
   "remix_reset": "2026-11-20",
@@ -18327,10 +18343,10 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed witnesses the first test flight": {
-  "last_short": "2026-11-27",
+  "last_short": "2026-11-28",
   "long": "2026-10-31",
   "montage_exhausted": true,
-  "montage_used": 16,
+  "montage_used": 17,
   "remix_ranges": [
    [
     57.205735740088784,
@@ -18339,6 +18355,10 @@
    [
     64.85162114743433,
     66.99111729964302
+   ],
+   [
+    94.70177658267566,
+    96.37115660410383
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -18899,6 +18919,7 @@
   "long": "2026-10-31",
   "montage_exhausted": true,
   "montage_used": 5,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     143.27093454843558,
@@ -20581,10 +20602,10 @@
   "video_len": 51
  },
  "international space station mission carrying first emirati astronaut launched successfully": {
-  "last_short": "2026-11-27",
+  "last_short": "2026-11-28",
   "long": "2026-10-22",
   "montage_exhausted": true,
-  "montage_used": 13,
+  "montage_used": 14,
   "remix_ranges": [
    [
     144.3761125690069,
@@ -20601,6 +20622,10 @@
    [
     43.95162086719838,
     45.482392215798576
+   ],
+   [
+    92.67164351894795,
+    94.34247897688255
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -20762,10 +20787,10 @@
   "long": "2026-10-23"
  },
  "khalifasat launches successfully into orbit emphasising uae s leadership in developing satellites": {
-  "last_short": "2026-11-27",
+  "last_short": "2026-11-28",
   "long": "2026-10-14",
   "montage_exhausted": true,
-  "montage_used": 18,
+  "montage_used": 19,
   "remix_ranges": [
    [
     69.8570571289648,
@@ -20774,6 +20799,10 @@
    [
     14.939664891596907,
     17.032860143943164
+   ],
+   [
+    119.66758778566874,
+    121.38506905488096
    ]
   ],
   "remix_reset": "2026-11-24",
@@ -20936,11 +20965,16 @@
   "video_len": 300
  },
  "mohamed bin zayed hamdan bin mohammed take part in walk unified event": {
-  "last_short": "2026-11-07",
+  "last_short": "2026-11-28",
   "long": "2026-10-23",
   "montage_exhausted": true,
-  "montage_used": 2,
-  "remix_ranges": [],
+  "montage_used": 3,
+  "remix_ranges": [
+   [
+    172.81972671758513,
+    174.7073711745023
+   ]
+  ],
   "remix_reset": "2026-11-24",
   "shot_ranges": [
    [

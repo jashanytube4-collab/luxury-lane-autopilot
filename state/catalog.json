@@ -9873,6 +9873,7 @@
   "long": "2026-10-17",
   "montage_exhausted": true,
   "montage_used": 58,
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     202.24325973382153,
@@ -16726,6 +16727,7 @@
   "montage_exhausted": true,
   "montage_used": 22,
   "no_video_until": "2026-11-24",
+  "remix_exhausted": true,
   "remix_ranges": [
    [
     99.54325340404844,

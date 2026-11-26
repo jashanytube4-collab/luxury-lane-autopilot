@@ -73,8 +73,13 @@
   },
   {
    "at": "2026-11-28T11:57:03+04:00",
-   "status": "open",
-   "type": "short"
+   "event": "montage",
+   "kind": "remix",
+   "status": "scheduled",
+   "title": "Some leaders give orders. He gives his time. ✨ #youtubeshorts #ytshorts",
+   "type": "short",
+   "video_id": "V242iAsqypk",
+   "voiced": true
   },
   {
    "at": "2026-11-28T12:44:18+04:00",
@@ -153,7 +158,7 @@
   },
   {
    "at": "2026-11-28T19:16:01+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   },
   {
@@ -168,7 +173,7 @@
   },
   {
    "at": "2026-11-28T20:56:11+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   },
   {
@@ -178,7 +183,7 @@
   },
   {
    "at": "2026-11-28T21:40:58+04:00",
-   "status": "skipped",
+   "status": "open",
    "type": "short"
   },
   {

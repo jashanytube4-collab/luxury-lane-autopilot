@@ -3740,7 +3740,8 @@
   "video_len": 270
  },
  "hamdan bin mohammed attends dubai majlis as government and business leaders align on next phase of growth": {
-  "no_video_until": "2026-11-28"
+  "fails": 1,
+  "no_video_until": "2026-12-01"
  },
  "hamdan bin mohammed attends dubai metaverse assembly at the museum of the future": {
   "last_short": "2026-11-21",
@@ -13913,7 +13914,7 @@
   "shot_ranges": []
  },
  "hamdan bin mohammed reviews new metro train design rail inspection initiatives and blue line progress": {
-  "no_video_until": "2026-11-28",
+  "no_video_until": "2026-12-01",
   "video_exhausted": true
  },
  "hamdan bin mohammed reviews newly completed air taxi station near dubai international airport the first facility of its kind in the world": {
